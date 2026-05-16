@@ -1,0 +1,35 @@
+---
+description: Reglas para el desarrollo del modpack PEAK (NeoForge 1.21.1)
+globs: "**/*.js,**/*.json,**/*.toml,**/*.cfg"
+---
+
+# PEAK Modpack - Reglas de Desarrollo
+
+## Contexto del Proyecto
+- Modpack de Minecraft llamado **PEAK** en NeoForge 1.21.1
+- Contiene 362+ mods
+- Usa KubeJS para scripting personalizado (recipes, eventos, etc.)
+- Prioridad absoluta: rendimiento y estabilidad
+
+## Estructura de Archivos
+- `minecraft/local/kubejs/startup_scripts/` → Scripts que corren al iniciar el juego (registros)
+- `minecraft/local/kubejs/server_scripts/` → Scripts del servidor (recipes, eventos)
+- `minecraft/local/kubejs/client_scripts/` → Scripts del cliente (UI, rendering)
+- `minecraft/local/kubejs/assets/` → Recursos personalizados
+- `minecraft/config/` → Configuraciones de mods (.toml, .json, .cfg)
+
+## Reglas de KubeJS
+- Usa la API de KubeJS para NeoForge 1.21.1 (no Forge legacy)
+- Los event handlers deben ser eficientes, evita loops innecesarios
+- Prefiere `event.remove({})` con filtros específicos en vez de iterar todos los recipes
+- Siempre valida que los item IDs existan antes de usarlos (mod:item_name)
+
+## Reglas de Configuración
+- Archivos TOML: respeta la estructura existente del mod
+- Archivos JSON: valida sintaxis antes de guardar
+- No modifiques archivos dentro de `minecraft/mods/` directamente
+
+## Rendimiento
+- Si una solución impacta TPS, descártala y busca alternativa
+- Prefiere soluciones server-side sobre client-side cuando sea posible
+- Evita scheduled ticks frecuentes en KubeJS
