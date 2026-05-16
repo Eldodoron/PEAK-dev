@@ -1,9 +1,10 @@
 # Minecraft Modpack Gitignore
 
 # Mods (Demasiado grandes para GitHub)
-minecraft/mods/*.jar
+minecraft/mods/*
 !minecraft/mods/*.txt
 !minecraft/mods/*.json
+!minecraft/mods/*.toml
 
 # Datos de juego y temporales
 minecraft/saves/
