@@ -1,17 +1,23 @@
-# Modpack: PEAK dev
+# PEAK dev Modpack
 
-Repositorio del modpack **PEAK dev**. 
-Basado en NeoForge 1.21.1.
+This repository contains the **PEAK dev** modpack.
+Built for NeoForge 1.21.1.
 
-## Instalación
-Para usar este repositorio:
-1. Instala [Prism Launcher](https://prismlauncher.org/).
-2. Crea una nueva instancia.
-3. Copia el contenido de este repositorio en la carpeta de la instancia.
-4. Asegúrate de descargar los mods necesarios (ver lista en `minecraft/mods` o usa el archivo de exportación si está disponible).
+## Installation
+To use this modpack:
+1. Install [Prism Launcher](https://prismlauncher.org/).
+2. Create a new instance or import this repository.
+3. If you downloaded the ZIP:
+    - Click **"Add Instance"** in Prism Launcher.
+    - Select **"Import from zip"** and choose the downloaded file.
+4. Ensure all mods are correctly loaded.
 
-## Contenido
-- `config/`: Configuraciones de los mods.
-- `kubejs/`: Scripts y personalizaciones.
-- `defaultconfigs/`: Configuraciones por defecto para nuevos mundos.
-- `mmc-pack.json`: Archivo de configuración de Prism Launcher.
+## Contents
+- `config/`: Mod configurations.
+- `kubejs/`: Custom scripts and assets.
+- `mods/`: Mod files (.jar).
+- `saves/`: World saves.
+- `mmc-pack.json`: Prism Launcher instance configuration.
+
+## Support
+This is a development version. Use with caution and backup your saves regularly.
