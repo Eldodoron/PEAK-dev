@@ -1,0 +1,335 @@
+[Wasp]
+	#Minimal aura.
+	minAura = 1000.0
+	#Maximum aura.
+	maxAura = 2000.0
+	#Minimal magicule.
+	minMagicule = 2000.0
+	#Maximum magicule.
+	maxMagicule = 3000.0
+	#Bonus Size.
+	size = -0.75
+	#Bonus Max Health.
+	maxHealth = 4.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 35.0
+	#Bonus Attack Damage.
+	attack = -0.5
+	#Bonus Attack Speed.
+	attackSpeed = 0.0
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.0
+	#Bonus Movement Speed.
+	movementSpeed = 0.0
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = -0.30000001192092896
+	#Bonus Flight Speed Multiplier.
+	flightSpeed = -0.019999999552965164
+
+[ArmyWasp]
+	#EP requirement to evolve into Army Wasp.
+	epRequirement = 10000.0
+	#Minimal aura.
+	minAura = 5250.0
+	#Maximum aura.
+	maxAura = 5250.0
+	#Minimal magicule.
+	minMagicule = 5250.0
+	#Maximum magicule.
+	maxMagicule = 5250.0
+	#Bonus Size.
+	size = 0.25
+	#Bonus Max Health.
+	maxHealth = 50.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 350.0
+	#Bonus Attack Damage.
+	attack = 0.5
+	#Bonus Attack Speed.
+	attackSpeed = 0.0
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.10000000149011612
+	#Bonus Movement Speed.
+	movementSpeed = 0.0
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = -0.30000001192092896
+	#Bonus Flight Speed Multiplier.
+	flightSpeed = 0.0
+
+[ArmyWaspInsectar]
+	#EP requirement to evolve into Army Wasp Insectar.
+	epRequirement = 100000.0
+	#Minimal aura.
+	minAura = 100000.0
+	#Maximum aura.
+	maxAura = 100000.0
+	#Minimal magicule.
+	minMagicule = 100000.0
+	#Maximum magicule.
+	maxMagicule = 100000.0
+	#Bonus Size.
+	size = 0.5
+	#Bonus Max Health.
+	maxHealth = 300.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 2320.0
+	#Bonus Attack Damage.
+	attack = 1.5
+	#Bonus Attack Speed.
+	attackSpeed = 0.25
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.20000000298023224
+	#Bonus Movement Speed.
+	movementSpeed = 0.0
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = -0.3
+	#Bonus Flight Speed Multiplier.
+	flightSpeed = 0.009999999776482582
+
+[ArmyWaspSavant]
+	#EP requirement to evolve into Army Wasp Savant.
+	epRequirement = 400000.0
+	#The number of Bosses defeated to evolve into Army Wasp Savant.
+	bossRequirement = 4
+	#Minimal aura.
+	minAura = 400000.0
+	#Maximum aura.
+	maxAura = 400000.0
+	#Minimal magicule.
+	minMagicule = 400000.0
+	#Maximum magicule.
+	maxMagicule = 400000.0
+	#Bonus Size.
+	size = 0.5
+	#Bonus Max Health.
+	maxHealth = 600.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 3650.0
+	#Bonus Attack Damage.
+	attack = 2.5
+	#Bonus Attack Speed.
+	attackSpeed = 0.4000000059604645
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.0
+	#Bonus Movement Speed.
+	movementSpeed = 0.3499999940395355
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = -0.2
+	#Bonus Flight Speed Multiplier.
+	flightSpeed = 0.014999999664723873
+
+[WindSoulInsect]
+	#EP requirement to evolve into Wind Soul Insect.
+	epRequirement = 400000.0
+	#Ability requirement to evolve into Wind Soul Insect.
+	abilityRequirement = "tensura:wind_manipulation"
+	#Minimal aura.
+	minAura = 400000.0
+	#Maximum aura.
+	maxAura = 400000.0
+	#Minimal magicule.
+	minMagicule = 400000.0
+	#Maximum magicule.
+	maxMagicule = 400000.0
+	#Bonus Size.
+	size = 0.5
+	#Bonus Max Health.
+	maxHealth = 550.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 5650.0
+	#Bonus Attack Damage.
+	attack = 2.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.3499999940395355
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.30000001192092896
+	#Bonus Movement Speed.
+	movementSpeed = 0.0
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = -0.30000001192092896
+	#Bonus Flight Speed Multiplier.
+	flightSpeed = 0.019999999552965164
+
+[DivineArmyWasp]
+	#EP requirement to evolve into Divine Army Wasp.
+	epRequirement = 2000000.0
+	#Minimal aura.
+	minAura = 1000000.0
+	#Maximum aura.
+	maxAura = 1000000.0
+	#Minimal magicule.
+	minMagicule = 1000000.0
+	#Maximum magicule.
+	maxMagicule = 1000000.0
+	#Bonus Size.
+	size = 0.5
+	#Bonus Max Health.
+	maxHealth = 1100.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 8230.0
+	#Bonus Attack Damage.
+	attack = 3.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.5
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.4000000059604645
+	#Bonus Movement Speed.
+	movementSpeed = 0.0
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.0
+	#Bonus Flight Speed Multiplier.
+	flightSpeed = 0.02199999988079071
+
+[QueenWasp]
+	#EP requirement to evolve into Queen Wasp.
+	epRequirement = 10000.0
+	#Minimal aura.
+	minAura = 5250.0
+	#Maximum aura.
+	maxAura = 5250.0
+	#Minimal magicule.
+	minMagicule = 5250.0
+	#Maximum magicule.
+	maxMagicule = 5250.0
+	#Bonus Size.
+	size = -0.6000000238418579
+	#Bonus Max Health.
+	maxHealth = 10.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 65.0
+	#Bonus Attack Damage.
+	attack = 0.5
+	#Bonus Attack Speed.
+	attackSpeed = 0.30000001192092896
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.0
+	#Bonus Movement Speed.
+	movementSpeed = 0.009999999776482582
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = -0.30000001192092896
+	#Bonus Flight Speed Multiplier.
+	flightSpeed = -0.009999999776482582
+
+[QueenWaspInsectar]
+	#EP requirement to evolve into Queen Wasp Insectar.
+	epRequirement = 100000.0
+	#Minimal aura.
+	minAura = 100000.0
+	#Maximum aura.
+	maxAura = 100000.0
+	#Minimal magicule.
+	minMagicule = 100000.0
+	#Maximum magicule.
+	maxMagicule = 100000.0
+	#Bonus Size.
+	size = -0.20000000298023224
+	#Bonus Max Health.
+	maxHealth = 75.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 645.0
+	#Bonus Attack Damage.
+	attack = 1.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.4000000059604645
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.0
+	#Bonus Movement Speed.
+	movementSpeed = 0.019999999552965164
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = -0.30000001192092896
+	#Bonus Flight Speed Multiplier.
+	flightSpeed = 0.0
+
+[QueenWaspSavant]
+	#EP requirement to evolve into Queen Wasp Savant.
+	epRequirement = 400000.0
+	#The number of Bosses defeated to evolve into Queen Wasp Savant.
+	bossRequirement = 4
+	#Minimal aura.
+	minAura = 400000.0
+	#Maximum aura.
+	maxAura = 400000.0
+	#Minimal magicule.
+	minMagicule = 400000.0
+	#Maximum magicule.
+	maxMagicule = 400000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 240.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 1280.0
+	#Bonus Attack Damage.
+	attack = 1.5
+	#Bonus Attack Speed.
+	attackSpeed = 0.5
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.0
+	#Bonus Movement Speed.
+	movementSpeed = 0.02500000037252903
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = -0.20000000298023224
+	#Bonus Flight Speed Multiplier.
+	flightSpeed = 0.0
+
+[StarSoulInsect]
+	#EP requirement to evolve into Star Soul Insect.
+	epRequirement = 400000.0
+	#The ability needed to evolve into Star Soul Insect.
+	abilityRequirement = "tensura:magic_jamming"
+	#Minimal aura.
+	minAura = 400000.0
+	#Maximum aura.
+	maxAura = 400000.0
+	#Minimal magicule.
+	minMagicule = 400000.0
+	#Maximum magicule.
+	maxMagicule = 400000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 200.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 2010.0
+	#Bonus Attack Damage.
+	attack = 1.25
+	#Bonus Attack Speed.
+	attackSpeed = 0.44999998807907104
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.0
+	#Bonus Movement Speed.
+	movementSpeed = 0.023000000044703484
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = -0.20000000298023224
+	#Bonus Flight Speed Multiplier.
+	flightSpeed = 0.0
+
+[DivineQueenWasp]
+	#EP requirement to evolve into Divine Queen Wasp.
+	epRequirement = 2000000.0
+	#Minimal aura.
+	minAura = 1000000.0
+	#Maximum aura.
+	maxAura = 1000000.0
+	#Minimal magicule.
+	minMagicule = 1000000.0
+	#Maximum magicule.
+	maxMagicule = 1000000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 560.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 4230.0
+	#Bonus Attack Damage.
+	attack = 2.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.800000011920929
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.0
+	#Bonus Movement Speed.
+	movementSpeed = 0.0
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.0
+	#Bonus Flight Speed Multiplier.
+	flightSpeed = 0.009999999776482582

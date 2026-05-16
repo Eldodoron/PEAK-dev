@@ -1,0 +1,32 @@
+{
+  "_name": "royalvariations:royal_enderman",
+  "stats": {
+    "attribute_modifiers": [
+      {
+        "attribute": "minecraft:generic.max_health",
+        "value": "50-70",
+        "operator": 0
+      },
+      {
+        "attribute": "minecraft:generic.armor",
+        "value": "8-12",
+        "operator": 0
+      },
+      {
+        "attribute": "minecraft:generic.armor_toughness",
+        "value": "5-8",
+        "operator": 0
+      },
+      {
+        "attribute": "minecraft:generic.attack_damage",
+        "value": "4-7",
+        "operator": 0
+      },
+      {
+        "attribute": "minecraft:generic.knockback_resistance",
+        "value": "0.5-0.8",
+        "operator": 0
+      }
+    ]
+  }
+}

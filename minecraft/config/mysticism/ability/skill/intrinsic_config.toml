@@ -1,0 +1,119 @@
+[BulletPunch]
+	#The cooldown in seconds.
+	cooldown = 15
+	#The cooldown in seconds when the skill is mastered.
+	cooldownMastered = 15
+	#The amount of punches.
+	amount = 4
+
+[ClangorousSoul]
+	#The radius of the taunt.
+	tauntRadius = 10
+	#The radius of the taunt when the skill is mastered.
+	tauntRadiusMastered = 15
+	#The cooldown in seconds.
+	cooldown = 60
+	#The cooldown in seconds when the skill is mastered.
+	cooldownMastered = 45
+
+[Discharge]
+	#Magicule Cost to activate.
+	magiculeCost = 1000.0
+	#How much damage that the Lightning Bolt does when activated.
+	boltDamage = 15
+	#The range for damage that the Lightning Bolt does when activated.
+	boltRange = 3
+	#The selection range of the target in blocks.
+	selectionRange = 30
+	#The cooldown in seconds.
+	cooldown = 5
+
+[Dissonance]
+	#Magicule Cost to activate.
+	magiculeCost = 10000.0
+	#How much damage that the Lightning Bolt does when activated.
+	boltDamage = 30
+	#The range for damage that the Lightning Bolt does when activated.
+	boltRange = 5
+	#The selection range of the target in blocks.
+	selectionRange = 30
+	#The cooldown in seconds.
+	cooldown = 5
+	#The radius of effect.
+	radius = 5
+
+[Exoskeleton]
+	#The amount of EP needed for Hihi'irokane Armor's stats.
+	hihiirokaneEP = 4000000.0
+	#The amount of EP needed for Monster Leather Special A Armor's stats.
+	mlSAEP = 800000.0
+	#The amount of EP needed for Monster Leather A Armor's stats.
+	mlAEP = 80000.0
+	#The amount of EP needed for Monster Leather B Armor's stats.
+	mlBEP = 50000.0
+
+[HellGate]
+	#The cooldown in seconds.
+	cooldown = 600
+	#The cooldown in seconds when the skill is mastered.
+	cooldownMastered = 300
+
+[HellHall]
+	#Magicule Cost to activate.
+	magiculeCost = 5000.0
+	#The cooldown in seconds.
+	cooldown = 600
+	#The cooldown in seconds when the skill is mastered.
+	cooldownMastered = 600
+	#The radius.
+	radius = 4
+	#The radius when the skill is mastered.
+	radiusMastered = 4
+
+[LethalPoison]
+	#The duration of the poison effect in ticks. (Multiply seconds by 20.)
+	duration = 200
+	#The level of the poison effect.
+	level = 3
+	#The level of the poison effect when the skill is mastered.
+	levelMastered = 6
+
+[LightningMode]
+	#Magicule Cost to activate.
+	magiculeCost = 0.0
+	#The duration in tick of the Transformation.
+	transformationDuration = 3600
+	#The duration in tick of the Transformation.
+	transformationDurationMastered = 7200
+	#The Cooldown in second after activation.
+	cooldown = 1200
+
+[MagisteelBody]
+	#The amount of EP needed for Hihi'irokane Armor's stats.
+	hihiirokaneEP = 1000000.0
+	#The amount of EP needed for Adamantite's stats.
+	adamantiteEP = 500000.0
+	#The amount of EP needed for Pure Magisteel's stats.
+	pureMagisteelEP = 100000.0
+	#The amount of EP needed for High Magisteel's stats.
+	highMagisteelEP = 50000.0
+
+[Relapse]
+	#The amount of HP that a clone heals each second.
+	cloneHeal = 2.0
+	#The amount of Energy that a clone uses each second when healing.
+	cloneHealEnergy = 20.0
+	#The level of Fragility given to a clone created by the Fracture mode.
+	cloneFragility = 2
+	#The level of Slowness given to a clone created by the Fracture mode.
+	cloneSlowness = 5
+
+[Spark]
+	#The duration of the burn effect in ticks. (Multiply seconds by 20.)
+	burnDuration = 100
+	#The duration of the burn effect when mastered, in ticks. (Multiply seconds by 20.)
+	burnDurationMastered = 200
+	#The cooldown in seconds.
+	cooldown = 15
+	#The cooldown when mastered, in seconds.
+	cooldownMastered = 15

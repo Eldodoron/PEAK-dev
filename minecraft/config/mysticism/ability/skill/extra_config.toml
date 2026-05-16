@@ -1,0 +1,155 @@
+[DarknessManipulation]
+	#The number of mastered darkness skills needed to learn Darkness Manipulation.
+	darknessSkillAcquirement = 3.0
+	#EP Requirement for to learn Domination.
+	dominationEpAcquirement = 2000000.0
+	#EP Requirement for to use Resist Degradation when mastered.
+	resistDegradationAcquirement = 2000000.0
+	#The Darkness Damage Boost when activated Manipulation.
+	manipulationBoost = 1.5
+	#The Darkness Damage Boost when activated Domination.
+	dominationBoost = 3.0
+	#Magicule Cost to use.
+	magiculeCost = 800.0
+	#The range in block of the magic.
+	range = 15.0
+	#The radius in block of the cube.
+	cubeRadius = 5.0
+	#The damage each 10 ticks of the cube.
+	cubeDamage = 10.0
+	#The damage each 10 ticks of the cube when mastered.
+	cubeDamageMastered = 20.0
+	#The level of Movement Interference effect (-10% speed each) when applied by the cube.
+	cubeSpeed = 5
+	#The duration in tick of the cube when casted.
+	cubeDuration = 300
+	#The cooldown in tick of the magic.
+	cooldown = 4
+	#The cooldown in tick of the magic when mastered.
+	cooldownMastered = 2
+	#The damage of the magic.
+	damage = 20.0
+
+[GravityFlux]
+	#The targeting range of the skill.
+	range = 15.0
+	#The targeting range of the skill when mastered.
+	rangeMastered = 20.0
+	#The duration of the gravity fluctuation effect from the Fluctuate mode in ticks. (Multiply seconds by 20.)
+	gravityDuration = 200.0
+	#The duration of the gravity fluctuation effect from the Fluctuate mode when mastered, in ticks. (Multiply seconds by 20.)
+	gravityDurationMastered = 200.0
+	#The level of the gravity fluctuation effect from the Fluctuate mode.
+	gravityLevel = 1
+	#The level of the gravity fluctuation effect from the Fluctuate mode when the skill is mastered.
+	gravityLevelMastered = 2
+	#The duration of the nausea effect from the Fluctuate mode in ticks. (Multiply seconds by 20.)
+	nauseaDuration = 200.0
+	#The duration of the nausea effect from the Fluctuate mode when mastered, in ticks. (Multiply seconds by 20.)
+	nauseaDurationMastered = 200.0
+	#The level of the nausea effect from the Fluctuate mode.
+	nauseaLevel = 1
+	#The level of the nausea effect from the Fluctuate mode when the skill is mastered.
+	nauseaLevelMastered = 2
+	#The duration of the burden effect from the Hamper mode in ticks. (Multiply seconds by 20.)
+	burdenDuration = 200.0
+	#The duration of the burden effect from the Hamper mode when mastered, in ticks. (Multiply seconds by 20.)
+	burdenDurationMastered = 200.0
+	#The level of the burden effect from the Hamper mode.
+	burdenLevel = 1
+	#The level of the burden effect from the Hamper mode when the skill is mastered.
+	burdenLevelMastered = 2
+
+[LightManipulation]
+	#The number of mastered light skills needed to learn Light Manipulation.
+	lightSkillAcquirement = 3.0
+	#EP Requirement for to learn Domination.
+	dominationEpAcquirement = 2000000.0
+	#EP Requirement for to use Resist Degradation when mastered.
+	resistDegradationAcquirement = 2000000.0
+	#The Light Damage Boost when activated Manipulation.
+	manipulationBoost = 1.5
+	#The Light Damage Boost when activated Domination.
+	dominationBoost = 3.0
+	#Magicule Cost to use.
+	magiculeCost = 200.0
+	#The range in block of the magic.
+	range = 30.0
+	#The damage of the magic.
+	damage = 20.0
+	#The number of arrows.
+	arrowNumber = 10
+	#The number of arrows when the skill is mastered.
+	arrowNumberMastered = 15
+
+[MithrilStrength]
+	#Magicule Cost to activate.
+	magiculeCost = 10000.0
+	#The duration of the Strengthen effect when activated (doubled when mastered).
+	strengthenDuration = 1200
+	#The level of the Strengthen effect when activated (+3 Attack Damage per level).
+	strengthenLevel = 3
+	#The level of the Strengthen effect when activated when Mastered.
+	strengthenLevelMastered = 4
+
+[IceManipulation]
+	#The number of mastered ice skills needed to learn Ice Manipulation.
+	iceSkillAcquirement = 1.0
+	#EP Requirement for to learn Domination.
+	dominationEpAcquirement = 2000000.0
+	#EP Requirement for to use Resist Degradation when mastered.
+	resistDegradationAcquirement = 2000000.0
+	#The Ice Damage Boost when activated Manipulation.
+	manipulationBoost = 1.5
+	#The Ice Damage Boost when activated Domination.
+	dominationBoost = 3.0
+	#Magicule cost for Ice Breath.
+	magiculeCost = 500.0
+	#The damage each second of the Ice Breath.
+	damage = 12
+	#The damage each second of the Ice Breath when mastered.
+	damageMastered = 24
+
+[CryogenicCessation]
+	#Magicule cost for Ice Breath.
+	iceBreathMPCost = 500.0
+	#The damage each second of the Ice Breath.
+	damage = 16
+	#The damage each second of the Ice Breath when mastered.
+	damageMastered = 32
+	#Magicule cost for Freezing Point.
+	freezingPointMPCost = 1000.0
+	#The radius of freezing point.
+	radius = 8
+	#The cooldown of Freezing Point when it's mastered.
+	freezingPointCooldownMastered = 10
+	#The cooldown of Freezing Point.
+	freezingPointCooldown = 20
+	#The Ice Damage Boost when Cryogenic Cessation is toggled.
+	cryogenicCessationBoost = 1.5
+	#The duration of the chill effect in ticks. (Multiply seconds by 20.)
+	duration = 200
+	#The level of the chill effect.
+	level = 1
+	#The level of the chill effect when the skill is mastered.
+	levelMastered = 3
+
+[ProfanedProminence]
+	#Magicule cost for Fire Breath.
+	fireBreathMPCost = 500.0
+	#The damage each second of the Fire Breath.
+	damage = 16
+	#The damage each second of the Fire Breath when mastered.
+	damageMastered = 32
+	#Magicule cost for Providence.
+	providenceMPCost = 1000.0
+	#The radius of Providence.
+	radius = 8
+	#The cooldown of Providence when it's mastered.
+	providenceCooldownMastered = 10
+	#The cooldown of Providence.
+	providenceCooldown = 20
+	#The Fire Damage Boost when Profaned Prominence is toggled.
+	profanedProminenceBoost = 1.5
+	#How long in tick that the target will be set on fire when attacked with Prominence's Toggle (doubled with Mastery).
+	prominenceBurnTick = 300

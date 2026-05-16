@@ -1,0 +1,5 @@
+[BrimstoneFlames]
+	#The Duration in ticks of Brimstone Flames when applied on target.
+	brimstoneFlamesDuration = 200
+	#How much damage that the effect Brimstone Flames does each second per level.
+	brimstoneFlamesDamage = 15.0

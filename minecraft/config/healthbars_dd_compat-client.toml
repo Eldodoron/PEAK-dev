@@ -1,0 +1,2 @@
+#Show level before the mob name (e.g., "Lv. 99 Zombie").
+level_prefix = false

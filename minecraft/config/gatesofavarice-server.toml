@@ -1,0 +1,5 @@
+[gateway]
+	#Broadcast a chat message when a player opens a generated gate.
+	announceGateOpenInChat = true
+	#Broadcast a chat message when another player joins an active generated gate.
+	announceGatePartyJoinInChat = true

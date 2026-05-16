@@ -1,0 +1,115 @@
+[RestrictedHuman]
+	#EP requirement to evolve into Restricted Human.
+	epRequirement = 50000.0
+	#The number of Bosses defeated to evolve into Restricted Human.
+	bossRequirement = 2
+	#Minimal aura.
+	minAura = 1520.0
+	#Maximum aura.
+	maxAura = 2280.0
+	#Minimal magicule.
+	minMagicule = 50.0
+	#Maximum magicule.
+	maxMagicule = 70.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 10.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 0.0
+	#Bonus Attack Damage.
+	attack = 0.5
+	#Bonus Attack Speed.
+	attackSpeed = 0.10000000149011612
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.0
+	#Bonus Movement Speed.
+	movementSpeed = 0.05000000074505806
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.10000000149011612
+
+[RestrictedSaint]
+	#EP requirement to evolve into Enlightened Human.
+	epRequirement = 200000.0
+	#Minimal aura.
+	minAura = 280000.0
+	#Maximum aura.
+	maxAura = 280000.0
+	#Minimal magicule.
+	minMagicule = 100.0
+	#Maximum magicule.
+	maxMagicule = 100.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 120.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 450.0
+	#Bonus Attack Damage.
+	attack = 1.5
+	#Bonus Attack Speed.
+	attackSpeed = 0.3
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.15
+	#Bonus Movement Speed.
+	movementSpeed = 0.015
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.15
+
+[BoundEnlightenment]
+	#EP requirement to evolve into Human Saint.
+	epRequirement = 800000.0
+	#The number of Bosses defeated to evolve into Human Saint.
+	bossRequirement = 4
+	#Minimal aura.
+	minAura = 800000.0
+	#Maximum aura.
+	maxAura = 800000.0
+	#Minimal magicule.
+	minMagicule = 100.0
+	#Maximum magicule.
+	maxMagicule = 100.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 720.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 4500.0
+	#Bonus Attack Damage.
+	attack = 3.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.75
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.3
+	#Bonus Movement Speed.
+	movementSpeed = 0.075
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.75
+
+[HeavenlyRestriction]
+	#EP requirement to evolve into Heavenly Restriction.
+	epRequirement = 4000000.0
+	#Minimal aura.
+	minAura = 2000000.0
+	#Maximum aura.
+	maxAura = 2000000.0
+	#Minimal magicule.
+	minMagicule = 100.0
+	#Maximum magicule.
+	maxMagicule = 100.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 1470.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 9000.0
+	#Bonus Attack Damage.
+	attack = 4.5
+	#Bonus Attack Speed.
+	attackSpeed = 1.05
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.45
+	#Bonus Movement Speed.
+	movementSpeed = 0.15
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 1.5

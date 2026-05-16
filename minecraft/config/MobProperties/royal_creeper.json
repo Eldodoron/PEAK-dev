@@ -1,0 +1,32 @@
+{
+  "_name": "royalvariations:royal_creeper",
+  "stats": {
+    "attribute_modifiers": [
+      {
+        "attribute": "minecraft:generic.max_health",
+        "value": "30-45",
+        "operator": 0
+      },
+      {
+        "attribute": "minecraft:generic.armor",
+        "value": "6-10",
+        "operator": 0
+      },
+      {
+        "attribute": "minecraft:generic.armor_toughness",
+        "value": "3-5",
+        "operator": 0
+      },
+      {
+        "attribute": "minecraft:generic.knockback_resistance",
+        "value": "0.5-0.7",
+        "operator": 0
+      },
+      {
+        "attribute": "minecraft:generic.movement_speed",
+        "value": "0.02-0.03",
+        "operator": 0
+      }
+    ]
+  }
+}

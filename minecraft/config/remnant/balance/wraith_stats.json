@@ -1,0 +1,7 @@
+{
+  "wraith_health": 20.0,
+  "wraith_attack_damage": 3.0,
+  "wraith_armor": 0.0,
+  "wraith_movement_speed": 0.25,
+  "wraith_follow_range": 16.0
+}

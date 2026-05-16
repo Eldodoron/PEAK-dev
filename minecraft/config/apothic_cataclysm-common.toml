@@ -1,0 +1,23 @@
+[spawn]
+	# Default: 0.1
+	# Range: 0.0 ~ 1.0
+	dropChanceOverride = 0.0
+	# Default: 0.05
+	# Range: 0.0 ~ 1.0
+	chanceToReplaceBossWeapon = 0.15
+	# Default: 0.5
+	# Range: 0.0 ~ 1.0
+	chanceToReplaceNormalWeapon = 0.5
+
+[weapon_toggles]
+	enableLaserGatling = true
+	enableAncientSpear = true
+	enableCursedBow = true
+	enableWrathOfTheDesert = true
+	enableWitherAssultShoulderWeapon = true
+	enableVoidAssultShoulderWeapon = true
+	enableMeatShredder = true
+	enableSoulRender = true
+	enableGauntletOfMaelstrom = false
+	enableInfernalForge = true
+	enableVoidForge = true

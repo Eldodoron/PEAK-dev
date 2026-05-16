@@ -1,0 +1,335 @@
+[Ant]
+	#Minimal aura.
+	minAura = 1000.0
+	#Maximum aura.
+	maxAura = 2000.0
+	#Minimal magicule.
+	minMagicule = 2000.0
+	#Maximum magicule.
+	maxMagicule = 3000.0
+	#Bonus Size.
+	size = -0.75
+	#Bonus Max Health.
+	maxHealth = 15.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 85.0
+	#Bonus Attack Damage.
+	attack = -0.800000011920929
+	#Bonus Attack Speed.
+	attackSpeed = -0.5
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.30000001192092896
+	#Bonus Movement Speed.
+	movementSpeed = -0.029999999329447746
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.0
+	#Bonus Armor
+	armor = 5.0
+
+[FireAnt]
+	#EP requirement to evolve into Fire Ant.
+	epRequirement = 10000.0
+	#Minimal aura.
+	minAura = 5250.0
+	#Maximum aura.
+	maxAura = 5250.0
+	#Minimal magicule.
+	minMagicule = 5250.0
+	#Maximum magicule.
+	maxMagicule = 5250.0
+	#Bonus Size.
+	size = -0.5
+	#Bonus Max Health.
+	maxHealth = 45.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 235.0
+	#Bonus Attack Damage.
+	attack = -0.5
+	#Bonus Attack Speed.
+	attackSpeed = -0.20000000298023224
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.30000001192092896
+	#Bonus Movement Speed.
+	movementSpeed = 0.0
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.0
+	#Bonus Armor
+	armor = 7.0
+
+[FireAntInsectar]
+	#EP requirement to evolve into Fire Ant Insectar.
+	epRequirement = 100000.0
+	#Minimal aura.
+	minAura = 100000.0
+	#Maximum aura.
+	maxAura = 100000.0
+	#Minimal magicule.
+	minMagicule = 100000.0
+	#Maximum magicule.
+	maxMagicule = 100000.0
+	#Bonus Size.
+	size = -0.5
+	#Bonus Max Health.
+	maxHealth = 205.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 935.0
+	#Bonus Attack Damage.
+	attack = 0.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.0
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.30000001192092896
+	#Bonus Movement Speed.
+	movementSpeed = 0.009999999776482582
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.0
+	#Bonus Armor
+	armor = 10.0
+
+[FireAntSavant]
+	#EP requirement to evolve into Fire Ant Savant.
+	epRequirement = 400000.0
+	#The number of Bosses defeated to evolve into Fire Ant Savant.
+	bossRequirement = 4
+	#Minimal aura.
+	minAura = 400000.0
+	#Maximum aura.
+	maxAura = 400000.0
+	#Minimal magicule.
+	minMagicule = 400000.0
+	#Maximum magicule.
+	maxMagicule = 400000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 580.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 1935.0
+	#Bonus Attack Damage.
+	attack = 0.5
+	#Bonus Attack Speed.
+	attackSpeed = 0.20000000298023224
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.4000000059604645
+	#Bonus Movement Speed.
+	movementSpeed = 0.014999999664723873
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.0
+	#Bonus Armor
+	armor = 15.0
+
+[FlameSoulInsect]
+	#EP requirement to evolve into Flame Soul Insect.
+	epRequirement = 400000.0
+	#The ability needed to evolve into Flame Soul Insect.
+	abilityRequirement = "tensura:flame_manipulation"
+	#Minimal aura.
+	minAura = 400000.0
+	#Maximum aura.
+	maxAura = 400000.0
+	#Minimal magicule.
+	minMagicule = 400000.0
+	#Maximum magicule.
+	maxMagicule = 400000.0
+	#Bonus Size.
+	size = -0.25
+	#Bonus Max Health.
+	maxHealth = 430.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 2395.0
+	#Bonus Attack Damage.
+	attack = 0.25
+	#Bonus Attack Speed.
+	attackSpeed = 0.10000000149011612
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.30000001192092896
+	#Bonus Movement Speed.
+	movementSpeed = 0.012500000186264515
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.0
+	#Bonus Armor
+	armor = 12.0
+
+[DivineFireAnt]
+	#EP requirement to evolve into Divine Fire Ant.
+	epRequirement = 2000000.0
+	#Minimal aura.
+	minAura = 1000000.0
+	#Maximum aura.
+	maxAura = 1000000.0
+	#Minimal magicule.
+	minMagicule = 1000000.0
+	#Maximum magicule.
+	maxMagicule = 1000000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 1230.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 7835.0
+	#Bonus Attack Damage.
+	attack = 1.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.5
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.5
+	#Bonus Movement Speed.
+	movementSpeed = 0.019999999552965164
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.0
+	#Bonus Armor
+	armor = 20.0
+
+[HardshellAnt]
+	#EP requirement to evolve into Hardshell Ant.
+	epRequirement = 10000.0
+	#Minimal aura.
+	minAura = 5250.0
+	#Maximum aura.
+	maxAura = 5250.0
+	#Minimal magicule.
+	minMagicule = 5250.0
+	#Maximum magicule.
+	maxMagicule = 5250.0
+	#Bonus Size.
+	size = -0.75
+	#Bonus Max Health.
+	maxHealth = 55.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 375.0
+	#Bonus Attack Damage.
+	attack = -0.75
+	#Bonus Attack Speed.
+	attackSpeed = -0.4000000059604645
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.5
+	#Bonus Movement Speed.
+	movementSpeed = -0.019999999552965164
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.0
+	#Bonus Armor
+	armor = 10.0
+
+[HardshellAntInsectar]
+	#EP requirement to evolve into Hardshell Ant Insectar.
+	epRequirement = 100000.0
+	#Minimal aura.
+	minAura = 100000.0
+	#Maximum aura.
+	maxAura = 100000.0
+	#Minimal magicule.
+	minMagicule = 100000.0
+	#Maximum magicule.
+	maxMagicule = 100000.0
+	#Bonus Size.
+	size = -0.75
+	#Bonus Max Health.
+	maxHealth = 330.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 1235.0
+	#Bonus Attack Damage.
+	attack = -0.5
+	#Bonus Attack Speed.
+	attackSpeed = -0.5
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.30000001192092896
+	#Bonus Movement Speed.
+	movementSpeed = -0.009999999776482582
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.0
+	#Bonus Armor
+	armor = 15.0
+
+[HardshellAntSavant]
+	#EP requirement to evolve into Hardshell Ant Savant.
+	epRequirement = 400000.0
+	#The number of Bosses defeated to evolve into Hardshell Ant Savant.
+	bossRequirement = 4
+	#Minimal aura.
+	minAura = 400000.0
+	#Maximum aura.
+	maxAura = 400000.0
+	#Minimal magicule.
+	minMagicule = 400000.0
+	#Maximum magicule.
+	maxMagicule = 400000.0
+	#Bonus Size.
+	size = -0.25
+	#Bonus Max Health.
+	maxHealth = 900.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 4635.0
+	#Bonus Attack Damage.
+	attack = 0.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.0
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.800000011920929
+	#Bonus Movement Speed.
+	movementSpeed = 0.009999999776482582
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.0
+	#Bonus Armor
+	armor = 20.0
+
+[EarthSoulInsect]
+	#EP requirement to evolve into Earth Soul Insect.
+	epRequirement = 400000.0
+	#Ability requirement to evolve into Earth Soul Insect.
+	abilityRequirement = "tensura:earth_manipulation"
+	#Minimal aura.
+	minAura = 400000.0
+	#Maximum aura.
+	maxAura = 400000.0
+	#Minimal magicule.
+	minMagicule = 400000.0
+	#Maximum magicule.
+	maxMagicule = 400000.0
+	#Bonus Size.
+	size = -0.25
+	#Bonus Max Health.
+	maxHealth = 740.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 6265.0
+	#Bonus Attack Damage.
+	attack = -0.25
+	#Bonus Attack Speed.
+	attackSpeed = -0.25
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.6000000238418579
+	#Bonus Movement Speed.
+	movementSpeed = -0.004999999888241291
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.0
+	#Bonus Armor
+	armor = 17.0
+
+[DivineHardshellAnt]
+	#EP requirement to evolve into Earth Soul Insect.
+	epRequirement = 2000000.0
+	#Minimal aura.
+	minAura = 1000000.0
+	#Maximum aura.
+	maxAura = 1000000.0
+	#Minimal magicule.
+	minMagicule = 1000000.0
+	#Maximum magicule.
+	maxMagicule = 1000000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 1780.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 9345.0
+	#Bonus Attack Damage.
+	attack = 1.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.10000000149011612
+	#Bonus Knockback Resistance.
+	knockbackResistance = 1.0
+	#Bonus Movement Speed.
+	movementSpeed = 0.009999999776482582
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.10000000149011612
+	#Bonus Armor
+	armor = 25.0

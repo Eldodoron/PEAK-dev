@@ -1,0 +1,20 @@
+[
+  {"version":2},
+  {"ingredient":{"id":"avaritia:extreme_crafting_table"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"avaritia:end_crafting_table"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"avaritia:nether_crafting_table"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"avaritia:sculk_crafting_table"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"allthewizardgear:allthemodium_spell_book","components":{"irons_spellbooks:spell_container":{"mustEquip":true,"data":[],"maxSpells":13,"spellWheel":true}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"allthewizardgear:vibranium_spell_book","components":{"irons_spellbooks:spell_container":{"mustEquip":true,"data":[],"maxSpells":14,"spellWheel":true}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"allthewizardgear:unobtainium_spell_book","components":{"irons_spellbooks:spell_container":{"mustEquip":true,"data":[],"maxSpells":15,"spellWheel":true}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"cataclysm_spellbooks:abyss_spell_book","components":{"irons_spellbooks:spell_container":{"mustEquip":true,"data":[],"maxSpells":12,"spellWheel":true}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"cataclysm_spellbooks:ignis_spell_book","components":{"irons_spellbooks:spell_container":{"mustEquip":true,"data":[],"maxSpells":12,"spellWheel":true}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"cataclysm_spellbooks:desert_spell_book","components":{"irons_spellbooks:spell_container":{"mustEquip":true,"data":[{"id":"cataclysm_spellbooks:monolith_crash","index":0,"level":5,"locked":true},{"id":"cataclysm_spellbooks:desert_winds","index":1,"level":3,"locked":true},{"id":"cataclysm_spellbooks:sandstorm","index":2,"level":3,"locked":true},{"id":"cataclysm_spellbooks:thoths_witness","index":3,"level":1,"locked":true},{"id":"cataclysm_spellbooks:pharaohs_wrath","index":4,"level":3,"locked":true}],"maxSpells":12,"spellWheel":true}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"cataclysm_spellbooks:codex_of_malice_spell_book","components":{"irons_spellbooks:spell_container":{"mustEquip":true,"data":[],"maxSpells":12,"spellWheel":true}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"enigmatic_arcana:antonomos","components":{"azurelib:az_id":[-546806250,1131761614,-1405657283,1603244988],"irons_spellbooks:spell_container":{"mustEquip":true,"data":[],"maxSpells":10,"spellWheel":true}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"firesenderexpansion:endchiridion","components":{"irons_spellbooks:spell_container":{"mustEquip":true,"data":[],"maxSpells":10,"spellWheel":true}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"irons_spellbooks:villager_spell_book","components":{"irons_spellbooks:spell_container":{"mustEquip":true,"data":[],"maxSpells":10,"spellWheel":true}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"irons_spellbooks:ice_spell_book","components":{"irons_spellbooks:spell_container":{"mustEquip":true,"data":[],"maxSpells":12,"spellWheel":true}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"mekanism:pellet_antimatter"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"kubejs:anomaly_replicator"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

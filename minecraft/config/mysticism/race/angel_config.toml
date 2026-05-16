@@ -1,0 +1,495 @@
+[LesserAngel]
+	#Minimal aura.
+	minAura = 5500.0
+	#Maximum aura.
+	maxAura = 6500.0
+	#Minimal magicule.
+	minMagicule = 1500.0
+	#Maximum magicule.
+	maxMagicule = 3500.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 20.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 90.0
+	#Bonus Attack Damage.
+	attack = 0.4000000059604645
+	#Bonus Attack Speed.
+	attackSpeed = 0.0
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.10000000149011612
+	#Bonus Movement Speed.
+	movementSpeed = 0.009999999776482582
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.0
+
+[GreaterAngel]
+	#EP requirement to evolve into a Greater Angel.
+	epRequirement = 20000.0
+	#Minimal aura.
+	minAura = 35000.0
+	#Maximum aura.
+	maxAura = 45000.0
+	#Minimal magicule.
+	minMagicule = 15000.0
+	#Maximum magicule.
+	maxMagicule = 25000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 60.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 200.0
+	#Bonus Attack Damage.
+	attack = 1.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.0
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.20000000298023224
+	#Bonus Movement Speed.
+	movementSpeed = 0.019999999552965164
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.20000000298023224
+
+[ArchAngel]
+	#EP requirement to evolve into an Arch Angel.
+	epRequirement = 140000.0
+	#Minimal aura.
+	minAura = 100000.0
+	#Maximum aura.
+	maxAura = 105000.0
+	#Minimal magicule.
+	minMagicule = 40000.0
+	#Maximum magicule.
+	maxMagicule = 45000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 100.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 580.0
+	#Bonus Attack Damage.
+	attack = 2.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.2
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.4
+	#Bonus Movement Speed.
+	movementSpeed = 0.01
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.1
+
+[Cherub]
+	#Minimal aura.
+	minAura = 205000.0
+	#Maximum aura.
+	maxAura = 215000.0
+	#Minimal magicule.
+	minMagicule = 175000.0
+	#Maximum magicule.
+	maxMagicule = 180000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 620.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 3702.0
+	#Bonus Attack Damage.
+	attack = 3.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.5
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.6
+	#Bonus Movement Speed.
+	movementSpeed = 0.04
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.4
+
+[Seraph]
+	#Minimal aura.
+	minAura = 1000000.0
+	#Maximum aura.
+	maxAura = 1000000.0
+	#Minimal magicule.
+	minMagicule = 1000000.0
+	#Maximum magicule.
+	maxMagicule = 1000000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 1060.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 6300.0
+	#Bonus Attack Damage.
+	attack = 4.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.7
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.8
+	#Bonus Movement Speed.
+	movementSpeed = 0.08
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.8
+
+[FallenLesserAngel]
+	#Quantity of demon essence required to become a fallen lesser angel as a lesser angel.
+	essenceRequired = 1
+	#Minimal aura.
+	minAura = 4500.0
+	#Maximum aura.
+	maxAura = 5500.0
+	#Minimal magicule.
+	minMagicule = 5500.0
+	#Maximum magicule.
+	maxMagicule = 7500.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 20.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 90.0
+	#Bonus Attack Damage.
+	attack = 0.4000000059604645
+	#Bonus Attack Speed.
+	attackSpeed = 0.0
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.10000000149011612
+	#Bonus Movement Speed.
+	movementSpeed = 0.009999999776482582
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.0
+
+[FallenGreaterAngel]
+	#Quantity of demon essence required to become a fallen greater angel as a greater angel.
+	essenceRequired = 3
+	#EP requirement to evolve into Fallen Greater Angel.
+	epRequirement = 20000.0
+	#Minimal aura.
+	minAura = 25000.0
+	#Maximum aura.
+	maxAura = 30000.0
+	#Minimal magicule.
+	minMagicule = 35000.0
+	#Maximum magicule.
+	maxMagicule = 45000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 60.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 200.0
+	#Bonus Attack Damage.
+	attack = 1.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.0
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.20000000298023224
+	#Bonus Movement Speed.
+	movementSpeed = 0.019999999552965164
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.20000000298023224
+
+[FallenArchAngel]
+	#Quantity of demon essence required to become a fallen arch angel as an arch angel.
+	essenceRequired = 5
+	#EP requirement to evolve into a Fallen Arch Angel.
+	epRequirement = 140000.0
+	#Minimal aura.
+	minAura = 70000.0
+	#Maximum aura.
+	maxAura = 75000.0
+	#Minimal magicule.
+	minMagicule = 105000.0
+	#Maximum magicule.
+	maxMagicule = 110000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 100.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 580.0
+	#Bonus Attack Damage.
+	attack = 2.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.2
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.4
+	#Bonus Movement Speed.
+	movementSpeed = 0.01
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.1
+
+[FallenCherub]
+	#Quantity of demon essence required to become a fallen cherub as a cherub.
+	essenceRequired = 7
+	#Minimal aura.
+	minAura = 165000.0
+	#Maximum aura.
+	maxAura = 170000.0
+	#Minimal magicule.
+	minMagicule = 205000.0
+	#Maximum magicule.
+	maxMagicule = 215000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 620.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 3702.0
+	#Bonus Attack Damage.
+	attack = 3.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.5
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.6
+	#Bonus Movement Speed.
+	movementSpeed = 0.04
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.4
+
+[FallenSeraph]
+	#Quantity of demon essence required to become a fallen seraph as a seraph.
+	essenceRequired = 10
+	#Minimal aura.
+	minAura = 1000000.0
+	#Maximum aura.
+	maxAura = 1000000.0
+	#Minimal magicule.
+	minMagicule = 1010000.0
+	#Maximum magicule.
+	maxMagicule = 1050000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 1060.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 6300.0
+	#Bonus Attack Damage.
+	attack = 4.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.7
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.8
+	#Bonus Movement Speed.
+	movementSpeed = 0.08
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.8
+
+[LesserFallen]
+	#Minimal aura.
+	minAura = 4500.0
+	#Maximum aura.
+	maxAura = 5500.0
+	#Minimal magicule.
+	minMagicule = 7500.0
+	#Maximum magicule.
+	maxMagicule = 9500.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 30.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 100.0
+	#Bonus Attack Damage.
+	attack = 0.5
+	#Bonus Attack Speed.
+	attackSpeed = 0.10000000149011612
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.10000000149011612
+	#Bonus Movement Speed.
+	movementSpeed = 0.009999999776482582
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.0
+
+[GreaterFallen]
+	#EP requirement to evolve into Fallen Greater Angel.
+	epRequirement = 20000.0
+	#Minimal aura.
+	minAura = 25000.0
+	#Maximum aura.
+	maxAura = 30000.0
+	#Minimal magicule.
+	minMagicule = 40000.0
+	#Maximum magicule.
+	maxMagicule = 55000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 80.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 220.0
+	#Bonus Attack Damage.
+	attack = 1.2000000476837158
+	#Bonus Attack Speed.
+	attackSpeed = 0.20000000298023224
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.20000000298023224
+	#Bonus Movement Speed.
+	movementSpeed = 0.019999999552965164
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.20000000298023224
+
+[ArchFallen]
+	#EP requirement to evolve into a Fallen Arch Angel.
+	epRequirement = 140000.0
+	#Minimal aura.
+	minAura = 70000.0
+	#Maximum aura.
+	maxAura = 75000.0
+	#Minimal magicule.
+	minMagicule = 120000.0
+	#Maximum magicule.
+	maxMagicule = 145000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 110.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 600.0
+	#Bonus Attack Damage.
+	attack = 2.299999952316284
+	#Bonus Attack Speed.
+	attackSpeed = 0.4
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.4
+	#Bonus Movement Speed.
+	movementSpeed = 0.01
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.1
+
+[FallenLord]
+	#EP requirement to evolve into a Fallen Arch Angel.
+	epRequirement = 300000.0
+	#Minimal aura.
+	minAura = 165000.0
+	#Maximum aura.
+	maxAura = 170000.0
+	#Minimal magicule.
+	minMagicule = 225000.0
+	#Maximum magicule.
+	maxMagicule = 250000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 640.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 3742.0
+	#Bonus Attack Damage.
+	attack = 3.5
+	#Bonus Attack Speed.
+	attackSpeed = 0.800000011920929
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.6
+	#Bonus Movement Speed.
+	movementSpeed = 0.04
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.4
+
+[Fallen]
+	#Minimal aura.
+	minAura = 1000000.0
+	#Maximum aura.
+	maxAura = 1000000.0
+	#Minimal magicule.
+	minMagicule = 1200000.0
+	#Maximum magicule.
+	maxMagicule = 1300000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 1080.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 6350.0
+	#Bonus Attack Damage.
+	attack = 4.5
+	#Bonus Attack Speed.
+	attackSpeed = 0.7
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.8
+	#Bonus Movement Speed.
+	movementSpeed = 0.08
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.8
+
+[Tengu]
+	#Minimal aura.
+	minAura = 100000.0
+	#Maximum aura.
+	maxAura = 150000.0
+	#Minimal magicule.
+	minMagicule = 100000.0
+	#Maximum magicule.
+	maxMagicule = 150000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 130.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 600.0
+	#Bonus Attack Damage.
+	attack = 2.5
+	#Bonus Attack Speed.
+	attackSpeed = 0.4
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.6
+	#Bonus Movement Speed.
+	movementSpeed = 0.05
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.1
+
+[TenguSaint]
+	#EP requirement to evolve into a Tengu Saint.
+	epRequirement = 400000.0
+	#Minimal aura.
+	minAura = 800000.0
+	#Maximum aura.
+	maxAura = 900000.0
+	#Minimal magicule.
+	minMagicule = 800000.0
+	#Maximum magicule.
+	maxMagicule = 900000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 650.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 3800.0
+	#Bonus Attack Damage.
+	attack = 4.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.800000011920929
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.8
+	#Bonus Movement Speed.
+	movementSpeed = 0.04
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.4
+
+[DivineTengu]
+	#EP requirement to evolve into a Divine Tengu.
+	epRequirement = 2000000.0
+	#Minimal aura.
+	minAura = 1500000.0
+	#Maximum aura.
+	maxAura = 2800000.0
+	#Minimal magicule.
+	minMagicule = 1500000.0
+	#Maximum magicule.
+	maxMagicule = 2800000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 1080.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 6380.0
+	#Bonus Attack Damage.
+	attack = 5.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.9
+	#Bonus Knockback Resistance.
+	knockbackResistance = 1.0
+	#Bonus Movement Speed.
+	movementSpeed = 0.08
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.8

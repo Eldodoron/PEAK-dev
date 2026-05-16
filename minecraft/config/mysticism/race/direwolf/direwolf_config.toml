@@ -1,0 +1,645 @@
+[Direwolf]
+	#Minimal aura.
+	minAura = 1834.0
+	#Maximum aura.
+	maxAura = 2166.0
+	#Minimal magicule.
+	minMagicule = 1833.0
+	#Maximum magicule.
+	maxMagicule = 2167.0
+	#Bonus Size.
+	size = -0.25
+	#Bonus Max Health.
+	maxHealth = 6.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 35.0
+	#Bonus Attack Damage.
+	attack = 3.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.0
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.0
+	#Bonus Movement Speed.
+	movementSpeed = 0.02500000037252903
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.10000000149011612
+	#Bonus Step Height.
+	stepHeight = 0.5
+
+[BlackFang]
+	#EP requirement to evolve into Black Fang.
+	epRequirement = 10000.0
+	#Minimal aura.
+	minAura = 5250.0
+	#Maximum aura.
+	maxAura = 5250.0
+	#Minimal magicule.
+	minMagicule = 5250.0
+	#Maximum magicule.
+	maxMagicule = 5250.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 25.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 265.0
+	#Bonus Attack Damage.
+	attack = 3.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.10000000149011612
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.0
+	#Bonus Movement Speed.
+	movementSpeed = 0.027499999850988388
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.10000000149011612
+	#Bonus Step Height.
+	stepHeight = 0.5
+
+[MysticalBlackFang]
+	#EP requirement to evolve into Mystical Black Fang.
+	epRequirement = 200000.0
+	#The ability needed to evolve into Mystical Black Fang.
+	abilityRequirement = "tensura:magic_sense"
+	#Does the ability need to be mastered? (true/false)
+	abilityMasteryRequirement = true
+	#Minimal aura.
+	minAura = 125000.0
+	#Maximum aura.
+	maxAura = 125000.0
+	#Minimal magicule.
+	minMagicule = 125000.0
+	#Maximum magicule.
+	maxMagicule = 125000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 380.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 2320.0
+	#Bonus Attack Damage.
+	attack = 3.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.0
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.10000000149011612
+	#Bonus Movement Speed.
+	movementSpeed = 0.029999999329447746
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.30000001192092896
+	#Bonus Step Height.
+	stepHeight = 0.5
+
+[MagicSpiritWolf]
+	#EP requirement to evolve into Magic Spirit Wolf.
+	epRequirement = 800000.0
+	#The ability needed to evolve into Magic Spirit Wolf.
+	abilityRequirement = "tensura:magic_jamming"
+	#Does the ability need to be mastered? (true/false)
+	abilityMasteryRequirement = true
+	#Minimal aura.
+	minAura = 425000.0
+	#Maximum aura.
+	maxAura = 425000.0
+	#Minimal magicule.
+	minMagicule = 425000.0
+	#Maximum magicule.
+	maxMagicule = 425000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 680.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 4360.0
+	#Bonus Attack Damage.
+	attack = 4.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.0
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.20000000298023224
+	#Bonus Movement Speed.
+	movementSpeed = 0.03999999910593033
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.4000000059604645
+	#Bonus Step Height.
+	stepHeight = 0.5
+
+[BlueFang]
+	#EP requirement to evolve into Blue Fang.
+	epRequirement = 10000.0
+	#Minimal aura.
+	minAura = 5250.0
+	#Maximum aura.
+	maxAura = 5250.0
+	#Minimal magicule.
+	minMagicule = 5250.0
+	#Maximum magicule.
+	maxMagicule = 5250.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 25.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 265.0
+	#Bonus Attack Damage.
+	attack = 3.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.10000000149011612
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.0
+	#Bonus Movement Speed.
+	movementSpeed = 0.027499999850988388
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.10000000149011612
+	#Bonus Step Height.
+	stepHeight = 0.5
+
+[MysticalBlueFang]
+	#EP requirement to evolve into Mystical Blue Fang.
+	epRequirement = 200000.0
+	#The ability needed to evolve into Mystical Blue Fang.
+	abilityRequirement = "tensura:water_manipulation"
+	#Does the ability need to be mastered? (true/false)
+	abilityMasteryRequirement = true
+	#Minimal aura.
+	minAura = 125000.0
+	#Maximum aura.
+	maxAura = 125000.0
+	#Minimal magicule.
+	minMagicule = 125000.0
+	#Maximum magicule.
+	maxMagicule = 125000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 380.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 2320.0
+	#Bonus Attack Damage.
+	attack = 3.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.0
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.10000000149011612
+	#Bonus Movement Speed.
+	movementSpeed = 0.029999999329447746
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.30000001192092896
+	#Bonus Step Height.
+	stepHeight = 0.5
+
+[OceanSpiritWolf]
+	#EP requirement to evolve into Ocean Spirit Wolf.
+	epRequirement = 800000.0
+	#The ability needed to evolve into Ocean Spirit Wolf.
+	abilityRequirement = "tensura:water_domination"
+	#Does the ability need to be mastered? (true/false)
+	abilityMasteryRequirement = true
+	#Minimal aura.
+	minAura = 425000.0
+	#Maximum aura.
+	maxAura = 425000.0
+	#Minimal magicule.
+	minMagicule = 425000.0
+	#Maximum magicule.
+	maxMagicule = 425000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 680.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 4360.0
+	#Bonus Attack Damage.
+	attack = 4.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.0
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.20000000298023224
+	#Bonus Movement Speed.
+	movementSpeed = 0.03999999910593033
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.4000000059604645
+	#Bonus Step Height.
+	stepHeight = 0.5
+
+[BrownFang]
+	#EP requirement to evolve into Brown Fang.
+	epRequirement = 10000.0
+	#Minimal aura.
+	minAura = 5250.0
+	#Maximum aura.
+	maxAura = 5250.0
+	#Minimal magicule.
+	minMagicule = 5250.0
+	#Maximum magicule.
+	maxMagicule = 5250.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 25.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 265.0
+	#Bonus Attack Damage.
+	attack = 3.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.10000000149011612
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.0
+	#Bonus Movement Speed.
+	movementSpeed = 0.027499999850988388
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.10000000149011612
+	#Bonus Step Height.
+	stepHeight = 0.5
+
+[MysticalBrownFang]
+	#EP requirement to evolve into Mystical Brown Fang.
+	epRequirement = 200000.0
+	#The ability needed to evolve into Mystical Brown Fang.
+	abilityRequirement = "tensura:earth_manipulation"
+	#Does the ability need to be mastered? (true/false)
+	abilityMasteryRequirement = true
+	#Minimal aura.
+	minAura = 125000.0
+	#Maximum aura.
+	maxAura = 125000.0
+	#Minimal magicule.
+	minMagicule = 125000.0
+	#Maximum magicule.
+	maxMagicule = 125000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 380.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 2320.0
+	#Bonus Attack Damage.
+	attack = 3.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.0
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.10000000149011612
+	#Bonus Movement Speed.
+	movementSpeed = 0.029999999329447746
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.30000001192092896
+	#Bonus Step Height.
+	stepHeight = 0.5
+
+[MountainSpiritWolf]
+	#EP requirement to evolve into Mountain Spirit Wolf.
+	epRequirement = 800000.0
+	#The ability needed to evolve into Mountain Spirit Wolf.
+	abilityRequirement = "tensura:earth_domination"
+	#Does the ability need to be mastered? (true/false)
+	abilityMasteryRequirement = true
+	#Minimal aura.
+	minAura = 425000.0
+	#Maximum aura.
+	maxAura = 425000.0
+	#Minimal magicule.
+	minMagicule = 425000.0
+	#Maximum magicule.
+	maxMagicule = 425000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 680.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 4360.0
+	#Bonus Attack Damage.
+	attack = 4.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.0
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.20000000298023224
+	#Bonus Movement Speed.
+	movementSpeed = 0.03999999910593033
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.4000000059604645
+	#Bonus Step Height.
+	stepHeight = 0.5
+
+[GreenFang]
+	#EP requirement to evolve into Green Fang.
+	epRequirement = 10000.0
+	#Minimal aura.
+	minAura = 5250.0
+	#Maximum aura.
+	maxAura = 5250.0
+	#Minimal magicule.
+	minMagicule = 5250.0
+	#Maximum magicule.
+	maxMagicule = 5250.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 25.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 265.0
+	#Bonus Attack Damage.
+	attack = 3.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.10000000149011612
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.0
+	#Bonus Movement Speed.
+	movementSpeed = 0.027499999850988388
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.10000000149011612
+	#Bonus Step Height.
+	stepHeight = 0.5
+
+[MysticalGreenFang]
+	#EP requirement to evolve into Mystical Green Fang.
+	epRequirement = 200000.0
+	#The ability needed to evolve into Mystical Green Fang.
+	abilityRequirement = "tensura:wind_manipulation"
+	#Does the ability need to be mastered? (true/false)
+	abilityMasteryRequirement = true
+	#Minimal aura.
+	minAura = 125000.0
+	#Maximum aura.
+	maxAura = 125000.0
+	#Minimal magicule.
+	minMagicule = 125000.0
+	#Maximum magicule.
+	maxMagicule = 125000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 380.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 2320.0
+	#Bonus Attack Damage.
+	attack = 3.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.0
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.10000000149011612
+	#Bonus Movement Speed.
+	movementSpeed = 0.029999999329447746
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.30000001192092896
+	#Bonus Step Height.
+	stepHeight = 0.5
+
+[GaleSpiritWolf]
+	#EP requirement to evolve into Gale Spirit Wolf.
+	epRequirement = 800000.0
+	#The ability needed to evolve into Gale Spirit Wolf.
+	abilityRequirement = "tensura:wind_domination"
+	#Does the ability need to be mastered? (true/false)
+	abilityMasteryRequirement = true
+	#Minimal aura.
+	minAura = 425000.0
+	#Maximum aura.
+	maxAura = 425000.0
+	#Minimal magicule.
+	minMagicule = 425000.0
+	#Maximum magicule.
+	maxMagicule = 425000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 680.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 4360.0
+	#Bonus Attack Damage.
+	attack = 4.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.0
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.20000000298023224
+	#Bonus Movement Speed.
+	movementSpeed = 0.03999999910593033
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.4000000059604645
+	#Bonus Step Height.
+	stepHeight = 0.5
+
+[PurpleFang]
+	#EP requirement to evolve into Purple Fang.
+	epRequirement = 10000.0
+	#Minimal aura.
+	minAura = 5250.0
+	#Maximum aura.
+	maxAura = 5250.0
+	#Minimal magicule.
+	minMagicule = 5250.0
+	#Maximum magicule.
+	maxMagicule = 5250.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 25.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 265.0
+	#Bonus Attack Damage.
+	attack = 3.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.10000000149011612
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.0
+	#Bonus Movement Speed.
+	movementSpeed = 0.027499999850988388
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.10000000149011612
+	#Bonus Step Height.
+	stepHeight = 0.5
+
+[MysticalPurpleFang]
+	#EP requirement to evolve into Mystical Purple Fang.
+	epRequirement = 200000.0
+	#The ability needed to evolve into Mystical Purple Fang.
+	abilityRequirement = "tensura:spatial_manipulation"
+	#Does the ability need to be mastered? (true/false)
+	abilityMasteryRequirement = true
+	#Minimal aura.
+	minAura = 125000.0
+	#Maximum aura.
+	maxAura = 125000.0
+	#Minimal magicule.
+	minMagicule = 125000.0
+	#Maximum magicule.
+	maxMagicule = 125000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 380.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 2320.0
+	#Bonus Attack Damage.
+	attack = 3.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.0
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.10000000149011612
+	#Bonus Movement Speed.
+	movementSpeed = 0.029999999329447746
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.30000001192092896
+	#Bonus Step Height.
+	stepHeight = 0.5
+
+[PlanetSpiritWolf]
+	#EP requirement to evolve into Planet Spirit Wolf.
+	epRequirement = 800000.0
+	#The ability needed to evolve into Planet Spirit Wolf.
+	abilityRequirement = "tensura:spatial_domination"
+	#Does the ability need to be mastered? (true/false)
+	abilityMasteryRequirement = true
+	#Minimal aura.
+	minAura = 425000.0
+	#Maximum aura.
+	maxAura = 425000.0
+	#Minimal magicule.
+	minMagicule = 425000.0
+	#Maximum magicule.
+	maxMagicule = 425000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 680.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 4360.0
+	#Bonus Attack Damage.
+	attack = 4.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.0
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.20000000298023224
+	#Bonus Movement Speed.
+	movementSpeed = 0.03999999910593033
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.4000000059604645
+	#Bonus Step Height.
+	stepHeight = 0.5
+
+[RedFang]
+	#EP requirement to evolve into Red Fang.
+	epRequirement = 10000.0
+	#Minimal aura.
+	minAura = 5250.0
+	#Maximum aura.
+	maxAura = 5250.0
+	#Minimal magicule.
+	minMagicule = 5250.0
+	#Maximum magicule.
+	maxMagicule = 5250.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 25.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 265.0
+	#Bonus Attack Damage.
+	attack = 3.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.10000000149011612
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.0
+	#Bonus Movement Speed.
+	movementSpeed = 0.027499999850988388
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.10000000149011612
+	#Bonus Step Height.
+	stepHeight = 0.5
+
+[MysticalRedFang]
+	#EP requirement to evolve into Mystical Red Fang.
+	epRequirement = 200000.0
+	#The ability needed to evolve into Mystical Red Fang.
+	abilityRequirement = "tensura:flame_manipulation"
+	#Does the ability need to be mastered? (true/false)
+	abilityMasteryRequirement = true
+	#Minimal aura.
+	minAura = 125000.0
+	#Maximum aura.
+	maxAura = 125000.0
+	#Minimal magicule.
+	minMagicule = 125000.0
+	#Maximum magicule.
+	maxMagicule = 125000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 380.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 2320.0
+	#Bonus Attack Damage.
+	attack = 3.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.0
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.10000000149011612
+	#Bonus Movement Speed.
+	movementSpeed = 0.029999999329447746
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.30000001192092896
+	#Bonus Step Height.
+	stepHeight = 0.5
+
+[VolcanicSpiritWolf]
+	#EP requirement to evolve into Volcanic Spirit Wolf.
+	epRequirement = 800000.0
+	#The ability needed to evolve into Volcanic Spirit Wolf.
+	abilityRequirement = "tensura:flame_domination"
+	#Does the ability need to be mastered? (true/false)
+	abilityMasteryRequirement = true
+	#Minimal aura.
+	minAura = 425000.0
+	#Maximum aura.
+	maxAura = 425000.0
+	#Minimal magicule.
+	minMagicule = 425000.0
+	#Maximum magicule.
+	maxMagicule = 425000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 680.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 4360.0
+	#Bonus Attack Damage.
+	attack = 4.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.0
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.20000000298023224
+	#Bonus Movement Speed.
+	movementSpeed = 0.03999999910593033
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.4000000059604645
+	#Bonus Step Height.
+	stepHeight = 0.5
+
+[DivineWolf]
+	#EP requirement to evolve into Divine Wolf.
+	epRequirement = 2000000.0
+	#Minimal aura.
+	minAura = 1000000.0
+	#Maximum aura.
+	maxAura = 1000000.0
+	#Minimal magicule.
+	minMagicule = 1000000.0
+	#Maximum magicule.
+	maxMagicule = 1000000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 1130.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 8625.0
+	#Bonus Attack Damage.
+	attack = 5.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.0
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.30000001192092896
+	#Bonus Movement Speed.
+	movementSpeed = 0.05000000074505806
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.625
+	#Bonus Step Height.
+	stepHeight = 0.5

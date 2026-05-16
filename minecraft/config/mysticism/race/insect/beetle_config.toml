@@ -1,0 +1,323 @@
+[Beetle]
+	#Minimal aura.
+	minAura = 1000.0
+	#Maximum aura.
+	maxAura = 2000.0
+	#Minimal magicule.
+	minMagicule = 2000.0
+	#Maximum magicule.
+	maxMagicule = 3000.0
+	#Bonus Size.
+	size = -0.6000000238418579
+	#Bonus Max Health.
+	maxHealth = 2.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 15.0
+	#Bonus Attack Damage.
+	attack = 1.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.0
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.0
+	#Bonus Movement Speed.
+	movementSpeed = 0.0
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.0
+
+[StagBeetle]
+	#EP requirement to evolve into Stag Beetle.
+	epRequirement = 10000.0
+	#Minimal aura.
+	minAura = 5250.0
+	#Maximum aura.
+	maxAura = 5250.0
+	#Minimal magicule.
+	minMagicule = 5250.0
+	#Maximum magicule.
+	maxMagicule = 5250.0
+	#Bonus Size.
+	size = -0.5
+	#Bonus Max Health.
+	maxHealth = 10.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 65.0
+	#Bonus Attack Damage.
+	attack = 1.5
+	#Bonus Attack Speed.
+	attackSpeed = 0.0
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.10000000149011612
+	#Bonus Movement Speed.
+	movementSpeed = 0.0
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.0
+
+[StagBeetleInsectar]
+	#EP requirement to evolve into Stag Beetle Insectar.
+	epRequirement = 100000.0
+	#Minimal aura.
+	minAura = 100000.0
+	#Maximum aura.
+	maxAura = 100000.0
+	#Minimal magicule.
+	minMagicule = 100000.0
+	#Maximum magicule.
+	maxMagicule = 100000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 80.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 655.0
+	#Bonus Attack Damage.
+	attack = 3.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.10000000149011612
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.20000000298023224
+	#Bonus Movement Speed.
+	movementSpeed = 0.009999999776482582
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.0
+
+[StagBeetleSavant]
+	#EP requirement to evolve into Stag Beetle Savant.
+	epRequirement = 400000.0
+	#The number of Bosses defeated to evolve into Stag Beetle Savant.
+	bossRequirement = 4
+	#Minimal aura.
+	minAura = 400000.0
+	#Maximum aura.
+	maxAura = 400000.0
+	#Minimal magicule.
+	minMagicule = 400000.0
+	#Maximum magicule.
+	maxMagicule = 400000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 280.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 1460.0
+	#Bonus Attack Damage.
+	attack = 5.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.20000000298023224
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.30000001192092896
+	#Bonus Movement Speed.
+	movementSpeed = 0.019999999552965164
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.5
+
+[FantasySoulInsect]
+	#EP requirement to evolve into Fantasy Soul Insect.
+	epRequirement = 400000.0
+	#The ability needed to evolve into Fantasy Soul Insect.
+	abilityRequirement = "tensura:magic_jamming"
+	#Minimal aura.
+	minAura = 400000.0
+	#Maximum aura.
+	maxAura = 400000.0
+	#Minimal magicule.
+	minMagicule = 400000.0
+	#Maximum magicule.
+	maxMagicule = 400000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 230.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 2230.0
+	#Bonus Attack Damage.
+	attack = 4.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.15000000596046448
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.30000001192092896
+	#Bonus Movement Speed.
+	movementSpeed = 0.019999999552965164
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.5
+
+[DivineStagBeetle]
+	#EP requirement to evolve into Divine Stag Beetle.
+	epRequirement = 2000000.0
+	#Minimal aura.
+	minAura = 1000000.0
+	#Maximum aura.
+	maxAura = 1000000.0
+	#Minimal magicule.
+	minMagicule = 1000000.0
+	#Maximum magicule.
+	maxMagicule = 1000000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 580.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 4320.0
+	#Bonus Attack Damage.
+	attack = 7.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.25
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.4000000059604645
+	#Bonus Movement Speed.
+	movementSpeed = 0.019999999552965164
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.699999988079071
+
+[DroneBeetle]
+	#EP requirement to evolve into Drone Beetle.
+	epRequirement = 10000.0
+	#Minimal aura.
+	minAura = 5250.0
+	#Maximum aura.
+	maxAura = 5250.0
+	#Minimal magicule.
+	minMagicule = 5250.0
+	#Maximum magicule.
+	maxMagicule = 5250.0
+	#Bonus Size.
+	size = -0.6499999761581421
+	#Bonus Max Health.
+	maxHealth = 15.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 45.0
+	#Bonus Attack Damage.
+	attack = 1.25
+	#Bonus Attack Speed.
+	attackSpeed = 0.20000000298023224
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.10000000149011612
+	#Bonus Movement Speed.
+	movementSpeed = 0.05000000074505806
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = -0.10000000149011612
+	#Bonus Flight Speed Multiplier.
+	flightSpeed = -0.01
+
+[DroneBeetleInsectar]
+	#EP requirement to evolve into Drone Beetle Insectar.
+	epRequirement = 100000.0
+	#Minimal aura.
+	minAura = 100000.0
+	#Maximum aura.
+	maxAura = 100000.0
+	#Minimal magicule.
+	minMagicule = 100000.0
+	#Maximum magicule.
+	maxMagicule = 100000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 130.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 825.0
+	#Bonus Attack Damage.
+	attack = 1.5
+	#Bonus Attack Speed.
+	attackSpeed = 0.5
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.20000000298023224
+	#Bonus Movement Speed.
+	movementSpeed = 0.07500000298023224
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.0
+	#Bonus Flight Speed Multiplier.
+	flightSpeed = 0.0
+
+[DroneBeetleSavant]
+	#EP requirement to evolve into Drone Beetle Savant.
+	epRequirement = 400000.0
+	#The number of Bosses defeated to evolve into Drone Beetle Savant.
+	bossRequirement = 4
+	#Minimal aura.
+	minAura = 400000.0
+	#Maximum aura.
+	maxAura = 400000.0
+	#Minimal magicule.
+	minMagicule = 400000.0
+	#Maximum magicule.
+	maxMagicule = 400000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 430.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 1835.0
+	#Bonus Attack Damage.
+	attack = 2.0
+	#Bonus Attack Speed.
+	attackSpeed = 1.0
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.30000001192092896
+	#Bonus Movement Speed.
+	movementSpeed = 0.10000000149011612
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.10000000149011612
+	#Bonus Flight Speed Multiplier.
+	flightSpeed = 0.0125
+
+[LightningSoulInsect]
+	#EP requirement to evolve into Lightning Soul Insect.
+	epRequirement = 400000.0
+	#The ability needed to evolve into Lightning Soul Insect.
+	abilityRequirement = "tensura:lightning_manipulation"
+	#Minimal aura.
+	minAura = 400000.0
+	#Maximum aura.
+	maxAura = 400000.0
+	#Minimal magicule.
+	minMagicule = 400000.0
+	#Maximum magicule.
+	maxMagicule = 400000.0
+	#Bonus Size.
+	size = -0.25
+	#Bonus Max Health.
+	maxHealth = 380.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 6265.0
+	#Bonus Attack Damage.
+	attack = 2.0
+	#Bonus Attack Speed.
+	attackSpeed = 1.5
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.30000001192092896
+	#Bonus Movement Speed.
+	movementSpeed = 0.15000000596046448
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.15000000596046448
+	#Bonus Flight Speed Multiplier.
+	flightSpeed = 0.02
+
+[DivineDroneBeetle]
+	#EP requirement to evolve into Divine Drone Beetle.
+	epRequirement = 2000000.0
+	#Minimal aura.
+	minAura = 1000000.0
+	#Maximum aura.
+	maxAura = 1000000.0
+	#Minimal magicule.
+	minMagicule = 1000000.0
+	#Maximum magicule.
+	maxMagicule = 1000000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 730.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 4705.0
+	#Bonus Attack Damage.
+	attack = 3.0
+	#Bonus Attack Speed.
+	attackSpeed = 2.0
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.4000000059604645
+	#Bonus Movement Speed.
+	movementSpeed = 0.20000000298023224
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.20000000298023224
+	#Bonus Flight Speed Multiplier.
+	flightSpeed = 0.025

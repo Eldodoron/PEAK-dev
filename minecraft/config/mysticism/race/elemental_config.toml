@@ -1,0 +1,207 @@
+[LesserElemental]
+	#Minimal aura.
+	minAura = 300.0
+	#Maximum aura.
+	maxAura = 500.0
+	#Minimal magicule.
+	minMagicule = 500.0
+	#Maximum magicule.
+	maxMagicule = 1000.0
+	#Bonus Size.
+	size = -0.75
+	#Bonus Max Health.
+	maxHealth = -12.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 120.0
+	#Bonus Attack Damage.
+	attack = -0.800000011920929
+	#Bonus Attack Speed.
+	attackSpeed = 0.0
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.0
+	#Bonus Movement Speed.
+	movementSpeed = 0.009999999776482582
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.0
+	#Bonus Flight Speed.
+	flightSpeed = -0.02500000037252903
+
+[MediumElemental]
+	#EP requirement to evolve into Medium Elemental.
+	epRequirement = 20000.0
+	#Minimal aura.
+	minAura = 11250.0
+	#Maximum aura.
+	maxAura = 11250.0
+	#Minimal magicule.
+	minMagicule = 11250.0
+	#Maximum magicule.
+	maxMagicule = 11250.0
+	#Bonus Size.
+	size = -0.5
+	#Bonus Max Health.
+	maxHealth = 5.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 425.0
+	#Bonus Attack Damage.
+	attack = -0.5
+	#Bonus Attack Speed.
+	attackSpeed = 0.10000000149011612
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.0
+	#Bonus Movement Speed.
+	movementSpeed = 0.019999999552965164
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.20000000298023224
+	#Bonus Flight Speed.
+	flightSpeed = -0.009999999776482582
+
+[GreaterElemental]
+	#EP requirement to evolve into Greater Elemental.
+	epRequirement = 200000.0
+	#Minimal aura.
+	minAura = 200000.0
+	#Maximum aura.
+	maxAura = 200000.0
+	#Minimal magicule.
+	minMagicule = 100000.0
+	#Maximum magicule.
+	maxMagicule = 100000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 180.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 1260.0
+	#Bonus Attack Damage.
+	attack = 0.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.20000000298023224
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.0
+	#Bonus Movement Speed.
+	movementSpeed = 0.019999999552965164
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.44999998807907104
+	#Bonus Flight Speed.
+	flightSpeed = 0.0
+
+[ElementalLord]
+	#EP requirement to evolve into Elemental Lord.
+	epRequirement = 800000.0
+	#Minimal aura.
+	minAura = 500000.0
+	#Maximum aura.
+	maxAura = 500000.0
+	#Minimal magicule.
+	minMagicule = 500000.0
+	#Maximum magicule.
+	maxMagicule = 500000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 430.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 8625.0
+	#Bonus Attack Damage.
+	attack = 1.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.3499999940395355
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.0
+	#Bonus Movement Speed.
+	movementSpeed = 0.019999999552965164
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.625
+	#Bonus Flight Speed.
+	flightSpeed = 0.0
+
+[MajinLord]
+	#EP requirement to evolve into Majin Lord.
+	epRequirement = 800000.0
+	#Minimal aura.
+	minAura = 400000.0
+	#Maximum aura.
+	maxAura = 400000.0
+	#Minimal magicule.
+	minMagicule = 600000.0
+	#Maximum magicule.
+	maxMagicule = 600000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 430.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 8625.0
+	#Bonus Attack Damage.
+	attack = 1.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.3499999940395355
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.0
+	#Bonus Movement Speed.
+	movementSpeed = 0.019999999552965164
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.625
+	#Bonus Flight Speed.
+	flightSpeed = 0.0
+
+[DivineElemental]
+	#EP requirement to evolve into Divine Elemental.
+	epRequirement = 2000000.0
+	#Minimal aura.
+	minAura = 1000000.0
+	#Maximum aura.
+	maxAura = 1000000.0
+	#Minimal magicule.
+	minMagicule = 1000000.0
+	#Maximum magicule.
+	maxMagicule = 1000000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 680.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 12630.0
+	#Bonus Attack Damage.
+	attack = 2.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.5
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.5
+	#Bonus Movement Speed.
+	movementSpeed = 0.10000000149011612
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.800000011920929
+	#Bonus Flight Speed.
+	flightSpeed = 0.0
+
+[DivineMajinElemental]
+	#EP requirement to evolve into Divine Majin Elemental.
+	epRequirement = 2000000.0
+	#Minimal aura.
+	minAura = 1000000.0
+	#Maximum aura.
+	maxAura = 1000000.0
+	#Minimal magicule.
+	minMagicule = 1000000.0
+	#Maximum magicule.
+	maxMagicule = 1000000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 680.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 12630.0
+	#Bonus Attack Damage.
+	attack = 2.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.5
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.5
+	#Bonus Movement Speed.
+	movementSpeed = 0.10000000149011612
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.800000011920929
+	#Bonus Flight Speed.
+	flightSpeed = 0.0

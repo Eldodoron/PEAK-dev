@@ -1,0 +1,7 @@
+#How long should the Rift take to naturally expire? (20 ticks is 1 second)
+#If you type in the number 0, the Rift will never naturally expire.
+# Default: 2400
+# Range: > 0
+"How many ticks to Rifts last?: " = 2400
+#Should the Rift disappear after being used once? (Using an Ender Pearl to use a rift lets you bypass this)
+"Should the Rift disappear on use?: " = false

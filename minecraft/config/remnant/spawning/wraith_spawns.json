@@ -1,0 +1,9 @@
+{
+  "enable_natural_spawning": "true",
+  "spawn_weight": 5.0,
+  "min_group_size": 1.0,
+  "max_group_size": 2.0,
+  "dimension_whitelist": "minecraft:overworld",
+  "dimension_blacklist": "minecraft:the_nether,minecraft:the_end",
+  "biome_blacklist": ""
+}

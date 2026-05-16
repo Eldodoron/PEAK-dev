@@ -1,0 +1,19 @@
+#IMPORTANT, This is not where you change relic stats.
+#To do that you need to enable enabledExtendedConfigs in relic.yaml and it will auto generate relic config files in config/morerelics/relics upon running the game once. You can change the values from there.
+#Although I DO NOT RECOMMEND doing that because it is a very buggy system. If you enable it, when I update the mod it will still try to fetch values from those files.
+#This means when I change stat values those won't affect your game and if I change/add an ability to a relic it will crash with "data is null".
+#To fix this you would need to delete the updated relics config file in config/morerelics/relics so it can regenerate correctly on your next launch.
+[General]
+	#The relics included here cannot have multiple copies worn.
+	#Some relics (e.g. Made in Heaven, Gravitum Gloves) are hardcoded to be that way due to interactions, bugs and cannot be changed.
+	#This config only works with More Relics relics.
+	#Format Example:["morerelics:guts_orb","morerelics:mass_gauntlet"]
+	blockWearingCopies = []
+
+[VertebraX]
+	#List of effects which can't be filtered/reduced by vertebrax.
+	excludedEffects = ["minecraft:levitation"]
+	#Pairs of effects which will grant the opposite version upon filtration.
+	#Format: 'modid:original_effect|modid:opposite_effect' Example: minecraft:weakness|minecraft:strength
+	#You can include modded effects here but first effect should be harmful and second effect should be beneficial or it won't work.
+	oppositeEffectMappings = ["minecraft:weakness|minecraft:strength", "minecraft:slowness|minecraft:speed", "minecraft:unluck|minecraft:luck", "minecraft:blindness|minecraft:night_vision", "minecraft:mining_fatigue|minecraft:haste", "morerelics:vulnerability|minecraft:resistance"]

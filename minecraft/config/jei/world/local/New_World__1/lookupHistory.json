@@ -1,0 +1,4 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"irons_spellbooks:scroll","components":{"irons_spellbooks:spell_container":{"mustEquip":false,"data":[{"id":"traveloptics:meteor_storm","index":0,"level":6,"locked":true}],"maxSpells":1,"spellWheel":false}}},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

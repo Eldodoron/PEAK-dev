@@ -1,0 +1,11 @@
+{
+  "conditions": [
+    {
+      "condition": "forge:false"
+    }
+  ],
+  "weight": 0,
+  "stack": {
+    "id": "minecraft:air"
+  }
+}

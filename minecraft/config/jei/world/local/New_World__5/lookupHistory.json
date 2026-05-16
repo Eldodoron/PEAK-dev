@@ -1,0 +1,6 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"irons_spellbooks:scroll","components":{"irons_spellbooks:spell_container":{"mustEquip":false,"data":[{"id":"traveloptics:cursed_revenants","index":0,"level":5,"locked":true}],"maxSpells":1,"spellWheel":false}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:tall_grass"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:short_grass"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

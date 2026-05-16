@@ -1,0 +1,7 @@
+[{"cosmetic_id":"","variant_name":"base","texture_url":"","is_default":true}, 
+ {"cosmetic_id":"ahat1","variant_name":"base","texture_url":"https://jochzgtpyiakdeivfxeq.supabase.co/storage/v1/object/public/cosmetic-textures//hat1.png","is_default":true}, 
+ {"cosmetic_id":"crown1","variant_name":"base","texture_url":"https://jochzgtpyiakdeivfxeq.supabase.co/storage/v1/object/public/cosmetic-textures//crown1.png","is_default":true}, 
+ {"cosmetic_id":"crown1","variant_name":"silver_crown","texture_url":"https://jochzgtpyiakdeivfxeq.supabase.co/storage/v1/object/public/cosmetic-textures//crown2.png","is_default":false}, 
+ {"cosmetic_id":"headwear2","variant_name":"base","texture_url":"https://jochzgtpyiakdeivfxeq.supabase.co/storage/v1/object/public/cosmetic-textures//hat2.png","is_default":true}, 
+ {"cosmetic_id":"headwear3","variant_name":"base","texture_url":"https://jochzgtpyiakdeivfxeq.supabase.co/storage/v1/object/public/cosmetic-textures//hat3.png","is_default":true}, 
+ {"cosmetic_id":"headwear4","variant_name":"base","texture_url":"https://jochzgtpyiakdeivfxeq.supabase.co/storage/v1/object/public/cosmetic-textures//hat4.png","is_default":true}]

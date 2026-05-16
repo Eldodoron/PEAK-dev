@@ -1,0 +1,7 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"aeronautics:levitite"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"boss:neurolit"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"boss:neurolit_plate"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"boss:neuralit_chestplate"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

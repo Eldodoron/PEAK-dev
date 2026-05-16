@@ -1,0 +1,4 @@
+[{"cosmetic_id":"ahat1","segment_name":"extra","mask_texture_url":"https://jochzgtpyiakdeivfxeq.supabase.co/storage/v1/object/public/cosmetic-textures//hat1_custom_extra.png"}, 
+ {"cosmetic_id":"ahat1","segment_name":"main","mask_texture_url":"https://jochzgtpyiakdeivfxeq.supabase.co/storage/v1/object/public/cosmetic-textures//hat1_custom_main.png"}, 
+ {"cosmetic_id":"crown1","segment_name":"cage","mask_texture_url":"https://jochzgtpyiakdeivfxeq.supabase.co/storage/v1/object/public/cosmetic-textures//crown1_cage.png"}, 
+ {"cosmetic_id":"crown1","segment_name":"cap","mask_texture_url":"https://jochzgtpyiakdeivfxeq.supabase.co/storage/v1/object/public/cosmetic-textures//crown1_cap.png"}]

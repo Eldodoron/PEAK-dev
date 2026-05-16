@@ -1,0 +1,161 @@
+[GreaterDoll]
+	#Minimal aura.
+	minAura = 15000.0
+	#Maximum aura.
+	maxAura = 25000.0
+	#Minimal magicule.
+	minMagicule = 30000.0
+	#Maximum magicule.
+	maxMagicule = 60000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 50.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 200.0
+	#Bonus Attack Damage.
+	attack = 1.2000000476837158
+	#Bonus Attack Speed.
+	attackSpeed = 0.0
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.4
+	#Bonus Movement Speed.
+	movementSpeed = 0.0
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.0
+
+[ArchDoll]
+	#EP requirement to evolve into Arch Daemon.
+	epRequirement = 140000.0
+	#Minimal aura.
+	minAura = 45000.0
+	#Maximum aura.
+	maxAura = 50000.0
+	#Minimal magicule.
+	minMagicule = 130000.0
+	#Maximum magicule.
+	maxMagicule = 160000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 90.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 606.0
+	#Bonus Attack Damage.
+	attack = 2.4000000953674316
+	#Bonus Attack Speed.
+	attackSpeed = 0.2
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.6
+	#Bonus Movement Speed.
+	movementSpeed = 0.01
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.1
+
+[ChaosDoll]
+	#Minimal aura.
+	minAura = 125000.0
+	#Maximum aura.
+	maxAura = 325000.0
+	#Minimal magicule.
+	minMagicule = 275000.0
+	#Maximum magicule.
+	maxMagicule = 600000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 680.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 4606.0
+	#Bonus Attack Damage.
+	attack = 4.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.6000000238418579
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.8
+	#Bonus Movement Speed.
+	movementSpeed = 0.04
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.4
+	#Bonus Armor.
+	armor = 5.0
+
+[ChaosMetalloid]
+	#Minimal aura.
+	minAura = 1005000.0
+	#Maximum aura.
+	maxAura = 1010000.0
+	#Minimal magicule.
+	minMagicule = 1060000.0
+	#Maximum magicule.
+	maxMagicule = 1100000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 1050.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 6606.0
+	#Bonus Attack Damage.
+	attack = 5.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.8
+	#Bonus Knockback Resistance.
+	knockbackResistance = 1.0
+	#Bonus Movement Speed.
+	movementSpeed = 0.08
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.8
+	#Bonus Armor
+	armor = 10.0
+
+[DaemonDoll]
+	#Minimal aura.
+	minAura = 105000.0
+	#Maximum aura.
+	maxAura = 310000.0
+	#Minimal magicule.
+	minMagicule = 250000.0
+	#Maximum magicule.
+	maxMagicule = 550000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 630.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 3606.0
+	#Bonus Attack Damage.
+	attack = 3.5
+	#Bonus Attack Speed.
+	attackSpeed = 0.5
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.8
+	#Bonus Movement Speed.
+	movementSpeed = 0.04
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.4
+
+[DevilDoll]
+	#Minimal aura.
+	minAura = 1005000.0
+	#Maximum aura.
+	maxAura = 1010000.0
+	#Minimal magicule.
+	minMagicule = 1060000.0
+	#Maximum magicule.
+	maxMagicule = 1100000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 1036.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 6606.0
+	#Bonus Attack Damage.
+	attack = 4.5
+	#Bonus Attack Speed.
+	attackSpeed = 0.7
+	#Bonus Knockback Resistance.
+	knockbackResistance = 1.0
+	#Bonus Movement Speed.
+	movementSpeed = 0.08
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.8

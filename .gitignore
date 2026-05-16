@@ -1,0 +1,42 @@
+# Minecraft Modpack Gitignore
+
+# Mods (Demasiado grandes para GitHub)
+minecraft/mods/*.jar
+!minecraft/mods/*.txt
+!minecraft/mods/*.json
+
+# Datos de juego y temporales
+minecraft/saves/
+minecraft/logs/
+minecraft/screenshots/
+minecraft/crash-reports/
+minecraft/blueprints/
+minecraft/schematics/
+minecraft/shaderpacks/
+minecraft/resourcepacks/
+minecraft/.mixin.out/
+minecraft/.sable/
+minecraft/cache/
+minecraft/downloads/
+minecraft/dynamic-data-pack-cache/
+minecraft/dynamic-resource-pack-cache/
+minecraft/local/
+minecraft/debug/
+
+# Archivos de caché y específicos de usuario
+minecraft/usercache.json
+minecraft/usernamecache.json
+minecraft/supportercache.json
+minecraft/options.txt
+minecraft/patchouli_data.json
+minecraft/ponders_watched.json
+
+# Prism Launcher
+# instance.cfg se incluye pero ten en cuenta que puede contener rutas locales de Java
+# .git es ignorado por defecto por git
+
+# Otros
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db

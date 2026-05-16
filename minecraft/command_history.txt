@@ -1,0 +1,8 @@
+/time set day
+/spark tps
+/spark profiler start
+/time set night
+/spark profiler stop
+/spark profiler start
+/spark tps
+/spark profiler start-

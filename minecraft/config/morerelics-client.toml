@@ -1,0 +1,12 @@
+["Weaver's Spool"]
+	#The corner which the silk bar is rendered at.
+	#Allowed Values: TOP_LEFT, TOP_RIGHT, BOTTOM_LEFT, BOTTOM_RIGHT
+	silkBarCorner = "BOTTOM_RIGHT"
+
+[Cyberpsychosis]
+	#Disguises some passive and neutral mobs as hostile entities while the Cyberpsychosis effect is active.
+	cyberpsychosisDisguiseEffect = true
+
+["Wonder of U"]
+	#The black and white + outline effect of nullification.
+	nullificationVisualEffect = true

@@ -1,0 +1,313 @@
+[Mantis]
+	#Minimal aura.
+	minAura = 1000.0
+	#Maximum aura.
+	maxAura = 2000.0
+	#Minimal magicule.
+	minMagicule = 2000.0
+	#Maximum magicule.
+	maxMagicule = 3000.0
+	#Bonus Size.
+	size = -0.699999988079071
+	#Bonus Max Health.
+	maxHealth = 6.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 45.0
+	#Bonus Attack Damage.
+	attack = 1.0
+	#Bonus Attack Speed.
+	attackSpeed = 1.0
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.0
+	#Bonus Movement Speed.
+	movementSpeed = 0.0
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = -0.30000001192092896
+
+[LixivantMantis]
+	#EP requirement to evolve into Lixivant Mantis.
+	epRequirement = 10000.0
+	#Minimal aura.
+	minAura = 5250.0
+	#Maximum aura.
+	maxAura = 5250.0
+	#Minimal magicule.
+	minMagicule = 5250.0
+	#Maximum magicule.
+	maxMagicule = 5250.0
+	#Bonus Size.
+	size = -0.6000000238418579
+	#Bonus Max Health.
+	maxHealth = 12.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 90.0
+	#Bonus Attack Damage.
+	attack = 2.0
+	#Bonus Attack Speed.
+	attackSpeed = 1.0
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.10000000149011612
+	#Bonus Movement Speed.
+	movementSpeed = 0.0
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = -0.20000000298023224
+
+[LixivantMantisInsectar]
+	#EP requirement to evolve into Lixivant Mantis Insectar.
+	epRequirement = 100000.0
+	#Minimal aura.
+	minAura = 100000.0
+	#Maximum aura.
+	maxAura = 100000.0
+	#Minimal magicule.
+	minMagicule = 100000.0
+	#Maximum magicule.
+	maxMagicule = 100000.0
+	#Bonus Size.
+	size = -0.4000000059604645
+	#Bonus Max Health.
+	maxHealth = 80.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 420.0
+	#Bonus Attack Damage.
+	attack = 2.5
+	#Bonus Attack Speed.
+	attackSpeed = 1.0
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.0
+	#Bonus Movement Speed.
+	movementSpeed = 0.0
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = -0.10000000149011612
+
+[LixivantMantisSavant]
+	#EP requirement to evolve into Lixivant Mantis Savant.
+	epRequirement = 400000.0
+	#The number of Bosses defeated to evolve into Lixivant Mantis Savant.
+	bossRequirement = 4
+	#Minimal aura.
+	minAura = 400000.0
+	#Maximum aura.
+	maxAura = 400000.0
+	#Minimal magicule.
+	minMagicule = 400000.0
+	#Maximum magicule.
+	maxMagicule = 400000.0
+	#Bonus Size.
+	size = -0.25
+	#Bonus Max Health.
+	maxHealth = 330.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 2030.0
+	#Bonus Attack Damage.
+	attack = 4.5
+	#Bonus Attack Speed.
+	attackSpeed = 1.0
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.0
+	#Bonus Movement Speed.
+	movementSpeed = 0.0
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.0
+
+[CorrosionSoulInsect]
+	#EP requirement to evolve into Corrosion Soul Insect.
+	epRequirement = 400000.0
+	#The ability needed to evolve into Corrosion Soul Insect.
+	abilityRequirement = "tensura:ranged_barrier"
+	#Minimal aura.
+	minAura = 400000.0
+	#Maximum aura.
+	maxAura = 400000.0
+	#Minimal magicule.
+	minMagicule = 400000.0
+	#Maximum magicule.
+	maxMagicule = 400000.0
+	#Bonus Size.
+	size = -0.25
+	#Bonus Max Health.
+	maxHealth = 280.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 2480.0
+	#Bonus Attack Damage.
+	attack = 4.0
+	#Bonus Attack Speed.
+	attackSpeed = 1.0
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.0
+	#Bonus Movement Speed.
+	movementSpeed = 0.02500000037252903
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.0
+
+[DivineLixivantMantis]
+	#EP requirement to evolve into Divine Lixivant Mantis.
+	epRequirement = 2000000.0
+	#Minimal aura.
+	minAura = 1000000.0
+	#Maximum aura.
+	maxAura = 1000000.0
+	#Minimal magicule.
+	minMagicule = 1000000.0
+	#Maximum magicule.
+	maxMagicule = 1000000.0
+	#Bonus Size.
+	size = -0.10000000149011612
+	#Bonus Max Health.
+	maxHealth = 630.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 4750.0
+	#Bonus Attack Damage.
+	attack = 5.0
+	#Bonus Attack Speed.
+	attackSpeed = 1.2000000476837158
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.0
+	#Bonus Movement Speed.
+	movementSpeed = 0.03999999910593033
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.0
+
+[PreyingMantis]
+	#EP requirement to evolve into Preying Mantis.
+	epRequirement = 10000.0
+	#Minimal aura.
+	minAura = 5250.0
+	#Maximum aura.
+	maxAura = 5250.0
+	#Minimal magicule.
+	minMagicule = 5250.0
+	#Maximum magicule.
+	maxMagicule = 5250.0
+	#Bonus Size.
+	size = -0.6000000238418579
+	#Bonus Max Health.
+	maxHealth = 15.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 120.0
+	#Bonus Attack Damage.
+	attack = 1.5
+	#Bonus Attack Speed.
+	attackSpeed = 1.2000000476837158
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.0
+	#Bonus Movement Speed.
+	movementSpeed = 0.019999999552965164
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = -0.20000000298023224
+
+[PreyingMantisInsectar]
+	#EP requirement to evolve into Preying Mantis Insectar.
+	epRequirement = 100000.0
+	#Minimal aura.
+	minAura = 100000.0
+	#Maximum aura.
+	maxAura = 100000.0
+	#Minimal magicule.
+	minMagicule = 100000.0
+	#Maximum magicule.
+	maxMagicule = 100000.0
+	#Bonus Size.
+	size = -0.4000000059604645
+	#Bonus Max Health.
+	maxHealth = 130.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 780.0
+	#Bonus Attack Damage.
+	attack = 2.0
+	#Bonus Attack Speed.
+	attackSpeed = 1.5
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.0
+	#Bonus Movement Speed.
+	movementSpeed = 0.03500000014901161
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = -0.10000000149011612
+
+[PreyingMantisSavant]
+	#EP requirement to evolve into Preying Mantis Savant.
+	epRequirement = 400000.0
+	#The number of Bosses defeated to evolve into Preying Mantis Savant.
+	bossRequirement = 4
+	#Minimal aura.
+	minAura = 400000.0
+	#Maximum aura.
+	maxAura = 400000.0
+	#Minimal magicule.
+	minMagicule = 400000.0
+	#Maximum magicule.
+	maxMagicule = 400000.0
+	#Bonus Size.
+	size = -0.25
+	#Bonus Max Health.
+	maxHealth = 380.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 1730.0
+	#Bonus Attack Damage.
+	attack = 2.5
+	#Bonus Attack Speed.
+	attackSpeed = 1.7999999523162842
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.0
+	#Bonus Movement Speed.
+	movementSpeed = 0.07000000029802322
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.0
+
+[SteelSoulInsect]
+	#EP requirement to evolve into Steel Soul Insect.
+	epRequirement = 400000.0
+	#The ability needed to evolve into Steel Soul Insect.
+	abilityRequirement = "tensura:ranged_barrier"
+	#Minimal aura.
+	minAura = 400000.0
+	#Maximum aura.
+	maxAura = 400000.0
+	#Minimal magicule.
+	minMagicule = 400000.0
+	#Maximum magicule.
+	maxMagicule = 400000.0
+	#Bonus Size.
+	size = -0.25
+	#Bonus Max Health.
+	maxHealth = 355.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 2320.0
+	#Bonus Attack Damage.
+	attack = 2.25
+	#Bonus Attack Speed.
+	attackSpeed = 1.649999976158142
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.0
+	#Bonus Movement Speed.
+	movementSpeed = 0.03999999910593033
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.0
+
+[DivinePreyingMantis]
+	#EP requirement to evolve into Divine Preying Mantis.
+	epRequirement = 2000000.0
+	#Minimal aura.
+	minAura = 1000000.0
+	#Maximum aura.
+	maxAura = 1000000.0
+	#Minimal magicule.
+	minMagicule = 1000000.0
+	#Maximum magicule.
+	maxMagicule = 1000000.0
+	#Bonus Size.
+	size = -0.10000000149011612
+	#Bonus Max Health.
+	maxHealth = 680.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 4860.0
+	#Bonus Attack Damage.
+	attack = 3.0
+	#Bonus Attack Speed.
+	attackSpeed = 2.0
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.0
+	#Bonus Movement Speed.
+	movementSpeed = 0.10000000149011612
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.0

@@ -1,0 +1,4 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"irons_jewelry:necklace","components":{"irons_jewelry:jewelry_data":{"pattern":"irons_jewelry:simple_chain","parts":{"irons_jewelry:chain_simple":"irons_jewelry:netherite"}},"minecraft:item_name":"{\"translate\":\"pattern.irons_jewelry.simple_chain.item\",\"with\":[{\"translate\":\"material.irons_jewelry.netherite\"}]}"}},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

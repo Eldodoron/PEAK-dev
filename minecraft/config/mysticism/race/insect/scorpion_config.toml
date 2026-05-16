@@ -1,0 +1,313 @@
+[Scorpion]
+	#Minimal aura.
+	minAura = 1000.0
+	#Maximum aura.
+	maxAura = 2000.0
+	#Minimal magicule.
+	minMagicule = 2000.0
+	#Maximum magicule.
+	maxMagicule = 3000.0
+	#Bonus Size.
+	size = -0.699999988079071
+	#Bonus Max Health.
+	maxHealth = 5.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 40.0
+	#Bonus Attack Damage.
+	attack = 2.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.0
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.0
+	#Bonus Movement Speed.
+	movementSpeed = 0.0
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.0
+
+[LoxodromeScorpion]
+	#EP requirement to evolve into Loxodrome Scorpion.
+	epRequirement = 10000.0
+	#Minimal aura.
+	minAura = 5250.0
+	#Maximum aura.
+	maxAura = 5250.0
+	#Minimal magicule.
+	minMagicule = 5250.0
+	#Maximum magicule.
+	maxMagicule = 5250.0
+	#Bonus Size.
+	size = -0.6000000238418579
+	#Bonus Max Health.
+	maxHealth = 14.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 110.0
+	#Bonus Attack Damage.
+	attack = 3.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.0
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.0
+	#Bonus Movement Speed.
+	movementSpeed = 0.014999999664723873
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.0
+
+[LoxodromeScorpionInsectar]
+	#EP requirement to evolve into Loxodrome Scorpion Insectar.
+	epRequirement = 100000.0
+	#Minimal aura.
+	minAura = 100000.0
+	#Maximum aura.
+	maxAura = 100000.0
+	#Minimal magicule.
+	minMagicule = 100000.0
+	#Maximum magicule.
+	maxMagicule = 100000.0
+	#Bonus Size.
+	size = -0.4000000059604645
+	#Bonus Max Health.
+	maxHealth = 120.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 730.0
+	#Bonus Attack Damage.
+	attack = 4.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.0
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.0
+	#Bonus Movement Speed.
+	movementSpeed = 0.019999999552965164
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.0
+
+[LoxodromeScorpionSavant]
+	#EP requirement to evolve into Loxodrome Scorpion Savant.
+	epRequirement = 400000.0
+	#The number of Bosses defeated to evolve into Loxodrome Scorpion Savant.
+	bossRequirement = 4
+	#Minimal aura.
+	minAura = 400000.0
+	#Maximum aura.
+	maxAura = 400000.0
+	#Minimal magicule.
+	minMagicule = 400000.0
+	#Maximum magicule.
+	maxMagicule = 400000.0
+	#Bonus Size.
+	size = -0.20000000298023224
+	#Bonus Max Health.
+	maxHealth = 340.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 1680.0
+	#Bonus Attack Damage.
+	attack = 4.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.0
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.0
+	#Bonus Movement Speed.
+	movementSpeed = 0.029999999329447746
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.0
+
+[PoisonSoulInsect]
+	#EP requirement to evolve into Poison Soul Insect.
+	epRequirement = 400000.0
+	#Ability requirement to evolve into Poison Soul Insect.
+	abilityRequirement = "tensura:ranged_barrier"
+	#Minimal aura.
+	minAura = 400000.0
+	#Maximum aura.
+	maxAura = 400000.0
+	#Minimal magicule.
+	minMagicule = 400000.0
+	#Maximum magicule.
+	maxMagicule = 400000.0
+	#Bonus Size.
+	size = -0.20000000298023224
+	#Bonus Max Health.
+	maxHealth = 280.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 2200.0
+	#Bonus Attack Damage.
+	attack = 3.5
+	#Bonus Attack Speed.
+	attackSpeed = 0.0
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.0
+	#Bonus Movement Speed.
+	movementSpeed = 0.02500000037252903
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.0
+
+[DivineLoxodromeScorpion]
+	#EP requirement to evolve into Divine Loxodrome Scorpion.
+	epRequirement = 2000000.0
+	#Minimal aura.
+	minAura = 1000000.0
+	#Maximum aura.
+	maxAura = 1000000.0
+	#Minimal magicule.
+	minMagicule = 1000000.0
+	#Maximum magicule.
+	maxMagicule = 1000000.0
+	#Bonus Size.
+	size = -0.10000000149011612
+	#Bonus Max Health.
+	maxHealth = 650.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 4060.0
+	#Bonus Attack Damage.
+	attack = 5.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.0
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.0
+	#Bonus Movement Speed.
+	movementSpeed = 0.03999999910593033
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.0
+
+[SingularityScorpion]
+	#EP requirement to evolve into Singularity Scorpion.
+	epRequirement = 10000.0
+	#Minimal aura.
+	minAura = 5250.0
+	#Maximum aura.
+	maxAura = 5250.0
+	#Minimal magicule.
+	minMagicule = 5250.0
+	#Maximum magicule.
+	maxMagicule = 5250.0
+	#Bonus Size.
+	size = -0.6000000238418579
+	#Bonus Max Health.
+	maxHealth = 12.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 100.0
+	#Bonus Attack Damage.
+	attack = 1.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.20000000298023224
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.10000000149011612
+	#Bonus Movement Speed.
+	movementSpeed = 0.019999999552965164
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.0
+
+[SingularityScorpionInsectar]
+	#EP requirement to evolve into Singularity Scorpion Insectar.
+	epRequirement = 100000.0
+	#Minimal aura.
+	minAura = 100000.0
+	#Maximum aura.
+	maxAura = 100000.0
+	#Minimal magicule.
+	minMagicule = 100000.0
+	#Maximum magicule.
+	maxMagicule = 100000.0
+	#Bonus Size.
+	size = -0.4000000059604645
+	#Bonus Max Health.
+	maxHealth = 70.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 680.0
+	#Bonus Attack Damage.
+	attack = 2.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.30000001192092896
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.20000000298023224
+	#Bonus Movement Speed.
+	movementSpeed = 0.029999999329447746
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.0
+
+[SingularityScorpionSavant]
+	#EP requirement to evolve into Singularity Scorpion Savant.
+	epRequirement = 400000.0
+	#The number of Bosses defeated to evolve into Singularity Scorpion Savant.
+	bossRequirement = 4
+	#Minimal aura.
+	minAura = 400000.0
+	#Maximum aura.
+	maxAura = 400000.0
+	#Minimal magicule.
+	minMagicule = 400000.0
+	#Maximum magicule.
+	maxMagicule = 400000.0
+	#Bonus Size.
+	size = -0.20000000298023224
+	#Bonus Max Health.
+	maxHealth = 250.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 1420.0
+	#Bonus Attack Damage.
+	attack = 3.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.4000000059604645
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.30000001192092896
+	#Bonus Movement Speed.
+	movementSpeed = 0.04500000178813934
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.0
+
+[GravitySoulInsect]
+	#EP requirement to evolve into Gravity Soul Insect.
+	epRequirement = 400000.0
+	#Ability requirement to evolve into Gravity Soul Insect.
+	abilityRequirement = "tensura:gravity_manipulation"
+	#Minimal aura.
+	minAura = 400000.0
+	#Maximum aura.
+	maxAura = 400000.0
+	#Minimal magicule.
+	minMagicule = 400000.0
+	#Maximum magicule.
+	maxMagicule = 400000.0
+	#Bonus Size.
+	size = -0.20000000298023224
+	#Bonus Max Health.
+	maxHealth = 210.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 1990.0
+	#Bonus Attack Damage.
+	attack = 2.5
+	#Bonus Attack Speed.
+	attackSpeed = 0.30000001192092896
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.02500000037252903
+	#Bonus Movement Speed.
+	movementSpeed = 0.03999999910593033
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.0
+
+[DivineSingularityScorpion]
+	#EP requirement to evolve into Divine Singularity Scorpion.
+	epRequirement = 2000000.0
+	#Minimal aura.
+	minAura = 1000000.0
+	#Maximum aura.
+	maxAura = 1000000.0
+	#Minimal magicule.
+	minMagicule = 1000000.0
+	#Maximum magicule.
+	maxMagicule = 1000000.0
+	#Bonus Size.
+	size = -0.10000000149011612
+	#Bonus Max Health.
+	maxHealth = 530.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 3580.0
+	#Bonus Attack Damage.
+	attack = 3.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.5
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.4000000059604645
+	#Bonus Movement Speed.
+	movementSpeed = 0.05000000074505806
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.0

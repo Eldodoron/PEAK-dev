@@ -1,0 +1,21 @@
+{
+  "entity.boss.shadow_lord": "Shadow Lord",
+  "entity.boss.acsoul": "Acsoul",
+  "entity.boss.aksolnedr": "Aksolnedr",
+  "entity.boss.ten": "Shadow",
+  "entity.boss.crysstall_bomb": "Crystal Bomb",
+  "entity.boss.mrstone": "Mr. Stone",
+  "item.boss.shadow_lord_spawn_egg": "Shadow Lord Spawn Egg",
+  "item.boss.ten_spawn_egg": "Shadow Spawn Egg",
+  "item.boss.mrstone_spawn_egg": "Mr. Stone Spawn Egg",
+  "item.boss.aksolnedr_spawn_egg": "Aksolnedr Spawn Egg",
+  "item.boss.acsoul_spawn_egg": "Acsoul Spawn Egg",
+  "item.boss.crysstall_bomb_spawn_egg": "Crystal Bomb Spawn Egg",
+  "advancements.shadow_lorddost.title": "Shadow Lord Slayer",
+  "advancements.shadow_lorddost.descr": "Defeat the Shadow Lord",
+  "gui.boss.prokachka_ui.label_sila": "Power",
+  "gui.boss.prokachka_ui.label_zashita": "Protection",
+  "gui.boss.prokachka_ui.label_zdorovie": "Health",
+  "gui.boss.prokachka_ui.label_uluchshkniia_piersonazha": "Character Improvements",
+  "gui.boss.prokachka_ui.label_supier_pieriezariad": "Super Recharge"
+}

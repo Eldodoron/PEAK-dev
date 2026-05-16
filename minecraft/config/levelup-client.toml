@@ -1,0 +1,13 @@
+[hud]
+	#Show an animated LevelUP progress bar at the top center of the HUD when LevelUP XP increases.
+	showTopCenterLevelOverlay = true
+	#Show temporary LevelUP HUD popups from XP updates/custom HUD events.
+	showTemporaryLevelOverlay = true
+	#Where to draw the LevelUP HUD: top or bottom.
+	levelHudPosition = "top"
+	#Keep the LevelUP HUD visible even when no recent XP gain is animating.
+	levelHudStayOnScreen = false
+	#Hex color used for the LevelUP progress fill and level text.
+	levelHudColor = "#53a4bc"
+	#Show the LevelUP progress bar inside the inventory screen.
+	showInventoryLevelBar = true

@@ -1,0 +1,963 @@
+[Butcher]
+	#Magicule Acquirement Cost.
+	mpAcquirement = 80000.0
+	#The magicule cost of the Heighten mode.
+	heightenCost = 1500.0
+	#The magicule cost of the Rupture mode.
+	ruptureCost = 2500.0
+	#The number of marks required on an entity to trigger the Rupture mode.
+	ruptureMarkRequirement = 15
+	#The cooldown of the Rupture mode in seconds.
+	ruptureCooldown = 30
+	#Should the cooldown be per target or flat? TRUE for "per target", FALSE for flat cooldown.
+	ruptureCooldownMode = true
+	#The magicule cost of 血淋林的爱.
+	"血淋林的爱Cost" = 3000.0
+	#The cooldown of the 血淋林的爱 Art in seconds.
+	"血淋林的爱Cooldown" = 120
+	#The number of marks required to gain a charge of the 血淋林的爱 Art.
+	"血淋林的爱MarkRequirement" = 20
+	#The amount of charges you gain when killing an enemy that meets the above threshold defined.
+	chargesGained = 1
+
+[Captivator]
+	#Magicule Acquirement Cost.
+	mpAcquirement = 60000.0
+	#Magicule cost of Performance mode.
+	mpPerformanceCost = 250.0
+	#The cooldown of the Performance mode in seconds.
+	performanceCooldown = 60
+	#The range for the Performance mode in blocks.
+	performanceRange = 20
+	#Magicule cost of Masquerade mode.
+	mpMasqueradeCost = 300.0
+	#The cooldown of the Masquerade mode in seconds.
+	masqueradeCooldown = 30
+	#The range for the Masquerade mode in blocks.
+	masqueradeRange = 15
+	#Magicule cost of Unveil mode.
+	mpUnveilCost = 500.0
+	#The cooldown of the Unveil mode in seconds.
+	unveilCooldown = 30
+	#The range in blocks for Unveil
+	unveilRange = 15
+	#Magicule cost of Star Power Mode.
+	mpStarPowerCost = 1000.0
+	#The cooldown of the Star Power mode in seconds.
+	starPowerCooldown = 40
+
+[Coalescence]
+	#Magicule Acquirement Cost.
+	mpAcqiurement = 90000.0
+	#The magicule cost of the Fixation mode.
+	fixationCost = 1000.0
+	#The range of the Fixation mode in blocks.
+	fixationRange = 10
+	#The range of the Fixation mode in blocks when the skill is mastered.
+	fixationRangeMastery = 15
+	#The duration of the Fixation effect in ticks (seconds x 20).
+	fixationDuration = 200
+	#The duration of the Fixation effect in ticks (seconds x 20).
+	fixationDurationMastered = 400
+	#The cooldown of the Fixation mode in seconds.
+	fixationCooldown = 30
+	#The cooldown of the Fixation mode in seconds when the skill is mastered.
+	fixationCooldownMastered = 15
+	#The cooldown of the Fixation mode when the user misses.
+	fixationMissCooldown = 5
+	#The cooldown of the Fixation mode when the user misses and the skill is mastered.
+	fixationMissCooldownMastered = 5
+	#The magicule cost of the Solidification mode.
+	solidificationCost = 1000.0
+	#The cooldown of the solidification mode in seconds.
+	solidificationCooldown = 20
+	#The cooldown of the solidification mode in seconds when the skill is mastered.
+	solidificationCooldownMastered = 10
+	#The cooldown of the solidification shield in ticks.
+	solidificationShieldDuration = 400
+	#The cooldown of the solidification shield in ticks when the skill is mastered.
+	solidificationShieldDurationMastered = 800
+	#The magiule cost of the Eternal Domain art.
+	eternalDomainCost = 10000.0
+	#The radius of Eternal Domain in blocks.
+	eternalDomainRange = 8
+	#The radius of Eternal Domain in blocks when the skill is mastered.
+	eternalDomainRangeMastered = 16
+	#How long in ticks (seconds x 20) the Eternal Domain should last.
+	eternalDomainLife = 400
+	#How long in ticks (seconds x 20) the Eternal Domain should last when the skill is mastered.
+	eternalDomainLifeMastered = 800
+	#The cooldown of the Eternal Domain art in seconds.
+	eternalDomainCooldown = 180
+	#The cooldown of the Eternal Domain art in seconds when the skill is mastered.
+	eternalDomainCooldownMastered = 90
+
+[Constant]
+	#Magicule Acquirement Cost.
+	mpAcquirement = 40000.0
+	#Magicule cost of the Constant: Health mode.
+	constantHealthCost = 1000.0
+	#Magicule cost of the Constant: Health mode that drains every second (20 ticks).
+	constantHealthTickCost = 1000.0
+	#The maximum amount of time in ticks (multiply seconds by 20) that you can hold down Constant: Health for.
+	constantHealthHeldTicks = 300
+	#The maximum amount of time in ticks (multiply seconds by 20) that you can hold down Constant: Health for when the skill is mastered.
+	constantHealthHeldTicksMastered = 300
+	#The cooldown of the Constant: Health mode.
+	constantHealthCooldown = 15
+	#The cooldown of the Constant: Health mode when the skill is mastered.
+	constantHealthCooldownMastered = 15
+	#Magicule cost of the Constant: Physical mode.
+	constantPhysicalCost = 0.0
+	#How long should the timer for Constant: Physical run for in ticks.
+	constantPhysicalTimer = 100
+	#The cooldown of the Constant: Physical mode.
+	constantPhysicalCooldown = 10
+	#The cooldown of the Constant: Physical mode.
+	constantPhysicalCooldownMastered = 10
+	#Magicule cost of the Constant: Destruction mode.
+	constantDestructionCost = 3000.0
+	#The maximum amount of time in ticks (multiply seconds by 20) that you can hold down Constant: Destruction for.
+	constantDestructionHeldTicks = 200
+	#The maximum amount of time in ticks (multiply seconds by 20) that you can hold down Constant: Destruction for when the skill is mastered.
+	constantDestructionHeldTicksMastered = 200
+	#The cooldown of the Constant: Destruction mode.
+	constantDestructionCooldown = 20
+	#The cooldown of the Constant: Destruction mode when the skill is mastered.
+	constantDestructionCooldownMastered = 20
+	#Magicule cost of the Constant: Energy mode.
+	constantEnergyCost = 1000.0
+
+[Corroder]
+	#Magicule Acquirement Cost.
+	mpAcquirement = 25000.0
+	#The level of Corrosion you apply when performing a melee attack when the skill is in slot.
+	meleeCorrosionLevel = 2
+	#The level of Corrosion you apply when performing a melee attack when the skill is mastered and in slot.
+	meleeCorrosionLevelMastered = 3
+	#The amount of time in ticks of the the Corrosion effect when performing a melee attack when the skill is in slot. (Take seconds times 20.)
+	meleeCorrosionDuration = 200
+	#The amount of time in ticks of the Corrosion effect when performing a melee attack when the skill is mastered and in slot. (Take seconds times 20.)
+	meleeCorrosionDurationMastered = 300
+	#The magicule cost of the Dissolve mode, taken every 10 ticks.
+	dissolveCost = 100.0
+	#The radius of your corrosion damage from the Dissolve mode.
+	dissolveRadius = 10
+	#The radius of your corrosion damage from the Dissolve mode when the skill is mastered.
+	dissolveRadiusMastered = 15
+	#The damage of your corrosion from the Dissolve mode.
+	dissolveDamage = 10.0
+	#The damage of your corrosion from the Dissolve mode when the skill is mastered.
+	dissolveDamageMastered = 15.0
+	#The level of Corrosion you apply from the Dissolve mode.
+	dissolveCorrosionLevel = 1
+	#The level of Corrosion you apply from the Dissolve mode.
+	dissolveCorrosionLevelMastered = 2
+	#The amount of time in ticks of the Corrosion effect from the Dissolve mode. (Take seconds times 20.)
+	dissolveCorrosionDuration = 200
+	#The amount of time in ticks of the Corrosion effect from the Dissolve mode when the skill is mastered. (Take seconds times 20.)
+	dissolveCorrosionDurationMastered = 300
+	#The magicule cost of the Cross Corrosion mode.
+	crossCorrosionCost = 1000.0
+	#The damage multiplier of your next attack when Cross Corrosion is used.
+	crossCorrosionMultiplier = 2.0
+	#The cooldown of Cross Corrosion in seconds.
+	crossCorrosionCooldown = 20
+	#The cooldown of Cross Corrosion in seconds when the skill is mastered.
+	crossCorrosionCooldownMastered = 15
+
+[Crasher]
+	#Magicule Acquirement Cost.
+	mpAcquirement = 45000.0
+	#The magicule cost of the Destroyer Haki mode, taken every 10 ticks.
+	destroyerHakiCost = 250.0
+	#The radius in blocks of the Destroyer Haki mode.
+	destroyerHakiRadius = 15
+	#The multiplier of EP that an entity needs to have below to be affected by the Destroyer Haki's movement speed reduction.
+	destroyerHakiEP = 0.6
+	#The multiplier of EP that an entity needs to have below to be affected by Destroyer Haki's movement speed reduction when mastered.
+	destroyerHakiEPMastered = 0.8
+	#The EP difference multiplier for each Slowness Level when applied by Destroyer Haki.
+	epDifferenceMultiplier = 0.1
+	#The damage that Destroyer Haki will deal every 20 ticks (one second).
+	destroyerHakiDamage = 25.0
+	#The damage that Destroyer Haki will deal every 20 ticks (one second) when the skill is mastered.
+	destroyerHakiDamageMastered = 50.0
+	#The chance that Insanity is applied to the USER every 60 ticks when Destroyer Haki is used.
+	insanityChance = 20
+	#The increasing level of Insanity when it is applied to the USER when Destroyer Haki is used.
+	insanityLevel = 1
+	#The duration in tick of the Insanity effect when the USER is affected by Destroyer Haki.
+	insanityDuration = 200
+	#The duration in tick of the Slowness effect when targets are affected by Destroyer Haki.
+	slowDuration = 200
+	#The duration in tick of the Slowness effect when targets are affected by Destroyer Haki when [Crasher] is mastered..
+	slowDurationMastered = 250
+	#The magicule cost of the Dimension Hopper mode.
+	dimensionHopperCost = 1000.0
+	#The cooldown of the Dimension Hopper mode.
+	dimensionHopperCooldown = 600
+	#The cooldown of the Dimension Hopper mode when the skill is mastered.
+	dimensionHopperCooldownMastered = 300
+
+[Cultivator]
+	#Magicule Acquirement Cost.
+	mpAcquirement = 80000.0
+	#The physical attack damage boost when in Slot.
+	attackBoost = 50.0
+	#The physical attack damage boost when in Slot with mastery.
+	attackBoostMastered = 100.0
+	#The ammount of mob kills needed to start Cultivation.
+	mobKillsNeeded = 1000
+	#The cooldown on Breakthrough when it completes.
+	breakthroughCooldown = 3600
+	#How long cultivation lasts in ticks (seconds x 20).
+	cultivationTimer = 6000
+	#The amount of mastery the user gains when successfully breaking through.
+	breakthroughMasteryGain = 100
+	#The bonus Magicule percentage the user gains.
+	magiculePercentage = 10.0
+	#The bonus Magicule percentage the user gains with Mastery.
+	magiculePercentageMastered = 15.0
+	#The multiplicative magicule gain the user receives while in the middle of Breaking Through.
+	cultivationMPMultiplier = 3.0
+
+[Disintegration]
+	#The Magicule cost of the Disintegration mode.
+	disintegrationCost = 250000.0
+	#Can this skill be used in survival? (True for yes, false for no).
+	survivalUsable = false
+	#Should this skill have a cooldown?
+	haveCooldown = false
+	#The cooldown of the Disintegration mode if the user successfully hits a target in seconds.
+	disintegrationCooldown = 1800
+	#The cooldown of the Disintegration mode if the user successfully hits a target in seconds, when the skill is mastered.
+	disintegrationCooldownMastered = 1200
+	#The cooldown incurred on the Disintegration mode if the user does not hit a target.
+	disintegrationCooldownMiss = 30
+	#The cooldown incurred on the Disintegration mode if the user does not hit a target, when the skill is mastered.
+	disintegrationCooldownMissMastered = 15
+
+[Dreamer]
+	#Magicule Acquirement Cost.
+	mpAcquirement = 60000.0
+	#The percentage of magicules that will be recovered every 5 seconds.
+	magiculeRecovery = 0.5
+	#The percentage of magicules that will be recovered every 5 seconds when the skill is mastered.
+	magiculeRecoveryMastered = 1.0
+	#The draining mode of magicules when the Dream mode is used. FALSE for percentage cost. TRUE for flat cost.
+	drainMode = false
+	#The percentage of magicules that will be drained from the user to set a dream, IF drainMode above is set to false.
+	dreamSetPercentageCost = 25.0
+	#The flat cost of magicules that will be drained from the user to set a dream, IF drainMode above is set to true.
+	dreamSetFlatCost = 750.0
+	#The amount of magicules used when a dream is activated.
+	dreamActivateCost = 0.0
+	#The amount of magicules that the Hypnosis mode drains every second it is active.
+	hypnosisCost = 150.0
+	#The amount of magicules that the Dream Eater mode drains when it is used.
+	dreamEaterCost = 300.0
+	#The cooldown of the Dream mode after it has been activated.
+	dreamCooldown = 300
+	#The cooldown of the Dream mode after it has been activated, when the skill is mastered.
+	dreamCooldownMastered = 120
+	#The radius of the Hypnosis mode in blocks.
+	hypnosisRadius = 10.0
+	#The radius of the Hypnosis mode in blocks when the skill is mastered.
+	hypnosisRadiusMastered = 15.0
+	#The duration of the Drowsiness effect in ticks (seconds x 20).
+	hypnosisDuration = 200
+	#The duration of the Drowsiness effect in ticks when the skill is mastered (seconds x 20).
+	hypnosisDurationMastered = 300
+	#The effect level of the Drowsiness effect when applied by Hypnosis.
+	hypnosisLevel = 1
+	#The effect level of the Drowsiness effect when applied by Hypnosis when the skill is mastered.
+	hypnosisLevelMastered = 2
+	#The range of the Dream Eater mode in blocks.
+	dreamEaterRange = 15
+	#The range of the Dream Eater mode in blocks when the skill is mastered.
+	dreamEaterRangeMastered = 20
+	#The range of the Dream Eater mode in blocks.
+	dreamEaterDamage = 30
+	#The range of the Dream Eater mode in blocks when the skill is mastered.
+	dreamEaterDamageMastered = 50
+	#The range of the Dream Eater mode in blocks.
+	dreamEaterSpiritualDamage = 30
+	#The range of the Dream Eater mode in blocks when the skill is mastered.
+	dreamEaterSpiritualDamageMastered = 50
+	#The number of seconds that Dream Eater reduces the cooldown of Dream by.
+	dreamEaterDreamCooldownReduction = 15
+	#The number of seconds that Dream Eater reduces the cooldown of Dream by when the skill is mastered.
+	dreamEaterDreamCooldownReductionMastered = 15
+
+[Engineer]
+	#Magicule Acquirement Cost.
+	mpAcquirement = 50000.0
+	#The magicule cost of the Build mode when placing a Sentry.
+	buildSentryCost = 500.0
+	#The magicule cost of the Build mode when placing a Sentry, when the skill is mastered.
+	buildSentryCostMastered = 500.0
+	#The magicule cost of the Build mode when placing a Dispenser.
+	buildDispenserCost = 500.0
+	#The magicule cost of the Build mode when placing a Dispenser, when the skill is mastered.
+	buildDispenserCostMastered = 500.0
+	#The magicule cost of the Bubble Shield mode.
+	bubbleShieldCost = 1000.0
+	#The magicule cost of the Bubble Shield mode when the skill is mastered.
+	bubbleShieldCostMastered = 1000.0
+	#The cooldown in seconds of the Bubble Shield mode.
+	bubbleShieldCooldown = 25
+	#The cooldown in seconds of the Bubble Shield mode when the skill is mastered.
+	bubbleShieldCooldownMastered = 15
+	#The lifespan of the Bubble Shield, in ticks (seconds x 20. 600 = 30 seconds).
+	bubbleShieldLifespan = 200
+	#The lifespan of the Bubble Shield when the skill is mastered, in ticks (seconds x 20. 600 = 30 seconds).
+	bubbleShieldLifespanMastered = 600
+
+[Gardener]
+	#Magicule Acquirement Cost.
+	mpAcquirement = 40000.0
+	#The magicules taken every 5 seconds for the Crop Mastery passive.
+	cropMasteryCost = 100.0
+	#The chance for a crop to grow to the next stage every 5 seconds when Crop Mastery is triggered.
+	cropMasteryChance = 50.0
+	#The chance for a Hipokute plant to grow to the next stage every 5 seconds when Crop Mastery is triggered.
+	cropMasteryChanceHipokute = 10.0
+	#The chance for a crop to grow to the next stage every 5 seconds when Crop Mastery is triggered.
+	cropMasteryChanceMastered = 75.0
+	#The chance for a Hipokute plant to grow to the next stage every 5 seconds when Crop Mastery is triggered.
+	cropMasteryChanceHipokuteMastered = 20.0
+	#The amount of crops you need to grow to gain a charge for Overgrow.
+	overgrowCropRequirement = 25
+	#The magicule cost of the Blessing mode, for each item in the stack (blessingCost * stack amount = MP cost).
+	blessingCost = 250.0
+	#The magicule cost of the Blessing mode when the skill is mastered, for each item in the stack (blessingCostMastered * stack amount = MP cost).
+	blessingCostMastered = 500.0
+	#The cooldown of the Blessing mode in seconds.
+	blessingCooldown = 3
+	#The cooldown of the Blessing mode in seconds when the skill is mastered.
+	blessingCooldownMastered = 1
+	#The effect granted to the food stack when Blessing is used at dawn.
+	dawnBlessingEffect = "tensura:strengthen"
+	#The effect level granted to the consumer of the food stack when Blessing is used at dawn.
+	dawnEffectLevel = 3
+	#The duration of the effect granted to the consumer of the food stack when Blessing is used at dawn.
+	dawnDuration = 3600
+	#The effect level granted to the consumer of the food stack when Blessing is used at dawn when Gardener is mastered.
+	dawnEffectLevelMastered = 5
+	#The duration of the effect granted to the consumer of the food stack when Blessing is used at dawn when Gardener is mastered.
+	dawnDurationMastered = 6000
+	#The effect granted to the food stack when Blessing is used at noon.
+	noonBlessingEffect = "minecraft:resistance"
+	#The effect level granted to the consumer of the food stack when Blessing is used at noon.
+	noonEffectLevel = 1
+	#The duration of the effect granted to the consumer of the food stack when Blessing is used at noon.
+	noonDuration = 3600
+	#The effect level granted to the consumer of the food stack when Blessing is used at noon when Gardener is mastered.
+	noonEffectLevelMastered = 2
+	#The duration of the effect granted to the consumer of the food stack when Blessing is used at noon when Gardener is mastered.
+	noonDurationMastered = 3600
+	#The effect granted to the food stack when Blessing is used at night.
+	nightBlessingEffect = "minecraft:speed"
+	#The effect level granted to the consumer of the food stack when Blessing is used at night.
+	nightEffectLevel = 3
+	#The duration of the effect granted to the consumer of the food stack when Blessing is used at night.
+	nightDuration = 3600
+	#The effect level granted to the consumer of the food stack when Blessing is used at night when Gardener is mastered.
+	nightEffectLevelMastered = 5
+	#The duration of the effect granted to the consumer of the food stack when Blessing is used at night when Gardener is mastered.
+	nightDurationMastered = 6000
+	#The cooldown of the Overgrow mode in seconds.
+	overgrowCooldown = 300
+	#The duration that Overgrow lasts for, in ticks (seconds x 20).
+	overgrowDuration = 500
+
+[HiddenRuler]
+	#Magicule Acquirement Cost.
+	mpAcquirement = 50000.0
+	#The Magicule cost of Hidden Ruler's toggled passive.
+	vanishMagiculeCost = 50.0
+	#The Aura cost of Hidden Ruler's toggled passive.
+	vanishAuraCost = 0.0
+	#The radius in blocks of the Inspiration effect provided by Hidden Ruler to nearby allies.
+	inspireRadius = 15.0
+	#The cooldown that is applied if there is no target for either Copy or Paste.
+	noTargetCooldown = 5
+	#The FLAT cost of the Copy mode when attempting to copy a skill from the target.
+	copyCost = 1000.0
+	#The cooldown of the Copy mode.
+	copyCooldown = 10
+	#The cooldown of the Copy mode when the skill is mastered.
+	copyCooldownMastered = 10
+	#The chance for the Copy mode to pass.
+	copyChance = 25
+	#The chance for the Copy mode to pass when the skill is mastered.
+	copyChanceMastered = 50
+	#The cooldown of the Copy mode when a failure is encountered.
+	copyFailedCooldown = 10
+	#The EP threshold that is checked when the user is weaker than the target when the Copy mode is used.
+	failureThreshold = 2.0
+	#The EP threshold that is checked when the user is weaker than the target when the Copy mode is used and the skill is mastered.
+	failureThresholdMastered = 2.5
+	#The FLAT cost of the Paste mode when attempting to paste a skill onto the target.
+	pasteCost = 1000.0
+	#The cooldown of the Paste mode.
+	pasteCooldown = 10
+	#The cooldown of the Paste mode when the skill is mastered.
+	pasteCooldownMastered = 10
+	#The chance for the Paste mode to pass.
+	pasteChance = 25
+	#The chance for the Paste mode to pass when the skill is mastered.
+	pasteChanceMastered = 50
+	#The cooldown of the Paste mode when a failure is encountered.
+	pasteFailedCooldown = 10
+	#How many magicules should be taken from the user when attempting to Charm a target?.
+	darknessConscriptionCost = 1000.0
+	#The light level that both the target AND user MUST be under to successfully charm the target with Darkness Conscription.
+	lightLevel = 5
+	#The cooldown of the Darkness Conscription mode.
+	darknessConscriptionCooldown = 10
+	#The cooldown of the Darkness Conscription mode when the skill is mastered.
+	darknessConscriptionCooldownMastery = 10
+
+[Kyurem]
+	#EP Needed to Obtain.
+	epRequirement = 100000.0
+	#Amount of Ice Essence needed eaten.
+	iceEssenceAmount = 10
+	#Amount of Dragon Essence needed eaten.
+	dragonEssenceAmount = 10
+	#Magicule Acquirement Cost.
+	mpAcquirement = 64600.0
+	#Pressure Effect Duration in Seconds
+	pressureEffectDuration = 30
+	#Pressure Cost Multiplier.
+	pressureCostMultiplier = 2.0
+	#Magicule cost for the Glaciate Mode.
+	glaciateMPCost = 900.0
+	#Range of Glaciate Mode in blocks
+	glaciateRange = 15
+	#The amount of incremented damage for Glaciate mode per 10 seconds
+	glaciateDamageIncrement = 10
+	#The Max Damage Glaciate can deal when Mastered.
+	glaciateMaxDamageMastered = 200
+	#The Max Damage Glaciate can deal.
+	glaciateMaxDamage = 100
+	#Cooldown of Glaciate Mode.
+	glaciateCooldown = 30
+	#Magicule cost for the Draconic Pulse Mode.
+	draconicPulseMPCost = 700.0
+	#Draconic Pulse Damage.
+	draconicPulseDamage = 40.0
+	#Draconic Pulse Explosion Radius.
+	draconicPulseExplosionRadius = 7.5
+	#Draconic Pulse Cooldown.
+	draconicPulseCooldown = 10
+	#Draconic Pulse Cooldown Mastered.
+	draconicPulseCooldownMastered = 5
+	#Magicule cost for the Freeze Dry Mode.
+	freezeDryMPCost = 800.0
+	#Damage of Freeze Dry Mode.
+	freezeDryDamage = 20.0
+	#Cooldown of Freeze Dry Mode.
+	freezeDryCooldown = 20
+	#Cooldown of Freeze Dry Mode when Mastered.
+	freezeDryCooldownMastered = 10
+	#Magicule cost for the Blizzard Mode.
+	blizzardMPCost = 900.0
+	#Blizzard Damage.
+	blizzardDamage = 40.0
+	#Cooldown of Blizzard.
+	blizzardCooldown = 10
+	#Radius of Blizzard
+	blizzardRadius = 7.5
+
+[Looter]
+	#Magicule Acquirement Cost.
+	mpAcquirement = 50000.0
+	#Targeting range in blocks for turning a soul into a shadow.
+	range = 5.0
+	#The radius in blocks of the Return mode of Shadow Storage.
+	radiusReturn = 15.0
+
+[Malleable]
+	#Magicule Acquirement Cost.
+	mpAcquirement = 50000.0
+	#The bonus learning points gained towards Earth-type abilities AND Resist-type skills when the skill is toggled on.
+	learningPoint = 4
+	#The bonus mastery points gained towards Earth-type abilities AND Resist-type skills when the skill is toggled on.
+	masteryPoint = 4
+	#The duration of the Alchemy mode in ticks when the skill is NOT mastered.
+	alchemyDuration = 200
+	#The cooldown of the Alchemy mode in seconds.
+	alchemyCooldown = 10
+	#If true, Alchemy becomes toggleable on mastery. If false, it follows a cooldown that you can change below.
+	alchemyToggleableMastery = true
+	#The cooldown of the Alchemy mode in seconds when the skill is mastered.
+	alchemyCooldownMastered = 10
+	#The cooldown of the Harden mode in seconds.
+	hardenCooldown = 120
+	#The cooldown of the Harden mode in seconds when the skill is mastered.
+	hardenCooldownMastered = 60
+	#The maximum duration the Harden mode can be used for in ticks (seconds multiplied by 20.)
+	maximumHardenDuration = 200
+	#The level of the respective effects you gain while Harden is active.
+	regenerationLevel = 5
+	resistanceLevel = 2
+	#The maximum duration the Harden mode can be used for in ticks (seconds multiplied by 20.)
+	maximumHardenDurationMastery = 300
+	#Should the Harden mode disable attack/movement speed? False if they should not.
+	hardenShouldDisableAttack = true
+	hardenShouldDisableMovement = true
+	#The amount of armor points that should be granted to the user when the Harden mode is used.
+	hardenArmorPoints = 10
+	#The cooldown of the Vessel mode in seconds.
+	vesselCooldown = 60
+
+[Melancholy]
+	#Magicule Acquirement Cost.
+	mpAcquirement = 100000.0
+	#Flat magicule cost when using Melancholy (per press/activation).
+	magiculeCost = 750.0
+	#Default targeting range in blocks for Throw+.
+	defaultRange = 15.0
+	#Range of Ishtar's Tear.
+	ishaRange = 10.0
+	#Range of Ishtar's Tear when the skill is mastered.
+	ishaRangeMastered = 15.0
+	#Level of slowness given to entities other than the user.
+	ishaLevel = 4
+	#Level of slowness given to the user.
+	ishaLevelUser = 2
+	#Level of resistance given to the user.
+	ishaResistLevel = 2
+	#Radius of the Veil mode.
+	veilKnockbackRadius = 12
+	#Level of slowness given to entities when Veil is used.
+	veilSlownessLevel = 10
+	#Level of slowness given to entities when Veil is used.
+	veilBurdenLevel = 4
+	#Radius of the Grief mode.
+	griefKnockbackRadius = 8
+	#Level of blindness and weakness given to entities when Grief is used.
+	griefEffectLevel = 2
+	#Maximum adjustable targeting range in blocks.
+	maxRange = 50.0
+	#Base push velocity scale applied to entities when using Throw+.
+	pushEntity = 1.4
+	#Base pull velocity scale applied to entities when using Throw+ while sneaking.
+	pullEntity = 1.1
+	#Additional push scale when Gravity Manipulation is toggled.
+	pushEntityManipulation = 0.25
+	#Additional push scale when Gravity Domination is toggled.
+	pushEntityDomination = 0.45
+	#Additional pull scale when Gravity Manipulation is toggled.
+	pullEntityManipulation = 0.2
+	#Additional pull scale when Gravity Domination is toggled.
+	pullEntityDomination = 0.4
+	#Base damage for thrown ITEM projectiles (arrows/spears/kunai/custom) when not mastered.
+	itemThrowDamage = 6.0
+	#Base damage for thrown ITEM projectiles (arrows/spears/kunai/custom) when mastered.
+	itemThrowDamageMastered = 9.0
+	#Base damage for AIR throws (empty hand) when not mastered.
+	airThrowDamage = 4.0
+	#Base damage for AIR throws (empty hand) when mastered.
+	airThrowDamageMastered = 6.0
+	#Damage multiplier applied to thrown items when Gravity Manipulation is toggled.
+	itemThrowManipulation = 1.25
+	#Damage multiplier applied to thrown items when Gravity Domination is toggled.
+	itemThrowDomination = 1.5
+
+[Phaser]
+	#Magicule Acquirement Cost.
+	mpAcquirement = 72000.0
+	#The level of presence sense gained when toggling on the skill.
+	presenceSense = 2.0
+	#The Magicule cost of the Eye of Insight passive.
+	eyeOfInsightCost = 50.0
+	#The maximum number of abilities you can use without rest before you are forced on cooldowns from overuse.
+	overuseCap = 10
+	#The cooldown of the Intangibility passive in seconds.
+	intangibilityPassiveCooldown = 15
+	#The cooldown of the Intangibility active in seconds, which only becomes available when the skill is mastered.
+	intangibilityActiveCooldown = 15
+	#How long should the player phase through all attacks in ticks (seconds x 20).
+	intangibilityDuration = 100
+	#The magicule cost of the Intangibility active mode.
+	intangibilityActiveCost = 100
+	#The magicule cost of the Intangibility passive mode.
+	intangibilityPassiveCost = 100
+	#The amount of damage that an ejected item from Phaser's portals should deal.
+	itemEjectDamage = 20.0
+	#The amount of damage that an ejected item from Phaser's portals should deal when the skill is mastered.
+	itemEjectDamageMastered = 30.0
+	#The time taken for the portals to prime before you can shoot in ticks (seconds x 20).
+	ejectChargeTicks = 60
+	#The time taken for the portals to prime before you can shoot in ticks when the skill is mastered (seconds x 20).
+	ejectChargeTicksMastered = 30
+	#The magicule cost of each portal that is opened when the Eject mode is used.
+	ejectCost = 200
+	#The time in ticks (seconds x 20) that it takes for the user to warp into the Kamui dimension.
+	kamuiWarpTicks = 60
+	#The cooldown of the Authority Of The Gods mode in seconds.
+	kamuiCooldown = 5
+	#The magicule cost of the Authority Of The Gods mode.
+	kamuiCost = 1500
+
+[Provider]
+	#Magicule Acquirement Cost.
+	mpAcquirement = 85000.0
+	#The initial magicule cost of Provider's Generosity Halo when it is summoned.
+	generosityHaloCost = 1000.0
+	#The magicule cost of Provider's Generosity Halo every subsequent second it is summoned.
+	generosityHaloCostSecond = 500.0
+	#The lifespan of the Generosity Halo entity in ticks.
+	generosityHaloLifespan = 72000
+	#The damage multiplier that all projectiles receive when passing through Provider's Generosity Halo.
+	generosityBoost = 3.0
+	#The damage multiplier that all entities receive when gaining the Provider Boost effect from passing through Provider's Generosity Halo.
+	generosityEntityDamageBoost = 3.0
+	#The speed multiplier that all entities receive when gaining the Provider Boost effect from passing through Provider's Generosity Halo.
+	generosityEntitySpeedBoost = 3.0
+	#The step height that all entities receive when gaining the Provider Boost effect from passing through Provider's Generosity Halo.
+	generosityEntityStepHeightBoost = 3.0
+	#The cooldown for the Generosity mode in seconds.
+	generosityCooldown = 5
+	#The cooldown for the Generosity mode in seconds when the skill is mastered..
+	generosityCooldownMastery = 5
+	#The cooldown of the Pay It Forward mode in seconds.
+	payItForwardCooldown = 300
+	#The cooldown of the Pay It Forward mode in seconds when the skill is mastered.
+	payItForwardCooldownMastered = 300
+	#The magicule cost to turn on Provider's Pay It Forward mode.
+	payItForwardCost = 1500.0
+	#The magicule cost of Provider's Pay It Forward mode every subsequent second it is toggled.
+	payItForwardCostTicking = 750.0
+	#The following values are the contributions required to reach the next tier.
+	contributionsTier1 = 1000
+	contributionsTier2 = 2500
+	contributionsTier3 = 5000
+	contributionsTier4 = 25000
+	contributionsTier5 = 100000
+
+[Reducer]
+	#Magicule Acquirement Cost.
+	mpAcquisition = 90000.0
+	#The percentage of energy cost reduction you receive when Reducer is toggled on.
+	purificationReduction = 0.5
+	#The percentage of energy cost reduction you receive when Reducer is toggled on, when the skill is mastered.
+	purificationReductionMastered = 0.33
+	#The ADDITIONAL multiplier (base 1) of magicule regeneration you receive when Reducer is in slot.
+	magiculeRegenerationMultiplierBuff = 9.0
+	#The ADDITIONAL multiplier (base 1) of aura regeneration you receive when Reducer is in slot.
+	auraRegenerationMultiplierBuff = 9.0
+	#The magicule cost to toggle on the Emancipation mode.
+	emancipationCost = 2000.0
+	#The magicule cost to maintain the Emancipation mode.
+	emancipationMaintainCost = 300.0
+	#The multiplier of Holy Damage the user will deal when Emancipation is toggled on.
+	emancipationMultiplier = 1.75
+	#The magicule cost of the Purity Edge mode.
+	purityEdgeCost = 10000.0
+	#The percentage of health that will be drained from the target on connecting with Purity Edge.
+	purityEdgeDamagePercentage = 0.25
+	#The percentage of health that will be drained from the target on connecting with Purity Edge when the skill is mastered.
+	purityEdgeDamagePercentageMastered = 0.5
+	#The time you have to connect a hit before suffering the recoil damage in ticks.
+	purityEdgeRecoilTime = 60
+	#The time you have to connect a hit before suffering the recoil damage in ticks when the skill is mastered.
+	purityEdgeRecoilTimeMastered = 100
+	#The cooldown of the Purity Edge mode in seconds.
+	purityEdgeCooldown = 120
+	#The cooldown of the Purity Edge mode in seconds when the skill is mastered.
+	purityEdgeCooldownMastered = 60
+	#The recoil of the Purity Edge mode if you do not land a hit in time.
+	purityEdgeRecoil = 0.75
+	#The recoil of the Purity Edge mode if you do not land a hit in time when the skill is mastered.
+	purityEdgeRecoilMastered = 0.25
+
+[Repeater]
+	#Magicule Acquirement Cost
+	mpAcquirement = 75000.0
+	#How long should Recursion Depth last, in ticks (seconds x 20).
+	recursionDepthTimer = 100
+	#The cooldown of the Recursion Depth mode.
+	recursionDepthCooldown = 30
+	#The cooldown of the Recursion Depth mode when the skill is mastered.
+	recursionDepthCooldownMastered = 15
+
+[Reshiram]
+	#EP Needed to Obtain.
+	epRequirement = 100000.0
+	#Amount of Blaze Essence needed eaten.
+	blazeEssenceAmount = 10
+	#Amount of Dragon Essence needed eaten.
+	dragonEssenceAmount = 10
+	#Magicule Acquirement Cost.
+	mpAcquirement = 64300.0
+	#The amount to boost Flame Damage by.
+	flameBoostAmount = 2.0
+	#MP Cost of Blue Flare.
+	blueFlareMPCost = 800.0
+	#Damage of Blue Flare.
+	blueFlareDamage = 60.0
+	#Radius of Blue Flare.
+	blueFlareRadius = 20.0
+	#Cooldown of Blue Flare.
+	blueFlareCooldown = 10
+	#Cooldown of Blue Flare when Mastered.
+	blueFlareCooldownMastered = 5
+	#MP Cost of Fusion Flare.
+	fusionFlareMPCost = 700.0
+	#MP Cost of Fusion Flare with Zekrom boosted from Original Cost.
+	fusionFlareZekromMPCostBoost = 2.0
+	#Damage of Fusion Flare.
+	fusionFlareDamage = 200.0
+	#Radius of Fusion Flare.
+	fusionFlareRadius = 5.0
+	#Damage of Fusion Flare Zekrom Bonus
+	fusionFlareZekromBonus = 40.0
+	#Cooldown of Fusion Flare.
+	fusionFlareCooldown = 20
+	#MP Cost of Draconic Meteor.
+	draconicMeteorMPCost = 1000.0
+	#Damage of Draconic Meteor.
+	draconicMeteorDamage = 70.0
+	#Explosion Radius of Draconic Meteor.
+	draconicMeteorExplosionRadius = 10.0
+	#Knockback Force of Draconic Meteor.
+	draconicMeteorKnockbackForce = 5.0
+	#Cooldown of Draconic Meteor.
+	draconicMeteorCooldown = 20
+	#MP Cost of Flamethrower.
+	flamethrowerMPCost = 400.0
+	#Damage of Flamethrower.
+	flamethrowerDamage = 30.0
+	#Cooldown of Flamethrower.
+	flamethrowerCooldown = 10
+
+[Restricted]
+	#Magicule Acquirement Cost.
+	mpAcquirement = 20000.0
+	#Damage multiplier of Battlewills.
+	battlewillMultiplier = 5.0
+	#Damage multiplier of Physical Attacks.
+	physicalAttackMultiplier = 3.0
+	#Maximum additional multiplier that your stats can be boosted to depending on the skill's mastery.
+	maximumStatBoost = 2.0
+	#Maximum additional flat boost that your armor stat can be boosted to depending on the skill's mastery.
+	maximumFlatStatBoost = 20.0
+	#The distance traveled when performing an attack using Decimate.
+	decimateDistance = 12
+	#The distance traveled when performing an attack using Decimate when the skill is mastered.
+	decimateDistanceMastered = 16
+	#The amount of bonus damage dealt when performing an attack using Decimate.
+	decimateDamage = 25.0
+	#The amount of bonus damage dealt when performing an attack using Decimate when the skill is mastered.
+	decimateDamageMastered = 75.0
+	#The duration that your Counter state lasts in ticks (seconds x 20).
+	counterStateDuration = 60
+	#The duration that your Counter state lasts in ticks (seconds x 20) when the skill is mastered.
+	counterStateDurationMastered = 100
+	#The duration that enemies become Imbalanced for when striking you while you are Countering.
+	counterImbalanceDuration = 100
+	#The duration that enemies become Imbalanced for when striking you while you are Countering, when the skill is mastered.
+	counterImbalanceDurationMastered = 100
+	#The cooldown of the Counter mode in seconds.
+	counterCooldown = 15
+	#The cooldown of the Counter mode in seconds when the skill is mastered.
+	counterCooldownMastered = 15
+
+[Saint]
+	#Magicule Acquirement Cost.
+	mpAcquirement = 75000.0
+	#The Magicule cost of the Compassion passive.
+	compassionCost = 10000.0
+
+[Scholar]
+	#Magicule Acquirement Cost.
+	mpAcquirement = 35000.0
+	#The bonus number of learning point to gain when toggled.
+	learningPoint = 6.0
+	#The bonus number of mastery point to gain when toggled.
+	masteryPoint = 6.0
+	#The chance to study the opponent when they attack you.
+	studyChance = 20
+	#The base dodge chance without studying the opponent.
+	studyDodgeBase = 0
+	#The study points that translate into dodge chance you gain towards that entity type whenever you successfully study them.
+	studyDodgePerPoint = 1
+	#The maximum amount of dodge chance you can gain against players.
+	studyDodgePlayerMax = 50
+	#The maximum amount of dodge chance you can gain against players when the skill is mastered.
+	studyDodgePlayerMaxMastered = 70
+	#The maximum amount of dodge chance you can gain against a specific entity type.
+	studyDodgeEntityMax = 75
+	#The maximum amount of dodge chance you can gain against a specific entity type when the skill is mastered.
+	studyDodgeEntityMaxMastered = 100
+	#Lists of enchantments that Scholar cannot learn or enchant.
+	enchantmentBlacklist = ["tensura:dead_end_rainbow", "tensura:holy_coat", "tensura:magic_interference", "tensura:tsukumogami", "tensura:barrier_piercing", "tensura:breathing_support", "tensura:crushing", "tensura:energy_steal", "tensura:elemental_boost", "tensura:elemental_resistance", "tensura:energy_protection", "tensura:holy_weapon", "tensura:intangibility", "tensura:magic_weapon", "tensura:magicule_absorption", "tensura:magic_capacity", "tensura:magic_protection", "tensura:severance", "tensura:slotting", "tensura:soul_eater", "tensura:spiritual_protection", "tensura:severance_protection", "tensura:sturdy", "tensura:swift", "tensura:enervation", "tensura:lethargy", "tensura:sealing", "tensura:stagnation", "tensura:ruination", "tensura:vitality", "tensura:vigor", "tensura:transcendence", "tensura:growth", "tensura:restoration"]
+	#Lists of enchantments that Scholar cannot learn or enchant above the enchantment's maximum level.
+	maxBonusBlacklist = ["tensura:dead_end_rainbow", "tensura:holy_coat", "tensura:magic_interference", "tensura:tsukumogami", "tensura:barrier_piercing", "tensura:breathing_support", "tensura:crushing", "tensura:energy_steal", "tensura:elemental_boost", "tensura:elemental_resistance", "tensura:energy_protection", "tensura:holy_weapon", "tensura:intangibility", "tensura:magic_weapon", "tensura:magicule_absorption", "tensura:magic_capacity", "tensura:magic_protection", "tensura:severance", "tensura:slotting", "tensura:soul_eater", "tensura:spiritual_protection", "tensura:severance_protection", "tensura:sturdy", "tensura:swift", "tensura:enervation", "tensura:lethargy", "tensura:sealing", "tensura:stagnation", "tensura:ruination", "tensura:vitality", "tensura:vigor", "tensura:transcendence", "tensura:growth", "tensura:restoration"]
+
+[Schrodinger]
+	#The duration in tick of the poison effect on target when touching them.
+	poisonEffectDuration = 160
+
+[Spiritualist]
+	#Magicule Acquirement Cost.
+	mpAcquirement = 80000.0
+	#Magicule cost of the Summon Scythe mode.
+	summonScytheCost = 500.0
+	#Magicule cost of the Carve mode.
+	carveCost = 500.0
+	#Magicule cost of the Enhance mode.
+	enhanceCost = 1500.0
+	#The Range of the Carve mode.
+	carveRange = 5.0
+	#The chant speed multiplier when toggled.
+	chantSpeed = 2.0
+
+[Stagnator]
+	#Magicule Acquirement Cost.
+	mpAcquirement = 50000.0
+	#The magicule cost of the Stagnate Aura mode, taken every 10 ticks.
+	stagnateAuraCost = 250.0
+	#The radius in blocks of the Stagnate Aura mode.
+	stagnateAuraRadius = 25
+	#The Magicule cost of the Inaction mode, taken every 10 ticks.
+	inactionCost = 50.0
+	#The Magicule Cost of the Stasis Shot mode.
+	stasisShotCost = 1000.0
+	#The Damage of Stasis Shot projectile.
+	stasisShotDamage = 50.0
+	#The Damage of Stasis Shot Projectile when Mastered
+	stasisShotMasteredDamage = 100.0
+	#Cooldown of Stasis Shot Mode.
+	stasisShotCooldown = 10
+
+[Subjugator]
+	#Magicule Acquirement Cost.
+	mpAcquirement = 95000.0
+	#The step in loyalty points that is accounted for whenever the user is to gain more damage reduction from the passive.
+	unbreakableDefenseStep = 2000
+	#The percentage of damage reduction you gain every time you gain a multiple of the above value. (Please do it in decimal notation and not percentage notation.)
+	unbreakableDefenseGain = 0.02
+	#The range of the Undying Loyalty passive in blocks.
+	loyaltyRange = 8.0
+	#The amount of loyalty points gained from nearby subordinates every five seconds.
+	loyaltyPointGain = 2
+	#The range of the Undying Loyalty passive in blocks when the skill is mastered.
+	loyaltyRangeMastery = 16.0
+	#The amount of loyalty points gained from nearby subordinates every five seconds when the skill is mastered.
+	loyaltyPointGainMastery = 4
+	#The resistance level granted to subordinates in your vicinity.
+	loyaltyResistance = 1
+	#The resistance level granted to subordinates in your vicinity when the skill is mastered.
+	loyaltyResistanceMastered = 2
+	#The level of inspiration granted to subordinates when changing their movement mode.
+	inspirationLevel = 1
+	#The duration of the inspiration effect bestowed onto subordinates when changing their movement mode, in seconds.
+	inspirationDuration = 30
+	#The level of inspiration granted to subordinates when changing their movement mode when the skill is mastered.
+	inspirationLevelMastery = 2
+	#The duration of the inspiration effect bestowed onto subordinates when changing their movement mode when the skill is mastered, in seconds.
+	inspirationDurationMastery = 60
+	#The maximum gainable loyalty points that will cap out the user's Damage Reduction.
+	maximumTotalLoyaltyPoints = 50000
+	#The distance in blocks that Takeover can be used from.
+	takeoverDistance = 5
+	#The distance in blocks that Takeover can be used from when the skill is mastered.
+	takeoverDistanceMastery = 10
+	#The multiplier of EP the player needs to meet in order to convert the target.
+	takeoverEPMultiplierRequirement = 1.0
+	#The multiplier of EP the player needs to meet in order to convert the target.
+	takeoverEPMultiplierRequirementMastered = 2.0
+	#The cooldown of the Takeover mode in seconds.
+	takeoverCooldown = 300
+	#The cooldown of the Takeover mode in seconds when the skill is mastered.
+	takeoverCooldownMastered = 120
+	#The chance that a conversation is started every 5 seconds.
+	casualConversationChance = 0.02
+	#The radius in block to apply skill effect on Allies.
+	allyRadius = 20.0
+	#The base max amount of EP that the target can have for Takeover can work
+	baseMaxEPForMindControl = 600000.0
+
+[TheBalance]
+	#Magicule Acquirement Cost.
+	mpAcquirement = 35000.0
+	#Flat magicule cost per activation.
+	magiculeCost = 500.0
+	#Targeting range in blocks for TheBalance activation.
+	range = 8.0
+	#Damage dealt when points are at or under the threshold.
+	heavyDamage = 10000.0
+	#Damage per MisfortunePoint when points exceed the threshold.
+	perPointDamage = 1000.0
+	#Threshold of MisfortunePoint used by TheBalance.
+	thresholdPoints = 10
+
+[VictoriousHarbinger]
+	#Magicule Acquirement Cost.
+	mpAcquirement = 80000.0
+	#The magicule cost of the Might mode, taken every 10 ticks.
+	mightCost = 2000.0
+	#The Cooldown of the Might mode
+	mightCooldown = 40
+	#The Magicule cost of the Tenacious Resolve mode
+	tenaciousResolveCost = 500.0
+	#The Level of effect to reduce by
+	effectLevel = 1
+	#List of effects the holder of this skill is immune to
+	immunityList = ["tensura:fear", "tensura:mind_control"]
+
+[Zekrom]
+	#EP Needed to Obtain.
+	epRequirement = 100000.0
+	#Amount of Dragon Essence needed eaten.
+	dragonEssenceAmount = 10
+	#Amount of Lightning Strikes needed.
+	lightningEssenceAmount = 10
+	#Magicule Acquirement Cost.
+	mpAcquirement = 64400.0
+	#Amount to boost Lightning Damage by.
+	lightningBoostAmount = 2.0
+	#MP Cost of Bolt Strike Mode.
+	boltStrikeMPCost = 800.0
+	#Damage of Bolt Strike Mode.
+	boltStrikeDamage = 150.0
+	#Radius of Bolt Strike Mode..
+	boltStrikeRadius = 7.5
+	#Additional Visual of Bolt Strike.
+	boltStrikeAdditionalVisual = 8
+	#Cooldown of Bolt Strike Mode.
+	boltStrikeCooldown = 20
+	#Cooldown of Bolt Strike Mode when Mastered.
+	boltStrikeCooldownMastered = 10
+	#MP Cost of Fusion Bolt Mode.
+	fusionBoltMPCost = 800.0
+	#Damage of Fusion Bolt Mode.
+	fusionBoltDamage = 60.0
+	#Bonus Damage if Reshiram in slot.
+	fusionBoltReshiramBonus = 40.0
+	#MP Cost of Fusion Bolt Mode with Reshiram boosted from Original Cost.
+	fusionboltReshiramMPCost = 2.0
+	#Range of Fusion Bolt.
+	fusionBoltRange = 15.0
+	#Duration of Fire on Target in seconds.
+	fusionBoltFireDuration = 5
+	#Fusion Bolt Cooldown.
+	fusionBoltCooldown = 20
+	#MP Cost of Draconic Breath Mode.
+	draconicBreathMPCost = 800.0
+	#Damage of Draconic Breath.
+	draconicBreathDamage = 60.0
+	#Cooldown of Draconic Breath Mode.
+	draconicBreathCooldown = 10
+	#MP Cost of Thunderbolt Mode.
+	thunderboltMPCost = 1000.0
+	#Damage of Thunderbolt Mode.
+	thunderboltDamage = 100.0
+	#Range of Thunderbolt in blocks.
+	thunderboltRange = 30.0

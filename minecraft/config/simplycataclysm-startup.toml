@@ -1,0 +1,165 @@
+# SPARTAN CATACLYSM CONFIG
+#
+["Material Modifiers"]
+	# Attack Damage Modifier for Ancient Metal weapons.  Requires restart.
+	# Default: 3
+	# Range: -10000 ~ 10000
+	ancientMetalDamageModifier = 3
+	# Attack Speed Modifier for Ancient Metal weapons.  Requires restart.
+	# Default: 0
+	# Range: -10000 ~ 10000
+	ancientMetalSpeedModifier = 0
+	# Attack Damage Modifier for Black Steel weapons.  Requires restart.
+	# Default: 3
+	# Range: -10000 ~ 10000
+	blackSteelDamageModifier = 3
+	# Attack Speed Modifier for Black Steel weapons.  Requires restart.
+	# Default: 0
+	# Range: -10000 ~ 10000
+	blackSteelSpeedModifier = 0
+	# Attack Damage Modifier for Cursium weapons.  Requires restart.
+	# Default: 0
+	# Range: -10000 ~ 10000
+	cursiumDamageModifier = 0
+	# Attack Speed Modifier for Cursium weapons.  Requires restart.
+	# Default: 0
+	# Range: -10000 ~ 10000
+	cursiumSpeedModifier = 0
+	# Attack Damage Modifier for Ignitium weapons.  Requires restart.
+	# Default: 0
+	# Range: -10000 ~ 10000
+	ignitiumDamageModifier = 0
+	# Attack Speed Modifier for Ignitium weapons.  Requires restart.
+	# Default: 0
+	# Range: -10000 ~ 10000
+	ignitiumSpeedModifier = 0
+	# Attack Damage Modifier for Witherite weapons.  Requires restart.
+	# Default: 0
+	# Range: -10000 ~ 10000
+	witheriteDamageModifier = 0
+	# Attack Speed Modifier for Witherite weapons.  Requires restart.
+	# Default: 0
+	# Range: -10000 ~ 10000
+	witheriteSpeedModifier = 0
+
+["Accursed Rage Options"]
+	# Chance on hit for Cursium weapons to stack the Accursed Rage effect on the user.  Set to 0 to disable.
+	# Default: 0.5
+	# Range: 0.0 ~ 1.0
+	accursedRageChance = 0.5
+	# Additional damage attackers do with Cursium weapons per level of Accursed Rage.
+	# Default: 1.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	accursedRageExtraDamage = 1.0
+	# Duration (ticks) of the Accursed Rage effect granted by Cursium weapons.
+	# Default: 110
+	# Range: > 0
+	accursedRageDuration = 110
+	# Maximum amplifier the Accursed Rage effect can reach using Cursium weapons.
+	# Default: 4
+	# Range: > 0
+	accursedRageMaxAmplifier = 4
+
+["Blazing Brand Options"]
+	# Chance on hit for Ignitium weapons to stack the Blazing Brand effect onto attacked entities.  Set to 0 to disable.
+	# Default: 0.75
+	# Range: 0.0 ~ 1.0
+	blazingBrandChance = 0.75
+	# Chance on hit for Ignitium weapons to grant lifesteal to the user.  Blazing Brand trait must have hit successfully - for example, if blazingBrandChance is 0 then lifesteal will never be given.  Set to 0 to disable.
+	# Default: 1.0
+	# Range: 0.0 ~ 1.0
+	blazingBrandLifestealChance = 1.0
+	# Lifesteal multiplier for Ignitium weapons.  Lifesteal amount depends on attack speed, so rate should correlates with DPS.  Set to 0 to disable lifesteal.
+	# Default: 1.25
+	# Range: 0.0 ~ 1.7976931348623157E308
+	lifestealMultiplier = 1.25
+	# Duration (ticks) of the Blazing Brand effect inflicted by Ignitium weapons.  Default is identical to Ignis' abilities.
+	# Default: 240
+	# Range: > 0
+	blazingBrandDuration = 240
+	# Maximum amplifier the Blazing Brand effect can reach using Ignitium weapons.  Default is identical to Ignis' abilities.
+	# Default: 4
+	# Range: > 0
+	blazingBrandMaxAmplifier = 4
+	# Multiplier (per amplifier) that entities afflicted with Brazing Brand will have its Armor attribute reduced by.  Default is identical to Ignis' abilities.  Requires restart.
+	# Default: 0.2
+	# Range: 0.0 ~ 1.0
+	blazingBrandArmorMultiplier = 0.2
+	# Multiplier (per amplifier) that entities afflicted with Brazing Brand will have its Armor Toughness attribute reduced by.  Default is identical to Ignis' abilities.  Requires restart.
+	# Default: 0.2
+	# Range: 0.0 ~ 1.0
+	blazingBrandArmorToughnessMultiplier = 0.2
+
+["Mecha Pulse Options"]
+	# Chance on hit for Witherite weapons to stack the Pulse Charge effect on the user.  Set to 0 to disable.
+	# Default: 0.75
+	# Range: 0.0 ~ 1.0
+	mechaPulseChargeChance = 0.75
+	# Duration (ticks) of the Pulse Charge effect granted by Witherite weapons.
+	# Default: 140
+	# Range: > 0
+	mechaPulseEffectDuration = 140
+	# Amplifier of the Pulse Charge effect at which a shockwave is released, stunning the target.
+	# Default: 9
+	# Range: > 0
+	mechaPulseStunThreshold = 9
+	# Duration (ticks) of the Pulse Cooldown effect inflicted upon Witherite weapons releasing a shockwave.  Pulse Charge cannot accumulate while this effect is active.
+	# Default: 800
+	# Range: > 0
+	mechaPulseCooldown = 800
+	# Stun duration (ticks) inflicted by Witherite weapons when a shockwave is released.
+	# Default: 200
+	# Range: > 0
+	mechaPulseStunDuration = 200
+	# Additional damage a shockwave does when released.
+	# Default: 4.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	mechaPulseStunDamage = 4.0
+
+["Mecha Smite Options"]
+	# Chance on hit for Witherite weapons to set the target on fire and apply Wither.  Set to 0 to disable.
+	# Default: 1.0
+	# Range: 0.0 ~ 1.0
+	mechaSmiteHarmfulEffectsChance = 1.0
+	# Duration (seconds) of the Fire applied by Witherite weapons.  Set to 0 to disable.
+	# Default: 5
+	# Range: > 0
+	mechaSmiteFireDuration = 5
+	# Duration (ticks) of the Wither effect applied to the target by Witherite weapons.  Set to 0 to disable.
+	# Default: 100
+	# Range: > 0
+	mechaSmiteWitherDuration = 100
+	# Amplifier of the Wither effect applied to the target by Witherite weapons.
+	# Default: 1
+	# Range: > 0
+	mechaSmiteWitherAmplifier = 1
+	# Chance on hit for Witherite weapons apply regeneration to the user when under health threshold.  Set to 0 to disable.
+	# Default: 0.5
+	# Range: 0.0 ~ 1.7976931348623157E308
+	mechaSmiteRegenChance = 0.5
+	# Whether Witherite weapons should apply Regeneration to the user at a certain health percentage (true), or at a defined health amount (false).
+	mechaSmiteRegenUsesPercentage = true
+	# If mechaSmiteRegenUsesPercentage is true, Witherite weapons will apply Regeneration to the user when under this percentage of health.  Set to 0 to disable.
+	# Default: 0.5
+	# Range: 0.0 ~ 1.7976931348623157E308
+	mechaSmiteRegenPercentage = 0.5
+	# If mechaSmiteRegenUsesPercentage is false, Witherite weapons will apply Regeneration to the user when under this amount of health.  Set to 0 to disable.
+	# Default: 10
+	# Range: > 0
+	mechaSmiteRegenThreshold = 10
+	# Duration (ticks) of the Regeneration effect applied to the user by Witherite weapons.
+	# Default: 100
+	# Range: > 0
+	mechaSmiteRegenDuration = 100
+	# Amplifier of the Regeneration effect applied to the user by Witherite weapons.
+	# Default: 1
+	# Range: > 0
+	mechaSmiteRegenAmplifier = 1
+
+["Miscellaneous Options"]
+	# Enable/Disable Ignitium, Cursium, and Witherite weapons making custom sounds when attacking.
+	customWeaponSounds = true
+	# Pitch variation from 1.0 for custom weapon attack sounds.  For example: Set to 0.1, pitch will be random between 0.9 and 1.1.  Set to 0.0 for no variation.
+	# Default: 0.1
+	# Range: 0.0 ~ 1.0
+	customWeaponSoundsPitchVariation = 0.1

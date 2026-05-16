@@ -1,0 +1,56 @@
+[dragonloot]
+	#Minimum guaranteed dragon scale drops from the Ender Dragon.
+	# Default: 3
+	# Range: 0 ~ 64
+	scale_minimum_drop_amount = 3
+	#Additional drop rolls per nearby player.
+	# Default: 2
+	# Range: 0 ~ 32
+	additional_scales_per_player = 2
+	#Chance per additional roll to drop a scale (0.0 - 1.0).
+	# Default: 0.8
+	# Range: 0.0 ~ 1.0
+	additional_scale_drop_chance = 0.8
+	#If true, Dragon Anvils ignore the vanilla 40 level cap.
+	dragon_anvil_no_cap = true
+
+	[dragonloot.armor]
+		# Default: 7
+		# Range: 0 ~ 20
+		dragon_armor_protection_helmet = 7
+		# Default: 10
+		# Range: 0 ~ 20
+		dragon_armor_protection_chest = 10
+		# Default: 9
+		# Range: 0 ~ 20
+		dragon_armor_protection_leggings = 9
+		# Default: 7
+		# Range: 0 ~ 20
+		dragon_armor_protection_boots = 7
+		# Default: 3.0
+		# Range: 0.0 ~ 10.0
+		dragon_armor_toughness = 3.0
+		# Default: 1.0
+		# Range: 0.0 ~ 5.0
+		dragon_armor_knockback_resistance = 1.0
+		# Default: 15
+		# Range: 1 ~ 50
+		dragon_armor_enchantability = 15
+		# Default: 37
+		# Range: 1 ~ 128
+		dragon_armor_durability_multiplier = 37
+
+	[dragonloot.tools]
+		# Default: 37
+		# Range: 1 ~ 256
+		dragon_item_durability_multiplier = 37
+		# Default: 5.0
+		# Range: 0.0 ~ 20.0
+		dragon_item_base_damage = 5.0
+		# Default: 20
+		# Range: 1 ~ 50
+		dragon_tool_enchantability = 20
+
+	[dragonloot.compat]
+		#If true, Dragon Scale gear perks are enabled (pacifies mobs and shows Advanced Netherite-style tooltips). Also bumps Dragon gear stats to keep progression sensible alongside Advanced Netherite.
+		advanced_netherite_gear_perks_enabled = false

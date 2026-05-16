@@ -1,0 +1,20 @@
+#The maximum Health an entity can get.
+maxHP = 10000.0
+#The maximum Attack an entity can get.
+maxAttack = 10000.0
+#The maximum Armor an entity can get.
+maxArmor = 1024.0
+#The maximum Armor Toughness an entity can get.
+maxArmorToughness = 1024.0
+#The maximum Size Scale an entity can get.
+maxScale = 12.0
+#The minimum Size Scale an entity can get.
+minScale = 0.15
+#The amount of armor a non-player mob gains for every 10000 EP it gains.
+armorGain = 0.5
+#The amount of attack a non-player mob gains for every 10000 EP it gains.
+attackGain = 0.5
+#The amount of HP a non-player mob gains for every 10000 EP it gains.
+HPGain = 1.0
+#The amount of SHP a non-player mob gains for every 10000 EP it gains.
+SHPGain = 5.0

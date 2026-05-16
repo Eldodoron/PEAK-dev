@@ -1,0 +1,223 @@
+[Forgotten]
+	#Minimal aura.
+	minAura = 100.0
+	#Maximum aura.
+	maxAura = 600.0
+	#Minimal magicule.
+	minMagicule = 425.0
+	#Maximum magicule.
+	maxMagicule = 700.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 0.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 0.0
+	#Bonus Attack Damage.
+	attack = -1.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.0
+	#Bonus Knockback Resistance.
+	knockbackResistance = 1.0
+	#Bonus Movement Speed.
+	movementSpeed = 0.0
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.0
+
+[Remnant]
+	#EP requirement to evolve into a Remnant.
+	epRequirement = 100000.0
+	#Minimal aura.
+	minAura = 50000.0
+	#Maximum aura.
+	maxAura = 50000.0
+	#Minimal magicule.
+	minMagicule = 60000.0
+	#Maximum magicule.
+	maxMagicule = 60000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 60.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 1040.0
+	#Bonus Attack Damage.
+	attack = -0.5
+	#Bonus Attack Speed.
+	attackSpeed = 0.10000000149011612
+	#Bonus Knockback Resistance.
+	knockbackResistance = 1.0
+	#Bonus Movement Speed.
+	movementSpeed = 0.009999999776482582
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.009999999776482582
+
+[Whole]
+	#EP requirement to evolve into a Whole.
+	epRequirement = 200000.0
+	#Minimal aura.
+	minAura = 200000.0
+	#Maximum aura.
+	maxAura = 200000.0
+	#Minimal magicule.
+	minMagicule = 200000.0
+	#Maximum magicule.
+	maxMagicule = 200000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 230.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 3240.0
+	#Bonus Attack Damage.
+	attack = -0.3499999940395355
+	#Bonus Attack Speed.
+	attackSpeed = 0.10000000149011612
+	#Bonus Knockback Resistance.
+	knockbackResistance = 1.0
+	#Bonus Movement Speed.
+	movementSpeed = 0.009999999776482582
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.009999999776482582
+
+[Ascended]
+	#EP requirement to evolve into an Ascended.
+	epRequirement = 600000.0
+	#Should Awakening as a Whole instantly set a player to this race?
+	ascendedAwakening = false
+	#Minimal aura.
+	minAura = 500000.0
+	#Maximum aura.
+	maxAura = 500000.0
+	#Minimal magicule.
+	minMagicule = 500000.0
+	#Maximum magicule.
+	maxMagicule = 500000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 780.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 6440.0
+	#Bonus Attack Damage.
+	attack = -0.25
+	#Bonus Attack Speed.
+	attackSpeed = 0.4000000059604645
+	#Bonus Knockback Resistance.
+	knockbackResistance = 1.0
+	#Bonus Movement Speed.
+	movementSpeed = 0.029999999329447746
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.029999999329447746
+
+[DivineExcelsius]
+	#EP requirement to evolve into a Divine Excelsius.
+	epRequirement = 2000000.0
+	#Minimal aura.
+	minAura = 1000000.0
+	#Maximum aura.
+	maxAura = 1000000.0
+	#Minimal magicule.
+	minMagicule = 1000000.0
+	#Maximum magicule.
+	maxMagicule = 1000000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 1091.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 11051.0
+	#Bonus Attack Damage.
+	attack = 0.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.20000000298023224
+	#Bonus Knockback Resistance.
+	knockbackResistance = 1.0
+	#Bonus Movement Speed.
+	movementSpeed = 0.03999999910593033
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.03999999910593033
+
+[Empty]
+	#EP requirement to evolve into an Empty.
+	epRequirement = 200000.0
+	#Minimal aura.
+	minAura = 200000.0
+	#Maximum aura.
+	maxAura = 200000.0
+	#Minimal magicule.
+	minMagicule = 200000.0
+	#Maximum magicule.
+	maxMagicule = 200000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 160.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 2240.0
+	#Bonus Attack Damage.
+	attack = 0.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.10000000149011612
+	#Bonus Knockback Resistance.
+	knockbackResistance = 1.0
+	#Bonus Movement Speed.
+	movementSpeed = 0.009999999776482582
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.009999999776482582
+
+[Revenant]
+	#EP requirement to evolve into a Revenant.
+	epRequirement = 800000.0
+	#Minimal aura.
+	minAura = 500000.0
+	#Maximum aura.
+	maxAura = 500000.0
+	#Minimal magicule.
+	minMagicule = 500000.0
+	#Maximum magicule.
+	maxMagicule = 500000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 580.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 5740.0
+	#Bonus Attack Damage.
+	attack = 4.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.3499999940395355
+	#Bonus Knockback Resistance.
+	knockbackResistance = 1.0
+	#Bonus Movement Speed.
+	movementSpeed = 0.04749999940395355
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.03999999910593033
+
+[DivineInferius]
+	#EP requirement to evolve into a Divine Inferius.
+	epRequirement = 2000000.0
+	#Minimal aura.
+	minAura = 1000000.0
+	#Maximum aura.
+	maxAura = 1000000.0
+	#Minimal magicule.
+	minMagicule = 1000000.0
+	#Maximum magicule.
+	maxMagicule = 1000000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 980.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 9636.0
+	#Bonus Attack Damage.
+	attack = 8.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.4000000059604645
+	#Bonus Knockback Resistance.
+	knockbackResistance = 1.0
+	#Bonus Movement Speed.
+	movementSpeed = 0.054999999701976776
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.05000000074505806

@@ -1,0 +1,7 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"remnant_bosses:wraith_spawn_egg"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"reliquary:catalyzing_gland"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"knightlib:great_essence"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"knightlib:small_essence"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

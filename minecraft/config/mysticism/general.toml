@@ -1,0 +1,5 @@
+[General]
+	#Should the Tensura configurations add Mysticism's skills and races on next launch?
+	refresh = false
+	#The default flying speed of all Mysticism races.
+	flightSpeed = 0.05

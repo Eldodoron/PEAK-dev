@@ -1,0 +1,15 @@
+{
+  "entity.acsol.acsoul": "Acsoul",
+  "entity.acsol.acsolnedr": "Aksolnedr",
+  "item.acsol.acsoul_spawn_egg": "Aksoul Spawn Egg",
+  "item.acsol.acsolnedr_spawn_egg": "Aksolnedr Spawn Egg",
+  "item.acsol.acsolnedrfire": "Aksolnedr Fire",
+  "item.acsol.acsoulmadgic": "Aksoul Magic",
+  "item.acsol.acsoulmadgicorb": "Aksoul Magic Orb",
+  "item.acsol.acsoloherelie": "Aksoul Necklace",
+  "gui.acsol.prokachka_ui.label_sila": "Power",
+  "gui.acsol.prokachka_ui.label_zashita": "Protection",
+  "gui.acsol.prokachka_ui.label_zdorovie": "Health",
+  "gui.acsol.prokachka_ui.label_uluchshkniia_piersonazha": "Character Improvements",
+  "gui.acsol.prokachka_ui.label_supier_pieriezariad": "Super Recharge"
+}

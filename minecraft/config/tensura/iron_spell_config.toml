@@ -1,0 +1,4 @@
+#The multiplier for how much Mana costed to cast spells would be converted to Magicule cost in Tensura.
+manaConversionMultiplier = 50.0
+#The multiplier for how much spell damage would be boosted to fit with Tensura:Reincarnated.
+spellDamageMultiplier = 10.0

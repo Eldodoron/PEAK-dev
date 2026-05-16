@@ -1,0 +1,6 @@
+#The minimum stage of Dragon to drop Dragon Essence.
+minStageEssence = 4
+#The maximum stage of Dragon to drop Dragon Essence.
+maxStageEssence = 5
+#The chance for Dragon to drop Dragon Essence.
+essenceChance = 0.5

@@ -1,0 +1,145 @@
+[Phantom]
+	#Quantity of cryptid essence required to become a phantom as a lesser angel.
+	essenceRequired = 1
+	#Minimal aura.
+	minAura = 2500.0
+	#Maximum aura.
+	maxAura = 3500.0
+	#Minimal magicule.
+	minMagicule = 5500.0
+	#Maximum magicule.
+	maxMagicule = 6500.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 15.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 70.0
+	#Bonus Attack Damage.
+	attack = 0.30000001192092896
+	#Bonus Attack Speed.
+	attackSpeed = 0.0
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.10000000149011612
+	#Bonus Movement Speed.
+	movementSpeed = 0.009999999776482582
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.0
+
+[FieldOfficer]
+	#Quantity of cryptid essence required to become a field officer as a greater angel.
+	essenceRequired = 3
+	#EP requirement to evolve into a field officer.
+	epRequirement = 20000.0
+	#Minimal aura.
+	minAura = 15000.0
+	#Maximum aura.
+	maxAura = 25000.0
+	#Minimal magicule.
+	minMagicule = 25000.0
+	#Maximum magicule.
+	maxMagicule = 30000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 50.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 150.0
+	#Bonus Attack Damage.
+	attack = 1.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.0
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.20000000298023224
+	#Bonus Movement Speed.
+	movementSpeed = 0.019999999552965164
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.20000000298023224
+
+[General]
+	#Quantity of cryptid essence required to become a general as an arch angel.
+	essenceRequired = 5
+	#EP requirement to evolve into a General.
+	epRequirement = 160000.0
+	#Minimal aura.
+	minAura = 80000.0
+	#Maximum aura.
+	maxAura = 85000.0
+	#Minimal magicule.
+	minMagicule = 155000.0
+	#Maximum magicule.
+	maxMagicule = 160000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 80.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 540.0
+	#Bonus Attack Damage.
+	attack = 2.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.2
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.4
+	#Bonus Movement Speed.
+	movementSpeed = 0.01
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.1
+
+[StaffOfficer]
+	#Quantity of cryptid essence required to become a staff officer as a cherub.
+	essenceRequired = 7
+	#EP requirement to evolve into a Staff Officer.
+	epRequirement = 800000.0
+	#Minimal aura.
+	minAura = 455000.0
+	#Maximum aura.
+	maxAura = 460000.0
+	#Minimal magicule.
+	minMagicule = 505000.0
+	#Maximum magicule.
+	maxMagicule = 510000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 600.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 3650.0
+	#Bonus Attack Damage.
+	attack = 3.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.5
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.6
+	#Bonus Movement Speed.
+	movementSpeed = 0.04
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.4
+
+[MysticAngel]
+	#Quantity of cryptid essence required to become a mystic angel as a seraphim.
+	essenceRequired = 10
+	#Minimal aura.
+	minAura = 1100000.0
+	#Maximum aura.
+	maxAura = 1150000.0
+	#Minimal magicule.
+	minMagicule = 1200000.0
+	#Maximum magicule.
+	maxMagicule = 1250000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 1060.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 6350.0
+	#Bonus Attack Damage.
+	attack = 4.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.7
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.8
+	#Bonus Movement Speed.
+	movementSpeed = 0.08
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.8

@@ -1,0 +1,10 @@
+{
+  "door_easing": "SPRINGY",
+  "trapdoor_easing": "SPRINGY",
+  "lever_easing": "SPRINGY",
+  "lectern_easing": "SPRINGY",
+  "chiseled_bookshelf_easing": "DEFAULT",
+  "redstone_easing": "SPRINGY",
+  "end_portal_frame_easing": "SPRINGY",
+  "vault_easing": "SPRINGY"
+}

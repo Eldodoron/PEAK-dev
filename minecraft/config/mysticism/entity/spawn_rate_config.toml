@@ -1,0 +1,5 @@
+#Spawn probability for mobs (1 in X chance). First value is Day, Second is Night.
+#Examples: 1=100%, 5=20%, 10=10%. 0=disabled.
+[SpawnChance]
+	#One of how many chances for Memoires to spawn.
+	memoiresChance = 1000

@@ -1,0 +1,50 @@
+#Blood spell integration settings
+[blood_spells]
+	#Minimum mana cost used when mapping mana to blood cost ratios.
+	# Default: 20
+	# Range: > 0
+	bloodCostManaFloor = 20
+	#Maximum mana cost used when mapping mana to blood cost ratios.
+	# Default: 140
+	# Range: > 1
+	bloodCostManaCeiling = 140
+	#Blood cost ratio applied to spells at or below the mana floor (blood per mana).
+	# Default: 0.05
+	# Range: 0.0 ~ 5.0
+	bloodCostRatioMin = 0.05
+	#Blood cost ratio applied to spells at or above the mana ceiling (blood per mana).
+	# Default: 0.05
+	# Range: 0.0 ~ 5.0
+	bloodCostRatioMax = 0.05
+	#Fraction of maximum blood required to enter the high-blood casting state.
+	# Default: 0.5
+	# Range: 0.0 ~ 1.0
+	highBloodThresholdFraction = 0.5
+	#Cooldown multiplier applied when the caster has at least the configured high-blood threshold.
+	# Default: 0.5
+	# Range: 0.0 ~ 10.0
+	highBloodCooldownMultiplier = 0.5
+	#Cooldown multiplier applied when the caster is below the high-blood threshold and casts without spending blood.
+	# Default: 2.0
+	# Range: 0.0 ~ 10.0
+	lowBloodCooldownMultiplier = 2.0
+	#Mana cost multiplier applied to the Devour spell.
+	# Default: 2.0
+	# Range: 0.0 ~ 10.0
+	devourManaMultiplier = 2.0
+	#Blood restoration multiplier applied to the Devour spell (relative to damage dealt).
+	# Default: 2.0
+	# Range: 0.0 ~ 10.0
+	devourBloodRestoreMultiplier = 2.0
+	#Saturation modifier used when restoring blood with the Devour spell.
+	# Default: 0.6
+	# Range: 0.0 ~ 5.0
+	devourBloodSaturation = 0.6
+	#Blood restoration multiplier applied to the Ray of Siphoning spell (relative to damage dealt).
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	rayBloodRestoreMultiplier = 1.0
+	#Saturation modifier used when restoring blood with Ray of Siphoning.
+	# Default: 0.5
+	# Range: 0.0 ~ 5.0
+	rayBloodSaturation = 0.5

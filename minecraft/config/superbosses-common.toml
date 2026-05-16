@@ -1,0 +1,187 @@
+[super_boss_settings]
+	# Default: 5.0
+	# Range: 0.0 ~ 100.0
+	spawnChance = 5.0
+	namePrefix = "§e⭐§aSuper§e⭐§r "
+	# Default: 2.5
+	# Range: 0.0 ~ 100000.0
+	healthMultiplier = 2.5
+	# Default: 5.0
+	# Range: 0.0 ~ 100000.0
+	healthAdd = 5.0
+	# Default: 1.6
+	# Range: 0.0 ~ 100000.0
+	attackMultiplier = 1.6
+	# Default: 1.2
+	# Range: 0.0 ~ 100000.0
+	attackKnockbackMultiplier = 1.2
+	# Default: 1.15
+	# Range: 0.0 ~ 100000.0
+	knockbackResistanceMultiplier = 1.15
+	# Default: 0.1
+	# Range: 0.0 ~ 100000.0
+	knockbackResistanceAdd = 0.1
+	# Default: 1.1
+	# Range: 0.0 ~ 100000.0
+	movementSpeed = 1.1
+	# Default: 1.5
+	# Range: 0.0 ~ 100000.0
+	followRangeMultiplier = 1.5
+	# Default: 4.0
+	# Range: 0.0 ~ 100000.0
+	armorAdd = 4.0
+	# Default: 2.0
+	# Range: 0.0 ~ 100000.0
+	armorToughnessAdd = 2.0
+	# Default: 1.0
+	# Range: 0.0 ~ 100000.0
+	scale = 1.0
+	# Default: 4
+	# Range: > 0
+	bonusLootRolls = 4
+
+[super_duper_boss_settings]
+	# Default: 1.0
+	# Range: 0.0 ~ 100.0
+	spawnChance = 1.0
+	namePrefix = "§e⭐⭐§9Super Duper§e⭐⭐§r "
+	# Default: 3.5
+	# Range: 0.0 ~ 100000.0
+	healthMultiplier = 3.5
+	# Default: 7.0
+	# Range: 0.0 ~ 100000.0
+	healthAdd = 7.0
+	# Default: 2.8
+	# Range: 0.0 ~ 100000.0
+	attackMultiplier = 2.8
+	# Default: 1.4
+	# Range: 0.0 ~ 100000.0
+	attackKnockbackMultiplier = 1.4
+	# Default: 1.5
+	# Range: 0.0 ~ 100000.0
+	knockbackResistanceMultiplier = 1.5
+	# Default: 0.15
+	# Range: 0.0 ~ 100000.0
+	knockbackResistanceAdd = 0.15
+	# Default: 1.2
+	# Range: 0.0 ~ 100000.0
+	movementSpeed = 1.2
+	# Default: 1.5
+	# Range: 0.0 ~ 100000.0
+	followRangeMultiplier = 1.5
+	# Default: 8.0
+	# Range: 0.0 ~ 100000.0
+	armorAdd = 8.0
+	# Default: 4.0
+	# Range: 0.0 ~ 100000.0
+	armorToughnessAdd = 4.0
+	# Default: 1.15
+	# Range: 0.0 ~ 100000.0
+	scale = 1.15
+	# Default: 8
+	# Range: > 0
+	bonusLootRolls = 8
+
+[mega_boss_settings]
+	# Default: 0.2
+	# Range: 0.0 ~ 100.0
+	spawnChance = 0.2
+	namePrefix = "§e⭐⭐⭐§c§lMega§e⭐⭐⭐§r "
+	# Default: 5.5
+	# Range: 0.0 ~ 100000.0
+	healthMultiplier = 5.5
+	# Default: 22.0
+	# Range: 0.0 ~ 100000.0
+	healthAdd = 22.0
+	# Default: 6.5
+	# Range: 0.0 ~ 100000.0
+	attackMultiplier = 6.5
+	# Default: 1.5
+	# Range: 0.0 ~ 100000.0
+	attackKnockbackMultiplier = 1.5
+	# Default: 2.0
+	# Range: 0.0 ~ 100000.0
+	knockbackResistanceMultiplier = 2.0
+	# Default: 0.25
+	# Range: 0.0 ~ 100000.0
+	knockbackResistanceAdd = 0.25
+	# Default: 1.3
+	# Range: 0.0 ~ 100000.0
+	movementSpeed = 1.3
+	# Default: 2.0
+	# Range: 0.0 ~ 100000.0
+	followRangeMultiplier = 2.0
+	# Default: 15.0
+	# Range: 0.0 ~ 100000.0
+	armorAdd = 15.0
+	# Default: 8.0
+	# Range: 0.0 ~ 100000.0
+	armorToughnessAdd = 8.0
+	# Default: 1.3
+	# Range: 0.0 ~ 100000.0
+	scale = 1.3
+	# Default: 20
+	# Range: > 0
+	bonusLootRolls = 20
+
+[ultra_mega_boss_settings]
+	# Default: 0.05
+	# Range: 0.0 ~ 100.0
+	spawnChance = 0.05
+	namePrefix = "§e⭐⭐⭐⭐§6§lULTRA MEGA§e⭐⭐⭐⭐§r "
+	# Default: 11.0
+	# Range: 0.0 ~ 100000.0
+	healthMultiplier = 11.0
+	# Default: 55.0
+	# Range: 0.0 ~ 100000.0
+	healthAdd = 55.0
+	# Default: 10.5
+	# Range: 0.0 ~ 100000.0
+	attackMultiplier = 10.5
+	# Default: 3.5
+	# Range: 0.0 ~ 100000.0
+	attackKnockbackMultiplier = 3.5
+	# Default: 3.0
+	# Range: 0.0 ~ 100000.0
+	knockbackResistanceMultiplier = 3.0
+	# Default: 0.45
+	# Range: 0.0 ~ 100000.0
+	knockbackResistanceAdd = 0.45
+	# Default: 1.3
+	# Range: 0.0 ~ 100000.0
+	movementSpeed = 1.3
+	# Default: 3.0
+	# Range: 0.0 ~ 100000.0
+	followRangeMultiplier = 3.0
+	# Default: 25.0
+	# Range: 0.0 ~ 100000.0
+	armorAdd = 25.0
+	# Default: 16.0
+	# Range: 0.0 ~ 100000.0
+	armorToughnessAdd = 16.0
+	# Default: 1.7
+	# Range: 0.0 ~ 100000.0
+	scale = 1.7
+	# Default: 60
+	# Range: > 0
+	bonusLootRolls = 60
+
+[mob_settings]
+	#Bosses that have hard-coded drops that don't use loot tables.
+	#For these mobs we multiply the items dropped instead of re-rolling their loot table
+	hardcodedBosses = ["minecraft:wither"]
+	#Should only mobs classified as 'Monsters' be able to spawn as Super Bosses
+	#(Note: if you turn this off you'll probably get some weird stuff becoming bosses)
+	onlyMonsterBosses = true
+	#If a mob can roll more than one Boss type at the same time (EX. Super Ultra Mega Zombie)
+	canBossesStack = true
+	#If a mob has more than one Boss Type (EX. Super Super Duper Zombie)
+	#
+	#Should the bonus drops multiply [True] (4 x 8 = 32 Bonus Rolls)
+	#
+	#Or should they add [False] (4 + 8 = 12 Bonus Rolls)
+	doStackedBossLootDropsMultiply = true
+	#Mobs that can spawn as Super Bosses even if they aren't categorized as a Monster
+	whitelist = []
+	#Mobs that will never naturally spawn as a Super Boss
+	blacklist = []

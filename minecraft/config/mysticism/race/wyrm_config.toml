@@ -1,0 +1,433 @@
+[AttunedWyrm]
+	#Minimal aura.
+	minAura = 500.0
+	#Maximum aura.
+	maxAura = 1000.0
+	#Minimal magicule.
+	minMagicule = 1500.0
+	#Maximum magicule.
+	maxMagicule = 2000.0
+	#Bonus Size.
+	size = 0.30000001192092896
+	#Bonus Max Health.
+	maxHealth = 0.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 0.0
+	#Bonus Attack Damage.
+	attack = 1.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.5
+	#Bonus Knockback Resistance.
+	knockbackResistance = 1.0
+	#Bonus Movement Speed.
+	movementSpeed = 0.0
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.0
+
+[LesserGlacierWyrm]
+	#Minimal aura.
+	minAura = 1000.0
+	#Maximum aura.
+	maxAura = 1500.0
+	#Minimal magicule.
+	minMagicule = 2000.0
+	#Maximum magicule.
+	maxMagicule = 2500.0
+	#Bonus Size.
+	size = 0.5
+	#Bonus Max Health.
+	maxHealth = 40.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 160.0
+	#Bonus Attack Damage.
+	attack = 1.0
+	#Bonus Attack Speed.
+	attackSpeed = 1.0
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.03999999910593033
+	#Bonus Movement Speed.
+	movementSpeed = 0.029999999329447746
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.029999999329447746
+	#Amount of Ice Essence needed eaten to evolve into a Lesser Glacier Wyrm.
+	iceEssenceAmount = 1
+
+[GreaterGlacierWyrm]
+	#Minimal aura.
+	minAura = 8000.0
+	#Maximum aura.
+	maxAura = 8000.0
+	#Minimal magicule.
+	minMagicule = 10000.0
+	#Maximum magicule.
+	maxMagicule = 10000.0
+	#Bonus Size.
+	size = 0.800000011920929
+	#Bonus Max Health.
+	maxHealth = 180.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 660.0
+	#Bonus Attack Damage.
+	attack = 3.0
+	#Bonus Attack Speed.
+	attackSpeed = 2.0
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.05000000074505806
+	#Bonus Movement Speed.
+	movementSpeed = 0.019999999552965164
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.019999999552965164
+	#Amount of Ice Essence needed eaten to evolve into a Greater Glacier Wyrm.
+	iceEssenceAmount = 10
+	#EP requirement to evolve into Greater Glacier Wyrm.
+	epRequirement = 30000.0
+
+[RimeFangDrake]
+	#Minimal aura.
+	minAura = 150000.0
+	#Maximum aura.
+	maxAura = 150000.0
+	#Minimal magicule.
+	minMagicule = 200000.0
+	#Maximum magicule.
+	maxMagicule = 200000.0
+	#Bonus Size.
+	size = 1.0
+	#Bonus Max Health.
+	maxHealth = 380.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 1520.0
+	#Bonus Attack Damage.
+	attack = 6.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.800000011920929
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.05999999865889549
+	#Bonus Movement Speed.
+	movementSpeed = 0.029999999329447746
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.029999999329447746
+	#EP requirement to evolve into Rimefang Drake.
+	epRequirement = 200000.0
+	#The first ability needed to evolve into Rimefang Drake.
+	abilityRequirement = "mysticism:ice_manipulation"
+	#Does the first ability need to be mastered? (true/false)
+	abilityMasteryRequirement = true
+	#The second ability needed to evolve into Rimefang Drake.
+	ability2Requirement = "mysticism:cryogenic_cessation"
+	#Does the second ability need to be mastered? (true/false)
+	ability2MasteryRequirement = true
+
+[RimeblightHydra]
+	#Minimal aura.
+	minAura = 800000.0
+	#Maximum aura.
+	maxAura = 800000.0
+	#Minimal magicule.
+	minMagicule = 1200000.0
+	#Maximum magicule.
+	maxMagicule = 1200000.0
+	#Bonus Size.
+	size = 1.2000000476837158
+	#Bonus Max Health.
+	maxHealth = 1080.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 4320.0
+	#Bonus Attack Damage.
+	attack = 5.5
+	#Bonus Attack Speed.
+	attackSpeed = 1.0
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.07999999821186066
+	#Bonus Movement Speed.
+	movementSpeed = 0.05000000074505806
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.05000000074505806
+	#EP requirement to evolve into a Rimeblight Hydra.
+	epRequirement = 1500000.0
+	#The first ability needed to evolve into a Rimeblight Hydra.
+	abilityRequirement = "mysticism:ice_domination"
+	#Does the first ability need to be mastered? (true/false)
+	abilityMasteryRequirement = true
+	#The second ability needed to evolve into a Rimeblight Hydra.
+	ability2Requirement = "tensura:dragon_eye"
+	#Does the second ability need to be mastered? (true/false)
+	ability2MasteryRequirement = true
+
+[FrostcoilSeaSerpent]
+	#Minimal aura.
+	minAura = 200000.0
+	#Maximum aura.
+	maxAura = 200000.0
+	#Minimal magicule.
+	minMagicule = 150000.0
+	#Maximum magicule.
+	maxMagicule = 150000.0
+	#Bonus Size.
+	size = 1.0
+	#Bonus Max Health.
+	maxHealth = 340.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 1360.0
+	#Bonus Attack Damage.
+	attack = 7.0
+	#Bonus Attack Speed.
+	attackSpeed = 1.0
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.05999999865889549
+	#Bonus Movement Speed.
+	movementSpeed = 0.029999999329447746
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.029999999329447746
+	#EP requirement to evolve into Frostcoil Sea Serpent.
+	epRequirement = 200000.0
+	#The first ability needed to evolve into Frostcoil Sea Serpent.
+	abilityRequirement = "tensura:water_manipulation"
+	#Does the ffirst ability need to be mastered? (true/false)
+	abilityMasteryRequirement = true
+	#The second ability needed to evolve into Frostcoil Sea Serpent.
+	ability2Requirement = "mysticism:cryogenic_cessation"
+	#Does the second ability need to be mastered? (true/false)
+	ability2MasteryRequirement = true
+
+[FrostwroughtLeviathan]
+	#Minimal aura.
+	minAura = 1200000.0
+	#Maximum aura.
+	maxAura = 1200000.0
+	#Minimal magicule.
+	minMagicule = 800000.0
+	#Maximum magicule.
+	maxMagicule = 800000.0
+	#Bonus Size.
+	size = 1.2000000476837158
+	#Bonus Max Health.
+	maxHealth = 880.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 3520.0
+	#Bonus Attack Damage.
+	attack = 14.0
+	#Bonus Attack Speed.
+	attackSpeed = 1.5
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.07999999821186066
+	#Bonus Movement Speed.
+	movementSpeed = 0.05000000074505806
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.05000000074505806
+	#EP requirement to evolve into a Frostwrought Leviathan.
+	epRequirement = 1500000.0
+	#The first ability needed to evolve into a Frostwrought Leviathan.
+	abilityRequirement = "tensura:water_domination"
+	#Does the first ability need to be mastered? (true/false)
+	abilityMasteryRequirement = true
+	#The second ability needed to evolve into a Frostwrought Leviathan.
+	ability2Requirement = "tensura:dragon_ear"
+	#Does the second ability need to be mastered? (true/false)
+	ability2MasteryRequirement = true
+
+[LesserPyreWyrm]
+	#Minimal aura.
+	minAura = 1500.0
+	#Maximum aura.
+	maxAura = 2000.0
+	#Minimal magicule.
+	minMagicule = 2000.0
+	#Maximum magicule.
+	maxMagicule = 2500.0
+	#Bonus Size.
+	size = 0.5
+	#Bonus Max Health.
+	maxHealth = 30.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 120.0
+	#Bonus Attack Damage.
+	attack = 1.5
+	#Bonus Attack Speed.
+	attackSpeed = 0.5
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.03999999910593033
+	#Bonus Movement Speed.
+	movementSpeed = 0.029999999329447746
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.029999999329447746
+	#Amount of Flame Essence needed eaten to evolve into a Lesser Pyre Wyrm.
+	flameEssenceAmount = 1
+
+[GreaterPyreWyrm]
+	#Minimal aura.
+	minAura = 5000.0
+	#Maximum aura.
+	maxAura = 8000.0
+	#Minimal magicule.
+	minMagicule = 5000.0
+	#Maximum magicule.
+	maxMagicule = 10000.0
+	#Bonus Size.
+	size = 0.800000011920929
+	#Bonus Max Health.
+	maxHealth = 180.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 720.0
+	#Bonus Attack Damage.
+	attack = 1.7999999523162842
+	#Bonus Attack Speed.
+	attackSpeed = 0.5
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.07999999821186066
+	#Bonus Movement Speed.
+	movementSpeed = 0.029999999329447746
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.029999999329447746
+	#Amount of Flame Essence needed eaten to evolve into a Greater Pyre Wyrm.
+	flameEssenceAmount = 10
+	#EP requirement to evolve into Greater Pyre Wyrm.
+	epRequirement = 30000.0
+
+[ScorchtailSalamander]
+	#Minimal aura.
+	minAura = 100000.0
+	#Maximum aura.
+	maxAura = 100000.0
+	#Minimal magicule.
+	minMagicule = 150000.0
+	#Maximum magicule.
+	maxMagicule = 150000.0
+	#Bonus Size.
+	size = 0.5
+	#Bonus Max Health.
+	maxHealth = 380.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 1520.0
+	#Bonus Attack Damage.
+	attack = 4.5
+	#Bonus Attack Speed.
+	attackSpeed = 1.7999999523162842
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.09000000357627869
+	#Bonus Movement Speed.
+	movementSpeed = 0.029999999329447746
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.029999999329447746
+	#EP requirement to evolve into Scorchtail Salamander.
+	epRequirement = 180000.0
+	#The first ability needed to evolve into Scorchtail Salamander.
+	abilityRequirement = "tensura:flame_manipulation"
+	#Does the ffirst ability need to be mastered? (true/false)
+	abilityMasteryRequirement = true
+	#The second ability needed to evolve into Scorchtail Salamander.
+	ability2Requirement = "mysticism:profaned_prominence"
+	#Does the second ability need to be mastered? (true/false)
+	ability2MasteryRequirement = true
+
+[ScorchtalonWyvern]
+	#Minimal aura.
+	minAura = 750000.0
+	#Maximum aura.
+	maxAura = 750000.0
+	#Minimal magicule.
+	minMagicule = 1500000.0
+	#Maximum magicule.
+	maxMagicule = 1500000.0
+	#Bonus Size.
+	size = 1.0
+	#Bonus Max Health.
+	maxHealth = 780.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 3120.0
+	#Bonus Attack Damage.
+	attack = 6.5
+	#Bonus Attack Speed.
+	attackSpeed = 1.0
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.10000000149011612
+	#Bonus Movement Speed.
+	movementSpeed = 0.05000000074505806
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.05000000074505806
+	#EP requirement to evolve into a Scorhtalon Wyvern.
+	epRequirement = 1500000.0
+	#The first ability needed to evolve into a Scorhtalon Wyvern.
+	abilityRequirement = "tensura:flame_domination"
+	#Does the first ability need to be mastered? (true/false)
+	abilityMasteryRequirement = true
+	#The second ability needed to evolve into a Scorhtalon Wyvern.
+	ability2Requirement = "tensura:dragon_skin"
+	#Does the second ability need to be mastered? (true/false)
+	ability2MasteryRequirement = true
+	#Flight Boost Power.
+	flightBoost = 0.5
+	#Flight Boost Cooldown.
+	flightCooldown = 3
+
+[SunfireLindwurm]
+	#Minimal aura.
+	minAura = 180000.0
+	#Maximum aura.
+	maxAura = 180000.0
+	#Minimal magicule.
+	minMagicule = 140000.0
+	#Maximum magicule.
+	maxMagicule = 140000.0
+	#Bonus Size.
+	size = 1.0
+	#Bonus Max Health.
+	maxHealth = 440.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 1760.0
+	#Bonus Attack Damage.
+	attack = 6.0
+	#Bonus Attack Speed.
+	attackSpeed = 5.0
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.09000000357627869
+	#Bonus Movement Speed.
+	movementSpeed = 0.029999999329447746
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.029999999329447746
+	#EP requirement to evolve into Sunfire Lindwurm.
+	epRequirement = 180000.0
+	#The first ability needed to evolve into Sunfire Lindwurm.
+	abilityRequirement = "mysticism:light_manipulation"
+	#Does the ffirst ability need to be mastered? (true/false)
+	abilityMasteryRequirement = true
+	#The second ability needed to evolve into Sunfire Lindwurm.
+	ability2Requirement = "mysticism:profaned_prominence"
+	#Does the second ability need to be mastered? (true/false)
+	ability2MasteryRequirement = true
+
+[SundeityLoong]
+	#Minimal aura.
+	minAura = 600000.0
+	#Maximum aura.
+	maxAura = 600000.0
+	#Minimal magicule.
+	minMagicule = 1700000.0
+	#Maximum magicule.
+	maxMagicule = 1700000.0
+	#Bonus Size.
+	size = 3.0
+	#Bonus Max Health.
+	maxHealth = 920.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 3680.0
+	#Bonus Attack Damage.
+	attack = 7.0
+	#Bonus Attack Speed.
+	attackSpeed = 5.5
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.10000000149011612
+	#Bonus Movement Speed.
+	movementSpeed = 0.05000000074505806
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.05000000074505806
+	#EP requirement to evolve into a Sundeity Loong.
+	epRequirement = 1500000.0
+	#The first ability needed to evolve into a Sundeity Loong.
+	abilityRequirement = "mysticism:light_domination"
+	#Does the first ability need to be mastered? (true/false)
+	abilityMasteryRequirement = true
+	#The second ability needed to evolve into a Sundeity Loong.
+	ability2Requirement = "tensura:dragon_skin"
+	#Does the second ability need to be mastered? (true/false)
+	ability2MasteryRequirement = true
