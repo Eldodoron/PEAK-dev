@@ -157,4 +157,80 @@ EntityEvents.spawned(event => {
         entity.setDropChance('head', 0.05);
         entity.setDropChance('chest', 0.05);
     }
+
+    // --- CURIOS EXPERIMENT ---
+    // 100% chance to give a Curio to these mobs (FOR TESTING)
+    if (Math.random() <= 1.00) {
+        let curios = [];
+        if (Platform.isLoaded('artifacts')) {
+            curios.push(
+                'artifacts:fire_gauntlet', 'artifacts:vampiric_glove', 
+                'artifacts:super_magnet', 'artifacts:cross_necklace', 
+                'artifacts:antidote_vessel', 'artifacts:running_shoes', 
+                'artifacts:lucky_scarf'
+            );
+        }
+        if (Platform.isLoaded('relics')) {
+            curios.push('relics:magic_mirror', 'relics:spatial_sign', 'relics:ice_breaker');
+        }
+
+        if (curios.length > 0) {
+            let randomCurio = curios[Math.floor(Math.random() * curios.length)];
+            
+            try {
+                let CuriosApi = Java.type('top.theillusivec4.curios.api.CuriosApi');
+                let curioOpt = CuriosApi.getCuriosInventory(entity);
+                
+                if (curioOpt.isPresent()) {
+                    let handler = curioOpt.get();
+                    let inventory = handler.getEquippedCurios();
+                    
+                    // Iterate through flattened slots to find an empty one
+                    for (let i = 0; i < inventory.getSlots(); i++) {
+                        if (inventory.getStackInSlot(i).isEmpty()) {
+                            // Force insert the curio
+                            inventory.setStackInSlot(i, Item.of(randomCurio).itemStack);
+                            
+                            // Tag the entity so we know it has a custom curio for drop logic
+                            entity.persistentData.putBoolean('hasCustomCurio', true);
+                            break; // Stop after equipping one
+                        }
+                    }
+                }
+            } catch (err) {
+                console.error("[PEAK Expert Mode] Curios Interop failed on spawn: " + err);
+            }
+        }
+    }
+});
+
+// 3. DROP CURIOS ON DEATH
+EntityEvents.death(event => {
+    const { entity, server } = event;
+    // Only process entities that were tagged by our spawn script
+    if (!entity || !entity.living || !entity.persistentData.getBoolean('hasCustomCurio')) return;
+
+    try {
+        let CuriosApi = Java.type('top.theillusivec4.curios.api.CuriosApi');
+        let curioOpt = CuriosApi.getCuriosInventory(entity);
+        
+        if (curioOpt.isPresent()) {
+            let inventory = curioOpt.get().getEquippedCurios();
+            
+            for (let i = 0; i < inventory.getSlots(); i++) {
+                let stack = inventory.getStackInSlot(i);
+                
+                if (!stack.isEmpty()) {
+                    // 100% chance to drop the curio upon death (FOR TESTING)
+                    if (Math.random() <= 1.00) {
+                        entity.block.popItem(stack);
+                    }
+                    // Clear the slot to prevent dupe drops from other logic
+                    inventory.setStackInSlot(i, Item.empty().itemStack);
+                }
+            }
+        }
+    } catch (err) {
+        console.error("[PEAK Expert Mode] Curios Interop failed on death: " + err);
+    }
 });
