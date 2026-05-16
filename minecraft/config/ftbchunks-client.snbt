@@ -138,42 +138,42 @@
 		# Default: true
 		entity_heads: true
 		entity_icon: {
+			"minecraft:spider": true
+			"alexsmobs:cockroach": true
+			"aquaculture:bluegill": false
+			"aquaculture:smallmouth_bass": false
+			"minecraft:skeleton": true
+			"iceandfire:pixie": true
 			"vampirism:advanced_hunter": true
-			"minecraft:cow": true
+			"alexsmobs:centipede_head": true
+			"ars_nouveau:starbuncle": true
+			"vampirism:vampire": true
+			"ars_nouveau:whirlisprig": true
+			"aquaculture:minnow": false
+			"minecraft:creeper": true
+			"minecraft:zombie": true
+			"royalvariations:royal_skeleton": true
+			"vampirism:hunter": true
+			"vampirism:advanced_vampire_imob": true
+			"minecraft:wolf": true
 			"rottencreatures:undead_miner": true
+			"alexsmobs:centipede_body": true
 			"minecraft:bee": true
 			"quark:toretoise": true
-			"aquaculture:bluegill": false
 			"vampirism:advanced_vampire": true
-			"minecraft:wolf": true
-			"vampirism:hunter": true
-			"minecraft:creeper": true
-			"aquaculture:brown_trout": false
-			"ars_nouveau:whirlisprig": true
-			"minecraft:bat": true
-			"minecraft:zombie": true
-			"minecraft:spider": true
 			"aquaculture:carp": false
-			"minecraft:skeleton": true
-			"royalvariations:royal_skeleton": true
-			"aquaculture:minnow": false
-			"alexsmobs:cockroach": true
-			"minecraft:pig": true
-			"alexsmobs:centipede_tail": true
-			"iceandfire:pixie": true
 			"alexsmobs:raccoon": true
-			"ars_nouveau:starbuncle": true
 			"royalvariations:royal_creeper": true
-			"artifacts:mimic": true
-			"knightquest:lizzy": true
-			"alexsmobs:centipede_head": true
-			"aquaculture:smallmouth_bass": false
+			"aquaculture:brown_trout": false
 			"aquaculture:perch": false
-			"vampirism:vampire": true
+			"minecraft:bat": true
+			"minecraft:cow": true
+			"alexsmobs:centipede_tail": true
+			"minecraft:pig": true
 			"vampirism:vampire_imob": true
-			"vampirism:advanced_vampire_imob": true
+			"artifacts:mimic": true
 			"adorablehamsterpets:hamster": true
-			"alexsmobs:centipede_body": true
+			"knightquest:lizzy": true
 		}
 		
 		# Minimap font scaling (values not a multiple of 0.5 may look bad)

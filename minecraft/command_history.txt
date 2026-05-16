@@ -6,3 +6,6 @@
 /spark profiler start
 /spark tps
 /spark profiler start-
+/spa
+/spark tps
+/spark profiler start
