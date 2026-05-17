@@ -38,3 +38,7 @@ minecraft/ponders_watched.json
 *.bak
 .DS_Store
 Thumbs.db
+
+# Distant Horizons LOD databases
+*DistantHorizons.sqlite*
+

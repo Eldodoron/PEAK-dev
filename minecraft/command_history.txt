@@ -9,3 +9,8 @@
 /spa
 /spark tps
 /spark profiler start
+/spark tps
+/spark profiler info
+/spark gcmonitor
+/spark profiler start
+/spark profiler stop
