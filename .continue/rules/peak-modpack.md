@@ -28,6 +28,7 @@ globs: "**/*.js,**/*.json,**/*.toml,**/*.cfg"
 - Archivos TOML: respeta la estructura existente del mod
 - Archivos JSON: valida sintaxis antes de guardar
 - No modifiques archivos dentro de `minecraft/mods/` directamente
+- **Importante (Prism Launcher)**: La configuración de memoria, Java Path y JVM Arguments dentro de `instance.cfg` **será sobrescrita por el propio Prism Launcher** al iniciar el juego. Modificar `instance.cfg` directamente en el código no servirá de nada. En su lugar, el asistente **DEBE pedirle al usuario que aplique estos cambios manualmente** a través de la interfaz de usuario (UI) de Prism Launcher (Edit Instance -> Java).
 
 ## Rendimiento
 - Si una solución impacta TPS, descártala y busca alternativa
