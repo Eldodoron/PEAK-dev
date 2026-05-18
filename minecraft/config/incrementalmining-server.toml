@@ -7,7 +7,7 @@ swingInterval = 12
 #Swing animation speed multiplier
 # Default: 1.2
 # Range: 0.5 ~ 2.0
-swingSpeedMultiplier = 1.2
+swingSpeedMultiplier = 2.0
 #Mining damage multiplier
 # Default: 1.2
 # Range: 0.1 ~ 10.0
