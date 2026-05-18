@@ -118,8 +118,18 @@ EntityEvents.spawned(event => {
         bows.push('twilightforest:triple_bow', 'twilightforest:seeker_bow');
     }
 
+    // Safely extract the biome ID to prevent KubeJS Either/Left wrapper crashes
+    let currentBiomeId = Utils.id('minecraft:plains');
+    try {
+        let biomeHolder = entity.level.getBiome(entity.blockPosition());
+        if (biomeHolder.unwrapKey && biomeHolder.unwrapKey().isPresent()) {
+            currentBiomeId = biomeHolder.unwrapKey().get().location();
+        } else if (biomeHolder.unwrap && biomeHolder.unwrap().left().isPresent()) {
+            currentBiomeId = biomeHolder.unwrap().left().get().location();
+        }
+    } catch(e) {}
+
     // Alex's Caves Logic: ONLY in Alex's Caves biomes
-    const currentBiomeId = entity.level.getBiome(entity.blockPosition()).unwrap().key().location();
     if (Platform.isLoaded('alexscaves') && currentBiomeId.namespace == 'alexscaves') {
         helmets.push('alexscaves:diving_helmet', 'alexscaves:primordial_helmet', 'alexscaves:magnetic_helmet');
         chestplates.push('alexscaves:diving_chestplate', 'alexscaves:primordial_chestplate', 'alexscaves:magnetic_chestplate');
