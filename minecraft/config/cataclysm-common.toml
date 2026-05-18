@@ -392,15 +392,15 @@
 		#Block Breaking X
 		# Default: 15
 		# Range: 0 ~ 20
-		block_break_x = 15
+		block_break_x = 0
 		#Block Breaking Y
 		# Default: 2
 		# Range: 0 ~ 10
-		block_break_y = 2
+		block_break_y = 0
 		#Block Breaking Z
 		# Default: 15
 		# Range: 0 ~ 20
-		block_break_z = 15
+		block_break_z = 0
 		#Void Rune Damage
 		# Default: 9.0
 		# Range: 0.0 ~ 1000000.0
@@ -448,7 +448,7 @@
 
 		[mobs.ender_guardian.ignore_mobgriefing_config]
 			#Ignore MobGriefing
-			ignore_mobgriefing = true
+			ignore_mobgriefing = false
 
 	[mobs.ender_golem]
 		#Void Rune Damage
@@ -566,7 +566,7 @@
 
 		[mobs.netherite_monstrosity.ignore_mobgriefing_config]
 			#Ignore MobGriefing
-			ignore_mobgriefing = true
+			ignore_mobgriefing = false
 
 		[mobs.netherite_ministrosity.combat_config]
 			#Scale mob health by this value
@@ -622,7 +622,7 @@
 
 		[mobs.ignis.ignore_mobgriefing_config]
 			#Ignore MobGriefing
-			ignore_mobgriefing = true
+			ignore_mobgriefing = false
 
 	[mobs.ignited_revenant]
 		#Ashen Breath Damage
@@ -714,7 +714,7 @@
 
 		[mobs.harbinger.ignore_mobgriefing_config]
 			#Ignore MobGriefing
-			ignore_mobgriefing = true
+			ignore_mobgriefing = false
 
 	[mobs.prowler]
 		#Range Cap
@@ -804,7 +804,7 @@
 
 		[mobs.leviathan.ignore_mobgriefing_config]
 			#Ignore MobGriefing
-			ignore_mobgriefing = true
+			ignore_mobgriefing = false
 
 		[mobs.leviathan.combat_config]
 			#Scale mob health by this value
@@ -912,7 +912,7 @@
 
 		[mobs.ancient_remnant.ignore_mobgriefing_config]
 			#Ignore MobGriefing
-			ignore_mobgriefing = true
+			ignore_mobgriefing = false
 
 		[mobs.modern_remnant.combat_config]
 			#Scale mob health by this value
@@ -1030,7 +1030,7 @@
 
 		[mobs.maledictus.ignore_mobgriefing_config]
 			#Ignore MobGriefing
-			ignore_mobgriefing = true
+			ignore_mobgriefing = false
 
 	[mobs.aptrgangr]
 		#Axe Blade Damage
@@ -1130,7 +1130,7 @@
 
 		[mobs.scylla.ignore_mobgriefing_config]
 			#Ignore MobGriefing
-			ignore_mobgriefing = true
+			ignore_mobgriefing = false
 
 		[mobs.clawdian.combat_config]
 			#Scale mob health by this value

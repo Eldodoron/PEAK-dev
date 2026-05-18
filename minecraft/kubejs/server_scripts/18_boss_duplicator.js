@@ -60,6 +60,26 @@ ServerEvents.recipes(event => {
 
 // Give the Anomaly Replicator back to the player when they use it to craft
 ItemEvents.crafted(event => {
+    // Guard Clause: Exit instantly unless the crafted item is a duplicated boss drop
+    let drops = [
+        'minecraft:nether_star',
+        'minecraft:dragon_egg',
+        'kubejs:heart_of_the_inferno',
+        'cataclysm:witherite_ingot',
+        'cataclysm:ignitium_ingot',
+        'cataclysm:abyssal_egg',
+        'kubejs:wither_soul',
+        'kubejs:draconic_scale',
+        'twilightforest:fiery_blood',
+        'twilightforest:naga_scale',
+        'mowziesmobs:wrought_helmet',
+        'mowziesmobs:naga_fang',
+        'ars_nouveau:wilden_tribute',
+        'undergarden:forgotten_ingot',
+        'cataclysm:void_core'
+    ];
+    if (!drops.includes(event.item.id)) return;
+
     // If they crafted a boss drop, and the replicator was in the grid, we give it back
     // (A bit hacky, but very effective for custom un-consumable items in KubeJS 1.21)
     let usedReplicator = false;

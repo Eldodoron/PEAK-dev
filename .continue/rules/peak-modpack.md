@@ -29,6 +29,7 @@ globs: "**/*.js,**/*.json,**/*.toml,**/*.cfg"
 - Archivos JSON: valida sintaxis antes de guardar
 - No modifiques archivos dentro de `minecraft/mods/` directamente
 - **Importante (Prism Launcher)**: La configuración de memoria, Java Path y JVM Arguments dentro de `instance.cfg` **será sobrescrita por el propio Prism Launcher** al iniciar el juego. Modificar `instance.cfg` directamente en el código no servirá de nada. En su lugar, el asistente **DEBE pedirle al usuario que aplique estos cambios manualmente** a través de la interfaz de usuario (UI) de Prism Launcher (Edit Instance -> Java).
+- **Importante (ModernFix)**: El mixin `mixin.perf.dynamic_languages` **DEBE PERMANECER DESACTIVADO** (o ausente). Activarlo (`true`) provoca un crasheo inmediato del juego en esta instalación de NeoForge 1.21.1.
 
 ## Rendimiento
 - Si una solución impacta TPS, descártala y busca alternativa

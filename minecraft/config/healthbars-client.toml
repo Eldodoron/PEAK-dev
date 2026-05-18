@@ -101,7 +101,7 @@ any_rendering = true
 	scale_with_distance = true
 	#Show health bars for the entity picked by the crosshair only.
 	#Default Value: false
-	picked_entity = true
+	picked_entity = false
 	#Distance to the mob at which health bars will still be visible. The distance is halved when the mob is crouching.
 	#Default Value: 96
 	# Default: 96
