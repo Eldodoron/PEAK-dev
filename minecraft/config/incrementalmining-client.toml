@@ -1,2 +1,2 @@
 #Disable the slower first-person raise animation for tools
-flatToolRaise = true
+flatToolRaise = false
