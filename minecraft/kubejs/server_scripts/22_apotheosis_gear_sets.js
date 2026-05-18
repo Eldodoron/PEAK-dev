@@ -20,8 +20,7 @@ ServerEvents.generateData('peak', 'apotheosis_gear', event => {
                 { "stack": { "id": "simplymore:grandsword" }, "weight": 5 },
                 { "stack": { "id": "iceandfire:dragonbone_sword" }, "weight": 5 },
                 { "stack": { "id": "undergarden:utheric_sword" }, "weight": 5 },
-                { "stack": { "id": "twilightforest:knightmetal_sword" }, "weight": 5 },
-                { "stack": { "id": "boss:time_sword" }, "weight": 5 }
+                { "stack": { "id": "twilightforest:knightmetal_sword" }, "weight": 5 }
             ],
             "helmets": [
                 { "stack": { "id": "knightquest:silver_knight_helmet" }, "weight": 10 },
@@ -40,7 +39,6 @@ ServerEvents.generateData('peak', 'apotheosis_gear', event => {
                 { "stack": { "id": "undergarden:froststeel_helmet" }, "weight": 5 },
                 { "stack": { "id": "twilightforest:knightmetal_helmet" }, "weight": 5 },
                 { "stack": { "id": "twilightforest:ironwood_helmet" }, "weight": 5 },
-                { "stack": { "id": "boss:neuralit_helmet" }, "weight": 5 },
                 { "stack": { "id": "mowziesmobs:wrought_helmet", "drop_chance": 0.0 }, "weight": 5 }
             ],
             "chestplates": [
@@ -59,8 +57,7 @@ ServerEvents.generateData('peak', 'apotheosis_gear', event => {
                 { "stack": { "id": "undergarden:utherium_chestplate" }, "weight": 5 },
                 { "stack": { "id": "undergarden:froststeel_chestplate" }, "weight": 5 },
                 { "stack": { "id": "twilightforest:knightmetal_chestplate" }, "weight": 5 },
-                { "stack": { "id": "twilightforest:ironwood_chestplate" }, "weight": 5 },
-                { "stack": { "id": "boss:neuralit_chestplate" }, "weight": 5 }
+                { "stack": { "id": "twilightforest:ironwood_chestplate" }, "weight": 5 }
             ],
             "leggings": [
                 { "stack": { "id": "knightquest:silver_knight_leggings" }, "weight": 10 },
