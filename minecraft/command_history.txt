@@ -22,3 +22,5 @@
 /spark profiler start --timeout 200
 /spark profiler stop
 /spark profiler start --timeout 200
+/chunky start minecraft:overworld square 0 0 500 500
+/spark tps
