@@ -43,3 +43,4 @@ Thumbs.db
 *DistantHorizons.sqlite*
 
 minecraft/saves/New World/data/DistantHorizons.sqlite
+*.sqlite

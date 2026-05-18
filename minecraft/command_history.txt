@@ -19,3 +19,6 @@
 /tp 300 ~ 3000
 /spark profiler start
 /spark profiler stop
+/spark profiler start --timeout 200
+/spark profiler stop
+/spark profiler start --timeout 200
