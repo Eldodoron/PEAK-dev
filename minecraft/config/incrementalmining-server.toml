@@ -1,0 +1,72 @@
+#Enable/Disable the mod
+enabled = true
+#Base ticks between each swing
+# Default: 12
+# Range: 4 ~ 40
+swingInterval = 12
+#Swing animation speed multiplier
+# Default: 1.2
+# Range: 0.5 ~ 2.0
+swingSpeedMultiplier = 1.2
+#Mining damage multiplier
+# Default: 1.2
+# Range: 0.1 ~ 10.0
+damageMultiplier = 1.2
+#Use vanilla-style rapid breaking for foliage blocks
+vanillaFoliageBreaking = false
+
+[sounds]
+	#Metal block sound
+	metal = "minecraft:block.copper.break"
+	#Stone block sound
+	stone = "minecraft:block.stone.break"
+	#Wood block sound
+	wood = "minecraft:block.bamboo_wood.break"
+	#Sand/gravel sound
+	sand = "minecraft:block.sand.break"
+	#Dirt/grass sound
+	dirt = "minecraft:block.rooted_dirt.break"
+	#Glass/ice sound
+	glass = "minecraft:block.glass.break"
+	#Coal ore sound
+	coal_ore = "minecraft:block.calcite.break"
+	#Iron ore sound
+	iron_ore = "minecraft:block.copper.break"
+	#Gold ore sound
+	gold_ore = "minecraft:block.copper.break"
+	#Diamond ore sound
+	diamond_ore = "minecraft:block.netherite_block.break"
+	#Emerald ore sound
+	emerald_ore = "minecraft:block.netherite_block.break"
+	#Lapis ore sound
+	lapis_ore = "minecraft:block.calcite.break"
+	#Redstone ore sound
+	redstone_ore = "minecraft:block.stone.break"
+	#Copper ore sound
+	copper_ore = "minecraft:block.copper.break"
+	#Nether quartz ore sound
+	nether_quartz_ore = "minecraft:block.netherrack.break"
+	#Nether gold ore sound
+	nether_gold_ore = "minecraft:block.netherrack.break"
+	#Ancient debris sound
+	ancient_debris = "minecraft:block.netherite_block.break"
+	#Deepslate coal ore sound
+	deepslate_coal_ore = "minecraft:block.calcite.break"
+	#Deepslate iron ore sound
+	deepslate_iron_ore = "minecraft:block.copper.break"
+	#Deepslate gold ore sound
+	deepslate_gold_ore = "minecraft:block.copper.break"
+	#Deepslate diamond ore sound
+	deepslate_diamond_ore = "minecraft:block.netherite_block.break"
+	#Deepslate emerald ore sound
+	deepslate_emerald_ore = "minecraft:block.netherite_block.break"
+	#Deepslate lapis ore sound
+	deepslate_lapis_ore = "minecraft:block.calcite.break"
+	#Deepslate redstone ore sound
+	deepslate_redstone_ore = "minecraft:block.deepslate.break"
+	#Deepslate copper ore sound
+	deepslate_copper_ore = "minecraft:block.copper.break"
+	#Surface water swing sound
+	water_surface = "minecraft:entity.generic.splash"
+	#Underwater swing sound
+	water_underwater = "minecraft:entity.player.swim"

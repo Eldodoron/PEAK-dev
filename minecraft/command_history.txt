@@ -14,3 +14,8 @@
 /spark gcmonitor
 /spark profiler start
 /spark profiler stop
+/spark profiler start --timeout 300
+/spark profiler start --timeout 50
+/tp 300 ~ 3000
+/spark profiler start
+/spark profiler stop

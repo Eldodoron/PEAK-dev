@@ -3,11 +3,11 @@ sub_level_splitting = true
 #Sub-level splitting heatmap steps that take place per tick
 # Default: 200
 # Range: > 1
-sub_level_splitting_heatmap_steps = 50
+sub_level_splitting_heatmap_steps = 20
 #The distance to network sub-levels to players at
 # Default: 320.0
 # Range: 1.0 ~ 1.7976931348623157E308
-sub_level_tracking_range = 128.0
+sub_level_tracking_range = 64.0
 #The minimum y coordinate sub-levels can exist at
 # Default: -10000.0
 # Range: -Infinity ~ Infinity

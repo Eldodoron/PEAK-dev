@@ -24,7 +24,7 @@
     "sleep": true,
     "digWhenStuck": true,
     "breakBlockCooldown": 5,
-    "targetSearchLength": 128,
+    "targetSearchLength": 64,
     "wanderFromHomeDistance": 40,
     "hungerTickRate": 3000,
     "blockBreakingDropChance": 0.1,

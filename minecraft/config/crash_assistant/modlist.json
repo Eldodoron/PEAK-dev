@@ -101,6 +101,14 @@
     "curseForgeHash": 218864358,
     "modrinthHash": "be5da938ae2e57a4bac2b50e11737260e20b4364"
   },
+  "Almanac-1.21.1-2-neoforge-1.5.2.jar": {
+    "jarName": "Almanac-1.21.1-2-neoforge-1.5.2.jar",
+    "modId": "almanac",
+    "name": "Almanac",
+    "version": "1.5.2",
+    "curseForgeHash": 84069332,
+    "modrinthHash": "d613dbc38ca5bcc718408db432385c2e67ac763f"
+  },
   "almostunified-neoforge-1.21.1-1.4.1.jar": {
     "jarName": "almostunified-neoforge-1.21.1-1.4.1.jar",
     "modId": "almostunified",
@@ -541,6 +549,14 @@
     "curseForgeHash": 64323446,
     "modrinthHash": "f810a8ab7efd707500da4f153a5a64843edf4aac"
   },
+  "Chunky-NeoForge-1.4.23.jar": {
+    "jarName": "Chunky-NeoForge-1.4.23.jar",
+    "modId": "chunky",
+    "name": "Chunky",
+    "version": "1.4.23",
+    "curseForgeHash": 233801764,
+    "modrinthHash": "ab0c74743a653020fe2dfc4986b43e893947f3e9"
+  },
   "citadel-1.21.1-2.7.6.jar": {
     "jarName": "citadel-1.21.1-2.7.6.jar",
     "modId": "citadel",
@@ -548,14 +564,6 @@
     "version": "2.7.6",
     "curseForgeHash": 3647258928,
     "modrinthHash": "e0392370117ec16a721f8d65728944398de77607"
-  },
-  "citadel-2.7.0-1.21.1.jar": {
-    "jarName": "citadel-2.7.0-1.21.1.jar",
-    "modId": "citadel",
-    "name": "Citadel",
-    "version": "2.7.0",
-    "curseForgeHash": 2405245879,
-    "modrinthHash": "01b18dfa37528aebd63b49874c9ac7795a4fc084"
   },
   "cloth-config-15.0.140-neoforge.jar": {
     "jarName": "cloth-config-15.0.140-neoforge.jar",
@@ -883,14 +891,6 @@
     "curseForgeHash": 3036562125,
     "modrinthHash": "e5f55c8f9d172048fe6f8b919cda1dbe3cbfbc70"
   },
-  "curios-neoforge-9.1.4+1.21.0.jar": {
-    "jarName": "curios-neoforge-9.1.4+1.21.0.jar",
-    "modId": "curios",
-    "name": "Adorned API",
-    "version": "9.1.4+1.21.0",
-    "curseForgeHash": 4280921921,
-    "modrinthHash": "95d876d11bd5dee00cfd35eb3daf0ad3eda60cdf"
-  },
   "curios-neoforge-9.5.1+1.21.1.jar": {
     "jarName": "curios-neoforge-9.5.1+1.21.1.jar",
     "modId": "curios",
@@ -946,6 +946,14 @@
     "version": "2.3a-BETA",
     "curseForgeHash": 3194201287,
     "modrinthHash": "72635119b4bcc49b050c50d6cbb1abb02bb3982a"
+  },
+  "DodoSpyglass_1.21.1_NeoForge.jar": {
+    "jarName": "DodoSpyglass_1.21.1_NeoForge.jar",
+    "modId": "dodospyglass",
+    "name": "DodoSpyglass",
+    "version": "1.0.0",
+    "curseForgeHash": 1396869453,
+    "modrinthHash": "0ef2a201b1db2eb8ba7a25a2572cd71960887d68"
   },
   "domum-ornamentum-1.0.231-main.jar": {
     "jarName": "domum-ornamentum-1.0.231-main.jar",
@@ -1435,6 +1443,14 @@
     "curseForgeHash": 2918974304,
     "modrinthHash": "40da6da25ec45c4d88447733255e4281b6f22fef"
   },
+  "incrementalmining-1.21.1-1.5.jar": {
+    "jarName": "incrementalmining-1.21.1-1.5.jar",
+    "modId": "incrementalmining",
+    "name": "Incremental Mining",
+    "version": "1.5",
+    "curseForgeHash": 252490997,
+    "modrinthHash": "b9ea232cf5602f6db42be330d69799bc56c84225"
+  },
   "insanelib-2.4.15.0.jar": {
     "jarName": "insanelib-2.4.15.0.jar",
     "modId": "insanelib",
@@ -1656,6 +1672,14 @@
     "curseForgeHash": 3609311698,
     "modrinthHash": "d4e88254e8c26687d4c6aeb4dfa9c2ad70f260a2"
   },
+  "kubejs_curios_neoforge_1.21.1-1.0.4.jar": {
+    "jarName": "kubejs_curios_neoforge_1.21.1-1.0.4.jar",
+    "modId": "kubejs_curios",
+    "name": "KubeJSCurios",
+    "version": "1.0.4",
+    "curseForgeHash": 1727905040,
+    "modrinthHash": "d76c4181e1436bc85f108c7191f1ed7ee374d318"
+  },
   "kubejs_enderio-neoforge-1.21.1-0.12.0.jar": {
     "jarName": "kubejs_enderio-neoforge-1.21.1-0.12.0.jar",
     "modId": "kubejs_enderio",
@@ -1703,6 +1727,14 @@
     "version": "1.21.1-1.0.10",
     "curseForgeHash": 4178639565,
     "modrinthHash": "5a3e06654045a43e76585b743fdb0b1ac966ec36"
+  },
+  "letmedespawn-1.21.x-neoforge-1.5.0.jar": {
+    "jarName": "letmedespawn-1.21.x-neoforge-1.5.0.jar",
+    "modId": "letmedespawn",
+    "name": "Let Me Despawn",
+    "version": "1.5.0",
+    "curseForgeHash": 11854486,
+    "modrinthHash": "576fe2edaa96e7e71015287457bd52f87646d968"
   },
   "levelup-1.2.2.jar": {
     "jarName": "levelup-1.2.2.jar",
@@ -2080,6 +2112,14 @@
     "curseForgeHash": 2721605430,
     "modrinthHash": "a7713e65d5c5bbda51ef396275869db3f5d675a6"
   },
+  "nowheel-1.0.3+1.21.1neoforge.jar": {
+    "jarName": "nowheel-1.0.3+1.21.1neoforge.jar",
+    "modId": "nowheel",
+    "name": "Nowheel",
+    "version": "1.0.3",
+    "curseForgeHash": 3564507641,
+    "modrinthHash": "55c16e5a144b01fc0a80a13f11b7755e33156954"
+  },
   "obscure_tooltips-neoforge-1.21.1-4.2.2.jar": {
     "jarName": "obscure_tooltips-neoforge-1.21.1-4.2.2.jar",
     "modId": "obscure_tooltips",
@@ -2384,6 +2424,14 @@
     "curseForgeHash": 2093242437,
     "modrinthHash": "5b8a0b43a474c066371b2e16f9bfb88622552a74"
   },
+  "servercore-neoforge-1.5.5+1.21.1.jar": {
+    "jarName": "servercore-neoforge-1.5.5+1.21.1.jar",
+    "modId": "servercore",
+    "name": "ServerCore",
+    "version": "1.5.5+1.21.1",
+    "curseForgeHash": 1334072034,
+    "modrinthHash": "a7694052c8a76c3a3fe19fd5043e8314a3d4d58a"
+  },
   "SimplyBows-neoforge-0.1.2.jar": {
     "jarName": "SimplyBows-neoforge-0.1.2.jar",
     "modId": "simplybows",
@@ -2495,6 +2543,14 @@
     "version": "2.4.22+lts",
     "curseForgeHash": 303899233,
     "modrinthHash": "cbfa42a31515e1bac4bafcdd974fbba29b7d106a"
+  },
+  "spark-1.10.124-neoforge.jar": {
+    "jarName": "spark-1.10.124-neoforge.jar",
+    "modId": "spark",
+    "name": "spark",
+    "version": "1.10.124",
+    "curseForgeHash": 3447435049,
+    "modrinthHash": "9430cc2ab64ff89d698be593769fb9f9ee4efae6"
   },
   "structurify-neoforge-2.0.22+mc1.21.1.jar": {
     "jarName": "structurify-neoforge-2.0.22+mc1.21.1.jar",
