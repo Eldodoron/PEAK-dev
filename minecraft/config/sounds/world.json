@@ -73,5 +73,7 @@
 	},
 	"enableEnderpearlVariety": true,
 	"disableBlocksEntirely": false,
-	"ignoredBlocks": []
+	"ignoredBlocks": [
+		"minecraft:glass"
+	]
 }

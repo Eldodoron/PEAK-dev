@@ -30,3 +30,17 @@
 /spark profiler start --timeout 200
 /effect give EldoTest minecraft:regeneration infinite
 /spark profiler start --timeout 200
+/spark profiler start --timeout 500
+/effect give EldoTest minecraft:bad_omen 999999 6
+/give EldoTest minecraft:bell
+/summon minecraft:villager
+/give EldoTest minecraft:white_bed
+/summon minecraft:villager
+/effect give EldoTest minecraft:bad_omen 999999 6
+/relics maximize
+/spark profiler start --timeout 500
+/kill
+/spark profiler start --timeout 500
+/kill
+/spark profiler start --timeout 500
+/apoth reforge nadir:cataclysmic

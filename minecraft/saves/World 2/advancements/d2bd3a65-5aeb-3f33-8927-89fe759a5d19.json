@@ -5954,15 +5954,18 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:old_growth_birch_forest": "2026-05-18 17:51:20 -0400",
       "minecraft:dark_forest": "2026-05-18 18:04:04 -0400",
       "minecraft:forest": "2026-05-18 14:01:44 -0400",
       "minecraft:sparse_jungle": "2026-05-18 14:14:02 -0400",
-      "minecraft:jungle": "2026-05-18 14:56:39 -0400",
       "minecraft:river": "2026-05-18 17:49:11 -0400",
+      "minecraft:old_growth_birch_forest": "2026-05-18 17:51:20 -0400",
+      "minecraft:jungle": "2026-05-18 14:56:39 -0400",
+      "minecraft:sunflower_plains": "2026-05-18 21:38:27 -0400",
+      "minecraft:swamp": "2026-05-18 21:40:20 -0400",
       "minecraft:birch_forest": "2026-05-18 17:51:42 -0400",
       "minecraft:windswept_hills": "2026-05-18 18:05:55 -0400",
       "minecraft:bamboo_jungle": "2026-05-18 17:25:04 -0400",
+      "minecraft:windswept_savanna": "2026-05-18 21:39:30 -0400",
       "minecraft:plains": "2026-05-18 18:05:20 -0400"
     },
     "done": false
@@ -6595,7 +6598,8 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
-      "minecraft:zombie": "2026-05-18 15:04:54 -0400"
+      "minecraft:zombie": "2026-05-18 15:04:54 -0400",
+      "minecraft:ghast": "2026-05-19 03:54:27 -0400"
     },
     "done": false
   },
@@ -6611,15 +6615,507 @@
     },
     "done": true
   },
-  "incendium:technical/sentrys_wrath": {
+  "tombstone:recipe/enchanted_grave_key": {
     "criteria": {
-      "log_spam_fixer": "2026-05-18 18:33:51 -0400"
+      "has_ingredient": "2026-05-18 17:20:54 -0400"
     },
-    "done": false
+    "done": true
+  },
+  "vampirism:recipes/decorations/hunter/hunter_table": {
+    "criteria": {
+      "has_fang": "2026-05-18 17:24:04 -0400"
+    },
+    "done": true
+  },
+  "vampirism:main/root": {
+    "criteria": {
+      "main": "2026-05-18 17:24:04 -0400"
+    },
+    "done": true
+  },
+  "mowziesmobs:recipes/combat/blowgun": {
+    "criteria": {
+      "has_bamboo": "2026-05-18 17:25:07 -0400"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/flute": {
+    "criteria": {
+      "has_item_minecraft_bamboo_1": "2026-05-18 17:25:07 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/stick_from_bamboo_item": {
+    "criteria": {
+      "has_bamboo": "2026-05-18 17:25:07 -0400"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/bamboo_spikes": {
+    "criteria": {
+      "has_item_minecraft_bamboo_2": "2026-05-18 17:25:07 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/scaffolding": {
+    "criteria": {
+      "has_bamboo": "2026-05-18 17:25:07 -0400"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/lunch_basket": {
+    "criteria": {
+      "has_item_minecraft_bamboo_2": "2026-05-18 17:25:07 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bamboo_block": {
+    "criteria": {
+      "has_bamboo": "2026-05-18 17:25:07 -0400"
+    },
+    "done": true
+  },
+  "create_ltab:dune": {
+    "criteria": {
+      "sand": "2026-05-18 17:25:27 -0400"
+    },
+    "done": true
   },
   "quark:recipes/decorations/world/crafting/woodsets/azalea/azalea_boat": {
     "criteria": {
       "in_water": "2026-05-18 17:25:29 -0400"
+    },
+    "done": true
+  },
+  "undergarden:recipes/transportation/grongle_boat": {
+    "criteria": {
+      "in_water": "2026-05-18 17:25:29 -0400"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/transportation/mangrove_boat": {
+    "criteria": {
+      "in_water": "2026-05-18 17:25:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/decorations/world/crafting/woodsets/ancient/ancient_boat": {
+    "criteria": {
+      "in_water": "2026-05-18 17:25:29 -0400"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/transportation/canopy_boat": {
+    "criteria": {
+      "in_water": "2026-05-18 17:25:29 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/bamboo_raft": {
+    "criteria": {
+      "in_water": "2026-05-18 17:25:29 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "in_water": "2026-05-18 17:25:29 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_boat": {
+    "criteria": {
+      "in_water": "2026-05-18 17:25:29 -0400"
+    },
+    "done": true
+  },
+  "vampirism:recipes/transportation/dark_spruce_boat": {
+    "criteria": {
+      "in_water": "2026-05-18 17:25:29 -0400"
+    },
+    "done": true
+  },
+  "deeperdarker:recipes/transportation/echo_boat": {
+    "criteria": {
+      "in_water": "2026-05-18 17:25:29 -0400"
+    },
+    "done": true
+  },
+  "deeperdarker:recipes/transportation/bloom_boat": {
+    "criteria": {
+      "in_water": "2026-05-18 17:25:29 -0400"
+    },
+    "done": true
+  },
+  "undergarden:recipes/transportation/ancient_root_boat": {
+    "criteria": {
+      "in_water": "2026-05-18 17:25:29 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/cherry_boat": {
+    "criteria": {
+      "in_water": "2026-05-18 17:25:29 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "in_water": "2026-05-18 17:25:29 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/pale_oak_boat": {
+    "criteria": {
+      "in_water": "2026-05-18 17:25:29 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "in_water": "2026-05-18 17:25:29 -0400"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/transportation/mining_boat": {
+    "criteria": {
+      "in_water": "2026-05-18 17:25:29 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "in_water": "2026-05-18 17:25:29 -0400"
+    },
+    "done": true
+  },
+  "vampirism:recipes/transportation/cursed_spruce_boat": {
+    "criteria": {
+      "in_water": "2026-05-18 17:25:29 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/mangrove_boat": {
+    "criteria": {
+      "in_water": "2026-05-18 17:25:29 -0400"
+    },
+    "done": true
+  },
+  "undergarden:recipes/transportation/smogstem_boat": {
+    "criteria": {
+      "in_water": "2026-05-18 17:25:29 -0400"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/transportation/sorting_boat": {
+    "criteria": {
+      "in_water": "2026-05-18 17:25:29 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "in_water": "2026-05-18 17:25:29 -0400"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/transportation/twilight_oak_boat": {
+    "criteria": {
+      "in_water": "2026-05-18 17:25:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/decorations/world/crafting/woodsets/blossom/blossom_boat": {
+    "criteria": {
+      "in_water": "2026-05-18 17:25:29 -0400"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/transportation/time_boat": {
+    "criteria": {
+      "in_water": "2026-05-18 17:25:29 -0400"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/transportation/transformation_boat": {
+    "criteria": {
+      "in_water": "2026-05-18 17:25:29 -0400"
+    },
+    "done": true
+  },
+  "undergarden:recipes/transportation/wigglewood_boat": {
+    "criteria": {
+      "in_water": "2026-05-18 17:25:29 -0400"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/transportation/dark_boat": {
+    "criteria": {
+      "in_water": "2026-05-18 17:25:29 -0400"
+    },
+    "done": true
+  },
+  "adorablehamsterpets:recipes/combat/hamster_armor_gold_smithing": {
+    "criteria": {
+      "has_acorn_armor": "2026-05-18 17:26:16 -0400"
+    },
+    "done": true
+  },
+  "adorablehamsterpets:recipes/combat/hamster_armor_diamond_smithing": {
+    "criteria": {
+      "has_acorn_armor": "2026-05-18 17:26:16 -0400"
+    },
+    "done": true
+  },
+  "adorablehamsterpets:recipes/combat/hamster_armor_iron_smithing": {
+    "criteria": {
+      "has_acorn_armor": "2026-05-18 17:26:16 -0400"
+    },
+    "done": true
+  },
+  "adorablehamsterpets:recipes/combat/hamster_armor_netherite_smithing": {
+    "criteria": {
+      "has_acorn_armor": "2026-05-18 17:26:16 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/melon_seeds": {
+    "criteria": {
+      "has_melon": "2026-05-18 17:28:18 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/melon_popsicle": {
+    "criteria": {
+      "has_melon": "2026-05-18 17:28:18 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/melon": {
+    "criteria": {
+      "has_melon": "2026-05-18 17:28:18 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/glistering_melon_slice": {
+    "criteria": {
+      "has_melon": "2026-05-18 17:28:18 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/melon_juice": {
+    "criteria": {
+      "has_melon_slice": "2026-05-18 17:28:18 -0400"
+    },
+    "done": true
+  },
+  "vampirism:recipes/alchemy_table/plant_oil": {
+    "criteria": {
+      "has_wheat_seeds": "2026-05-18 17:28:20 -0400"
+    },
+    "done": true
+  },
+  "lootr:pot_opened": {
+    "criteria": {
+      "pot_opened": "2026-05-18 17:28:46 -0400"
+    },
+    "done": true
+  },
+  "lootr:archaeologist": {
+    "criteria": {
+      "got_pot": "2026-05-18 17:28:46 -0400"
+    },
+    "done": false
+  },
+  "alexscaves:alexscaves/discover_magnetic_caves": {
+    "criteria": {
+      "enter_biome": "2026-05-18 17:28:50 -0400"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/mangrove_crate": {
+    "criteria": {
+      "has_minecraft:mangrove_planks": "2026-05-18 17:29:00 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mangrove_sign": {
+    "criteria": {
+      "has_planks": "2026-05-18 17:29:00 -0400"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/mangrove_light_ceiling_fan": {
+    "criteria": {
+      "has_minecraft:mangrove_planks": "2026-05-18 17:29:00 -0400"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/mangrove_cutting_board": {
+    "criteria": {
+      "has_minecraft:mangrove_planks": "2026-05-18 17:29:00 -0400"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/mangrove_kitchen_storage_cabinet": {
+    "criteria": {
+      "has_minecraft:mangrove_planks": "2026-05-18 17:29:00 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/mangrove_window": {
+    "criteria": {
+      "has_ingredient": "2026-05-18 17:29:00 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mangrove_slab": {
+    "criteria": {
+      "has_planks": "2026-05-18 17:29:00 -0400"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/mangrove_mail_box": {
+    "criteria": {
+      "has_minecraft:mangrove_planks": "2026-05-18 17:29:00 -0400"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/mangrove_toilet": {
+    "criteria": {
+      "has_minecraft:mangrove_planks": "2026-05-18 17:29:00 -0400"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/mangrove_kitchen_sink": {
+    "criteria": {
+      "has_minecraft:mangrove_planks": "2026-05-18 17:29:00 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mangrove_fence": {
+    "criteria": {
+      "has_planks": "2026-05-18 17:29:00 -0400"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/mangrove_lattice_fence": {
+    "criteria": {
+      "has_minecraft:mangrove_planks": "2026-05-18 17:29:00 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/mangrove_pressure_plate": {
+    "criteria": {
+      "has_planks": "2026-05-18 17:29:00 -0400"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/mangrove_drawer": {
+    "criteria": {
+      "has_minecraft:mangrove_planks": "2026-05-18 17:29:00 -0400"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/mangrove_kitchen_cabinetry": {
+    "criteria": {
+      "has_minecraft:mangrove_planks": "2026-05-18 17:29:00 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mangrove_stairs": {
+    "criteria": {
+      "has_planks": "2026-05-18 17:29:00 -0400"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/mangrove_table": {
+    "criteria": {
+      "has_minecraft:mangrove_planks": "2026-05-18 17:29:00 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/mangrove_trapdoor": {
+    "criteria": {
+      "has_planks": "2026-05-18 17:29:00 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/vertplanks/vertical_mangrove_planks": {
+    "criteria": {
+      "obtained_planks": "2026-05-18 17:29:00 -0400"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/mangrove_storage_jar": {
+    "criteria": {
+      "has_minecraft:mangrove_planks": "2026-05-18 17:29:00 -0400"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/mangrove_kitchen_drawer": {
+    "criteria": {
+      "has_minecraft:mangrove_planks": "2026-05-18 17:29:00 -0400"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/mangrove_lattice_fence_gate": {
+    "criteria": {
+      "has_minecraft:mangrove_planks": "2026-05-18 17:29:00 -0400"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/mangrove_bath": {
+    "criteria": {
+      "has_minecraft:mangrove_planks": "2026-05-18 17:29:00 -0400"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/mangrove_chair": {
+    "criteria": {
+      "has_minecraft:mangrove_planks": "2026-05-18 17:29:00 -0400"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/mangrove_basin": {
+    "criteria": {
+      "has_minecraft:mangrove_planks": "2026-05-18 17:29:00 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/mangrove_door": {
+    "criteria": {
+      "has_planks": "2026-05-18 17:29:00 -0400"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/mangrove_desk": {
+    "criteria": {
+      "has_minecraft:mangrove_planks": "2026-05-18 17:29:00 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/mangrove_fence_gate": {
+    "criteria": {
+      "has_planks": "2026-05-18 17:29:00 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/mangrove_button": {
+    "criteria": {
+      "has_planks": "2026-05-18 17:29:00 -0400"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/mangrove_storage_cabinet": {
+    "criteria": {
+      "has_minecraft:mangrove_planks": "2026-05-18 17:29:00 -0400"
+    },
+    "done": true
+  },
+  "lootr:10loot": {
+    "criteria": {
+      "opened_10": "2026-05-18 17:29:16 -0400"
     },
     "done": true
   },
@@ -6647,18 +7143,6 @@
     },
     "done": true
   },
-  "undergarden:recipes/transportation/grongle_boat": {
-    "criteria": {
-      "in_water": "2026-05-18 17:25:29 -0400"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/mangrove_crate": {
-    "criteria": {
-      "has_minecraft:mangrove_planks": "2026-05-18 17:29:00 -0400"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/misc/constructing/birch_bath": {
     "criteria": {
       "has_minecraft:iron_ingot": "2026-05-18 17:29:19 -0400"
@@ -6680,12 +7164,6 @@
   "refurbished_furniture:recipes/misc/constructing/crimson_basin": {
     "criteria": {
       "has_minecraft:iron_ingot": "2026-05-18 17:29:19 -0400"
-    },
-    "done": true
-  },
-  "adorablehamsterpets:recipes/combat/hamster_armor_gold_smithing": {
-    "criteria": {
-      "has_acorn_armor": "2026-05-18 17:26:16 -0400"
     },
     "done": true
   },
@@ -6725,12 +7203,6 @@
     },
     "done": true
   },
-  "lootr:1barrel": {
-    "criteria": {
-      "opened_barrel": "2026-05-18 17:43:06 -0400"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/misc/constructing/jungle_light_ceiling_fan": {
     "criteria": {
       "has_minecraft:iron_ingot": "2026-05-18 17:29:19 -0400"
@@ -6743,30 +7215,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/iron_ingot_from_iron_block": {
-    "criteria": {
-      "has_iron_block": "2026-05-18 17:29:21 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/mangrove_sign": {
-    "criteria": {
-      "has_planks": "2026-05-18 17:29:00 -0400"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/mangrove_light_ceiling_fan": {
-    "criteria": {
-      "has_minecraft:mangrove_planks": "2026-05-18 17:29:00 -0400"
-    },
-    "done": true
-  },
-  "incendium:technical/on_block": {
-    "criteria": {
-      "log_spam_fixer": "2026-05-18 18:33:51 -0400"
-    },
-    "done": false
-  },
   "create:recipes/building_blocks/weathered_iron_block_from_ingots_iron_stonecutting": {
     "criteria": {
       "has_ingots_iron": "2026-05-18 17:29:19 -0400"
@@ -6776,12 +7224,6 @@
   "refurbished_furniture:recipes/misc/constructing/jungle_toilet": {
     "criteria": {
       "has_minecraft:iron_ingot": "2026-05-18 17:29:19 -0400"
-    },
-    "done": true
-  },
-  "tombstone:recipe/enchanted_grave_key": {
-    "criteria": {
-      "has_ingredient": "2026-05-18 17:20:54 -0400"
     },
     "done": true
   },
@@ -6821,12 +7263,6 @@
     },
     "done": true
   },
-  "mowziesmobs:recipes/combat/blowgun": {
-    "criteria": {
-      "has_bamboo": "2026-05-18 17:25:07 -0400"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/misc/constructing/dark_oak_basin": {
     "criteria": {
       "has_minecraft:iron_ingot": "2026-05-18 17:29:19 -0400"
@@ -6839,27 +7275,9 @@
     },
     "done": true
   },
-  "incendium:technical/feed_ghastling": {
-    "criteria": {
-      "log_spam_fixer": "2026-05-18 18:33:51 -0400"
-    },
-    "done": false
-  },
   "refurbished_furniture:recipes/misc/constructing/cherry_storage_cabinet": {
     "criteria": {
       "has_minecraft:iron_ingot": "2026-05-18 17:29:19 -0400"
-    },
-    "done": true
-  },
-  "adorablehamsterpets:recipes/combat/hamster_armor_diamond_smithing": {
-    "criteria": {
-      "has_acorn_armor": "2026-05-18 17:26:16 -0400"
-    },
-    "done": true
-  },
-  "twilightforest:recipes/transportation/mangrove_boat": {
-    "criteria": {
-      "in_water": "2026-05-18 17:25:29 -0400"
     },
     "done": true
   },
@@ -6887,12 +7305,6 @@
     },
     "done": true
   },
-  "dungeons_arise:find_heavenly_rider": {
-    "criteria": {
-      "location0": "2026-05-18 17:42:57 -0400"
-    },
-    "done": true
-  },
   "minecolonies:recipes/misc/chainmailchestplate": {
     "criteria": {
       "has_iron": "2026-05-18 17:29:19 -0400"
@@ -6902,18 +7314,6 @@
   "refurbished_furniture:recipes/misc/constructing/warped_basin": {
     "criteria": {
       "has_minecraft:iron_ingot": "2026-05-18 17:29:19 -0400"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/mangrove_cutting_board": {
-    "criteria": {
-      "has_minecraft:mangrove_planks": "2026-05-18 17:29:00 -0400"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/mangrove_kitchen_storage_cabinet": {
-    "criteria": {
-      "has_minecraft:mangrove_planks": "2026-05-18 17:29:00 -0400"
     },
     "done": true
   },
@@ -6941,36 +7341,6 @@
     },
     "done": true
   },
-  "incendium:technical/multiplex_crossbow": {
-    "criteria": {
-      "log_spam_fixer": "2026-05-18 18:33:51 -0400"
-    },
-    "done": false
-  },
-  "quark:recipes/decorations/world/crafting/woodsets/ancient/ancient_boat": {
-    "criteria": {
-      "in_water": "2026-05-18 17:25:29 -0400"
-    },
-    "done": true
-  },
-  "twilightforest:recipes/transportation/canopy_boat": {
-    "criteria": {
-      "in_water": "2026-05-18 17:25:29 -0400"
-    },
-    "done": true
-  },
-  "create:recipes/building_blocks/mangrove_window": {
-    "criteria": {
-      "has_ingredient": "2026-05-18 17:29:00 -0400"
-    },
-    "done": true
-  },
-  "supplementaries:recipe/flute": {
-    "criteria": {
-      "has_item_minecraft_bamboo_1": "2026-05-18 17:25:07 -0400"
-    },
-    "done": true
-  },
   "supplementaries:recipe/candle_holders/candle_holder_purple": {
     "criteria": {
       "has_tag_c_ingots_iron_2": "2026-05-18 17:29:19 -0400"
@@ -6995,12 +7365,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/stick_from_bamboo_item": {
-    "criteria": {
-      "has_bamboo": "2026-05-18 17:25:07 -0400"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/misc/constructing/light_gray_grill": {
     "criteria": {
       "has_minecraft:iron_ingot": "2026-05-18 17:29:19 -0400"
@@ -7010,18 +7374,6 @@
   "refurbished_furniture:recipes/misc/constructing/yellow_grill": {
     "criteria": {
       "has_minecraft:iron_ingot": "2026-05-18 17:29:19 -0400"
-    },
-    "done": true
-  },
-  "tombstone:recipe/impregnated_diamond": {
-    "criteria": {
-      "has_ingredient": "2026-05-18 18:34:11 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/mangrove_slab": {
-    "criteria": {
-      "has_planks": "2026-05-18 17:29:00 -0400"
     },
     "done": true
   },
@@ -7049,12 +7401,6 @@
     },
     "done": true
   },
-  "refurbished_furniture:recipes/misc/constructing/mangrove_mail_box": {
-    "criteria": {
-      "has_minecraft:mangrove_planks": "2026-05-18 17:29:00 -0400"
-    },
-    "done": true
-  },
   "ae2:recipes/misc/decorative/light_detector": {
     "criteria": {
       "has_iron_ingot": "2026-05-18 17:29:19 -0400"
@@ -7064,12 +7410,6 @@
   "refurbished_furniture:recipes/misc/constructing/crimson_storage_cabinet": {
     "criteria": {
       "has_minecraft:iron_ingot": "2026-05-18 17:29:19 -0400"
-    },
-    "done": true
-  },
-  "immersive_armors:recipes/misc/heavy": {
-    "criteria": {
-      "has_item": "2026-05-18 17:29:21 -0400"
     },
     "done": true
   },
@@ -7091,24 +7431,6 @@
     },
     "done": true
   },
-  "minecolonies:recipes/food/pasta_plain": {
-    "criteria": {
-      "has_durum": "2026-05-18 18:30:02 -0400"
-    },
-    "done": true
-  },
-  "tombstone:recipe/blue_marble": {
-    "criteria": {
-      "has_ingredient": "2026-05-18 18:34:11 -0400"
-    },
-    "done": true
-  },
-  "incendium:technical/on_player_hurt": {
-    "criteria": {
-      "log_spam_fixer": "2026-05-18 18:33:51 -0400"
-    },
-    "done": false
-  },
   "immersiveengineering:recipes/misc/crafting/connector_hv": {
     "criteria": {
       "has_aluminum_ingot": "2026-05-18 17:29:19 -0400"
@@ -7121,12 +7443,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/transportation/bamboo_raft": {
-    "criteria": {
-      "in_water": "2026-05-18 17:25:29 -0400"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/misc/constructing/light_blue_trampoline": {
     "criteria": {
       "has_minecraft:iron_ingot": "2026-05-18 17:29:19 -0400"
@@ -7136,18 +7452,6 @@
   "refurbished_furniture:recipes/misc/constructing/light_stove": {
     "criteria": {
       "has_minecraft:iron_ingot": "2026-05-18 17:29:19 -0400"
-    },
-    "done": true
-  },
-  "tombstone:recipe/smoke_ball": {
-    "criteria": {
-      "has_ingredient": "2026-05-18 18:34:11 -0400"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/mangrove_toilet": {
-    "criteria": {
-      "has_minecraft:mangrove_planks": "2026-05-18 17:29:00 -0400"
     },
     "done": true
   },
@@ -7187,21 +7491,9 @@
     },
     "done": true
   },
-  "vampirism:recipes/decorations/hunter/hunter_table": {
-    "criteria": {
-      "has_fang": "2026-05-18 17:24:04 -0400"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/lantern": {
     "criteria": {
       "has_iron_ingot": "2026-05-18 17:29:19 -0400"
-    },
-    "done": true
-  },
-  "minecolonies:recipes/food/pasta_tomato": {
-    "criteria": {
-      "has_durum": "2026-05-18 18:30:02 -0400"
     },
     "done": true
   },
@@ -7235,21 +7527,9 @@
     },
     "done": true
   },
-  "minecolonies:recipes/food/chicken_broth": {
-    "criteria": {
-      "has_durum": "2026-05-18 18:30:02 -0400"
-    },
-    "done": true
-  },
   "vampirism:recipes/weapontable/hunter_coat_legs_enhanced": {
     "criteria": {
       "has_iron": "2026-05-18 17:29:19 -0400"
-    },
-    "done": true
-  },
-  "supplementaries:recipe/bamboo_spikes": {
-    "criteria": {
-      "has_item_minecraft_bamboo_2": "2026-05-18 17:25:07 -0400"
     },
     "done": true
   },
@@ -7265,21 +7545,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/melon_seeds": {
-    "criteria": {
-      "has_melon": "2026-05-18 17:28:18 -0400"
-    },
-    "done": true
-  },
   "minecraft:recipes/combat/iron_leggings": {
     "criteria": {
       "has_iron_ingot": "2026-05-18 17:29:19 -0400"
-    },
-    "done": true
-  },
-  "integrated_villages:airship_village": {
-    "criteria": {
-      "in_airship_village": "2026-05-18 18:17:21 -0400"
     },
     "done": true
   },
@@ -7298,24 +7566,6 @@
   "minecraft:recipes/tools/iron_hoe": {
     "criteria": {
       "has_iron_ingot": "2026-05-18 17:29:19 -0400"
-    },
-    "done": true
-  },
-  "tombstone:recipe/dust_of_frost": {
-    "criteria": {
-      "has_ingredient": "2026-05-18 18:34:11 -0400"
-    },
-    "done": true
-  },
-  "tombstone:recipe/bone_needle": {
-    "criteria": {
-      "has_ingredient": "2026-05-18 18:34:11 -0400"
-    },
-    "done": true
-  },
-  "vampirism:main/root": {
-    "criteria": {
-      "main": "2026-05-18 17:24:04 -0400"
     },
     "done": true
   },
@@ -7349,30 +7599,6 @@
     },
     "done": true
   },
-  "refurbished_furniture:recipes/misc/constructing/mangrove_kitchen_sink": {
-    "criteria": {
-      "has_minecraft:mangrove_planks": "2026-05-18 17:29:00 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/birch_boat": {
-    "criteria": {
-      "in_water": "2026-05-18 17:25:29 -0400"
-    },
-    "done": true
-  },
-  "minecolonies:recipes/food/cheese_ravioli": {
-    "criteria": {
-      "has_durum": "2026-05-18 18:30:02 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/oak_boat": {
-    "criteria": {
-      "in_water": "2026-05-18 17:25:29 -0400"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/misc/constructing/light_lightswitch": {
     "criteria": {
       "has_minecraft:iron_ingot": "2026-05-18 17:29:19 -0400"
@@ -7397,30 +7623,6 @@
     },
     "done": true
   },
-  "alexscaves:alexscaves/discover_magnetic_caves": {
-    "criteria": {
-      "enter_biome": "2026-05-18 17:28:50 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/mangrove_fence": {
-    "criteria": {
-      "has_planks": "2026-05-18 17:29:00 -0400"
-    },
-    "done": true
-  },
-  "dungeons_arise:find_merchant_campsite": {
-    "criteria": {
-      "location0": "2026-05-18 18:21:03 -0400"
-    },
-    "done": true
-  },
-  "vampirism:recipes/transportation/dark_spruce_boat": {
-    "criteria": {
-      "in_water": "2026-05-18 17:25:29 -0400"
-    },
-    "done": true
-  },
   "immersiveengineering:recipes/misc/crafting/hammer": {
     "criteria": {
       "has_iron_ingot": "2026-05-18 17:29:19 -0400"
@@ -7430,12 +7632,6 @@
   "vampirism:recipes/decorations/hunter/alchemical_cauldron": {
     "criteria": {
       "has_iron": "2026-05-18 17:29:19 -0400"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/mangrove_lattice_fence": {
-    "criteria": {
-      "has_minecraft:mangrove_planks": "2026-05-18 17:29:00 -0400"
     },
     "done": true
   },
@@ -7457,33 +7653,9 @@
     },
     "done": true
   },
-  "minecolonies:recipes/food/raw_noodle": {
-    "criteria": {
-      "has_durum": "2026-05-18 18:30:02 -0400"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/misc/constructing/purple_trampoline": {
     "criteria": {
       "has_minecraft:iron_ingot": "2026-05-18 17:29:19 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/scaffolding": {
-    "criteria": {
-      "has_bamboo": "2026-05-18 17:25:07 -0400"
-    },
-    "done": true
-  },
-  "supplementaries:recipe/lunch_basket": {
-    "criteria": {
-      "has_item_minecraft_bamboo_2": "2026-05-18 17:25:07 -0400"
-    },
-    "done": true
-  },
-  "minecolonies:recipes/food/meat_ravioli": {
-    "criteria": {
-      "has_durum": "2026-05-18 18:30:02 -0400"
     },
     "done": true
   },
@@ -7493,51 +7665,9 @@
     },
     "done": true
   },
-  "deeperdarker:recipes/transportation/echo_boat": {
-    "criteria": {
-      "in_water": "2026-05-18 17:25:29 -0400"
-    },
-    "done": true
-  },
-  "create_ltab:dune": {
-    "criteria": {
-      "sand": "2026-05-18 17:25:27 -0400"
-    },
-    "done": true
-  },
-  "deeperdarker:recipes/transportation/bloom_boat": {
-    "criteria": {
-      "in_water": "2026-05-18 17:25:29 -0400"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/food/melon_popsicle": {
-    "criteria": {
-      "has_melon": "2026-05-18 17:28:18 -0400"
-    },
-    "done": true
-  },
-  "undergarden:recipes/transportation/ancient_root_boat": {
-    "criteria": {
-      "in_water": "2026-05-18 17:25:29 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/cherry_boat": {
-    "criteria": {
-      "in_water": "2026-05-18 17:25:29 -0400"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/misc/constructing/crimson_light_ceiling_fan": {
     "criteria": {
       "has_minecraft:iron_ingot": "2026-05-18 17:29:19 -0400"
-    },
-    "done": true
-  },
-  "adorablehamsterpets:recipes/combat/hamster_armor_iron_smithing": {
-    "criteria": {
-      "has_acorn_armor": "2026-05-18 17:26:16 -0400"
     },
     "done": true
   },
@@ -7558,18 +7688,6 @@
       "has_iron": "2026-05-18 17:29:19 -0400"
     },
     "done": true
-  },
-  "tombstone:recipe/green_marble": {
-    "criteria": {
-      "has_ingredient": "2026-05-18 18:34:11 -0400"
-    },
-    "done": true
-  },
-  "incendium:technical/on_kill": {
-    "criteria": {
-      "log_spam_fixer": "2026-05-18 18:33:51 -0400"
-    },
-    "done": false
   },
   "vampirism:recipes/weapontable/crucifix_enhanced": {
     "criteria": {
@@ -7601,12 +7719,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/mangrove_pressure_plate": {
-    "criteria": {
-      "has_planks": "2026-05-18 17:29:00 -0400"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/misc/constructing/acacia_storage_cabinet": {
     "criteria": {
       "has_minecraft:iron_ingot": "2026-05-18 17:29:19 -0400"
@@ -7619,12 +7731,6 @@
     },
     "done": true
   },
-  "incendium:technical/on_inventory_change": {
-    "criteria": {
-      "log_spam_fixer": "2026-05-18 18:33:51 -0400"
-    },
-    "done": false
-  },
   "immersiveengineering:recipes/misc/crafting/coil_mv": {
     "criteria": {
       "has_iron_ingot": "2026-05-18 17:29:19 -0400"
@@ -7634,18 +7740,6 @@
   "immersiveengineering:recipes/misc/crafting/coil_lv": {
     "criteria": {
       "has_iron_ingot": "2026-05-18 17:29:19 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/melon": {
-    "criteria": {
-      "has_melon": "2026-05-18 17:28:18 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/acacia_boat": {
-    "criteria": {
-      "in_water": "2026-05-18 17:25:29 -0400"
     },
     "done": true
   },
@@ -7667,30 +7761,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/transportation/pale_oak_boat": {
-    "criteria": {
-      "in_water": "2026-05-18 17:25:29 -0400"
-    },
-    "done": true
-  },
-  "incendium:technical/holy_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2026-05-18 18:33:51 -0400"
-    },
-    "done": false
-  },
-  "tombstone:recipe/dark_marble": {
-    "criteria": {
-      "has_ingredient": "2026-05-18 18:34:11 -0400"
-    },
-    "done": true
-  },
-  "tombstone:recipe/dust_of_vanishing": {
-    "criteria": {
-      "has_ingredient": "2026-05-18 18:34:11 -0400"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/misc/constructing/cherry_light_ceiling_fan": {
     "criteria": {
       "has_minecraft:iron_ingot": "2026-05-18 17:29:19 -0400"
@@ -7700,18 +7770,6 @@
   "refurbished_furniture:recipes/misc/constructing/recycle_bin": {
     "criteria": {
       "has_minecraft:iron_ingot": "2026-05-18 17:29:19 -0400"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/mangrove_drawer": {
-    "criteria": {
-      "has_minecraft:mangrove_planks": "2026-05-18 17:29:00 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/jungle_boat": {
-    "criteria": {
-      "in_water": "2026-05-18 17:25:29 -0400"
     },
     "done": true
   },
@@ -7727,12 +7785,6 @@
     },
     "done": true
   },
-  "twilightforest:recipes/transportation/mining_boat": {
-    "criteria": {
-      "in_water": "2026-05-18 17:25:29 -0400"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/misc/constructing/light_fridge": {
     "criteria": {
       "has_minecraft:iron_ingot": "2026-05-18 17:29:19 -0400"
@@ -7745,21 +7797,9 @@
     },
     "done": true
   },
-  "minecolonies:recipes/food/fish_n_chips": {
-    "criteria": {
-      "has_durum": "2026-05-18 18:30:02 -0400"
-    },
-    "done": true
-  },
   "vampirism:recipes/weapontable/basic_double_crossbow": {
     "criteria": {
       "has_iron": "2026-05-18 17:29:19 -0400"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/mangrove_kitchen_cabinetry": {
-    "criteria": {
-      "has_minecraft:mangrove_planks": "2026-05-18 17:29:00 -0400"
     },
     "done": true
   },
@@ -7778,18 +7818,6 @@
   "refurbished_furniture:recipes/misc/constructing/computer": {
     "criteria": {
       "has_minecraft:iron_ingot": "2026-05-18 17:29:19 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/mangrove_stairs": {
-    "criteria": {
-      "has_planks": "2026-05-18 17:29:00 -0400"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/mangrove_table": {
-    "criteria": {
-      "has_minecraft:mangrove_planks": "2026-05-18 17:29:00 -0400"
     },
     "done": true
   },
@@ -7823,12 +7851,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/transportation/spruce_boat": {
-    "criteria": {
-      "in_water": "2026-05-18 17:25:29 -0400"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/misc/knife": {
     "criteria": {
       "has_iron_ingot": "2026-05-18 17:29:19 -0400"
@@ -7841,39 +7863,9 @@
     },
     "done": true
   },
-  "incendium:technical/inventory/firestorm": {
-    "criteria": {
-      "log_spam_fixer": "2026-05-18 18:33:51 -0400"
-    },
-    "done": false
-  },
-  "vampirism:recipes/transportation/cursed_spruce_boat": {
-    "criteria": {
-      "in_water": "2026-05-18 17:25:29 -0400"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/lodestone": {
     "criteria": {
       "has_iron_ingot": "2026-05-18 17:29:19 -0400"
-    },
-    "done": true
-  },
-  "incendium:technical/give_ghastling": {
-    "criteria": {
-      "log_spam_fixer": "2026-05-18 18:33:51 -0400"
-    },
-    "done": false
-  },
-  "vampirism:recipes/alchemy_table/plant_oil": {
-    "criteria": {
-      "has_wheat_seeds": "2026-05-18 17:28:20 -0400"
-    },
-    "done": true
-  },
-  "apothic_spawners:capturing": {
-    "criteria": {
-      "egg": "2026-05-18 17:29:20 -0400"
     },
     "done": true
   },
@@ -7889,18 +7881,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/transportation/mangrove_boat": {
-    "criteria": {
-      "in_water": "2026-05-18 17:25:29 -0400"
-    },
-    "done": true
-  },
-  "tombstone:recipe/fishing_rod_of_misadventure": {
-    "criteria": {
-      "has_ingredient": "2026-05-18 18:34:11 -0400"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/misc/wrench": {
     "criteria": {
       "has_iron_ingot": "2026-05-18 17:29:19 -0400"
@@ -7913,27 +7893,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/brewing/glistering_melon_slice": {
-    "criteria": {
-      "has_melon": "2026-05-18 17:28:18 -0400"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/misc/constructing/pink_trampoline": {
     "criteria": {
       "has_minecraft:iron_ingot": "2026-05-18 17:29:19 -0400"
-    },
-    "done": true
-  },
-  "undergarden:recipes/transportation/smogstem_boat": {
-    "criteria": {
-      "in_water": "2026-05-18 17:25:29 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/mangrove_trapdoor": {
-    "criteria": {
-      "has_planks": "2026-05-18 17:29:00 -0400"
     },
     "done": true
   },
@@ -7942,18 +7904,6 @@
       "has_minecraft:iron_ingot": "2026-05-18 17:29:19 -0400"
     },
     "done": true
-  },
-  "lootr:pot_opened": {
-    "criteria": {
-      "pot_opened": "2026-05-18 17:28:46 -0400"
-    },
-    "done": true
-  },
-  "lootr:archaeologist": {
-    "criteria": {
-      "got_pot": "2026-05-18 17:28:46 -0400"
-    },
-    "done": false
   },
   "supplementaries:recipe/candle_holders/candle_holder_white": {
     "criteria": {
@@ -7973,33 +7923,9 @@
     },
     "done": true
   },
-  "quark:recipes/building_blocks/building/crafting/vertplanks/vertical_mangrove_planks": {
-    "criteria": {
-      "obtained_planks": "2026-05-18 17:29:00 -0400"
-    },
-    "done": true
-  },
-  "tombstone:recipe/ankh_of_prayer": {
-    "criteria": {
-      "has_ingredient": "2026-05-18 18:34:11 -0400"
-    },
-    "done": true
-  },
   "supplementaries:recipe/dispenser_minecart_quark": {
     "criteria": {
       "has_tag_c_ingots_iron_2": "2026-05-18 17:29:19 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/bamboo_block": {
-    "criteria": {
-      "has_bamboo": "2026-05-18 17:25:07 -0400"
-    },
-    "done": true
-  },
-  "twilightforest:recipes/transportation/sorting_boat": {
-    "criteria": {
-      "in_water": "2026-05-18 17:25:29 -0400"
     },
     "done": true
   },
@@ -8015,33 +7941,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/anvil": {
-    "criteria": {
-      "has_iron_block": "2026-05-18 17:29:21 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/dark_oak_boat": {
-    "criteria": {
-      "in_water": "2026-05-18 17:25:29 -0400"
-    },
-    "done": true
-  },
-  "adorablehamsterpets:recipes/combat/hamster_armor_netherite_smithing": {
-    "criteria": {
-      "has_acorn_armor": "2026-05-18 17:26:16 -0400"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/misc/constructing/lime_grill": {
     "criteria": {
       "has_minecraft:iron_ingot": "2026-05-18 17:29:19 -0400"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/food/melon_juice": {
-    "criteria": {
-      "has_melon_slice": "2026-05-18 17:28:18 -0400"
     },
     "done": true
   },
@@ -8153,18 +8055,6 @@
     },
     "done": true
   },
-  "tombstone:adventure/cancel_ghostly_shape": {
-    "criteria": {
-      "coded_trigger": "2026-05-18 17:39:17 -0400"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/mangrove_storage_jar": {
-    "criteria": {
-      "has_minecraft:mangrove_planks": "2026-05-18 17:29:00 -0400"
-    },
-    "done": true
-  },
   "vampirism:recipes/weapontable/hunter_coat_legs_normal": {
     "criteria": {
       "has_iron": "2026-05-18 17:29:19 -0400"
@@ -8180,12 +8070,6 @@
   "refurbished_furniture:recipes/misc/constructing/acacia_basin": {
     "criteria": {
       "has_minecraft:iron_ingot": "2026-05-18 17:29:19 -0400"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/mangrove_kitchen_drawer": {
-    "criteria": {
-      "has_minecraft:mangrove_planks": "2026-05-18 17:29:00 -0400"
     },
     "done": true
   },
@@ -8261,12 +8145,6 @@
     },
     "done": true
   },
-  "refurbished_furniture:recipes/misc/constructing/mangrove_lattice_fence_gate": {
-    "criteria": {
-      "has_minecraft:mangrove_planks": "2026-05-18 17:29:00 -0400"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/misc/constructing/magenta_grill": {
     "criteria": {
       "has_minecraft:iron_ingot": "2026-05-18 17:29:19 -0400"
@@ -8285,27 +8163,9 @@
     },
     "done": true
   },
-  "twilightforest:recipes/transportation/twilight_oak_boat": {
-    "criteria": {
-      "in_water": "2026-05-18 17:25:29 -0400"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/misc/constructing/acacia_toilet": {
     "criteria": {
       "has_minecraft:iron_ingot": "2026-05-18 17:29:19 -0400"
-    },
-    "done": true
-  },
-  "quark:recipes/decorations/world/crafting/woodsets/blossom/blossom_boat": {
-    "criteria": {
-      "in_water": "2026-05-18 17:25:29 -0400"
-    },
-    "done": true
-  },
-  "twilightforest:recipes/transportation/time_boat": {
-    "criteria": {
-      "in_water": "2026-05-18 17:25:29 -0400"
     },
     "done": true
   },
@@ -8318,24 +8178,6 @@
   "refurbished_furniture:recipes/misc/constructing/gray_trampoline": {
     "criteria": {
       "has_minecraft:iron_ingot": "2026-05-18 17:29:19 -0400"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/mangrove_bath": {
-    "criteria": {
-      "has_minecraft:mangrove_planks": "2026-05-18 17:29:00 -0400"
-    },
-    "done": true
-  },
-  "incendium:technical/inventory/sentrys_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2026-05-18 18:33:51 -0400"
-    },
-    "done": false
-  },
-  "refurbished_furniture:recipes/misc/constructing/mangrove_chair": {
-    "criteria": {
-      "has_minecraft:mangrove_planks": "2026-05-18 17:29:00 -0400"
     },
     "done": true
   },
@@ -8363,21 +8205,9 @@
     },
     "done": true
   },
-  "twilightforest:recipes/transportation/transformation_boat": {
-    "criteria": {
-      "in_water": "2026-05-18 17:25:29 -0400"
-    },
-    "done": true
-  },
   "vampirism:recipes/misc/vampire/blood_infused_enhanced_iron_ingot": {
     "criteria": {
       "has_iron": "2026-05-18 17:29:19 -0400"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/mangrove_basin": {
-    "criteria": {
-      "has_minecraft:mangrove_planks": "2026-05-18 17:29:00 -0400"
     },
     "done": true
   },
@@ -8390,24 +8220,6 @@
   "supplementaries:recipe/candle_holders/candle_holder_blue": {
     "criteria": {
       "has_tag_c_ingots_iron_2": "2026-05-18 17:29:19 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/mangrove_door": {
-    "criteria": {
-      "has_planks": "2026-05-18 17:29:00 -0400"
-    },
-    "done": true
-  },
-  "incendium:technical/firestorm": {
-    "criteria": {
-      "log_spam_fixer": "2026-05-18 18:33:51 -0400"
-    },
-    "done": false
-  },
-  "minecolonies:recipes/food/veggie_ravioli": {
-    "criteria": {
-      "has_durum": "2026-05-18 18:30:02 -0400"
     },
     "done": true
   },
@@ -8441,27 +8253,9 @@
     },
     "done": true
   },
-  "tombstone:recipe/carmin_marble": {
-    "criteria": {
-      "has_ingredient": "2026-05-18 18:34:11 -0400"
-    },
-    "done": true
-  },
   "immersiveengineering:recipes/misc/crafting/toolbox": {
     "criteria": {
       "has_iron_ingot": "2026-05-18 17:29:19 -0400"
-    },
-    "done": true
-  },
-  "undergarden:recipes/transportation/wigglewood_boat": {
-    "criteria": {
-      "in_water": "2026-05-18 17:25:29 -0400"
-    },
-    "done": true
-  },
-  "tombstone:recipe/white_marble": {
-    "criteria": {
-      "has_ingredient": "2026-05-18 18:34:11 -0400"
     },
     "done": true
   },
@@ -8477,45 +8271,9 @@
     },
     "done": true
   },
-  "refurbished_furniture:recipes/misc/constructing/mangrove_desk": {
-    "criteria": {
-      "has_minecraft:mangrove_planks": "2026-05-18 17:29:00 -0400"
-    },
-    "done": true
-  },
-  "tombstone:recipe/grave_plate": {
-    "criteria": {
-      "has_ingredient": "2026-05-18 18:34:11 -0400"
-    },
-    "done": true
-  },
-  "twilightforest:recipes/transportation/dark_boat": {
-    "criteria": {
-      "in_water": "2026-05-18 17:25:29 -0400"
-    },
-    "done": true
-  },
-  "lootr:10loot": {
-    "criteria": {
-      "opened_10": "2026-05-18 17:29:16 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/mangrove_fence_gate": {
-    "criteria": {
-      "has_planks": "2026-05-18 17:29:00 -0400"
-    },
-    "done": true
-  },
   "supplementaries:recipe/cage": {
     "criteria": {
       "has_tag_c_ingots_iron_2": "2026-05-18 17:29:19 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/mangrove_button": {
-    "criteria": {
-      "has_planks": "2026-05-18 17:29:00 -0400"
     },
     "done": true
   },
@@ -8531,12 +8289,6 @@
     },
     "done": true
   },
-  "minecolonies:recipes/food/pottage": {
-    "criteria": {
-      "has_durum": "2026-05-18 18:30:02 -0400"
-    },
-    "done": true
-  },
   "enderio:recipes/misc/pressurized_fluid_tank": {
     "criteria": {
       "has_ingredient": "2026-05-18 17:29:19 -0400"
@@ -8549,15 +8301,492 @@
     },
     "done": true
   },
-  "refurbished_furniture:recipes/misc/constructing/mangrove_storage_cabinet": {
-    "criteria": {
-      "has_minecraft:mangrove_planks": "2026-05-18 17:29:00 -0400"
-    },
-    "done": true
-  },
   "alltheores:recipes/misc/iron_ore_hammer": {
     "criteria": {
       "has_iron": "2026-05-18 17:29:19 -0400"
+    },
+    "done": true
+  },
+  "apothic_spawners:capturing": {
+    "criteria": {
+      "egg": "2026-05-18 17:29:20 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_iron_block": {
+    "criteria": {
+      "has_iron_block": "2026-05-18 17:29:21 -0400"
+    },
+    "done": true
+  },
+  "immersive_armors:recipes/misc/heavy": {
+    "criteria": {
+      "has_item": "2026-05-18 17:29:21 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/anvil": {
+    "criteria": {
+      "has_iron_block": "2026-05-18 17:29:21 -0400"
+    },
+    "done": true
+  },
+  "tombstone:adventure/cancel_ghostly_shape": {
+    "criteria": {
+      "coded_trigger": "2026-05-18 17:39:17 -0400"
+    },
+    "done": true
+  },
+  "dungeons_arise:find_heavenly_rider": {
+    "criteria": {
+      "location0": "2026-05-18 17:42:57 -0400"
+    },
+    "done": true
+  },
+  "lootr:1barrel": {
+    "criteria": {
+      "opened_barrel": "2026-05-18 17:43:06 -0400"
+    },
+    "done": true
+  },
+  "integrated_villages:airship_village": {
+    "criteria": {
+      "in_airship_village": "2026-05-18 18:17:21 -0400"
+    },
+    "done": true
+  },
+  "dungeons_arise:find_merchant_campsite": {
+    "criteria": {
+      "location0": "2026-05-18 18:21:03 -0400"
+    },
+    "done": true
+  },
+  "minecolonies:recipes/food/pasta_plain": {
+    "criteria": {
+      "has_durum": "2026-05-18 18:30:02 -0400"
+    },
+    "done": true
+  },
+  "minecolonies:recipes/food/pasta_tomato": {
+    "criteria": {
+      "has_durum": "2026-05-18 18:30:02 -0400"
+    },
+    "done": true
+  },
+  "minecolonies:recipes/food/chicken_broth": {
+    "criteria": {
+      "has_durum": "2026-05-18 18:30:02 -0400"
+    },
+    "done": true
+  },
+  "minecolonies:recipes/food/cheese_ravioli": {
+    "criteria": {
+      "has_durum": "2026-05-18 18:30:02 -0400"
+    },
+    "done": true
+  },
+  "minecolonies:recipes/food/raw_noodle": {
+    "criteria": {
+      "has_durum": "2026-05-18 18:30:02 -0400"
+    },
+    "done": true
+  },
+  "minecolonies:recipes/food/meat_ravioli": {
+    "criteria": {
+      "has_durum": "2026-05-18 18:30:02 -0400"
+    },
+    "done": true
+  },
+  "minecolonies:recipes/food/fish_n_chips": {
+    "criteria": {
+      "has_durum": "2026-05-18 18:30:02 -0400"
+    },
+    "done": true
+  },
+  "minecolonies:recipes/food/veggie_ravioli": {
+    "criteria": {
+      "has_durum": "2026-05-18 18:30:02 -0400"
+    },
+    "done": true
+  },
+  "minecolonies:recipes/food/pottage": {
+    "criteria": {
+      "has_durum": "2026-05-18 18:30:02 -0400"
+    },
+    "done": true
+  },
+  "tombstone:recipe/impregnated_diamond": {
+    "criteria": {
+      "has_ingredient": "2026-05-18 18:34:11 -0400"
+    },
+    "done": true
+  },
+  "tombstone:recipe/blue_marble": {
+    "criteria": {
+      "has_ingredient": "2026-05-18 18:34:11 -0400"
+    },
+    "done": true
+  },
+  "tombstone:recipe/smoke_ball": {
+    "criteria": {
+      "has_ingredient": "2026-05-18 18:34:11 -0400"
+    },
+    "done": true
+  },
+  "tombstone:recipe/dust_of_frost": {
+    "criteria": {
+      "has_ingredient": "2026-05-18 18:34:11 -0400"
+    },
+    "done": true
+  },
+  "tombstone:recipe/bone_needle": {
+    "criteria": {
+      "has_ingredient": "2026-05-18 18:34:11 -0400"
+    },
+    "done": true
+  },
+  "tombstone:recipe/green_marble": {
+    "criteria": {
+      "has_ingredient": "2026-05-18 18:34:11 -0400"
+    },
+    "done": true
+  },
+  "tombstone:recipe/dark_marble": {
+    "criteria": {
+      "has_ingredient": "2026-05-18 18:34:11 -0400"
+    },
+    "done": true
+  },
+  "tombstone:recipe/dust_of_vanishing": {
+    "criteria": {
+      "has_ingredient": "2026-05-18 18:34:11 -0400"
+    },
+    "done": true
+  },
+  "tombstone:recipe/fishing_rod_of_misadventure": {
+    "criteria": {
+      "has_ingredient": "2026-05-18 18:34:11 -0400"
+    },
+    "done": true
+  },
+  "tombstone:recipe/ankh_of_prayer": {
+    "criteria": {
+      "has_ingredient": "2026-05-18 18:34:11 -0400"
+    },
+    "done": true
+  },
+  "tombstone:recipe/carmin_marble": {
+    "criteria": {
+      "has_ingredient": "2026-05-18 18:34:11 -0400"
+    },
+    "done": true
+  },
+  "tombstone:recipe/white_marble": {
+    "criteria": {
+      "has_ingredient": "2026-05-18 18:34:11 -0400"
+    },
+    "done": true
+  },
+  "tombstone:recipe/grave_plate": {
+    "criteria": {
+      "has_ingredient": "2026-05-18 18:34:11 -0400"
+    },
+    "done": true
+  },
+  "minecraft:adventure/sleep_in_bed": {
+    "criteria": {
+      "slept_in_bed": "2026-05-18 21:29:50 -0400"
+    },
+    "done": true
+  },
+  "lootr:25loot": {
+    "criteria": {
+      "opened_25": "2026-05-18 21:30:52 -0400"
+    },
+    "done": true
+  },
+  "create:track_0": {
+    "criteria": {
+      "0": "2026-05-18 21:36:11 -0400"
+    },
+    "done": true
+  },
+  "vampirism:recipes/decorations/item_tent": {
+    "criteria": {
+      "has_bed": "2026-05-18 21:42:18 -0400"
+    },
+    "done": true
+  },
+  "vampirism:recipes/decorations/general/totem_base": {
+    "criteria": {
+      "has_obsidian": "2026-05-18 21:49:31 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/enchanting_table": {
+    "criteria": {
+      "has_obsidian": "2026-05-18 21:49:31 -0400"
+    },
+    "done": true
+  },
+  "vampirism:recipes/misc/vampire_beacon": {
+    "criteria": {
+      "has_obsidian": "2026-05-18 21:49:31 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/flint_and_steel": {
+    "criteria": {
+      "has_obsidian": "2026-05-18 21:49:31 -0400"
+    },
+    "done": true
+  },
+  "vampirism:recipes/decorations/general/totem_top": {
+    "criteria": {
+      "has_obsidian": "2026-05-18 21:49:31 -0400"
+    },
+    "done": true
+  },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2026-05-18 21:49:31 -0400"
+    },
+    "done": true
+  },
+  "incendium:root": {
+    "criteria": {
+      "requirement": "2026-05-18 21:50:08 -0400"
+    },
+    "done": true
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2026-05-18 21:50:08 -0400"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2026-05-18 21:50:08 -0400"
+    },
+    "done": true
+  },
+  "incendium:infernal_dunes/root": {
+    "criteria": {
+      "incendium:infernal_dunes": "2026-05-18 21:50:09 -0400"
+    },
+    "done": true
+  },
+  "incendium:misc/root": {
+    "criteria": {
+      "incendium:infernal_dunes": "2026-05-18 21:50:09 -0400"
+    },
+    "done": true
+  },
+  "incendium:misc/soul_searcher": {
+    "criteria": {
+      "incendium:ash_barrens": "2026-05-18 21:57:00 -0400",
+      "incendium:weeping_valley": "2026-05-18 21:59:21 -0400",
+      "incendium:infernal_dunes": "2026-05-18 21:50:09 -0400",
+      "incendium:quartz_flats": "2026-05-18 21:52:24 -0400",
+      "incendium:volcanic_deltas": "2026-05-18 21:53:18 -0400",
+      "incendium:toxic_heap": "2026-05-19 03:51:39 -0400"
+    },
+    "done": false
+  },
+  "incendium:quartz_flats/root": {
+    "criteria": {
+      "requirement": "2026-05-18 21:52:24 -0400"
+    },
+    "done": true
+  },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:crimson_forest": "2026-05-18 21:52:56 -0400",
+      "minecraft:nether_wastes": "2026-05-18 21:57:22 -0400",
+      "minecraft:soul_sand_valley": "2026-05-19 03:55:10 -0400",
+      "minecraft:basalt_deltas": "2026-05-18 21:54:55 -0400",
+      "minecraft:warped_forest": "2026-05-19 03:47:20 -0400"
+    },
+    "done": true
+  },
+  "incendium:volcanic_deltas/root": {
+    "criteria": {
+      "incendium:volcanic_deltas": "2026-05-18 21:53:18 -0400"
+    },
+    "done": true
+  },
+  "incendium:ash_barrens/root": {
+    "criteria": {
+      "requirement": "2026-05-18 21:57:00 -0400"
+    },
+    "done": true
+  },
+  "minecraft:nether/find_fortress": {
+    "criteria": {
+      "in_fortress": "2026-05-18 21:57:03 -0400"
+    },
+    "done": true
+  },
+  "minecraft:nether/find_bastion": {
+    "criteria": {
+      "bastion": "2026-05-18 21:57:30 -0400"
+    },
+    "done": true
+  },
+  "tombstone:adventure/strong_or_careful": {
+    "criteria": {
+      "coded_trigger": "2026-05-19 03:21:59 -0400"
+    },
+    "done": true
+  },
+  "tombstone:adventure/first_knowledge": {
+    "criteria": {
+      "coded_trigger": "2026-05-19 03:21:59 -0400"
+    },
+    "done": true
+  },
+  "incendium:technical/sentrys_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2026-05-19 03:56:19 -0400"
+    },
+    "done": false
+  },
+  "incendium:technical/on_block": {
+    "criteria": {
+      "log_spam_fixer": "2026-05-19 03:56:19 -0400"
+    },
+    "done": false
+  },
+  "incendium:technical/feed_ghastling": {
+    "criteria": {
+      "log_spam_fixer": "2026-05-19 03:56:19 -0400"
+    },
+    "done": false
+  },
+  "incendium:technical/multiplex_crossbow": {
+    "criteria": {
+      "log_spam_fixer": "2026-05-19 03:56:19 -0400"
+    },
+    "done": false
+  },
+  "incendium:technical/on_player_hurt": {
+    "criteria": {
+      "log_spam_fixer": "2026-05-19 03:56:19 -0400"
+    },
+    "done": false
+  },
+  "incendium:technical/on_kill": {
+    "criteria": {
+      "log_spam_fixer": "2026-05-19 03:56:19 -0400"
+    },
+    "done": false
+  },
+  "incendium:technical/on_inventory_change": {
+    "criteria": {
+      "log_spam_fixer": "2026-05-19 03:56:19 -0400"
+    },
+    "done": false
+  },
+  "incendium:technical/holy_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2026-05-19 03:56:19 -0400"
+    },
+    "done": false
+  },
+  "incendium:technical/inventory/firestorm": {
+    "criteria": {
+      "log_spam_fixer": "2026-05-19 03:56:19 -0400"
+    },
+    "done": false
+  },
+  "incendium:technical/give_ghastling": {
+    "criteria": {
+      "log_spam_fixer": "2026-05-19 03:56:19 -0400"
+    },
+    "done": false
+  },
+  "incendium:technical/inventory/sentrys_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2026-05-19 03:56:19 -0400"
+    },
+    "done": false
+  },
+  "incendium:technical/firestorm": {
+    "criteria": {
+      "log_spam_fixer": "2026-05-19 03:56:19 -0400"
+    },
+    "done": false
+  },
+  "farmersdelight:main/get_ham": {
+    "criteria": {
+      "ham": "2026-05-19 03:49:26 -0400"
+    },
+    "done": true
+  },
+  "minecraft:end/elytra": {
+    "criteria": {
+      "elytra": "2026-05-19 03:55:32 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/smoked_ham": {
+    "criteria": {
+      "has_ham": "2026-05-19 03:49:26 -0400"
+    },
+    "done": true
+  },
+  "minecraft:nether/loot_bastion": {
+    "criteria": {
+      "loot_bastion_treasure": "2026-05-19 03:49:19 -0400"
+    },
+    "done": true
+  },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_chestplate": "2026-05-19 03:49:33 -0400"
+    },
+    "done": true
+  },
+  "twilightdelight:frozen/cutting/ice_sword": {
+    "criteria": {
+      "has_diamond_sword": "2026-05-19 03:54:17 -0400"
+    },
+    "done": true
+  },
+  "mynethersdelight:recipes/cooking/deviled_egg": {
+    "criteria": {
+      "has_any_ingredient": "2026-05-19 03:49:48 -0400"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/bullet_firework": {
+    "criteria": {
+      "has_firework": "2026-05-19 03:55:36 -0400"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/integration/pancake_fd": {
+    "criteria": {
+      "has_tag_c_eggs_4": "2026-05-19 03:49:48 -0400"
+    },
+    "done": true
+  },
+  "deeperdarker:recipes/transportation/soul_elytra": {
+    "criteria": {
+      "has_elytra": "2026-05-19 03:55:32 -0400"
+    },
+    "done": true
+  },
+  "incendium:toxic_heap/root": {
+    "criteria": {
+      "requirement": "2026-05-19 03:51:39 -0400"
+    },
+    "done": true
+  },
+  "mynethersdelight:recipes/building_blocks/crafting/hoglin_trophy_cure": {
+    "criteria": {
+      "has_zoglin_trophy": "2026-05-19 03:49:52 -0400"
     },
     "done": true
   },

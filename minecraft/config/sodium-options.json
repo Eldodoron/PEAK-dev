@@ -1,6 +1,6 @@
 {
   "quality": {
-    "weather_quality": "FAST",
+    "weather_quality": "FANCY",
     "leaves_quality": "FAST",
     "enable_vignette": true
   },
@@ -20,7 +20,7 @@
   },
   "notifications": {
     "has_cleared_donation_button": false,
-    "has_seen_donation_prompt": false
+    "has_seen_donation_prompt": true
   },
   "debug": {
     "terrain_sorting_enabled": true
