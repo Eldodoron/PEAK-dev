@@ -31,7 +31,12 @@ globs: "**/*.js,**/*.json,**/*.toml,**/*.cfg"
 - **Importante (Prism Launcher)**: La configuración de memoria, Java Path y JVM Arguments dentro de `instance.cfg` **será sobrescrita por el propio Prism Launcher** al iniciar el juego. Modificar `instance.cfg` directamente en el código no servirá de nada. En su lugar, el asistente **DEBE pedirle al usuario que aplique estos cambios manualmente** a través de la interfaz de usuario (UI) de Prism Launcher (Edit Instance -> Java).
 - **Importante (ModernFix)**: El mixin `mixin.perf.dynamic_languages` **DEBE PERMANECER DESACTIVADO** (o ausente). Activarlo (`true`) provoca un crasheo inmediato del juego en esta instalación de NeoForge 1.21.1.
 
-## Rendimiento
+## Rendimiento y Optimización de Entidades
 - Si una solución impacta TPS, descártala y busca alternativa
 - Prefiere soluciones server-side sobre client-side cuando sea posible
 - Evita scheduled ticks frecuentes en KubeJS
+- **Distancia de Simulación:** Mantener la `Simulation Distance` en 5 o 6 chunks como máximo. Valores más altos ahogan la CPU procesando inteligencias artificiales complejas lejanas.
+- **Rendimiento de Entidades (Hallazgos de Spark):**
+  - **Guard Villagers y Aldeanos Vanilla:** Son los mayores destructores de CPU del modpack (suman hasta un 15% de uso del servidor). Limitar la cantidad de Guardias por zona es vital.
+  - **Alex's Caves & Vampirism:** Las IA de vampiros y dinosaurios/monstruos consumen CPU moderada-alta (5% a 8%).
+- **Gestión de RAM y Lag de Swap:** En sistemas con 16 GB de RAM física, NUNCA asignar más de 6.5 GB o 7 GB (`-Xmx`). Asignar más empuja a Minecraft al archivo de paginación (Swap), provocando que el Garbage Collector congele el juego completo durante segundos. Recomendar siempre **G1GC** sobre ZGC en PCs con poca RAM libre.

@@ -24,3 +24,9 @@
 /spark profiler start --timeout 200
 /chunky start minecraft:overworld square 0 0 500 500
 /spark tps
+/chunky start minecraft:overworld square 0 0 500 500
+/spark profiler s
+/spark profiler stop
+/spark profiler start --timeout 200
+/effect give EldoTest minecraft:regeneration infinite
+/spark profiler start --timeout 200

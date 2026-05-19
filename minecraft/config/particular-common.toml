@@ -12,7 +12,7 @@
 		#Enable firefly particles
 		fireflies = true
 		#Enable falling leaves particles
-		fallingLeaves = true
+		fallingLeaves = false
 		#Enable cave dust particles
 		caveDust = true
 		#Enable chest bubbles

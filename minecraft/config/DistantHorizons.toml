@@ -231,7 +231,7 @@ _version = 4
 		# but may cause server/simulation lag. 
 		# Note: unlike other modes this option DOES save generated chunks to 
 		# Minecraft's region files.
-		distantGeneratorMode = "PRE_EXISTING_ONLY"
+		distantGeneratorMode = "SURFACE"
 		#
 		# How should distant generator progress be displayed? 
 		# 
@@ -692,7 +692,7 @@ _version = 4
 				# COMPLETE: LODs will render transparent. 
 				# FAKE: LODs will be opaque, but shaded to match the blocks underneath. 
 				# DISABLED: LODs will be opaque.
-				transparency = "COMPLETE"
+				transparency = "FAKE"
 				#
 				# This is the same as vanilla Biome Blending settings for Lod area. 
 				#     Note that anything other than '0' will greatly effect Lod building time. 
@@ -700,7 +700,7 @@ _version = 4
 				#     '0' equals to Vanilla Biome Blending of '1x1' or 'OFF', 
 				#     '1' equals to Vanilla Biome Blending of '3x3', 
 				#     '2' equals to Vanilla Biome Blending of '5x5'...
-				lodBiomeBlending = 3
+				lodBiomeBlending = 1
 				#
 				# How should vanilla Minecraft fade into Distant Horizons LODs? 
 				# 
@@ -792,7 +792,7 @@ _version = 4
 					# LINEAR: Linear based on height (will ignore 'density')
 					# EXPONENTIAL: 1/(e^(height*density)) 
 					# EXPONENTIAL_SQUARED: 1/(e^((height*density)^2)
-					heightFogFalloff = "EXPONENTIAL_SQUARED"
+					heightFogFalloff = "LINEAR"
 					#
 					# What is the height fog's density?
 					heightFogDensity = "20.0"
