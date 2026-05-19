@@ -130,7 +130,7 @@ mob-spawning:
   # ► spawn-interval = The interval between spawn attempts in ticks. Higher values mean less frequent spawn attempts.
   categories:
     - category: 'MONSTER'
-      mobcap: 70
+      mobcap: 50
       spawn-interval: 1
 
     - category: 'CREATURE'
@@ -200,7 +200,7 @@ commands:
 # Note: while this is a very powerful feature, it can still slow down mobfarms and break very specific technical contraptions.
 activation-range:
   # Enables activation range.
-  enabled: false
+  enabled: true
   # Briefly ticks entities newly added to the world for 10 seconds (includes both spawning and loading).
   # This gives them a chance to properly immunize when they are spawned if they should be. Can be helpful for mobfarms.
   tick-new-entities: true
