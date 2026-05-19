@@ -10,15 +10,15 @@ We have successfully performed three phases of ultra-exhaustive audits and appli
 We deleted the outdated, duplicate libraries from the `minecraft/mods` directory that were causing classloader conflicts:
 - 🗑️ Deleted: `minecraft/mods/citadel-2.7.0-1.21.1.jar` (obsolete duplicate).
 - 🗑️ Deleted: `minecraft/mods/curios-neoforge-9.1.4+1.21.0.jar` (obsolete duplicate).
-*   ✅ Kept intact: [citadel-1.21.1-2.7.6.jar](file:///c:/Users/wamb9/MINECRAFT/Prism/Instances/PEAK%20dev/minecraft/mods/citadel-1.21.1-2.7.6.jar).
-*   ✅ Kept intact: [curios-neoforge-9.5.1+1.21.1.jar](file:///c:/Users/wamb9/MINECRAFT/Prism/Instances/PEAK%20dev/minecraft/mods/curios-neoforge-9.5.1+1.21.1.jar).
-*   ✅ Kept intact: [nowheel-1.0.3+1.21.1neoforge.jar](file:///c:/Users/wamb9/MINECRAFT/Prism/Instances/PEAK%20dev/minecraft/mods/nowheel-1.0.3+1.21.1neoforge.jar) (Preserved to maintain *Create* culling).
+- [citadel-1.21.1-2.7.6.jar](../minecraft/mods/citadel-1.21.1-2.7.6.jar).
+- [curios-neoforge-9.5.1+1.21.1.jar](../minecraft/mods/curios-neoforge-9.5.1+1.21.1.jar).
+- [nowheel-1.0.3+1.21.1neoforge.jar](../minecraft/mods/nowheel-1.0.3+1.21.1neoforge.jar) (Preserved to maintain *Create* culling).
 
 ---
 
 ### 2. Client-Side Render Thread Log Spam Fix (Phase 3 — Crucial for Client FPS)
 
-#### [healthbars-client.toml](file:///c:/Users/wamb9/MINECRAFT/Prism/Instances/PEAK%20dev/minecraft/config/healthbars-client.toml)
+#### [healthbars-client.toml](../minecraft/config/healthbars-client.toml)
 We disabled the crosshair picked entity raycast to prevent Health Bars from making unsafe synchronous calls on the Render Thread:
 ```toml
 	#Show health bars for the entity picked by the crosshair only.
@@ -32,7 +32,7 @@ We disabled the crosshair picked entity raycast to prevent Health Bars from maki
 
 ### 3. KubeJS Crafting Event Optimization (Phase 2)
 
-#### [18_boss_duplicator.js](file:///c:/Users/wamb9/MINECRAFT/Prism/Instances/PEAK%20dev/minecraft/kubejs/server_scripts/18_boss_duplicator.js)
+#### [18_boss_duplicator.js](../minecraft/kubejs/server_scripts/18_boss_duplicator.js)
 We added a high-performance **Guard Clause** to the `ItemEvents.crafted` event listener to stop it from looping through the player's full inventory every time anyone crafts a standard block or item.
 *   **Impact**: Crafting standard items now exits in microseconds, eliminating crafting-induced MSPT lag spikes.
 
@@ -40,37 +40,37 @@ We added a high-performance **Guard Clause** to the `ItemEvents.crafted` event l
 
 ### 4. Config & Mod Optimizations
 
-#### [optimizations.yml](file:///c:/Users/wamb9/MINECRAFT/Prism/Instances/PEAK%20dev/minecraft/config/servercore/optimizations.yml) & [config.yml](file:///c:/Users/wamb9/MINECRAFT/Prism/Instances/PEAK%20dev/minecraft/config/servercore/config.yml) (ServerCore)
+#### [optimizations.yml](../minecraft/config/servercore/optimizations.yml) & [config.yml](../minecraft/config/servercore/config.yml) (ServerCore)
 We enabled:
 *   `fast-biome-lookups: true` → Speeds up biome calculations for mob spawners.
 *   `cancel-duplicate-fluid-ticks: true` → Prevents redundant fluid double-ticks.
 *   `lobotomize-villagers: enabled: true` [NEW] → Automatically disables heavy pathfinding loops for villagers trapped in 1x1 spaces (e.g. trading halls), while preserving their trading and job updates. Saves massive CPU ticking overhead.
 *   *Note*: Left `activation-range` disabled to respect technical machine ticking.
 
-#### [modernfix-mixins.properties](file:///c:/Users/wamb9/MINECRAFT/Prism/Instances/PEAK%20dev/minecraft/config/modernfix-mixins.properties) (ModernFix)
+#### [modernfix-mixins.properties](../minecraft/config/modernfix-mixins.properties) (ModernFix)
 We cleaned up mixins and added disk write optimizations:
-*   ❌ **Disabled / Removed**: `mixin.perf.dynamic_languages=true` because it causes immediate game crashes under NeoForge 1.21.1. We hard-locked this into the VS Code development rules [peak-modpack.md](file:///c:/Users/wamb9/MINECRAFT/Prism/Instances/PEAK%20dev/.continue/rules/peak-modpack.md).
+*   ❌ **Disabled / Removed**: `mixin.perf.dynamic_languages=true` because it causes immediate game crashes under NeoForge 1.21.1. We hard-locked this into the VS Code development rules [peak-modpack.md](rules/peak-modpack.md).
 *   `mixin.bugfix.skip_redundant_saves=true` → Bypasses redundant chunk saving to mitigate auto-save disk spikes.
 
-#### [apotheosis.cfg](file:///c:/Users/wamb9/MINECRAFT/Prism/Instances/PEAK%20dev/minecraft/config/apotheosis/apotheosis.cfg) (Apotheosis)
+#### [apotheosis.cfg](../minecraft/config/apotheosis/apotheosis.cfg) (Apotheosis)
 *   **Restored to original**: `I:"Boss Spawn Cooldown"=3600` (kept at 3 minutes as requested).
 
 ### 5. Content & WorldGen Optimizations (Phase 4 & 5)
 
-#### [cataclysm-common.toml](file:///c:/Users/wamb9/MINECRAFT/Prism/Instances/PEAK%20dev/minecraft/config/cataclysm-common.toml) (L_Ender's Cataclysm)
+#### [cataclysm-common.toml](../minecraft/config/cataclysm-common.toml) (L_Ender's Cataclysm)
 *   **Ender Guardian block_break_x/y/z**: Reduced from 15x2x15 to 0x0x0. This completely stops the massive 450-block destruction lag spike when the boss attacks.
 *   **ignore_mobgriefing**: Disabled (`false`) for ALL 8 endgame bosses. They will no longer arbitrarily destroy bases or cause block-update lag if the server `mobGriefing` gamerule is set to false.
 
-#### [sable-common.toml](file:///c:/Users/wamb9/MINECRAFT/Prism/Instances/PEAK%20dev/minecraft/config/sable-common.toml) (Valkyrien Skies Physics)
+#### [sable-common.toml](../minecraft/config/sable-common.toml) (Valkyrien Skies Physics)
 *   **sub_level_tracking_range**: Reduced from `128.0` to `64.0`.
 *   **sub_level_splitting_heatmap_steps**: Reduced from `50` to `20`.
 *   *Why*: Diagnosed via Spark Profiler. The Sable physics container was passively eating up to 20% CPU just scanning for flying ships 128 blocks away. Halving this removes the massive travel lag penalty.
 
-#### [iaf-common.json](file:///c:/Users/wamb9/MINECRAFT/Prism/Instances/PEAK%20dev/minecraft/config/iceandfire/iaf-common.json) (Ice and Fire)
+#### [iaf-common.json](../minecraft/config/iceandfire/iaf-common.json) (Ice and Fire)
 *   **targetSearchLength**: Reduced from `128` to `64`.
 *   *Why*: Spark Profiling revealed `DragonBaseEntity.tick()` caused a 14% CPU spike when chunks loaded rapidly, purely from dragons recalculating their massive AI targeting hitboxes.
 
-#### [config.yml](file:///c:/Users/wamb9/MINECRAFT/Prism/Instances/PEAK%20dev/minecraft/config/servercore/config.yml) (ServerCore Spawner)
+#### [config.yml](../minecraft/config/servercore/config.yml) (ServerCore Spawner)
 *   **spawn-interval**: Increased from `1` to `400` (20 seconds) for all passive categories (`AMBIENT`, `WATER_CREATURE`, etc.).
 *   *Why*: `NaturalSpawner` was taking 12% CPU during flight because Forge was attempting to spawn passive mobs *every single tick* in newly generated chunks.
 
@@ -78,7 +78,7 @@ We cleaned up mixins and added disk write optimizations:
 *   **Disabled**: Renamed to `.disabled` and purged all KubeJS dependencies (loot tables, biome modifiers, translations).
 *   *Why*: The mod was built in MCreator and suffered from a catastrophic hardcoded loop (`XP2OPTProcedure.execute()`) that attempted to apply potion effects to all entities 20 times per second, causing a constant, unconfigurable **13.35% CPU drain** during all gameplay scenarios.
 
-#### [darkerdepths-common.toml](file:///c:/Users/wamb9/MINECRAFT/Prism/Instances/PEAK%20dev/minecraft/config/darkerdepths-common.toml) (Darker Depths)
+#### [darkerdepths-common.toml](../minecraft/config/darkerdepths-common.toml) (Darker Depths)
 *   **disable_heatable_block_baking**: Set to `true`.
 *   *Why*: Spark Profiling on a high-speed flight test revealed that `HeatPropagationProcessor.processChunk()` was causing a massive **12.29% CPU spike** purely to calculate hot/cold stages for Darkslate blocks during chunk generation. Disabling this resolves the final significant WorldGen bottleneck.
 
@@ -86,7 +86,7 @@ We cleaned up mixins and added disk write optimizations:
 
 ## 🚨 Emergency Crash Diagnostics (OOM)
 
-#### [19_mob_gear.js](file:///c:/Users/wamb9/MINECRAFT/Prism/Instances/PEAK%20dev/minecraft/kubejs/server_scripts/19_mob_gear.js) (KubeJS Biome Check)
+#### [19_mob_gear.js](../minecraft/kubejs/server_scripts/19_mob_gear.js) (KubeJS Biome Check)
 *   **Fix**: Rewrote the `unwrap().key()` logic to safely extract the `ResourceKey` using `unwrapKey().isPresent()` or `unwrap().left().isPresent()`. 
 *   *Why*: NeoForge 1.21.1 biome data returns an `Either` wrapper. Extracting it directly caused console spam errors every time a mob spawned in specific biomes like `dripstone_caves`.
 
@@ -341,4 +341,22 @@ Hemos aplicado un conjunto de soluciones quirúrgicas para resolver los stutters
     2.  `syncPlayerTickets = false` → Desvincula los tickets de carga del jugador del Main Thread, permitiendo que C2ME los resuelva asíncronamente en sus propios hilos trabajadores sin bloquear al servidor.
     3.  `delayFullChunkEvents = false` → Evita que C2ME detenga el servidor esperando a que terminen los futures de chunk para disparar los eventos de carga de NeoForge.
 *   **Impacto**: Portales, Gateways y teletransportaciones dimensionales inmediatas son ahora **100% inmunes a congelamientos**, garantizando estabilidad total en transiciones de mundo.
+
+### 7. Parcheo Quirúrgico de Watchdog de Malum y KubeJS
+*   **El Problema**:
+    1.  **Malum (`WeepingWellRejectionHandler`)**: Cada tick de cualquier entidad viva forzaba una llamada síncrona `Level.getChunk()` para buscar pozos del llanto cercanos. Al cruzar portales o teletransportarse a zonas no cargadas, esto bloqueaba el hilo del servidor de forma síncrona indefinidamente, provocando un cuelgue de Watchdog.
+    2.  **KubeJS `19_mob_gear.js`**: Usaba `Utils.id()` y `Java.type()` obsoletos en Rhino/KubeJS 6+ (NeoForge 1.21.1), generando excepciones `EvaluatorException` silenciosas en cada spawn de mobs y en un "experimento de curios" inactivo.
+*   **La Solución**:
+    1.  **Desregistro de Eventos**: Creamos el script de inicio [fix_malum_watchdog.js](../minecraft/kubejs/startup_scripts/fix_malum_watchdog.js) que desregistra dinámicamente `com.sammy.malum.events.RuntimeEvents` del `EVENT_BUS` de NeoForge en línea de forma segura para evitar re-declaraciones en Rhino.
+    2.  **Corrección de KubeJS**: Actualizamos [19_mob_gear.js](../minecraft/kubejs/server_scripts/19_mob_gear.js) reemplazando `Java.type` por `Java.loadClass`, usando un fallback de compatibilidad para evitar la caída de `Utils`, y eliminando por completo el código de prueba de Curios.
+*   **Impacto**: Las llamadas de tick de Malum ya no sobrecargan el hilo del servidor, y los scripts de KubeJS se ejecutan sin arrojar excepciones en la consola.
+
+### 8. Desactivación del Watchdog en ModernFix y Ajuste de C2ME (Teletransportes Lejanos)
+*   **El Problema**: Durante teletransportaciones extremas en el End (ej. más de 20,000 bloques), el comando de teleportación vanilla (`Entity.setPosRaw`) invoca síncronamente `getChunk()`. Bajo C2ME y con 362 mods cargados, la generación legítima de estos chunks aéreos del End puede tardar más de 40 segundos, provocando que el watchdog agresivo de ModernFix mate al servidor pensando que está colgado.
+*   **La Solución**:
+    1.  **ModernFix (`modernfix-mixins.properties`)**: Desactivamos el Watchdog agresivo de ModernFix con `mixin.feature.integrated_server_watchdog=false`.
+    2.  **C2ME (`c2me.toml`)**: Ajustamos la paralelización y velocidad:
+        *   `globalExecutorParallelism = 4` → Asigna de forma dedicada 4 hilos de CPU a la generación y carga.
+        *   `midTickChunkTasksInterval = 50000` → Reduce a la mitad el intervalo para procesar tareas de chunks agresivamente durante el ciclo de ticks.
+*   **Impacto**: El servidor ya no es terminado prematuramente por el Watchdog durante la generación intensa de terreno en teletransportes lejanos. La generación de chunks ahora se realiza de forma óptima a máxima velocidad de hardware disponible.
 

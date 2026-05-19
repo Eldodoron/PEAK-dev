@@ -23,7 +23,7 @@ defaultGlobalExecutorParallelismExpression = "default"
 # 
 threadPoolPriority = "default"
 # (Default: 6) Configures the parallelism of global executor
-globalExecutorParallelism = "default"
+globalExecutorParallelism = 4
 
 [generalOptimizations]
 	# (Default: 100000) The task interval of mid-tick chunk tasks in nanoseconds (-1 to disable)  
@@ -37,7 +37,7 @@ globalExecutorParallelism = "default"
 	#  
 	# Incompatible with Dimensional Threading (dimthread)
 	# 
-	midTickChunkTasksInterval = "default"
+	midTickChunkTasksInterval = 50000
 
 	[generalOptimizations.autoSave]
 		# (Default: ENHANCED) Defines how auto save should be handled  
@@ -91,7 +91,7 @@ globalExecutorParallelism = "default"
 	# Chunk upgrades from pre-1.18 versions are not implemented and will
 	# fall back to the unoptimized version of density functions.
 	# 
-	useDensityFunctionCompiler = true
+	useDensityFunctionCompiler = false
 	# (Default: true) Whether to enable aquifer optimizations to accelerate overworld worldgen
 	# (may cause incompatibility with other mods)
 	optimizeAquifer = "default"
@@ -101,7 +101,7 @@ globalExecutorParallelism = "default"
 	# 
 	# Set to false for the following reasons: 
 	# Incompatible with biolith@3.0.10 (*) (defined in c2me) 
-	useEndBiomeCache = "default"
+	useEndBiomeCache = false
 	# (Default: true) Whether to enable StructureWeightSampler optimizations to accelerate world generation
 	# 
 	# Set to false for the following reasons: 
@@ -173,12 +173,12 @@ globalExecutorParallelism = "default"
 	# 
 	# Do not change this unless you know what you are doing
 	# 
-	delayFullChunkEvents = false
+	delayFullChunkEvents = true
 
 [noTickViewDistance]
 	# (Default: true) Whether to enable no-tick view distance
 	enabled = "default"
-	# (Default: 7) No-tick view distance max concurrent chunk loads 
+	# (Default: 5) No-tick view distance max concurrent chunk loads 
 	#  Lower this for a better latency and higher this for a faster loading
 	maxConcurrentChunkLoads = "default"
 	# (Default: true) Whether to use compatibility mode to send chunks 

@@ -1,12 +1,3 @@
-/time set day
-/spark tps
-/spark profiler start
-/time set night
-/spark profiler stop
-/spark profiler start
-/spark tps
-/spark profiler start-
-/spa
 /spark tps
 /spark profiler start
 /spark tps
@@ -44,3 +35,16 @@
 /kill
 /spark profiler start --timeout 500
 /apoth reforge nadir:cataclysmic
+/kill
+/spark profiler start
+/tp EldoTest 10000 ~ 10000
+/spark profiler start
+/xp add EldoTest 1111111
+/relics maximize
+/tp EldoTest 1000 59.00 5.17
+/tp EldoTest 100 59.00 5.17
+/spark profiler start
+/tp EldoTest 1000 59.00 5.17
+/spark profiler start
+/tp EldoTest 100 59.00 5.17
+/tp EldoTest 1000 59.00 5.17

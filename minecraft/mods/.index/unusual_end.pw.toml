@@ -1,0 +1,18 @@
+filename = 'unusualend-2.2.1.jar'
+name = 'Unusual End'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '2.2.1r-1.21.1'
+
+[download]
+hash = 'dd9100cc7e57a7b43c7643af392dcc59013f8deea0ee4baa2504b59fd752427b9135c606cba5b13889e66472194336284475877f51c863de13b2a57d66f303fe'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/WKsNOKFh/versions/s1PcPdqg/unusualend-2.2.1.jar'
+
+[update.modrinth]
+mod-id = 'WKsNOKFh'
+version = 's1PcPdqg'

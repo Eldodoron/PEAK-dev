@@ -1,0 +1,12 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"quark:grate"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:dark_oak_planks"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:dark_oak_pressure_plate"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:bamboo_planks"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:mangrove_fence"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"apotheosis:gem","components":{"apotheosis:gem":"irons_apothic:external/arcanists_edge","apotheosis:purity":"cracked"}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"enderio:vibrant_alloy_ingot"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"enderio:vibrant_gear"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"enderio:pulsating_alloy_ingot"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

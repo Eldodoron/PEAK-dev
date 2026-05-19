@@ -1,0 +1,18 @@
+filename = 'c2me-neoforge-mc1.21.1-0.3.0+alpha.0.91.jar'
+name = 'Concurrent Chunk Management Engine (NeoForge)'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'alpha'
+x-prismlauncher-version-number = '0.3.0+alpha.0.91+1.21.1'
+
+[download]
+hash = '9e0bc6fe17ebbaaec9999c5f742e6e0eb50abd9eea578a76e15ed411adebe8cdf9d17224493ffdc17f16d46bad52efe10efebfb998e346997b03cb5edd144c3f'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/COlSi5iR/versions/9iPiN34N/c2me-neoforge-mc1.21.1-0.3.0%2Balpha.0.91.jar'
+
+[update.modrinth]
+mod-id = 'COlSi5iR'
+version = '9iPiN34N'

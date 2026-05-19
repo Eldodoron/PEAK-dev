@@ -8646,87 +8646,15 @@
     },
     "done": true
   },
-  "incendium:technical/sentrys_wrath": {
+  "minecraft:nether/loot_bastion": {
     "criteria": {
-      "log_spam_fixer": "2026-05-19 03:56:19 -0400"
+      "loot_bastion_treasure": "2026-05-19 03:49:19 -0400"
     },
-    "done": false
-  },
-  "incendium:technical/on_block": {
-    "criteria": {
-      "log_spam_fixer": "2026-05-19 03:56:19 -0400"
-    },
-    "done": false
-  },
-  "incendium:technical/feed_ghastling": {
-    "criteria": {
-      "log_spam_fixer": "2026-05-19 03:56:19 -0400"
-    },
-    "done": false
-  },
-  "incendium:technical/multiplex_crossbow": {
-    "criteria": {
-      "log_spam_fixer": "2026-05-19 03:56:19 -0400"
-    },
-    "done": false
-  },
-  "incendium:technical/on_player_hurt": {
-    "criteria": {
-      "log_spam_fixer": "2026-05-19 03:56:19 -0400"
-    },
-    "done": false
-  },
-  "incendium:technical/on_kill": {
-    "criteria": {
-      "log_spam_fixer": "2026-05-19 03:56:19 -0400"
-    },
-    "done": false
-  },
-  "incendium:technical/on_inventory_change": {
-    "criteria": {
-      "log_spam_fixer": "2026-05-19 03:56:19 -0400"
-    },
-    "done": false
-  },
-  "incendium:technical/holy_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2026-05-19 03:56:19 -0400"
-    },
-    "done": false
-  },
-  "incendium:technical/inventory/firestorm": {
-    "criteria": {
-      "log_spam_fixer": "2026-05-19 03:56:19 -0400"
-    },
-    "done": false
-  },
-  "incendium:technical/give_ghastling": {
-    "criteria": {
-      "log_spam_fixer": "2026-05-19 03:56:19 -0400"
-    },
-    "done": false
-  },
-  "incendium:technical/inventory/sentrys_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2026-05-19 03:56:19 -0400"
-    },
-    "done": false
-  },
-  "incendium:technical/firestorm": {
-    "criteria": {
-      "log_spam_fixer": "2026-05-19 03:56:19 -0400"
-    },
-    "done": false
+    "done": true
   },
   "farmersdelight:main/get_ham": {
     "criteria": {
       "ham": "2026-05-19 03:49:26 -0400"
-    },
-    "done": true
-  },
-  "minecraft:end/elytra": {
-    "criteria": {
-      "elytra": "2026-05-19 03:55:32 -0400"
     },
     "done": true
   },
@@ -8736,21 +8664,9 @@
     },
     "done": true
   },
-  "minecraft:nether/loot_bastion": {
-    "criteria": {
-      "loot_bastion_treasure": "2026-05-19 03:49:19 -0400"
-    },
-    "done": true
-  },
   "minecraft:story/shiny_gear": {
     "criteria": {
       "diamond_chestplate": "2026-05-19 03:49:33 -0400"
-    },
-    "done": true
-  },
-  "twilightdelight:frozen/cutting/ice_sword": {
-    "criteria": {
-      "has_diamond_sword": "2026-05-19 03:54:17 -0400"
     },
     "done": true
   },
@@ -8760,21 +8676,15 @@
     },
     "done": true
   },
-  "immersiveengineering:recipes/misc/crafting/bullet_firework": {
-    "criteria": {
-      "has_firework": "2026-05-19 03:55:36 -0400"
-    },
-    "done": true
-  },
   "supplementaries:recipe/integration/pancake_fd": {
     "criteria": {
       "has_tag_c_eggs_4": "2026-05-19 03:49:48 -0400"
     },
     "done": true
   },
-  "deeperdarker:recipes/transportation/soul_elytra": {
+  "mynethersdelight:recipes/building_blocks/crafting/hoglin_trophy_cure": {
     "criteria": {
-      "has_elytra": "2026-05-19 03:55:32 -0400"
+      "has_zoglin_trophy": "2026-05-19 03:49:52 -0400"
     },
     "done": true
   },
@@ -8784,11 +8694,137 @@
     },
     "done": true
   },
-  "mynethersdelight:recipes/building_blocks/crafting/hoglin_trophy_cure": {
+  "twilightdelight:frozen/cutting/ice_sword": {
     "criteria": {
-      "has_zoglin_trophy": "2026-05-19 03:49:52 -0400"
+      "has_diamond_sword": "2026-05-19 03:54:17 -0400"
     },
     "done": true
+  },
+  "minecraft:end/elytra": {
+    "criteria": {
+      "elytra": "2026-05-19 03:55:32 -0400"
+    },
+    "done": true
+  },
+  "deeperdarker:recipes/transportation/soul_elytra": {
+    "criteria": {
+      "has_elytra": "2026-05-19 03:55:32 -0400"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/bullet_firework": {
+    "criteria": {
+      "has_firework": "2026-05-19 03:55:36 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/paper": {
+    "criteria": {
+      "has_reeds": "2026-05-19 12:28:43 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/sugar_from_sugar_cane": {
+    "criteria": {
+      "has_sugar_cane": "2026-05-19 12:28:43 -0400"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/wicker_fence": {
+    "criteria": {
+      "has_item_minecraft_sugar_cane_1": "2026-05-19 12:28:43 -0400"
+    },
+    "done": true
+  },
+  "tombstone:adventure/neighborhood_brawl": {
+    "criteria": {
+      "coded_trigger": "2026-05-19 12:31:09 -0400"
+    },
+    "done": true
+  },
+  "minecraft:end/root": {
+    "criteria": {
+      "entered_end": "2026-05-19 12:31:23 -0400"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2026-05-19 12:31:23 -0400"
+    },
+    "done": true
+  },
+  "incendium:technical/sentrys_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2026-05-19 12:31:36 -0400"
+    },
+    "done": false
+  },
+  "incendium:technical/on_block": {
+    "criteria": {
+      "log_spam_fixer": "2026-05-19 12:31:36 -0400"
+    },
+    "done": false
+  },
+  "incendium:technical/feed_ghastling": {
+    "criteria": {
+      "log_spam_fixer": "2026-05-19 12:31:36 -0400"
+    },
+    "done": false
+  },
+  "incendium:technical/multiplex_crossbow": {
+    "criteria": {
+      "log_spam_fixer": "2026-05-19 12:31:36 -0400"
+    },
+    "done": false
+  },
+  "incendium:technical/on_player_hurt": {
+    "criteria": {
+      "log_spam_fixer": "2026-05-19 12:31:36 -0400"
+    },
+    "done": false
+  },
+  "incendium:technical/on_kill": {
+    "criteria": {
+      "log_spam_fixer": "2026-05-19 12:31:36 -0400"
+    },
+    "done": false
+  },
+  "incendium:technical/on_inventory_change": {
+    "criteria": {
+      "log_spam_fixer": "2026-05-19 12:31:36 -0400"
+    },
+    "done": false
+  },
+  "incendium:technical/holy_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2026-05-19 12:31:36 -0400"
+    },
+    "done": false
+  },
+  "incendium:technical/inventory/firestorm": {
+    "criteria": {
+      "log_spam_fixer": "2026-05-19 12:31:36 -0400"
+    },
+    "done": false
+  },
+  "incendium:technical/give_ghastling": {
+    "criteria": {
+      "log_spam_fixer": "2026-05-19 12:31:36 -0400"
+    },
+    "done": false
+  },
+  "incendium:technical/inventory/sentrys_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2026-05-19 12:31:36 -0400"
+    },
+    "done": false
+  },
+  "incendium:technical/firestorm": {
+    "criteria": {
+      "log_spam_fixer": "2026-05-19 12:31:36 -0400"
+    },
+    "done": false
   },
   "DataVersion": 3955
 }

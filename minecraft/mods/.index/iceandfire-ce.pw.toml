@@ -1,0 +1,41 @@
+filename = 'IceAndFireCE-2.0-beta.16-1.21.1-neoforge.jar'
+name = 'IceAndFire Community Edition'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'IceAndFireCE-2.0-beta.16-1.21.1-neoforge.jar'
+
+[download]
+hash = '9c6fa35740159cdb9230da023c41269e64d18cca'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8031633
+project-id = 1040076
+
+[[x-prismlauncher-dependencies]]
+addonId = '1072905'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '324717'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '993166'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '398521'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1010827'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '580555'
+type = 'OPTIONAL'
