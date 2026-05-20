@@ -41,7 +41,7 @@ ignoredItems = ["quality_equipment:reforge_gui_button"]
 
 [ToolPreview]
 	#Whether Obscure Tooltips should display 3D tool/weapon previews.
-	toolPreviewEnabled = true
+	toolPreviewEnabled = false
 	#List of item IDs that should always display a 3D tool/weapon preview.
 	toolPreviewWhitelist = ["minecraft:trident", "minecraft:bow", "minecraft:crossbow", "minecraft:mace"]
 	#List of item IDs that should never display a 3D tool/weapon preview.
