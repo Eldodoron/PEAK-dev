@@ -1,10 +1,3 @@
-/spark tps
-/spark profiler start
-/spark tps
-/spark profiler info
-/spark gcmonitor
-/spark profiler start
-/spark profiler stop
 /spark profiler start --timeout 300
 /spark profiler start --timeout 50
 /tp 300 ~ 3000
@@ -48,3 +41,10 @@
 /spark profiler start
 /tp EldoTest 100 59.00 5.17
 /tp EldoTest 1000 59.00 5.17
+/spark profiler start --timeout 500
+/effect give EldoTest minecraft:regeneration 5 i-
+/setblock ~ 70 ~ minecraft:end_gateway
+/spark profiler start --timeout 200
+/give EldoTest lootr:lootr_chest
+/spark profiler start --timeout 120
+/apoth reforge apotheosis:uncommon

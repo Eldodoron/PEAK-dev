@@ -6598,6 +6598,7 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:enderman": "2026-05-20 01:04:50 -0400",
       "minecraft:zombie": "2026-05-18 15:04:54 -0400",
       "minecraft:ghast": "2026-05-19 03:54:27 -0400"
     },
@@ -8754,77 +8755,210 @@
     },
     "done": true
   },
-  "incendium:technical/sentrys_wrath": {
+  "dungeons_arise:find_aviary": {
     "criteria": {
-      "log_spam_fixer": "2026-05-19 12:31:36 -0400"
+      "location0": "2026-05-19 13:42:08 -0400"
     },
-    "done": false
+    "done": true
   },
-  "incendium:technical/on_block": {
+  "domum_ornamentum:recipes/tools/roan_stone_bricks": {
     "criteria": {
-      "log_spam_fixer": "2026-05-19 12:31:36 -0400"
+      "has_item2_domum_ornamentum_roan_stone_bricks": "2026-05-20 00:58:02 -0400",
+      "has_item1_domum_ornamentum_roan_stone_bricks": "2026-05-20 00:58:02 -0400"
     },
-    "done": false
+    "done": true
   },
-  "incendium:technical/feed_ghastling": {
+  "immersiveengineering:recipes/misc/crafting/alloybrick": {
     "criteria": {
-      "log_spam_fixer": "2026-05-19 12:31:36 -0400"
+      "has_brick": "2026-05-20 00:58:02 -0400"
     },
-    "done": false
+    "done": true
   },
-  "incendium:technical/multiplex_crossbow": {
+  "minecraft:end/enter_end_gateway": {
     "criteria": {
-      "log_spam_fixer": "2026-05-19 12:31:36 -0400"
+      "entered_end_gateway": "2026-05-20 00:50:47 -0400"
     },
-    "done": false
+    "done": true
   },
-  "incendium:technical/on_player_hurt": {
+  "nova_structures:end/find_end_castle": {
     "criteria": {
-      "log_spam_fixer": "2026-05-19 12:31:36 -0400"
+      "end_castle": "2026-05-20 00:57:07 -0400"
     },
-    "done": false
+    "done": true
   },
-  "incendium:technical/on_kill": {
+  "domum_ornamentum:recipes/tools/purple_brick_extra": {
     "criteria": {
-      "log_spam_fixer": "2026-05-19 12:31:36 -0400"
+      "has_material": "2026-05-20 00:58:02 -0400"
     },
-    "done": false
+    "done": true
   },
-  "incendium:technical/on_inventory_change": {
+  "minecraft:recipes/decorations/decorated_pot_simple": {
     "criteria": {
-      "log_spam_fixer": "2026-05-19 12:31:36 -0400"
+      "has_brick": "2026-05-20 00:58:02 -0400"
     },
-    "done": false
+    "done": true
   },
-  "incendium:technical/holy_wrath": {
+  "vampirism:main/ancient_knowledge": {
     "criteria": {
-      "log_spam_fixer": "2026-05-19 12:31:36 -0400"
+      "blood_container": "2026-05-20 00:58:01 -0400"
     },
-    "done": false
+    "done": true
   },
-  "incendium:technical/inventory/firestorm": {
+  "domum_ornamentum:recipes/tools/gray_brick_extra": {
     "criteria": {
-      "log_spam_fixer": "2026-05-19 12:31:36 -0400"
+      "has_material": "2026-05-20 00:58:02 -0400"
     },
-    "done": false
+    "done": true
   },
-  "incendium:technical/give_ghastling": {
+  "cataclysm:find_ruined_citadel": {
     "criteria": {
-      "log_spam_fixer": "2026-05-19 12:31:36 -0400"
+      "citadel": "2026-05-20 01:00:02 -0400"
     },
-    "done": false
+    "done": true
   },
-  "incendium:technical/inventory/sentrys_wrath": {
+  "alexsmobs:alexsmobs/enderiophage": {
     "criteria": {
-      "log_spam_fixer": "2026-05-19 12:31:36 -0400"
+      "killed_by": "2026-05-20 01:03:48 -0400"
     },
-    "done": false
+    "done": true
   },
-  "incendium:technical/firestorm": {
+  "domum_ornamentum:recipes/tools/light_gray_brick_extra": {
     "criteria": {
-      "log_spam_fixer": "2026-05-19 12:31:36 -0400"
+      "has_material": "2026-05-20 00:58:02 -0400"
     },
-    "done": false
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bricks": {
+    "criteria": {
+      "has_brick": "2026-05-20 00:58:02 -0400"
+    },
+    "done": true
+  },
+  "domum_ornamentum:recipes/tools/black_brick_extra": {
+    "criteria": {
+      "has_material": "2026-05-20 00:58:02 -0400"
+    },
+    "done": true
+  },
+  "minecraft:end/find_end_city": {
+    "criteria": {
+      "in_city": "2026-05-20 01:02:14 -0400"
+    },
+    "done": true
+  },
+  "domum_ornamentum:recipes/tools/brown_brick_extra": {
+    "criteria": {
+      "has_material": "2026-05-20 00:58:02 -0400"
+    },
+    "done": true
+  },
+  "domum_ornamentum:recipes/tools/brick_extra": {
+    "criteria": {
+      "has_material": "2026-05-20 00:58:02 -0400"
+    },
+    "done": true
+  },
+  "domum_ornamentum:recipes/tools/pink_brick_extra": {
+    "criteria": {
+      "has_material": "2026-05-20 00:58:02 -0400"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/integration/planter_rich_fd": {
+    "criteria": {
+      "has_item_minecraft_brick_1": "2026-05-20 00:58:02 -0400"
+    },
+    "done": true
+  },
+  "lootr:50loot": {
+    "criteria": {
+      "opened_50": "2026-05-20 00:57:26 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/decorations/skillet": {
+    "criteria": {
+      "has_brick": "2026-05-20 00:58:02 -0400"
+    },
+    "done": true
+  },
+  "domum_ornamentum:recipes/tools/white_brick_extra": {
+    "criteria": {
+      "has_material": "2026-05-20 00:58:02 -0400"
+    },
+    "done": true
+  },
+  "domum_ornamentum:recipes/tools/light_blue_brick_extra": {
+    "criteria": {
+      "has_material": "2026-05-20 00:58:02 -0400"
+    },
+    "done": true
+  },
+  "domum_ornamentum:recipes/tools/lime_brick_extra": {
+    "criteria": {
+      "has_material": "2026-05-20 00:58:02 -0400"
+    },
+    "done": true
+  },
+  "domum_ornamentum:recipes/tools/red_brick_extra": {
+    "criteria": {
+      "has_material": "2026-05-20 00:58:02 -0400"
+    },
+    "done": true
+  },
+  "domum_ornamentum:recipes/tools/orange_brick_extra": {
+    "criteria": {
+      "has_material": "2026-05-20 00:58:02 -0400"
+    },
+    "done": true
+  },
+  "domum_ornamentum:recipes/tools/yellow_brick_extra": {
+    "criteria": {
+      "has_material": "2026-05-20 00:58:02 -0400"
+    },
+    "done": true
+  },
+  "lootr:1shulker": {
+    "criteria": {
+      "opened_shulker": "2026-05-20 00:57:26 -0400"
+    },
+    "done": true
+  },
+  "domum_ornamentum:recipes/tools/blue_brick_extra": {
+    "criteria": {
+      "has_material": "2026-05-20 00:58:02 -0400"
+    },
+    "done": true
+  },
+  "domum_ornamentum:recipes/tools/green_brick_extra": {
+    "criteria": {
+      "has_material": "2026-05-20 00:58:02 -0400"
+    },
+    "done": true
+  },
+  "domum_ornamentum:recipes/tools/magenta_brick_extra": {
+    "criteria": {
+      "has_material": "2026-05-20 00:58:02 -0400"
+    },
+    "done": true
+  },
+  "domum_ornamentum:recipes/tools/cyan_brick_extra": {
+    "criteria": {
+      "has_material": "2026-05-20 00:58:02 -0400"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/blastbrick": {
+    "criteria": {
+      "has_item": "2026-05-20 00:58:02 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/flower_pot": {
+    "criteria": {
+      "has_brick": "2026-05-20 00:58:02 -0400"
+    },
+    "done": true
   },
   "DataVersion": 3955
 }
