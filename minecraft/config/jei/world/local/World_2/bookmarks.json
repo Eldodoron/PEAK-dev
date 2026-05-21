@@ -1,4 +1,5 @@
 [
   {"version":2},
-  {"ingredient":{"id":"quark:grate"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+  {"ingredient":{"id":"quark:grate"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"create:transmitter"},"type":"item_stack","bookmarkType":"INGREDIENT"}
 ]

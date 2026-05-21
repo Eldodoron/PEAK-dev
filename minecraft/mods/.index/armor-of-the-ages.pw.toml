@@ -1,0 +1,21 @@
+filename = 'armoroftheages-neoforge-1.21.1-1.5.9.jar'
+name = 'Armor of the Ages'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.5.9'
+
+[download]
+hash = 'f8bf41c1e8fd7f8a8863ad6b9acbe3834d533b730f35a40f34fc4c048de26959b6281f1011ebb536cfeb191e830157398a7764b48eb0f66a3a7de864351d7112'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/vEgtiJIY/versions/94UHpvJD/armoroftheages-neoforge-1.21.1-1.5.9.jar'
+
+[update.modrinth]
+mod-id = 'vEgtiJIY'
+version = '94UHpvJD'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1eAoo2KR'
+type = 'REQUIRED'

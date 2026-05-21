@@ -1,0 +1,21 @@
+filename = 'awesomedungeonend-neoforge-1.21.1-3.1.1.jar'
+name = 'Awesome Dungeon The End edition - Neoforge'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Awesome dungeon the end 3.1.1 - Neoforge 1.21.1'
+
+[download]
+hash = '7700b06f808800aad9699dd98ac699ce7892c93f'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7061818
+project-id = 537531
+
+[[x-prismlauncher-dependencies]]
+addonId = '522351'
+type = 'REQUIRED'

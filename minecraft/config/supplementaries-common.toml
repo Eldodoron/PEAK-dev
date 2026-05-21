@@ -10,17 +10,17 @@
 	relayer = true
 
 	[redstone.speaker_block]
-		enabled = true
-		#Enable/disable speaker block narrator mode
-		narrator_enabled = true
 		#Max text
 		# Default: 32
 		# Range: 0 ~ 10000
-		max_text = 32
+		max_text = 64
 		#Maximum block range
 		# Default: 64
 		# Range: 0 ~ 100000000
-		range = 64
+		range = 128
+		enabled = true
+		#Enable/disable speaker block narrator mode
+		narrator_enabled = true
 
 	[redstone.bellows]
 		enabled = true
@@ -103,6 +103,31 @@
 	fodder = true
 	hourglass = true
 
+	[functional.safe]
+		#Makes safes only breakable by their owner or by a player in creative
+		prevent_breaking = true
+		#Make safes simpler so they do not require keys:
+		#they will be bound to the first person that opens one and only that person will be able to interact with them
+		simple_safes = true
+		enabled = true
+
+	[functional.cage]
+		#Allows all baby mobs to be captured by cages
+		cage_allow_all_babies = true
+		enabled = true
+		#Allows all entities to be captured by cages and jars. Not meant for survival
+		allow_all_mobs = false
+		#Dynamically allows all small mobs inside cages depending on their hitbox size
+		cage_auto_detect = false
+		#Makes it so all (hostile) mobs captured by cages and jars will be set to persistent so they won't despawn when released
+		persistent_mobs = false
+		#Health percentage under which mobs will be allowed to be captured by cages and jars. Leave at 100 to accept any health level
+		# Default: 100
+		# Range: 1 ~ 100
+		health_threshold = 100
+		#When on, if a mob is tameable, it will only be capturable when tamed.
+		require_taming = true
+
 	[functional.rope]
 		#Also internally disables Galleons, Pulleys, Buntings, Rope arrows and rope mineshaft.
 		#Also disables compat blocks such as supplementaries Farmers Delight rope tomatoes and Decorative blocks rope chandeliers.
@@ -137,31 +162,6 @@
 		jar_cookies = true
 		#Allow Jars to hold liquids from bottles, buckets and bowls
 		jar_liquids = true
-
-	[functional.cage]
-		enabled = true
-		#Allows all entities to be captured by cages and jars. Not meant for survival
-		allow_all_mobs = false
-		#Allows all baby mobs to be captured by cages
-		cage_allow_all_babies = false
-		#Dynamically allows all small mobs inside cages depending on their hitbox size
-		cage_auto_detect = false
-		#Makes it so all (hostile) mobs captured by cages and jars will be set to persistent so they won't despawn when released
-		persistent_mobs = false
-		#Health percentage under which mobs will be allowed to be captured by cages and jars. Leave at 100 to accept any health level
-		# Default: 100
-		# Range: 1 ~ 100
-		health_threshold = 100
-		#When on, if a mob is tameable, it will only be capturable when tamed.
-		require_taming = true
-
-	[functional.safe]
-		enabled = true
-		#Makes safes only breakable by their owner or by a player in creative
-		prevent_breaking = false
-		#Make safes simpler so they do not require keys:
-		#they will be bound to the first person that opens one and only that person will be able to interact with them
-		simple_safes = false
 
 	[functional.sack]
 		enabled = true
@@ -297,6 +297,19 @@
 	fire_pit = true
 	wicker_fence = true
 
+	[building.ash]
+		#Burnable blocks will have a chance to create ash layers when burned. Greater this number the greater the chance will be
+		# Default: 1.0
+		# Range: 0.0 ~ 1.0
+		ash_from_fire_chance = 0.0
+		#Burning mobs will drop ash when they die
+		ash_from_burning_mobs = false
+		enabled = true
+		#Allows rain to wash away ash layers overtime
+		rain_wash_ash = true
+		#Use a datapack to tweak rarity
+		basalt_ash = true
+
 	[building.spider_head]
 		enabled = true
 
@@ -374,19 +387,6 @@
 		# Default: 3.0
 		# Range: 0.0 ~ 100.0
 		crystal_enchanting = 3.0
-
-	[building.ash]
-		enabled = true
-		#Burnable blocks will have a chance to create ash layers when burned. Greater this number the greater the chance will be
-		# Default: 1.0
-		# Range: 0.0 ~ 1.0
-		ash_from_fire_chance = 1.0
-		#Burning mobs will drop ash when they die
-		ash_from_burning_mobs = true
-		#Allows rain to wash away ash layers overtime
-		rain_wash_ash = true
-		#Use a datapack to tweak rarity
-		basalt_ash = true
 
 	[building.flag]
 		enabled = true
@@ -633,6 +633,16 @@
 #Vanilla tweaks
 [tweaks]
 
+	[tweaks.sus_recipes]
+		#Adds recipes to craft suspicious gravel and suspicious sand
+		enabled = false
+
+	[tweaks.placeable_sticks]
+		#Allow placeable sticks
+		sticks = false
+		#Allow placeable blaze rods
+		blaze_rods = true
+
 	[tweaks.dragon_banner_pattern]
 		#Adds dragon banner pattern made from dragon head
 		enabled = true
@@ -661,12 +671,6 @@
 	[tweaks.throwable_bricks]
 		#Throw bricks at your foes! Might break glass blocks
 		enabled = true
-
-	[tweaks.placeable_sticks]
-		#Allow placeable sticks
-		sticks = true
-		#Allow placeable blaze rods
-		blaze_rods = true
 
 	[tweaks.placeable_gunpowder]
 		#Allow placeable gunpowder
@@ -746,10 +750,6 @@
 
 	[tweaks.item_lore]
 		#Adds a recipe to add 'lore' strings to an item by combining it with a named nametag
-		enabled = true
-
-	[tweaks.sus_recipes]
-		#Adds recipes to craft suspicious gravel and suspicious sand
 		enabled = true
 
 	[tweaks.slimed_effect]

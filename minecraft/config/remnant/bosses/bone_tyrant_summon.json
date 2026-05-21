@@ -1,0 +1,9 @@
+{
+  "portal_activation_item": "remnant_bosses:ossukage_sword",
+  "pedestal_one_activation_block": "minecraft:wither_skeleton_skull",
+  "pedestal_two_activation_block": "minecraft:wither_skeleton_skull",
+  "pedestal_three_activation_block": "minecraft:wither_skeleton_skull",
+  "pedestal_four_activation_block": "minecraft:wither_skeleton_skull",
+  "summon_delay_ticks": 80.0,
+  "message_range": 70.0
+}

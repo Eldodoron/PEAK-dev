@@ -1,6 +1,6 @@
 {
   "dragon": {
-    "maxHealth": 500.0,
+    "maxHealth": 1500.0,
     "eggBornTime": 7200,
     "maxPathingNodes": 5000,
     "villagersFear": true,
@@ -10,7 +10,7 @@
     "generate.denGoldAmount": 0.25,
     "generate.oreRatio": 0.022222222222222223,
     "griefing": true,
-    "tamedGriefing": true,
+    "tamedGriefing": false,
     "flapNoiseDistance": 4,
     "fluteDistance": 8,
     "attackDamage": 17,
@@ -20,7 +20,7 @@
     "maxFlight": 256,
     "goldSearchLength": 30,
     "canHealFromBiting": false,
-    "canDespawn": true,
+    "canDespawn": false,
     "sleep": true,
     "digWhenStuck": true,
     "breakBlockCooldown": 5,
@@ -53,7 +53,7 @@
   "cyclops": {
     "spawnWanderingChance": 0.0011111111111111111,
     "sheepSearchLength": 17,
-    "maxHealth": 150.0,
+    "maxHealth": 350.0,
     "attackDamage": 15.0,
     "biteDamage": 40.0,
     "griefing": true
@@ -64,7 +64,7 @@
     "timeBetweenSongs": 2000
   },
   "gorgon": {
-    "maxHealth": 100.0
+    "maxHealth": 200.0
   },
   "deathworm": {
     "spawnChance": 0.03333333333333333,
@@ -94,7 +94,7 @@
     "spawn": true,
     "spawnWeight": 60,
     "dropWeapon": true,
-    "maxHealth": 50.0,
+    "maxHealth": 150.0,
     "attackDamage": 10.0
   },
   "amphithere": {
@@ -118,7 +118,7 @@
     "spawnChance": 0.03333333333333333
   },
   "hydra": {
-    "maxHealth": 250.0
+    "maxHealth": 350.0
   },
   "hippocampus": {
     "spawnChance": 0.025,
@@ -167,15 +167,15 @@
     "generateLightningDragonCaveChance": 0.5,
     "generateLightningDragonRoostChance": 0.5,
     "generateCyclopsCaveChance": 0.5,
-    "generateGorgonTempleChance": 0.5,
+    "generateGorgonTempleChance": 0.2,
     "generateGraveYardChance": 0.5,
     "generateHydraCaveChance": 0.5,
     "generateMausoleumChance": 0.5,
-    "generatePixieVillageChance": 0.5,
+    "generatePixieVillageChance": 0.2,
     "generateSirenIslandChance": 0.5
   },
   "misc": {
     "enableDragonSeeker": true,
-    "dreadQueenMaxHealth": 1000.0
+    "dreadQueenMaxHealth": 2000.0
   }
 }

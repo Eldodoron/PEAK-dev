@@ -1,0 +1,18 @@
+filename = 'servercore-neoforge-1.5.17+1.21.1.jar'
+name = 'ServerCore'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '1.5.17+1.21.1'
+
+[download]
+hash = '15bda8eb2ca93e840513ca74dd66f665edd0ee6db189c9caaa63ca8563ad0af623707c2190c406e57824232b97aa2c0bdae2c0a4201e65c7a171a275dc88677f'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/4WWQxlQP/versions/qzdoK8An/servercore-neoforge-1.5.17%2B1.21.1.jar'
+
+[update.modrinth]
+mod-id = '4WWQxlQP'
+version = 'qzdoK8An'

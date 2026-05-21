@@ -298,7 +298,7 @@
 	#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 	# Default: 30
 	# Range: 0 ~ 1000
-	warpedToadSpawnWeight = 30
+	warpedToadSpawnWeight = 12
 	#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 	# Default: 0
 	# Range: > 0
@@ -442,7 +442,7 @@
 	#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 	# Default: 70
 	# Range: 0 ~ 1000
-	straddlerSpawnWeight = 70
+	straddlerSpawnWeight = 25
 	#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 	# Default: 0
 	# Range: > 0
@@ -586,7 +586,7 @@
 	#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 	# Default: 15
 	# Range: 0 ~ 1000
-	laviathanSpawnWeight = 15
+	laviathanSpawnWeight = 6
 	#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 	# Default: 1
 	# Range: > 0
@@ -910,4 +910,4 @@
 	#How many cpu cores some mobs(elephants, leafcutter ants, bison etc) should utilize when pathing. Bigger number = less impact on TPS
 	# Default: 5
 	# Range: 1 ~ 100
-	pathfindingThreads = 5
+	pathfindingThreads = 8

@@ -1,0 +1,18 @@
+filename = 'levelup-1.3.jar'
+name = 'LevelUP'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Update 3'
+
+[download]
+hash = '774e25ab39c22374697f21c589f696d56d8bd38b'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8081907
+project-id = 1489244

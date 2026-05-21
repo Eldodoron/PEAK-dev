@@ -1,0 +1,41 @@
+filename = 'twilightdelight-3.2.1.jar'
+name = "Twilight's Flavors & Delight"
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'twilightdelight-3.2.1.jar'
+
+[download]
+hash = '52a848d413fb1b7c7cc79e3d6c9a25868ba96e57'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8046921
+project-id = 871735
+
+[[x-prismlauncher-dependencies]]
+addonId = '679270'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '398521'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '306770'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '532286'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '227639'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '382016'
+type = 'OPTIONAL'

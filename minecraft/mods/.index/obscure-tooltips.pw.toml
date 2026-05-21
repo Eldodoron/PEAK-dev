@@ -1,0 +1,21 @@
+filename = 'obscure_tooltips-neoforge-1.21.1-4.2.2.jar'
+name = 'Obscure Tooltips'
+side = 'client'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '4.2.2'
+
+[download]
+hash = '70234c7e6ade9b931025aa430f086fb8227a471e7176b7c49cbd41b70135c2ab437b5da527b46db77bd2fc2c702deace797184e12947709529cea2b8ccb4a12f'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/5vetjDBY/versions/sQ2dM0ur/obscure_tooltips-neoforge-1.21.1-4.2.2.jar'
+
+[update.modrinth]
+mod-id = '5vetjDBY'
+version = 'sQ2dM0ur'
+
+[[x-prismlauncher-dependencies]]
+addonId = '49C5QgTK'
+type = 'REQUIRED'

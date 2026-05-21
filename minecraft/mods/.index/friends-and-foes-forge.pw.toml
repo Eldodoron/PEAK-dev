@@ -1,0 +1,25 @@
+filename = 'friendsandfoes-neoforge-4.0.25+mc1.21.1.jar'
+name = 'Friends&Foes (Forge/NeoForge)'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'neoforge-4.0.25+mc1.21.1'
+
+[download]
+hash = '2cfbac1f0e4e01e3e5b94272e7ee866b4135558da26f4c2a6d0f7b76330abb44be7fa529efa1a2be1d1b86c608529b81ba05ddbb4b31d8e5b7f567eb3831ec5d'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/BOCJKD49/versions/jaXsPU8A/friendsandfoes-neoforge-4.0.25%2Bmc1.21.1.jar'
+
+[update.modrinth]
+mod-id = 'BOCJKD49'
+version = 'jaXsPU8A'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'G1hIVOrD'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1eAoo2KR'
+type = 'OPTIONAL'

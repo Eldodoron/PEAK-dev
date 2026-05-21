@@ -8761,6 +8761,36 @@
     },
     "done": true
   },
+  "minecraft:end/enter_end_gateway": {
+    "criteria": {
+      "entered_end_gateway": "2026-05-20 00:50:47 -0400"
+    },
+    "done": true
+  },
+  "nova_structures:end/find_end_castle": {
+    "criteria": {
+      "end_castle": "2026-05-20 00:57:07 -0400"
+    },
+    "done": true
+  },
+  "lootr:50loot": {
+    "criteria": {
+      "opened_50": "2026-05-20 00:57:26 -0400"
+    },
+    "done": true
+  },
+  "lootr:1shulker": {
+    "criteria": {
+      "opened_shulker": "2026-05-20 00:57:26 -0400"
+    },
+    "done": true
+  },
+  "vampirism:main/ancient_knowledge": {
+    "criteria": {
+      "blood_container": "2026-05-20 00:58:01 -0400"
+    },
+    "done": true
+  },
   "domum_ornamentum:recipes/tools/roan_stone_bricks": {
     "criteria": {
       "has_item2_domum_ornamentum_roan_stone_bricks": "2026-05-20 00:58:02 -0400",
@@ -8771,18 +8801,6 @@
   "immersiveengineering:recipes/misc/crafting/alloybrick": {
     "criteria": {
       "has_brick": "2026-05-20 00:58:02 -0400"
-    },
-    "done": true
-  },
-  "minecraft:end/enter_end_gateway": {
-    "criteria": {
-      "entered_end_gateway": "2026-05-20 00:50:47 -0400"
-    },
-    "done": true
-  },
-  "nova_structures:end/find_end_castle": {
-    "criteria": {
-      "end_castle": "2026-05-20 00:57:07 -0400"
     },
     "done": true
   },
@@ -8798,27 +8816,9 @@
     },
     "done": true
   },
-  "vampirism:main/ancient_knowledge": {
-    "criteria": {
-      "blood_container": "2026-05-20 00:58:01 -0400"
-    },
-    "done": true
-  },
   "domum_ornamentum:recipes/tools/gray_brick_extra": {
     "criteria": {
       "has_material": "2026-05-20 00:58:02 -0400"
-    },
-    "done": true
-  },
-  "cataclysm:find_ruined_citadel": {
-    "criteria": {
-      "citadel": "2026-05-20 01:00:02 -0400"
-    },
-    "done": true
-  },
-  "alexsmobs:alexsmobs/enderiophage": {
-    "criteria": {
-      "killed_by": "2026-05-20 01:03:48 -0400"
     },
     "done": true
   },
@@ -8837,12 +8837,6 @@
   "domum_ornamentum:recipes/tools/black_brick_extra": {
     "criteria": {
       "has_material": "2026-05-20 00:58:02 -0400"
-    },
-    "done": true
-  },
-  "minecraft:end/find_end_city": {
-    "criteria": {
-      "in_city": "2026-05-20 01:02:14 -0400"
     },
     "done": true
   },
@@ -8867,12 +8861,6 @@
   "supplementaries:recipe/integration/planter_rich_fd": {
     "criteria": {
       "has_item_minecraft_brick_1": "2026-05-20 00:58:02 -0400"
-    },
-    "done": true
-  },
-  "lootr:50loot": {
-    "criteria": {
-      "opened_50": "2026-05-20 00:57:26 -0400"
     },
     "done": true
   },
@@ -8918,12 +8906,6 @@
     },
     "done": true
   },
-  "lootr:1shulker": {
-    "criteria": {
-      "opened_shulker": "2026-05-20 00:57:26 -0400"
-    },
-    "done": true
-  },
   "domum_ornamentum:recipes/tools/blue_brick_extra": {
     "criteria": {
       "has_material": "2026-05-20 00:58:02 -0400"
@@ -8957,6 +8939,216 @@
   "minecraft:recipes/decorations/flower_pot": {
     "criteria": {
       "has_brick": "2026-05-20 00:58:02 -0400"
+    },
+    "done": true
+  },
+  "cataclysm:find_ruined_citadel": {
+    "criteria": {
+      "citadel": "2026-05-20 01:00:02 -0400"
+    },
+    "done": true
+  },
+  "minecraft:end/find_end_city": {
+    "criteria": {
+      "in_city": "2026-05-20 01:02:14 -0400"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/enderiophage": {
+    "criteria": {
+      "killed_by": "2026-05-20 01:03:48 -0400"
+    },
+    "done": true
+  },
+  "incendium:technical/sentrys_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2026-05-20 15:06:29 -0400"
+    },
+    "done": false
+  },
+  "supplementaries:recipe/soap/tipped_arrow": {
+    "criteria": {
+      "has_item_minecraft_tipped_arrow_1": "2026-05-20 14:29:11 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_crystal": {
+    "criteria": {
+      "has_ender_eye": "2026-05-20 14:28:21 -0400"
+    },
+    "done": true
+  },
+  "incendium:technical/on_block": {
+    "criteria": {
+      "log_spam_fixer": "2026-05-20 15:06:29 -0400"
+    },
+    "done": false
+  },
+  "apotheosis:progression/frontier": {
+    "criteria": {
+      "rare_hand": "2026-05-20 14:29:31 -0400"
+    },
+    "done": false
+  },
+  "minecraft:story/obtain_armor": {
+    "criteria": {
+      "iron_chestplate": "2026-05-20 14:49:11 -0400"
+    },
+    "done": true
+  },
+  "incendium:technical/feed_ghastling": {
+    "criteria": {
+      "log_spam_fixer": "2026-05-20 15:06:29 -0400"
+    },
+    "done": false
+  },
+  "incendium:technical/multiplex_crossbow": {
+    "criteria": {
+      "log_spam_fixer": "2026-05-20 15:06:29 -0400"
+    },
+    "done": false
+  },
+  "minecraft:adventure/avoid_vibration": {
+    "criteria": {
+      "avoid_vibration": "2026-05-20 14:55:16 -0400"
+    },
+    "done": true
+  },
+  "incendium:technical/on_player_hurt": {
+    "criteria": {
+      "log_spam_fixer": "2026-05-20 15:06:29 -0400"
+    },
+    "done": false
+  },
+  "vampirism:hunter/betrayal": {
+    "criteria": {
+      "kill": "2026-05-20 14:44:46 -0400"
+    },
+    "done": false
+  },
+  "create:recipes/misc/crafting/materials/experience_nugget_from_block": {
+    "criteria": {
+      "has_item": "2026-05-20 14:50:37 -0400"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/rope_arrow_create": {
+    "criteria": {
+      "has_item_minecraft_arrow_1": "2026-05-20 14:31:05 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/ender_chest": {
+    "criteria": {
+      "has_ender_eye": "2026-05-20 14:28:21 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/materials/experience_block": {
+    "criteria": {
+      "has_item": "2026-05-20 14:50:37 -0400"
+    },
+    "done": true
+  },
+  "waystones:recipes/decorations/warp_stone": {
+    "criteria": {
+      "has_ender_pearl": "2026-05-20 13:58:13 -0400"
+    },
+    "done": true
+  },
+  "waystones:recipes/decorations/warp_scroll": {
+    "criteria": {
+      "has_ender_pearl": "2026-05-20 13:58:13 -0400"
+    },
+    "done": true
+  },
+  "incendium:technical/on_kill": {
+    "criteria": {
+      "log_spam_fixer": "2026-05-20 15:06:29 -0400"
+    },
+    "done": false
+  },
+  "create_enchantment_industry:experienced_engineer": {
+    "criteria": {
+      "0": "2026-05-20 14:50:37 -0400"
+    },
+    "done": true
+  },
+  "incendium:technical/on_inventory_change": {
+    "criteria": {
+      "log_spam_fixer": "2026-05-20 15:06:29 -0400"
+    },
+    "done": false
+  },
+  "incendium:technical/holy_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2026-05-20 15:06:29 -0400"
+    },
+    "done": false
+  },
+  "minecraft:recipes/misc/iron_nugget_from_smelting": {
+    "criteria": {
+      "has_iron_chestplate": "2026-05-20 14:49:11 -0400"
+    },
+    "done": true
+  },
+  "undergarden:recipes/tools/catalyst": {
+    "criteria": {
+      "has_ender_pearl": "2026-05-20 13:58:13 -0400"
+    },
+    "done": true
+  },
+  "vampirism:recipes/combat/hunter/crossbow_arrow_from_vanilla": {
+    "criteria": {
+      "has_arrow": "2026-05-20 14:31:05 -0400"
+    },
+    "done": true
+  },
+  "incendium:technical/inventory/firestorm": {
+    "criteria": {
+      "log_spam_fixer": "2026-05-20 15:06:29 -0400"
+    },
+    "done": false
+  },
+  "incendium:technical/give_ghastling": {
+    "criteria": {
+      "log_spam_fixer": "2026-05-20 15:06:29 -0400"
+    },
+    "done": false
+  },
+  "lootr:100loot": {
+    "criteria": {
+      "opened_100": "2026-05-20 13:58:29 -0400"
+    },
+    "done": true
+  },
+  "allthemodium:recipes/misc/teleport_pad": {
+    "criteria": {
+      "has_ender_pearl": "2026-05-20 13:58:13 -0400"
+    },
+    "done": true
+  },
+  "waystones:recipes/decorations/warp_dust": {
+    "criteria": {
+      "has_ender_pearl": "2026-05-20 13:58:13 -0400"
+    },
+    "done": true
+  },
+  "incendium:technical/inventory/sentrys_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2026-05-20 15:06:29 -0400"
+    },
+    "done": false
+  },
+  "incendium:technical/firestorm": {
+    "criteria": {
+      "log_spam_fixer": "2026-05-20 15:06:29 -0400"
+    },
+    "done": false
+  },
+  "minecraft:recipes/misc/iron_nugget_from_blasting": {
+    "criteria": {
+      "has_iron_chestplate": "2026-05-20 14:49:11 -0400"
     },
     "done": true
   },

@@ -1,0 +1,25 @@
+filename = 'crystal_chronicles-0.0.9.jar'
+name = 'Crystal Chronicles'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'alpha'
+x-prismlauncher-version-number = '0.0.9'
+
+[download]
+hash = '91cce2bddf3a26348f3c84a8841e0d915850efc1200533f50e7bf15ea90e7053f91d1383ff810d9bee4b23968abece92e256d77221b4133450a7564d9fbaebb2'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/96yhlGDU/versions/TOrVQXLo/crystal_chronicles-0.0.9.jar'
+
+[update.modrinth]
+mod-id = '96yhlGDU'
+version = 'TOrVQXLo'
+
+[[x-prismlauncher-dependencies]]
+addonId = '7zlUOZvb'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 's4OWxYQQ'
+type = 'REQUIRED'

@@ -1,5 +1,10 @@
 [
   {"version":1},
+  {"ingredient":{"id":"reliquary:nebulous_heart"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"enderio:grains_of_infinity"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"enderio:iron_gear"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"irons_jewelry:jewelcrafting_station"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"irons_jewelry:peridot"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"quark:grate"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"minecraft:dark_oak_planks"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"minecraft:dark_oak_pressure_plate"},"type":"item_stack","bookmarkType":"INGREDIENT"},

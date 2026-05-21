@@ -1,16 +1,3 @@
-/spark profiler start --timeout 300
-/spark profiler start --timeout 50
-/tp 300 ~ 3000
-/spark profiler start
-/spark profiler stop
-/spark profiler start --timeout 200
-/spark profiler stop
-/spark profiler start --timeout 200
-/chunky start minecraft:overworld square 0 0 500 500
-/spark tps
-/chunky start minecraft:overworld square 0 0 500 500
-/spark profiler s
-/spark profiler stop
 /spark profiler start --timeout 200
 /effect give EldoTest minecraft:regeneration infinite
 /spark profiler start --timeout 200
@@ -48,3 +35,16 @@
 /give EldoTest lootr:lootr_chest
 /spark profiler start --timeout 120
 /apoth reforge apotheosis:uncommon
+/tp 10000 ~ 10000
+/spark profiler start --timeout 120
+/chunky start minecraft:the_end circle 10000 10000 200 200
+/chunky progress
+/spark profiler start --timeout 500
+/spark profiler start --timeout 120
+/chunky start minecraft:overworld square 0 0 500 500
+/spark tps
+/spark profiler start --timeout 120
+/give EldoTest minecraft:ender_pearl
+/spark tps
+/give EldoTest minecraft:ender_pearl
+/chunky start minecraft:overworld square 1100 800 500 1000

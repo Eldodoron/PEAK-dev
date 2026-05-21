@@ -1,0 +1,33 @@
+filename = 'cataclysm_spellbooks-1.1.11-1.21.jar'
+name = 'Cataclysm: Spellbooks'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.1.11-1.21'
+
+[download]
+hash = '4c9cde2c83cfd61882b39b9fc4b9bf1dc29e433eac49e087e207fab81abb53146190feaf90942796ba3cbdefaceedd512b1ac8faf1a7ce407700406b80ef70e7'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/3FEg0A8D/versions/MuC8YrbF/cataclysm_spellbooks-1.1.11-1.21.jar'
+
+[update.modrinth]
+mod-id = '3FEg0A8D'
+version = 'MuC8YrbF'
+
+[[x-prismlauncher-dependencies]]
+addonId = 's4OWxYQQ'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '7zlUOZvb'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '46KJle7n'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '7Jy4rK9m'
+type = 'REQUIRED'

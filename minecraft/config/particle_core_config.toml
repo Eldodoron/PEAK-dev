@@ -1,7 +1,7 @@
 # Don't change this! Version used to track needed updates.
 version = 1
 disableParticles = false
-byTypeReductions = {  }
+byTypeReductions = { "minecraft:flame" = 0.1, "minecraft:smoke" = 0.1, "minecraft:large_smoke" = 0.1, "minecraft:ash" = 0.05, "minecraft:white_ash" = 0.05, "minecraft:crimson_spore" = 0.1, "minecraft:warped_spore" = 0.1, "iceandfire:pixie_dust" = 0.3 }
 maxParticlesPerSheet = 16384
 particleRenderDistanceMultiplier = 0.3491299019607843
 asynchronousTicking = true

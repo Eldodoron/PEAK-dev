@@ -667,11 +667,11 @@
 			biome_blacklist = []
 
 		#Controls for vanilla-style mob spawning
-		[mobs.naga.spawn_config]
-			#Smaller number causes less spawning, 0 to disable spawning
-			# Default: 20
-			# Range: > 0
-			spawn_rate = 20
+	[mobs.naga.spawn_config]
+		#Smaller number causes less spawning, 0 to disable spawning
+		# Default: 20
+		# Range: > 0
+		spawn_rate = 12
 			#Minimum number of mobs that appear in a spawn group
 			# Default: 1
 			# Range: > 1
@@ -722,7 +722,7 @@
 			#Smaller number causes less spawning, 0 to disable spawning
 			# Default: 70
 			# Range: > 0
-			spawn_rate = 70
+			spawn_rate = 35
 			#Minimum number of mobs that appear in a spawn group
 			# Default: 1
 			# Range: > 1

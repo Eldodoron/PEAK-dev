@@ -1,0 +1,21 @@
+filename = 'aces_spell_utils-1.2.6.1-1.21.1.jar'
+name = "Ace's Spell Utils"
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.2.6.1-1.21.1'
+
+[download]
+hash = '0237810c6f676d8d8cddf3b5b925af3856ce8549ce2538972461cb0336d441fa0bd3878a05781c7ee80d34fc0cf4e827a93c71e9ca273fdefa073d18400e82d3'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/7Jy4rK9m/versions/zSD21doG/aces_spell_utils-1.2.6.1-1.21.1.jar'
+
+[update.modrinth]
+mod-id = '7Jy4rK9m'
+version = 'zSD21doG'
+
+[[x-prismlauncher-dependencies]]
+addonId = 's4OWxYQQ'
+type = 'REQUIRED'

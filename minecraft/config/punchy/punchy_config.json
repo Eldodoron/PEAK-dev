@@ -35,9 +35,13 @@
   "firstPersonModelHideEnabled": true,
   "firstPersonModelHidePitch": 60.0,
   "itemBlacklist": [
+    "cataclysm:wrath_of_the_desert",
+    "cataclysm:cursed_bow",
     "artifacts:umbrella"
   ],
   "blacklistApplyDualHanded": {
+    "cataclysm:wrath_of_the_desert": true,
+    "cataclysm:cursed_bow": false,
     "artifacts:umbrella": true
   },
   "animationPackSelections": {},

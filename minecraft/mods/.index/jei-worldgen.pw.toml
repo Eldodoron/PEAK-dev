@@ -1,0 +1,21 @@
+filename = 'JEIWorldGen-neoforge-1.1.0.jar'
+name = 'JEI WorldGen - Just Enough Items Addon'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.1.0+neoforge-1.21.1'
+
+[download]
+hash = '8ab450b55696c78dabc3a00b0651d8b62aaf747e45e7cef6146c4041a75e4e1c6ed9ec3429a17c444c5d375de72efb87680b65b75c68d5b913a569878a11b090'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/YYrsrQ6q/versions/CinRqU91/JEIWorldGen-neoforge-1.1.0.jar'
+
+[update.modrinth]
+mod-id = 'YYrsrQ6q'
+version = 'CinRqU91'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'u6dRKJwZ'
+type = 'REQUIRED'

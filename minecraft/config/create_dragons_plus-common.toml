@@ -47,3 +47,9 @@
 		#.
 		#If Sand Paper Polishing Recipes for Waxed Blocks should be generated
 		"recipe/sand_paper_polishing/waxed_blocks" = true
+		#.
+		#If block interaction of air current through fluid should be enabled (sable integration)
+		"fluid/air_current_block_interaction" = true
+		#.
+		#If Fragile Fluid Tank should be enabled (sable integration)
+		"fluid/fragile_fluid_tank" = true

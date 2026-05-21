@@ -1,0 +1,21 @@
+filename = 'newstructureneo.jar'
+name = "Alex's Caves: Tremorzilla's Rage"
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'newstructureneo.jar'
+
+[download]
+hash = '5d86cb3d4fdd7591566e0e2885f83a87844ca115'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8044089
+project-id = 1111962
+
+[[x-prismlauncher-dependencies]]
+addonId = '924854'
+type = 'REQUIRED'

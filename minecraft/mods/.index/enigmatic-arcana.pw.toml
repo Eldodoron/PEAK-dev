@@ -1,0 +1,37 @@
+filename = 'enigmatic_arcana-1.1.0.jar'
+name = 'Enigmatic Arcana '
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'enigmatic_arcana-1.1.0.jar'
+
+[download]
+hash = 'c4076a59888b44a76bdfc472ef31a890c7961882'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8039266
+project-id = 1371571
+
+[[x-prismlauncher-dependencies]]
+addonId = '817423'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '898963'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1528722'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '855414'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '484064'
+type = 'REQUIRED'

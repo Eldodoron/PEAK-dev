@@ -1,0 +1,29 @@
+filename = 'firesenderexpansion-2.3.6.jar'
+name = "Fire's Ender Expansion"
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'firesenderexpansion-2.3.6.jar'
+
+[download]
+hash = '6868cf27e280607e6e0ece21f47c1de5b49e48e6'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8105375
+project-id = 1245989
+
+[[x-prismlauncher-dependencies]]
+addonId = '855414'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1299492'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1143065'
+type = 'OPTIONAL'

@@ -1,0 +1,129 @@
+Detected that Windows reported recent critical or error events in the Application log,
+which can indicate that a process (including the Minecraft JVM) terminated unexpectedly.
+Scope: Application log; Levels: Error & Critical; Window: last ~15 seconds.
+
+If no java.exe (or related JVM processes) are listed below, you can disregard this message.
+To inspect these events manually:
+  1) Press Win+R, type "eventvwr.msc", press Enter.
+  2) Open "Windows Logs" → "Application".
+  3) Sort by Date and look for entries with Level = Error or Critical near the crash time.
+
+-----------------------
+Time: 2026-05-20 23:33:04.369 BOT
+Source: Application Error
+Event ID: 1000
+Level: Error
+
+Message:
+  Faulting application name: svchost.exe_webthreatdefsvc, version: 10.0.26100.7705, time stamp: 0x97e43917
+  Faulting module name: ThreatIntelligence.dll, version: 10.0.26100.8328, time stamp: 0x3274c7c2
+  Exception code: 0xc0000409
+  Fault offset: 0x0000000000034f32
+  Faulting process id: 0x68F8
+  Faulting application start time: 0x1DCE8D28315DD97
+  Faulting application path: C:\Windows\system32\svchost.exe
+  Faulting module path: C:\Windows\SYSTEM32\ThreatIntelligence.dll
+  Report Id: cf1ff776-f364-4b8a-b918-c1ef11caddc4
+  Faulting package full name: 
+  Faulting package-relative application ID:
+
+
+Details:
+  - AppName: svchost.exe_webthreatdefsvc
+  - AppVersion: 10.0.26100.7705
+  - AppTimeStamp: 97e43917
+  - ModuleName: ThreatIntelligence.dll
+  - ModuleVersion: 10.0.26100.8328
+  - ModuleTimeStamp: 3274c7c2
+  - ExceptionCode: c0000409
+  - FaultingOffset: 0000000000034f32
+  - Process ID: 26872 [0x68f8]
+  - ProcessCreationTime: 0x1dce8d28315dd97
+  - AppPath: C:\Windows\system32\svchost.exe
+  - ModulePath: C:\Windows\SYSTEM32\ThreatIntelligence.dll
+  - IntegratorReportId: cf1ff776-f364-4b8a-b918-c1ef11caddc4
+  - Process ID: 26872 [0x68F8]
+  - Start Time: 2026-05-20 23:32:55.429 BOT [0x1DCE8D28315DD97]
+  - Exception Code: 3221226505 [0xc0000409]
+-----------------------
+
+-----------------------
+Time: 2026-05-20 23:33:08.561 BOT
+Source: Application Error
+Event ID: 1000
+Level: Error
+
+Message:
+  Faulting application name: svchost.exe_webthreatdefsvc, version: 10.0.26100.7705, time stamp: 0x97e43917
+  Faulting module name: ThreatIntelligence.dll, version: 10.0.26100.8328, time stamp: 0x3274c7c2
+  Exception code: 0xc0000409
+  Fault offset: 0x0000000000034f32
+  Faulting process id: 0x3394
+  Faulting application start time: 0x1DCE8D2891C24E5
+  Faulting application path: C:\Windows\system32\svchost.exe
+  Faulting module path: C:\Windows\SYSTEM32\ThreatIntelligence.dll
+  Report Id: 291413b9-c44c-4ea7-b291-03d5c9382204
+  Faulting package full name: 
+  Faulting package-relative application ID:
+
+
+Details:
+  - AppName: svchost.exe_webthreatdefsvc
+  - AppVersion: 10.0.26100.7705
+  - AppTimeStamp: 97e43917
+  - ModuleName: ThreatIntelligence.dll
+  - ModuleVersion: 10.0.26100.8328
+  - ModuleTimeStamp: 3274c7c2
+  - ExceptionCode: c0000409
+  - FaultingOffset: 0000000000034f32
+  - Process ID: 13204 [0x3394]
+  - ProcessCreationTime: 0x1dce8d2891c24e5
+  - AppPath: C:\Windows\system32\svchost.exe
+  - ModulePath: C:\Windows\SYSTEM32\ThreatIntelligence.dll
+  - IntegratorReportId: 291413b9-c44c-4ea7-b291-03d5c9382204
+  - Process ID: 13204 [0x3394]
+  - Start Time: 2026-05-20 23:33:05.537 BOT [0x1DCE8D2891C24E5]
+  - Exception Code: 3221226505 [0xc0000409]
+-----------------------
+
+-----------------------
+Time: 2026-05-20 23:33:09.422 BOT
+Source: Application Error
+Event ID: 1000
+Level: Error
+
+Message:
+  Faulting application name: GamingServices.exe, version: 10.0.26100.8071, time stamp: 0x074de29e
+  Faulting module name: GamingServices.DLL, version: 10.0.26100.8071, time stamp: 0xddaee986
+  Exception code: 0xc0000409
+  Fault offset: 0x00000000001694ce
+  Faulting process id: 0x6E4C
+  Faulting application start time: 0x1DCE8D285F51E6D
+  Faulting application path: C:\Program Files\WindowsApps\Microsoft.GamingServices_36.113.14003.0_x64__8wekyb3d8bbwe\GamingServices.exe
+  Faulting module path: C:\Program Files\WindowsApps\Microsoft.GamingServices_36.113.14003.0_x64__8wekyb3d8bbwe\GamingServices.DLL
+  Report Id: 91e43c3a-87b4-418d-9fef-31cb7cf1078c
+  Faulting package full name: Microsoft.GamingServices_36.113.14003.0_x64__8wekyb3d8bbwe
+  Faulting package-relative application ID: GamingServices
+
+
+Details:
+  - AppName: GamingServices.exe
+  - AppVersion: 10.0.26100.8071
+  - AppTimeStamp: 074de29e
+  - ModuleName: GamingServices.DLL
+  - ModuleVersion: 10.0.26100.8071
+  - ModuleTimeStamp: ddaee986
+  - ExceptionCode: c0000409
+  - FaultingOffset: 00000000001694ce
+  - Process ID: 28236 [0x6e4c]
+  - ProcessCreationTime: 0x1dce8d285f51e6d
+  - AppPath: C:\Program Files\WindowsApps\Microsoft.GamingServices_36.113.14003.0_x64__8wekyb3d8bbwe\GamingServices.exe
+  - ModulePath: C:\Program Files\WindowsApps\Microsoft.GamingServices_36.113.14003.0_x64__8wekyb3d8bbwe\GamingServices.DLL
+  - IntegratorReportId: 91e43c3a-87b4-418d-9fef-31cb7cf1078c
+  - PackageFullName: Microsoft.GamingServices_36.113.14003.0_x64__8wekyb3d8bbwe
+  - PackageRelativeAppId: GamingServices
+  - Process ID: 28236 [0x6E4C]
+  - Start Time: 2026-05-20 23:33:00.248 BOT [0x1DCE8D285F51E6D]
+  - Exception Code: 3221226505 [0xc0000409]
+-----------------------
+

@@ -1,0 +1,21 @@
+filename = 'createdieselgenerators-1.21.1-1.3.12.jar'
+name = 'Create Diesel Generators'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.21.1-1.3.12'
+
+[download]
+hash = '3e15e80ed69d3367fedc4b3a572d383ad3cf67909f0ce578fefaa6d1fe19d1f049a6be4e9645dfd6a8008b62fe41d295a3051b8876310d433d0cb66141d73bd6'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/ZM3tt6p1/versions/3PddTDD8/createdieselgenerators-1.21.1-1.3.12.jar'
+
+[update.modrinth]
+mod-id = 'ZM3tt6p1'
+version = '3PddTDD8'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'LNytGWDc'
+type = 'REQUIRED'

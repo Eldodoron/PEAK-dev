@@ -1,0 +1,10 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"tombstone:ritual_flute"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"ars_nouveau:magebloom_fiber"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"knightlib:small_essence"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"knightlib:great_essence"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"mekanism:module_vein_mining_unit"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:enchanted_book","components":{"minecraft:stored_enchantments":{"levels":{"tombstone:decrepitude":9}}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:enchanted_book","components":{"minecraft:stored_enchantments":{"levels":{"deeperdarker:volume":2}}}},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

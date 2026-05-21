@@ -22,21 +22,21 @@
 	#Cave Creatures (All dinosaurs, raycats, etc) spawn at this frequency. Their cap is calculated by multiplying this number with the default mob cap for surface animals.
 	# Default: 1.75
 	# Range: 0.0 ~ 10.0
-	cave_creature_spawn_count_modifier = 0.75
+	cave_creature_spawn_count_modifier = 1.0
 	#The percent chance that drowned have to spawn wearing diving gear in the Abyssal Chasm. 0 = no diving gear wearing drowned will spawn
 	# Default: 0.2
 	# Range: 0.0 ~ 1.0
 	drowned_diving_gear_spawn_chance = 0.2
 
 [mob-behavior]
+	#Chance that blocks destroyed by luxtructosaurus attacks drop themselves, if mob griefing is enabled.
+	# Default: 0.75
+	# Range: 0.0 ~ 1.0
+	luxtructosaurus_block_drop_chance = 0.25
 	#How many cpu cores big mobs(tremorzilla, atlatitan, grottoceratops etc) should utilize when pathing. Bigger number = less impact on TPS
 	# Default: 5
 	# Range: 1 ~ 100
 	pathfinding_threads = 5
-	#Chance that blocks destroyed by luxtructosaurus attacks drop themselves, if mob griefing is enabled.
-	# Default: 0.75
-	# Range: 0.0 ~ 1.0
-	luxtructosaurus_block_drop_chance = 0.75
 	#The maximum explosion resistance that a block can have to be destroyed by an atlatitan stomp. Set to zero to disable all atlatitan block breaking.
 	# Default: 10
 	# Range: > 0
@@ -67,6 +67,10 @@
 	nuclear_furnace_custom_type = false
 
 [item-behavior]
+	#The scale of nuclear bomb destruction. multiply this by 16 to get the radius of a nuclear bomb explosion.
+	# Default: 3.0
+	# Range: 0.0 ~ 100.0
+	nuclear_explosion_size_modifier = 5.0
 	#True if one Cave Codex is all that is needed to unlock every Cave Compendium entry.
 	only_one_research_needed = false
 	#How many attempts to find a biome a cave map engages in when used. Increase this to increase the search radius, or decrease it to make them faster.
@@ -83,10 +87,6 @@
 	nuke_max_block_explosion_resistance = 1000
 	#Whether some block items are dropped by nuclear explosions. False if all destroyed blocks do not drop items.
 	nuke_spawn_item_drops = true
-	#The scale of nuclear bomb destruction. multiply this by 16 to get the radius of a nuclear bomb explosion.
-	# Default: 3.0
-	# Range: 0.0 ~ 100.0
-	nuclear_explosion_size_modifier = 3.0
 	#Whether the Totem of Possession can be applied to players.
 	totem_of_possession_works_on_players = true
 	#The amount of time (in ticks) it takes to charge up the Cloak of Darkness ability.

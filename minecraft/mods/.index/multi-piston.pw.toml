@@ -1,0 +1,25 @@
+filename = 'multipiston-1.2.58-1.21.1.jar'
+name = 'Multi-Piston'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'multipiston-1.2.58-1.21.1.jar'
+
+[download]
+hash = '2b63be739da24247328e4052ec91c928230d0390'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7097877
+project-id = 303278
+
+[[x-prismlauncher-dependencies]]
+addonId = '298744'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '522992'
+type = 'REQUIRED'

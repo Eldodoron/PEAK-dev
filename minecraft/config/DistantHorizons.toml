@@ -112,12 +112,12 @@ _version = 4
 			# Experimental:
 			# Enabling this option will increase CPU and harddrive use
 			# and may cause rendering bugs.
-			upsampleLowerDetailLodsToFillHoles = false
+			upsampleLowerDetailLodsToFillHoles = true
 
 	[common.multiThreading]
 		#
 		# How many threads should be used by Distant Horizons?
-		numberOfThreads = 2
+		numberOfThreads = 1
 		#
 		# A value between 1.0 and 0.0 that represents the percentage 
 		# of time each thread can run before going idle. 
@@ -231,7 +231,7 @@ _version = 4
 		# but may cause server/simulation lag. 
 		# Note: unlike other modes this option DOES save generated chunks to 
 		# Minecraft's region files.
-		distantGeneratorMode = "SURFACE"
+		distantGeneratorMode = "INTERNAL_SERVER"
 		#
 		# How should distant generator progress be displayed? 
 		# 
@@ -286,7 +286,7 @@ _version = 4
 			updateBranch = "AUTO"
 			#
 			# Automatically check for updates on game launch?
-			enableAutoUpdater = true
+			enableAutoUpdater = false
 			#
 			# Should Distant Horizons silently, automatically download and install new versions? 
 			# This setting is force disabled on dedicated servers for stability reasons.
@@ -692,7 +692,7 @@ _version = 4
 				# COMPLETE: LODs will render transparent. 
 				# FAKE: LODs will be opaque, but shaded to match the blocks underneath. 
 				# DISABLED: LODs will be opaque.
-				transparency = "FAKE"
+				transparency = "COMPLETE"
 				#
 				# This is the same as vanilla Biome Blending settings for Lod area. 
 				#     Note that anything other than '0' will greatly effect Lod building time. 
@@ -700,7 +700,7 @@ _version = 4
 				#     '0' equals to Vanilla Biome Blending of '1x1' or 'OFF', 
 				#     '1' equals to Vanilla Biome Blending of '3x3', 
 				#     '2' equals to Vanilla Biome Blending of '5x5'...
-				lodBiomeBlending = 1
+				lodBiomeBlending = 2
 				#
 				# How should vanilla Minecraft fade into Distant Horizons LODs? 
 				# 
@@ -729,13 +729,13 @@ _version = 4
 				# 0.0: Fog starts at the player's position. 
 				# 1.0: Fog starts at the closest edge of the vanilla render distance. 
 				# 1.414: Fog starts at the corner of the vanilla render distance.
-				farFogStart = "0.4"
+				farFogStart = "0.6"
 				#
 				# What is the minimum fog thickness? 
 				# 
 				# 0.0: No fog. 
 				# 1.0: Fully opaque fog.
-				farFogMin = "0.0"
+				farFogMin = "0.01"
 				#
 				# What color should fog use? 
 				# 
@@ -758,7 +758,7 @@ _version = 4
 				# 0.0: Fog ends at player's position.
 				# 1.0: Fog ends at the closest edge of the vanilla render distance. 
 				# 1.414: Fog ends at the corner of the vanilla render distance.
-				farFogEnd = "1.0"
+				farFogEnd = "1.414"
 
 				[client.advanced.graphics.fog.heightFog]
 					#
@@ -776,10 +776,10 @@ _version = 4
 					# 
 					# 0.0: No fog. 
 					# 1.0: Fully opaque fog.
-					heightFogMin = "0.0"
+					heightFogMin = "0.01"
 					#
 					# If the height fog is calculated around a set height, what is that height position?
-					heightFogBaseHeight = "80.0"
+					heightFogBaseHeight = "400.0"
 					#
 					# What is the maximum fog thickness? 
 					# 
@@ -792,7 +792,7 @@ _version = 4
 					# LINEAR: Linear based on height (will ignore 'density')
 					# EXPONENTIAL: 1/(e^(height*density)) 
 					# EXPONENTIAL_SQUARED: 1/(e^((height*density)^2)
-					heightFogFalloff = "LINEAR"
+					heightFogFalloff = "EXPONENTIAL_SQUARED"
 					#
 					# What is the height fog's density?
 					heightFogDensity = "20.0"
@@ -817,13 +817,13 @@ _version = 4
 					# 
 					# 0.0: Fog start with no offset.
 					# 1.0: Fog start with offset of the entire world's height. (Includes depth)
-					heightFogStart = "0.0"
+					heightFogStart = "0.7"
 					#
 					# Should the end of the height fog be offset? 
 					# 
 					# 0.0: Fog end with no offset.
 					# 1.0: Fog end with offset of the entire world's height. (Include depth)
-					heightFogEnd = "0.6"
+					heightFogEnd = "1.0"
 
 		[client.advanced.multiplayer]
 			#

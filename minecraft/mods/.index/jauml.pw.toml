@@ -1,0 +1,18 @@
+filename = 'jauml-neoforge-1.21.1-1.3.0.jar'
+name = 'Jauml'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.3.0'
+
+[download]
+hash = '7a9812d9ff263ddbc179ba27e1af13e139bfc9e158b0c2ba0f84e689fd395880fdd404e33116dff7bc849ae8c57d1ee83239aebb4553aa6adf26442eb35aeb32'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/ihvBalM2/versions/9y4nHj30/jauml-neoforge-1.21.1-1.3.0.jar'
+
+[update.modrinth]
+mod-id = 'ihvBalM2'
+version = '9y4nHj30'

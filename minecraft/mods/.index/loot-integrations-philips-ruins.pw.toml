@@ -1,0 +1,21 @@
+filename = 'lootintegrations_phillipsruins-1.3.jar'
+name = "Loot Integrations: Philip's Ruins"
+side = ''
+x-prismlauncher-loaders = [ 'neoforge', 'forge', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.18.2', '1.19.2', '1.20.1', '1.21.1', '1.21.4', '1.21.5', '1.21.6', '1.21.7', '1.21.8', '1.21.10', '1.21.11' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'lootintegrations_phillipsruins-1.3.jar'
+
+[download]
+hash = '28b4172107a53d80f78c7ab8e4a6205b334ae722'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7925077
+project-id = 1152718
+
+[[x-prismlauncher-dependencies]]
+addonId = '580689'
+type = 'REQUIRED'
