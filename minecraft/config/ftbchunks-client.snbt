@@ -138,146 +138,148 @@
 		# Default: true
 		entity_heads: true
 		entity_icon: {
+			"knightquest:ghosty": true
+			"village_n_pillage_remake:enchant_smith": true
+			"cataclysm:lionfish": true
+			"aquaculture:rainbow_trout": false
+			"alexsmobs:centipede_head": true
+			"boss:ten": true
 			"minecraft:ocelot": true
 			"minecraft:squid": true
-			"alexsmobs:leafcutter_ant": true
 			"minecraft:shulker": true
-			"alexsmobs:hummingbird": true
-			"alexsmobs:raccoon": true
-			"village_n_pillage_remake:enchant_smith": true
+			"mowziesmobs:elokosa_follower_howler": true
+			"aquaculture:brown_trout": false
 			"minecraft:turtle": true
-			"alexsmobs:komodo_dragon": true
-			"adorablehamsterpets:hamster": true
-			"alexsmobs:centipede_body": true
-			"variantsandventures:thicket": true
-			"minecraft:skeleton": true
-			"aquaculture:pollock": false
-			"minecraft:drowned": true
-			"alexsmobs:skunk": true
 			"artifacts:mimic": true
-			"aquaculture:rainbow_trout": false
+			"minecraft:skeleton": true
+			"iceandfire:fire_dragon": true
+			"minecraft:drowned": true
+			"friendsandfoes:crab": true
 			"minecraft:parrot": true
-			"iceandfire:pixie": true
-			"alexsmobs:rocky_roller": true
-			"alexsmobs:spectre": true
-			"minecraft:cat": true
-			"alexsmobs:toucan": true
-			"royalvariations:royal_creeper": true
-			"minecraft:pillager": true
-			"aquaculture:atlantic_herring": false
-			"alexsmobs:blue_jay": true
-			"minecraft:hoglin": true
-			"iceandfire:sea_serpent": true
-			"alexsmobs:centipede_head": true
+			"cataclysm:deepling_brute": true
+			"aquaculture:perch": false
+			"quark:forgotten": true
+			"alexsmobs:skunk": true
 			"aquaculture:carp": false
+			"minecraft:cat": true
+			"aquaculture:bluegill": false
+			"minecraft:pillager": true
+			"iceandfire:hippocampus": true
+			"alexsmobs:komodo_dragon": true
+			"minecraft:hoglin": true
+			"alexsmobs:tasmanian_devil": true
+			"iceandfire:hippogryph": true
 			"minecraft:slime": true
 			"minecraft:salmon": false
 			"minecraft:donkey": true
 			"minecraft:glow_squid": true
-			"village_n_pillage_remake:chef_vindicator": true
-			"vampirism:vampire": true
-			"alexsmobs:anteater": true
+			"alexsmobs:centipede_body": true
 			"minecraft:wither_skeleton": true
 			"minecraft:creeper": true
-			"variantsandventures:verdant": true
-			"aquaculture:pink_salmon": false
+			"village_n_pillage_remake:chef_vindicator": true
+			"mowziesmobs:ferrous_wroughtnaut": true
+			"ars_nouveau:whirlisprig": true
+			"alexsmobs:blue_jay": true
 			"mowziesmobs:elokosa_howler": true
-			"knightquest:ratman": true
-			"royalvariations:royal_skeleton": true
-			"iceandfire:amphithere": true
-			"alexsmobs:fly": true
-			"minecraft:villager": true
 			"vampirism:vampire_imob": true
-			"minecraft:zombie_villager": true
-			"minecraft:iron_golem": true
-			"ars_nouveau:gift_starby": true
-			"alexsmobs:lobster": true
-			"royalvariations:royal_zombie": true
-			"vampirism:hunter": true
-			"ars_nouveau:starbuncle": true
-			"aquaculture:arrau_turtle": false
-			"draconicevolution:draconic_guardian": true
-			"alexsmobs:cockroach": true
-			"aquaculture:brown_trout": false
-			"minecraft:stray": true
-			"iceandfire:hippocampus": true
-			"alexsmobs:endergrade": true
-			"minecraft:ravager": true
-			"minecraft:husk": true
 			"remnant_bosses:rat": true
+			"minecraft:villager": true
+			"vampirism:advanced_vampire": true
+			"alexsmobs:tiger": true
+			"alexsmobs:toucan": true
+			"alexsmobs:crocodile": true
+			"alexsmobs:cosmic_cod": true
+			"minecraft:zombie_villager": true
+			"adorablehamsterpets:hamster": true
+			"minecraft:iron_golem": true
+			"alexsmobs:laviathan": true
+			"rottencreatures:undead_miner": true
+			"alexsmobs:raccoon": true
+			"iceandfire:amphithere": true
+			"minecraft:stray": true
+			"royalvariations:royal_zombie": true
+			"minecraft:ravager": true
+			"ars_nouveau:starbuncle": true
+			"alexsmobs:seagull": true
+			"ars_nouveau:gift_starby": true
+			"minecraft:axolotl": true
+			"minecraft:husk": true
 			"minecraft:goat": true
-			"mowziesmobs:elokosa_follower_howler": true
-			"vampirism:blinding_bat": true
+			"alexsmobs:spectre": true
 			"minecraft:rabbit": true
 			"minecraft:dolphin": true
-			"alexsmobs:tiger": true
-			"aquaculture:smallmouth_bass": false
-			"boss:ten": true
-			"aquaculture:perch": false
-			"knightquest:ghosty": true
+			"variantsandventures:gelid": true
+			"alexsmobs:flutter": true
 			"minecraft:evoker": true
-			"quark:forgotten": true
+			"royalvariations:royal_enderman": true
 			"minecraft:sheep": true
+			"iceandfire:pixie": true
 			"minecraft:witch": true
 			"minecraft:vindicator": true
-			"alexsmobs:crocodile": true
+			"alexsmobs:endergrade": true
 			"minecraft:spider": true
-			"ars_nouveau:whirlisprig": true
-			"alexsmobs:warped_toad": true
+			"aquaculture:minnow": false
 			"minecraft:cow": true
 			"minecraft:bee": true
 			"minecraft:llama": true
-			"aquaculture:atlantic_cod": false
-			"quark:toretoise": true
 			"minecraft:phantom": true
-			"friendsandfoes:crab": true
-			"mowziesmobs:foliaath": true
 			"minecraft:pig": true
-			"iceandfire:fire_dragon": true
+			"cataclysm:deepling_angler": true
+			"alexsmobs:rocky_roller": true
+			"alexsmobs:seal": true
+			"darkerdepths:glowshroom_monster": true
 			"minecraft:wolf": true
-			"iceandfire:ice_dragon": true
 			"minecraft:piglin": true
-			"cataclysm:lionfish": true
-			"vampirism:advanced_hunter": true
-			"aquaculture:minnow": false
+			"ars_nouveau:drygmy": true
+			"alexsmobs:warped_toad": true
+			"alexsmobs:anteater": true
 			"minecraft:chicken": true
-			"cataclysm:deepling": true
-			"cataclysm:deepling_brute": true
-			"alexsmobs:centipede_tail": true
-			"alexsmobs:tasmanian_devil": true
+			"vampirism:blinding_bat": true
+			"alexsmobs:lobster": true
+			"alexsmobs:cockroach": true
+			"iceandfire:ice_dragon": true
+			"vampirism:advanced_hunter": true
+			"aquaculture:tuna": false
 			"alexsmobs:crow": true
-			"minecraft:horse": true
-			"vampirism:advanced_vampire": true
-			"variantsandventures:gelid": true
-			"knightquest:lizzy": true
+			"aquaculture:arrau_turtle": false
+			"alexsmobs:centipede_tail": true
+			"knightquest:eldknight": true
 			"friendsandfoes:glare": true
+			"vampirism:vampire": true
+			"alexsmobs:hummingbird": true
+			"minecraft:horse": true
+			"alexsmobs:leafcutter_ant": true
 			"minecraft:strider": true
 			"minecraft:piglin_brute": true
-			"iceandfire:hippogryph": true
-			"vampirism:advanced_vampire_imob": true
-			"quark:stoneling": true
-			"alexsmobs:cosmic_cod": true
-			"aquaculture:tuna": false
-			"aquaculture:bluegill": false
-			"knightquest:eldknight": true
+			"knightquest:ratman": true
+			"variantsandventures:verdant": true
+			"vampirism:hunter": true
+			"knightquest:lizzy": true
+			"iceandfire:sea_serpent": true
 			"minecraft:bat": true
-			"rottencreatures:undead_miner": true
 			"minecraft:cod": false
-			"alexsmobs:capuchin_monkey": true
-			"minecraft:endermite": true
-			"ars_nouveau:drygmy": true
+			"vampirism:advanced_vampire_imob": true
 			"alexsmobs:grizzly_bear": true
-			"alexsmobs:seal": true
+			"aquaculture:pollock": false
+			"minecraft:endermite": true
+			"quark:stoneling": true
+			"royalvariations:royal_creeper": true
 			"irons_spellbooks:necromancer": true
-			"mowziesmobs:ferrous_wroughtnaut": true
+			"aquaculture:smallmouth_bass": false
+			"alexsmobs:capuchin_monkey": true
+			"royalvariations:royal_skeleton": true
 			"minecraft:enderman": true
-			"royalvariations:royal_enderman": true
-			"cataclysm:deepling_angler": true
+			"aquaculture:pink_salmon": false
+			"variantsandventures:thicket": true
+			"mowziesmobs:foliaath": true
+			"aquaculture:atlantic_herring": false
+			"cataclysm:deepling": true
+			"draconicevolution:draconic_guardian": true
+			"quark:toretoise": true
+			"aquaculture:atlantic_cod": false
 			"minecraft:panda": true
-			"darkerdepths:glowshroom_monster": true
+			"alexsmobs:fly": true
 			"minecraft:zombie": true
-			"alexsmobs:laviathan": true
-			"alexsmobs:seagull": true
 		}
 		
 		# Minimap font scaling (values not a multiple of 0.5 may look bad)
