@@ -1,0 +1,80 @@
+# List of sound effects that trigger the chromatic aberration effect.
+# 
+# [rangeMultiplier] - Multiplier of the standard sound playback range, which will be used as the radius for the chromatic aberration effect;
+# [duration] - The duration of the chromatic aberration in ticks;
+# [fadeInTime] - The time in ticks for interpolating the screen shaking from the minimum to the maximum value. Applied at the start of the shaking effect;
+# [fadeOutTime] - The time in ticks for interpolating the screen shaking from the maximum to the minimum value. Applied at the end of the shaking effect. A value of -1 sets the interpolation duration equal to the effect's total duration.
+# [strength] - the Strength of the chromatic aberration.
+soundShakes:
+    minecraft:entity.warden.heartbeat:
+        duration: 5
+        fadeInTime: 3
+        fadeOutTime: -1
+        rangeMultiplier: 1.0
+        strength: 0.05
+    minecraft:entity.wither.spawn:
+        duration: 40
+        fadeInTime: 0
+        fadeOutTime: -1
+        rangeMultiplier: 1.0
+        strength: 0.05
+    minecraft:entity.generic.explode:
+        duration: 10
+        fadeInTime: 2
+        fadeOutTime: -1
+        rangeMultiplier: 1.0
+        strength: 0.1
+    minecraft:entity.ender_dragon.death:
+        duration: 260
+        fadeInTime: 20
+        fadeOutTime: -1
+        rangeMultiplier: 1.0
+        strength: 0.035
+    minecraft:block.sculk_shrieker.shriek:
+        duration: 90
+        fadeInTime: 5
+        fadeOutTime: -1
+        rangeMultiplier: 1.0
+        strength: 0.015
+    minecraft:entity.warden.roar:
+        duration: 80
+        fadeInTime: 20
+        fadeOutTime: -1
+        rangeMultiplier: 1.0
+        strength: 0.05
+    minecraft:entity.elder_guardian.curse:
+        duration: 60
+        fadeInTime: 0
+        fadeOutTime: -1
+        rangeMultiplier: 1.0
+        strength: 0.025
+    minecraft:entity.ender_dragon.growl:
+        duration: 60
+        fadeInTime: 5
+        fadeOutTime: -1
+        rangeMultiplier: 1.0
+        strength: 0.025
+    minecraft:entity.warden.sonic_boom:
+        duration: 60
+        fadeInTime: 10
+        fadeOutTime: 20
+        rangeMultiplier: 1.0
+        strength: 0.05
+    minecraft:entity.ender_dragon.ambient:
+        duration: 60
+        fadeInTime: 5
+        fadeOutTime: -1
+        rangeMultiplier: 1.0
+        strength: 0.025
+    minecraft:block.end_portal.spawn:
+        duration: 100
+        fadeInTime: 0
+        fadeOutTime: -1
+        rangeMultiplier: 1.0
+        strength: 0.05
+    minecraft:entity.dragon_fireball.explode:
+        duration: 10
+        fadeInTime: 2
+        fadeOutTime: -1
+        rangeMultiplier: 1.0
+        strength: 0.1

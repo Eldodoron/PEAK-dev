@@ -136,4 +136,4 @@
 	#Whether mobs should drop level-up items based on their level
 	#The drops are defined in data/dynamic_difficulty/loot_tables/inject/level_based_drops.json
 	#Users can edit that file to customize drop rates, level ranges, and add custom items
-	enable_level_based_drops = true
+	enable_level_based_drops = false

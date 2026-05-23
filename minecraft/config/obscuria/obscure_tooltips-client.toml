@@ -11,7 +11,7 @@ shadowOpacity = 0.3
 #The margin (in pixels) between the tooltip frame and its content.
 # Default: 3
 # Range: 0 ~ 16
-contentMargin = 3
+contentMargin = 0
 #List of item IDs that should be ignored by Obscure Tooltips.
 ignoredItems = ["quality_equipment:reforge_gui_button"]
 
@@ -35,9 +35,9 @@ ignoredItems = ["quality_equipment:reforge_gui_button"]
 	#Whether Obscure Tooltips should display 3D armor previews.
 	armorPreviewEnabled = true
 	#List of item IDs that should always display a 3D armor preview.
-	armorPreviewWhitelist = []
+	armorPreviewWhitelist = ["fantasy_armor"]
 	#List of item IDs that should never display a 3D armor preview.
-	armorPreviewBlacklist = []
+	armorPreviewBlacklist = ["minecraft"]
 
 [ToolPreview]
 	#Whether Obscure Tooltips should display 3D tool/weapon previews.

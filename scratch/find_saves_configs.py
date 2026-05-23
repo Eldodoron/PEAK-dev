@@ -1,6 +1,7 @@
 import os
 
-saves_dir = r"c:\Users\chris\AppData\Roaming\PrismLauncher\instances\PEAK-dev\minecraft\saves"
+script_dir = os.path.dirname(__file__)
+saves_dir = os.path.abspath(os.path.join(script_dir, "..", "minecraft", "saves"))
 
 matches = []
 for root, dirs, files in os.walk(saves_dir):

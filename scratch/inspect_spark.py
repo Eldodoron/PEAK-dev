@@ -1,7 +1,10 @@
 import json
 import os
+import sys
 
-filepath = r"C:\Users\chris\.gemini\antigravity\brain\8d114a67-432d-452e-9cc0-80f865c0f7fe\.system_generated\steps\605\content.md"
+script_dir = os.path.dirname(__file__)
+default_path = os.path.join(script_dir, "content.md")
+filepath = sys.argv[1] if len(sys.argv) > 1 else default_path
 
 with open(filepath, "r", encoding="utf-8") as f:
     lines = f.readlines()

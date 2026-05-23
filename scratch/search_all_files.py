@@ -1,6 +1,7 @@
 import os
 
-config_dir = r"c:\Users\chris\AppData\Roaming\PrismLauncher\instances\PEAK-dev\minecraft\config"
+script_dir = os.path.dirname(__file__)
+config_dir = os.path.abspath(os.path.join(script_dir, "..", "minecraft", "config"))
 
 matches = []
 for root, dirs, files in os.walk(config_dir):
