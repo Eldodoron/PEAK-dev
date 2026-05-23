@@ -1,5 +1,5 @@
-// ==========================================
-// PEAK EXPERT MODE — SCRIPT 13B
+﻿// ==========================================
+// PEAK EXPERT MODE â€” SCRIPT 13B
 // FOOD OVERHAUL: TWILIGHT + NETHER + END
 // ==========================================
 
@@ -11,7 +11,7 @@ ServerEvents.recipes(event => {
 
     // --- SANDWICHES & WRAPS (Sequenced Assembly) ---
 
-    // Ghast Burger: Bread → Deploy exp115 → Deploy beet → Deploy tomato → Deploy onion
+    // Ghast Burger: Bread â†’ Deploy exp115 â†’ Deploy beet â†’ Deploy tomato â†’ Deploy onion
     event.remove({ id: 'twilightdelight:ghast_burger' });
     event.recipes.create.sequenced_assembly([
         Item.of('twilightdelight:ghast_burger')
@@ -21,7 +21,7 @@ ServerEvents.recipes(event => {
         event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', '#c:foods/tomato'])
     ]).transitionalItem('kubejs:incomplete_ender_eye').loops(1);
 
-    // Hydra Burger: Bread → Deploy hydra meat → Deploy lettuce → Deploy tomato → Deploy onion
+    // Hydra Burger: Bread â†’ Deploy hydra meat â†’ Deploy lettuce â†’ Deploy tomato â†’ Deploy onion
     event.remove({ id: 'twilightdelight:hydra_burger' });
     event.recipes.create.sequenced_assembly([
         Item.of('twilightdelight:hydra_burger')
@@ -31,7 +31,7 @@ ServerEvents.recipes(event => {
         event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', { tag: 'c:foods/tomato' }])
     ]).transitionalItem('farmersdelight:wheat_dough').loops(1);
 
-    // Meef Wrap: Bread → Deploy meef → Deploy lettuce → Deploy onion
+    // Meef Wrap: Bread â†’ Deploy meef â†’ Deploy lettuce â†’ Deploy onion
     event.remove({ id: 'twilightdelight:meef_wrap' });
     event.recipes.create.sequenced_assembly([
         Item.of('twilightdelight:meef_wrap')
@@ -41,7 +41,7 @@ ServerEvents.recipes(event => {
         event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', { tag: 'c:foods/onion' }])
     ]).transitionalItem('farmersdelight:wheat_dough').loops(1);
 
-    // Torchberry Venison Sandwich: Bread → Deploy venison → Deploy lettuce → Deploy torchberry
+    // Torchberry Venison Sandwich: Bread â†’ Deploy venison â†’ Deploy lettuce â†’ Deploy torchberry
     event.remove({ id: 'twilightdelight:torchberry_venison_sandwich' });
     event.recipes.create.sequenced_assembly([
         Item.of('twilightdelight:torchberry_venison_sandwich')
@@ -117,7 +117,7 @@ ServerEvents.recipes(event => {
 
     // --- PIES (Sequenced Assembly) ---
 
-    // Aurora Pie: Crust → Deploy aurora → Deploy sugar → Press
+    // Aurora Pie: Crust â†’ Deploy aurora â†’ Deploy sugar â†’ Press
     event.remove({ id: 'twilightdelight:aurora_pie' });
     event.recipes.create.sequenced_assembly([
         Item.of('twilightdelight:aurora_pie')
@@ -217,7 +217,7 @@ ServerEvents.recipes(event => {
 
     // --- SANDWICHES & HOTDOGS (Sequenced Assembly) ---
 
-    // Nether Burger: Bread → Deploy loin → Deploy vines → Deploy fungi
+    // Nether Burger: Bread â†’ Deploy loin â†’ Deploy vines â†’ Deploy fungi
     event.remove({ id: 'mynethersdelight:nether_burger' });
     event.recipes.create.sequenced_assembly([
         Item.of('mynethersdelight:nether_burger')
@@ -227,7 +227,7 @@ ServerEvents.recipes(event => {
         event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', 'minecraft:warped_fungus'])
     ]).transitionalItem('farmersdelight:wheat_dough').loops(1);
 
-    // Hotdog: Bread → Deploy sausage
+    // Hotdog: Bread â†’ Deploy sausage
     event.remove({ id: 'mynethersdelight:hotdog' });
     event.recipes.create.deploying(
         'mynethersdelight:hotdog',
@@ -466,22 +466,22 @@ ServerEvents.recipes(event => {
     ]).transitionalItem('kubejs:incomplete_ender_eye').loops(1);
 
     // Shulker Bowl: Heated mixing
-    event.remove({ id: 'endersdelight:shulker_bowl' });
-    event.recipes.create.mixing('endersdelight:shulker_bowl', [
-        'endersdelight:cooked_shulker_meat', 'endersdelight:cooked_shulker_meat',
+    event.remove({ id: 'minecraft:barrier' });
+    event.recipes.create.mixing('minecraft:barrier', [
+        'minecraft:barrier', 'minecraft:barrier',
         'minecraft:chorus_fruit', 'minecraft:bowl'
     ]).heated();
 
     // Strange Eclair: Mixing
-    event.remove({ id: 'endersdelight:strange_eclair' });
-    event.recipes.create.mixing('endersdelight:strange_eclair', [
-        'endersdelight:ender_cream', { tag: 'c:foods/bread' }, 'minecraft:sugar'
+    event.remove({ id: 'minecraft:barrier' });
+    event.recipes.create.mixing('minecraft:barrier', [
+        'minecraft:barrier', { tag: 'c:foods/bread' }, 'minecraft:sugar'
     ]).heated();
 
     // Twisted Cereal: Mixing
-    event.remove({ id: 'endersdelight:twisted_cereal' });
-    event.recipes.create.mixing('endersdelight:twisted_cereal', [
-        'endersdelight:chorus_flake', 'endersdelight:chorus_flake',
+    event.remove({ id: 'minecraft:barrier' });
+    event.recipes.create.mixing('minecraft:barrier', [
+        'minecraft:barrier', 'minecraft:barrier',
         { tag: 'c:drinks/milk' }, 'minecraft:bowl'
     ]);
 
@@ -498,3 +498,4 @@ ServerEvents.recipes(event => {
 
     console.log('[PEAK Expert Mode] Script 13B: Food Overhaul - Twilight + Nether + End loaded!');
 });
+

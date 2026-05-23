@@ -131,3 +131,6 @@ graph TD
   - **Action:** Make **all** backpack upgrade recipes use Create assembly lines.
 - [ ] **Filter Upgrade:**
   - **Action:** Create a "Creatified" custom Filter Upgrade assembly recipe.
+
+### new notes
+Rework dragon armour toughness and recipe

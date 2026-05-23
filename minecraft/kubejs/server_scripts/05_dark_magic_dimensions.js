@@ -1,5 +1,5 @@
-// ==========================================
-// PEAK EXPERT MODE — SCRIPT 05
+﻿// ==========================================
+// PEAK EXPERT MODE â€” SCRIPT 05
 // DARK MAGIC + DIMENSIONS
 // Malum (Spirits/Souls) + Vampirism (Blood)
 // Deeper Darker + Undergarden enhanced roles
@@ -19,7 +19,7 @@
 ServerEvents.recipes(event => {
 
     // ==========================================
-    // SECTION 1: MALUM — DARK MAGIC (MAGIC ERA 3)
+    // SECTION 1: MALUM â€” DARK MAGIC (MAGIC ERA 3)
     // Spirits, souls, and the bridge to Ender IO
     // ==========================================
 
@@ -68,7 +68,7 @@ ServerEvents.recipes(event => {
     ).heated();
 
     // --- HALLOWED GOLD (Malum's holy metal) ---
-    // Counterpart to Soul Stained Steel — needs Source purification
+    // Counterpart to Soul Stained Steel â€” needs Source purification
     event.remove({ output: 'malum:hallowed_gold_ingot' });
     event.recipes.create.mixing(
         'malum:hallowed_gold_ingot',
@@ -84,7 +84,7 @@ ServerEvents.recipes(event => {
     // Made by Create crushing soul materials
     event.recipes.create.crushing([
         'malum:hex_ash',
-        { item: 'malum:hex_ash', chance: 0.5 }
+        Item.of('malum:hex_ash').withChance(0.5)
     ], 'malum:soulstone_ingot');
 
     // --- SPIRIT FABRIC ---
@@ -102,7 +102,7 @@ ServerEvents.recipes(event => {
     });
 
     // ==========================================
-    // SECTION 2: MALUM → ENDER IO BRIDGE
+    // SECTION 2: MALUM â†’ ENDER IO BRIDGE
     // Malum's spirits are literally souls.
     // Ender IO's Soularium is literally soul-metal.
     // This is the most natural cross-mod connection.
@@ -123,7 +123,7 @@ ServerEvents.recipes(event => {
         ]
     ).superheated();
 
-    // PULSATING CRYSTAL (Ender IO — magical ender tech)
+    // PULSATING CRYSTAL (Ender IO â€” magical ender tech)
     // Requires Source Gems from Ars Nouveau
     // (Pulsating energy = magical resonance = Source)
     event.remove({ output: 'enderio:pulsating_crystal' });
@@ -136,7 +136,7 @@ ServerEvents.recipes(event => {
         ]
     ).heated();
 
-    // VIBRANT CRYSTAL (Ender IO — advanced magical tech)
+    // VIBRANT CRYSTAL (Ender IO â€” advanced magical tech)
     // Requires both tech (Precision Mechanism) and magic (Source)
     event.remove({ output: 'enderio:vibrant_crystal' });
     event.recipes.create.mixing(
@@ -150,7 +150,7 @@ ServerEvents.recipes(event => {
     ).superheated();
 
     // ==========================================
-    // SECTION 3: VAMPIRISM — BLOOD MAGIC (MAGIC ERA 4)
+    // SECTION 3: VAMPIRISM â€” BLOOD MAGIC (MAGIC ERA 4)
     // The darkest magic. Late-game magical progression.
     // Blood = life force = power for Draconic Evolution.
     // ==========================================
@@ -159,13 +159,13 @@ ServerEvents.recipes(event => {
     // Vampire Fangs can be processed in Create for essence
     event.recipes.create.crushing([
         'minecraft:bone_meal',
-        { item: 'minecraft:bone_meal', chance: 0.5 },
-        { item: 'minecraft:redstone', chance: 0.25 }
+        Item.of('minecraft:bone_meal').withChance(0.5),
+        Item.of('minecraft:redstone').withChance(0.25)
     ], 'vampirism:vampire_fang');
 
     // --- BLOOD PROCESSING (Tech meets dark magic) ---
     // Mekanism's Chemical systems can process blood
-    // (Blood is a fluid → Mekanism handles fluids → logical)
+    // (Blood is a fluid â†’ Mekanism handles fluids â†’ logical)
     // This is mostly a narrative connection for Prompt 4
 
     // --- HUNTER CROSSBOW ENHANCED ---
@@ -187,19 +187,19 @@ ServerEvents.recipes(event => {
     // (Used in anti-vampire technology)
     event.recipes.create.milling([
         'vampirism:item_garlic',
-        { item: 'vampirism:item_garlic', chance: 0.5 }
+        Item.of('vampirism:item_garlic').withChance(0.5)
     ], 'vampirism:item_garlic');
 
     // ==========================================
-    // SECTION 4: DEEPER DARKER — ENDGAME DIMENSION
+    // SECTION 4: DEEPER DARKER â€” ENDGAME DIMENSION
     // Materials here gate Draconic Evolution Wyvern Tier
     // ==========================================
 
     // Deeper Darker ores processed via Create for bonus
     event.recipes.create.crushing([
         'minecraft:echo_shard',
-        { item: 'minecraft:echo_shard', chance: 0.35 },
-        { item: 'minecraft:sculk', chance: 0.5 }
+        Item.of('minecraft:echo_shard').withChance(0.35),
+        Item.of('minecraft:sculk').withChance(0.5)
     ], 'minecraft:sculk_catalyst');
 
     // --- WARDEN CARAPACE ---
@@ -306,14 +306,14 @@ ServerEvents.recipes(event => {
 
     // ==========================================
     // SECTION 7: APOTHEOSIS ENCHANTING INTEGRATION
-    // Apotheosis enhances enchanting — connect it to
+    // Apotheosis enhances enchanting â€” connect it to
     // the magical infrastructure we've built
     // ==========================================
 
     // Apotheosis Enchantment Library needs Ars Nouveau Source
     // (A library of enchantments should have magical knowledge)
-    event.remove({ output: 'apotheosis:library' });
-    event.shaped('apotheosis:library', [
+    event.remove({ output: 'apothic_enchanting:library' });
+    event.shaped('apothic_enchanting:library', [
         'SBS',
         'BAB',
         'SBS'
@@ -324,8 +324,8 @@ ServerEvents.recipes(event => {
     });
 
     // Apotheosis Ender Shelf needs Source + Ender Pearl
-    event.remove({ output: 'apotheosis:endshelf' });
-    event.shaped('apotheosis:endshelf', [
+    event.remove({ output: 'apothic_enchanting:endshelf' });
+    event.shaped('apothic_enchanting:endshelf', [
         'SES',
         'EBE',
         'SES'
@@ -337,3 +337,5 @@ ServerEvents.recipes(event => {
 
     console.log('[PEAK Expert Mode] Script 05: Dark Magic + Dimensions loaded!');
 });
+
+

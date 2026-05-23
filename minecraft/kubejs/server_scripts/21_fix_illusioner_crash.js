@@ -1,5 +1,5 @@
-// ==========================================
-// PEAK EXPERT MODE — SCRIPT 21
+﻿// ==========================================
+// PEAK EXPERT MODE â€” SCRIPT 21
 // EMERGENCY FIX: ILLUSIONER CRASH (Friends & Foes + Apotheosis)
 // ==========================================
 // This script prevents a crash where named Illusioners (Apotheosis Bosses) 
@@ -25,12 +25,13 @@ EntityEvents.spawned('friendsandfoes:illusioner', event => {
 // Also try to disable Illusioner from being an Apotheosis boss via data injection
 ServerEvents.generateData('peak', 'apoth_fix', event => {
     // This tells Apotheosis NOT to spawn bosses of this type if possible
-    event.json('apotheosis:bosses/friendsandfoes/illusioner', {
+    event.json('apothic_enchanting:bosses/friendsandfoes/illusioner', {
         "entity": "friendsandfoes:illusioner",
         "weight": 0, // Set weight to 0 to disable
         "dimensions": [],
-        "valid_gear_sets": ["apotheosis:empty"]
+        "valid_gear_sets": ["apothic_enchanting:empty"]
     });
 });
 
 console.log('[PEAK Expert Mode] Script 21: Illusioner Crash Fix loaded!');
+

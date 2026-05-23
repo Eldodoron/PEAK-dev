@@ -1,7 +1,7 @@
-// ==========================================
-// PEAK EXPERT MODE — SCRIPT 03
+﻿// ==========================================
+// PEAK EXPERT MODE â€” SCRIPT 03
 // PNEUMATICCRAFT & MEKANISM GATES
-// (Era 3-4: Pressure Systems → Nuclear Science)
+// (Era 3-4: Pressure Systems â†’ Nuclear Science)
 // ==========================================
 // PneumaticCraft bridges IE and Mekanism.
 // Its PLASTIC is the single most important gate item.
@@ -13,7 +13,7 @@
 ServerEvents.recipes(event => {
 
     // ==========================================
-    // SECTION 1: PNEUMATICCRAFT — THE PRESSURE ERA
+    // SECTION 1: PNEUMATICCRAFT â€” THE PRESSURE ERA
     // PneumaticCraft machines need IE + Create components
     // ==========================================
 
@@ -46,7 +46,7 @@ ServerEvents.recipes(event => {
         E: 'create:electron_tube'
     });
 
-    // Pressure Tubes — THE BACKBONE of PneumaticCraft
+    // Pressure Tubes â€” THE BACKBONE of PneumaticCraft
     // Require Cloggrum from The Undergarden!
     // (Cloggrum is a corrosion-resistant metal = perfect for pressure tubes)
     event.remove({ output: 'pneumaticcraft:pressure_tube' });
@@ -106,7 +106,7 @@ ServerEvents.recipes(event => {
         C: 'undergarden:cloggrum_ingot'
     });
 
-    // Refinery — PneumaticCraft's oil processing
+    // Refinery â€” PneumaticCraft's oil processing
     // Requires TFMG industrial components
     event.remove({ output: 'pneumaticcraft:refinery' });
     event.shaped('pneumaticcraft:refinery', [
@@ -195,7 +195,7 @@ ServerEvents.recipes(event => {
     });
 
     // ==========================================
-    // SECTION 3: MEKANISM — THE NUCLEAR ERA
+    // SECTION 3: MEKANISM â€” THE NUCLEAR ERA
     // Every Mekanism machine needs PneumaticCraft's plastic
     // and IE/Create components
     // ==========================================
@@ -332,12 +332,12 @@ ServerEvents.recipes(event => {
     // Add Create crushing for Undergarden ores for bonus output
     event.recipes.create.crushing([
         'undergarden:raw_cloggrum',
-        { item: 'undergarden:raw_cloggrum', chance: 0.5 }
+        Item.of('undergarden:raw_cloggrum').withChance(0.5)
     ], 'undergarden:cloggrum_ore');
 
     event.recipes.create.crushing([
         'undergarden:raw_froststeel',
-        { item: 'undergarden:raw_froststeel', chance: 0.5 }
+        Item.of('undergarden:raw_froststeel').withChance(0.5)
     ], 'undergarden:froststeel_ore');
 
     // PneumaticCraft Heat Sink uses Froststeel
@@ -362,18 +362,18 @@ ServerEvents.recipes(event => {
     // Alex's Caves Neodymium processing via Create
     event.recipes.create.crushing([
         'alexscaves:raw_scarlet_neodymium',
-        { item: 'alexscaves:raw_scarlet_neodymium', chance: 0.4 }
+        Item.of('alexscaves:raw_scarlet_neodymium').withChance(0.4)
     ], 'alexscaves:scarlet_neodymium_ore');
 
     event.recipes.create.crushing([
         'alexscaves:raw_azure_neodymium',
-        { item: 'alexscaves:raw_azure_neodymium', chance: 0.4 }
+        Item.of('alexscaves:raw_azure_neodymium').withChance(0.4)
     ], 'alexscaves:azure_neodymium_ore');
 
     // Mekanism Reactor Controller uses Azure Neodymium
     // (Magnetic material for nuclear containment = logical)
-    event.remove({ output: 'mekanism:fission_reactor_casing' });
-    event.shaped('mekanism:fission_reactor_casing', [
+    event.remove({ output: 'mekanismgenerators:fission_reactor_casing' });
+    event.shaped('mekanismgenerators:fission_reactor_casing', [
         'ASA',
         'SLS',
         'ASA'
@@ -389,8 +389,8 @@ ServerEvents.recipes(event => {
     // ==========================================
 
     // Heat Generator (most basic Mekanism power)
-    event.remove({ output: 'mekanism:heat_generator' });
-    event.shaped('mekanism:heat_generator', [
+    event.remove({ output: 'mekanismgenerators:heat_generator' });
+    event.shaped('mekanismgenerators:heat_generator', [
         'ISI',
         'OCO',
         'AIA'
@@ -403,8 +403,8 @@ ServerEvents.recipes(event => {
     });
 
     // Solar Generator needs IE solar cells concepts
-    event.remove({ output: 'mekanism:solar_generator' });
-    event.shaped('mekanism:solar_generator', [
+    event.remove({ output: 'mekanismgenerators:solar_generator' });
+    event.shaped('mekanismgenerators:solar_generator', [
         'GGG',
         'AEA',
         'OIO'
@@ -418,3 +418,5 @@ ServerEvents.recipes(event => {
 
     console.log('[PEAK Expert Mode] Script 03: PneumaticCraft & Mekanism Gates loaded successfully!');
 });
+
+

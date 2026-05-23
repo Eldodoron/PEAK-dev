@@ -1,4 +1,3 @@
-/spark profiler start --timeout 200
 /spark profiler start --timeout 500
 /effect give EldoTest minecraft:bad_omen 999999 6
 /give EldoTest minecraft:bell
@@ -48,3 +47,4 @@
 /chunky start minecraft:overworld square 1100 800 500 1000
 /chunky start minecraft:overworld square 0 0 1000 1000
 /give EldoTest minecraft:ender_pearl
+/reload

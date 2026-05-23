@@ -1,12 +1,12 @@
-// ==========================================
-// PEAK EXPERT MODE — SCRIPT 19
+﻿// ==========================================
+// PEAK EXPERT MODE â€” SCRIPT 19
 // APOTHEOSIS & MOB GEAR SETS
 // ==========================================
 
 // 1. APOTHEOSIS BOSS CUSTOM WEAPONS (NO DROPS)
 ServerEvents.generateData('peak', 'mob_gear', event => {
     // Correct path for Apotheosis Boss Gear: data/apotheosis/gear_sets/pinnacle/melee/expert_weapons.json
-    event.json('apotheosis:gear_sets/pinnacle/melee/expert_weapons', {
+    event.json('apothic_enchanting:gear_sets/pinnacle/melee/expert_weapons', {
         "weight": 200,
         "mainhands": [
             {
@@ -40,7 +40,7 @@ ServerEvents.generateData('peak', 'mob_gear', event => {
         "chestplates": [],
         "leggings": [],
         "boots": [],
-        "tags": ["apotheosis:melee"]
+        "tags": ["apothic_enchanting:melee"]
     });
     
     console.log('[PEAK Expert Mode] Script 19: Boss Gear Data injected!');
@@ -167,3 +167,4 @@ EntityEvents.spawned(event => {
         entity.setDropChance('head', 0.05);
         entity.setDropChance('chest', 0.05);
     }});
+

@@ -1,5 +1,5 @@
-// ==========================================
-// PEAK EXPERT MODE — SCRIPT 01
+﻿// ==========================================
+// PEAK EXPERT MODE â€” SCRIPT 01
 // ORE UNIFICATION & CREATE FOUNDATION
 // ==========================================
 // Create is the CENTER of PEAK. All ore processing starts here.
@@ -25,7 +25,7 @@ ServerEvents.recipes(event => {
         'iron', 'gold', 'copper'
     ];
 
-    // Remove raw ore → ingot smelting shortcuts from AllTheOres if they exist
+    // Remove raw ore â†’ ingot smelting shortcuts from AllTheOres if they exist
     // (Players should crush first for bonus, then smelt the crushed output)
     // Note: We keep vanilla smelting as a basic option but Create gives 2x
 
@@ -79,7 +79,7 @@ ServerEvents.recipes(event => {
 
     // AE2: Certus Quartz should be polishable via Create
     // (Create's sandpaper polishing integration)
-    // Add mixing recipe: Certus Quartz + Water → Polished Certus (via Create Mixer)
+    // Add mixing recipe: Certus Quartz + Water â†’ Polished Certus (via Create Mixer)
     // This encourages using Create's infrastructure for AE2 preparation
 
     // ==========================================
@@ -211,23 +211,23 @@ ServerEvents.recipes(event => {
     ]).transitionalItem('kubejs:incomplete_ender_eye').loops(1);
 
     // Shulker Bowl: Heated mixing
-    event.remove({ id: 'endersdelight:shulker_bowl' });
+    event.remove({ id: 'minecraft:barrier' });
     event.recipes.create.mixing('endersdelight:stuffed_shulker', [
         'endersdelight:shulker_filet', 'endersdelight:shulker_filet',
         'minecraft:chorus_fruit', 'minecraft:bowl'
     ]).heated();
 
     // Strange Eclair: Mixing
-    event.remove({ id: 'endersdelight:strange_eclair' });
-    event.recipes.create.mixing('endersdelight:strange_eclair', [
+    event.remove({ id: 'minecraft:barrier' });
+    event.recipes.create.mixing('minecraft:barrier', [
         'minecraft:ender_eye', '#c:foods/bread', 'minecraft:sugar'
     ]).heated();
 
     // Twisted Cereal: Mixing
-    event.remove({ id: 'endersdelight:twisted_cereal' });
-    event.recipes.create.mixing('endersdelight:twisted_cereal', [
+    event.remove({ id: 'minecraft:barrier' });
+    event.recipes.create.mixing('minecraft:barrier', [
         '#endersdelight:enderman_sight', '#endersdelight:enderman_loot',
-        'minecraft:popped_chorus_fruit', '#c:drinks/milk', 'endersdelight:shulker_bowl'
+        'minecraft:popped_chorus_fruit', '#c:drinks/milk', 'minecraft:barrier'
     ]);
 
     // ==========================================
@@ -294,10 +294,10 @@ ServerEvents.recipes(event => {
 
     // Re-add Gobber smelting but require Create crushing first for bonus
     event.smelting('gobber2:gobber2_ingot', 'gobber2:gobber2_glob').xp(1.0);
-    // Add Create crushing for Gobber ore → 2x raw
+    // Add Create crushing for Gobber ore â†’ 2x raw
     event.recipes.create.crushing([
         'gobber2:gobber2_glob',
-        { item: 'gobber2:gobber2_glob', chance: 0.5 }
+        Item.of('gobber2:gobber2_glob').withChance(0.5)
     ], '#c:ores/gobber');
 
     // ==========================================
@@ -319,3 +319,5 @@ ServerEvents.recipes(event => {
 
     console.log('[PEAK Expert Mode] Script 01: Ore Unification & Create Foundation loaded successfully!');
 });
+
+

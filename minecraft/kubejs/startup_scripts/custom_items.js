@@ -165,4 +165,27 @@ StartupEvents.registry('item', event => {
         .rarity('epic')
         .maxStackSize(16)
         .glow(true);
+
+    // --- SOPHISTICATED BACKPACKS INCOMPLETE TRANSITIONAL ITEMS ---
+    event.create('incomplete_upgrade_base')
+        .displayName('Incomplete Upgrade Base')
+        .texture('minecraft:item/leather');
+
+
+
+    event.create('incomplete_magnet_upgrade')
+        .displayName('Incomplete Magnet Upgrade')
+        .texture('sophisticatedbackpacks:item/upgrade_base');
+
+    event.create('incomplete_advanced_magnet_upgrade')
+        .displayName('Incomplete Advanced Magnet Upgrade')
+        .texture('sophisticatedbackpacks:item/magnet_upgrade');
+
+    event.create('incomplete_filter_upgrade')
+        .displayName('Incomplete Filter Upgrade')
+        .texture('sophisticatedbackpacks:item/upgrade_base');
+
+    event.create('incomplete_advanced_filter_upgrade')
+        .displayName('Incomplete Advanced Filter Upgrade')
+        .texture('sophisticatedbackpacks:item/filter_upgrade');
 });

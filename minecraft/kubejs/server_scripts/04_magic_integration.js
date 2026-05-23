@@ -1,5 +1,5 @@
-// ==========================================
-// PEAK EXPERT MODE — SCRIPT 04
+﻿// ==========================================
+// PEAK EXPERT MODE â€” SCRIPT 04
 // MAGIC INTEGRATION: ARS NOUVEAU + IRON'S SPELLBOOKS
 // ==========================================
 // Magic runs PARALLEL to technology, but they intersect
@@ -17,7 +17,7 @@
 ServerEvents.recipes(event => {
 
     // ==========================================
-    // SECTION 1: ARS NOUVEAU — MAGIC ERA 1
+    // SECTION 1: ARS NOUVEAU â€” MAGIC ERA 1
     // The first magical system. Create enhances it.
     // Twilight Forest materials unlock advanced tiers.
     // ==========================================
@@ -64,7 +64,7 @@ ServerEvents.recipes(event => {
     });
 
     // --- ENCHANTING APPARATUS (Advanced magical crafting) ---
-    // This is the Ars Nouveau "machine" — it deserves to need
+    // This is the Ars Nouveau "machine" â€” it deserves to need
     // Create Precision Mechanisms (mechanical precision for
     // precise enchantment channeling) + Twilight materials
     event.remove({ output: 'ars_nouveau:enchanting_apparatus' });
@@ -108,7 +108,7 @@ ServerEvents.recipes(event => {
     });
 
     // --- SPELL TURRETS (Automated magic = tech + magic) ---
-    // Spell turrets are basically "magical deployers" — they
+    // Spell turrets are basically "magical deployers" â€” they
     // should need Create's Deployer as a base (mechanical
     // arm that casts spells instead of placing blocks)
     event.remove({ output: 'ars_nouveau:basic_spell_turret' });
@@ -188,11 +188,11 @@ ServerEvents.recipes(event => {
     // Ironwood processing via Create
     event.recipes.create.crushing([
         'twilightforest:raw_ironwood',
-        { item: 'twilightforest:raw_ironwood', chance: 0.4 }
+        Item.of('twilightforest:raw_ironwood').withChance(0.4)
     ], 'twilightforest:ironwood_ore');
 
     // ==========================================
-    // SECTION 3: IRON'S SPELLBOOKS — MAGIC ERA 2
+    // SECTION 3: IRON'S SPELLBOOKS â€” MAGIC ERA 2
     // Requires Ars Nouveau foundation.
     // Combat magic that needs both magical knowledge
     // and craftsmanship.
@@ -301,7 +301,7 @@ ServerEvents.recipes(event => {
     // Arcane Essence can be crushed in Create for bonus output
     event.recipes.create.crushing([
         '2x irons_spellbooks:arcane_essence',
-        { item: 'irons_spellbooks:arcane_essence', chance: 0.3 }
+        Item.of('irons_spellbooks:arcane_essence').withChance(0.3)
     ], 'ars_nouveau:source_gem');
 
     // --- ARCANE INGOT (Iron's Spellbooks core material) ---
@@ -322,7 +322,7 @@ ServerEvents.recipes(event => {
     // Create's machinery can process and purify Source
     // ==========================================
 
-    // Create Mixing: Raw Source materials → Pure Source Gems
+    // Create Mixing: Raw Source materials â†’ Pure Source Gems
     // (Mechanical purification of wild magical energy)
     event.recipes.create.mixing(
         '2x ars_nouveau:source_gem',
@@ -338,7 +338,7 @@ ServerEvents.recipes(event => {
     // (Amethyst has innate magical resonance in lore)
     event.recipes.create.crushing([
         'minecraft:amethyst_shard',
-        { item: 'ars_nouveau:source_gem', chance: 0.15 }
+        Item.of('ars_nouveau:source_gem').withChance(0.15)
     ], 'minecraft:amethyst_block');
 
     // ==========================================
@@ -353,8 +353,8 @@ ServerEvents.recipes(event => {
         'create:brass_ingot',
         [
             '#c:ingots/copper',
-            'minecraft:zinc_ingot',
-            { item: 'ars_nouveau:source_gem', chance: 0.1 }
+            'create:zinc_ingot',
+            Item.of('ars_nouveau:source_gem').withChance(0.1)
         ]
     ).heated();
 
@@ -390,7 +390,7 @@ ServerEvents.recipes(event => {
             "DDDDD"
         ],
         key: {
-            D: { item: 'iceandfire:dragon_bone' },
+            D: { item: 'minecraft:barrier' },
             A: { item: 'irons_spellbooks:arcane_ingot' },
             P: { item: 'kubejs:primordial_dragon_blood' },
             B: { item: 'irons_spellbooks:apprentice_spell_book' }
@@ -401,3 +401,6 @@ ServerEvents.recipes(event => {
 
     console.log('[PEAK Expert Mode] Script 04: Magic Integration (Ars Nouveau + Iron Spellbooks) loaded!');
 });
+
+
+

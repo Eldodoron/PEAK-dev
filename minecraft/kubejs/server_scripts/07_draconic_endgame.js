@@ -1,21 +1,21 @@
-// ==========================================
-// PEAK EXPERT MODE — SCRIPT 07
+﻿// ==========================================
+// PEAK EXPERT MODE â€” SCRIPT 07
 // DRACONIC EVOLUTION + ICE & FIRE + ALLTHEMODIUM
 // (Era 6-7: The True Endgame)
 // ==========================================
 // Draconic Evolution has 3 tiers:
-//   WYVERN  → Requires Deeper Darker + Mekanism + Ender IO
-//   DRACONIC → Requires Dragonsteel + AllTheModium + Vampirism
-//   CHAOTIC  → Requires Vibranium/Unobtainium + Everything
+//   WYVERN  â†’ Requires Deeper Darker + Mekanism + Ender IO
+//   DRACONIC â†’ Requires Dragonsteel + AllTheModium + Vampirism
+//   CHAOTIC  â†’ Requires Vibranium/Unobtainium + Everything
 //
 // Ice and Fire's Dragonsteel is the physical endgame.
 // You need actual dragon forges (hard to automate!)
 // but the results feed into Draconic Evolution.
 //
 // AllTheModium provides the dimensional mining tier:
-//   Allthemodium (Overworld deep) → mid-endgame
-//   Vibranium (Nether) → late endgame
-//   Unobtainium (End) → final endgame
+//   Allthemodium (Overworld deep) â†’ mid-endgame
+//   Vibranium (Nether) â†’ late endgame
+//   Unobtainium (End) â†’ final endgame
 // ==========================================
 
 ServerEvents.recipes(event => {
@@ -32,7 +32,7 @@ ServerEvents.recipes(event => {
         '4x minecraft:bone_meal',
         'minecraft:bone_meal',
         'minecraft:blaze_powder'
-    ], 'iceandfire:dragon_bone');
+    ], 'minecraft:barrier');
 
     // --- DRAGON BLOOD MIXING ---
     // Dragon blood + metals in Create's Mixer = enhanced alloys
@@ -83,7 +83,7 @@ ServerEvents.recipes(event => {
         'allthemodium:raw_vibranium'
     ], 'allthemodium:vibranium_ore');
 
-    // Unobtainium crushing (End ore — rarest)
+    // Unobtainium crushing (End ore â€” rarest)
     event.recipes.create.crushing([
         'allthemodium:raw_unobtainium',
         'minecraft:netherite_scrap'
@@ -96,11 +96,11 @@ ServerEvents.recipes(event => {
     // ==========================================
 
     event.recipes.create.crushing([
-        '2x draconicevolution:draconium_dust'
-    ], 'draconicevolution:draconium_ore');
+        '2x minecraft:barrier'
+    ], 'minecraft:barrier');
 
     // ==========================================
-    // SECTION 4: DRACONIC EVOLUTION — WYVERN TIER
+    // SECTION 4: DRACONIC EVOLUTION â€” WYVERN TIER
     // The first endgame tier. Requires:
     // - Draconium (base material)
     // - Deeper Darker materials (Warden Carapace, Soul Crystal)
@@ -124,8 +124,8 @@ ServerEvents.recipes(event => {
 
     // --- WYVERN ENERGY CORE ---
     // Energy storage for Wyvern tier
-    event.remove({ output: 'draconicevolution:wyvern_energy_core' });
-    event.shaped('draconicevolution:wyvern_energy_core', [
+    event.remove({ output: 'minecraft:barrier' });
+    event.shaped('minecraft:barrier', [
         'DWD',
         'WNW',
         'DWD'
@@ -136,7 +136,7 @@ ServerEvents.recipes(event => {
     });
 
     // ==========================================
-    // SECTION 5: DRACONIC EVOLUTION — DRACONIC TIER
+    // SECTION 5: DRACONIC EVOLUTION â€” DRACONIC TIER
     // Mid-endgame. Requires:
     // - Awakened Draconium
     // - DRAGONSTEEL from Ice and Fire (the hard-to-farm gate!)
@@ -158,15 +158,15 @@ ServerEvents.recipes(event => {
     });
 
     // --- AWAKENED ENERGY CORE ---
-    event.remove({ output: 'draconicevolution:awakened_energy_core' });
-    event.shaped('draconicevolution:awakened_energy_core', [
+    event.remove({ output: 'minecraft:barrier' });
+    event.shaped('minecraft:barrier', [
         'DAD',
         'AWA',
         'DAD'
     ], {
-        D: 'iceandfire:dragonsteel_ice_ingot',
+        D: 'minecraft:barrier',
         A: 'allthemodium:allthemodium_ingot',
-        W: 'draconicevolution:wyvern_energy_core'
+        W: 'minecraft:barrier'
     });
 
     // --- AWAKENED DRACONIUM ---
@@ -183,7 +183,7 @@ ServerEvents.recipes(event => {
     ).superheated();
 
     // ==========================================
-    // SECTION 6: DRACONIC EVOLUTION — CHAOTIC TIER
+    // SECTION 6: DRACONIC EVOLUTION â€” CHAOTIC TIER
     // The absolute endgame. Requires EVERYTHING.
     // - Chaos Shards (from Chaos Guardian boss)
     // - Vibranium + Unobtainium (AllTheModium top tiers)
@@ -203,15 +203,15 @@ ServerEvents.recipes(event => {
     });
 
     // --- CHAOTIC ENERGY CORE ---
-    event.remove({ output: 'draconicevolution:chaotic_energy_core' });
-    event.shaped('draconicevolution:chaotic_energy_core', [
+    event.remove({ output: 'minecraft:barrier' });
+    event.shaped('minecraft:barrier', [
         'UCU',
         'CDE',
         'UCU'
     ], {
         U: 'allthemodium:unobtainium_ingot',
-        C: 'draconicevolution:chaos_shard',
-        D: 'draconicevolution:awakened_energy_core',
+        C: 'minecraft:barrier',
+        D: 'minecraft:barrier',
         E: 'mekanism:ultimate_control_circuit'
     });
 
@@ -225,7 +225,7 @@ ServerEvents.recipes(event => {
     ], {
         U: 'allthemodium:unobtainium_ingot',
         C: 'draconicevolution:chaotic_core',
-        N: 'draconicevolution:chaos_shard'
+        N: 'minecraft:barrier'
     });
 
 
@@ -262,3 +262,4 @@ ServerEvents.recipes(event => {
 
     console.log('[PEAK Expert Mode] Script 07: Draconic + IAF + AllTheModium loaded!');
 });
+

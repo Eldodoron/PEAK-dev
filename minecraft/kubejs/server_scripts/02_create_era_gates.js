@@ -17,8 +17,8 @@ ServerEvents.recipes(event => {
 
     // TFMG's Distillery requires upgraded Create components
     // (Distillery = chemical processing = advanced)
-    event.remove({ output: 'tfmg:distillation_tower' });
-    event.shaped('tfmg:distillation_tower', [
+    event.remove({ output: 'tfmg:steel_distillation_controller' });
+    event.shaped('tfmg:steel_distillation_controller', [
         'BPB',
         'BCB',
         'SAS'
@@ -198,8 +198,8 @@ ServerEvents.recipes(event => {
     // Add Create crushing for Allthemodium ore
     event.recipes.create.crushing([
         'allthemodium:raw_allthemodium',
-        { item: 'allthemodium:raw_allthemodium', chance: 0.35 },
-        { item: 'minecraft:experience_nugget', chance: 0.75 }
+        CreateItem.of('allthemodium:raw_allthemodium', 0.35),
+        CreateItem.of('minecraft:experience_nugget', 0.75)
     ], 'allthemodium:allthemodium_ore');
 
     // ==========================================
@@ -240,40 +240,269 @@ ServerEvents.recipes(event => {
     // Sophisticated Backpacks tiers scale with tech progression
     // ==========================================
 
-    // Iron Backpack Upgrade needs Andesite Alloy
-    event.remove({ output: 'sophisticatedbackpacks:iron_upgrade' });
-    event.shaped('sophisticatedbackpacks:iron_upgrade', [
-        'IAI',
-        'IUI',
-        'III'
-    ], {
-        I: '#c:ingots/iron',
-        A: 'create:andesite_alloy',
-        U: 'sophisticatedbackpacks:upgrade_base'
+    // ==========================================
+    // SECTION 9: SOPHISTICATED STORAGE INTEGRATION
+    // Sophisticated Backpacks tiers scale with tech progression
+    // ==========================================
+
+    // --- NETHERITE PLATE REFORM ---
+    // Remove easy hammer recipes
+    event.remove({ output: 'alltheores:netherite_plate' });
+    
+    // Immersive Engineering Metal Press
+    event.custom({
+        type: "immersiveengineering:metal_press",
+        mold: "immersiveengineering:mold_plate",
+        input: { item: "minecraft:netherite_ingot" },
+        result: { item: "alltheores:netherite_plate" },
+        energy: 2400
     });
 
-    // Gold Backpack Upgrade needs Brass (Create's mid-tier)
-    event.remove({ output: 'sophisticatedbackpacks:gold_upgrade' });
-    event.shaped('sophisticatedbackpacks:gold_upgrade', [
-        'GBG',
-        'GUG',
-        'GGG'
-    ], {
-        G: '#c:ingots/gold',
-        B: 'create:brass_ingot',
-        U: 'sophisticatedbackpacks:iron_upgrade'
+    // Create Compacting (requires Mechanical Press + Basin + Superheated Blaze Burner)
+    event.recipes.create.compacting('alltheores:netherite_plate', 'minecraft:netherite_ingot').superheated();
+
+
+    // --- REMOVE DEFAULT UPGRADE RECIPES ---
+    event.remove({ output: 'sophisticatedbackpacks:upgrade_base' });
+    event.remove({ output: 'sophisticatedbackpacks:magnet_upgrade' });
+    event.remove({ output: 'sophisticatedbackpacks:advanced_magnet_upgrade' });
+    event.remove({ output: 'sophisticatedbackpacks:filter_upgrade' });
+    event.remove({ output: 'sophisticatedbackpacks:advanced_filter_upgrade' });
+
+
+    // --- CREATE SEQUENCED ASSEMBLIES FOR UPGRADES ---
+
+    // A. Upgrade Base
+    event.recipes.create.sequenced_assembly([
+        Item.of('sophisticatedbackpacks:upgrade_base')
+    ], 'minecraft:leather', [
+        event.recipes.create.deploying('kubejs:incomplete_upgrade_base', ['kubejs:incomplete_upgrade_base', 'minecraft:string']),
+        event.recipes.create.deploying('kubejs:incomplete_upgrade_base', ['kubejs:incomplete_upgrade_base', 'minecraft:iron_ingot']),
+        event.recipes.create.pressing('kubejs:incomplete_upgrade_base', 'kubejs:incomplete_upgrade_base')
+    ]).transitionalItem('kubejs:incomplete_upgrade_base').loops(4);
+
+    // F. Basic Magnet Upgrade
+    event.recipes.create.sequenced_assembly([
+        Item.of('sophisticatedbackpacks:magnet_upgrade')
+    ], 'sophisticatedbackpacks:upgrade_base', [
+        event.recipes.create.deploying('kubejs:incomplete_magnet_upgrade', ['kubejs:incomplete_magnet_upgrade', 'alexscaves:scarlet_magnet']),
+        event.recipes.create.deploying('kubejs:incomplete_magnet_upgrade', ['kubejs:incomplete_magnet_upgrade', 'alexscaves:azure_magnet']),
+        event.recipes.create.pressing('kubejs:incomplete_magnet_upgrade', 'kubejs:incomplete_magnet_upgrade')
+    ]).transitionalItem('kubejs:incomplete_magnet_upgrade').loops(1);
+
+    // G. Advanced Magnet Upgrade
+    event.recipes.create.sequenced_assembly([
+        Item.of('sophisticatedbackpacks:advanced_magnet_upgrade')
+    ], 'sophisticatedbackpacks:magnet_upgrade', [
+        event.recipes.create.deploying('kubejs:incomplete_advanced_magnet_upgrade', ['kubejs:incomplete_advanced_magnet_upgrade', 'tfmg:electromagnetic_coil']),
+        event.recipes.create.deploying('kubejs:incomplete_advanced_magnet_upgrade', ['kubejs:incomplete_advanced_magnet_upgrade', 'immersiveengineering:electromagnet']),
+        event.recipes.create.pressing('kubejs:incomplete_advanced_magnet_upgrade', 'kubejs:incomplete_advanced_magnet_upgrade')
+    ]).transitionalItem('kubejs:incomplete_advanced_magnet_upgrade').loops(1);
+
+    // H. Basic Filter Upgrade
+    event.recipes.create.sequenced_assembly([
+        Item.of('sophisticatedbackpacks:filter_upgrade')
+    ], 'sophisticatedbackpacks:upgrade_base', [
+        event.recipes.create.deploying('kubejs:incomplete_filter_upgrade', ['kubejs:incomplete_filter_upgrade', 'create:filter']),
+        event.recipes.create.deploying('kubejs:incomplete_filter_upgrade', ['kubejs:incomplete_filter_upgrade', 'minecraft:paper']),
+        event.recipes.create.pressing('kubejs:incomplete_filter_upgrade', 'kubejs:incomplete_filter_upgrade')
+    ]).transitionalItem('kubejs:incomplete_filter_upgrade').loops(1);
+
+    // I. Advanced Filter Upgrade
+    event.recipes.create.sequenced_assembly([
+        Item.of('sophisticatedbackpacks:advanced_filter_upgrade')
+    ], 'sophisticatedbackpacks:filter_upgrade', [
+        event.recipes.create.deploying('kubejs:incomplete_advanced_filter_upgrade', ['kubejs:incomplete_advanced_filter_upgrade', 'create:attribute_filter']),
+        event.recipes.create.deploying('kubejs:incomplete_advanced_filter_upgrade', ['kubejs:incomplete_advanced_filter_upgrade', 'enderio:advanced_item_filter']),
+        event.recipes.create.pressing('kubejs:incomplete_advanced_filter_upgrade', 'kubejs:incomplete_advanced_filter_upgrade')
+    ]).transitionalItem('kubejs:incomplete_advanced_filter_upgrade').loops(1);
+
+
+    // --- REMOVE DEFAULT BACKPACK RECIPES ---
+    event.remove({ output: 'sophisticatedbackpacks:copper_backpack' });
+    event.remove({ output: 'sophisticatedbackpacks:iron_backpack' });
+    event.remove({ output: 'sophisticatedbackpacks:gold_backpack' });
+    event.remove({ output: 'sophisticatedbackpacks:diamond_backpack' });
+    event.remove({ output: 'sophisticatedbackpacks:netherite_backpack' });
+
+
+    // --- UPGRADED BACKPACKS (Shaped Tool-Damaging Crafteos) ---
+
+    // 0. Copper Backpack (Leather -> Copper)
+    ['immersiveengineering:screwdriver', 'tfmg:screwdriver'].forEach(tool => {
+        event.shaped('sophisticatedbackpacks:copper_backpack', [
+            ' P ',
+            'PBP',
+            ' T '
+        ], {
+            B: 'sophisticatedbackpacks:backpack',
+            P: '#c:plates/copper',
+            T: tool
+        }).damageIngredient(tool);
     });
 
-    // Diamond Backpack Upgrade needs Precision Mechanism
-    event.remove({ output: 'sophisticatedbackpacks:diamond_upgrade' });
-    event.shaped('sophisticatedbackpacks:diamond_upgrade', [
-        'DPD',
-        'DUD',
-        'DDD'
-    ], {
-        D: '#c:gems/diamond',
-        P: 'create:precision_mechanism',
-        U: 'sophisticatedbackpacks:gold_upgrade'
+    // 1a. Iron Backpack (Leather -> Iron)
+    ['immersiveengineering:screwdriver', 'tfmg:screwdriver'].forEach(tool => {
+        event.shaped('sophisticatedbackpacks:iron_backpack', [
+            ' P ',
+            'PBP',
+            ' T '
+        ], {
+            B: 'sophisticatedbackpacks:backpack',
+            P: '#c:plates/iron',
+            T: tool
+        }).damageIngredient(tool);
+    });
+
+    // 1b. Iron Backpack (Copper -> Iron)
+    ['immersiveengineering:screwdriver', 'tfmg:screwdriver'].forEach(tool => {
+        event.shaped('sophisticatedbackpacks:iron_backpack', [
+            ' P ',
+            'PBP',
+            ' T '
+        ], {
+            B: 'sophisticatedbackpacks:copper_backpack',
+            P: '#c:plates/iron',
+            T: tool
+        }).damageIngredient(tool);
+    });
+
+    // 2. Gold Backpack (Iron -> Gold)
+    ['immersiveengineering:screwdriver', 'tfmg:screwdriver'].forEach(tool => {
+        event.shaped('sophisticatedbackpacks:gold_backpack', [
+            ' P ',
+            'PBP',
+            ' T '
+        ], {
+            B: 'sophisticatedbackpacks:iron_backpack',
+            P: '#c:plates/gold',
+            T: tool
+        }).damageIngredient(tool);
+    });
+
+    // 3. Diamond Backpack (Gold -> Diamond)
+    ['immersiveengineering:screwdriver', 'tfmg:screwdriver'].forEach(tool => {
+        event.shaped('sophisticatedbackpacks:diamond_backpack', [
+            ' P ',
+            'PBP',
+            ' T '
+        ], {
+            B: 'sophisticatedbackpacks:gold_backpack',
+            P: 'minecraft:diamond',
+            T: tool
+        }).damageIngredient(tool);
+    });
+
+    // 4. Netherite Backpack (Diamond -> Netherite)
+    ['immersiveengineering:screwdriver', 'tfmg:screwdriver'].forEach(tool => {
+        event.shaped('sophisticatedbackpacks:netherite_backpack', [
+            ' P ',
+            'PBP',
+            ' T '
+        ], {
+            B: 'sophisticatedbackpacks:diamond_backpack',
+            P: 'alltheores:netherite_plate',
+            T: tool
+        }).damageIngredient(tool);
+    });
+
+
+    // --- ENGINEER'S WORKBENCH BLUEPRINT RECIPES (Immersive Engineering) ---
+
+    // 0. Copper Backpack Blueprint
+    event.custom({
+        type: "immersiveengineering:blueprint",
+        inputs: [
+            { tag: "c:plates/copper" },
+            { tag: "c:plates/copper" },
+            { tag: "c:plates/copper" },
+            { tag: "c:plates/copper" },
+            { item: "immersiveengineering:screwdriver" },
+            { item: "immersiveengineering:hammer" }
+        ],
+        base_ingredient: { item: "sophisticatedbackpacks:backpack" },
+        category: "components",
+        result: { item: "sophisticatedbackpacks:copper_backpack" }
+    });
+
+    // 1a. Iron Backpack Blueprint (Leather -> Iron)
+    event.custom({
+        type: "immersiveengineering:blueprint",
+        inputs: [
+            { tag: "c:plates/iron" },
+            { tag: "c:plates/iron" },
+            { tag: "c:plates/iron" },
+            { tag: "c:plates/iron" },
+            { item: "immersiveengineering:screwdriver" },
+            { item: "immersiveengineering:hammer" }
+        ],
+        base_ingredient: { item: "sophisticatedbackpacks:backpack" },
+        category: "components",
+        result: { item: "sophisticatedbackpacks:iron_backpack" }
+    });
+
+    // 1b. Iron Backpack Blueprint (Copper -> Iron)
+    event.custom({
+        type: "immersiveengineering:blueprint",
+        inputs: [
+            { tag: "c:plates/iron" },
+            { tag: "c:plates/iron" },
+            { tag: "c:plates/iron" },
+            { tag: "c:plates/iron" },
+            { item: "immersiveengineering:screwdriver" },
+            { item: "immersiveengineering:hammer" }
+        ],
+        base_ingredient: { item: "sophisticatedbackpacks:copper_backpack" },
+        category: "components",
+        result: { item: "sophisticatedbackpacks:iron_backpack" }
+    });
+
+    // 2. Gold Backpack Blueprint
+    event.custom({
+        type: "immersiveengineering:blueprint",
+        inputs: [
+            { tag: "c:plates/gold" },
+            { tag: "c:plates/gold" },
+            { tag: "c:plates/gold" },
+            { tag: "c:plates/gold" },
+            { item: "immersiveengineering:screwdriver" },
+            { item: "immersiveengineering:hammer" }
+        ],
+        base_ingredient: { item: "sophisticatedbackpacks:iron_backpack" },
+        category: "components",
+        result: { item: "sophisticatedbackpacks:gold_backpack" }
+    });
+
+    // 3. Diamond Backpack Blueprint
+    event.custom({
+        type: "immersiveengineering:blueprint",
+        inputs: [
+            { item: "minecraft:diamond" },
+            { item: "minecraft:diamond" },
+            { item: "minecraft:diamond" },
+            { item: "minecraft:diamond" },
+            { item: "immersiveengineering:screwdriver" },
+            { item: "immersiveengineering:hammer" }
+        ],
+        base_ingredient: { item: "sophisticatedbackpacks:gold_backpack" },
+        category: "components",
+        result: { item: "sophisticatedbackpacks:diamond_backpack" }
+    });
+
+    // 4. Netherite Backpack Blueprint
+    event.custom({
+        type: "immersiveengineering:blueprint",
+        inputs: [
+            { item: "alltheores:netherite_plate" },
+            { item: "alltheores:netherite_plate" },
+            { item: "minecraft:netherite_nugget" },
+            { item: "minecraft:netherite_nugget" },
+            { item: "immersiveengineering:screwdriver" },
+            { item: "immersiveengineering:hammer" }
+        ],
+        base_ingredient: { item: "sophisticatedbackpacks:diamond_backpack" },
+        category: "components",
+        result: { item: "sophisticatedbackpacks:netherite_backpack" }
     });
 
     // ==========================================

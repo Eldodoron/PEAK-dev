@@ -1,19 +1,19 @@
-// ==========================================
-// PEAK ZENITH SABER — RECIPE AND EVENTS SCRIPT
+﻿// ==========================================
+// PEAK ZENITH SABER â€” RECIPE AND EVENTS SCRIPT
 // Minecraft 1.21.1 NeoForge Mojmap
 // ==========================================
 
 ServerEvents.recipes(event => {
     // Registers a shaped crafting recipe outputting a highly customized Diamond Sword
     event.shaped(
-        Item.of('minecraft:diamond_sword').withComponents({
+        Item.of('minecraft:diamond_sword', ({
             // Custom Display Name (must be a JSON component string in 1.21+)
-            'minecraft:custom_name': '"§bPEAK Zenith Saber§r"',
+            'minecraft:custom_name': '"Â§bPEAK Zenith SaberÂ§r"',
             
             // Lore (Array of JSON component strings in 1.21+)
             'minecraft:lore': [
-                '"§7Forged inside PEAK dev instance.§r"',
-                '"§8Active stabilizing core.§r"'
+                '"Â§7Forged inside PEAK dev instance.Â§r"',
+                '"Â§8Active stabilizing core.Â§r"'
             ],
             
             // Enchantments (levels object map in 1.21+)
@@ -53,10 +53,11 @@ ItemEvents.crafted(event => {
         let player = event.player;
         if (player) {
             // Send the calibration message
-            player.tell('§b[PEAK]§r Zenith Saber successfully calibrated and ready!');
+            player.tell('Â§b[PEAK]Â§r Zenith Saber successfully calibrated and ready!');
             
             // Trigger the toast challenge complete sound effect
             player.playSound('minecraft:ui.toast.challenge_complete', 1.0, 1.0);
         }
     }
 });
+

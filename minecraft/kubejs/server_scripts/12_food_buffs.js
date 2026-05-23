@@ -1,5 +1,5 @@
-// ==========================================
-// PEAK EXPERT MODE — SCRIPT 12
+﻿// ==========================================
+// PEAK EXPERT MODE â€” SCRIPT 12
 // EPIC FOOD BUFFS & CULINARY OVERHAUL
 // ==========================================
 // Makes late-game foods actually worth crafting
@@ -25,7 +25,7 @@ ItemEvents.foodEaten(event => {
         'aquaculturedelight:large_fish_with_vegetables',
         'mynethersdelight:blue_tenderloin_steak',
         'mynethersdelight:breakfast_sampler',
-        'endersdelight:shulker_bowl',
+        'minecraft:barrier',
         'twilightdelight:ghast_brain_salad'
     ];
 
@@ -34,7 +34,7 @@ ItemEvents.foodEaten(event => {
         player.potionEffects.add('minecraft:strength', 18000, 0);
         player.potionEffects.add('minecraft:resistance', 18000, 0);
         player.potionEffects.add('minecraft:regeneration', 3600, 0); // 3 min regen
-        player.tell('§a✦ A hearty meal! You feel reinvigorated. ✦');
+        player.tell('Â§aâœ¦ A hearty meal! You feel reinvigorated. âœ¦');
     }
 
     // --- TIER 4: DIMENSIONAL FEASTS (30 MINUTES) ---
@@ -58,11 +58,11 @@ ItemEvents.foodEaten(event => {
         player.potionEffects.add('minecraft:resistance', 36000, 0);
         player.potionEffects.add('minecraft:fire_resistance', 36000, 0);
         player.potionEffects.add('minecraft:absorption', 36000, 1);
-        player.tell('§6✦ The dimensional feast empowers your very soul! ✦');
+        player.tell('Â§6âœ¦ The dimensional feast empowers your very soul! âœ¦');
     }
 
     // --- TIER 5: MASTER FEASTS (60 MINUTES) ---
-    // The absolute best foods — Overworld Feast Blocks
+    // The absolute best foods â€” Overworld Feast Blocks
     const tier5Foods = [
         'farmersdelight:roast_chicken_block',
         'farmersdelight:honey_glazed_ham_block',
@@ -77,10 +77,10 @@ ItemEvents.foodEaten(event => {
         player.potionEffects.add('minecraft:resistance', 72000, 1);
         player.potionEffects.add('minecraft:absorption', 72000, 3);
         player.potionEffects.add('minecraft:regeneration', 7200, 1); // Regen is 6 mins
-        player.tell('§d✦ A culinary masterpiece! You feel unstoppable! ✦');
+        player.tell('Â§dâœ¦ A culinary masterpiece! You feel unstoppable! âœ¦');
     }
 
-    // --- MAGICAL PIES (Ars Delight) — SPECIAL BUFFS ---
+    // --- MAGICAL PIES (Ars Delight) â€” SPECIAL BUFFS ---
     const magicPies = [
         'arsdelight:bastion_pie',
         'arsdelight:bombegrante_pie',
@@ -89,17 +89,18 @@ ItemEvents.foodEaten(event => {
     ];
 
     if (magicPies.includes(item)) {
-        // Night Vision, Speed II, Luck (45 mins) — magical exploration
+        // Night Vision, Speed II, Luck (45 mins) â€” magical exploration
         player.potionEffects.add('minecraft:night_vision', 54000, 0);
         player.potionEffects.add('minecraft:speed', 54000, 1);
         player.potionEffects.add('minecraft:luck', 54000, 0);
         player.potionEffects.add('minecraft:strength', 54000, 0);
-        player.tell('§b✦ Arcane flavors heighten your senses! ✦');
+        player.tell('Â§bâœ¦ Arcane flavors heighten your senses! âœ¦');
     }
 });
 
 console.log('[PEAK Expert Mode] Script 12: Epic Food Buffs loaded!');
-console.log('  → Tier 3: Plated Meals (15 min buffs)');
-console.log('  → Tier 4: Dimensional Feasts (30 min buffs)');
-console.log('  → Tier 5: Master Feasts (60 min buffs)');
-console.log('  → Magic: Ars Pies (45 min exploration buffs)');
+console.log('  â†’ Tier 3: Plated Meals (15 min buffs)');
+console.log('  â†’ Tier 4: Dimensional Feasts (30 min buffs)');
+console.log('  â†’ Tier 5: Master Feasts (60 min buffs)');
+console.log('  â†’ Magic: Ars Pies (45 min exploration buffs)');
+

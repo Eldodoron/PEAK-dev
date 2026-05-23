@@ -23,7 +23,7 @@ ServerEvents.recipes(event => {
 
 // Remove specific items from all chest loot tables (Strongholds, Dungeons, etc.)
 LootJS.modifiers(event => {
-    event.addGlobalModifier().removeLoot('minecraft:ender_eye');
-    event.addGlobalModifier().removeLoot('artifacts:everlasting_beef');
-    event.addGlobalModifier().removeLoot('artifacts:eternal_steak');
+    event.addTableModifier().removeLoot('minecraft:ender_eye');
+    event.addTableModifier().removeLoot('artifacts:everlasting_beef');
+    event.addTableModifier().removeLoot('artifacts:eternal_steak');
 });

@@ -1,5 +1,5 @@
-// ==========================================
-// PEAK EXPERT MODE — SCRIPT 18
+﻿// ==========================================
+// PEAK EXPERT MODE â€” SCRIPT 18
 // BOSS DROP DUPLICATOR (Anomaly Replicator)
 // ==========================================
 
@@ -53,7 +53,7 @@ ServerEvents.recipes(event => {
         'cataclysm:void_core', 
         'kubejs:anomaly_replicator', 
         'mekanism:pellet_antimatter'
-    ]).setResult(['cataclysm:void_core', 'cataclysm:void_core']); // Try to return two stacks
+    ]); // Try to return two stacks
 
     console.log('[PEAK Expert Mode] Script 18: Boss Duplicator loaded!');
 });
@@ -93,3 +93,4 @@ ItemEvents.crafted(event => {
         event.player.give('kubejs:anomaly_replicator');
     }
 });
+

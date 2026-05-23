@@ -2,5 +2,9 @@
   {"version":2},
   {"ingredient":{"id":"darkerdepths:grimestone"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"recipe":"alexsmobs:animal_dictionary","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
-  {"ingredient":{"id":"minecraft:carrot"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+  {"ingredient":{"id":"minecraft:carrot"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"recipe":"immersiveengineering:crafting/toolupgrade_powerpack_magnet","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
+  {"recipe":"immersiveengineering:blueprint/component_electronic_adv","recipeType":"immersiveengineering:blueprint","bookmarkType":"RECIPE"},
+  {"ingredient":{"id":"tfmg:electromagnetic_coil"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"recipe":"tfmg:mixing/magnetic_alloy","recipeType":"create:mixing","bookmarkType":"RECIPE"}
 ]

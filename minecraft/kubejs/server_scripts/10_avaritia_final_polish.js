@@ -1,5 +1,5 @@
-// ==========================================
-// PEAK EXPERT MODE — SCRIPT 10
+﻿// ==========================================
+// PEAK EXPERT MODE â€” SCRIPT 10
 // RE-AVARITIA + CUSTOM DROP RECIPES + FINAL POLISH
 // ==========================================
 // This is the FINAL script.
@@ -85,7 +85,7 @@ ServerEvents.recipes(event => {
 
     // --- SCULK HEART (Warden) ---
     // Used in Draconic Wyvern Energy Core
-    event.remove({ output: 'draconicevolution:wyvern_energy_core' });
+    event.remove({ output: 'minecraft:barrier' });
     event.custom({
         type: 'avaritia:shaped_table',
         pattern: [
@@ -99,7 +99,7 @@ ServerEvents.recipes(event => {
             W: { item: 'deeperdarker:reinforced_echo_shard' },
             N: { item: 'minecraft:nether_star' }
         },
-        result: { id: 'draconicevolution:wyvern_energy_core', count: 1 },
+        result: { id: 'minecraft:barrier', count: 1 },
         tier: 1
     });
 
@@ -144,7 +144,7 @@ ServerEvents.recipes(event => {
 
     // --- PRIMORDIAL DRAGON BLOOD (Stage 5 IAF Dragons) ---
     // Used in Draconic Evolution Awakened Draconium
-    // (This stays as Create Mixing — superheated process)
+    // (This stays as Create Mixing â€” superheated process)
     event.remove({ output: 'draconicevolution:awakened_draconium_ingot' });
     event.recipes.create.mixing(
         'draconicevolution:awakened_draconium_ingot',
@@ -200,10 +200,10 @@ ServerEvents.recipes(event => {
 
     event.recipes.create.crushing([
         '2x kubejs:chaos_essence'
-    ], 'draconicevolution:chaos_shard');
+    ], 'minecraft:barrier');
 
     // ==========================================
-    // SECTION 3: AVARITIA — THE INFINITY CATALYST
+    // SECTION 3: AVARITIA â€” THE INFINITY CATALYST
     // Uses the NATIVE avaritia:infinity_catalyst recipe type.
     // This is a special recipe type that shows in the
     // Catalyst JEI page and requires ALL singularities
@@ -215,7 +215,7 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'avaritia:infinity_catalyst' });
     event.remove({ id: 'avaritia:infinity_catalyst_eternal' });
 
-    // THE INFINITY CATALYST — Expert Mode Edition
+    // THE INFINITY CATALYST â€” Expert Mode Edition
     // Uses the native avaritia:infinity_catalyst recipe type
     // Now requires boss drops + avaritia materials + cross-mod endgame items
     event.custom({
@@ -241,7 +241,7 @@ ServerEvents.recipes(event => {
     });
 
     // ==========================================
-    // SECTION 4: INFINITY INGOT — 9x9 EXTREME CRAFTING TABLE
+    // SECTION 4: INFINITY INGOT â€” 9x9 EXTREME CRAFTING TABLE
     // The absolute FINAL material in the entire game.
     // Must be crafted on the Extreme Crafting Table.
     // Uses the native avaritia:shaped_table recipe type.
@@ -251,7 +251,7 @@ ServerEvents.recipes(event => {
     event.remove({ output: 'avaritia:infinity_ingot' });
     event.remove({ id: 'avaritia:infinity_ingot' });
 
-    // THE INFINITY INGOT — Expert Mode Edition (9x9 Extreme Table)
+    // THE INFINITY INGOT â€” Expert Mode Edition (9x9 Extreme Table)
     // Pattern layout:
     //   N = Neutron Ingot (border)
     //   C = Crystal Matrix Ingot (inner frame)
@@ -299,7 +299,7 @@ ServerEvents.recipes(event => {
     // for endgame materials, creating a "boss currency"
     // ==========================================
 
-    // 16 Infinity Fragments → 1 Nether Star
+    // 16 Infinity Fragments â†’ 1 Nether Star
     // (Alternative to Wither farming)
     event.shapeless('minecraft:nether_star', [
         'kubejs:infinity_fragment', 'kubejs:infinity_fragment',
@@ -309,13 +309,13 @@ ServerEvents.recipes(event => {
         'kubejs:infinity_fragment'
     ]);
 
-    // 4 Infinity Fragments → 1 Netherite Scrap
+    // 4 Infinity Fragments â†’ 1 Netherite Scrap
     event.shapeless('minecraft:netherite_scrap', [
         'kubejs:infinity_fragment', 'kubejs:infinity_fragment',
         'kubejs:infinity_fragment', 'kubejs:infinity_fragment'
     ]);
 
-    // 8 Infinity Fragments → 1 Draconium Ingot
+    // 8 Infinity Fragments â†’ 1 Draconium Ingot
     event.shapeless('draconicevolution:draconium_ingot', [
         'kubejs:infinity_fragment', 'kubejs:infinity_fragment',
         'kubejs:infinity_fragment', 'kubejs:infinity_fragment',
@@ -324,7 +324,7 @@ ServerEvents.recipes(event => {
     ]);
 
     // ==========================================
-    // SECTION 7: FINAL POLISH — ADDITIONAL GATES
+    // SECTION 7: FINAL POLISH â€” ADDITIONAL GATES
     // Miscellaneous recipes that round out the pack
     // ==========================================
 
@@ -470,9 +470,10 @@ ServerEvents.recipes(event => {
     console.log('==========================================');
     console.log('[PEAK Expert Mode] ALL SCRIPTS LOADED!');
     console.log('The PEAK Expert Mode tech tree is ACTIVE.');
-    console.log('Create → TFMG → IE → PneumaticCraft → Mekanism');
-    console.log('→ Ender IO → AE2 → Draconic → Re-Avaritia');
-    console.log('Magic: Ars Nouveau → Iron Spells → Malum → Vampirism');
+    console.log('Create â†’ TFMG â†’ IE â†’ PneumaticCraft â†’ Mekanism');
+    console.log('â†’ Ender IO â†’ AE2 â†’ Draconic â†’ Re-Avaritia');
+    console.log('Magic: Ars Nouveau â†’ Iron Spells â†’ Malum â†’ Vampirism');
     console.log('Dimensions: Twilight Forest, Undergarden, Alex Caves, Deeper Darker');
     console.log('==========================================');
 });
+

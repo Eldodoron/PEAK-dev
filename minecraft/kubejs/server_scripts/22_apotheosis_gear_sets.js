@@ -1,5 +1,5 @@
-// ==========================================
-// PEAK EXPERT MODE — SCRIPT 22
+﻿// ==========================================
+// PEAK EXPERT MODE â€” SCRIPT 22
 // APOTHEOSIS MASTER EXPERT POOLS
 // ==========================================
 
@@ -79,14 +79,14 @@ ServerEvents.generateData('peak', 'apotheosis_gear', event => {
                 { "stack": { "id": "undergarden:utherium_boots" }, "weight": 5 },
                 { "stack": { "id": "twilightforest:knightmetal_boots" }, "weight": 5 }
             ],
-            "tags": ["apotheosis:melee", `apotheosis:${tier}`]
+            "tags": ["apothic_enchanting:melee", `apothic_enchanting:${tier}`]
         };
     };
 
     // Inject the pool for multiple tiers
-    event.json('apotheosis:gear_sets/overworld/expert_pool_g1.json', createExpertPool('overworld', 100));
-    event.json('apotheosis:gear_sets/nether/expert_pool_g1.json', createExpertPool('nether', 100));
-    event.json('apotheosis:gear_sets/the_end/expert_pool_g1.json', createExpertPool('the_end', 100));
+    event.json('apothic_enchanting:gear_sets/overworld/expert_pool_g1.json', createExpertPool('overworld', 100));
+    event.json('apothic_enchanting:gear_sets/nether/expert_pool_g1.json', createExpertPool('nether', 100));
+    event.json('apothic_enchanting:gear_sets/the_end/expert_pool_g1.json', createExpertPool('the_end', 100));
 
     // --- RANGED EXPERT POOL ---
     const createRangedPool = (tier, weight) => {
@@ -112,16 +112,16 @@ ServerEvents.generateData('peak', 'apotheosis_gear', event => {
                 { "stack": { "id": "knightquest:silver_knight_chestplate" }, "weight": 10 },
                 { "stack": { "id": "ars_nouveau:arcanist_robes" }, "weight": 20 }
             ],
-            "tags": ["apotheosis:ranged", `apotheosis:${tier}`]
+            "tags": ["apothic_enchanting:ranged", `apothic_enchanting:${tier}`]
         };
     };
 
-    event.json('apotheosis:gear_sets/overworld/expert_ranged.json', createRangedPool('overworld', 80));
-    event.json('apotheosis:gear_sets/nether/expert_ranged.json', createRangedPool('nether', 80));
-    event.json('apotheosis:gear_sets/pinnacle/expert_ranged.json', createRangedPool('pinnacle', 80));
+    event.json('apothic_enchanting:gear_sets/overworld/expert_ranged.json', createRangedPool('overworld', 80));
+    event.json('apothic_enchanting:gear_sets/nether/expert_ranged.json', createRangedPool('nether', 80));
+    event.json('apothic_enchanting:gear_sets/pinnacle/expert_ranged.json', createRangedPool('pinnacle', 80));
 
     // --- PINNACLE UNIQUES POOL ---
-    event.json('apotheosis:gear_sets/pinnacle/expert_uniques.json', {
+    event.json('apothic_enchanting:gear_sets/pinnacle/expert_uniques.json', {
         "weight": 150,
         "mainhands": [
             { "stack": { "id": "simplyswords:brimstone" }, "weight": 5 },
@@ -152,8 +152,9 @@ ServerEvents.generateData('peak', 'apotheosis_gear', event => {
             { "stack": { "id": "fantasy_armor:ornstein_chestplate" }, "weight": 10 },
             { "stack": { "id": "cataclysm:ignitium_chestplate" }, "weight": 10 }
         ],
-        "tags": ["apotheosis:melee", "apotheosis:pinnacle"]
+        "tags": ["apothic_enchanting:melee", "apothic_enchanting:pinnacle"]
     });
 
     console.log('[PEAK Expert Mode] Script 22: Master Expert Pools Injected!');
 });
+

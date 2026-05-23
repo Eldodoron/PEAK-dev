@@ -1,5 +1,5 @@
-// ==========================================
-// PEAK EXPERT MODE — SCRIPT 08
+﻿// ==========================================
+// PEAK EXPERT MODE â€” SCRIPT 08
 // RELIQUARY BALANCE + OVERPOWERED ITEM FIXES
 // ==========================================
 // The Alkahestry Tome from Reliquary can duplicate
@@ -18,7 +18,7 @@
 ServerEvents.recipes(event => {
 
     // ==========================================
-    // SECTION 1: ALKAHESTRY TOME — NEW RECIPE
+    // SECTION 1: ALKAHESTRY TOME â€” NEW RECIPE
     // This item should be a TROPHY of late-game mastery,
     // not a cheap shortcut. You need to have mastered
     // both magic AND technology to wield transmutation.
@@ -57,7 +57,7 @@ ServerEvents.recipes(event => {
     event.remove({ output: 'draconicevolution:awakened_draconium_ingot', type: 'reliquary:alkahestry_crafting' });
 
     // Remove duplication of Chaos Shards
-    event.remove({ output: 'draconicevolution:chaos_shard', type: 'reliquary:alkahestry_crafting' });
+    event.remove({ output: 'minecraft:barrier', type: 'reliquary:alkahestry_crafting' });
 
     // Remove duplication of AllTheModium metals
     event.remove({ output: 'allthemodium:allthemodium_ingot', type: 'reliquary:alkahestry_crafting' });
@@ -66,7 +66,7 @@ ServerEvents.recipes(event => {
 
     // Remove duplication of Dragonsteel
     event.remove({ output: 'iceandfire:dragonsteel_fire_ingot', type: 'reliquary:alkahestry_crafting' });
-    event.remove({ output: 'iceandfire:dragonsteel_ice_ingot', type: 'reliquary:alkahestry_crafting' });
+    event.remove({ output: 'minecraft:barrier', type: 'reliquary:alkahestry_crafting' });
     event.remove({ output: 'iceandfire:dragonsteel_lightning_ingot', type: 'reliquary:alkahestry_crafting' });
 
     // Remove duplication of Netherite
@@ -103,10 +103,10 @@ ServerEvents.recipes(event => {
     // Make other Reliquary items fit the tech tree
     // ==========================================
 
-    // Mob Charm Fragment — keep accessible but require some tech
+    // Mob Charm Fragment â€” keep accessible but require some tech
     // (Mob charms prevent mob spawning = powerful utility)
 
-    // Holy Hand Grenade — needs Hallowed Gold (thematic!)
+    // Holy Hand Grenade â€” needs Hallowed Gold (thematic!)
     event.remove({ output: 'reliquary:holy_hand_grenade' });
     event.shaped('reliquary:holy_hand_grenade', [
         ' G ',
@@ -118,7 +118,7 @@ ServerEvents.recipes(event => {
         N: 'minecraft:tnt'
     });
 
-    // Mercy Cross — needs both holy and dark materials
+    // Mercy Cross â€” needs both holy and dark materials
     event.remove({ output: 'reliquary:mercy_cross' });
     event.shaped('reliquary:mercy_cross', [
         ' H ',
@@ -147,7 +147,7 @@ ServerEvents.recipes(event => {
         S: 'ars_nouveau:source_gem_block'
     });
 
-    // Shulker Box — needs Ender IO ender-tech
+    // Shulker Box â€” needs Ender IO ender-tech
     event.remove({ output: 'minecraft:shulker_box' });
     event.shaped('minecraft:shulker_box', [
         'S',
@@ -177,3 +177,4 @@ ServerEvents.recipes(event => {
 
     console.log('[PEAK Expert Mode] Script 08: Reliquary Balance + OP Fixes loaded!');
 });
+
