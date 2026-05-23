@@ -1,4 +1,4 @@
-﻿// ==========================================
+// ==========================================
 // PEAK ZENITH SABER â€” RECIPE AND EVENTS SCRIPT
 // Minecraft 1.21.1 NeoForge Mojmap
 // ==========================================
@@ -6,14 +6,14 @@
 ServerEvents.recipes(event => {
     // Registers a shaped crafting recipe outputting a highly customized Diamond Sword
     event.shaped(
-        Item.of('minecraft:diamond_sword', ({
+        Item.of('minecraft:diamond_sword', {
             // Custom Display Name (must be a JSON component string in 1.21+)
-            'minecraft:custom_name': '"Â§bPEAK Zenith SaberÂ§r"',
+            'minecraft:custom_name': '"§bPEAK Zenith Saber§r"',
             
             // Lore (Array of JSON component strings in 1.21+)
             'minecraft:lore': [
-                '"Â§7Forged inside PEAK dev instance.Â§r"',
-                '"Â§8Active stabilizing core.Â§r"'
+                '"§7Forged inside PEAK dev instance.§r"',
+                '"§8Active stabilizing core.§r"'
             ],
             
             // Enchantments (levels object map in 1.21+)
