@@ -8,12 +8,12 @@ userWorldGenVersion = 0
 #Generation Settings for Tin ore.
 [tin]
 	#Determines if Tin ore should be added to world generation.
-	shouldGenerate = true
+	shouldGenerate = false
 
 	#Small Tin Vein Generation Settings.
 	[tin.small]
 		#Determines if Small Tin Veins should be added to world generation. Note: Requires generating tin ore to be enabled.
-		shouldGenerate = true
+		shouldGenerate = false
 		#Chance that Small Tin Veins generates in a chunk.
 		# Default: 14
 		# Range: 1 ~ 256
@@ -57,7 +57,7 @@ userWorldGenVersion = 0
 	#Large Tin Vein Generation Settings.
 	[tin.large]
 		#Determines if Large Tin Veins should be added to world generation. Note: Requires generating tin ore to be enabled.
-		shouldGenerate = true
+		shouldGenerate = false
 		#Chance that Large Tin Veins generates in a chunk.
 		# Default: 12
 		# Range: 1 ~ 256

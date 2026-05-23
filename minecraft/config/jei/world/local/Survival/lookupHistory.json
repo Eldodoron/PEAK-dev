@@ -1,4 +1,7 @@
 [
   {"version":1},
+  {"ingredient":{"id":"adorablehamsterpets:sliced_cucumber"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"adorablehamsterpets:cucumber"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"alexsmobs:raccoon_tail"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"reliquary:zombie_heart"},"type":"item_stack","bookmarkType":"INGREDIENT"}
 ]

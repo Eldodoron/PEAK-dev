@@ -1,0 +1,22 @@
+abilitiesData:
+    abilities:
+        ascend_heaven:
+            # Highest level to which the ability can be upgraded
+            maxLevel: 0
+            # Relic level at which the ability becomes unlocked
+            requiredLevel: 0
+            # Number of leveling points needed to increase the ability level
+            requiredPoints: 1
+            stats: {
+                }
+levelingData:
+    # Amount of experience required to level up to relic level 1
+    initialCost: 100
+    # Maximum level of the relic
+    maxLevel: 0
+    # Increment in experience required for each subsequent level of the relic
+    step: 100
+lootData:
+    # List of conditions for obtaining the relic. Supports both direct ID specification and regular expressions.
+    entries: [
+        ]
