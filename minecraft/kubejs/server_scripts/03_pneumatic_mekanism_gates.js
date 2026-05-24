@@ -332,12 +332,12 @@ ServerEvents.recipes(event => {
     // Add Create crushing for Undergarden ores for bonus output
     event.recipes.create.crushing([
         'undergarden:raw_cloggrum',
-        Item.of('undergarden:raw_cloggrum').withChance(0.5)
+        CreateItem.of('undergarden:raw_cloggrum', 0.5)
     ], 'undergarden:cloggrum_ore');
 
     event.recipes.create.crushing([
         'undergarden:raw_froststeel',
-        Item.of('undergarden:raw_froststeel').withChance(0.5)
+        CreateItem.of('undergarden:raw_froststeel', 0.5)
     ], 'undergarden:froststeel_ore');
 
     // PneumaticCraft Heat Sink uses Froststeel
@@ -362,12 +362,12 @@ ServerEvents.recipes(event => {
     // Alex's Caves Neodymium processing via Create
     event.recipes.create.crushing([
         'alexscaves:raw_scarlet_neodymium',
-        Item.of('alexscaves:raw_scarlet_neodymium').withChance(0.4)
+        CreateItem.of('alexscaves:raw_scarlet_neodymium', 0.4)
     ], 'alexscaves:scarlet_neodymium_ore');
 
     event.recipes.create.crushing([
         'alexscaves:raw_azure_neodymium',
-        Item.of('alexscaves:raw_azure_neodymium').withChance(0.4)
+        CreateItem.of('alexscaves:raw_azure_neodymium', 0.4)
     ], 'alexscaves:azure_neodymium_ore');
 
     // Mekanism Reactor Controller uses Azure Neodymium

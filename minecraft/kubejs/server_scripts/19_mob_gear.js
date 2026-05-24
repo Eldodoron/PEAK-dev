@@ -1,4 +1,4 @@
-﻿// ==========================================
+// ==========================================
 // PEAK EXPERT MODE â€” SCRIPT 19
 // APOTHEOSIS & MOB GEAR SETS
 // ==========================================
@@ -138,7 +138,7 @@ EntityEvents.spawned(event => {
 
     // Deeper and Darker Logic: ONLY in Deep Dark or Otherside
     if (Platform.isLoaded('deeperdarker')) {
-        const dimId = entity.level.dimension.location().toString();
+        const dimId = entity.level.dimension.toString();
         const biomeStr = currentBiomeId.toString();
         if (biomeStr == 'minecraft:deep_dark' || dimId == 'deeperdarker:otherside') {
             helmets.push('deeperdarker:warden_helmet', 'deeperdarker:resonarium_helmet');

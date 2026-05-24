@@ -199,7 +199,7 @@ ServerEvents.recipes(event => {
     event.recipes.create.crushing([
         'allthemodium:raw_allthemodium',
         CreateItem.of('allthemodium:raw_allthemodium', 0.35),
-        CreateItem.of('minecraft:experience_nugget', 0.75)
+        CreateItem.of('create:experience_nugget', 0.75)
     ], 'allthemodium:allthemodium_ore');
 
     // ==========================================
@@ -263,67 +263,155 @@ ServerEvents.recipes(event => {
 
 
     // --- REMOVE DEFAULT UPGRADE RECIPES ---
-    event.remove({ output: 'sophisticatedbackpacks:upgrade_base' });
-    event.remove({ output: 'sophisticatedbackpacks:magnet_upgrade' });
-    event.remove({ output: 'sophisticatedbackpacks:advanced_magnet_upgrade' });
-    event.remove({ output: 'sophisticatedbackpacks:filter_upgrade' });
-    event.remove({ output: 'sophisticatedbackpacks:advanced_filter_upgrade' });
+    event.remove({ id: 'sophisticatedbackpacks:upgrade_base' });
+    event.remove({ id: 'sophisticatedbackpacks:magnet_upgrade' });
+    event.remove({ id: 'sophisticatedbackpacks:advanced_magnet_upgrade' });
+    event.remove({ id: 'sophisticatedbackpacks:filter_upgrade' });
+    event.remove({ id: 'sophisticatedbackpacks:advanced_filter_upgrade' });
 
 
     // --- CREATE SEQUENCED ASSEMBLIES FOR UPGRADES ---
 
     // A. Upgrade Base
-    event.recipes.create.sequenced_assembly([
-        Item.of('sophisticatedbackpacks:upgrade_base')
-    ], 'minecraft:leather', [
-        event.recipes.create.deploying('kubejs:incomplete_upgrade_base', ['kubejs:incomplete_upgrade_base', 'minecraft:string']),
-        event.recipes.create.deploying('kubejs:incomplete_upgrade_base', ['kubejs:incomplete_upgrade_base', 'minecraft:iron_ingot']),
-        event.recipes.create.pressing('kubejs:incomplete_upgrade_base', 'kubejs:incomplete_upgrade_base')
-    ]).transitionalItem('kubejs:incomplete_upgrade_base').loops(4);
+    event.custom({
+        "type": "create:sequenced_assembly",
+        "ingredient": { "item": "minecraft:leather" },
+        "transitional_item": { "id": "kubejs:incomplete_upgrade_base" },
+        "sequence": [
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_upgrade_base" }, { "item": "minecraft:string" }],
+                "results": [{ "id": "kubejs:incomplete_upgrade_base" }]
+            },
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_upgrade_base" }, { "item": "minecraft:iron_ingot" }],
+                "results": [{ "id": "kubejs:incomplete_upgrade_base" }]
+            },
+            {
+                "type": "create:pressing",
+                "ingredients": [{ "item": "kubejs:incomplete_upgrade_base" }],
+                "results": [{ "id": "kubejs:incomplete_upgrade_base" }]
+            }
+        ],
+        "results": [{ "id": "sophisticatedbackpacks:upgrade_base" }],
+        "loops": 4
+    });
 
     // F. Basic Magnet Upgrade
-    event.recipes.create.sequenced_assembly([
-        Item.of('sophisticatedbackpacks:magnet_upgrade')
-    ], 'sophisticatedbackpacks:upgrade_base', [
-        event.recipes.create.deploying('kubejs:incomplete_magnet_upgrade', ['kubejs:incomplete_magnet_upgrade', 'alexscaves:scarlet_magnet']),
-        event.recipes.create.deploying('kubejs:incomplete_magnet_upgrade', ['kubejs:incomplete_magnet_upgrade', 'alexscaves:azure_magnet']),
-        event.recipes.create.pressing('kubejs:incomplete_magnet_upgrade', 'kubejs:incomplete_magnet_upgrade')
-    ]).transitionalItem('kubejs:incomplete_magnet_upgrade').loops(1);
+    event.custom({
+        "type": "create:sequenced_assembly",
+        "ingredient": { "item": "sophisticatedbackpacks:upgrade_base" },
+        "transitional_item": { "id": "kubejs:incomplete_magnet_upgrade" },
+        "sequence": [
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_magnet_upgrade" }, { "item": "alexscaves:scarlet_magnet" }],
+                "results": [{ "id": "kubejs:incomplete_magnet_upgrade" }]
+            },
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_magnet_upgrade" }, { "item": "alexscaves:azure_magnet" }],
+                "results": [{ "id": "kubejs:incomplete_magnet_upgrade" }]
+            },
+            {
+                "type": "create:pressing",
+                "ingredients": [{ "item": "kubejs:incomplete_magnet_upgrade" }],
+                "results": [{ "id": "kubejs:incomplete_magnet_upgrade" }]
+            }
+        ],
+        "results": [{ "id": "sophisticatedbackpacks:magnet_upgrade" }],
+        "loops": 1
+    });
 
     // G. Advanced Magnet Upgrade
-    event.recipes.create.sequenced_assembly([
-        Item.of('sophisticatedbackpacks:advanced_magnet_upgrade')
-    ], 'sophisticatedbackpacks:magnet_upgrade', [
-        event.recipes.create.deploying('kubejs:incomplete_advanced_magnet_upgrade', ['kubejs:incomplete_advanced_magnet_upgrade', 'tfmg:electromagnetic_coil']),
-        event.recipes.create.deploying('kubejs:incomplete_advanced_magnet_upgrade', ['kubejs:incomplete_advanced_magnet_upgrade', 'immersiveengineering:electromagnet']),
-        event.recipes.create.pressing('kubejs:incomplete_advanced_magnet_upgrade', 'kubejs:incomplete_advanced_magnet_upgrade')
-    ]).transitionalItem('kubejs:incomplete_advanced_magnet_upgrade').loops(1);
+    event.custom({
+        "type": "create:sequenced_assembly",
+        "ingredient": { "item": "sophisticatedbackpacks:magnet_upgrade" },
+        "transitional_item": { "id": "kubejs:incomplete_advanced_magnet_upgrade" },
+        "sequence": [
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_advanced_magnet_upgrade" }, { "item": "tfmg:electromagnetic_coil" }],
+                "results": [{ "id": "kubejs:incomplete_advanced_magnet_upgrade" }]
+            },
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_advanced_magnet_upgrade" }, { "item": "immersiveengineering:electromagnet" }],
+                "results": [{ "id": "kubejs:incomplete_advanced_magnet_upgrade" }]
+            },
+            {
+                "type": "create:pressing",
+                "ingredients": [{ "item": "kubejs:incomplete_advanced_magnet_upgrade" }],
+                "results": [{ "id": "kubejs:incomplete_advanced_magnet_upgrade" }]
+            }
+        ],
+        "results": [{ "id": "sophisticatedbackpacks:advanced_magnet_upgrade" }],
+        "loops": 1
+    });
 
     // H. Basic Filter Upgrade
-    event.recipes.create.sequenced_assembly([
-        Item.of('sophisticatedbackpacks:filter_upgrade')
-    ], 'sophisticatedbackpacks:upgrade_base', [
-        event.recipes.create.deploying('kubejs:incomplete_filter_upgrade', ['kubejs:incomplete_filter_upgrade', 'create:filter']),
-        event.recipes.create.deploying('kubejs:incomplete_filter_upgrade', ['kubejs:incomplete_filter_upgrade', 'minecraft:paper']),
-        event.recipes.create.pressing('kubejs:incomplete_filter_upgrade', 'kubejs:incomplete_filter_upgrade')
-    ]).transitionalItem('kubejs:incomplete_filter_upgrade').loops(1);
+    event.custom({
+        "type": "create:sequenced_assembly",
+        "ingredient": { "item": "sophisticatedbackpacks:upgrade_base" },
+        "transitional_item": { "id": "kubejs:incomplete_filter_upgrade" },
+        "sequence": [
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_filter_upgrade" }, { "item": "create:filter" }],
+                "results": [{ "id": "kubejs:incomplete_filter_upgrade" }]
+            },
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_filter_upgrade" }, { "item": "minecraft:paper" }],
+                "results": [{ "id": "kubejs:incomplete_filter_upgrade" }]
+            },
+            {
+                "type": "create:pressing",
+                "ingredients": [{ "item": "kubejs:incomplete_filter_upgrade" }],
+                "results": [{ "id": "kubejs:incomplete_filter_upgrade" }]
+            }
+        ],
+        "results": [{ "id": "sophisticatedbackpacks:filter_upgrade" }],
+        "loops": 1
+    });
 
     // I. Advanced Filter Upgrade
-    event.recipes.create.sequenced_assembly([
-        Item.of('sophisticatedbackpacks:advanced_filter_upgrade')
-    ], 'sophisticatedbackpacks:filter_upgrade', [
-        event.recipes.create.deploying('kubejs:incomplete_advanced_filter_upgrade', ['kubejs:incomplete_advanced_filter_upgrade', 'create:attribute_filter']),
-        event.recipes.create.deploying('kubejs:incomplete_advanced_filter_upgrade', ['kubejs:incomplete_advanced_filter_upgrade', 'enderio:advanced_item_filter']),
-        event.recipes.create.pressing('kubejs:incomplete_advanced_filter_upgrade', 'kubejs:incomplete_advanced_filter_upgrade')
-    ]).transitionalItem('kubejs:incomplete_advanced_filter_upgrade').loops(1);
+    event.custom({
+        "type": "create:sequenced_assembly",
+        "ingredient": { "item": "sophisticatedbackpacks:filter_upgrade" },
+        "transitional_item": { "id": "kubejs:incomplete_advanced_filter_upgrade" },
+        "sequence": [
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_advanced_filter_upgrade" }, { "item": "create:attribute_filter" }],
+                "results": [{ "id": "kubejs:incomplete_advanced_filter_upgrade" }]
+            },
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_advanced_filter_upgrade" }, { "item": "enderio:advanced_item_filter" }],
+                "results": [{ "id": "kubejs:incomplete_advanced_filter_upgrade" }]
+            },
+            {
+                "type": "create:pressing",
+                "ingredients": [{ "item": "kubejs:incomplete_advanced_filter_upgrade" }],
+                "results": [{ "id": "kubejs:incomplete_advanced_filter_upgrade" }]
+            }
+        ],
+        "results": [{ "id": "sophisticatedbackpacks:advanced_filter_upgrade" }],
+        "loops": 1
+    });
 
 
     // --- REMOVE DEFAULT BACKPACK RECIPES ---
-    event.remove({ output: 'sophisticatedbackpacks:copper_backpack' });
-    event.remove({ output: 'sophisticatedbackpacks:iron_backpack' });
-    event.remove({ output: 'sophisticatedbackpacks:gold_backpack' });
-    event.remove({ output: 'sophisticatedbackpacks:diamond_backpack' });
-    event.remove({ output: 'sophisticatedbackpacks:netherite_backpack' });
+    event.remove({ id: 'sophisticatedbackpacks:copper_backpack' });
+    event.remove({ id: 'sophisticatedbackpacks:iron_backpack' });
+    event.remove({ id: 'sophisticatedbackpacks:iron_backpack_from_copper' });
+    event.remove({ id: 'sophisticatedbackpacks:gold_backpack' });
+    event.remove({ id: 'sophisticatedbackpacks:gold_backpack_from_iron' });
+    event.remove({ id: 'sophisticatedbackpacks:diamond_backpack' });
+    event.remove({ id: 'sophisticatedbackpacks:diamond_backpack_from_gold' });
+    event.remove({ id: 'sophisticatedbackpacks:netherite_backpack' });
 
 
     // --- UPGRADED BACKPACKS (Shaped Tool-Damaging Crafteos) ---
@@ -406,6 +494,99 @@ ServerEvents.recipes(event => {
         }).damageIngredient(tool);
     });
 
+
+
+    // --- AUTOMATED BACKPACKS (Create Sequenced Assemblies) ---
+    
+    // 0. Copper Backpack
+    event.custom({
+        "type": "create:sequenced_assembly",
+        "ingredient": { "item": "sophisticatedbackpacks:backpack" },
+        "transitional_item": { "id": "kubejs:incomplete_copper_backpack" },
+        "sequence": [
+            { "type": "create:deploying", "ingredients": [{ "item": "kubejs:incomplete_copper_backpack" }, { "tag": "c:plates/copper" }], "results": [{ "id": "kubejs:incomplete_copper_backpack" }] },
+            { "type": "create:deploying", "ingredients": [{ "item": "kubejs:incomplete_copper_backpack" }, { "tag": "c:plates/copper" }], "results": [{ "id": "kubejs:incomplete_copper_backpack" }] },
+            { "type": "create:deploying", "ingredients": [{ "item": "kubejs:incomplete_copper_backpack" }, { "tag": "c:plates/copper" }], "results": [{ "id": "kubejs:incomplete_copper_backpack" }] },
+            { "type": "create:pressing", "ingredients": [{ "item": "kubejs:incomplete_copper_backpack" }], "results": [{ "id": "kubejs:incomplete_copper_backpack" }] }
+        ],
+        "results": [{ "id": "sophisticatedbackpacks:copper_backpack" }],
+        "loops": 1
+    });
+
+    // 1a. Iron Backpack (from Leather)
+    event.custom({
+        "type": "create:sequenced_assembly",
+        "ingredient": { "item": "sophisticatedbackpacks:backpack" },
+        "transitional_item": { "id": "kubejs:incomplete_iron_backpack" },
+        "sequence": [
+            { "type": "create:deploying", "ingredients": [{ "item": "kubejs:incomplete_iron_backpack" }, { "tag": "c:plates/iron" }], "results": [{ "id": "kubejs:incomplete_iron_backpack" }] },
+            { "type": "create:deploying", "ingredients": [{ "item": "kubejs:incomplete_iron_backpack" }, { "tag": "c:plates/iron" }], "results": [{ "id": "kubejs:incomplete_iron_backpack" }] },
+            { "type": "create:deploying", "ingredients": [{ "item": "kubejs:incomplete_iron_backpack" }, { "tag": "c:plates/iron" }], "results": [{ "id": "kubejs:incomplete_iron_backpack" }] },
+            { "type": "create:pressing", "ingredients": [{ "item": "kubejs:incomplete_iron_backpack" }], "results": [{ "id": "kubejs:incomplete_iron_backpack" }] }
+        ],
+        "results": [{ "id": "sophisticatedbackpacks:iron_backpack" }],
+        "loops": 1
+    });
+
+    // 1b. Iron Backpack (from Copper)
+    event.custom({
+        "type": "create:sequenced_assembly",
+        "ingredient": { "item": "sophisticatedbackpacks:copper_backpack" },
+        "transitional_item": { "id": "kubejs:incomplete_iron_backpack" },
+        "sequence": [
+            { "type": "create:deploying", "ingredients": [{ "item": "kubejs:incomplete_iron_backpack" }, { "tag": "c:plates/iron" }], "results": [{ "id": "kubejs:incomplete_iron_backpack" }] },
+            { "type": "create:deploying", "ingredients": [{ "item": "kubejs:incomplete_iron_backpack" }, { "tag": "c:plates/iron" }], "results": [{ "id": "kubejs:incomplete_iron_backpack" }] },
+            { "type": "create:deploying", "ingredients": [{ "item": "kubejs:incomplete_iron_backpack" }, { "tag": "c:plates/iron" }], "results": [{ "id": "kubejs:incomplete_iron_backpack" }] },
+            { "type": "create:pressing", "ingredients": [{ "item": "kubejs:incomplete_iron_backpack" }], "results": [{ "id": "kubejs:incomplete_iron_backpack" }] }
+        ],
+        "results": [{ "id": "sophisticatedbackpacks:iron_backpack" }],
+        "loops": 1
+    });
+
+    // 2. Gold Backpack
+    event.custom({
+        "type": "create:sequenced_assembly",
+        "ingredient": { "item": "sophisticatedbackpacks:iron_backpack" },
+        "transitional_item": { "id": "kubejs:incomplete_gold_backpack" },
+        "sequence": [
+            { "type": "create:deploying", "ingredients": [{ "item": "kubejs:incomplete_gold_backpack" }, { "tag": "c:plates/gold" }], "results": [{ "id": "kubejs:incomplete_gold_backpack" }] },
+            { "type": "create:deploying", "ingredients": [{ "item": "kubejs:incomplete_gold_backpack" }, { "tag": "c:plates/gold" }], "results": [{ "id": "kubejs:incomplete_gold_backpack" }] },
+            { "type": "create:deploying", "ingredients": [{ "item": "kubejs:incomplete_gold_backpack" }, { "tag": "c:plates/gold" }], "results": [{ "id": "kubejs:incomplete_gold_backpack" }] },
+            { "type": "create:pressing", "ingredients": [{ "item": "kubejs:incomplete_gold_backpack" }], "results": [{ "id": "kubejs:incomplete_gold_backpack" }] }
+        ],
+        "results": [{ "id": "sophisticatedbackpacks:gold_backpack" }],
+        "loops": 1
+    });
+
+    // 3. Diamond Backpack
+    event.custom({
+        "type": "create:sequenced_assembly",
+        "ingredient": { "item": "sophisticatedbackpacks:gold_backpack" },
+        "transitional_item": { "id": "kubejs:incomplete_diamond_backpack" },
+        "sequence": [
+            { "type": "create:deploying", "ingredients": [{ "item": "kubejs:incomplete_diamond_backpack" }, { "item": "minecraft:diamond" }], "results": [{ "id": "kubejs:incomplete_diamond_backpack" }] },
+            { "type": "create:deploying", "ingredients": [{ "item": "kubejs:incomplete_diamond_backpack" }, { "item": "minecraft:diamond" }], "results": [{ "id": "kubejs:incomplete_diamond_backpack" }] },
+            { "type": "create:deploying", "ingredients": [{ "item": "kubejs:incomplete_diamond_backpack" }, { "item": "minecraft:diamond" }], "results": [{ "id": "kubejs:incomplete_diamond_backpack" }] },
+            { "type": "create:pressing", "ingredients": [{ "item": "kubejs:incomplete_diamond_backpack" }], "results": [{ "id": "kubejs:incomplete_diamond_backpack" }] }
+        ],
+        "results": [{ "id": "sophisticatedbackpacks:diamond_backpack" }],
+        "loops": 1
+    });
+
+    // 4. Netherite Backpack
+    event.custom({
+        "type": "create:sequenced_assembly",
+        "ingredient": { "item": "sophisticatedbackpacks:diamond_backpack" },
+        "transitional_item": { "id": "kubejs:incomplete_netherite_backpack" },
+        "sequence": [
+            { "type": "create:deploying", "ingredients": [{ "item": "kubejs:incomplete_netherite_backpack" }, { "item": "alltheores:netherite_plate" }], "results": [{ "id": "kubejs:incomplete_netherite_backpack" }] },
+            { "type": "create:deploying", "ingredients": [{ "item": "kubejs:incomplete_netherite_backpack" }, { "item": "alltheores:netherite_plate" }], "results": [{ "id": "kubejs:incomplete_netherite_backpack" }] },
+            { "type": "create:deploying", "ingredients": [{ "item": "kubejs:incomplete_netherite_backpack" }, { "item": "alltheores:netherite_plate" }], "results": [{ "id": "kubejs:incomplete_netherite_backpack" }] },
+            { "type": "create:pressing", "ingredients": [{ "item": "kubejs:incomplete_netherite_backpack" }], "results": [{ "id": "kubejs:incomplete_netherite_backpack" }] }
+        ],
+        "results": [{ "id": "sophisticatedbackpacks:netherite_backpack" }],
+        "loops": 1
+    });
 
     // --- ENGINEER'S WORKBENCH BLUEPRINT RECIPES (Immersive Engineering) ---
 

@@ -84,7 +84,7 @@ ServerEvents.recipes(event => {
     // Made by Create crushing soul materials
     event.recipes.create.crushing([
         'malum:hex_ash',
-        Item.of('malum:hex_ash').withChance(0.5)
+        CreateItem.of('malum:hex_ash', 0.5)
     ], 'malum:soulstone_ingot');
 
     // --- SPIRIT FABRIC ---
@@ -159,8 +159,8 @@ ServerEvents.recipes(event => {
     // Vampire Fangs can be processed in Create for essence
     event.recipes.create.crushing([
         'minecraft:bone_meal',
-        Item.of('minecraft:bone_meal').withChance(0.5),
-        Item.of('minecraft:redstone').withChance(0.25)
+        CreateItem.of('minecraft:bone_meal', 0.5),
+        CreateItem.of('minecraft:redstone', 0.25)
     ], 'vampirism:vampire_fang');
 
     // --- BLOOD PROCESSING (Tech meets dark magic) ---
@@ -187,7 +187,7 @@ ServerEvents.recipes(event => {
     // (Used in anti-vampire technology)
     event.recipes.create.milling([
         'vampirism:item_garlic',
-        Item.of('vampirism:item_garlic').withChance(0.5)
+        CreateItem.of('vampirism:item_garlic', 0.5)
     ], 'vampirism:item_garlic');
 
     // ==========================================
@@ -198,8 +198,8 @@ ServerEvents.recipes(event => {
     // Deeper Darker ores processed via Create for bonus
     event.recipes.create.crushing([
         'minecraft:echo_shard',
-        Item.of('minecraft:echo_shard').withChance(0.35),
-        Item.of('minecraft:sculk').withChance(0.5)
+        CreateItem.of('minecraft:echo_shard', 0.35),
+        CreateItem.of('minecraft:sculk', 0.5)
     ], 'minecraft:sculk_catalyst');
 
     // --- WARDEN CARAPACE ---

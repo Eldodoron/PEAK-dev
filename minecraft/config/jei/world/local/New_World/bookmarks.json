@@ -6,5 +6,7 @@
   {"recipe":"immersiveengineering:crafting/toolupgrade_powerpack_magnet","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
   {"recipe":"immersiveengineering:blueprint/component_electronic_adv","recipeType":"immersiveengineering:blueprint","bookmarkType":"RECIPE"},
   {"ingredient":{"id":"tfmg:electromagnetic_coil"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"recipe":"tfmg:mixing/magnetic_alloy","recipeType":"create:mixing","bookmarkType":"RECIPE"}
+  {"recipe":"tfmg:mixing/magnetic_alloy","recipeType":"create:mixing","bookmarkType":"RECIPE"},
+  {"recipe":"immersiveengineering:kjs/da80qfwvvhx8g16d09maxnsgh","recipeType":"immersiveengineering:blueprint","bookmarkType":"RECIPE"},
+  {"ingredient":{"id":"apotheosis:mythic_material"},"type":"item_stack","bookmarkType":"INGREDIENT"}
 ]

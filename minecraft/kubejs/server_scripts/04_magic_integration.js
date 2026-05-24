@@ -188,7 +188,7 @@ ServerEvents.recipes(event => {
     // Ironwood processing via Create
     event.recipes.create.crushing([
         'twilightforest:raw_ironwood',
-        Item.of('twilightforest:raw_ironwood').withChance(0.4)
+        CreateItem.of('twilightforest:raw_ironwood', 0.4)
     ], 'twilightforest:ironwood_ore');
 
     // ==========================================
@@ -301,7 +301,7 @@ ServerEvents.recipes(event => {
     // Arcane Essence can be crushed in Create for bonus output
     event.recipes.create.crushing([
         '2x irons_spellbooks:arcane_essence',
-        Item.of('irons_spellbooks:arcane_essence').withChance(0.3)
+        CreateItem.of('irons_spellbooks:arcane_essence', 0.3)
     ], 'ars_nouveau:source_gem');
 
     // --- ARCANE INGOT (Iron's Spellbooks core material) ---
@@ -338,7 +338,7 @@ ServerEvents.recipes(event => {
     // (Amethyst has innate magical resonance in lore)
     event.recipes.create.crushing([
         'minecraft:amethyst_shard',
-        Item.of('ars_nouveau:source_gem').withChance(0.15)
+        CreateItem.of('ars_nouveau:source_gem', 0.15)
     ], 'minecraft:amethyst_block');
 
     // ==========================================
@@ -354,7 +354,7 @@ ServerEvents.recipes(event => {
         [
             '#c:ingots/copper',
             'create:zinc_ingot',
-            Item.of('ars_nouveau:source_gem').withChance(0.1)
+            CreateItem.of('ars_nouveau:source_gem', 0.1)
         ]
     ).heated();
 

@@ -1,8 +1,3 @@
-/spark profiler start --timeout 500
-/effect give EldoTest minecraft:bad_omen 999999 6
-/give EldoTest minecraft:bell
-/summon minecraft:villager
-/give EldoTest minecraft:white_bed
 /summon minecraft:villager
 /effect give EldoTest minecraft:bad_omen 999999 6
 /relics maximize
@@ -48,3 +43,8 @@
 /chunky start minecraft:overworld square 0 0 1000 1000
 /give EldoTest minecraft:ender_pearl
 /reload
+/difficulty hard
+/apoth set_world_tier EldoTest frontier
+/reload
+/supp configs open
+/apoth set_world_tier EldoTest pinnacle

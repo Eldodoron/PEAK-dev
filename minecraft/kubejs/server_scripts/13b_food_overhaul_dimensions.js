@@ -13,43 +13,111 @@ ServerEvents.recipes(event => {
 
     // Ghast Burger: Bread â†’ Deploy exp115 â†’ Deploy beet â†’ Deploy tomato â†’ Deploy onion
     event.remove({ id: 'twilightdelight:ghast_burger' });
-    event.recipes.create.sequenced_assembly([
-        Item.of('twilightdelight:ghast_burger')
-    ], '#c:foods/bread', [
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', 'twilightforest:experiment_115']),
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', '#c:crops/beetroot']),
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', '#c:foods/tomato'])
-    ]).transitionalItem('kubejs:incomplete_ender_eye').loops(1);
+    event.custom({
+        "type": "create:sequenced_assembly",
+        "ingredient": { "tag": "c:foods/bread" },
+        "transitional_item": { "id": "kubejs:incomplete_ender_eye" },
+        "sequence": [
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "item": "twilightforest:experiment_115" }],
+                "results": [{ "id": "kubejs:incomplete_ender_eye" }]
+            },
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "tag": "c:crops/beetroot" }],
+                "results": [{ "id": "kubejs:incomplete_ender_eye" }]
+            },
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "tag": "c:foods/tomato" }],
+                "results": [{ "id": "kubejs:incomplete_ender_eye" }]
+            }
+        ],
+        "results": [{ "id": "twilightdelight:ghast_burger" }],
+        "loops": 1
+    });
 
     // Hydra Burger: Bread â†’ Deploy hydra meat â†’ Deploy lettuce â†’ Deploy tomato â†’ Deploy onion
     event.remove({ id: 'twilightdelight:hydra_burger' });
-    event.recipes.create.sequenced_assembly([
-        Item.of('twilightdelight:hydra_burger')
-    ], { tag: 'c:foods/bread' }, [
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', { tag: 'twilightdelight:hydra_meat' }]),
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', { tag: 'c:foods/leafy_green' }]),
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', { tag: 'c:foods/tomato' }])
-    ]).transitionalItem('farmersdelight:wheat_dough').loops(1);
+    event.custom({
+        "type": "create:sequenced_assembly",
+        "ingredient": { "tag": "c:foods/bread" },
+        "transitional_item": { "id": "farmersdelight:wheat_dough" },
+        "sequence": [
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "tag": "twilightdelight:hydra_meat" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            },
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "tag": "c:foods/leafy_green" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            },
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "tag": "c:foods/tomato" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            }
+        ],
+        "results": [{ "id": "twilightdelight:hydra_burger" }],
+        "loops": 1
+    });
 
     // Meef Wrap: Bread â†’ Deploy meef â†’ Deploy lettuce â†’ Deploy onion
     event.remove({ id: 'twilightdelight:meef_wrap' });
-    event.recipes.create.sequenced_assembly([
-        Item.of('twilightdelight:meef_wrap')
-    ], { tag: 'c:foods/bread' }, [
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', { tag: 'twilightdelight:meef_cooked' }]),
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', { tag: 'c:foods/leafy_green' }]),
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', { tag: 'c:foods/onion' }])
-    ]).transitionalItem('farmersdelight:wheat_dough').loops(1);
+    event.custom({
+        "type": "create:sequenced_assembly",
+        "ingredient": { "tag": "c:foods/bread" },
+        "transitional_item": { "id": "farmersdelight:wheat_dough" },
+        "sequence": [
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "tag": "twilightdelight:meef_cooked" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            },
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "tag": "c:foods/leafy_green" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            },
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "tag": "c:foods/onion" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            }
+        ],
+        "results": [{ "id": "twilightdelight:meef_wrap" }],
+        "loops": 1
+    });
 
     // Torchberry Venison Sandwich: Bread â†’ Deploy venison â†’ Deploy lettuce â†’ Deploy torchberry
     event.remove({ id: 'twilightdelight:torchberry_venison_sandwich' });
-    event.recipes.create.sequenced_assembly([
-        Item.of('twilightdelight:torchberry_venison_sandwich')
-    ], { tag: 'c:foods/bread' }, [
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', { tag: 'twilightdelight:vension_cooked' }]),
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', { tag: 'c:foods/leafy_green' }]),
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', 'twilightforest:torchberries'])
-    ]).transitionalItem('farmersdelight:wheat_dough').loops(1);
+    event.custom({
+        "type": "create:sequenced_assembly",
+        "ingredient": { "tag": "c:foods/bread" },
+        "transitional_item": { "id": "farmersdelight:wheat_dough" },
+        "sequence": [
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "tag": "twilightdelight:vension_cooked" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            },
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "tag": "c:foods/leafy_green" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            },
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "item": "twilightforest:torchberries" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            }
+        ],
+        "results": [{ "id": "twilightdelight:torchberry_venison_sandwich" }],
+        "loops": 1
+    });
 
     // --- SALADS & SOUPS (Mixing) ---
 
@@ -119,25 +187,67 @@ ServerEvents.recipes(event => {
 
     // Aurora Pie: Crust â†’ Deploy aurora â†’ Deploy sugar â†’ Press
     event.remove({ id: 'twilightdelight:aurora_pie' });
-    event.recipes.create.sequenced_assembly([
-        Item.of('twilightdelight:aurora_pie')
-    ], 'farmersdelight:pie_crust', [
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', 'twilightforest:torchberries']),
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', 'twilightforest:torchberries']),
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', 'minecraft:sugar']),
-        event.recipes.create.pressing('kubejs:incomplete_ender_eye', 'kubejs:incomplete_ender_eye')
-    ]).transitionalItem('farmersdelight:wheat_dough').loops(1);
+    event.custom({
+        "type": "create:sequenced_assembly",
+        "ingredient": { "item": "farmersdelight:pie_crust" },
+        "transitional_item": { "id": "farmersdelight:wheat_dough" },
+        "sequence": [
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "item": "twilightforest:torchberries" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            },
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "item": "twilightforest:torchberries" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            },
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "item": "minecraft:sugar" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            },
+            {
+                "type": "create:pressing",
+                "ingredients": [{ "item": "farmersdelight:wheat_dough" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            }
+        ],
+        "results": [{ "id": "twilightdelight:aurora_pie" }],
+        "loops": 1
+    });
 
     // Torchberry Pie: Same concept
     event.remove({ id: 'twilightdelight:torchberry_pie' });
-    event.recipes.create.sequenced_assembly([
-        Item.of('twilightdelight:torchberry_pie')
-    ], 'farmersdelight:pie_crust', [
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', 'twilightforest:torchberries']),
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', 'twilightforest:torchberries']),
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', 'minecraft:sugar']),
-        event.recipes.create.pressing('kubejs:incomplete_ender_eye', 'kubejs:incomplete_ender_eye')
-    ]).transitionalItem('farmersdelight:wheat_dough').loops(1);
+    event.custom({
+        "type": "create:sequenced_assembly",
+        "ingredient": { "item": "farmersdelight:pie_crust" },
+        "transitional_item": { "id": "farmersdelight:wheat_dough" },
+        "sequence": [
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "item": "twilightforest:torchberries" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            },
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "item": "twilightforest:torchberries" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            },
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "item": "minecraft:sugar" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            },
+            {
+                "type": "create:pressing",
+                "ingredients": [{ "item": "farmersdelight:wheat_dough" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            }
+        ],
+        "results": [{ "id": "twilightdelight:torchberry_pie" }],
+        "loops": 1
+    });
 
     // --- FEAST BLOCKS (Mechanical Crafting) ---
 
@@ -219,13 +329,30 @@ ServerEvents.recipes(event => {
 
     // Nether Burger: Bread â†’ Deploy loin â†’ Deploy vines â†’ Deploy fungi
     event.remove({ id: 'mynethersdelight:nether_burger' });
-    event.recipes.create.sequenced_assembly([
-        Item.of('mynethersdelight:nether_burger')
-    ], { tag: 'c:foods/bread' }, [
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', 'mynethersdelight:cooked_loin']),
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', 'minecraft:crimson_fungus']),
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', 'minecraft:warped_fungus'])
-    ]).transitionalItem('farmersdelight:wheat_dough').loops(1);
+    event.custom({
+        "type": "create:sequenced_assembly",
+        "ingredient": { "tag": "c:foods/bread" },
+        "transitional_item": { "id": "farmersdelight:wheat_dough" },
+        "sequence": [
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "item": "mynethersdelight:cooked_loin" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            },
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "item": "minecraft:crimson_fungus" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            },
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "item": "minecraft:warped_fungus" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            }
+        ],
+        "results": [{ "id": "mynethersdelight:nether_burger" }],
+        "loops": 1
+    });
 
     // Hotdog: Bread â†’ Deploy sausage
     event.remove({ id: 'mynethersdelight:hotdog' });
@@ -305,40 +432,96 @@ ServerEvents.recipes(event => {
 
     // Bacon Wrapped Sausage Stick
     event.remove({ id: 'mynethersdelight:bacon_wrapped_sausage_stick' });
-    event.recipes.create.sequenced_assembly([
-        Item.of('mynethersdelight:bacon-wrapped_sausage_on_a_stick')
-    ], 'minecraft:stick', [
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', 'mynethersdelight:roasted_sausage']),
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', 'farmersdelight:cooked_bacon'])
-    ]).transitionalItem('farmersdelight:wheat_dough').loops(1);
+    event.custom({
+        "type": "create:sequenced_assembly",
+        "ingredient": { "item": "minecraft:stick" },
+        "transitional_item": { "id": "farmersdelight:wheat_dough" },
+        "sequence": [
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "item": "mynethersdelight:roasted_sausage" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            },
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "item": "farmersdelight:cooked_bacon" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            }
+        ],
+        "results": [{ "id": "mynethersdelight:bacon-wrapped_sausage_on_a_stick" }],
+        "loops": 1
+    });
 
     // Red Loin on a Stick
     event.remove({ id: 'mynethersdelight:red_loin_on_a_stick' });
-    event.recipes.create.sequenced_assembly([
-        Item.of('mynethersdelight:red_loin_on_a_stick')
-    ], 'minecraft:stick', [
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', 'mynethersdelight:cooked_loin']),
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', 'minecraft:crimson_fungus']),
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', 'minecraft:red_mushroom'])
-    ]).transitionalItem('farmersdelight:wheat_dough').loops(1);
+    event.custom({
+        "type": "create:sequenced_assembly",
+        "ingredient": { "item": "minecraft:stick" },
+        "transitional_item": { "id": "farmersdelight:wheat_dough" },
+        "sequence": [
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "item": "mynethersdelight:cooked_loin" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            },
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "item": "minecraft:crimson_fungus" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            },
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "item": "minecraft:red_mushroom" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            }
+        ],
+        "results": [{ "id": "mynethersdelight:red_loin_on_a_stick" }],
+        "loops": 1
+    });
 
     // Spicy Skewer
     event.remove({ id: 'mynethersdelight:spicy_skewer' });
-    event.recipes.create.sequenced_assembly([
-        Item.of('mynethersdelight:spicy_skewer')
-    ], 'minecraft:blaze_rod', [
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', 'mynethersdelight:bullet_pepper']),
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', 'mynethersdelight:bullet_pepper'])
-    ]).transitionalItem('farmersdelight:wheat_dough').loops(1);
+    event.custom({
+        "type": "create:sequenced_assembly",
+        "ingredient": { "item": "minecraft:blaze_rod" },
+        "transitional_item": { "id": "farmersdelight:wheat_dough" },
+        "sequence": [
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "item": "mynethersdelight:bullet_pepper" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            },
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "item": "mynethersdelight:bullet_pepper" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            }
+        ],
+        "results": [{ "id": "mynethersdelight:spicy_skewer" }],
+        "loops": 1
+    });
 
     // Spicy Cotton
     event.remove({ id: 'mynethersdelight:spicy_cotton' });
-    event.recipes.create.sequenced_assembly([
-        Item.of('mynethersdelight:spicy_cotton')
-    ], 'minecraft:blaze_rod', [
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', 'mynethersdelight:ghasta']),
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', 'mynethersdelight:ghasta'])
-    ]).transitionalItem('farmersdelight:wheat_dough').loops(1);
+    event.custom({
+        "type": "create:sequenced_assembly",
+        "ingredient": { "item": "minecraft:blaze_rod" },
+        "transitional_item": { "id": "farmersdelight:wheat_dough" },
+        "sequence": [
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "item": "mynethersdelight:ghasta" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            },
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "item": "mynethersdelight:ghasta" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            }
+        ],
+        "results": [{ "id": "mynethersdelight:spicy_cotton" }],
+        "loops": 1
+    });
 
     // --- NETHER DOUGH & BAKING (Mixing/Pressing) ---
 
@@ -383,13 +566,30 @@ ServerEvents.recipes(event => {
 
     // Tear Popsicle: Sequenced Assembly (frozen treat)
     event.remove({ id: 'mynethersdelight:tear_popsicle' });
-    event.recipes.create.sequenced_assembly([
-        Item.of('mynethersdelight:tear_popsicle')
-    ], 'minecraft:stick', [
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', 'minecraft:ghast_tear']),
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', 'minecraft:ice']),
-        event.recipes.create.pressing('kubejs:incomplete_ender_eye', 'kubejs:incomplete_ender_eye')
-    ]).transitionalItem('farmersdelight:wheat_dough').loops(1);
+    event.custom({
+        "type": "create:sequenced_assembly",
+        "ingredient": { "item": "minecraft:stick" },
+        "transitional_item": { "id": "farmersdelight:wheat_dough" },
+        "sequence": [
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "item": "minecraft:ghast_tear" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            },
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "item": "minecraft:ice" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            },
+            {
+                "type": "create:pressing",
+                "ingredients": [{ "item": "farmersdelight:wheat_dough" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            }
+        ],
+        "results": [{ "id": "mynethersdelight:tear_popsicle" }],
+        "loops": 1
+    });
 
     // Hot Cream Cone: Mixing
     event.remove({ id: 'mynethersdelight:hotcream_cone' });
@@ -431,14 +631,35 @@ ServerEvents.recipes(event => {
 
     // Chorus Pie: Sequenced Assembly
     event.remove({ id: 'endersdelight:chorus_pie' });
-    event.recipes.create.sequenced_assembly([
-        Item.of('endersdelight:chorus_pie')
-    ], 'farmersdelight:pie_crust', [
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', 'minecraft:chorus_fruit']),
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', 'minecraft:chorus_fruit']),
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', 'minecraft:sugar']),
-        event.recipes.create.pressing('kubejs:incomplete_ender_eye', 'kubejs:incomplete_ender_eye')
-    ]).transitionalItem('farmersdelight:wheat_dough').loops(1);
+    event.custom({
+        "type": "create:sequenced_assembly",
+        "ingredient": { "item": "farmersdelight:pie_crust" },
+        "transitional_item": { "id": "farmersdelight:wheat_dough" },
+        "sequence": [
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "item": "minecraft:chorus_fruit" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            },
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "item": "minecraft:chorus_fruit" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            },
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "item": "minecraft:sugar" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            },
+            {
+                "type": "create:pressing",
+                "ingredients": [{ "item": "farmersdelight:wheat_dough" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            }
+        ],
+        "results": [{ "id": "endersdelight:chorus_pie" }],
+        "loops": 1
+    });
 
     // Chorus Juice: Mixing
     event.remove({ id: 'endersdelight:chorus_juice' });
@@ -449,21 +670,47 @@ ServerEvents.recipes(event => {
 
     // Crawling Sandwich: Sequenced Assembly
     event.remove({ id: 'endersdelight:crawling_sandwich' });
-    event.recipes.create.sequenced_assembly([
-        Item.of('endersdelight:crawling_sandwich')
-    ], '#c:foods/bread', [
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', 'endersdelight:mite_crust']),
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', '#c:foods/leafy_green'])
-    ]).transitionalItem('kubejs:incomplete_ender_eye').loops(1);
+    event.custom({
+        "type": "create:sequenced_assembly",
+        "ingredient": { "tag": "c:foods/bread" },
+        "transitional_item": { "id": "kubejs:incomplete_ender_eye" },
+        "sequence": [
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "item": "endersdelight:mite_crust" }],
+                "results": [{ "id": "kubejs:incomplete_ender_eye" }]
+            },
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "tag": "c:foods/leafy_green" }],
+                "results": [{ "id": "kubejs:incomplete_ender_eye" }]
+            }
+        ],
+        "results": [{ "id": "endersdelight:crawling_sandwich" }],
+        "loops": 1
+    });
 
     // Crispy Skewer: Deploying on stick
     event.remove({ id: 'endersdelight:crispy_skewer' });
-    event.recipes.create.sequenced_assembly([
-        Item.of('endersdelight:crispy_skewer')
-    ], 'minecraft:stick', [
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', 'endersdelight:mite_crust']),
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', 'endersdelight:mite_crust'])
-    ]).transitionalItem('kubejs:incomplete_ender_eye').loops(1);
+    event.custom({
+        "type": "create:sequenced_assembly",
+        "ingredient": { "item": "minecraft:stick" },
+        "transitional_item": { "id": "kubejs:incomplete_ender_eye" },
+        "sequence": [
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "item": "endersdelight:mite_crust" }],
+                "results": [{ "id": "kubejs:incomplete_ender_eye" }]
+            },
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "item": "endersdelight:mite_crust" }],
+                "results": [{ "id": "kubejs:incomplete_ender_eye" }]
+            }
+        ],
+        "results": [{ "id": "endersdelight:crispy_skewer" }],
+        "loops": 1
+    });
 
     // Shulker Bowl: Heated mixing
     event.remove({ id: 'minecraft:barrier' });

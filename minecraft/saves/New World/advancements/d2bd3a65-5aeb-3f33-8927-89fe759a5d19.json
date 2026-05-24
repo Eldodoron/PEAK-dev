@@ -5112,77 +5112,540 @@
     },
     "done": true
   },
+  "irons_spellbooks:irons_spellbooks/staff_root": {
+    "criteria": {
+      "requirement": "2026-05-23 16:06:28 -0400"
+    },
+    "done": true
+  },
+  "apotheosis:progression/haven": {
+    "criteria": {
+      "affixed": "2026-05-23 16:06:28 -0400"
+    },
+    "done": true
+  },
+  "irons_spellbooks:irons_spellbooks/ink_root": {
+    "criteria": {
+      "requirement": "2026-05-23 16:06:29 -0400"
+    },
+    "done": true
+  },
+  "minecraft:story/obtain_armor": {
+    "criteria": {
+      "iron_chestplate": "2026-05-23 16:08:23 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget_from_smelting": {
+    "criteria": {
+      "has_iron_chestplate": "2026-05-23 16:08:23 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget_from_blasting": {
+    "criteria": {
+      "has_iron_chestplate": "2026-05-23 16:08:23 -0400"
+    },
+    "done": true
+  },
+  "apotheosis:progression/frontier": {
+    "criteria": {
+      "rare_hand": "2026-05-23 16:08:28 -0400"
+    },
+    "done": false
+  },
+  "alexsmobs:alexsmobs/grizzly_bear": {
+    "criteria": {
+      "killed_by": "2026-05-23 16:12:32 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/curiosities/brown_toolbox": {
+    "criteria": {
+      "has_item": "2026-05-23 17:04:43 -0400"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/survey_tools": {
+    "criteria": {
+      "has_hammer": "2026-05-23 17:05:06 -0400"
+    },
+    "done": true
+  },
+  "immersiveengineering:main/craft_hammer": {
+    "criteria": {
+      "has_item": "2026-05-23 17:05:06 -0400"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/gold_backpack": {
+    "criteria": {
+      "has_iron_backpack": "2026-05-23 17:05:50 -0400"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/diamond_backpack": {
+    "criteria": {
+      "has_gold_backpack": "2026-05-23 17:07:12 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2026-05-24 01:52:19 -0400"
+    },
+    "done": true
+  },
+  "gatesofavarice:recipes/misc/tier_2_crystal": {
+    "criteria": {
+      "has_mystic_essence": "2026-05-24 01:52:19 -0400"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/fodder": {
+    "criteria": {
+      "has_item_minecraft_hay_block_1": "2026-05-24 01:52:19 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/target": {
+    "criteria": {
+      "has_hay_block": "2026-05-24 01:52:19 -0400"
+    },
+    "done": true
+  },
+  "gatesofavarice:recipes/misc/mana_steel_upgrade_template": {
+    "criteria": {
+      "has_mana_steel_scrap": "2026-05-24 01:52:19 -0400"
+    },
+    "done": true
+  },
+  "gatesofavarice:recipes/misc/mana_steel_ingot": {
+    "criteria": {
+      "has_mana_steel_scrap": "2026-05-24 01:52:19 -0400"
+    },
+    "done": true
+  },
+  "gatesofavarice:recipes/misc/crystal_theme_attunement": {
+    "criteria": {
+      "has_theme_item": "2026-05-24 01:52:19 -0400"
+    },
+    "done": false
+  },
+  "minecraft:recipes/misc/wheat": {
+    "criteria": {
+      "has_hay_block": "2026-05-24 01:52:19 -0400"
+    },
+    "done": true
+  },
+  "domum_ornamentum:recipes/tools/green_cactus_extra": {
+    "criteria": {
+      "has_material": "2026-05-24 01:52:41 -0400"
+    },
+    "done": true
+  },
+  "mowziesmobs:recipes/combat/blowgun": {
+    "criteria": {
+      "has_bamboo": "2026-05-24 01:52:41 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/paper": {
+    "criteria": {
+      "has_reeds": "2026-05-24 01:52:41 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/sugar_from_sugar_cane": {
+    "criteria": {
+      "has_sugar_cane": "2026-05-24 01:52:41 -0400"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/flute": {
+    "criteria": {
+      "has_item_minecraft_bamboo_1": "2026-05-24 01:52:41 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/stick_from_bamboo_item": {
+    "criteria": {
+      "has_bamboo": "2026-05-24 01:52:41 -0400"
+    },
+    "done": true
+  },
+  "domum_ornamentum:recipes/tools/cactus_extra": {
+    "criteria": {
+      "has_material": "2026-05-24 01:52:41 -0400"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/wicker_fence": {
+    "criteria": {
+      "has_item_minecraft_sugar_cane_1": "2026-05-24 01:52:41 -0400"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/bamboo_spikes": {
+    "criteria": {
+      "has_item_minecraft_bamboo_2": "2026-05-24 01:52:41 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/green_dye": {
+    "criteria": {
+      "has_cactus": "2026-05-24 01:52:41 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/scaffolding": {
+    "criteria": {
+      "has_bamboo": "2026-05-24 01:52:41 -0400"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/lunch_basket": {
+    "criteria": {
+      "has_item_minecraft_bamboo_2": "2026-05-24 01:52:41 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bamboo_block": {
+    "criteria": {
+      "has_bamboo": "2026-05-24 01:52:41 -0400"
+    },
+    "done": true
+  },
+  "gatesofavarice:recipes/misc/magnetite_ingot": {
+    "criteria": {
+      "has_magnetite_scrap": "2026-05-24 01:53:22 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/building_blocks/carrot_crate": {
+    "criteria": {
+      "has_carrot": "2026-05-24 01:53:23 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/rabbit_stew": {
+    "criteria": {
+      "has_any_ingredient": "2026-05-24 01:53:23 -0400"
+    },
+    "done": true
+  },
+  "veggiesdelight:recipes/food/carrot_cake": {
+    "criteria": {
+      "has_carrot": "2026-05-24 01:53:23 -0400"
+    },
+    "done": true
+  },
+  "veggiesdelight:recipes/cooking/cooking/roasted_veggies": {
+    "criteria": {
+      "has_any_ingredient": "2026-05-24 01:53:23 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/vegetable_noodles": {
+    "criteria": {
+      "has_any_ingredient": "2026-05-24 01:53:23 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/fried_rice": {
+    "criteria": {
+      "has_any_ingredient": "2026-05-24 01:53:23 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/beef_stew": {
+    "criteria": {
+      "has_any_ingredient": "2026-05-24 01:53:23 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/carrot_on_a_stick": {
+    "criteria": {
+      "has_carrot": "2026-05-24 01:53:23 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/chicken_soup": {
+    "criteria": {
+      "has_any_ingredient": "2026-05-24 01:53:23 -0400"
+    },
+    "done": true
+  },
+  "paraglider:recipes/misc/energizing_mixture": {
+    "criteria": {
+      "has_carrot": "2026-05-24 01:53:23 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/vegetable_soup": {
+    "criteria": {
+      "has_any_ingredient": "2026-05-24 01:53:23 -0400"
+    },
+    "done": true
+  },
+  "veggiesdelight:recipes/cooking/cooking/carrot_juice": {
+    "criteria": {
+      "has_carrot": "2026-05-24 01:53:23 -0400"
+    },
+    "done": true
+  },
+  "veggiesdelight:main/r_first_veggie": {
+    "criteria": {
+      "first": "2026-05-24 01:53:23 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/apple_cider": {
+    "criteria": {
+      "has_apple": "2026-05-24 01:53:24 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato_from_campfire_cooking": {
+    "criteria": {
+      "has_potato": "2026-05-24 01:53:24 -0400"
+    },
+    "done": true
+  },
+  "veggiesdelight:recipes/misc/vegetarian_patty": {
+    "criteria": {
+      "has_potato": "2026-05-24 01:53:24 -0400"
+    },
+    "done": true
+  },
+  "veggiesdelight:recipes/cooking/cooking/mashed_potatoes": {
+    "criteria": {
+      "has_any_ingredient": "2026-05-24 01:53:24 -0400"
+    },
+    "done": true
+  },
+  "minecolonies:recipes/food/apple_pie": {
+    "criteria": {
+      "has_apple": "2026-05-24 01:53:24 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/baked_cod_stew": {
+    "criteria": {
+      "has_any_ingredient": "2026-05-24 01:53:24 -0400"
+    },
+    "done": true
+  },
+  "veggiesdelight:recipes/cooking/cooking/potato_noodle": {
+    "criteria": {
+      "has_any_ingredient": "2026-05-24 01:53:24 -0400"
+    },
+    "done": true
+  },
+  "minecolonies:recipes/food/potato_soup": {
+    "criteria": {
+      "has_potato": "2026-05-24 01:53:24 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato_from_smoking": {
+    "criteria": {
+      "has_potato": "2026-05-24 01:53:24 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/building_blocks/potato_crate": {
+    "criteria": {
+      "has_potato": "2026-05-24 01:53:24 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato": {
+    "criteria": {
+      "has_potato": "2026-05-24 01:53:24 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/building_blocks/beetroot_crate": {
+    "criteria": {
+      "has_beetroot": "2026-05-24 01:53:25 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/beetroot_soup": {
+    "criteria": {
+      "has_beetroot": "2026-05-24 01:53:25 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/beetroot_soup": {
+    "criteria": {
+      "has_beetroot": "2026-05-24 01:53:25 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/ratatouille": {
+    "criteria": {
+      "has_any_ingredient": "2026-05-24 01:53:25 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_beetroot": {
+    "criteria": {
+      "has_beetroot": "2026-05-24 01:53:25 -0400"
+    },
+    "done": true
+  },
+  "veggiesdelight:recipes/food/beetroot_brownie_tray": {
+    "criteria": {
+      "has_beetroot": "2026-05-24 01:53:25 -0400"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/drying/drying/sapling_to_dead_bush": {
+    "criteria": {
+      "has_sapling": "2026-05-24 01:54:06 -0400"
+    },
+    "done": true
+  },
+  "gatesofavarice:recipes/misc/tier_3_crystal": {
+    "criteria": {
+      "has_arcane_essence": "2026-05-24 01:54:06 -0400"
+    },
+    "done": true
+  },
+  "gatesofavarice:recipes/misc/arcane_apple": {
+    "criteria": {
+      "has_ingredients": "2026-05-24 01:54:06 -0400"
+    },
+    "done": true
+  },
+  "gobber2:gobber2_sword_end": {
+    "criteria": {
+      "gobber2_sword_end": "2026-05-24 01:55:36 -0400"
+    },
+    "done": true
+  },
+  "iceandfire:iceandfire/dragonsteel_weapon": {
+    "criteria": {
+      "sword": "2026-05-24 01:56:10 -0400"
+    },
+    "done": true
+  },
+  "avaritia:infinity/infinity_sword": {
+    "criteria": {
+      "main": "2026-05-24 01:56:54 -0400"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "minecraft:zombie": "2026-05-24 01:56:58 -0400"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "minecraft:zombie": "2026-05-24 01:56:58 -0400",
+      "minecraft:evoker": "2026-05-24 01:57:14 -0400"
+    },
+    "done": false
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2026-05-24 01:56:58 -0400"
+    },
+    "done": true
+  },
+  "friendsandfoes:adventure/the_magicians": {
+    "criteria": {
+      "killed_evoker": "2026-05-24 01:57:14 -0400"
+    },
+    "done": false
+  },
+  "minecraft:adventure/voluntary_exile": {
+    "criteria": {
+      "voluntary_exile": "2026-05-24 01:57:14 -0400"
+    },
+    "done": true
+  },
   "incendium:technical/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2026-05-23 14:40:07 -0400"
+      "log_spam_fixer": "2026-05-24 01:57:35 -0400"
     },
     "done": false
   },
   "incendium:technical/on_block": {
     "criteria": {
-      "log_spam_fixer": "2026-05-23 14:40:07 -0400"
+      "log_spam_fixer": "2026-05-24 01:57:35 -0400"
     },
     "done": false
   },
   "incendium:technical/feed_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2026-05-23 14:40:07 -0400"
+      "log_spam_fixer": "2026-05-24 01:57:35 -0400"
     },
     "done": false
   },
   "incendium:technical/multiplex_crossbow": {
     "criteria": {
-      "log_spam_fixer": "2026-05-23 14:40:07 -0400"
+      "log_spam_fixer": "2026-05-24 01:57:35 -0400"
     },
     "done": false
   },
   "incendium:technical/on_player_hurt": {
     "criteria": {
-      "log_spam_fixer": "2026-05-23 14:40:07 -0400"
+      "log_spam_fixer": "2026-05-24 01:57:35 -0400"
     },
     "done": false
   },
   "incendium:technical/on_kill": {
     "criteria": {
-      "log_spam_fixer": "2026-05-23 14:40:07 -0400"
+      "log_spam_fixer": "2026-05-24 01:57:35 -0400"
     },
     "done": false
   },
   "incendium:technical/on_inventory_change": {
     "criteria": {
-      "log_spam_fixer": "2026-05-23 14:40:07 -0400"
+      "log_spam_fixer": "2026-05-24 01:57:35 -0400"
     },
     "done": false
   },
   "incendium:technical/holy_wrath": {
     "criteria": {
-      "log_spam_fixer": "2026-05-23 14:40:07 -0400"
+      "log_spam_fixer": "2026-05-24 01:57:35 -0400"
     },
     "done": false
   },
   "incendium:technical/inventory/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2026-05-23 14:40:07 -0400"
+      "log_spam_fixer": "2026-05-24 01:57:35 -0400"
     },
     "done": false
   },
   "incendium:technical/give_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2026-05-23 14:40:07 -0400"
+      "log_spam_fixer": "2026-05-24 01:57:35 -0400"
     },
     "done": false
   },
   "incendium:technical/inventory/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2026-05-23 14:40:07 -0400"
+      "log_spam_fixer": "2026-05-24 01:57:35 -0400"
     },
     "done": false
   },
   "incendium:technical/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2026-05-23 14:40:07 -0400"
+      "log_spam_fixer": "2026-05-24 01:57:35 -0400"
     },
     "done": false
+  },
+  "irons_spellbooks:irons_spellbooks/spell_book_evoker": {
+    "criteria": {
+      "requirement": "2026-05-24 01:57:36 -0400"
+    },
+    "done": true
   },
   "DataVersion": 3955
 }

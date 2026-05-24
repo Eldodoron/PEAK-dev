@@ -13,45 +13,113 @@ ServerEvents.recipes(event => {
 
     // Bison Burger: Bread → Deploy patty → Deploy lettuce → Deploy tomato
     event.remove({ id: 'alexsdelight:bison_burger' });
-    event.recipes.create.sequenced_assembly([
-        Item.of('alexsdelight:bison_burger')
-    ], { tag: 'c:foods/bread' }, [
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', 'alexsdelight:bison_patty']),
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', { tag: 'c:foods/leafy_green' }]),
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', { tag: 'c:crops/tomato' }])
-    ]).transitionalItem('farmersdelight:wheat_dough').loops(1);
+    event.custom({
+        "type": "create:sequenced_assembly",
+        "ingredient": { "tag": "c:foods/bread" },
+        "transitional_item": { "id": "farmersdelight:wheat_dough" },
+        "sequence": [
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "item": "alexsdelight:bison_patty" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            },
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "tag": "c:foods/leafy_green" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            },
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "tag": "c:crops/tomato" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            }
+        ],
+        "results": [{ "id": "alexsdelight:bison_burger" }],
+        "loops": 1
+    });
 
     // Kangaroo Burger: Bread → Deploy kangaroo → Deploy kangaroo → Deploy lettuce
     event.remove({ id: 'alexsdelight:kangaroo_burger' });
-    event.recipes.create.sequenced_assembly([
-        Item.of('alexsmobs:kangaroo_burger')
-    ], { tag: 'c:foods/bread' }, [
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', { tag: 'alexsdelight:cooked_kangaroo' }]),
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', { tag: 'alexsdelight:cooked_kangaroo' }]),
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', { tag: 'c:foods/leafy_green' }])
-    ]).transitionalItem('farmersdelight:wheat_dough').loops(1);
+    event.custom({
+        "type": "create:sequenced_assembly",
+        "ingredient": { "tag": "c:foods/bread" },
+        "transitional_item": { "id": "farmersdelight:wheat_dough" },
+        "sequence": [
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "tag": "alexsdelight:cooked_kangaroo" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            },
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "tag": "alexsdelight:cooked_kangaroo" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            },
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "tag": "c:foods/leafy_green" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            }
+        ],
+        "results": [{ "id": "alexsmobs:kangaroo_burger" }],
+        "loops": 1
+    });
 
     // --- SANDWICHES (Sequenced Assembly) ---
 
     // Bunfungus Sandwich: Bread → Deploy bunfungus → Deploy mushrooms
     event.remove({ id: 'alexsdelight:bunfungus_sandwich' });
-    event.recipes.create.sequenced_assembly([
-        Item.of('alexsdelight:bunfungus_sandwich')
-    ], { tag: 'c:foods/bread' }, [
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', 'alexsdelight:cooked_bunfungus']),
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', 'farmersdelight:red_mushroom_colony']),
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', 'farmersdelight:red_mushroom_colony'])
-    ]).transitionalItem('farmersdelight:wheat_dough').loops(1);
+    event.custom({
+        "type": "create:sequenced_assembly",
+        "ingredient": { "tag": "c:foods/bread" },
+        "transitional_item": { "id": "farmersdelight:wheat_dough" },
+        "sequence": [
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "item": "alexsdelight:cooked_bunfungus" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            },
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "item": "farmersdelight:red_mushroom_colony" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            },
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "item": "farmersdelight:red_mushroom_colony" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            }
+        ],
+        "results": [{ "id": "alexsdelight:bunfungus_sandwich" }],
+        "loops": 1
+    });
 
     // Gongylidia Bruschetta: Bread → Deploy gongylidia → Deploy oil → Deploy tomato
     event.remove({ id: 'alexsdelight:gongylidia_bruschetta' });
-    event.recipes.create.sequenced_assembly([
-        Item.of('alexsdelight:gongylidia_bruschetta')
-    ], { tag: 'c:foods/bread' }, [
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', 'alexsmobs:gongylidia']),
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', 'alexsmobs:fish_oil']),
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', { tag: 'c:crops/tomato' }])
-    ]).transitionalItem('farmersdelight:wheat_dough').loops(1);
+    event.custom({
+        "type": "create:sequenced_assembly",
+        "ingredient": { "tag": "c:foods/bread" },
+        "transitional_item": { "id": "farmersdelight:wheat_dough" },
+        "sequence": [
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "item": "alexsmobs:gongylidia" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            },
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "item": "alexsmobs:fish_oil" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            },
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "tag": "c:crops/tomato" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            }
+        ],
+        "results": [{ "id": "alexsdelight:gongylidia_bruschetta" }],
+        "loops": 1
+    });
 
     // --- SALADS (Mixing) ---
 
@@ -74,13 +142,30 @@ ServerEvents.recipes(event => {
 
     // Alex's Barbecue Stick: Stick → Deploy moose → Deploy chicken → Deploy vegs
     event.remove({ id: 'alexsdelight:barbecue_stick' });
-    event.recipes.create.sequenced_assembly([
-        Item.of('farmersdelight:barbecue_stick', 2)
-    ], 'minecraft:stick', [
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', 'alexsmobs:cooked_moose_ribs']),
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', 'minecraft:cooked_chicken']),
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', 'farmersdelight:tomato'])
-    ]).transitionalItem('farmersdelight:wheat_dough').loops(1);
+    event.custom({
+        "type": "create:sequenced_assembly",
+        "ingredient": { "item": "minecraft:stick" },
+        "transitional_item": { "id": "farmersdelight:wheat_dough" },
+        "sequence": [
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "item": "alexsmobs:cooked_moose_ribs" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            },
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "item": "minecraft:cooked_chicken" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            },
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "item": "farmersdelight:tomato" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            }
+        ],
+        "results": [Item.of('farmersdelight:barbecue_stick', 2)],
+        "loops": 1
+    });
 
     // ==========================================
     // AQUACULTURE DELIGHT
@@ -90,33 +175,76 @@ ServerEvents.recipes(event => {
 
     // Raw Fish Fillet Roll: Rice → Deploy raw fillet → Deploy raw fillet
     event.remove({ id: 'aquaculturedelight:raw_fish_fillet_roll' });
-    event.recipes.create.sequenced_assembly([
-        Item.of('aquaculturedelight:raw_fish_fillet_roll', 2)
-    ], 'farmersdelight:cooked_rice', [
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', 'aquaculture:fish_fillet_raw']),
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', 'aquaculture:fish_fillet_raw'])
-    ]).transitionalItem('farmersdelight:wheat_dough').loops(1);
+    event.custom({
+        "type": "create:sequenced_assembly",
+        "ingredient": { "item": "farmersdelight:cooked_rice" },
+        "transitional_item": { "id": "farmersdelight:wheat_dough" },
+        "sequence": [
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "item": "aquaculture:fish_fillet_raw" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            },
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "item": "aquaculture:fish_fillet_raw" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            }
+        ],
+        "results": [Item.of('aquaculturedelight:raw_fish_fillet_roll', 2)],
+        "loops": 1
+    });
 
     // Fried Perch Roll: Rice → Deploy fried perch
     event.remove({ id: 'aquaculturedelight:fried_perch_roll' });
-    event.recipes.create.sequenced_assembly([
-        Item.of('aquaculturedelight:fried_perch_roll', 2)
-    ], 'farmersdelight:cooked_rice', [
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', 'aquaculturedelight:crispy_fried_perch']),
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', 'aquaculturedelight:crispy_fried_perch'])
-    ]).transitionalItem('farmersdelight:wheat_dough').loops(1);
+    event.custom({
+        "type": "create:sequenced_assembly",
+        "ingredient": { "item": "farmersdelight:cooked_rice" },
+        "transitional_item": { "id": "farmersdelight:wheat_dough" },
+        "sequence": [
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "item": "aquaculturedelight:crispy_fried_perch" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            },
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "item": "aquaculturedelight:crispy_fried_perch" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            }
+        ],
+        "results": [Item.of('aquaculturedelight:fried_perch_roll', 2)],
+        "loops": 1
+    });
 
     // --- SKEWERS (Sequenced Assembly) ---
 
     // Catfish Barbecue: Stick → Deploy catfish → Deploy tomato → Deploy cabbage
     event.remove({ id: 'aquaculturedelight:catfish_barbecue_stick' });
-    event.recipes.create.sequenced_assembly([
-        Item.of('aquaculturedelight:catfish_barbecue')
-    ], 'minecraft:stick', [
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', { tag: 'c:foods/raw_catfish' }]),
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', { tag: 'c:crops/tomato' }]),
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', { tag: 'c:crops/cabbage' }])
-    ]).transitionalItem('farmersdelight:wheat_dough').loops(1);
+    event.custom({
+        "type": "create:sequenced_assembly",
+        "ingredient": { "item": "minecraft:stick" },
+        "transitional_item": { "id": "farmersdelight:wheat_dough" },
+        "sequence": [
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "tag": "c:foods/raw_catfish" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            },
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "tag": "c:crops/tomato" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            },
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "tag": "c:crops/cabbage" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            }
+        ],
+        "results": [{ "id": "aquaculturedelight:catfish_barbecue" }],
+        "loops": 1
+    });
 
     // --- PLATED MEALS (Heated Mixing) ---
 
@@ -196,33 +324,76 @@ ServerEvents.recipes(event => {
 
     // Elder Guardian Roll: Rice → Deploy elder guardian slice
     event.remove({ id: 'oceansdelight:elder_guardian_roll' });
-    event.recipes.create.sequenced_assembly([
-        Item.of('oceansdelight:elder_guardian_roll', 2)
-    ], 'farmersdelight:cooked_rice', [
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', 'oceansdelight:elder_guardian_slice']),
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', 'oceansdelight:elder_guardian_slice'])
-    ]).transitionalItem('farmersdelight:wheat_dough').loops(1);
+    event.custom({
+        "type": "create:sequenced_assembly",
+        "ingredient": { "item": "farmersdelight:cooked_rice" },
+        "transitional_item": { "id": "farmersdelight:wheat_dough" },
+        "sequence": [
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "item": "oceansdelight:elder_guardian_slice" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            },
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "item": "oceansdelight:elder_guardian_slice" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            }
+        ],
+        "results": [Item.of('oceansdelight:elder_guardian_roll', 2)],
+        "loops": 1
+    });
 
     // Fugu Roll: Rice → Deploy fugu slice
     event.remove({ id: 'oceansdelight:fugu_roll' });
-    event.recipes.create.sequenced_assembly([
-        Item.of('oceansdelight:fugu_roll', 2)
-    ], 'farmersdelight:cooked_rice', [
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', 'oceansdelight:fugu_slice']),
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', 'oceansdelight:fugu_slice'])
-    ]).transitionalItem('farmersdelight:wheat_dough').loops(1);
+    event.custom({
+        "type": "create:sequenced_assembly",
+        "ingredient": { "item": "farmersdelight:cooked_rice" },
+        "transitional_item": { "id": "farmersdelight:wheat_dough" },
+        "sequence": [
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "item": "oceansdelight:fugu_slice" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            },
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "item": "oceansdelight:fugu_slice" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            }
+        ],
+        "results": [Item.of('oceansdelight:fugu_roll', 2)],
+        "loops": 1
+    });
 
     // --- WRAPS & SANDWICHES (Sequenced Assembly) ---
 
     // Cabbage Wrapped Elder Guardian
     event.remove({ id: 'oceansdelight:cabbage_wrapped_elder_guardian' });
-    event.recipes.create.sequenced_assembly([
-        Item.of('oceansdelight:cabbage_wrapped_elder_guardian')
-    ], 'oceansdelight:cooked_elder_guardian_slice', [
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', { tag: 'c:foods/cabbage' }]),
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', { tag: 'c:crops/onion' }]),
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', { tag: 'c:crops/tomato' }])
-    ]).transitionalItem('farmersdelight:wheat_dough').loops(1);
+    event.custom({
+        "type": "create:sequenced_assembly",
+        "ingredient": { "item": "oceansdelight:cooked_elder_guardian_slice" },
+        "transitional_item": { "id": "farmersdelight:wheat_dough" },
+        "sequence": [
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "tag": "c:foods/cabbage" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            },
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "tag": "c:crops/onion" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            },
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "tag": "c:crops/tomato" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            }
+        ],
+        "results": [{ "id": "oceansdelight:cabbage_wrapped_elder_guardian" }],
+        "loops": 1
+    });
 
     // --- SALADS (Mixing) ---
 

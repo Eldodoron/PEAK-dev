@@ -13,56 +13,145 @@ ServerEvents.recipes(event => {
 
     // Vegetarian Burger: Bread → Deploy patty → Deploy cabbage → Deploy tomato
     event.remove({ id: 'veggiesdelight:vegetarian_burger' });
-    event.recipes.create.sequenced_assembly([
-        Item.of('veggiesdelight:vegetarian_burger')
-    ], { tag: 'c:foods/bread' }, [
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', 'veggiesdelight:cooked_vegetarian_patty']),
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', { tag: 'c:crops/cabbage' }]),
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', { tag: 'c:crops/tomato' }])
-    ]).transitionalItem('farmersdelight:wheat_dough').loops(1);
+    event.custom({
+        "type": "create:sequenced_assembly",
+        "ingredient": { "tag": "c:foods/bread" },
+        "transitional_item": { "id": "farmersdelight:wheat_dough" },
+        "sequence": [
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "item": "veggiesdelight:cooked_vegetarian_patty" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            },
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "tag": "c:crops/cabbage" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            },
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "tag": "c:crops/tomato" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            }
+        ],
+        "results": [{ "id": "veggiesdelight:vegetarian_burger" }],
+        "loops": 1
+    });
 
     // Zucchini Sandwich: Bread → Deploy zucchini → Deploy lettuce → Deploy tomato
     event.remove({ id: 'veggiesdelight:zucchini_sandwich' });
-    event.recipes.create.sequenced_assembly([
-        Item.of('veggiesdelight:zucchini_sandwich')
-    ], { tag: 'c:foods/bread' }, [
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', { tag: 'c:crops/zucchini' }]),
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', { tag: 'c:foods/leafy_green' }]),
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', { tag: 'c:crops/tomato' }])
-    ]).transitionalItem('farmersdelight:wheat_dough').loops(1);
+    event.custom({
+        "type": "create:sequenced_assembly",
+        "ingredient": { "tag": "c:foods/bread" },
+        "transitional_item": { "id": "farmersdelight:wheat_dough" },
+        "sequence": [
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "tag": "c:crops/zucchini" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            },
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "tag": "c:foods/leafy_green" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            },
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "tag": "c:crops/tomato" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            }
+        ],
+        "results": [{ "id": "veggiesdelight:zucchini_sandwich" }],
+        "loops": 1
+    });
 
     // Garlic Bread: Bread → Deploy roasted garlic x4
     event.remove({ id: 'veggiesdelight:garlic_bread' });
-    event.recipes.create.sequenced_assembly([
-        Item.of('veggiesdelight:garlic_bread')
-    ], { tag: 'c:foods/bread' }, [
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', 'veggiesdelight:roasted_garlic_clove']),
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', 'veggiesdelight:roasted_garlic_clove']),
-        event.recipes.create.pressing('kubejs:incomplete_ender_eye', 'kubejs:incomplete_ender_eye')
-    ]).transitionalItem('farmersdelight:wheat_dough').loops(1);
+    event.custom({
+        "type": "create:sequenced_assembly",
+        "ingredient": { "tag": "c:foods/bread" },
+        "transitional_item": { "id": "farmersdelight:wheat_dough" },
+        "sequence": [
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "item": "veggiesdelight:roasted_garlic_clove" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            },
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "item": "veggiesdelight:roasted_garlic_clove" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            },
+            {
+                "type": "create:pressing",
+                "ingredients": [{ "item": "farmersdelight:wheat_dough" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            }
+        ],
+        "results": [{ "id": "veggiesdelight:garlic_bread" }],
+        "loops": 1
+    });
 
     // --- WRAPS (Sequenced Assembly) ---
 
     // Vegetable Wrap: Dough → Deploy pepper → Deploy zucchini → Deploy greens → Deploy rice
     event.remove({ id: 'veggiesdelight:vegetable_wrap' });
-    event.recipes.create.sequenced_assembly([
-        Item.of('veggiesdelight:vegetables_wrap')
-    ], { tag: 'c:foods/dough' }, [
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', 'veggiesdelight:smoked_bellpepper']),
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', 'veggiesdelight:roasted_zucchini']),
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', { tag: 'c:foods/leafy_green' }]),
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', 'farmersdelight:cooked_rice'])
-    ]).transitionalItem('farmersdelight:wheat_dough').loops(1);
+    event.custom({
+        "type": "create:sequenced_assembly",
+        "ingredient": { "tag": "c:foods/dough" },
+        "transitional_item": { "id": "farmersdelight:wheat_dough" },
+        "sequence": [
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "item": "veggiesdelight:smoked_bellpepper" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            },
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "item": "veggiesdelight:roasted_zucchini" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            },
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "tag": "c:foods/leafy_green" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            },
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "item": "farmersdelight:cooked_rice" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            }
+        ],
+        "results": [{ "id": "veggiesdelight:vegetables_wrap" }],
+        "loops": 1
+    });
 
     // Uncooked Mhadjeb: Dough → Deploy onion → Deploy pepper → Deploy sauce
     event.remove({ id: 'veggiesdelight:uncooked_mhadjeb' });
-    event.recipes.create.sequenced_assembly([
-        Item.of('veggiesdelight:uncooked_mhadjeb')
-    ], { tag: 'c:foods/dough' }, [
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', { tag: 'c:crops/onion' }]),
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', { tag: 'c:crops/bellpepper' }]),
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', 'farmersdelight:tomato_sauce'])
-    ]).transitionalItem('farmersdelight:wheat_dough').loops(1);
+    event.custom({
+        "type": "create:sequenced_assembly",
+        "ingredient": { "tag": "c:foods/dough" },
+        "transitional_item": { "id": "farmersdelight:wheat_dough" },
+        "sequence": [
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "tag": "c:crops/onion" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            },
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "tag": "c:crops/bellpepper" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            },
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "item": "farmersdelight:tomato_sauce" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            }
+        ],
+        "results": [{ "id": "veggiesdelight:uncooked_mhadjeb" }],
+        "loops": 1
+    });
 
     // --- SALADS (Mixing) ---
 
@@ -157,47 +246,123 @@ ServerEvents.recipes(event => {
 
     // Sweet Potato Pie: Crust → Deploy potato → Deploy sugar → Press
     event.remove({ id: 'veggiesdelight:sweet_potato_pie' });
-    event.recipes.create.sequenced_assembly([
-        Item.of('veggiesdelight:sweet_potato_pie')
-    ], 'farmersdelight:pie_crust', [
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', 'veggiesdelight:baked_sweet_potato']),
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', 'minecraft:sugar']),
-        event.recipes.create.pressing('kubejs:incomplete_ender_eye', 'kubejs:incomplete_ender_eye')
-    ]).transitionalItem('farmersdelight:wheat_dough').loops(1);
+    event.custom({
+        "type": "create:sequenced_assembly",
+        "ingredient": { "item": "farmersdelight:pie_crust" },
+        "transitional_item": { "id": "farmersdelight:wheat_dough" },
+        "sequence": [
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "item": "veggiesdelight:baked_sweet_potato" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            },
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "item": "minecraft:sugar" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            },
+            {
+                "type": "create:pressing",
+                "ingredients": [{ "item": "farmersdelight:wheat_dough" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            }
+        ],
+        "results": [{ "id": "veggiesdelight:sweet_potato_pie" }],
+        "loops": 1
+    });
 
     // Zucchini Quiche: Crust → Deploy zucchini → Deploy meat → Deploy milk → Press
     event.remove({ id: 'veggiesdelight:zucchini_quiche' });
-    event.recipes.create.sequenced_assembly([
-        Item.of('veggiesdelight:zucchini_quiche')
-    ], 'farmersdelight:pie_crust', [
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', 'veggiesdelight:roasted_zucchini']),
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', '#c:foods/cooked_mutton']),
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', '#c:foods/milk']),
-        event.recipes.create.pressing('kubejs:incomplete_ender_eye', 'kubejs:incomplete_ender_eye')
-    ]).transitionalItem('kubejs:incomplete_ender_eye').loops(1);
+    event.custom({
+        "type": "create:sequenced_assembly",
+        "ingredient": { "item": "farmersdelight:pie_crust" },
+        "transitional_item": { "id": "kubejs:incomplete_ender_eye" },
+        "sequence": [
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "item": "veggiesdelight:roasted_zucchini" }],
+                "results": [{ "id": "kubejs:incomplete_ender_eye" }]
+            },
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "tag": "c:foods/cooked_mutton" }],
+                "results": [{ "id": "kubejs:incomplete_ender_eye" }]
+            },
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "tag": "c:foods/milk" }],
+                "results": [{ "id": "kubejs:incomplete_ender_eye" }]
+            },
+            {
+                "type": "create:pressing",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }],
+                "results": [{ "id": "kubejs:incomplete_ender_eye" }]
+            }
+        ],
+        "results": [{ "id": "veggiesdelight:zucchini_quiche" }],
+        "loops": 1
+    });
 
     // Vegan Pizza: Dough → Deploy sauce → Deploy pepper → Deploy veg → Deploy onion → Press
     event.remove({ id: 'veggiesdelight:vegan_pizza' });
-    event.recipes.create.sequenced_assembly([
-        Item.of('veggiesdelight:vegan_pizza')
-    ], { tag: 'c:foods/dough' }, [
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', 'farmersdelight:tomato_sauce']),
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', { tag: 'c:crops/bellpepper' }]),
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', { tag: 'c:foods/vegetable' }]),
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', { tag: 'c:crops/onion' }]),
-        event.recipes.create.pressing('kubejs:incomplete_ender_eye', 'kubejs:incomplete_ender_eye')
-    ]).transitionalItem('farmersdelight:wheat_dough').loops(1);
+    event.custom({
+        "type": "create:sequenced_assembly",
+        "ingredient": { "tag": "c:foods/dough" },
+        "transitional_item": { "id": "farmersdelight:wheat_dough" },
+        "sequence": [
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "item": "farmersdelight:tomato_sauce" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            },
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "tag": "c:crops/bellpepper" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            },
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "tag": "c:foods/vegetable" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            },
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "tag": "c:crops/onion" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            },
+            {
+                "type": "create:pressing",
+                "ingredients": [{ "item": "farmersdelight:wheat_dough" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            }
+        ],
+        "results": [{ "id": "veggiesdelight:vegan_pizza" }],
+        "loops": 1
+    });
 
     // --- SKEWERS (Sequenced Assembly) ---
 
     // Turnip Mutton Skewer
     event.remove({ id: 'veggiesdelight:turnip_mutton_skewer' });
-    event.recipes.create.sequenced_assembly([
-        Item.of('veggiesdelight:turnip_mutton_skewer')
-    ], 'minecraft:stick', [
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', { tag: 'c:foods/cooked_mutton' }]),
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', { tag: 'c:crops/turnip' }])
-    ]).transitionalItem('farmersdelight:wheat_dough').loops(1);
+    event.custom({
+        "type": "create:sequenced_assembly",
+        "ingredient": { "item": "minecraft:stick" },
+        "transitional_item": { "id": "farmersdelight:wheat_dough" },
+        "sequence": [
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "tag": "c:foods/cooked_mutton" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            },
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "tag": "c:crops/turnip" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            }
+        ],
+        "results": [{ "id": "veggiesdelight:turnip_mutton_skewer" }],
+        "loops": 1
+    });
 
     // ==========================================
     // ARS DELIGHT (Magic Cooking!)
@@ -218,47 +383,131 @@ ServerEvents.recipes(event => {
 
     // Bastion Pie: Crust → Deploy bastion → Deploy jam → Deploy sourceberry → Press
     event.remove({ id: 'arsdelight:bastion_pie' });
-    event.recipes.create.sequenced_assembly([
-        Item.of('arsdelight:bastion_pie')
-    ], 'farmersdelight:pie_crust', [
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', 'ars_nouveau:bastion_pod']),
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', 'arsdelight:activated_bastion_jam']),
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', 'ars_nouveau:sourceberry_bush']),
-        event.recipes.create.pressing('kubejs:incomplete_ender_eye', 'kubejs:incomplete_ender_eye')
-    ]).transitionalItem('farmersdelight:wheat_dough').loops(1);
+    event.custom({
+        "type": "create:sequenced_assembly",
+        "ingredient": { "item": "farmersdelight:pie_crust" },
+        "transitional_item": { "id": "farmersdelight:wheat_dough" },
+        "sequence": [
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "item": "ars_nouveau:bastion_pod" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            },
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "item": "arsdelight:activated_bastion_jam" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            },
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "item": "ars_nouveau:sourceberry_bush" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            },
+            {
+                "type": "create:pressing",
+                "ingredients": [{ "item": "farmersdelight:wheat_dough" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            }
+        ],
+        "results": [{ "id": "arsdelight:bastion_pie" }],
+        "loops": 1
+    });
 
     // Bombegrante Pie
     event.remove({ id: 'arsdelight:bombegrante_pie' });
-    event.recipes.create.sequenced_assembly([
-        Item.of('arsdelight:bombegrante_pie')
-    ], 'farmersdelight:pie_crust', [
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', 'ars_nouveau:bombegranate_pod']),
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', 'arsdelight:neutralized_bombegrante_jam']),
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', 'ars_nouveau:sourceberry_bush']),
-        event.recipes.create.pressing('kubejs:incomplete_ender_eye', 'kubejs:incomplete_ender_eye')
-    ]).transitionalItem('farmersdelight:wheat_dough').loops(1);
+    event.custom({
+        "type": "create:sequenced_assembly",
+        "ingredient": { "item": "farmersdelight:pie_crust" },
+        "transitional_item": { "id": "farmersdelight:wheat_dough" },
+        "sequence": [
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "item": "ars_nouveau:bombegranate_pod" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            },
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "item": "arsdelight:neutralized_bombegrante_jam" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            },
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "item": "ars_nouveau:sourceberry_bush" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            },
+            {
+                "type": "create:pressing",
+                "ingredients": [{ "item": "farmersdelight:wheat_dough" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            }
+        ],
+        "results": [{ "id": "arsdelight:bombegrante_pie" }],
+        "loops": 1
+    });
 
     // Frostaya Pie
     event.remove({ id: 'arsdelight:frostaya_pie' });
-    event.recipes.create.sequenced_assembly([
-        Item.of('arsdelight:frostaya_pie')
-    ], 'farmersdelight:pie_crust', [
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', 'ars_nouveau:frostaya_pod']),
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', 'arsdelight:neutralized_frostaya_jam']),
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', 'ars_nouveau:sourceberry_bush']),
-        event.recipes.create.pressing('kubejs:incomplete_ender_eye', 'kubejs:incomplete_ender_eye')
-    ]).transitionalItem('farmersdelight:wheat_dough').loops(1);
+    event.custom({
+        "type": "create:sequenced_assembly",
+        "ingredient": { "item": "farmersdelight:pie_crust" },
+        "transitional_item": { "id": "farmersdelight:wheat_dough" },
+        "sequence": [
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "item": "ars_nouveau:frostaya_pod" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            },
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "item": "arsdelight:neutralized_frostaya_jam" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            },
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "item": "ars_nouveau:sourceberry_bush" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            },
+            {
+                "type": "create:pressing",
+                "ingredients": [{ "item": "farmersdelight:wheat_dough" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            }
+        ],
+        "results": [{ "id": "arsdelight:frostaya_pie" }],
+        "loops": 1
+    });
 
     // Mendosteen Pie
     event.remove({ id: 'arsdelight:mendosteen_pie' });
-    event.recipes.create.sequenced_assembly([
-        Item.of('arsdelight:mendosteen_pie')
-    ], 'farmersdelight:pie_crust', [
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', 'ars_nouveau:mendosteen_pod']),
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', 'arsdelight:activated_mendosteen_jam']),
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', 'ars_nouveau:sourceberry_bush']),
-        event.recipes.create.pressing('kubejs:incomplete_ender_eye', 'kubejs:incomplete_ender_eye')
-    ]).transitionalItem('farmersdelight:wheat_dough').loops(1);
+    event.custom({
+        "type": "create:sequenced_assembly",
+        "ingredient": { "item": "farmersdelight:pie_crust" },
+        "transitional_item": { "id": "farmersdelight:wheat_dough" },
+        "sequence": [
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "item": "ars_nouveau:mendosteen_pod" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            },
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "item": "arsdelight:activated_mendosteen_jam" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            },
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "item": "ars_nouveau:sourceberry_bush" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            },
+            {
+                "type": "create:pressing",
+                "ingredients": [{ "item": "farmersdelight:wheat_dough" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            }
+        ],
+        "results": [{ "id": "arsdelight:mendosteen_pie" }],
+        "loops": 1
+    });
 
     // --- MAGICAL SALADS (Mechanical Crafting — arcane plating) ---
 
@@ -280,23 +529,57 @@ ServerEvents.recipes(event => {
 
     // Chimera Skewer
     event.remove({ id: 'arsdelight:chimera_skewer' });
-    event.recipes.create.sequenced_assembly([
-        Item.of('arsdelight:chimera_skewer')
-    ], 'minecraft:stick', [
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', { tag: 'arsdelight:raw_chimera' }]),
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', 'arsdelight:wilden_spike_powder']),
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', { tag: 'c:foods/cabbage' }])
-    ]).transitionalItem('farmersdelight:wheat_dough').loops(1);
+    event.custom({
+        "type": "create:sequenced_assembly",
+        "ingredient": { "item": "minecraft:stick" },
+        "transitional_item": { "id": "farmersdelight:wheat_dough" },
+        "sequence": [
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "tag": "arsdelight:raw_chimera" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            },
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "item": "arsdelight:wilden_spike_powder" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            },
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "tag": "c:foods/cabbage" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            }
+        ],
+        "results": [{ "id": "arsdelight:chimera_skewer" }],
+        "loops": 1
+    });
 
     // Wilden Skewer
     event.remove({ id: 'arsdelight:wilden_skewer' });
-    event.recipes.create.sequenced_assembly([
-        Item.of('arsdelight:wilden_skewer')
-    ], 'minecraft:stick', [
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', { tag: 'arsdelight:raw_wilden_meat' }]),
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', 'arsdelight:wilden_spike_powder']),
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', { tag: 'c:foods/cabbage' }])
-    ]).transitionalItem('farmersdelight:wheat_dough').loops(1);
+    event.custom({
+        "type": "create:sequenced_assembly",
+        "ingredient": { "item": "minecraft:stick" },
+        "transitional_item": { "id": "farmersdelight:wheat_dough" },
+        "sequence": [
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "tag": "arsdelight:raw_wilden_meat" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            },
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "item": "arsdelight:wilden_spike_powder" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            },
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "tag": "c:foods/cabbage" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            }
+        ],
+        "results": [{ "id": "arsdelight:wilden_skewer" }],
+        "loops": 1
+    });
 
     // ==========================================
     // LENDER'S DELIGHT (Cataclysm Foods!)
@@ -306,23 +589,57 @@ ServerEvents.recipes(event => {
 
     // Amethyst Crab Sandwich
     event.remove({ id: 'lendersdelight:amethyst_crab_sandwich' });
-    event.recipes.create.sequenced_assembly([
-        Item.of('lendersdelight:amethyst_crab_sandwich')
-    ], { tag: 'c:foods/bread' }, [
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', 'lendersdelight:cooked_amethyst_crab_meat']),
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', { tag: 'c:foods/leafy_green' }]),
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', { tag: 'c:crops/tomato' }])
-    ]).transitionalItem('farmersdelight:wheat_dough').loops(1);
+    event.custom({
+        "type": "create:sequenced_assembly",
+        "ingredient": { "tag": "c:foods/bread" },
+        "transitional_item": { "id": "farmersdelight:wheat_dough" },
+        "sequence": [
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "item": "lendersdelight:cooked_amethyst_crab_meat" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            },
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "tag": "c:foods/leafy_green" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            },
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "tag": "c:crops/tomato" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            }
+        ],
+        "results": [{ "id": "lendersdelight:amethyst_crab_sandwich" }],
+        "loops": 1
+    });
 
     // Coral Chunk Sandwich
     event.remove({ id: 'lendersdelight:coral_chunk_sandwich' });
-    event.recipes.create.sequenced_assembly([
-        Item.of('lendersdelight:coral_chunk_sandwich')
-    ], { tag: 'c:foods/bread' }, [
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', 'cataclysm:coral_chunk']),
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', { tag: 'c:foods/leafy_green' }]),
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', { tag: 'c:crops/tomato' }])
-    ]).transitionalItem('farmersdelight:wheat_dough').loops(1);
+    event.custom({
+        "type": "create:sequenced_assembly",
+        "ingredient": { "tag": "c:foods/bread" },
+        "transitional_item": { "id": "farmersdelight:wheat_dough" },
+        "sequence": [
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "item": "cataclysm:coral_chunk" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            },
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "tag": "c:foods/leafy_green" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            },
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "tag": "c:crops/tomato" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            }
+        ],
+        "results": [{ "id": "lendersdelight:coral_chunk_sandwich" }],
+        "loops": 1
+    });
 
     // --- SUSHI ROLLS ---
 
@@ -335,25 +652,59 @@ ServerEvents.recipes(event => {
 
     // Lionfish Roll: Rice → Deploy lionfish
     event.remove({ id: 'lendersdelight:lionfish_roll' });
-    event.recipes.create.sequenced_assembly([
-        Item.of('lendersdelight:lionfish_roll', 2)
-    ], 'farmersdelight:cooked_rice', [
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', 'lendersdelight:lionfish_slice']),
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', 'lendersdelight:lionfish_slice'])
-    ]).transitionalItem('farmersdelight:wheat_dough').loops(1);
+    event.custom({
+        "type": "create:sequenced_assembly",
+        "ingredient": { "item": "farmersdelight:cooked_rice" },
+        "transitional_item": { "id": "farmersdelight:wheat_dough" },
+        "sequence": [
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "item": "lendersdelight:lionfish_slice" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            },
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "item": "lendersdelight:lionfish_slice" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            }
+        ],
+        "results": [Item.of('lendersdelight:lionfish_roll', 2)],
+        "loops": 1
+    });
 
     // --- PIES ---
 
     // Crystallized Coral Pie
     event.remove({ id: 'lendersdelight:crystallized_coral_pie' });
-    event.recipes.create.sequenced_assembly([
-        Item.of('lendersdelight:crystallized_coral_pie')
-    ], 'farmersdelight:pie_crust', [
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', 'cataclysm:crystallized_coral']),
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', 'cataclysm:crystallized_coral']),
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', 'minecraft:sugar']),
-        event.recipes.create.pressing('kubejs:incomplete_ender_eye', 'kubejs:incomplete_ender_eye')
-    ]).transitionalItem('farmersdelight:wheat_dough').loops(1);
+    event.custom({
+        "type": "create:sequenced_assembly",
+        "ingredient": { "item": "farmersdelight:pie_crust" },
+        "transitional_item": { "id": "farmersdelight:wheat_dough" },
+        "sequence": [
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "item": "cataclysm:crystallized_coral" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            },
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "item": "cataclysm:crystallized_coral" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            },
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "item": "minecraft:sugar" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            },
+            {
+                "type": "create:pressing",
+                "ingredients": [{ "item": "farmersdelight:wheat_dough" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            }
+        ],
+        "results": [{ "id": "lendersdelight:crystallized_coral_pie" }],
+        "loops": 1
+    });
 
     // --- FEAST BLOCKS (Mechanical Crafting) ---
 

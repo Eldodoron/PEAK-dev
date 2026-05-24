@@ -93,25 +93,31 @@ ServerEvents.recipes(event => {
     // ==========================================
     // 4. Create Deep Dark
     // ==========================================
-    event.recipes.create.sequenced_assembly(
-        [Item.of('create_deep_dark:echo_ingot').withChance(1.0)], 
-        'minecraft:iron_ingot', 
-        [
-            event.recipes.create.deploying('create_deep_dark:incomplete_echo_ingot', ['create_deep_dark:incomplete_echo_ingot', 'minecraft:echo_shard']),
-            event.recipes.create.filling('create_deep_dark:incomplete_echo_ingot', ['create_deep_dark:incomplete_echo_ingot', Fluid.of('minecraft:water', 250)])
-        ]
-    ).transitionalItem('create_deep_dark:incomplete_echo_ingot').loops(1).id('kubejs:create_deep_dark/sequenced_assembly_echo_ingot');
+    event.custom({
+        "type": "create:sequenced_assembly",
+        "ingredient": { "item": "minecraft:iron_ingot" },
+        "transitional_item": { "id": "create_deep_dark:incomplete_echo_ingot" },
+        "sequence": [
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "create_deep_dark:incomplete_echo_ingot" }, { "item": "minecraft:echo_shard" }],
+                "results": [{ "id": "create_deep_dark:incomplete_echo_ingot" }]
+            }
+        ],
+        "results": [{ "id": "create_deep_dark:echo_ingot", "chance": 1.0 }],
+        "loops": 1
+    }).id('kubejs:create_deep_dark/sequenced_assembly_echo_ingot');
 
     event.recipes.create.crushing([
         'create:experience_nugget',
-        Item.of('create_deep_dark:sculk_flour').withChance(0.5),
-        Item.of('minecraft:sculk').withChance(0.75)
+        CreateItem.of('create_deep_dark:sculk_flour', 0.5),
+        CreateItem.of('minecraft:sculk', 0.75)
     ], 'minecraft:sculk_catalyst').id('kubejs:create/crushing_sculk_catalyst');
 
     event.recipes.create.crushing([
         'create:experience_nugget',
-        Item.of('create_deep_dark:sculk_flour').withChance(0.5),
-        Item.of('minecraft:sculk').withChance(0.75)
+        CreateItem.of('create_deep_dark:sculk_flour', 0.5),
+        CreateItem.of('minecraft:sculk', 0.75)
     ], 'minecraft:sculk_shrieker').id('kubejs:create/crushing_sculk_shrieker');
 
 });

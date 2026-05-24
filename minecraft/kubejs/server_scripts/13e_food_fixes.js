@@ -120,25 +120,67 @@ ServerEvents.recipes(event => {
 
     // Apple Pie: Sequenced Assembly
     event.remove({ id: 'minecolonies:apple_pie' });
-    event.recipes.create.sequenced_assembly([
-        Item.of('minecolonies:apple_pie')
-    ], 'minecolonies:durum', [
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', 'minecraft:apple']),
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', 'minecraft:apple']),
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', 'minecraft:sugar']),
-        event.recipes.create.pressing('kubejs:incomplete_ender_eye', 'kubejs:incomplete_ender_eye')
-    ]).transitionalItem('farmersdelight:wheat_dough').loops(1);
+    event.custom({
+        "type": "create:sequenced_assembly",
+        "ingredient": { "item": "minecolonies:durum" },
+        "transitional_item": { "id": "farmersdelight:wheat_dough" },
+        "sequence": [
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "item": "minecraft:apple" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            },
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "item": "minecraft:apple" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            },
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "item": "minecraft:sugar" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            },
+            {
+                "type": "create:pressing",
+                "ingredients": [{ "item": "farmersdelight:wheat_dough" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            }
+        ],
+        "results": [{ "id": "minecolonies:apple_pie" }],
+        "loops": 1
+    });
 
     // Plain Cheesecake: Sequenced Assembly
     event.remove({ id: 'minecolonies:plain_cheesecake' });
-    event.recipes.create.sequenced_assembly([
-        Item.of('minecolonies:plain_cheesecake')
-    ], 'minecolonies:durum', [
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', 'minecolonies:creamcheese']),
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', 'minecolonies:butter']),
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', 'minecraft:egg']),
-        event.recipes.create.pressing('kubejs:incomplete_ender_eye', 'kubejs:incomplete_ender_eye')
-    ]).transitionalItem('farmersdelight:wheat_dough').loops(1);
+    event.custom({
+        "type": "create:sequenced_assembly",
+        "ingredient": { "item": "minecolonies:durum" },
+        "transitional_item": { "id": "farmersdelight:wheat_dough" },
+        "sequence": [
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "item": "minecolonies:creamcheese" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            },
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "item": "minecolonies:butter" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            },
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "item": "minecraft:egg" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            },
+            {
+                "type": "create:pressing",
+                "ingredients": [{ "item": "farmersdelight:wheat_dough" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            }
+        ],
+        "results": [{ "id": "minecolonies:plain_cheesecake" }],
+        "loops": 1
+    });
 
     // Cabochis: Mixing
     event.remove({ id: 'minecolonies:cabochis' });
@@ -161,14 +203,35 @@ ServerEvents.recipes(event => {
 
     // Pierogi: Sequenced Assembly
     event.remove({ id: 'minecolonies:pierogi' });
-    event.recipes.create.sequenced_assembly([
-        Item.of('minecolonies:pierogi')
-    ], 'minecolonies:durum', [
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', 'minecolonies:cheddar_cheese']),
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', 'minecraft:potato']),
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', 'minecolonies:onion']),
-        event.recipes.create.pressing('kubejs:incomplete_ender_eye', 'kubejs:incomplete_ender_eye')
-    ]).transitionalItem('farmersdelight:wheat_dough').loops(1);
+    event.custom({
+        "type": "create:sequenced_assembly",
+        "ingredient": { "item": "minecolonies:durum" },
+        "transitional_item": { "id": "farmersdelight:wheat_dough" },
+        "sequence": [
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "item": "minecolonies:cheddar_cheese" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            },
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "item": "minecraft:potato" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            },
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "item": "minecolonies:onion" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            },
+            {
+                "type": "create:pressing",
+                "ingredients": [{ "item": "farmersdelight:wheat_dough" }],
+                "results": [{ "id": "farmersdelight:wheat_dough" }]
+            }
+        ],
+        "results": [{ "id": "minecolonies:pierogi" }],
+        "loops": 1
+    });
 
     // Cornmeal: Pressing corn
     event.remove({ id: 'minecolonies:cornmeal' });

@@ -194,21 +194,47 @@ ServerEvents.recipes(event => {
 
     // Crawling Sandwich: Sequenced Assembly
     event.remove({ id: 'endersdelight:crawling_sandwich' });
-    event.recipes.create.sequenced_assembly([
-        Item.of('endersdelight:crawling_sandwich')
-    ], '#c:foods/bread', [
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', 'endersdelight:mite_crust']),
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', '#c:foods/leafy_green'])
-    ]).transitionalItem('kubejs:incomplete_ender_eye').loops(1);
+    event.custom({
+        "type": "create:sequenced_assembly",
+        "ingredient": { "tag": "c:foods/bread" },
+        "transitional_item": { "id": "kubejs:incomplete_ender_eye" },
+        "sequence": [
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "item": "endersdelight:mite_crust" }],
+                "results": [{ "id": "kubejs:incomplete_ender_eye" }]
+            },
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "tag": "c:foods/leafy_green" }],
+                "results": [{ "id": "kubejs:incomplete_ender_eye" }]
+            }
+        ],
+        "results": [{ "id": "endersdelight:crawling_sandwich" }],
+        "loops": 1
+    });
 
     // Crispy Skewer: Deploying on stick
     event.remove({ id: 'endersdelight:crispy_skewer' });
-    event.recipes.create.sequenced_assembly([
-        Item.of('endersdelight:crispy_skewer')
-    ], 'minecraft:stick', [
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', 'endersdelight:mite_crust']),
-        event.recipes.create.deploying('kubejs:incomplete_ender_eye', ['kubejs:incomplete_ender_eye', 'endersdelight:mite_crust'])
-    ]).transitionalItem('kubejs:incomplete_ender_eye').loops(1);
+    event.custom({
+        "type": "create:sequenced_assembly",
+        "ingredient": { "item": "minecraft:stick" },
+        "transitional_item": { "id": "kubejs:incomplete_ender_eye" },
+        "sequence": [
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "item": "endersdelight:mite_crust" }],
+                "results": [{ "id": "kubejs:incomplete_ender_eye" }]
+            },
+            {
+                "type": "create:deploying",
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "item": "endersdelight:mite_crust" }],
+                "results": [{ "id": "kubejs:incomplete_ender_eye" }]
+            }
+        ],
+        "results": [{ "id": "endersdelight:crispy_skewer" }],
+        "loops": 1
+    });
 
     // Shulker Bowl: Heated mixing
     event.remove({ id: 'minecraft:barrier' });
@@ -297,7 +323,7 @@ ServerEvents.recipes(event => {
     // Add Create crushing for Gobber ore â†’ 2x raw
     event.recipes.create.crushing([
         'gobber2:gobber2_glob',
-        Item.of('gobber2:gobber2_glob').withChance(0.5)
+        CreateItem.of('gobber2:gobber2_glob', 0.5)
     ], '#c:ores/gobber');
 
     // ==========================================
