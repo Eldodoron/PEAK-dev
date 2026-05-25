@@ -1,14 +1,3 @@
-/summon minecraft:villager
-/effect give EldoTest minecraft:bad_omen 999999 6
-/relics maximize
-/spark profiler start --timeout 500
-/kill
-/spark profiler start --timeout 500
-/kill
-/spark profiler start --timeout 500
-/apoth reforge nadir:cataclysmic
-/kill
-/spark profiler start
 /tp EldoTest 10000 ~ 10000
 /spark profiler start
 /xp add EldoTest 1111111
@@ -48,3 +37,14 @@
 /reload
 /supp configs open
 /apoth set_world_tier EldoTest pinnacle
+/apoth set_world_tier EldoTest frontier
+/apoth set_world_tier EldoTest ascent
+/reload
+/apoth set_world_tier EldoTest summit
+/spark profiler start
+/spark profiler stop
+/apoth reforge apotheosis:rare
+/apoth affix list
+/apoth loot_category
+/apoth set_sockets 5
+/reload

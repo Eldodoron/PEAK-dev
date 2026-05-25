@@ -8,5 +8,21 @@
   {"ingredient":{"id":"tfmg:electromagnetic_coil"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"recipe":"tfmg:mixing/magnetic_alloy","recipeType":"create:mixing","bookmarkType":"RECIPE"},
   {"recipe":"immersiveengineering:kjs/da80qfwvvhx8g16d09maxnsgh","recipeType":"immersiveengineering:blueprint","bookmarkType":"RECIPE"},
-  {"ingredient":{"id":"apotheosis:mythic_material"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+  {"ingredient":{"id":"apotheosis:mythic_material"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"recipe":"mekanism:factory/ultimate/smelting","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
+  {"ingredient":{"id":"sophisticatedbackpacks:stack_upgrade_starter_tier"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"sophisticatedbackpacks:stack_upgrade_tier_1"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"sophisticatedbackpacks:stack_upgrade_tier_2"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"sophisticatedbackpacks:stack_upgrade_tier_3"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"sophisticatedbackpacks:stack_upgrade_tier_4"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"sophisticatedbackpacks:stack_upgrade_omega_tier"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"backpack_allthemodium_upgrade:stack_upgrade_tier_5"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"backpack_allthemodium_upgrade:stack_upgrade_tier_6"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"backpack_allthemodium_upgrade:stack_upgrade_tier_7"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"mekanism:ultimate_control_circuit"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"mekanism:basic_bin"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"mekanism:advanced_bin"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"mekanism:elite_bin"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"mekanism:ultimate_bin"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"recipe":"avaritia:kjs/wab5cuh8t69n6pq2hj5vilvp","recipeType":"avaritia:extreme_craft","bookmarkType":"RECIPE"}
 ]

@@ -133,4 +133,9 @@ graph TD
   - **Action:** Create a "Creatified" custom Filter Upgrade assembly recipe.
 
 ### new notes
-Rework dragon armour toughness and recipe
+- Rework dragon armour toughness and recipe
+- add armour and equipment from remaining mods (alex mobs,etc)
+- elite control circuit recipe doesnt make sense
+- make everlasting backpack upgrade cost heart canisters?
+- make sure that draconic evolution recipes make sense.
+- rework weapon attack range (maybe figure out why do they attack so far away and why are they unbreakable)
