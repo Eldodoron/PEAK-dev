@@ -1,0 +1,3443 @@
+{
+  "quark:recipes/building_blocks/building/crafting/stonevariants/granite_bricks": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/combat/neptunium_helmet": {
+    "criteria": {
+      "has_items": "2026-05-26 22:59:20 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/hollowlogs/hollow_blossom_log": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/tweaks/crafting/utility/misc/easy_hopper": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "incendium:technical/sentrys_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2026-05-26 23:10:12 -0400"
+    },
+    "done": false
+  },
+  "quark:recipes/building_blocks/building/crafting/stools/lime_stool": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/chests/nether_brick_chest": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/redstone/building/crafting/lamps/green_corundum_lamp": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/walls/calcite_wall": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/compressed/charcoal_block": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/raw_iron_bricks_revert": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/midori_pillar": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/chest_revert": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/glass/framed_glass": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/chests/dark_oak_chest_wood": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/compressed/apple_crateuncompress": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/tools/neptunium_fillet_knife": {
+    "criteria": {
+      "has_items": "2026-05-26 22:59:20 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/tweaks/crafting/utility/better_stone_tools/sword": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/raw_copper_bricks": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/tweaks/crafting/glass/light_blue_glass": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "undergarden:undergarden/root": {
+    "criteria": {
+      "tick": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/panes/red_framed_glass_pane": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/iron_plate": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/walls/blue_nether_bricks_wall": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/compressed/golden_carrot_crateuncompress": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/ladders/spruce_ladder": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "mekanism:root": {
+    "criteria": {
+      "automatic": "2026-05-26 22:28:46 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/tweaks/crafting/glass/dirty_glass": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/stonevariants/chiseled_diorite_bricks": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/compressed/beetroot_crateuncompress": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/furnaces/deepslate_blast_furnace": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/world/crafting/woodsets/ancient/stripped_ancient_post": {
+    "criteria": {
+      "test": "2026-05-26 22:29:28 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/stools/gray_stool": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/chests/acacia_chest_wood": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/posts/acacia_post": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/shingles/cyan_shingles": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/world/crafting/woodsets/blossom/lavender_blossom_hedge": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "solcarrot:recipes/food_book": {
+    "criteria": {
+      "has_book": "2026-05-26 22:59:20 -0400",
+      "has_carrot": "2026-05-26 22:59:20 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/tweaks/crafting/utility/misc/hopper_minecart": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/stonevariants/andesite_bricks": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/chests/spruce_chest_wood": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/building_blocks/ash": {
+    "criteria": {
+      "has_item": "2026-05-26 22:59:20 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/glass/light_blue_framed_glass": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/walls/soul_sandstone_wall": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/hollowlogs/hollow_birch_log": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/tweaks/crafting/glass/magenta_glass": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/tools/neptunium_fishing_rod": {
+    "criteria": {
+      "has_items": "2026-05-26 22:59:20 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/stone_brick_lamp": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/tools/tools/crafting/seed_pouch": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/chests/cherry_chest_wood": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/misc/skull_to_bone_meal": {
+    "criteria": {
+      "has_item": "2026-05-26 22:59:20 -0400"
+    },
+    "done": true
+  },
+  "iceandfire:iceandfire/root": {
+    "criteria": {
+      "tick": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/chests/warped_chest": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/tweaks/crafting/utility/misc/charcoal_to_black_dye": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/red_sandstone_bricks": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/compressed/chorus_fruit_block": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/chests/mangrove_chest_wood": {
+    "criteria": {
+      "test": "2026-05-26 22:29:28 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/compressed/golden_apple_crateuncompress": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/world/crafting/permafrost_bricks": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "veggiesdelight:main/root": {
+    "criteria": {
+      "veggies": "2026-05-26 22:59:20 -0400"
+    },
+    "done": true
+  },
+  "lootr:1barrel": {
+    "criteria": {
+      "opened_barrel": "2026-05-26 23:03:47 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/tweaks/crafting/utility/misc/dispenser_bow": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/stonevariants/chiseled_andesite_bricks": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/world/crafting/woodsets/blossom/orange_blossom_leaf_carpet": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/tweaks/crafting/utility/misc/dispenser_no_bow": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/stonevariants/chiseled_dripstone_bricks": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/tools/tools/crafting/pickarang_heart": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/redstone/building/chests/trapped_cherry_chest": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/posts/crimson_post": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "create_wizardry:root": {
+    "criteria": {
+      "0": "2026-05-26 22:59:20 -0400"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/awnings/awning": {
+    "criteria": {
+      "has_item_supplementaries_flax_1": "2026-05-26 22:59:20 -0400"
+    },
+    "done": true
+  },
+  "betterdungeons:root": {
+    "criteria": {
+      "always": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/redstone/automation/crafting/iron_rod": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "incendium:technical/on_block": {
+    "criteria": {
+      "log_spam_fixer": "2026-05-26 23:10:12 -0400"
+    },
+    "done": false
+  },
+  "aquaculture:recipes/tools/gold_fillet_knife": {
+    "criteria": {
+      "has_items": "2026-05-26 22:59:20 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/netherrack_bricks": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/posts/spruce_post": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/tools/tools/crafting/trowel": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/glass/light_gray_framed_glass": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/soul_sandstone": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/redstone/building/chests/trapped_oak_chest": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/stonevariants/worldstones/chiseled_myalite_bricks": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/cut_soul_sandstone": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/stools/purple_stool": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/redstone/automation/crafting/gravisand": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/tweaks/crafting/utility/chest_boat/direct_oak_chest_boat": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/world/crafting/woodsets/blossom/red_blossom_leaf_carpet": {
+    "criteria": {
+      "test": "2026-05-26 22:29:28 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/compressed/nether_wart_sackuncompress": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/tools/iron_fishing_rod": {
+    "criteria": {
+      "has_iron": "2026-05-26 22:59:20 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/shingles/light_blue_shingles": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/bookshelves/dark_oak_bookshelf": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/misc/blindfold": {
+    "criteria": {
+      "has_item": "2026-05-26 22:59:20 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/paper_lantern_sakura": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/posts/warped_post": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/walls/dirt_bricks_wall": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/compressed/carrot_crateuncompress": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "incendium:technical/feed_ghastling": {
+    "criteria": {
+      "log_spam_fixer": "2026-05-26 23:10:12 -0400"
+    },
+    "done": false
+  },
+  "immersive_armors:recipes/misc/wooden": {
+    "criteria": {
+      "has_item": "2026-05-26 22:59:20 -0400"
+    },
+    "done": true
+  },
+  "ess_requiem:dte/dream_ripper": {
+    "criteria": {
+      "scythe": "2026-05-26 22:59:20 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/world/crafting/woodsets/blossom/yellow_blossom_hedge": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/world/crafting/polished_limestone": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/panes/lime_framed_glass_pane": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/stonevariants/chiseled_granite_bricks": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/compressed/beetroot_crate": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/bookshelves/oak_bookshelf": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/compressed/cocoa_beans_sackuncompress": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/compressed/cocoa_beans_sack": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/walls/raw_gold_bricks_wall": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/tweaks/crafting/utility/misc/chest_minecart": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/food/tweaks/crafting/utility/bent/bread": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/shingles/magenta_shingles_dye": {
+    "criteria": {
+      "test": "2026-05-26 22:29:28 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/world/crafting/woodsets/blossom/blossom_post": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "betterdeserttemples:root": {
+    "criteria": {
+      "always": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/redstone/building/crafting/lamps/yellow_corundum_lamp": {
+    "criteria": {
+      "test": "2026-05-26 22:29:28 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/tweaks/crafting/utility/chest_boat/direct_bamboo_chest_raft": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/tweaks/crafting/glass/clear_glass": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/tools/neptunium_hoe": {
+    "criteria": {
+      "has_items": "2026-05-26 22:59:20 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/redstone/building/chests/trapped_warped_chest": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/stonevariants/worldstones/jasper_bricks": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/stonevariants/diorite_bricks": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/shingles/blue_shingles_dye": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/iron_pillar": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/tools/neptunium_shovel": {
+    "criteria": {
+      "has_items": "2026-05-26 22:59:20 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/shingles/orange_shingles_dye": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "incendium:technical/multiplex_crossbow": {
+    "criteria": {
+      "log_spam_fixer": "2026-05-26 23:10:12 -0400"
+    },
+    "done": false
+  },
+  "quark:recipes/building_blocks/building/crafting/posts/stripped_dark_oak_post": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/chests/oak_chest_wood": {
+    "criteria": {
+      "test": "2026-05-26 22:29:28 -0400"
+    },
+    "done": true
+  },
+  "create_ltab:root": {
+    "criteria": {
+      "always": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/chests/birch_chest_wood": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/tools/neptunium_pickaxe": {
+    "criteria": {
+      "has_items": "2026-05-26 22:59:20 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/panes/white_framed_glass_pane": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/stonevariants/dripstone_pillar": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/shingles/red_shingles": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/tweaks/crafting/glass/blue_glass": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/redstone/building/crafting/lamps/white_corundum_lamp": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/combat/neptunium_chestplate": {
+    "criteria": {
+      "has_items": "2026-05-26 22:59:20 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/leafcarpet/mangrove_leaf_carpet": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/bamboo_mat_carpet": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/furnaces/blackstone_minecart": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/combat/neptunium_boots": {
+    "criteria": {
+      "has_items": "2026-05-26 22:59:20 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/shingles/gray_shingles": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/tweaks/crafting/utility/better_stone_tools/shovel": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/raw_gold_bricks": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/posts/cherry_post": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/chests/prismarine_chest": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/chests/oak_chest": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/walls/dripstone_bricks_wall": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/raw_gold_bricks_revert": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/world/crafting/woodsets/blossom/blossom_ladder": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/shingles/red_shingles_dye": {
+    "criteria": {
+      "test": "2026-05-26 22:29:28 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/glass/yellow_framed_glass": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/misc/copper_ingot_to_nuggets": {
+    "criteria": {
+      "has_item": "2026-05-26 22:59:20 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/glass/red_framed_glass": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/ladders/warped_ladder": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/stools/orange_stool": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "idas:idas_root": {
+    "criteria": {
+      "always": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/shingles/yellow_shingles": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/posts/stripped_oak_post": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/walls/raw_iron_bricks_wall": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/ladders/oak_ladder": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/chests/jungle_chest": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/chests/jungle_chest_wood": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/combat/neptunium_bow": {
+    "criteria": {
+      "has_items": "2026-05-26 22:59:20 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/stonevariants/worldstones/shale_pillar": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/ladders/dark_oak_ladder": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "incendium:technical/on_player_hurt": {
+    "criteria": {
+      "log_spam_fixer": "2026-05-26 23:10:12 -0400"
+    },
+    "done": false
+  },
+  "quark:recipes/misc/tweaks/crafting/glass/yellow_glass": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/thatch": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/world/crafting/woodsets/azalea/azalea_post": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/redstone/automation/crafting/chute": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/world/crafting/woodsets/azalea/flowering_azalea_hedge": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/tweaks/crafting/glass/brown_glass": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/hollowlogs/hollow_ancient_log": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "simulated:root": {
+    "criteria": {
+      "0": "2026-05-26 22:59:20 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/hollowlogs/hollow_jungle_log": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "mowziesmobs:root": {
+    "criteria": {
+      "custom_test_name": "2026-05-26 22:29:28 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/world/crafting/woodsets/ancient/ancient_ladder": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/world/crafting/woodsets/azalea/stripped_azalea_post": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/posts/stripped_bamboo_post": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "adorablehamsterpets:technical/has_received_initial_guidebook": {
+    "criteria": {
+      "received": "2026-05-26 22:28:46 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/chests/mangrove_chest": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/tweaks/crafting/utility/chest_boat/direct_spruce_chest_boat": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/stools/pink_stool": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/glass/cyan_framed_glass": {
+    "criteria": {
+      "test": "2026-05-26 22:29:28 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/grate": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/panes/brown_framed_glass_pane": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/glowing_glass_item_frame": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/redstone/building/crafting/lamps/violet_corundum_lamp": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/tweaks/crafting/utility/chest_boat/direct_acacia_chest_boat": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/stools/blue_stool": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/chests/birch_chest": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/compressed/stick_block": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/compressed/charcoal_blockuncompress": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "minecolonies:recipes/misc/doublegrass": {
+    "criteria": {
+      "has_grass": "2026-05-26 22:59:35 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/panes/purple_framed_glass_pane": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/slicing/wheat_seeds_from_short_grass": {
+    "criteria": {
+      "has_short_grass": "2026-05-26 22:59:35 -0400"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/tools/wooden_fillet_knife": {
+    "criteria": {
+      "has_items": "2026-05-26 22:59:20 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/hedges/mangrove_hedge": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/walls/netherrack_bricks_wall": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/redstone/automation/crafting/ender_watcher": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/redstone/world/crafting/woodsets/blossom/blossom_trapped_chest": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/ladders/acacia_ladder": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/posts/stripped_spruce_post": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/leafcarpet/jungle_leaf_carpet": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/stonevariants/polished_dripstone": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/stools/red_stool": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/panes/light_gray_framed_glass_pane": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/ladders/jungle_ladder": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/midori_block": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/stonevariants/worldstones/chiseled_jasper_bricks": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/compressed/bonded_leather": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/glass/magenta_framed_glass": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/world/crafting/woodsets/ancient/ancient_post": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "tombstone:adventure/root": {
+    "criteria": {
+      "auto": "2026-05-26 22:28:46 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/shingles/white_shingles_dye": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/posts/stripped_birch_post": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/shingles/pink_shingles": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/redstone/building/chests/trapped_jungle_chest": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/redstone/building/chests/trapped_dark_oak_chest": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/stonevariants/polished_calcite": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/stools/light_blue_stool": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/leafcarpet/dark_oak_leaf_carpet": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/hedges/spruce_hedge": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/bamboo_mat": {
+    "criteria": {
+      "test": "2026-05-26 22:29:28 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/hedges/acacia_hedge": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/stools/green_stool": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/redstone/building/chests/trapped_crimson_chest": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/tweaks/crafting/utility/better_stone_tools/pickaxe": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/walls/cobblestone_bricks_wall": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/glass/white_framed_glass": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/chests/cherry_chest": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/chiseled_soul_sandstone": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/shingles/light_gray_shingles_dye": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/posts/bamboo_post": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/world/crafting/woodsets/blossom/yellow_blossom_leaf_carpet": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/shingles/cyan_shingles_dye": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/world/crafting/walls/limestone_bricks_wall": {
+    "criteria": {
+      "test": "2026-05-26 22:29:28 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/hollowlogs/hollow_warped_stem": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/tweaks/crafting/utility/coral/brain_to_pink": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/decorations/copper_pile": {
+    "criteria": {
+      "has_item": "2026-05-26 22:59:20 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/tweaks/crafting/utility/misc/easy_sticks_bamboo": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "apotheosis:progression/root": {
+    "criteria": {
+      "tick": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/redstone/automation/crafting/feeding_trough": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/world/crafting/walls/permafrost_bricks_wall": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/sack": {
+    "criteria": {
+      "has_tag_c_crops_flax_1": "2026-05-26 22:59:20 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/compressed/cactus_block": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/world/crafting/woodsets/blossom/blossom_chest": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/ladders/cherry_ladder": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/panes/gray_framed_glass_pane": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/raw_copper_bricks_revert": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/hollowlogs/hollow_cherry_log": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/thatch_revert": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/glass/green_framed_glass": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/tweaks/crafting/utility/chest_boat/direct_cherry_chest_boat": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/ladders/mangrove_ladder": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/panes/cyan_framed_glass_pane": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/compressed/carrot_crate": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/compressed/berry_sack": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:main/root": {
+    "criteria": {
+      "seeds": "2026-05-26 22:59:20 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/compressed/vanilla_nether_wart_block_4x4": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/redstone/building/crafting/lamps/black_corundum_lamp": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/leafcarpet/cherry_leaf_carpet": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/stools/yellow_stool": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/shingles/shingles": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/world/crafting/walls/jasper_bricks_wall": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/hedges/birch_hedge": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/chests/crimson_chest_wood": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/compressed/potato_crateuncompress": {
+    "criteria": {
+      "test": "2026-05-26 22:29:28 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/stonevariants/worldstones/chiseled_limestone_bricks": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/blackstone_bricks": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/shingles/lime_shingles": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:beach": "2026-05-26 22:58:00 -0400",
+      "minecraft:savanna": "2026-05-26 22:28:46 -0400"
+    },
+    "done": false
+  },
+  "quark:recipes/misc/building/crafting/compressed/potato_crate": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/shingles/black_shingles_dye": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/tweaks/crafting/glass/cyan_glass": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/glass/brown_framed_glass": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/posts/stripped_cherry_post": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/tools/neptunium_axe": {
+    "criteria": {
+      "has_items": "2026-05-26 22:59:20 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/world/crafting/woodsets/azalea/azalea_ladder": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/walls/sandstone_bricks_wall": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/redstone/building/chests/trapped_birch_chest": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/iron_ladder": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/tweaks/crafting/utility/chest_boat/direct_jungle_chest_boat": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/bookshelves/jungle_bookshelf": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/world/crafting/woodsets/blossom/red_blossom_hedge": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/stonevariants/worldstones/limestone_bricks": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/doormat_2": {
+    "criteria": {
+      "has_tag_c_crops_flax_1": "2026-05-26 22:59:20 -0400"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/combat/neptunium_sword": {
+    "criteria": {
+      "has_items": "2026-05-26 22:59:20 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/ladders/bamboo_ladder": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/posts/stripped_mangrove_post": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/panes/black_framed_glass_pane": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/walls/mossy_cobblestone_bricks_wall": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/world/crafting/woodsets/azalea/azalea_chest_wood": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/furnaces/deepslate_smoker": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "create:root": {
+    "criteria": {
+      "0": "2026-05-26 22:59:20 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/stools/brown_stool": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/world/crafting/woodsets/azalea/azalea_chest": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/furnaces/blackstone_smoker": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/bookshelves/acacia_bookshelf": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/panes/pink_framed_glass_pane": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/root": {
+    "criteria": {
+      "tick": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/shingles/brown_shingles_dye": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/soul_sandstone_bricks": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/redstone/building/chests/trapped_prismarine_chest": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/world/crafting/woodsets/blossom/lavender_blossom_leaf_carpet": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/stools/cyan_stool": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/posts/dark_oak_post": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/shingles/orange_shingles": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/panes/green_framed_glass_pane": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "incendium:technical/on_kill": {
+    "criteria": {
+      "log_spam_fixer": "2026-05-26 23:10:12 -0400"
+    },
+    "done": false
+  },
+  "quark:recipes/building_blocks/building/crafting/shingles/yellow_shingles_dye": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/tweaks/crafting/glass/gray_glass": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/tweaks/crafting/utility/better_stone_tools/hoe": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/duskbound_lantern": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/tweaks/crafting/utility/chest_boat/direct_azalea_chest_boat": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/hollowlogs/hollow_oak_log": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/redstone/world/crafting/woodsets/ancient/ancient_trapped_chest": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/redstone/building/chests/trapped_purpur_chest": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/tweaks/crafting/utility/coral/horn_to_yellow": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/stonevariants/chiseled_calcite_bricks": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "incendium:technical/on_inventory_change": {
+    "criteria": {
+      "log_spam_fixer": "2026-05-26 23:10:12 -0400"
+    },
+    "done": false
+  },
+  "quark:recipes/misc/building/crafting/panes/yellow_framed_glass_pane": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/world/crafting/woodsets/ancient/azalea_bookshelf": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "mowziesmobs:recipes/building_blocks/thatch_block": {
+    "criteria": {
+      "has_thatch_material": "2026-05-26 22:59:35 -0400"
+    },
+    "done": true
+  },
+  "darkerdepths:story/root": {
+    "criteria": {
+      "auto_grant": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "create_ltab:core": {
+    "criteria": {
+      "stone": "2026-05-26 23:00:14 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/shingles/brown_shingles": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/bookshelves/bamboo_bookshelf": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/shingles/light_blue_shingles_dye": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/world/crafting/woodsets/ancient/ancient_leaf_carpet": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/blaze_lantern": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/walls/diorite_bricks_wall": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/tweaks/crafting/utility/chest_boat/direct_mangrove_chest_boat": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "incendium:technical/holy_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2026-05-26 23:10:12 -0400"
+    },
+    "done": false
+  },
+  "quark:recipes/misc/tweaks/crafting/utility/coral/fire_to_red": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/tweaks/crafting/glass/orange_glass": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/stonevariants/calcite_bricks": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/compressed/sugar_cane_blockuncompress": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/redstone/building/crafting/lamps/blue_corundum_lamp": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/walls/raw_copper_bricks_wall": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/bookshelves/warped_bookshelf": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/aquaculture/tackle_box": {
+    "criteria": {
+      "has_items": "2026-05-26 22:59:20 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/tweaks/crafting/utility/misc/furnace_minecart": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/panes/paper_wall": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "adorablehamsterpets:husbandry/root": {
+    "criteria": {
+      "always_unlock": "2026-05-26 22:28:46 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/world/crafting/woodsets/blossom/blue_blossom_leaf_carpet": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/world/crafting/walls/limestone_wall": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/strings": {
+    "criteria": {
+      "has_item_supplementaries_flax_1": "2026-05-26 22:59:20 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/posts/stripped_jungle_post": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/stonevariants/worldstones/shale_bricks": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/shingles/black_shingles": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/tools/tools/crafting/rune_duplication": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/panes/paper_wall_big": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/hollowlogs/hollow_dark_oak_log": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/redstone/building/crafting/lamps/red_corundum_lamp": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/shingles/green_shingles_dye": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/world/crafting/polished_shale": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/chests/crimson_chest": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/sturdy_stone": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/panes/blue_framed_glass_pane": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/tweaks/crafting/glass/green_glass": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/gold_bars": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/walls/dripstone_block_wall": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/leafcarpet/oak_leaf_carpet": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/walls/blackstone_bricks_wall": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/stone_lamp": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/tweaks/crafting/glass/light_gray_glass": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/bookshelves/mangrove_bookshelf": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/stonevariants/calcite_pillar": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/misc/earplugs": {
+    "criteria": {
+      "has_item": "2026-05-26 22:59:20 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/panes/paper_wall_sakura": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/food/turtle_soup": {
+    "criteria": {
+      "has_items": "2026-05-26 22:59:20 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/world/crafting/woodsets/blossom/blue_blossom_hedge": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/walls/calcite_bricks_wall": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "incendium:technical/inventory/firestorm": {
+    "criteria": {
+      "log_spam_fixer": "2026-05-26 23:10:12 -0400"
+    },
+    "done": false
+  },
+  "quark:recipes/misc/tweaks/crafting/utility/misc/easy_sticks": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/compressed/cactus_blockuncompress": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "incendium:technical/give_ghastling": {
+    "criteria": {
+      "log_spam_fixer": "2026-05-26 23:10:12 -0400"
+    },
+    "done": false
+  },
+  "quark:recipes/building_blocks/building/crafting/sturdy_stone_uncompress": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/building_blocks/crackled_to_gravel": {
+    "criteria": {
+      "has_item": "2026-05-26 22:59:20 -0400"
+    },
+    "done": true
+  },
+  "incendium:technical/using/ragnarok": {
+    "criteria": {
+      "log_spam_fixer": "2026-05-26 22:28:46 -0400"
+    },
+    "done": false
+  },
+  "quark:recipes/building_blocks/world/crafting/walls/shale_bricks_wall": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/redstone/automation/crafting/iron_button": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/furnaces/blackstone_furnace": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/glass/black_framed_glass": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/glass/purple_framed_glass": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/compressed/sugar_cane_block": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/bookshelves/birch_bookshelf": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/redstone/building/chests/trapped_bamboo_chest": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/world/crafting/polished_jasper": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/tools/diamond_fishing_rod": {
+    "criteria": {
+      "has_diamond": "2026-05-26 22:59:20 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/bookshelves/crimson_bookshelf": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/tweaks/crafting/utility/coral/tube_to_blue": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/tweaks/crafting/glass/black_glass": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/world/crafting/woodsets/azalea/azalea_hedge": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/stools/white_stool": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/world/crafting/walls/shale_wall": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/world/crafting/walls/myalite_bricks_wall": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/stonevariants/worldstones/chiseled_shale_bricks": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/tweaks/crafting/glass/lime_glass": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/hollowlogs/hollow_acacia_log": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/posts/stripped_crimson_post": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/posts/birch_post": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/world/crafting/woodsets/ancient/ancient_chest_wood": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/compressed/glowberry_sackuncompress": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/walls/soul_sandstone_bricks_wall": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/compressed/chorus_fruit_blockuncompress": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/food/tweaks/crafting/utility/bent/cookie": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/world/crafting/walls/jasper_wall": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/tools/stone_fillet_knife": {
+    "criteria": {
+      "has_items": "2026-05-26 22:59:20 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/posts/oak_post": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/misc/dragon_stick": {
+    "criteria": {
+      "has_item": "2026-05-26 22:59:20 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/leafcarpet/flowering_azalea_leaf_carpet": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/tweaks/crafting/utility/bent/paper": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/compressed/golden_apple_crate": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/world/crafting/woodsets/blossom/blossom_chest_wood": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/bookshelves/spruce_bookshelf": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/tweaks/crafting/panes/dirty_glass_pane": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "create_ltab:plains": {
+    "criteria": {
+      "grass_block": "2026-05-26 22:58:04 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/bookshelves/blossom_bookshelf": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/combat/neptunium_leggings": {
+    "criteria": {
+      "has_items": "2026-05-26 22:59:20 -0400"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/misc/dragon_ice": {
+    "criteria": {
+      "has_item": "2026-05-26 22:59:20 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/redstone/building/chests/trapped_acacia_chest": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/bookshelves/lectern_with_variant_bookshelves": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/hollowlogs/hollow_spruce_log": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/world/crafting/woodsets/ancient/ancient_chest": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/redstone/building/chests/trapped_spruce_chest": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/dirt_bricks": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/shingles/blue_shingles": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/posts/mangrove_post": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/tweaks/crafting/utility/better_stone_tools/axe": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/redstone/building/crafting/trapped_chest_revert": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/walls/andesite_bricks_wall": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/redstone/building/crafting/lamps/indigo_corundum_lamp": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/cobblestone_bricks": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/hedges/jungle_hedge": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/tools/golden_fishing_rod": {
+    "criteria": {
+      "has_gold": "2026-05-26 22:59:20 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/compressed/nether_wart_sack": {
+    "criteria": {
+      "test": "2026-05-26 22:29:28 -0400"
+    },
+    "done": true
+  },
+  "simplymore:root": {
+    "criteria": {
+      "requirement": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/stools/light_gray_stool": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/chests/bamboo_chest_wood": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/redstone/automation/crafting/gold_button": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/hedges/oak_hedge": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/shingles/magenta_shingles": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/furnaces/deepslate_minecarft_tweaked": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/stools/black_stool": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/blue_nether_bricks": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/redstone/automation/crafting/obsidian_plate": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/rusty_iron_plate_from_iron_plate": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/shingles/light_gray_shingles": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/chests/dark_oak_chest": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/daub": {
+    "criteria": {
+      "has_tag_supplementaries_straw_2": "2026-05-26 22:59:20 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/compressed/berry_sackuncompress": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/posts/stripped_acacia_post": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/stonevariants/worldstones/myalite_bricks": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "aeronautics:root": {
+    "criteria": {
+      "0": "2026-05-26 22:59:20 -0400"
+    },
+    "done": true
+  },
+  "incendium:technical/new_player": {
+    "criteria": {
+      "requirement": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "createnuclear:root": {
+    "criteria": {
+      "0": "2026-05-26 22:59:20 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/hollowlogs/hollow_azalea_log": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/carved_mud_bricks": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/stonevariants/andesite_pillar": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/compressed/gunpowder_sackuncompress": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "lootr:social": {
+    "criteria": {
+      "opened_barrel": "2026-05-26 23:03:47 -0400"
+    },
+    "done": false
+  },
+  "quark:recipes/building_blocks/building/crafting/duskbound_block": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/flax_block": {
+    "criteria": {
+      "has_item_supplementaries_flax_1": "2026-05-26 22:59:20 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/raw_iron_bricks": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "create_enchantment_industry:root": {
+    "criteria": {
+      "0": "2026-05-26 22:59:20 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/tweaks/crafting/utility/misc/tnt_minecart": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "dungeons_arise:wda_root": {
+    "criteria": {
+      "WDA": "2026-05-26 22:29:28 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/leafcarpet/birch_leaf_carpet": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/shingles/pink_shingles_dye": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/world/crafting/woodsets/ancient/ancient_bookshelf": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/world/crafting/woodsets/ancient/ancient_hedge": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/aquaculture/neptunes_bounty": {
+    "criteria": {
+      "has_items": "2026-05-26 22:59:20 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/redstone/world/crafting/woodsets/azalea/azalea_trapped_chest": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/shingles/gray_shingles_dye": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/mud_brick_lattice": {
+    "criteria": {
+      "test": "2026-05-26 22:29:28 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/world/crafting/walls/myalite_wall": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/food/gold_pile": {
+    "criteria": {
+      "has_item": "2026-05-26 22:59:20 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/glass/blue_framed_glass": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/furnaces/blackstone_minecarft_tweaked": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/tweaks/crafting/utility/chest_boat/direct_blossom_chest_boat": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/paper_lantern": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/shingles/purple_shingles_dye": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/stools/magenta_stool": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/shingles/lime_shingles_dye": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/compressed/stick_blockuncompress": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/tweaks/crafting/glass/pink_glass": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/ladders/birch_ladder": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/walls/granite_bricks_wall": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "incendium:technical/using/shield": {
+    "criteria": {
+      "log_spam_fixer": "2026-05-26 22:28:46 -0400"
+    },
+    "done": false
+  },
+  "quark:recipes/building_blocks/building/crafting/leafcarpet/spruce_leaf_carpet": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/bookshelves/cherry_bookshelf": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/tweaks/crafting/utility/chest_boat/direct_birch_chest_boat": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/compressed/glowberry_sack": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/tools/tools/crafting/torch_arrow": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/misc/dragon_meal": {
+    "criteria": {
+      "has_item": "2026-05-26 22:59:20 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/mossy_cobblestone_bricks": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "incendium:technical/inventory/sentrys_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2026-05-26 23:10:12 -0400"
+    },
+    "done": false
+  },
+  "quark:recipes/building_blocks/world/crafting/polished_myalite": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/redstone/building/chests/trapped_nether_brick_chest": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/glass/orange_framed_glass": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/leafcarpet/azalea_leaf_carpet": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/tools/diamond_fillet_knife": {
+    "criteria": {
+      "has_items": "2026-05-26 22:59:20 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/hollowlogs/hollow_mangrove_log": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/shingles/white_shingles": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/stonevariants/worldstones/jasper_pillar": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/world/crafting/woodsets/blossom/stripped_blossom_post": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/shingles/purple_shingles": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/sandstone_bricks": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/chests/spruce_chest": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/tools/iron_fillet_knife": {
+    "criteria": {
+      "has_items": "2026-05-26 22:59:20 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/hedges/dark_oak_hedge": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/world/crafting/walls/permafrost_wall": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "lootr:root": {
+    "criteria": {
+      "always_true": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/leafcarpet/acacia_leaf_carpet": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "incendium:technical/firestorm": {
+    "criteria": {
+      "log_spam_fixer": "2026-05-26 23:10:12 -0400"
+    },
+    "done": false
+  },
+  "supplementaries:recipe/rope": {
+    "criteria": {
+      "has_tag_c_crops_flax_1": "2026-05-26 22:59:20 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/tweaks/crafting/utility/misc/repeater": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/stonevariants/worldstones/limestone_pillar": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/posts/jungle_post": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/furnaces/deepslate_furnace": {
+    "criteria": {
+      "test": "2026-05-26 22:29:28 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/panes/orange_framed_glass_pane": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/shingles/green_shingles": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/redstone/automation/crafting/redstone_randomizer": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/walls/red_sandstone_bricks_wall": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/tweaks/crafting/utility/chest_boat/direct_ancient_chest_boat": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/panes/framed_glass_pane": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/stonevariants/diorite_pillar": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/redstone/automation/crafting/nether_brick_fence_gate": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/rusty_iron_plate": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/hedges/cherry_hedge": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/compressed/gunpowder_sack": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/aquaculture/nether_star_hook": {
+    "criteria": {
+      "has_items": "2026-05-26 22:59:20 -0400"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/misc/copper_nuggets_to_ingot": {
+    "criteria": {
+      "has_item": "2026-05-26 22:59:20 -0400"
+    },
+    "done": true
+  },
+  "incendium:technical/scroll_of_returning": {
+    "criteria": {
+      "log_spam_fixer": "2026-05-26 22:28:46 -0400"
+    },
+    "done": false
+  },
+  "quark:recipes/misc/tweaks/crafting/utility/coral/bubble_to_magenta": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/ladders/crimson_ladder": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/furnaces/deepslate_minecart": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/glass/gray_framed_glass": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/posts/stripped_warped_post": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/compressed/bonded_leatheruncompress": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "immersive_armors:recipes/misc/robe": {
+    "criteria": {
+      "has_item": "2026-05-26 22:59:20 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/compressed/bonded_rabbit_hideuncompress": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/chests/bamboo_chest": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/tweaks/crafting/glass/purple_glass": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/stonevariants/worldstones/myalite_pillar": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/compressed/bonded_rabbit_hide": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/tools/tools/crafting/abacus": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/glass_item_frame": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/tweaks/crafting/utility/chest_boat/direct_dark_oak_chest_boat": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/redstone/building/crafting/lamps/orange_corundum_lamp": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/tweaks/crafting/glass/red_glass": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/chests/warped_chest_wood": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/furnaces/blackstone_blast_furnace": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "incendium:technical/using/trailblazer": {
+    "criteria": {
+      "log_spam_fixer": "2026-05-26 22:28:46 -0400"
+    },
+    "done": false
+  },
+  "quark:recipes/misc/building/crafting/glass/pink_framed_glass": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/panes/magenta_framed_glass_pane": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/stonevariants/dripstone_bricks": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/compressed/golden_carrot_crate": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/mud_pillar": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/stonevariants/granite_pillar": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/hollowlogs/hollow_crimson_stem": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/compressed/apple_crate": {
+    "criteria": {
+      "test": "2026-05-26 22:29:28 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/chests/acacia_chest": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/panes/light_blue_framed_glass_pane": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/tweaks/crafting/glass/white_glass": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/redstone/building/chests/trapped_mangrove_chest": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/world/crafting/woodsets/blossom/orange_blossom_hedge": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/chests/purpur_chest": {
+    "criteria": {
+      "test": "2026-05-26 22:29:28 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/misc/building/crafting/glass/lime_framed_glass": {
+    "criteria": {
+      "test": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "integrated_villages:integrated_villages_root": {
+    "criteria": {
+      "always": "2026-05-26 22:29:29 -0400"
+    },
+    "done": true
+  },
+  "DataVersion": 3955
+}

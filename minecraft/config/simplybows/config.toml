@@ -5,7 +5,7 @@ version = 0
 baseQuantity = 3
 arrowSpeed = 1.2
 arrowDivergence = 1.0
-baseDamage = 2.0
+baseDamage = 3.2297993259803945
 homingRadius = 10.0
 homingAccel = 0.3
 homingStartTicks = 15
@@ -32,7 +32,7 @@ chaosWallArrowDivergence = 1
 [vineBow]
 arrowSpeedMultiplier = 0.55
 arrowDivergence = 1.15
-baseDamage = 1.5
+baseDamage = 2.5138809742647013
 extraDragXZ = 0.94
 extraDragY = 0.9
 fieldDurationTicks = 200
@@ -70,7 +70,7 @@ chaosBurstMaxAmplifier = 2
 [bubbleBow]
 arrowSpeedMultiplier = 0.95
 arrowDivergence = 0.8
-baseDamage = 1.75
+baseDamage = 2.2535470281862766
 painDivergence = 0.12
 painSpeedMultiplierLand = 0.22
 painSpeedMultiplierWater = 0.62
@@ -101,7 +101,7 @@ chaosKnockUp = 0.14
 [beeBow]
 arrowSpeedMultiplier = 0.48
 arrowDivergence = 0.7
-baseDamage = 2.0
+baseDamage = 3.2297993259803945
 basePoisonDuration = 60
 stringPoisonDurationBonus = 20
 painHomingRadius = 10.0
@@ -137,7 +137,7 @@ chaosDiveDamage = 16.0
 [blossomBow]
 arrowSpeedMultiplier = 0.78
 arrowDivergence = 0.85
-baseDamage = 1.5
+baseDamage = 2.3837140012254947
 stormDurationTicks = 200
 stormDurationBonusPerString = 40
 damageIntervalTicks = 10
@@ -175,7 +175,7 @@ chaosProjectileReflectCooldownTicks = 6
 [earthBow]
 arrowSpeedMultiplier = 0.72
 arrowDivergence = 0.9
-baseDamage = 2.0
+baseDamage = 3.0345488664215727
 fieldRadius = 3.6
 spikeDamage = 3.0
 baseUpwardKnockback = 0.4
@@ -199,7 +199,7 @@ chaosSunderAcquisitionRangePerFrame = 1.0
 [echoBow]
 arrowSpeedMultiplier = 0.9
 arrowDivergence = 0.8
-baseDamage = 2.0
+baseDamage = 3.2297993259803945
 lookTargetDistance = 48.0
 painExplosionBaseHpDamage = 0.16
 painExplosionFrameHpDamage = 0.06

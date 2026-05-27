@@ -28,7 +28,13 @@
     {
       "entity": [
         "minecraft:villager",
-        "minecraft:wandering_trader"
+        "minecraft:wandering_trader",
+        "minecraft:pillager",
+        "minecraft:evoker",
+        "minecraft:vindicator",
+        "minecraft:witch",
+        "minecraft:ravager",
+        "minecraft:illusioner"
       ],
       "particle": {
         "type": "visuality:emerald"

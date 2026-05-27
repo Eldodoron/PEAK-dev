@@ -93,7 +93,7 @@
 			#Chance of spawning cave dust (higher = less frequent)
 			# Default: 700
 			# Range: > 1
-			spawnChance = 700
+			spawnChance = 400
 			#Base maximum age of cave dust particles
 			# Default: 200
 			# Range: > 1
@@ -127,7 +127,7 @@
 			#Opacity of water and lava splash particles
 			# Default: 0.75
 			# Range: 0.0 ~ 1.0
-			splashOpacity = 0.75
+			splashOpacity = 0.4
 			#Whether soft water entries should emit bubbles and tiny falling-water droplets instead of a full splash
 			softEntryParticles = true
 			#Use 1-voxel cuboid particles for waterfall spray

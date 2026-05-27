@@ -66,8 +66,12 @@ The modpack currently contains the following custom scripts designed to optimize
 
 ### 2. `minecraft/local/kubejs/server_scripts/19_mob_gear.js`
 - **Purpose:** Manages custom mob equipment spawns across specific biomes.
-- **Tweak:** Fixed the biome extraction parser using the safe Holder `Either` unwrap mechanism, removing dripstone cave biome crashes.
+- **Tweak:** Fixed the biome extraction parser using the safe Holder `Either` unwrap mechanism, removing dripstone cave biome crashes. Expanded with 79 unique high-end weapons from Simply Swords, Simply More, and Knight Quest, alongside complete Knight Quest mythic armor sets integrated directly into Apotheosis boss spawning tables.
 
 ### 3. `minecraft/local/kubejs/startup_scripts/fix_malum_watchdog.js`
 - **Purpose:** Prevents severe main server thread deadlocks triggered by Malum's Weeping Well ticking searches.
 - **Tweak:** Dynamically desubscribes Malum's Weeping Well `RuntimeEvents` from the NeoForge `EVENT_BUS` upon startup. Bypasses síncrono `getChunk` queries, preventing Watchdog server termination.
+
+### 4. `minecraft/kubejs/server_scripts/apotheosis_auto_tiers.js`
+- **Purpose:** Automates player progression through Apotheosis World Tiers via vanilla and modded advancements.
+- **Tweak:** Event-driven server script that listens to advancement triggers, matches Apotheosis milestones, silently upgrades active world tiers, prints premium dark-gold border notifications in chat, and automatically awards themed progression gift bundles.

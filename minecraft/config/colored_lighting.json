@@ -1,0 +1,156 @@
+{
+  "enabled": true,
+  "scanRadius": 96,
+  "blockLights": {
+    "minecraft:redstone_torch": {
+      "enabled": true,
+      "color": 16718362,
+      "radius": 7.0,
+      "intensity": 0.5
+    },
+    "minecraft:sea_lantern": {
+      "enabled": true,
+      "color": 5636092,
+      "radius": 15.0,
+      "intensity": 0.5
+    },
+    "minecraft:verdant_froglight": {
+      "enabled": true,
+      "color": 10551104,
+      "radius": 15.0,
+      "intensity": 0.25
+    },
+    "minecraft:pearlescent_froglight": {
+      "enabled": true,
+      "color": 16728319,
+      "radius": 15.0,
+      "intensity": 0.25
+    },
+    "minecraft:ochre_froglight": {
+      "enabled": true,
+      "color": 16765517,
+      "radius": 15.0,
+      "intensity": 0.25
+    },
+    "minecraft:shroomlight": {
+      "enabled": true,
+      "color": 16755285,
+      "radius": 15.0,
+      "intensity": 0.5
+    },
+    "minecraft:glow_lichen": {
+      "enabled": true,
+      "color": 15531942,
+      "radius": 7.0,
+      "intensity": 0.5
+    },
+    "minecraft:soul_lantern": {
+      "enabled": true,
+      "color": 5636095,
+      "radius": 10.0,
+      "intensity": 0.75
+    },
+    "minecraft:amethyst_cluster": {
+      "enabled": true,
+      "color": 13992191,
+      "radius": 5.0,
+      "intensity": 1.5
+    },
+    "minecraft:large_amethyst_bud": {
+      "enabled": true,
+      "color": 13926655,
+      "radius": 4.0,
+      "intensity": 1.5
+    },
+    "minecraft:medium_amethyst_bud": {
+      "enabled": true,
+      "color": 13992191,
+      "radius": 2.0,
+      "intensity": 1.5
+    },
+    "minecraft:small_amethyst_bud": {
+      "enabled": true,
+      "color": 13992191,
+      "radius": 1.0,
+      "intensity": 1.5
+    },
+    "minecraft:soul_campfire": {
+      "enabled": true,
+      "color": 5636095,
+      "radius": 10.0,
+      "intensity": 0.75
+    },
+    "minecraft:soul_torch": {
+      "enabled": true,
+      "color": 5636095,
+      "radius": 10.0,
+      "intensity": 0.75
+    },
+    "minecraft:crying_obsidian": {
+      "enabled": true,
+      "color": 8388863,
+      "radius": 5.0,
+      "intensity": 0.1
+    },
+    "minecraft:soul_wall_torch": {
+      "enabled": true,
+      "color": 5636095,
+      "radius": 10.0,
+      "intensity": 0.75
+    },
+    "minecraft:redstone_wall_torch": {
+      "enabled": true,
+      "color": 16718362,
+      "radius": 7.0,
+      "intensity": 0.5
+    },
+    "minecraft:beacon": {
+      "enabled": true,
+      "color": 13693183,
+      "radius": 15.0,
+      "intensity": 0.8
+    },
+    "minecraft:magma_block": {
+      "enabled": true,
+      "color": 16733696,
+      "radius": 5.0,
+      "intensity": 0.5
+    },
+    "minecraft:respawn_anchor": {
+      "enabled": true,
+      "color": 11141375,
+      "radius": 12.0,
+      "intensity": 0.7
+    },
+    "minecraft:ender_chest": {
+      "enabled": true,
+      "color": 65416,
+      "radius": 7.0,
+      "intensity": 0.4
+    },
+    "create:brass_lantern": {
+      "enabled": true,
+      "color": 16755285,
+      "radius": 10.0,
+      "intensity": 0.75
+    },
+    "create:rose_quartz_lamp": {
+      "enabled": true,
+      "color": 16728319,
+      "radius": 15.0,
+      "intensity": 0.5
+    },
+    "twilightforest:firefly_jar": {
+      "enabled": true,
+      "color": 10551104,
+      "radius": 10.0,
+      "intensity": 0.5
+    },
+    "mekanism:superheating_element": {
+      "enabled": true,
+      "color": 16733696,
+      "radius": 5.0,
+      "intensity": 0.5
+    }
+  }
+}

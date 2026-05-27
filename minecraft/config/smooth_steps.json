@@ -1,4 +1,4 @@
 {
-  "smoothingAmount": 0.7,
+  "smoothingAmount": 0.5,
   "useExponentialSmoothing": true
 }

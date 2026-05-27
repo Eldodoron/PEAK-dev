@@ -10,6 +10,8 @@ try { console.info('STAGES 2: ' + Java.loadClass('dev.latvian.kubejs.data.Genera
 ServerEvents.recipes(event => {
     // MALUM: HALLOWED GOLD REWORK
     event.remove({ id: 'malum:spirit_infusion/hallowed_gold_ingot' });
+    event.remove({ type: 'create:mixing', output: 'malum:hallowed_gold_ingot' });
+    event.remove({ type: 'create:mixing', output: '#c:ingots/hallowed_gold' }); // 1.21 uses #c instead of #forge sometimes
     event.custom({
         type: 'malum:spirit_infusion',
         input: { item: 'minecraft:gold_block' },

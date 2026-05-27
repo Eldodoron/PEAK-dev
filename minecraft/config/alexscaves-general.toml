@@ -67,10 +67,10 @@
 	nuclear_furnace_custom_type = false
 
 [item-behavior]
-	#The scale of nuclear bomb destruction. multiply this by 16 to get the radius of a nuclear bomb explosion.
-	# Default: 3.0
-	# Range: 0.0 ~ 100.0
-	nuclear_explosion_size_modifier = 5.0
+	#The maximum explosion resistance that a block can have to be destroyed by a nuclear explosion. Set to zero to disable all nuclear explosion block breaking.
+	# Default: 1000
+	# Range: > 0
+	nuke_max_block_explosion_resistance = 1201
 	#True if one Cave Codex is all that is needed to unlock every Cave Compendium entry.
 	only_one_research_needed = false
 	#How many attempts to find a biome a cave map engages in when used. Increase this to increase the search radius, or decrease it to make them faster.
@@ -81,12 +81,12 @@
 	# Default: 64
 	# Range: 4 ~ 256
 	cave_map_search_width = 64
-	#The maximum explosion resistance that a block can have to be destroyed by a nuclear explosion. Set to zero to disable all nuclear explosion block breaking.
-	# Default: 1000
-	# Range: > 0
-	nuke_max_block_explosion_resistance = 1000
 	#Whether some block items are dropped by nuclear explosions. False if all destroyed blocks do not drop items.
 	nuke_spawn_item_drops = true
+	#The scale of nuclear bomb destruction. multiply this by 16 to get the radius of a nuclear bomb explosion.
+	# Default: 3.0
+	# Range: 0.0 ~ 100.0
+	nuclear_explosion_size_modifier = 3.0
 	#Whether the Totem of Possession can be applied to players.
 	totem_of_possession_works_on_players = true
 	#The amount of time (in ticks) it takes to charge up the Cloak of Darkness ability.

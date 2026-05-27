@@ -1,3 +1,8 @@
 [
-  {"version":2}
+  {"version":2},
+  {"ingredient":{"id":"pneumaticcraft:plastic"},"type":"fluid_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"tfmg:flowing_lpg"},"type":"fluid_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"immersiveengineering:biodiesel"},"type":"fluid_stack","bookmarkType":"INGREDIENT"},
+  {"recipe":"pneumaticcraft:fluid_mixer","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
+  {"ingredient":{"id":"apotheosis:salvaging_table"},"type":"item_stack","bookmarkType":"INGREDIENT"}
 ]

@@ -1,4 +1,4 @@
-﻿// ==========================================
+// ==========================================
 // PEAK EXPERT MODE â€” SCRIPT 05
 // DARK MAGIC + DIMENSIONS
 // Malum (Spirits/Souls) + Vampirism (Blood)
@@ -67,17 +67,7 @@ ServerEvents.recipes(event => {
         ]
     ).heated();
 
-    // --- HALLOWED GOLD (Malum's holy metal) ---
-    // Counterpart to Soul Stained Steel â€” needs Source purification
-    event.remove({ output: 'malum:hallowed_gold_ingot' });
-    event.recipes.create.mixing(
-        'malum:hallowed_gold_ingot',
-        [
-            '#c:ingots/gold',
-            'ars_nouveau:source_gem',
-            'minecraft:glowstone_dust'
-        ]
-    ).heated();
+
 
     // --- HEX ASH (Critical dark magic reagent) ---
     // Used later in Draconic Evolution Wyvern tier recipes

@@ -7,6 +7,6 @@ spawn_rate = 20
 #Force gate spawn after this in-game day. If set above 0, overrides spawn_rate and guarantees 100% spawn
 # Default: 0
 # Range: > 0
-spawn_day = 0
+spawn_day = 10
 #A list of gates to be spawned
 gates = ["gateways:basic/blaze", "gateways:basic/enderman", "gateways:basic/slime", "gateways:emerald_grove", "gateways:overworldian_nights"]

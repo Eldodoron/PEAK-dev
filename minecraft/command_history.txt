@@ -1,50 +1,50 @@
-/tp EldoTest 10000 ~ 10000
-/spark profiler start
-/xp add EldoTest 1111111
-/relics maximize
-/tp EldoTest 1000 59.00 5.17
-/tp EldoTest 100 59.00 5.17
-/spark profiler start
-/tp EldoTest 1000 59.00 5.17
-/spark profiler start
-/tp EldoTest 100 59.00 5.17
-/tp EldoTest 1000 59.00 5.17
-/spark profiler start --timeout 500
-/effect give EldoTest minecraft:regeneration 5 i-
-/setblock ~ 70 ~ minecraft:end_gateway
-/spark profiler start --timeout 200
-/give EldoTest lootr:lootr_chest
-/spark profiler start --timeout 120
-/apoth reforge apotheosis:uncommon
-/tp 10000 ~ 10000
-/spark profiler start --timeout 120
-/chunky start minecraft:the_end circle 10000 10000 200 200
-/chunky progress
-/spark profiler start --timeout 500
-/spark profiler start --timeout 120
-/chunky start minecraft:overworld square 0 0 500 500
-/spark tps
-/spark profiler start --timeout 120
-/give EldoTest minecraft:ender_pearl
-/spark tps
-/give EldoTest minecraft:ender_pearl
-/chunky start minecraft:overworld square 1100 800 500 1000
-/chunky start minecraft:overworld square 0 0 1000 1000
-/give EldoTest minecraft:ender_pearl
-/reload
-/difficulty hard
+/place feature create:zinc_ore
+/place feature alltheores:ore_zinc
+/advancement grant @s only apotheosis:progression/frontier
+/advancement grant @s only apotheosis:progression/ascent
+/advancement grant @s only apotheosis:progression/frontier
 /apoth set_world_tier EldoTest frontier
-/reload
-/supp configs open
-/apoth set_world_tier EldoTest pinnacle
-/apoth set_world_tier EldoTest frontier
-/apoth set_world_tier EldoTest ascent
-/reload
 /apoth set_world_tier EldoTest summit
-/spark profiler start
-/spark profiler stop
-/apoth reforge apotheosis:rare
-/apoth affix list
-/apoth loot_category
-/apoth set_sockets 5
+/apoth set_world_tier EldoTest pinnacle
+/apoth set_world_tier EldoTest haven
+/enchant EldoTest minecraft:silk_touch
+/enchant EldoTest minecraft:fortune 3
+/enchant EldoTest minecraft:fortune 77
+/enchant EldoTest minecraft:fortune 8
+/give EldoTest minecraft:spawner 65
+/enchant EldoTest minecraft:efficiency 5
+/advancement grant @s only apotheosis:progression/summit
+/advancement grant @s only apotheosis:progression/pinnacle
 /reload
+/place feature alltheores:ore_zinc
+/place feature create:zinc_ore
+/effect give EldoTest minecraft:night_vision infinite
+/advancement grant @s only apotheosis:progression/frontier
+/apoth spawn_boss EldoTest apothic_compats:cataclysm/ministrosity apotheosis:common true
+/apoth spawn_boss EldoTest apothic_compats:cataclysm/ministrosity apotheosis:common
+/give EldoTest
+/advancement grant @s only apotheosis:progression/pinnacle
+/apoth spawn_boss EldoTest apothic_compats:cataclysm/ministrosity apotheosis:epic
+/apoth spawn_boss EldoTest apothic_compats:cataclysm/ministrosity apotheosis:epic true
+/apoth spawn_boss EldoTest apothic_compats:cataclysm/ministrosity apotheosis:epic false
+/apoth spawn_boss EldoTest apothic_compats:cataclysm/ministrosity apotheosis:epic
+/apoth spawn_boss EldoTest
+/apoth spawn_boss EldoTest apotheosis:overworld/husk nadir:cataclysmic
+/apoth spawn_boss EldoTest apotheosis:overworld/husk nadir:cataclysmic false
+/apoth spawn_boss EldoTest apotheosis:overworld/husk nadir:cataclysmic true
+/apoth spawn_boss EldoTest apotheosis:overworld/husk nadir:primal
+/apoth spawn_boss EldoTest apotheosis:overworld/husk nadir:esoteric
+/apoth spawn_boss EldoTest apotheosis:overworld/husk nadir:legendary
+/apoth spawn_boss EldoTest apotheosis:overworld/husk apotheosis:epic
+/apoth spawn_boss EldoTest apotheosis:overworld/husk apotheosis:mythic
+/apoth spawn_boss EldoTest apotheosis:overworld/husk apotheosis:mythic true
+/apoth spawn_boss EldoTest apotheosis:overworld/husk apotheosis:mythic false
+/apoth spawn_boss EldoTest apotheosis:overworld/husk apotheosis:mythic true
+/apoth spawn_boss EldoTest apotheosis:overworld/husk apotheosis:mythic
+/apoth spawn_boss EldoTest apotheosis:overworld/husk apotheosis:mythic false
+/apoth spawn_boss EldoTest apotheosis:overworld/husk apotheosis:mythic
+/apoth spawn_boss EldoTest apotheosis:overworld/husk apotheosis:mythic true
+/apoth spawn_boss EldoTest apotheosis:overworld/husk apotheosis:mythic
+/reload
+/advancement grant @s only apotheosis:progression/haven
+/apoth set_world_tier EldoTest haven

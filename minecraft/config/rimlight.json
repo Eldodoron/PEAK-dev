@@ -1,0 +1,9 @@
+{
+  "ENABLE_RIM_LIGHT": 2,
+  "RIM_COLOR_INFLUENCE": 1.0,
+  "RIM_THICKNESS": 3.0,
+  "RIM_STRENGTH": 0.5,
+  "RIM_DEPTH_THRESHOLD": 0.1,
+  "RIM_MAX_DISTANCE": 64.0,
+  "blockInclusionOverrides": {}
+}

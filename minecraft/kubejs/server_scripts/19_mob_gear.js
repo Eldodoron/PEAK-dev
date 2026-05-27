@@ -33,7 +33,94 @@ ServerEvents.generateData('peak', 'mob_gear', event => {
                 "stack": { "id": "cataclysm:wither_assault_shoulder_weapon", "count": 1 },
                 "weight": 10,
                 "drop_chance": 0.0
-            }
+            },
+            { "stack": { "id": "knightquest:cleaver", "count": 1 }, "weight": 15, "drop_chance": 0.0 },
+            { "stack": { "id": "knightquest:khopesh_claymore", "count": 1 }, "weight": 15, "drop_chance": 0.0 },
+            { "stack": { "id": "knightquest:kukri_dagger", "count": 1 }, "weight": 15, "drop_chance": 0.0 },
+            { "stack": { "id": "knightquest:nail_glaive", "count": 1 }, "weight": 15, "drop_chance": 0.0 },
+            { "stack": { "id": "knightquest:paladin_sword", "count": 1 }, "weight": 15, "drop_chance": 0.0 },
+            { "stack": { "id": "knightquest:steel_axe", "count": 1 }, "weight": 15, "drop_chance": 0.0 },
+            { "stack": { "id": "knightquest:steel_sword", "count": 1 }, "weight": 15, "drop_chance": 0.0 },
+            { "stack": { "id": "knightquest:uchigatana_katana", "count": 1 }, "weight": 15, "drop_chance": 0.0 },
+            { "stack": { "id": "simplyswords:arcanethyst", "count": 1 }, "weight": 5, "drop_chance": 0.0 },
+            { "stack": { "id": "simplyswords:awakened_lichblade", "count": 1 }, "weight": 5, "drop_chance": 0.0 },
+            { "stack": { "id": "simplyswords:bramblethorn", "count": 1 }, "weight": 5, "drop_chance": 0.0 },
+            { "stack": { "id": "simplyswords:brimstone_claymore", "count": 1 }, "weight": 5, "drop_chance": 0.0 },
+            { "stack": { "id": "simplyswords:caelestis", "count": 1 }, "weight": 5, "drop_chance": 0.0 },
+            { "stack": { "id": "simplyswords:chompolotl", "count": 1 }, "weight": 5, "drop_chance": 0.0 },
+            { "stack": { "id": "simplyswords:dreadtide", "count": 1 }, "weight": 5, "drop_chance": 0.0 },
+            { "stack": { "id": "simplyswords:emberblade", "count": 1 }, "weight": 5, "drop_chance": 0.0 },
+            { "stack": { "id": "simplyswords:emberlash", "count": 1 }, "weight": 5, "drop_chance": 0.0 },
+            { "stack": { "id": "simplyswords:enigma", "count": 1 }, "weight": 5, "drop_chance": 0.0 },
+            { "stack": { "id": "simplyswords:flamewind", "count": 1 }, "weight": 5, "drop_chance": 0.0 },
+            { "stack": { "id": "simplyswords:frostfall", "count": 1 }, "weight": 5, "drop_chance": 0.0 },
+            { "stack": { "id": "simplyswords:harbinger", "count": 1 }, "weight": 5, "drop_chance": 0.0 },
+            { "stack": { "id": "simplyswords:hearthflame", "count": 1 }, "weight": 5, "drop_chance": 0.0 },
+            { "stack": { "id": "simplyswords:hiveheart", "count": 1 }, "weight": 5, "drop_chance": 0.0 },
+            { "stack": { "id": "simplyswords:icewhisper", "count": 1 }, "weight": 5, "drop_chance": 0.0 },
+            { "stack": { "id": "simplyswords:livyatan", "count": 1 }, "weight": 5, "drop_chance": 0.0 },
+            { "stack": { "id": "simplyswords:magiblade", "count": 1 }, "weight": 5, "drop_chance": 0.0 },
+            { "stack": { "id": "simplyswords:magiscythe", "count": 1 }, "weight": 5, "drop_chance": 0.0 },
+            { "stack": { "id": "simplyswords:magispear", "count": 1 }, "weight": 5, "drop_chance": 0.0 },
+            { "stack": { "id": "simplyswords:mjolnir", "count": 1 }, "weight": 5, "drop_chance": 0.0 },
+            { "stack": { "id": "simplyswords:molten_edge", "count": 1 }, "weight": 5, "drop_chance": 0.0 },
+            { "stack": { "id": "simplyswords:ribboncleaver", "count": 1 }, "weight": 5, "drop_chance": 0.0 },
+            { "stack": { "id": "simplyswords:shadowsting", "count": 1 }, "weight": 5, "drop_chance": 0.0 },
+            { "stack": { "id": "simplyswords:soulkeeper", "count": 1 }, "weight": 5, "drop_chance": 0.0 },
+            { "stack": { "id": "simplyswords:soulpyre", "count": 1 }, "weight": 5, "drop_chance": 0.0 },
+            { "stack": { "id": "simplyswords:soulrender", "count": 1 }, "weight": 5, "drop_chance": 0.0 },
+            { "stack": { "id": "simplyswords:soulstealer", "count": 1 }, "weight": 5, "drop_chance": 0.0 },
+            { "stack": { "id": "simplyswords:stars_edge", "count": 1 }, "weight": 5, "drop_chance": 0.0 },
+            { "stack": { "id": "simplyswords:stormbringer", "count": 1 }, "weight": 5, "drop_chance": 0.0 },
+            { "stack": { "id": "simplyswords:storms_edge", "count": 1 }, "weight": 5, "drop_chance": 0.0 },
+            { "stack": { "id": "simplyswords:sunfire", "count": 1 }, "weight": 5, "drop_chance": 0.0 },
+            { "stack": { "id": "simplyswords:sword_on_a_stick", "count": 1 }, "weight": 5, "drop_chance": 0.0 },
+            { "stack": { "id": "simplyswords:tempest", "count": 1 }, "weight": 5, "drop_chance": 0.0 },
+            { "stack": { "id": "simplyswords:thunderbrand", "count": 1 }, "weight": 5, "drop_chance": 0.0 },
+            { "stack": { "id": "simplyswords:toxic_longsword", "count": 1 }, "weight": 5, "drop_chance": 0.0 },
+            { "stack": { "id": "simplyswords:twisted_blade", "count": 1 }, "weight": 5, "drop_chance": 0.0 },
+            { "stack": { "id": "simplyswords:watcher_claymore", "count": 1 }, "weight": 5, "drop_chance": 0.0 },
+            { "stack": { "id": "simplyswords:watching_warglaive", "count": 1 }, "weight": 5, "drop_chance": 0.0 },
+            { "stack": { "id": "simplyswords:waxweaver", "count": 1 }, "weight": 5, "drop_chance": 0.0 },
+            { "stack": { "id": "simplyswords:whisperwind", "count": 1 }, "weight": 5, "drop_chance": 0.0 },
+            { "stack": { "id": "simplyswords:wickpiercer", "count": 1 }, "weight": 5, "drop_chance": 0.0 },
+            { "stack": { "id": "simplyswords:wraithfang", "count": 1 }, "weight": 5, "drop_chance": 0.0 },
+            { "stack": { "id": "simplymore:ascended_idol", "count": 1 }, "weight": 5, "drop_chance": 0.0 },
+            { "stack": { "id": "simplymore:black_pearl", "count": 1 }, "weight": 5, "drop_chance": 0.0 },
+            { "stack": { "id": "simplymore:blade_of_the_grotesque", "count": 1 }, "weight": 5, "drop_chance": 0.0 },
+            { "stack": { "id": "simplymore:boas_fang", "count": 1 }, "weight": 5, "drop_chance": 0.0 },
+            { "stack": { "id": "simplymore:brassturn", "count": 1 }, "weight": 5, "drop_chance": 0.0 },
+            { "stack": { "id": "simplymore:cindergorge", "count": 1 }, "weight": 5, "drop_chance": 0.0 },
+            { "stack": { "id": "simplymore:culterex", "count": 1 }, "weight": 5, "drop_chance": 0.0 },
+            { "stack": { "id": "simplymore:darksent", "count": 1 }, "weight": 5, "drop_chance": 0.0 },
+            { "stack": { "id": "simplymore:deaths_eyrie", "count": 1 }, "weight": 5, "drop_chance": 0.0 },
+            { "stack": { "id": "simplymore:earthshatter", "count": 1 }, "weight": 5, "drop_chance": 0.0 },
+            { "stack": { "id": "simplymore:exedrill", "count": 1 }, "weight": 5, "drop_chance": 0.0 },
+            { "stack": { "id": "simplymore:glimmerstep", "count": 1 }, "weight": 5, "drop_chance": 0.0 },
+            { "stack": { "id": "simplymore:grandfrost", "count": 1 }, "weight": 5, "drop_chance": 0.0 },
+            { "stack": { "id": "simplymore:great_slither", "count": 1 }, "weight": 5, "drop_chance": 0.0 },
+            { "stack": { "id": "simplymore:holylight", "count": 1 }, "weight": 5, "drop_chance": 0.0 },
+            { "stack": { "id": "simplymore:jester_penetrate", "count": 1 }, "weight": 5, "drop_chance": 0.0 },
+            { "stack": { "id": "simplymore:lustrous_moxie", "count": 1 }, "weight": 5, "drop_chance": 0.0 },
+            { "stack": { "id": "simplymore:matterbane", "count": 1 }, "weight": 5, "drop_chance": 0.0 },
+            { "stack": { "id": "simplymore:mimicry", "count": 1 }, "weight": 5, "drop_chance": 0.0 },
+            { "stack": { "id": "simplymore:molten_flare", "count": 1 }, "weight": 5, "drop_chance": 0.0 },
+            { "stack": { "id": "simplymore:myrmedge", "count": 1 }, "weight": 5, "drop_chance": 0.0 },
+            { "stack": { "id": "simplymore:perforiscus", "count": 1 }, "weight": 5, "drop_chance": 0.0 },
+            { "stack": { "id": "simplymore:revvengine", "count": 1 }, "weight": 5, "drop_chance": 0.0 },
+            { "stack": { "id": "simplymore:ruptured_idol", "count": 1 }, "weight": 5, "drop_chance": 0.0 },
+            { "stack": { "id": "simplymore:ruyi_jingu_bang", "count": 1 }, "weight": 5, "drop_chance": 0.0 },
+            { "stack": { "id": "simplymore:serpentine_valour", "count": 1 }, "weight": 5, "drop_chance": 0.0 },
+            { "stack": { "id": "simplymore:smouldering_ruin", "count": 1 }, "weight": 5, "drop_chance": 0.0 },
+            { "stack": { "id": "simplymore:soul_foreseer", "count": 1 }, "weight": 5, "drop_chance": 0.0 },
+            { "stack": { "id": "simplymore:stasis", "count": 1 }, "weight": 5, "drop_chance": 0.0 },
+            { "stack": { "id": "simplymore:tarnished_idol", "count": 1 }, "weight": 5, "drop_chance": 0.0 },
+            { "stack": { "id": "simplymore:the_blood_harvester", "count": 1 }, "weight": 5, "drop_chance": 0.0 },
+            { "stack": { "id": "simplymore:the_pan", "count": 1 }, "weight": 5, "drop_chance": 0.0 },
+            { "stack": { "id": "simplymore:the_vessel_breach", "count": 1 }, "weight": 5, "drop_chance": 0.0 },
+            { "stack": { "id": "simplymore:tidebreaker", "count": 1 }, "weight": 5, "drop_chance": 0.0 },
+            { "stack": { "id": "simplymore:timekeeper", "count": 1 }, "weight": 5, "drop_chance": 0.0 },
+            { "stack": { "id": "simplymore:vipers_call", "count": 1 }, "weight": 5, "drop_chance": 0.0 }
         ],
         "offhands": [],
         "helmets": [],
@@ -89,13 +176,35 @@ EntityEvents.spawned(event => {
     }
 
     if (Platform.isLoaded('knightquest')) {
-        helmets.push('knightquest:silver_knight_helmet', 'knightquest:iron_knight_helmet', 'knightquest:doom_helmet');
-        chestplates.push('knightquest:silver_knight_chestplate', 'knightquest:iron_knight_chestplate', 'knightquest:doom_chestplate');
+        helmets.push(
+            'knightquest:deepslate_helmet', 'knightquest:dragon_helmet', 'knightquest:enderman_helmet',
+            'knightquest:evoker_helmet', 'knightquest:forze_helmet', 'knightquest:hollow_helmet',
+            'knightquest:horn_helmet', 'knightquest:husk_helmet', 'knightquest:nether_helmet',
+            'knightquest:path_helmet', 'knightquest:phantom_helmet', 'knightquest:pirate_helmet',
+            'knightquest:polar_helmet', 'knightquest:sea_helmet', 'knightquest:shield_helmet',
+            'knightquest:shinobi_helmet', 'knightquest:silverfish_helmet', 'knightquest:silver_helmet',
+            'knightquest:skeleton_helmet', 'knightquest:skulk_helmet', 'knightquest:spider_helmet',
+            'knightquest:squire_helmet', 'knightquest:strawhat_helmet', 'knightquest:tengu_helmet',
+            'knightquest:veteran_helmet', 'knightquest:warlord_helmet', 'knightquest:witch_helmet',
+            'knightquest:wither_helmet', 'knightquest:zombie_helmet'
+        );
+        chestplates.push(
+            'knightquest:deepslate_chestplate', 'knightquest:dragon_chestplate', 'knightquest:enderman_chestplate',
+            'knightquest:evoker_chestplate', 'knightquest:forze_chestplate', 'knightquest:hollow_chestplate',
+            'knightquest:horn_chestplate', 'knightquest:husk_chestplate', 'knightquest:nether_chestplate',
+            'knightquest:path_chestplate', 'knightquest:phantom_chestplate', 'knightquest:pirate_chestplate',
+            'knightquest:polar_chestplate', 'knightquest:sea_chestplate', 'knightquest:shield_chestplate',
+            'knightquest:shinobi_chestplate', 'knightquest:silverfish_chestplate', 'knightquest:silver_chestplate',
+            'knightquest:skeleton_chestplate', 'knightquest:skulk_chestplate', 'knightquest:spider_chestplate',
+            'knightquest:squire_chestplate', 'knightquest:strawhat_chestplate', 'knightquest:veteran_chestplate',
+            'knightquest:warlord_chestplate', 'knightquest:witch_chestplate', 'knightquest:wither_chestplate',
+            'knightquest:zombie_chestplate'
+        );
     }
 
     if (Platform.isLoaded('armoroftheages')) {
-        helmets.push('armoroftheages:anubis_helmet', 'armoroftheages:centurion_helmet', 'armoroftheages:holy_helmet', 'armoroftheages:samurai_helmet');
-        chestplates.push('armoroftheages:anubis_chestplate', 'armoroftheages:centurion_chestplate', 'armoroftheages:holy_chestplate', 'armoroftheages:samurai_chestplate');
+        helmets.push('armoroftheages:anubis_armor_head', 'armoroftheages:centurion_armor_head', 'armoroftheages:holy_armor_head', 'armoroftheages:o_yoroi_armor_head');
+        chestplates.push('armoroftheages:anubis_armor_chest', 'armoroftheages:centurion_armor_chest', 'armoroftheages:holy_armor_chest', 'armoroftheages:o_yoroi_armor_chest');
     }
 
     if (Platform.isLoaded('fantasy_armor')) {
@@ -138,8 +247,8 @@ EntityEvents.spawned(event => {
 
     // Deeper and Darker Logic: ONLY in Deep Dark or Otherside
     if (Platform.isLoaded('deeperdarker')) {
-        const dimId = entity.level.dimension.toString();
-        const biomeStr = currentBiomeId.toString();
+        var dimId = entity.level.dimension.toString();
+        var biomeStr = currentBiomeId.toString();
         if (biomeStr == 'minecraft:deep_dark' || dimId == 'deeperdarker:otherside') {
             helmets.push('deeperdarker:warden_helmet', 'deeperdarker:resonarium_helmet');
             chestplates.push('deeperdarker:warden_chestplate', 'deeperdarker:resonarium_chestplate');
@@ -155,7 +264,7 @@ EntityEvents.spawned(event => {
     let chest = Item.of(chestId);
 
     if (!helm.empty && !chest.empty) {
-        const trimData = { material: "minecraft:gold", pattern: "minecraft:ward" };
+        let trimData = { material: "minecraft:gold", pattern: "minecraft:ward" };
         entity.setItemSlot('head', helm.withComponent('minecraft:trim', trimData));
         entity.setItemSlot('chest', chest.withComponent('minecraft:trim', trimData));
         

@@ -352,6 +352,446 @@ entityTrails:
         size: 0.075
         # Frequency of trail point placement
         updateFrequency: 1
+    irons_spellbooks:firebolt_projectile:
+        # Position offset of the trail in the opposite direction from the player's standing point
+        backwardShift: 0.0
+        # Starting color of the trail in ARGB format
+        fadeInColor: '#FFFF4500'
+        # Ending color of the trail in ARGB format
+        fadeOutColor: '#80FFD700'
+        # Maximum trail length, measured in points that are placed every N ticks, where N is the value of updateFrequency
+        maxPoints: 8
+        # Minimum object movement speed to place trail points
+        minSpeed: 0.001
+        # Position offset of the trail in the opposite direction from the object's movement
+        motionShift: 0.0
+        # Position offset of the trail relative to the object in XYZ
+        positionOffset:
+            x: 0.0
+            y: 0.0
+            z: 0.0
+        # Trail thickness
+        size: 0.12
+        # Frequency of trail point placement
+        updateFrequency: 1
+    irons_spellbooks:magic_arrow_projectile:
+        # Position offset of the trail in the opposite direction from the player's standing point
+        backwardShift: 0.0
+        # Starting color of the trail in ARGB format
+        fadeInColor: '#FF00FFFF'
+        # Ending color of the trail in ARGB format
+        fadeOutColor: '#808A2BE2'
+        # Maximum trail length, measured in points that are placed every N ticks, where N is the value of updateFrequency
+        maxPoints: 12
+        # Minimum object movement speed to place trail points
+        minSpeed: 0.001
+        # Position offset of the trail in the opposite direction from the object's movement
+        motionShift: 0.0
+        # Position offset of the trail relative to the object in XYZ
+        positionOffset:
+            x: 0.0
+            y: 0.0
+            z: 0.0
+        # Trail thickness
+        size: 0.08
+        # Frequency of trail point placement
+        updateFrequency: 1
+    irons_spellbooks:blood_needle_projectile:
+        # Position offset of the trail in the opposite direction from the player's standing point
+        backwardShift: 0.0
+        # Starting color of the trail in ARGB format
+        fadeInColor: '#FF8B0000'
+        # Ending color of the trail in ARGB format
+        fadeOutColor: '#80000000'
+        # Maximum trail length, measured in points that are placed every N ticks, where N is the value of updateFrequency
+        maxPoints: 10
+        # Minimum object movement speed to place trail points
+        minSpeed: 0.001
+        # Position offset of the trail in the opposite direction from the object's movement
+        motionShift: 0.0
+        # Position offset of the trail relative to the object in XYZ
+        positionOffset:
+            x: 0.0
+            y: 0.0
+            z: 0.0
+        # Trail thickness
+        size: 0.06
+        # Frequency of trail point placement
+        updateFrequency: 1
+    irons_spellbooks:magic_missile_projectile:
+        # Position offset of the trail in the opposite direction from the player's standing point
+        backwardShift: 0.0
+        # Starting color of the trail in ARGB format
+        fadeInColor: '#FFDA70D6'
+        # Ending color of the trail in ARGB format
+        fadeOutColor: '#804B0082'
+        # Maximum trail length, measured in points that are placed every N ticks, where N is the value of updateFrequency
+        maxPoints: 15
+        # Minimum object movement speed to place trail points
+        minSpeed: 0.001
+        # Position offset of the trail in the opposite direction from the object's movement
+        motionShift: 0.0
+        # Position offset of the trail relative to the object in XYZ
+        positionOffset:
+            x: 0.0
+            y: 0.0
+            z: 0.0
+        # Trail thickness
+        size: 0.15
+        # Frequency of trail point placement
+        updateFrequency: 1
+    irons_spellbooks:wisp_projectile:
+        # Position offset of the trail in the opposite direction from the player's standing point
+        backwardShift: 0.0
+        # Starting color of the trail in ARGB format
+        fadeInColor: '#FFFFF0F5'
+        # Ending color of the trail in ARGB format
+        fadeOutColor: '#80FFFF00'
+        # Maximum trail length, measured in points that are placed every N ticks, where N is the value of updateFrequency
+        maxPoints: 10
+        # Minimum object movement speed to place trail points
+        minSpeed: 0.001
+        # Position offset of the trail in the opposite direction from the object's movement
+        motionShift: 0.0
+        # Position offset of the trail relative to the object in XYZ
+        positionOffset:
+            x: 0.0
+            y: 0.0
+            z: 0.0
+        # Trail thickness
+        size: 0.1
+        # Frequency of trail point placement
+        updateFrequency: 1
+    irons_spellbooks:guiding_bolt_projectile:
+        # Position offset of the trail in the opposite direction from the player's standing point
+        backwardShift: 0.0
+        # Starting color of the trail in ARGB format
+        fadeInColor: '#FFFFD700'
+        # Ending color of the trail in ARGB format
+        fadeOutColor: '#80FFA500'
+        # Maximum trail length, measured in points that are placed every N ticks, where N is the value of updateFrequency
+        maxPoints: 12
+        # Minimum object movement speed to place trail points
+        minSpeed: 0.001
+        # Position offset of the trail in the opposite direction from the object's movement
+        motionShift: 0.0
+        # Position offset of the trail relative to the object in XYZ
+        positionOffset:
+            x: 0.0
+            y: 0.0
+            z: 0.0
+        # Trail thickness
+        size: 0.12
+        # Frequency of trail point placement
+        updateFrequency: 1
+    irons_spellbooks:ice_needle_projectile:
+        # Position offset of the trail in the opposite direction from the player's standing point
+        backwardShift: 0.0
+        # Starting color of the trail in ARGB format
+        fadeInColor: '#FFE0FFFF'
+        # Ending color of the trail in ARGB format
+        fadeOutColor: '#804682B4'
+        # Maximum trail length, measured in points that are placed every N ticks, where N is the value of updateFrequency
+        maxPoints: 10
+        # Minimum object movement speed to place trail points
+        minSpeed: 0.001
+        # Position offset of the trail in the opposite direction from the object's movement
+        motionShift: 0.0
+        # Position offset of the trail relative to the object in XYZ
+        positionOffset:
+            x: 0.0
+            y: 0.0
+            z: 0.0
+        # Trail thickness
+        size: 0.08
+        # Frequency of trail point placement
+        updateFrequency: 1
+    irons_spellbooks:poison_arrow_projectile:
+        # Position offset of the trail in the opposite direction from the player's standing point
+        backwardShift: 0.0
+        # Starting color of the trail in ARGB format
+        fadeInColor: '#FFADFF2F'
+        # Ending color of the trail in ARGB format
+        fadeOutColor: '#80006400'
+        # Maximum trail length, measured in points that are placed every N ticks, where N is the value of updateFrequency
+        maxPoints: 8
+        # Minimum object movement speed to place trail points
+        minSpeed: 0.001
+        # Position offset of the trail in the opposite direction from the object's movement
+        motionShift: 0.0
+        # Position offset of the trail relative to the object in XYZ
+        positionOffset:
+            x: 0.0
+            y: 0.0
+            z: 0.0
+        # Trail thickness
+        size: 0.08
+        # Frequency of trail point placement
+        updateFrequency: 1
+    irons_spellbooks:acid_orb_projectile:
+        # Position offset of the trail in the opposite direction from the player's standing point
+        backwardShift: 0.0
+        # Starting color of the trail in ARGB format
+        fadeInColor: '#FF00FF00'
+        # Ending color of the trail in ARGB format
+        fadeOutColor: '#80556B2F'
+        # Maximum trail length, measured in points that are placed every N ticks, where N is the value of updateFrequency
+        maxPoints: 8
+        # Minimum object movement speed to place trail points
+        minSpeed: 0.001
+        # Position offset of the trail in the opposite direction from the object's movement
+        motionShift: 0.0
+        # Position offset of the trail relative to the object in XYZ
+        positionOffset:
+            x: 0.0
+            y: 0.0
+            z: 0.0
+        # Trail thickness
+        size: 0.15
+        # Frequency of trail point placement
+        updateFrequency: 1
+    irons_spellbooks:lightning_lance_projectile:
+        # Position offset of the trail in the opposite direction from the player's standing point
+        backwardShift: 0.0
+        # Starting color of the trail in ARGB format
+        fadeInColor: '#FF00FFFF'
+        # Ending color of the trail in ARGB format
+        fadeOutColor: '#801E90FF'
+        # Maximum trail length, measured in points that are placed every N ticks, where N is the value of updateFrequency
+        maxPoints: 20
+        # Minimum object movement speed to place trail points
+        minSpeed: 0.001
+        # Position offset of the trail in the opposite direction from the object's movement
+        motionShift: 0.0
+        # Position offset of the trail relative to the object in XYZ
+        positionOffset:
+            x: 0.0
+            y: 0.0
+            z: 0.0
+        # Trail thickness
+        size: 0.1
+        # Frequency of trail point placement
+        updateFrequency: 1
+    irons_spellbooks:electric_orb_projectile:
+        # Position offset of the trail in the opposite direction from the player's standing point
+        backwardShift: 0.0
+        # Starting color of the trail in ARGB format
+        fadeInColor: '#FF87CEFA'
+        # Ending color of the trail in ARGB format
+        fadeOutColor: '#8000008B'
+        # Maximum trail length, measured in points that are placed every N ticks, where N is the value of updateFrequency
+        maxPoints: 12
+        # Minimum object movement speed to place trail points
+        minSpeed: 0.001
+        # Position offset of the trail in the opposite direction from the object's movement
+        motionShift: 0.0
+        # Position offset of the trail relative to the object in XYZ
+        positionOffset:
+            x: 0.0
+            y: 0.0
+            z: 0.0
+        # Trail thickness
+        size: 0.15
+        # Frequency of trail point placement
+        updateFrequency: 1
+    irons_spellbooks:fire_bomb_projectile:
+        # Position offset of the trail in the opposite direction from the player's standing point
+        backwardShift: 0.0
+        # Starting color of the trail in ARGB format
+        fadeInColor: '#FFFF4500'
+        # Ending color of the trail in ARGB format
+        fadeOutColor: '#808B0000'
+        # Maximum trail length, measured in points that are placed every N ticks, where N is the value of updateFrequency
+        maxPoints: 10
+        # Minimum object movement speed to place trail points
+        minSpeed: 0.001
+        # Position offset of the trail in the opposite direction from the object's movement
+        motionShift: 0.0
+        # Position offset of the trail relative to the object in XYZ
+        positionOffset:
+            x: 0.0
+            y: 0.0
+            z: 0.0
+        # Trail thickness
+        size: 0.2
+        # Frequency of trail point placement
+        updateFrequency: 1
+    irons_spellbooks:wither_skull_projectile:
+        # Position offset of the trail in the opposite direction from the player's standing point
+        backwardShift: 0.0
+        # Starting color of the trail in ARGB format
+        fadeInColor: '#FF4B0082'
+        # Ending color of the trail in ARGB format
+        fadeOutColor: '#80000000'
+        # Maximum trail length, measured in points that are placed every N ticks, where N is the value of updateFrequency
+        maxPoints: 8
+        # Minimum object movement speed to place trail points
+        minSpeed: 0.001
+        # Position offset of the trail in the opposite direction from the object's movement
+        motionShift: 0.0
+        # Position offset of the trail relative to the object in XYZ
+        positionOffset:
+            x: 0.0
+            y: 0.0
+            z: 0.0
+        # Trail thickness
+        size: 0.15
+        # Frequency of trail point placement
+        updateFrequency: 1
+    cataclysm:wither_missile:
+        # Position offset of the trail in the opposite direction from the player's standing point
+        backwardShift: 0.0
+        # Starting color of the trail in ARGB format
+        fadeInColor: '#FF1F1F1F'
+        # Ending color of the trail in ARGB format
+        fadeOutColor: '#804B0082'
+        # Maximum trail length, measured in points that are placed every N ticks, where N is the value of updateFrequency
+        maxPoints: 12
+        # Minimum object movement speed to place trail points
+        minSpeed: 0.001
+        # Position offset of the trail in the opposite direction from the object's movement
+        motionShift: 0.0
+        # Position offset of the trail relative to the object in XYZ
+        positionOffset:
+            x: 0.0
+            y: 0.0
+            z: 0.0
+        # Trail thickness
+        size: 0.15
+        # Frequency of trail point placement
+        updateFrequency: 1
+    cataclysm:wither_homing_missile:
+        # Position offset of the trail in the opposite direction from the player's standing point
+        backwardShift: 0.0
+        # Starting color of the trail in ARGB format
+        fadeInColor: '#FF2E2E2E'
+        # Ending color of the trail in ARGB format
+        fadeOutColor: '#804B0082'
+        # Maximum trail length, measured in points that are placed every N ticks, where N is the value of updateFrequency
+        maxPoints: 15
+        # Minimum object movement speed to place trail points
+        minSpeed: 0.001
+        # Position offset of the trail in the opposite direction from the object's movement
+        motionShift: 0.0
+        # Position offset of the trail relative to the object in XYZ
+        positionOffset:
+            x: 0.0
+            y: 0.0
+            z: 0.0
+        # Trail thickness
+        size: 0.15
+        # Frequency of trail point placement
+        updateFrequency: 1
+    cataclysm:void_shard:
+        # Position offset of the trail in the opposite direction from the player's standing point
+        backwardShift: 0.0
+        # Starting color of the trail in ARGB format
+        fadeInColor: '#FF8A2BE2'
+        # Ending color of the trail in ARGB format
+        fadeOutColor: '#80DA70D6'
+        # Maximum trail length, measured in points that are placed every N ticks, where N is the value of updateFrequency
+        maxPoints: 10
+        # Minimum object movement speed to place trail points
+        minSpeed: 0.001
+        # Position offset of the trail in the opposite direction from the object's movement
+        motionShift: 0.0
+        # Position offset of the trail relative to the object in XYZ
+        positionOffset:
+            x: 0.0
+            y: 0.0
+            z: 0.0
+        # Trail thickness
+        size: 0.12
+        # Frequency of trail point placement
+        updateFrequency: 1
+    cataclysm:void_scatter_arrow:
+        # Position offset of the trail in the opposite direction from the player's standing point
+        backwardShift: 0.0
+        # Starting color of the trail in ARGB format
+        fadeInColor: '#FFFF00FF'
+        # Ending color of the trail in ARGB format
+        fadeOutColor: '#80800080'
+        # Maximum trail length, measured in points that are placed every N ticks, where N is the value of updateFrequency
+        maxPoints: 8
+        # Minimum object movement speed to place trail points
+        minSpeed: 0.001
+        # Position offset of the trail in the opposite direction from the object's movement
+        motionShift: 0.0
+        # Position offset of the trail relative to the object in XYZ
+        positionOffset:
+            x: 0.0
+            y: 0.0
+            z: 0.0
+        # Trail thickness
+        size: 0.08
+        # Frequency of trail point placement
+        updateFrequency: 1
+    cataclysm:amethyst_cluster_projectile:
+        # Position offset of the trail in the opposite direction from the player's standing point
+        backwardShift: 0.0
+        # Starting color of the trail in ARGB format
+        fadeInColor: '#FFDA70D6'
+        # Ending color of the trail in ARGB format
+        fadeOutColor: '#80EE82EE'
+        # Maximum trail length, measured in points that are placed every N ticks, where N is the value of updateFrequency
+        maxPoints: 10
+        # Minimum object movement speed to place trail points
+        minSpeed: 0.001
+        # Position offset of the trail in the opposite direction from the object's movement
+        motionShift: 0.0
+        # Position offset of the trail relative to the object in XYZ
+        positionOffset:
+            x: 0.0
+            y: 0.0
+            z: 0.0
+        # Trail thickness
+        size: 0.15
+        # Frequency of trail point placement
+        updateFrequency: 1
+    cataclysm:ignis_fireball:
+        # Position offset of the trail in the opposite direction from the player's standing point
+        backwardShift: 0.0
+        # Starting color of the trail in ARGB format
+        fadeInColor: '#FFFF4500'
+        # Ending color of the trail in ARGB format
+        fadeOutColor: '#808B0000'
+        # Maximum trail length, measured in points that are placed every N ticks, where N is the value of updateFrequency
+        maxPoints: 15
+        # Minimum object movement speed to place trail points
+        minSpeed: 0.001
+        # Position offset of the trail in the opposite direction from the object's movement
+        motionShift: 0.0
+        # Position offset of the trail relative to the object in XYZ
+        positionOffset:
+            x: 0.0
+            y: 0.0
+            z: 0.0
+        # Trail thickness
+        size: 0.25
+        # Frequency of trail point placement
+        updateFrequency: 1
+    cataclysm:lava_bomb:
+        # Position offset of the trail in the opposite direction from the player's standing point
+        backwardShift: 0.0
+        # Starting color of the trail in ARGB format
+        fadeInColor: '#FFFF8C00'
+        # Ending color of the trail in ARGB format
+        fadeOutColor: '#80A0522D'
+        # Maximum trail length, measured in points that are placed every N ticks, where N is the value of updateFrequency
+        maxPoints: 12
+        # Minimum object movement speed to place trail points
+        minSpeed: 0.001
+        # Position offset of the trail in the opposite direction from the object's movement
+        motionShift: 0.0
+        # Position offset of the trail relative to the object in XYZ
+        positionOffset:
+            x: 0.0
+            y: 0.0
+            z: 0.0
+        # Trail thickness
+        size: 0.25
+        # Frequency of trail point placement
+        updateFrequency: 1
 # List of particle ID's that should have trail effect.
 particleTrails: {
     }

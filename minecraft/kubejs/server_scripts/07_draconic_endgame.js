@@ -1,4 +1,4 @@
-﻿// ==========================================
+// ==========================================
 // PEAK EXPERT MODE â€” SCRIPT 07
 // DRACONIC EVOLUTION + ICE & FIRE + ALLTHEMODIUM
 // (Era 6-7: The True Endgame)
@@ -46,15 +46,7 @@ ServerEvents.recipes(event => {
         ]
     ).superheated();
 
-    // Ice Dragon Blood + Gold = Cryogenic Gold (enhanced Hallowed Gold)
-    event.recipes.create.mixing(
-        '2x malum:hallowed_gold_ingot',
-        [
-            '#c:ingots/gold',
-            '#c:ingots/gold',
-            'iceandfire:ice_dragon_blood'
-        ]
-    ).superheated();
+
 
     // Lightning Dragon Blood + Redstone = Supercharged circuits
     event.recipes.create.mixing(

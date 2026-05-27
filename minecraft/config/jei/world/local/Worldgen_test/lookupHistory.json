@@ -1,0 +1,9 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"malum:hallowed_gold_ingot"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"wandering_trader_plus:random_egg_block"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"alexsmobs:gazelle_horn"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"enderio:powered_spawner","components":{"enderio:soul":{"entity_type":"minecraft:cow","entity_tag":{}}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"enderio:broken_spawner","components":{"enderio:soul":{"entity_type":"minecraft:cow","entity_tag":{}}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:spawner"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

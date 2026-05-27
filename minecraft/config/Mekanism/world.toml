@@ -101,7 +101,7 @@ userWorldGenVersion = 0
 #Generation Settings for Osmium ore.
 [osmium]
 	#Determines if Osmium ore should be added to world generation.
-	shouldGenerate = true
+	shouldGenerate = false
 
 	#Upper Osmium Vein Generation Settings.
 	[osmium.upper]
@@ -238,7 +238,7 @@ userWorldGenVersion = 0
 #Generation Settings for Uranium ore.
 [uranium]
 	#Determines if Uranium ore should be added to world generation.
-	shouldGenerate = true
+	shouldGenerate = false
 
 	#Small Uranium Vein Generation Settings.
 	[uranium.small]
@@ -424,7 +424,7 @@ userWorldGenVersion = 0
 #Generation Settings for Lead ore.
 [lead]
 	#Determines if Lead ore should be added to world generation.
-	shouldGenerate = true
+	shouldGenerate = false
 
 	#Normal Lead Vein Generation Settings.
 	[lead.normal]

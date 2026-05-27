@@ -34,13 +34,13 @@ Core progression mechanics, tier gates, and questline balancing.
   - Fix any broken progression triggers.
 - [ ] **Vampirism Tunes:**
   - Investigate and adjust balance/tunes for the Vampirism mod.
-- [ ] **Automatic World Tier Progression:**
+- [x] **Automatic World Tier Progression:**
   - Design and implement a fully automated world tier progression mechanic to gate content dynamically.
 - [ ] **Adjust Level Limit (Dynamic Difficulty):**
   - Adjust and configure the max level limit/scaling of the Dynamic Difficulty system.
 - [ ] **World Tier Haven Uncommon Enemy Spawns:**
   - Fix spawn rates in the Haven world tier; currently it is not spawning enough uncommon enemies.
-- [ ] **Paraglider Spirit Orb Acquisition Overhaul:**
+- [x] **Paraglider Spirit Orb Acquisition Overhaul:**
   - **Goal:** Spirit Orbs should *not* be obtainable via chest loot or regular drops.
   - **New Mechanic:** Can only be obtained by breaking spawners very rarely.
   - **Tuning:** The rarity must be calibrated such that the player has to break almost a thousand spawners to achieve maximum health bars.
@@ -51,7 +51,7 @@ Core progression mechanics, tier gates, and questline balancing.
 
 Dependencies, duplicate removal, and configuration tweaks.
 
-- [ ] **Check Cerulean:**
+- [x] **Check Cerulean:**
   - Run diagnostic checks on Cerulean library integration or dependencies.
 - [ ] **Forgified Fabric Removal:**
   - Remove Forgified Fabric libraries/dependencies completely. Ensure no mixin or load-time crashes occur.
@@ -59,7 +59,7 @@ Dependencies, duplicate removal, and configuration tweaks.
   - Check the `nowheel` mod/setting or behavior.
 - [ ] **Extensible Enums:**
   - Check/investigate implementation of extensible enums for mod compatibilities.
-- [ ] **Configure Ore Generation (Duplicate Cleanup):**
+- [x] **Configure Ore Generation (Duplicate Cleanup):**
   - **Issue:** Multiple mods are generating duplicate ores in the world.
   - **Action:** Configure ore gen rules to unify ore types, leaving only one version of each ore (e.g., copper, tin, silver) generating in the world.
 
@@ -98,7 +98,7 @@ Economy, jewelry, entities, and specialized enchanting systems.
 - [ ] **Tome of Alkahestry Balance Review:**
   - **Question:** Is the Tome of Alkahestry (from *Reliquary Reincarnations*) balanced for the pack's economy? Review and adjust if necessary.
 - [ ] **Create Machine Enchants restrictions:**
-  - **Design:** Restrict machine-oriented enchants (or specialized enchants) so they can only be applied using high-level enchanting setups.
+  - **Design:** Restrict machine-oriented enchants (or specialized enchants) so they can only be applied using high-level enchanting setups(apoth enchants).
 
 ---
 
@@ -116,7 +116,7 @@ graph TD
 ```
 
 ### 🧪 Recipe Overhauls & Removals
-- [ ] **Hallowed Gold Recipe Clean-up:**
+- [x] **Hallowed Gold Recipe Clean-up:**
   - **Issue:** The Create mixing recipe for Hallowed Gold does not make sense.
   - **Action:** Remove the Create mixing recipe completely; keep only the *Malum* custom recipe.
 
@@ -139,3 +139,5 @@ graph TD
 - make everlasting backpack upgrade cost heart canisters?
 - make sure that draconic evolution recipes make sense.
 - rework weapon attack range (maybe figure out why do they attack so far away and why are they unbreakable)
+- [x] rework ore worldgen to eliminate duplicated ores from spawning
+- remove atlas map mod sinsce ftb map is installed

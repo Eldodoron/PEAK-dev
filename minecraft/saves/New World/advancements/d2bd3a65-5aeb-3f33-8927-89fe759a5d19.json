@@ -6368,75 +6368,285 @@
   },
   "incendium:technical/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2026-05-25 01:43:03 -0400"
+      "log_spam_fixer": "2026-05-26 14:36:14 -0400"
     },
     "done": false
   },
   "incendium:technical/on_block": {
     "criteria": {
-      "log_spam_fixer": "2026-05-25 01:43:03 -0400"
+      "log_spam_fixer": "2026-05-26 14:36:14 -0400"
     },
     "done": false
   },
   "incendium:technical/feed_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2026-05-25 01:43:03 -0400"
+      "log_spam_fixer": "2026-05-26 14:36:14 -0400"
     },
     "done": false
   },
   "incendium:technical/multiplex_crossbow": {
     "criteria": {
-      "log_spam_fixer": "2026-05-25 01:43:03 -0400"
+      "log_spam_fixer": "2026-05-26 14:36:14 -0400"
     },
     "done": false
   },
   "incendium:technical/on_player_hurt": {
     "criteria": {
-      "log_spam_fixer": "2026-05-25 01:43:03 -0400"
+      "log_spam_fixer": "2026-05-26 14:36:14 -0400"
     },
     "done": false
   },
   "incendium:technical/on_kill": {
     "criteria": {
-      "log_spam_fixer": "2026-05-25 01:43:03 -0400"
+      "log_spam_fixer": "2026-05-26 14:36:14 -0400"
     },
     "done": false
   },
   "incendium:technical/on_inventory_change": {
     "criteria": {
-      "log_spam_fixer": "2026-05-25 01:43:03 -0400"
+      "log_spam_fixer": "2026-05-26 14:36:14 -0400"
     },
     "done": false
   },
   "incendium:technical/holy_wrath": {
     "criteria": {
-      "log_spam_fixer": "2026-05-25 01:43:03 -0400"
+      "log_spam_fixer": "2026-05-26 14:36:14 -0400"
     },
     "done": false
   },
   "incendium:technical/inventory/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2026-05-25 01:43:03 -0400"
+      "log_spam_fixer": "2026-05-26 14:36:14 -0400"
     },
     "done": false
   },
   "incendium:technical/give_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2026-05-25 01:43:03 -0400"
+      "log_spam_fixer": "2026-05-26 14:36:14 -0400"
     },
     "done": false
   },
   "incendium:technical/inventory/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2026-05-25 01:43:03 -0400"
+      "log_spam_fixer": "2026-05-26 14:36:14 -0400"
     },
     "done": false
   },
   "incendium:technical/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2026-05-25 01:43:03 -0400"
+      "log_spam_fixer": "2026-05-26 14:36:14 -0400"
     },
     "done": false
+  },
+  "supplementaries:recipe/flower_box": {
+    "criteria": {
+      "has_tag_minecraft_wooden_slabs_1": "2026-05-26 13:27:43 -0400"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/bellows": {
+    "criteria": {
+      "has_tag_minecraft_wooden_slabs_1": "2026-05-26 13:27:43 -0400"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/stool_from_feather_block": {
+    "criteria": {
+      "has_tag_minecraft_wooden_slabs_2": "2026-05-26 13:27:43 -0400"
+    },
+    "done": true
+  },
+  "tombstone:adventure/first_grave": {
+    "criteria": {
+      "coded_trigger": "2026-05-26 13:22:31 -0400"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/jar": {
+    "criteria": {
+      "has_tag_minecraft_wooden_slabs_1": "2026-05-26 13:27:43 -0400"
+    },
+    "done": true
+  },
+  "tombstone:recipe/enchanted_grave_key": {
+    "criteria": {
+      "has_ingredient": "2026-05-26 13:22:33 -0400"
+    },
+    "done": true
+  },
+  "tombstone:adventure/strong_or_careful": {
+    "criteria": {
+      "coded_trigger": "2026-05-26 13:22:31 -0400"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/ride_nuclear_bomb": {
+    "criteria": {
+      "ride_nuclear_bomb": "2026-05-26 14:11:19 -0400"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/workbench": {
+    "criteria": {
+      "has_slabs": "2026-05-26 13:27:43 -0400"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/item_shelf": {
+    "criteria": {
+      "has_tag_minecraft_wooden_slabs_1": "2026-05-26 13:27:43 -0400"
+    },
+    "done": true
+  },
+  "tombstone:adventure/first_knowledge": {
+    "criteria": {
+      "coded_trigger": "2026-05-26 13:22:31 -0400"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/bamboo_spikes": {
+    "criteria": {
+      "has_tag_minecraft_wooden_slabs_1": "2026-05-26 13:27:43 -0400"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/bomb": {
+    "criteria": {
+      "has_item_minecraft_tnt_1": "2026-05-26 13:50:13 -0400"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/pulley": {
+    "criteria": {
+      "has_tag_minecraft_wooden_slabs_3": "2026-05-26 13:27:43 -0400"
+    },
+    "done": true
+  },
+  "vampirism:recipes/decorations/general/totem_base": {
+    "criteria": {
+      "has_obsidian": "2026-05-26 13:46:34 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/enchanting_table": {
+    "criteria": {
+      "has_obsidian": "2026-05-26 13:46:36 -0400"
+    },
+    "done": true
+  },
+  "tombstone:adventure/neighborhood_brawl": {
+    "criteria": {
+      "coded_trigger": "2026-05-26 13:44:50 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/oak_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2026-05-26 13:23:18 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_planks": {
+    "criteria": {
+      "has_logs": "2026-05-26 13:23:18 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_oak_wood": {
+    "criteria": {
+      "has_log": "2026-05-26 13:23:18 -0400"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/decorations/wood/oak_drying_rack": {
+    "criteria": {
+      "has_item": "2026-05-26 13:27:43 -0400"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_crying_obsidian": {
+    "criteria": {
+      "crying_obsidian": "2026-05-26 13:46:34 -0400"
+    },
+    "done": true
+  },
+  "vampirism:recipes/misc/vampire_beacon": {
+    "criteria": {
+      "has_obsidian": "2026-05-26 13:46:34 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/composter": {
+    "criteria": {
+      "has_wood_slab": "2026-05-26 13:27:43 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/flint_and_steel": {
+    "criteria": {
+      "has_obsidian": "2026-05-26 13:46:36 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/respawn_anchor": {
+    "criteria": {
+      "has_obsidian": "2026-05-26 13:46:34 -0400"
+    },
+    "done": true
+  },
+  "vampirism:recipes/decorations/general/totem_top": {
+    "criteria": {
+      "has_obsidian": "2026-05-26 13:46:34 -0400"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/nuclear_bomb": {
+    "criteria": {
+      "nuclear_bomb": "2026-05-26 13:50:25 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/vertslabs/oak_vertical_slab": {
+    "criteria": {
+      "obtained_slab": "2026-05-26 13:27:43 -0400"
+    },
+    "done": true
+  },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2026-05-26 13:46:36 -0400"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/blackboard": {
+    "criteria": {
+      "has_tag_minecraft_wooden_slabs_1": "2026-05-26 13:27:43 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/barrel": {
+    "criteria": {
+      "has_wood_slab": "2026-05-26 13:27:43 -0400"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/decorations/wood/oak_banister": {
+    "criteria": {
+      "has_item": "2026-05-26 13:27:43 -0400"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/cage": {
+    "criteria": {
+      "has_tag_minecraft_wooden_slabs_1": "2026-05-26 13:27:43 -0400"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/spiky_bomb_2": {
+    "criteria": {
+      "has_item_minecraft_tnt_1": "2026-05-26 13:50:13 -0400"
+    },
+    "done": true
   },
   "DataVersion": 3955
 }

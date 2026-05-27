@@ -1,0 +1,22 @@
+filename = 'shine-2.0.0+1.21.1-neoforge.jar'
+name = 'Shine'
+side = 'client'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '2.0.0+1.21.1-neoforge'
+
+[download]
+hash = 'f8dcf24e22b520922f86daa87d912b4ebc3da68083b51f6d0f473799cf48011aeb37b4ef8ceb783591a6a34ffa4deead828115ec824203cceb41a1e7c4ad59ea'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/uQgWIE6A/versions/whwqwfXb/shine-2.0.0%2B1.21.1-neoforge.jar'
+
+[update.modrinth]
+mod-id = 'uQgWIE6A'
+version = 'whwqwfXb'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'AANobbMI'
+type = 'REQUIRED'
+version = 'Pb3OXVqC'

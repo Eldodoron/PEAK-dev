@@ -33,6 +33,102 @@
         ],
         "type": "visuality:sparkle"
       }
+    },
+    {
+      "armor": [
+        "minecraft:netherite_helmet",
+        "minecraft:netherite_chestplate",
+        "minecraft:netherite_leggings",
+        "minecraft:netherite_boots"
+      ],
+      "particle": {
+        "color": [
+          1.0,
+          0.4,
+          0.0
+        ],
+        "type": "visuality:sparkle"
+      }
+    },
+    {
+      "armor": [
+        "cataclysm:ignitium_helmet",
+        "cataclysm:ignitium_chestplate",
+        "cataclysm:ignitium_leggings",
+        "cataclysm:ignitium_boots"
+      ],
+      "particle": {
+        "color": [
+          1.0,
+          0.1,
+          0.0
+        ],
+        "type": "visuality:sparkle"
+      }
+    },
+    {
+      "armor": [
+        "deeperdarker:warden_helmet",
+        "deeperdarker:warden_chestplate",
+        "deeperdarker:warden_leggings",
+        "deeperdarker:warden_boots"
+      ],
+      "particle": {
+        "color": [
+          0.0,
+          0.9,
+          0.8
+        ],
+        "type": "visuality:sparkle"
+      }
+    },
+    {
+      "armor": [
+        "mekanism:mekasuit_helmet",
+        "mekanism:mekasuit_bodyarmor",
+        "mekanism:mekasuit_pants",
+        "mekanism:mekasuit_boots"
+      ],
+      "particle": {
+        "color": [
+          0.0,
+          0.8,
+          1.0
+        ],
+        "type": "visuality:sparkle"
+      }
+    },
+    {
+      "armor": [
+        "twilightforest:knightmetal_helmet",
+        "twilightforest:knightmetal_chestplate",
+        "twilightforest:knightmetal_leggings",
+        "twilightforest:knightmetal_boots"
+      ],
+      "particle": {
+        "color": [
+          0.75,
+          0.75,
+          0.75
+        ],
+        "type": "visuality:sparkle"
+      }
+    },
+    {
+      "armor": [
+        "twilightforest:fiery_helmet",
+        "twilightforest:fiery_chestplate",
+        "twilightforest:fiery_leggings",
+        "twilightforest:fiery_boots"
+      ],
+      "particle": {
+        "color": [
+          1.0,
+          0.6,
+          0.0
+        ],
+        "type": "visuality:sparkle"
+      }
     }
   ]
 }

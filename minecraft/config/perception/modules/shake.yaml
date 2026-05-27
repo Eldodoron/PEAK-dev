@@ -1,7 +1,7 @@
 # Options for configuring the screen shake effect during player falls.
 fallShakes:
     # Generic intensity of the screen shake during a fall. If the value is 0 or below, the effect is disabled.
-    intensity: 0.0
+    intensity: 0.8
     # Min player's vertical speed required to trigger the screen shake effect.
     minSpeed: 0.5
 # List of sound effects that trigger the screen shaking effect.
@@ -47,7 +47,7 @@ soundShakes:
         fovSpeed: 10.0
         offsetAmplitude: 0.35
         offsetSpeed: 3.5
-        rangeMultiplier: 0.1
+        rangeMultiplier: 0.85
         rotationAmplitude: 0.1
         rotationSpeed: 5.0
     minecraft:entity.ender_dragon.death:
@@ -190,6 +190,6 @@ soundShakes:
         fovSpeed: 10.0
         offsetAmplitude: 0.5
         offsetSpeed: 3.5
-        rangeMultiplier: 0.1
+        rangeMultiplier: 0.85
         rotationAmplitude: 0.1
         rotationSpeed: 5.0
