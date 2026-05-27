@@ -6679,81 +6679,87 @@
     },
     "done": true
   },
+  "lootr:1chest": {
+    "criteria": {
+      "opened_chest": "2026-05-27 00:39:09 -0400"
+    },
+    "done": true
+  },
   "incendium:technical/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2026-05-27 00:43:12 -0400"
+      "log_spam_fixer": "2026-05-27 16:08:57 -0400"
     },
     "done": false
   },
   "incendium:technical/on_block": {
     "criteria": {
-      "log_spam_fixer": "2026-05-27 00:43:12 -0400"
+      "log_spam_fixer": "2026-05-27 16:08:57 -0400"
     },
     "done": false
   },
   "incendium:technical/feed_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2026-05-27 00:43:12 -0400"
+      "log_spam_fixer": "2026-05-27 16:08:57 -0400"
     },
     "done": false
   },
   "incendium:technical/multiplex_crossbow": {
     "criteria": {
-      "log_spam_fixer": "2026-05-27 00:43:12 -0400"
+      "log_spam_fixer": "2026-05-27 16:08:57 -0400"
     },
     "done": false
   },
   "incendium:technical/on_player_hurt": {
     "criteria": {
-      "log_spam_fixer": "2026-05-27 00:43:12 -0400"
+      "log_spam_fixer": "2026-05-27 16:08:57 -0400"
     },
     "done": false
   },
   "incendium:technical/on_kill": {
     "criteria": {
-      "log_spam_fixer": "2026-05-27 00:43:12 -0400"
+      "log_spam_fixer": "2026-05-27 16:08:57 -0400"
     },
     "done": false
   },
   "incendium:technical/on_inventory_change": {
     "criteria": {
-      "log_spam_fixer": "2026-05-27 00:43:12 -0400"
+      "log_spam_fixer": "2026-05-27 16:08:57 -0400"
     },
     "done": false
   },
   "incendium:technical/holy_wrath": {
     "criteria": {
-      "log_spam_fixer": "2026-05-27 00:43:12 -0400"
+      "log_spam_fixer": "2026-05-27 16:08:57 -0400"
     },
     "done": false
   },
   "incendium:technical/inventory/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2026-05-27 00:43:12 -0400"
+      "log_spam_fixer": "2026-05-27 16:08:57 -0400"
     },
     "done": false
   },
   "incendium:technical/give_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2026-05-27 00:43:12 -0400"
+      "log_spam_fixer": "2026-05-27 16:08:57 -0400"
     },
     "done": false
   },
   "incendium:technical/inventory/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2026-05-27 00:43:12 -0400"
+      "log_spam_fixer": "2026-05-27 16:08:57 -0400"
     },
     "done": false
   },
   "incendium:technical/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2026-05-27 00:43:12 -0400"
+      "log_spam_fixer": "2026-05-27 16:08:57 -0400"
     },
     "done": false
   },
-  "lootr:1chest": {
+  "lootr:10loot": {
     "criteria": {
-      "opened_chest": "2026-05-27 00:39:09 -0400"
+      "opened_10": "2026-05-27 16:08:21 -0400"
     },
     "done": true
   },
