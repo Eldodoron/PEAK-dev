@@ -62,6 +62,10 @@ Dependencies, duplicate removal, and configuration tweaks.
 - [x] **Configure Ore Generation (Duplicate Cleanup):**
   - **Issue:** Multiple mods are generating duplicate ores in the world.
   - **Action:** Configure ore gen rules to unify ore types, leaving only one version of each ore (e.g., copper, tin, silver) generating in the world.
+- [ ] **Distant Horizons Options Crash (Tombstone & SimplyTooltips Conflict):**
+  - **Issue:** Opening DH options on the main menu crashes the client because Tombstone's server config is queried by SimplyTooltips before NeoForge loads it.
+  - **Workaround:** Currently disabled via `showDhOptionsButtonInMinecraftUi = false` in `DistantHorizons.toml`.
+  - **Action Required:** Correct this properly (e.g., update mods, report conflict, or investigate SimplyTooltips / Tombstone load-safe config adjustments) so the button can be re-enabled.
 
 ---
 

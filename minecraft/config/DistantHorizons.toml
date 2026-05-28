@@ -276,7 +276,7 @@ _version = 4
 [client]
 	#
 	# Should Distant Horizon's config button appear in Minecraft's options screen next to the fov slider?
-	showDhOptionsButtonInMinecraftUi = true
+	showDhOptionsButtonInMinecraftUi = false
 
 		[client.advanced.autoUpdater]
 			#
