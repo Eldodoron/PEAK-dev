@@ -1,5 +1,7 @@
 [
   {"version":1},
+  {"ingredient":{"id":"avaritia:blaze_sword"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"simplymore:deaths_eyrie"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"gobber2:gobber2_gooey_beef"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"adorablehamsterpets:hamster_armor_gold"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"apotheosis:salvaging_table"},"type":"item_stack","bookmarkType":"INGREDIENT"},

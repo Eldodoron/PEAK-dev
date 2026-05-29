@@ -1,15 +1,3 @@
-/place feature create:zinc_ore
-/place feature alltheores:ore_zinc
-/advancement grant @s only apotheosis:progression/frontier
-/advancement grant @s only apotheosis:progression/ascent
-/advancement grant @s only apotheosis:progression/frontier
-/apoth set_world_tier EldoTest frontier
-/apoth set_world_tier EldoTest summit
-/apoth set_world_tier EldoTest pinnacle
-/apoth set_world_tier EldoTest haven
-/enchant EldoTest minecraft:silk_touch
-/enchant EldoTest minecraft:fortune 3
-/enchant EldoTest minecraft:fortune 77
 /enchant EldoTest minecraft:fortune 8
 /give EldoTest minecraft:spawner 65
 /enchant EldoTest minecraft:efficiency 5
@@ -48,3 +36,15 @@
 /reload
 /advancement grant @s only apotheosis:progression/haven
 /apoth set_world_tier EldoTest haven
+/tombstone
+/open_gateway Eldodoron apotheosis:tiered/pinnacle
+/apoth reforge apotheosis:mythic
+/chunky start minecraft:overworld square 0 0 5000 5000
+/chunky pause
+/chunky cancel
+/chunky confirm
+/tp Eldodoron 0 ~ 0
+/kill
+/atl thread_dump
+/spark profiler start --timeout 200
+/atl thread_dump

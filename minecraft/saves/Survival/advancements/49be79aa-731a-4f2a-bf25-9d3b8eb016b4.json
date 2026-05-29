@@ -1,13 +1,314 @@
 {
-  "quark:recipes/building_blocks/building/crafting/stonevariants/granite_bricks": {
-    "criteria": {
-      "test": "2026-05-27 20:34:25 -0400"
-    },
-    "done": true
-  },
   "aquaculture:recipes/combat/neptunium_helmet": {
     "criteria": {
       "has_items": "2026-05-27 20:33:57 -0400"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/tools/neptunium_fillet_knife": {
+    "criteria": {
+      "has_items": "2026-05-27 20:33:57 -0400"
+    },
+    "done": true
+  },
+  "solcarrot:recipes/food_book": {
+    "criteria": {
+      "has_book": "2026-05-27 20:33:57 -0400",
+      "has_carrot": "2026-05-27 20:33:57 -0400"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/building_blocks/ash": {
+    "criteria": {
+      "has_item": "2026-05-27 20:33:57 -0400"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/tools/neptunium_fishing_rod": {
+    "criteria": {
+      "has_items": "2026-05-27 20:33:57 -0400"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/misc/skull_to_bone_meal": {
+    "criteria": {
+      "has_item": "2026-05-27 20:33:57 -0400"
+    },
+    "done": true
+  },
+  "veggiesdelight:main/root": {
+    "criteria": {
+      "veggies": "2026-05-27 20:33:57 -0400"
+    },
+    "done": true
+  },
+  "create_wizardry:root": {
+    "criteria": {
+      "0": "2026-05-27 20:33:57 -0400"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/tools/gold_fillet_knife": {
+    "criteria": {
+      "has_items": "2026-05-27 20:33:57 -0400"
+    },
+    "done": true
+  },
+  "tombstone:recipe/enchanted_grave_key": {
+    "criteria": {
+      "has_ingredient": "2026-05-27 20:33:57 -0400"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/tools/iron_fishing_rod": {
+    "criteria": {
+      "has_iron": "2026-05-27 20:33:57 -0400"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/misc/blindfold": {
+    "criteria": {
+      "has_item": "2026-05-27 20:33:57 -0400"
+    },
+    "done": true
+  },
+  "immersive_armors:recipes/misc/wooden": {
+    "criteria": {
+      "has_item": "2026-05-27 20:33:57 -0400"
+    },
+    "done": true
+  },
+  "ess_requiem:dte/dream_ripper": {
+    "criteria": {
+      "scythe": "2026-05-27 20:33:57 -0400"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/tools/neptunium_hoe": {
+    "criteria": {
+      "has_items": "2026-05-27 20:33:57 -0400"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/tools/neptunium_shovel": {
+    "criteria": {
+      "has_items": "2026-05-27 20:33:57 -0400"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/tools/neptunium_pickaxe": {
+    "criteria": {
+      "has_items": "2026-05-27 20:33:57 -0400"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/combat/neptunium_chestplate": {
+    "criteria": {
+      "has_items": "2026-05-27 20:33:57 -0400"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/combat/neptunium_boots": {
+    "criteria": {
+      "has_items": "2026-05-27 20:33:57 -0400"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/misc/copper_ingot_to_nuggets": {
+    "criteria": {
+      "has_item": "2026-05-27 20:33:57 -0400"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/combat/neptunium_bow": {
+    "criteria": {
+      "has_items": "2026-05-27 20:33:57 -0400"
+    },
+    "done": true
+  },
+  "simulated:root": {
+    "criteria": {
+      "0": "2026-05-27 20:33:57 -0400"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/tools/wooden_fillet_knife": {
+    "criteria": {
+      "has_items": "2026-05-27 20:33:57 -0400"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/decorations/copper_pile": {
+    "criteria": {
+      "has_item": "2026-05-27 20:33:57 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:main/root": {
+    "criteria": {
+      "seeds": "2026-05-27 20:33:57 -0400"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/tools/neptunium_axe": {
+    "criteria": {
+      "has_items": "2026-05-27 20:33:57 -0400"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/combat/neptunium_sword": {
+    "criteria": {
+      "has_items": "2026-05-27 20:33:57 -0400"
+    },
+    "done": true
+  },
+  "create:root": {
+    "criteria": {
+      "0": "2026-05-27 20:33:57 -0400"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/aquaculture/tackle_box": {
+    "criteria": {
+      "has_items": "2026-05-27 20:33:57 -0400"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/misc/earplugs": {
+    "criteria": {
+      "has_item": "2026-05-27 20:33:57 -0400"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/food/turtle_soup": {
+    "criteria": {
+      "has_items": "2026-05-27 20:33:57 -0400"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/building_blocks/crackled_to_gravel": {
+    "criteria": {
+      "has_item": "2026-05-27 20:33:57 -0400"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/tools/diamond_fishing_rod": {
+    "criteria": {
+      "has_diamond": "2026-05-27 20:33:57 -0400"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/tools/stone_fillet_knife": {
+    "criteria": {
+      "has_items": "2026-05-27 20:33:57 -0400"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/misc/dragon_stick": {
+    "criteria": {
+      "has_item": "2026-05-27 20:33:57 -0400"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/combat/neptunium_leggings": {
+    "criteria": {
+      "has_items": "2026-05-27 20:33:57 -0400"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/misc/dragon_ice": {
+    "criteria": {
+      "has_item": "2026-05-27 20:33:57 -0400"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/tools/golden_fishing_rod": {
+    "criteria": {
+      "has_gold": "2026-05-27 20:33:57 -0400"
+    },
+    "done": true
+  },
+  "aeronautics:root": {
+    "criteria": {
+      "0": "2026-05-27 20:33:57 -0400"
+    },
+    "done": true
+  },
+  "createnuclear:root": {
+    "criteria": {
+      "0": "2026-05-27 20:33:57 -0400"
+    },
+    "done": true
+  },
+  "create_enchantment_industry:root": {
+    "criteria": {
+      "0": "2026-05-27 20:33:57 -0400"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/aquaculture/neptunes_bounty": {
+    "criteria": {
+      "has_items": "2026-05-27 20:33:57 -0400"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/food/gold_pile": {
+    "criteria": {
+      "has_item": "2026-05-27 20:33:57 -0400"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/misc/dragon_meal": {
+    "criteria": {
+      "has_item": "2026-05-27 20:33:57 -0400"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/tools/diamond_fillet_knife": {
+    "criteria": {
+      "has_items": "2026-05-27 20:33:57 -0400"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/tools/iron_fillet_knife": {
+    "criteria": {
+      "has_items": "2026-05-27 20:33:57 -0400"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/aquaculture/nether_star_hook": {
+    "criteria": {
+      "has_items": "2026-05-27 20:33:57 -0400"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/misc/copper_nuggets_to_ingot": {
+    "criteria": {
+      "has_item": "2026-05-27 20:33:57 -0400"
+    },
+    "done": true
+  },
+  "immersive_armors:recipes/misc/robe": {
+    "criteria": {
+      "has_item": "2026-05-27 20:33:57 -0400"
+    },
+    "done": true
+  },
+  "adorablehamsterpets:technical/has_received_initial_guidebook": {
+    "criteria": {
+      "received": "2026-05-27 20:33:58 -0400"
+    },
+    "done": true
+  },
+  "mekanism:root": {
+    "criteria": {
+      "automatic": "2026-05-27 20:33:59 -0400"
+    },
+    "done": true
+  },
+  "quark:recipes/building_blocks/building/crafting/stonevariants/granite_bricks": {
+    "criteria": {
+      "test": "2026-05-27 20:34:25 -0400"
     },
     "done": true
   },
@@ -89,12 +390,6 @@
     },
     "done": true
   },
-  "aquaculture:recipes/tools/neptunium_fillet_knife": {
-    "criteria": {
-      "has_items": "2026-05-27 20:33:57 -0400"
-    },
-    "done": true
-  },
   "quark:recipes/misc/tweaks/crafting/utility/better_stone_tools/sword": {
     "criteria": {
       "test": "2026-05-27 20:34:25 -0400"
@@ -152,12 +447,6 @@
   "quark:recipes/misc/building/crafting/ladders/spruce_ladder": {
     "criteria": {
       "test": "2026-05-27 20:34:25 -0400"
-    },
-    "done": true
-  },
-  "mekanism:root": {
-    "criteria": {
-      "automatic": "2026-05-27 20:33:59 -0400"
     },
     "done": true
   },
@@ -221,13 +510,6 @@
     },
     "done": true
   },
-  "solcarrot:recipes/food_book": {
-    "criteria": {
-      "has_book": "2026-05-27 20:33:57 -0400",
-      "has_carrot": "2026-05-27 20:33:57 -0400"
-    },
-    "done": true
-  },
   "quark:recipes/misc/tweaks/crafting/utility/misc/hopper_minecart": {
     "criteria": {
       "test": "2026-05-27 20:34:25 -0400"
@@ -243,12 +525,6 @@
   "quark:recipes/misc/building/chests/spruce_chest_wood": {
     "criteria": {
       "test": "2026-05-27 20:34:25 -0400"
-    },
-    "done": true
-  },
-  "iceandfire:recipes/building_blocks/ash": {
-    "criteria": {
-      "has_item": "2026-05-27 20:33:57 -0400"
     },
     "done": true
   },
@@ -276,12 +552,6 @@
     },
     "done": true
   },
-  "aquaculture:recipes/tools/neptunium_fishing_rod": {
-    "criteria": {
-      "has_items": "2026-05-27 20:33:57 -0400"
-    },
-    "done": true
-  },
   "quark:recipes/misc/building/crafting/stone_brick_lamp": {
     "criteria": {
       "test": "2026-05-27 20:34:25 -0400"
@@ -297,12 +567,6 @@
   "quark:recipes/misc/building/chests/cherry_chest_wood": {
     "criteria": {
       "test": "2026-05-27 20:34:25 -0400"
-    },
-    "done": true
-  },
-  "iceandfire:recipes/misc/skull_to_bone_meal": {
-    "criteria": {
-      "has_item": "2026-05-27 20:33:57 -0400"
     },
     "done": true
   },
@@ -354,18 +618,6 @@
     },
     "done": true
   },
-  "veggiesdelight:main/root": {
-    "criteria": {
-      "veggies": "2026-05-27 20:33:57 -0400"
-    },
-    "done": true
-  },
-  "tombstone:adventure/first_grave": {
-    "criteria": {
-      "coded_trigger": "2026-05-27 20:41:19 -0400"
-    },
-    "done": true
-  },
   "quark:recipes/misc/tweaks/crafting/utility/misc/dispenser_bow": {
     "criteria": {
       "test": "2026-05-27 20:34:25 -0400"
@@ -414,12 +666,6 @@
     },
     "done": true
   },
-  "create_wizardry:root": {
-    "criteria": {
-      "0": "2026-05-27 20:33:57 -0400"
-    },
-    "done": true
-  },
   "betterdungeons:root": {
     "criteria": {
       "always": "2026-05-27 20:34:25 -0400"
@@ -429,18 +675,6 @@
   "quark:recipes/redstone/automation/crafting/iron_rod": {
     "criteria": {
       "test": "2026-05-27 20:34:25 -0400"
-    },
-    "done": true
-  },
-  "aquaculture:recipes/tools/gold_fillet_knife": {
-    "criteria": {
-      "has_items": "2026-05-27 20:33:57 -0400"
-    },
-    "done": true
-  },
-  "tombstone:recipe/enchanted_grave_key": {
-    "criteria": {
-      "has_ingredient": "2026-05-27 20:33:57 -0400"
     },
     "done": true
   },
@@ -522,12 +756,6 @@
     },
     "done": true
   },
-  "aquaculture:recipes/tools/iron_fishing_rod": {
-    "criteria": {
-      "has_iron": "2026-05-27 20:33:57 -0400"
-    },
-    "done": true
-  },
   "quark:recipes/building_blocks/building/crafting/shingles/light_blue_shingles": {
     "criteria": {
       "test": "2026-05-27 20:34:25 -0400"
@@ -537,12 +765,6 @@
   "quark:recipes/misc/building/crafting/bookshelves/dark_oak_bookshelf": {
     "criteria": {
       "test": "2026-05-27 20:34:25 -0400"
-    },
-    "done": true
-  },
-  "iceandfire:recipes/misc/blindfold": {
-    "criteria": {
-      "has_item": "2026-05-27 20:33:57 -0400"
     },
     "done": true
   },
@@ -567,18 +789,6 @@
   "quark:recipes/misc/building/crafting/compressed/carrot_crateuncompress": {
     "criteria": {
       "test": "2026-05-27 20:34:25 -0400"
-    },
-    "done": true
-  },
-  "immersive_armors:recipes/misc/wooden": {
-    "criteria": {
-      "has_item": "2026-05-27 20:33:57 -0400"
-    },
-    "done": true
-  },
-  "ess_requiem:dte/dream_ripper": {
-    "criteria": {
-      "scythe": "2026-05-27 20:33:57 -0400"
     },
     "done": true
   },
@@ -684,12 +894,6 @@
     },
     "done": true
   },
-  "aquaculture:recipes/tools/neptunium_hoe": {
-    "criteria": {
-      "has_items": "2026-05-27 20:33:57 -0400"
-    },
-    "done": true
-  },
   "quark:recipes/redstone/building/chests/trapped_warped_chest": {
     "criteria": {
       "test": "2026-05-27 20:34:25 -0400"
@@ -717,12 +921,6 @@
   "quark:recipes/building_blocks/building/crafting/iron_pillar": {
     "criteria": {
       "test": "2026-05-27 20:34:25 -0400"
-    },
-    "done": true
-  },
-  "aquaculture:recipes/tools/neptunium_shovel": {
-    "criteria": {
-      "has_items": "2026-05-27 20:33:57 -0400"
     },
     "done": true
   },
@@ -756,12 +954,6 @@
     },
     "done": true
   },
-  "aquaculture:recipes/tools/neptunium_pickaxe": {
-    "criteria": {
-      "has_items": "2026-05-27 20:33:57 -0400"
-    },
-    "done": true
-  },
   "quark:recipes/misc/building/crafting/panes/white_framed_glass_pane": {
     "criteria": {
       "test": "2026-05-27 20:34:25 -0400"
@@ -792,12 +984,6 @@
     },
     "done": true
   },
-  "aquaculture:recipes/combat/neptunium_chestplate": {
-    "criteria": {
-      "has_items": "2026-05-27 20:33:57 -0400"
-    },
-    "done": true
-  },
   "quark:recipes/building_blocks/building/crafting/leafcarpet/mangrove_leaf_carpet": {
     "criteria": {
       "test": "2026-05-27 20:34:25 -0400"
@@ -813,12 +999,6 @@
   "quark:recipes/misc/building/crafting/furnaces/blackstone_minecart": {
     "criteria": {
       "test": "2026-05-27 20:34:25 -0400"
-    },
-    "done": true
-  },
-  "aquaculture:recipes/combat/neptunium_boots": {
-    "criteria": {
-      "has_items": "2026-05-27 20:33:57 -0400"
     },
     "done": true
   },
@@ -888,12 +1068,6 @@
     },
     "done": true
   },
-  "iceandfire:recipes/misc/copper_ingot_to_nuggets": {
-    "criteria": {
-      "has_item": "2026-05-27 20:33:57 -0400"
-    },
-    "done": true
-  },
   "quark:recipes/misc/building/crafting/glass/red_framed_glass": {
     "criteria": {
       "test": "2026-05-27 20:34:25 -0400"
@@ -954,12 +1128,6 @@
     },
     "done": true
   },
-  "aquaculture:recipes/combat/neptunium_bow": {
-    "criteria": {
-      "has_items": "2026-05-27 20:33:57 -0400"
-    },
-    "done": true
-  },
   "quark:recipes/building_blocks/building/crafting/stonevariants/worldstones/shale_pillar": {
     "criteria": {
       "test": "2026-05-27 20:34:25 -0400"
@@ -1014,12 +1182,6 @@
     },
     "done": true
   },
-  "simulated:root": {
-    "criteria": {
-      "0": "2026-05-27 20:33:57 -0400"
-    },
-    "done": true
-  },
   "quark:recipes/misc/building/crafting/hollowlogs/hollow_jungle_log": {
     "criteria": {
       "test": "2026-05-27 20:34:25 -0400"
@@ -1047,12 +1209,6 @@
   "quark:recipes/building_blocks/building/crafting/posts/stripped_bamboo_post": {
     "criteria": {
       "test": "2026-05-27 20:34:25 -0400"
-    },
-    "done": true
-  },
-  "adorablehamsterpets:technical/has_received_initial_guidebook": {
-    "criteria": {
-      "received": "2026-05-27 20:33:58 -0400"
     },
     "done": true
   },
@@ -1137,12 +1293,6 @@
   "quark:recipes/misc/building/crafting/panes/purple_framed_glass_pane": {
     "criteria": {
       "test": "2026-05-27 20:34:25 -0400"
-    },
-    "done": true
-  },
-  "aquaculture:recipes/tools/wooden_fillet_knife": {
-    "criteria": {
-      "has_items": "2026-05-27 20:33:57 -0400"
     },
     "done": true
   },
@@ -1239,12 +1389,6 @@
   "quark:recipes/building_blocks/world/crafting/woodsets/ancient/ancient_post": {
     "criteria": {
       "test": "2026-05-27 20:34:25 -0400"
-    },
-    "done": true
-  },
-  "tombstone:adventure/root": {
-    "criteria": {
-      "auto": "2026-05-27 20:34:32 -0400"
     },
     "done": true
   },
@@ -1398,12 +1542,6 @@
     },
     "done": true
   },
-  "iceandfire:recipes/decorations/copper_pile": {
-    "criteria": {
-      "has_item": "2026-05-27 20:33:57 -0400"
-    },
-    "done": true
-  },
   "quark:recipes/misc/tweaks/crafting/utility/misc/easy_sticks_bamboo": {
     "criteria": {
       "test": "2026-05-27 20:34:25 -0400"
@@ -1506,12 +1644,6 @@
     },
     "done": true
   },
-  "farmersdelight:main/root": {
-    "criteria": {
-      "seeds": "2026-05-27 20:33:57 -0400"
-    },
-    "done": true
-  },
   "quark:recipes/building_blocks/building/crafting/compressed/vanilla_nether_wart_block_4x4": {
     "criteria": {
       "test": "2026-05-27 20:34:25 -0400"
@@ -1584,12 +1716,6 @@
     },
     "done": true
   },
-  "minecraft:adventure/adventuring_time": {
-    "criteria": {
-      "minecraft:birch_forest": "2026-05-27 20:34:32 -0400"
-    },
-    "done": false
-  },
   "quark:recipes/misc/building/crafting/compressed/potato_crate": {
     "criteria": {
       "test": "2026-05-27 20:34:25 -0400"
@@ -1617,12 +1743,6 @@
   "quark:recipes/building_blocks/building/crafting/posts/stripped_cherry_post": {
     "criteria": {
       "test": "2026-05-27 20:34:25 -0400"
-    },
-    "done": true
-  },
-  "aquaculture:recipes/tools/neptunium_axe": {
-    "criteria": {
-      "has_items": "2026-05-27 20:33:57 -0400"
     },
     "done": true
   },
@@ -1674,12 +1794,6 @@
     },
     "done": true
   },
-  "aquaculture:recipes/combat/neptunium_sword": {
-    "criteria": {
-      "has_items": "2026-05-27 20:33:57 -0400"
-    },
-    "done": true
-  },
   "quark:recipes/misc/building/crafting/ladders/bamboo_ladder": {
     "criteria": {
       "test": "2026-05-27 20:34:25 -0400"
@@ -1713,12 +1827,6 @@
   "quark:recipes/misc/building/crafting/furnaces/deepslate_smoker": {
     "criteria": {
       "test": "2026-05-27 20:34:25 -0400"
-    },
-    "done": true
-  },
-  "create:root": {
-    "criteria": {
-      "0": "2026-05-27 20:33:57 -0400"
     },
     "done": true
   },
@@ -1968,12 +2076,6 @@
     },
     "done": true
   },
-  "aquaculture:recipes/aquaculture/tackle_box": {
-    "criteria": {
-      "has_items": "2026-05-27 20:33:57 -0400"
-    },
-    "done": true
-  },
   "quark:recipes/misc/tweaks/crafting/utility/misc/furnace_minecart": {
     "criteria": {
       "test": "2026-05-27 20:34:25 -0400"
@@ -1983,12 +2085,6 @@
   "quark:recipes/building_blocks/building/crafting/panes/paper_wall": {
     "criteria": {
       "test": "2026-05-27 20:34:25 -0400"
-    },
-    "done": true
-  },
-  "adorablehamsterpets:husbandry/root": {
-    "criteria": {
-      "always_unlock": "2026-05-27 20:34:32 -0400"
     },
     "done": true
   },
@@ -2130,21 +2226,9 @@
     },
     "done": true
   },
-  "iceandfire:recipes/misc/earplugs": {
-    "criteria": {
-      "has_item": "2026-05-27 20:33:57 -0400"
-    },
-    "done": true
-  },
   "quark:recipes/building_blocks/building/crafting/panes/paper_wall_sakura": {
     "criteria": {
       "test": "2026-05-27 20:34:25 -0400"
-    },
-    "done": true
-  },
-  "aquaculture:recipes/food/turtle_soup": {
-    "criteria": {
-      "has_items": "2026-05-27 20:33:57 -0400"
     },
     "done": true
   },
@@ -2177,18 +2261,6 @@
       "test": "2026-05-27 20:34:25 -0400"
     },
     "done": true
-  },
-  "iceandfire:recipes/building_blocks/crackled_to_gravel": {
-    "criteria": {
-      "has_item": "2026-05-27 20:33:57 -0400"
-    },
-    "done": true
-  },
-  "incendium:technical/using/ragnarok": {
-    "criteria": {
-      "log_spam_fixer": "2026-05-27 20:34:32 -0400"
-    },
-    "done": false
   },
   "quark:recipes/building_blocks/world/crafting/walls/shale_bricks_wall": {
     "criteria": {
@@ -2241,12 +2313,6 @@
   "quark:recipes/building_blocks/world/crafting/polished_jasper": {
     "criteria": {
       "test": "2026-05-27 20:34:25 -0400"
-    },
-    "done": true
-  },
-  "aquaculture:recipes/tools/diamond_fishing_rod": {
-    "criteria": {
-      "has_diamond": "2026-05-27 20:33:57 -0400"
     },
     "done": true
   },
@@ -2358,21 +2424,9 @@
     },
     "done": true
   },
-  "aquaculture:recipes/tools/stone_fillet_knife": {
-    "criteria": {
-      "has_items": "2026-05-27 20:33:57 -0400"
-    },
-    "done": true
-  },
   "quark:recipes/building_blocks/building/crafting/posts/oak_post": {
     "criteria": {
       "test": "2026-05-27 20:34:25 -0400"
-    },
-    "done": true
-  },
-  "iceandfire:recipes/misc/dragon_stick": {
-    "criteria": {
-      "has_item": "2026-05-27 20:33:57 -0400"
     },
     "done": true
   },
@@ -2412,27 +2466,9 @@
     },
     "done": true
   },
-  "create_ltab:plains": {
-    "criteria": {
-      "grass_block": "2026-05-27 20:34:32 -0400"
-    },
-    "done": true
-  },
   "quark:recipes/misc/building/crafting/bookshelves/blossom_bookshelf": {
     "criteria": {
       "test": "2026-05-27 20:34:25 -0400"
-    },
-    "done": true
-  },
-  "aquaculture:recipes/combat/neptunium_leggings": {
-    "criteria": {
-      "has_items": "2026-05-27 20:33:57 -0400"
-    },
-    "done": true
-  },
-  "iceandfire:recipes/misc/dragon_ice": {
-    "criteria": {
-      "has_item": "2026-05-27 20:33:57 -0400"
     },
     "done": true
   },
@@ -2517,12 +2553,6 @@
   "quark:recipes/building_blocks/building/crafting/hedges/jungle_hedge": {
     "criteria": {
       "test": "2026-05-27 20:34:25 -0400"
-    },
-    "done": true
-  },
-  "aquaculture:recipes/tools/golden_fishing_rod": {
-    "criteria": {
-      "has_gold": "2026-05-27 20:33:57 -0400"
     },
     "done": true
   },
@@ -2628,21 +2658,9 @@
     },
     "done": true
   },
-  "aeronautics:root": {
-    "criteria": {
-      "0": "2026-05-27 20:33:57 -0400"
-    },
-    "done": true
-  },
   "incendium:technical/new_player": {
     "criteria": {
       "requirement": "2026-05-27 20:34:25 -0400"
-    },
-    "done": true
-  },
-  "createnuclear:root": {
-    "criteria": {
-      "0": "2026-05-27 20:33:57 -0400"
     },
     "done": true
   },
@@ -2682,12 +2700,6 @@
     },
     "done": true
   },
-  "create_enchantment_industry:root": {
-    "criteria": {
-      "0": "2026-05-27 20:33:57 -0400"
-    },
-    "done": true
-  },
   "quark:recipes/misc/tweaks/crafting/utility/misc/tnt_minecart": {
     "criteria": {
       "test": "2026-05-27 20:34:25 -0400"
@@ -2724,12 +2736,6 @@
     },
     "done": true
   },
-  "aquaculture:recipes/aquaculture/neptunes_bounty": {
-    "criteria": {
-      "has_items": "2026-05-27 20:33:57 -0400"
-    },
-    "done": true
-  },
   "quark:recipes/redstone/world/crafting/woodsets/azalea/azalea_trapped_chest": {
     "criteria": {
       "test": "2026-05-27 20:34:25 -0400"
@@ -2754,12 +2760,6 @@
     },
     "done": true
   },
-  "iceandfire:recipes/food/gold_pile": {
-    "criteria": {
-      "has_item": "2026-05-27 20:33:57 -0400"
-    },
-    "done": true
-  },
   "quark:recipes/misc/building/crafting/glass/blue_framed_glass": {
     "criteria": {
       "test": "2026-05-27 20:34:25 -0400"
@@ -2781,12 +2781,6 @@
   "quark:recipes/building_blocks/building/crafting/paper_lantern": {
     "criteria": {
       "test": "2026-05-27 20:34:25 -0400"
-    },
-    "done": true
-  },
-  "minecraft:adventure/root": {
-    "criteria": {
-      "killed_by_something": "2026-05-27 20:41:19 -0400"
     },
     "done": true
   },
@@ -2832,12 +2826,6 @@
     },
     "done": true
   },
-  "incendium:technical/using/shield": {
-    "criteria": {
-      "log_spam_fixer": "2026-05-27 20:34:32 -0400"
-    },
-    "done": false
-  },
   "quark:recipes/building_blocks/building/crafting/leafcarpet/spruce_leaf_carpet": {
     "criteria": {
       "test": "2026-05-27 20:34:25 -0400"
@@ -2868,12 +2856,6 @@
     },
     "done": true
   },
-  "iceandfire:recipes/misc/dragon_meal": {
-    "criteria": {
-      "has_item": "2026-05-27 20:33:57 -0400"
-    },
-    "done": true
-  },
   "quark:recipes/building_blocks/building/crafting/mossy_cobblestone_bricks": {
     "criteria": {
       "test": "2026-05-27 20:34:25 -0400"
@@ -2901,12 +2883,6 @@
   "quark:recipes/building_blocks/building/crafting/leafcarpet/azalea_leaf_carpet": {
     "criteria": {
       "test": "2026-05-27 20:34:25 -0400"
-    },
-    "done": true
-  },
-  "aquaculture:recipes/tools/diamond_fillet_knife": {
-    "criteria": {
-      "has_items": "2026-05-27 20:33:57 -0400"
     },
     "done": true
   },
@@ -2949,12 +2925,6 @@
   "quark:recipes/misc/building/crafting/chests/spruce_chest": {
     "criteria": {
       "test": "2026-05-27 20:34:25 -0400"
-    },
-    "done": true
-  },
-  "aquaculture:recipes/tools/iron_fillet_knife": {
-    "criteria": {
-      "has_items": "2026-05-27 20:33:57 -0400"
     },
     "done": true
   },
@@ -3072,24 +3042,6 @@
     },
     "done": true
   },
-  "aquaculture:recipes/aquaculture/nether_star_hook": {
-    "criteria": {
-      "has_items": "2026-05-27 20:33:57 -0400"
-    },
-    "done": true
-  },
-  "iceandfire:recipes/misc/copper_nuggets_to_ingot": {
-    "criteria": {
-      "has_item": "2026-05-27 20:33:57 -0400"
-    },
-    "done": true
-  },
-  "incendium:technical/scroll_of_returning": {
-    "criteria": {
-      "log_spam_fixer": "2026-05-27 20:34:32 -0400"
-    },
-    "done": false
-  },
   "quark:recipes/misc/tweaks/crafting/utility/coral/bubble_to_magenta": {
     "criteria": {
       "test": "2026-05-27 20:34:25 -0400"
@@ -3123,12 +3075,6 @@
   "quark:recipes/misc/building/crafting/compressed/bonded_leatheruncompress": {
     "criteria": {
       "test": "2026-05-27 20:34:25 -0400"
-    },
-    "done": true
-  },
-  "immersive_armors:recipes/misc/robe": {
-    "criteria": {
-      "has_item": "2026-05-27 20:33:57 -0400"
     },
     "done": true
   },
@@ -3203,12 +3149,6 @@
       "test": "2026-05-27 20:34:25 -0400"
     },
     "done": true
-  },
-  "incendium:technical/using/trailblazer": {
-    "criteria": {
-      "log_spam_fixer": "2026-05-27 20:34:32 -0400"
-    },
-    "done": false
   },
   "quark:recipes/misc/building/crafting/glass/pink_framed_glass": {
     "criteria": {
@@ -3303,6 +3243,873 @@
   "integrated_villages:integrated_villages_root": {
     "criteria": {
       "always": "2026-05-27 20:34:25 -0400"
+    },
+    "done": true
+  },
+  "tombstone:adventure/root": {
+    "criteria": {
+      "auto": "2026-05-27 20:34:32 -0400"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:old_growth_birch_forest": "2026-05-28 00:18:28 -0400",
+      "minecraft:dark_forest": "2026-05-28 00:45:01 -0400",
+      "minecraft:forest": "2026-05-28 00:18:30 -0400",
+      "minecraft:grove": "2026-05-28 00:45:35 -0400",
+      "minecraft:meadow": "2026-05-27 23:59:19 -0400",
+      "minecraft:birch_forest": "2026-05-27 20:34:32 -0400",
+      "minecraft:jagged_peaks": "2026-05-28 00:45:43 -0400"
+    },
+    "done": false
+  },
+  "adorablehamsterpets:husbandry/root": {
+    "criteria": {
+      "always_unlock": "2026-05-27 20:34:32 -0400"
+    },
+    "done": true
+  },
+  "incendium:technical/using/ragnarok": {
+    "criteria": {
+      "log_spam_fixer": "2026-05-27 20:34:32 -0400"
+    },
+    "done": false
+  },
+  "create_ltab:plains": {
+    "criteria": {
+      "grass_block": "2026-05-27 20:34:32 -0400"
+    },
+    "done": true
+  },
+  "incendium:technical/using/shield": {
+    "criteria": {
+      "log_spam_fixer": "2026-05-27 20:34:32 -0400"
+    },
+    "done": false
+  },
+  "incendium:technical/scroll_of_returning": {
+    "criteria": {
+      "log_spam_fixer": "2026-05-27 20:34:32 -0400"
+    },
+    "done": false
+  },
+  "incendium:technical/using/trailblazer": {
+    "criteria": {
+      "log_spam_fixer": "2026-05-27 20:34:32 -0400"
+    },
+    "done": false
+  },
+  "tombstone:adventure/first_grave": {
+    "criteria": {
+      "coded_trigger": "2026-05-27 20:41:19 -0400"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_by_something": "2026-05-27 20:41:19 -0400"
+    },
+    "done": true
+  },
+  "incendium:technical/sentrys_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2026-05-28 00:47:19 -0400"
+    },
+    "done": false
+  },
+  "iceandfire:recipes/misc/dragon_bone_wall": {
+    "criteria": {
+      "has_item": "2026-05-28 00:46:28 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2026-05-28 00:32:53 -0400"
+    },
+    "done": true
+  },
+  "ess_requiem:main/root": {
+    "criteria": {
+      "rotten_flesh": "2026-05-28 00:01:12 -0400"
+    },
+    "done": true
+  },
+  "adorablehamsterpets:husbandry/murderer": {
+    "criteria": {
+      "killed_hamster": "2026-05-28 00:37:09 -0400"
+    },
+    "done": true
+  },
+  "domum_ornamentum:recipes/tools/roan_stone_bricks": {
+    "criteria": {
+      "has_item2_domum_ornamentum_roan_stone_bricks": "2026-05-28 00:00:34 -0400",
+      "has_item1_domum_ornamentum_roan_stone_bricks": "2026-05-28 00:00:34 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/birch_planks": {
+    "criteria": {
+      "has_logs": "2026-05-28 00:22:52 -0400"
+    },
+    "done": true
+  },
+  "vampirism:recipes/food/general/garlic_bread": {
+    "criteria": {
+      "has_bread": "2026-05-28 00:35:10 -0400"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/building_blocks/dragon_bone_block": {
+    "criteria": {
+      "has_dragonbone": "2026-05-28 00:46:28 -0400"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/alloybrick": {
+    "criteria": {
+      "has_brick": "2026-05-28 00:00:34 -0400"
+    },
+    "done": true
+  },
+  "incendium:technical/on_block": {
+    "criteria": {
+      "log_spam_fixer": "2026-05-28 00:47:19 -0400"
+    },
+    "done": false
+  },
+  "apotheosis:progression/frontier": {
+    "criteria": {
+      "rare_legs": "2026-05-28 00:35:17 -0400",
+      "rare_hand": "2026-05-28 00:34:10 -0400"
+    },
+    "done": false
+  },
+  "avaritia:infinity/infinity_sword": {
+    "criteria": {
+      "main": "2026-05-28 00:37:03 -0400"
+    },
+    "done": true
+  },
+  "incendium:technical/feed_ghastling": {
+    "criteria": {
+      "log_spam_fixer": "2026-05-28 00:47:19 -0400"
+    },
+    "done": false
+  },
+  "domum_ornamentum:recipes/tools/purple_brick_extra": {
+    "criteria": {
+      "has_material": "2026-05-28 00:00:34 -0400"
+    },
+    "done": true
+  },
+  "dungeons_arise:find_heavenly_rider": {
+    "criteria": {
+      "location0": "2026-05-28 00:24:34 -0400"
+    },
+    "done": true
+  },
+  "tombstone:adventure/chain_death": {
+    "criteria": {
+      "coded_trigger": "2026-05-28 00:41:48 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/decorated_pot_simple": {
+    "criteria": {
+      "has_brick": "2026-05-28 00:00:34 -0400"
+    },
+    "done": true
+  },
+  "incendium:technical/multiplex_crossbow": {
+    "criteria": {
+      "log_spam_fixer": "2026-05-28 00:47:19 -0400"
+    },
+    "done": false
+  },
+  "minecraft:nether/get_wither_skull": {
+    "criteria": {
+      "wither_skull": "2026-05-28 00:35:14 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/bone_broth": {
+    "criteria": {
+      "has_bone": "2026-05-28 00:20:03 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/building_blocks/carrot_crate": {
+    "criteria": {
+      "has_carrot": "2026-05-28 00:21:49 -0400"
+    },
+    "done": true
+  },
+  "crystal_chronicles:recipes/misc/rotten_flesh_block": {
+    "criteria": {
+      "has_rotten_flesh": "2026-05-28 00:01:12 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/building_blocks/organic_compost_from_rotten_flesh": {
+    "criteria": {
+      "has_rotten_flesh": "2026-05-28 00:01:12 -0400"
+    },
+    "done": true
+  },
+  "domum_ornamentum:recipes/tools/gray_brick_extra": {
+    "criteria": {
+      "has_material": "2026-05-28 00:00:34 -0400"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "rotten_flesh": "2026-05-28 00:19:18 -0400",
+      "cooked_cod": "2026-05-28 00:19:52 -0400",
+      "carrot": "2026-05-28 00:21:53 -0400"
+    },
+    "done": false
+  },
+  "iceandfire:recipes/misc/dragon_horn": {
+    "criteria": {
+      "has_item": "2026-05-28 00:46:28 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/skull_banner_pattern": {
+    "criteria": {
+      "has_wither_skeleton_skull": "2026-05-28 00:35:14 -0400"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/slicing/brown_dye_from_rotten_flesh": {
+    "criteria": {
+      "has_rotten_flesh": "2026-05-28 00:01:12 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/rabbit_stew": {
+    "criteria": {
+      "has_any_ingredient": "2026-05-28 00:21:49 -0400"
+    },
+    "done": true
+  },
+  "gatesofavarice:recipes/misc/tier_2_crystal": {
+    "criteria": {
+      "has_mystic_essence": "2026-05-28 00:37:25 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/onion_soup": {
+    "criteria": {
+      "has_any_ingredient": "2026-05-28 00:32:41 -0400"
+    },
+    "done": true
+  },
+  "incendium:technical/on_player_hurt": {
+    "criteria": {
+      "log_spam_fixer": "2026-05-28 00:47:19 -0400"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/birch_wood": {
+    "criteria": {
+      "has_log": "2026-05-28 00:22:52 -0400"
+    },
+    "done": true
+  },
+  "domum_ornamentum:recipes/tools/architectscutter": {
+    "criteria": {
+      "has_log": "2026-05-28 00:22:52 -0400"
+    },
+    "done": true
+  },
+  "domum_ornamentum:recipes/tools/light_gray_brick_extra": {
+    "criteria": {
+      "has_material": "2026-05-28 00:00:34 -0400"
+    },
+    "done": true
+  },
+  "vampirism:hunter/betrayal": {
+    "criteria": {
+      "kill": "2026-05-28 00:37:09 -0400"
+    },
+    "done": false
+  },
+  "farmersdelight:recipes/cooking/dumplings": {
+    "criteria": {
+      "has_any_ingredient": "2026-05-28 00:32:41 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/charcoal": {
+    "criteria": {
+      "has_log": "2026-05-28 00:22:52 -0400"
+    },
+    "done": true
+  },
+  "veggiesdelight:recipes/food/carrot_cake": {
+    "criteria": {
+      "has_carrot": "2026-05-28 00:21:49 -0400"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/drying/monster_jerky": {
+    "criteria": {
+      "has_meat": "2026-05-28 00:01:12 -0400"
+    },
+    "done": true
+  },
+  "tombstone:adventure/teleport_to_grave": {
+    "criteria": {
+      "coded_trigger": "2026-05-28 00:41:28 -0400"
+    },
+    "done": true
+  },
+  "avaritia:main/blaze_sword": {
+    "criteria": {
+      "main": "2026-05-28 00:32:10 -0400"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/rope_arrow_create": {
+    "criteria": {
+      "has_item_minecraft_arrow_1": "2026-05-28 00:20:03 -0400"
+    },
+    "done": true
+  },
+  "friendsandfoes:adventure/the_magicians": {
+    "criteria": {
+      "killed_evoker": "2026-05-28 00:34:24 -0400"
+    },
+    "done": false
+  },
+  "iceandfire:recipes/tools/dragonbone_shovel": {
+    "criteria": {
+      "has_item": "2026-05-28 00:46:28 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bricks": {
+    "criteria": {
+      "has_brick": "2026-05-28 00:00:34 -0400"
+    },
+    "done": true
+  },
+  "veggiesdelight:recipes/cooking/cooking/roasted_veggies": {
+    "criteria": {
+      "has_any_ingredient": "2026-05-28 00:21:49 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/vegetable_noodles": {
+    "criteria": {
+      "has_any_ingredient": "2026-05-28 00:21:49 -0400"
+    },
+    "done": true
+  },
+  "domum_ornamentum:recipes/tools/black_brick_extra": {
+    "criteria": {
+      "has_material": "2026-05-28 00:00:34 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/fried_rice": {
+    "criteria": {
+      "has_any_ingredient": "2026-05-28 00:21:49 -0400"
+    },
+    "done": true
+  },
+  "irons_spellbooks:irons_spellbooks/staff_root": {
+    "criteria": {
+      "requirement": "2026-05-28 00:35:10 -0400"
+    },
+    "done": true
+  },
+  "alexsdelight:recipes/food/maggot_salad": {
+    "criteria": {
+      "has_maggot": "2026-05-28 00:32:50 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/beef_stew": {
+    "criteria": {
+      "has_any_ingredient": "2026-05-28 00:21:49 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/carrot_on_a_stick": {
+    "criteria": {
+      "has_carrot": "2026-05-28 00:21:49 -0400"
+    },
+    "done": true
+  },
+  "domum_ornamentum:recipes/tools/brown_brick_extra": {
+    "criteria": {
+      "has_material": "2026-05-28 00:00:34 -0400"
+    },
+    "done": true
+  },
+  "immersive_armors:recipes/misc/bone": {
+    "criteria": {
+      "has_item": "2026-05-28 00:20:03 -0400"
+    },
+    "done": true
+  },
+  "gatesofavarice:recipes/misc/tier_3_crystal": {
+    "criteria": {
+      "has_arcane_essence": "2026-05-28 00:37:20 -0400"
+    },
+    "done": true
+  },
+  "oceansdelight:recipes/food/stuffed_cod": {
+    "criteria": {
+      "has_onion": "2026-05-28 00:32:41 -0400"
+    },
+    "done": true
+  },
+  "domum_ornamentum:recipes/tools/brick_extra": {
+    "criteria": {
+      "has_material": "2026-05-28 00:00:34 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/chicken_soup": {
+    "criteria": {
+      "has_any_ingredient": "2026-05-28 00:21:49 -0400"
+    },
+    "done": true
+  },
+  "domum_ornamentum:recipes/tools/pink_brick_extra": {
+    "criteria": {
+      "has_material": "2026-05-28 00:00:34 -0400"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/integration/planter_rich_fd": {
+    "criteria": {
+      "has_item_minecraft_brick_1": "2026-05-28 00:00:34 -0400"
+    },
+    "done": true
+  },
+  "darkerdepths:recipes/misc/scorched_remains": {
+    "criteria": {
+      "has_rotten_flesh": "2026-05-28 00:01:12 -0400"
+    },
+    "done": true
+  },
+  "darkerdepths:recipes/misc/scorched_remains_block": {
+    "criteria": {
+      "has_rotten_flesh": "2026-05-28 00:01:12 -0400"
+    },
+    "done": true
+  },
+  "incendium:technical/on_kill": {
+    "criteria": {
+      "log_spam_fixer": "2026-05-28 00:47:19 -0400"
+    },
+    "done": false
+  },
+  "vampirism:recipes/decorations/general/fire_place": {
+    "criteria": {
+      "has_logs": "2026-05-28 00:22:52 -0400"
+    },
+    "done": true
+  },
+  "incendium:technical/on_inventory_change": {
+    "criteria": {
+      "log_spam_fixer": "2026-05-28 00:47:19 -0400"
+    },
+    "done": false
+  },
+  "create_ltab:core": {
+    "criteria": {
+      "stone": "2026-05-28 00:23:20 -0400"
+    },
+    "done": true
+  },
+  "create_ltab:cold": {
+    "criteria": {
+      "snow": "2026-05-28 00:45:56 -0400"
+    },
+    "done": true
+  },
+  "incendium:technical/holy_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2026-05-28 00:47:19 -0400"
+    },
+    "done": false
+  },
+  "farmersdelight:recipes/cooking/dog_food": {
+    "criteria": {
+      "has_any_ingredient": "2026-05-28 00:01:12 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget_from_smelting": {
+    "criteria": {
+      "has_chainmail_leggings": "2026-05-28 00:35:14 -0400"
+    },
+    "done": true
+  },
+  "royalvariations:bony_king": {
+    "criteria": {
+      "royal_skeleton": "2026-05-28 00:43:15 -0400"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/slicing/bone_meal_from_bone": {
+    "criteria": {
+      "has_bone": "2026-05-28 00:20:03 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bone_meal": {
+    "criteria": {
+      "has_bone": "2026-05-28 00:20:03 -0400"
+    },
+    "done": true
+  },
+  "vampirism:recipes/combat/hunter/crossbow_arrow_from_vanilla": {
+    "criteria": {
+      "has_arrow": "2026-05-28 00:20:03 -0400"
+    },
+    "done": true
+  },
+  "incendium:technical/inventory/firestorm": {
+    "criteria": {
+      "log_spam_fixer": "2026-05-28 00:47:19 -0400"
+    },
+    "done": false
+  },
+  "farmersdelight:recipes/decorations/skillet": {
+    "criteria": {
+      "has_brick": "2026-05-28 00:00:34 -0400"
+    },
+    "done": true
+  },
+  "incendium:technical/give_ghastling": {
+    "criteria": {
+      "log_spam_fixer": "2026-05-28 00:47:19 -0400"
+    },
+    "done": false
+  },
+  "domum_ornamentum:recipes/tools/white_brick_extra": {
+    "criteria": {
+      "has_material": "2026-05-28 00:00:34 -0400"
+    },
+    "done": true
+  },
+  "tombstone:adventure/ambush": {
+    "criteria": {
+      "coded_trigger": "2026-05-28 00:33:20 -0400"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/building_blocks/stonecutting/birch_log/hollow_birch_log": {
+    "criteria": {
+      "has_block": "2026-05-28 00:22:52 -0400"
+    },
+    "done": true
+  },
+  "paraglider:recipes/misc/energizing_mixture": {
+    "criteria": {
+      "has_carrot": "2026-05-28 00:21:49 -0400"
+    },
+    "done": true
+  },
+  "alexsdelight:recipes/food/maggot_salad_alt": {
+    "criteria": {
+      "has_maggot": "2026-05-28 00:32:50 -0400"
+    },
+    "done": true
+  },
+  "domum_ornamentum:recipes/tools/light_blue_brick_extra": {
+    "criteria": {
+      "has_material": "2026-05-28 00:00:34 -0400"
+    },
+    "done": true
+  },
+  "lootr:pot_opened": {
+    "criteria": {
+      "pot_opened": "2026-05-28 00:00:31 -0400"
+    },
+    "done": true
+  },
+  "lootr:archaeologist": {
+    "criteria": {
+      "got_pot": "2026-05-28 00:00:31 -0400"
+    },
+    "done": false
+  },
+  "royalvariations:royal_variations": {
+    "criteria": {
+      "royal_skeleton": "2026-05-28 00:43:15 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/ratatouille": {
+    "criteria": {
+      "has_any_ingredient": "2026-05-28 00:32:41 -0400"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "minecraft:zombie": "2026-05-28 00:32:26 -0400"
+    },
+    "done": true
+  },
+  "domum_ornamentum:recipes/tools/lime_brick_extra": {
+    "criteria": {
+      "has_material": "2026-05-28 00:00:34 -0400"
+    },
+    "done": true
+  },
+  "domum_ornamentum:recipes/tools/red_brick_extra": {
+    "criteria": {
+      "has_material": "2026-05-28 00:00:34 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/vegetable_soup": {
+    "criteria": {
+      "has_any_ingredient": "2026-05-28 00:21:49 -0400"
+    },
+    "done": true
+  },
+  "domum_ornamentum:recipes/tools/orange_brick_extra": {
+    "criteria": {
+      "has_material": "2026-05-28 00:00:34 -0400"
+    },
+    "done": true
+  },
+  "domum_ornamentum:recipes/tools/yellow_brick_extra": {
+    "criteria": {
+      "has_material": "2026-05-28 00:00:34 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:main/get_fd_seed": {
+    "criteria": {
+      "onion": "2026-05-28 00:32:41 -0400"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "minecraft:skeleton": "2026-05-28 00:35:12 -0400",
+      "minecraft:spider": "2026-05-28 00:43:15 -0400",
+      "minecraft:vex": "2026-05-28 00:33:11 -0400",
+      "minecraft:zombie": "2026-05-28 00:32:26 -0400",
+      "minecraft:creeper": "2026-05-28 00:43:15 -0400",
+      "minecraft:evoker": "2026-05-28 00:34:24 -0400"
+    },
+    "done": false
+  },
+  "create_ltab:ruin": {
+    "criteria": {
+      "ruins": "2026-05-28 00:01:32 -0400"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/misc/dragon_flute": {
+    "criteria": {
+      "has_item": "2026-05-28 00:46:28 -0400"
+    },
+    "done": true
+  },
+  "tombstone:adventure/cancel_ghostly_shape": {
+    "criteria": {
+      "coded_trigger": "2026-05-28 00:42:14 -0400"
+    },
+    "done": true
+  },
+  "gatesofavarice:recipes/misc/mana_steel_upgrade_template": {
+    "criteria": {
+      "has_mana_steel_scrap": "2026-05-28 00:37:26 -0400"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/misc/nest": {
+    "criteria": {
+      "has_item": "2026-05-28 00:46:28 -0400"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/combat/dragonbone_bow": {
+    "criteria": {
+      "has_item": "2026-05-28 00:46:28 -0400"
+    },
+    "done": true
+  },
+  "domum_ornamentum:recipes/tools/blue_brick_extra": {
+    "criteria": {
+      "has_material": "2026-05-28 00:00:34 -0400"
+    },
+    "done": true
+  },
+  "apotheosis:progression/ascent": {
+    "criteria": {
+      "kill_apothic_invader": "2026-05-28 00:35:09 -0400"
+    },
+    "done": false
+  },
+  "iceandfire:recipes/tools/dragonbone_hoe": {
+    "criteria": {
+      "has_item": "2026-05-28 00:46:28 -0400"
+    },
+    "done": true
+  },
+  "apotheosis:gateways/pinnacle": {
+    "criteria": {
+      "complete_pinnacle_gate": "2026-05-28 00:37:11 -0400"
+    },
+    "done": true
+  },
+  "gatesofavarice:recipes/misc/mana_steel_ingot": {
+    "criteria": {
+      "has_mana_steel_scrap": "2026-05-28 00:37:26 -0400"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/slicing/bread_slice_from_bread": {
+    "criteria": {
+      "has_bread": "2026-05-28 00:35:10 -0400"
+    },
+    "done": true
+  },
+  "domum_ornamentum:recipes/tools/green_brick_extra": {
+    "criteria": {
+      "has_material": "2026-05-28 00:00:34 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/fish_stew": {
+    "criteria": {
+      "has_any_ingredient": "2026-05-28 00:32:41 -0400"
+    },
+    "done": true
+  },
+  "incendium:technical/inventory/sentrys_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2026-05-28 00:47:19 -0400"
+    },
+    "done": false
+  },
+  "domum_ornamentum:recipes/tools/magenta_brick_extra": {
+    "criteria": {
+      "has_material": "2026-05-28 00:00:34 -0400"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/fine_wood": {
+    "criteria": {
+      "has_tag_minecraft_logs_1": "2026-05-28 00:22:52 -0400"
+    },
+    "done": true
+  },
+  "domum_ornamentum:recipes/tools/cyan_brick_extra": {
+    "criteria": {
+      "has_material": "2026-05-28 00:00:34 -0400"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/tools/dragonbone_axe": {
+    "criteria": {
+      "has_item": "2026-05-28 00:46:28 -0400"
+    },
+    "done": true
+  },
+  "incendium:technical/firestorm": {
+    "criteria": {
+      "log_spam_fixer": "2026-05-28 00:47:19 -0400"
+    },
+    "done": false
+  },
+  "immersiveengineering:recipes/misc/crafting/blastbrick": {
+    "criteria": {
+      "has_item": "2026-05-28 00:00:34 -0400"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2026-05-28 00:19:18 -0400"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/tools/dragonbone_pickaxe": {
+    "criteria": {
+      "has_item": "2026-05-28 00:46:28 -0400"
+    },
+    "done": true
+  },
+  "mynethersdelight:recipes/building_blocks/crafting/letios_compost_from_rotten_flesh": {
+    "criteria": {
+      "has_rotten_flesh": "2026-05-28 00:01:12 -0400"
+    },
+    "done": true
+  },
+  "gatesofavarice:recipes/misc/crystal_theme_attunement": {
+    "criteria": {
+      "has_theme_item": "2026-05-28 00:37:20 -0400"
+    },
+    "done": false
+  },
+  "veggiesdelight:recipes/cooking/cooking/carrot_juice": {
+    "criteria": {
+      "has_carrot": "2026-05-28 00:21:49 -0400"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/tools/dragonbone_sword": {
+    "criteria": {
+      "has_item": "2026-05-28 00:46:28 -0400"
+    },
+    "done": true
+  },
+  "gatesofavarice:recipes/misc/magnetite_ingot": {
+    "criteria": {
+      "has_magnetite_scrap": "2026-05-28 00:37:23 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget_from_blasting": {
+    "criteria": {
+      "has_chainmail_leggings": "2026-05-28 00:35:14 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/flower_pot": {
+    "criteria": {
+      "has_brick": "2026-05-28 00:00:34 -0400"
+    },
+    "done": true
+  },
+  "quark:content/crawl_in_hollow_log": {
+    "criteria": {
+      "crawl_in_hollow_log": "2026-05-28 00:21:02 -0400"
+    },
+    "done": true
+  },
+  "apotheosis:progression/haven": {
+    "criteria": {
+      "affixed": "2026-05-28 00:35:10 -0400"
+    },
+    "done": true
+  },
+  "veggiesdelight:main/r_first_veggie": {
+    "criteria": {
+      "first": "2026-05-28 00:21:49 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/building_blocks/onion_crate": {
+    "criteria": {
+      "has_onion": "2026-05-28 00:32:41 -0400"
     },
     "done": true
   },

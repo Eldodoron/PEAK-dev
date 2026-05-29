@@ -1,4 +1,4 @@
-﻿// ==========================================
+// ==========================================
 // PEAK EXPERT MODE â€” SCRIPT 22
 // APOTHEOSIS MASTER EXPERT POOLS
 // ==========================================
@@ -23,8 +23,6 @@ ServerEvents.generateData('peak', 'apotheosis_gear', event => {
                 { "stack": { "id": "twilightforest:knightmetal_sword" }, "weight": 5 }
             ],
             "helmets": [
-                { "stack": { "id": "knightquest:silver_knight_helmet" }, "weight": 10 },
-                { "stack": { "id": "knightquest:iron_knight_helmet" }, "weight": 10 },
                 { "stack": { "id": "armoroftheages:samurai_helmet" }, "weight": 10 },
                 { "stack": { "id": "armoroftheages:anubis_helmet" }, "weight": 10 },
                 { "stack": { "id": "armoroftheages:centurion_helmet" }, "weight": 10 },
@@ -42,8 +40,6 @@ ServerEvents.generateData('peak', 'apotheosis_gear', event => {
                 { "stack": { "id": "mowziesmobs:wrought_helmet", "drop_chance": 0.0 }, "weight": 5 }
             ],
             "chestplates": [
-                { "stack": { "id": "knightquest:silver_knight_chestplate" }, "weight": 10 },
-                { "stack": { "id": "knightquest:iron_knight_chestplate" }, "weight": 10 },
                 { "stack": { "id": "armoroftheages:samurai_chestplate" }, "weight": 10 },
                 { "stack": { "id": "armoroftheages:anubis_chestplate" }, "weight": 10 },
                 { "stack": { "id": "armoroftheages:centurion_chestplate" }, "weight": 10 },
@@ -60,7 +56,6 @@ ServerEvents.generateData('peak', 'apotheosis_gear', event => {
                 { "stack": { "id": "twilightforest:ironwood_chestplate" }, "weight": 5 }
             ],
             "leggings": [
-                { "stack": { "id": "knightquest:silver_knight_leggings" }, "weight": 10 },
                 { "stack": { "id": "armoroftheages:samurai_leggings" }, "weight": 10 },
                 { "stack": { "id": "fantasy_armor:dead_gladiator_leggings" }, "weight": 10 },
                 { "stack": { "id": "immersive_armors:heavy_leggings" }, "weight": 10 },
@@ -70,7 +65,6 @@ ServerEvents.generateData('peak', 'apotheosis_gear', event => {
                 { "stack": { "id": "twilightforest:knightmetal_leggings" }, "weight": 5 }
             ],
             "boots": [
-                { "stack": { "id": "knightquest:silver_knight_boots" }, "weight": 10 },
                 { "stack": { "id": "armoroftheages:samurai_boots" }, "weight": 10 },
                 { "stack": { "id": "fantasy_armor:dead_gladiator_boots" }, "weight": 10 },
                 { "stack": { "id": "immersive_armors:heavy_boots" }, "weight": 10 },
@@ -104,12 +98,12 @@ ServerEvents.generateData('peak', 'apotheosis_gear', event => {
                 { "stack": { "id": "twilightforest:seeker_bow" }, "weight": 5 }
             ],
             "helmets": [
-                { "stack": { "id": "knightquest:silver_knight_helmet" }, "weight": 10 },
+
                 { "stack": { "id": "armoroftheages:samurai_helmet" }, "weight": 10 },
                 { "stack": { "id": "ars_nouveau:arcanist_hood" }, "weight": 20 }
             ],
             "chestplates": [
-                { "stack": { "id": "knightquest:silver_knight_chestplate" }, "weight": 10 },
+
                 { "stack": { "id": "ars_nouveau:arcanist_robes" }, "weight": 20 }
             ],
             "tags": ["apothic_enchanting:ranged", `apothic_enchanting:${tier}`]

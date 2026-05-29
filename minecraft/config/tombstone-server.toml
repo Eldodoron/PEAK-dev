@@ -7,7 +7,7 @@
 	#Experience lost on death [0..100|default:95]
 	# Default: 95
 	# Range: 0 ~ 100
-	xp_loss_on_death = 95
+	xp_loss_on_death = 50
 	#The duration of the Ghostly Shape effect in seconds [0..MAX|default:120]
 	# Default: 120
 	# Range: > 0

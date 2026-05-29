@@ -34,14 +34,6 @@ ServerEvents.generateData('peak', 'mob_gear', event => {
                 "weight": 10,
                 "drop_chance": 0.0
             },
-            { "stack": { "id": "knightquest:cleaver", "count": 1 }, "weight": 15, "drop_chance": 0.0 },
-            { "stack": { "id": "knightquest:khopesh_claymore", "count": 1 }, "weight": 15, "drop_chance": 0.0 },
-            { "stack": { "id": "knightquest:kukri_dagger", "count": 1 }, "weight": 15, "drop_chance": 0.0 },
-            { "stack": { "id": "knightquest:nail_glaive", "count": 1 }, "weight": 15, "drop_chance": 0.0 },
-            { "stack": { "id": "knightquest:paladin_sword", "count": 1 }, "weight": 15, "drop_chance": 0.0 },
-            { "stack": { "id": "knightquest:steel_axe", "count": 1 }, "weight": 15, "drop_chance": 0.0 },
-            { "stack": { "id": "knightquest:steel_sword", "count": 1 }, "weight": 15, "drop_chance": 0.0 },
-            { "stack": { "id": "knightquest:uchigatana_katana", "count": 1 }, "weight": 15, "drop_chance": 0.0 },
             { "stack": { "id": "simplyswords:arcanethyst", "count": 1 }, "weight": 5, "drop_chance": 0.0 },
             { "stack": { "id": "simplyswords:awakened_lichblade", "count": 1 }, "weight": 5, "drop_chance": 0.0 },
             { "stack": { "id": "simplyswords:bramblethorn", "count": 1 }, "weight": 5, "drop_chance": 0.0 },
@@ -175,32 +167,6 @@ EntityEvents.spawned(event => {
         chestplates.push('ars_nouveau:arcanist_robes');
     }
 
-    if (Platform.isLoaded('knightquest')) {
-        helmets.push(
-            'knightquest:deepslate_helmet', 'knightquest:dragon_helmet', 'knightquest:enderman_helmet',
-            'knightquest:evoker_helmet', 'knightquest:forze_helmet', 'knightquest:hollow_helmet',
-            'knightquest:horn_helmet', 'knightquest:husk_helmet', 'knightquest:nether_helmet',
-            'knightquest:path_helmet', 'knightquest:phantom_helmet', 'knightquest:pirate_helmet',
-            'knightquest:polar_helmet', 'knightquest:sea_helmet', 'knightquest:shield_helmet',
-            'knightquest:shinobi_helmet', 'knightquest:silverfish_helmet', 'knightquest:silver_helmet',
-            'knightquest:skeleton_helmet', 'knightquest:skulk_helmet', 'knightquest:spider_helmet',
-            'knightquest:squire_helmet', 'knightquest:strawhat_helmet', 'knightquest:tengu_helmet',
-            'knightquest:veteran_helmet', 'knightquest:warlord_helmet', 'knightquest:witch_helmet',
-            'knightquest:wither_helmet', 'knightquest:zombie_helmet'
-        );
-        chestplates.push(
-            'knightquest:deepslate_chestplate', 'knightquest:dragon_chestplate', 'knightquest:enderman_chestplate',
-            'knightquest:evoker_chestplate', 'knightquest:forze_chestplate', 'knightquest:hollow_chestplate',
-            'knightquest:horn_chestplate', 'knightquest:husk_chestplate', 'knightquest:nether_chestplate',
-            'knightquest:path_chestplate', 'knightquest:phantom_chestplate', 'knightquest:pirate_chestplate',
-            'knightquest:polar_chestplate', 'knightquest:sea_chestplate', 'knightquest:shield_chestplate',
-            'knightquest:shinobi_chestplate', 'knightquest:silverfish_chestplate', 'knightquest:silver_chestplate',
-            'knightquest:skeleton_chestplate', 'knightquest:skulk_chestplate', 'knightquest:spider_chestplate',
-            'knightquest:squire_chestplate', 'knightquest:strawhat_chestplate', 'knightquest:veteran_chestplate',
-            'knightquest:warlord_chestplate', 'knightquest:witch_chestplate', 'knightquest:wither_chestplate',
-            'knightquest:zombie_chestplate'
-        );
-    }
 
     if (Platform.isLoaded('armoroftheages')) {
         helmets.push('armoroftheages:anubis_armor_head', 'armoroftheages:centurion_armor_head', 'armoroftheages:holy_armor_head', 'armoroftheages:o_yoroi_armor_head');
@@ -265,8 +231,8 @@ EntityEvents.spawned(event => {
 
     if (!helm.empty && !chest.empty) {
         let trimData = { material: "minecraft:gold", pattern: "minecraft:ward" };
-        entity.setItemSlot('head', helm.withComponent('minecraft:trim', trimData));
-        entity.setItemSlot('chest', chest.withComponent('minecraft:trim', trimData));
+        entity.setItemSlot('head', helm.with('minecraft:trim', trimData));
+        entity.setItemSlot('chest', chest.with('minecraft:trim', trimData));
         
         if (entity.type == 'minecraft:skeleton' || entity.type == 'minecraft:stray' || entity.type == 'minecraft:pillager') {
             let bowId = bows[Math.floor(Math.random() * bows.length)];

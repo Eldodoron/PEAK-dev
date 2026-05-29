@@ -1,5 +1,5 @@
 {
-  "enabled": true,
+  "enabled": false,
   "strength": 8.0,
   "threshold": 0.15,
   "radius": 500.0,
@@ -46,8 +46,8 @@
     "minecraft:soul_wall_torch": 220.0,
     "minecraft:redstone_torch": 120.0,
     "minecraft:redstone_wall_torch": 120.0,
-    "minecraft:torch": 499.0,
-    "minecraft:wall_torch": 499.0,
+    "minecraft:torch": 288.0,
+    "minecraft:wall_torch": 288.0,
     "minecraft:firefly_bush": 500.0,
     "minecraft:lantern": 200.0,
     "minecraft:weeping_vines_plant": 100.0,

@@ -2,6 +2,19 @@
   {
     "user": {
       "type": "player",
+      "name": "Eldodoron",
+      "uniqueId": "49be79aa-731a-4f2a-bf25-9d3b8eb016b4"
+    },
+    "time": 1779947011381,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/zqHoLA9A2r"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
       "name": "EldoTest",
       "uniqueId": "d2bd3a65-5aeb-3f33-8927-89fe759a5d19"
     },

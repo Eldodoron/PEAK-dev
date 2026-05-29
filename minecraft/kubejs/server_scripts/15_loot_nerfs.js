@@ -7,12 +7,11 @@ LootJS.modifiers(event => {
     // ==========================================
     // NERF 1: SLIME/MAGMA CUBE SPLITTING EXPLOIT
     // Slimes split into tiny slimes, causing them to 
-    // drop absurd amounts of Malum spirits and KnightLib 
-    // essences. We completely remove these drops from them.
+    // drop absurd amounts of Malum spirits.
+    // We completely remove these drops from them.
     // ==========================================
     let overpoweredDrops = [
-        'knightlib:small_essence',
-        'knightlib:great_essence',
+
         'malum:sacred_spirit',
         'malum:wicked_spirit',
         'malum:arcane_spirit',
