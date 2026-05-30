@@ -29,7 +29,7 @@ Core progression mechanics, tier gates, and questline balancing.
 > [!IMPORTANT]
 > **Automatic World Tier Progression** is a high-priority system design requirement!
 
-- [ ] **Knight Quest Tuning & Fixing:**
+- [x] **Knight Quest Tuning & Fixing:**
   - Fine-tune parameters, reward tables, and stage requirements for the knight quests.
   - Fix any broken progression triggers.
 - [ ] **Vampirism Tunes:**
