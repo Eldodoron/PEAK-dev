@@ -1,0 +1,17 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "item": "minecraft:slime_ball"
+    }
+  ],
+  "results": [
+    {
+      "count": 1,
+      "item": {
+        "id": "minecraft:magma_cream"
+      }
+    }
+  ]
+}

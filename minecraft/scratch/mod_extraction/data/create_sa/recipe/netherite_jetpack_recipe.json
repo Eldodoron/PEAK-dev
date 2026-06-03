@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "create:fluid_tank"
+  },
+  "base": {
+    "item": "create_sa:brass_jetpack_chestplate"
+  },
+  "addition": {
+    "item": "minecraft:netherite_ingot"
+  },
+  "result": {
+    "id": "create_sa:netherite_jetpack_chestplate"
+  }
+}

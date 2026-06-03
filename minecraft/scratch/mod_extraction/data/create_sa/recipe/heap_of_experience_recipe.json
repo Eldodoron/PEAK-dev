@@ -1,0 +1,17 @@
+{
+  "group": "create_stuff_additions",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "00",
+    "00"
+  ],
+  "key": {
+    "0": {
+      "item": "create:experience_nugget"
+    }
+  },
+  "result": {
+    "id": "create_sa:heap_of_experience",
+    "count": 1
+  }
+}

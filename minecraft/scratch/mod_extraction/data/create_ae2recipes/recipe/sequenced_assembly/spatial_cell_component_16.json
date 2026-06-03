@@ -1,0 +1,49 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "ae2:engineering_processor"
+  },
+  "loops": 4,
+  "results": [
+    {
+      "id": "ae2:spatial_cell_component_16"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_ae2recipes:incomplete_spatial_cell_component_16"
+        },
+        {
+          "item": "ae2:spatial_cell_component_2"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_ae2recipes:incomplete_spatial_cell_component_16"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_ae2recipes:incomplete_spatial_cell_component_16"
+        },
+        {
+          "item": "minecraft:glowstone_dust"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_ae2recipes:incomplete_spatial_cell_component_16"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "create_ae2recipes:incomplete_spatial_cell_component_16"
+  }
+}

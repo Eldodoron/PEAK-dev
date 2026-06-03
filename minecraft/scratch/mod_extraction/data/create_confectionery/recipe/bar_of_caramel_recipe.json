@@ -1,0 +1,16 @@
+{
+  "group": "create_confectionery",
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "type": "fluid_stack",
+      "amount": 250,
+      "fluid": "create_confectionery:caramel"
+    }
+  ],
+  "results": [
+    {
+      "id": "create_confectionery:bar_of_caramel"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "010",
+    "121",
+    "010"
+  ],
+  "key": {
+    "0": {
+      "tag": "c:ingots/zinc"
+    },
+    "1": {
+      "item": "create:andesite_alloy"
+    },
+    "2": {
+      "item": "create:propeller"
+    }
+  },
+  "result": {
+    "id": "create_sa:fan_component",
+    "count": 1
+  }
+}

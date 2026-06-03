@@ -1,0 +1,43 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "key":
+  {
+    "M":
+    [
+      {
+        "item": "ae2:monitor"
+      },
+      {
+        "item": "ae2:semi_dark_monitor"
+      },
+      {
+        "item": "ae2:dark_monitor"
+      }
+    ],
+    "E":
+    {
+      "item": "ae2:engineering_processor"
+    },
+    "P":
+    [
+      {
+        "item": "ae2:pattern_provider"
+      },
+      {
+        "item": "ae2:cable_pattern_provider"
+      }
+    ]
+
+  },
+  "pattern": [
+    "M",
+    "E",
+    "P"
+  ],
+  "result": {
+    "count": 1,
+    "id": "ae2:pattern_access_terminal"
+  }
+}

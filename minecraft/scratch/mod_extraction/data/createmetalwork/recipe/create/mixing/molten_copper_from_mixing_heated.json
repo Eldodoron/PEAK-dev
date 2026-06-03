@@ -1,0 +1,15 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+        {
+            "tag": "c:crushed_raw_materials/copper"
+        }
+    ],
+    "results": [
+        {
+            "amount": 222,
+            "id": "createmetalwork:molten_copper"
+        }
+    ],
+    "heat_requirement": "heated"
+}

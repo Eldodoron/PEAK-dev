@@ -1,0 +1,28 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:mod_loaded",
+        "modid": "aeronautics"
+      }
+    }
+  ],
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "minecraft:end_stone"
+    }
+  ],
+  "results": [
+    {
+      "chance": 0.08,
+      "id": "minecraft:ender_pearl"
+    },
+    {
+      "chance": 0.2,
+      "id": "minecraft:end_stone"
+    }
+  ],
+  "processing_time": 450
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    "010",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "tag": "c:ingots/brass"
+    },
+    "1": {
+      "item": "create:linked_controller"
+    }
+  },
+  "result": {
+    "id": "create_sa:drone_controller",
+    "count": 1
+  }
+}

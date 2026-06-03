@@ -1,0 +1,27 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+  "category": "misc",
+  "pattern": [
+    "01233",
+    "003  "
+  ],
+  "key": {
+    "0": {
+      "item": "create:andesite_alloy"
+    },
+    "1": {
+      "item": "create:blaze_burner"
+    },
+    "2": {
+      "item": "create_sa:heat_engine"
+    },
+    "3": {
+      "tag": "c:plates/obsidian"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "create_sa:flamethrower"
+  }
+}

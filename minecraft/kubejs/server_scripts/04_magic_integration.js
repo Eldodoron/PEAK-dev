@@ -1,5 +1,5 @@
-﻿// ==========================================
-// PEAK EXPERT MODE â€” SCRIPT 04
+// ==========================================
+// PEAK EXPERT MODE Ã¢â‚¬â€ SCRIPT 04
 // MAGIC INTEGRATION: ARS NOUVEAU + IRON'S SPELLBOOKS
 // ==========================================
 // Magic runs PARALLEL to technology, but they intersect
@@ -17,7 +17,7 @@
 ServerEvents.recipes(event => {
 
     // ==========================================
-    // SECTION 1: ARS NOUVEAU â€” MAGIC ERA 1
+    // SECTION 1: ARS NOUVEAU Ã¢â‚¬â€ MAGIC ERA 1
     // The first magical system. Create enhances it.
     // Twilight Forest materials unlock advanced tiers.
     // ==========================================
@@ -64,7 +64,7 @@ ServerEvents.recipes(event => {
     });
 
     // --- ENCHANTING APPARATUS (Advanced magical crafting) ---
-    // This is the Ars Nouveau "machine" â€” it deserves to need
+    // This is the Ars Nouveau "machine" Ã¢â‚¬â€ it deserves to need
     // Create Precision Mechanisms (mechanical precision for
     // precise enchantment channeling) + Twilight materials
     event.remove({ output: 'ars_nouveau:enchanting_apparatus' });
@@ -108,7 +108,7 @@ ServerEvents.recipes(event => {
     });
 
     // --- SPELL TURRETS (Automated magic = tech + magic) ---
-    // Spell turrets are basically "magical deployers" â€” they
+    // Spell turrets are basically "magical deployers" Ã¢â‚¬â€ they
     // should need Create's Deployer as a base (mechanical
     // arm that casts spells instead of placing blocks)
     event.remove({ output: 'ars_nouveau:basic_spell_turret' });
@@ -185,14 +185,10 @@ ServerEvents.recipes(event => {
     // Create's crushing gives bonus Twilight metals
     // ==========================================
 
-    // Ironwood processing via Create
-    event.recipes.create.crushing([
-        'twilightforest:raw_ironwood',
-        CreateItem.of('twilightforest:raw_ironwood', 0.4)
-    ], 'twilightforest:ironwood_ore');
+
 
     // ==========================================
-    // SECTION 3: IRON'S SPELLBOOKS â€” MAGIC ERA 2
+    // SECTION 3: IRON'S SPELLBOOKS Ã¢â‚¬â€ MAGIC ERA 2
     // Requires Ars Nouveau foundation.
     // Combat magic that needs both magical knowledge
     // and craftsmanship.
@@ -322,7 +318,7 @@ ServerEvents.recipes(event => {
     // Create's machinery can process and purify Source
     // ==========================================
 
-    // Create Mixing: Raw Source materials â†’ Pure Source Gems
+    // Create Mixing: Raw Source materials Ã¢â€ â€™ Pure Source Gems
     // (Mechanical purification of wild magical energy)
     event.recipes.create.mixing(
         '2x ars_nouveau:source_gem',
@@ -354,7 +350,7 @@ ServerEvents.recipes(event => {
         [
             '#c:ingots/copper',
             'create:zinc_ingot',
-            CreateItem.of('ars_nouveau:source_gem', 0.1)
+            'ars_nouveau:source_gem'
         ]
     ).heated();
 
@@ -372,7 +368,7 @@ ServerEvents.recipes(event => {
         key: {
             S: { item: 'twilightforest:naga_scale' },
             I: { item: 'minecraft:packed_ice' },
-            B: { item: 'irons_spellbooks:apprentice_spell_book' }
+            B: { item: 'ars_nouveau:apprentice_spell_book' }
         },
         result: { id: 'irons_spellbooks:ice_spell_book', count: 1 },
         tier: 1
@@ -390,10 +386,10 @@ ServerEvents.recipes(event => {
             "DDDDD"
         ],
         key: {
-            D: { item: 'minecraft:barrier' },
+            D: { item: 'iceandfire:dragonbone' },
             A: { item: 'irons_spellbooks:arcane_ingot' },
             P: { item: 'kubejs:primordial_dragon_blood' },
-            B: { item: 'irons_spellbooks:apprentice_spell_book' }
+            B: { item: 'ars_nouveau:apprentice_spell_book' }
         },
         result: { id: 'irons_spellbooks:dragonskin_spell_book', count: 1 },
         tier: 2

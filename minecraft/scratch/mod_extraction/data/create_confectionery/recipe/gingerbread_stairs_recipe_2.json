@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "create_confectionery:gingerbread_block"
+  },
+  "result": {
+    "id": "create_confectionery:gingerbread_stairs",
+    "count": 1
+  }
+}

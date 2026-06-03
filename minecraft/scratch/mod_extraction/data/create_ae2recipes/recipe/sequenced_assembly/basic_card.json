@@ -1,0 +1,94 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create:iron_sheet"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "id": "ae2:basic_card"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_ae2recipes:incomplete_basic_card"
+        },
+        {
+          "item": "create:golden_sheet"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_ae2recipes:incomplete_basic_card"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_ae2recipes:incomplete_basic_card"
+        },
+        {
+          "item": "ae2:calculation_processor"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_ae2recipes:incomplete_basic_card"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_ae2recipes:incomplete_basic_card"
+        },
+        {
+          "item": "minecraft:redstone"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_ae2recipes:incomplete_basic_card"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_ae2recipes:incomplete_basic_card"
+        },
+        {
+          "item": "create:iron_sheet"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_ae2recipes:incomplete_basic_card"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "create_ae2recipes:incomplete_basic_card"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_ae2recipes:incomplete_basic_card"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "create_ae2recipes:incomplete_basic_card"
+  }
+}

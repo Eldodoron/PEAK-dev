@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "create_confectionery:candy_cane_block"
+    }
+  ],
+  "result": {
+    "id": "create_confectionery:candy_cane",
+    "count": 4
+  }
+}

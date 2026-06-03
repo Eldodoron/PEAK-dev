@@ -1,0 +1,24 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:not",
+            "value": {
+                "type": "neoforge:tag_empty",
+                "tag": "c:ingots/steel"
+            }
+        }
+    ],
+    "type": "create:mixing",
+    "ingredients": [
+        {
+            "tag": "c:ingots/steel"
+        }
+    ],
+    "results": [
+        {
+            "amount": 111,
+            "id": "createmetalwork:molten_steel"
+        }
+    ],
+    "heat_requirement": "heated"
+}

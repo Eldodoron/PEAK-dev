@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "1"
+  ],
+  "key": {
+    "0": {
+      "tag": "c:ingots/brass"
+    },
+    "1":{
+      "tag": "c:rods/wooden"
+    }
+  },
+  "result": {
+    "id": "create_sa:brass_shovel",
+    "count": 1
+  }
+}

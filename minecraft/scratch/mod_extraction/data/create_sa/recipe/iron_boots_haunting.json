@@ -1,0 +1,15 @@
+{
+  "type": "create:haunting",
+  "ingredients": [
+    {
+      "item": "minecraft:iron_boots"
+    }
+  ],
+  "results": [
+    {
+      "item": {
+        "id": "minecraft:chainmail_boots"
+      }
+    }
+  ]
+}

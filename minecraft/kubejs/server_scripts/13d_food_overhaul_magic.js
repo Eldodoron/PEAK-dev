@@ -1,5 +1,5 @@
 // ==========================================
-// PEAK EXPERT MODE — SCRIPT 13D
+// PEAK EXPERT MODE â€” SCRIPT 13D
 // FOOD OVERHAUL: VEGGIES + ARS + LENDER'S
 // ==========================================
 
@@ -11,11 +11,11 @@ ServerEvents.recipes(event => {
 
     // --- BURGERS & SANDWICHES (Sequenced Assembly) ---
 
-    // Vegetarian Burger: Bread → Deploy patty → Deploy cabbage → Deploy tomato
+    // Vegetarian Burger: Bread â†’ Deploy patty â†’ Deploy cabbage â†’ Deploy tomato
     event.remove({ id: 'veggiesdelight:vegetarian_burger' });
     event.custom({
         "type": "create:sequenced_assembly",
-        "ingredient": { "tag": "c:foods/bread" },
+        "ingredient": { "item": "minecraft:bread" },
         "transitional_item": { "id": "farmersdelight:wheat_dough" },
         "sequence": [
             {
@@ -38,11 +38,11 @@ ServerEvents.recipes(event => {
         "loops": 1
     });
 
-    // Zucchini Sandwich: Bread → Deploy zucchini → Deploy lettuce → Deploy tomato
+    // Zucchini Sandwich: Bread â†’ Deploy zucchini â†’ Deploy lettuce â†’ Deploy tomato
     event.remove({ id: 'veggiesdelight:zucchini_sandwich' });
     event.custom({
         "type": "create:sequenced_assembly",
-        "ingredient": { "tag": "c:foods/bread" },
+        "ingredient": { "item": "minecraft:bread" },
         "transitional_item": { "id": "farmersdelight:wheat_dough" },
         "sequence": [
             {
@@ -52,7 +52,7 @@ ServerEvents.recipes(event => {
             },
             {
                 "type": "create:deploying",
-                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "tag": "c:foods/leafy_green" }],
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "item": "farmersdelight:cabbage_leaf" }],
                 "results": [{ "id": "farmersdelight:wheat_dough" }]
             },
             {
@@ -65,11 +65,11 @@ ServerEvents.recipes(event => {
         "loops": 1
     });
 
-    // Garlic Bread: Bread → Deploy roasted garlic x4
+    // Garlic Bread: Bread â†’ Deploy roasted garlic x4
     event.remove({ id: 'veggiesdelight:garlic_bread' });
     event.custom({
         "type": "create:sequenced_assembly",
-        "ingredient": { "tag": "c:foods/bread" },
+        "ingredient": { "item": "minecraft:bread" },
         "transitional_item": { "id": "farmersdelight:wheat_dough" },
         "sequence": [
             {
@@ -94,11 +94,11 @@ ServerEvents.recipes(event => {
 
     // --- WRAPS (Sequenced Assembly) ---
 
-    // Vegetable Wrap: Dough → Deploy pepper → Deploy zucchini → Deploy greens → Deploy rice
+    // Vegetable Wrap: Dough â†’ Deploy pepper â†’ Deploy zucchini â†’ Deploy greens â†’ Deploy rice
     event.remove({ id: 'veggiesdelight:vegetable_wrap' });
     event.custom({
         "type": "create:sequenced_assembly",
-        "ingredient": { "tag": "c:foods/dough" },
+        "ingredient": { "item": "farmersdelight:wheat_dough" },
         "transitional_item": { "id": "farmersdelight:wheat_dough" },
         "sequence": [
             {
@@ -113,7 +113,7 @@ ServerEvents.recipes(event => {
             },
             {
                 "type": "create:deploying",
-                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "tag": "c:foods/leafy_green" }],
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "item": "farmersdelight:cabbage_leaf" }],
                 "results": [{ "id": "farmersdelight:wheat_dough" }]
             },
             {
@@ -126,11 +126,11 @@ ServerEvents.recipes(event => {
         "loops": 1
     });
 
-    // Uncooked Mhadjeb: Dough → Deploy onion → Deploy pepper → Deploy sauce
+    // Uncooked Mhadjeb: Dough â†’ Deploy onion â†’ Deploy pepper â†’ Deploy sauce
     event.remove({ id: 'veggiesdelight:uncooked_mhadjeb' });
     event.custom({
         "type": "create:sequenced_assembly",
-        "ingredient": { "tag": "c:foods/dough" },
+        "ingredient": { "item": "farmersdelight:wheat_dough" },
         "transitional_item": { "id": "farmersdelight:wheat_dough" },
         "sequence": [
             {
@@ -158,7 +158,7 @@ ServerEvents.recipes(event => {
     // Turnip Salad: Mixing
     event.remove({ id: 'veggiesdelight:turnip_salad' });
     event.recipes.create.mixing('veggiesdelight:turnip_salad', [
-        { tag: 'c:foods/leafy_green' },
+        'farmersdelight:cabbage_leaf',
         { tag: 'c:crops/turnip' },
         'minecraft:bowl'
     ]);
@@ -168,7 +168,7 @@ ServerEvents.recipes(event => {
     // Garlic Baked Cod
     event.remove({ id: 'veggiesdelight:garlic_baked_cod' });
     event.recipes.create.mixing('veggiesdelight:garlic_baked_cod', [
-        { tag: 'c:foods/cooked_cod' },
+        'minecraft:cooked_cod',
         'veggiesdelight:roasted_garlic_clove',
         'veggiesdelight:roasted_garlic_clove',
         { tag: 'c:crops/onion' },
@@ -198,8 +198,8 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'veggiesdelight:stuffed_zucchini_boat' });
     event.recipes.create.mixing('veggiesdelight:stuffed_zucchini_boat', [
         'veggiesdelight:roasted_zucchini',
-        '#c:foods/cooked_beef',
-        '#c:foods/milk'
+        'minecraft:cooked_beef',
+        'minecraft:milk_bucket'
     ]).heated();
 
     // --- DOUGH & BAKING ---
@@ -229,7 +229,7 @@ ServerEvents.recipes(event => {
     event.recipes.create.mixing('veggiesdelight:sweet_potato_cupcake', [
         'veggiesdelight:sweet_potato_dough',
         '#c:eggs',
-        '#c:foods/milk'
+        'minecraft:milk_bucket'
     ]).heated();
 
     // Fermented Garlic Honey: Mixing
@@ -244,7 +244,7 @@ ServerEvents.recipes(event => {
 
     // --- PIES & PIZZA (Sequenced Assembly) ---
 
-    // Sweet Potato Pie: Crust → Deploy potato → Deploy sugar → Press
+    // Sweet Potato Pie: Crust â†’ Deploy potato â†’ Deploy sugar â†’ Press
     event.remove({ id: 'veggiesdelight:sweet_potato_pie' });
     event.custom({
         "type": "create:sequenced_assembly",
@@ -271,7 +271,7 @@ ServerEvents.recipes(event => {
         "loops": 1
     });
 
-    // Zucchini Quiche: Crust → Deploy zucchini → Deploy meat → Deploy milk → Press
+    // Zucchini Quiche: Crust â†’ Deploy zucchini â†’ Deploy meat â†’ Deploy milk â†’ Press
     event.remove({ id: 'veggiesdelight:zucchini_quiche' });
     event.custom({
         "type": "create:sequenced_assembly",
@@ -285,12 +285,12 @@ ServerEvents.recipes(event => {
             },
             {
                 "type": "create:deploying",
-                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "tag": "c:foods/cooked_mutton" }],
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "item": "minecraft:cooked_mutton" }],
                 "results": [{ "id": "kubejs:incomplete_ender_eye" }]
             },
             {
                 "type": "create:deploying",
-                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "tag": "c:foods/milk" }],
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "item": "minecraft:milk_bucket" }],
                 "results": [{ "id": "kubejs:incomplete_ender_eye" }]
             },
             {
@@ -303,11 +303,11 @@ ServerEvents.recipes(event => {
         "loops": 1
     });
 
-    // Vegan Pizza: Dough → Deploy sauce → Deploy pepper → Deploy veg → Deploy onion → Press
+    // Vegan Pizza: Dough â†’ Deploy sauce â†’ Deploy pepper â†’ Deploy veg â†’ Deploy onion â†’ Press
     event.remove({ id: 'veggiesdelight:vegan_pizza' });
     event.custom({
         "type": "create:sequenced_assembly",
-        "ingredient": { "tag": "c:foods/dough" },
+        "ingredient": { "item": "farmersdelight:wheat_dough" },
         "transitional_item": { "id": "farmersdelight:wheat_dough" },
         "sequence": [
             {
@@ -322,7 +322,7 @@ ServerEvents.recipes(event => {
             },
             {
                 "type": "create:deploying",
-                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "tag": "c:foods/vegetable" }],
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "item": "minecraft:carrot" }],
                 "results": [{ "id": "farmersdelight:wheat_dough" }]
             },
             {
@@ -351,7 +351,7 @@ ServerEvents.recipes(event => {
         "sequence": [
             {
                 "type": "create:deploying",
-                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "tag": "c:foods/cooked_mutton" }],
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "item": "minecraft:cooked_mutton" }],
                 "results": [{ "id": "farmersdelight:wheat_dough" }]
             },
             {
@@ -381,7 +381,7 @@ ServerEvents.recipes(event => {
         ]
     ).heated();
 
-    // Bastion Pie: Crust → Deploy bastion → Deploy jam → Deploy sourceberry → Press
+    // Bastion Pie: Crust â†’ Deploy bastion â†’ Deploy jam â†’ Deploy sourceberry â†’ Press
     event.remove({ id: 'arsdelight:bastion_pie' });
     event.custom({
         "type": "create:sequenced_assembly",
@@ -509,7 +509,7 @@ ServerEvents.recipes(event => {
         "loops": 1
     });
 
-    // --- MAGICAL SALADS (Mechanical Crafting — arcane plating) ---
+    // --- MAGICAL SALADS (Mechanical Crafting â€” arcane plating) ---
 
     // Wilden Salad: Requires arcane presentation
     event.remove({ id: 'arsdelight:wilden_salad' });
@@ -546,7 +546,7 @@ ServerEvents.recipes(event => {
             },
             {
                 "type": "create:deploying",
-                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "tag": "c:foods/cabbage" }],
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "item": "farmersdelight:cabbage" }],
                 "results": [{ "id": "farmersdelight:wheat_dough" }]
             }
         ],
@@ -573,7 +573,7 @@ ServerEvents.recipes(event => {
             },
             {
                 "type": "create:deploying",
-                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "tag": "c:foods/cabbage" }],
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "item": "farmersdelight:cabbage" }],
                 "results": [{ "id": "farmersdelight:wheat_dough" }]
             }
         ],
@@ -591,7 +591,7 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'lendersdelight:amethyst_crab_sandwich' });
     event.custom({
         "type": "create:sequenced_assembly",
-        "ingredient": { "tag": "c:foods/bread" },
+        "ingredient": { "item": "minecraft:bread" },
         "transitional_item": { "id": "farmersdelight:wheat_dough" },
         "sequence": [
             {
@@ -601,7 +601,7 @@ ServerEvents.recipes(event => {
             },
             {
                 "type": "create:deploying",
-                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "tag": "c:foods/leafy_green" }],
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "item": "farmersdelight:cabbage_leaf" }],
                 "results": [{ "id": "farmersdelight:wheat_dough" }]
             },
             {
@@ -618,7 +618,7 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'lendersdelight:coral_chunk_sandwich' });
     event.custom({
         "type": "create:sequenced_assembly",
-        "ingredient": { "tag": "c:foods/bread" },
+        "ingredient": { "item": "minecraft:bread" },
         "transitional_item": { "id": "farmersdelight:wheat_dough" },
         "sequence": [
             {
@@ -628,7 +628,7 @@ ServerEvents.recipes(event => {
             },
             {
                 "type": "create:deploying",
-                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "tag": "c:foods/leafy_green" }],
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "item": "farmersdelight:cabbage_leaf" }],
                 "results": [{ "id": "farmersdelight:wheat_dough" }]
             },
             {
@@ -650,7 +650,7 @@ ServerEvents.recipes(event => {
         ['minecraft:dried_kelp', 'cataclysm:crystallized_coral_fragments']
     );
 
-    // Lionfish Roll: Rice → Deploy lionfish
+    // Lionfish Roll: Rice â†’ Deploy lionfish
     event.remove({ id: 'lendersdelight:lionfish_roll' });
     event.custom({
         "type": "create:sequenced_assembly",

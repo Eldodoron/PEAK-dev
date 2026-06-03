@@ -1,0 +1,6 @@
+{
+  "condition": "minecraft:inverted",
+  "term": {
+    "condition": "minecraft:killed_by_player"
+  }
+}

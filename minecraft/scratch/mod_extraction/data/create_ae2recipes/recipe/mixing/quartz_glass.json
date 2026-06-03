@@ -1,0 +1,24 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "item": "ae2:certus_quartz_dust"
+    },
+    {
+      "item": "ae2:certus_quartz_dust"
+    },
+    {
+      "tag": "c:glass_blocks"
+    },
+    {
+      "tag": "c:glass_blocks"
+    }
+  ],
+  "results": [
+    {
+      "id": "ae2:quartz_glass",
+      "count": 2.0
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "type": "create:compacting",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "item": "ae2:quartz_fiber"
+    },
+    {
+      "item": "ae2:fluix_crystal"
+    }
+  ],
+  "results": [
+    {
+      "id": "ae2:fluix_glass_cable",
+      "count": 3.0
+    }
+  ]
+}

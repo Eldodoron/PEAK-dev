@@ -1,0 +1,15 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+        {
+            "tag": "c:crushed_raw_materials/iron"
+        }
+    ],
+    "results": [
+        {
+            "amount": 222,
+            "id": "createmetalwork:molten_iron"
+        }
+    ],
+    "heat_requirement": "heated"
+}

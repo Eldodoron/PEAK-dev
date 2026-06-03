@@ -1,0 +1,33 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+  "category": "misc",
+  "pattern": [
+    " 0 ",
+    "121",
+    "333",
+    "333",
+    " 4 "
+  ],
+  "key": {
+    "0": {
+      "tag": "c:ingots/zinc"
+    },
+    "1": {
+      "item": "create:cogwheel"
+    },
+    "2": {
+      "item": "create_sa:heat_engine"
+    },
+    "3": {
+      "item": "create:minecart_coupling"
+    },
+    "4": {
+      "item": "create:whisk"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "create_sa:grapplin_whisk"
+  }
+}

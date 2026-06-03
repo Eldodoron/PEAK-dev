@@ -1,0 +1,16 @@
+{
+  "group": "create_confectionery",
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "type": "fluid_stack",
+      "amount": 250,
+      "fluid": "create_confectionery:white_chocolate"
+    }
+  ],
+  "results": [
+    {
+      "id": "create_confectionery:bar_of_white_chocolate"
+    }
+  ]
+}

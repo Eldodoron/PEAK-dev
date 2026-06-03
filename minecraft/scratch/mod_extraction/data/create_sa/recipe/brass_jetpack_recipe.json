@@ -1,0 +1,31 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+  "category": "misc",
+  "pattern": [
+    "12121",
+    "32423",
+    " 252 "
+  ],
+  "key": {
+    "1": {
+      "item": "create:cogwheel"
+    },
+    "2": {
+      "tag": "c:ingots/brass"
+    },
+    "3": {
+      "item": "create:encased_fan"
+    },
+    "4": {
+      "item": "create_sa:steam_engine"
+    },
+    "5": {
+      "item": "create:andesite_alloy"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "create_sa:brass_jetpack_chestplate"
+  }
+}

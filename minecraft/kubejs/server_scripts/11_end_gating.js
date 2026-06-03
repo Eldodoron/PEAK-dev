@@ -1,5 +1,5 @@
 // ==========================================
-// PEAK EXPERT MODE — SCRIPT 11
+// PEAK EXPERT MODE â€” SCRIPT 11
 // END GATING (Ender Eye Sequence)
 // ==========================================
 
@@ -44,7 +44,7 @@ ServerEvents.recipes(event => {
 
 // Remove specific items from all chest loot tables (Strongholds, Dungeons, etc.)
 LootJS.modifiers(event => {
-    event.addLootTableModifier(/.*/).removeLoot('minecraft:ender_eye');
-    event.addLootTableModifier(/.*/).removeLoot('artifacts:everlasting_beef');
-    event.addLootTableModifier(/.*/).removeLoot('artifacts:eternal_steak');
+    event.addTableModifier(/.*/).removeLoot('minecraft:ender_eye');
+    event.addTableModifier(/.*/).removeLoot('artifacts:everlasting_beef');
+    event.addTableModifier(/.*/).removeLoot('artifacts:eternal_steak');
 });

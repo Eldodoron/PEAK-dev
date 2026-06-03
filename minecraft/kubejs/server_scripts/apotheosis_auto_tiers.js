@@ -50,23 +50,23 @@ PlayerEvents.advancement(event => {
         server.runCommandSilent(`apotheosis set_world_tier ${player.username} ${tier}`);
         
         // Premium, immersive chat notification
-        player.tell(Text.darkGray('§m────────────────────────────────────────'));
-        player.tell(Text.gold('★ APOTHIC PROGRESSION ★'));
+        player.tell(Text.darkGray('Â§mâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€'));
+        player.tell(Text.gold('â˜… APOTHIC PROGRESSION â˜…'));
         player.tell(Text.white('Your World Tier has advanced to: ').append(Text.aqua(tierDisplayName)));
-        player.tell(Text.darkGray('§m────────────────────────────────────────'));
+        player.tell(Text.darkGray('Â§mâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€'));
         
         // Award the progression gifts
         let rewards = TIER_REWARDS[tier];
         if (rewards) {
-            player.tell(Text.gold('★ Tier Advancement Gifts ★'));
+            player.tell(Text.gold('â˜… Tier Advancement Gifts â˜…'));
             rewards.forEach(reward => {
                 player.give(Item.of(reward.item, reward.count));
                 
                 // Get the item displayName to output it beautifully in the chat
-                let itemDisplayName = Item.of(reward.item).getName();
+                let itemDisplayName = Item.of(reward.item).name;
                 player.tell(Text.gray(` - Received: `).append(Text.yellow(`${reward.count}x `)).append(Text.white(itemDisplayName)));
             });
-            player.tell(Text.darkGray('§m────────────────────────────────────────'));
+            player.tell(Text.darkGray('Â§mâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€'));
         }
     }
 });

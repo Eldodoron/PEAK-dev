@@ -1,0 +1,24 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:not",
+            "value": {
+                "type": "neoforge:tag_empty",
+                "tag": "c:ingots/tin"
+            }
+        }
+    ],
+    "type": "create:mixing",
+    "ingredients": [
+        {
+            "tag": "c:ingots/tin"
+        }
+    ],
+    "results": [
+        {
+            "amount": 111,
+            "id": "createmetalwork:molten_tin"
+        }
+    ],
+    "heat_requirement": "heated"
+}

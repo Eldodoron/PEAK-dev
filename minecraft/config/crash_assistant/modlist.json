@@ -724,6 +724,14 @@
     "curseForgeHash": 1354787071,
     "modrinthHash": "e01ca3c74453165c6914e3c655969543aaad0063"
   },
+  "create_heat_js-1.21.1-0.0.6.jar": {
+    "jarName": "create_heat_js-1.21.1-0.0.6.jar",
+    "modId": "create_heat_js",
+    "name": "CreateHeatJS",
+    "version": "1.21.1-0.0.6",
+    "curseForgeHash": 2591049696,
+    "modrinthHash": "3e110ef939658623971e768759ec7d12f9980dba"
+  },
   "create_jetpack_curios-1.2.0-neoforge-1.21.1.jar": {
     "jarName": "create_jetpack_curios-1.2.0-neoforge-1.21.1.jar",
     "modId": "create_jetpack_curios",
@@ -947,13 +955,13 @@
     "curseForgeHash": 3194201287,
     "modrinthHash": "72635119b4bcc49b050c50d6cbb1abb02bb3982a"
   },
-  "DodoSpyglass_1.21.1_NeoForge.jar": {
-    "jarName": "DodoSpyglass_1.21.1_NeoForge.jar",
+  "dodospyglass-1.0.0-neoforge+1.21.1-SNAPSHOT.jar": {
+    "jarName": "dodospyglass-1.0.0-neoforge+1.21.1-SNAPSHOT.jar",
     "modId": "dodospyglass",
     "name": "DodoSpyglass",
     "version": "1.0.0",
-    "curseForgeHash": 1396869453,
-    "modrinthHash": "0ef2a201b1db2eb8ba7a25a2572cd71960887d68"
+    "curseForgeHash": 3134256950,
+    "modrinthHash": "6694a94f8813370b6625ed67cb940439689ca329"
   },
   "domum-ornamentum-1.0.233-snapshot-main.jar": {
     "jarName": "domum-ornamentum-1.0.233-snapshot-main.jar",
@@ -1419,6 +1427,14 @@
     "curseForgeHash": 1762469187,
     "modrinthHash": "4c5762af46c0beac0830d1f1e9c88332b120ceaa"
   },
+  "immersive_engineering_js-2101.1.0.jar": {
+    "jarName": "immersive_engineering_js-2101.1.0.jar",
+    "modId": "immersive_engineering_js",
+    "name": "Immersive Engineering JS",
+    "version": "2101.1.0",
+    "curseForgeHash": 1674672408,
+    "modrinthHash": "89f7f58b39aa2b3758c02cbb5c784a8bdbdbe8b0"
+  },
   "ImmersiveEngineering-1.21.1-12.4.2-194.jar": {
     "jarName": "ImmersiveEngineering-1.21.1-12.4.2-194.jar",
     "modId": "immersiveengineering",
@@ -1611,6 +1627,14 @@
     "curseForgeHash": 2532757003,
     "modrinthHash": "e739d69b2de31ca8c0cb4691ab08e823f153bc44"
   },
+  "kjscauto-0.7.0-beta-neoforge.jar": {
+    "jarName": "kjscauto-0.7.0-beta-neoforge.jar",
+    "modId": "kjscauto",
+    "name": "KubeJS Create Automation",
+    "version": "0.7.0-beta-neoforge",
+    "curseForgeHash": 1969073254,
+    "modrinthHash": "2fff07c49e75c4c761ff59bb3c3afa8636719a91"
+  },
   "kotlinforforge-5.11.0-all.jar": {
     "jarName": "kotlinforforge-5.11.0-all.jar",
     "curseForgeHash": 1356655026,
@@ -1664,6 +1688,14 @@
     "curseForgeHash": 1570576160,
     "modrinthHash": "37a773eec0df4e878222fa70e7f277dd733b3211"
   },
+  "kubejs_rarity-1.21.1-1.0.0+neoforge.jar": {
+    "jarName": "kubejs_rarity-1.21.1-1.0.0+neoforge.jar",
+    "modId": "kubejs_rarity",
+    "name": "KubeJS Custom Rarity",
+    "version": "1.0.0",
+    "curseForgeHash": 1610509168,
+    "modrinthHash": "9f20a8c0bf4abe015faecebde938a4272f404aed"
+  },
   "kubejsarsnouveau-1.3.2.jar": {
     "jarName": "kubejsarsnouveau-1.3.2.jar",
     "modId": "kubejsarsnouveau",
@@ -1679,6 +1711,14 @@
     "version": "1.1.0",
     "curseForgeHash": 3517003709,
     "modrinthHash": "3417109d0d6973bcafc22d646dbb4f3b5f47b761"
+  },
+  "kubejsdelight-1.21.1-1.1.5.jar": {
+    "jarName": "kubejsdelight-1.21.1-1.1.5.jar",
+    "modId": "kubejsdelight",
+    "name": "KubeJSDelight",
+    "version": "1.1.5",
+    "curseForgeHash": 3960712290,
+    "modrinthHash": "edcc642777852b7f3ab102fe625185c63eaa9ff4"
   },
   "L_Ender\u0027s Cataclysm 1.21.1-3.27.jar": {
     "jarName": "L_Ender\u0027s Cataclysm 1.21.1-3.27.jar",
@@ -2583,14 +2623,6 @@
     "version": "1.0.828-1.21.1-snapshot",
     "curseForgeHash": 2533705160,
     "modrinthHash": "5accde19b6637f9328b8a11259051f1e957867d0"
-  },
-  "superbosses-2.0.0-1.21.1.jar": {
-    "jarName": "superbosses-2.0.0-1.21.1.jar",
-    "modId": "superbosses",
-    "name": "Super Bosses",
-    "version": "2.0.0",
-    "curseForgeHash": 3012361953,
-    "modrinthHash": "228b32d92b24733d32affb1e106ad7ec4149eaee"
   },
   "supplementaries-neoforge-1.21.1-3.6.5.jar": {
     "jarName": "supplementaries-neoforge-1.21.1-3.6.5.jar",

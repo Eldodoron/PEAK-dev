@@ -1,0 +1,15 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+        {
+            "tag": "c:ingots/iron"
+        }
+    ],
+    "results": [
+        {
+            "amount": 111,
+            "id": "createmetalwork:molten_iron"
+        }
+    ],
+    "heat_requirement": "heated"
+}

@@ -1,5 +1,5 @@
 // ==========================================
-// PEAK EXPERT MODE â€” SCRIPT 05
+// PEAK EXPERT MODE Ã¢â‚¬â€ SCRIPT 05
 // DARK MAGIC + DIMENSIONS
 // Malum (Spirits/Souls) + Vampirism (Blood)
 // Deeper Darker + Undergarden enhanced roles
@@ -19,7 +19,7 @@
 ServerEvents.recipes(event => {
 
     // ==========================================
-    // SECTION 1: MALUM â€” DARK MAGIC (MAGIC ERA 3)
+    // SECTION 1: MALUM Ã¢â‚¬â€ DARK MAGIC (MAGIC ERA 3)
     // Spirits, souls, and the bridge to Ender IO
     // ==========================================
 
@@ -34,7 +34,7 @@ ServerEvents.recipes(event => {
         'SSS'
     ], {
         G: '#c:ingots/gold',
-        S: 'malum:soulstone_ingot',
+        S: 'malum:refined_soulstone',
         B: 'create:brass_ingot',
         A: 'ars_nouveau:source_gem'
     });
@@ -62,7 +62,7 @@ ServerEvents.recipes(event => {
         'malum:soul_stained_steel_ingot',
         [
             '#c:ingots/steel',
-            'malum:soulstone_ingot',
+            'malum:refined_soulstone',
             'minecraft:soul_sand'
         ]
     ).heated();
@@ -75,24 +75,10 @@ ServerEvents.recipes(event => {
     event.recipes.create.crushing([
         'malum:hex_ash',
         CreateItem.of('malum:hex_ash', 0.5)
-    ], 'malum:soulstone_ingot');
-
-    // --- SPIRIT FABRIC ---
-    // Needs magebloom fiber from Ars Nouveau (magical textile base)
-    // This connects the two magic systems organically
-    event.remove({ output: 'malum:spirit_fabric' });
-    event.shaped('malum:spirit_fabric', [
-        'FHF',
-        'HSH',
-        'FHF'
-    ], {
-        F: 'ars_nouveau:magebloom_fiber',
-        H: 'malum:hex_ash',
-        S: 'malum:processed_soulstone'
-    });
+    ], 'malum:refined_soulstone');
 
     // ==========================================
-    // SECTION 2: MALUM â†’ ENDER IO BRIDGE
+    // SECTION 2: MALUM Ã¢â€ â€™ ENDER IO BRIDGE
     // Malum's spirits are literally souls.
     // Ender IO's Soularium is literally soul-metal.
     // This is the most natural cross-mod connection.
@@ -113,7 +99,7 @@ ServerEvents.recipes(event => {
         ]
     ).superheated();
 
-    // PULSATING CRYSTAL (Ender IO â€” magical ender tech)
+    // PULSATING CRYSTAL (Ender IO Ã¢â‚¬â€ magical ender tech)
     // Requires Source Gems from Ars Nouveau
     // (Pulsating energy = magical resonance = Source)
     event.remove({ output: 'enderio:pulsating_crystal' });
@@ -126,7 +112,7 @@ ServerEvents.recipes(event => {
         ]
     ).heated();
 
-    // VIBRANT CRYSTAL (Ender IO â€” advanced magical tech)
+    // VIBRANT CRYSTAL (Ender IO Ã¢â‚¬â€ advanced magical tech)
     // Requires both tech (Precision Mechanism) and magic (Source)
     event.remove({ output: 'enderio:vibrant_crystal' });
     event.recipes.create.mixing(
@@ -140,7 +126,7 @@ ServerEvents.recipes(event => {
     ).superheated();
 
     // ==========================================
-    // SECTION 3: VAMPIRISM â€” BLOOD MAGIC (MAGIC ERA 4)
+    // SECTION 3: VAMPIRISM Ã¢â‚¬â€ BLOOD MAGIC (MAGIC ERA 4)
     // The darkest magic. Late-game magical progression.
     // Blood = life force = power for Draconic Evolution.
     // ==========================================
@@ -155,7 +141,7 @@ ServerEvents.recipes(event => {
 
     // --- BLOOD PROCESSING (Tech meets dark magic) ---
     // Mekanism's Chemical systems can process blood
-    // (Blood is a fluid â†’ Mekanism handles fluids â†’ logical)
+    // (Blood is a fluid Ã¢â€ â€™ Mekanism handles fluids Ã¢â€ â€™ logical)
     // This is mostly a narrative connection for Prompt 4
 
     // --- HUNTER CROSSBOW ENHANCED ---
@@ -181,7 +167,7 @@ ServerEvents.recipes(event => {
     ], 'vampirism:item_garlic');
 
     // ==========================================
-    // SECTION 4: DEEPER DARKER â€” ENDGAME DIMENSION
+    // SECTION 4: DEEPER DARKER Ã¢â‚¬â€ ENDGAME DIMENSION
     // Materials here gate Draconic Evolution Wyvern Tier
     // ==========================================
 
@@ -220,7 +206,7 @@ ServerEvents.recipes(event => {
         'deeperdarker:soul_crystal',
         [
             'minecraft:echo_shard',
-            'malum:processed_soulstone',
+            'malum:crushed_soulstone',
             'ars_nouveau:source_gem',
             'minecraft:amethyst_shard'
         ]
@@ -296,7 +282,7 @@ ServerEvents.recipes(event => {
 
     // ==========================================
     // SECTION 7: APOTHEOSIS ENCHANTING INTEGRATION
-    // Apotheosis enhances enchanting â€” connect it to
+    // Apotheosis enhances enchanting Ã¢â‚¬â€ connect it to
     // the magical infrastructure we've built
     // ==========================================
 

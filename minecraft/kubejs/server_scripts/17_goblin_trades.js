@@ -1,5 +1,5 @@
 // ==========================================
-// PEAK EXPERT MODE — SCRIPT 17
+// PEAK EXPERT MODE â€” SCRIPT 17
 // GOBLIN TRADERS DATAPACK INJECTION
 // ==========================================
 

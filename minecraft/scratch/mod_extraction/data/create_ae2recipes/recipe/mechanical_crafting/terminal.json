@@ -1,0 +1,40 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "key":
+  {
+    "M":
+       [
+         {
+          "item": "ae2:monitor"
+         },
+         {
+           "item": "ae2:semi_dark_monitor"
+         },
+         {
+           "item": "ae2:dark_monitor"
+         }
+       ],
+    "F":
+    {
+      "item": "ae2:formation_core"
+    },
+    "A":
+    {
+      "item": "ae2:annihilation_core"
+    },
+    "L":
+    {
+      "item": "ae2:logic_processor"
+    }
+  },
+  "pattern": [
+    " M ",
+    "FLA"
+  ],
+  "result": {
+    "count": 1,
+    "id": "ae2:terminal"
+  }
+}

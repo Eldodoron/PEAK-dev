@@ -1,0 +1,22 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "minecraft:crying_obsidian"
+    }
+  ],
+  "results": [
+    {
+      "id": "create:powdered_obsidian"
+    },
+    {
+      "chance": 0.5,
+      "id": "create:powdered_obsidian"
+    },
+    {
+      "chance": 0.375,
+      "id": "minecraft:amethyst_shard"
+    }
+  ],
+  "processing_time": 500
+}

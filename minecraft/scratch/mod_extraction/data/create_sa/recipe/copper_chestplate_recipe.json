@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "000",
+    "000"
+  ],
+  "key": {
+    "0": {
+      "tag": "c:ingots/copper"
+    }
+  },
+  "result": {
+    "id": "create_sa:copper_chestplate",
+    "count": 1
+  }
+}

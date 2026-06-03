@@ -1,5 +1,5 @@
 // ==========================================
-// PEAK EXPERT MODE — SCRIPT 13E
+// PEAK EXPERT MODE â€” SCRIPT 13E
 // FOOD OVERHAUL: FIXES & MINECOLONIES
 // ==========================================
 // Fixes missed/broken recipe removals and adds
@@ -9,17 +9,17 @@
 ServerEvents.recipes(event => {
 
     // ==========================================
-    // FIX 1: MY NETHER'S DELIGHT — ID CORRECTIONS
+    // FIX 1: MY NETHER'S DELIGHT â€” ID CORRECTIONS
     // Some recipes use subfolder IDs like crafting/name
     // ==========================================
 
-    // Ghasta with Cream — fix the remove ID
+    // Ghasta with Cream â€” fix the remove ID
     event.remove({ output: 'mynethersdelight:ghasta_with_cream' });
 
-    // Raw Stuffed Hoglin — ensure removed from crafting table
+    // Raw Stuffed Hoglin â€” ensure removed from crafting table
     event.remove({ output: 'mynethersdelight:raw_stuffed_hoglin' });
 
-    // Golden Egg — missed food recipe
+    // Golden Egg â€” missed food recipe
     event.remove({ output: 'mynethersdelight:golden_egg' });
     event.recipes.create.mixing('mynethersdelight:golden_egg', [
         'minecraft:egg',
@@ -29,19 +29,19 @@ ServerEvents.recipes(event => {
         'minecraft:gold_nugget'
     ]).heated();
 
-    // Hot Wings Bucket alt — remove duplicate
+    // Hot Wings Bucket alt â€” remove duplicate
     event.remove({ id: 'mynethersdelight:crafting/hot_wings_bucket_alt' });
 
-    // Magma Cake alt — remove duplicate
+    // Magma Cake alt â€” remove duplicate
     event.remove({ id: 'mynethersdelight:crafting/magma_cake_alt' });
 
-    // Chilidog alt — remove duplicate
+    // Chilidog alt â€” remove duplicate
     event.remove({ id: 'mynethersdelight:crafting/chilidog_alt' });
 
-    // Hotcream Bucket — ensure removed
+    // Hotcream Bucket â€” ensure removed
     event.remove({ output: 'mynethersdelight:hot_cream', type: 'minecraft:crafting_shapeless' });
 
-    // Letios Compost — convert
+    // Letios Compost â€” convert
     event.remove({ id: 'mynethersdelight:crafting/letios_compost_from_bone_alt' });
     event.remove({ id: 'mynethersdelight:crafting/letios_compost_from_rotten_flesh' });
 

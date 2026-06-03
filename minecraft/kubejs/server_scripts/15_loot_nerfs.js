@@ -1,5 +1,5 @@
 // ==========================================
-// PEAK EXPERT MODE — SCRIPT 15
+// PEAK EXPERT MODE â€” SCRIPT 15
 // LOOT NERFS & QUALITY OF LIFE
 // ==========================================
 

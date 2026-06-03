@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    "010",
+    "000"
+  ],
+  "key": {
+    "0": {
+      "tag": "c:ingots/copper"
+    },
+    "1": {
+      "item": "minecraft:netherite_ingot"
+    }
+  },
+  "result": {
+    "id": "create_sa:copper_magnet",
+    "count": 1
+  }
+}

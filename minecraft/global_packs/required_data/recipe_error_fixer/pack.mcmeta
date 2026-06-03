@@ -1,0 +1,6 @@
+{
+  "pack": {
+    "pack_format": 48,
+    "description": "Fixes broken mod recipes and loot tables by overriding them with valid dummies"
+  }
+}

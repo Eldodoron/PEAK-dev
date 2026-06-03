@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "create_confectionery:bar_of_white_chocolate"
+    },
+    {
+      "item": "create_confectionery:bar_of_white_chocolate"
+    },
+    {
+      "item": "create_confectionery:bar_of_white_chocolate"
+    },
+    {
+      "item": "create_confectionery:bar_of_white_chocolate"
+    },
+    {
+      "item": "create_confectionery:bar_of_white_chocolate"
+    },
+    {
+      "item": "create_confectionery:bar_of_white_chocolate"
+    },
+    {
+      "item": "minecraft:paper"
+    }
+  ],
+  "result": {
+    "id": "create_confectionery:full_white_chocolate_bar",
+    "count": 1
+  }
+}

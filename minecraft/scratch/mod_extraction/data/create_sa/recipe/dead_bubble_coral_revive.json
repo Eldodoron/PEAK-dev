@@ -1,0 +1,26 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "minecraft:dead_bubble_coral_block"
+    },
+    {
+      "type": "fluid_stack",
+      "amount": 25,
+      "components": {
+        "create:potion_fluid_bottle_type": "regular",
+        "minecraft:potion_contents": {
+          "potion": "minecraft:healing"
+        }
+      },
+      "fluid": "create:potion"
+    }
+  ],
+  "results": [
+    {
+      "item": {
+        "id": "minecraft:bubble_coral_block"
+      }
+    }
+  ]
+}

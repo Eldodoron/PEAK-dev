@@ -1,0 +1,33 @@
+{
+    "type": "create:crushing",
+    "ingredients": [
+        {
+            "item": "minecraft:netherite_scrap"
+        }
+    ],
+    "results": [
+        {
+            "item": {
+                "id": "createmetalwork:crushed_netherite_scrap"
+            }
+        },
+        {
+            "chance": 0.5,
+            "item": {
+                "id": "createmetalwork:crushed_netherite_scrap"
+            }
+        },
+        {
+            "item": {
+                "id": "create:experience_nugget"
+            }
+        },
+        {
+            "chance": 0.5,
+            "item": {
+                "id": "create:experience_nugget"
+            }
+        }
+    ],
+    "processingTime": 700
+}

@@ -24,7 +24,7 @@ EntityEvents.spawned('iceandfire:pixie', event => {
     entity.persistentData.putBoolean('peak_spawn_processed', true);
     
     // Cancelar ~45% de los nuevos spawns naturales (conservar ~55%)
-    // Math.random() < 0.45 → ~45% de probabilidad de cancelación
+    // Math.random() < 0.45 â†’ ~45% de probabilidad de cancelaciÃ³n
     if (Math.random() < 0.45) {
         event.cancel();
     }

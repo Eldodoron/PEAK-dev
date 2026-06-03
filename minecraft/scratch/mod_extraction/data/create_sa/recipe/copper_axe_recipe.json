@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "00",
+    "01",
+    " 1"
+  ],
+  "key": {
+    "0": {
+      "tag": "c:ingots/copper"
+    },
+    "1":{
+      "tag": "c:rods/wooden"
+    }
+  },
+  "result": {
+    "id": "create_sa:copper_axe",
+    "count": 1
+  }
+}

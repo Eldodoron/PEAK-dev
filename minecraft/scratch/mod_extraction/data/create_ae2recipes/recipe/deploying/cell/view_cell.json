@@ -1,0 +1,21 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "ae2:item_cell_housing"
+    },
+    [
+      {
+        "item": "ae2:certus_quartz_crystal"
+      },
+      {
+        "item": "ae2:charged_certus_quartz_crystal"
+      }
+    ]
+  ],
+  "results": [
+    {
+      "id": "ae2:view_cell"
+    }
+  ]
+}

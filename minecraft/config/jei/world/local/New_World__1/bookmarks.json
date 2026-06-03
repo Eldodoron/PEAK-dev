@@ -1,0 +1,5 @@
+[
+  {"version":2},
+  {"recipe":"mekanism:processing/netherite/dirty_scrap_to_scrap","recipeType":"mekanism:enriching","bookmarkType":"RECIPE"},
+  {"ingredient":{"id":"malum:fused_consciousness"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

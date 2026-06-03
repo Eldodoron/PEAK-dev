@@ -1,6 +1,6 @@
 
 // ==========================================
-// PEAK EXPERT MODE — RECIPE SANITIZER
+// PEAK EXPERT MODE â€” RECIPE SANITIZER
 // Fixes legacy 1.20 recipe formats for 1.21
 // ==========================================
 

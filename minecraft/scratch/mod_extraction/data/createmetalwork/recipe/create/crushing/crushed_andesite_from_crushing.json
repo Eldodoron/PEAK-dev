@@ -1,0 +1,29 @@
+{
+    "type": "create:crushing",
+    "ingredients": [
+        {
+            "item": "minecraft:andesite"
+        }
+    ],
+    "results": [
+        {
+            "count": 9,
+            "item": {
+                "id": "createmetalwork:crushed_andesite"
+            }
+        },
+        {
+            "chance": 0.1,
+            "item": {
+                "id": "createmetalwork:crushed_andesite"
+            }
+        },
+        {
+            "chance": 0.55,
+            "item": {
+                "id": "create:experience_nugget"
+            }
+        }
+    ],
+    "processingTime": 400
+}

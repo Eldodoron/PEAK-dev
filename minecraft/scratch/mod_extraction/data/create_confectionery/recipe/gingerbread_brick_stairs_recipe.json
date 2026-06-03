@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a  ",
+    "aa ",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "create_confectionery:gingerbreak_bricks"
+    }
+  },
+  "result": {
+    "id": "create_confectionery:gingerbread_brick_stairs",
+    "count": 4
+  }
+}

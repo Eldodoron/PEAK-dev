@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "misc",
+  "experience": 1,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "create_confectionery:marshmallow_on_a_stick"
+  },
+  "result": {
+    "id": "create_confectionery:caramelized_marshmellow_on_a_stick"
+  }
+}

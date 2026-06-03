@@ -1,0 +1,31 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+  "category": "misc",
+  "pattern": [
+    "010",
+    "232",
+    "040"
+  ],
+  "key": {
+  	"0": {
+      "item": "create:propeller"
+    },
+    "1": {
+      "item": "create:redstone_link"
+    },
+    "2": {
+      "item": "create:andesite_alloy"
+    },
+    "3": {
+      "item": "create:precision_mechanism"
+    },
+    "4": {
+      "item": "create:andesite_alloy"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "create_sa:brass_drone_item"
+  }
+}

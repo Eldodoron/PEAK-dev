@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    "010",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "tag": "c:ingots/copper"
+    },
+    "1": {
+      "item": "create_sa:small_filling_tank"
+    }
+  },
+  "result": {
+    "id": "create_sa:medium_filling_tank",
+    "count": 1
+  }
+}

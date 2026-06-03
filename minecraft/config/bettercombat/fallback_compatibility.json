@@ -3,7 +3,7 @@
   "blacklist_item_id_regex": "pickaxe",
   "fallback_compatibility": [
     {
-      "item_id_regex": "claymore|great_sword|greatsword",
+      "item_id_regex": "claymore|great_sword|greatsword|inevitability",
       "weapon_attributes": "bettercombat:claymore"
     },
     {
@@ -15,7 +15,7 @@
       "weapon_attributes": "bettercombat:double_axe"
     },
     {
-      "item_id_regex": "scythe",
+      "item_id_regex": "scythe|arm_of_decay",
       "weapon_attributes": "bettercombat:scythe"
     },
     {
@@ -71,7 +71,7 @@
       "weapon_attributes": "bettercombat:soul_knife"
     },
     {
-      "item_id_regex": "dagger|knife",
+      "item_id_regex": "dagger|knife|stiletto",
       "weapon_attributes": "bettercombat:dagger"
     },
     {
@@ -99,7 +99,7 @@
       "weapon_attributes": "bettercombat:cutlass"
     },
     {
-      "item_id_regex": "sword|blade",
+      "item_id_regex": "sword|blade|expertise|intertwined_peak",
       "weapon_attributes": "bettercombat:sword"
     }
   ],

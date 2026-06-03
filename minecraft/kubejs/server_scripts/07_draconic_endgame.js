@@ -1,21 +1,21 @@
 // ==========================================
-// PEAK EXPERT MODE â€” SCRIPT 07
+// PEAK EXPERT MODE Ã¢â‚¬â€ SCRIPT 07
 // DRACONIC EVOLUTION + ICE & FIRE + ALLTHEMODIUM
 // (Era 6-7: The True Endgame)
 // ==========================================
 // Draconic Evolution has 3 tiers:
-//   WYVERN  â†’ Requires Deeper Darker + Mekanism + Ender IO
-//   DRACONIC â†’ Requires Dragonsteel + AllTheModium + Vampirism
-//   CHAOTIC  â†’ Requires Vibranium/Unobtainium + Everything
+//   WYVERN  Ã¢â€ â€™ Requires Deeper Darker + Mekanism + Ender IO
+//   DRACONIC Ã¢â€ â€™ Requires Dragonsteel + AllTheModium + Vampirism
+//   CHAOTIC  Ã¢â€ â€™ Requires Vibranium/Unobtainium + Everything
 //
 // Ice and Fire's Dragonsteel is the physical endgame.
 // You need actual dragon forges (hard to automate!)
 // but the results feed into Draconic Evolution.
 //
 // AllTheModium provides the dimensional mining tier:
-//   Allthemodium (Overworld deep) â†’ mid-endgame
-//   Vibranium (Nether) â†’ late endgame
-//   Unobtainium (End) â†’ final endgame
+//   Allthemodium (Overworld deep) Ã¢â€ â€™ mid-endgame
+//   Vibranium (Nether) Ã¢â€ â€™ late endgame
+//   Unobtainium (End) Ã¢â€ â€™ final endgame
 // ==========================================
 
 ServerEvents.recipes(event => {
@@ -32,7 +32,7 @@ ServerEvents.recipes(event => {
         '4x minecraft:bone_meal',
         'minecraft:bone_meal',
         'minecraft:blaze_powder'
-    ], 'minecraft:barrier');
+    ], 'iceandfire:dragonbone');
 
     // --- DRAGON BLOOD MIXING ---
     // Dragon blood + metals in Create's Mixer = enhanced alloys
@@ -65,21 +65,13 @@ ServerEvents.recipes(event => {
     // ==========================================
 
     // Allthemodium processed via Create Crushing (bonus yield)
-    event.recipes.create.crushing([
-        'allthemodium:raw_allthemodium',
-        'minecraft:raw_gold'
-    ], 'allthemodium:allthemodium_ore');
+
 
     // Vibranium crushing (Nether ore)
-    event.recipes.create.crushing([
-        'allthemodium:raw_vibranium'
-    ], 'allthemodium:vibranium_ore');
 
-    // Unobtainium crushing (End ore â€” rarest)
-    event.recipes.create.crushing([
-        'allthemodium:raw_unobtainium',
-        'minecraft:netherite_scrap'
-    ], 'allthemodium:unobtainium_ore');
+
+    // Unobtainium crushing (End ore Ã¢â‚¬â€ rarest)
+
 
     // ==========================================
     // SECTION 3: DRACONIUM PROCESSING
@@ -87,12 +79,10 @@ ServerEvents.recipes(event => {
     // Must be processed through Create for bonus.
     // ==========================================
 
-    event.recipes.create.crushing([
-        '2x minecraft:barrier'
-    ], 'minecraft:barrier');
+
 
     // ==========================================
-    // SECTION 4: DRACONIC EVOLUTION â€” WYVERN TIER
+    // SECTION 4: DRACONIC EVOLUTION Ã¢â‚¬â€ WYVERN TIER
     // The first endgame tier. Requires:
     // - Draconium (base material)
     // - Deeper Darker materials (Warden Carapace, Soul Crystal)
@@ -128,7 +118,7 @@ ServerEvents.recipes(event => {
     });
 
     // ==========================================
-    // SECTION 5: DRACONIC EVOLUTION â€” DRACONIC TIER
+    // SECTION 5: DRACONIC EVOLUTION Ã¢â‚¬â€ DRACONIC TIER
     // Mid-endgame. Requires:
     // - Awakened Draconium
     // - DRAGONSTEEL from Ice and Fire (the hard-to-farm gate!)
@@ -175,7 +165,7 @@ ServerEvents.recipes(event => {
     ).superheated();
 
     // ==========================================
-    // SECTION 6: DRACONIC EVOLUTION â€” CHAOTIC TIER
+    // SECTION 6: DRACONIC EVOLUTION Ã¢â‚¬â€ CHAOTIC TIER
     // The absolute endgame. Requires EVERYTHING.
     // - Chaos Shards (from Chaos Guardian boss)
     // - Vibranium + Unobtainium (AllTheModium top tiers)
@@ -254,4 +244,5 @@ ServerEvents.recipes(event => {
 
     console.log('[PEAK Expert Mode] Script 07: Draconic + IAF + AllTheModium loaded!');
 });
+
 

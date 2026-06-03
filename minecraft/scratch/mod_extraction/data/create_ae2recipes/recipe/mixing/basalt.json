@@ -1,0 +1,21 @@
+{
+  "type": "create:mixing",
+    "ingredients": [
+      {
+        "item": "minecraft:calcite"
+      },
+      {
+        "item": "minecraft:iron_ingot"
+      },
+      {
+        "type": "fluid_stack",
+        "amount": 250,
+        "fluid": "minecraft:lava"
+      }
+  ],
+  "results": [
+    {
+      "id": "minecraft:basalt"
+    }
+  ]
+}

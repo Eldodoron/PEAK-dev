@@ -1,0 +1,17 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "ae2:certus_quartz_crystal"
+    },
+    {
+      "item": "ae2:calculation_processor_press"
+    }
+  ],
+  "keep_held_item": true,
+  "results": [
+    {
+      "id": "ae2:printed_calculation_processor"
+    }
+  ]
+}

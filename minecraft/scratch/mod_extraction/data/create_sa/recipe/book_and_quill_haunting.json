@@ -1,0 +1,15 @@
+{
+  "type": "create:haunting",
+  "ingredients": [
+    {
+      "item": "minecraft:writable_book"
+    }
+  ],
+  "results": [
+    {
+      "item": {
+        "id": "minecraft:name_tag"
+      }
+    }
+  ]
+}

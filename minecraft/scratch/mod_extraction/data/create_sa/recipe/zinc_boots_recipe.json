@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "tag": "c:ingots/zinc"
+    }
+  },
+  "result": {
+    "id": "create_sa:zinc_boots",
+    "count": 1
+  }
+}

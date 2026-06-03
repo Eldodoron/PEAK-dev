@@ -124,7 +124,7 @@ graph TD
   - **Issue:** The Create mixing recipe for Hallowed Gold does not make sense.
   - **Action:** Remove the Create mixing recipe completely; keep only the *Malum* custom recipe.
 
-### 🎒 Create Assembled Backpack Upgrades
+### 🎒 Create Assembled Backpack Upgrades (might have been done already)
 - [ ] **Upgrade Base Recipe:**
   - **Recipe:** Deploying string and iron **4 times** into leather.
 - [ ] **Backpack Upgrade (Gold ➔ Netherite):**
@@ -145,3 +145,30 @@ graph TD
 - rework weapon attack range (maybe figure out why do they attack so far away and why are they unbreakable)
 - [x] rework ore worldgen to eliminate duplicated ores from spawning
 - remove atlas map mod sinsce ftb map is installed
+- check this create rail riding mod https://www.curseforge.com/minecraft/mc-mods/create-train-track-rail-grinding?utm_source=mcgamecarousel&utm_medium=ownedmedia&utm_campaign=create-train-track-rail-grinding
+- 
+- 
+- [mod Rename resource pack](https://www.curseforge.com/minecraft/texture-packs/the-rcp)
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- [ ] **KubeJS Recipe Fixes**: Revisit disabled recipes in 20_fixed_datapacks.js (lines 3-21, broken Avaritia/Create Assembly syntax for 1.21.1) and expert_mode_recipes.js / 13b_food_overhaul_dimensions.js (recipes using minecraft:barrier in Create Mixers that crashed).

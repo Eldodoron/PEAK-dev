@@ -1,0 +1,16 @@
+{
+    "type": "create:compacting",
+    "ingredients": [
+        {
+            "tag": "c:crushed_raw_materials/copper"
+        }
+    ],
+    "results": [
+        {
+            "item": {
+                "id": "minecraft:copper_ingot"
+            }
+        }
+    ],
+    "heat_requirement": "heated"
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "create_confectionery:candy_cane"
+    }
+  },
+  "result": {
+    "id": "create_confectionery:candy_cane_block",
+    "count": 1
+  }
+}

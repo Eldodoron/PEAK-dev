@@ -1,0 +1,16 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "ae2:advanced_card"
+    },
+    {
+      "item": "ae2:dense_energy_cell"
+    }
+  ],
+  "results": [
+    {
+      "id": "ae2:energy_card"
+    }
+  ]
+}

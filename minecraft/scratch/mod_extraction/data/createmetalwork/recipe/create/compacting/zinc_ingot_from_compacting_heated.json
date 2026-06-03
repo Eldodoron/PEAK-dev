@@ -1,0 +1,16 @@
+{
+    "type": "create:compacting",
+    "ingredients": [
+        {
+            "tag": "c:crushed_raw_materials/zinc"
+        }
+    ],
+    "results": [
+        {
+            "item": {
+                "id": "create:zinc_ingot"
+            }
+        }
+    ],
+    "heat_requirement": "heated"
+}

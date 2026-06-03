@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "create_confectionery:gingerbread_block"
+    }
+  },
+  "result": {
+    "id": "create_confectionery:gingerbreak_bricks",
+    "count": 4
+  }
+}

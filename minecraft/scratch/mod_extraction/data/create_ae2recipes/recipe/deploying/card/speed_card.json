@@ -1,0 +1,16 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "ae2:advanced_card"
+    },
+    {
+      "item": "ae2:fluix_crystal"
+    }
+  ],
+  "results": [
+    {
+      "id": "ae2:speed_card"
+    }
+  ]
+}

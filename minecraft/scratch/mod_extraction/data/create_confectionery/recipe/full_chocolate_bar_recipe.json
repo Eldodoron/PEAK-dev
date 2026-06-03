@@ -1,0 +1,31 @@
+{
+  "group": "create_confectionery",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "create:bar_of_chocolate"
+    },
+    {
+      "item": "create:bar_of_chocolate"
+    },
+    {
+      "item": "create:bar_of_chocolate"
+    },
+    {
+      "item": "create:bar_of_chocolate"
+    },
+    {
+      "item": "create:bar_of_chocolate"
+    },
+    {
+      "item": "create:bar_of_chocolate"
+    },
+    {
+      "item": "minecraft:paper"
+    }
+  ],
+  "result": {
+    "id": "create_confectionery:full_chocolate_bar",
+    "count": 1
+  }
+}

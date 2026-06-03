@@ -60,7 +60,7 @@ paragliderInTowersOfTheWild = "DEFAULT"
 	#attribute system; without modifying these limits, Heart Containers won't give you extra hearts beyond that.
 	# Default: 20
 	# Range: > 0
-	maxHeartContainers = 20
+	maxHeartContainers = 30
 	#Amount of stamina players start with. One full stamina wheel is equivalent to 1000 stamina.
 	# Default: 1000
 	# Range: > 0

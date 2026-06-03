@@ -1,4 +1,4 @@
-﻿// ==========================================
+// ==========================================
 // PEAK EXPERT MODE â€” SCRIPT 10
 // RE-AVARITIA + CUSTOM DROP RECIPES + FINAL POLISH
 // ==========================================
@@ -199,8 +199,8 @@ ServerEvents.recipes(event => {
     // ==========================================
 
     event.recipes.create.crushing([
-        '2x kubejs:chaos_essence'
-    ], 'minecraft:barrier');
+        '2x draconicevolution:chaos_shard'
+    ], 'minecraft:bedrock');
 
     // ==========================================
     // SECTION 3: AVARITIA â€” THE INFINITY CATALYST
@@ -227,7 +227,7 @@ ServerEvents.recipes(event => {
             { item: 'kubejs:heart_of_the_inferno' },      // Boss: Ignis (Cataclysm)
             { item: 'kubejs:void_resonator' },            // Boss: Ender Guardian
             { item: 'kubejs:primordial_core' },           // Boss: Ancient Remnant
-            { item: 'kubejs:chaos_essence' },             // Draconic Evolution Chaos Guardian
+            { item: 'draconicevolution:chaos_shard' },             // Draconic Evolution Chaos Guardian
             { item: 'kubejs:sculk_heart' },               // Boss: The Warden
             { item: 'kubejs:primordial_dragon_blood' },   // Boss: Stage 5 Dragons (Ice & Fire)
             { item: 'iceandfire:dragonsteel_fire_ingot' },// Ice and Fire dragon forge
@@ -282,7 +282,7 @@ ServerEvents.recipes(event => {
             D: { item: 'draconicevolution:awakened_draconium_ingot' },
             H: { item: 'kubejs:heart_of_the_inferno' },
             V: { item: 'kubejs:void_resonator' },
-            E: { item: 'kubejs:chaos_essence' },
+            E: { item: 'draconicevolution:chaos_shard' },
             A: { item: 'mekanism:pellet_antimatter' },
             U: { item: 'allthemodium:unobtainium_ingot' }
         },

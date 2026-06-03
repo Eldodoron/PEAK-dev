@@ -1,7 +1,7 @@
 // ==========================================
-// PEAK EXPERT MODE — SCRIPT 06
+// PEAK EXPERT MODE â€” SCRIPT 06
 // ENDER IO + APPLIED ENERGISTICS 2
-// (Era 5-5.5: Convergence of Tech & Magic → Digital)
+// (Era 5-5.5: Convergence of Tech & Magic â†’ Digital)
 // ==========================================
 // Ender IO is where technology and magic MERGE.
 // Its machines use soul-based technology (Soularium
@@ -115,7 +115,7 @@ ServerEvents.recipes(event => {
         P: 'mekanism:basic_control_circuit'
     });
 
-    // --- SAG MILL (Ender IO's grinder — upgrade from IE/Create) ---
+    // --- SAG MILL (Ender IO's grinder â€” upgrade from IE/Create) ---
     event.remove({ output: 'enderio:sag_mill' });
     event.shaped('enderio:sag_mill', [
         'DFD',

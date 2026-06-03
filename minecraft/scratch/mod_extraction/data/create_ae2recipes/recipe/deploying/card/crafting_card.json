@@ -1,0 +1,16 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "ae2:basic_card"
+    },
+    {
+      "item": "minecraft:crafting_table"
+    }
+  ],
+  "results": [
+    {
+      "id": "ae2:crafting_card"
+    }
+  ]
+}

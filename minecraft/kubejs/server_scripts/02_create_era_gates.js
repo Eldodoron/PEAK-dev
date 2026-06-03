@@ -1,5 +1,5 @@
 // ==========================================
-// PEAK EXPERT MODE — SCRIPT 02
+// PEAK EXPERT MODE â€” SCRIPT 02
 // CREATE ERA GATES: TFMG + IE + EARLY TECH
 // ==========================================
 // This script handles the transition from Create into
@@ -676,8 +676,8 @@ ServerEvents.recipes(event => {
         inputs: [
             { item: "alltheores:netherite_plate" },
             { item: "alltheores:netherite_plate" },
-            { item: "minecraft:netherite_nugget" },
-            { item: "minecraft:netherite_nugget" },
+            { item: "minecraft:netherite_scrap" },
+            { item: "minecraft:netherite_scrap" },
             { item: "immersiveengineering:screwdriver" },
             { item: "immersiveengineering:hammer" }
         ],
@@ -692,8 +692,8 @@ ServerEvents.recipes(event => {
     // ==========================================
 
     // Building Wands require Create components
-    event.remove({ output: 'buildingwands:stone_wand' });
-    event.shaped('buildingwands:stone_wand', [
+    event.remove({ output: 'wands:stone_wand' });
+    event.shaped('wands:stone_wand', [
         '  S',
         ' A ',
         'I  '
@@ -703,8 +703,8 @@ ServerEvents.recipes(event => {
         I: '#minecraft:wooden_fences'
     });
 
-    event.remove({ output: 'buildingwands:iron_wand' });
-    event.shaped('buildingwands:iron_wand', [
+    event.remove({ output: 'wands:iron_wand' });
+    event.shaped('wands:iron_wand', [
         '  I',
         ' B ',
         'S  '
@@ -714,8 +714,8 @@ ServerEvents.recipes(event => {
         S: '#minecraft:wooden_fences'
     });
 
-    event.remove({ output: 'buildingwands:diamond_wand' });
-    event.shaped('buildingwands:diamond_wand', [
+    event.remove({ output: 'wands:diamond_wand' });
+    event.shaped('wands:diamond_wand', [
         '  D',
         ' P ',
         'S  '

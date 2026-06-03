@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "create_sa:vault_component"
+    }
+  ],
+  "result": {
+    "id": "create:item_vault",
+    "count": 1
+  }
+}

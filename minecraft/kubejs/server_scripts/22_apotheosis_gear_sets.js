@@ -1,5 +1,5 @@
 // ==========================================
-// PEAK EXPERT MODE â€” SCRIPT 22
+// PEAK EXPERT MODE Ã¢â‚¬â€ SCRIPT 22
 // APOTHEOSIS MASTER EXPERT POOLS
 // ==========================================
 
@@ -87,12 +87,12 @@ ServerEvents.generateData('peak', 'apotheosis_gear', event => {
         return {
             "weight": weight,
             "mainhands": [
-                { "stack": { "id": "simplybows:ice_bow" }, "weight": 10 },
-                { "stack": { "id": "simplybows:bee_bow" }, "weight": 10 },
-                { "stack": { "id": "simplybows:echo_bow" }, "weight": 10 },
-                { "stack": { "id": "simplybows:vine_bow" }, "weight": 10 },
-                { "stack": { "id": "simplybows:bubble_bow" }, "weight": 10 },
-                { "stack": { "id": "simplybows:earth_bow" }, "weight": 10 },
+                { "stack": { "id": "simplybows:ice_bow/ice_bow" }, "weight": 10 },
+                { "stack": { "id": "simplybows:bee_bow/bee_bow" }, "weight": 10 },
+                { "stack": { "id": "simplybows:echo_bow/echo_bow" }, "weight": 10 },
+                { "stack": { "id": "simplybows:vine_bow/vine_bow" }, "weight": 10 },
+                { "stack": { "id": "simplybows:bubble_bow/bubble_bow" }, "weight": 10 },
+                { "stack": { "id": "simplybows:earth_bow/earth_bow" }, "weight": 10 },
                 { "stack": { "id": "iceandfire:dragonbone_bow" }, "weight": 10 },
                 { "stack": { "id": "twilightforest:triple_bow" }, "weight": 5 },
                 { "stack": { "id": "twilightforest:seeker_bow" }, "weight": 5 }

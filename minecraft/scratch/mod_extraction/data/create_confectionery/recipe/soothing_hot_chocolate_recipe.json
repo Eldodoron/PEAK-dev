@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "create_confectionery:hot_chocolate_bottle"
+    },
+    {
+      "item": "create_confectionery:marshmallow"
+    }
+  ],
+  "result": {
+    "id": "create_confectionery:soothing_hot_chocolate",
+    "count": 1
+  }
+}

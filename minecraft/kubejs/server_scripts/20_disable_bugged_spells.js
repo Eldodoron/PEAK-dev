@@ -21,7 +21,7 @@ PlayerEvents.inventoryChanged('irons_spellbooks:scroll', event => {
         let nbtString = item.nbt.toString();
         if (nbtString.includes('traveloptics:cursed_revenants') || nbtString.includes('traveloptics:call_forth_the_dead_king')) {
             item.count = 0;
-            event.player.tell(Text.red("❌ Se ha eliminado un pergamino buggeado de tu inventario para proteger el servidor."));
+            event.player.tell(Text.red("âŒ Se ha eliminado un pergamino buggeado de tu inventario para proteger el servidor."));
         }
     }
 });
@@ -35,7 +35,7 @@ ItemEvents.rightClicked('irons_spellbooks:scroll', event => {
             event.cancel();
             item.count = 0; // Destroy it
             if (event.player) {
-                event.player.tell(Text.red("❌ Este pergamino ha sido destruido porque causa crasheos en el servidor."));
+                event.player.tell(Text.red("âŒ Este pergamino ha sido destruido porque causa crasheos en el servidor."));
             }
         }
     }

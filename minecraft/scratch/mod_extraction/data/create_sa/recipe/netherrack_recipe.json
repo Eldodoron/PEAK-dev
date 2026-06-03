@@ -1,0 +1,26 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "minecraft:cobblestone"
+    },
+    {
+      "type": "fluid_stack",
+      "amount": 25,
+      "components": {
+        "create:potion_fluid_bottle_type": "regular",
+        "minecraft:potion_contents": {
+          "potion": "minecraft:healing"
+        }
+      },
+      "fluid": "create:potion"
+    }
+  ],
+  "results": [
+    {
+      "item": {
+        "id": "minecraft:netherrack"
+      }
+    }
+  ]
+}

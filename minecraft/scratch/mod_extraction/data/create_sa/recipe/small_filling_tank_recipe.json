@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "create:fluid_tank"
+    }
+  ],
+  "result": {
+    "id": "create_sa:small_filling_tank",
+    "count": 1
+  }
+}

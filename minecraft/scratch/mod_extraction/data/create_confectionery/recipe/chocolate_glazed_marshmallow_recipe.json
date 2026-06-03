@@ -1,0 +1,21 @@
+{
+  "group": "create_confectionery",
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "create_confectionery:marshmallow"
+    },
+    {
+      "type": "fluid_stack",
+      "amount": 250,
+      "fluid": "create:chocolate"
+    }
+  ],
+  "results": [
+    {
+      "item": {
+      	"id": "create_confectionery:chocolate_glazed_marshmallow"
+      }
+    }
+  ]
+}

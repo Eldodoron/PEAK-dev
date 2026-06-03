@@ -1,0 +1,29 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+  "category": "misc",
+  "pattern": [
+	" R ",
+	"CGC",
+    " Z ",
+	" Z "
+  ],
+  "key": {
+	"Z": {
+        "item": "create_sa:zinc_handle"
+    },
+    "R": {
+        "item": "create:polished_rose_quartz"
+    },
+	"C": {
+        "tag": "c:plates/iron"
+    },
+	"G": {
+        "tag": "c:ingots/gold"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "create_sa:rose_quartz_shovel"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "tag": "c:ingots/copper"
+    }
+  },
+  "result": {
+    "id": "create_sa:copper_leggings",
+    "count": 1
+  }
+}

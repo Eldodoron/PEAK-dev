@@ -1,0 +1,16 @@
+{
+  "group": "create_confectionery",
+  "type": "create:mixing",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "item": "create_confectionery:bar_of_caramel"
+    }
+  ],
+  "results": [
+    {
+      "amount": 250,
+      "id": "create_confectionery:caramel"
+    }
+  ]
+}

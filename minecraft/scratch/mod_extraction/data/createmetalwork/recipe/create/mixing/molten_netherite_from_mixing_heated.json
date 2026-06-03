@@ -1,0 +1,36 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+        {
+            "tag": "c:crushed_raw_materials/gold"
+        },
+        {
+            "tag": "c:crushed_raw_materials/gold"
+        },
+        {
+            "tag": "c:crushed_raw_materials/gold"
+        },
+        {
+            "tag": "c:crushed_raw_materials/gold"
+        },
+        {
+            "tag": "c:crushed_raw_materials/netherite_scrap"
+        },
+        {
+            "tag": "c:crushed_raw_materials/netherite_scrap"
+        },
+        {
+            "tag": "c:crushed_raw_materials/netherite_scrap"
+        },
+        {
+            "tag": "c:crushed_raw_materials/netherite_scrap"
+        }
+    ],
+    "results": [
+        {
+            "amount": 222,
+            "id": "createmetalwork:molten_netherite"
+        }
+    ],
+    "heat_requirement": "heated"
+}

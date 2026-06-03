@@ -1,0 +1,31 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+  "category": "misc",
+  "pattern": [
+    "00100",
+    "20302",
+    "40204"
+  ],
+  "key": {
+    "0": {
+      "tag": "c:ingots/brass"
+    },
+    "1": {
+      "item": "create:flywheel"
+    },
+    "2": {
+      "item": "create:andesite_alloy"
+    },
+    "3": {
+      "item": "create_sa:steam_engine"
+    },
+    "4": {
+      "tag": "c:storage_blocks/brass"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "create_sa:brass_exoskeleton_chestplate"
+  }
+}

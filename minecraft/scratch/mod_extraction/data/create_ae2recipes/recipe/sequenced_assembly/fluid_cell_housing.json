@@ -1,0 +1,94 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create:copper_sheet"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "id": "ae2:fluid_cell_housing"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_ae2recipes:incomplete_fluid_cell_housing"
+        },
+        {
+          "item": "minecraft:redstone"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_ae2recipes:incomplete_fluid_cell_housing"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_ae2recipes:incomplete_fluid_cell_housing"
+        },
+        {
+          "item": "create:copper_sheet"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_ae2recipes:incomplete_fluid_cell_housing"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_ae2recipes:incomplete_fluid_cell_housing"
+        },
+        {
+          "item": "minecraft:redstone"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_ae2recipes:incomplete_fluid_cell_housing"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_ae2recipes:incomplete_fluid_cell_housing"
+        },
+        {
+          "item": "ae2:quartz_glass"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_ae2recipes:incomplete_fluid_cell_housing"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "create_ae2recipes:incomplete_fluid_cell_housing"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_ae2recipes:incomplete_fluid_cell_housing"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "create_ae2recipes:incomplete_fluid_cell_housing"
+  }
+}

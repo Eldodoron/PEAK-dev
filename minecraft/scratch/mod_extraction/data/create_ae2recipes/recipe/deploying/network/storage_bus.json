@@ -1,0 +1,21 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    [
+      {
+        "item": "ae2:interface"
+      },
+      {
+        "item": "ae2:cable_interface"
+      }
+    ],
+    {
+      "item": "minecraft:piston"
+    }
+  ],
+  "results": [
+    {
+      "id": "ae2:storage_bus"
+    }
+  ]
+}

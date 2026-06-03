@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    "010",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "tag": "c:plates/obsidian"
+    },
+    "1": {
+      "item": "create_sa:medium_fueling_tank"
+    }
+  },
+  "result": {
+    "id": "create_sa:large_fueling_tank",
+    "count": 1
+  }
+}

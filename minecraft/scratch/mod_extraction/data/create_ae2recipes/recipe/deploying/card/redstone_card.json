@@ -1,0 +1,16 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "ae2:basic_card"
+    },
+    {
+      "item": "minecraft:redstone_torch"
+    }
+  ],
+  "results": [
+    {
+      "id": "ae2:redstone_card"
+    }
+  ]
+}

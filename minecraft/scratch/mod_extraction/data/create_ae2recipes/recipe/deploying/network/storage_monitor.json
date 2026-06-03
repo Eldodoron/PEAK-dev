@@ -1,0 +1,24 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    [
+      {
+      "item": "ae2:monitor"
+      },
+      {
+        "item": "ae2:dark_monitor"
+      },
+      {
+        "item": "ae2:semi_dark_monitor"
+      }
+    ],
+    {
+      "item": "ae2:level_emitter"
+    }
+  ],
+  "results": [
+    {
+      "id": "ae2:storage_monitor"
+    }
+  ]
+}

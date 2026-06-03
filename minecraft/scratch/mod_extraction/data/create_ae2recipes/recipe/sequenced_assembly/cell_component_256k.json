@@ -1,0 +1,53 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "ae2:calculation_processor"
+  },
+  "loops": 3,
+  "results": [
+    {
+      "id": "ae2:cell_component_256k"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_ae2recipes:incomplete_cell_component_256k"
+        },
+        [
+          {
+            "item": "ae2:cell_component_64k"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "id": "create_ae2recipes:incomplete_cell_component_256k"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_ae2recipes:incomplete_cell_component_256k"
+        },
+        [
+          {
+            "item": "ae2:sky_dust"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "id": "create_ae2recipes:incomplete_cell_component_256k"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "create_ae2recipes:incomplete_cell_component_256k"
+  }
+}

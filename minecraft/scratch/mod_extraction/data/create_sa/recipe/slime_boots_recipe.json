@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "1 1",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:slime_ball"
+    },
+    "1": {
+      "item": "create:andesite_alloy"
+    }
+  },
+  "result": {
+    "id": "create_sa:slime_boots",
+    "count": 1
+  }
+}

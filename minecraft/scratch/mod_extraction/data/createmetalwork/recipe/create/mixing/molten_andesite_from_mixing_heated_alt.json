@@ -1,0 +1,15 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+        {
+            "item": "minecraft:andesite"
+        }
+    ],
+    "results": [
+        {
+            "amount": 1000,
+            "id": "createmetalwork:molten_andesite"
+        }
+    ],
+    "heat_requirement": "heated"
+}

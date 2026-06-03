@@ -1,0 +1,16 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "ae2:basic_card"
+    },
+    {
+      "item": "ae2:calculation_processor"
+    }
+  ],
+  "results": [
+    {
+      "id": "ae2:void_card"
+    }
+  ]
+}

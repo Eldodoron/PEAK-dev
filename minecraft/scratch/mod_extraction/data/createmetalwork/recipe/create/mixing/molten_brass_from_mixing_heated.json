@@ -1,0 +1,18 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+        {
+            "tag": "c:crushed_raw_materials/copper"
+        },
+        {
+            "tag": "c:crushed_raw_materials/zinc"
+        }
+    ],
+    "results": [
+        {
+            "amount": 444,
+            "id": "createmetalwork:molten_brass"
+        }
+    ],
+    "heat_requirement": "heated"
+}

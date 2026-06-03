@@ -1,0 +1,16 @@
+{
+  "group": "create_confectionery",
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "create_confectionery:gingerdough"
+    }
+  ],
+  "results": [
+    {
+      "item": {
+      	"id": "create_confectionery:gingerbread_man"
+      }
+    }
+  ]
+}

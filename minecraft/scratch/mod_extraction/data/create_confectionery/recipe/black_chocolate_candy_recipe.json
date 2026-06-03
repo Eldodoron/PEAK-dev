@@ -1,0 +1,21 @@
+{
+  "group": "create_confectionery",
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "create_confectionery:bar_of_caramel"
+    },
+    {
+      "type": "fluid_stack",
+      "amount": 250,
+      "fluid": "create_confectionery:black_chocolate"
+    }
+  ],
+  "results": [
+    {
+      "item": {
+        "id": "create_confectionery:black_chocolate_candy"
+      }
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    { "item": "ae2:damaged_budding_quartz" },
+    { "item": "ae2:charged_certus_quartz_crystal" },
+    {
+      "type": "fluid_stack",
+      "amount": 500,
+      "fluid": "minecraft:water"
+    }
+  ],
+  "results": [
+    {
+      "id": "ae2:chipped_budding_quartz"
+    }
+  ]
+}

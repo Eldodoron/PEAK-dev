@@ -1,0 +1,22 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+        {
+            "type": "fluid_tag",
+            "amount": 111,
+            "fluid_tag": "c:molten_andesite"
+        },
+        {
+            "type": "fluid_tag",
+            "amount": 12,
+            "fluid_tag": "c:molten_iron"
+        }
+    ],
+    "results": [
+        {
+            "amount": 222,
+            "id": "createmetalwork:molten_andesite_alloy"
+        }
+    ],
+    "heat_requirement": "heated"
+}

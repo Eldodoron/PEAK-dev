@@ -1,0 +1,15 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+        {
+            "tag": "c:ingots/zinc"
+        }
+    ],
+    "results": [
+        {
+            "amount": 111,
+            "id": "createmetalwork:molten_zinc"
+        }
+    ],
+    "heat_requirement": "heated"
+}

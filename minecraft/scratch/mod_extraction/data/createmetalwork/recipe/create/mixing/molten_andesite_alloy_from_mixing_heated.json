@@ -1,0 +1,18 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+        {
+            "tag": "c:crushed_raw_materials/andesite"
+        },
+        {
+            "tag": "c:andesite_alloy_nuggets"
+        }
+    ],
+    "results": [
+        {
+            "amount": 222,
+            "id": "createmetalwork:molten_andesite_alloy"
+        }
+    ],
+    "heat_requirement": "heated"
+}

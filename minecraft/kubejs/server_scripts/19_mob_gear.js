@@ -1,5 +1,5 @@
 // ==========================================
-// PEAK EXPERT MODE â€” SCRIPT 19
+// PEAK EXPERT MODE Ã¢â‚¬â€ SCRIPT 19
 // APOTHEOSIS & MOB GEAR SETS
 // ==========================================
 
@@ -184,7 +184,7 @@ EntityEvents.spawned(event => {
     }
 
     if (Platform.isLoaded('simplybows')) {
-        bows.push('simplybows:ice_bow', 'simplybows:bee_bow', 'simplybows:echo_bow', 'simplybows:vine_bow');
+        bows.push('simplybows:ice_bow/ice_bow', 'simplybows:bee_bow/bee_bow', 'simplybows:echo_bow/echo_bow', 'simplybows:vine_bow/vine_bow');
     }
 
     if (Platform.isLoaded('twilightforest')) {
@@ -226,13 +226,13 @@ EntityEvents.spawned(event => {
     let helmId = helmets[randomIndex];
     let chestId = chestplates[randomIndex] || chestplates[0];
 
-    let helm = Item.of(helmId);
-    let chest = Item.of(chestId);
+    let trimData = { material: "minecraft:gold", pattern: "minecraft:ward" };
+    let helm = Item.of(helmId, { 'minecraft:trim': trimData });
+    let chest = Item.of(chestId, { 'minecraft:trim': trimData });
 
     if (!helm.empty && !chest.empty) {
-        let trimData = { material: "minecraft:gold", pattern: "minecraft:ward" };
-        entity.setItemSlot('head', helm.with('minecraft:trim', trimData));
-        entity.setItemSlot('chest', chest.with('minecraft:trim', trimData));
+        entity.setItemSlot('head', helm);
+        entity.setItemSlot('chest', chest);
         
         if (entity.type == 'minecraft:skeleton' || entity.type == 'minecraft:stray' || entity.type == 'minecraft:pillager') {
             let bowId = bows[Math.floor(Math.random() * bows.length)];

@@ -1,5 +1,5 @@
 // ==========================================
-// PEAK EXPERT MODE — SCRIPT 13C
+// PEAK EXPERT MODE â€” SCRIPT 13C
 // FOOD OVERHAUL: ALEX'S + AQUACULTURE + OCEAN'S
 // ==========================================
 
@@ -11,11 +11,11 @@ ServerEvents.recipes(event => {
 
     // --- BURGERS (Sequenced Assembly) ---
 
-    // Bison Burger: Bread → Deploy patty → Deploy lettuce → Deploy tomato
+    // Bison Burger: Bread â†’ Deploy patty â†’ Deploy lettuce â†’ Deploy tomato
     event.remove({ id: 'alexsdelight:bison_burger' });
     event.custom({
         "type": "create:sequenced_assembly",
-        "ingredient": { "tag": "c:foods/bread" },
+        "ingredient": { "item": "minecraft:bread" },
         "transitional_item": { "id": "farmersdelight:wheat_dough" },
         "sequence": [
             {
@@ -25,7 +25,7 @@ ServerEvents.recipes(event => {
             },
             {
                 "type": "create:deploying",
-                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "tag": "c:foods/leafy_green" }],
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "item": "farmersdelight:cabbage_leaf" }],
                 "results": [{ "id": "farmersdelight:wheat_dough" }]
             },
             {
@@ -38,11 +38,11 @@ ServerEvents.recipes(event => {
         "loops": 1
     });
 
-    // Kangaroo Burger: Bread → Deploy kangaroo → Deploy kangaroo → Deploy lettuce
+    // Kangaroo Burger: Bread â†’ Deploy kangaroo â†’ Deploy kangaroo â†’ Deploy lettuce
     event.remove({ id: 'alexsdelight:kangaroo_burger' });
     event.custom({
         "type": "create:sequenced_assembly",
-        "ingredient": { "tag": "c:foods/bread" },
+        "ingredient": { "item": "minecraft:bread" },
         "transitional_item": { "id": "farmersdelight:wheat_dough" },
         "sequence": [
             {
@@ -57,7 +57,7 @@ ServerEvents.recipes(event => {
             },
             {
                 "type": "create:deploying",
-                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "tag": "c:foods/leafy_green" }],
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "item": "farmersdelight:cabbage_leaf" }],
                 "results": [{ "id": "farmersdelight:wheat_dough" }]
             }
         ],
@@ -67,11 +67,11 @@ ServerEvents.recipes(event => {
 
     // --- SANDWICHES (Sequenced Assembly) ---
 
-    // Bunfungus Sandwich: Bread → Deploy bunfungus → Deploy mushrooms
+    // Bunfungus Sandwich: Bread â†’ Deploy bunfungus â†’ Deploy mushrooms
     event.remove({ id: 'alexsdelight:bunfungus_sandwich' });
     event.custom({
         "type": "create:sequenced_assembly",
-        "ingredient": { "tag": "c:foods/bread" },
+        "ingredient": { "item": "minecraft:bread" },
         "transitional_item": { "id": "farmersdelight:wheat_dough" },
         "sequence": [
             {
@@ -94,11 +94,11 @@ ServerEvents.recipes(event => {
         "loops": 1
     });
 
-    // Gongylidia Bruschetta: Bread → Deploy gongylidia → Deploy oil → Deploy tomato
+    // Gongylidia Bruschetta: Bread â†’ Deploy gongylidia â†’ Deploy oil â†’ Deploy tomato
     event.remove({ id: 'alexsdelight:gongylidia_bruschetta' });
     event.custom({
         "type": "create:sequenced_assembly",
-        "ingredient": { "tag": "c:foods/bread" },
+        "ingredient": { "item": "minecraft:bread" },
         "transitional_item": { "id": "farmersdelight:wheat_dough" },
         "sequence": [
             {
@@ -140,7 +140,7 @@ ServerEvents.recipes(event => {
 
     // --- SKEWERS (Sequenced Assembly) ---
 
-    // Alex's Barbecue Stick: Stick → Deploy moose → Deploy chicken → Deploy vegs
+    // Alex's Barbecue Stick: Stick â†’ Deploy moose â†’ Deploy chicken â†’ Deploy vegs
     event.remove({ id: 'alexsdelight:barbecue_stick' });
     event.custom({
         "type": "create:sequenced_assembly",
@@ -173,7 +173,7 @@ ServerEvents.recipes(event => {
 
     // --- SUSHI ROLLS (Sequenced Assembly) ---
 
-    // Raw Fish Fillet Roll: Rice → Deploy raw fillet → Deploy raw fillet
+    // Raw Fish Fillet Roll: Rice â†’ Deploy raw fillet â†’ Deploy raw fillet
     event.remove({ id: 'aquaculturedelight:raw_fish_fillet_roll' });
     event.custom({
         "type": "create:sequenced_assembly",
@@ -195,7 +195,7 @@ ServerEvents.recipes(event => {
         "loops": 1
     });
 
-    // Fried Perch Roll: Rice → Deploy fried perch
+    // Fried Perch Roll: Rice â†’ Deploy fried perch
     event.remove({ id: 'aquaculturedelight:fried_perch_roll' });
     event.custom({
         "type": "create:sequenced_assembly",
@@ -219,7 +219,7 @@ ServerEvents.recipes(event => {
 
     // --- SKEWERS (Sequenced Assembly) ---
 
-    // Catfish Barbecue: Stick → Deploy catfish → Deploy tomato → Deploy cabbage
+    // Catfish Barbecue: Stick â†’ Deploy catfish â†’ Deploy tomato â†’ Deploy cabbage
     event.remove({ id: 'aquaculturedelight:catfish_barbecue_stick' });
     event.custom({
         "type": "create:sequenced_assembly",
@@ -322,7 +322,7 @@ ServerEvents.recipes(event => {
 
     // --- SUSHI ROLLS (Sequenced Assembly) ---
 
-    // Elder Guardian Roll: Rice → Deploy elder guardian slice
+    // Elder Guardian Roll: Rice â†’ Deploy elder guardian slice
     event.remove({ id: 'oceansdelight:elder_guardian_roll' });
     event.custom({
         "type": "create:sequenced_assembly",
@@ -344,7 +344,7 @@ ServerEvents.recipes(event => {
         "loops": 1
     });
 
-    // Fugu Roll: Rice → Deploy fugu slice
+    // Fugu Roll: Rice â†’ Deploy fugu slice
     event.remove({ id: 'oceansdelight:fugu_roll' });
     event.custom({
         "type": "create:sequenced_assembly",
@@ -377,7 +377,7 @@ ServerEvents.recipes(event => {
         "sequence": [
             {
                 "type": "create:deploying",
-                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "tag": "c:foods/cabbage" }],
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "item": "farmersdelight:cabbage" }],
                 "results": [{ "id": "farmersdelight:wheat_dough" }]
             },
             {

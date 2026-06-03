@@ -1,0 +1,21 @@
+{
+  "group": "create_confectionery",
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "create_confectionery:bar_of_white_chocolate"
+    },
+    {
+      "type": "fluid_stack",
+      "amount": 250,
+      "fluid": "create_confectionery:ruby_chocolate"
+    }
+  ],
+  "results": [
+    {
+      "item": {
+        "id": "create_confectionery:ruby_chocolate_candy_2"
+      }
+    }
+  ]
+}

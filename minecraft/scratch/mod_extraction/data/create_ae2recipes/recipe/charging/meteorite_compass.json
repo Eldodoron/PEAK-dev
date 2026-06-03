@@ -1,0 +1,22 @@
+{
+  "type": "createaddition:charging",
+  "ingredients": [
+    {
+      "item": "minecraft:compass"
+    }
+  ],
+  "results": [
+    {
+      "count": 1,
+      "id": "ae2:meteorite_compass"
+    }
+  ],
+  "energy": 5000,
+  "max_charge_rate": 200,
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ae2"
+    }
+  ]
+}

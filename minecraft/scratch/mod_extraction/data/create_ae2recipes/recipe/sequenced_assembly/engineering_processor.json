@@ -1,0 +1,62 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "ae2:printed_engineering_processor"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "id": "ae2:engineering_processor"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_ae2recipes:incomplete_engineering_processor"
+        },
+        {
+          "item": "ae2:printed_silicon"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_ae2recipes:incomplete_engineering_processor"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_ae2recipes:incomplete_engineering_processor"
+        },
+        {
+          "item": "minecraft:redstone"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_ae2recipes:incomplete_engineering_processor"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "create_ae2recipes:incomplete_engineering_processor"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_ae2recipes:incomplete_engineering_processor"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "create_ae2recipes:incomplete_engineering_processor"
+  }
+}

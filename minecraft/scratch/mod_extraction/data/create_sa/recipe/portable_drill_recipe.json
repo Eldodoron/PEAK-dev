@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    "121",
+    " 3 "
+  ],
+  "key": {
+    "0": {
+      "tag": "c:ingots/brass"
+    },
+    "1": {
+      "item": "create:cogwheel"
+    },
+    "2": {
+      "item": "create_sa:steam_engine"
+    },
+    "3": {
+      "item": "create_sa:brass_drill_head"
+    }
+  },
+  "result": {
+    "id": "create_sa:portable_drill",
+    "count": 1
+  }
+}

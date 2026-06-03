@@ -1,0 +1,16 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "ae2:fluix_covered_dense_cable"
+    },
+    {
+      "item": "ae2:semi_dark_monitor"
+    }
+  ],
+  "results": [
+    {
+      "id": "ae2:fluix_smart_dense_cable"
+    }
+  ]
+}

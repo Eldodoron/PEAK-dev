@@ -1,0 +1,16 @@
+{
+    "type": "create:compacting",
+    "ingredients": [
+        {
+            "tag": "c:crushed_raw_materials/gold"
+        }
+    ],
+    "results": [
+        {
+            "item": {
+                "id": "minecraft:gold_ingot"
+            }
+        }
+    ],
+    "heat_requirement": "heated"
+}

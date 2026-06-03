@@ -1,0 +1,16 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "ae2:fluix_glass_cable"
+    },
+    {
+      "item": "create:powered_toggle_latch"
+    }
+  ],
+  "results": [
+    {
+      "id": "ae2:toggle_bus"
+    }
+  ]
+}

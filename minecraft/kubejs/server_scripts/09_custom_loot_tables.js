@@ -1,5 +1,5 @@
 // ==========================================
-// PEAK EXPERT MODE — SCRIPT 09
+// PEAK EXPERT MODE â€” SCRIPT 09
 // CUSTOM BOSS LOOT TABLES (via EntityEvents)
 // ==========================================
 // Each boss drops a unique custom component that
@@ -84,7 +84,7 @@ EntityEvents.death(event => {
     }
 
     // ==========================================
-    // WARDEN — THE DEEP DARK GUARDIAN
+    // WARDEN â€” THE DEEP DARK GUARDIAN
     // ==========================================
 
     if (entityType === 'minecraft:warden') {
@@ -93,7 +93,7 @@ EntityEvents.death(event => {
     }
 
     // ==========================================
-    // ICE AND FIRE — STAGE 5 DRAGONS
+    // ICE AND FIRE â€” STAGE 5 DRAGONS
     // ==========================================
 
     if (entityType === 'iceandfire:fire_dragon' || 
@@ -104,7 +104,7 @@ EntityEvents.death(event => {
     }
 
     // ==========================================
-    // ENDER DRAGON & WITHER — VANILLA BOSSES
+    // ENDER DRAGON & WITHER â€” VANILLA BOSSES
     // ==========================================
 
     if (entityType === 'minecraft:ender_dragon') {
@@ -154,7 +154,7 @@ EntityEvents.death(event => {
         if (!pData.getBoolean(key)) {
             pData.putBoolean(key, true);
             event.entity.block.popItem(Item.of('minecraft:ender_eye', 1));
-            source.tell('§d✦ You extracted an Ender Eye from defeating this powerful foe for the first time! ✦');
+            source.tell('Â§dâœ¦ You extracted an Ender Eye from defeating this powerful foe for the first time! âœ¦');
         }
     }
 });

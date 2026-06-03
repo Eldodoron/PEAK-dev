@@ -1,0 +1,14 @@
+{
+	"type": "create:haunting",
+	"ingredients": [
+	  {
+      "item": "minecraft:apple"
+	  }
+	],
+	"results": [
+	  {
+      "chance": 0.3,
+      "id": "minecraft:chorus_fruit"
+	  }
+	]
+}

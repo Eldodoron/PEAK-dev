@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "010",
+    "020",
+    "343"
+  ],
+  "key": {
+    "0": {
+      "tag": "c:ingots/copper"
+    },
+    "1": {
+      "item": "create:cogwheel"
+    },
+    "2": {
+      "item": "create_sa:hydraulic_engine"
+    },
+    "3": {
+      "item": "create:fluid_tank"
+    },
+    "4": {
+      "item": "create:andesite_alloy"
+    }
+  },
+  "result": {
+    "id": "create_sa:copper_jetpack_chestplate",
+    "count": 1
+  }
+}

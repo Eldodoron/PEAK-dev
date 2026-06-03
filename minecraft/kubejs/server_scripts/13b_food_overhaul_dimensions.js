@@ -1,4 +1,4 @@
-﻿// ==========================================
+// ==========================================
 // PEAK EXPERT MODE â€” SCRIPT 13B
 // FOOD OVERHAUL: TWILIGHT + NETHER + END
 // ==========================================
@@ -15,7 +15,7 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'twilightdelight:ghast_burger' });
     event.custom({
         "type": "create:sequenced_assembly",
-        "ingredient": { "tag": "c:foods/bread" },
+        "ingredient": { "item": "minecraft:bread" },
         "transitional_item": { "id": "kubejs:incomplete_ender_eye" },
         "sequence": [
             {
@@ -30,7 +30,7 @@ ServerEvents.recipes(event => {
             },
             {
                 "type": "create:deploying",
-                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "tag": "c:foods/tomato" }],
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "item": "farmersdelight:tomato" }],
                 "results": [{ "id": "kubejs:incomplete_ender_eye" }]
             }
         ],
@@ -42,7 +42,7 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'twilightdelight:hydra_burger' });
     event.custom({
         "type": "create:sequenced_assembly",
-        "ingredient": { "tag": "c:foods/bread" },
+        "ingredient": { "item": "minecraft:bread" },
         "transitional_item": { "id": "farmersdelight:wheat_dough" },
         "sequence": [
             {
@@ -52,12 +52,12 @@ ServerEvents.recipes(event => {
             },
             {
                 "type": "create:deploying",
-                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "tag": "c:foods/leafy_green" }],
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "item": "farmersdelight:cabbage_leaf" }],
                 "results": [{ "id": "farmersdelight:wheat_dough" }]
             },
             {
                 "type": "create:deploying",
-                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "tag": "c:foods/tomato" }],
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "item": "farmersdelight:tomato" }],
                 "results": [{ "id": "farmersdelight:wheat_dough" }]
             }
         ],
@@ -69,7 +69,7 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'twilightdelight:meef_wrap' });
     event.custom({
         "type": "create:sequenced_assembly",
-        "ingredient": { "tag": "c:foods/bread" },
+        "ingredient": { "item": "minecraft:bread" },
         "transitional_item": { "id": "farmersdelight:wheat_dough" },
         "sequence": [
             {
@@ -79,12 +79,12 @@ ServerEvents.recipes(event => {
             },
             {
                 "type": "create:deploying",
-                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "tag": "c:foods/leafy_green" }],
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "item": "farmersdelight:cabbage_leaf" }],
                 "results": [{ "id": "farmersdelight:wheat_dough" }]
             },
             {
                 "type": "create:deploying",
-                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "tag": "c:foods/onion" }],
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "item": "farmersdelight:onion" }],
                 "results": [{ "id": "farmersdelight:wheat_dough" }]
             }
         ],
@@ -96,7 +96,7 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'twilightdelight:torchberry_venison_sandwich' });
     event.custom({
         "type": "create:sequenced_assembly",
-        "ingredient": { "tag": "c:foods/bread" },
+        "ingredient": { "item": "minecraft:bread" },
         "transitional_item": { "id": "farmersdelight:wheat_dough" },
         "sequence": [
             {
@@ -106,7 +106,7 @@ ServerEvents.recipes(event => {
             },
             {
                 "type": "create:deploying",
-                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "tag": "c:foods/leafy_green" }],
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "item": "farmersdelight:cabbage_leaf" }],
                 "results": [{ "id": "farmersdelight:wheat_dough" }]
             },
             {
@@ -127,9 +127,9 @@ ServerEvents.recipes(event => {
         'twilightdelight:ghast_brain_salad',
         [
             'minecraft:bowl',
-            { tag: 'c:foods/leafy_green' },
-            { tag: 'c:foods/onion' },
-            { tag: 'c:foods/tomato' },
+            'farmersdelight:cabbage_leaf',
+            'farmersdelight:onion',
+            'farmersdelight:tomato',
             'twilightdelight:experiment_110',
             'twilightforest:borer_essence',
             'twilightforest:transformation_powder'
@@ -178,7 +178,7 @@ ServerEvents.recipes(event => {
             'minecraft:wheat',
             'minecraft:wheat',
             'minecraft:wheat',
-            { tag: 'c:drinks/milk' },
+            'minecraft:milk_bucket',
             'twilightforest:liveroot'
         ]
     ).heated();
@@ -303,7 +303,7 @@ ServerEvents.recipes(event => {
 
     event.remove({ id: 'twilightdelight:chocolate_113' });
     event.recipes.create.mixing('twilightdelight:chocolate_113', [
-        'twilightdelight:experiment_113', { tag: 'c:drinks/milk' }, 'minecraft:sugar', 'minecraft:cocoa_beans'
+        'twilightdelight:experiment_113', 'minecraft:milk_bucket', 'minecraft:sugar', 'minecraft:cocoa_beans'
     ]).heated();
 
     event.remove({ id: 'twilightdelight:glow_113' });
@@ -318,7 +318,7 @@ ServerEvents.recipes(event => {
 
     event.remove({ id: 'twilightdelight:milky_113' });
     event.recipes.create.mixing('twilightdelight:milky_113', [
-        'twilightdelight:experiment_113', { tag: 'c:drinks/milk' }, 'minecraft:sugar'
+        'twilightdelight:experiment_113', 'minecraft:milk_bucket', 'minecraft:sugar'
     ]);
 
     // ==========================================
@@ -331,7 +331,7 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'mynethersdelight:nether_burger' });
     event.custom({
         "type": "create:sequenced_assembly",
-        "ingredient": { "tag": "c:foods/bread" },
+        "ingredient": { "item": "minecraft:bread" },
         "transitional_item": { "id": "farmersdelight:wheat_dough" },
         "sequence": [
             {
@@ -358,7 +358,7 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'mynethersdelight:hotdog' });
     event.recipes.create.deploying(
         'mynethersdelight:hotdog',
-        [{ tag: 'c:foods/bread' }, 'mynethersdelight:roasted_sausage']
+        ['minecraft:bread', 'mynethersdelight:roasted_sausage']
     );
 
     // Hotdog with Mixed Salad: Mixing
@@ -412,7 +412,7 @@ ServerEvents.recipes(event => {
     // Ghast Salad
     event.remove({ id: 'mynethersdelight:ghast_salad' });
     event.recipes.create.mixing('mynethersdelight:ghast_salad', [
-        { tag: 'c:foods/leafy_green' }, 'minecraft:melon_slice', 'minecraft:bowl'
+        'farmersdelight:cabbage_leaf', 'minecraft:melon_slice', 'minecraft:bowl'
     ]);
 
     // Rock Soup: Superheated (it's lava rock!)
@@ -425,7 +425,7 @@ ServerEvents.recipes(event => {
     // Dried Ghast with Milk
     event.remove({ id: 'mynethersdelight:dried_ghast_with_milk' });
     event.recipes.create.mixing('mynethersdelight:dried_ghast_with_milk', [
-        'mynethersdelight:ghasmati', { tag: 'c:drinks/milk' }, 'minecraft:bowl'
+        'mynethersdelight:ghasmati', 'minecraft:milk_bucket', 'minecraft:bowl'
     ]);
 
     // --- SKEWERS & STICKS (Deploying) ---
@@ -541,7 +541,7 @@ ServerEvents.recipes(event => {
     // Burnt Roll: Superheated pressing
     event.remove({ id: 'mynethersdelight:burnt_roll' });
     event.recipes.create.mixing('mynethersdelight:burnt_roll', [
-        { tag: 'c:foods/bread' }, 'minecraft:magma_cream'
+        'minecraft:bread', 'minecraft:magma_cream'
     ]).superheated();
 
     // --- NETHER CAKES & DESSERTS ---
@@ -622,7 +622,7 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'mynethersdelight:stuffed_pepper' });
     event.recipes.create.deploying(
         'mynethersdelight:stuffed_pepper',
-        ['mynethersdelight:bullet_pepper', { tag: 'c:foods/cooked_beef' }]
+        ['mynethersdelight:bullet_pepper', 'minecraft:cooked_beef']
     );
 
     // ==========================================
@@ -672,7 +672,7 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'endersdelight:crawling_sandwich' });
     event.custom({
         "type": "create:sequenced_assembly",
-        "ingredient": { "tag": "c:foods/bread" },
+        "ingredient": { "item": "minecraft:bread" },
         "transitional_item": { "id": "kubejs:incomplete_ender_eye" },
         "sequence": [
             {
@@ -682,7 +682,7 @@ ServerEvents.recipes(event => {
             },
             {
                 "type": "create:deploying",
-                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "tag": "c:foods/leafy_green" }],
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "item": "farmersdelight:cabbage_leaf" }],
                 "results": [{ "id": "kubejs:incomplete_ender_eye" }]
             }
         ],
@@ -713,31 +713,31 @@ ServerEvents.recipes(event => {
     });
 
     // Shulker Bowl: Heated mixing
-    event.remove({ id: 'minecraft:barrier' });
-    event.recipes.create.mixing('minecraft:barrier', [
-        'minecraft:barrier', 'minecraft:barrier',
-        'minecraft:chorus_fruit', 'minecraft:bowl'
-    ]).heated();
+//     event.remove({ id: 'minecraft:barrier' });
+//     event.recipes.create.mixing('minecraft:barrier', [
+//         'minecraft:barrier', 'minecraft:barrier',
+//         'minecraft:chorus_fruit', 'minecraft:bowl'
+//     ]).heated();
 
     // Strange Eclair: Mixing
-    event.remove({ id: 'minecraft:barrier' });
-    event.recipes.create.mixing('minecraft:barrier', [
-        'minecraft:barrier', { tag: 'c:foods/bread' }, 'minecraft:sugar'
-    ]).heated();
+//     event.remove({ id: 'minecraft:barrier' });
+//     event.recipes.create.mixing('minecraft:barrier', [
+//         'minecraft:barrier', 'minecraft:bread', 'minecraft:sugar'
+//     ]).heated();
 
     // Twisted Cereal: Mixing
-    event.remove({ id: 'minecraft:barrier' });
-    event.recipes.create.mixing('minecraft:barrier', [
-        'minecraft:barrier', 'minecraft:barrier',
-        { tag: 'c:drinks/milk' }, 'minecraft:bowl'
-    ]);
+//     event.remove({ id: 'minecraft:barrier' });
+//     event.recipes.create.mixing('minecraft:barrier', [
+//         'minecraft:barrier', 'minecraft:barrier',
+        'minecraft:milk_bucket', 'minecraft:bowl'
+//     ]);
 
     // Uncanny Cookies: Heated mixing
     event.remove({ id: 'endersdelight:uncanny_cookies' });
     event.recipes.create.mixing(
         Item.of('endersdelight:uncanny_cookies', 8),
         [
-            'minecraft:chorus_fruit',
+//             'minecraft:chorus_fruit',
             { tag: 'c:crops/wheat' },
             { tag: 'c:crops/wheat' }
         ]

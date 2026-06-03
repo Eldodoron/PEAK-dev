@@ -1,0 +1,39 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "superheated",
+  "ingredients": [
+    {
+      "item": "ae2:flawed_budding_quartz"
+    },
+    {
+      "item": "ae2:fluix_pearl"
+    },
+    {
+      "item": "create:rose_quartz"
+    },
+    {
+      "item": "create:experience_nugget"
+    },
+    {
+      "item": "minecraft:amethyst_block"
+    },
+    {
+      "type": "fluid_stack",
+      "amount": 1000,
+      "fluid": "create:potion",
+      "components":
+      {
+        "create:potion_fluid_bottle_type": "regular",
+        "minecraft:potion_contents":
+        {
+          "potion": "minecraft:fire_resistance"
+        }
+      }
+    }
+  ],
+  "results": [
+    {
+      "id": "ae2:flawless_budding_quartz"
+    }
+  ]
+}

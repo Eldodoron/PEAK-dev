@@ -1,0 +1,27 @@
+{
+  "type": "create:compacting",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "tag": "c:glass_blocks"
+    },
+    {
+      "tag": "c:glass_blocks"
+    },
+    {
+      "tag": "c:glass_blocks"
+    },
+    {
+      "item": "ae2:certus_quartz_dust"
+    },
+    {
+      "item": "ae2:certus_quartz_dust"
+    }
+  ],
+  "results": [
+    {
+      "id": "ae2:quartz_fiber",
+      "count": 3.0
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "group": "create_confectionery",
+  "type": "create:mixing",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:slime_ball"
+    },
+    {
+      "type": "fluid_stack",
+      "amount": 250,
+      "components": {
+        "create:potion_fluid_bottle_type": "regular",
+        "minecraft:potion_contents": {
+          "potion": "minecraft:mundane"
+        }
+      },
+      "fluid": "create:potion"
+    }
+  ],
+  "results": [
+    {
+      "count": 4,
+      "item": {
+        "id": "create_confectionery:candy_cane"
+      }
+    }
+  ]
+}
