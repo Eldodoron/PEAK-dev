@@ -1,17 +1,3 @@
-/advancement grant @s only apotheosis:progression/pinnacle
-/apoth spawn_boss EldoTest apothic_compats:cataclysm/ministrosity apotheosis:epic
-/apoth spawn_boss EldoTest apothic_compats:cataclysm/ministrosity apotheosis:epic true
-/apoth spawn_boss EldoTest apothic_compats:cataclysm/ministrosity apotheosis:epic false
-/apoth spawn_boss EldoTest apothic_compats:cataclysm/ministrosity apotheosis:epic
-/apoth spawn_boss EldoTest
-/apoth spawn_boss EldoTest apotheosis:overworld/husk nadir:cataclysmic
-/apoth spawn_boss EldoTest apotheosis:overworld/husk nadir:cataclysmic false
-/apoth spawn_boss EldoTest apotheosis:overworld/husk nadir:cataclysmic true
-/apoth spawn_boss EldoTest apotheosis:overworld/husk nadir:primal
-/apoth spawn_boss EldoTest apotheosis:overworld/husk nadir:esoteric
-/apoth spawn_boss EldoTest apotheosis:overworld/husk nadir:legendary
-/apoth spawn_boss EldoTest apotheosis:overworld/husk apotheosis:epic
-/apoth spawn_boss EldoTest apotheosis:overworld/husk apotheosis:mythic
 /apoth spawn_boss EldoTest apotheosis:overworld/husk apotheosis:mythic true
 /apoth spawn_boss EldoTest apotheosis:overworld/husk apotheosis:mythic false
 /apoth spawn_boss EldoTest apotheosis:overworld/husk apotheosis:mythic true
@@ -48,3 +34,17 @@
 /give @p minecraft:wooden_sword{weapon_attributes:'{"parent":"bettercombat:claymore"}'} 1
 /give @p minecraft:wooden_sword 1 {weapon_attributes:'{"parent":"bettercombat:claymore"}'} 1
 /give @p minecraft:wooden_sword 1
+/dynamic_difficulty level set Eldodoron 100
+/summon minecraft:wither
+/apoth set_world_tier Eldodoron pinnacle
+/effect give Eldodoron minecraft:regeneration infinite 5
+/ironsSpellbooks upgrade irons_spellbooks:mana 1000
+/effect give Eldodoron minecraft:absorption infinite
+/effect clear Eldodoron minecraft:regeneration infinite 5
+/effect clear Eldodoron minecraft:regeneration
+/summon apotheosis:tiered_gateway
+/summon ars_nouveau:amethyst_golem
+/summon cataclysm:coral_golem
+/reload
+/summon minecraft:tnt
+/reload

@@ -237,24 +237,24 @@ ServerEvents.recipes(event => {
     });
 
     // Shulker Bowl: Heated mixing
-//     event.remove({ id: 'minecraft:barrier' });
+    event.remove({ id: 'endersdelight:stuffed_shulker' });
     event.recipes.create.mixing('endersdelight:stuffed_shulker', [
         'endersdelight:shulker_filet', 'endersdelight:shulker_filet',
         'minecraft:chorus_fruit', 'minecraft:bowl'
     ]).heated();
 
     // Strange Eclair: Mixing
-//     event.remove({ id: 'minecraft:barrier' });
-//     event.recipes.create.mixing('minecraft:barrier', [
-//         'minecraft:ender_eye', '#c:foods/bread', 'minecraft:sugar'
-//     ]).heated();
+    event.remove({ id: 'endersdelight:strange_eclair' });
+    event.recipes.create.mixing('endersdelight:strange_eclair', [
+        'minecraft:ender_eye', '#c:foods/bread', 'minecraft:sugar'
+    ]).heated();
 
     // Twisted Cereal: Mixing
-//     event.remove({ id: 'minecraft:barrier' });
-//     event.recipes.create.mixing('minecraft:barrier', [
-//         '#endersdelight:enderman_sight', '#endersdelight:enderman_loot',
-//         'minecraft:popped_chorus_fruit', '#c:drinks/milk', 'minecraft:barrier'
-//     ]);
+    event.remove({ id: 'endersdelight:twisted_cereal' });
+    event.recipes.create.mixing('endersdelight:twisted_cereal', [
+        Ingredient.of('#endersdelight:enderman_sight'), Ingredient.of('#endersdelight:enderman_loot'),
+        'minecraft:popped_chorus_fruit', Ingredient.of('#c:drinks/milk'), 'minecraft:bowl'
+    ]);
 
     // ==========================================
     // SECTION 6: FARMER'S DELIGHT INTEGRATION

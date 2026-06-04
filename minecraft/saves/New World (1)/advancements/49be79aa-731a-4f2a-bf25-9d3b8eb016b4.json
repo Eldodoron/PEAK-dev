@@ -5569,78 +5569,6 @@
     },
     "done": true
   },
-  "incendium:technical/sentrys_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2026-06-03 01:03:19 -0400"
-    },
-    "done": false
-  },
-  "incendium:technical/on_block": {
-    "criteria": {
-      "log_spam_fixer": "2026-06-03 01:03:19 -0400"
-    },
-    "done": false
-  },
-  "incendium:technical/feed_ghastling": {
-    "criteria": {
-      "log_spam_fixer": "2026-06-03 01:03:19 -0400"
-    },
-    "done": false
-  },
-  "incendium:technical/multiplex_crossbow": {
-    "criteria": {
-      "log_spam_fixer": "2026-06-03 01:03:19 -0400"
-    },
-    "done": false
-  },
-  "incendium:technical/on_player_hurt": {
-    "criteria": {
-      "log_spam_fixer": "2026-06-03 01:03:19 -0400"
-    },
-    "done": false
-  },
-  "incendium:technical/on_kill": {
-    "criteria": {
-      "log_spam_fixer": "2026-06-03 01:03:19 -0400"
-    },
-    "done": false
-  },
-  "incendium:technical/on_inventory_change": {
-    "criteria": {
-      "log_spam_fixer": "2026-06-03 01:03:19 -0400"
-    },
-    "done": false
-  },
-  "incendium:technical/holy_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2026-06-03 01:03:19 -0400"
-    },
-    "done": false
-  },
-  "incendium:technical/inventory/firestorm": {
-    "criteria": {
-      "log_spam_fixer": "2026-06-03 01:03:19 -0400"
-    },
-    "done": false
-  },
-  "incendium:technical/give_ghastling": {
-    "criteria": {
-      "log_spam_fixer": "2026-06-03 01:03:19 -0400"
-    },
-    "done": false
-  },
-  "incendium:technical/inventory/sentrys_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2026-06-03 01:03:19 -0400"
-    },
-    "done": false
-  },
-  "incendium:technical/firestorm": {
-    "criteria": {
-      "log_spam_fixer": "2026-06-03 01:03:19 -0400"
-    },
-    "done": false
-  },
   "simplymore:revvengine": {
     "criteria": {
       "requirement": "2026-06-03 01:00:31 -0400"
@@ -5650,6 +5578,824 @@
   "ess_requiem:main/intertwined_peak": {
     "criteria": {
       "peak": "2026-06-03 01:02:15 -0400"
+    },
+    "done": true
+  },
+  "deeperdarker:main/kill_warden": {
+    "criteria": {
+      "warden": "2026-06-03 15:09:33 -0400"
+    },
+    "done": true
+  },
+  "deeperdarker:main/kill_all_sculk_mobs": {
+    "criteria": {
+      "warden": "2026-06-03 15:09:33 -0400"
+    },
+    "done": false
+  },
+  "deeperdarker:recipes/misc/reinforced_echo_shard": {
+    "criteria": {
+      "has_warden_carapace": "2026-06-03 15:09:42 -0400"
+    },
+    "done": true
+  },
+  "create_deep_dark:craft_echo_ingot": {
+    "criteria": {
+      "craft_echo_ingot_0": "2026-06-03 15:09:42 -0400"
+    },
+    "done": true
+  },
+  "deeperdarker:recipes/tools/ancient_compass": {
+    "criteria": {
+      "has_warden_carapace": "2026-06-03 15:09:42 -0400"
+    },
+    "done": true
+  },
+  "deeperdarker:recipes/combat/sonorous_staff": {
+    "criteria": {
+      "has_heart_of_the_deep": "2026-06-03 15:09:42 -0400"
+    },
+    "done": true
+  },
+  "vampirism:recipes/food/general/garlic_bread": {
+    "criteria": {
+      "has_bread": "2026-06-03 15:09:43 -0400"
+    },
+    "done": true
+  },
+  "malum:recipes/misc/coal_from_fragment": {
+    "criteria": {
+      "has_coal": "2026-06-03 15:09:43 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/campfire": {
+    "criteria": {
+      "has_coal": "2026-06-03 15:09:43 -0400"
+    },
+    "done": true
+  },
+  "vampirism:recipes/decorations/general/grave_cage": {
+    "criteria": {
+      "has_coal": "2026-06-03 15:09:43 -0400"
+    },
+    "done": true
+  },
+  "malum:recipes/misc/coal_fragment": {
+    "criteria": {
+      "has_coal": "2026-06-03 15:09:43 -0400"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/slicing/bread_slice_from_bread": {
+    "criteria": {
+      "has_bread": "2026-06-03 15:09:43 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/coal_block": {
+    "criteria": {
+      "has_coal": "2026-06-03 15:09:43 -0400"
+    },
+    "done": true
+  },
+  "dndesires:recipes/misc/crafting/coal_from_coal_piece": {
+    "criteria": {
+      "has_coal": "2026-06-03 15:09:43 -0400"
+    },
+    "done": true
+  },
+  "apotheosis:progression/haven": {
+    "criteria": {
+      "affixed": "2026-06-03 15:09:43 -0400"
+    },
+    "done": true
+  },
+  "minecraft:adventure/avoid_vibration": {
+    "criteria": {
+      "avoid_vibration": "2026-06-03 15:19:13 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_crystal": {
+    "criteria": {
+      "has_ender_eye": "2026-06-03 15:19:26 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/ender_chest": {
+    "criteria": {
+      "has_ender_eye": "2026-06-03 15:19:26 -0400"
+    },
+    "done": true
+  },
+  "wands:recipes/magic_bag_2": {
+    "criteria": {
+      "has_ender_eye": "2026-06-03 15:19:26 -0400"
+    },
+    "done": true
+  },
+  "adorablehamsterpets:recipes/food/cheese": {
+    "criteria": {
+      "has_milk_bucket": "2026-06-03 15:22:12 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/glow_berry_custard": {
+    "criteria": {
+      "has_any_ingredient": "2026-06-03 15:22:12 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/pumpkin_soup": {
+    "criteria": {
+      "has_any_ingredient": "2026-06-03 15:22:12 -0400"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/food/cheese": {
+    "criteria": {
+      "has_milk": "2026-06-03 15:22:12 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/hot_cocoa": {
+    "criteria": {
+      "has_any_ingredient": "2026-06-03 15:22:12 -0400"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/integration/pancake_fd": {
+    "criteria": {
+      "has_tag_c_milk_2": "2026-06-03 15:22:12 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/milk_bottle": {
+    "criteria": {
+      "has_milk_bucket": "2026-06-03 15:22:12 -0400"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/lumisene_bucket": {
+    "criteria": {
+      "has_item_minecraft_bucket_2": "2026-06-03 15:22:30 -0400"
+    },
+    "done": true
+  },
+  "enderio:recipes/misc/basic_fluid_filter": {
+    "criteria": {
+      "has_ingredient": "2026-06-03 15:22:30 -0400"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2026-06-03 15:22:30 -0400"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/jerrycan": {
+    "criteria": {
+      "has_bucket": "2026-06-03 15:22:30 -0400"
+    },
+    "done": true
+  },
+  "vampirism:recipes/decorations/vampire/blood_pedestal": {
+    "criteria": {
+      "has_gold": "2026-06-03 15:29:58 -0400"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/gold_door": {
+    "criteria": {
+      "has_tag_c_ingots_gold_1": "2026-06-03 15:29:58 -0400"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/hourglass": {
+    "criteria": {
+      "has_tag_c_ingots_gold_2": "2026-06-03 15:29:58 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/golden_apple": {
+    "criteria": {
+      "has_gold_ingot": "2026-06-03 15:29:58 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_boots": {
+    "criteria": {
+      "has_gold_ingot": "2026-06-03 15:29:58 -0400"
+    },
+    "done": true
+  },
+  "adorablehamsterpets:recipes/combat/hamster_armor_gold_smithing": {
+    "criteria": {
+      "has_material": "2026-06-03 15:29:58 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/combat/golden_knife": {
+    "criteria": {
+      "has_gold_ingot": "2026-06-03 15:29:58 -0400"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/crafting/gold/plate": {
+    "criteria": {
+      "has_gold_ingot": "2026-06-03 15:29:58 -0400"
+    },
+    "done": true
+  },
+  "block_factorys_bosses:recipes/building_blocks/lighting/small_candles": {
+    "criteria": {
+      "has_item": "2026-06-03 15:29:58 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_lamp": {
+    "criteria": {
+      "has_glowstone": "2026-06-03 15:29:58 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/gold_block": {
+    "criteria": {
+      "has_gold_ingot": "2026-06-03 15:29:58 -0400"
+    },
+    "done": true
+  },
+  "block_factorys_bosses:recipes/building_blocks/lighting/candles_extra": {
+    "criteria": {
+      "has_item": "2026-06-03 15:29:58 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_helmet": {
+    "criteria": {
+      "has_gold_ingot": "2026-06-03 15:29:58 -0400"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/key": {
+    "criteria": {
+      "has_tag_c_ingots_gold_1": "2026-06-03 15:29:58 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/golden_axe": {
+    "criteria": {
+      "has_gold_ingot": "2026-06-03 15:29:58 -0400"
+    },
+    "done": true
+  },
+  "vampirism:recipes/combat/vampire/vampire_clothing_crown": {
+    "criteria": {
+      "has_gold": "2026-06-03 15:29:58 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/light_weighted_pressure_plate": {
+    "criteria": {
+      "has_gold_ingot": "2026-06-03 15:29:58 -0400"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/gold_gate": {
+    "criteria": {
+      "has_tag_c_ingots_gold_2": "2026-06-03 15:29:58 -0400"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/crafting/gold/rod": {
+    "criteria": {
+      "has_gold_ingot": "2026-06-03 15:29:58 -0400"
+    },
+    "done": true
+  },
+  "vampirism:recipes/decorations/vampire/candelabra_candles": {
+    "criteria": {
+      "has_gold": "2026-06-03 15:29:58 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_leggings": {
+    "criteria": {
+      "has_gold_ingot": "2026-06-03 15:29:58 -0400"
+    },
+    "done": true
+  },
+  "vampirism:recipes/weapontable/armor_of_swiftness_legs_enhanced": {
+    "criteria": {
+      "has_gold": "2026-06-03 15:29:58 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget": {
+    "criteria": {
+      "has_gold_ingot": "2026-06-03 15:29:58 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/golden_shovel": {
+    "criteria": {
+      "has_gold_ingot": "2026-06-03 15:29:58 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_chestplate": {
+    "criteria": {
+      "has_gold_ingot": "2026-06-03 15:29:58 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_sword": {
+    "criteria": {
+      "has_gold_ingot": "2026-06-03 15:29:58 -0400"
+    },
+    "done": true
+  },
+  "adorablehamsterpets:husbandry/expensive_therapy": {
+    "criteria": {
+      "has_diamond_armor": "2026-06-03 15:29:58 -0400"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/plate_gold_hammering": {
+    "criteria": {
+      "has_gold_ingot": "2026-06-03 15:29:58 -0400"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/crafting/gold/gear": {
+    "criteria": {
+      "has_gold_ingot": "2026-06-03 15:29:58 -0400"
+    },
+    "done": true
+  },
+  "vampirism:recipes/decorations/vampire/altar_infusion": {
+    "criteria": {
+      "has_gold": "2026-06-03 15:29:58 -0400"
+    },
+    "done": true
+  },
+  "vampirism:recipes/decorations/bat_cage": {
+    "criteria": {
+      "has_gold": "2026-06-03 15:29:58 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/golden_hoe": {
+    "criteria": {
+      "has_gold_ingot": "2026-06-03 15:29:58 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/golden_pickaxe": {
+    "criteria": {
+      "has_gold_ingot": "2026-06-03 15:29:58 -0400"
+    },
+    "done": true
+  },
+  "vampirism:recipes/weapontable/armor_of_swiftness_head_enhanced": {
+    "criteria": {
+      "has_gold": "2026-06-03 15:29:58 -0400"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/gold_bars": {
+    "criteria": {
+      "has_tag_c_ingots_gold_1": "2026-06-03 15:29:58 -0400"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/gold_trapdoor": {
+    "criteria": {
+      "has_tag_c_ingots_gold_1": "2026-06-03 15:29:58 -0400"
+    },
+    "done": true
+  },
+  "vampirism:recipes/decorations/vampire/candelabra": {
+    "criteria": {
+      "has_gold": "2026-06-03 15:29:58 -0400"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/doorbell": {
+    "criteria": {
+      "has_minecraft:gold_ingot": "2026-06-03 15:29:58 -0400"
+    },
+    "done": true
+  },
+  "mynethersdelight:recipes/misc/crafting/golden_egg": {
+    "criteria": {
+      "has_gold_ingot": "2026-06-03 15:29:58 -0400"
+    },
+    "done": true
+  },
+  "apotheosis:progression/frontier": {
+    "criteria": {
+      "rare_chest": "2026-06-03 15:31:35 -0400",
+      "rare_legs": "2026-06-03 15:31:30 -0400",
+      "rare_hand": "2026-06-03 15:31:01 -0400",
+      "rare_helm": "2026-06-03 15:31:11 -0400",
+      "rare_feet": "2026-06-03 15:44:30 -0400"
+    },
+    "done": true
+  },
+  "apotheosis:progression/summit": {
+    "criteria": {
+      "primal_chest": "2026-06-03 15:31:35 -0400",
+      "primal_hand": "2026-06-03 15:31:01 -0400",
+      "primal_feet": "2026-06-03 15:44:30 -0400",
+      "primal_legs": "2026-06-03 15:31:30 -0400",
+      "primal_helm": "2026-06-03 15:31:11 -0400"
+    },
+    "done": false
+  },
+  "apotheosis:progression/ascent": {
+    "criteria": {
+      "legendary_chest": "2026-06-03 15:31:35 -0400",
+      "legendary_legs": "2026-06-03 15:31:30 -0400",
+      "legendary_feet": "2026-06-03 15:44:30 -0400",
+      "legendary_helm": "2026-06-03 15:31:11 -0400",
+      "legendary_hand": "2026-06-03 15:31:01 -0400"
+    },
+    "done": false
+  },
+  "apotheosis:progression/pinnacle": {
+    "criteria": {
+      "esoteric_hand": "2026-06-03 15:31:01 -0400",
+      "esoteric_helm": "2026-06-03 15:31:11 -0400",
+      "esoteric_feet": "2026-06-03 15:44:30 -0400"
+    },
+    "done": false
+  },
+  "tombstone:adventure/strong_or_careful": {
+    "criteria": {
+      "coded_trigger": "2026-06-03 15:42:15 -0400"
+    },
+    "done": true
+  },
+  "tombstone:adventure/cancel_ghostly_shape": {
+    "criteria": {
+      "coded_trigger": "2026-06-03 15:42:21 -0400"
+    },
+    "done": true
+  },
+  "cataclysm:kill_all_bosses": {
+    "criteria": {
+      "cataclysm:ignis": "2026-06-03 15:43:57 -0400"
+    },
+    "done": false
+  },
+  "cataclysm:kill_ignis": {
+    "criteria": {
+      "ignis": "2026-06-03 15:43:57 -0400"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/building_blocks/sapphire_gem_to_sapphire_block": {
+    "criteria": {
+      "has_sapphire_gem": "2026-06-03 15:44:04 -0400"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/crafting/sapphire/block_from_gem": {
+    "criteria": {
+      "has_sapphire": "2026-06-03 15:44:04 -0400"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/spawner_extractor": {
+    "criteria": {
+      "has_spawner_agitator": "2026-06-03 15:44:04 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/elevator_pulley": {
+    "criteria": {
+      "has_item": "2026-06-03 15:44:30 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/logistics/brass_tunnel": {
+    "criteria": {
+      "has_item": "2026-06-03 15:44:30 -0400"
+    },
+    "done": true
+  },
+  "create:brass": {
+    "criteria": {
+      "0": "2026-06-03 15:44:30 -0400"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/crafting/brass/gear": {
+    "criteria": {
+      "has_brass_ingot": "2026-06-03 15:44:30 -0400"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/crafting/brass/nugget_from_ingot": {
+    "criteria": {
+      "has_brass_ingot": "2026-06-03 15:44:30 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/brass_hand": {
+    "criteria": {
+      "has_item": "2026-06-03 15:44:30 -0400"
+    },
+    "done": true
+  },
+  "tfmg:recipes/misc/crafting/materials/brass_smart_fluid_pipe": {
+    "criteria": {
+      "has_item": "2026-06-03 15:44:30 -0400"
+    },
+    "done": true
+  },
+  "tfmg:recipes/misc/crafting/materials/screwdriverfrom_brass": {
+    "criteria": {
+      "has_item": "2026-06-03 15:44:30 -0400"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/crafting/brass/rod": {
+    "criteria": {
+      "has_brass_ingot": "2026-06-03 15:44:30 -0400"
+    },
+    "done": true
+  },
+  "tfmg:recipes/misc/crafting/materials/brass_truss": {
+    "criteria": {
+      "has_item": "2026-06-03 15:44:30 -0400"
+    },
+    "done": true
+  },
+  "tfmg:recipes/misc/crafting/materials/brass_frame": {
+    "criteria": {
+      "has_item": "2026-06-03 15:44:30 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/decorations/brass_scaffolding_from_ingots_brass_stonecutting": {
+    "criteria": {
+      "has_ingots_brass": "2026-06-03 15:44:30 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/flywheel": {
+    "criteria": {
+      "has_item": "2026-06-03 15:44:30 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/decorations/brass_table_cloth_from_ingots_brass_stonecutting": {
+    "criteria": {
+      "has_ingots_brass": "2026-06-03 15:44:30 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/decorations/brass_bars_from_ingots_brass_stonecutting": {
+    "criteria": {
+      "has_ingots_brass": "2026-06-03 15:44:30 -0400"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/crafting/brass/plate": {
+    "criteria": {
+      "has_brass_ingot": "2026-06-03 15:44:30 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/decorations/brass_ladder_from_ingots_brass_stonecutting": {
+    "criteria": {
+      "has_ingots_brass": "2026-06-03 15:44:30 -0400"
+    },
+    "done": true
+  },
+  "tfmg:recipes/misc/crafting/materials/brass_fluid_valve": {
+    "criteria": {
+      "has_item": "2026-06-03 15:44:30 -0400"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/crafting/brass/block_from_ingot": {
+    "criteria": {
+      "has_brass_ingot": "2026-06-03 15:44:30 -0400"
+    },
+    "done": true
+  },
+  "tfmg:recipes/misc/crafting/materials/brass_pipe": {
+    "criteria": {
+      "has_item": "2026-06-03 15:44:30 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/placard": {
+    "criteria": {
+      "has_item": "2026-06-03 15:44:30 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/logistics/brass_funnel": {
+    "criteria": {
+      "has_item": "2026-06-03 15:44:30 -0400"
+    },
+    "done": true
+  },
+  "tfmg:recipes/misc/crafting/materials/brass_pipe_vertical": {
+    "criteria": {
+      "has_item": "2026-06-03 15:44:30 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/curiosities/peculiar_bell": {
+    "criteria": {
+      "has_item": "2026-06-03 15:44:30 -0400"
+    },
+    "done": true
+  },
+  "create_enchantment_industry:recipes/printer": {
+    "criteria": {
+      "brass": "2026-06-03 15:44:30 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/attribute_filter": {
+    "criteria": {
+      "has_item": "2026-06-03 15:44:30 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/materials/brass_block_from_compacting": {
+    "criteria": {
+      "has_item": "2026-06-03 15:44:30 -0400"
+    },
+    "done": true
+  },
+  "tfmg:recipes/misc/crafting/materials/brass_mechanical_pump": {
+    "criteria": {
+      "has_item": "2026-06-03 15:44:30 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/materials/brass_nugget_from_decompacting": {
+    "criteria": {
+      "has_item": "2026-06-03 15:44:30 -0400"
+    },
+    "done": true
+  },
+  "minecolonies:recipes/misc/supplycampdeployer": {
+    "criteria": {
+      "has_chest": "2026-06-03 17:17:25 -0400"
+    },
+    "done": true
+  },
+  "incendium:technical/sentrys_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2026-06-03 20:28:07 -0400"
+    },
+    "done": false
+  },
+  "incendium:technical/on_block": {
+    "criteria": {
+      "log_spam_fixer": "2026-06-03 20:28:07 -0400"
+    },
+    "done": false
+  },
+  "incendium:technical/feed_ghastling": {
+    "criteria": {
+      "log_spam_fixer": "2026-06-03 20:28:07 -0400"
+    },
+    "done": false
+  },
+  "incendium:technical/multiplex_crossbow": {
+    "criteria": {
+      "log_spam_fixer": "2026-06-03 20:28:07 -0400"
+    },
+    "done": false
+  },
+  "incendium:technical/on_player_hurt": {
+    "criteria": {
+      "log_spam_fixer": "2026-06-03 20:28:07 -0400"
+    },
+    "done": false
+  },
+  "incendium:technical/on_kill": {
+    "criteria": {
+      "log_spam_fixer": "2026-06-03 20:28:07 -0400"
+    },
+    "done": false
+  },
+  "incendium:technical/on_inventory_change": {
+    "criteria": {
+      "log_spam_fixer": "2026-06-03 20:28:07 -0400"
+    },
+    "done": false
+  },
+  "incendium:technical/holy_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2026-06-03 20:28:07 -0400"
+    },
+    "done": false
+  },
+  "incendium:technical/inventory/firestorm": {
+    "criteria": {
+      "log_spam_fixer": "2026-06-03 20:28:07 -0400"
+    },
+    "done": false
+  },
+  "incendium:technical/give_ghastling": {
+    "criteria": {
+      "log_spam_fixer": "2026-06-03 20:28:07 -0400"
+    },
+    "done": false
+  },
+  "incendium:technical/inventory/sentrys_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2026-06-03 20:28:07 -0400"
+    },
+    "done": false
+  },
+  "incendium:technical/firestorm": {
+    "criteria": {
+      "log_spam_fixer": "2026-06-03 20:28:07 -0400"
+    },
+    "done": false
+  },
+  "ae2:recipes/misc/network/parts/monitors_storage": {
+    "criteria": {
+      "has_illuminated_panel": "2026-06-03 20:03:18 -0400"
+    },
+    "done": true
+  },
+  "simulated:recipes/misc/contraption_diagram": {
+    "criteria": {
+      "has_ingredient": "2026-06-03 20:07:09 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/decorations/oak_cabinet": {
+    "criteria": {
+      "has_oak_trapdoor": "2026-06-03 19:57:10 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_bricks_from_moss_block": {
+    "criteria": {
+      "has_moss_block": "2026-06-03 19:57:05 -0400"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/parts/terminals": {
+    "criteria": {
+      "has_illuminated_panel": "2026-06-03 20:03:18 -0400"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/parts/panels_semi_dark_monitor_alt": {
+    "criteria": {
+      "has_dark_monitor": "2026-06-03 20:03:18 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_from_moss_block": {
+    "criteria": {
+      "has_moss_block": "2026-06-03 19:57:05 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/moss_carpet": {
+    "criteria": {
+      "has_moss_block": "2026-06-03 19:57:05 -0400"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/lunch_basket": {
+    "criteria": {
+      "has_tag_minecraft_wool_carpets_1": "2026-06-03 20:06:16 -0400"
+    },
+    "done": true
+  },
+  "create_ltab:cold": {
+    "criteria": {
+      "snow": "2026-06-03 19:58:42 -0400"
+    },
+    "done": true
+  },
+  "simulated:applied_kinematics": {
+    "criteria": {
+      "0": "2026-06-03 20:07:09 -0400"
+    },
+    "done": true
+  },
+  "mekanism:machine_security": {
+    "criteria": {
+      "security_desk": "2026-06-03 19:52:06 -0400"
     },
     "done": true
   },
