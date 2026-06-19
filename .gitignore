@@ -1,8 +1,8 @@
 # Minecraft Modpack Gitignore
 
-# Mods and Saves (Included as requested)
-# minecraft/mods/*
-# minecraft/saves/
+# Mods and Saves
+minecraft/mods/
+minecraft/saves/
 
 # Game data and temporary files
 # minecraft/saves/

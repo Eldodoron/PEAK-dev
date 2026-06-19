@@ -309,19 +309,9 @@ ServerEvents.recipes(event => {
         'kubejs:infinity_fragment'
     ]);
 
-    // 4 Infinity Fragments â†’ 1 Netherite Scrap
-    event.shapeless('minecraft:netherite_scrap', [
-        'kubejs:infinity_fragment', 'kubejs:infinity_fragment',
-        'kubejs:infinity_fragment', 'kubejs:infinity_fragment'
-    ]);
 
-    // 8 Infinity Fragments â†’ 1 Draconium Ingot
-    event.shapeless('draconicevolution:draconium_ingot', [
-        'kubejs:infinity_fragment', 'kubejs:infinity_fragment',
-        'kubejs:infinity_fragment', 'kubejs:infinity_fragment',
-        'kubejs:infinity_fragment', 'kubejs:infinity_fragment',
-        'kubejs:infinity_fragment', 'kubejs:infinity_fragment'
-    ]);
+
+
 
     // ==========================================
     // SECTION 7: FINAL POLISH â€” ADDITIONAL GATES

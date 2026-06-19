@@ -1,0 +1,6 @@
+{
+  "enabled": true,
+  "limitBreakMode": false,
+  "smoothness": 0.95,
+  "maxDistance": 8.0
+}

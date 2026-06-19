@@ -5,6 +5,8 @@
 	allow_sword_hail = false
 	#Should Hollow Crystal break any projectiles it touches? Default is true
 	hollow_crystal_break_projectiles = true
+	#What is the internal cooldown (in ticks) for Aspect of the Shulker to trigger? Default is 20
+	shulker_aspect_internal_cooldown = 20
 
 [Crafting]
 	#Should Infused Obsidian Fragments be obtainable through the in-world method? Default is true

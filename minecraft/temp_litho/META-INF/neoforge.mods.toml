@@ -1,0 +1,25 @@
+modLoader = "javafml"
+loaderVersion = "[1,)"
+license = "MIT"
+accessTransformers = [  ]
+
+[dependencies]
+lithostitched = [  ]
+
+[[mixins]]
+config = "lithostitched.mixins.json"
+
+[[mixins]]
+config = "lithostitched.21.1.mixins.json"
+
+[[mixins]]
+config = "lithostitched.neoforge.mixins.json"
+
+[[mods]]
+modId = "lithostitched"
+version = "1.7.9"
+displayName = "Lithostitched"
+description = "A library mod with new configurability and compatibility enhancements for worldgen"
+logoFile = "pack.png"
+authors = "Apollo"
+modproperties = {  }

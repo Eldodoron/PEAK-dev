@@ -1,25 +1,25 @@
-filename = 'not_enough_glyphs-1.21.1-4.4.0.jar'
+filename = 'not_enough_glyphs-1.21.1-4.5.1.jar'
 name = 'Not Enough Glyphs'
 side = ''
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'not_enough_glyphs-1.21.1-4.4.0'
+x-prismlauncher-version-number = 'not_enough_glyphs-1.21.1-4.5.1'
 
 [download]
-hash = 'ab184795e98b8d2eb35d0135d87ce44bd2000111'
+hash = '9540858c34c5858b63090b8afb9dacb40318f45d'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 8064668
+file-id = 8230919
 project-id = 1023517
-
-[[x-prismlauncher-dependencies]]
-addonId = '1453853'
-type = 'EMBEDDED'
 
 [[x-prismlauncher-dependencies]]
 addonId = '401955'
 type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1453853'
+type = 'EMBEDDED'

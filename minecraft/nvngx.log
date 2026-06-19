@@ -1,0 +1,130 @@
+[2026-06-18 19:20:15] [NGXSafeInitializeLog:139] App logging hooks successfully initialized
+[2026-06-18 19:20:15] [NGXGetPathUsingQAI:512] Path to driverStore found using QAI: C:\Windows\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_c8bc842500fab35b
+[2026-06-18 19:20:15] [NGXGetPath:1045] using path for models: C:\ProgramData\NVIDIA\NGX\models
+[2026-06-18 19:20:15] [NGXGetPath:1045] using path for models: C:\ProgramData\NVIDIA\NGX\models
+[2026-06-18 19:20:15] [ModifyExistingFolderDACL:211] updated access control list for NGX cache (NGX cache should now be usable by all authenticated users)
+[2026-06-18 19:20:15] [NGXCreateModelsFolder:1072] model folder created: C:\ProgramData\NVIDIA\NGX\models
+[2026-06-18 19:20:15] [NGXLoadConfig:1144] [sl_sdk_0]
+[2026-06-18 19:20:15] [NGXLoadConfig:1150] app_E658703=2.11.0
+[2026-06-18 19:20:15] [NGXLoadConfig:1144] [sl_common_0]
+[2026-06-18 19:20:15] [NGXLoadConfig:1150] app_E658703=2.11.0
+[2026-06-18 19:20:15] [NGXLoadConfig:1144] [sl_latewarp_0]
+[2026-06-18 19:20:15] [NGXLoadConfig:1150] app_E658703=0.0.0
+[2026-06-18 19:20:15] [NGXLoadConfig:1144] [sl_deepdvc_0]
+[2026-06-18 19:20:15] [NGXLoadConfig:1150] app_E658703=2.11.0
+[2026-06-18 19:20:15] [NGXLoadConfig:1144] [sl_dlss_0]
+[2026-06-18 19:20:15] [NGXLoadConfig:1150] app_E658703=2.11.0
+[2026-06-18 19:20:15] [NGXLoadConfig:1144] [sl_dlss_d_0]
+[2026-06-18 19:20:15] [NGXLoadConfig:1150] app_E658703=2.11.0
+[2026-06-18 19:20:15] [NGXLoadConfig:1144] [sl_dlss_g_0]
+[2026-06-18 19:20:15] [NGXLoadConfig:1150] app_E658703=2.11.0
+[2026-06-18 19:20:15] [NGXLoadConfig:1144] [sl_nis_0]
+[2026-06-18 19:20:15] [NGXLoadConfig:1150] app_E658703=2.11.0
+[2026-06-18 19:20:15] [NGXLoadConfig:1144] [sl_nvperf_0]
+[2026-06-18 19:20:15] [NGXLoadConfig:1150] app_E658703=2.11.0
+[2026-06-18 19:20:15] [NGXLoadConfig:1144] [truehdr]
+[2026-06-18 19:20:15] [NGXLoadConfig:1150] app_E658703=1.1.0
+[2026-06-18 19:20:15] [NGXLoadConfig:1144] [sl_pcl_0]
+[2026-06-18 19:20:15] [NGXLoadConfig:1150] app_E658703=2.11.0
+[2026-06-18 19:20:15] [NGXLoadConfig:1144] [sl_reflex_0]
+[2026-06-18 19:20:15] [NGXLoadConfig:1150] app_E658703=2.11.0
+[2026-06-18 19:20:15] [NGXLoadConfig:1144] [dlss_override]
+[2026-06-18 19:20:15] [NGXLoadConfig:1150] app_E658700=310.6.0
+[2026-06-18 19:20:15] [NGXLoadConfig:1144] [dlss]
+[2026-06-18 19:20:15] [NGXLoadConfig:1150] app_B9DB4F4=1.0.108
+[2026-06-18 19:20:15] [NGXLoadConfig:1150] app_E658701=0.0.0
+[2026-06-18 19:20:15] [NGXLoadConfig:1150] app_E658702=0.0.0
+[2026-06-18 19:20:15] [NGXLoadConfig:1150] app_B9C3560=2.1.201
+[2026-06-18 19:20:15] [NGXLoadConfig:1150] app_B9FD6C0=1.0.108
+[2026-06-18 19:20:15] [NGXLoadConfig:1150] app_E658700=310.6.0
+[2026-06-18 19:20:15] [NGXLoadConfig:1150] app_B9FEB50=1.0.108
+[2026-06-18 19:20:15] [NGXLoadConfig:1150] app_B9FF4BC=1.0.108
+[2026-06-18 19:20:15] [NGXLoadConfig:1150] app_B9FD524=1.0.108
+[2026-06-18 19:20:15] [NGXLoadConfig:1150] app_B9CB0B8=1.0.108
+[2026-06-18 19:20:15] [NGXLoadConfig:1150] app_B9E26B0=2.1.28
+[2026-06-18 19:20:15] [NGXLoadConfig:1150] app_B9D48D0=1.0.108
+[2026-06-18 19:20:15] [NGXLoadConfig:1150] app_E99B5EC=1.2.109
+[2026-06-18 19:20:15] [NGXLoadConfig:1150] app_B9DFA64=1.0.108
+[2026-06-18 19:20:15] [NGXLoadConfig:1150] app_B9D6F08=1.0.108
+[2026-06-18 19:20:15] [NGXLoadConfig:1150] app_B9DF510=1.3.106
+[2026-06-18 19:20:15] [NGXLoadConfig:1150] app_B9D2F5C=1.2.110
+[2026-06-18 19:20:15] [NGXLoadConfig:1150] app_B9D7388=1.0.108
+[2026-06-18 19:20:15] [NGXLoadConfig:1150] app_B9F5618=2.1.29
+[2026-06-18 19:20:15] [NGXLoadConfig:1150] app_B9DAE68=1.2.109
+[2026-06-18 19:20:15] [NGXLoadConfig:1150] app_B9CF688=2.2.15
+[2026-06-18 19:20:15] [NGXLoadConfig:1150] app_B9D8C54=1.2.109
+[2026-06-18 19:20:15] [NGXLoadConfig:1150] app_B9D3EF0=2.1.28
+[2026-06-18 19:20:15] [NGXLoadConfig:1150] app_B9FACDC=2.1.201
+[2026-06-18 19:20:15] [NGXLoadConfig:1150] app_F7361DC=2.1.28
+[2026-06-18 19:20:15] [NGXLoadConfig:1150] app_B9BF564=2.1.201
+[2026-06-18 19:20:15] [NGXLoadConfig:1150] app_B9B0430=2.1.28
+[2026-06-18 19:20:15] [NGXLoadConfig:1150] app_B9393FC=2.1.201
+[2026-06-18 19:20:15] [NGXLoadConfig:1144] [dlssd]
+[2026-06-18 19:20:15] [NGXLoadConfig:1150] app_E658700=310.6.0
+[2026-06-18 19:20:15] [NGXLoadConfig:1144] [dlssg]
+[2026-06-18 19:20:15] [NGXLoadConfig:1150] app_E658700=310.6.0
+[2026-06-18 19:20:15] [NGXLoadConfig:1144] [dlisp]
+[2026-06-18 19:20:15] [NGXLoadConfig:1150] app_B9CF688=2.1.15
+[2026-06-18 19:20:15] [NGXLoadConfig:1150] app_E99B5EC=1.2.102
+[2026-06-18 19:20:15] [NGXLoadConfig:1150] app_E658703=310.0.0
+[2026-06-18 19:20:15] [NGXLoadConfig:1150] app_B9D8C54=1.2.106
+[2026-06-18 19:20:15] [NGXLoadConfig:1150] app_B9D2F5C=1.2.106
+[2026-06-18 19:20:15] [NGXLoadConfig:1150] app_B9DF510=1.3.101
+[2026-06-18 19:20:15] [NGXLoadConfig:1150] app_B9DAE68=1.2.106
+[2026-06-18 19:20:15] [NGXLoadConfig:1144] [vsr]
+[2026-06-18 19:20:15] [NGXLoadConfig:1150] app_E658703=1.6.0
+[2026-06-18 19:20:15] [`anonymous-namespace'::LoadMappingFileData:268] listItem.engineVersion .* listItem.genericCMSId 86aa7b4
+[2026-06-18 19:20:15] [`anonymous-namespace'::LoadMappingFileData:282]  project id 3F9D696D4363312194B0ECB2671E899F cms id B9FBD50
+[2026-06-18 19:20:15] [`anonymous-namespace'::LoadMappingFileData:268] listItem.engineVersion .* listItem.genericCMSId 8618954
+[2026-06-18 19:20:15] [`anonymous-namespace'::LoadMappingFileData:268] listItem.engineVersion .* listItem.genericCMSId b9b05cc
+[2026-06-18 19:20:15] [`anonymous-namespace'::LoadMappingFileData:268] listItem.engineVersion .* listItem.genericCMSId 876232c
+[2026-06-18 19:20:15] [MapProjectId:1878] Found cms id 876232c for engine: custom engineVersion 11.45.14 projectID 3a799712-b54a-407c-82b0-eb3366f0f1e3
+[2026-06-18 19:20:15] [NGXDRSInit:182] NvAPI_DRS_FindApplicationByName -166
+[2026-06-18 19:20:15] [NGXInitContext:245] called from module libSuperResolutionDLSS+win64+release.dll at C:\Users\wamb9\MINECRAFT\Prism\Instances\PEAK dev\minecraft\config\super_resolution\libraries
+[2026-06-18 19:20:15] [`anonymous-namespace'::SnippetLocationInfo::load:713] NGXLoadFromPath failed: -1160773628
+[2026-06-18 19:20:15] [`anonymous-namespace'::SnippetLocationInfo::load:713] NGXLoadFromPath failed: -1160773628
+[2026-06-18 19:20:15] [NGXReportStatusFeedback:1076] Override shared memory was opened successfully
+[2026-06-18 19:20:15] [NGXReportStatusFeedback:1088] Override shared memory was mapped successfully
+[2026-06-18 19:20:15] [NGXReportStatusFeedback:1117] Override feedback found available slot 0
+[2026-06-18 19:20:15] [`anonymous-namespace'::SnippetLocationInfo::load:713] NGXLoadFromPath failed: -1160773628
+[2026-06-18 19:20:15] [NGXSecureLoadFeature:1345] Feature dlss failed to load (cmsid 141959980) from cache (location: C:\ProgramData\NVIDIA\NGX\models\dlss\versions\0\files, name: 160_876232C.bin)
+[2026-06-18 19:20:15] [`anonymous-namespace'::SnippetLocationInfo::load:713] NGXLoadFromPath failed: -1160773628
+[2026-06-18 19:20:15] [NGXSecureLoadFeature:1345] Feature dlss failed to load (cmsid 241534723) from cache (location: C:\ProgramData\NVIDIA\NGX\models\dlss\versions\0\files, name: 160_E658703.bin)
+[2026-06-18 19:20:16] [NGXSecureLoadFeature:1309] Feature dlss override enabled
+[2026-06-18 19:20:16] [NGXSecureLoadFeature:1315] Found dlss snippet at C:\ProgramData\NVIDIA\NGX\models\dlss\versions\20317696\files
+[2026-06-18 19:20:16] [`anonymous-namespace'::SnippetLocationInfo::load:713] NGXLoadFromPath failed: -1160773628
+[2026-06-18 19:20:16] [NGXSecureLoadFeature:1459] app 876232C feature dlss snippet: C:\ProgramData\NVIDIA\NGX\models\dlss\versions\20317696\files/160_E658700.bin version: 310.6.0
+[2026-06-18 19:20:16] [`anonymous-namespace'::SnippetLocationInfo::load:713] NGXLoadFromPath failed: -1160773628
+[2026-06-18 19:20:16] [`anonymous-namespace'::SnippetLocationInfo::load:713] NGXLoadFromPath failed: -1160773628
+[2026-06-18 19:20:16] [`anonymous-namespace'::SnippetLocationInfo::load:713] NGXLoadFromPath failed: -1160773628
+[2026-06-18 19:20:16] [`anonymous-namespace'::SnippetLocationInfo::load:713] NGXLoadFromPath failed: -1160773628
+[2026-06-18 19:20:16] [`anonymous-namespace'::SnippetLocationInfo::load:713] NGXLoadFromPath failed: -1160773628
+[2026-06-18 19:20:16] [`anonymous-namespace'::SnippetLocationInfo::load:713] NGXLoadFromPath failed: -1160773628
+[2026-06-18 19:20:16] [`anonymous-namespace'::SnippetLocationInfo::load:713] NGXLoadFromPath failed: -1160773628
+[2026-06-18 19:20:16] [`anonymous-namespace'::SnippetLocationInfo::load:713] NGXLoadFromPath failed: -1160773628
+[2026-06-18 19:20:16] [`anonymous-namespace'::SnippetLocationInfo::load:713] NGXLoadFromPath failed: -1160773628
+[2026-06-18 19:20:16] [`anonymous-namespace'::SnippetLocationInfo::load:713] NGXLoadFromPath failed: -1160773628
+[2026-06-18 19:20:16] [`anonymous-namespace'::SnippetLocationInfo::load:713] NGXLoadFromPath failed: -1160773628
+[2026-06-18 19:20:16] [`anonymous-namespace'::SnippetLocationInfo::load:713] NGXLoadFromPath failed: -1160773628
+[2026-06-18 19:20:16] [`anonymous-namespace'::SnippetLocationInfo::load:713] NGXLoadFromPath failed: -1160773628
+[2026-06-18 19:20:16] [`anonymous-namespace'::SnippetLocationInfo::load:713] NGXLoadFromPath failed: -1160773628
+[2026-06-18 19:20:16] [`anonymous-namespace'::SnippetLocationInfo::load:713] NGXLoadFromPath failed: -1160773628
+[2026-06-18 19:20:16] [`anonymous-namespace'::SnippetLocationInfo::load:713] NGXLoadFromPath failed: -1160773628
+[2026-06-18 19:20:16] [`anonymous-namespace'::SnippetLocationInfo::load:713] NGXLoadFromPath failed: -1160773628
+[2026-06-18 19:20:16] [`anonymous-namespace'::SnippetLocationInfo::load:713] NGXLoadFromPath failed: -1160773628
+[2026-06-18 19:20:16] [`anonymous-namespace'::SnippetLocationInfo::load:713] NGXLoadFromPath failed: -1160773628
+[2026-06-18 19:20:16] [`anonymous-namespace'::SnippetLocationInfo::load:713] NGXLoadFromPath failed: -1160773628
+[2026-06-18 19:20:16] [`anonymous-namespace'::SnippetLocationInfo::load:713] NGXLoadFromPath failed: -1160773628
+[2026-06-18 19:20:16] [`anonymous-namespace'::SnippetLocationInfo::load:713] NGXLoadFromPath failed: -1160773628
+[2026-06-18 19:20:16] [`anonymous-namespace'::SnippetLocationInfo::load:713] NGXLoadFromPath failed: -1160773628
+[2026-06-18 19:20:16] [`anonymous-namespace'::SnippetLocationInfo::load:713] NGXLoadFromPath failed: -1160773628
+[2026-06-18 19:20:16] [`anonymous-namespace'::SnippetLocationInfo::load:713] NGXLoadFromPath failed: -1160773628
+[2026-06-18 19:20:16] [`anonymous-namespace'::SnippetLocationInfo::load:713] NGXLoadFromPath failed: -1160773628
+[2026-06-18 19:20:16] [`anonymous-namespace'::SnippetLocationInfo::load:713] NGXLoadFromPath failed: -1160773628
+[2026-06-18 19:20:16] [`anonymous-namespace'::SnippetLocationInfo::load:713] NGXLoadFromPath failed: -1160773628
+[2026-06-18 19:20:16] [`anonymous-namespace'::SnippetLocationInfo::load:713] NGXLoadFromPath failed: -1160773628
+[2026-06-18 19:20:16] [`anonymous-namespace'::SnippetLocationInfo::load:713] NGXLoadFromPath failed: -1160773628
+[2026-06-18 19:20:16] [`anonymous-namespace'::SnippetLocationInfo::load:713] NGXLoadFromPath failed: -1160773628
+[2026-06-18 19:20:16] [`anonymous-namespace'::SnippetLocationInfo::load:713] NGXLoadFromPath failed: -1160773628
+[2026-06-18 19:20:16] [NVSDK_NGX_CreateFeature_Validate:730] app id is 141959980 
+[2026-06-18 19:20:16] [NGXOverrideStatusCallback:2020] Feature [SuperSampling] Override Reported: ModelPreset, Value: 11, Requested: Yes, Applied: Yes, Is Latest: Yes

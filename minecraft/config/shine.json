@@ -1,11 +1,11 @@
 {
-  "enabled": false,
-  "strength": 8.0,
+  "enabled": true,
+  "strength": 2.0,
   "threshold": 0.15,
-  "radius": 500.0,
+  "radius": 352.0,
   "radiusScaleVersion": 2,
   "blurPassCount": 2,
-  "bloomDistance": 256.0,
+  "bloomDistance": 140.0,
   "distanceStability": 0.3,
   "highlightClamp": 0.28,
   "softKnee": 0.2,
@@ -22,7 +22,6 @@
     "minecraft:large_amethyst_bud": 100.0,
     "minecraft:medium_amethyst_bud": 100.0,
     "minecraft:small_amethyst_bud": 100.0,
-    "minecraft:glow_lichen": 400.0,
     "minecraft:warped_stem": 100.0,
     "minecraft:warped_fungus": 300.0,
     "minecraft:nether_portal": 75.0,
@@ -56,7 +55,10 @@
     "minecraft:soul_campfire": 0.0,
     "minecraft:smoker": 0.0,
     "minecraft:blast_furnace": 0.0,
-    "minecraft:furnace": 0.0
+    "minecraft:furnace": 0.0,
+    "minecraft:brown_mushroom": 0.0,
+    "minecraft:glow_lichen": 251.0,
+    "lootr:lootr_barrel": 52.0
   },
   "entityTextureStrengthOverrides": {
     "minecraft:textures/entity/enderman/enderman_eyes.png": 428.0,

@@ -19,6 +19,7 @@ Items that require validation, performance testing, or runtime behavior checks.
 | **Rain Lag** | Conduct performance tests specifically targeted at rain-related lag and FPS drops. | `[ ] Pending` |
 | **Netherite Helmet Enchanting** | Investigate why the Netherite Helmet is not enchanting properly. Check mod compatibility and values. | `[ ] Pending` |
 | **All Enchantments Audit** | Conduct a thorough check of all enchantments in the pack to ensure they apply and scale correctly. | `[ ] Pending` |
+| **Tooltip Overhaul** | Test and verify the mod's features, performance, and customization in the future. | `[ ] Pending` |
 
 ---
 

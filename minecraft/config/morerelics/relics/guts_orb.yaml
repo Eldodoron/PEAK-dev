@@ -42,7 +42,7 @@ lootData:
         - .*
         tables:
         - '[\w]+:chests\/[\w_\/]*(bastion|piglin)[\w_\/]*'
-        weight: 500
+        weight: 501
     -   biomes:
         - '[\w]+:.*(desert|badlands|outback)[\w_\/]*'
         dimensions:
@@ -57,4 +57,4 @@ lootData:
         tables:
         - '[\w]+:chests\/[\w_\/]*(nether|infern|hell|chasm|lava|magma|m[eo]lt|fire|flame|blaze|ember|pyre)[\w_\/]*'
         - minecraft:chests/ruined_portal
-        weight: 500
+        weight: 501

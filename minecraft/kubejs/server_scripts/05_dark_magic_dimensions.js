@@ -159,15 +159,10 @@ ServerEvents.recipes(event => {
     });
 
     // --- GARLIC PROCESSING via Create ---
-    // Garlic can be crushed in Create for concentrated garlic
-    // (Used in anti-vampire technology)
-    event.recipes.create.milling([
-        'vampirism:item_garlic',
-        CreateItem.of('vampirism:item_garlic', 0.5)
-    ], 'vampirism:item_garlic');
+    // (Recipe removed per user request)
 
     // ==========================================
-    // SECTION 4: DEEPER DARKER Ã¢â‚¬â€ ENDGAME DIMENSION
+    // SECTION 4: DEEPER DARKER Ã¢â‚¬â€  ENDGAME DIMENSION
     // Materials here gate Draconic Evolution Wyvern Tier
     // ==========================================
 

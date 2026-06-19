@@ -1,0 +1,6 @@
+{
+    "pack": {
+        "description": "A configuration datapack for the Boss Rifts Compat+ mod that allows you to toggle whichever boss you choose to not generate rifts when they are killed.",
+        "pack_format": 48
+    }
+}

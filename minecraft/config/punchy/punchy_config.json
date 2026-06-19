@@ -35,14 +35,22 @@
   "firstPersonModelHideEnabled": true,
   "firstPersonModelHidePitch": 60.0,
   "itemBlacklist": [
+    "tfmg:advanced_potato_cannon",
+    "aeronautics:mounted_potato_cannon",
+    "create:potato_cannon",
+    "tfmg:quad_potato_cannon",
     "cataclysm:wrath_of_the_desert",
     "cataclysm:cursed_bow",
     "artifacts:umbrella"
   ],
   "blacklistApplyDualHanded": {
+    "tfmg:advanced_potato_cannon": false,
+    "aeronautics:mounted_potato_cannon": false,
+    "create:potato_cannon": false,
+    "tfmg:quad_potato_cannon": false,
     "cataclysm:wrath_of_the_desert": true,
     "cataclysm:cursed_bow": false,
-    "artifacts:umbrella": true
+    "artifacts:umbrella": false
   },
   "animationPackSelections": {},
   "animationPackTypeSelections": {},

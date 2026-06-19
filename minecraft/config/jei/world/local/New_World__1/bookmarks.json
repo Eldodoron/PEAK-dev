@@ -1,5 +1,20 @@
 [
   {"version":2},
   {"recipe":"mekanism:processing/netherite/dirty_scrap_to_scrap","recipeType":"mekanism:enriching","bookmarkType":"RECIPE"},
-  {"ingredient":{"id":"malum:fused_consciousness"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+  {"ingredient":{"id":"malum:fused_consciousness"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:enchanted_golden_apple"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:dragon_egg"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"nadir:cataclysmic_material"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"nadir:stellar_material"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"nadir:ancient_material"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"apotheosis:mythic_material"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"apotheosis:rare_material"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"sophisticatedbackpacks:netherite_backpack"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"sophisticatedbackpacks:diamond_backpack"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"sophisticatedbackpacks:gold_backpack"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"sophisticatedbackpacks:iron_backpack"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"sophisticatedbackpacks:copper_backpack"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"sophisticatedbackpacks:backpack"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"avaritia:infinity_ingot"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"draconicevolution:chaotic_sword","components":{"draconicevolution:module_entities":[],"draconicevolution:config_properties":[],"draconicevolution:provider_identity":[-1975102354,1580811741,-1226383759,-1221431768],"draconicevolution:attribute_data":{"damage":16.5,"speed":1.0}}},"type":"item_stack","bookmarkType":"INGREDIENT"}
 ]

@@ -1,18 +1,18 @@
-filename = 'insanelib-2.4.15.0.jar'
+filename = 'insanelib-2.4.16.0.jar'
 name = 'InsaneLib'
-side = 'both'
+side = ''
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '2.4.15.0'
+x-prismlauncher-version-number = '2.4.16.0'
 
 [download]
-hash = 'd83a8a6ef829cfedeee3effc36cbb96848338259e65bc91d0c5dcf85ce409aeaf5585824ad0b466a0b0c97740ee02a6d8ff5db7ce1842325a6987dd38f9731f6'
+hash = 'ed104f62efff2dcd7c04a6b42d59555c2d44d4920e1988ae5150901fef9254f122c0e1e161574b1632e9d24aa9b0f49c088e588012667cd87842cda8bff67219'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/USZyvOJq/versions/71Gfk8bH/insanelib-2.4.15.0.jar'
+url = 'https://cdn.modrinth.com/data/USZyvOJq/versions/cmQwVefE/insanelib-2.4.16.0.jar'
 
 [update.modrinth]
 mod-id = 'USZyvOJq'
-version = '71Gfk8bH'
+version = 'cmQwVefE'

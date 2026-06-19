@@ -28,6 +28,10 @@
 	# Default: 16.0
 	# Range: 0.0 ~ 1024.0
 	stressImpact = 16.0
+	#Yaw-rate damping strength, as the fraction of yaw rate bled off per second at full fleet authority. 1.0 settles a spin in ~1-2 seconds. 0.0 disables it.
+	# Default: 1.0
+	# Range: 0.0 ~ 20.0
+	yawDamping = 1.0
 
 #Settings for the Joystick block.
 [joystick]
@@ -35,3 +39,17 @@
 	# Default: 30.0
 	# Range: 1.0 ~ 500.0
 	pixelsPerStep = 30.0
+
+#Settings for the Mechanical Servo block.
+[mechanical_servo]
+	#Stress impact in SU per RPM. Applied whenever the input shaft has nonzero speed, including while the servo is held at its target.
+	# Default: 4.0
+	# Range: 0.0 ~ 1024.0
+	stressImpact = 4.0
+
+#Settings for the Stepper Servo block.
+[stepper_servo]
+	#Stress impact in SU per RPM. Applied whenever the input shaft has nonzero speed, including while the servo is held at its target.
+	# Default: 4.0
+	# Range: 0.0 ~ 1024.0
+	stressImpact = 4.0

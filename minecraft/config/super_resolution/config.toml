@@ -1,0 +1,74 @@
+#Enable super-resolution upscaling
+enable_upscale = true
+#Upscale ratio factor
+upscale_ratio = 1.0
+#Algorithm used for upscaling
+upscale_algo = "dlss"
+#Sharpness adjustment factor
+sharpness = 0.5
+#Screen capture mode
+capture_mode = "A"
+#Pause game when GUI is open
+pause_game_on_gui = false
+#List of post-processing chains to skip injection
+inject_post_chain_blacklist = []
+interop_sync_mode = "LowLatency"
+#Interface theme
+theme = "Light"
+#Primary color for the interface theme
+theme_color = "#78DC77"
+#Color scheme variant for the interface theme
+theme_scheme_variant = "CONTENT"
+#Contrast level for the interface theme (-1.0 to 1.0)
+theme_contrast_level = 0.2
+#This option enables the use of a compatibility shader compiler for compiling shaders when set to true.
+compat_shader_compiler = false
+#Force disable shader pack compatibility mode.
+force_disable_shader_compat = false
+#Disable Super Resolution when using vanilla rendering.
+disable_upscale_on_vanilla = false
+#The precision of the internal texture format affects video memory consumption: higher precision results in greater consumption, while lower precision leads to smaller consumption. Note: Excessively low precision may cause noticeable color banding in the image.
+internal_texture_format = "AUTO"
+
+[debug]
+	#Dump shaders for debugging purposes
+	debug_dump_shader = false
+	#Skip Vulkan initialization (auto-set based on OS)
+	skip_init_vulkan = false
+	#Enable RenderDoc integration (auto-disabled on incompatible OS)
+	enable_render_doc = false
+	#Enable ImGui debug interface (auto-disabled on incompatible OS)
+	enable_imgui = false
+	#Enable debug mode
+	enable_debug = false
+	#Enable more detailed performance profiling for advanced analysis.
+	enable_detailed_profiling = false
+
+[experiment]
+	#Enable experimental features
+	enable_experimental_features = true
+	#Generate motion vectors for advanced effects
+	generate_motion_vectors = false
+
+[dataset]
+	enable_dataset_generator = false
+	dataset_path = "msrDataset"
+
+#Algorithm special configuration
+[special]
+
+	[special.fsr1]
+		fp16 = true
+
+	[special.fsr2]
+		version = "V233"
+		fp16 = true
+
+	[special.fsr]
+		version = "V2"
+
+	[special.dlss]
+		render_preset = "K"
+
+	[special.sgsr2]
+		variant = "CS_2"

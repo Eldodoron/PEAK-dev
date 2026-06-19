@@ -1,7 +1,7 @@
 #If boss health should be scaled
 "Should Scale Boss Health" = true
 #If boss drops should be rolled an additional time per player
-"Should Scale Boss Drops" = true
+"Should Scale Boss Drops" = false
 #The amount to scale boss health per player after the first
 # Default: 1.0
 # Range: 0.0 ~ 1.7976931348623157E308

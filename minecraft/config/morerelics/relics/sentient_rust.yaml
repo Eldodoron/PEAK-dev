@@ -42,7 +42,7 @@ lootData:
         - .*
         tables:
         - '[\w]+:chests\/[\w_\/]*(mine)[\w_\/]*'
-        weight: 500
+        weight: 501
     -   biomes:
         - '[\w]+:.*(mountain|peak|summit|ridge|alp|highland|hill|cliff|height)[\w_\/]*'
         dimensions:

@@ -3,6 +3,8 @@
 	improved_screen = true
 
 [fireball]
+	#Makes fire charges deflectable by punching
+	deflectable = true
 	#Cooldown for fire & dragon charges in ticks
 	# Default: 10
 	# Range: 0 ~ 1000
@@ -11,8 +13,6 @@
 	dragon_charge = true
 	#Makes fire & dragon charges have gravity
 	gravity = true
-	#Makes fire charges deflectable by punching
-	deflectable = false
 	#Allows throwing fire & dragon charges
 	fire_charges_throwable = true
 	#Makes dispensers shoot fire charges (the ones with gravity added by the mod) instead of blaze charges. Technically a breaking changes as it could break existing contraptions while allowing for new ones

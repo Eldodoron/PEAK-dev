@@ -1,19 +1,19 @@
-filename = 'vampiricageing-1.21-1.4.20.jar'
-name = 'Vampiric Ageing - A Vampirism Addon'
+filename = 'vampiricageing-1.21-1.4.21.jar'
+name = 'Vampiric Ageing'
 side = 'server'
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'Vampiric Ageing 1.21-1.4.20'
+x-prismlauncher-version-number = 'Vampiric Ageing 1.21-1.4.21'
 
 [download]
-hash = '12a91d287315fae0a91f45da0887d93cb6f39671'
+hash = '76b044ee1873f70e6df3f469baf4df7784d41397'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 8032227
+file-id = 8188131
 project-id = 906331
 
 [[x-prismlauncher-dependencies]]

@@ -1,0 +1,8 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"iceandfire:dragonbone_bow","components":{"minecraft:damage":265}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"enderio:redstone_alloy_ingot"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"simplybows:echo_bow/echo_bow"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"cataclysm_spellbooks:ignis_chestplate","components":{"irons_spellbooks:spell_container":{"mustEquip":true,"data":[],"maxSpells":1,"spellWheel":true}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"malum:geas","components":{"malum:geas_effect":{"geasEffectType":"malum:pact_of_defiance","isCreative":true}}},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

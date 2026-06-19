@@ -1,18 +1,18 @@
-filename = 'create_wizardry-1.21.1-0.4.2.jar'
+filename = 'create_wizardry-1.21.1-0.5.0-beta.jar'
 name = 'Create: Wizardry'
-side = 'both'
+side = ''
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
-x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '1.21.1-0.4.2'
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '1.21.1-0.5.0-beta'
 
 [download]
-hash = '2f56328d84c15bf41fe689c39c19c11b7c58eaf72f846d35ba78f323fbca6c11229706400826cfaf152043fe3f8943a853d1362d7433e13a2eb76e647d09d2da'
+hash = 'b0108f3a5eaebc7962bc1adf1138a156c20bcb36818a80ecd857d76fe1199befe37f2ec1d8f66fc5599637a035ab92c3624640ba1645f6c54e5b79643727874e'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/OeGdeWEj/versions/kQdA7Ygy/create_wizardry-1.21.1-0.4.2.jar'
+url = 'https://cdn.modrinth.com/data/OeGdeWEj/versions/YoUVUmtF/create_wizardry-1.21.1-0.5.0-beta.jar'
 
 [update.modrinth]
 mod-id = 'OeGdeWEj'
-version = 'kQdA7Ygy'
+version = 'YoUVUmtF'

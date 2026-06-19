@@ -1,0 +1,9 @@
+[2026-06-18 19:20:15] [ngx::util::setLogFilename:213] Logging to requested file (./nvsdk_ngx.log) enabled successfully
+[2026-06-18 19:20:15] [NGXSafeInitializeLog:141] App logging hooks successfully initialized
+[2026-06-18 19:20:15] [NGXLoadLibrary:326] error: failed to load NGXCore: 126 (C:\Program Files\Eclipse Adoptium\jdk-21.0.8.9-hotspot\bin\_nvngx.dll)
+[2026-06-18 19:20:15] [NGXLoadLibrary:326] error: failed to load NGXCore: 126 (C:\Program Files\Eclipse Adoptium\jdk-21.0.8.9-hotspot\bin\nvngx.dll)
+[2026-06-18 19:20:15] [NGXGetPathUsingQAI:147] Attempting to read from Parameters\NGXCore\NGXPath
+[2026-06-18 19:20:15] [NGXGetPathUsingQAI:166] QAI path is not a valid directory: C:\Windows\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_67995ceab8993b08
+[2026-06-18 19:20:15] [NGXGetPathUsingQAI:147] Attempting to read from NGXCore\NGXPath
+[2026-06-18 19:20:15] [NGXGetPathUsingQAI:171] Path to driverStore found using QAI: C:\Windows\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_c8bc842500fab35b
+[2026-06-18 19:20:15] [NGXLoadCoreLibrary:279] Loading C:\Windows\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_c8bc842500fab35b\_nvngx.dll succeeded

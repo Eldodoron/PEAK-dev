@@ -1,29 +1,29 @@
-filename = 'darkerdepths-2.1.3.jar'
+filename = 'darkerdepths-2.1.4.jar'
 name = 'Darker Depths'
-side = 'both'
+side = ''
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '2.1.3'
+x-prismlauncher-version-number = '2.1.4'
 
 [download]
-hash = 'b22ab702f5d2ca40f1f8b2a5fdf488c3659e50a12d5fd39280e5731690c86b9105465f9b4e5b42eb28922821c263db940cfa91b9d656eecddf296596bb27728d'
+hash = 'd24db3b08d21c5950f5f5a37c53585823dde1b9af5f67d827f7eaabc4a0f5a04e98dd23b0cfc6cd548df5a0f78acb73ab16605aed3d38a0e7863af66294d0ed3'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/wCbFXJKH/versions/TU0ozd7Y/darkerdepths-2.1.3.jar'
+url = 'https://cdn.modrinth.com/data/wCbFXJKH/versions/qBM95sYV/darkerdepths-2.1.4.jar'
 
 [update.modrinth]
 mod-id = 'wCbFXJKH'
-version = 'TU0ozd7Y'
+version = 'qBM95sYV'
 
 [[x-prismlauncher-dependencies]]
 addonId = 'kkmrDlKT'
 type = 'OPTIONAL'
 
 [[x-prismlauncher-dependencies]]
-addonId = 'iGEl6Crx'
-type = 'OPTIONAL'
-
-[[x-prismlauncher-dependencies]]
 addonId = '8BmcQJ2H'
 type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'iGEl6Crx'
+type = 'OPTIONAL'

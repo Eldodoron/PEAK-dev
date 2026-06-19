@@ -1,18 +1,18 @@
-filename = 'fwa+1.21.1-neoforge-1.2.22.jar'
+filename = 'fwa+1.21.1-neoforge-1.2.24.jar'
 name = 'Fancy World Animations'
 side = ''
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '1.2.22'
+x-prismlauncher-version-number = '1.2.24'
 
 [download]
-hash = 'c0788de94662358975b0a0c7759eae2c594a447457614ecd73659d5ccb10743437dc9088a9d42095c8a2ac89bc28156e9eaa698e2fcb6bc879a4feb241ccf94b'
+hash = '60f2e6e7e6959ba2583a938ad133e64eb0c553068aca7fa044cd1944678030b211d86a2fc67cc8805532407635e3fcad81e45608c7245feb7173539f3ad553d6'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/IAzUFvS6/versions/Y6qBgogW/fwa%2B1.21.1-neoforge-1.2.22.jar'
+url = 'https://cdn.modrinth.com/data/IAzUFvS6/versions/jg7RGf8X/fwa%2B1.21.1-neoforge-1.2.24.jar'
 
 [update.modrinth]
 mod-id = 'IAzUFvS6'
-version = 'Y6qBgogW'
+version = 'jg7RGf8X'

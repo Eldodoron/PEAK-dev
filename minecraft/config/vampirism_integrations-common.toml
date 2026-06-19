@@ -3,3 +3,6 @@
 
 	[Compatibility.guardvillagers]
 		enable_compat_guardvillagers = true
+
+	[Compatibility.crafttweaker]
+		enable_compat_crafttweaker = true

@@ -1,19 +1,19 @@
-filename = 'kjscauto-0.7.0-beta-neoforge.jar'
+filename = 'kjscauto-0.8.0-beta-neoforge.jar'
 name = 'KubeJS Create Automation'
 side = 'server'
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'kjscauto-0.7.0-beta-neoforge.jar'
+x-prismlauncher-version-number = 'kjscauto-0.8.0-beta-neoforge.jar'
 
 [download]
-hash = '2fff07c49e75c4c761ff59bb3c3afa8636719a91'
+hash = '8313de62ac6fb50d3728623019583d463b2a2106'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 8164611
+file-id = 8203001
 project-id = 1437313
 
 [[x-prismlauncher-dependencies]]

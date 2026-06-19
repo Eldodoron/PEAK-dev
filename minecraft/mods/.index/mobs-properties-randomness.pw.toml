@@ -1,20 +1,20 @@
-filename = 'mobspropertiesrandomness-6.0.1.2-beta.jar'
+filename = 'mobspropertiesrandomness-6.0.1.3.jar'
 name = 'Mobs Properties Randomness'
-side = 'server'
+side = ''
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
-x-prismlauncher-release-type = 'beta'
-x-prismlauncher-version-number = '6.0.1.2-beta'
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '6.0.1.3'
 
 [download]
-hash = '0bc9e9e77fddf88e3ebfd54dab6ba6ea986bd4f23dc0253c5aa3cf3e8d74c836c3b13455570b1d408e0d8db6a6716e705594417d5e19f7d5ecb9fe3003a81a22'
+hash = '83a367edf58b702b3f6d297b17f89f605db055f2862026c51d59568ede68f85591970b2fed75eda481877bd1fc1b2e1560605180ce5572dd44214bb97801237e'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/iLdm4nHd/versions/h4098zDi/mobspropertiesrandomness-6.0.1.2-beta.jar'
+url = 'https://cdn.modrinth.com/data/iLdm4nHd/versions/8uIEtgJ5/mobspropertiesrandomness-6.0.1.3.jar'
 
 [update.modrinth]
 mod-id = 'iLdm4nHd'
-version = 'h4098zDi'
+version = '8uIEtgJ5'
 
 [[x-prismlauncher-dependencies]]
 addonId = 'USZyvOJq'

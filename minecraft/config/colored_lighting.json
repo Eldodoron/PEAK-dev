@@ -1,5 +1,5 @@
 {
-  "enabled": true,
+  "enabled": false,
   "scanRadius": 96,
   "blockLights": {
     "minecraft:redstone_torch": {
@@ -127,30 +127,6 @@
       "color": 65416,
       "radius": 7.0,
       "intensity": 0.4
-    },
-    "create:brass_lantern": {
-      "enabled": true,
-      "color": 16755285,
-      "radius": 10.0,
-      "intensity": 0.75
-    },
-    "create:rose_quartz_lamp": {
-      "enabled": true,
-      "color": 16728319,
-      "radius": 15.0,
-      "intensity": 0.5
-    },
-    "twilightforest:firefly_jar": {
-      "enabled": true,
-      "color": 10551104,
-      "radius": 10.0,
-      "intensity": 0.5
-    },
-    "mekanism:superheating_element": {
-      "enabled": true,
-      "color": 16733696,
-      "radius": 5.0,
-      "intensity": 0.5
     }
   }
 }

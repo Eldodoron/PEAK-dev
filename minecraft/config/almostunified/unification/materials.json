@@ -2,6 +2,9 @@
   "mod_priorities": [
     "minecraft",
     "create",
+    "create_new_age",
+    "create_enchantment_industry",
+    "createdieselgenerators",
     "immersiveengineering",
     "mekanism"
   ],
@@ -36,6 +39,6 @@
   ],
   "ignored_recipe_ids": [],
   "recipe_viewer_hiding": true,
-  "loot_unification": false,
+  "loot_unification": true,
   "ignored_loot_tables": []
 }

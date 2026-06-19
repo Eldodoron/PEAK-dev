@@ -69,4 +69,4 @@ lootData:
         - .*
         tables:
         - '[\w]+:chests\/[\w_\/]*[\w]+[\w_\/]*'
-        weight: 100
+        weight: 99

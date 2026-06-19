@@ -1,0 +1,34 @@
+{
+    "pack": {
+        "description": "Lithostitched resources",
+        "pack_format": 48,
+        "supported_formats": [48, 99],
+        "min_format": 48,
+        "max_format": 99
+    },
+    "neoforge:overlays": {
+        "entries": [
+            {
+                "directory": "overlay.breaks_seed_parity",
+                "formats": [48, 99],
+                "min_format": 48,
+                "max_format": 99,
+                "neoforge:conditions": [
+                    {
+                        "type": "lithostitched:breaks_seed_parity"
+                    }
+                ]
+            }
+        ]
+    },
+    "fabric:overlays": {
+        "entries": [
+            {
+                "directory": "overlay.breaks_seed_parity",
+                "condition": {
+                    "condition": "lithostitched:breaks_seed_parity"
+                }
+            }
+        ]
+    }
+}

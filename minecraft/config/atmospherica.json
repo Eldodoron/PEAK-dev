@@ -1,0 +1,329 @@
+{
+  "byBiome": {
+    "minecraft:beach": {
+      "start": 64.79,
+      "end": 145.36,
+      "density": 0.8,
+      "transitionSpeed": 1.01,
+      "color": 16637366,
+      "skyColor": 3846911,
+      "nightStart": 0.0,
+      "nightEnd": 96.0,
+      "nightDensity": 1.25,
+      "nightColor": 1973807,
+      "nightSkyDarken": 1.0
+    },
+    "minecraft:crimson_forest": {
+      "start": 0.0,
+      "end": 128.0,
+      "density": 1.0,
+      "transitionSpeed": 1.0,
+      "color": 3343107,
+      "skyColor": 7254527,
+      "nightStart": 0.0,
+      "nightEnd": 96.0,
+      "nightDensity": 1.25,
+      "nightColor": 1973807,
+      "nightSkyDarken": 1.0
+    },
+    "minecraft:dark_forest": {
+      "start": 0.0,
+      "end": 128.0,
+      "density": 1.0,
+      "transitionSpeed": 1.0,
+      "color": 12638463,
+      "skyColor": 7972607,
+      "nightStart": 0.0,
+      "nightEnd": 96.0,
+      "nightDensity": 1.25,
+      "nightColor": 1973807,
+      "nightSkyDarken": 1.0
+    },
+    "minecraft:forest": {
+      "start": 0.0,
+      "end": 128.0,
+      "density": 1.0,
+      "transitionSpeed": 1.0,
+      "color": 12638463,
+      "skyColor": 7972607,
+      "nightStart": 0.0,
+      "nightEnd": 96.0,
+      "nightDensity": 1.25,
+      "nightColor": 1973807,
+      "nightSkyDarken": 1.0
+    },
+    "minecraft:nether_wastes": {
+      "start": 0.0,
+      "end": 128.0,
+      "density": 1.0,
+      "transitionSpeed": 1.0,
+      "color": 3344392,
+      "skyColor": 7254527,
+      "nightStart": 0.0,
+      "nightEnd": 96.0,
+      "nightDensity": 1.25,
+      "nightColor": 1973807,
+      "nightSkyDarken": 1.0
+    },
+    "minecraft:soul_sand_valley": {
+      "start": 0.0,
+      "end": 128.0,
+      "density": 1.0,
+      "transitionSpeed": 1.0,
+      "color": 1787717,
+      "skyColor": 7254527,
+      "nightStart": 0.0,
+      "nightEnd": 96.0,
+      "nightDensity": 1.25,
+      "nightColor": 1973807,
+      "nightSkyDarken": 1.0
+    },
+    "minecraft:river": {
+      "start": 0.0,
+      "end": 128.0,
+      "density": 1.0,
+      "transitionSpeed": 1.0,
+      "color": 12638463,
+      "skyColor": 8103167,
+      "nightStart": 0.0,
+      "nightEnd": 96.0,
+      "nightDensity": 1.25,
+      "nightColor": 1973807,
+      "nightSkyDarken": 1.0
+    },
+    "vampirism:vampire_forest": {
+      "start": 0.0,
+      "end": 128.0,
+      "density": 1.0,
+      "transitionSpeed": 1.0,
+      "color": 1513239,
+      "skyColor": 1250067,
+      "nightStart": 0.0,
+      "nightEnd": 96.0,
+      "nightDensity": 1.25,
+      "nightColor": 1973807,
+      "nightSkyDarken": 1.0
+    },
+    "minecraft:birch_forest": {
+      "start": 0.0,
+      "end": 128.0,
+      "density": 1.0,
+      "transitionSpeed": 1.0,
+      "color": 12638463,
+      "skyColor": 8037887,
+      "nightStart": 0.0,
+      "nightEnd": 96.0,
+      "nightDensity": 1.25,
+      "nightColor": 1973807,
+      "nightSkyDarken": 1.0
+    },
+    "minecraft:lush_caves": {
+      "start": 256.0,
+      "end": 257.0,
+      "density": 1.05,
+      "transitionSpeed": 1.0,
+      "color": 12638463,
+      "skyColor": 8103167,
+      "nightStart": 256.0,
+      "nightEnd": 257.0,
+      "nightDensity": 1.25,
+      "nightColor": 1973807,
+      "nightSkyDarken": 1.0
+    },
+    "minecraft:plains": {
+      "start": 0.0,
+      "end": 128.0,
+      "density": 1.0,
+      "transitionSpeed": 1.0,
+      "color": 12638463,
+      "skyColor": 7907327,
+      "nightStart": 0.0,
+      "nightEnd": 96.0,
+      "nightDensity": 1.25,
+      "nightColor": 1973807,
+      "nightSkyDarken": 1.0
+    }
+  },
+  "weatherByBiome": {
+    "minecraft:beach": {
+      "rain": {
+        "fog": 0.15,
+        "sky": 0.15,
+        "fogStart": 1.0,
+        "fogEnd": 1.0
+      },
+      "thunder": {
+        "fog": 0.18,
+        "sky": 0.18,
+        "fogStart": 1.0,
+        "fogEnd": 1.0
+      }
+    },
+    "minecraft:crimson_forest": {
+      "rain": {
+        "fog": 0.15,
+        "sky": 0.15,
+        "fogStart": 1.0,
+        "fogEnd": 1.0
+      },
+      "thunder": {
+        "fog": 0.18,
+        "sky": 0.18,
+        "fogStart": 1.0,
+        "fogEnd": 1.0
+      }
+    },
+    "minecraft:dark_forest": {
+      "rain": {
+        "fog": 0.15,
+        "sky": 0.15,
+        "fogStart": 1.0,
+        "fogEnd": 1.0
+      },
+      "thunder": {
+        "fog": 0.18,
+        "sky": 0.18,
+        "fogStart": 1.0,
+        "fogEnd": 1.0
+      }
+    },
+    "minecraft:forest": {
+      "rain": {
+        "fog": 0.15,
+        "sky": 0.15,
+        "fogStart": 1.0,
+        "fogEnd": 1.0
+      },
+      "thunder": {
+        "fog": 0.18,
+        "sky": 0.18,
+        "fogStart": 1.0,
+        "fogEnd": 1.0
+      }
+    },
+    "minecraft:nether_wastes": {
+      "rain": {
+        "fog": 0.15,
+        "sky": 0.15,
+        "fogStart": 1.0,
+        "fogEnd": 1.0
+      },
+      "thunder": {
+        "fog": 0.18,
+        "sky": 0.18,
+        "fogStart": 1.0,
+        "fogEnd": 1.0
+      }
+    },
+    "minecraft:soul_sand_valley": {
+      "rain": {
+        "fog": 0.15,
+        "sky": 0.15,
+        "fogStart": 1.0,
+        "fogEnd": 1.0
+      },
+      "thunder": {
+        "fog": 0.18,
+        "sky": 0.18,
+        "fogStart": 1.0,
+        "fogEnd": 1.0
+      }
+    },
+    "minecraft:river": {
+      "rain": {
+        "fog": 0.15,
+        "sky": 0.15,
+        "fogStart": 1.0,
+        "fogEnd": 1.0
+      },
+      "thunder": {
+        "fog": 0.18,
+        "sky": 0.18,
+        "fogStart": 1.0,
+        "fogEnd": 1.0
+      }
+    },
+    "vampirism:vampire_forest": {
+      "rain": {
+        "fog": 0.15,
+        "sky": 0.15,
+        "fogStart": 1.0,
+        "fogEnd": 1.0
+      },
+      "thunder": {
+        "fog": 0.18,
+        "sky": 0.18,
+        "fogStart": 1.0,
+        "fogEnd": 1.0
+      }
+    },
+    "minecraft:birch_forest": {
+      "rain": {
+        "fog": 0.15,
+        "sky": 0.15,
+        "fogStart": 1.0,
+        "fogEnd": 1.0
+      },
+      "thunder": {
+        "fog": 0.18,
+        "sky": 0.18,
+        "fogStart": 1.0,
+        "fogEnd": 1.0
+      }
+    },
+    "minecraft:lush_caves": {
+      "rain": {
+        "fog": 0.15,
+        "sky": 0.15,
+        "fogStart": 1.0,
+        "fogEnd": 1.0
+      },
+      "thunder": {
+        "fog": 0.18,
+        "sky": 0.18,
+        "fogStart": 1.0,
+        "fogEnd": 1.0
+      }
+    },
+    "minecraft:plains": {
+      "rain": {
+        "fog": 0.15,
+        "sky": 0.15,
+        "fogStart": 1.0,
+        "fogEnd": 1.0
+      },
+      "thunder": {
+        "fog": 0.18,
+        "sky": 0.18,
+        "fogStart": 1.0,
+        "fogEnd": 1.0
+      }
+    }
+  },
+  "weather": {
+    "rain": {
+      "fog": 0.15,
+      "sky": 0.15,
+      "fogStart": 1.0,
+      "fogEnd": 1.0
+    },
+    "thunder": {
+      "fog": 0.18,
+      "sky": 0.18,
+      "fogStart": 1.0,
+      "fogEnd": 1.0
+    }
+  },
+  "stars": {
+    "enabled": true,
+    "amount": 325.08835,
+    "brightness": 1.2061249,
+    "twinkle": 1.0,
+    "dayStars": false,
+    "dayAmount": 100.0,
+    "dayBrightness": 1.0,
+    "dayTwinkle": 0.35
+  },
+  "fogEnabled": true,
+  "skyEnabled": true
+}

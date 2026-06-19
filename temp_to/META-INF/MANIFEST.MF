@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Specification-Title: Tooltip overhaul
+Specification-Vendor: Xylonity, ModderG
+Specification-Version: 1.4.4
+Implementation-Title: neoforge
+Implementation-Version: 1.4.4
+Implementation-Vendor: Xylonity, ModderG
+Built-On-Minecraft: 1.21.1
+

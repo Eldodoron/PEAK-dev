@@ -5403,7 +5403,8 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:pillager": "2026-06-03 00:28:18 -0400",
-      "minecraft:vindicator": "2026-06-03 00:28:18 -0400"
+      "minecraft:vindicator": "2026-06-03 00:28:18 -0400",
+      "minecraft:zombie": "2026-06-04 01:07:56 -0400"
     },
     "done": false
   },
@@ -6255,111 +6256,15 @@
     },
     "done": true
   },
-  "incendium:technical/sentrys_wrath": {
+  "mekanism:machine_security": {
     "criteria": {
-      "log_spam_fixer": "2026-06-03 20:28:07 -0400"
-    },
-    "done": false
-  },
-  "incendium:technical/on_block": {
-    "criteria": {
-      "log_spam_fixer": "2026-06-03 20:28:07 -0400"
-    },
-    "done": false
-  },
-  "incendium:technical/feed_ghastling": {
-    "criteria": {
-      "log_spam_fixer": "2026-06-03 20:28:07 -0400"
-    },
-    "done": false
-  },
-  "incendium:technical/multiplex_crossbow": {
-    "criteria": {
-      "log_spam_fixer": "2026-06-03 20:28:07 -0400"
-    },
-    "done": false
-  },
-  "incendium:technical/on_player_hurt": {
-    "criteria": {
-      "log_spam_fixer": "2026-06-03 20:28:07 -0400"
-    },
-    "done": false
-  },
-  "incendium:technical/on_kill": {
-    "criteria": {
-      "log_spam_fixer": "2026-06-03 20:28:07 -0400"
-    },
-    "done": false
-  },
-  "incendium:technical/on_inventory_change": {
-    "criteria": {
-      "log_spam_fixer": "2026-06-03 20:28:07 -0400"
-    },
-    "done": false
-  },
-  "incendium:technical/holy_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2026-06-03 20:28:07 -0400"
-    },
-    "done": false
-  },
-  "incendium:technical/inventory/firestorm": {
-    "criteria": {
-      "log_spam_fixer": "2026-06-03 20:28:07 -0400"
-    },
-    "done": false
-  },
-  "incendium:technical/give_ghastling": {
-    "criteria": {
-      "log_spam_fixer": "2026-06-03 20:28:07 -0400"
-    },
-    "done": false
-  },
-  "incendium:technical/inventory/sentrys_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2026-06-03 20:28:07 -0400"
-    },
-    "done": false
-  },
-  "incendium:technical/firestorm": {
-    "criteria": {
-      "log_spam_fixer": "2026-06-03 20:28:07 -0400"
-    },
-    "done": false
-  },
-  "ae2:recipes/misc/network/parts/monitors_storage": {
-    "criteria": {
-      "has_illuminated_panel": "2026-06-03 20:03:18 -0400"
-    },
-    "done": true
-  },
-  "simulated:recipes/misc/contraption_diagram": {
-    "criteria": {
-      "has_ingredient": "2026-06-03 20:07:09 -0400"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/decorations/oak_cabinet": {
-    "criteria": {
-      "has_oak_trapdoor": "2026-06-03 19:57:10 -0400"
+      "security_desk": "2026-06-03 19:52:06 -0400"
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/mossy_stone_bricks_from_moss_block": {
     "criteria": {
       "has_moss_block": "2026-06-03 19:57:05 -0400"
-    },
-    "done": true
-  },
-  "ae2:recipes/misc/network/parts/terminals": {
-    "criteria": {
-      "has_illuminated_panel": "2026-06-03 20:03:18 -0400"
-    },
-    "done": true
-  },
-  "ae2:recipes/misc/network/parts/panels_semi_dark_monitor_alt": {
-    "criteria": {
-      "has_dark_monitor": "2026-06-03 20:03:18 -0400"
     },
     "done": true
   },
@@ -6375,9 +6280,9 @@
     },
     "done": true
   },
-  "supplementaries:recipe/lunch_basket": {
+  "farmersdelight:recipes/decorations/oak_cabinet": {
     "criteria": {
-      "has_tag_minecraft_wool_carpets_1": "2026-06-03 20:06:16 -0400"
+      "has_oak_trapdoor": "2026-06-03 19:57:10 -0400"
     },
     "done": true
   },
@@ -6387,15 +6292,1251 @@
     },
     "done": true
   },
+  "ae2:recipes/misc/network/parts/monitors_storage": {
+    "criteria": {
+      "has_illuminated_panel": "2026-06-03 20:03:18 -0400"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/parts/terminals": {
+    "criteria": {
+      "has_illuminated_panel": "2026-06-03 20:03:18 -0400"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/parts/panels_semi_dark_monitor_alt": {
+    "criteria": {
+      "has_dark_monitor": "2026-06-03 20:03:18 -0400"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/lunch_basket": {
+    "criteria": {
+      "has_tag_minecraft_wool_carpets_1": "2026-06-03 20:06:16 -0400"
+    },
+    "done": true
+  },
+  "simulated:recipes/misc/contraption_diagram": {
+    "criteria": {
+      "has_ingredient": "2026-06-03 20:07:09 -0400"
+    },
+    "done": true
+  },
   "simulated:applied_kinematics": {
     "criteria": {
       "0": "2026-06-03 20:07:09 -0400"
     },
     "done": true
   },
-  "mekanism:machine_security": {
+  "apothic_enchanting:enchanter": {
     "criteria": {
-      "security_desk": "2026-06-03 19:52:06 -0400"
+      "enchanting_table": "2026-06-04 00:57:31 -0400"
+    },
+    "done": true
+  },
+  "dndesires:recipes/misc/crafting/lapis_lazuli_from_lapis_lazuli_shard": {
+    "criteria": {
+      "has_lapis_lazuli": "2026-06-04 00:58:47 -0400"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/coordinate_tracker_upgrade": {
+    "criteria": {
+      "has_lapis_lazuli": "2026-06-04 00:58:47 -0400"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/flippers_upgrade": {
+    "criteria": {
+      "has_lapis_lazuli": "2026-06-04 00:58:47 -0400"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/speed_upgrade_from_glycerol": {
+    "criteria": {
+      "has_lapis_lazuli": "2026-06-04 00:58:47 -0400"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/ender_visor_upgrade": {
+    "criteria": {
+      "has_lapis_lazuli": "2026-06-04 00:58:47 -0400"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/range_upgrade": {
+    "criteria": {
+      "has_lapis_lazuli": "2026-06-04 00:58:47 -0400"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/speed_upgrade": {
+    "criteria": {
+      "has_lapis_lazuli": "2026-06-04 00:58:47 -0400"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/lapis_bricks": {
+    "criteria": {
+      "has_item_minecraft_lapis_lazuli_1": "2026-06-04 00:58:47 -0400"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/dispenser_upgrade": {
+    "criteria": {
+      "has_lapis_lazuli": "2026-06-04 00:58:47 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/blue_dye": {
+    "criteria": {
+      "has_lapis_lazuli": "2026-06-04 00:58:47 -0400"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/stomp_upgrade": {
+    "criteria": {
+      "has_lapis_lazuli": "2026-06-04 00:58:47 -0400"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/charging_upgrade": {
+    "criteria": {
+      "has_lapis_lazuli": "2026-06-04 00:58:47 -0400"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/muffler_upgrade": {
+    "criteria": {
+      "has_lapis_lazuli": "2026-06-04 00:58:47 -0400"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/magnet_upgrade": {
+    "criteria": {
+      "has_lapis_lazuli": "2026-06-04 00:58:47 -0400"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/volume_upgrade": {
+    "criteria": {
+      "has_lapis_lazuli": "2026-06-04 00:58:47 -0400"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/item_life_upgrade": {
+    "criteria": {
+      "has_lapis_lazuli": "2026-06-04 00:58:47 -0400"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/standby_upgrade": {
+    "criteria": {
+      "has_lapis_lazuli": "2026-06-04 00:58:47 -0400"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/gilded_upgrade": {
+    "criteria": {
+      "has_lapis_lazuli": "2026-06-04 00:58:47 -0400"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/armor_upgrade": {
+    "criteria": {
+      "has_lapis_lazuli": "2026-06-04 00:58:47 -0400"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/security_upgrade": {
+    "criteria": {
+      "has_lapis_lazuli": "2026-06-04 00:58:47 -0400"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/search_upgrade": {
+    "criteria": {
+      "has_lapis_lazuli": "2026-06-04 00:58:47 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/lapis_block": {
+    "criteria": {
+      "has_lapis_lazuli": "2026-06-04 00:58:47 -0400"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/inventory_upgrade": {
+    "criteria": {
+      "has_lapis_lazuli": "2026-06-04 00:58:47 -0400"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/block_tracker_upgrade": {
+    "criteria": {
+      "has_lapis_lazuli": "2026-06-04 00:58:47 -0400"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/minigun_upgrade": {
+    "criteria": {
+      "has_lapis_lazuli": "2026-06-04 00:58:47 -0400"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/entity_tracker_upgrade": {
+    "criteria": {
+      "has_lapis_lazuli": "2026-06-04 00:58:47 -0400"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/elytra_upgrade": {
+    "criteria": {
+      "has_lapis_lazuli": "2026-06-04 00:58:47 -0400"
+    },
+    "done": true
+  },
+  "minecraft:story/enchant_item": {
+    "criteria": {
+      "enchanted_item": "2026-06-04 01:02:57 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/bone_broth": {
+    "criteria": {
+      "has_bone": "2026-06-04 01:07:56 -0400"
+    },
+    "done": true
+  },
+  "immersive_armors:recipes/misc/bone": {
+    "criteria": {
+      "has_item": "2026-06-04 01:07:56 -0400"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/slicing/bone_meal_from_bone": {
+    "criteria": {
+      "has_bone": "2026-06-04 01:07:56 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bone_meal": {
+    "criteria": {
+      "has_bone": "2026-06-04 01:07:56 -0400"
+    },
+    "done": true
+  },
+  "ess_requiem:main/root": {
+    "criteria": {
+      "rotten_flesh": "2026-06-04 01:08:19 -0400"
+    },
+    "done": true
+  },
+  "crystal_chronicles:recipes/misc/rotten_flesh_block": {
+    "criteria": {
+      "has_rotten_flesh": "2026-06-04 01:08:19 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/building_blocks/organic_compost_from_rotten_flesh": {
+    "criteria": {
+      "has_rotten_flesh": "2026-06-04 01:08:19 -0400"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/slicing/brown_dye_from_rotten_flesh": {
+    "criteria": {
+      "has_rotten_flesh": "2026-06-04 01:08:19 -0400"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/drying/monster_jerky": {
+    "criteria": {
+      "has_meat": "2026-06-04 01:08:19 -0400"
+    },
+    "done": true
+  },
+  "darkerdepths:recipes/misc/scorched_remains": {
+    "criteria": {
+      "has_rotten_flesh": "2026-06-04 01:08:19 -0400"
+    },
+    "done": true
+  },
+  "darkerdepths:recipes/misc/scorched_remains_block": {
+    "criteria": {
+      "has_rotten_flesh": "2026-06-04 01:08:19 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/dog_food": {
+    "criteria": {
+      "has_any_ingredient": "2026-06-04 01:08:19 -0400"
+    },
+    "done": true
+  },
+  "mynethersdelight:recipes/building_blocks/crafting/letios_compost_from_rotten_flesh": {
+    "criteria": {
+      "has_rotten_flesh": "2026-06-04 01:08:19 -0400"
+    },
+    "done": true
+  },
+  "rottencreatures:kill_all_rot": {
+    "criteria": {
+      "rottencreatures:frostbitten": "2026-06-04 01:08:54 -0400"
+    },
+    "done": false
+  },
+  "rottencreatures:root": {
+    "criteria": {
+      "rottencreatures:frostbitten": "2026-06-04 01:08:54 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/snow_block": {
+    "criteria": {
+      "has_snowball": "2026-06-04 01:08:55 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/snow": {
+    "criteria": {
+      "has_snowball": "2026-06-04 01:08:55 -0400"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "rotten_flesh": "2026-06-04 01:09:07 -0400"
+    },
+    "done": false
+  },
+  "apothic_enchanting:upgrade_endshelf": {
+    "criteria": {
+      "draconic": "2026-06-04 01:15:56 -0400"
+    },
+    "done": true
+  },
+  "apothic_enchanting:quanta50": {
+    "criteria": {
+      "enchanted_item": "2026-06-04 01:17:19 -0400"
+    },
+    "done": true
+  },
+  "apothic_enchanting:enchanting_stats": {
+    "criteria": {
+      "enchanted_item": "2026-06-04 01:17:19 -0400"
+    },
+    "done": true
+  },
+  "apothic_enchanting:100ench": {
+    "criteria": {
+      "enchanted_item": "2026-06-04 01:17:19 -0400"
+    },
+    "done": true
+  },
+  "apothic_enchanting:arcana100": {
+    "criteria": {
+      "enchanted_item": "2026-06-04 01:17:19 -0400"
+    },
+    "done": true
+  },
+  "apothic_enchanting:30ench": {
+    "criteria": {
+      "enchanted_item": "2026-06-04 01:17:19 -0400"
+    },
+    "done": true
+  },
+  "apothic_enchanting:quanta100": {
+    "criteria": {
+      "enchanted_item": "2026-06-04 01:17:19 -0400"
+    },
+    "done": true
+  },
+  "apothic_enchanting:max_stats": {
+    "criteria": {
+      "enchanted_item": "2026-06-04 01:17:19 -0400"
+    },
+    "done": true
+  },
+  "apothic_enchanting:60ench": {
+    "criteria": {
+      "enchanted_item": "2026-06-04 01:17:19 -0400"
+    },
+    "done": true
+  },
+  "apothic_enchanting:arcana50": {
+    "criteria": {
+      "enchanted_item": "2026-06-04 01:17:19 -0400"
+    },
+    "done": true
+  },
+  "apothic_enchanting:80ench": {
+    "criteria": {
+      "enchanted_item": "2026-06-04 01:17:19 -0400"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/drying/drying/sapling_to_dead_bush": {
+    "criteria": {
+      "has_sapling": "2026-06-04 01:54:42 -0400"
+    },
+    "done": true
+  },
+  "create_ltab:plains": {
+    "criteria": {
+      "grass_block": "2026-06-04 01:54:50 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/white_dye": {
+    "criteria": {
+      "has_bone_meal": "2026-06-04 01:54:55 -0400"
+    },
+    "done": true
+  },
+  "mynethersdelight:recipes/building_blocks/crafting/letios_compost_from_bone_alt": {
+    "criteria": {
+      "has_bone_meal": "2026-06-04 01:54:55 -0400"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/integration/planter_rich_fd": {
+    "criteria": {
+      "has_item_minecraft_bone_meal_2": "2026-06-04 01:54:55 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/appliances/tree_fertilizer": {
+    "criteria": {
+      "has_item": "2026-06-04 01:54:55 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bone_block": {
+    "criteria": {
+      "has_bone_meal": "2026-06-04 01:54:55 -0400"
+    },
+    "done": true
+  },
+  "domum_ornamentum:recipes/tools/architectscutter": {
+    "criteria": {
+      "has_log": "2026-06-04 01:55:24 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/charcoal": {
+    "criteria": {
+      "has_log": "2026-06-04 01:55:24 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_planks": {
+    "criteria": {
+      "has_logs": "2026-06-04 01:55:24 -0400"
+    },
+    "done": true
+  },
+  "vampirism:recipes/decorations/general/fire_place": {
+    "criteria": {
+      "has_logs": "2026-06-04 01:55:24 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_wood": {
+    "criteria": {
+      "has_log": "2026-06-04 01:55:24 -0400"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/building_blocks/stonecutting/spruce_log/hollow_spruce_log": {
+    "criteria": {
+      "has_block": "2026-06-04 01:55:24 -0400"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/fine_wood": {
+    "criteria": {
+      "has_tag_minecraft_logs_1": "2026-06-04 01:55:24 -0400"
+    },
+    "done": true
+  },
+  "gobber2:recipes/combat/gobber2_chestplate": {
+    "criteria": {
+      "has_stick": "2026-06-04 01:56:54 -0400"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/flags/flag_blue": {
+    "criteria": {
+      "has_tag_c_rods_wooden_2": "2026-06-04 01:56:54 -0400"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/flags/flag_lime": {
+    "criteria": {
+      "has_tag_c_rods_wooden_2": "2026-06-04 01:56:54 -0400"
+    },
+    "done": true
+  },
+  "gobber2:recipes/misc/gobber2_medallion_nether": {
+    "criteria": {
+      "has_stick": "2026-06-04 01:56:54 -0400"
+    },
+    "done": true
+  },
+  "gobber2:recipes/combat/gobber2_boots": {
+    "criteria": {
+      "has_stick": "2026-06-04 01:56:54 -0400"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/birch_lattice_fence": {
+    "criteria": {
+      "has_minecraft:stick": "2026-06-04 01:56:54 -0400"
+    },
+    "done": true
+  },
+  "gobber2:recipes/misc/gobber2_hoe_end": {
+    "criteria": {
+      "has_stick": "2026-06-04 01:56:54 -0400"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/flags/flag_black": {
+    "criteria": {
+      "has_tag_c_rods_wooden_2": "2026-06-04 01:56:54 -0400"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/daub_cross_brace": {
+    "criteria": {
+      "has_tag_c_rods_wooden_1": "2026-06-04 01:56:54 -0400"
+    },
+    "done": true
+  },
+  "vampirism:recipes/combat/hunter/crucifix": {
+    "criteria": {
+      "stick": "2026-06-04 01:56:54 -0400"
+    },
+    "done": true
+  },
+  "gobber2:recipes/combat/gobber2_helmet_nether": {
+    "criteria": {
+      "has_stick": "2026-06-04 01:56:54 -0400"
+    },
+    "done": true
+  },
+  "gobber2:recipes/combat/gobber2_sword_nether": {
+    "criteria": {
+      "has_stick": "2026-06-04 01:56:54 -0400"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/awnings/awning": {
+    "criteria": {
+      "has_tag_c_rods_wooden_2": "2026-06-04 01:56:54 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/wooden_sword": {
+    "criteria": {
+      "has_stick": "2026-06-04 01:56:54 -0400"
+    },
+    "done": true
+  },
+  "gobber2:recipes/misc/gobber2_ring_end": {
+    "criteria": {
+      "has_stick": "2026-06-04 01:56:54 -0400"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/faucet": {
+    "criteria": {
+      "has_tag_c_rods_wooden_1": "2026-06-04 01:56:54 -0400"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/spruce_lattice_fence": {
+    "criteria": {
+      "has_minecraft:stick": "2026-06-04 01:56:54 -0400"
+    },
+    "done": true
+  },
+  "domum_ornamentum:recipes/building_blocks/blockbarreldeco_onside": {
+    "criteria": {
+      "has_stick": "2026-06-04 01:56:54 -0400"
+    },
+    "done": true
+  },
+  "gobber2:recipes/misc/gobber2_shovel_nether": {
+    "criteria": {
+      "has_stick": "2026-06-04 01:56:54 -0400"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/flags/flag_light_gray": {
+    "criteria": {
+      "has_tag_c_rods_wooden_2": "2026-06-04 01:56:54 -0400"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/timber_brace": {
+    "criteria": {
+      "has_tag_c_rods_wooden_1": "2026-06-04 01:56:54 -0400"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/flags/flag_brown": {
+    "criteria": {
+      "has_tag_c_rods_wooden_2": "2026-06-04 01:56:54 -0400"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/flags/flag_orange": {
+    "criteria": {
+      "has_tag_c_rods_wooden_2": "2026-06-04 01:56:54 -0400"
+    },
+    "done": true
+  },
+  "gobber2:recipes/misc/gobber2_axe": {
+    "criteria": {
+      "has_stick": "2026-06-04 01:56:54 -0400"
+    },
+    "done": true
+  },
+  "gobber2:recipes/combat/gobber2_boots_end": {
+    "criteria": {
+      "has_stick": "2026-06-04 01:56:54 -0400"
+    },
+    "done": true
+  },
+  "gobber2:recipes/misc/gobber2_bow": {
+    "criteria": {
+      "has_stick": "2026-06-04 01:56:54 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_pickaxe": {
+    "criteria": {
+      "has_stick": "2026-06-04 01:56:54 -0400"
+    },
+    "done": true
+  },
+  "gobber2:recipes/misc/gobber2_bow_nether": {
+    "criteria": {
+      "has_stick": "2026-06-04 01:56:54 -0400"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/cherry_lattice_fence_gate": {
+    "criteria": {
+      "has_minecraft:stick": "2026-06-04 01:56:54 -0400"
+    },
+    "done": true
+  },
+  "gobber2:recipes/misc/gobber2_pickaxe_end": {
+    "criteria": {
+      "has_stick": "2026-06-04 01:56:54 -0400"
+    },
+    "done": true
+  },
+  "domum_ornamentum:recipes/building_blocks/blockbarreldeco_standing": {
+    "criteria": {
+      "has_stick": "2026-06-04 01:56:54 -0400"
+    },
+    "done": true
+  },
+  "gobber2:recipes/misc/gobber2_excavator_end": {
+    "criteria": {
+      "has_stick": "2026-06-04 01:56:54 -0400"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/birch_lattice_fence_gate": {
+    "criteria": {
+      "has_minecraft:stick": "2026-06-04 01:56:54 -0400"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/crimson_lattice_fence": {
+    "criteria": {
+      "has_minecraft:stick": "2026-06-04 01:56:54 -0400"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/jungle_lattice_fence": {
+    "criteria": {
+      "has_minecraft:stick": "2026-06-04 01:56:54 -0400"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/spruce_lattice_fence_gate": {
+    "criteria": {
+      "has_minecraft:stick": "2026-06-04 01:56:54 -0400"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/dark_oak_lattice_fence_gate": {
+    "criteria": {
+      "has_minecraft:stick": "2026-06-04 01:56:54 -0400"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/torch": {
+    "criteria": {
+      "has_stick": "2026-06-04 01:56:54 -0400"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/wicker_fence": {
+    "criteria": {
+      "has_tag_c_rods_wooden_2": "2026-06-04 01:56:54 -0400"
+    },
+    "done": true
+  },
+  "gobber2:recipes/misc/gobber2_excavator": {
+    "criteria": {
+      "has_stick": "2026-06-04 01:56:54 -0400"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/flags/flag_cyan": {
+    "criteria": {
+      "has_tag_c_rods_wooden_2": "2026-06-04 01:56:54 -0400"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/acacia_lattice_fence": {
+    "criteria": {
+      "has_minecraft:stick": "2026-06-04 01:56:54 -0400"
+    },
+    "done": true
+  },
+  "gobber2:recipes/misc/gobber2_medallion_end": {
+    "criteria": {
+      "has_stick": "2026-06-04 01:56:54 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_shovel": {
+    "criteria": {
+      "has_stick": "2026-06-04 01:56:54 -0400"
+    },
+    "done": true
+  },
+  "gobber2:recipes/misc/gobber2_tree_axe_end": {
+    "criteria": {
+      "has_stick": "2026-06-04 01:56:54 -0400"
+    },
+    "done": true
+  },
+  "gobber2:recipes/combat/gobber2_boots_nether": {
+    "criteria": {
+      "has_stick": "2026-06-04 01:56:54 -0400"
+    },
+    "done": true
+  },
+  "gobber2:recipes/combat/gobber2_leggings_end": {
+    "criteria": {
+      "has_stick": "2026-06-04 01:56:54 -0400"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/timber_frame": {
+    "criteria": {
+      "has_tag_c_rods_wooden_1": "2026-06-04 01:56:54 -0400"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/flags/flag_purple": {
+    "criteria": {
+      "has_tag_c_rods_wooden_2": "2026-06-04 01:56:54 -0400"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/slingshot": {
+    "criteria": {
+      "has_tag_c_rods_wooden_1": "2026-06-04 01:56:54 -0400"
+    },
+    "done": true
+  },
+  "gobber2:recipes/combat/gobber2_helmet_end": {
+    "criteria": {
+      "has_stick": "2026-06-04 01:56:54 -0400"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/mangrove_lattice_fence": {
+    "criteria": {
+      "has_minecraft:stick": "2026-06-04 01:56:54 -0400"
+    },
+    "done": true
+  },
+  "gobber2:recipes/misc/gobber2_rod_end": {
+    "criteria": {
+      "has_stick": "2026-06-04 01:56:54 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/decorations/cutting_board": {
+    "criteria": {
+      "has_stick": "2026-06-04 01:56:54 -0400"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/flags/flag_magenta": {
+    "criteria": {
+      "has_tag_c_rods_wooden_2": "2026-06-04 01:56:54 -0400"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/flags/flag_light_blue": {
+    "criteria": {
+      "has_tag_c_rods_wooden_2": "2026-06-04 01:56:54 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/ladder": {
+    "criteria": {
+      "has_stick": "2026-06-04 01:56:54 -0400"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/flags/flag_white": {
+    "criteria": {
+      "has_tag_c_rods_wooden_2": "2026-06-04 01:56:54 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_axe": {
+    "criteria": {
+      "has_stick": "2026-06-04 01:56:54 -0400"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/flags/flag_yellow": {
+    "criteria": {
+      "has_tag_c_rods_wooden_2": "2026-06-04 01:56:54 -0400"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/flags/flag_green": {
+    "criteria": {
+      "has_tag_c_rods_wooden_2": "2026-06-04 01:56:54 -0400"
+    },
+    "done": true
+  },
+  "gobber2:recipes/misc/gobber2_excavator_nether": {
+    "criteria": {
+      "has_stick": "2026-06-04 01:56:54 -0400"
+    },
+    "done": true
+  },
+  "gobber2:recipes/combat/gobber2_leggings_nether": {
+    "criteria": {
+      "has_stick": "2026-06-04 01:56:54 -0400"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/timber_cross_brace": {
+    "criteria": {
+      "has_tag_c_rods_wooden_1": "2026-06-04 01:56:54 -0400"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/flags/flag_red": {
+    "criteria": {
+      "has_tag_c_rods_wooden_2": "2026-06-04 01:56:54 -0400"
+    },
+    "done": true
+  },
+  "gobber2:recipes/misc/gobber2_ring_nether": {
+    "criteria": {
+      "has_stick": "2026-06-04 01:56:54 -0400"
+    },
+    "done": true
+  },
+  "gobber2:recipes/combat/gobber2_sword_end": {
+    "criteria": {
+      "has_stick": "2026-06-04 01:56:54 -0400"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/dark_oak_lattice_fence": {
+    "criteria": {
+      "has_minecraft:stick": "2026-06-04 01:56:54 -0400"
+    },
+    "done": true
+  },
+  "paraglider:recipes/misc/paraglider": {
+    "criteria": {
+      "has_stick": "2026-06-04 01:56:54 -0400"
+    },
+    "done": true
+  },
+  "gobber2:recipes/misc/gobber2_medallion": {
+    "criteria": {
+      "has_stick": "2026-06-04 01:56:54 -0400"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/jungle_lattice_fence_gate": {
+    "criteria": {
+      "has_minecraft:stick": "2026-06-04 01:56:54 -0400"
+    },
+    "done": true
+  },
+  "gobber2:recipes/misc/gobber2_shovel_end": {
+    "criteria": {
+      "has_stick": "2026-06-04 01:56:54 -0400"
+    },
+    "done": true
+  },
+  "vampirism:recipes/combat/hunter/stake": {
+    "criteria": {
+      "has_sticks": "2026-06-04 01:56:54 -0400"
+    },
+    "done": true
+  },
+  "gobber2:recipes/misc/gobber2_pickaxe_nether": {
+    "criteria": {
+      "has_stick": "2026-06-04 01:56:54 -0400"
+    },
+    "done": true
+  },
+  "gobber2:recipes/combat/gobber2_sword": {
+    "criteria": {
+      "has_stick": "2026-06-04 01:56:54 -0400"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/crimson_lattice_fence_gate": {
+    "criteria": {
+      "has_minecraft:stick": "2026-06-04 01:56:54 -0400"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/daub_frame": {
+    "criteria": {
+      "has_tag_c_rods_wooden_1": "2026-06-04 01:56:54 -0400"
+    },
+    "done": true
+  },
+  "gobber2:recipes/combat/gobber2_chestplate_nether": {
+    "criteria": {
+      "has_stick": "2026-06-04 01:56:54 -0400"
+    },
+    "done": true
+  },
+  "gobber2:recipes/misc/gobber2_tree_axe_nether": {
+    "criteria": {
+      "has_stick": "2026-06-04 01:56:54 -0400"
+    },
+    "done": true
+  },
+  "gobber2:recipes/misc/gobber2_paxel": {
+    "criteria": {
+      "has_stick": "2026-06-04 01:56:54 -0400"
+    },
+    "done": true
+  },
+  "gobber2:recipes/misc/gobber2_ring": {
+    "criteria": {
+      "has_stick": "2026-06-04 01:56:54 -0400"
+    },
+    "done": true
+  },
+  "gobber2:recipes/misc/gobber2_rod": {
+    "criteria": {
+      "has_stick": "2026-06-04 01:56:54 -0400"
+    },
+    "done": true
+  },
+  "gobber2:recipes/combat/gobber2_helmet": {
+    "criteria": {
+      "has_stick": "2026-06-04 01:56:54 -0400"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/oak_lattice_fence": {
+    "criteria": {
+      "has_minecraft:stick": "2026-06-04 01:56:54 -0400"
+    },
+    "done": true
+  },
+  "gobber2:recipes/misc/gobber2_axe_nether": {
+    "criteria": {
+      "has_stick": "2026-06-04 01:56:54 -0400"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/warped_lattice_fence": {
+    "criteria": {
+      "has_minecraft:stick": "2026-06-04 01:56:54 -0400"
+    },
+    "done": true
+  },
+  "gobber2:recipes/misc/gobber2_paxel_nether": {
+    "criteria": {
+      "has_stick": "2026-06-04 01:56:54 -0400"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/oak_lattice_fence_gate": {
+    "criteria": {
+      "has_minecraft:stick": "2026-06-04 01:56:54 -0400"
+    },
+    "done": true
+  },
+  "gobber2:recipes/misc/gobber2_rod_nether": {
+    "criteria": {
+      "has_stick": "2026-06-04 01:56:54 -0400"
+    },
+    "done": true
+  },
+  "vampirism:recipes/decorations/general/throne": {
+    "criteria": {
+      "has_stick": "2026-06-04 01:56:54 -0400"
+    },
+    "done": true
+  },
+  "gobber2:recipes/misc/gobber2_shovel": {
+    "criteria": {
+      "has_stick": "2026-06-04 01:56:54 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_hoe": {
+    "criteria": {
+      "has_stick": "2026-06-04 01:56:54 -0400"
+    },
+    "done": true
+  },
+  "gobber2:recipes/misc/gobber2_pickaxe": {
+    "criteria": {
+      "has_stick": "2026-06-04 01:56:54 -0400"
+    },
+    "done": true
+  },
+  "gobber2:recipes/misc/gobber2_axe_end": {
+    "criteria": {
+      "has_stick": "2026-06-04 01:56:54 -0400"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/mangrove_lattice_fence_gate": {
+    "criteria": {
+      "has_minecraft:stick": "2026-06-04 01:56:54 -0400"
+    },
+    "done": true
+  },
+  "gobber2:recipes/misc/gobber2_hammer_end": {
+    "criteria": {
+      "has_stick": "2026-06-04 01:56:54 -0400"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/blocks/crank": {
+    "criteria": {
+      "has_stick": "2026-06-04 01:56:54 -0400"
+    },
+    "done": true
+  },
+  "gobber2:recipes/misc/gobber2_hoe": {
+    "criteria": {
+      "has_stick": "2026-06-04 01:56:54 -0400"
+    },
+    "done": true
+  },
+  "gobber2:recipes/misc/gobber2_hammer": {
+    "criteria": {
+      "has_stick": "2026-06-04 01:56:54 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/combat/flint_knife": {
+    "criteria": {
+      "has_stick": "2026-06-04 01:56:54 -0400"
+    },
+    "done": true
+  },
+  "minecolonies:recipes/misc/shapetool": {
+    "criteria": {
+      "has_stick": "2026-06-04 01:56:54 -0400"
+    },
+    "done": true
+  },
+  "undergarden:recipes/decorations/undergarden_scaffolding": {
+    "criteria": {
+      "has_stick": "2026-06-04 01:56:54 -0400"
+    },
+    "done": true
+  },
+  "gobber2:recipes/misc/gobber2_hoe_nether": {
+    "criteria": {
+      "has_stick": "2026-06-04 01:56:54 -0400"
+    },
+    "done": true
+  },
+  "gobber2:recipes/combat/gobber2_chestplate_end": {
+    "criteria": {
+      "has_stick": "2026-06-04 01:56:54 -0400"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/daub_brace": {
+    "criteria": {
+      "has_tag_c_rods_wooden_1": "2026-06-04 01:56:54 -0400"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/cherry_lattice_fence": {
+    "criteria": {
+      "has_minecraft:stick": "2026-06-04 01:56:54 -0400"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/flags/flag_pink": {
+    "criteria": {
+      "has_tag_c_rods_wooden_2": "2026-06-04 01:56:54 -0400"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/warped_lattice_fence_gate": {
+    "criteria": {
+      "has_minecraft:stick": "2026-06-04 01:56:54 -0400"
+    },
+    "done": true
+  },
+  "gobber2:recipes/misc/gobber2_paxel_end": {
+    "criteria": {
+      "has_stick": "2026-06-04 01:56:54 -0400"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/acacia_lattice_fence_gate": {
+    "criteria": {
+      "has_minecraft:stick": "2026-06-04 01:56:54 -0400"
+    },
+    "done": true
+  },
+  "gobber2:recipes/combat/gobber2_leggings": {
+    "criteria": {
+      "has_stick": "2026-06-04 01:56:54 -0400"
+    },
+    "done": true
+  },
+  "gobber2:recipes/misc/gobber2_tree_axe": {
+    "criteria": {
+      "has_stick": "2026-06-04 01:56:54 -0400"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/flags/flag_gray": {
+    "criteria": {
+      "has_tag_c_rods_wooden_2": "2026-06-04 01:56:54 -0400"
+    },
+    "done": true
+  },
+  "gobber2:recipes/misc/gobber2_hammer_nether": {
+    "criteria": {
+      "has_stick": "2026-06-04 01:56:54 -0400"
+    },
+    "done": true
+  },
+  "gobber2:recipes/misc/gobber2_bow_end": {
+    "criteria": {
+      "has_stick": "2026-06-04 01:56:54 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/leaf_litter": {
+    "criteria": {
+      "has_leaves": "2026-06-04 02:02:03 -0400"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/spruce_hedge": {
+    "criteria": {
+      "has_minecraft:spruce_leaves": "2026-06-04 02:02:03 -0400"
+    },
+    "done": true
+  },
+  "avaritia:infinity/infinity_sword": {
+    "criteria": {
+      "main": "2026-06-04 03:03:02 -0400"
+    },
+    "done": true
+  },
+  "avaritia:infinity/infinity_food": {
+    "criteria": {
+      "food0": "2026-06-04 03:16:25 -0400"
+    },
+    "done": true
+  },
+  "unusualend:obtain_enderling_mask": {
+    "criteria": {
+      "obtain_enderling_mask": "2026-06-12 22:31:39 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/misc/smelting/zinc_ingot_from_ore": {
+    "criteria": {
+      "has_item": "2026-06-12 22:38:29 -0400"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/smelting/zinc/ore_smelting": {
+    "criteria": {
+      "has_zinc_ore": "2026-06-12 22:38:29 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/misc/blasting/zinc_ingot_from_ore": {
+    "criteria": {
+      "has_item": "2026-06-12 22:38:29 -0400"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/smelting/zinc/ore_blasting": {
+    "criteria": {
+      "has_zinc_ore": "2026-06-12 22:38:29 -0400"
+    },
+    "done": true
+  },
+  "simplyswords:magiscythe": {
+    "criteria": {
+      "requirement": "2026-06-12 22:53:16 -0400"
+    },
+    "done": true
+  },
+  "minecraft:adventure/sleep_in_bed": {
+    "criteria": {
+      "slept_in_bed": "2026-06-19 17:54:43 -0400"
+    },
+    "done": true
+  },
+  "simplyswords:whisperwind": {
+    "criteria": {
+      "requirement": "2026-06-19 17:56:49 -0400"
+    },
+    "done": true
+  },
+  "simplyswords:wickpiercer": {
+    "criteria": {
+      "requirement": "2026-06-19 18:01:07 -0400"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/enter_acid_with_armor": {
+    "criteria": {
+      "enter_acid_with_armor": "2026-06-19 17:59:44 -0400"
+    },
+    "done": true
+  },
+  "simplymore:the_blood_harvester": {
+    "criteria": {
+      "requirement": "2026-06-19 17:56:07 -0400"
     },
     "done": true
   },

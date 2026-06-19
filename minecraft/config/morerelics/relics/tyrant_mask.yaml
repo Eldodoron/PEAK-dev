@@ -69,4 +69,4 @@ lootData:
         - .*
         tables:
         - '[\w]+:chests\/[\w_\/]*(bastion|piglin)[\w_\/]*'
-        weight: 500
+        weight: 501

@@ -1,19 +1,19 @@
-filename = 'newstructureneo.jar'
-name = "Alex's Caves: Tremorzilla's Rage"
+filename = 'textureupdatesneo.jar'
+name = 'angrytremorzilla'
 side = 'server'
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'newstructureneo.jar'
+x-prismlauncher-version-number = 'textureupdatesneo.jar'
 
 [download]
-hash = '5d86cb3d4fdd7591566e0e2885f83a87844ca115'
+hash = '3a773dd51a14942aa53aef3e75614d09930302f5'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 8044089
+file-id = 8234018
 project-id = 1111962
 
 [[x-prismlauncher-dependencies]]

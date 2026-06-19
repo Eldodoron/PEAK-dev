@@ -12,14 +12,14 @@
 	#Renaming any item in an anvil no longer costs any enchantment levels at all. Can be restricted to only name tags.
 	#Default Value: ALL_ITEMS
 	#Allowed Values: NEVER, ALL_ITEMS, NAME_TAGS_ONLY
-	free_renames = "ALL_ITEMS"
+	free_renames = "NAME_TAGS_ONLY"
 	#Max cost of enchantment level allowed to be spent in an anvil. Every operation exceeding the limit will show as 'Too Expensive!' and will be disallowed.
 	#If set to '-1' the limit is disabled.
 	#Set to '40' enchantment levels in vanilla.
 	#Default Value: -1
 	# Default: -1
 	# Range: > -1
-	too_expensive_limit = -1
+	too_expensive_limit = 64
 	#Percentage of full durability given as a bonus for an item after combining an item with another item of the same kind.
 	#Default Value: 0.12
 	# Default: 0.12

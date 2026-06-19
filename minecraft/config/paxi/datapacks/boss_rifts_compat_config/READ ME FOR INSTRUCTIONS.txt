@@ -1,0 +1,20 @@
+TIP: Hit the "Ctrl" and "F" keys at the same time to look up specific terms and navigate to where they are located.
+
+
+INSTRUCTIONS:
+
+1. Navigate to "data > bossriftsconfig_disable > functions" and search for the .mcfunction file with name of the mod
+   containing the boss you are looking for. Open that .mcfunction file and proceed to the next step.
+   (The Elder Guardian is found in vanilla.mcfunction)
+
+2. To disable a boss's ability to generate rifts, simply remove the hashtag situated in front of a command line under
+   the name of the boss they correspond with.
+
+   FOR EXAMPLE:
+
+   Before:
+   #tag @e[type=aerialhell:mud_cycle_mage] add bossrifts.boss_exception
+   ↑
+
+   After:
+   tag @e[type=aerialhell:mud_cycle_mage] add bossrifts.boss_exception

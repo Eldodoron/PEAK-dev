@@ -9,7 +9,7 @@
 	"isShowingWeaponTrails": true,
 	"isShowingArmsInFirstPerson": false,
 	"isShowingOtherHandFirstPerson": true,
-	"isSweepingParticleEnabled": false,
+	"isSweepingParticleEnabled": true,
 	"isTooltipAttackRangeEnabled": true,
 	"isTooltipAttackRangeReformat": true,
 	"weaponSwingSoundVolume": 100,
@@ -17,6 +17,6 @@
 	"swingThruGrassBlacklist": "farmersdelight",
 	"mineWithWeaponBlacklist": "",
 	"mineWithWeaponWhitelist": "",
-	"firstPersonAnimations": "AUTO",
+	"firstPersonAnimations": "NO",
 	"legAnimationThreshold": 0.0
 }

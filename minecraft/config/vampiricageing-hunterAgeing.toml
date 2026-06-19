@@ -54,8 +54,36 @@
 	seniorityOilUses = 15
 	#How much more damage seniority oil does to each age rank
 	seniorityOilDamageBonus = [0.0, 0.0, 0.1, 0.2, 0.4, 0.6]
-	#How much each age rank increases damage by adding on to base damage. This extra damage only applies to enemy faction creatures. Set all to 0 to disable completely.
-	ageEnemyFactionDamageIncrease = [0.0, 0.0, 2.0, 2.0, 4.0, 4.0]
+	#Cooldown for step assist action
+	# Default: 0
+	# Range: > 0
+	stepAssistCooldown = 0
+	#Duration for step assist action
+	# Default: 2147483647
+	# Range: > 0
+	stepAssistDuration = 2147483647
+	#At what age should a hunter gain the Wise Eye action, allowing you to see invisible players.
+	# Default: 5
+	# Range: 0 ~ 6
+	wiseEyeAge = 5
+	#Cooldown for wise eye action
+	# Default: 10
+	# Range: > 0
+	wiseEyeCooldown = 10
+	#Duration for wise eye action
+	# Default: 120
+	# Range: > 0
+	wiseEyeDuration = 120
+	#Whether you will be slowed down whilst using wise eye
+	wiseEyeSlowdown = true
+	#Multiplies the rate of healing and exhaustion gain from Faster Regeneration
+	fasterRegenerationMultPerAgeRank = [1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+	#When tainted ageing is not active, applies a multiplier to villager trading prices. Otherwise, defers to taintedBloodTradeDealPricesMultiplier
+	regularTradeDealPricesMultiplier = [1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+	#When tainted ageing is not active, improves mining speed for each age rank by the corresponding multiplier
+	hunterIncreasedMiningSpeed = [1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+	#How much each age rank increases damage by adding on to base damage. Replaced with tainted blood version Set all to 0 to disable completely.
+	hunterAgeDamageIncrease = [0.0, 0.0, 1.0, 1.0, 1.5, 2.0]
 
 ["Tainted Blood"]
 	#The next few configs apply to the Tainted Blood mechanic for hunters. When there is a list of values, the first value will refer to a cumulative age (base age rank + tainted age rank) of 0 and the second to last value 10. The last value, 11, is only possible if the hunter has underwent permanent tainted transformation and is age rank 5.
@@ -127,8 +155,6 @@
 	taintedAgeMovementSpeedIncreases = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.02, 0.03, 0.04, 0.06]
 	#How the price of villager trades are multiplied by baesd on tainted blood age
 	taintedBloodtradeDealPricesMultiplier = [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.25, 1.5, 1.75, 2.0, 2.5]
-	#How much mining speed is increased based on age. This is a multiplier of total mining speed. Set all to 0 to completely disable
-	hunterMiningSpeedBonus = [1.0, 1.0, 1.0, 1.05, 1.1, 1.15, 1.2, 1.25, 1.3, 1.325, 1.35, 1.5]
 	#Whether teleport action is enabled / disabled
 	hunterTeleportAction = true
 	#At what cumulative tainted age can a hunter use the teleport action
@@ -191,3 +217,5 @@
 	noNegativeEffectsFromBadFoodAge = 6
 	#If changed from default, changes the rank number for a given age rank to the provided text.
 	hunterAgeRankTitles = ["1", "2", "3", "4", "5"]
+	#How much mining speed is increased based on age. This is a multiplier of total mining speed
+	taintedHunterMiningSpeedBonus = [1.0, 1.0, 1.0, 1.05, 1.1, 1.15, 1.2, 1.25, 1.3, 1.325, 1.35, 1.5]

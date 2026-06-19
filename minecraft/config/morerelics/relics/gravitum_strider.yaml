@@ -68,14 +68,14 @@ lootData:
         - .*
         tables:
         - '[\w]+:chests\/[\w_\/]*(end|stronghold)[\w_\/]*'
-        weight: 500
+        weight: 501
     -   biomes:
         - .*
         dimensions:
         - minecraft:the_end
         tables:
         - '[\w]+:chests\/[\w_\/]*[\w]+[\w_\/]*'
-        weight: 100
+        weight: 99
     -   biomes:
         - '[\w]+:.*(sculk|warden)[\w_\/]*'
         - minecraft:deep_dark
@@ -83,4 +83,4 @@ lootData:
         - .*
         tables:
         - '[\w]+:chests\/[\w_\/]*[\w]+[\w_\/]*'
-        weight: 500
+        weight: 501

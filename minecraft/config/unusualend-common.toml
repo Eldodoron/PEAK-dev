@@ -35,10 +35,14 @@
 	"Crystal Flower Nausea" = true
 	#The Y altitude under which the Void Totem will be triggered
 	"Void Totem Altitude" = -1.0
-	#The scale the Ancient Podium will display blocks at
-	"Podium Item Size" = 0.55
 	#The scale the Ancient Podium will display items as
+	"Podium Item Size" = 0.55
+	#The scale the Ancient Podium will display blocks at
 	"Podium Block Size" = 0.4
+	#Whether the player will be able to obtain Everlasting (makes items never despawn)
+	"Can Everlasting be obtained" = true
+	#Probability in % for Orbs to trigger
+	"Orb Activation" = 5.0
 
 ["Cooldowns (in tick)"]
 	"Prismatic Mirror" = 6000.0
@@ -60,19 +64,17 @@
 	"Totems requiere Anchor" = false
 
 [Biomes]
-	"Fog inside of the Gloopstone Plains" = false
 	"Fog inside of the Warped Reef" = false
-	# Default: 1.0
-	# Range: 0.01 ~ 2.147483647E9
-	"Biomes size factor" = 1.0
+	"Fog inside of the Gloopstone Biomes" = false
 
 [Generation]
 	"End Highlands Vegetation" = true
 	"End Highlands Raw Purpur" = true
 	"Infested Endstone" = true
 	"Overgrown Small End Islands" = true
-	"Compatibility Mode" = "automatic"
 
-["Potion Effect Durations"]
-	"Warped Infusion" = 60.0
+["Potion Effect Durations (in seconds)"]
 	"Wandering Stew" = 600.0
+	"Bolok Fin" = 600.0
+	"Cooked Bolok Fin" = 1200.0
+	"Warped Infusion" = 60.0

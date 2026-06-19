@@ -1,36 +1,20 @@
-filename = 'twilightdelight-3.2.1.jar'
-name = "Twilight's Flavors & Delight"
+filename = 'twilightdelight-3.2.2.jar'
+name = 'Twilight Flavors & Delight'
 side = 'server'
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'twilightdelight-3.2.1.jar'
+x-prismlauncher-version-number = 'twilightdelight-3.2.2.jar'
 
 [download]
-hash = '52a848d413fb1b7c7cc79e3d6c9a25868ba96e57'
+hash = '1ea8eed3c41852b0b09b8c29af5a454fd8c18a8d'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 8046921
+file-id = 8208673
 project-id = 871735
-
-[[x-prismlauncher-dependencies]]
-addonId = '679270'
-type = 'OPTIONAL'
-
-[[x-prismlauncher-dependencies]]
-addonId = '398521'
-type = 'REQUIRED'
-
-[[x-prismlauncher-dependencies]]
-addonId = '306770'
-type = 'OPTIONAL'
-
-[[x-prismlauncher-dependencies]]
-addonId = '532286'
-type = 'OPTIONAL'
 
 [[x-prismlauncher-dependencies]]
 addonId = '227639'
@@ -39,3 +23,19 @@ type = 'REQUIRED'
 [[x-prismlauncher-dependencies]]
 addonId = '382016'
 type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '532286'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '306770'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '679270'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '398521'
+type = 'REQUIRED'

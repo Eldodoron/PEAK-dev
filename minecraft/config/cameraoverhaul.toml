@@ -9,7 +9,7 @@ configVersion = 3
 	enabled = true
 	# Disable this to make the mod's effects exclusive to first-person view.
 	# Default: true
-	enableInThirdPerson = false
+	enableInThirdPerson = true
 	# How smooth should transitions between contextual profiles such as walking and swimming be.
 	# Default: 0.1
 	contextTransitionSmoothing = 0.1
@@ -99,10 +99,10 @@ configVersion = 3
 
 	# Strength of the camera roll rotation caused by strafing, or sideway horizontal velocity.
 	# Default: -30.0
-	strafingRollFactor = -30.0
+	strafingRollFactor = 5.0
 	# Strength of camera pitch rotations caused by moving forward or backwards.
 	# Default: 21.0
-	forwardVelocityPitchFactor = 10.0
+	forwardVelocityPitchFactor = 7.0
 	# Strength of camera pitch rotations caused by vertical velocity.
 	# Default: 7.5
 	verticalVelocityPitchFactor = 3.5

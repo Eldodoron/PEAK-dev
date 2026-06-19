@@ -1,50 +1,50 @@
-/apoth spawn_boss EldoTest apotheosis:overworld/husk apotheosis:mythic true
-/apoth spawn_boss EldoTest apotheosis:overworld/husk apotheosis:mythic false
-/apoth spawn_boss EldoTest apotheosis:overworld/husk apotheosis:mythic true
-/apoth spawn_boss EldoTest apotheosis:overworld/husk apotheosis:mythic
-/apoth spawn_boss EldoTest apotheosis:overworld/husk apotheosis:mythic false
-/apoth spawn_boss EldoTest apotheosis:overworld/husk apotheosis:mythic
-/apoth spawn_boss EldoTest apotheosis:overworld/husk apotheosis:mythic true
-/apoth spawn_boss EldoTest apotheosis:overworld/husk apotheosis:mythic
-/reload
-/advancement grant @s only apotheosis:progression/haven
-/apoth set_world_tier EldoTest haven
-/tombstone
-/open_gateway Eldodoron apotheosis:tiered/pinnacle
-/apoth reforge apotheosis:mythic
-/chunky start minecraft:overworld square 0 0 5000 5000
-/chunky pause
-/chunky cancel
-/chunky confirm
-/tp Eldodoron 0 ~ 0
-/kill
-/atl thread_dump
+/tp 0 ~ 0
+/tp Eldodoron ~ ~ -692.9
+/weather clear
+/difficulty hard
+/chunky start minecraft:overworld square 0 0 1000 1000
 /spark profiler start --timeout 200
-/atl thread_dump
-/spark tps
+/difficulty peaceful
+/difficulty hard
+/chunky start minecraft:overworld square 1000 1000 1000 1000
+/witsoP
+/wits
+/chunky start minecraft:overworld square 1000 1000 1000 1000
+/chunky continue
+/chunky start minecraft:overworld square 0 1000 600 1500
+/chunky start minecraft:overworld square 0 1000 1600 600
+/chunky start minecraft:overworld square 0 -4000 4600 6500
+/chunky continue
+/chunky start minecraft:overworld square 0 -4000 4600 6500
+/chunky continue
+/sophisticatedbackpacks give Eldodoron 2fc6cb28-c760-4459-a024-a9c983f17861
+/crafttweaker inventory registryNames
+/crafttweaker block_info
+/crafttweaker conflicts <recipetype:avaritia:compressor_recipe>
+/crafttweaker ctgui
+/crafttweaker dump attributes
+/crafttweaker dump recipes
+/wits
+/spark profiler start --timeout 500
+/WITS
+/wits
+/ftbchunks admin extra_force_load_chunks Eldodoron
+/ftbchunks admin extra_force_load_chunks Eldodoron add 200
+/ftbchunks admin view_loaded_chunks minecraft:overworld
+/ftbchunks load 10
+/ftbchunks admin view_loaded_chunks minecraft:overworld
+/ftbchunks admin view_loaded_chunks
+/ftblibrary clientconfig
+/ftbchunks waypoint-
+/forceload add ~ ~ ~ ~
+/forceload add 210 366 150 400
+/ftbchunks load 100
+/ftbchunks admin open_claim_gui_as Eldodoron#49be79aa
+/ftbchunks info
+/forceload add ~ ~ 0 0
+/forceload remove all
+/give Eldodoron alltheores:dirty_zinc_dust
+/give Eldodoron alltheores:zinc_ore
+/wits
 /reload
-/spark tps
-/ironsSpellbooks camera_shake ~ ~ ~ 10 100
-/ironsSpellbooks upgrade cataclysm_spellbooks:abyssal_power 1111
-/reload
-/give Eldodoron compressor
-/reload
-/effect give Eldodoron minecraft:regeneration infinite 5
-/reload
-/give @p minecraft:wooden_sword{weapon_attributes:'{"parent":"bettercombat:claymore"}'} 1
-/give @p minecraft:wooden_sword 1 {weapon_attributes:'{"parent":"bettercombat:claymore"}'} 1
-/give @p minecraft:wooden_sword 1
-/dynamic_difficulty level set Eldodoron 100
-/summon minecraft:wither
-/apoth set_world_tier Eldodoron pinnacle
-/effect give Eldodoron minecraft:regeneration infinite 5
-/ironsSpellbooks upgrade irons_spellbooks:mana 1000
-/effect give Eldodoron minecraft:absorption infinite
-/effect clear Eldodoron minecraft:regeneration infinite 5
-/effect clear Eldodoron minecraft:regeneration
-/summon apotheosis:tiered_gateway
-/summon ars_nouveau:amethyst_golem
-/summon cataclysm:coral_golem
-/reload
-/summon minecraft:tnt
-/reload
+/wits

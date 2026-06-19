@@ -74,14 +74,14 @@ any_rendering = true
 		#Default Value: true
 		render_damage_values = true
 		#The text color when displaying positive values, when the entity has healed.
-		#Default Value: §a
+		#Default Value: GREEN
 		#Allowed Values: BLACK, DARK_BLUE, DARK_GREEN, DARK_AQUA, DARK_RED, DARK_PURPLE, GOLD, GRAY, DARK_GRAY, BLUE, GREEN, AQUA, RED, LIGHT_PURPLE, YELLOW, WHITE, OBFUSCATED, BOLD, STRIKETHROUGH, UNDERLINE, ITALIC, RESET
 		heal_color = "GREEN"
 		#Draw a bold black outline around damage values, just like the experience level in the player hud.
 		#Default Value: true
 		strong_text_outline = true
 		#The text color when displaying negative values, when the entity has received damage.
-		#Default Value: §c
+		#Default Value: RED
 		#Allowed Values: BLACK, DARK_BLUE, DARK_GREEN, DARK_AQUA, DARK_RED, DARK_PURPLE, GOLD, GRAY, DARK_GRAY, BLUE, GREEN, AQUA, RED, LIGHT_PURPLE, YELLOW, WHITE, OBFUSCATED, BOLD, STRIKETHROUGH, UNDERLINE, ITALIC, RESET
 		damage_color = "RED"
 
@@ -168,14 +168,14 @@ any_rendering = true
 		#Default Value: true
 		render_damage_values = true
 		#The text color when displaying positive values, when the entity has healed.
-		#Default Value: §a
+		#Default Value: GREEN
 		#Allowed Values: BLACK, DARK_BLUE, DARK_GREEN, DARK_AQUA, DARK_RED, DARK_PURPLE, GOLD, GRAY, DARK_GRAY, BLUE, GREEN, AQUA, RED, LIGHT_PURPLE, YELLOW, WHITE, OBFUSCATED, BOLD, STRIKETHROUGH, UNDERLINE, ITALIC, RESET
 		heal_color = "GREEN"
 		#Draw a bold black outline around damage values, just like the experience level in the player hud.
 		#Default Value: true
 		strong_text_outline = true
 		#The text color when displaying negative values, when the entity has received damage.
-		#Default Value: §c
+		#Default Value: RED
 		#Allowed Values: BLACK, DARK_BLUE, DARK_GREEN, DARK_AQUA, DARK_RED, DARK_PURPLE, GOLD, GRAY, DARK_GRAY, BLUE, GREEN, AQUA, RED, LIGHT_PURPLE, YELLOW, WHITE, OBFUSCATED, BOLD, STRIKETHROUGH, UNDERLINE, ITALIC, RESET
 		damage_color = "RED"
 

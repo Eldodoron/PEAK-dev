@@ -403,290 +403,94 @@ ServerEvents.recipes(event => {
     });
 
 
-    // --- REMOVE DEFAULT BACKPACK RECIPES ---
-    event.remove({ id: 'sophisticatedbackpacks:copper_backpack' });
-    event.remove({ id: 'sophisticatedbackpacks:iron_backpack' });
-    event.remove({ id: 'sophisticatedbackpacks:iron_backpack_from_copper' });
-    event.remove({ id: 'sophisticatedbackpacks:gold_backpack' });
-    event.remove({ id: 'sophisticatedbackpacks:gold_backpack_from_iron' });
-    event.remove({ id: 'sophisticatedbackpacks:diamond_backpack' });
-    event.remove({ id: 'sophisticatedbackpacks:diamond_backpack_from_gold' });
-    event.remove({ id: 'sophisticatedbackpacks:netherite_backpack' });
+        // --- SAFE TIER UPGRADES (Keep NBT/Data Components) ---
+    // Instead of overriding the Backpack items (which wipes NBT), we make the Tier Upgrade items harder to craft.
 
+    // 0. Remove Default Upgrades
+    event.remove({ output: 'sophisticatedbackpacks:basic_to_copper_tier_upgrade' });
+    event.remove({ output: 'sophisticatedbackpacks:copper_to_iron_tier_upgrade' });
+    event.remove({ output: 'sophisticatedbackpacks:basic_to_iron_tier_upgrade' });
+    event.remove({ output: 'sophisticatedbackpacks:iron_to_gold_tier_upgrade' });
+    event.remove({ output: 'sophisticatedbackpacks:gold_to_diamond_tier_upgrade' });
+    event.remove({ output: 'sophisticatedbackpacks:diamond_to_netherite_tier_upgrade' });
 
-    // --- UPGRADED BACKPACKS (Shaped Tool-Damaging Crafteos) ---
+    // 1. Basic -> Copper
+    event.shaped('sophisticatedbackpacks:basic_to_copper_tier_upgrade', [
+        ' P ',
+        'PBP',
+        ' T '
+    ], {
+        B: 'sophisticatedbackpacks:upgrade_base',
+        P: '#c:plates/copper',
+        T: '#c:tools/screwdriver'
+    }).damageIngredient('#c:tools/screwdriver');
 
-    // 0. Copper Backpack (Leather -> Copper)
-    ['immersiveengineering:screwdriver', 'tfmg:screwdriver'].forEach(tool => {
-        event.shaped('sophisticatedbackpacks:copper_backpack', [
-            ' P ',
-            'PBP',
-            ' T '
-        ], {
-            B: 'sophisticatedbackpacks:backpack',
-            P: '#c:plates/copper',
-            T: tool
-        }).damageIngredient(tool);
+    // 2a. Copper -> Iron
+    event.shaped('sophisticatedbackpacks:copper_to_iron_tier_upgrade', [
+        ' P ',
+        'PBP',
+        ' T '
+    ], {
+        B: 'sophisticatedbackpacks:upgrade_base',
+        P: '#c:plates/iron',
+        T: '#c:tools/screwdriver'
+    }).damageIngredient('#c:tools/screwdriver');
+
+    // 2b. Basic -> Iron (Punishing skip: requires Copper Block)
+    event.shaped('sophisticatedbackpacks:basic_to_iron_tier_upgrade', [
+        ' P ',
+        'CBI',
+        ' T '
+    ], {
+        B: 'sophisticatedbackpacks:upgrade_base',
+        P: '#c:plates/iron',
+        I: '#c:ingots/iron',
+        C: '#c:storage_blocks/copper',
+        T: '#c:tools/screwdriver'
+    }).damageIngredient('#c:tools/screwdriver');
+
+    // 3. Iron -> Gold
+    event.shaped('sophisticatedbackpacks:iron_to_gold_tier_upgrade', [
+        ' P ',
+        'PBP',
+        ' T '
+    ], {
+        B: 'sophisticatedbackpacks:upgrade_base',
+        P: '#c:plates/gold',
+        T: '#c:tools/screwdriver'
+    }).damageIngredient('#c:tools/screwdriver');
+
+    // 4. Gold -> Diamond (Mechanical Crafter 5x5)
+    event.recipes.create.mechanical_crafting('sophisticatedbackpacks:gold_to_diamond_tier_upgrade', [
+        'DDDDD',
+        'DVDVD',
+        'DBGBD',
+        'DVDVD',
+        'D T D'
+    ], {
+        D: 'alltheores:diamond_plate',
+        V: 'create:item_vault',
+        B: '#c:storage_blocks/gold',
+        G: 'sophisticatedbackpacks:upgrade_base',
+        T: '#c:tools/screwdriver'
     });
 
-    // 1a. Iron Backpack (Leather -> Iron)
-    ['immersiveengineering:screwdriver', 'tfmg:screwdriver'].forEach(tool => {
-        event.shaped('sophisticatedbackpacks:iron_backpack', [
-            ' P ',
-            'PBP',
-            ' T '
-        ], {
-            B: 'sophisticatedbackpacks:backpack',
-            P: '#c:plates/iron',
-            T: tool
-        }).damageIngredient(tool);
+    // 5. Diamond -> Netherite (Mechanical Crafter 5x5)
+    event.recipes.create.mechanical_crafting('sophisticatedbackpacks:diamond_to_netherite_tier_upgrade', [
+        'NNNNN',
+        'NVVVN',
+        'NBGBN',
+        'NVVVN',
+        'N T N'
+    ], {
+        N: 'alltheores:netherite_plate',
+        V: 'create:item_vault',
+        B: '#c:storage_blocks/diamond',
+        G: 'sophisticatedbackpacks:upgrade_base',
+        T: '#c:tools/screwdriver'
     });
 
-    // 1b. Iron Backpack (Copper -> Iron)
-    ['immersiveengineering:screwdriver', 'tfmg:screwdriver'].forEach(tool => {
-        event.shaped('sophisticatedbackpacks:iron_backpack', [
-            ' P ',
-            'PBP',
-            ' T '
-        ], {
-            B: 'sophisticatedbackpacks:copper_backpack',
-            P: '#c:plates/iron',
-            T: tool
-        }).damageIngredient(tool);
-    });
-
-    // 2. Gold Backpack (Iron -> Gold)
-    ['immersiveengineering:screwdriver', 'tfmg:screwdriver'].forEach(tool => {
-        event.shaped('sophisticatedbackpacks:gold_backpack', [
-            ' P ',
-            'PBP',
-            ' T '
-        ], {
-            B: 'sophisticatedbackpacks:iron_backpack',
-            P: '#c:plates/gold',
-            T: tool
-        }).damageIngredient(tool);
-    });
-
-    // 3. Diamond Backpack (Gold -> Diamond)
-    ['immersiveengineering:screwdriver', 'tfmg:screwdriver'].forEach(tool => {
-        event.shaped('sophisticatedbackpacks:diamond_backpack', [
-            ' P ',
-            'PBP',
-            ' T '
-        ], {
-            B: 'sophisticatedbackpacks:gold_backpack',
-            P: 'minecraft:diamond',
-            T: tool
-        }).damageIngredient(tool);
-    });
-
-    // 4. Netherite Backpack (Diamond -> Netherite)
-    ['immersiveengineering:screwdriver', 'tfmg:screwdriver'].forEach(tool => {
-        event.shaped('sophisticatedbackpacks:netherite_backpack', [
-            ' P ',
-            'PBP',
-            ' T '
-        ], {
-            B: 'sophisticatedbackpacks:diamond_backpack',
-            P: 'alltheores:netherite_plate',
-            T: tool
-        }).damageIngredient(tool);
-    });
-
-
-
-    // --- AUTOMATED BACKPACKS (Create Sequenced Assemblies) ---
-    
-    // 0. Copper Backpack
-    event.custom({
-        "type": "create:sequenced_assembly",
-        "ingredient": { "item": "sophisticatedbackpacks:backpack" },
-        "transitional_item": { "id": "kubejs:incomplete_copper_backpack" },
-        "sequence": [
-            { "type": "create:deploying", "ingredients": [{ "item": "kubejs:incomplete_copper_backpack" }, { "tag": "c:plates/copper" }], "results": [{ "id": "kubejs:incomplete_copper_backpack" }] },
-            { "type": "create:deploying", "ingredients": [{ "item": "kubejs:incomplete_copper_backpack" }, { "tag": "c:plates/copper" }], "results": [{ "id": "kubejs:incomplete_copper_backpack" }] },
-            { "type": "create:deploying", "ingredients": [{ "item": "kubejs:incomplete_copper_backpack" }, { "tag": "c:plates/copper" }], "results": [{ "id": "kubejs:incomplete_copper_backpack" }] },
-            { "type": "create:pressing", "ingredients": [{ "item": "kubejs:incomplete_copper_backpack" }], "results": [{ "id": "kubejs:incomplete_copper_backpack" }] }
-        ],
-        "results": [{ "id": "sophisticatedbackpacks:copper_backpack" }],
-        "loops": 1
-    });
-
-    // 1a. Iron Backpack (from Leather)
-    event.custom({
-        "type": "create:sequenced_assembly",
-        "ingredient": { "item": "sophisticatedbackpacks:backpack" },
-        "transitional_item": { "id": "kubejs:incomplete_iron_backpack" },
-        "sequence": [
-            { "type": "create:deploying", "ingredients": [{ "item": "kubejs:incomplete_iron_backpack" }, { "tag": "c:plates/iron" }], "results": [{ "id": "kubejs:incomplete_iron_backpack" }] },
-            { "type": "create:deploying", "ingredients": [{ "item": "kubejs:incomplete_iron_backpack" }, { "tag": "c:plates/iron" }], "results": [{ "id": "kubejs:incomplete_iron_backpack" }] },
-            { "type": "create:deploying", "ingredients": [{ "item": "kubejs:incomplete_iron_backpack" }, { "tag": "c:plates/iron" }], "results": [{ "id": "kubejs:incomplete_iron_backpack" }] },
-            { "type": "create:pressing", "ingredients": [{ "item": "kubejs:incomplete_iron_backpack" }], "results": [{ "id": "kubejs:incomplete_iron_backpack" }] }
-        ],
-        "results": [{ "id": "sophisticatedbackpacks:iron_backpack" }],
-        "loops": 1
-    });
-
-    // 1b. Iron Backpack (from Copper)
-    event.custom({
-        "type": "create:sequenced_assembly",
-        "ingredient": { "item": "sophisticatedbackpacks:copper_backpack" },
-        "transitional_item": { "id": "kubejs:incomplete_iron_backpack" },
-        "sequence": [
-            { "type": "create:deploying", "ingredients": [{ "item": "kubejs:incomplete_iron_backpack" }, { "tag": "c:plates/iron" }], "results": [{ "id": "kubejs:incomplete_iron_backpack" }] },
-            { "type": "create:deploying", "ingredients": [{ "item": "kubejs:incomplete_iron_backpack" }, { "tag": "c:plates/iron" }], "results": [{ "id": "kubejs:incomplete_iron_backpack" }] },
-            { "type": "create:deploying", "ingredients": [{ "item": "kubejs:incomplete_iron_backpack" }, { "tag": "c:plates/iron" }], "results": [{ "id": "kubejs:incomplete_iron_backpack" }] },
-            { "type": "create:pressing", "ingredients": [{ "item": "kubejs:incomplete_iron_backpack" }], "results": [{ "id": "kubejs:incomplete_iron_backpack" }] }
-        ],
-        "results": [{ "id": "sophisticatedbackpacks:iron_backpack" }],
-        "loops": 1
-    });
-
-    // 2. Gold Backpack
-    event.custom({
-        "type": "create:sequenced_assembly",
-        "ingredient": { "item": "sophisticatedbackpacks:iron_backpack" },
-        "transitional_item": { "id": "kubejs:incomplete_gold_backpack" },
-        "sequence": [
-            { "type": "create:deploying", "ingredients": [{ "item": "kubejs:incomplete_gold_backpack" }, { "tag": "c:plates/gold" }], "results": [{ "id": "kubejs:incomplete_gold_backpack" }] },
-            { "type": "create:deploying", "ingredients": [{ "item": "kubejs:incomplete_gold_backpack" }, { "tag": "c:plates/gold" }], "results": [{ "id": "kubejs:incomplete_gold_backpack" }] },
-            { "type": "create:deploying", "ingredients": [{ "item": "kubejs:incomplete_gold_backpack" }, { "tag": "c:plates/gold" }], "results": [{ "id": "kubejs:incomplete_gold_backpack" }] },
-            { "type": "create:pressing", "ingredients": [{ "item": "kubejs:incomplete_gold_backpack" }], "results": [{ "id": "kubejs:incomplete_gold_backpack" }] }
-        ],
-        "results": [{ "id": "sophisticatedbackpacks:gold_backpack" }],
-        "loops": 1
-    });
-
-    // 3. Diamond Backpack
-    event.custom({
-        "type": "create:sequenced_assembly",
-        "ingredient": { "item": "sophisticatedbackpacks:gold_backpack" },
-        "transitional_item": { "id": "kubejs:incomplete_diamond_backpack" },
-        "sequence": [
-            { "type": "create:deploying", "ingredients": [{ "item": "kubejs:incomplete_diamond_backpack" }, { "item": "minecraft:diamond" }], "results": [{ "id": "kubejs:incomplete_diamond_backpack" }] },
-            { "type": "create:deploying", "ingredients": [{ "item": "kubejs:incomplete_diamond_backpack" }, { "item": "minecraft:diamond" }], "results": [{ "id": "kubejs:incomplete_diamond_backpack" }] },
-            { "type": "create:deploying", "ingredients": [{ "item": "kubejs:incomplete_diamond_backpack" }, { "item": "minecraft:diamond" }], "results": [{ "id": "kubejs:incomplete_diamond_backpack" }] },
-            { "type": "create:pressing", "ingredients": [{ "item": "kubejs:incomplete_diamond_backpack" }], "results": [{ "id": "kubejs:incomplete_diamond_backpack" }] }
-        ],
-        "results": [{ "id": "sophisticatedbackpacks:diamond_backpack" }],
-        "loops": 1
-    });
-
-    // 4. Netherite Backpack
-    event.custom({
-        "type": "create:sequenced_assembly",
-        "ingredient": { "item": "sophisticatedbackpacks:diamond_backpack" },
-        "transitional_item": { "id": "kubejs:incomplete_netherite_backpack" },
-        "sequence": [
-            { "type": "create:deploying", "ingredients": [{ "item": "kubejs:incomplete_netherite_backpack" }, { "item": "alltheores:netherite_plate" }], "results": [{ "id": "kubejs:incomplete_netherite_backpack" }] },
-            { "type": "create:deploying", "ingredients": [{ "item": "kubejs:incomplete_netherite_backpack" }, { "item": "alltheores:netherite_plate" }], "results": [{ "id": "kubejs:incomplete_netherite_backpack" }] },
-            { "type": "create:deploying", "ingredients": [{ "item": "kubejs:incomplete_netherite_backpack" }, { "item": "alltheores:netherite_plate" }], "results": [{ "id": "kubejs:incomplete_netherite_backpack" }] },
-            { "type": "create:pressing", "ingredients": [{ "item": "kubejs:incomplete_netherite_backpack" }], "results": [{ "id": "kubejs:incomplete_netherite_backpack" }] }
-        ],
-        "results": [{ "id": "sophisticatedbackpacks:netherite_backpack" }],
-        "loops": 1
-    });
-
-    // --- ENGINEER'S WORKBENCH BLUEPRINT RECIPES (Immersive Engineering) ---
-
-    // 0. Copper Backpack Blueprint
-    event.custom({
-        type: "immersiveengineering:blueprint",
-        inputs: [
-            { tag: "c:plates/copper" },
-            { tag: "c:plates/copper" },
-            { tag: "c:plates/copper" },
-            { tag: "c:plates/copper" },
-            { item: "immersiveengineering:screwdriver" },
-            { item: "immersiveengineering:hammer" }
-        ],
-        base_ingredient: { item: "sophisticatedbackpacks:backpack" },
-        category: "components",
-        result: { item: "sophisticatedbackpacks:copper_backpack" }
-    });
-
-    // 1a. Iron Backpack Blueprint (Leather -> Iron)
-    event.custom({
-        type: "immersiveengineering:blueprint",
-        inputs: [
-            { tag: "c:plates/iron" },
-            { tag: "c:plates/iron" },
-            { tag: "c:plates/iron" },
-            { tag: "c:plates/iron" },
-            { item: "immersiveengineering:screwdriver" },
-            { item: "immersiveengineering:hammer" }
-        ],
-        base_ingredient: { item: "sophisticatedbackpacks:backpack" },
-        category: "components",
-        result: { item: "sophisticatedbackpacks:iron_backpack" }
-    });
-
-    // 1b. Iron Backpack Blueprint (Copper -> Iron)
-    event.custom({
-        type: "immersiveengineering:blueprint",
-        inputs: [
-            { tag: "c:plates/iron" },
-            { tag: "c:plates/iron" },
-            { tag: "c:plates/iron" },
-            { tag: "c:plates/iron" },
-            { item: "immersiveengineering:screwdriver" },
-            { item: "immersiveengineering:hammer" }
-        ],
-        base_ingredient: { item: "sophisticatedbackpacks:copper_backpack" },
-        category: "components",
-        result: { item: "sophisticatedbackpacks:iron_backpack" }
-    });
-
-    // 2. Gold Backpack Blueprint
-    event.custom({
-        type: "immersiveengineering:blueprint",
-        inputs: [
-            { tag: "c:plates/gold" },
-            { tag: "c:plates/gold" },
-            { tag: "c:plates/gold" },
-            { tag: "c:plates/gold" },
-            { item: "immersiveengineering:screwdriver" },
-            { item: "immersiveengineering:hammer" }
-        ],
-        base_ingredient: { item: "sophisticatedbackpacks:iron_backpack" },
-        category: "components",
-        result: { item: "sophisticatedbackpacks:gold_backpack" }
-    });
-
-    // 3. Diamond Backpack Blueprint
-    event.custom({
-        type: "immersiveengineering:blueprint",
-        inputs: [
-            { item: "minecraft:diamond" },
-            { item: "minecraft:diamond" },
-            { item: "minecraft:diamond" },
-            { item: "minecraft:diamond" },
-            { item: "immersiveengineering:screwdriver" },
-            { item: "immersiveengineering:hammer" }
-        ],
-        base_ingredient: { item: "sophisticatedbackpacks:gold_backpack" },
-        category: "components",
-        result: { item: "sophisticatedbackpacks:diamond_backpack" }
-    });
-
-    // 4. Netherite Backpack Blueprint
-    event.custom({
-        type: "immersiveengineering:blueprint",
-        inputs: [
-            { item: "alltheores:netherite_plate" },
-            { item: "alltheores:netherite_plate" },
-            { item: "minecraft:netherite_scrap" },
-            { item: "minecraft:netherite_scrap" },
-            { item: "immersiveengineering:screwdriver" },
-            { item: "immersiveengineering:hammer" }
-        ],
-        base_ingredient: { item: "sophisticatedbackpacks:diamond_backpack" },
-        category: "components",
-        result: { item: "sophisticatedbackpacks:netherite_backpack" }
-    });
-
-    // ==========================================
+// ==========================================
     // SECTION 10: BUILDING WANDS & UTILITY
     // Quality of life items should feel earned
     // ==========================================

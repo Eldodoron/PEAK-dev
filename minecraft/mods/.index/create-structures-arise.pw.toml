@@ -1,18 +1,18 @@
-filename = 'create_structures_arise NeoForge 1.21.1 -175.48.47.jar'
+filename = 'create_structures_arise-176.49.48 NeoForge 1.21.1.jar'
 name = 'Create: Structures Arise'
 side = ''
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '175.48.47'
+x-prismlauncher-version-number = '176.49.48'
 
 [download]
-hash = 'fc0aec06ad87d15217f2266b73ca59e5378d92b2c54ca598263b68c6d47866d8b8b5490e0d082e30b937d2bf253ab0a86de47c61101ec7ac2166454517204fdb'
+hash = '95ff65a83ae3f41fcee3bb1327ce6dacf4e916e0ea841a8e584b1d1927edad028970b0f6a8014971cc2444ccef00baa62a33a2021e61d60f2cf94df8b377c4a8'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/9enMEvoc/versions/UjUbuTq1/create_structures_arise NeoForge 1.21.1 -175.48.47.jar'
+url = 'https://cdn.modrinth.com/data/9enMEvoc/versions/ZFrDlvkl/create_structures_arise-176.49.48 NeoForge 1.21.1.jar'
 
 [update.modrinth]
 mod-id = '9enMEvoc'
-version = 'UjUbuTq1'
+version = 'ZFrDlvkl'

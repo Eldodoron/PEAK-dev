@@ -2,6 +2,15 @@
   "selected_animations": [
     {
       "kind": "item",
+      "definition": "PICKAXE",
+      "animations": {
+        "attack": "pack:file/modded swords x punchy! 1.21.1 v1.3.1.zip",
+        "mining_v2": "pack:punchy:punchy",
+        "inspect": "pack:punchy:punchy"
+      }
+    },
+    {
+      "kind": "item",
       "definition": "SPEAR",
       "animations": {
         "attack": "pack:punchy:punchy",
@@ -99,15 +108,6 @@
       "definition": "FLINT",
       "animations": {
         "useitem": "pack:punchy:punchy"
-      }
-    },
-    {
-      "kind": "item",
-      "definition": "PICKAXE",
-      "animations": {
-        "mining_v2": "pack:punchy:punchy",
-        "attack": "pack:punchy:punchy",
-        "inspect": "pack:punchy:punchy"
       }
     },
     {

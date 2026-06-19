@@ -68,11 +68,11 @@ lootData:
         - .*
         tables:
         - '[\w]+:chests\/[\w_\/]*(bastion|piglin)[\w_\/]*'
-        weight: 500
+        weight: 501
     -   biomes:
         - .*
         dimensions:
         - minecraft:the_nether
         tables:
         - '[\w]+:chests\/[\w_\/]*[\w]+[\w_\/]*'
-        weight: 100
+        weight: 99

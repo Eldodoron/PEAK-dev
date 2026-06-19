@@ -114,6 +114,21 @@
       "width": 16,
       "height": 16,
       "bits": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\u003d"
+    },
+    "lootr:block/barrel_bottom": {
+      "width": 16,
+      "height": 16,
+      "bits": "//+H4QPAAYABgAGAAYADwAPAAYABgAGAAYADwIfh//8\u003d"
+    },
+    "lootr:block/barrel_top": {
+      "width": 16,
+      "height": 16,
+      "bits": "//+H4QPAAYABgAGAAYADwBvAGYABgAGAAYADwIfh//8\u003d"
+    },
+    "lootr:block/barrel_side": {
+      "width": 16,
+      "height": 16,
+      "bits": "//8AAAAAP/wf+A/wAAAAAAAAAAA//B/4D/AAAAAA//8\u003d"
     }
   },
   "sourceMasks": {
@@ -854,6 +869,60 @@
       "width": 16,
       "height": 16,
       "bits": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAOAH8A/4H/gfAAA\u003d"
+    },
+    "block:lootr:lootr_barrel#south": {
+      "sourceId": "lootr:lootr_barrel",
+      "fluid": false,
+      "face": "south",
+      "spriteId": "lootr:block/barrel_bottom",
+      "width": 16,
+      "height": 16,
+      "bits": "//+H4QPAAYABgAGAAYADwAPAAYABgAGAAYADwIfh//8\u003d"
+    },
+    "block:lootr:lootr_barrel#east": {
+      "sourceId": "lootr:lootr_barrel",
+      "fluid": false,
+      "face": "east",
+      "spriteId": "lootr:block/barrel_side",
+      "width": 16,
+      "height": 16,
+      "bits": "//8AAAAAP/wf+A/wAAAAAAAAAAA//B/4D/AAAAAA//8\u003d"
+    },
+    "block:lootr:lootr_barrel#up": {
+      "sourceId": "lootr:lootr_barrel",
+      "fluid": false,
+      "face": "up",
+      "spriteId": "lootr:block/barrel_side",
+      "width": 16,
+      "height": 16,
+      "bits": "//8AAAAAP/wf+A/wAAAAAAAAAAA//B/4D/AAAAAA//8\u003d"
+    },
+    "block:lootr:lootr_barrel#north": {
+      "sourceId": "lootr:lootr_barrel",
+      "fluid": false,
+      "face": "north",
+      "spriteId": "lootr:block/barrel_top",
+      "width": 16,
+      "height": 16,
+      "bits": "//+H4QPAAYABgAGAAYADwBvAGYABgAGAAYADwIfh//8\u003d"
+    },
+    "block:lootr:lootr_barrel#down": {
+      "sourceId": "lootr:lootr_barrel",
+      "fluid": false,
+      "face": "down",
+      "spriteId": "lootr:block/barrel_side",
+      "width": 16,
+      "height": 16,
+      "bits": "//8AAAAAP/wf+A/wAAAAAAAAAAA//B/4D/AAAAAA//8\u003d"
+    },
+    "block:lootr:lootr_barrel#west": {
+      "sourceId": "lootr:lootr_barrel",
+      "fluid": false,
+      "face": "west",
+      "spriteId": "lootr:block/barrel_side",
+      "width": 16,
+      "height": 16,
+      "bits": "//8AAAAAP/wf+A/wAAAAAAAAAAA//B/4D/AAAAAA//8\u003d"
     }
   },
   "entityTextureMasks": {

@@ -1,18 +1,18 @@
-filename = 'deeperdarker-neoforge-1.21.1-1.4.jar'
+filename = 'deeperdarker-neoforge-1.21.1-1.4.1.jar'
 name = 'Deeper and Darker'
-side = 'both'
+side = ''
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '1.4'
+x-prismlauncher-version-number = '1.4.1-neoforge-1.21.1'
 
 [download]
-hash = '0e4824095b49fcbf26624093f8e332d8c019179432756512f929a8a45c1289d76f7e63776b40ea4053d73274e98f5326c4dc5be85cff638d03279e6ba8b66811'
+hash = '38d8d87878f39a063feb029db17702bedadf7554233ae56db6018c21225b6dff4d4cc31f4b0995254fd488e2a687f3b15bf9647c59dd42b9032791d34316ed0c'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/fnAffV0n/versions/G6YDRA79/deeperdarker-neoforge-1.21.1-1.4.jar'
+url = 'https://cdn.modrinth.com/data/fnAffV0n/versions/TuD0Zvi3/deeperdarker-neoforge-1.21.1-1.4.1.jar'
 
 [update.modrinth]
 mod-id = 'fnAffV0n'
-version = 'G6YDRA79'
+version = 'TuD0Zvi3'

@@ -1,0 +1,280 @@
+{
+  "frames": [
+    {
+      "items": ["apotheosis:gem"],
+      "specialEffect": "stars, echo",
+      "vignettes": [
+        "(hole, middle, #AA000000, 1.0, 0, 0)"
+      ]
+    },
+    {
+      "namespace": "relics",
+      "gradientType": "custom",
+      "borderType": "auto_gradient",
+      "vignettes": [
+        "(hole, middle, #AA000000, 1.0, 0, 0)"
+      ]
+    },
+    {
+      "namespace": "artifacts",
+      "gradientType": "custom",
+      "borderType": "auto_gradient",
+      "vignettes": [
+        "(hole, middle, #AA000000, 1.0, 0, 0)"
+      ]
+    },
+    {
+      "items": ["avaritia:infinity_sword"],
+      "specialEffect": "galaxy, white_dust, echo",
+      "gradientType": "custom",
+      "borderType": "auto_gradient"
+    },
+    {
+      "items": [
+        "avaritia:infinity_helmet",
+        "avaritia:infinity_chestplate",
+        "avaritia:infinity_pants",
+        "avaritia:infinity_boots",
+        "avaritia:infinity_pickaxe",
+        "avaritia:infinity_shovel",
+        "avaritia:infinity_axe",
+        "avaritia:infinity_hoe",
+        "avaritia:infinity_bow",
+        "avaritia:infinity_crossbow",
+        "avaritia:infinity_mace",
+        "avaritia:infinity_elytra",
+        "avaritia:infinity_totem",
+        "avaritia:infinity_umbrella",
+        "avaritia:infinity_shield",
+        "avaritia:infinity_bucket",
+        "avaritia:infinity_trident"
+      ],
+      "gradientColors": ["#FF000000", "#FFFFFFFF", "#FFADD8E6"],
+      "gradientType": "custom",
+      "borderType": "gradient",
+      "specialEffect": "metal_shining, white_dust, echo",
+      "vignettes": [
+        "(hole, middle, #AA000000, 1.0, 0, 0)"
+      ]
+    },
+    {
+      "items": ["apotheosis:common_material"],
+      "gradientColors": ["#FFA9A9A9", "#FF808080", "#FF696969"],
+      "gradientType": "custom",
+      "borderType": "gradient"
+    },
+    {
+      "items": ["apotheosis:uncommon_material"],
+      "gradientColors": ["#FF90EE90", "#FF32CD32", "#FF008000"],
+      "gradientType": "custom",
+      "borderType": "gradient"
+    },
+    {
+      "items": ["apotheosis:rare_material"],
+      "gradientColors": ["#FF87CEFA", "#FF4169E1", "#FF0000CD"],
+      "gradientType": "custom",
+      "borderType": "gradient"
+    },
+    {
+      "items": ["apotheosis:epic_material"],
+      "gradientColors": ["#FFDDA0DD", "#FF8A2BE2", "#FF4B0082"],
+      "gradientType": "custom",
+      "borderType": "gradient"
+    },
+    {
+      "items": ["apotheosis:mythic_material"],
+      "gradientColors": ["#FFFFA07A", "#FFFF8C00", "#FFFF4500"],
+      "gradientType": "custom",
+      "borderType": "gradient"
+    },
+    {
+      "items": ["nadir:worthless_material"],
+      "gradientColors": ["#FFFFFFFF", "#FFF5F5F5", "#FFDCDCDC"],
+      "gradientType": "custom",
+      "borderType": "gradient"
+    },
+    {
+      "items": ["nadir:legendary_material"],
+      "gradientColors": ["#FFFFFACD", "#FFF0E68C", "#FFBDB76B"],
+      "gradientType": "custom",
+      "borderType": "gradient"
+    },
+    {
+      "items": ["nadir:ancient_material"],
+      "gradientColors": ["#FFFF6347", "#FFFF0000", "#FF8B0000"],
+      "gradientType": "custom",
+      "borderType": "gradient"
+    },
+    {
+      "items": ["nadir:forgotten_material"],
+      "gradientColors": ["#FFD2B48C", "#FFCD853F", "#FF8B4513"],
+      "gradientType": "custom",
+      "borderType": "gradient"
+    },
+    {
+      "items": ["nadir:primal_material"],
+      "gradientColors": ["#FFEE82EE", "#FFDA70D6", "#FFC71585"],
+      "gradientType": "custom",
+      "borderType": "gradient"
+    },
+    {
+      "items": ["nadir:stellar_material"],
+      "gradientColors": ["#FF000080", "#FF0000CD", "#FF00BFFF"],
+      "gradientType": "custom",
+      "borderType": "gradient",
+      "specialEffect": "galaxy"
+    },
+    {
+      "items": ["nadir:divine_material"],
+      "gradientColors": ["#FFFFFF00", "#FFFFFFE0", "#FFFFFFFF"],
+      "gradientType": "custom",
+      "borderType": "gradient",
+      "specialEffect": "stars"
+    },
+    {
+      "items": ["nadir:esoteric_material"],
+      "gradientColors": ["#FF98FB98", "#FF3CB371", "#FF4682B4"],
+      "gradientType": "custom",
+      "borderType": "gradient",
+      "specialEffect": "sonar"
+    },
+    {
+      "items": ["nadir:cataclysmic_material"],
+      "gradientColors": ["#FFFF2A6D", "#FF05D9E8", "#FF7B2CBF"],
+      "gradientType": "custom",
+      "borderType": "gradient",
+      "specialEffect": "cinder, speed_lines, white_dust, metal_shining"
+    },
+    {
+      "texture": "tooltipoverhaul:textures/overlay/amethyst_frame.png",
+      "items": [
+        "minecraft:dragon_egg",
+        "minecraft:enchanted_golden_apple"
+      ],
+      "gradientType": "custom",
+      "borderType": "static",
+      "gradientColors": ["#C551C3", "#C551C3", "#C551C3"],
+      "specialEffect": "metal_shining"
+    },
+    {
+      "texture": "tooltipoverhaul:textures/overlay/diamond_frame.png",
+      "items": [
+        "minecraft:end_crystal",
+        "minecraft:beacon",
+        "minecraft:conduit",
+        "minecraft:golden_apple",
+        "minecraft:music_disc_13",
+        "minecraft:music_disc_cat",
+        "minecraft:music_disc_blocks",
+        "minecraft:music_disc_chirp",
+        "minecraft:music_disc_far",
+        "minecraft:music_disc_mall",
+        "minecraft:music_disc_mellohi",
+        "minecraft:music_disc_stal",
+        "minecraft:music_disc_strad",
+        "minecraft:music_disc_ward",
+        "minecraft:music_disc_11",
+        "minecraft:music_disc_wait",
+        "minecraft:music_disc_otherside",
+        "minecraft:music_disc_5",
+        "minecraft:music_disc_relic",
+        "minecraft:music_disc_pigstep"
+      ],
+      "gradientType": "custom",
+      "borderType": "auto_gradient"
+    },
+    {
+      "texture": "tooltipoverhaul:textures/overlay/amber_frame.png",
+      "items": [
+        "minecraft:elytra",
+        "minecraft:experience_bottle",
+        "minecraft:skeleton_skull",
+        "minecraft:wither_skeleton_skull",
+        "minecraft:player_wall_head",
+        "minecraft:creeper_wall_head",
+        "minecraft:zombie_wall_head",
+        "minecraft:dragon_wall_head",
+        "minecraft:piglin_wall_head",
+        "minecraft:nether_star",
+        "minecraft:enchanted_book",
+        "minecraft:dragon_breath",
+        "minecraft:totem_of_undying",
+        "minecraft:heart_of_the_sea",
+        "minecraft:creeper_banner_pattern",
+        "minecraft:skull_banner_pattern"
+      ],
+      "gradientType": "custom",
+      "borderType": "auto_gradient"
+    },
+    {
+      "texture": "tooltipoverhaul:textures/overlay/silver_frame.png",
+      "items": [
+        "minecraft:netherite_upgrade_smithing_template",
+        "minecraft:netherite_ingot",
+        "minecraft:netherite_scrap",
+        "minecraft:netherite_sword",
+        "minecraft:netherite_shovel",
+        "minecraft:netherite_pickaxe",
+        "minecraft:netherite_axe",
+        "minecraft:netherite_hoe",
+        "minecraft:netherite_helmet",
+        "minecraft:netherite_chestplate",
+        "minecraft:netherite_leggings",
+        "minecraft:netherite_boots",
+
+        "minecraft:emerald",
+
+        "minecraft:diamond",
+        "minecraft:diamond_sword",
+        "minecraft:diamond_shovel",
+        "minecraft:diamond_pickaxe",
+        "minecraft:diamond_axe",
+        "minecraft:diamond_hoe",
+        "minecraft:diamond_helmet",
+        "minecraft:diamond_chestplate",
+        "minecraft:diamond_leggings",
+        "minecraft:diamond_boots",
+        "minecraft:diamond_horse_armor",
+        "minecraft:saddle",
+
+        "minecraft:trident",
+        "minecraft:shield",
+        "minecraft:turtle_helmet",
+        "minecraft:crossbow",
+        "minecraft:bow",
+        "minecraft:ender_pearl",
+        "minecraft:eye_of_ender",
+        "minecraft:blaze_rod",
+
+        "minecraft:netherite_scrap"
+      ],
+      "gradientType": "custom",
+      "borderType": "gradient",
+      "gradientColors": ["#A9A9A9", "#999999", "#8F8F8F"]
+    },
+    {
+      "items": [
+        "celestisynth:frostbound",
+        "celestisynth:keres",
+        "celestisynth:crescentia",
+        "celestisynth:breezebreaker",
+        "celestisynth:poltergeist",
+        "celestisynth:aquaflora",
+        "celestisynth:rainfall_serenity"
+      ],
+      "disableScrolling": true
+    },
+    {
+      "texture": "tooltipoverhaul:textures/overlay/cataclysm_frame.png",
+      "items": [
+        "cataclysm:the_incinerator",
+        "cataclysm:ceraunus",
+        "cataclysm:soul_render"
+      ],
+      "gradientType": "custom",
+      "borderType": "static",
+      "gradientColors": ["#3D3A5E", "#3D3A5E", "#3D3A5E"],
+      "specialEffect": "metal_shining"
+    }
+  ]
+}

@@ -11,7 +11,9 @@
   "snow_haze": {
     "enabled": true
   },
-  "mist_after_rain": {},
+  "mist_after_rain": {
+    "enabled": false
+  },
   "ripple": {},
   "rain_haze": {},
   "snow": {},

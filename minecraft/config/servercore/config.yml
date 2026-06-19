@@ -137,7 +137,7 @@ mob-spawning:
   # ► spawn-interval = The interval between spawn attempts in ticks. Higher values mean less frequent spawn attempts.
   categories:
     - category: 'MONSTER'
-      mobcap: 50
+      mobcap: 80
       spawn-interval: 1
 
     - category: 'CREATURE'

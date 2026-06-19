@@ -1,0 +1,32 @@
+[2026-06-18 19:20:16] [tid:7136][util::setLogFilename:243] Logging to requested file (.//nvngx_dlss_310_6_0.log) enabled successfully
+[2026-06-18 19:20:16] [tid:7136][NGXInitLog:226] App logging hooks successfully initialized
+[2026-06-18 19:20:16] [tid:7136][NGXInitLog:232] Build v310.6.0 CL 37460577
+[2026-06-18 19:20:16] [tid:7136][NGXInitLog:234] Built with APP_NAME = nvapp_override
+[2026-06-18 19:20:16] [tid:7136][NGXInitLog:240] Loaded from path "C:\Program Files\Eclipse Adoptium\jdk-21.0.8.9-hotspot\bin/javaw.exe"
+[2026-06-18 19:20:16] [tid:7136][NGXCubinVulkan::Init:202] Enabling texmode_raw
+[2026-06-18 19:20:16] [tid:7136][NGXCubinKernelMap::InitCubins:42] Loading NGXCubin kernels
+[2026-06-18 19:20:16] [tid:7136][NGXCubinGeneric::SetGPUArch:400] SetGPUArch:: Gpu count = 1, luid: 0x12056
+[2026-06-18 19:20:16] [tid:7136][NGXCubinGeneric::SetGPUArch:460] m_gpuArch = 0x190
+[2026-06-18 19:20:16] [tid:7136][NGXCubinGeneric::genericPostInit:164] Fast UAV clear: supported
+[2026-06-18 19:20:16] [tid:7136][DLSSCubinKernelMap::InitCubins:303] Setting DLAA Cubins
+[2026-06-18 19:20:16] [tid:7136][DLSSCubinKernelMap::InitCubins:303] Setting DLSS Debug Cubins
+[2026-06-18 19:20:16] [tid:7136][DLSSCubinKernelMap::InitCubins:303] Setting DLTSS Engine Cubins
+[2026-06-18 19:20:16] [tid:7136][DLSSCubinKernelMap::InitCubins:303] Setting DLTSS NW Cubins
+[2026-06-18 19:20:16] [tid:7136][DLSSCubinKernelMap::InitCubins:303] Setting DLTSS NW E5M3_SKIP Cubins
+[2026-06-18 19:20:16] [tid:7136][DLSSCubinKernelMap::InitCubins:303] Setting DLTSS NW Cubins
+[2026-06-18 19:20:16] [tid:7136][DldnCubinKernelMap::InitCubins:138] Setting DLDN Engine Pre / Post Cubins
+[2026-06-18 19:20:16] [tid:7136][NgxRayReconstruction::FillCreationParams::<lambda_3c5f420f0640ef4ba91d0aefc6f3411b>::operator ():1786] Info: (DLAA) Using Default Overriden Preset Preset_D
+[2026-06-18 19:20:16] [tid:7136][NgxRayReconstruction::FillCreationParams::<lambda_3c5f420f0640ef4ba91d0aefc6f3411b>::operator ():1786] Info: (Quality) Using Default Overriden Preset Preset_D
+[2026-06-18 19:20:16] [tid:7136][NgxRayReconstruction::FillCreationParams::<lambda_3c5f420f0640ef4ba91d0aefc6f3411b>::operator ():1786] Info: (Balanced) Using Default Overriden Preset Preset_D
+[2026-06-18 19:20:16] [tid:7136][NgxRayReconstruction::FillCreationParams::<lambda_3c5f420f0640ef4ba91d0aefc6f3411b>::operator ():1786] Info: (Perf) Using Default Overriden Preset Preset_D
+[2026-06-18 19:20:16] [tid:7136][NgxRayReconstruction::FillCreationParams::<lambda_3c5f420f0640ef4ba91d0aefc6f3411b>::operator ():1786] Info: (UltraPerf) Using Default Overriden Preset Preset_D
+[2026-06-18 19:20:16] [tid:7136][NgxRayReconstruction::FillCreationParams::<lambda_3c5f420f0640ef4ba91d0aefc6f3411b>::operator ():1786] Info: (UltraQuality) Using Default Overriden Preset Preset_D
+[2026-06-18 19:20:16] [tid:7136][NgxDltss::FillCreationParams::<lambda_2e4c96c3f5e2ca3208cc85b6ace3ec50>::operator ():2906] Info: (DLAA) Using DRS Overridden Preset K
+[2026-06-18 19:20:16] [tid:7136][NgxDltss::FillCreationParams::<lambda_2e4c96c3f5e2ca3208cc85b6ace3ec50>::operator ():2906] Info: (Quality) Using DRS Overridden Preset K
+[2026-06-18 19:20:16] [tid:7136][NgxDltss::FillCreationParams::<lambda_2e4c96c3f5e2ca3208cc85b6ace3ec50>::operator ():2906] Info: (Balanced) Using DRS Overridden Preset K
+[2026-06-18 19:20:16] [tid:7136][NgxDltss::FillCreationParams::<lambda_2e4c96c3f5e2ca3208cc85b6ace3ec50>::operator ():2906] Info: (Perf) Using DRS Overridden Preset M
+[2026-06-18 19:20:16] [tid:7136][NgxDltss::FillCreationParams::<lambda_2e4c96c3f5e2ca3208cc85b6ace3ec50>::operator ():2906] Info: (UltraPerf) Using DRS Overridden Preset L
+[2026-06-18 19:20:16] [tid:7136][NgxDltss::FillCreationParams::<lambda_2e4c96c3f5e2ca3208cc85b6ace3ec50>::operator ():2906] Info: (UltraQuality) Using DRS Overridden Preset K
+[2026-06-18 19:20:16] [tid:7136][PaddedWindowNetwork::CreatePaddedWindowNetwork:399] Container0Tensor: 10 MiB allocated
+[2026-06-18 19:20:16] [tid:7136][PaddedWindowNetwork::CreatePaddedWindowNetwork:403] Container1Tensor: 12 MiB aliased
+[2026-06-18 19:20:16] [tid:7136][PaddedWindowNetwork::CreatePaddedWindowNetwork:407] Container2Tensor: 8 MiB aliased
