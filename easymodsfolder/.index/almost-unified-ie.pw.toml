@@ -1,0 +1,25 @@
+filename = 'almostunified_ie-neoforge-1.21.1-1.0.1.jar'
+name = 'AU: Immersive Engineering'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '1.21.1-1.0.1+neoforge'
+
+[download]
+hash = '51f6b8d3b89ed5f5a241535360d3a208e30118a95858c2e1c585bc23802320387a221e9b0f07ba536def5617e3830f3065ee46fa307a96f8880fbe8ebe2f290b'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/hCyAnqqq/versions/QNmpHq1W/almostunified_ie-neoforge-1.21.1-1.0.1.jar'
+
+[update.modrinth]
+mod-id = 'hCyAnqqq'
+version = 'QNmpHq1W'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'tIm2nV03'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'sdaSaQEz'
+type = 'REQUIRED'

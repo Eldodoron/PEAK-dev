@@ -1,0 +1,25 @@
+filename = 'create-enchantment-industry-2.4.1.jar'
+name = 'Create: Enchantment Industry'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '2.4.1'
+
+[download]
+hash = '52b4d41157dee2620694db2cf83c0eb6cb80d86d225ac7c924ff6b87cd0ef5a878d9b1c405b41f2d721bc86889af0e1ef9099263f6e53b6d11a86254bf47dd44'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/JWGBpFUP/versions/QclZk1u6/create-enchantment-industry-2.4.1.jar'
+
+[update.modrinth]
+mod-id = 'JWGBpFUP'
+version = 'QclZk1u6'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'dzb1a5WV'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'LNytGWDc'
+type = 'REQUIRED'

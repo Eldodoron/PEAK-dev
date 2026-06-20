@@ -1,0 +1,18 @@
+filename = 'anvilcore-10.1 Release-neoforge-1.21.1.jar'
+name = 'AnvilCore 🔨'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'anvilcore-10.1 Release-neoforge-1.21.1.jar'
+
+[download]
+hash = 'd807fa23228c5260aa85413c4eab03a577cdd255'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7771419
+project-id = 1470821

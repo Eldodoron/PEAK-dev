@@ -1,0 +1,25 @@
+filename = 'delightfulcreators-1.2.jar'
+name = 'Delightful Creators'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.2'
+
+[download]
+hash = 'f95ff888b7b785a0366a329f782f1d31d70d154780f9fe2bdd3c892b514aec2c730850e287c957f74fcc87c987429c12499ede48ca5e1c37af9883427478a5f2'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/jmJ87gsb/versions/yibngMI7/delightfulcreators-1.2.jar'
+
+[update.modrinth]
+mod-id = 'jmJ87gsb'
+version = 'yibngMI7'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'R2OftAxM'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'LNytGWDc'
+type = 'REQUIRED'

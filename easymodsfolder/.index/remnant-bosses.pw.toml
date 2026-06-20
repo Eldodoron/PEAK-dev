@@ -1,0 +1,25 @@
+filename = 'remnant_bosses-neoforge-1.21.1-2.2.0.jar'
+name = 'Remnant Bosses'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '2.2.0'
+
+[download]
+hash = '786aab7cd69b2e6a8b77a4e913e4c5af682ed255b7971871f04c739527282987fe3e4afa209a3ec9d47c86fb6f75ec99d588b7cdf385979ee06c635f4ae832bd'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/coZxDAGe/versions/I0U3w0Vn/remnant_bosses-neoforge-1.21.1-2.2.0.jar'
+
+[update.modrinth]
+mod-id = 'coZxDAGe'
+version = 'I0U3w0Vn'
+
+[[x-prismlauncher-dependencies]]
+addonId = '8BmcQJ2H'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'ihvBalM2'
+type = 'REQUIRED'

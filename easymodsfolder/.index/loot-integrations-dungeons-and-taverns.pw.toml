@@ -1,0 +1,37 @@
+filename = 'lootintegrations_dnt-2.5.jar'
+name = 'Loot Integrations: Dungeons and Taverns'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge', 'forge', 'fabric' ]
+x-prismlauncher-mc-versions = [
+    '1.18.2',
+    '1.19.2',
+    '1.20.1',
+    '1.21',
+    '1.21.1',
+    '1.21.4',
+    '1.21.5',
+    '1.21.6',
+    '1.21.7',
+    '1.21.8',
+    '1.21.10',
+    '1.21.11',
+    '26.1',
+    '26.1.1',
+    '26.1.2'
+]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'lootintegrations_dnt-2.5.jar'
+
+[download]
+hash = '77ee7e3e7611f7506c564dd598a98fa86903a1fe'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7915316
+project-id = 1139414
+
+[[x-prismlauncher-dependencies]]
+addonId = '580689'
+type = 'REQUIRED'

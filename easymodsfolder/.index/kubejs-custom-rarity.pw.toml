@@ -1,0 +1,25 @@
+filename = 'kubejs_rarity-1.21.1-1.0.0+neoforge.jar'
+name = 'KubeJS Custom Rarity'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'kubejs_rarity-1.21.1-1.0.0+neoforge.jar'
+
+[download]
+hash = '9f20a8c0bf4abe015faecebde938a4272f404aed'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8076418
+project-id = 1540872
+
+[[x-prismlauncher-dependencies]]
+addonId = '532127'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '238086'
+type = 'REQUIRED'

@@ -1,0 +1,21 @@
+filename = 'libertyvillagers-1.21.1-NeoForge-1.0.2.jar'
+name = 'Liberty’s Villagers Revived'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'libertyvillagers-1.21.1-NeoForge-1.0.2.jar'
+
+[download]
+hash = '53776e83a3b552e4c3b2e6a540345239a4091583'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7414023
+project-id = 1334457
+
+[[x-prismlauncher-dependencies]]
+addonId = '348521'
+type = 'REQUIRED'

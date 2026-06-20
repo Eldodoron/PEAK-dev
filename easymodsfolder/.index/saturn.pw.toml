@@ -1,0 +1,18 @@
+filename = 'saturn-mc1.21.1-0.1.5.jar'
+name = 'Saturn'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'mc1.21.1-0.1.5'
+
+[download]
+hash = 'e328d85d449bf61a0ba90e7ca801db0aea4ef4e1f8fbdc0cb774d21892bd65ae3f1546aa78cb8fdd0acf2361653c1e205aec823233e089de9d067e67b6fd4e8f'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/2eT495vq/versions/V5lIEjKs/saturn-mc1.21.1-0.1.5.jar'
+
+[update.modrinth]
+mod-id = '2eT495vq'
+version = 'V5lIEjKs'

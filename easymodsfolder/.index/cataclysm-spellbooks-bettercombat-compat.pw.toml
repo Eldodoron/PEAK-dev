@@ -1,0 +1,37 @@
+filename = 'cataclysmspells_compat.jar'
+name = 'Cataclysm: Spellbooks & BetterCombat - Compatibility'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.0'
+
+[download]
+hash = '68e9a67163653591dc032b7375e91cad7826a4a635f49aa917710ed22ab913b3e49f324dde070e289dd51dac779cee87c4864985fb39a65f08a1472b3ba1917a'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/ELQuZsJK/versions/8cgD6A9Y/cataclysmspells_compat.jar'
+
+[update.modrinth]
+mod-id = 'ELQuZsJK'
+version = '8cgD6A9Y'
+
+[[x-prismlauncher-dependencies]]
+addonId = 's4OWxYQQ'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '53TJSd8P'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '46KJle7n'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '3FEg0A8D'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '5sy6g3kz'
+type = 'REQUIRED'

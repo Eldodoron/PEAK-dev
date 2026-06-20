@@ -1,0 +1,26 @@
+filename = 'ragdoll_reactions-1.21.1-0.6.7.jar'
+name = 'Ragdoll Reactions'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '0.6.7'
+
+[download]
+hash = '759adabd4522cf469322e6c4b75e15dcd49c35e1201f91c4171c7311bcd1cf97f0e545308189e8fd09147af8abb9380ae04c82ffbca5261085ab09be1aa614a8'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/6awFMFjR/versions/Oa0RDBOh/ragdoll_reactions-1.21.1-0.6.7.jar'
+
+[update.modrinth]
+mod-id = '6awFMFjR'
+version = 'Oa0RDBOh'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'T9PomCSv'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'I3mWDgfy'
+type = 'REQUIRED'
+version = 'ESsmhtcl'

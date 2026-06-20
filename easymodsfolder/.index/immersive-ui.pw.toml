@@ -1,0 +1,21 @@
+filename = 'ImmersiveUI-NEOFORGE-0.3.3+1.21.1.jar'
+name = 'Immersive UI'
+side = 'client'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '0.3.3'
+
+[download]
+hash = 'bff82f778fc42a88a4b5d98759498ad85f086b23527e51f5c4c717a2fe9d1bcfa583f38ae12ff2d4403580c734cdfcef2daedbe19cb470bdea203f0595a687a7'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/9wv7LuMc/versions/wtmSnIFo/ImmersiveUI-NEOFORGE-0.3.3%2B1.21.1.jar'
+
+[update.modrinth]
+mod-id = '9wv7LuMc'
+version = 'wtmSnIFo'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'RH2KUdKJ'
+type = 'REQUIRED'

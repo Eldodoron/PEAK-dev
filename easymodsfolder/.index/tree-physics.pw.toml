@@ -1,0 +1,21 @@
+filename = 'treephysics-1.8.jar'
+name = 'Tree Physics'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Tree Physics 1.8'
+
+[download]
+hash = 'f9ca6830eb9a40ca310949f07497c52cda1e3fde'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8172410
+project-id = 1522010
+
+[[x-prismlauncher-dependencies]]
+addonId = '1312371'
+type = 'REQUIRED'

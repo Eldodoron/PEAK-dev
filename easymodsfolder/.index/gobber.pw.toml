@@ -1,0 +1,18 @@
+filename = 'Gobber-NeoForge-1.21.1-2.10.15.jar'
+name = 'Gobber [NEOFORGE/FORGE]'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Gobber-NeoForge-1.21.1-2.10.15.jar'
+
+[download]
+hash = 'c22c23bfd0f8a4567083cea195d43e9b1fa66da6'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5788529
+project-id = 301700

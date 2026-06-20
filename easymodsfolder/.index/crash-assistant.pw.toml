@@ -1,0 +1,18 @@
+filename = 'CrashAssistant-neoforge-1.20.6-1.21.4-1.11.9.jar'
+name = 'Crash Assistant'
+side = 'client'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.20.6', '1.21', '1.21.1', '1.21.2', '1.21.3', '1.21.4' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.11.9'
+
+[download]
+hash = '98ebb5428c704b72008ccdc87104a97a68a0dcef892b3c3dc43a3fde925a3bb34737d48fb453561cb734bf032f5bf59d77d67a51844d1c73f54391104ae9b312'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/ix1qq8Ux/versions/APbTyOXD/CrashAssistant-neoforge-1.20.6-1.21.4-1.11.9.jar'
+
+[update.modrinth]
+mod-id = 'ix1qq8Ux'
+version = 'APbTyOXD'

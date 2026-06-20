@@ -1,0 +1,41 @@
+filename = 'gatesofavarice-1.0.0.jar'
+name = 'Gateways To Avarice'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Beta 1'
+
+[download]
+hash = 'ac2e2ff444825c2bc7d28d4e7435af67c0ec0e8e'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7954581
+project-id = 1499555
+
+[[x-prismlauncher-dependencies]]
+addonId = '639842'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1489244'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1391061'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1335728'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1481524'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '417802'
+type = 'REQUIRED'

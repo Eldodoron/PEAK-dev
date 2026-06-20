@@ -1,0 +1,29 @@
+filename = 'wizard_samurai-1.5.2.jar'
+name = "Wizard Samurai - Iron's Spells Addon"
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.5.2'
+
+[download]
+hash = 'cd7e1e6a31171f02033765fccef2820e1664c0689512ad158a2fbaa28aabbabfcaca0c8470dde4ac37df6423e7413eb25a6a0b4e175727ce4a45f793fbcc2c5d'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/Za7950Bh/versions/i2fAY2qH/wizard_samurai-1.5.2.jar'
+
+[update.modrinth]
+mod-id = 'Za7950Bh'
+version = 'i2fAY2qH'
+
+[[x-prismlauncher-dependencies]]
+addonId = '7zlUOZvb'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'lMWJDrbO'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 's4OWxYQQ'
+type = 'REQUIRED'

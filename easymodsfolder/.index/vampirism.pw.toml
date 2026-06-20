@@ -1,0 +1,18 @@
+filename = 'Vampirism-1.21-1.10.11.jar'
+name = 'Vampirism'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.21-1.10.11'
+
+[download]
+hash = 'f2a369399816f845a9b18a3d4a3d5456ff7ee9ea81ceee43beb3b71480dcca22fefe88edb802beb17f763f683aa4a6d4055691b532946a5a82d35ff779ee6993'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/jVZ0F1wn/versions/162pT82Y/Vampirism-1.21-1.10.11.jar'
+
+[update.modrinth]
+mod-id = 'jVZ0F1wn'
+version = '162pT82Y'

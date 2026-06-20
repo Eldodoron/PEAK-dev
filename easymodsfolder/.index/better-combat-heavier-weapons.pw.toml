@@ -1,0 +1,25 @@
+filename = 'heavier_weapons-1.21.1-NeoForge-1.1.0.jar'
+name = 'Better Combat - Heavier Weapons'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'heavier_weapons-1.21.1-NeoForge-1.1.0.jar'
+
+[download]
+hash = '99c170df25095de83f8999a277f1a56fe83e3fda'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7770561
+project-id = 1487841
+
+[[x-prismlauncher-dependencies]]
+addonId = '639842'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1379562'
+type = 'OPTIONAL'

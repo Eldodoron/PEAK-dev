@@ -1,0 +1,18 @@
+filename = 'acceleratedrendering-1.0.10.1-1.21.1-alpha.jar'
+name = 'Accelerated Rendering'
+side = 'client'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'alpha'
+x-prismlauncher-version-number = '1.0.10.1-1.21.1-alpha'
+
+[download]
+hash = 'e0a35d4dbce39d4b7abd38c5a55d57f19f9e1714f782051e9841e67372db4ac10d9d65dea5a6ef40fe415676b6a9b811d6ffba9c36585e6c2e045acd16f1f2a9'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/DfECZO3a/versions/bZS7LakD/acceleratedrendering-1.0.10.1-1.21.1-alpha.jar'
+
+[update.modrinth]
+mod-id = 'DfECZO3a'
+version = 'bZS7LakD'

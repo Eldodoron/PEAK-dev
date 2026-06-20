@@ -1,0 +1,18 @@
+filename = 'punchy-2.5.5b-neoforge-1.21.1.jar'
+name = 'Punchy'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Punchy 2.5.5b (NeoForge) - 1.21.1'
+
+[download]
+hash = '31a5e487c79a70f80622f8d4a43e9d869e2b1b29'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8104498
+project-id = 1374153

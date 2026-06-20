@@ -1,0 +1,21 @@
+filename = 'YungsBetterDesertTemples-1.21.1-NeoForge-4.1.5.jar'
+name = "YUNG's Better Desert Temples"
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.21.1-NeoForge-4.1.5'
+
+[download]
+hash = '6454c955f75f66104810e967a59ae032ddf1ccc5a854346af6bfba6e44cd456e755cd8feb1e0968be4e9132ea6c5d1cb2126fe5e85d3eb18c8d3ea3c81ffdf9a'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/XNlO7sBv/versions/GQ9iNWkI/YungsBetterDesertTemples-1.21.1-NeoForge-4.1.5.jar'
+
+[update.modrinth]
+mod-id = 'XNlO7sBv'
+version = 'GQ9iNWkI'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'Ua7DFN59'
+type = 'REQUIRED'
