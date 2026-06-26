@@ -33,7 +33,7 @@
   "enableModelPartsGlow": true,
   "enableBlurGlowAtDark": false,
   "firstPersonModelHideEnabled": true,
-  "firstPersonModelHidePitch": 60.0,
+  "firstPersonModelHidePitch": 90.0,
   "itemBlacklist": [
     "tfmg:advanced_potato_cannon",
     "aeronautics:mounted_potato_cannon",

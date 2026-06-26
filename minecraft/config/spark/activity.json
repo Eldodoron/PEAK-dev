@@ -5,6 +5,19 @@
       "name": "Eldodoron",
       "uniqueId": "49be79aa-731a-4f2a-bf25-9d3b8eb016b4"
     },
+    "time": 1782262357789,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/z31Wsf9jok"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Eldodoron",
+      "uniqueId": "49be79aa-731a-4f2a-bf25-9d3b8eb016b4"
+    },
     "time": 1780848687051,
     "type": "Profiler",
     "data": {

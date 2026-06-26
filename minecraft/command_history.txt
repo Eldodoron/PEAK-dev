@@ -1,9 +1,3 @@
-/tp 0 ~ 0
-/tp Eldodoron ~ ~ -692.9
-/weather clear
-/difficulty hard
-/chunky start minecraft:overworld square 0 0 1000 1000
-/spark profiler start --timeout 200
 /difficulty peaceful
 /difficulty hard
 /chunky start minecraft:overworld square 1000 1000 1000 1000
@@ -48,3 +42,9 @@
 /wits
 /reload
 /wits
+/spark profiler start --timeout 500
+/chunky start minecraft:overworld circle 0 0 500 500
+/chunky confirm
+/chunky start minecraft:overworld circle 0 -300 500 500
+/crafttweaker inventory registryNames
+/reload

@@ -96,9 +96,9 @@ Economy, jewelry, entities, and specialized enchanting systems.
   - Increase Wither stats, abilities, or drops to make it a more challenging and rewarding mid-to-late game boss.
 - [ ] **Obsidilith Buff:**
   - Obsidilith is currently too weak. Buff its health, attack damage, or special mechanics to align with its tier.
-- [ ] **Fix Excess Mob Drops:**
-  - Mobs are dropping too many items. Adjust loot tables and drop quantities to prevent inventory clutter and economy inflation.
-- [ ] **Rebalance Gems & Jewelry:**
+- [x] **Fix Excess Mob Drops:**
+  - ~~Mobs are dropping too many items. Adjust loot tables and drop quantities to prevent inventory clutter and economy inflation.~~ ✅ Fixed.
+- [/] **Rebalance Gems & Jewelry:** *(In Progress — Currently broken)*
   - Evaluate stat bonuses, drop rates, and crafting costs of gems and jewelry items to ensure balanced progression.
 - [ ] **Tome of Alkahestry Balance Review:**
   - **Question:** Is the Tome of Alkahestry (from *Reliquary Reincarnations*) balanced for the pack's economy? Review and adjust if necessary.
@@ -109,7 +109,7 @@ Economy, jewelry, entities, and specialized enchanting systems.
 
 ## 🛠️ 6. Recipes & Crafting Integrations (Create-focused)
 
-Custom recipes and multi-step deployment assemblies for backpacks and upgrades using the *Create* mod.
+Custom recipes and multi-step deployment assemblies for backpacks and upgrades using the *Create* mod. **Note: The backpack upgrade recipes are scripted and planned but currently broken — they show their default vanilla recipes in-game.**
 
 ```mermaid
 graph TD
@@ -121,33 +121,37 @@ graph TD
 ```
 
 ### 🧪 Recipe Overhauls & Removals
-- [x] **Hallowed Gold Recipe Clean-up:**
+- [x] **Hallowed Gold Recipe Clean-up:** ✅ Works.
   - **Issue:** The Create mixing recipe for Hallowed Gold does not make sense.
   - **Action:** Remove the Create mixing recipe completely; keep only the *Malum* custom recipe.
 
-### 🎒 Create Assembled Backpack Upgrades (might have been done already)
+### 🎒 Create Assembled Backpack Upgrades *(Scripted but broken — shows vanilla recipes in-game)*
 - [ ] **Upgrade Base Recipe:**
   - **Recipe:** Deploying string and iron **4 times** into leather.
+  - **Bug:** Normal recipe still showing up in-game despite scripts.
 - [ ] **Backpack Upgrade (Gold ➔ Netherite):**
   - **Recipe:** Convert this upgrade into a multi-step Create assembled recipe.
-- [ ] **Magnet Upgrade:**
-  - **Recipe:** Crafting should require actual magnetic materials to align with realism.
-- [ ] **Unify Upgrades:**
+  - **Bug:** Normal recipe still showing up in-game.
+- [/] **Magnet Upgrade:** *(In Progress)*
+  - **Basic:** Remove old recipe (uses iron & redstone). Add a new more accessible crafting variant.
+  - **Advanced:** Recipe must include an **Advanced Item Filter**. Remove any recipe containing a **Nether Star**.
+- [/] **Unify Upgrades:** *(In Progress)*
   - **Action:** Make **all** backpack upgrade recipes use Create assembly lines.
-- [ ] **Filter Upgrade:**
-  - **Action:** Create a "Creatified" custom Filter Upgrade assembly recipe.
+- [/] **Filter Upgrade:** *(In Progress)*
+  - **Basic Filter:** Replace paper ingredient with an **EnderIO Basic Item Filter**. Remove the recipe using iron bars.
+  - **Advanced Filter:** Remove the recipe that uses the Mekanism circuit.
 
 ### new notes
 - Rework dragon armour toughness and recipe
 - add armour and equipment from remaining mods (alex mobs,etc)
 - elite control circuit recipe doesnt make sense
-- make everlasting backpack upgrade cost heart canisters?
+- [ ] **Everlasting Backpack upgrade cost heart canisters?** *(Needs investigation — check if already implemented)*
 - make sure that draconic evolution recipes make sense.
 - rework weapon attack range (maybe figure out why do they attack so far away and why are they unbreakable)
 - [x] rework ore worldgen to eliminate duplicated ores from spawning
-- remove atlas map mod sinsce ftb map is installed
+- [x] ~~remove atlas map mod since ftb map is installed~~ ✅ Done.
 - check this create rail riding mod https://www.curseforge.com/minecraft/mc-mods/create-train-track-rail-grinding?utm_source=mcgamecarousel&utm_medium=ownedmedia&utm_campaign=create-train-track-rail-grinding
-- 
+- [ ] **Fix Better Combat compat for Crystal Chronicles:** The `spear` and `evocation_twinblade` don't inherit KubeJS scripts correctly because the mod overrides them internally. Needs a proper physical datapack loaded in the world folder (`world/datapacks`).
 - 
 - [mod Rename resource pack](https://www.curseforge.com/minecraft/texture-packs/the-rcp)
 - 

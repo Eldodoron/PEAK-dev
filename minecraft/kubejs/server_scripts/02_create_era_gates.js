@@ -269,138 +269,43 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'sophisticatedbackpacks:filter_upgrade' });
     event.remove({ id: 'sophisticatedbackpacks:advanced_filter_upgrade' });
 
-
-    // --- CREATE SEQUENCED ASSEMBLIES FOR UPGRADES ---
+    // --- CREATE SEQUENCED ASSEMBLIES FOR UPGRADES (KubeJS-Create addon API) ---
+    const sa = event.recipes.create;
 
     // A. Upgrade Base
-    event.custom({
-        "type": "create:sequenced_assembly",
-        "ingredient": { "item": "minecraft:leather" },
-        "transitional_item": { "id": "kubejs:incomplete_upgrade_base" },
-        "sequence": [
-            {
-                "type": "create:deploying",
-                "ingredients": [{ "item": "kubejs:incomplete_upgrade_base" }, { "item": "minecraft:string" }],
-                "results": [{ "id": "kubejs:incomplete_upgrade_base" }]
-            },
-            {
-                "type": "create:deploying",
-                "ingredients": [{ "item": "kubejs:incomplete_upgrade_base" }, { "item": "minecraft:iron_ingot" }],
-                "results": [{ "id": "kubejs:incomplete_upgrade_base" }]
-            },
-            {
-                "type": "create:pressing",
-                "ingredients": [{ "item": "kubejs:incomplete_upgrade_base" }],
-                "results": [{ "id": "kubejs:incomplete_upgrade_base" }]
-            }
-        ],
-        "results": [{ "id": "sophisticatedbackpacks:upgrade_base" }],
-        "loops": 4
-    });
+    sa.sequenced_assembly('sophisticatedbackpacks:upgrade_base', 'minecraft:leather', [
+        sa.deploying('kubejs:incomplete_upgrade_base', ['kubejs:incomplete_upgrade_base', 'minecraft:string']),
+        sa.deploying('kubejs:incomplete_upgrade_base', ['kubejs:incomplete_upgrade_base', 'minecraft:iron_ingot']),
+        sa.pressing('kubejs:incomplete_upgrade_base', 'kubejs:incomplete_upgrade_base')
+    ]).transitionalItem('kubejs:incomplete_upgrade_base').loops(4).id('kubejs:sequenced_assembly/upgrade_base');
 
-    // F. Basic Magnet Upgrade
-    event.custom({
-        "type": "create:sequenced_assembly",
-        "ingredient": { "item": "sophisticatedbackpacks:upgrade_base" },
-        "transitional_item": { "id": "kubejs:incomplete_magnet_upgrade" },
-        "sequence": [
-            {
-                "type": "create:deploying",
-                "ingredients": [{ "item": "kubejs:incomplete_magnet_upgrade" }, { "item": "alexscaves:scarlet_magnet" }],
-                "results": [{ "id": "kubejs:incomplete_magnet_upgrade" }]
-            },
-            {
-                "type": "create:deploying",
-                "ingredients": [{ "item": "kubejs:incomplete_magnet_upgrade" }, { "item": "alexscaves:azure_magnet" }],
-                "results": [{ "id": "kubejs:incomplete_magnet_upgrade" }]
-            },
-            {
-                "type": "create:pressing",
-                "ingredients": [{ "item": "kubejs:incomplete_magnet_upgrade" }],
-                "results": [{ "id": "kubejs:incomplete_magnet_upgrade" }]
-            }
-        ],
-        "results": [{ "id": "sophisticatedbackpacks:magnet_upgrade" }],
-        "loops": 1
-    });
+    // B. Basic Magnet Upgrade
+    sa.sequenced_assembly('sophisticatedbackpacks:magnet_upgrade', 'sophisticatedbackpacks:upgrade_base', [
+        sa.deploying('kubejs:incomplete_magnet_upgrade', ['kubejs:incomplete_magnet_upgrade', 'alexscaves:scarlet_magnet']),
+        sa.deploying('kubejs:incomplete_magnet_upgrade', ['kubejs:incomplete_magnet_upgrade', 'alexscaves:azure_magnet']),
+        sa.pressing('kubejs:incomplete_magnet_upgrade', 'kubejs:incomplete_magnet_upgrade')
+    ]).transitionalItem('kubejs:incomplete_magnet_upgrade').loops(1).id('kubejs:sequenced_assembly/upgrade_base_magnet');
 
-    // G. Advanced Magnet Upgrade
-    event.custom({
-        "type": "create:sequenced_assembly",
-        "ingredient": { "item": "sophisticatedbackpacks:magnet_upgrade" },
-        "transitional_item": { "id": "kubejs:incomplete_advanced_magnet_upgrade" },
-        "sequence": [
-            {
-                "type": "create:deploying",
-                "ingredients": [{ "item": "kubejs:incomplete_advanced_magnet_upgrade" }, { "item": "tfmg:electromagnetic_coil" }],
-                "results": [{ "id": "kubejs:incomplete_advanced_magnet_upgrade" }]
-            },
-            {
-                "type": "create:deploying",
-                "ingredients": [{ "item": "kubejs:incomplete_advanced_magnet_upgrade" }, { "item": "immersiveengineering:electromagnet" }],
-                "results": [{ "id": "kubejs:incomplete_advanced_magnet_upgrade" }]
-            },
-            {
-                "type": "create:pressing",
-                "ingredients": [{ "item": "kubejs:incomplete_advanced_magnet_upgrade" }],
-                "results": [{ "id": "kubejs:incomplete_advanced_magnet_upgrade" }]
-            }
-        ],
-        "results": [{ "id": "sophisticatedbackpacks:advanced_magnet_upgrade" }],
-        "loops": 1
-    });
+    // C. Advanced Magnet Upgrade
+    sa.sequenced_assembly('sophisticatedbackpacks:advanced_magnet_upgrade', 'sophisticatedbackpacks:magnet_upgrade', [
+        sa.deploying('kubejs:incomplete_advanced_magnet_upgrade', ['kubejs:incomplete_advanced_magnet_upgrade', 'tfmg:electromagnetic_coil']),
+        sa.deploying('kubejs:incomplete_advanced_magnet_upgrade', ['kubejs:incomplete_advanced_magnet_upgrade', 'immersiveengineering:electromagnet']),
+        sa.pressing('kubejs:incomplete_advanced_magnet_upgrade', 'kubejs:incomplete_advanced_magnet_upgrade')
+    ]).transitionalItem('kubejs:incomplete_advanced_magnet_upgrade').loops(1).id('kubejs:sequenced_assembly/upgrade_base_adv_magnet');
 
-    // H. Basic Filter Upgrade
-    event.custom({
-        "type": "create:sequenced_assembly",
-        "ingredient": { "item": "sophisticatedbackpacks:upgrade_base" },
-        "transitional_item": { "id": "kubejs:incomplete_filter_upgrade" },
-        "sequence": [
-            {
-                "type": "create:deploying",
-                "ingredients": [{ "item": "kubejs:incomplete_filter_upgrade" }, { "item": "create:filter" }],
-                "results": [{ "id": "kubejs:incomplete_filter_upgrade" }]
-            },
-            {
-                "type": "create:deploying",
-                "ingredients": [{ "item": "kubejs:incomplete_filter_upgrade" }, { "item": "minecraft:paper" }],
-                "results": [{ "id": "kubejs:incomplete_filter_upgrade" }]
-            },
-            {
-                "type": "create:pressing",
-                "ingredients": [{ "item": "kubejs:incomplete_filter_upgrade" }],
-                "results": [{ "id": "kubejs:incomplete_filter_upgrade" }]
-            }
-        ],
-        "results": [{ "id": "sophisticatedbackpacks:filter_upgrade" }],
-        "loops": 1
-    });
+    // D. Basic Filter Upgrade
+    sa.sequenced_assembly('sophisticatedbackpacks:filter_upgrade', 'sophisticatedbackpacks:upgrade_base', [
+        sa.deploying('kubejs:incomplete_filter_upgrade', ['kubejs:incomplete_filter_upgrade', 'enderio:basic_item_filter']),
+        sa.deploying('kubejs:incomplete_filter_upgrade', ['kubejs:incomplete_filter_upgrade', 'create:filter']),
+        sa.pressing('kubejs:incomplete_filter_upgrade', 'kubejs:incomplete_filter_upgrade')
+    ]).transitionalItem('kubejs:incomplete_filter_upgrade').loops(1).id('kubejs:sequenced_assembly/upgrade_base_filter');
 
-    // I. Advanced Filter Upgrade
-    event.custom({
-        "type": "create:sequenced_assembly",
-        "ingredient": { "item": "sophisticatedbackpacks:filter_upgrade" },
-        "transitional_item": { "id": "kubejs:incomplete_advanced_filter_upgrade" },
-        "sequence": [
-            {
-                "type": "create:deploying",
-                "ingredients": [{ "item": "kubejs:incomplete_advanced_filter_upgrade" }, { "item": "create:attribute_filter" }],
-                "results": [{ "id": "kubejs:incomplete_advanced_filter_upgrade" }]
-            },
-            {
-                "type": "create:deploying",
-                "ingredients": [{ "item": "kubejs:incomplete_advanced_filter_upgrade" }, { "item": "enderio:advanced_item_filter" }],
-                "results": [{ "id": "kubejs:incomplete_advanced_filter_upgrade" }]
-            },
-            {
-                "type": "create:pressing",
-                "ingredients": [{ "item": "kubejs:incomplete_advanced_filter_upgrade" }],
-                "results": [{ "id": "kubejs:incomplete_advanced_filter_upgrade" }]
-            }
-        ],
-        "results": [{ "id": "sophisticatedbackpacks:advanced_filter_upgrade" }],
-        "loops": 1
-    });
+    // E. Advanced Filter Upgrade
+    sa.sequenced_assembly('sophisticatedbackpacks:advanced_filter_upgrade', 'sophisticatedbackpacks:filter_upgrade', [
+        sa.deploying('kubejs:incomplete_advanced_filter_upgrade', ['kubejs:incomplete_advanced_filter_upgrade', 'create:attribute_filter']),
+        sa.deploying('kubejs:incomplete_advanced_filter_upgrade', ['kubejs:incomplete_advanced_filter_upgrade', 'enderio:advanced_item_filter']),
+        sa.pressing('kubejs:incomplete_advanced_filter_upgrade', 'kubejs:incomplete_advanced_filter_upgrade')
+    ]).transitionalItem('kubejs:incomplete_advanced_filter_upgrade').loops(1).id('kubejs:sequenced_assembly/upgrade_base_adv_filter');
 
 
         // --- SAFE TIER UPGRADES (Keep NBT/Data Components) ---

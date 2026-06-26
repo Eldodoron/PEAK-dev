@@ -333,13 +333,13 @@
     "curseForgeHash": 3678039641,
     "modrinthHash": "3fe4d52cc0b11d91c75005030e83e3f675e62383"
   },
-  "asynclogger-1.1.2+1.21.1-neoforge.jar": {
-    "jarName": "asynclogger-1.1.2+1.21.1-neoforge.jar",
+  "asynclogger-1.1.4+1.21.1-neoforge.jar": {
+    "jarName": "asynclogger-1.1.4+1.21.1-neoforge.jar",
     "modId": "asynclogger",
     "name": "Async Logger",
-    "version": "1.1.2+1.21.1-neoforge",
-    "curseForgeHash": 2040627122,
-    "modrinthHash": "b9e64b8214ae509b8cad05baa6362249648dd0bb"
+    "version": "1.1.4+1.21.1-neoforge",
+    "curseForgeHash": 1785269883,
+    "modrinthHash": "b89a6aea55b79791f2d190f775cd3fda945a5f84"
   },
   "atlas_api-1.21.1-1.2.0.jar": {
     "jarName": "atlas_api-1.21.1-1.2.0.jar",

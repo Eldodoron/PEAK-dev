@@ -1,10 +1,16 @@
 [
   {"version":1},
+  {"ingredient":{"id":"reliquary:witch_hat"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"reliquary:infernal_tear"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"adorablehamsterpets:sunflower_seeds"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"recipe":"aeronautics:adjustable_burner","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
+  {"ingredient":{"id":"create:honey"},"type":"fluid_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"simulated:honey_glue"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:honey_block"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"create:white_sail"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"create:propeller"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"aeronautics:andesite_propeller"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"aeronautics:wooden_propeller"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"recipe":"aeronautics:adjustable_burner","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
   {"ingredient":{"id":"aeronautics:adjustable_burner"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"minecraft:filled_map","components":{"minecraft:map_id":4,"minecraft:map_decorations":{"+":{"type":"minecraft:mansion","x":-1520.0,"z":1872.0,"rotation":180.0}},"minecraft:map_color":5393476,"minecraft:item_name":"{\"fallback\":\"Village Map\",\"italic\":false,\"translate\":\"item.dnt.filled_map.village\"}"}},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"aeronautics:white_envelope"},"type":"item_stack","bookmarkType":"INGREDIENT"},
@@ -71,7 +77,6 @@
   {"ingredient":{"id":"gatesofavarice:hard_augment","components":{"minecraft:custom_data":{"gatesofavarice":{"augment_modifier_effects":[{"augment_reward_type":"BONUS_WAVES","augment_reward_description":"+2 waves","augment_reward_secondary_value":0,"augment_reward_value":2}],"augment_reward_effects":[{"augment_reward_type":"EXTRA_FINAL_REWARD_ROLLS","augment_reward_description":"+2 final reward rolls","augment_reward_secondary_value":0,"augment_reward_value":2}],"augment_id":"hellbound_march"}}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"irons_spellbooks:teleportation_amulet"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"create_factory:white_jar"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"simulated:honey_glue"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"simulated:white_symmetric_sail"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"simulated:physics_assembler"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"aeronautics:end_stone_powder"},"type":"item_stack","bookmarkType":"INGREDIENT"},
@@ -94,10 +99,5 @@
   {"ingredient":{"id":"immersiveengineering:dust_steel"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"immersiveengineering:ingot_steel"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"pneumaticcraft:plastic"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"mekanism:basic_control_circuit"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"mekanism:basic_bin"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"sophisticatedbackpacks:netherite_backpack"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"sophisticatedbackpacks:diamond_backpack"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"sophisticatedbackpacks:gold_backpack"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"sophisticatedbackpacks:iron_backpack"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+  {"ingredient":{"id":"mekanism:basic_control_circuit"},"type":"item_stack","bookmarkType":"INGREDIENT"}
 ]
