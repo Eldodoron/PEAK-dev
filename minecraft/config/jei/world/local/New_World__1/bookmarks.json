@@ -16,5 +16,12 @@
   {"ingredient":{"id":"sophisticatedbackpacks:copper_backpack"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"sophisticatedbackpacks:backpack"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"avaritia:infinity_ingot"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"draconicevolution:chaotic_sword","components":{"draconicevolution:module_entities":[],"draconicevolution:config_properties":[],"draconicevolution:provider_identity":[-1975102354,1580811741,-1226383759,-1221431768],"draconicevolution:attribute_data":{"damage":16.5,"speed":1.0}}},"type":"item_stack","bookmarkType":"INGREDIENT"}
+  {"ingredient":{"id":"draconicevolution:chaotic_sword","components":{"draconicevolution:module_entities":[],"draconicevolution:config_properties":[],"draconicevolution:provider_identity":[-1975102354,1580811741,-1226383759,-1221431768],"draconicevolution:attribute_data":{"damage":16.5,"speed":1.0}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"alexscaves:azure_neodymium_ingot"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"alexscaves:scarlet_neodymium_ingot"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"sophisticatedbackpacks:filter_upgrade"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"sophisticatedbackpacks:advanced_filter_upgrade"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"sophisticatedbackpacks:advanced_magnet_upgrade"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"pneumaticcraft:air_compressor"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"sophisticatedbackpacks:magnet_upgrade"},"type":"item_stack","bookmarkType":"INGREDIENT"}
 ]

@@ -201,14 +201,14 @@ ServerEvents.recipes(event => {
         sa.deploying('kubejs:incomplete_filter_upgrade', ['kubejs:incomplete_filter_upgrade', 'enderio:basic_item_filter']),
         sa.deploying('kubejs:incomplete_filter_upgrade', ['kubejs:incomplete_filter_upgrade', 'create:filter']),
         sa.pressing('kubejs:incomplete_filter_upgrade', 'kubejs:incomplete_filter_upgrade')
-    ]).transitionalItem('kubejs:incomplete_filter_upgrade').loops(3).id('kubejs:sequenced_assembly/filter_upgrade');
+    ]).transitionalItem('kubejs:incomplete_filter_upgrade').loops(1).id('kubejs:sequenced_assembly/filter_upgrade');
 
     // Magnet Upgrade: uses Alex's Caves magnets, not iron+redstone
-    sa.sequenced_assembly('sophisticatedbackpacks:magnet_upgrade', 'sophisticatedbackpacks:upgrade_base', [
+    sa.sequenced_assembly('sophisticatedbackpacks:magnet_upgrade', 'sophisticatedbackpacks:filter_upgrade', [
         sa.deploying('kubejs:incomplete_magnet_upgrade', ['kubejs:incomplete_magnet_upgrade', 'alexscaves:scarlet_magnet']),
         sa.deploying('kubejs:incomplete_magnet_upgrade', ['kubejs:incomplete_magnet_upgrade', 'alexscaves:azure_magnet']),
         sa.pressing('kubejs:incomplete_magnet_upgrade', 'kubejs:incomplete_magnet_upgrade')
-    ]).transitionalItem('kubejs:incomplete_magnet_upgrade').loops(3).id('kubejs:sequenced_assembly/magnet_upgrade');
+    ]).transitionalItem('kubejs:incomplete_magnet_upgrade').loops(1).id('kubejs:sequenced_assembly/magnet_upgrade');
 
     // --- ADVANCED UPGRADES (loops: 4) ---
 
@@ -277,14 +277,14 @@ ServerEvents.recipes(event => {
         sa.deploying('kubejs:incomplete_advanced_filter_upgrade', ['kubejs:incomplete_advanced_filter_upgrade', 'create:attribute_filter']),
         sa.deploying('kubejs:incomplete_advanced_filter_upgrade', ['kubejs:incomplete_advanced_filter_upgrade', 'enderio:advanced_item_filter']),
         sa.pressing('kubejs:incomplete_advanced_filter_upgrade', 'kubejs:incomplete_advanced_filter_upgrade')
-    ]).transitionalItem('kubejs:incomplete_advanced_filter_upgrade').loops(4).id('kubejs:sequenced_assembly/advanced_filter_upgrade');
+    ]).transitionalItem('kubejs:incomplete_advanced_filter_upgrade').loops(1).id('kubejs:sequenced_assembly/advanced_filter_upgrade');
 
     // Advanced Magnet: uses electromagnetic coil + IE electromagnet (no nether star)
     sa.sequenced_assembly('sophisticatedbackpacks:advanced_magnet_upgrade', 'sophisticatedbackpacks:magnet_upgrade', [
         sa.deploying('kubejs:incomplete_advanced_magnet_upgrade', ['kubejs:incomplete_advanced_magnet_upgrade', 'tfmg:electromagnetic_coil']),
         sa.deploying('kubejs:incomplete_advanced_magnet_upgrade', ['kubejs:incomplete_advanced_magnet_upgrade', 'immersiveengineering:electromagnet']),
         sa.pressing('kubejs:incomplete_advanced_magnet_upgrade', 'kubejs:incomplete_advanced_magnet_upgrade')
-    ]).transitionalItem('kubejs:incomplete_advanced_magnet_upgrade').loops(4).id('kubejs:sequenced_assembly/advanced_magnet_upgrade');
+    ]).transitionalItem('kubejs:incomplete_advanced_magnet_upgrade').loops(1).id('kubejs:sequenced_assembly/advanced_magnet_upgrade');
 
     sa.sequenced_assembly('sophisticatedbackpacks:advanced_jukebox_upgrade', 'sophisticatedbackpacks:jukebox_upgrade', [
         sa.deploying('kubejs:incomplete_advanced_jukebox_upgrade', ['kubejs:incomplete_advanced_jukebox_upgrade', 'minecraft:jukebox']),

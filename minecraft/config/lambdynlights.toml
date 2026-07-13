@@ -1,6 +1,6 @@
 # LambDynamicLights configuration.
 # The dynamic lights mode
-mode = "fast"
+mode = "fancy"
 # The chunk rebuild scheduler mode (immediate, culling).
 chunk_rebuild_scheduler = "culling"
 

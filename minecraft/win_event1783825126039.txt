@@ -9,18 +9,18 @@ To inspect these events manually:
   3) Sort by Date and look for entries with Level = Error or Critical near the crash time.
 
 -----------------------
-Time: 2026-06-02 18:03:47.116 EDT
+Time: 2026-07-11 22:58:42.533 EDT
 Source: Application Hang
 Event ID: 1002
 Level: Error
 
 Message:
   The program javaw.exe version 21.0.8.0 stopped interacting with Windows and was closed. To see if more information about the problem is available, check the problem history in the Security and Maintenance control panel.
-   Process ID: 5064
-   Start Time: 01dcf2d1b157deca
+   Process ID: 3ea0
+   Start Time: 01dd11a1aa36c3c7
    Termination Time: 4294967295
    Application Path: C:\Program Files\Eclipse Adoptium\jdk-21.0.8.9-hotspot\bin\javaw.exe
-   Report Id: 3fbe003c-2b70-43b8-8672-794edad97251
+   Report Id: 8177c865-ada0-4569-acc6-48a653d0a1ea
    Faulting package full name: 
    Faulting package-relative application ID: 
    Hang type: Top level window is idle
@@ -29,11 +29,11 @@ Message:
 Details:
   - Data[1]: javaw.exe
   - Data[2]: 21.0.8.0
-  - Data[3]: 5064
-  - Data[4]: 01dcf2d1b157deca
+  - Data[3]: 3ea0
+  - Data[4]: 01dd11a1aa36c3c7
   - Data[5]: 4294967295
   - Data[6]: C:\Program Files\Eclipse Adoptium\jdk-21.0.8.9-hotspot\bin\javaw.exe
-  - Data[7]: 3fbe003c-2b70-43b8-8672-794edad97251
+  - Data[7]: 8177c865-ada0-4569-acc6-48a653d0a1ea
   - Data[10]: Top level window is idle
   - Binary: 54006F00700020006C006500760065006C002000770069006E0064006F0077002000690073002000690064006C00650000000000
 -----------------------

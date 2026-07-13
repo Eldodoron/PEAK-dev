@@ -129,14 +129,15 @@ graph TD
 - [ ] **Upgrade Base Recipe:**
   - **Recipe:** Deploying string and iron **4 times** into leather.
   - **Bug:** Normal recipe still showing up in-game despite scripts.
-- [ ] **Backpack Upgrade (Gold ➔ Netherite):**
-  - **Recipe:** Convert this upgrade into a multi-step Create assembled recipe.
-  - **Bug:** Normal recipe still showing up in-game.
-- [/] **Magnet Upgrade:** *(In Progress)*
+- [x] **Backpack Upgrade (Tiers):**
+  - **Status:** ✅ Fixed. Converted into heavy 3x3 custom crafting table recipes (`sophisticatedbackpacks:backpack_upgrade` type) to preserve NBT. Normal recipes successfully removed.
+- [x] **Magnet Upgrade:** ✅ Fixed.
   - **Basic:** Remove old recipe (uses iron & redstone). Add a new more accessible crafting variant.
   - **Advanced:** Recipe must include an **Advanced Item Filter**. Remove any recipe containing a **Nether Star**.
 - [/] **Unify Upgrades:** *(In Progress)*
   - **Action:** Make **all** backpack upgrade recipes use Create assembly lines.
+- [x] **Duplicated Upgrades:** ✅ Fixed.
+  - **Issue:** There are duplicated recipes for backpack upgrades appearing in-game. Needs review and removal of defaults.
 - [/] **Filter Upgrade:** *(In Progress)*
   - **Basic Filter:** Replace paper ingredient with an **EnderIO Basic Item Filter**. Remove the recipe using iron bars.
   - **Advanced Filter:** Remove the recipe that uses the Mekanism circuit.
@@ -153,10 +154,10 @@ graph TD
 - check this create rail riding mod https://www.curseforge.com/minecraft/mc-mods/create-train-track-rail-grinding?utm_source=mcgamecarousel&utm_medium=ownedmedia&utm_campaign=create-train-track-rail-grinding
 - [ ] **Fix Better Combat compat for Crystal Chronicles:** The `spear` and `evocation_twinblade` don't inherit KubeJS scripts correctly because the mod overrides them internally. Needs a proper physical datapack loaded in the world folder (`world/datapacks`).
 - 
-- [mod Rename resource pack](https://www.curseforge.com/minecraft/texture-packs/the-rcp)
-- 
-- 
-- 
+- [ ] **Mod Addition Suggestion**: Evaluate and potentially add `Sophisticated Backpacks Create Integration`. Allows SB backpacks to be placed on Create contraptions and retain inventory management functionality while moving.
+-
+-
+-
 - 
 - 
 - 

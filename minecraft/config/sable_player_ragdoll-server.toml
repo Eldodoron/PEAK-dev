@@ -75,7 +75,7 @@ grabEnabled = true
 	#Expire after touchdown only once the ragdoll slows below this speed (m/s).
 	# Default: 0.1
 	# Range: 0.0 ~ 32.0
-	releaseSpeedThreshold = 0.1
+	releaseSpeedThreshold = 0.05
 	#Force-expire player ragdolls after the safety timeout.
 	expireAfterSafetyTimeout = true
 	#Hard safety limit: force expiry if the ragdoll still exists after this many ticks.
@@ -88,19 +88,19 @@ grabEnabled = true
 	#Mass of the head.
 	# Default: 0.35
 	# Range: 0.1 ~ 100.0
-	massHead = 0.35
+	massHead = 1.65
 	#Mass of the torso.
 	# Default: 1.4
 	# Range: 0.1 ~ 100.0
-	massTorso = 1.4
+	massTorso = 3.4
 	#Mass of each arm.
 	# Default: 0.2
 	# Range: 0.1 ~ 100.0
-	massArm = 0.2
+	massArm = 1.8
 	#Mass of each leg.
 	# Default: 0.45
 	# Range: 0.1 ~ 100.0
-	massLeg = 0.45
+	massLeg = 2.0
 
 #Developer options.
 [debug]

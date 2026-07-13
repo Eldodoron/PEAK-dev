@@ -52,10 +52,11 @@ ServerEvents.recipes(event => {
     // IE Workbench (the crafting station) needs Create basics
     event.remove({ output: 'immersiveengineering:workbench' });
     event.shaped('immersiveengineering:workbench', [
-        '   ',
+        ' B ',
         'AFA',
         'W W'
     ], {
+        B: 'create:crafting_blueprint',
         A: 'create:andesite_alloy',
         F: 'minecraft:crafting_table',
         W: '#minecraft:wooden_fences'
@@ -269,131 +270,7 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'sophisticatedbackpacks:filter_upgrade' });
     event.remove({ id: 'sophisticatedbackpacks:advanced_filter_upgrade' });
 
-    // --- CREATE SEQUENCED ASSEMBLIES FOR UPGRADES (KubeJS-Create addon API) ---
-    const sa = event.recipes.create;
 
-    // A. Upgrade Base
-    sa.sequenced_assembly('sophisticatedbackpacks:upgrade_base', 'minecraft:leather', [
-        sa.deploying('kubejs:incomplete_upgrade_base', ['kubejs:incomplete_upgrade_base', 'minecraft:string']),
-        sa.deploying('kubejs:incomplete_upgrade_base', ['kubejs:incomplete_upgrade_base', 'minecraft:iron_ingot']),
-        sa.pressing('kubejs:incomplete_upgrade_base', 'kubejs:incomplete_upgrade_base')
-    ]).transitionalItem('kubejs:incomplete_upgrade_base').loops(4).id('kubejs:sequenced_assembly/upgrade_base');
-
-    // B. Basic Magnet Upgrade
-    sa.sequenced_assembly('sophisticatedbackpacks:magnet_upgrade', 'sophisticatedbackpacks:upgrade_base', [
-        sa.deploying('kubejs:incomplete_magnet_upgrade', ['kubejs:incomplete_magnet_upgrade', 'alexscaves:scarlet_magnet']),
-        sa.deploying('kubejs:incomplete_magnet_upgrade', ['kubejs:incomplete_magnet_upgrade', 'alexscaves:azure_magnet']),
-        sa.pressing('kubejs:incomplete_magnet_upgrade', 'kubejs:incomplete_magnet_upgrade')
-    ]).transitionalItem('kubejs:incomplete_magnet_upgrade').loops(1).id('kubejs:sequenced_assembly/upgrade_base_magnet');
-
-    // C. Advanced Magnet Upgrade
-    sa.sequenced_assembly('sophisticatedbackpacks:advanced_magnet_upgrade', 'sophisticatedbackpacks:magnet_upgrade', [
-        sa.deploying('kubejs:incomplete_advanced_magnet_upgrade', ['kubejs:incomplete_advanced_magnet_upgrade', 'tfmg:electromagnetic_coil']),
-        sa.deploying('kubejs:incomplete_advanced_magnet_upgrade', ['kubejs:incomplete_advanced_magnet_upgrade', 'immersiveengineering:electromagnet']),
-        sa.pressing('kubejs:incomplete_advanced_magnet_upgrade', 'kubejs:incomplete_advanced_magnet_upgrade')
-    ]).transitionalItem('kubejs:incomplete_advanced_magnet_upgrade').loops(1).id('kubejs:sequenced_assembly/upgrade_base_adv_magnet');
-
-    // D. Basic Filter Upgrade
-    sa.sequenced_assembly('sophisticatedbackpacks:filter_upgrade', 'sophisticatedbackpacks:upgrade_base', [
-        sa.deploying('kubejs:incomplete_filter_upgrade', ['kubejs:incomplete_filter_upgrade', 'enderio:basic_item_filter']),
-        sa.deploying('kubejs:incomplete_filter_upgrade', ['kubejs:incomplete_filter_upgrade', 'create:filter']),
-        sa.pressing('kubejs:incomplete_filter_upgrade', 'kubejs:incomplete_filter_upgrade')
-    ]).transitionalItem('kubejs:incomplete_filter_upgrade').loops(1).id('kubejs:sequenced_assembly/upgrade_base_filter');
-
-    // E. Advanced Filter Upgrade
-    sa.sequenced_assembly('sophisticatedbackpacks:advanced_filter_upgrade', 'sophisticatedbackpacks:filter_upgrade', [
-        sa.deploying('kubejs:incomplete_advanced_filter_upgrade', ['kubejs:incomplete_advanced_filter_upgrade', 'create:attribute_filter']),
-        sa.deploying('kubejs:incomplete_advanced_filter_upgrade', ['kubejs:incomplete_advanced_filter_upgrade', 'enderio:advanced_item_filter']),
-        sa.pressing('kubejs:incomplete_advanced_filter_upgrade', 'kubejs:incomplete_advanced_filter_upgrade')
-    ]).transitionalItem('kubejs:incomplete_advanced_filter_upgrade').loops(1).id('kubejs:sequenced_assembly/upgrade_base_adv_filter');
-
-
-        // --- SAFE TIER UPGRADES (Keep NBT/Data Components) ---
-    // Instead of overriding the Backpack items (which wipes NBT), we make the Tier Upgrade items harder to craft.
-
-    // 0. Remove Default Upgrades
-    event.remove({ output: 'sophisticatedbackpacks:basic_to_copper_tier_upgrade' });
-    event.remove({ output: 'sophisticatedbackpacks:copper_to_iron_tier_upgrade' });
-    event.remove({ output: 'sophisticatedbackpacks:basic_to_iron_tier_upgrade' });
-    event.remove({ output: 'sophisticatedbackpacks:iron_to_gold_tier_upgrade' });
-    event.remove({ output: 'sophisticatedbackpacks:gold_to_diamond_tier_upgrade' });
-    event.remove({ output: 'sophisticatedbackpacks:diamond_to_netherite_tier_upgrade' });
-
-    // 1. Basic -> Copper
-    event.shaped('sophisticatedbackpacks:basic_to_copper_tier_upgrade', [
-        ' P ',
-        'PBP',
-        ' T '
-    ], {
-        B: 'sophisticatedbackpacks:upgrade_base',
-        P: '#c:plates/copper',
-        T: '#c:tools/screwdriver'
-    }).damageIngredient('#c:tools/screwdriver');
-
-    // 2a. Copper -> Iron
-    event.shaped('sophisticatedbackpacks:copper_to_iron_tier_upgrade', [
-        ' P ',
-        'PBP',
-        ' T '
-    ], {
-        B: 'sophisticatedbackpacks:upgrade_base',
-        P: '#c:plates/iron',
-        T: '#c:tools/screwdriver'
-    }).damageIngredient('#c:tools/screwdriver');
-
-    // 2b. Basic -> Iron (Punishing skip: requires Copper Block)
-    event.shaped('sophisticatedbackpacks:basic_to_iron_tier_upgrade', [
-        ' P ',
-        'CBI',
-        ' T '
-    ], {
-        B: 'sophisticatedbackpacks:upgrade_base',
-        P: '#c:plates/iron',
-        I: '#c:ingots/iron',
-        C: '#c:storage_blocks/copper',
-        T: '#c:tools/screwdriver'
-    }).damageIngredient('#c:tools/screwdriver');
-
-    // 3. Iron -> Gold
-    event.shaped('sophisticatedbackpacks:iron_to_gold_tier_upgrade', [
-        ' P ',
-        'PBP',
-        ' T '
-    ], {
-        B: 'sophisticatedbackpacks:upgrade_base',
-        P: '#c:plates/gold',
-        T: '#c:tools/screwdriver'
-    }).damageIngredient('#c:tools/screwdriver');
-
-    // 4. Gold -> Diamond (Mechanical Crafter 5x5)
-    event.recipes.create.mechanical_crafting('sophisticatedbackpacks:gold_to_diamond_tier_upgrade', [
-        'DDDDD',
-        'DVDVD',
-        'DBGBD',
-        'DVDVD',
-        'D T D'
-    ], {
-        D: 'alltheores:diamond_plate',
-        V: 'create:item_vault',
-        B: '#c:storage_blocks/gold',
-        G: 'sophisticatedbackpacks:upgrade_base',
-        T: '#c:tools/screwdriver'
-    });
-
-    // 5. Diamond -> Netherite (Mechanical Crafter 5x5)
-    event.recipes.create.mechanical_crafting('sophisticatedbackpacks:diamond_to_netherite_tier_upgrade', [
-        'NNNNN',
-        'NVVVN',
-        'NBGBN',
-        'NVVVN',
-        'N T N'
-    ], {
-        N: 'alltheores:netherite_plate',
-        V: 'create:item_vault',
-        B: '#c:storage_blocks/diamond',
-        G: 'sophisticatedbackpacks:upgrade_base',
-        T: '#c:tools/screwdriver'
-    });
 
 // ==========================================
     // SECTION 10: BUILDING WANDS & UTILITY
@@ -434,5 +311,132 @@ ServerEvents.recipes(event => {
         S: '#minecraft:wooden_fences'
     });
 
+    // ==========================================
+    // SECTION 9: SOPHISTICATED STORAGE INTEGRATION
+    // ==========================================
+
+    // --- SAFE TIER UPGRADES (Keep NBT/Data Components via Sequenced Assembly) ---
+    // Instead of Mechanical Crafters or overriding the standard recipe (which wipes NBT), 
+    // we use Sequenced Assembly. The base backpack is the transitional item, so its NBT is preserved!
+
+    // 0. Remove Default Upgrades (they use a custom recipe type "sophisticatedbackpacks:backpack_upgrade")
+    event.remove({ output: 'sophisticatedbackpacks:copper_backpack', type: 'sophisticatedbackpacks:backpack_upgrade' });
+    event.remove({ output: 'sophisticatedbackpacks:iron_backpack', type: 'sophisticatedbackpacks:backpack_upgrade' });
+    event.remove({ output: 'sophisticatedbackpacks:gold_backpack', type: 'sophisticatedbackpacks:backpack_upgrade' });
+    event.remove({ output: 'sophisticatedbackpacks:diamond_backpack', type: 'sophisticatedbackpacks:backpack_upgrade' });
+    event.remove({ output: 'sophisticatedbackpacks:netherite_backpack', type: 'sophisticatedbackpacks:backpack_upgrade' });
+
+    // 1. Basic -> Copper Backpack
+    event.custom({
+        type: 'sophisticatedbackpacks:backpack_upgrade',
+        pattern: [
+            ' U ',
+            'PBP',
+            ' T '
+        ],
+        key: {
+            U: { item: 'sophisticatedbackpacks:upgrade_base' },
+            P: { tag: 'c:plates/copper' },
+            B: { item: 'sophisticatedbackpacks:backpack' },
+            T: { tag: 'c:tools/screwdriver' }
+        },
+        result: { id: 'sophisticatedbackpacks:copper_backpack' }
+    }).id('kubejs:crafting/copper_backpack');
+
+    // 2a. Copper -> Iron Backpack
+    event.custom({
+        type: 'sophisticatedbackpacks:backpack_upgrade',
+        pattern: [
+            ' U ',
+            'PBP',
+            ' T '
+        ],
+        key: {
+            U: { item: 'sophisticatedbackpacks:upgrade_base' },
+            P: { tag: 'c:plates/iron' },
+            B: { item: 'sophisticatedbackpacks:copper_backpack' },
+            T: { tag: 'c:tools/screwdriver' }
+        },
+        result: { id: 'sophisticatedbackpacks:iron_backpack' }
+    }).id('kubejs:crafting/iron_backpack');
+
+    // 3. Iron -> Gold Backpack
+    event.custom({
+        type: 'sophisticatedbackpacks:backpack_upgrade',
+        pattern: [
+            ' U ',
+            'PBP',
+            ' T '
+        ],
+        key: {
+            U: { item: 'sophisticatedbackpacks:upgrade_base' },
+            P: { tag: 'c:plates/gold' },
+            B: { item: 'sophisticatedbackpacks:iron_backpack' },
+            T: { item: 'immersiveengineering:hammer' }
+        },
+        result: { id: 'sophisticatedbackpacks:gold_backpack' }
+    }).id('kubejs:crafting/gold_backpack');
+
+    // 4. Gold -> Diamond Backpack
+    event.custom({
+        type: 'sophisticatedbackpacks:backpack_upgrade',
+        pattern: [
+            'PGP',
+            'VBV',
+            'UTU'
+        ],
+        key: {
+            P: { item: 'alltheores:diamond_plate' },
+            G: { tag: 'c:storage_blocks/gold' },
+            V: { item: 'create:item_vault' },
+            B: { item: 'sophisticatedbackpacks:gold_backpack' },
+            U: { item: 'sophisticatedbackpacks:upgrade_base' },
+            T: { item: 'immersiveengineering:hammer' }
+        },
+        result: { id: 'sophisticatedbackpacks:diamond_backpack' }
+    }).id('kubejs:crafting/diamond_backpack');
+
+    // 5. Diamond -> Netherite Backpack
+    event.custom({
+        type: 'sophisticatedbackpacks:backpack_upgrade',
+        pattern: [
+            'PDP',
+            'VBV',
+            'UTU'
+        ],
+        key: {
+            P: { item: 'alltheores:netherite_plate' },
+            D: { tag: 'c:storage_blocks/diamond' },
+            V: { item: 'create:item_vault' },
+            B: { item: 'sophisticatedbackpacks:diamond_backpack' },
+            U: { item: 'sophisticatedbackpacks:upgrade_base' },
+            T: { item: 'immersiveengineering:hammer' }
+        },
+        result: { id: 'sophisticatedbackpacks:netherite_backpack' }
+    }).id('kubejs:crafting/netherite_backpack');
+
+
+    // ==========================================
+    // SECTION 11: ALEX'S CAVES INTEGRATION
+    // ==========================================
+    
+    // Remove default shapeless recipes for Neodymium Ingots
+    event.remove({ output: 'alexscaves:scarlet_neodymium_ingot', input: 'alexscaves:raw_scarlet_neodymium' });
+    event.remove({ output: 'alexscaves:azure_neodymium_ingot', input: 'alexscaves:raw_azure_neodymium' });
+
+    // Scarlet Neodymium Ingot via Heated Mixing
+    event.recipes.create.mixing('alexscaves:scarlet_neodymium_ingot', [
+        '3x alexscaves:raw_scarlet_neodymium',
+        '3x minecraft:iron_ingot'
+    ]).heated().id('kubejs:mixing/scarlet_neodymium_ingot');
+
+    // Azure Neodymium Ingot via Heated Mixing
+    event.recipes.create.mixing('alexscaves:azure_neodymium_ingot', [
+        '3x alexscaves:raw_azure_neodymium',
+        '3x minecraft:iron_ingot'
+    ]).heated().id('kubejs:mixing/azure_neodymium_ingot');
+
+
     console.log('[PEAK Expert Mode] Script 02: Create Era Gates loaded successfully!');
 });
+

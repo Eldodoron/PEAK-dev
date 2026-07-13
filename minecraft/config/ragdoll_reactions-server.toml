@@ -142,7 +142,7 @@ enabled = true
 		#Minimum explosion power required to trigger a ragdoll.
 		# Default: 1.0
 		# Range: 0.0 ~ 256.0
-		minPower = 1.0
+		minPower = 4.0
 		#Extra blocks added to the explosion knockback radius when searching for nearby players.
 		# Default: 2.0
 		# Range: 0.0 ~ 64.0
@@ -150,7 +150,7 @@ enabled = true
 		#Launch speed multiplier applied to explosion power before the global max launch speed clamp.
 		# Default: 15.0
 		# Range: 0.0 ~ 128.0
-		launchMultiplier = 6.0
+		launchMultiplier = 8.0
 
 	#Hard fall landing reactions.
 	[triggers.fall]

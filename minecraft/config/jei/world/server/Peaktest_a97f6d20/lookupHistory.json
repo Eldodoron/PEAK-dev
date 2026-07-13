@@ -1,0 +1,10 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"sophisticatedbackpacks:magnet_upgrade"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:honeycomb"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"reliquary:angelheart_vial"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"reliquary:phoenix_down"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"sophisticatedbackpacks:diamond_backpack"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"sophisticatedbackpacks:copper_backpack"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"sophisticatedbackpacks:backpack"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]
