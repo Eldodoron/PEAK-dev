@@ -1,0 +1,10 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"irons_spellbooks:mithril_scrap"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"irons_spellbooks:mithril_ingot"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"crystal_chronicles:floralite_shard"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"crystal_chronicles:spear","components":{"irons_spellbooks:spell_container":{"mustEquip":false,"data":[{"id":"irons_spellbooks:poison_splash","index":0,"level":8,"locked":true}],"maxSpells":1,"spellWheel":true}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"create_wizardry:mana"},"type":"fluid_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"alltheores:cinnabar_dust"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"alltheores:cinnabar"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

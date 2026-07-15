@@ -178,3 +178,4 @@ graph TD
 - 
 - 
 - [ ] **KubeJS Recipe Fixes**: Revisit disabled recipes in 20_fixed_datapacks.js (lines 3-21, broken Avaritia/Create Assembly syntax for 1.21.1) and expert_mode_recipes.js / 13b_food_overhaul_dimensions.js (recipes using minecraft:barrier in Create Mixers that crashed).
+- [ ] **Forzar Resource Packs con Paxi:** Definir e implementar qué paquetes de textura deben estar activados por defecto para todos los jugadores.

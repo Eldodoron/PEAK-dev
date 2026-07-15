@@ -1,5 +1,7 @@
 [
   {"version":1},
+  {"ingredient":{"id":"lootr:trophy"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"cataclysm:ignitium_chestplate","components":{"minecraft:trim":{"material":"minecraft:gold","pattern":"minecraft:ward"}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"sophisticatedbackpacks:magnet_upgrade"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"minecraft:honeycomb"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"reliquary:angelheart_vial"},"type":"item_stack","bookmarkType":"INGREDIENT"},

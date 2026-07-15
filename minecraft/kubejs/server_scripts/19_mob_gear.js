@@ -239,7 +239,8 @@ EntityEvents.spawned(event => {
             entity.setItemSlot('mainhand', Item.of(bowId));
         }
 
-        entity.setDropChance('head', 0.05);
-        entity.setDropChance('chest', 0.05);
+        entity.setDropChance('head', 0.0);
+        entity.setDropChance('chest', 0.0);
+        entity.setDropChance('mainhand', 0.0);
     }});
 
