@@ -10,7 +10,7 @@ small_tree_maximum = 6
 #Allowed Values: NO_DESPAWN, DESPAWN_SMALL, DESPAWN_ALL
 despawn_behavior = "DESPAWN_SMALL"
 #treephysics.config.drop_items_on_despawn.tooltip
-drop_items_on_despawn = false
+drop_items_on_despawn = true
 #treephysics.config.rooted_dirt_generation.tooltip
 rooted_dirt_generation = true
 #treephysics.config.remove_rooted_dirt.tooltip
@@ -39,7 +39,7 @@ tree_entity_damage = 25.0
 	#treephysics.config.gravity_multiplier.tooltip
 	# Default: 1.0
 	# Range: 1.0 ~ 1.7976931348623157E308
-	gravity_multiplier = 1.0
+	gravity_multiplier = 1.2
 	#treephysics.config.gravity_multiplier_ticks.tooltip
 	# Default: 400
 	# Range: > -1

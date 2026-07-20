@@ -1,6 +1,6 @@
 {
   "dragon": {
-    "maxHealth": 1500.0,
+    "maxHealth": 500.0,
     "eggBornTime": 7200,
     "maxPathingNodes": 5000,
     "villagersFear": true,
@@ -10,7 +10,7 @@
     "generate.denGoldAmount": 0.25,
     "generate.oreRatio": 0.022222222222222223,
     "griefing": true,
-    "tamedGriefing": false,
+    "tamedGriefing": true,
     "flapNoiseDistance": 4,
     "fluteDistance": 8,
     "attackDamage": 17,
@@ -20,11 +20,11 @@
     "maxFlight": 256,
     "goldSearchLength": 30,
     "canHealFromBiting": false,
-    "canDespawn": false,
+    "canDespawn": true,
     "sleep": true,
     "digWhenStuck": true,
     "breakBlockCooldown": 5,
-    "targetSearchLength": 64,
+    "targetSearchLength": 128,
     "wanderFromHomeDistance": 40,
     "hungerTickRate": 3000,
     "blockBreakingDropChance": 0.1,
@@ -53,7 +53,7 @@
   "cyclops": {
     "spawnWanderingChance": 0.0011111111111111111,
     "sheepSearchLength": 17,
-    "maxHealth": 350.0,
+    "maxHealth": 150.0,
     "attackDamage": 15.0,
     "biteDamage": 40.0,
     "griefing": true
@@ -64,7 +64,7 @@
     "timeBetweenSongs": 2000
   },
   "gorgon": {
-    "maxHealth": 200.0
+    "maxHealth": 100.0
   },
   "deathworm": {
     "spawnChance": 0.03333333333333333,
@@ -94,7 +94,7 @@
     "spawn": true,
     "spawnWeight": 60,
     "dropWeapon": true,
-    "maxHealth": 150.0,
+    "maxHealth": 50.0,
     "attackDamage": 10.0
   },
   "amphithere": {
@@ -118,7 +118,7 @@
     "spawnChance": 0.03333333333333333
   },
   "hydra": {
-    "maxHealth": 350.0
+    "maxHealth": 250.0
   },
   "hippocampus": {
     "spawnChance": 0.025,
@@ -134,29 +134,29 @@
     "dragonFireAbility": true,
     "dragonIceAbility": true,
     "dragonLightningAbility": true,
-    "dragonsteelFireDuration": 20,
-    "dragonBloodFireDuration": 8,
-    "dragonsteelFrozenDuration": 400,
-    "dragonBloodFrozenDuration": 150,
+    "dragonsteelFireDuration": 15,
+    "dragonBloodFireDuration": 5,
+    "dragonsteelFrozenDuration": 300,
+    "dragonBloodFrozenDuration": 100,
     "phantasmalBladeAbility": true,
-    "dragonLightningSearchRange": 14.0,
-    "dragonLightningDamageReduction": 0.35,
-    "dragonLightningMaxSearchCount": 15
+    "dragonLightningSearchRange": 10.0,
+    "dragonLightningDamageReduction": 0.5,
+    "dragonLightningMaxSearchCount": 10
   },
   "armors": {
-    "dragonSteelBaseDamage": 30.0,
-    "dragonSteelBaseDurability": 12000,
-    "dragonsteelArmorToughness": 10.0,
-    "dragonsteelHelmetArmor": 9,
-    "dragonsteelHelmetDurability": 2640,
-    "dragonsteelChestplateArmor": 14,
-    "dragonsteelChestplateDurability": 3840,
-    "dragonsteelLeggingsArmor": 11,
-    "dragonsteelLeggingsDurability": 3600,
-    "dragonsteelBootsArmor": 8,
-    "dragonsteelBootsDurability": 3120,
-    "dragonsteelArmorEnchantability": 40,
-    "dragonsteelArmorKnockbackResistance": 0.2
+    "dragonSteelBaseDamage": 25.0,
+    "dragonSteelBaseDurability": 10400,
+    "dragonsteelArmorToughness": 6.0,
+    "dragonsteelHelmetArmor": 7,
+    "dragonsteelHelmetDurability": 2288,
+    "dragonsteelChestplateArmor": 12,
+    "dragonsteelChestplateDurability": 3328,
+    "dragonsteelLeggingsArmor": 9,
+    "dragonsteelLeggingsDurability": 3120,
+    "dragonsteelBootsArmor": 6,
+    "dragonsteelBootsDurability": 2704,
+    "dragonsteelArmorEnchantability": 30,
+    "dragonsteelArmorKnockbackResistance": 0.1
   },
   "worldgen": {
     "dangerousDistanceLimit": 1000.0,
@@ -167,15 +167,15 @@
     "generateLightningDragonCaveChance": 0.5,
     "generateLightningDragonRoostChance": 0.5,
     "generateCyclopsCaveChance": 0.5,
-    "generateGorgonTempleChance": 0.2,
+    "generateGorgonTempleChance": 0.5,
     "generateGraveYardChance": 0.5,
     "generateHydraCaveChance": 0.5,
     "generateMausoleumChance": 0.5,
-    "generatePixieVillageChance": 0.2,
+    "generatePixieVillageChance": 0.5,
     "generateSirenIslandChance": 0.5
   },
   "misc": {
     "enableDragonSeeker": true,
-    "dreadQueenMaxHealth": 2000.0
+    "dreadQueenMaxHealth": 750.0
   }
 }

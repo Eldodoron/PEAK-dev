@@ -246,11 +246,42 @@ ServerEvents.recipes(event => {
     // Sophisticated Backpacks tiers scale with tech progression
     // ==========================================
 
-    // --- NETHERITE PLATE REFORM ---
-    // Remove easy hammer recipes
-    event.remove({ output: 'alltheores:netherite_plate' });
+    // --- ALLTHEORES & IMMERSIVE ENGINEERING MANUAL HAMMER NERF ---
+    // Remove all recipes that use the IE Hammer to manually crush ores or make plates in a crafting table.
+    // This forces players to use Create's Crushing Wheels and Presses.
     
-    // Immersive Engineering Metal Press
+    // Immersive Engineering Hammer (removes ALL recipes using it as input)
+    event.remove({ input: 'immersiveengineering:hammer' });
+
+    // --- ALLTHEORES PLATES REFORM ---
+    // Remove ALL AllTheOres crafting table plate recipes by their exact recipe IDs
+    // (These are shaped recipes using 2 hammers + 2 ingots, so input filters don't catch them)
+    let allPlateMats = ['aluminum', 'brass', 'bronze', 'constantan', 'copper', 'diamond', 'electrum', 'enderium', 'gold', 'invar', 'iridium', 'iron', 'lead', 'lumium', 'netherite', 'nickel', 'osmium', 'platinum', 'signalum', 'silver', 'steel', 'tin', 'uranium', 'zinc'];
+    allPlateMats.forEach(mat => {
+        event.remove({ id: 'alltheores:crafting/' + mat + '/plate' });
+    });
+
+    // 1. Normal Materials (Mechanical Press - No heat)
+    let normalPlates = ['aluminum', 'brass', 'bronze', 'constantan', 'copper', 'electrum', 'gold', 'invar', 'iron', 'lead', 'nickel', 'silver', 'steel', 'tin', 'uranium', 'zinc'];
+    normalPlates.forEach(mat => {
+        event.recipes.create.pressing('alltheores:' + mat + '_plate', { tag: 'c:ingots/' + mat });
+    });
+
+    // 2. High Tier Materials (Compacting - Heated)
+    let heatedPlates = ['diamond', 'platinum', 'osmium'];
+    heatedPlates.forEach(mat => {
+        let inputTag = (mat === 'diamond') ? 'c:gems/' + mat : 'c:ingots/' + mat;
+        event.recipes.create.compacting('alltheores:' + mat + '_plate', { tag: inputTag }).heated();
+    });
+
+    // 3. Super-Strong Materials (Compacting - Super-Heated)
+    let superHeatedPlates = ['netherite', 'enderium', 'lumium', 'signalum', 'iridium'];
+    superHeatedPlates.forEach(mat => {
+        let inputObj = (mat === 'netherite') ? { item: 'minecraft:netherite_ingot' } : { tag: 'c:ingots/' + mat };
+        event.recipes.create.compacting('alltheores:' + mat + '_plate', inputObj).superheated();
+    });
+
+    // Immersive Engineering Metal Press for Netherite (Legacy support)
     event.custom({
         type: "immersiveengineering:metal_press",
         mold: "immersiveengineering:mold_plate",
@@ -258,9 +289,6 @@ ServerEvents.recipes(event => {
         result: { item: "alltheores:netherite_plate" },
         energy: 2400
     });
-
-    // Create Compacting (requires Mechanical Press + Basin + Superheated Blaze Burner)
-    event.recipes.create.compacting('alltheores:netherite_plate', 'minecraft:netherite_ingot').superheated();
 
 
     // --- REMOVE DEFAULT UPGRADE RECIPES ---
@@ -319,7 +347,14 @@ ServerEvents.recipes(event => {
     // Instead of Mechanical Crafters or overriding the standard recipe (which wipes NBT), 
     // we use Sequenced Assembly. The base backpack is the transitional item, so its NBT is preserved!
 
-    // 0. Remove Default Upgrades (they use a custom recipe type "sophisticatedbackpacks:backpack_upgrade")
+    // 0. Remove Default Upgrades (they use a custom recipe type or smithing)
+    // Remove by exact ID to catch standard crafting/smithing recipes
+    event.remove({ id: 'sophisticatedbackpacks:copper_backpack' });
+    event.remove({ id: 'sophisticatedbackpacks:iron_backpack' });
+    event.remove({ id: 'sophisticatedbackpacks:gold_backpack' });
+    event.remove({ id: 'sophisticatedbackpacks:diamond_backpack' });
+    event.remove({ id: 'sophisticatedbackpacks:netherite_backpack' });
+    // Also remove the old custom types just in case
     event.remove({ output: 'sophisticatedbackpacks:copper_backpack', type: 'sophisticatedbackpacks:backpack_upgrade' });
     event.remove({ output: 'sophisticatedbackpacks:iron_backpack', type: 'sophisticatedbackpacks:backpack_upgrade' });
     event.remove({ output: 'sophisticatedbackpacks:gold_backpack', type: 'sophisticatedbackpacks:backpack_upgrade' });

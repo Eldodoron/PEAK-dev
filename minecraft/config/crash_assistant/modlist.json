@@ -1912,14 +1912,6 @@
     "curseForgeHash": 1666655641,
     "modrinthHash": "9fd5fa9076044180ae7f51672de74669196ec72e"
   },
-  "lithostitched-1.7.3-neoforge-21.1.jar": {
-    "jarName": "lithostitched-1.7.3-neoforge-21.1.jar",
-    "modId": "lithostitched",
-    "name": "Lithostitched",
-    "version": "1.7.3",
-    "curseForgeHash": 2169185092,
-    "modrinthHash": "d4ec9689721502154dbd587642de142261688316"
-  },
   "lodestone-1.21.1-1.8.2.jar": {
     "jarName": "lodestone-1.21.1-1.8.2.jar",
     "modId": "lodestone",
@@ -2087,6 +2079,14 @@
     "version": "4.0.0.2",
     "curseForgeHash": 3738690059,
     "modrinthHash": "f11a0062d7829e26a8705183762a5e0f2d022dd3"
+  },
+  "mc2_interactivefoliage-1.1.1-neoforge+1.21.1.jar": {
+    "jarName": "mc2_interactivefoliage-1.1.1-neoforge+1.21.1.jar",
+    "modId": "mc2_interactivefoliage",
+    "name": "MC2 - Interactive Foliage",
+    "version": "1.1.1",
+    "curseForgeHash": 3954730901,
+    "modrinthHash": "cd90a60d0a26ae5ec558aadf2720c67eb992dda2"
   },
   "Mekanism-1.21.1-10.7.19.85.jar": {
     "jarName": "Mekanism-1.21.1-10.7.19.85.jar",
@@ -2864,6 +2864,14 @@
     "curseForgeHash": 951745060,
     "modrinthHash": "a2a0d9bb5170b779863c2743f18c04b0964c9875"
   },
+  "sway-1.1.2-neoforge+1.21.1.jar": {
+    "jarName": "sway-1.1.2-neoforge+1.21.1.jar",
+    "modId": "sway",
+    "name": "SWAY",
+    "version": "1.1.2",
+    "curseForgeHash": 2600536000,
+    "modrinthHash": "0df1051d1616d4a4730511950e016974b46c6486"
+  },
   "takesapillage-neoforge-1.0.10+mc1.21.1.jar": {
     "jarName": "takesapillage-neoforge-1.0.10+mc1.21.1.jar",
     "modId": "takesapillage",
@@ -2871,14 +2879,6 @@
     "version": "1.0.10",
     "curseForgeHash": 2432356622,
     "modrinthHash": "207fa33a8c1a7c9ebecfd8817850d818794722c0"
-  },
-  "tectonic-3.0.22-neoforge-21.1.jar": {
-    "jarName": "tectonic-3.0.22-neoforge-21.1.jar",
-    "modId": "tectonic",
-    "name": "Tectonic",
-    "version": "3.0.22",
-    "curseForgeHash": 2581496858,
-    "modrinthHash": "12b0f4af2a2eaae3d9e9cb1a8a3fd1ca7e610314"
   },
   "TerraBlender-neoforge-1.21.1-4.1.0.8.jar": {
     "jarName": "TerraBlender-neoforge-1.21.1-4.1.0.8.jar",

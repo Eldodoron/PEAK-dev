@@ -1,5 +1,8 @@
 [
   {"version":2},
   {"ingredient":{"id":"minecraft:tnt"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"minecraft:leather"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+  {"ingredient":{"id":"minecraft:leather"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:apple"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"create:item_vault"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"gatesofavarice:tier_1_crystal","components":{"minecraft:custom_data":{"gatesofavarice":{"attuned":1,"theme":"UNDEAD","level":0,"seed":1597462997}},"minecraft:custom_model_data":1}},"type":"item_stack","bookmarkType":"INGREDIENT"}
 ]

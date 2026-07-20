@@ -4,7 +4,7 @@ This backlog catalogs the complete set of development notes, testing requirement
 
 ---
 
-## 📋 1. Testing & Diagnostics
+## Ã°Å¸â€œâ€¹ 1. Testing & Diagnostics
 
 Items that require validation, performance testing, or runtime behavior checks.
 
@@ -23,7 +23,7 @@ Items that require validation, performance testing, or runtime behavior checks.
 
 ---
 
-## 🏆 2. Questing & Progression
+## Ã°Å¸ï¿½â€  2. Questing & Progression
 
 Core progression mechanics, tier gates, and questline balancing.
 
@@ -48,7 +48,7 @@ Core progression mechanics, tier gates, and questline balancing.
 
 ---
 
-## ⚙️ 3. Mod Configuration & Integration
+## Ã¢Å¡â„¢Ã¯Â¸ï¿½ 3. Mod Configuration & Integration
 
 Dependencies, duplicate removal, and configuration tweaks.
 
@@ -70,7 +70,7 @@ Dependencies, duplicate removal, and configuration tweaks.
 
 ---
 
-## 🎨 4. Visuals & Textures
+## Ã°Å¸Å½Â¨ 4. Visuals & Textures
 
 Fixes to assets, tooltips, and rendering.
 
@@ -86,7 +86,7 @@ Fixes to assets, tooltips, and rendering.
 
 ---
 
-## 🧪 5. Balance & Mechanics
+## Ã°Å¸Â§Âª 5. Balance & Mechanics
 
 Economy, jewelry, entities, and specialized enchanting systems.
 
@@ -97,8 +97,8 @@ Economy, jewelry, entities, and specialized enchanting systems.
 - [ ] **Obsidilith Buff:**
   - Obsidilith is currently too weak. Buff its health, attack damage, or special mechanics to align with its tier.
 - [x] **Fix Excess Mob Drops:**
-  - ~~Mobs are dropping too many items. Adjust loot tables and drop quantities to prevent inventory clutter and economy inflation.~~ ✅ Fixed.
-- [/] **Rebalance Gems & Jewelry:** *(In Progress — Currently broken)*
+  - ~~Mobs are dropping too many items. Adjust loot tables and drop quantities to prevent inventory clutter and economy inflation.~~ Ã¢Å“â€¦ Fixed.
+- [/] **Rebalance Gems & Jewelry:** *(In Progress Ã¢â‚¬â€� Currently broken)*
   - Evaluate stat bonuses, drop rates, and crafting costs of gems and jewelry items to ensure balanced progression.
 - [ ] **Tome of Alkahestry Balance Review:**
   - **Question:** Is the Tome of Alkahestry (from *Reliquary Reincarnations*) balanced for the pack's economy? Review and adjust if necessary.
@@ -107,9 +107,9 @@ Economy, jewelry, entities, and specialized enchanting systems.
 
 ---
 
-## 🛠️ 6. Recipes & Crafting Integrations (Create-focused)
+## Ã°Å¸â€ºÂ Ã¯Â¸ï¿½ 6. Recipes & Crafting Integrations (Create-focused)
 
-Custom recipes and multi-step deployment assemblies for backpacks and upgrades using the *Create* mod. **Note: The backpack upgrade recipes are scripted and planned but currently broken — they show their default vanilla recipes in-game.**
+Custom recipes and multi-step deployment assemblies for backpacks and upgrades using the *Create* mod. **Note: The backpack upgrade recipes are scripted and planned but currently broken Ã¢â‚¬â€� they show their default vanilla recipes in-game.**
 
 ```mermaid
 graph TD
@@ -120,23 +120,23 @@ graph TD
     H[Creatify] -->|Filter Upgrade| I(Creatified Filter Upgrade)
 ```
 
-### 🧪 Recipe Overhauls & Removals
-- [x] **Hallowed Gold Recipe Clean-up:** ✅ Works.
+### Ã°Å¸Â§Âª Recipe Overhauls & Removals
+- [x] **Hallowed Gold Recipe Clean-up:** Ã¢Å“â€¦ Works.
   - **Issue:** The Create mixing recipe for Hallowed Gold does not make sense.
   - **Action:** Remove the Create mixing recipe completely; keep only the *Malum* custom recipe.
 
-### 🎒 Create Assembled Backpack Upgrades *(Scripted but broken — shows vanilla recipes in-game)*
+### Ã°Å¸Å½â€™ Create Assembled Backpack Upgrades *(Scripted but broken Ã¢â‚¬â€� shows vanilla recipes in-game)*
 - [ ] **Upgrade Base Recipe:**
   - **Recipe:** Deploying string and iron **4 times** into leather.
   - **Bug:** Normal recipe still showing up in-game despite scripts.
 - [x] **Backpack Upgrade (Tiers):**
-  - **Status:** ✅ Fixed. Converted into heavy 3x3 custom crafting table recipes (`sophisticatedbackpacks:backpack_upgrade` type) to preserve NBT. Normal recipes successfully removed.
-- [x] **Magnet Upgrade:** ✅ Fixed.
+  - **Status:** Ã¢Å“â€¦ Fixed. Converted into heavy 3x3 custom crafting table recipes (`sophisticatedbackpacks:backpack_upgrade` type) to preserve NBT. Normal recipes successfully removed.
+- [x] **Magnet Upgrade:** Ã¢Å“â€¦ Fixed.
   - **Basic:** Remove old recipe (uses iron & redstone). Add a new more accessible crafting variant.
   - **Advanced:** Recipe must include an **Advanced Item Filter**. Remove any recipe containing a **Nether Star**.
 - [/] **Unify Upgrades:** *(In Progress)*
   - **Action:** Make **all** backpack upgrade recipes use Create assembly lines.
-- [x] **Duplicated Upgrades:** ✅ Fixed.
+- [x] **Duplicated Upgrades:** Ã¢Å“â€¦ Fixed.
   - **Issue:** There are duplicated recipes for backpack upgrades appearing in-game. Needs review and removal of defaults.
 - [/] **Filter Upgrade:** *(In Progress)*
   - **Basic Filter:** Replace paper ingredient with an **EnderIO Basic Item Filter**. Remove the recipe using iron bars.
@@ -146,11 +146,11 @@ graph TD
 - Rework dragon armour toughness and recipe
 - add armour and equipment from remaining mods (alex mobs,etc)
 - elite control circuit recipe doesnt make sense
-- [ ] **Everlasting Backpack upgrade cost heart canisters?** *(Needs investigation — check if already implemented)*
+- [ ] **Everlasting Backpack upgrade cost heart canisters?** *(Needs investigation Ã¢â‚¬â€� check if already implemented)*
 - make sure that draconic evolution recipes make sense.
 - rework weapon attack range (maybe figure out why do they attack so far away and why are they unbreakable)
 - [x] rework ore worldgen to eliminate duplicated ores from spawning
-- [x] ~~remove atlas map mod since ftb map is installed~~ ✅ Done.
+- [x] ~~remove atlas map mod since ftb map is installed~~ Ã¢Å“â€¦ Done.
 - check this create rail riding mod https://www.curseforge.com/minecraft/mc-mods/create-train-track-rail-grinding?utm_source=mcgamecarousel&utm_medium=ownedmedia&utm_campaign=create-train-track-rail-grinding
 - [ ] **Fix Better Combat compat for Crystal Chronicles:** The `spear` and `evocation_twinblade` don't inherit KubeJS scripts correctly because the mod overrides them internally. Needs a proper physical datapack loaded in the world folder (`world/datapacks`).
 - 
@@ -178,4 +178,6 @@ graph TD
 - 
 - 
 - [ ] **KubeJS Recipe Fixes**: Revisit disabled recipes in 20_fixed_datapacks.js (lines 3-21, broken Avaritia/Create Assembly syntax for 1.21.1) and expert_mode_recipes.js / 13b_food_overhaul_dimensions.js (recipes using minecraft:barrier in Create Mixers that crashed).
-- [ ] **Forzar Resource Packs con Paxi:** Definir e implementar qu� paquetes de textura deben estar activados por defecto para todos los jugadores.
+- [ ] **Forzar Resource Packs con Paxi:** Definir e implementar quÃ© paquetes de textura deben estar activados por defecto para todos los jugadores.
+- [x] **Remove Copper Armor:** Quitar las armaduras de copper de Create Crafts & Additions.
+- [x] **Ragdoll Rework:** Rework/configuración pendiente para físicas ragdoll.

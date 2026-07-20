@@ -1,24 +1,3 @@
-/op MonkeyDpaja
-/tp MonkeyDpaja
-/wits
-/tp MonkeyDpaja
-/tp MonkeyDpaja Eldodoron
-/tp MonkeyDpaja
-/spark tps
-/tp MonkeyDpaja
-/tp MonkeyDpaja Eldodoron
-/tp MonkeyDpaja
-/tp MonkeyDpaja EldoTest
-/tp MonkeyDpaja
-/tp MonkeyDpaja EldoTest
-/effect clear EldoTest
-/tp MonkeyDpaja EldoTest
-/tp MonkeyDpaja
-/reload
-/summon minecraft:lightning_bolt
-/reload
-/chunky start minecraft:overworld square
-/chunky start minecraft:overworld square 1100 -130 1000 1000
 /chunky cancel minecraft:overworld
 /chunky confirm
 /chunky start minecraft:overworld square 1100 -130 1000 1000
@@ -48,3 +27,24 @@
 /fill 112 148 351 89 130 419 twilightforest:wispy_cloud replace aeronautics:levitite
 /fill 112 148 351 89 130 419 aeronautics:levitite replace twilightforest:wispy_cloud
 /fill 112 148 351 20481028 155 20483097 aeronautics:levitite replace twilightforest:wispy_cloud
+/time set day
+/reload
+/difficulty hard
+/tp MonkeyDpaja
+/tp MonkeyDpaja MonkeyDpaja
+/tp Eldodoron MonkeyDpaja
+/wits
+/tp Eldodoron MonkeyDpaja
+/wits
+/tp Eldodoron MonkeyDpaja
+/wits
+/tp Eldodoron MonkeyDpaja
+/tp MonkeyDpaja Eldodoron
+/tp Eldodoron MonkeyDpaja
+/wits
+/tp Eldodoron MonkeyDpaja
+/kubejs reload server-scripts
+/reload
+/tp Eldodoron 10000 ~ 10000
+/fill ~ ~ ~ ~ ~ ~ minecraft:stone
+/apoth set_world_tier Eldodoron pinnacle

@@ -1,5 +1,5 @@
 [general]
-	"Enable 'q' Button" = true
+	"Enable 'q' Button" = false
 	"'q' Button on the Right" = false
 	"Disable Q Menu Effects" = false
 	#How many advancements deep you can see in the advancement screen. Vanilla is 2.
@@ -20,7 +20,7 @@
 	#The amount of slots the chest button system should seek when trying to figure out if a container should be eligible for them.
 	"Chest Button Slot Target" = 27
 	#Set this to false to not show the Quark Programmer Art resource pack in the resource pack selection screen
-	"Generate Programmer Art" = true
+	"Generate Programmer Art" = false
 	#Set this to false to prevent Quark from ever disabling any vanilla data files. This will break certain modules, so only do this if you know what you're doing!
 	"Quark V D O" = true
 
@@ -1635,7 +1635,7 @@
 		"Enable Shiny Slime" = true
 		"Enable Shiny Armadillo" = true
 		"Enable Shiny Frog" = true
-		"Enable L G B T Bees" = true
+		"Enable L G B T Bees" = false
 		"Every Bee Is L G B T" = false
 		#The chance for an animal to have a special "Shiny" skin, like a shiny pokemon. This is 1 in X. Set to 0 to disable.
 		"Shiny Animal Chance" = 2048

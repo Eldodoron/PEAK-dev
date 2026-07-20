@@ -108,7 +108,7 @@ enabled = true
 	#Sharp horizontal velocity change reactions.
 	[triggers.impact]
 		#When true, sharp horizontal velocity changes can ragdoll the player.
-		enabled = true
+		enabled = false
 		#Minimum horizontal player velocity change over the 5-tick window (m/s) required to trigger.
 		# Default: 16.0
 		# Range: 0.1 ~ 128.0
@@ -181,7 +181,7 @@ enabled = true
 	#Heavy melee/projectile hit reactions.
 	[triggers.hit]
 		#When true, taking a big hit knocks the player into a ragdoll away from the attacker.
-		enabled = true
+		enabled = false
 		#Minimum damage required to trigger a ragdoll.
 		# Default: 8.0
 		# Range: 0.0 ~ 1024.0
