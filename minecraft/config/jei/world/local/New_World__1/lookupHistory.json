@@ -1,5 +1,10 @@
 [
   {"version":1},
+  {"ingredient":{"id":"create:brass_ingot"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"createmetalwork:molten_brass"},"type":"fluid_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"createmetalwork:molten_copper"},"type":"fluid_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"createmetalwork:molten_andesite_bucket"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"iceandfire:armor_red_chestplate"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"iceandfire:armor_copper_metal_helmet"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"iceandfire:armor_copper_metal_chestplate"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"iceandfire:armor_copper_helmet"},"type":"item_stack","bookmarkType":"INGREDIENT"},
@@ -94,10 +99,5 @@
   {"ingredient":{"id":"pneumaticcraft:plastic"},"type":"fluid_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"pneumaticcraft:thermopneumatic_processing_plant"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"immersiveengineering:heavy_engineering"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"tfmg:lpg"},"type":"fluid_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"pneumaticcraft:plastic"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"pneumaticcraft:classify_filter"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"pneumaticcraft:tag_filter"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"kubejs:incomplete_advanced_filter_upgrade"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"ars_controle:glyph_filter_random"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+  {"ingredient":{"id":"tfmg:lpg"},"type":"fluid_stack","bookmarkType":"INGREDIENT"}
 ]

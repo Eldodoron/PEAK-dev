@@ -1,13 +1,11 @@
 ItemEvents.modification(event => {
-    // Buff Dragon Scale armor and Dragonbone tools by 1.3x as requested
-    event.modify(/iceandfire:armor_.*(helmet|chestplate|leggings|boots)/, item => {
-        // Exclude the normal metal armors (copper/silver) added by Ice and Fire
-        if (!item.id.includes('metal')) {
-            item.maxDamage = Math.round(item.maxDamage * 1.3);
-        }
-    });
+    // Buff Dragon Scale armor and Dragonbone tools (~1.3x of base values)
+    // We use explicit values because reading maxDamage dynamically returns undefined/NaN during startup.
 
-    event.modify(/iceandfire:dragonbone_.*/, item => {
-        item.maxDamage = Math.round(item.maxDamage * 1.3);
-    });
+    event.modify(/iceandfire:armor_.*(helmet)/, item => { item.maxDamage = 529; });
+    event.modify(/iceandfire:armor_.*(chestplate)/, item => { item.maxDamage = 770; });
+    event.modify(/iceandfire:armor_.*(leggings)/, item => { item.maxDamage = 722; });
+    event.modify(/iceandfire:armor_.*(boots)/, item => { item.maxDamage = 625; });
+
+    event.modify(/iceandfire:dragonbone_(sword|pickaxe|axe|shovel|hoe|bow)/, item => { item.maxDamage = 2159; });
 });

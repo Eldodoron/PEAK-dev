@@ -1,4 +1,4 @@
-JEIEvents.hideItems(event => {
+RecipeViewerEvents.removeEntries('item', event => {
     // --- HIDE CREATE STUFF & ADDITIONS COPPER EQUIPMENT ---
     // The server removes these recipes to force the use of Ice and Fire's better balanced copper equipment.
     // Hiding them from JEI prevents player confusion.
