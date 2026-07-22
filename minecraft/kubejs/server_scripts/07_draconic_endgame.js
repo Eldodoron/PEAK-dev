@@ -37,14 +37,7 @@ ServerEvents.recipes(event => {
     // --- DRAGON BLOOD MIXING ---
     // Dragon blood + metals in Create's Mixer = enhanced alloys
     // Fire Dragon Blood + Steel = Fire-tempered Steel
-    event.recipes.create.mixing(
-        '2x enderio:dark_steel_ingot',
-        [
-            '#c:ingots/steel',
-            '#c:ingots/steel',
-            'iceandfire:fire_dragon_blood'
-        ]
-    ).superheated();
+    // (Recipe removed per user request)
 
 
 

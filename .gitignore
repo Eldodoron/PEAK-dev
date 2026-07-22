@@ -31,7 +31,8 @@ minecraft/patchouli_data.json
 minecraft/ponders_watched.json
 
 # Prism Launcher
-# instance.cfg is included but contains local Java paths
+instance.cfg
+
 
 # Others
 *.tmp

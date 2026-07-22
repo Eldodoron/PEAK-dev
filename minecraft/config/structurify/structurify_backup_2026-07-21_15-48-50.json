@@ -1,6 +1,6 @@
 {
   "config_version": "2.0.25",
-  "config_datetime": "2026-06-13_20-07-56",
+  "config_datetime": "2026-07-21_15-48-26",
   "general": {
     "disable_all_structures": false,
     "prevent_structure_overlap": true,
@@ -26,7 +26,7 @@
       "name": "create_pillagers_arise",
       "is_disabled": false,
       "override_global_distance_from_world_center": true,
-      "min_distance_from_world_center": 1000,
+      "min_distance_from_world_center": 3500,
       "max_distance_from_world_center": 0
     },
     {
@@ -40,7 +40,7 @@
       "name": "create_structures_arise",
       "is_disabled": false,
       "override_global_distance_from_world_center": true,
-      "min_distance_from_world_center": 1000,
+      "min_distance_from_world_center": 3000,
       "max_distance_from_world_center": 0
     },
     {
@@ -75,7 +75,7 @@
       "name": "iceandfire",
       "is_disabled": false,
       "override_global_distance_from_world_center": true,
-      "min_distance_from_world_center": 300,
+      "min_distance_from_world_center": 1000,
       "max_distance_from_world_center": 0
     },
     {
@@ -110,10 +110,24 @@
       "max_distance_from_world_center": 0
     },
     {
+      "name": "irons_spellbooks",
+      "is_disabled": false,
+      "override_global_distance_from_world_center": true,
+      "min_distance_from_world_center": 1000,
+      "max_distance_from_world_center": 0
+    },
+    {
       "name": "malum",
       "is_disabled": false,
       "override_global_distance_from_world_center": true,
       "min_distance_from_world_center": 0,
+      "max_distance_from_world_center": 0
+    },
+    {
+      "name": "minecolonies",
+      "is_disabled": false,
+      "override_global_distance_from_world_center": true,
+      "min_distance_from_world_center": 1000,
       "max_distance_from_world_center": 0
     },
     {
@@ -137,9 +151,51 @@
       "override_global_distance_from_world_center": true,
       "min_distance_from_world_center": 0,
       "max_distance_from_world_center": 0
+    },
+    {
+      "name": "tlc",
+      "is_disabled": false,
+      "exclude_from_overlap_prevention": true
+    },
+    {
+      "name": "twilightforest",
+      "is_disabled": false,
+      "override_global_distance_from_world_center": true,
+      "min_distance_from_world_center": 0,
+      "max_distance_from_world_center": 0,
+      "exclude_from_overlap_prevention": true
+    },
+    {
+      "name": "undergarden",
+      "is_disabled": false,
+      "exclude_from_overlap_prevention": true
+    },
+    {
+      "name": "unusualend",
+      "is_disabled": false,
+      "override_global_distance_from_world_center": true,
+      "min_distance_from_world_center": 0,
+      "max_distance_from_world_center": 0
+    },
+    {
+      "name": "vampirism",
+      "is_disabled": false,
+      "override_global_distance_from_world_center": true,
+      "min_distance_from_world_center": 300,
+      "max_distance_from_world_center": 0
     }
   ],
   "structures": [
+    {
+      "name": "create_pillagers_arise:pillagercreatetower",
+      "size": 20,
+      "max_horizontal_distance_from_center": 128,
+      "max_vertical_distance_from_center": 128,
+      "override_global_distance_from_world_center": true,
+      "min_distance_from_world_center": 1000,
+      "max_distance_from_world_center": 0,
+      "exclude_from_overlap_prevention": true
+    },
     {
       "name": "create_sky_village:skyvillage",
       "blacklisted_biomes": [
@@ -165,6 +221,24 @@
       ]
     },
     {
+      "name": "create_structures_arise:create_bastion",
+      "override_global_distance_from_world_center": true,
+      "min_distance_from_world_center": 0,
+      "max_distance_from_world_center": 0
+    },
+    {
+      "name": "create_structures_arise:honey_pit",
+      "override_global_distance_from_world_center": true,
+      "min_distance_from_world_center": 0,
+      "max_distance_from_world_center": 0
+    },
+    {
+      "name": "create_structures_arise:windmill",
+      "override_global_distance_from_world_center": true,
+      "min_distance_from_world_center": 0,
+      "max_distance_from_world_center": 0
+    },
+    {
       "name": "create_structures_overhaul:spooky_house2",
       "is_disabled": true,
       "override_global_distance_from_world_center": true,
@@ -175,11 +249,21 @@
       "flatness_check_allow_non_solid_blocks": false
     },
     {
+      "name": "darkerdepths:catacombs",
+      "size": 20,
+      "max_horizontal_distance_from_center": 128,
+      "max_vertical_distance_from_center": 128
+    },
+    {
       "name": "iceandfire:fire_dragon_roost",
       "override_global_distance_from_world_center": true,
       "min_distance_from_world_center": 2000,
       "max_distance_from_world_center": 0,
       "exclude_from_overlap_prevention": true
+    },
+    {
+      "name": "integrated_villages:marketstead_village",
+      "size": 20
     },
     {
       "name": "irons_spellbooks:catacombs",
@@ -190,6 +274,21 @@
       "size": 12,
       "max_horizontal_distance_from_center": 128,
       "max_vertical_distance_from_center": 128
+    },
+    {
+      "name": "irons_spellbooks:mountain_tower",
+      "size": 8,
+      "max_horizontal_distance_from_center": 50,
+      "max_vertical_distance_from_center": 50,
+      "override_global_distance_from_world_center": true,
+      "min_distance_from_world_center": 1000,
+      "max_distance_from_world_center": 0
+    },
+    {
+      "name": "mowziesmobs:frostmaw_spawn",
+      "override_global_distance_from_world_center": true,
+      "min_distance_from_world_center": 2000,
+      "max_distance_from_world_center": 0
     },
     {
       "name": "mowziesmobs:wrought_chamber",
@@ -205,6 +304,12 @@
       "blacklisted_biomes": [
         "minecraft:river"
       ]
+    },
+    {
+      "name": "tlc:lost_castle",
+      "override_global_distance_from_world_center": true,
+      "min_distance_from_world_center": 0,
+      "max_distance_from_world_center": 0
     }
   ],
   "structure_sets": [

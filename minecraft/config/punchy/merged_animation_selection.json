@@ -4,36 +4,113 @@
       "kind": "item",
       "definition": "PICKAXE",
       "animations": {
-        "attack": "pack:file/modded swords x punchy! 1.21.1 v1.3.1.zip",
-        "mining_v2": "pack:punchy:punchy",
+        "attack": "pack:modded swords x punchy! 1.21.1 v1.3.1.zip",
+        "mining": "pack:hyperpunchy-v2.5+.zip",
+        "interaction": "pack:hyperpunchy-v2.5+.zip",
         "inspect": "pack:punchy:punchy"
-      }
-    },
-    {
-      "kind": "item",
-      "definition": "SPEAR",
-      "animations": {
-        "attack": "pack:punchy:punchy",
-        "mining": "pack:punchy:punchy",
-        "hand_in": "pack:punchy:punchy",
-        "spear_charge": "pack:punchy:punchy"
       }
     },
     {
       "kind": "item",
       "definition": "FULL_BLOCK",
       "animations": {
-        "attack": "pack:punchy:punchy",
-        "mining_v2": "pack:punchy:punchy"
+        "useitem": "pack:hyperpunchy-v2.5+.zip",
+        "mining": "pack:hyperpunchy-v2.5+.zip",
+        "interaction": "pack:hyperpunchy-v2.5+.zip",
+        "inspect": "pack:hyperpunchy-v2.5+.zip",
+        "attack": "pack:punchy:punchy"
+      }
+    },
+    {
+      "kind": "item",
+      "definition": "EMPTY_HAND",
+      "animations": {
+        "mining": "pack:hyperpunchy-v2.5+.zip",
+        "interaction": "punchy_default",
+        "attack": "pack:hyperpunchy-v2.5+.zip"
+      }
+    },
+    {
+      "kind": "item",
+      "definition": "SPEAR",
+      "animations": {
+        "attack": "pack:hyperpunchy-v2.5+.zip",
+        "hand_in": "pack:hyperpunchy-v2.5+.zip",
+        "spear_charge": "pack:hyperpunchy-v2.5+.zip",
+        "mining": "pack:punchy:punchy"
+      }
+    },
+    {
+      "kind": "item",
+      "definition": "CROSSBOW",
+      "animations": {
+        "use_crossbow": "pack:hyperpunchy-v2.5+.zip",
+        "use_crossbow_shot": "pack:hyperpunchy-v2.5+.zip"
+      }
+    },
+    {
+      "kind": "item",
+      "definition": "BOW",
+      "animations": {
+        "use_bow": "pack:hyperpunchy-v2.5+.zip"
+      }
+    },
+    {
+      "kind": "item",
+      "definition": "FISHING_ROD",
+      "animations": {
+        "useitem": "pack:hyperpunchy-v2.5+.zip",
+        "attack": "pack:hyperpunchy-v2.5+.zip",
+        "fishingrod": "pack:punchy:punchy"
+      }
+    },
+    {
+      "kind": "item",
+      "definition": "AXE",
+      "animations": {
+        "attack": "pack:hyperpunchy-v2.5+.zip",
+        "mining": "pack:hyperpunchy-v2.5+.zip",
+        "inspect": "pack:hyperpunchy-v2.5+.zip",
+        "useitem": "pack:punchy:punchy"
+      }
+    },
+    {
+      "kind": "item",
+      "definition": "FLINT",
+      "animations": {
+        "useitem": "pack:hyperpunchy-v2.5+.zip"
+      }
+    },
+    {
+      "kind": "item",
+      "definition": "HOE",
+      "animations": {
+        "attack": "pack:hyperpunchy-v2.5+.zip",
+        "useitem": "pack:hyperpunchy-v2.5+.zip",
+        "mining": "pack:hyperpunchy-v2.5+.zip",
+        "interaction": "pack:hyperpunchy-v2.5+.zip"
       }
     },
     {
       "kind": "item",
       "definition": "SHOVEL",
       "animations": {
-        "mining_v2": "pack:punchy:punchy",
-        "attack": "pack:punchy:punchy",
-        "useitem": "pack:punchy:punchy"
+        "attack": "pack:hyperpunchy-v2.5+.zip",
+        "useitem": "pack:hyperpunchy-v2.5+.zip",
+        "mining": "pack:hyperpunchy-v2.5+.zip",
+        "interaction": "pack:hyperpunchy-v2.5+.zip"
+      }
+    },
+    {
+      "kind": "item",
+      "definition": "SWORD",
+      "animations": {
+        "attack": "pack:hyperpunchy-v2.5+.zip",
+        "hand_in": "pack:hyperpunchy-v2.5+.zip",
+        "mining": "pack:hyperpunchy-v2.5+.zip",
+        "inspect": "pack:hyperpunchy-v2.5+.zip",
+        "interaction": "pack:hyperpunchy-v2.5+.zip",
+        "triggerable": "pack:punchy:punchy"
       }
     },
     {
@@ -46,75 +123,9 @@
     },
     {
       "kind": "item",
-      "definition": "SWORD",
-      "animations": {
-        "attack": "pack:punchy:punchy",
-        "mining_v2": "pack:punchy:punchy",
-        "inspect": "pack:punchy:punchy",
-        "triggerable": "pack:punchy:punchy"
-      }
-    },
-    {
-      "kind": "item",
-      "definition": "CROSSBOW",
-      "animations": {
-        "use_crossbow": "pack:punchy:punchy",
-        "use_crossbow_shot": "pack:punchy:punchy"
-      }
-    },
-    {
-      "kind": "item",
-      "definition": "BOW",
-      "animations": {
-        "use_bow": "pack:punchy:punchy"
-      }
-    },
-    {
-      "kind": "item",
       "definition": "SHIELD",
       "animations": {
         "use_shield": "pack:punchy:punchy",
-        "attack": "pack:punchy:punchy"
-      }
-    },
-    {
-      "kind": "item",
-      "definition": "FISHING_ROD",
-      "animations": {
-        "fishingrod": "pack:punchy:punchy",
-        "attack": "pack:punchy:punchy"
-      }
-    },
-    {
-      "kind": "item",
-      "definition": "AXE",
-      "animations": {
-        "mining_v2": "pack:punchy:punchy",
-        "attack": "pack:punchy:punchy",
-        "useitem": "pack:punchy:punchy"
-      }
-    },
-    {
-      "kind": "item",
-      "definition": "HOE",
-      "animations": {
-        "mining_v2": "pack:punchy:punchy",
-        "attack": "pack:punchy:punchy",
-        "useitem": "pack:punchy:punchy"
-      }
-    },
-    {
-      "kind": "item",
-      "definition": "FLINT",
-      "animations": {
-        "useitem": "pack:punchy:punchy"
-      }
-    },
-    {
-      "kind": "item",
-      "definition": "EMPTY_HAND",
-      "animations": {
-        "mining_v2": "pack:punchy:punchy",
         "attack": "pack:punchy:punchy"
       }
     }

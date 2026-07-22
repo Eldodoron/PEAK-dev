@@ -143,8 +143,15 @@ EntityEvents.spawned(event => {
     
     if (!targets.includes(entity.type)) return;
 
-    // 15% chance to give them modded armor
-    if (Math.random() > 0.15) return;
+    // Calculate distance from world spawn (roughly 0,0)
+    let distance = Math.sqrt(entity.x * entity.x + entity.z * entity.z);
+    
+    // Base chance is 5%. Reaches 50% at 10,000 blocks away from spawn. Max 50% chance.
+    let chance = 0.05 + (distance * 0.000045); 
+    if (chance > 0.50) chance = 0.50;
+
+    // Roll the dice
+    if (Math.random() > chance) return;
 
     // Define potential armor pieces with safety checks
     let helmets = ['minecraft:netherite_helmet', 'minecraft:diamond_helmet'];

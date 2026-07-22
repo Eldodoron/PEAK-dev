@@ -1,50 +1,50 @@
-/chunky cancel minecraft:overworld
-/chunky confirm
-/chunky start minecraft:overworld square 1100 -130 1000 1000
-/effect give Eldodoron minecraft:night_vision
-/effect give Eldodoron minecraft:night_vision infinite
-/seed
+/wits
+/locate structure stron
+/locate structure minecraft:stronghold
+/locate structure betterstrongholds:stronghold
+/locate structure integrated_stronghold:stronghold
+/locate structure village_n_pillage_remake:swamp_stronghold
+/tp @s -3712 ~ 2128
+/enchant Eldodoron minecraft:sharpness 5
+/reload
+/datapack enable "file/better_combat_compat"
+/datapack enable "file/better_combat_compat.zip"
+/kubejs hand
+/reload
+/gamerule keepInventory true
 /kill
-/seed
 /reload
-/seed
-/wits
+/time set noon
+/time set night
 /apoth set_world_tier Eldodoron pinnacle
-/effect give Eldodoron irons_spellbooks:true_invisibility infinite
-/summon minecraft:ghast
-/summon ghastscrashneoforge:falling_ghast
-/give Eldodoron minecraft:command_block
-/summon ghastscrashneoforge:falling_ghast 44.00 150 200.21
-/summon ghastscrashneoforge:falling_ghast
-/weather clear
-/fill 89 130 419 112 151 351 twilightforest:wispy_cloud replace aeronautics:levitite
-/fill 89 130 419 112 150 351 twilightforest:wispy_cloud replace aeronautics:levitite
-/fill 89 130 419 112 149 351 twilightforest:wispy_cloud replace aeronautics:levitite
-/fill 89 130 419 112 149 350 twilightforest:wispy_cloud replace aeronautics:levitite
-/fill 89 130 419 112 148 351 twilightforest:wispy_cloud replace aeronautics:levitite
-/fill 89 130 419 112 148 351 aeronautics:levitite replace twilightforest:wispy_cloud
-/fill 89 130 419 112 148 351 twilightforest:wispy_cloud replace aeronautics:levitite
-/fill 112 148 351 89 130 419 twilightforest:wispy_cloud replace aeronautics:levitite
-/fill 112 148 351 89 130 419 aeronautics:levitite replace twilightforest:wispy_cloud
-/fill 112 148 351 20481028 155 20483097 aeronautics:levitite replace twilightforest:wispy_cloud
-/time set day
-/reload
+/difficulty peaceful
 /difficulty hard
-/tp MonkeyDpaja
-/tp MonkeyDpaja MonkeyDpaja
-/tp Eldodoron MonkeyDpaja
-/wits
-/tp Eldodoron MonkeyDpaja
-/wits
-/tp Eldodoron MonkeyDpaja
-/wits
-/tp Eldodoron MonkeyDpaja
-/tp MonkeyDpaja Eldodoron
-/tp Eldodoron MonkeyDpaja
-/wits
-/tp Eldodoron MonkeyDpaja
-/kubejs reload server-scripts
+/apoth spawn_boss Eldodoron apotheosis:overworld/archevoker
+/apoth spawn_boss Eldodoron apotheosis:overworld/bogged
+/apoth spawn_boss Eldodoron apotheosis:overworld/bogged_in_wet
+/apoth spawn_boss Eldodoron nadir:the_end/shulker
+/apoth spawn_boss Eldodoron apotheosis:the_nether/ancient_knight
+/apoth set_world_tier Eldodoron summit
+/apoth set_world_tier Eldodoron haven
+/apoth set_world_tier Eldodoron ascent
+/summon mowziesmobs:frostmaw ~ ~ ~ {Tags:["force_mother_frostmaw"]}
+/summon mowziesmobs:frostmaw
+/summon minecraft:wither
+/summon mowziesmobs:frostmaw
+/summon mowziesmobs:frostmaw ~ ~ ~ {Tags:["force_mother_frostmaw"]}
+/summon mowziesmobs:frostmaw
 /reload
-/tp Eldodoron 10000 ~ 10000
-/fill ~ ~ ~ ~ ~ ~ minecraft:stone
-/apoth set_world_tier Eldodoron pinnacle
+/summon iceandfire:cyclops ~ ~ ~ {Tags:["force_alpha_cyclops"]}
+/summon iceandfire:troll ~ ~ ~ {Tags:["force_elder_troll"]}
+/summon minecraft:wither_skeleton ~ ~ ~ {Tags:["force_wither_vanguard"]}
+/summon minecraft:evoker ~ ~ ~ {Tags:["force_supreme_evoker"]}
+/summon cataclysm:ignited_berserker ~ ~ ~ {Tags:["force_champion_berserker"]}
+/summon iceandfire:gorgon ~ ~ ~ {Tags:["force_matriarch_gorgon"]}
+/reload
+/summon minecraft:zombie ~ ~ ~ {Tags:["force_deceased_dragonslayer"]}
+/summon minecraft:warden ~ ~ ~ {Tags:["force_ancient_warden"]}
+/summon minecraft:enderman ~ ~ ~ {Tags:["force_void_walker"]}
+/reload
+/summon minecraft:zombie ~ ~ ~ {Tags:["force_deceased_dragonslayer"]}
+/reload
+/summon minecraft:zombie ~ ~ ~ {Tags:["force_deceased_dragonslayer"]}

@@ -17,10 +17,10 @@
   "veilImGuiDisableCursorChanges": true,
   "blacklist": [],
   "global": {
-    "scaleActive": false,
+    "scaleActive": true,
     "xhotActive": false,
     "yhotActive": false,
-    "scale": 1.0,
+    "scale": 1.35,
     "xhot": 0,
     "yhot": 0
   },
@@ -34,20 +34,20 @@
     "pointer": {
       "enabled": true,
       "scale": 1.0,
-      "xhot": 7,
+      "xhot": 8,
       "yhot": 3
     },
     "text": {
       "enabled": true,
       "scale": 1.0,
-      "xhot": 12,
+      "xhot": 13,
       "yhot": 15
     },
     "grabbing": {
       "enabled": true,
       "scale": 1.0,
-      "xhot": 15,
-      "yhot": 3
+      "xhot": 8,
+      "yhot": 8
     },
     "busy": {
       "enabled": true,
@@ -58,7 +58,7 @@
     "shift": {
       "enabled": true,
       "scale": 1.0,
-      "xhot": 11,
+      "xhot": 13,
       "yhot": 3
     },
     "crosshair": {

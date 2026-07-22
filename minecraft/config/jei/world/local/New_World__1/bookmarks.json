@@ -23,5 +23,8 @@
   {"ingredient":{"id":"sophisticatedbackpacks:advanced_filter_upgrade"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"sophisticatedbackpacks:advanced_magnet_upgrade"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"pneumaticcraft:air_compressor"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"sophisticatedbackpacks:magnet_upgrade"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+  {"ingredient":{"id":"sophisticatedbackpacks:magnet_upgrade"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"iceandfire:dragonsteel_lightning_sword"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"iceandfire:dragonsteel_fire_sword"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"iceandfire:dragonsteel_ice_sword"},"type":"item_stack","bookmarkType":"INGREDIENT"}
 ]

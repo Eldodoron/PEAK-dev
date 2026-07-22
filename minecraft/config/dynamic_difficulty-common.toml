@@ -19,7 +19,7 @@
 	#Exponential level scaling with distance from spawn
 	distance_power_scaling = 0.5
 	#How many levels to add per block from world spawn
-	levels_per_block_from_spawn = 0.01
+	levels_per_block_from_spawn = 0.005
 	#How many levels to add per block below sea level (default sea level is Y=64, can be overridden per dimension)
 	levels_per_depth = 0.0
 	#How many levels to add per block above sea level (default sea level is Y=64, can be overridden per dimension)
@@ -108,7 +108,7 @@
 	#bonus_per_level: The amount to add per entity level
 	#operation: add_value (flat addition), add_multiplied_base (percentage of base), or add_multiplied_total (percentage of final value)
 	#Leave empty to disable all attribute bonuses
-	level_bonus_per_attribute = [["minecraft:generic.attack_damage", 0.25, "add_value"], ["minecraft:generic.armor", 0.2, "add_value"], ["minecraft:generic.max_health", 0.05, "add_multiplied_base"], ["dynamic_difficulty:projectile_damage_bonus", 0.25, "add_value"], ["dynamic_difficulty:magic_damage_bonus", 0.25, "add_value"], ["dynamic_difficulty:explosion_damage_bonus", 0.25, "add_value"]]
+	level_bonus_per_attribute = [["minecraft:generic.attack_damage", 0.25, "add_value"], ["minecraft:generic.armor", 0.2, "add_value"], ["minecraft:generic.max_health", 0.05, "add_multiplied_base"], ["dynamic_difficulty:projectile_damage_bonus", 0.25, "add_value"], ["dynamic_difficulty:magic_damage_bonus", 0.1, "add_value"], ["dynamic_difficulty:explosion_damage_bonus", 0.25, "add_value"]]
 
 [level_up_items]
 	#Maximum level that Potion of Growth can raise an entity to
