@@ -10,7 +10,7 @@ const MINIBOSSES = {
     // === ICE AND FIRE ===
     'iceandfire:cyclops': {
         tag: 'is_alpha_cyclops',
-        chance: 0.05,
+        chance: 0.025,
         name: 'Alpha Cyclops',
         color: Text.gold,
         scale: 1.3,
@@ -20,7 +20,7 @@ const MINIBOSSES = {
     },
     'iceandfire:troll': {
         tag: 'is_elder_troll',
-        chance: 0.05,
+        chance: 0.025,
         name: 'Elder Cave Troll',
         color: Text.darkGreen,
         scale: 1.4,
@@ -30,7 +30,7 @@ const MINIBOSSES = {
     },
     'iceandfire:gorgon': {
         tag: 'is_matriarch_gorgon',
-        chance: 0.05,
+        chance: 0.025,
         name: 'Matriarch Gorgon',
         color: Text.darkGreen,
         scale: 1.3,
@@ -40,7 +40,7 @@ const MINIBOSSES = {
     },
     'iceandfire:cockatrice': {
         tag: 'is_venomous_cockatrice',
-        chance: 0.05,
+        chance: 0.025,
         name: 'Venomous Cockatrice',
         color: Text.darkPurple,
         scale: 1.3,
@@ -50,7 +50,7 @@ const MINIBOSSES = {
     },
     'iceandfire:hippogryph': {
         tag: 'is_warhippogryph',
-        chance: 0.04,
+        chance: 0.02,
         name: 'War Hippogryph',
         color: Text.aqua,
         scale: 1.3,
@@ -60,7 +60,7 @@ const MINIBOSSES = {
     },
     'iceandfire:stymphalian_bird': {
         tag: 'is_flock_matriarch',
-        chance: 0.03,
+        chance: 0.015,
         name: 'Flock Matriarch',
         color: Text.darkRed,
         scale: 1.4,
@@ -72,7 +72,7 @@ const MINIBOSSES = {
     // === MOWZIE'S MOBS ===
     'mowziesmobs:frostmaw': {
         tag: 'is_mother_frostmaw',
-        chance: 0.05,
+        chance: 0.025,
         name: 'Mother Frostmaw',
         color: Text.darkRed,
         scale: 1.5,
@@ -82,7 +82,7 @@ const MINIBOSSES = {
     },
     'mowziesmobs:naga': {
         tag: 'is_naga_patriarch',
-        chance: 0.05,
+        chance: 0.025,
         name: 'Naga Patriarch',
         color: Text.gold,
         scale: 1.4,
@@ -92,7 +92,7 @@ const MINIBOSSES = {
     },
     'mowziesmobs:ferrous_wroughtnaut': {
         tag: 'is_ancient_wroughtnaut',
-        chance: 0.05,
+        chance: 0.025,
         name: 'Ancient Wroughtnaut',
         color: Text.darkGray,
         scale: 1.3,
@@ -104,7 +104,7 @@ const MINIBOSSES = {
     // === CATACLYSM ===
     'cataclysm:ignited_berserker': {
         tag: 'is_champion_berserker',
-        chance: 0.05,
+        chance: 0.025,
         name: 'Champion Berserker',
         color: Text.red,
         scale: 1.2,
@@ -114,7 +114,7 @@ const MINIBOSSES = {
     },
     'cataclysm:koboleton': {
         tag: 'is_koboleton_warchief',
-        chance: 0.05,
+        chance: 0.025,
         name: 'Koboleton Warchief',
         color: Text.darkAqua,
         scale: 1.3,
@@ -124,7 +124,7 @@ const MINIBOSSES = {
     },
     'cataclysm:deepling_brute': {
         tag: 'is_abyssal_champion',
-        chance: 0.05,
+        chance: 0.025,
         name: 'Abyssal Champion',
         color: Text.darkBlue,
         scale: 1.3,
@@ -134,7 +134,7 @@ const MINIBOSSES = {
     },
     'cataclysm:endermaptera': {
         tag: 'is_void_horror',
-        chance: 0.05,
+        chance: 0.025,
         name: 'Void Horror',
         color: Text.darkPurple,
         scale: 1.4,
@@ -146,7 +146,7 @@ const MINIBOSSES = {
     // === VANILLA MINECRAFT ===
     'minecraft:wither_skeleton': {
         tag: 'is_wither_vanguard',
-        chance: 0.03,
+        chance: 0.015,
         name: 'Wither Vanguard',
         color: Text.black,
         scale: 1.3,
@@ -156,7 +156,7 @@ const MINIBOSSES = {
     },
     'minecraft:evoker': {
         tag: 'is_supreme_evoker',
-        chance: 0.05,
+        chance: 0.025,
         name: 'Supreme Evoker',
         color: Text.darkPurple,
         scale: 1.2,
@@ -166,7 +166,7 @@ const MINIBOSSES = {
     },
     'minecraft:vindicator': {
         tag: 'is_raid_champion',
-        chance: 0.04,
+        chance: 0.02,
         name: 'Raid Champion',
         color: Text.darkRed,
         scale: 1.2,
@@ -176,7 +176,7 @@ const MINIBOSSES = {
     },
     'minecraft:piglin_brute': {
         tag: 'is_piglin_warlord',
-        chance: 0.05,
+        chance: 0.025,
         name: 'Piglin Warlord',
         color: Text.gold,
         scale: 1.3,
@@ -186,7 +186,7 @@ const MINIBOSSES = {
     },
     'minecraft:ravager': {
         tag: 'is_siege_beast',
-        chance: 0.05,
+        chance: 0.025,
         name: 'Siege Beast',
         color: Text.darkGray,
         scale: 1.3,
@@ -196,7 +196,7 @@ const MINIBOSSES = {
     },
     'minecraft:enderman': {
         tag: 'is_void_walker',
-        chance: 0.02,
+        chance: 0.01,
         name: 'Void Walker',
         color: Text.darkPurple,
         scale: 1.4,
@@ -206,7 +206,7 @@ const MINIBOSSES = {
     },
     'minecraft:warden': {
         tag: 'is_ancient_warden',
-        chance: 0.10,
+        chance: 0.05,
         name: 'Ancient Warden',
         color: Text.darkAqua,
         scale: 1.3,
@@ -218,7 +218,7 @@ const MINIBOSSES = {
     // === TWILIGHT FOREST ===
     'twilightforest:minotaur': {
         tag: 'is_labyrinth_champion',
-        chance: 0.05,
+        chance: 0.025,
         name: 'Labyrinth Champion',
         color: Text.gold,
         scale: 1.3,
@@ -228,7 +228,7 @@ const MINIBOSSES = {
     },
     'twilightforest:carminite_golem': {
         tag: 'is_siege_golem',
-        chance: 0.05,
+        chance: 0.025,
         name: 'Siege Golem',
         color: Text.darkRed,
         scale: 1.3,
@@ -238,7 +238,7 @@ const MINIBOSSES = {
     },
     'twilightforest:skeleton_druid': {
         tag: 'is_archdruid',
-        chance: 0.05,
+        chance: 0.025,
         name: 'Archdruid',
         color: Text.green,
         scale: 1.2,
@@ -250,7 +250,7 @@ const MINIBOSSES = {
     // === DEEPER AND DARKER ===
     'deeperdarker:stalker': {
         tag: 'is_abyssal_stalker',
-        chance: 0.05,
+        chance: 0.025,
         name: 'Abyssal Stalker',
         color: Text.darkAqua,
         scale: 1.3,
@@ -260,7 +260,7 @@ const MINIBOSSES = {
     },
     'deeperdarker:shattered': {
         tag: 'is_elder_shattered',
-        chance: 0.05,
+        chance: 0.025,
         name: 'Elder Shattered',
         color: Text.darkBlue,
         scale: 1.3,
@@ -327,8 +327,8 @@ EntityEvents.spawned('minecraft:zombie', event => {
     // Already mutated check
     if (entity.tags.contains('is_deceased_dragonslayer')) return;
 
-    // 2% chance (rare and terrifying encounter)
-    if (Math.random() > 0.02 && !entity.tags.contains('force_deceased_dragonslayer')) return;
+    // 1% chance (rare encounter, reduced to half)
+    if (Math.random() > 0.01 && !entity.tags.contains('force_deceased_dragonslayer')) return;
 
     // Mark as mutated
     entity.tags.add('is_deceased_dragonslayer');

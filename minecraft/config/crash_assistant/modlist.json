@@ -2080,14 +2080,6 @@
     "curseForgeHash": 3738690059,
     "modrinthHash": "f11a0062d7829e26a8705183762a5e0f2d022dd3"
   },
-  "mc2_interactivefoliage-1.1.1-neoforge+1.21.1.jar": {
-    "jarName": "mc2_interactivefoliage-1.1.1-neoforge+1.21.1.jar",
-    "modId": "mc2_interactivefoliage",
-    "name": "MC2 - Interactive Foliage",
-    "version": "1.1.1",
-    "curseForgeHash": 3954730901,
-    "modrinthHash": "cd90a60d0a26ae5ec558aadf2720c67eb992dda2"
-  },
   "Mekanism-1.21.1-10.7.19.85.jar": {
     "jarName": "Mekanism-1.21.1-10.7.19.85.jar",
     "modId": "mekanism",
@@ -2863,14 +2855,6 @@
     "version": "1.21.1-3.6.7",
     "curseForgeHash": 951745060,
     "modrinthHash": "a2a0d9bb5170b779863c2743f18c04b0964c9875"
-  },
-  "sway-1.1.2-neoforge+1.21.1.jar": {
-    "jarName": "sway-1.1.2-neoforge+1.21.1.jar",
-    "modId": "sway",
-    "name": "SWAY",
-    "version": "1.1.2",
-    "curseForgeHash": 2600536000,
-    "modrinthHash": "0df1051d1616d4a4730511950e016974b46c6486"
   },
   "takesapillage-neoforge-1.0.10+mc1.21.1.jar": {
     "jarName": "takesapillage-neoforge-1.0.10+mc1.21.1.jar",
