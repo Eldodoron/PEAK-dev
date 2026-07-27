@@ -13,13 +13,13 @@ Items that require validation, performance testing, or runtime behavior checks.
 | **Lootbeams** | Perform comprehensive testing on loot beam rendering, visibility, and color-coding. | `[ ] Pending` |
 | **Loottables** | Test custom loot tables across chests, structures, and drops to ensure items spawn correctly. | `[ ] Pending` |
 | **Mob Properties Randomness** | Validate random mob properties, attributes, and equipment scaling configurations. | `[ ] Pending` |
-| **Better Third Person** | Run checks to verify third-person camera physics, transitions, and compatibility. | `[ ] Pending` |
-| **Perception** | Check mod integration, rendering, or specific features related to perception/vignettes. | `[ ] Pending` |
-| **Random Gateways Spawning** | Verify behavior, spawn rates, and locations of random gateways spawning in the world. | `[ ] Pending` |
-| **Rain Lag** | Conduct performance tests specifically targeted at rain-related lag and FPS drops. | `[ ] Pending` |
+| **Better Third Person** | Run checks to verify third-person camera physics, transitions, and compatibility. | `[x] Fixed` |
+| **Perception** | Check mod integration, rendering, or specific features related to perception/vignettes. | `[x] Fixed` |
+| **Random Gateways Spawning** | Verify behavior, spawn rates, and locations of random gateways spawning in the world. | `[x] Verified` |
+| **Rain Lag** | Conduct performance tests specifically targeted at rain-related lag and FPS drops. *(Fix: Reduced Visuality waterCircle density to 3)* | `[x] Fixed` |
 | **Netherite Helmet Enchanting** | Investigate why the Netherite Helmet is not enchanting properly. Check mod compatibility and values. | `[ ] Pending` |
 | **All Enchantments Audit** | Conduct a thorough check of all enchantments in the pack to ensure they apply and scale correctly. | `[ ] Pending` |
-| **Tooltip Overhaul** | Test and verify the mod's features, performance, and customization in the future. | `[ ] Pending` |
+| **Tooltip Overhaul** | Test and verify the mod's features, performance, and customization in the future. *(Fix: Disabled custom rendering due to Apotheosis conflicts)* | `[x] Disabled` |
 
 ---
 
@@ -54,12 +54,12 @@ Dependencies, duplicate removal, and configuration tweaks.
 
 - [x] **Check Cerulean:**
   - Run diagnostic checks on Cerulean library integration or dependencies.
-- [ ] **Forgified Fabric Removal:**
+- [x] **Forgified Fabric Removal:**
   - Remove Forgified Fabric libraries/dependencies completely. Ensure no mixin or load-time crashes occur.
-- [ ] **Nowheel Check:**
-  - Check the `nowheel` mod/setting or behavior.
-- [ ] **Extensible Enums:**
-  - Check/investigate implementation of extensible enums for mod compatibilities.
+- [x] **Nowheel Check:**
+  - Check the `nowheel` mod/setting or behavior. *(Verified: Performance mod for Create occlusion culling)*
+- [x] **Extensible Enums:**
+  - Check/investigate implementation of extensible enums for mod compatibilities. *(Verified: Mod not installed/needed)*
 - [x] **Configure Ore Generation (Duplicate Cleanup):**
   - **Issue:** Multiple mods are generating duplicate ores in the world.
   - **Action:** Configure ore gen rules to unify ore types, leaving only one version of each ore (e.g., copper, tin, silver) generating in the world.
@@ -83,6 +83,8 @@ Fixes to assets, tooltips, and rendering.
 - [ ] **Adjust Obscure Tooltips 3D Preview Restriction:**
   - **Current Behavior:** 3D tooltips preview everything.
   - **Desired Behavior:** Limit the 3D preview tooltips to only work on specific, premium armor sets (e.g., Fantasy Armor, Immersive Armor, Dragonsteel from Ice and Fire, etc.).
+- [ ] **Custom Tooltips for Simply Weapons:**
+  - **Action:** Since SimplyTooltips rendering was disabled for Apotheosis compatibility, write a KubeJS script to manually inject custom lore/tooltips into the special weapons from *Simply Swords, Simply Bows, and Simply More*.
 
 ---
 
@@ -146,11 +148,11 @@ graph TD
 - Rework dragon armour toughness and recipe
 - add armour and equipment from remaining mods (alex mobs,etc)
 - elite control circuit recipe doesnt make sense
-- [ ] **Everlasting Backpack upgrade cost heart canisters?** *(Needs investigation Ã¢â‚¬â€� check if already implemented)*
-- make sure that draconic evolution recipes make sense.
+- [x] **Everlasting Backpack upgrade cost heart canisters?** *(Verified: No, it costs Draconic Scales and Wither Souls via Create Sequenced Assembly)*
+- [x] make sure that draconic evolution recipes make sense. *(Verified: Yes, perfectly gated behind Dragonsteel, Allthemodium, and Avaritia Extreme Crafting)*
 - rework weapon attack range (maybe figure out why do they attack so far away and why are they unbreakable)
 - [x] rework ore worldgen to eliminate duplicated ores from spawning
-- [x] ~~remove atlas map mod since ftb map is installed~~ Ã¢Å“â€¦ Done.
+- [x] ~~remove atlas map mod since ftb map is installed~~ ✅ Done.
 - check this create rail riding mod https://www.curseforge.com/minecraft/mc-mods/create-train-track-rail-grinding?utm_source=mcgamecarousel&utm_medium=ownedmedia&utm_campaign=create-train-track-rail-grinding
 - [ ] **Fix Better Combat compat for Crystal Chronicles:** The `spear` and `evocation_twinblade` don't inherit KubeJS scripts correctly because the mod overrides them internally. Needs a proper physical datapack loaded in the world folder (`world/datapacks`).
 - 

@@ -35,6 +35,7 @@
   "firstPersonModelHideEnabled": true,
   "firstPersonModelHidePitch": 90.0,
   "itemBlacklist": [
+    "mowziesmobs:ice_crystal",
     "tfmg:advanced_potato_cannon",
     "aeronautics:mounted_potato_cannon",
     "create:potato_cannon",
@@ -44,6 +45,7 @@
     "artifacts:umbrella"
   ],
   "blacklistApplyDualHanded": {
+    "mowziesmobs:ice_crystal": true,
     "tfmg:advanced_potato_cannon": false,
     "aeronautics:mounted_potato_cannon": false,
     "create:potato_cannon": false,
@@ -52,7 +54,9 @@
     "cataclysm:cursed_bow": false,
     "artifacts:umbrella": false
   },
-  "animationPackSelections": {},
+  "animationPackSelections": {
+    "kind:pickaxe": "pack:hyperpunchy-v2.5+.zip"
+  },
   "animationPackTypeSelections": {},
   "mixSpecificForceOverride": {}
 }

@@ -1,0 +1,23 @@
+# PEAK Modpack - Reglas de Desarrollo (Para Cline / Qwen 32B)
+
+## Contexto del Proyecto
+- Modpack de Minecraft llamado **PEAK** en NeoForge 1.21.1 (362+ mods).
+- Usa KubeJS para scripting personalizado (recipes, eventos, etc.).
+- Prioridad absoluta: rendimiento y estabilidad (PC con 64GB RAM y RTX 4060 8GB VRAM).
+
+## Estructura de Archivos
+- `minecraft/local/kubejs/startup_scripts/` → Scripts que corren al iniciar el juego (registros).
+- `minecraft/local/kubejs/server_scripts/` → Scripts del servidor (recipes, eventos).
+- `minecraft/local/kubejs/client_scripts/` → Scripts del cliente (UI, rendering).
+- `minecraft/config/` → Configuraciones de mods (.toml, .json, .cfg).
+
+## Reglas de KubeJS 1.21.1
+- Usa `ServerEvents.recipes(event => { ... })` — nunca la sintaxis obsoleta `onEvent()`.
+- Minecraft 1.21 reemplazó NBT tags por Data Components. Usa `.withComponents()` en lugar de `.withNBT()`.
+- Los event listeners de alta frecuencia (como `ItemEvents.crafted`, `EntityEvents.spawned`) DEBEN usar cláusulas de guarda (guard clauses/early return) para evitar picos de MSPT.
+- Evita bucles pesados por tick o ticks programados con intervalos menores a 100 ticks.
+
+## Reglas de Optimización
+- El modpack corre en un sistema con 64GB RAM (asignar 10-12GB a Minecraft).
+- Distancia de simulación máxima: 8-10 chunks.
+- Mixin `mixin.perf.dynamic_languages` de ModernFix DEBE permanecer en `false` (crashea el juego).

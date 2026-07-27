@@ -4,7 +4,7 @@
       "kind": "item",
       "definition": "PICKAXE",
       "animations": {
-        "attack": "pack:modded swords x punchy! 1.21.1 v1.3.1.zip",
+        "attack": "pack:hyperpunchy-v2.5+.zip",
         "mining": "pack:hyperpunchy-v2.5+.zip",
         "interaction": "pack:hyperpunchy-v2.5+.zip",
         "inspect": "pack:punchy:punchy"

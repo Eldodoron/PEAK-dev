@@ -278,12 +278,14 @@ EntityEvents.spawned(event => {
     let config = MINIBOSSES[entity.type];
     if (!config) return;
 
-    // Already mutated check
-    if (entity.tags.contains(config.tag)) return;
+    // Ignore non-natural spawns (spawners, tech farms, eggs) unless forced via command tag
+    let forceTag = 'force_' + config.tag.replace('is_', '');
+    let isForced = entity.tags.contains(forceTag);
+    let reason = event.spawnReason ? String(event.spawnReason) : '';
+    if (reason && reason !== 'NATURAL' && !isForced) return;
 
     // Roll chance OR bypass if forced
-    let forceTag = 'force_' + config.tag.replace('is_', '');
-    if (Math.random() > config.chance && !entity.tags.contains(forceTag)) return;
+    if (Math.random() > config.chance && !isForced) return;
 
     // Mark as mutated
     entity.tags.add(config.tag);
@@ -324,11 +326,13 @@ EntityEvents.spawned('minecraft:zombie', event => {
     const { entity, server } = event;
     if (!entity || !entity.living) return;
 
-    // Already mutated check
-    if (entity.tags.contains('is_deceased_dragonslayer')) return;
+    // Ignore non-natural spawns (spawners, tech farms, eggs) unless forced via command tag
+    let isForced = entity.tags.contains('force_deceased_dragonslayer');
+    let reason = event.spawnReason ? String(event.spawnReason) : '';
+    if (reason && reason !== 'NATURAL' && !isForced) return;
 
-    // 1% chance (rare encounter, reduced to half)
-    if (Math.random() > 0.01 && !entity.tags.contains('force_deceased_dragonslayer')) return;
+    // 1% chance (rare encounter)
+    if (Math.random() > 0.01 && !isForced) return;
 
     // Mark as mutated
     entity.tags.add('is_deceased_dragonslayer');

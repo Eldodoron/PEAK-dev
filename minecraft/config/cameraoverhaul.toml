@@ -9,7 +9,7 @@ configVersion = 3
 	enabled = true
 	# Disable this to make the mod's effects exclusive to first-person view.
 	# Default: true
-	enableInThirdPerson = true
+	enableInThirdPerson = false
 	# How smooth should transitions between contextual profiles such as walking and swimming be.
 	# Default: 0.1
 	contextTransitionSmoothing = 0.1
@@ -45,10 +45,10 @@ configVersion = 3
 	screenShakesMaxFrequency = 6.0
 	# A [0..1] value linked to the strength of screen shaking caused by explosions.
 	# Default: 1.0
-	explosionTrauma = 1.0
+	explosionTrauma = 0.0
 	# A [0..1] value linked to the strength of screen shaking caused by lightning bolt-tied thunder.
 	# Default: 0.05
-	thunderTrauma = 0.05
+	thunderTrauma = 0.0
 	# A [0..1] value linked to the strength of screen shaking caused by any actions that swing the player's arm. Best kept very low.
 	# Default: 0.03
 	handSwingTrauma = 0.03
