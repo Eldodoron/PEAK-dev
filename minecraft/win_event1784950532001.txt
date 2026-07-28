@@ -1,0 +1,75 @@
+Detected that Windows reported recent critical or error events in the Application log,
+which can indicate that a process (including the Minecraft JVM) terminated unexpectedly.
+Scope: Application log; Levels: Error & Critical; Window: last ~15 seconds.
+
+If no java.exe (or related JVM processes) are listed below, you can disregard this message.
+To inspect these events manually:
+  1) Press Win+R, type "eventvwr.msc", press Enter.
+  2) Open "Windows Logs" → "Application".
+  3) Sort by Date and look for entries with Level = Error or Critical near the crash time.
+
+-----------------------
+Time: 2026-07-24 23:35:28.296 EDT
+Source: NVIDIA OpenGL Driver
+Event ID: 1
+Level: Error
+
+Message:
+  The GPU has been disconnected and this application may become unresponsive.
+  
+  Error code: 10
+   (pid=3408 tid=10448 javaw.exe 64bit)
+  
+  Visit http://www.nvidia.com/page/support.html for more information.
+
+
+Details:
+  - Data[1]: The GPU has been disconnected and this application may become unresponsive.
+
+Error code: 10
+ (pid=3408 tid=10448 javaw.exe 64bit)
+
+Visit http://www.nvidia.com/page/support.html for more information.
+  - Process ID: 3408
+  - Thread ID: 10448
+-----------------------
+
+-----------------------
+Time: 2026-07-24 23:35:30.748 EDT
+Source: Application Error
+Event ID: 1000
+Level: Error
+
+Message:
+  Faulting application name: javaw.exe, version: 21.0.8.0, time stamp: 0xcfdcce0b
+  Faulting module name: OpenAL.dll, version: 1.23.1.0, time stamp: 0x647635a1
+  Exception code: 0xc0000409
+  Fault offset: 0x00000000000a2b05
+  Faulting process id: 0xd50
+  Faulting application start time: 0x01dd1bdaa2bc3d91
+  Faulting application path: C:\Program Files\Eclipse Adoptium\jdk-21.0.8.9-hotspot\bin\javaw.exe
+  Faulting module path: C:\Users\wamb9\AppData\Local\Temp\lwjgl_wamb9\3.3.3+5\x64\OpenAL.dll
+  Report Id: 8c729f92-c2c1-4801-864d-a53c4b1ba754
+  Faulting package full name: 
+  Faulting package-relative application ID:
+
+
+Details:
+  - Data[1]: javaw.exe
+  - Data[2]: 21.0.8.0
+  - Data[3]: cfdcce0b
+  - Data[4]: OpenAL.dll
+  - Data[5]: 1.23.1.0
+  - Data[6]: 647635a1
+  - Data[7]: c0000409
+  - Data[8]: 00000000000a2b05
+  - Data[9]: d50
+  - Data[10]: 01dd1bdaa2bc3d91
+  - Data[11]: C:\Program Files\Eclipse Adoptium\jdk-21.0.8.9-hotspot\bin\javaw.exe
+  - Data[12]: C:\Users\wamb9\AppData\Local\Temp\lwjgl_wamb9\3.3.3+5\x64\OpenAL.dll
+  - Data[13]: 8c729f92-c2c1-4801-864d-a53c4b1ba754
+  - Process ID: 3408 [0xd50]
+  - Start Time: 2026-07-24 22:09:33.804 EDT [0x01dd1bdaa2bc3d91]
+  - Exception Code: 3221226505 [0xc0000409]
+-----------------------
+

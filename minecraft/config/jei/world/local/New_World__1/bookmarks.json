@@ -26,5 +26,6 @@
   {"ingredient":{"id":"sophisticatedbackpacks:magnet_upgrade"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"iceandfire:dragonsteel_lightning_sword"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"iceandfire:dragonsteel_fire_sword"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"iceandfire:dragonsteel_ice_sword"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+  {"ingredient":{"id":"iceandfire:dragonsteel_ice_sword"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:pink_harness"},"type":"item_stack","bookmarkType":"INGREDIENT"}
 ]

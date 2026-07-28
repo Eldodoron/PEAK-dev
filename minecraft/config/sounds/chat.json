@@ -24,7 +24,7 @@
 		"@Eldodoron",
 		"@EldoTest"
 	],
-	"ignoreSystemChats": false,
-	"enableChatSoundCooldown": false,
+	"ignoreSystemChats": true,
+	"enableChatSoundCooldown": true,
 	"chatSoundCooldown": 0.5
 }

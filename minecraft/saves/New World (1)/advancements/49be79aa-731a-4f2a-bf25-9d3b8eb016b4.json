@@ -5403,12 +5403,20 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:pillager": "2026-06-03 00:28:18 -0400",
+<<<<<<< Updated upstream
       "minecraft:skeleton": "2026-07-27 17:18:32 -0400",
       "minecraft:zoglin": "2026-07-27 17:22:19 -0400",
       "minecraft:phantom": "2026-07-27 17:24:44 -0400",
       "minecraft:zombified_piglin": "2026-07-27 17:23:01 -0400",
       "minecraft:wither_skeleton": "2026-07-27 17:23:22 -0400",
       "minecraft:husk": "2026-07-27 17:18:32 -0400",
+=======
+      "minecraft:vindicator": "2026-06-03 00:28:18 -0400",
+      "minecraft:stray": "2026-07-22 14:26:54 -0400",
+      "minecraft:enderman": "2026-07-23 20:24:28 -0400",
+      "minecraft:zombie": "2026-06-04 01:07:56 -0400",
+      "minecraft:wither": "2026-07-22 14:33:23 -0400",
+>>>>>>> Stashed changes
       "minecraft:bogged": "2026-07-22 13:32:59 -0400",
       "minecraft:ender_dragon": "2026-07-27 17:46:39 -0400",
       "minecraft:shulker": "2026-07-22 13:34:01 -0400",
@@ -10880,75 +10888,219 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/baked_potato_from_campfire_cooking": {
+    "criteria": {
+      "has_potato": "2026-07-23 20:25:34 -0400"
+    },
+    "done": true
+  },
+  "veggiesdelight:recipes/misc/vegetarian_patty": {
+    "criteria": {
+      "has_potato": "2026-07-23 20:25:34 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/rabbit_stew": {
+    "criteria": {
+      "has_any_ingredient": "2026-07-23 20:25:34 -0400"
+    },
+    "done": true
+  },
+  "veggiesdelight:recipes/cooking/cooking/mashed_potatoes": {
+    "criteria": {
+      "has_any_ingredient": "2026-07-23 20:25:34 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/beef_stew": {
+    "criteria": {
+      "has_any_ingredient": "2026-07-23 20:25:34 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/baked_cod_stew": {
+    "criteria": {
+      "has_any_ingredient": "2026-07-23 20:25:34 -0400"
+    },
+    "done": true
+  },
+  "veggiesdelight:recipes/cooking/cooking/potato_noodle": {
+    "criteria": {
+      "has_any_ingredient": "2026-07-23 20:25:34 -0400"
+    },
+    "done": true
+  },
+  "minecolonies:recipes/food/potato_soup": {
+    "criteria": {
+      "has_potato": "2026-07-23 20:25:34 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato_from_smoking": {
+    "criteria": {
+      "has_potato": "2026-07-23 20:25:34 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/building_blocks/potato_crate": {
+    "criteria": {
+      "has_potato": "2026-07-23 20:25:34 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato": {
+    "criteria": {
+      "has_potato": "2026-07-23 20:25:34 -0400"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/uncrafting/gold_nugget": {
+    "criteria": {
+      "has_zombie_heart": "2026-07-23 20:25:58 -0400"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/uncrafting/rotten_flesh": {
+    "criteria": {
+      "has_zombie_heart": "2026-07-23 20:25:58 -0400"
+    },
+    "done": true
+  },
+  "simplyswords:awakened_lichblade": {
+    "criteria": {
+      "requirement": "2026-07-23 20:27:10 -0400"
+    },
+    "done": true
+  },
+  "mowziesmobs:kill_frostmaw": {
+    "criteria": {
+      "frostmaw": "2026-07-23 20:27:27 -0400"
+    },
+    "done": true
+  },
+  "tombstone:adventure/chain_death": {
+    "criteria": {
+      "coded_trigger": "2026-07-23 20:27:38 -0400"
+    },
+    "done": true
+  },
   "incendium:technical/sentrys_wrath": {
     "criteria": {
+<<<<<<< Updated upstream
       "log_spam_fixer": "2026-07-27 18:50:08 -0400"
+=======
+      "log_spam_fixer": "2026-07-24 04:14:00 -0400"
+>>>>>>> Stashed changes
     },
     "done": false
   },
   "incendium:technical/on_block": {
     "criteria": {
+<<<<<<< Updated upstream
       "log_spam_fixer": "2026-07-27 18:50:08 -0400"
+=======
+      "log_spam_fixer": "2026-07-24 04:14:00 -0400"
+>>>>>>> Stashed changes
     },
     "done": false
   },
   "incendium:technical/feed_ghastling": {
     "criteria": {
+<<<<<<< Updated upstream
       "log_spam_fixer": "2026-07-27 18:50:08 -0400"
+=======
+      "log_spam_fixer": "2026-07-24 04:14:00 -0400"
+>>>>>>> Stashed changes
     },
     "done": false
   },
   "incendium:technical/multiplex_crossbow": {
     "criteria": {
+<<<<<<< Updated upstream
       "log_spam_fixer": "2026-07-27 18:50:08 -0400"
+=======
+      "log_spam_fixer": "2026-07-24 04:14:00 -0400"
+>>>>>>> Stashed changes
     },
     "done": false
   },
   "incendium:technical/on_player_hurt": {
     "criteria": {
+<<<<<<< Updated upstream
       "log_spam_fixer": "2026-07-27 18:50:08 -0400"
+=======
+      "log_spam_fixer": "2026-07-24 04:14:00 -0400"
+>>>>>>> Stashed changes
     },
     "done": false
   },
   "incendium:technical/on_kill": {
     "criteria": {
+<<<<<<< Updated upstream
       "log_spam_fixer": "2026-07-27 18:50:08 -0400"
+=======
+      "log_spam_fixer": "2026-07-24 04:14:00 -0400"
+>>>>>>> Stashed changes
     },
     "done": false
   },
   "incendium:technical/on_inventory_change": {
     "criteria": {
+<<<<<<< Updated upstream
       "log_spam_fixer": "2026-07-27 18:50:08 -0400"
+=======
+      "log_spam_fixer": "2026-07-24 04:14:00 -0400"
+>>>>>>> Stashed changes
     },
     "done": false
   },
   "incendium:technical/holy_wrath": {
     "criteria": {
+<<<<<<< Updated upstream
       "log_spam_fixer": "2026-07-27 18:50:08 -0400"
+=======
+      "log_spam_fixer": "2026-07-24 04:14:00 -0400"
+>>>>>>> Stashed changes
     },
     "done": false
   },
   "incendium:technical/inventory/firestorm": {
     "criteria": {
+<<<<<<< Updated upstream
       "log_spam_fixer": "2026-07-27 18:50:08 -0400"
+=======
+      "log_spam_fixer": "2026-07-24 04:14:00 -0400"
+>>>>>>> Stashed changes
     },
     "done": false
   },
   "incendium:technical/give_ghastling": {
     "criteria": {
+<<<<<<< Updated upstream
       "log_spam_fixer": "2026-07-27 18:50:08 -0400"
+=======
+      "log_spam_fixer": "2026-07-24 04:14:00 -0400"
+>>>>>>> Stashed changes
     },
     "done": false
   },
   "incendium:technical/inventory/sentrys_wrath": {
     "criteria": {
+<<<<<<< Updated upstream
       "log_spam_fixer": "2026-07-27 18:50:08 -0400"
+=======
+      "log_spam_fixer": "2026-07-24 04:14:00 -0400"
+>>>>>>> Stashed changes
     },
     "done": false
   },
   "incendium:technical/firestorm": {
     "criteria": {
+<<<<<<< Updated upstream
       "log_spam_fixer": "2026-07-27 18:50:08 -0400"
+=======
+      "log_spam_fixer": "2026-07-24 04:14:00 -0400"
+>>>>>>> Stashed changes
     },
     "done": false
   },

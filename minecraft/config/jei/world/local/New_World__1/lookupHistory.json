@@ -1,5 +1,6 @@
 [
   {"version":1},
+<<<<<<< Updated upstream
   {"ingredient":{"id":"kubejs:infinity_fragment"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"minecraft:dragon_egg"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"draconicevolution:awakened_draconium_block"},"type":"item_stack","bookmarkType":"INGREDIENT"},
@@ -10,6 +11,15 @@
   {"ingredient":{"id":"cataclysm:monstrous_eye"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"cataclysm:void_eye"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"ars_nouveau:potion_diffuser"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+=======
+  {"ingredient":{"id":"armoroftheages:japanese_light_armor_chest"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"arsdelight:chimera_meat"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"arsdelight:grilled_chimera_meat"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"arsdelight:wilden","show_icon":true,"neoforge:cures":["milk","protected_by_totem"],"duration":600},"type":"net.minecraft.world.effect.MobEffectInstance","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"kubejs:frozen_heart_core"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"immersiveengineering:shader_twili"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"iceandfire:hydra_heart"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+>>>>>>> Stashed changes
   {"ingredient":{"id":"create:brass_ingot"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"createmetalwork:molten_brass"},"type":"fluid_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"createmetalwork:molten_copper"},"type":"fluid_stack","bookmarkType":"INGREDIENT"},
@@ -99,5 +109,12 @@
   {"ingredient":{"id":"sophisticatedbackpacks:advanced_filter_upgrade"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"sophisticatedbackpacks:magnet_upgrade"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"sophisticatedbackpacks:advanced_compacting_upgrade"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+<<<<<<< Updated upstream
   {"ingredient":{"id":"createdieselgenerators:plant_oil"},"type":"fluid_stack","bookmarkType":"INGREDIENT"}
+=======
+  {"ingredient":{"id":"createdieselgenerators:plant_oil"},"type":"fluid_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"createdieselgenerators:biodiesel"},"type":"fluid_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"pneumaticcraft:fluid_mixer"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"pneumaticcraft:biodiesel"},"type":"fluid_stack","bookmarkType":"INGREDIENT"}
+>>>>>>> Stashed changes
 ]

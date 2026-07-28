@@ -1,10 +1,10 @@
 {
 	"hotbarScrollSoundEffect": {
-		"pitch": 1.8,
+		"pitch": 2.0,
 		"volume": 0.2,
 		"enabledDynamic": true,
 		"id": "hotbarScroll",
-		"soundEvent": "minecraft:block.note_block.hat",
+		"soundEvent": "create:cranking_compounded_1",
 		"shouldPlay": true
 	},
 	"hotbarPickSoundEffect": {
@@ -45,21 +45,21 @@
 		"id": "inventoryTyping",
 		"soundEvent": "minecraft:block.note_block.hat"
 	},
-	"ignoreEmptyInventorySlots": false,
+	"ignoreEmptyInventorySlots": true,
 	"itemDropSoundEffect": {
-		"pitch": 1.5,
-		"volume": 0.4,
+		"pitch": 1.2,
+		"volume": 1.5,
 		"enabledDynamic": true,
 		"id": "itemDrop",
-		"soundEvent": "minecraft:block.dispenser.launch",
+		"soundEvent": "create:controller_take",
 		"shouldPlay": true
 	},
 	"itemCopySoundEffect": {
 		"pitch": 2.0,
-		"volume": 0.2,
+		"volume": 0.4,
 		"enabledDynamic": true,
 		"id": "itemCopy",
-		"soundEvent": "minecraft:block.fire.extinguish",
+		"soundEvent": "minecraft:block.amethyst_block.resonate",
 		"shouldPlay": true
 	},
 	"itemDeleteSoundEffect": {
@@ -71,11 +71,11 @@
 		"shouldPlay": true
 	},
 	"itemDragSoundEffect": {
-		"pitch": 1.6,
-		"volume": 0.4,
+		"pitch": 1.4,
+		"volume": 0.5,
 		"enabledDynamic": true,
 		"id": "itemDrag",
-		"soundEvent": "minecraft:block.stone.hit",
+		"soundEvent": "create:controller_click",
 		"shouldPlay": true
 	},
 	"itemClickSoundEffect": {
@@ -83,7 +83,7 @@
 		"volume": 0.4,
 		"enabledDynamic": true,
 		"id": "itemPick",
-		"soundEvent": "minecraft:block.stone.hit",
+		"soundEvent": "create:crafter_click",
 		"shouldPlay": true
 	},
 	"ignoreEmptyHotbarSlots": false,

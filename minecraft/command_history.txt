@@ -1,6 +1,9 @@
+<<<<<<< Updated upstream
 /datapack enable "file/better_combat_compat.zip"
 /kubejs hand
 /reload
+=======
+>>>>>>> Stashed changes
 /gamerule keepInventory true
 /kill
 /reload
@@ -38,6 +41,7 @@
 /summon minecraft:zombie ~ ~ ~ {Tags:["force_deceased_dragonslayer"]}
 /reload
 /summon minecraft:zombie ~ ~ ~ {Tags:["force_deceased_dragonslayer"]}
+<<<<<<< Updated upstream
 /summon bosses_of_mass_destruction:obsidilith 30.35 -59.00 10.48
 /apoth reforge nadir:esoteric
 /summon bosses_of_mass_destruction:obsidilith
@@ -48,3 +52,18 @@
 /summon bosses_of_mass_destruction:obsidilith
 /
 /summon bosses_of_mass_destruction:obsidilith
+=======
+/summon minecraft:enderman ~ ~ ~ {Tags:["force_void_walker"]}
+/summon minecraft:warden ~ ~ ~ {Tags:["force_ancient_warden"]}
+/summon mowziesmobs:frostmaw ~ ~ ~ {Tags:["force_mother_frostmaw"]}
+/summon mowziesmobs:frostmaw ~ ~ ~
+/summon mowziesmobs:frostmaw ~ ~ ~ {Tags:["force_mother_frostmaw"]}
+/apoth reforge nadir:ancient
+/summon mowziesmobs:frostmaw ~ ~ ~ {Tags:["force_mother_frostmaw"]}
+/apoth reforge nadir:ancient
+/summon mowziesmobs:frostmaw ~ ~ ~ {Tags:["force_mother_frostmaw"]}
+/apoth reforge nadir:ancient
+/summon mowziesmobs:frostmaw ~ ~ ~ {Tags:["force_mother_frostmaw"]}
+/reload
+/summon minecraft:cow
+>>>>>>> Stashed changes
