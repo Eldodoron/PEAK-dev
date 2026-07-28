@@ -31,4 +31,4 @@ wither_boss_armor = 12
 wither_boss_follow_range = 120
 # Default: 300
 # Range: > 1
-wither_boss_health = 300
+wither_boss_health = 755

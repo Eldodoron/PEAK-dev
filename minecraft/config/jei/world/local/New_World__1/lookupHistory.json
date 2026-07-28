@@ -1,5 +1,15 @@
 [
   {"version":1},
+  {"ingredient":{"id":"kubejs:infinity_fragment"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:dragon_egg"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"draconicevolution:awakened_draconium_block"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"draconicevolution:dragon_heart"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"kubejs:incomplete_ender_eye"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"morerelics:bionic_eye","components":{"relics:data":{"abilities":{"abilities":{"seeker":{"lock":{"breaks":5},"extender":{"cooldownCap":0,"cooldown":0,"ticking":false},"points":0,"stats":{"range":{"initialValue":14.97347},"duration":{"initialValue":13.99015},"cooldown":{"initialValue":110.476}},"research":{"links":{},"researched":false}},"cyberpsychosis":{"lock":{"breaks":0},"extender":{"cooldownCap":0,"cooldown":0,"ticking":false},"points":0,"stats":{"chance":{"initialValue":3.25292},"duration":{"initialValue":6.55983}},"research":{"links":{},"researched":false}}}},"leveling":{"level":0,"experience":0,"points":0,"luck":0}}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"cataclysm:cursed_eye"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"cataclysm:monstrous_eye"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"cataclysm:void_eye"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"ars_nouveau:potion_diffuser"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"create:brass_ingot"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"createmetalwork:molten_brass"},"type":"fluid_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"createmetalwork:molten_copper"},"type":"fluid_stack","bookmarkType":"INGREDIENT"},
@@ -89,15 +99,5 @@
   {"ingredient":{"id":"sophisticatedbackpacks:advanced_filter_upgrade"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"sophisticatedbackpacks:magnet_upgrade"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"sophisticatedbackpacks:advanced_compacting_upgrade"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"createdieselgenerators:plant_oil"},"type":"fluid_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"createdieselgenerators:biodiesel"},"type":"fluid_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"pneumaticcraft:fluid_mixer"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"pneumaticcraft:biodiesel"},"type":"fluid_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"immersiveengineering:high_power_biodiesel"},"type":"fluid_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"immersiveengineering:biodiesel"},"type":"fluid_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"createdieselgenerators:ethanol"},"type":"fluid_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"pneumaticcraft:plastic"},"type":"fluid_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"pneumaticcraft:thermopneumatic_processing_plant"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"immersiveengineering:heavy_engineering"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"tfmg:lpg"},"type":"fluid_stack","bookmarkType":"INGREDIENT"}
+  {"ingredient":{"id":"createdieselgenerators:plant_oil"},"type":"fluid_stack","bookmarkType":"INGREDIENT"}
 ]

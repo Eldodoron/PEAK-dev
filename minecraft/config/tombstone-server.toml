@@ -16,7 +16,7 @@
 #Allows to customize or disable the enchantments
 [enchantments]
 	#Allows Soulbound at enchanting table [false/true|default:false]
-	soulbound_enchanting_table = true
+	soulbound_enchanting_table = false
 	#Allows Spectral Bite at enchanting table [false/true|default:false]
 	spectral_bite_enchanting_table = false
 	#Allows Magic Siphon at enchanting table [false/true|default:false]

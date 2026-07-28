@@ -5403,12 +5403,24 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:pillager": "2026-06-03 00:28:18 -0400",
-      "minecraft:vindicator": "2026-06-03 00:28:18 -0400",
-      "minecraft:stray": "2026-07-22 14:26:54 -0400",
-      "minecraft:zombie": "2026-06-04 01:07:56 -0400",
-      "minecraft:wither": "2026-07-22 14:33:23 -0400",
+      "minecraft:skeleton": "2026-07-27 17:18:32 -0400",
+      "minecraft:zoglin": "2026-07-27 17:22:19 -0400",
+      "minecraft:phantom": "2026-07-27 17:24:44 -0400",
+      "minecraft:zombified_piglin": "2026-07-27 17:23:01 -0400",
+      "minecraft:wither_skeleton": "2026-07-27 17:23:22 -0400",
+      "minecraft:husk": "2026-07-27 17:18:32 -0400",
       "minecraft:bogged": "2026-07-22 13:32:59 -0400",
-      "minecraft:shulker": "2026-07-22 13:34:01 -0400"
+      "minecraft:ender_dragon": "2026-07-27 17:46:39 -0400",
+      "minecraft:shulker": "2026-07-22 13:34:01 -0400",
+      "minecraft:piglin": "2026-07-27 17:25:56 -0400",
+      "minecraft:vindicator": "2026-06-03 00:28:18 -0400",
+      "minecraft:breeze": "2026-07-27 17:15:57 -0400",
+      "minecraft:stray": "2026-07-22 14:26:54 -0400",
+      "minecraft:enderman": "2026-07-27 17:21:26 -0400",
+      "minecraft:endermite": "2026-07-27 17:21:46 -0400",
+      "minecraft:piglin_brute": "2026-07-27 17:23:22 -0400",
+      "minecraft:zombie": "2026-06-04 01:07:56 -0400",
+      "minecraft:wither": "2026-07-22 14:33:23 -0400"
     },
     "done": false
   },
@@ -5594,6 +5606,7 @@
   },
   "deeperdarker:main/kill_all_sculk_mobs": {
     "criteria": {
+      "phantom": "2026-07-27 17:24:44 -0400",
       "warden": "2026-06-03 15:09:33 -0400"
     },
     "done": false
@@ -6034,11 +6047,14 @@
   },
   "apotheosis:progression/pinnacle": {
     "criteria": {
+      "kill_ender_dragon": "2026-07-27 17:46:39 -0400",
+      "esoteric_chest": "2026-07-27 17:39:28 -0400",
       "esoteric_hand": "2026-06-03 15:31:01 -0400",
+      "esoteric_legs": "2026-07-27 17:39:12 -0400",
       "esoteric_helm": "2026-06-03 15:31:11 -0400",
       "esoteric_feet": "2026-06-03 15:44:30 -0400"
     },
-    "done": false
+    "done": true
   },
   "tombstone:adventure/strong_or_careful": {
     "criteria": {
@@ -10811,7 +10827,8 @@
   "twilightforest:fiery_set": {
     "criteria": {
       "fiery_boots": "2026-07-22 14:26:55 -0400",
-      "fiery_chestplate": "2026-07-22 14:26:55 -0400"
+      "fiery_chestplate": "2026-07-22 14:26:55 -0400",
+      "fiery_leggings": "2026-07-27 17:24:12 -0400"
     },
     "done": false
   },
@@ -10865,75 +10882,279 @@
   },
   "incendium:technical/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2026-07-22 19:18:23 -0400"
+      "log_spam_fixer": "2026-07-27 18:50:08 -0400"
     },
     "done": false
   },
   "incendium:technical/on_block": {
     "criteria": {
-      "log_spam_fixer": "2026-07-22 19:18:23 -0400"
+      "log_spam_fixer": "2026-07-27 18:50:08 -0400"
     },
     "done": false
   },
   "incendium:technical/feed_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2026-07-22 19:18:23 -0400"
+      "log_spam_fixer": "2026-07-27 18:50:08 -0400"
     },
     "done": false
   },
   "incendium:technical/multiplex_crossbow": {
     "criteria": {
-      "log_spam_fixer": "2026-07-22 19:18:23 -0400"
+      "log_spam_fixer": "2026-07-27 18:50:08 -0400"
     },
     "done": false
   },
   "incendium:technical/on_player_hurt": {
     "criteria": {
-      "log_spam_fixer": "2026-07-22 19:18:23 -0400"
+      "log_spam_fixer": "2026-07-27 18:50:08 -0400"
     },
     "done": false
   },
   "incendium:technical/on_kill": {
     "criteria": {
-      "log_spam_fixer": "2026-07-22 19:18:23 -0400"
+      "log_spam_fixer": "2026-07-27 18:50:08 -0400"
     },
     "done": false
   },
   "incendium:technical/on_inventory_change": {
     "criteria": {
-      "log_spam_fixer": "2026-07-22 19:18:23 -0400"
+      "log_spam_fixer": "2026-07-27 18:50:08 -0400"
     },
     "done": false
   },
   "incendium:technical/holy_wrath": {
     "criteria": {
-      "log_spam_fixer": "2026-07-22 19:18:23 -0400"
+      "log_spam_fixer": "2026-07-27 18:50:08 -0400"
     },
     "done": false
   },
   "incendium:technical/inventory/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2026-07-22 19:18:23 -0400"
+      "log_spam_fixer": "2026-07-27 18:50:08 -0400"
     },
     "done": false
   },
   "incendium:technical/give_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2026-07-22 19:18:23 -0400"
+      "log_spam_fixer": "2026-07-27 18:50:08 -0400"
     },
     "done": false
   },
   "incendium:technical/inventory/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2026-07-22 19:18:23 -0400"
+      "log_spam_fixer": "2026-07-27 18:50:08 -0400"
     },
     "done": false
   },
   "incendium:technical/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2026-07-22 19:18:23 -0400"
+      "log_spam_fixer": "2026-07-27 18:50:08 -0400"
     },
     "done": false
+  },
+  "apothic_enchanting:sculkshelf": {
+    "criteria": {
+      "echoing": "2026-07-27 17:53:11 -0400"
+    },
+    "done": true
+  },
+  "minecraft:end/enter_end_gateway": {
+    "criteria": {
+      "entered_end_gateway": "2026-07-27 18:05:00 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/building_blocks/carrot_crate": {
+    "criteria": {
+      "has_carrot": "2026-07-27 17:13:09 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/rabbit_stew": {
+    "criteria": {
+      "has_any_ingredient": "2026-07-27 17:13:09 -0400"
+    },
+    "done": true
+  },
+  "gatesofavarice:recipes/misc/tier_2_crystal": {
+    "criteria": {
+      "has_mystic_essence": "2026-07-27 17:24:12 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/combat/crafting/appliances/netherite_backtank_from_netherite": {
+    "criteria": {
+      "has_item": "2026-07-27 17:59:16 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/mace": {
+    "criteria": {
+      "has_breeze_rod": "2026-07-27 17:21:03 -0400"
+    },
+    "done": true
+  },
+  "minecraft:nether/netherite_armor": {
+    "criteria": {
+      "netherite_armor": "2026-07-27 17:59:23 -0400"
+    },
+    "done": true
+  },
+  "apotheosis:gateways/sigil_of_supremacy": {
+    "criteria": {
+      "obtain_sigil_of_supremacy": "2026-07-27 17:46:39 -0400"
+    },
+    "done": true
+  },
+  "veggiesdelight:recipes/food/carrot_cake": {
+    "criteria": {
+      "has_carrot": "2026-07-27 17:13:09 -0400"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/spectre": {
+    "criteria": {
+      "killed": "2026-07-27 18:33:09 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/vegetable_noodles": {
+    "criteria": {
+      "has_any_ingredient": "2026-07-27 17:13:09 -0400"
+    },
+    "done": true
+  },
+  "waystones:recipes/decorations/warp_stone": {
+    "criteria": {
+      "has_ender_pearl": "2026-07-27 17:51:09 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/beef_stew": {
+    "criteria": {
+      "has_any_ingredient": "2026-07-27 17:13:09 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/carrot_on_a_stick": {
+    "criteria": {
+      "has_carrot": "2026-07-27 17:13:09 -0400"
+    },
+    "done": true
+  },
+  "minecraft:end/root": {
+    "criteria": {
+      "entered_end": "2026-07-27 17:44:38 -0400"
+    },
+    "done": true
+  },
+  "gatesofavarice:recipes/misc/tier_3_crystal": {
+    "criteria": {
+      "has_arcane_essence": "2026-07-27 17:24:12 -0400"
+    },
+    "done": true
+  },
+  "waystones:recipes/decorations/warp_scroll": {
+    "criteria": {
+      "has_ender_pearl": "2026-07-27 17:51:09 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/chicken_soup": {
+    "criteria": {
+      "has_any_ingredient": "2026-07-27 17:13:09 -0400"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2026-07-27 17:44:38 -0400"
+    },
+    "done": true
+  },
+  "undergarden:recipes/tools/catalyst": {
+    "criteria": {
+      "has_ender_pearl": "2026-07-27 17:51:09 -0400"
+    },
+    "done": true
+  },
+  "paraglider:recipes/misc/energizing_mixture": {
+    "criteria": {
+      "has_carrot": "2026-07-27 17:13:09 -0400"
+    },
+    "done": true
+  },
+  "bosses_of_mass_destruction:end/obsidilith_defeat": {
+    "criteria": {
+      "bosses_of_mass_destruction:obsidilith": "2026-07-27 17:37:58 -0400"
+    },
+    "done": true
+  },
+  "allthemodium:recipes/misc/teleport_pad": {
+    "criteria": {
+      "has_ender_pearl": "2026-07-27 17:51:09 -0400"
+    },
+    "done": true
+  },
+  "waystones:recipes/decorations/warp_dust": {
+    "criteria": {
+      "has_ender_pearl": "2026-07-27 17:51:09 -0400"
+    },
+    "done": true
+  },
+  "gatesofavarice:recipes/misc/mana_steel_upgrade_template": {
+    "criteria": {
+      "has_mana_steel_scrap": "2026-07-27 17:24:12 -0400"
+    },
+    "done": true
+  },
+  "lootr:1shulker": {
+    "criteria": {
+      "opened_shulker": "2026-07-27 18:47:53 -0400"
+    },
+    "done": true
+  },
+  "dungeons_arise:find_heavenly_conqueror": {
+    "criteria": {
+      "location0": "2026-07-27 18:06:06 -0400"
+    },
+    "done": true
+  },
+  "gatesofavarice:recipes/misc/mana_steel_ingot": {
+    "criteria": {
+      "has_mana_steel_scrap": "2026-07-27 17:24:12 -0400"
+    },
+    "done": true
+  },
+  "minecraft:end/kill_dragon": {
+    "criteria": {
+      "killed_dragon": "2026-07-27 17:46:39 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/wind_charge": {
+    "criteria": {
+      "has_breeze_rod": "2026-07-27 17:21:03 -0400"
+    },
+    "done": true
+  },
+  "gatesofavarice:recipes/misc/crystal_theme_attunement": {
+    "criteria": {
+      "has_theme_item": "2026-07-27 17:24:12 -0400"
+    },
+    "done": false
+  },
+  "veggiesdelight:recipes/cooking/cooking/carrot_juice": {
+    "criteria": {
+      "has_carrot": "2026-07-27 17:13:09 -0400"
+    },
+    "done": true
+  },
+  "wands:recipes/magic_bag_1": {
+    "criteria": {
+      "has_ender_pearl": "2026-07-27 17:51:09 -0400"
+    },
+    "done": true
   },
   "DataVersion": 3955
 }

@@ -1,13 +1,3 @@
-/wits
-/locate structure stron
-/locate structure minecraft:stronghold
-/locate structure betterstrongholds:stronghold
-/locate structure integrated_stronghold:stronghold
-/locate structure village_n_pillage_remake:swamp_stronghold
-/tp @s -3712 ~ 2128
-/enchant Eldodoron minecraft:sharpness 5
-/reload
-/datapack enable "file/better_combat_compat"
 /datapack enable "file/better_combat_compat.zip"
 /kubejs hand
 /reload
@@ -48,3 +38,13 @@
 /summon minecraft:zombie ~ ~ ~ {Tags:["force_deceased_dragonslayer"]}
 /reload
 /summon minecraft:zombie ~ ~ ~ {Tags:["force_deceased_dragonslayer"]}
+/summon bosses_of_mass_destruction:obsidilith 30.35 -59.00 10.48
+/apoth reforge nadir:esoteric
+/summon bosses_of_mass_destruction:obsidilith
+/tp Eldodoron 10000 ~ 10000
+/summon minecraft:wither
+/summon bosses_of_mass_destruction:obsidilith
+/summon minecraft:wither
+/summon bosses_of_mass_destruction:obsidilith
+/
+/summon bosses_of_mass_destruction:obsidilith
