@@ -1,5 +1,6 @@
 [
   {"version":1},
+  {"ingredient":{"id":"amendments:dragon_charge"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"ice_and_fire_spellbooks:ender_dragon_priest_mask","components":{"irons_spellbooks:spell_container":{"mustEquip":true,"data":[],"maxSpells":2,"spellWheel":true}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"the_beyond:plated_end_stone"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"the_beyond:polar_antenna"},"type":"item_stack","bookmarkType":"INGREDIENT"},

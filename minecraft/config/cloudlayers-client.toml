@@ -1,0 +1,17 @@
+#The number of cloud layers to render
+# Default: 3
+# Range: > 1
+cloudLayers = 3
+#Per-layer cloud spacing values. Each entry controls the size of a gap between cloud layers from bottom to top.
+#If too few values are provided, the last value is repeated for remaining layers.
+#Example for 3 layers where the 1st and 2nd layers have a spacing of 64 and the 2nd and 3rd layers have a spacing of 32: [64.0, 32.0]
+layerSpacings = [48.0, 48.0]
+#Per-layer alpha (opacity) values. Each entry controls one cloud layer from bottom to top.
+#Values range from 0.0 (fully transparent) to 1.0 (fully opaque).
+#If fewer values are provided than cloudLayers, the last value is repeated for remaining layers.
+#Example for 5 layers, fading out toward the top: [1.0, 0.85, 0.65, 0.45, 0.25]
+layerOpacity = [1.0, 0.5, 0.25]
+#Whether each cloud layer, from bottom to top, should render in the 2D "Fast" style, even if clouds are set to "Fancy" in the video settings.
+#True values mean this layer will always render in the Fast style. False values will make this layer dependent on the user video settings.
+#Example for 3 layers, where the first 2 layers are Fancy and the 3rd is Fast: [false, false, true]
+forceFastClouds = [false, false, true]

@@ -637,6 +637,14 @@
     "curseForgeHash": 1440957232,
     "modrinthHash": "c3e5733ba4503b102589a026000fd5ce0212f6f2"
   },
+  "cloudlayers-1.21.1-1.1.jar": {
+    "jarName": "cloudlayers-1.21.1-1.1.jar",
+    "modId": "cloudlayers",
+    "name": "Cloud Layers",
+    "version": "1.1",
+    "curseForgeHash": 2876695279,
+    "modrinthHash": "c44ba4821cd9150ff028ee257de454e9ab0b9651"
+  },
   "Clumps-neoforge-1.21.1-19.0.0.1.jar": {
     "jarName": "Clumps-neoforge-1.21.1-19.0.0.1.jar",
     "modId": "clumps",
