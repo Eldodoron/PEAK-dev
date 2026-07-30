@@ -48,3 +48,7 @@
 *   **Paraglider Balance:**
     *   Completely cleared **Spirit Orbs** from standard dungeon loot chests.
     *   Introduced an active **8% drop rate** for Spirit Orbs when breaking vanilla and modded Mob Spawners, incentivizing active dungeon exploration.
+*   **Apotheosis Flight Affix Balance:**
+    *   Disabled **Winged** (`elytra_flight`) and **Unbound** (`creative_flight`) affixes from rolling on chestplates in Apotheosis via a dedicated Paxi datapack (`config/paxi/datapacks/apotheosis_flight_disable/`), ensuring Placebo's dynamic registry loads the override with priority before any reforging or loot drops.
+*   **Dynamic Difficulty Trap & Mimic Exclusion:**
+    *   Blacklisted disguised trap and mimic entities (`unusualend:endstone_trapper`, `artifacts:mimic`, `mowziesmobs:foliaath`) in `dynamic_difficulty-common.toml` so they do not receive level indicators or health scaling that would spoil their disguise.

@@ -3,4 +3,4 @@
 	#Enable Beyond's custom atmospheric End fog.
 	#When disabled, vanilla End fog is used (no custom distances or shape overrides).
 	#Default: true
-	enableCustomFog = true
+	enableCustomFog = false

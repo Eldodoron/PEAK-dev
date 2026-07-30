@@ -279,17 +279,67 @@ ServerEvents.recipes(event => {
     // SECTION 7: EARLY EXPLORATION GATES
     // Supplementaries & Quark items that should push exploration
     // ==========================================
+    // Waystones: Magical 5x6 Mechanical Crafter recipes (processed stone + inner gems)
+    const waystoneRecipes = [
+        {
+            output: 'waystones:waystone',
+            S: 'minecraft:stone_bricks',
+            C: 'minecraft:chiseled_stone_bricks',
+            M: 'ars_nouveau:source_gem',
+            W: 'waystones:warp_stone'
+        },
+        {
+            output: 'waystones:mossy_waystone',
+            S: 'minecraft:mossy_stone_bricks',
+            C: 'minecraft:stone_bricks',
+            M: 'ars_nouveau:source_gem',
+            W: 'waystones:warp_stone'
+        },
+        {
+            output: 'waystones:sandy_waystone',
+            S: 'minecraft:smooth_sandstone',
+            C: 'minecraft:cut_sandstone',
+            M: 'minecraft:lapis_lazuli',
+            W: 'waystones:warp_stone'
+        },
+        {
+            output: 'waystones:deepslate_waystone',
+            S: 'minecraft:polished_deepslate',
+            C: 'minecraft:deepslate_bricks',
+            M: 'minecraft:echo_shard',
+            W: 'waystones:warp_stone'
+        },
+        {
+            output: 'waystones:blackstone_waystone',
+            S: 'minecraft:polished_blackstone_bricks',
+            C: 'minecraft:chiseled_polished_blackstone',
+            M: 'irons_spellbooks:cinder_essence',
+            W: 'waystones:warp_stone'
+        },
+        {
+            output: 'waystones:end_stone_waystone',
+            S: 'minecraft:end_stone_bricks',
+            C: 'minecraft:end_stone_bricks',
+            M: 'minecraft:ender_pearl',
+            W: 'waystones:warp_stone'
+        }
+    ];
 
-    // Waystones require Brass (can't fast-travel for free early game)
-    event.remove({ output: 'waystones:waystone' });
-    event.shaped('waystones:waystone', [
-        ' B ',
-        'SES',
-        'SSS'
-    ], {
-        B: 'create:brass_ingot',
-        S: 'minecraft:stone_bricks',
-        E: 'minecraft:ender_pearl'
+    waystoneRecipes.forEach(recipe => {
+        event.remove({ output: recipe.output });
+        event.recipes.create.mechanical_crafting(recipe.output, [
+            ' SSS ',
+            'SSSSS',
+            ' CMC ',
+            ' CWC ',
+            ' CMC ',
+            'SSSSS'
+        ], {
+            S: recipe.S,
+            C: recipe.C,
+            M: recipe.M,
+            W: recipe.W
+        });
     });
 
     // Sophisticated Backpacks: Iron tier requires Andesite Alloy

@@ -7,7 +7,7 @@ clientOnly = false
 #Toggle mod keybind
 toggleKey = "key.keyboard.i"
 #Open config screen keybind
-openConfigKey = ""
+openConfigKey = "key.keyboard.unknown"
 #Rotate camera
 rotateCamera = true
 #Move camera

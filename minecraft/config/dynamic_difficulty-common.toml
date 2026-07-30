@@ -96,7 +96,7 @@
 	#Entities that cannot level up
 	#Supports wildcards: use 'modid:*' to blacklist all entities from a mod
 	#Examples: ["minecraft:zombie", "minecraft:skeleton", "cataclysm:*"]
-	blacklisted_entities = []
+	blacklisted_entities = ["unusualend:endstone_trapper", "artifacts:mimic", "mowziesmobs:foliaath"]
 	#If not empty, only these entities can level up
 	#Supports wildcards: use 'modid:*' to whitelist all entities from a mod
 	#Examples: ["minecraft:zombie", "cataclysm:*"]

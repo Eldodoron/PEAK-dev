@@ -1,0 +1,38 @@
+[timeouts]
+	#FR: Timeout reseau applique aux connexions client et serveur pendant LOGIN / CONFIGURATION / PLAY.
+	#EN: Network timeout applied to client and server connections during LOGIN / CONFIGURATION / PLAY.
+	#Recommended for big modpacks: 240 to 300 seconds. Default: 300.
+	# Default: 300
+	# Range: 30 ~ 900
+	connection_timeout_seconds = 300
+	#FR: Remplace le IdleStateHandler de Netty sur le client et le serveur.
+	#EN: Replaces Netty IdleStateHandler on client and server connections.
+	patch_netty_idle_handler = true
+
+[logs]
+	#FR: Log une seule fois les patchs vanilla appliques. Recommande: true.
+	#EN: Logs vanilla timeout patches only once. Recommended: true.
+	log_startup_patches = true
+	#FR: Affiche un resume propre quand une connexion se ferme.
+	#EN: Prints a clean summary when a connection closes.
+	log_connection_summary = true
+	#FR: Log chaque application Netty. A laisser false pour eviter le spam.
+	#EN: Logs every Netty patch. Keep false to avoid spam.
+	log_connection_patch = false
+	#FR: Affiche les petites connexions qui se ferment directement en HANDSHAKE. Souvent ce sont des ping, scans ou tentatives qui ne vont pas jusqu au login. Recommande: false.
+	#EN: Logs short HANDSHAKE-only connections. Often pings, scans or attempts that never reach login. Recommended: false.
+	log_short_handshake_summary = false
+	#FR: Duree minimum avant d afficher un resume de connexion fermee sans erreur. 1000 = masque les connexions instantanees.
+	#EN: Minimum duration before logging a clean closed connection summary. 1000 hides instant closes.
+	# Default: 1000
+	# Range: 0 ~ 60000
+	min_summary_duration_ms = 1000
+	#FR: Log les vraies erreurs de connexion.
+	#EN: Logs real connection errors.
+	log_disconnect_reason = true
+	#FR: Log aussi les erreurs secondaires du type unknown packet disconnect. Recommande: false.
+	#EN: Also logs secondary encoder errors like unknown disconnect packet. Recommended: false.
+	log_noisy_encoder_errors = false
+	#FR: Affiche la stacktrace complete. A activer seulement pour debug.
+	#EN: Print full stacktrace. Enable only for debugging.
+	log_full_exception = false

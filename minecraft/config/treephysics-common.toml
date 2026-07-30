@@ -25,7 +25,7 @@ requires_axe = false
 prevent_interacting_with_trees = false
 #treephysics.config.leaf_walking_behavior.tooltip
 #Allowed Values: NEVER, ALWAYS, IN_SUB_LEVELS, IN_WORLD
-leaf_walking_behavior = "ALWAYS"
+leaf_walking_behavior = "NEVER"
 #treephysics.config.leaf_walking_speed.tooltip
 # Default: 0.67
 # Range: 0.0 ~ 1.0

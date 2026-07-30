@@ -1,34 +1,3 @@
-<<<<<<< Updated upstream
-/datapack enable "file/better_combat_compat.zip"
-/kubejs hand
-/reload
-=======
->>>>>>> Stashed changes
-/gamerule keepInventory true
-/kill
-/reload
-/time set noon
-/time set night
-/apoth set_world_tier Eldodoron pinnacle
-/difficulty peaceful
-/difficulty hard
-/apoth spawn_boss Eldodoron apotheosis:overworld/archevoker
-/apoth spawn_boss Eldodoron apotheosis:overworld/bogged
-/apoth spawn_boss Eldodoron apotheosis:overworld/bogged_in_wet
-/apoth spawn_boss Eldodoron nadir:the_end/shulker
-/apoth spawn_boss Eldodoron apotheosis:the_nether/ancient_knight
-/apoth set_world_tier Eldodoron summit
-/apoth set_world_tier Eldodoron haven
-/apoth set_world_tier Eldodoron ascent
-/summon mowziesmobs:frostmaw ~ ~ ~ {Tags:["force_mother_frostmaw"]}
-/summon mowziesmobs:frostmaw
-/summon minecraft:wither
-/summon mowziesmobs:frostmaw
-/summon mowziesmobs:frostmaw ~ ~ ~ {Tags:["force_mother_frostmaw"]}
-/summon mowziesmobs:frostmaw
-/reload
-/summon iceandfire:cyclops ~ ~ ~ {Tags:["force_alpha_cyclops"]}
-/summon iceandfire:troll ~ ~ ~ {Tags:["force_elder_troll"]}
 /summon minecraft:wither_skeleton ~ ~ ~ {Tags:["force_wither_vanguard"]}
 /summon minecraft:evoker ~ ~ ~ {Tags:["force_supreme_evoker"]}
 /summon cataclysm:ignited_berserker ~ ~ ~ {Tags:["force_champion_berserker"]}
@@ -67,3 +36,34 @@
 /reload
 /summon minecraft:cow
 >>>>>>> Stashed changes
+/tp Eldodoron 10000 ~ 10000
+/wits
+/configure_update
+/configure_update 1ew
+/give Eldodoron minecraft:ender_eye
+/vampirism level vampirism:vampire 0 Eldodoron
+/locate structure minecraft:end_city
+/tp @s 10336 ~ 10272
+/wits
+/tp Eldodoron 10000 ~ 10000
+/fill ~ ~ ~ 10100 180 10100 the_beyond:auroracite
+/fill ~ ~ ~ 10100 120 10100 the_beyond:auroracite
+/fill ~ ~ ~ 10050 120 10050 the_beyond:auroracite
+/fill ~ ~ ~ 10050 100 10050 the_beyond:auroracite
+/fill ~ ~ ~ 10030 100 10030 the_beyond:auroracite
+/tp Eldodoron 10000 ~ 10000
+/tp Eldodoron -10000 ~ -10000
+/tp Eldodoron 20000 120 20000
+/tp 10000 100 10000
+/execute in minecraft:the_end run tp @s 0 80 0
+/tp 10000 100 10000
+/tp 10000 100 20000
+/execute in minecraft:the_end run tp @s 10000 100 10000
+/apoth reforge nadir:cataclysmic
+/execute in minecraft:the_end run tp @s 0 80 0
+/kill
+/apoth reforge nadir:cataclysmic
+/apoth set_world_tier Eldodoron pinnacle
+/reload
+/apoth set_world_tier Eldodoron pinnacle
+/apoth reforge nadir:cataclysmic

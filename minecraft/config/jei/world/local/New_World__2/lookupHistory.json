@@ -1,0 +1,13 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"ice_and_fire_spellbooks:ender_dragon_priest_mask","components":{"irons_spellbooks:spell_container":{"mustEquip":true,"data":[],"maxSpells":2,"spellWheel":true}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"the_beyond:plated_end_stone"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"the_beyond:polar_antenna"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"the_beyond:polar_pillar"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"the_beyond:polar_bulb"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"draconicevolution:draconic_axe","components":{"draconicevolution:module_entities":[],"draconicevolution:config_properties":[["DECIMAL",{"value":1.0,"min":0.0,"max":1.0,"formatter":"percent_1","name":"mining_speed","show_on_hud":true}]],"draconicevolution:provider_identity":[391798443,74860736,-1273333460,-839332067],"draconicevolution:destroy_speed_data":{"multiplier":0.0,"speedSetting":1.0,"aoeSetting":0.0},"draconicevolution:attribute_data":{"damage":14.75,"speed":1.0}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"draconicevolution:wyvern_pickaxe"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"irons_spellbooks:scroll","components":{"irons_spellbooks:spell_container":{"mustEquip":false,"data":[{"id":"firesenderexpansion:dragons_fury","index":0,"level":7,"locked":true}],"maxSpells":1,"spellWheel":false}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"ess_requiem:hope","components":{"irons_spellbooks:spell_container":{"mustEquip":false,"data":[{"id":"ess_requiem:bastion_of_light","index":0,"level":1,"locked":true},{"id":"ess_requiem:overwhelming_light","index":1,"level":1,"locked":true}],"maxSpells":2,"spellWheel":true}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"ess_requiem:inevitability","components":{"irons_spellbooks:spell_container":{"mustEquip":false,"data":[{"id":"ess_requiem:ebony_cataphract","index":0,"level":1,"locked":true},{"id":"ess_requiem:nights_cover","index":1,"level":1,"locked":true},{"id":"ess_requiem:damnation","index":2,"level":1,"locked":true}],"maxSpells":3,"spellWheel":true}}},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

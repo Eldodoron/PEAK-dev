@@ -1,0 +1,13 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"waystones:sandy_waystone"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"waystones:deepslate_waystone"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"waystones:blackstone_waystone"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"irons_spellbooks:cinder_essence"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"waystones:end_stone_waystone"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"waystones:mossy_waystone"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"waystones:waystone"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"unusualend:ancient_podium"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"unusualend:ancient_shard"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"unusualend:warping_waystone"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

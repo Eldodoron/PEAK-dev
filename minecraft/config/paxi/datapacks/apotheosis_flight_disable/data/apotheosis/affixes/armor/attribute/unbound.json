@@ -1,0 +1,12 @@
+{
+  "type": "apotheosis:attribute",
+  "attribute": "neoforge:creative_flight",
+  "categories": [],
+  "definition": {
+    "affix_type": "stat",
+    "exclusive_set": [],
+    "weights": {}
+  },
+  "operation": "add_value",
+  "values": {}
+}

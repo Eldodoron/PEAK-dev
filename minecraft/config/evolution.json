@@ -9,7 +9,7 @@
   },
   "maxTraits": {
     "desc:": "Set maximum amount of traits that can be rolled. default:3",
-    "maxTraits": 3
+    "maxTraits": 6
   },
   "entityBlackList": {
     "desc:": "List of mobs which are not allowed to receive traits, example:  [\"minecraft:zombie\", \"minecraft:creeper\"]",

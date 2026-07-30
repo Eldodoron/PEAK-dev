@@ -883,14 +883,6 @@
     "curseForgeHash": 4039088034,
     "modrinthHash": "ed0ff71df9bfe3b66b97c51a2834031084300a65"
   },
-  "create_waystones_recipes-3.0.1.jar": {
-    "jarName": "create_waystones_recipes-3.0.1.jar",
-    "modId": "create_waystones_recipes",
-    "name": "Create: Waystones Recipes",
-    "version": "3.0.1",
-    "curseForgeHash": 2390022042,
-    "modrinthHash": "185b4c1155d48ef89399a9712f54c06b792a5924"
-  },
   "create_wizardry-1.21.1-0.5.0-beta.jar": {
     "jarName": "create_wizardry-1.21.1-0.5.0-beta.jar",
     "modId": "create_wizardry",
@@ -1210,6 +1202,14 @@
     "version": "0.1.6",
     "curseForgeHash": 2383657255,
     "modrinthHash": "1488c28deb9b5fe947926bf5959379ecd814e0ba"
+  },
+  "EvoLoginTimeout-NeoForge-1.21.1-1.0.9.jar": {
+    "jarName": "EvoLoginTimeout-NeoForge-1.21.1-1.0.9.jar",
+    "modId": "evologintimeout",
+    "name": "EvoLoginTimeout",
+    "version": "1.0.9",
+    "curseForgeHash": 1203415253,
+    "modrinthHash": "7f115fb57a139268bde8d4d4234f433b351e08d1"
   },
   "evolution-1.21.1-1.8.jar": {
     "jarName": "evolution-1.21.1-1.8.jar",
@@ -1587,14 +1587,6 @@
     "curseForgeHash": 2918974304,
     "modrinthHash": "40da6da25ec45c4d88447733255e4281b6f22fef"
   },
-  "insanelib-2.4.16.0.jar": {
-    "jarName": "insanelib-2.4.16.0.jar",
-    "modId": "insanelib",
-    "name": "InsaneLib",
-    "version": "2.4.16.0",
-    "curseForgeHash": 1999710183,
-    "modrinthHash": "fc3b8f969b3a7f5b49b173261a3f7a1e2f22e1d1"
-  },
   "integrated_api-1.7.4+1.21.1-neoforge.jar": {
     "jarName": "integrated_api-1.7.4+1.21.1-neoforge.jar",
     "modId": "integrated_api",
@@ -1674,14 +1666,6 @@
     "version": "4.0.3",
     "curseForgeHash": 604812262,
     "modrinthHash": "0481395c5847e2920d1425e77833bef87df63139"
-  },
-  "isleweaver-0.0.1-InDev.jar": {
-    "jarName": "isleweaver-0.0.1-InDev.jar",
-    "modId": "isleweaver",
-    "name": "The Beyond - Isleweaver Addon",
-    "version": "0.0.1-InDev",
-    "curseForgeHash": 2511279182,
-    "modrinthHash": "4a94b56846315fcae5e926c6a55b436963794830"
   },
   "Item-Obliterator-NeoForge-MC1.21.1-2.3.0.jar": {
     "jarName": "Item-Obliterator-NeoForge-MC1.21.1-2.3.0.jar",
@@ -2104,22 +2088,6 @@
     "curseForgeHash": 2879657841,
     "modrinthHash": "7bea3f874f186a17ad3e271df145c179e81c2a1d"
   },
-  "manascore-neoforge-4.0.0.2.jar": {
-    "jarName": "manascore-neoforge-4.0.0.2.jar",
-    "modId": "manascore",
-    "name": "ManasCore",
-    "version": "4.0.0.2",
-    "curseForgeHash": 3738690059,
-    "modrinthHash": "f11a0062d7829e26a8705183762a5e0f2d022dd3"
-  },
-  "mc2_interactivefoliage-1.1.1-neoforge+1.21.1.jar": {
-    "jarName": "mc2_interactivefoliage-1.1.1-neoforge+1.21.1.jar",
-    "modId": "mc2_interactivefoliage",
-    "name": "MC2 - Interactive Foliage",
-    "version": "1.1.1",
-    "curseForgeHash": 3954730901,
-    "modrinthHash": "cd90a60d0a26ae5ec558aadf2720c67eb992dda2"
-  },
   "Mekanism-1.21.1-10.7.19.85.jar": {
     "jarName": "Mekanism-1.21.1-10.7.19.85.jar",
     "modId": "mekanism",
@@ -2127,6 +2095,14 @@
     "version": "10.7.19",
     "curseForgeHash": 3418132722,
     "modrinthHash": "b78945c40cfe7640408f3fd1e44da385a8c8b805"
+  },
+  "memguard-1.0.4.jar": {
+    "jarName": "memguard-1.0.4.jar",
+    "modId": "memguard",
+    "name": "MemGuard",
+    "version": "1.0.4",
+    "curseForgeHash": 2396027996,
+    "modrinthHash": "b4963223c151fe380bf6ad6ffe8a732d37ec442c"
   },
   "minecolonies-1.1.1300-1.21.1.jar": {
     "jarName": "minecolonies-1.1.1300-1.21.1.jar",
@@ -2328,6 +2304,14 @@
     "curseForgeHash": 3303679729,
     "modrinthHash": "9ee9731afc7dcb5fc2b5366709f6ddc656c6c64f"
   },
+  "Nullscape_1.21.x_v1.2.14.jar": {
+    "jarName": "Nullscape_1.21.x_v1.2.14.jar",
+    "modId": "nullscape",
+    "name": "Nullscape",
+    "version": "1.2.14",
+    "curseForgeHash": 3833846824,
+    "modrinthHash": "ae8e1cbd5de6cf6f450bb44cd69cd284dad690dd"
+  },
   "oceansdelight-neoforge-1.0.4-1.21.1.jar": {
     "jarName": "oceansdelight-neoforge-1.0.4-1.21.1.jar",
     "modId": "oceansdelight",
@@ -2527,14 +2511,6 @@
     "version": "2.8",
     "curseForgeHash": 3320952634,
     "modrinthHash": "1fa3b9caf5be911afb3266524d5c9a9c91a933f7"
-  },
-  "ranged_weapon_api-neoforge-2.3.3+1.21.1.jar": {
-    "jarName": "ranged_weapon_api-neoforge-2.3.3+1.21.1.jar",
-    "modId": "ranged_weapon_api",
-    "name": "RangedWeaponAPI",
-    "version": "2.3.3+1.21.1",
-    "curseForgeHash": 3375018230,
-    "modrinthHash": "1c44e981e0bc99ddd0983577b0f28375bdf9f338"
   },
   "rarcompat-1.21-0.9.7.jar": {
     "jarName": "rarcompat-1.21-0.9.7.jar",
@@ -2888,14 +2864,6 @@
     "curseForgeHash": 951745060,
     "modrinthHash": "a2a0d9bb5170b779863c2743f18c04b0964c9875"
   },
-  "sway-1.1.2-neoforge+1.21.1.jar": {
-    "jarName": "sway-1.1.2-neoforge+1.21.1.jar",
-    "modId": "sway",
-    "name": "SWAY",
-    "version": "1.1.2",
-    "curseForgeHash": 2600536000,
-    "modrinthHash": "0df1051d1616d4a4730511950e016974b46c6486"
-  },
   "takesapillage-neoforge-1.0.10+mc1.21.1.jar": {
     "jarName": "takesapillage-neoforge-1.0.10+mc1.21.1.jar",
     "modId": "takesapillage",
@@ -3032,14 +3000,6 @@
     "curseForgeHash": 806726534,
     "modrinthHash": "17b1bbb96e922e683a1807a2e7bece603fdc491d"
   },
-  "UnionLib-1.21.1-12.2-NeoForge-all.jar": {
-    "jarName": "UnionLib-1.21.1-12.2-NeoForge-all.jar",
-    "modId": "unionlib",
-    "name": "UnionLib",
-    "version": "12.2",
-    "curseForgeHash": 740952795,
-    "modrinthHash": "4ccbea8de2cad02ba9f8faf9eea3af8eec8c6d92"
-  },
   "unusualend-2.3.jar": {
     "jarName": "unusualend-2.3.jar",
     "modId": "unusualend",
@@ -3175,14 +3135,6 @@
     "version": "1.3.0+1.21-neoforge",
     "curseForgeHash": 1166863698,
     "modrinthHash": "4fb6e087325c70031fdb7fe6eb5278c5038511dd"
-  },
-  "wunderlib-21.0.10.jar": {
-    "jarName": "wunderlib-21.0.10.jar",
-    "modId": "wunderlib",
-    "name": "WunderLib",
-    "version": "21.0.10",
-    "curseForgeHash": 1064277113,
-    "modrinthHash": "330ab9d6d8d92a9337e97ef22e64f83fe2d4bf2a"
   },
   "yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar": {
     "jarName": "yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar",

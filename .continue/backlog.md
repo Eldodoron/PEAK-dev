@@ -155,7 +155,7 @@ graph TD
 - [x] ~~remove atlas map mod since ftb map is installed~~ ✅ Done.
 - check this create rail riding mod https://www.curseforge.com/minecraft/mc-mods/create-train-track-rail-grinding?utm_source=mcgamecarousel&utm_medium=ownedmedia&utm_campaign=create-train-track-rail-grinding
 - [ ] **Fix Better Combat compat for Crystal Chronicles:** The `spear` and `evocation_twinblade` don't inherit KubeJS scripts correctly because the mod overrides them internally. Needs a proper physical datapack loaded in the world folder (`world/datapacks`).
-- 
+- [ ] **Considerar Traveler's Compass:** Evaluar su incorporación al modpack, recetas y configuración.
 - [ ] **Mod Addition Suggestion**: Evaluate and potentially add `Sophisticated Backpacks Create Integration`. Allows SB backpacks to be placed on Create contraptions and retain inventory management functionality while moving.
 -
 -
