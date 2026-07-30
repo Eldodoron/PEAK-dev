@@ -1,0 +1,21 @@
+filename = 'mc2_interactivefoliage-1.1.1-neoforge+1.21.1.jar'
+name = 'Interactive Foliage'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'MC2 - Interactive Foliage 1.1.1 Neoforge 1.21.1'
+
+[download]
+hash = 'cd90a60d0a26ae5ec558aadf2720c67eb992dda2'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8242645
+project-id = 1560873
+
+[[x-prismlauncher-dependencies]]
+addonId = '1568089'
+type = 'REQUIRED'

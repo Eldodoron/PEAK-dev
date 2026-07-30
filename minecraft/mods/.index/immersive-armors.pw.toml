@@ -1,0 +1,18 @@
+filename = 'immersive_armors-1.7.6+1.21.1-neoforge.jar'
+name = 'Immersive Armors [Fabric/Forge]'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '[NeoForge 1.21.1] Immersive Armors - 1.7.6'
+
+[download]
+hash = '4c5762af46c0beac0830d1f1e9c88332b120ceaa'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8076920
+project-id = 580681

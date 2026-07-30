@@ -1,0 +1,18 @@
+filename = 'EvoLoginTimeout-NeoForge-1.21.1-1.0.9.jar'
+name = 'EvoLoginTimeout'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'EvoLoginTimeout-NeoForge-1.21.1-1.0.9.jar'
+
+[download]
+hash = '7f115fb57a139268bde8d4d4234f433b351e08d1'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8357855
+project-id = 1595366

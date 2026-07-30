@@ -1,0 +1,21 @@
+filename = 'tectonic-3.0.22-neoforge-21.1.jar'
+name = 'Tectonic'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '3.0.22-neoforge-21.1'
+
+[download]
+hash = 'a02d3f2bfd8aa099512005df23b45ec723694c397b4224a69ffd47b41cd06bb3d56a0f10bbfd81e8159e0fc55f61d0729656f91231410a74ed55e6fc16fd18ec'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/lWDHr9jE/versions/iCGkqnnx/tectonic-3.0.22-neoforge-21.1.jar'
+
+[update.modrinth]
+mod-id = 'lWDHr9jE'
+version = 'iCGkqnnx'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'XaDC71GB'
+type = 'REQUIRED'
