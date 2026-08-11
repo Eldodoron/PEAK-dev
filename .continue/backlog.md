@@ -67,6 +67,10 @@ Dependencies, duplicate removal, and configuration tweaks.
   - **Issue:** Opening DH options on the main menu crashes the client because Tombstone's server config is queried by SimplyTooltips before NeoForge loads it.
   - **Workaround:** Currently disabled via `showDhOptionsButtonInMinecraftUi = false` in `DistantHorizons.toml`.
   - **Action Required:** Correct this properly (e.g., update mods, report conflict, or investigate SimplyTooltips / Tombstone load-safe config adjustments) so the button can be re-enabled.
+- [ ] **Shine & Reese's Sodium Options Update Watch (Sodium 0.8+ Compatibility):**
+  - **Issue:** **Shine** (`shine-2.0.1`) requires Sodium `<= 0.6.13`, and **Reese's Sodium Options** (`2.2.3`) is incompatible with `sodiumoptionsapi` in Sodium 0.8+. Both were disabled to allow Sodium `0.8.13+` (required by Sable/Veil).
+  - **Action Required:** **[SUPER IMPORTANT]** Actively monitor for future updates to **Shine** on NeoForge 1.21.1 that support Sodium 0.8+, and re-enable Shine as soon as a compatible version is released.
+
 
 ---
 
@@ -80,6 +84,9 @@ Fixes to assets, tooltips, and rendering.
 - [ ] **Ring of Spellblade Affinity Texture Fix:**
   - **Issue:** The Ring of Spellblade Affinity from *Iron's Spells 'n Spellbooks* is missing its item texture.
   - **Action:** Restore or map a valid texture asset for this item.
+- [ ] **Missing Textures (Cherry Biome & DH LODs):**
+  - **Issue:** Textures are failing to render properly. Specifically, ground flowers in the cherry biome and the top texture of leaf blocks on some trees in Distant Horizons LODs (appearing as pink and black squares).
+  - **Action:** Investigate the root cause (asset mismatch or mod conflict) and fix in a later pass.
 - [ ] **Adjust Obscure Tooltips 3D Preview Restriction:**
   - **Current Behavior:** 3D tooltips preview everything.
   - **Desired Behavior:** Limit the 3D preview tooltips to only work on specific, premium armor sets (e.g., Fantasy Armor, Immersive Armor, Dragonsteel from Ice and Fire, etc.).

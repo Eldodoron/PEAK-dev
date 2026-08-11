@@ -1,24 +1,20 @@
-filename = 'particular-1.21.1-NeoForge-1.5.3.jar'
+filename = 'particular-1.21.1-NeoForge-1.5.5.jar'
 name = 'Particular Reforged'
 side = ''
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
-x-prismlauncher-release-type = 'beta'
-x-prismlauncher-version-number = '1.5.3'
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.5.5'
 
 [download]
-hash = '112297f5e2aa6bb23e9ea72efc138cdb0f4d4912cbf2305898ad2744924db43a094a3a38edb6a0ddf29f3aa71585fb842ad4304ab0dd7caf59868d298f42afc2'
+hash = '60e0a740675cef0b3b18289b62e2fb33662acdc05e5451e977082f4588639fd2d81de33cb619ba88ff0353fd5c16c37403ef7ce233b1d1ce3a5ce6920423597e'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/pYFUU6cq/versions/16w8FTgT/particular-1.21.1-NeoForge-1.5.3.jar'
+url = 'https://cdn.modrinth.com/data/pYFUU6cq/versions/gxO1XUMR/particular-1.21.1-NeoForge-1.5.5.jar'
 
 [update.modrinth]
 mod-id = 'pYFUU6cq'
-version = '16w8FTgT'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'YL57xq9U'
-type = 'OPTIONAL'
+version = 'gxO1XUMR'
 
 [[x-prismlauncher-dependencies]]
 addonId = 'T9PomCSv'
@@ -26,6 +22,14 @@ type = 'OPTIONAL'
 
 [[x-prismlauncher-dependencies]]
 addonId = 'oWaK0Q19'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'JaCEZUhg'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'YL57xq9U'
 type = 'OPTIONAL'
 
 [[x-prismlauncher-dependencies]]

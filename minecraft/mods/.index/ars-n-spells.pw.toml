@@ -1,0 +1,41 @@
+filename = 'ars_n_spells-2.6.1.jar'
+name = "Ars 'n Spells"
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = "Ars 'n Spells 2.6.1 (Neoforge 1.21.1)"
+
+[download]
+hash = '1d297db5464dacd15511bae4f9ba82acc4f5abd2'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8275908
+project-id = 1447914
+
+[[x-prismlauncher-dependencies]]
+addonId = '1368461'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '224791'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '313970'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '401955'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '855414'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '306626'
+type = 'OPTIONAL'

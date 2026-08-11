@@ -1,24 +1,20 @@
-filename = 'better-clouds-1.13.5-beta+1.21.1-neoforge.rev.a60dfa0.jar'
+filename = 'better-clouds-1.13.6+1.21.1-neoforge.jar'
 name = 'Better Clouds'
 side = ''
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
-x-prismlauncher-release-type = 'beta'
-x-prismlauncher-version-number = '1.13.5+1.21.1-neoforge-beta'
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.13.6+1.21.1-neoforge-release'
 
 [download]
-hash = '28431a57db449054e302745494c32352c0e250a0cd7b0513956c875284bbe67039cc230d56c3ff82d02f454711d8cecd2fea06c5c481807c19237ae0b13a64c6'
+hash = 'c81cb2520940ca91161b4b73fcb44c81ef30a33030b0a04d26eaa291763bcc02b8cfed88c20132a9e266f58896d1bfc8248c93ba13874690029a66c855b4608d'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/5srFLIaK/versions/bfurRkm7/better-clouds-1.13.5-beta%2B1.21.1-neoforge.rev.a60dfa0.jar'
+url = 'https://cdn.modrinth.com/data/5srFLIaK/versions/XK8POrWQ/better-clouds-1.13.6%2B1.21.1-neoforge.jar'
 
 [update.modrinth]
 mod-id = '5srFLIaK'
-version = 'bfurRkm7'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'AANobbMI'
-type = 'OPTIONAL'
+version = 'XK8POrWQ'
 
 [[x-prismlauncher-dependencies]]
 addonId = '1eAoo2KR'
@@ -26,4 +22,8 @@ type = 'REQUIRED'
 
 [[x-prismlauncher-dependencies]]
 addonId = 'YL57xq9U'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'AANobbMI'
 type = 'OPTIONAL'

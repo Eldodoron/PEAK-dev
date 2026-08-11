@@ -1,0 +1,10 @@
+{
+  "values": [
+    "create_new_age:magnetite_block",
+    "create_new_age:redstone_magnet",
+    "create_new_age:layered_magnet",
+    "create_new_age:fluxuated_magnetite",
+    "create_new_age:netherite_magnet",
+    "minecraft:respawn_anchor"
+  ]
+}

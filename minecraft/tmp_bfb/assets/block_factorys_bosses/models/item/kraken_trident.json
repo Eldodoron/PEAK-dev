@@ -1,0 +1,15 @@
+{
+  "loader": "neoforge:separate_transforms",
+  "gui_light": "front",
+  "base": {
+    "parent": "block_factorys_bosses:item/kraken_trident_model"
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "block_factorys_bosses:item/kraken_trident_item"
+    },
+    "ground": {
+      "parent": "block_factorys_bosses:item/kraken_trident_item"
+    }
+  }
+}

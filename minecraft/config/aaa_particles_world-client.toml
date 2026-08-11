@@ -1,9 +1,21 @@
 #Whether to replace lightining renderer with Effekseer effect
 enable_lightning = true
-#Whether to replace explosion particles with Effekseer effect
-enable_explosion = false
 #Whether to play a beam on item entities
 enable_loot_beam = true
 #Whether to play a sound when a loot with beam effek drops on ground,
 #Requires "enable_loot_beam" enabled
 enable_loot_sound = true
+#Whether to replace critical particles with Effekseer effect
+enable_crit = false
+#Whether to replace magical crit particles with Effekseer effect
+enable_magical_crit = true
+#Whether to replace small explosion particles with Effekseer effect
+enable_small_explosion = false
+#Whether to replace big explosion particles with Effekseer effect.
+#If false, big explosion will be a composite of multiple small explosions.
+#To let vanilla explode partile show, you should turn off `enable_small_explosion` too.
+enable_big_explosion = false
+#Whether to add a trail effek for (red) fireballs
+enable_fireball_trail = false
+#Whether to add visual-only fireflies in swamp biomes at night
+enable_fireflies = true

@@ -1,0 +1,161 @@
+{
+  "recipe.assembly.energising": "Зарадка энергіяй",
+  "create.tooltip.create_new_age.energy_stored": "Захавана энергіі: ",
+  "create.tooltip.create_new_age.energy_stats": "Энергетычная статыстыка: ",
+  "create.tooltip.create_new_age.energy_usage": "Выкарыстанне энергіі: ",
+  "create.tooltip.create_new_age.energy_output": "Выхад энергіі: ",
+  "create.tooltip.create_new_age.energy": "%s ⚡",
+  "create.tooltip.create_new_age.max_speed": "Максімальная хуткасць: ",
+  "create.tooltip.create_new_age.temperature": "%s ˚T",
+  "create.tooltip.create_new_age.rpm": "%s аб/хв",
+  "create.tooltip.create_new_age.temperature.ps": "%s ˚T/с",
+  "create.tooltip.create_new_age.pump": "Пампаванне: ",
+  "create.tooltip.create_new_age.energy_per_tick": "%s ⚡/с",
+  "create.tooltip.create_new_age.per_rpm": "за %s аб/хв",
+  "create.tooltip.create_new_age.energy_storage": "%s ⚡ / %s ⚡",
+  "create.tooltip.create_new_age.releasing": "Награванне: ",
+  "create.tooltip.create_new_age.generating": "Генерацыя: ",
+  "create.tooltip.create_new_age.using": "Выкарыстанне: ",
+  "create.tooltip.create_new_age.extracting": "Атрыманне: ",
+  "create.tooltip.create_new_age.generates":  "Выпрацоўвае: ",
+  "create.tooltip.create_new_age.stores":  "Захоўвае: ",
+  "create.tooltip.create_new_age.speed":  "Хуткасць: ",
+  "create.tooltip.create_new_age.efficiency":  "Эфектыўнасць: ",
+  "create.tooltip.create_new_age.transfers": "Электраправоднасць: ",
+  "create.tooltip.create_new_age.percent":  "%s%%",
+  "create.tooltip.create_new_age.magnetic_force":  "Магнітная сіла: ",
+
+
+  "tab.create_new_age.tab": "Create: New Age",
+  "block.create_new_age.basic_energiser": "Базавы энэрджайзер",
+  "block.create_new_age.advanced_energiser": "Прасунуты энэрджайзер",
+  "block.create_new_age.reinforced_energiser": "Узмоцнены энэрджайзер",
+  "block.create_new_age.carbon_brushes": "Вугальныя шчоткі",
+  "block.create_new_age.heat_pipe": "Цеплавая труба",
+  "block.create_new_age.heat_pump": "Цеплавая помпа",
+  "block.create_new_age.heater": "Награвальнік",
+  "block.create_new_age.generator_coil": "Шпулька генератара",
+  "block.create_new_age.stirling_engine": "Рухавік Стырлінга",
+  "block.create_new_age.magnetite_block": "Магнетыт",
+  "block.create_new_age.fluxuated_magnetite": "Прасунуты магнетыт",
+  "block.create_new_age.netherite_magnet": "Нэдарытавы магніт",
+  "block.create_new_age.layered_magnet": "Шматслаёвы магніт",
+  "block.create_new_age.redstone_magnet": "Рэдстоўнавы магніт",
+  "block.create_new_age.solid_corium": "Цвёрды корыум",
+  "block.create_new_age.corium": "Корыум",
+  "block.create_new_age.reactor_casing": "Кажух рэактара",
+  "block.create_new_age.reactor_rod": "Стрыжань рэактара",
+  "block.create_new_age.reactor_glass": "Шкло рэактара",
+  "block.create_new_age.reactor_fuel_acceptor": "Дастаўшчык ядзернага паліва",
+  "block.create_new_age.reactor_heat_vent": "Цеплаадвод рэактара",
+  "block.create_new_age.basic_solar_heating_plate": "Базавая сонечная панэль",
+  "block.create_new_age.advanced_solar_heating_plate": "Прасунутая сонечная панэль",
+  "block.create_new_age.electrical_connector": "Электрычны ўвод",
+  "block.create_new_age.basic_motor": "Базавы матор",
+  "block.create_new_age.advanced_motor": "Прасунуты матор",
+  "block.create_new_age.reinforced_motor": "Узмоцнены матор",
+  "block.create_new_age.thorium_ore": "Торыевая руда",
+  "item.create_new_age.nuclear_fuel": "Ядзернае паліва",
+  "item.create_new_age.incomplete_fuel": "Незавершанае ядзернае паліва",
+  "item.create_new_age.incomplete_reactor_casing": "Незавершаны кажух рэактара",
+  "item.create_new_age.incomplete_wire": "Незавершаны провад",
+  "item.create_new_age.thorium": "Торый",
+  "item.create_new_age.radioactive_thorium": "Радыёактыўны торый",
+  "item.create_new_age.overcharged_iron": "Зараджанае жалеза",
+  "item.create_new_age.overcharged_gold": "Зараджанае золата",
+  "item.create_new_age.overcharged_diamond": "Зараджаны дыямент",
+  "item.create_new_age.overcharged_iron_sheet": "Ліст з зараджанага жалеза",
+  "item.create_new_age.overcharged_golden_sheet": "Ліст з зараджанага золата",
+  "item.create_new_age.copper_wire": "Медны провад",
+  "item.create_new_age.overcharged_iron_wire": "Провад з зараджанага жалеза",
+  "item.create_new_age.overcharged_golden_wire": "Провад з зараджанага золата",
+  "item.create_new_age.overcharged_diamond_wire": "Провад з зараджанага дыямента",
+
+  "item.create_new_age.wire.message.self_connect": "Вы не можаце падключыць электрычны ўвод да самога сябе",
+  "item.create_new_age.wire.message.too_far": "Занадта далёка! Максімальная даўжыня провада - %d блокаў",
+  "item.create_new_age.wire.message.already_connected": "Гэтыя ўводы ўжо падключаны",
+  "item.create_new_age.wire.message.unbound": "Увод адвязаны",
+  "item.create_new_age.wire.message.connected": "Увод падключаны",
+  "emi.category.create_new_age.energising": "Зарадка энергіяй",
+
+  "create_new_age.ponder.heating.header": "Цеплавыя сістэмы",
+
+  "create_new_age.ponder.heating.text_1": "Вы можаце выкарыстоўваць сонечныя панелі для атрымання цяпла падчас дня",
+  "create_new_age.ponder.heating.text_2": "Для распаўсюджвання цяпла можна выкарыстоўваць цеплавыя трубы",
+
+  "create_new_age.ponder.heating.text_3": "240 ˚T",
+  "create_new_age.ponder.heating.text_4": "0 ˚T",
+  "create_new_age.ponder.heating.text_5": "0 ˚T",
+
+  "create_new_age.ponder.heating.text_6": "120 ˚T",
+  "create_new_age.ponder.heating.text_7": "120 ˚T",
+  "create_new_age.ponder.heating.text_8": "0 ˚T",
+
+  "create_new_age.ponder.heating.text_9": "80 ˚T",
+  "create_new_age.ponder.heating.text_10": "80 ˚T",
+  "create_new_age.ponder.heating.text_11": "80 ˚T",
+
+  "create_new_age.ponder.heating.text_12": "Пры падачы цяпла знізу рухавік Стырлінга пачне павольна круціцца",
+  "create_new_age.ponder.heating.text_13": "Калі рухавік Стырлінга нагрэць больш, ён будзе круціцца крыху хутчэй",
+
+  "create_new_age.ponder.heating.text_14": "Вы можаце выкарыстоўваць цеплавую помпу, каб пампаваць цяпло наперад",
+  "create_new_age.ponder.heating.text_15": "Аднак будзьце асцярожныя: калі блок перагрэецца, ён ператворыцца ў лаву",
+
+  "create_new_age.ponder.heater.header": "Награвальнік",
+  "create_new_age.ponder.heater.text_1": "Награвальнік дзейнічае гэтак жа, як і гарэлка для полымняў, але ён выкарыстоўвае цяпло замест гаручага паліва",
+  "create_new_age.ponder.heater.text_2": "Чым больш цяпла вы яму дадзіце - тым больш цяпла ён вылучыць",
+
+
+  "create_new_age.ponder.reactor.header": "Ядзерная энергія",
+  "create_new_age.ponder.reactor.text_1": "Ядзерны рэактар - выдатны спосаб выпрацоўкі вялікай колькасці цяпла",
+  "create_new_age.ponder.reactor.text_2": "Першым кампанентам ядзернага рэактара з'яўляюцца стрыжні, якія дазваляюць ажыццявіць рэакцыю",
+  "create_new_age.ponder.reactor.text_3": "Другі кампанент - гэта дастаўшчык ядзернага паліва, які дастаўляе паліва ў рэактар",
+  "create_new_age.ponder.reactor.text_4": "Апошнім кампанентам з'яўляецца цеплаадвод, які будзе забіраць цяпло ад рэактара і размяркоўваць яго па падлучаных трубах",
+
+  "create_new_age.ponder.reactor.text_5": "Аднак пры выкарыстанні ядзернага рэактара трэба быць асцярожным, бо ядзерны рэактар выпраменьвае смяротную радыяцыю",
+
+  "create_new_age.ponder.reactor.text_6": "Можна пазбегнуць радыяцыі, надзеўшы скураную браню або зачыніўшы рэактар корпусам або шклом рэактара",
+
+  "create_new_age.ponder.reactor.text_7": "Акрамя таго, вы павінны адвадзіць цяпло ад рэактара, інакш ён расплавіцца",
+
+  "create_new_age.ponder.energiser.header": "Энэрджайзер",
+
+  "create_new_age.ponder.energiser.text_1": "Пры наяўнасці электрычнасці і кручэння энэрджайзер будзе зараджаць прадметы на дэпо і канвеерах пад ім",
+
+  "create_new_age.ponder.wires.header": "Праводка",
+
+
+  "create_new_age.ponder.generation.header": "Генерацыя электрычнасці",
+
+  "create_new_age.ponder.generation.text_1": "Шпулькі генератара выпрацоўваюць электрычнасць, круцячыся ў атачэнні магнітаў",
+  "create_new_age.ponder.generation.text_2": "Электрычнасць, якую выпрацоўваюць шпулькі, можна сабраць з дапамогай вугальных шчотак",
+  "create_new_age.ponder.generation.text_3": "Па меры павелічэння сілы магнітаў вакол шпулек генератара павялічваецца адсотак адзінак кручэння, якія ператвараюцца ў электрычнасць",
+  "create_new_age.ponder.generation.text_4": "Эфектыўнасць: 33.3%%",
+  "create_new_age.ponder.generation.text_5": "Эфектыўнасць: 50.0%%",
+  "create_new_age.ponder.generation.text_6": "Аднак разам з эфектыўнасцю павялічваецца колькасць адзінак кручэння, якія выкарыстоўваюцца шпулькамі генератара",
+
+  "create_new_age.ponder.motor.header": "Маторы!",
+  "create_new_age.ponder.motor.text_1": "Маторы дазваляюць ствараць кручэнне з дапамогай электрычнасці",
+  "create_new_age.ponder.motor.text_2": "Вы можаце наладзіць хуткасць матора з дапамогай гаечнага ключа, аднак колькасць адзінак кручэння, якую ён выдае, застанецца ранейшай",
+  "create_new_age.ponder.motor.text_3": "Вы можаце адключыць яго, падаўшы рэдстоўнавы сігнал",
+  "create_new_age.ponder.motor.text_4": "Вы таксама можаце інвертаваць гэта, націснуўшы на матор правай кнопкай мышы",
+
+
+  "create_new_age.ponder.tag.electrical": "Электрычныя кампаненты",
+  "create_new_age.ponder.tag.electrical.description": "Блокі, якія адказваюць за выпрацоўку, транспартыроўку і выкарыстанне электраэнергіі",
+
+  "create_new_age.ponder.tag.wiring": "Праводка",
+  "create_new_age.ponder.tag.wiring.description": "Прадметы, якія выкарыстоўваюцца для праводкі",
+
+  "create_new_age.ponder.tag.magnets": "Магніты",
+  "create_new_age.ponder.tag.magnets.description": "Магніты, якія выкарыстоўваюцца для выпрацоўкі электрычнасці",
+
+  "create_new_age.ponder.tag.electricity_generation": "Генерацыя электрычнасці",
+  "create_new_age.ponder.tag.electricity_generation.description": "Блокі, якія выкарыстоўваюцца для выпрацоўкі электрычнасці",
+
+  "create_new_age.ponder.tag.heating": "Цеплавые кампаненты",
+  "create_new_age.ponder.tag.heating.description": "Блокі, якія выкарыстоўваюцца для выпрацоўкі, транспартыроўкі і выкарыстання цяпла",
+
+  "create_new_age.ponder.tag.reactor": "Ядзерны рэактар",
+  "create_new_age.ponder.tag.reactor.description": "Блокі, якія выкарыстоўваюцца ў ядзерным рэактары"
+}

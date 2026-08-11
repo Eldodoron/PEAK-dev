@@ -1,0 +1,45 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create_new_age:overcharged_diamond"
+  },
+  "loops": 3,
+  "results": [
+    {
+      "count": 2,
+      "id": "create_new_age:overcharged_diamond_wire"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:cutting",
+      "ingredients": [
+        {
+          "item": "create_new_age:incomplete_wire"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_new_age:incomplete_wire"
+        }
+      ]
+    },
+    {
+      "type": "create_new_age:energising",
+      "energy_needed": 100,
+      "ingredients": [
+        {
+          "item": "create_new_age:incomplete_wire"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_new_age:incomplete_wire"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "create_new_age:incomplete_wire"
+  }
+}

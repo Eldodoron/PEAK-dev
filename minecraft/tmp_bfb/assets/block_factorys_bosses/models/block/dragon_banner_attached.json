@@ -1,0 +1,9 @@
+{
+  "parent": "block_factorys_bosses:custom/bannertopwall",
+  "textures": {
+    "all": "block_factorys_bosses:block/dragon_banner",
+    "particle": "minecraft:block/barrel_bottom",
+    "1": "block_factorys_bosses:block/dragon_banner"
+  },
+  "render_type": "cutout_mipped"
+}

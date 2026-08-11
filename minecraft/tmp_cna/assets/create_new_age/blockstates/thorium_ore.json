@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "create_new_age:block/thorium_ore"
+    }
+  }
+}

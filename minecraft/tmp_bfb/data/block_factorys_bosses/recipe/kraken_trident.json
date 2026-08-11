@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "/": {
+      "tag": "c:rods/wooden"
+    },
+    "a": {
+      "item": "block_factorys_bosses:kraken_tooth"
+    }
+  },
+  "pattern": [
+    " aa",
+    " /a",
+    "/  "
+  ],
+  "result": {
+    "components": {
+      "minecraft:enchantments": {
+        "levels": {
+          "minecraft:loyalty": 1
+        }
+      }
+    },
+    "count": 1,
+    "id": "block_factorys_bosses:kraken_trident"
+  }
+}

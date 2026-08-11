@@ -1,0 +1,898 @@
+{
+  "block.underworld_arena_door.close": {
+    "sounds": [
+      "block_factorys_bosses:underworld_arena_door/close"
+    ],
+    "subtitle": "subtitles.block_factorys_bosses.block.underworld_arena_door.close"
+  },
+  "block.underworld_arena_door.key_insertion": {
+    "sounds": [
+      "block_factorys_bosses:underworld_arena_door/key_insertion"
+    ],
+    "subtitle": "subtitles.block_factorys_bosses.block.underworld_arena_door.key_insertion"
+  },
+  "block.underworld_arena_door.open": {
+    "sounds": [
+      "block_factorys_bosses:underworld_arena_door/open"
+    ],
+    "subtitle": "subtitles.block_factorys_bosses.block.underworld_arena_door.open"
+  },
+  "entity.barrage_rift.closing": {
+    "sounds": [
+      "block_factorys_bosses:barrage_rift/closing"
+    ],
+    "subtitle": "subtitles.block_factorys_bosses.entity.barrage_rift.closing"
+  },
+  "entity.barrage_rift.jump": {
+    "sounds": [
+      "block_factorys_bosses:barrage_rift/jump"
+    ],
+    "subtitle": "subtitles.block_factorys_bosses.entity.barrage_rift.jump"
+  },
+  "entity.barrage_rift.rift_fireball": {
+    "sounds": [
+      "block_factorys_bosses:barrage_rift/rift_fireball"
+    ],
+    "subtitle": "subtitles.block_factorys_bosses.entity.barrage_rift.rift_fireball"
+  },
+  "entity.barrage_rift.rift_idle": {
+    "sounds": [
+      "block_factorys_bosses:barrage_rift/rift_idle"
+    ],
+    "subtitle": "subtitles.block_factorys_bosses.entity.barrage_rift.rift_idle"
+  },
+  "entity.barrage_rift.rift_open": {
+    "sounds": [
+      "block_factorys_bosses:barrage_rift/rift_open"
+    ],
+    "subtitle": "subtitles.block_factorys_bosses.entity.barrage_rift.rift_open"
+  },
+  "entity.barrage_rift.slash_air": {
+    "sounds": [
+      "block_factorys_bosses:barrage_rift/slash_air"
+    ],
+    "subtitle": "subtitles.block_factorys_bosses.entity.barrage_rift.slash_air"
+  },
+  "entity.cannon.fire": {
+    "sounds": [
+      "block_factorys_bosses:cannon/fire"
+    ],
+    "subtitle": "subtitles.block_factorys_bosses.entity.cannon.fire"
+  },
+  "entity.cannon.get_out": {
+    "sounds": [
+      "block_factorys_bosses:cannon/get_out"
+    ],
+    "subtitle": "subtitles.block_factorys_bosses.entity.cannon.get_out"
+  },
+  "entity.cannon.impact": {
+    "sounds": [
+      "block_factorys_bosses:cannon/impact"
+    ],
+    "subtitle": "subtitles.block_factorys_bosses.entity.cannon.impact"
+  },
+  "entity.cannon.reload": {
+    "sounds": [
+      "block_factorys_bosses:cannon/reload"
+    ],
+    "subtitle": "subtitles.block_factorys_bosses.entity.cannon.reload"
+  },
+  "entity.cannon.seat": {
+    "sounds": [
+      "block_factorys_bosses:cannon/seat"
+    ],
+    "subtitle": "subtitles.block_factorys_bosses.entity.cannon.seat"
+  },
+  "entity.crate.land": {
+    "sounds": [
+      "block_factorys_bosses:crate/land_1",
+      "block_factorys_bosses:crate/land_2"
+    ],
+    "subtitle": "subtitles.block_factorys_bosses.entity.crate.land"
+  },
+  "entity.dragon.bite": {
+    "sounds": [
+      "block_factorys_bosses:dragon/bite_1",
+      "block_factorys_bosses:dragon/bite_2",
+      "block_factorys_bosses:dragon/bite_3",
+      "block_factorys_bosses:dragon/bite_4"
+    ],
+    "subtitle": "subtitles.block_factorys_bosses.entity.dragon.bite"
+  },
+  "entity.dragon.claw": {
+    "sounds": [
+      "block_factorys_bosses:dragon/claw_1",
+      "block_factorys_bosses:dragon/claw_2",
+      "block_factorys_bosses:dragon/claw_3",
+      "block_factorys_bosses:dragon/claw_4"
+    ],
+    "subtitle": "subtitles.block_factorys_bosses.entity.dragon.claw"
+  },
+  "entity.dragon.death": {
+    "sounds": [
+      "block_factorys_bosses:dragon/death"
+    ],
+    "subtitle": "subtitles.block_factorys_bosses.entity.dragon.death"
+  },
+  "entity.dragon.fire_smelted_item": {
+    "sounds": [
+      {
+        "type": "event",
+        "name": "block.fire.extinguish"
+      }
+    ],
+    "subtitle": "subtitles.block_factorys_bosses.entity.dragon.fire_smelted_item"
+  },
+  "entity.dragon.fireballs": {
+    "sounds": [
+      "block_factorys_bosses:dragon/fireballs"
+    ],
+    "subtitle": "subtitles.block_factorys_bosses.entity.dragon.fireballs"
+  },
+  "entity.dragon.firelayer": {
+    "sounds": [
+      "block_factorys_bosses:dragon/firelayer_1",
+      "block_factorys_bosses:dragon/firelayer_2",
+      "block_factorys_bosses:dragon/firelayer_3"
+    ],
+    "subtitle": "subtitles.block_factorys_bosses.entity.dragon.firelayer"
+  },
+  "entity.dragon.footstep": {
+    "sounds": [
+      "block_factorys_bosses:dragon/footstep_1",
+      "block_factorys_bosses:dragon/footstep_2",
+      "block_factorys_bosses:dragon/footstep_3",
+      "block_factorys_bosses:dragon/footstep_4",
+      "block_factorys_bosses:dragon/footstep_5",
+      "block_factorys_bosses:dragon/footstep_6",
+      "block_factorys_bosses:dragon/footstep_7",
+      "block_factorys_bosses:dragon/footstep_8"
+    ],
+    "subtitle": "subtitles.block.generic.footsteps"
+  },
+  "entity.dragon.hit": {
+    "sounds": [
+      "block_factorys_bosses:dragon/hit_1",
+      "block_factorys_bosses:dragon/hit_2"
+    ],
+    "subtitle": "subtitles.block_factorys_bosses.entity.dragon.hit"
+  },
+  "entity.dragon.phase_transition": {
+    "sounds": [
+      "block_factorys_bosses:dragon/phase_transition"
+    ],
+    "subtitle": "subtitles.block_factorys_bosses.entity.dragon.phase_transition"
+  },
+  "entity.dragon.roar": {
+    "sounds": [
+      "block_factorys_bosses:dragon/roar"
+    ],
+    "subtitle": "subtitles.block_factorys_bosses.entity.dragon.roar"
+  },
+  "entity.dragon.spawn": {
+    "sounds": [
+      "block_factorys_bosses:dragon/spawn"
+    ],
+    "subtitle": "subtitles.block_factorys_bosses.entity.dragon.spawn"
+  },
+  "entity.dragon.tailswipe": {
+    "sounds": [
+      "block_factorys_bosses:dragon/tailswipe_1",
+      "block_factorys_bosses:dragon/tailswipe_2",
+      "block_factorys_bosses:dragon/tailswipe_3",
+      "block_factorys_bosses:dragon/tailswipe_4"
+    ],
+    "subtitle": "subtitles.block_factorys_bosses.entity.dragon.tailswipe"
+  },
+  "entity.dragon.wing": {
+    "sounds": [
+      "block_factorys_bosses:dragon/wing_1",
+      "block_factorys_bosses:dragon/wing_2",
+      "block_factorys_bosses:dragon/wing_3",
+      "block_factorys_bosses:dragon/wing_4",
+      "block_factorys_bosses:dragon/wing_5",
+      "block_factorys_bosses:dragon/wing_6",
+      "block_factorys_bosses:dragon/wing_7",
+      "block_factorys_bosses:dragon/wing_8"
+    ],
+    "subtitle": "subtitles.block_factorys_bosses.entity.dragon.wing"
+  },
+  "entity.ice_gauntlet.icicle_break": {
+    "sounds": [
+      {
+        "type": "event",
+        "name": "block.glass.break"
+      }
+    ],
+    "subtitle": "subtitles.block_factorys_bosses.entity.ice_gauntlet.icicle_break"
+  },
+  "entity.ice_gauntlet.icicle_hurt": {
+    "sounds": [
+      {
+        "type": "event",
+        "name": "block.bone_block.break"
+      }
+    ],
+    "subtitle": "subtitles.block_factorys_bosses.entity.ice_gauntlet.icicle_hurt"
+  },
+  "entity.ice_gauntlet.icicle_spawning": {
+    "sounds": [
+      "block_factorys_bosses:ice_gauntlet/icicle_spawning"
+    ],
+    "subtitle": "subtitles.block_factorys_bosses.entity.ice_gauntlet.icicle_spawning"
+  },
+  "entity.knight.attack_voiceline": {
+    "sounds": [
+      "block_factorys_bosses:knight/attack_voiceline"
+    ],
+    "subtitle": "subtitles.block_factorys_bosses.entity.knight.attack_voiceline"
+  },
+  "entity.knight.block": {
+    "sounds": [
+      {
+        "type": "event",
+        "name": "entity.zombie.attack_iron_door"
+      }
+    ],
+    "subtitle": "subtitles.block_factorys_bosses.entity.knight.block"
+  },
+  "entity.knight.combo1": {
+    "sounds": [
+      "block_factorys_bosses:knight/combo1_1",
+      "block_factorys_bosses:knight/combo1_2",
+      "block_factorys_bosses:knight/combo1_3",
+      "block_factorys_bosses:knight/combo1_4"
+    ],
+    "subtitle": "subtitles.block_factorys_bosses.entity.knight.combo1"
+  },
+  "entity.knight.combo2": {
+    "sounds": [
+      "block_factorys_bosses:knight/combo2_1",
+      "block_factorys_bosses:knight/combo2_2",
+      "block_factorys_bosses:knight/combo2_3",
+      "block_factorys_bosses:knight/combo2_4"
+    ],
+    "subtitle": "subtitles.block_factorys_bosses.entity.knight.combo2"
+  },
+  "entity.knight.death": {
+    "sounds": [
+      "block_factorys_bosses:knight/death"
+    ],
+    "subtitle": "subtitles.block_factorys_bosses.entity.knight.death"
+  },
+  "entity.knight.dodge": {
+    "sounds": [
+      "block_factorys_bosses:knight/dodge_1",
+      "block_factorys_bosses:knight/dodge_2",
+      "block_factorys_bosses:knight/dodge_3",
+      "block_factorys_bosses:knight/dodge_4"
+    ],
+    "subtitle": "subtitles.block_factorys_bosses.entity.knight.dodge"
+  },
+  "entity.knight.fake_death": {
+    "sounds": [
+      "block_factorys_bosses:knight/fake_death"
+    ],
+    "subtitle": "subtitles.block_factorys_bosses.entity.knight.fake_death"
+  },
+  "entity.knight.footstep": {
+    "sounds": [
+      "block_factorys_bosses:knight/footstep_1",
+      "block_factorys_bosses:knight/footstep_2",
+      "block_factorys_bosses:knight/footstep_3",
+      "block_factorys_bosses:knight/footstep_4",
+      "block_factorys_bosses:knight/footstep_5",
+      "block_factorys_bosses:knight/footstep_6",
+      "block_factorys_bosses:knight/footstep_7",
+      "block_factorys_bosses:knight/footstep_8"
+    ],
+    "subtitle": "subtitles.block.generic.footsteps"
+  },
+  "entity.knight.heavy_attack": {
+    "sounds": [
+      "block_factorys_bosses:knight/heavy_attack"
+    ],
+    "subtitle": "subtitles.block_factorys_bosses.entity.knight.heavy_attack"
+  },
+  "entity.knight.horizontal_slash": {
+    "sounds": [
+      "block_factorys_bosses:knight/horizontal_slash"
+    ],
+    "subtitle": "subtitles.block_factorys_bosses.entity.knight.horizontal_slash"
+  },
+  "entity.knight.horizontal_slash_transition": {
+    "sounds": [
+      "block_factorys_bosses:knight/horizontal_slash_transition"
+    ],
+    "subtitle": "subtitles.block_factorys_bosses.entity.knight.horizontal_slash_transition"
+  },
+  "entity.knight.hurt": {
+    "sounds": [
+      "block_factorys_bosses:knight/hurt_1",
+      "block_factorys_bosses:knight/hurt_2",
+      "block_factorys_bosses:knight/hurt_3"
+    ],
+    "subtitle": "subtitles.block_factorys_bosses.entity.knight.hurt"
+  },
+  "entity.knight.intro": {
+    "sounds": [
+      "block_factorys_bosses:knight/intro"
+    ],
+    "subtitle": "subtitles.block_factorys_bosses.entity.knight.intro"
+  },
+  "entity.knight.introduction_attack": {
+    "sounds": [
+      "block_factorys_bosses:knight/introduction_attack"
+    ],
+    "subtitle": "subtitles.block_factorys_bosses.entity.knight.introduction_attack"
+  },
+  "entity.knight.jumpspin_1": {
+    "sounds": [
+      "block_factorys_bosses:knight/jumpspin_1"
+    ],
+    "subtitle": "subtitles.block_factorys_bosses.entity.knight.jumpspin_1"
+  },
+  "entity.knight.jumpspin_2": {
+    "sounds": [
+      "block_factorys_bosses:knight/jumpspin_2"
+    ],
+    "subtitle": "subtitles.block_factorys_bosses.entity.knight.jumpspin_2"
+  },
+  "entity.knight.jumpspin_3": {
+    "sounds": [
+      "block_factorys_bosses:knight/jumpspin_3_1",
+      "block_factorys_bosses:knight/jumpspin_3_2",
+      "block_factorys_bosses:knight/jumpspin_3_3",
+      "block_factorys_bosses:knight/jumpspin_3_4"
+    ],
+    "subtitle": "subtitles.block_factorys_bosses.entity.knight.jumpspin_3"
+  },
+  "entity.knight.knock_off": {
+    "sounds": [
+      "block_factorys_bosses:knight/knock_off"
+    ],
+    "subtitle": "subtitles.block_factorys_bosses.entity.knight.knock_off"
+  },
+  "entity.knight.knocked_down": {
+    "sounds": [
+      "block_factorys_bosses:knight/knocked_down"
+    ],
+    "subtitle": "subtitles.block_factorys_bosses.entity.knight.knocked_down"
+  },
+  "entity.knight.light_attack_1": {
+    "sounds": [
+      "block_factorys_bosses:knight/light_attack_1"
+    ],
+    "subtitle": "subtitles.block_factorys_bosses.entity.knight.light_attack_1"
+  },
+  "entity.knight.light_attack_2": {
+    "sounds": [
+      "block_factorys_bosses:knight/light_attack_2"
+    ],
+    "subtitle": "subtitles.block_factorys_bosses.entity.knight.light_attack_2"
+  },
+  "entity.knight.light_heavy_attack": {
+    "sounds": [
+      "block_factorys_bosses:knight/light_heavy_attack_1",
+      "block_factorys_bosses:knight/light_heavy_attack_2"
+    ],
+    "subtitle": "subtitles.block_factorys_bosses.entity.knight.light_heavy_attack"
+  },
+  "entity.knight.resurrection": {
+    "sounds": [
+      "block_factorys_bosses:knight/resurrection"
+    ],
+    "subtitle": "subtitles.block_factorys_bosses.entity.knight.resurrection"
+  },
+  "entity.knight.revenge_attack": {
+    "sounds": [
+      "block_factorys_bosses:knight/revenge_attack"
+    ],
+    "subtitle": "subtitles.block_factorys_bosses.entity.knight.revenge_attack"
+  },
+  "entity.knight.stack_remove": {
+    "sounds": [
+      "block_factorys_bosses:knight/stack_remove"
+    ],
+    "subtitle": "subtitles.block_factorys_bosses.entity.knight.stack_remove"
+  },
+  "entity.knight.thrust": {
+    "sounds": [
+      "block_factorys_bosses:knight/thrust_1",
+      "block_factorys_bosses:knight/thrust_2",
+      "block_factorys_bosses:knight/thrust_3",
+      "block_factorys_bosses:knight/thrust_4"
+    ],
+    "subtitle": "subtitles.block_factorys_bosses.entity.knight.thrust"
+  },
+  "entity.knight.vertical_slash": {
+    "sounds": [
+      "block_factorys_bosses:knight/vertical_slash"
+    ],
+    "subtitle": "subtitles.block_factorys_bosses.entity.knight.vertical_slash"
+  },
+  "entity.knight.vertical_slash_transition": {
+    "sounds": [
+      "block_factorys_bosses:knight/vertical_slash_transition"
+    ],
+    "subtitle": "subtitles.block_factorys_bosses.entity.knight.vertical_slash_transition"
+  },
+  "entity.knight.wisp_explode": {
+    "sounds": [
+      "block_factorys_bosses:knight/wisp_explode"
+    ],
+    "subtitle": "subtitles.block_factorys_bosses.entity.knight.wisp_explode"
+  },
+  "entity.knight.wisp_explode_last": {
+    "sounds": [
+      "block_factorys_bosses:knight/wisp_explode_last"
+    ],
+    "subtitle": "subtitles.block_factorys_bosses.entity.knight.wisp_explode_last"
+  },
+  "entity.kraken.death": {
+    "sounds": [
+      "block_factorys_bosses:kraken/death_1",
+      "block_factorys_bosses:kraken/death_2"
+    ],
+    "subtitle": "subtitles.block_factorys_bosses.entity.kraken.death"
+  },
+  "entity.kraken.death_final": {
+    "sounds": [
+      "block_factorys_bosses:kraken/death_final"
+    ],
+    "subtitle": "subtitles.block_factorys_bosses.entity.kraken.death_final"
+  },
+  "entity.kraken.grab_and_throw": {
+    "sounds": [
+      "block_factorys_bosses:kraken/grab_and_throw"
+    ],
+    "subtitle": "subtitles.block_factorys_bosses.entity.kraken.grab_and_throw"
+  },
+  "entity.kraken.growling": {
+    "sounds": [
+      "block_factorys_bosses:kraken/growling_1",
+      "block_factorys_bosses:kraken/growling_2"
+    ],
+    "subtitle": "subtitles.block_factorys_bosses.entity.kraken.growling"
+  },
+  "entity.kraken.idle": {
+    "sounds": [
+      "block_factorys_bosses:kraken/idle_1",
+      "block_factorys_bosses:kraken/idle_2"
+    ],
+    "subtitle": "subtitles.block_factorys_bosses.entity.kraken.idle"
+  },
+  "entity.kraken.intro": {
+    "sounds": [
+      "block_factorys_bosses:kraken/intro"
+    ],
+    "subtitle": "subtitles.block_factorys_bosses.entity.kraken.intro"
+  },
+  "entity.kraken.light_slam": {
+    "sounds": [
+      "block_factorys_bosses:kraken/light_slam_1",
+      "block_factorys_bosses:kraken/light_slam_2"
+    ],
+    "subtitle": "subtitles.block_factorys_bosses.entity.kraken.light_slam"
+  },
+  "entity.kraken.phase_transition": {
+    "sounds": [
+      "block_factorys_bosses:kraken/phase_transition"
+    ],
+    "subtitle": "subtitles.block_factorys_bosses.entity.kraken.phase_transition"
+  },
+  "entity.kraken.strong_slam": {
+    "sounds": [
+      "block_factorys_bosses:kraken/strong_slam_1",
+      "block_factorys_bosses:kraken/strong_slam_2"
+    ],
+    "subtitle": "subtitles.block_factorys_bosses.entity.kraken.strong_slam"
+  },
+  "entity.kraken.tentacle_death": {
+    "sounds": [
+      "block_factorys_bosses:kraken/tentacle_death"
+    ],
+    "subtitle": "subtitles.block_factorys_bosses.entity.kraken.tentacle_death"
+  },
+  "entity.kraken.warning": {
+    "sounds": [
+      {
+        "type": "event",
+        "name": "block_factorys_bosses:entity.kraken.death"
+      }
+    ],
+    "subtitle": "subtitles.block_factorys_bosses.entity.kraken.warning"
+  },
+  "entity.kraken.water_movement": {
+    "sounds": [
+      "block_factorys_bosses:kraken/water_movement"
+    ],
+    "subtitle": "subtitles.block_factorys_bosses.entity.kraken.water_movement"
+  },
+  "entity.roll": {
+    "sounds": [
+      "block_factorys_bosses:roll"
+    ],
+    "subtitle": "subtitles.block_factorys_bosses.entity.roll"
+  },
+  "entity.sand_column.eruption": {
+    "sounds": [
+      "block_factorys_bosses:sandworm/eruption_1",
+      "block_factorys_bosses:sandworm/eruption_2"
+    ],
+    "subtitle": "subtitles.block_factorys_bosses.entity.sand_column.eruption"
+  },
+  "entity.sandworm.ambient": {
+    "sounds": [
+      "block_factorys_bosses:sandworm/ambient_1",
+      "block_factorys_bosses:sandworm/ambient_2",
+      "block_factorys_bosses:sandworm/ambient_3",
+      "block_factorys_bosses:sandworm/ambient_4"
+    ],
+    "subtitle": "subtitles.block_factorys_bosses.entity.sandworm.ambient"
+  },
+  "entity.sandworm.bite": {
+    "sounds": [
+      "block_factorys_bosses:sandworm/bite_1",
+      "block_factorys_bosses:sandworm/bite_2",
+      "block_factorys_bosses:sandworm/bite_3",
+      "block_factorys_bosses:sandworm/bite_4"
+    ],
+    "subtitle": "subtitles.block_factorys_bosses.entity.sandworm.bite"
+  },
+  "entity.sandworm.charge": {
+    "sounds": [
+      "block_factorys_bosses:sandworm/charge"
+    ],
+    "subtitle": "subtitles.block_factorys_bosses.entity.sandworm.charge"
+  },
+  "entity.sandworm.death": {
+    "sounds": [
+      "block_factorys_bosses:sandworm/death"
+    ],
+    "subtitle": "subtitles.block_factorys_bosses.entity.sandworm.death"
+  },
+  "entity.sandworm.dive": {
+    "sounds": [
+      "block_factorys_bosses:sandworm/dive"
+    ],
+    "subtitle": "subtitles.block_factorys_bosses.entity.sandworm.dive"
+  },
+  "entity.sandworm.dive_long": {
+    "sounds": [
+      "block_factorys_bosses:sandworm/dive_long"
+    ],
+    "subtitle": "subtitles.block_factorys_bosses.entity.sandworm.dive_long"
+  },
+  "entity.sandworm.dive_short": {
+    "sounds": [
+      "block_factorys_bosses:sandworm/dive_short"
+    ],
+    "subtitle": "subtitles.block_factorys_bosses.entity.sandworm.dive_short"
+  },
+  "entity.sandworm.emerge": {
+    "sounds": [
+      "block_factorys_bosses:sandworm/eruption_1",
+      "block_factorys_bosses:sandworm/eruption_2"
+    ],
+    "subtitle": "subtitles.block_factorys_bosses.entity.sandworm.emerge"
+  },
+  "entity.sandworm.hurt": {
+    "sounds": [
+      "block_factorys_bosses:sandworm/hurt"
+    ],
+    "subtitle": "subtitles.block_factorys_bosses.entity.sandworm.hurt"
+  },
+  "entity.sandworm.impact": {
+    "sounds": [
+      "block_factorys_bosses:sandworm/impact"
+    ],
+    "subtitle": "subtitles.block_factorys_bosses.entity.sandworm.impact"
+  },
+  "entity.sandworm.poison_spit": {
+    "sounds": [
+      "block_factorys_bosses:sandworm/poison_spit_1",
+      "block_factorys_bosses:sandworm/poison_spit_2",
+      "block_factorys_bosses:sandworm/poison_spit_3",
+      "block_factorys_bosses:sandworm/poison_spit_4"
+    ],
+    "subtitle": "subtitles.block_factorys_bosses.entity.sandworm.poison_spit"
+  },
+  "entity.sandworm.screech": {
+    "sounds": [
+      "block_factorys_bosses:sandworm/screech_1",
+      "block_factorys_bosses:sandworm/screech_2",
+      "block_factorys_bosses:sandworm/screech_3",
+      "block_factorys_bosses:sandworm/screech_4"
+    ],
+    "subtitle": "subtitles.block_factorys_bosses.entity.sandworm.screech"
+  },
+  "entity.sandworm.tail_impact": {
+    "sounds": [
+      "block_factorys_bosses:sandworm/impact"
+    ],
+    "subtitle": "subtitles.block_factorys_bosses.entity.sandworm.tail_impact"
+  },
+  "entity.silence": {
+    "sounds": [
+      "block_factorys_bosses:silence"
+    ]
+  },
+  "entity.yeti.death": {
+    "sounds": [
+      "block_factorys_bosses:yeti/death"
+    ],
+    "subtitle": "subtitles.block_factorys_bosses.entity.yeti.death"
+  },
+  "entity.yeti.enrage": {
+    "sounds": [
+      "block_factorys_bosses:yeti/enrage"
+    ],
+    "subtitle": "subtitles.block_factorys_bosses.entity.yeti.enrage"
+  },
+  "entity.yeti.footstep": {
+    "sounds": [
+      "block_factorys_bosses:yeti/footstep_1",
+      "block_factorys_bosses:yeti/footstep_2",
+      "block_factorys_bosses:yeti/footstep_3",
+      "block_factorys_bosses:yeti/footstep_4",
+      "block_factorys_bosses:yeti/footstep_5",
+      "block_factorys_bosses:yeti/footstep_6",
+      "block_factorys_bosses:yeti/footstep_7",
+      "block_factorys_bosses:yeti/footstep_8"
+    ],
+    "subtitle": "subtitles.block.generic.footsteps"
+  },
+  "entity.yeti.groundsmash": {
+    "sounds": [
+      "block_factorys_bosses:yeti/groundsmash_1",
+      "block_factorys_bosses:yeti/groundsmash_2",
+      "block_factorys_bosses:yeti/groundsmash_3",
+      "block_factorys_bosses:yeti/groundsmash_4"
+    ],
+    "subtitle": "subtitles.block_factorys_bosses.entity.yeti.groundsmash"
+  },
+  "entity.yeti.handswipe": {
+    "sounds": [
+      "block_factorys_bosses:yeti/handswipe_1",
+      "block_factorys_bosses:yeti/handswipe_2",
+      "block_factorys_bosses:yeti/handswipe_3",
+      "block_factorys_bosses:yeti/handswipe_4"
+    ],
+    "subtitle": "subtitles.block_factorys_bosses.entity.yeti.handswipe"
+  },
+  "entity.yeti.handswipe2": {
+    "sounds": [
+      "block_factorys_bosses:yeti/handswipe2_1",
+      "block_factorys_bosses:yeti/handswipe2_2",
+      "block_factorys_bosses:yeti/handswipe2_3",
+      "block_factorys_bosses:yeti/handswipe2_4"
+    ],
+    "subtitle": "subtitles.block_factorys_bosses.entity.yeti.handswipe2"
+  },
+  "entity.yeti.hit": {
+    "sounds": [
+      "block_factorys_bosses:yeti/hit_1",
+      "block_factorys_bosses:yeti/hit_2",
+      "block_factorys_bosses:yeti/hit_3",
+      "block_factorys_bosses:yeti/hit_4"
+    ],
+    "subtitle": "subtitles.block_factorys_bosses.entity.yeti.hit"
+  },
+  "entity.yeti.ice_barrage": {
+    "sounds": [
+      "block_factorys_bosses:yeti/ice_barrage_1",
+      "block_factorys_bosses:yeti/ice_barrage_2"
+    ],
+    "subtitle": "subtitles.block_factorys_bosses.entity.yeti.ice_barrage"
+  },
+  "entity.yeti.ice_barrage_whirlpool": {
+    "sounds": [
+      "block_factorys_bosses:yeti/ice_barrage_whirlpool"
+    ],
+    "subtitle": "subtitles.block_factorys_bosses.entity.yeti.ice_barrage_whirlpool"
+  },
+  "entity.yeti.jump": {
+    "sounds": [
+      "block_factorys_bosses:yeti/jump"
+    ],
+    "subtitle": "subtitles.block_factorys_bosses.entity.yeti.jump"
+  },
+  "entity.yeti.land": {
+    "sounds": [
+      "block_factorys_bosses:yeti/land"
+    ],
+    "subtitle": "subtitles.block_factorys_bosses.entity.yeti.land"
+  },
+  "entity.yeti.punch": {
+    "sounds": [
+      "block_factorys_bosses:yeti/punch_1",
+      "block_factorys_bosses:yeti/punch_2",
+      "block_factorys_bosses:yeti/punch_3",
+      "block_factorys_bosses:yeti/punch_4"
+    ],
+    "subtitle": "subtitles.block_factorys_bosses.entity.yeti.punch"
+  },
+  "entity.yeti.ranged_control": {
+    "sounds": [
+      "block_factorys_bosses:yeti/ranged_control"
+    ],
+    "subtitle": "subtitles.block_factorys_bosses.entity.yeti.ranged_control"
+  },
+  "entity.yeti.ranged_control_ice_block": {
+    "sounds": [
+      "block_factorys_bosses:yeti/ranged_control_ice_block"
+    ],
+    "subtitle": "subtitles.block_factorys_bosses.entity.yeti.ranged_control_ice_block"
+  },
+  "entity.yeti.spawn": {
+    "sounds": [
+      "block_factorys_bosses:yeti/spawn"
+    ],
+    "subtitle": "subtitles.block_factorys_bosses.entity.yeti.spawn"
+  },
+  "item.dagger_stab": {
+    "sounds": [
+      "block_factorys_bosses:dagger_stab"
+    ],
+    "subtitle": "subtitles.block_factorys_bosses.item.dagger_stab"
+  },
+  "item.ice_gauntlet.blast_1": {
+    "sounds": [
+      {
+        "type": "event",
+        "name": "entity.player.hurt_freeze"
+      }
+    ],
+    "subtitle": "subtitles.block_factorys_bosses.item.ice_gauntlet.blast_1"
+  },
+  "item.ice_gauntlet.blast_2": {
+    "sounds": [
+      {
+        "type": "event",
+        "name": "entity.breeze.idle_ground"
+      }
+    ]
+  },
+  "item.ice_gauntlet.icicle_pickup": {
+    "sounds": [
+      {
+        "type": "event",
+        "name": "block.glass.break"
+      }
+    ],
+    "subtitle": "subtitles.block_factorys_bosses.item.ice_gauntlet.icicle_pickup"
+  },
+  "item.ice_gauntlet.punch": {
+    "sounds": [
+      "block_factorys_bosses:ice_gauntlet/punch"
+    ],
+    "subtitle": "subtitles.block_factorys_bosses.item.ice_gauntlet.punch"
+  },
+  "item.ice_gauntlet.throw_icicle": {
+    "sounds": [
+      "block_factorys_bosses:ice_gauntlet/throw_icicle"
+    ],
+    "subtitle": "subtitles.block_factorys_bosses.item.ice_gauntlet.throw_icicle"
+  },
+  "item.knight_sword_swing": {
+    "sounds": [
+      "block_factorys_bosses:knight_sword_swing"
+    ],
+    "subtitle": "subtitles.block_factorys_bosses.item.knight_sword_swing"
+  },
+  "item.large_sword_swing": {
+    "sounds": [
+      "block_factorys_bosses:large_sword_swing"
+    ],
+    "subtitle": "subtitles.block_factorys_bosses.item.large_sword_swing"
+  },
+  "item.sandworm_gauntlet.poison_barrage_release": {
+    "sounds": [
+      "block_factorys_bosses:sandworm_gauntlet/poison_barrage_release"
+    ],
+    "subtitle": "subtitles.block_factorys_bosses.item.sandworm_gauntlet.poison_barrage_release"
+  },
+  "item.undying_tentacle.charging": {
+    "sounds": [
+      "block_factorys_bosses:undying_tentacle/charging"
+    ],
+    "subtitle": "subtitles.block_factorys_bosses.item.undying_tentacle.charging"
+  },
+  "item.undying_tentacle.disappearing": {
+    "sounds": [
+      "block_factorys_bosses:undying_tentacle/disappearing"
+    ],
+    "subtitle": "subtitles.block_factorys_bosses.item.undying_tentacle.disappearing"
+  },
+  "item.undying_tentacle.smash_ground": {
+    "sounds": [
+      "block_factorys_bosses:undying_tentacle/smash_ground"
+    ],
+    "subtitle": "subtitles.block_factorys_bosses.item.undying_tentacle.smash_ground"
+  },
+  "item.undying_tentacle.spawn_tentacles": {
+    "sounds": [
+      "block_factorys_bosses:undying_tentacle/spawn_tentacles"
+    ],
+    "subtitle": "subtitles.block_factorys_bosses.item.undying_tentacle.spawn_tentacles"
+  },
+  "item.undying_tentacle.tentacle_strike_the_ground": {
+    "sounds": [
+      "block_factorys_bosses:undying_tentacle/tentacle_strike_the_ground"
+    ],
+    "subtitle": "subtitles.block_factorys_bosses.item.undying_tentacle.tentacle_strike_the_ground"
+  },
+  "item.undying_tentacle.throw_back": {
+    "sounds": [
+      "block_factorys_bosses:undying_tentacle/throw_back"
+    ],
+    "subtitle": "subtitles.block_factorys_bosses.item.undying_tentacle.throw_back"
+  },
+  "item.undying_tentacle.throw_forth": {
+    "sounds": [
+      "block_factorys_bosses:undying_tentacle/throw_forth"
+    ],
+    "subtitle": "subtitles.block_factorys_bosses.item.undying_tentacle.throw_forth"
+  },
+  "item.undying_tentacle.throw_grab": {
+    "sounds": [
+      "block_factorys_bosses:undying_tentacle/throw_grab"
+    ],
+    "subtitle": "subtitles.block_factorys_bosses.item.undying_tentacle.throw_grab"
+  },
+  "item.warrior_sword_swing": {
+    "sounds": [
+      "block_factorys_bosses:warrior_sword_swing"
+    ],
+    "subtitle": "subtitles.block_factorys_bosses.item.warrior_sword_swing"
+  },
+  "music.ashlord": {
+    "sounds": [
+      {
+        "name": "block_factorys_bosses:music/ashlord",
+        "stream": true
+      }
+    ]
+  },
+  "music.helvar": {
+    "sounds": [
+      {
+        "name": "block_factorys_bosses:music/helvar",
+        "stream": true
+      }
+    ]
+  },
+  "music.nerakyss": {
+    "sounds": [
+      {
+        "name": "block_factorys_bosses:music/nerakyss",
+        "stream": true
+      }
+    ]
+  },
+  "music.sirok": {
+    "sounds": [
+      {
+        "name": "block_factorys_bosses:music/sirok",
+        "stream": true
+      }
+    ]
+  },
+  "music.skor": {
+    "sounds": [
+      {
+        "name": "block_factorys_bosses:music/skor",
+        "stream": true
+      }
+    ]
+  },
+  "music.yeti_intro": {
+    "sounds": [
+      {
+        "name": "block_factorys_bosses:music/yeti_intro",
+        "stream": true
+      }
+    ]
+  }
+}

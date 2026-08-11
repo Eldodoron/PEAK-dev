@@ -1,0 +1,46 @@
+modLoader = "javafml"
+loaderVersion = "[2,)"
+#issueTrackerURL = ""
+license = "All Rights Reserved"
+
+[[mods]]
+modId = "bettercombat"
+version = "2.4.0+1.21.1"
+displayName = "Better Combat"
+authors = "Daedelus"
+credits="Malfu, KosmX, Gecko"
+description = '''
+Easy, spectacular and fun melee combat system from Minecraft Dungeons.
+'''
+logoFile = "logo.png"
+
+[[dependencies.bettercombat]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.0,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.bettercombat]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.bettercombat]]
+modId="playeranimator"
+type = "required"
+versionRange="[1,)"
+ordering="AFTER"
+side="BOTH"
+
+[[dependencies.bettercombat]]
+modId="cloth_config"
+type = "required"
+versionRange="[15.0.0,)"
+ordering="AFTER"
+side="BOTH"
+
+[[mixins]]
+config = "bettercombat.mixins.json"

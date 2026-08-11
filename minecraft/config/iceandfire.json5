@@ -1,0 +1,20 @@
+{
+	/* This file controls values specifically for Ice & Fire.
+	   Material modifiers are set to the base damage of each material's tier.
+	   Values are ints, meaning you cannot have values with a decimal point.
+	   Valid:
+	   - '5'
+	   
+	   Invalid:
+	   - '3.4'
+	*/
+	"DRAGONSTEEL_FIRE": 0,
+	"DRAGONSTEEL_ICE": 0,
+	"DRAGONSTEEL_LIGHTNING": 0,
+	"DRAGONBONE": 0,
+	"DRAGONBONE_FIRE": 0,
+	"DRAGONBONE_ICE": 0,
+	"DRAGONBONE_LIGHTNING": 0,
+	"MYRMEX_DESERT": 0,
+	"MYRMEX_JUNGLE": 0
+}

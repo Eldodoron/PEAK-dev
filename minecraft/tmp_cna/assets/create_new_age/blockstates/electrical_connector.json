@@ -1,0 +1,56 @@
+{
+  "variants": {
+    "facing=down,mode=inert": {
+      "model": "create_new_age:block/electrical_connector/inert",
+      "x": 180
+    },
+    "facing=down,mode=pull": {
+      "model": "create_new_age:block/electrical_connector/pull",
+      "x": 180
+    },
+    "facing=east,mode=inert": {
+      "model": "create_new_age:block/electrical_connector/inert",
+      "x": 90,
+      "y": 90
+    },
+    "facing=east,mode=pull": {
+      "model": "create_new_age:block/electrical_connector/pull",
+      "x": 90,
+      "y": 90
+    },
+    "facing=north,mode=inert": {
+      "model": "create_new_age:block/electrical_connector/inert",
+      "x": 90
+    },
+    "facing=north,mode=pull": {
+      "model": "create_new_age:block/electrical_connector/pull",
+      "x": 90
+    },
+    "facing=south,mode=inert": {
+      "model": "create_new_age:block/electrical_connector/inert",
+      "x": 90,
+      "y": 180
+    },
+    "facing=south,mode=pull": {
+      "model": "create_new_age:block/electrical_connector/pull",
+      "x": 90,
+      "y": 180
+    },
+    "facing=up,mode=inert": {
+      "model": "create_new_age:block/electrical_connector/inert"
+    },
+    "facing=up,mode=pull": {
+      "model": "create_new_age:block/electrical_connector/pull"
+    },
+    "facing=west,mode=inert": {
+      "model": "create_new_age:block/electrical_connector/inert",
+      "x": 90,
+      "y": 270
+    },
+    "facing=west,mode=pull": {
+      "model": "create_new_age:block/electrical_connector/pull",
+      "x": 90,
+      "y": 270
+    }
+  }
+}

@@ -147,37 +147,41 @@ ServerEvents.recipes(event => {
         S: 'ars_nouveau:source_gem',
         G: '#c:ingots/gold',
         B: 'minecraft:book',
-        A: 'create:andesite_alloy'
+        A: 'create_sa:heap_of_experience'
     });
 
-    // Apprentice Spell Book: Needs Twilight Forest progression
-    // Naga Scale = you've defeated the Naga boss = earned power
+    // Apprentice Spell Book: CEI + Irons Spellbooks + Ars Nouveau
     event.remove({ output: 'ars_nouveau:apprentice_spell_book' });
     event.shaped('ars_nouveau:apprentice_spell_book', [
-        'NSN',
-        'IBN',
-        'GIG'
+        'TET',
+        'GBG',
+        'RSR'
     ], {
-        N: 'twilightforest:naga_scale',
-        S: 'ars_nouveau:source_gem',
-        I: 'twilightforest:ironwood_ingot',
+        T: 'ars_nouveau:blank_thread',
+        E: 'create_enchantment_industry:super_experience_nugget',
+        G: '#c:ingots/gold',
         B: 'ars_nouveau:novice_spell_book',
-        G: '#c:ingots/gold'
+        R: '#kubejs:irons_runes',
+        S: 'ars_nouveau:source_gem'
     });
 
-    // Archmage Spell Book: Late-game magic, requires advanced tech
-    // Knightmetal = deep Twilight progression (Goblin Knights)
-    // Precision Mechanism = technological mastery enhances magic
+    // Archmage Spell Book: Pure late-game magic, no tech required
+    // Wilden Tribute = defeated the Wilden Chimera (Ars Nouveau boss)
+    // Magic Beans = deep Twilight Forest progression
+    // Mystic Essence = Gates of Avarice lore material
+    // Apotheosis Gem = mastery over the Apotheosis system
     event.remove({ output: 'ars_nouveau:archmage_spell_book' });
     event.shaped('ars_nouveau:archmage_spell_book', [
-        'KSK',
-        'PBP',
-        'KSK'
+        'WSW',
+        'GBG',
+        'TMT'
     ], {
-        K: 'twilightforest:knightmetal_ingot',
+        W: 'ars_nouveau:wilden_tribute',
         S: 'ars_nouveau:source_gem_block',
-        P: 'create:precision_mechanism',
-        B: 'ars_nouveau:apprentice_spell_book'
+        G: 'gatesofavarice:mystic_essence',
+        B: 'ars_nouveau:apprentice_spell_book',
+        T: 'twilightforest:magic_beans',
+        M: 'apotheosis:gem'
     });
 
     // ==========================================

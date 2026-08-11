@@ -1,18 +1,33 @@
-filename = 'idas-1.13.6+1.21.1-neoforge.jar'
-name = 'Integrtaed Dungeons and Structures'
+filename = 'idas-1.13.7+1.21.1-neoforge.jar'
+name = 'Integrated Dungeons and Structures'
 side = ''
-x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '1.13.6+1.21.1-neoforge'
+x-prismlauncher-version-number = '1.13.7+1.21.1-neoforge'
 
 [download]
-hash = '6bd43534744f480a527ace31d064a0b654d8d57bce973e5db78a4193cd9ff37cb215f388de6e952397fc9140e038793928535d0c123e112077d103dca2fd5803'
+hash = '916b60a5843e38316f12f5f1c6a4e737364f12ad2afb642e0f43f4e98135858f82af87ce0f262cdbc97dcbc1e0a31822a54af73278747f417fc33ae35cfed18c'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/Z8OZShAU/versions/zDlRv8F5/idas-1.13.6%2B1.21.1-neoforge.jar'
+url = 'https://cdn.modrinth.com/data/Z8OZShAU/versions/bpMwZSKf/idas-1.13.7%2B1.21.1-neoforge.jar'
 
 [update.modrinth]
 mod-id = 'Z8OZShAU'
-version = 'zDlRv8F5'
+version = 'bpMwZSKf'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'fFEIiSDQ'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'V6fKbpBN'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'qnQsVE2z'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'LNytGWDc'
+type = 'REQUIRED'

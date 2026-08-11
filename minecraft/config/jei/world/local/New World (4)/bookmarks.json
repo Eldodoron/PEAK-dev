@@ -1,0 +1,12 @@
+[
+  {"version":2},
+  {"recipe":"ess_requiem:intertwined_peak","recipeType":"minecraft:smithing","bookmarkType":"RECIPE"},
+  {"recipe":"create:kjs/ender_eye","recipeType":"create:sequenced_assembly","bookmarkType":"RECIPE"},
+  {"recipe":"kubejs:kjs/ars_nouveau_novice_spell_book","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
+  {"recipe":"kubejs:kjs/ars_nouveau_apprentice_spell_book","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
+  {"recipe":"kubejs:kjs/ars_nouveau_archmage_spell_book","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
+  {"recipe":"ars_nouveau:blank_thread","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
+  {"ingredient":{"id":"enigmatic_arcana:nihility","components":"{\"apotheosis:affixes\":{},\"apotheosis:rarity\":\"nadir:cataclysmic\",\"apotheosis:sockets\":4,\"irons_spellbooks:affinity_data\":{bonuses:{\"irons_spellbooks:echoing_strikes\":1}},\"minecraft:unbreakable\":{}}"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"recipe":"ess_requiem:hope","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
+  {"recipe":"alexsmobs:transmutation_table","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"}
+]

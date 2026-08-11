@@ -1,0 +1,154 @@
+{
+  "mappings": {
+    "net/bettercombat/mixin/DataComponentTypesMixin": {
+      "<clinit>": "Lnet/minecraft/class_9334;<clinit>()V"
+    },
+    "net/bettercombat/mixin/EnchantmentMixin": {
+      "getEquipment": "Lnet/minecraft/class_1887;method_8185(Lnet/minecraft/class_1309;)Ljava/util/Map;"
+    },
+    "net/bettercombat/mixin/RangedWeaponItemMixin": {
+      "Lnet/minecraft/entity/LivingEntity;getStackInHand(Lnet/minecraft/util/Hand;)Lnet/minecraft/item/ItemStack;": "Lnet/minecraft/class_1309;method_5998(Lnet/minecraft/class_1268;)Lnet/minecraft/class_1799;",
+      "getHeldProjectile": "Lnet/minecraft/class_1811;method_18815(Lnet/minecraft/class_1309;Ljava/util/function/Predicate;)Lnet/minecraft/class_1799;"
+    },
+    "net/bettercombat/mixin/ServerPlayNetworkHandlerMixin": {
+      "Lnet/minecraft/server/network/ServerPlayerEntity;getStackInHand(Lnet/minecraft/util/Hand;)Lnet/minecraft/item/ItemStack;": "Lnet/minecraft/class_3222;method_5998(Lnet/minecraft/class_1268;)Lnet/minecraft/class_1799;",
+      "onPlayerAction": "Lnet/minecraft/class_3244;method_12066(Lnet/minecraft/class_2846;)V"
+    },
+    "net/bettercombat/mixin/client/AbstractClientPlayerEntityMixin": {
+      "<init>": "Lnet/minecraft/class_742;<init>(Lnet/minecraft/class_638;Lcom/mojang/authlib/GameProfile;)V"
+    },
+    "net/bettercombat/mixin/client/ClientPlayNetworkHandlerMixin": {
+      "onParticle": "Lnet/minecraft/class_634;method_11077(Lnet/minecraft/class_2675;)V"
+    },
+    "net/bettercombat/mixin/client/ClientPlayerEntityMixin": {
+      "Lnet/minecraft/client/input/Input;tick(ZF)V": "Lnet/minecraft/class_744;method_3129(ZF)V",
+      "tickMovement": "Lnet/minecraft/class_746;method_6007()V"
+    },
+    "net/bettercombat/mixin/client/ClientPlayerInteractionManagerMixin": {
+      "Lnet/minecraft/client/network/ClientPlayerEntity;resetLastAttackedTicks()V": "Lnet/minecraft/class_746;method_7350()V",
+      "cancelBlockBreaking": "Lnet/minecraft/class_636;method_2925()V"
+    },
+    "net/bettercombat/mixin/client/ColliderDebugRenderer": {
+      "render": "Lnet/minecraft/class_863;method_23099(Lnet/minecraft/class_4587;Lnet/minecraft/class_4597$class_4598;DDD)V"
+    },
+    "net/bettercombat/mixin/client/InGameHudInject": {
+      "Lnet/minecraft/client/gui/DrawContext;drawGuiTexture(Lnet/minecraft/util/Identifier;IIII)V": "Lnet/minecraft/class_332;method_52706(Lnet/minecraft/class_2960;IIII)V",
+      "renderCrosshair": "Lnet/minecraft/class_329;method_1736(Lnet/minecraft/class_332;Lnet/minecraft/class_9779;)V"
+    },
+    "net/bettercombat/mixin/client/ItemStackTooltipMixin": {
+      "appendAttributeModifierTooltip": "Lnet/minecraft/class_1799;method_57364(Ljava/util/function/Consumer;Lnet/minecraft/class_1657;Lnet/minecraft/class_6880;Lnet/minecraft/class_1322;)V"
+    },
+    "net/bettercombat/mixin/client/MinecraftClientAccessor": {
+      "attackCooldown": "field_1771:I",
+      "entityRenderDispatcher": "field_1731:Lnet/minecraft/class_898;"
+    },
+    "net/bettercombat/mixin/client/MinecraftClientInject": {
+      "disconnect(Lnet/minecraft/client/gui/screen/Screen;)V": "Lnet/minecraft/class_310;method_56134(Lnet/minecraft/class_437;)V",
+      "doAttack": "Lnet/minecraft/class_310;method_1536()Z",
+      "doItemUse": "Lnet/minecraft/class_310;method_1583()V",
+      "handleBlockBreaking": "Lnet/minecraft/class_310;method_1590(Z)V",
+      "tick": "Lnet/minecraft/class_310;method_1574()V"
+    },
+    "net/bettercombat/mixin/player/LivingEntityAccessor": {
+      "lastAttackedTicks": "field_6273:I",
+      "turnHead": "method_6031(FF)F"
+    },
+    "net/bettercombat/mixin/player/LivingEntityMixin": {
+      "getAttributeValue": "Lnet/minecraft/class_1309;method_45325(Lnet/minecraft/class_6880;)D",
+      "takeKnockback": "Lnet/minecraft/class_1309;method_6005(DDD)V"
+    },
+    "net/bettercombat/mixin/player/PlayerEntityAccessor": {
+      "inventory": "field_7514:Lnet/minecraft/class_1661;"
+    },
+    "net/bettercombat/mixin/player/PlayerEntityMixin": {
+      "Lnet/minecraft/entity/player/PlayerEntity;getMainHandStack()Lnet/minecraft/item/ItemStack;": "Lnet/minecraft/class_1657;method_6047()Lnet/minecraft/class_1799;",
+      "Lnet/minecraft/entity/player/PlayerEntity;getStackInHand(Lnet/minecraft/util/Hand;)Lnet/minecraft/item/ItemStack;": "Lnet/minecraft/class_1657;method_5998(Lnet/minecraft/class_1268;)Lnet/minecraft/class_1799;",
+      "Lnet/minecraft/entity/player/PlayerEntity;setStackInHand(Lnet/minecraft/util/Hand;Lnet/minecraft/item/ItemStack;)V": "Lnet/minecraft/class_1657;method_6122(Lnet/minecraft/class_1268;Lnet/minecraft/class_1799;)V",
+      "attack": "Lnet/minecraft/class_1657;method_7324(Lnet/minecraft/class_1297;)V",
+      "getEquippedStack": "Lnet/minecraft/class_1657;method_6118(Lnet/minecraft/class_1304;)Lnet/minecraft/class_1799;",
+      "initDataTracker": "Lnet/minecraft/class_1657;method_5693(Lnet/minecraft/class_2945$class_9222;)V",
+      "tick": "Lnet/minecraft/class_1657;method_5773()V"
+    },
+    "net/bettercombat/mixin/player/PlayerEntityRangeMixin": {
+      "Lnet/minecraft/entity/player/PlayerEntity;getAttributeValue(Lnet/minecraft/registry/entry/RegistryEntry;)D": "Lnet/minecraft/class_1657;method_45325(Lnet/minecraft/class_6880;)D",
+      "getEntityInteractionRange": "Lnet/minecraft/class_1657;method_55755()D"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "net/bettercombat/mixin/DataComponentTypesMixin": {
+        "<clinit>": "Lnet/minecraft/class_9334;<clinit>()V"
+      },
+      "net/bettercombat/mixin/EnchantmentMixin": {
+        "getEquipment": "Lnet/minecraft/class_1887;method_8185(Lnet/minecraft/class_1309;)Ljava/util/Map;"
+      },
+      "net/bettercombat/mixin/RangedWeaponItemMixin": {
+        "Lnet/minecraft/entity/LivingEntity;getStackInHand(Lnet/minecraft/util/Hand;)Lnet/minecraft/item/ItemStack;": "Lnet/minecraft/class_1309;method_5998(Lnet/minecraft/class_1268;)Lnet/minecraft/class_1799;",
+        "getHeldProjectile": "Lnet/minecraft/class_1811;method_18815(Lnet/minecraft/class_1309;Ljava/util/function/Predicate;)Lnet/minecraft/class_1799;"
+      },
+      "net/bettercombat/mixin/ServerPlayNetworkHandlerMixin": {
+        "Lnet/minecraft/server/network/ServerPlayerEntity;getStackInHand(Lnet/minecraft/util/Hand;)Lnet/minecraft/item/ItemStack;": "Lnet/minecraft/class_3222;method_5998(Lnet/minecraft/class_1268;)Lnet/minecraft/class_1799;",
+        "onPlayerAction": "Lnet/minecraft/class_3244;method_12066(Lnet/minecraft/class_2846;)V"
+      },
+      "net/bettercombat/mixin/client/AbstractClientPlayerEntityMixin": {
+        "<init>": "Lnet/minecraft/class_742;<init>(Lnet/minecraft/class_638;Lcom/mojang/authlib/GameProfile;)V"
+      },
+      "net/bettercombat/mixin/client/ClientPlayNetworkHandlerMixin": {
+        "onParticle": "Lnet/minecraft/class_634;method_11077(Lnet/minecraft/class_2675;)V"
+      },
+      "net/bettercombat/mixin/client/ClientPlayerEntityMixin": {
+        "Lnet/minecraft/client/input/Input;tick(ZF)V": "Lnet/minecraft/class_744;method_3129(ZF)V",
+        "tickMovement": "Lnet/minecraft/class_746;method_6007()V"
+      },
+      "net/bettercombat/mixin/client/ClientPlayerInteractionManagerMixin": {
+        "Lnet/minecraft/client/network/ClientPlayerEntity;resetLastAttackedTicks()V": "Lnet/minecraft/class_746;method_7350()V",
+        "cancelBlockBreaking": "Lnet/minecraft/class_636;method_2925()V"
+      },
+      "net/bettercombat/mixin/client/ColliderDebugRenderer": {
+        "render": "Lnet/minecraft/class_863;method_23099(Lnet/minecraft/class_4587;Lnet/minecraft/class_4597$class_4598;DDD)V"
+      },
+      "net/bettercombat/mixin/client/InGameHudInject": {
+        "Lnet/minecraft/client/gui/DrawContext;drawGuiTexture(Lnet/minecraft/util/Identifier;IIII)V": "Lnet/minecraft/class_332;method_52706(Lnet/minecraft/class_2960;IIII)V",
+        "renderCrosshair": "Lnet/minecraft/class_329;method_1736(Lnet/minecraft/class_332;Lnet/minecraft/class_9779;)V"
+      },
+      "net/bettercombat/mixin/client/ItemStackTooltipMixin": {
+        "appendAttributeModifierTooltip": "Lnet/minecraft/class_1799;method_57364(Ljava/util/function/Consumer;Lnet/minecraft/class_1657;Lnet/minecraft/class_6880;Lnet/minecraft/class_1322;)V"
+      },
+      "net/bettercombat/mixin/client/MinecraftClientAccessor": {
+        "attackCooldown": "field_1771:I",
+        "entityRenderDispatcher": "field_1731:Lnet/minecraft/class_898;"
+      },
+      "net/bettercombat/mixin/client/MinecraftClientInject": {
+        "disconnect(Lnet/minecraft/client/gui/screen/Screen;)V": "Lnet/minecraft/class_310;method_56134(Lnet/minecraft/class_437;)V",
+        "doAttack": "Lnet/minecraft/class_310;method_1536()Z",
+        "doItemUse": "Lnet/minecraft/class_310;method_1583()V",
+        "handleBlockBreaking": "Lnet/minecraft/class_310;method_1590(Z)V",
+        "tick": "Lnet/minecraft/class_310;method_1574()V"
+      },
+      "net/bettercombat/mixin/player/LivingEntityAccessor": {
+        "lastAttackedTicks": "field_6273:I",
+        "turnHead": "method_6031(FF)F"
+      },
+      "net/bettercombat/mixin/player/LivingEntityMixin": {
+        "getAttributeValue": "Lnet/minecraft/class_1309;method_45325(Lnet/minecraft/class_6880;)D",
+        "takeKnockback": "Lnet/minecraft/class_1309;method_6005(DDD)V"
+      },
+      "net/bettercombat/mixin/player/PlayerEntityAccessor": {
+        "inventory": "field_7514:Lnet/minecraft/class_1661;"
+      },
+      "net/bettercombat/mixin/player/PlayerEntityMixin": {
+        "Lnet/minecraft/entity/player/PlayerEntity;getMainHandStack()Lnet/minecraft/item/ItemStack;": "Lnet/minecraft/class_1657;method_6047()Lnet/minecraft/class_1799;",
+        "Lnet/minecraft/entity/player/PlayerEntity;getStackInHand(Lnet/minecraft/util/Hand;)Lnet/minecraft/item/ItemStack;": "Lnet/minecraft/class_1657;method_5998(Lnet/minecraft/class_1268;)Lnet/minecraft/class_1799;",
+        "Lnet/minecraft/entity/player/PlayerEntity;setStackInHand(Lnet/minecraft/util/Hand;Lnet/minecraft/item/ItemStack;)V": "Lnet/minecraft/class_1657;method_6122(Lnet/minecraft/class_1268;Lnet/minecraft/class_1799;)V",
+        "attack": "Lnet/minecraft/class_1657;method_7324(Lnet/minecraft/class_1297;)V",
+        "getEquippedStack": "Lnet/minecraft/class_1657;method_6118(Lnet/minecraft/class_1304;)Lnet/minecraft/class_1799;",
+        "initDataTracker": "Lnet/minecraft/class_1657;method_5693(Lnet/minecraft/class_2945$class_9222;)V",
+        "tick": "Lnet/minecraft/class_1657;method_5773()V"
+      },
+      "net/bettercombat/mixin/player/PlayerEntityRangeMixin": {
+        "Lnet/minecraft/entity/player/PlayerEntity;getAttributeValue(Lnet/minecraft/registry/entry/RegistryEntry;)D": "Lnet/minecraft/class_1657;method_45325(Lnet/minecraft/class_6880;)D",
+        "getEntityInteractionRange": "Lnet/minecraft/class_1657;method_55755()D"
+      }
+    }
+  }
+}

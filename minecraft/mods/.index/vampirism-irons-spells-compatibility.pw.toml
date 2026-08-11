@@ -1,18 +1,18 @@
-filename = 'vampire_spells_addon-1.21.1-0.0.6.jar'
-name = "Vampirism Iron's Spells Compatibility"
+filename = 'vampire_spells_addon-neoforge-1.21.1-0.0.9.jar'
+name = 'Vampire Spells Addon'
 side = 'server'
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'vampire_spells_addon-1.21.1-0.0.6.jar'
+x-prismlauncher-version-number = 'vampire_spells_addon-neoforge-1.21.1-0.0.9.jar'
 
 [download]
-hash = '521cc5104d4f878d08064b5b17282b52627e9785'
+hash = '004eec424ea7ba808b020d012932bdee4cdf3756'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 7012837
+file-id = 8525676
 project-id = 1350048

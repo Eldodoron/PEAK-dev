@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"bonus_rolls": 0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "block_factorys_bosses:underworld_arena_key"
+				}
+			],
+			"rolls": 1
+		}
+	],
+	"random_sequence": "block_factorys_bosses:spawners/underworld_arena/underworld_arena_key"
+}

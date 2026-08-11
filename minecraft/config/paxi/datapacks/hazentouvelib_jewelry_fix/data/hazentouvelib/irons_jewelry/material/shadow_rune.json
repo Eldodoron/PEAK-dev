@@ -1,0 +1,18 @@
+{
+  "descriptionId": "material.hazentouvelib.rune_shadow",
+  "ingredient": {
+    "item": "hazentouvelib:shadow_rune"
+  },
+  "materialType": [
+    "gem"
+  ],
+  "paletteLocation": "hazentouvelib:palettes/rune_shadow",
+  "quality": 1.5,
+  "bonusParameters": {
+    "irons_jewelry:attribute": {
+      "attribute": "hazentouvelib:shadow_spell_power",
+      "amount": 0.025,
+      "operation": "add_multiplied_total"
+    }
+  }
+}

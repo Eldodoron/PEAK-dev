@@ -1,0 +1,15 @@
+{
+  "jars": [
+    {
+      "identifier": {
+        "group": "maven.modrinth",
+        "artifact": "tiny-config"
+      },
+      "version": {
+        "range": "[3.1.0-neoforge,)",
+        "artifactVersion": "3.1.0-neoforge"
+      },
+      "path": "META-INF/jars/tiny-config-3.1.0-neoforge.jar"
+    }
+  ]
+}

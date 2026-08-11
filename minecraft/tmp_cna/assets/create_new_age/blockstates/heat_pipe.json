@@ -1,0 +1,65 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "create_new_age:block/heat_pipe/center"
+      }
+    },
+    {
+      "apply": {
+        "model": "create_new_age:block/heat_pipe/side",
+        "x": -180
+      },
+      "when": {
+        "down": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "create_new_age:block/heat_pipe/side"
+      },
+      "when": {
+        "up": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "create_new_age:block/heat_pipe/side",
+        "x": 90,
+        "y": 180
+      },
+      "when": {
+        "south": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "create_new_age:block/heat_pipe/side",
+        "x": 90
+      },
+      "when": {
+        "north": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "create_new_age:block/heat_pipe/side",
+        "x": 90,
+        "y": 90
+      },
+      "when": {
+        "east": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "create_new_age:block/heat_pipe/side",
+        "x": 90,
+        "y": -90
+      },
+      "when": {
+        "west": "true"
+      }
+    }
+  ]
+}

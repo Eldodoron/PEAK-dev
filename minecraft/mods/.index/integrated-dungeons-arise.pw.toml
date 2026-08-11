@@ -1,0 +1,65 @@
+filename = 'IDA v2.1.1-1.21.1.jar'
+name = 'Integrated Dungeons Arise'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '2.1.1'
+
+[download]
+hash = 'c33b1f575136494585ce3eed956f129841d4a012b004b5821e771d340a6a68996abb41ff4b16841c48ae222571100a04bdae8c643bf9ca92a7455a270c99f472'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/uG4njWFR/versions/mUchb4lO/IDA v2.1.1-1.21.1.jar'
+
+[update.modrinth]
+mod-id = 'uG4njWFR'
+version = 'mUchb4lO'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'LNytGWDc'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'zCh7omyG'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'fFEIiSDQ'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'gc8OEnCC'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'qnQsVE2z'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'V6fKbpBN'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '2cMuAZAp'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'H1sntfo8'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '6iTJugQR'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'BFbX9xcm'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'R2OftAxM'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '46KJle7n'
+type = 'OPTIONAL'

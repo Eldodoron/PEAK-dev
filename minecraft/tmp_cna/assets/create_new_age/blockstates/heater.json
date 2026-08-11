@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "blaze=fading": {
+      "model": "create_new_age:block/heater_top_2"
+    },
+    "blaze=kindled": {
+      "model": "create_new_age:block/heater_top_3"
+    },
+    "blaze=none": {
+      "model": "create_new_age:block/heater_top_0"
+    },
+    "blaze=seething": {
+      "model": "create_new_age:block/heater_top_4"
+    },
+    "blaze=smouldering": {
+      "model": "create_new_age:block/heater_top_1"
+    }
+  }
+}

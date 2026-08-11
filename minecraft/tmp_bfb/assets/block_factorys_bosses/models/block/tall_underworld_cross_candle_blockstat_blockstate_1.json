@@ -1,0 +1,9 @@
+{
+  "parent": "block_factorys_bosses:custom/tall_candles2",
+  "textures": {
+    "all": "block_factorys_bosses:block/invisible",
+    "particle": "block_factorys_bosses:block/under_metal",
+    "2": "block_factorys_bosses:block/underworld_candles_sheet"
+  },
+  "render_type": "cutout"
+}

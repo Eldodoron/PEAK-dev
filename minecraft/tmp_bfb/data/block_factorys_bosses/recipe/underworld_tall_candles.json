@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "block_factorys_bosses:under_world_tall_candle_cross"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "block_factorys_bosses:underworld_tall_candles"
+  }
+}

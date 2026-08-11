@@ -1,0 +1,63 @@
+{
+  "multipart": [
+    {
+      "when": { "OR": [
+        { "north": "false", "south": "false", "east": "false", "west": "false" },
+        { "north": "true",  "south": "false", "east": "false", "west": "false" },
+        { "south": "true",  "north": "false", "east": "false", "west": "false" },
+        { "east": "true",   "north": "false", "south": "false", "west": "false" },
+        { "west": "true",   "north": "false", "south": "false", "east": "false" },
+        { "north": "true",  "east": "true",   "south": "false", "west": "false" },
+        { "north": "true",  "west": "true",   "south": "false", "east": "false" },
+        { "south": "true",  "east": "true",   "north": "false", "west": "false" },
+        { "south": "true",  "west": "true",   "north": "false", "east": "false" },
+        { "north": "true",  "east": "true",   "south": "true",  "west": "false" },
+        { "north": "true",  "east": "true",   "west": "true",   "south": "false" },
+        { "north": "true",  "south": "true",  "west": "true",   "east": "false"  },
+        { "east": "true",   "south": "true",  "west": "true",   "north": "false" },
+        { "north": "true",  "east": "true",   "south": "true",  "west": "true"   }
+      ]},
+      "apply": { "model": "block_factorys_bosses:block/guardrail_node" }
+    },
+    {
+      "when": { "north": "true", "south": "true", "east": "false", "west": "false" },
+      "apply": { "model": "block_factorys_bosses:block/guardrail_side" }
+    },
+    {
+      "when": { "east": "true", "west": "true", "north": "false", "south": "false" },
+      "apply": { "model": "block_factorys_bosses:block/guardrail_side", "y": 90 }
+    },
+    {
+      "when": { "OR": [
+        { "north": "true", "south": "false" },
+        { "north": "true", "east": "true"   },
+        { "north": "true", "west": "true"   }
+      ]},
+      "apply": { "model": "block_factorys_bosses:block/guardrail_side_end" }
+    },
+    {
+      "when": { "OR": [
+        { "south": "true", "north": "false" },
+        { "south": "true", "east": "true"   },
+        { "south": "true", "west": "true"   }
+      ]},
+      "apply": { "model": "block_factorys_bosses:block/guardrail_side_end", "y": 180 }
+    },
+    {
+      "when": { "OR": [
+        { "east": "true", "west": "false"  },
+        { "east": "true", "north": "true"  },
+        { "east": "true", "south": "true"  }
+      ]},
+      "apply": { "model": "block_factorys_bosses:block/guardrail_side_end", "y": 90 }
+    },
+    {
+      "when": { "OR": [
+        { "west": "true", "east": "false"  },
+        { "west": "true", "north": "true"  },
+        { "west": "true", "south": "true"  }
+      ]},
+      "apply": { "model": "block_factorys_bosses:block/guardrail_side_end", "y": 270 }
+    }
+  ]
+}

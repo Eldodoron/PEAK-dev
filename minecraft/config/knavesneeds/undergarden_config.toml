@@ -1,0 +1,50 @@
+# Don't change this! Version used to track needed updates.
+version = 1
+# Enables/disables - Knaves' Needs' Cloggrum additions.
+cloggrumEnabled = true
+# Cloggrum durability/uses, can be any whole number.
+cloggrumDurability = 286
+# Cloggrum attack speed, can be any decimal number.
+cloggrumSpeed = 6.0
+# Cloggrum bonus damage, can be any decimal number.
+cloggrumAttackBonus = 3.0
+# Cloggrum mining level, can be any whole number.
+cloggrumMiningLevel = 2
+# Cloggrum enchantability, can be any whole number.
+cloggrumEnchantability = 8
+# Enables/disables - Knaves' Needs' Froststeel additions.
+froststeelEnabled = true
+# Froststeel durability/uses, can be any whole number.
+froststeelDurability = 575
+# Froststeel attack speed, can be any decimal number.
+froststeelSpeed = 7.0
+# Froststeel bonus damage, can be any decimal number.
+froststeelAttackBonus = 2.0
+# Froststeel mining level, can be any whole number.
+froststeelMiningLevel = 2
+# Froststeel enchantability, can be any whole number.
+froststeelEnchantability = 20
+# Enables/disables - Knaves' Needs' Utherium additions.
+utheriumEnabled = true
+# Utherium durability/uses, can be any whole number.
+utheriumDurability = 1279
+# Utherium attack speed, can be any decimal number.
+utheriumSpeed = 8.5
+# Utherium bonus damage, can be any decimal number.
+utheriumAttackBonus = 3.5
+# Utherium mining level, can be any whole number.
+utheriumMiningLevel = 3
+# Utherium enchantability, can be any whole number.
+utheriumEnchantability = 17
+# Enables/disables - Knaves' Needs' Forgotten additions.
+forgottenEnabled = true
+# Forgotten durability/uses, can be any whole number.
+forgottenDurability = 1876
+# Forgotten attack speed, can be any decimal number.
+forgottenSpeed = 8.0
+# Forgotten bonus damage, can be any decimal number.
+forgottenAttackBonus = 3.0
+# Forgotten mining level, can be any whole number.
+forgottenMiningLevel = 4
+# Forgotten enchantability, can be any whole number.
+forgottenEnchantability = 2

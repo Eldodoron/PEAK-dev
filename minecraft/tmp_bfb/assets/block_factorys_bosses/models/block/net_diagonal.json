@@ -1,0 +1,5 @@
+{
+	"parent": "block_factorys_bosses:custom/net_diagonal",
+	"render_type": "cutout",
+	"ambientocclusion": false
+}

@@ -99,6 +99,7 @@ _version = 4
 		# Disabling this check may fix issues where LODs aren't updated after
 		# blocks have been changed.
 		disableUnchangedChunkCheck = false
+		dataCompression = "Z_STD_BLOCK"
 
 		[common.lodBuilding.experimental]
 			#
@@ -203,10 +204,26 @@ _version = 4
 			# to cause frame stuttering and/or other issues.
 			logGarbageCollectorWarning = true
 			#
-			# If enabled, a chat message will be displayed if the garbage 
+			# If enabled, a chat message will be displayed in chat if the garbage 
 			# collector Java is currently using is known 
 			# to cause frame stuttering and/or other issues.
 			showGarbageCollectorWarning = true
+			#
+			# If enabled, a chat message will be displayed when DH is using 
+			# a deprecated renderer.
+			showDeprecatedRendererWarningOnStartup = true
+			#
+			# If enabled, a message will be logged if explicit garbage collection 
+			# is disabled. 
+			# This is known to cause out-of-memory issues 
+			# and is better solved with a concurrent garbage collector.
+			logExplicitGcDisabledWarning = true
+			#
+			# If enabled, a message will be displayed in chat if explicit garbage collection 
+			# is disabled. 
+			# This is known to cause out-of-memory issues 
+			# and is better solved with a concurrent garbage collector.
+			showExplicitGcDisabledWarning = true
 
 	[common.worldGenerator]
 		#
@@ -529,6 +546,18 @@ _version = 4
 				# 
 				# Disable this if you see LODs disappearing at the corners of your vision.
 				disableFrustumCulling = false
+				#
+				# Defines what blocks should be rendered as LODs. 
+				# 
+				# NONE: Include all blocks in the LODs 
+				# NON_COLLIDING: Only render solid blocks in the LODs (tall grass, torches, etc. will be ignored)
+				blocksToIgnore = "NON_COLLIDING"
+				#
+				# Should the blocks underneath avoided blocks gain the color of the avoided block? 
+				# 
+				# True: a red flower will tint the grass below it red. 
+				# False: skipped blocks will not change color of surface below them.
+				tintWithAvoidedBlocks = true
 
 			[client.advanced.graphics.noiseTexture]
 				#
@@ -578,6 +607,14 @@ _version = 4
 				# and the max value is 5000. Any values outside this range 
 				# will be set to 0 (disabled).
 				earthCurveRatio = 0
+				#
+				# Requires a restart to change. 
+				#  
+				# Options: 
+				# AUTO - changes based on the most likely API for that MC version 
+				# OPEN_GL - The Default for MC 1.21.11 and older (supports Iris shaders) 
+				# BLAZE_3D - The Default for MC 26.1.2 and newer (supports Vulkan)
+				renderingEngine = "AUTO"
 
 			[client.advanced.graphics.genericRendering]
 				#
@@ -585,7 +622,7 @@ _version = 4
 				# 
 				# Example: "minecraft:overworld,minecraft:the_end"
 				# 
-				# Changes will only be seen when the world is re-loaded.
+				# Changes require a world re-load.
 				dimensionEnabledCloudRenderingCsv = "minecraft:overworld"
 				#
 				# If true LOD clouds will be rendered.
@@ -596,19 +633,25 @@ _version = 4
 				# If false all LOD beacon beams will only ever be 1 block wide.
 				expandDistantBeacons = true
 				#
-				# Sets the maximum height at which beacons will render.This will only affect new beacons coming into LOD render distance.Beacons currently visible in LOD chunks will not be affected.
+				# Sets the maximum height beacons will render up to. 
+				# 
+				# Requires a world re-load to take affect.
 				beaconRenderHeight = 6000
 				#
 				# If true LOD beacon beams will be rendered.
 				enableBeaconRendering = true
 				#
-				# If true non terrain objects will be rendered in DH's terrain. 
-				# This includes beacon beams and clouds.
+				# If true non terrain objects will be rendered by DH. 
+				# i.e. beacon beams and clouds.
 				enableGenericRendering = true
+				#
+				# False = DH will render a single layer of clouds, like vanilla Minecraft. 
+				# True = DH will render 3 layers of clouds at different heights.
+				enableMultiLayerClouds = true
 
 			[client.advanced.graphics.quality]
 				#
-				# What is the maximum detail LODs should be drawn at? 
+				# What is the maximum detail LODs can render at? 
 				# Higher settings will increase memory and GPU usage. 
 				# 
 				# CHUNK: render 1 LOD for each Chunk. 
@@ -617,8 +660,8 @@ _version = 4
 				# TWO_BLOCKS: render 64 LODs for each Chunk. 
 				# BLOCK: render 256 LODs for each Chunk (width of one block). 
 				# 
-				# Lowest Quality: CHUNK
-				# Highest Quality: BLOCK
+				# Fastest: CHUNK
+				# Fanciest: BLOCK
 				maxHorizontalResolution = "BLOCK"
 				#
 				# If true LODs will fade away as you get closer to them. 
@@ -657,7 +700,7 @@ _version = 4
 				# Higher options will make the world more accurate, butwill increase memory and GPU usage. 
 				# 
 				# Lowest Quality: HEIGHT_MAP
-				# Highest Quality: EXTREME
+				# Highest Quality: PIXEL_ART
 				verticalQuality = "MEDIUM"
 				#
 				# What blocks shouldn't be rendered as LODs? 
@@ -667,6 +710,10 @@ _version = 4
 				blocksToIgnore = "NON_COLLIDING"
 				#
 				# The radius of the mod's render distance. (measured in chunks)
+				# 
+				# Note: this is a best effort number. 
+				# The actual render distance may be above or below this number 
+				# depending on your other graphic settings.
 				lodChunkRenderDistanceRadius = 32
 				#
 				# How should the sides and bottom of grass block LODs render? 
@@ -682,20 +729,20 @@ _version = 4
 				# False: skipped blocks will not change color of surface below them.
 				tintWithAvoidedBlocks = true
 				#
-				# This indicates how quickly LODs decrease in quality the further away they are. 
-				# Higher settings will render higher quality fake chunks farther away, 
+				# This indicates how far apart drops in LOD quality are. 
+				# 
+				# Higher settings will increase the distance between drops 
 				# but will increase memory and GPU usage.
 				horizontalQuality = "MEDIUM"
 				#
 				# How should LOD transparency be handled. 
 				# 
 				# COMPLETE: LODs will render transparent. 
-				# FAKE: LODs will be opaque, but shaded to match the blocks underneath. 
 				# DISABLED: LODs will be opaque.
 				transparency = "COMPLETE"
 				#
 				# This is the same as vanilla Biome Blending settings for Lod area. 
-				#     Note that anything other than '0' will greatly effect Lod building time. 
+				#     Note: anything above '0' will slow down LOD loading time. 
 				# 
 				#     '0' equals to Vanilla Biome Blending of '1x1' or 'OFF', 
 				#     '1' equals to Vanilla Biome Blending of '3x3', 
@@ -708,6 +755,30 @@ _version = 4
 				# SINGLE_PASS: Fades after MC's transparent pass, opaque blocks underwater won't be faded. 
 				# DOUBLE_PASS: Slowest, fades after both MC's opaque and transparent passes, provides the smoothest transition.
 				vanillaFadeMode = "DOUBLE_PASS"
+				#
+				# If true DH will try to use the camera position when 
+				# determining LOD quality drop-off. 
+				# If false DH will use the player's position. 
+				#  
+				# Enabling helps free-cam mods render correctly. 
+				# Disabling helps multi-camera mods render correctly (ie Immersive Portals or camera mods).
+				useCameraPositionForQualityDropOff = true
+				#
+				# If true LOD quality will increase when the camera is zoomed in, 
+				# IE when using a spyglass or zoom mod. 
+				# 
+				# Only LODs visible through the camera view are affected. 
+				# 
+				# When zoomed in LODs will load to the same detail level 
+				# they would have if you were close to them.
+				increaseQualityWhenZoomedIn = true
+				#
+				# How many detail levels zooming in can increase LOD quality by. 
+				# Higher numbers allow stronger zooms to render crisper terrain, 
+				# but will increase memory and GPU usage while zoomed in. 
+				#  
+				# A vanilla spyglass needs 4 detail levels to reach its full quality.
+				maxZoomQualityIncrease = 4
 
 			[client.advanced.graphics.fog]
 				#
@@ -824,6 +895,62 @@ _version = 4
 					# 0.0: Fog end with no offset.
 					# 1.0: Fog end with offset of the entire world's height. (Include depth)
 					heightFogEnd = "1.0"
+
+			[client.advanced.graphics.texture]
+				#
+				# If true nearby and zoomed-in LODs will render with their block's 
+				# actual texture instead of a single flat color. 
+				#  
+				# Only applies to high detail LODs where the texture is actually visible, 
+				# distant LODs always use flat colors. 
+				# Some shader packs nay not have an affect.
+				enableTexturedLods = true
+				#
+				# The highest detail level number that can render with block textures. 
+				# At higher detail levels each LOD covers multiple blocks, 
+				# which can essentially make textures smaller than a pixel and therefore invisible. 
+				#  
+				# Larger numbers texture more distant LODs 
+				# but increase memory usage.
+				maxTexturedLodDetailLevel = 2
+				#
+				# A comma separated list of block resource locations 
+				# that DH won't render textures on. 
+				# Partial matches/incomplete resource locations will also match. 
+				# 
+				# Example: "minecraft:grass_block,nylium" 
+				# 
+				# Changes require a restart.
+				blocksDontRenderTextureCsv = "minecraft:bamboo"
+				#
+				# A comma separated list of block resource locations 
+				# that DH will render their sides using the bottom texture. 
+				# Partial matches/incomplete resource locations will also match. 
+				# 
+				# Example: "minecraft:grass_block,nylium" 
+				# 
+				# Changes require a restart.
+				blocksDontUseSideTextureCsv = "grass_block,mycelium,nylium,dirt_path"
+				#
+				# A comma separated list of tag names 
+				# that DH will render their sides using the bottom texture. 
+				# 
+				# Example: "grass_blocks,nylium" 
+				# 
+				# Changes require a restart.
+				blockTagsDontUseSideTextureCsv = "grass_blocks,nylium"
+				#
+				# A comma separated list of block resource locations 
+				# that DH will use rasterization to determine 
+				# the face textures.
+				# 
+				# Can be used to fix issues with mods/blocks where
+				# a side uses just part of a modeled block's texture. 
+				# 
+				# Example: "minecraft:beacon" 
+				# 
+				# Changes require a restart.
+				blocksAlwaysRasterizeTextureCsv = "minecraft:beacon"
 
 		[client.advanced.multiplayer]
 			#

@@ -3,7 +3,7 @@
   "style": "CLASSIC",
   "scale": 2.0,
   "customOffsetX": 0,
-  "customOffsetY": 9,
+  "customOffsetY": 0,
   "viewAngle": 180.0,
   "showCoordinates": false,
   "elementsOnXpBar": true,

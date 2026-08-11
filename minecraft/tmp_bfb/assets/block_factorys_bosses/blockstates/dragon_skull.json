@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "block_factorys_bosses:block/dragon_skull"
+    },
+    "facing=east": {
+      "model": "block_factorys_bosses:block/dragon_skull",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "block_factorys_bosses:block/dragon_skull",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "block_factorys_bosses:block/dragon_skull",
+      "y": 270
+    }
+  }
+}

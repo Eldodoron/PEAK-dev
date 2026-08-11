@@ -16,19 +16,7 @@
 	# Default: 0.05
 	# Range: 0.0 ~ 5.0
 	bloodCostRatioMax = 0.05
-	#Fraction of maximum blood required to enter the high-blood casting state.
-	# Default: 0.5
-	# Range: 0.0 ~ 1.0
-	highBloodThresholdFraction = 0.5
-	#Cooldown multiplier applied when the caster has at least the configured high-blood threshold.
-	# Default: 0.5
-	# Range: 0.0 ~ 10.0
-	highBloodCooldownMultiplier = 0.5
-	#Cooldown multiplier applied when the caster is below the high-blood threshold and casts without spending blood.
-	# Default: 2.0
-	# Range: 0.0 ~ 10.0
-	lowBloodCooldownMultiplier = 2.0
-	#Mana cost multiplier applied to the Devour spell.
+	#Mana cost multiplier applied to Devour for vampire players.
 	# Default: 2.0
 	# Range: 0.0 ~ 10.0
 	devourManaMultiplier = 2.0
@@ -48,3 +36,11 @@
 	# Default: 0.5
 	# Range: 0.0 ~ 5.0
 	rayBloodSaturation = 0.5
+	#When true, vampire players always replace mana with blood for Blood School spells.
+	#When false, blood is used only when current mana cannot cover the full mana cost.
+	#Ray of Siphoning, creative players, non-mana cast sources, and recasts are excluded.
+	alwaysUseBloodForVampireBloodSpells = false
+	#Cooldown multiplier for every Blood School spell cast by a vampire player.
+	# Default: 0.6666666666666666
+	# Range: 0.0 ~ 10.0
+	vampireBloodSpellCooldownMultiplier = 0.6666666666666666

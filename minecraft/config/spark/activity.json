@@ -1,1 +1,41 @@
-[]
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "Eldodoron",
+      "uniqueId": "49be79aa-731a-4f2a-bf25-9d3b8eb016b4"
+    },
+    "time": 1786427033389,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/6WIxjAjV5V"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Eldodoron",
+      "uniqueId": "49be79aa-731a-4f2a-bf25-9d3b8eb016b4"
+    },
+    "time": 1786391302845,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/nAq8e01sox"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Eldodoron",
+      "uniqueId": "49be79aa-731a-4f2a-bf25-9d3b8eb016b4"
+    },
+    "time": 1786389667384,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/vrPRZVrMwt"
+    }
+  }
+]

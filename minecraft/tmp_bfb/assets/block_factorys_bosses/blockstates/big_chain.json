@@ -1,0 +1,11 @@
+{
+  "variants": {
+    "blockstate=1": {
+      "model": "block_factorys_bosses:block/big_chain"
+    },
+    "blockstate=2": {
+      "model": "block_factorys_bosses:block/big_chain",
+      "y": 90
+    }
+  }
+}

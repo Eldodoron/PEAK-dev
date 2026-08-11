@@ -1,25 +1,18 @@
-filename = 'rarcompat-1.21-0.9.7.jar'
+filename = 'reliquified_artifacts-1.21.1-1.0.jar'
 name = 'Reliquified Artifacts'
 side = 'both'
+x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge' ]
-x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
-x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '0.9.7'
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '1.0'
 
 [download]
-hash = 'a4cacdde7db4b8eace4e50bfead8c17a69250e928169c667dff3bd32188b997a6c7434b6dd16b7d82664e1aabaec96b316645af5869283647b0416c7c216b999'
+hash = '0fb1075d87b822eeeee2811839454206fac9178388f72563272550a6e27e8bd4c4a9b8731db20b701362cc411e6f44bc30178c3ed0c942ec1fd5022bdc365956'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/GnU07giL/versions/RjDi7tua/rarcompat-1.21-0.9.7.jar'
+url = 'https://cdn.modrinth.com/data/GnU07giL/versions/wuZGGuwz/reliquified_artifacts-1.21.1-1.0.jar'
 
 [update.modrinth]
 mod-id = 'GnU07giL'
-version = 'RjDi7tua'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'P0Mu4wcQ'
-type = 'REQUIRED'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'OCJRPujW'
-type = 'REQUIRED'
+version = 'wuZGGuwz'

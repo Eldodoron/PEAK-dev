@@ -8,12 +8,12 @@ ServerEvents.recipes(event => {
     event.shaped(
         Item.of('minecraft:diamond_sword', {
             // Custom Display Name (must be a JSON component string in 1.21+)
-            'minecraft:custom_name': '"Â§bPEAK Zenith SaberÂ§r"',
+            'minecraft:custom_name': '{"text":"PEAK Zenith Saber","color":"aqua"}',
             
             // Lore (Array of JSON component strings in 1.21+)
             'minecraft:lore': [
-                '"Â§7Forged inside PEAK dev instance.Â§r"',
-                '"Â§8Active stabilizing core.Â§r"'
+                '{"text":"Forged inside PEAK dev instance.","color":"gray"}',
+                '{"text":"Active stabilizing core.","color":"dark_gray"}'
             ],
             
             // Enchantments (levels object map in 1.21+)
@@ -53,7 +53,7 @@ ItemEvents.crafted(event => {
         let player = event.player;
         if (player) {
             // Send the calibration message
-            player.tell('Ã‚Â§b[PEAK]Ã‚Â§r Zenith Saber successfully calibrated and ready!');
+            player.tell(Text.aqua('[PEAK] ').append(Text.white('Zenith Saber successfully calibrated and ready!')));
             
             // Trigger the toast challenge complete sound effect
             player.playSound('minecraft:ui.toast.challenge_complete', 1.0, 1.0);

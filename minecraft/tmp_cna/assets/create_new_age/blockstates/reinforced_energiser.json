@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "create_new_age:block/reinforced_energiser",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "create_new_age:block/reinforced_energiser"
+    },
+    "facing=south": {
+      "model": "create_new_age:block/reinforced_energiser",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "create_new_age:block/reinforced_energiser",
+      "y": 270
+    }
+  }
+}

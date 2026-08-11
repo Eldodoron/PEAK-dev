@@ -1,0 +1,26 @@
+# Don't change this! Version used to track needed updates.
+version = 1
+# Enables/disables - Knaves' Needs' Warden additions.
+wardenEnabled = true
+# Warden durability/uses, can be any whole number.
+wardenDurability = 2519
+# Warden attack speed, can be any decimal number.
+wardenSpeed = 10.0
+# Warden bonus damage, can be any decimal number.
+wardenAttackBonus = 5.0
+# Warden mining level, can be any whole number.
+wardenMiningLevel = 1
+# Warden enchantability, can be any whole number.
+wardenEnchantability = 18
+# Enables/disables - Knaves' Needs' Resonarium additions.
+resonariumEnabled = false
+# Resonarium durability/uses, can be any whole number.
+resonariumDurability = 1193
+# Resonarium attack speed, can be any decimal number.
+resonariumSpeed = 8.0
+# Resonarium bonus damage, can be any decimal number.
+resonariumAttackBonus = 3.0
+# Resonarium mining level, can be any whole number.
+resonariumMiningLevel = 1
+# Resonarium enchantability, can be any whole number.
+resonariumEnchantability = 15

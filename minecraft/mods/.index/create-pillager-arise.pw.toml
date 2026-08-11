@@ -1,18 +1,18 @@
-filename = 'create_pillagers_arise-132.32 Release-neoforge-1.21.1.jar'
-name = 'Create: Pillager Arise'
-side = 'both'
+filename = 'create_pillagers_arise NeoForge 1.21.1-132.36.jar'
+name = 'Create: Pillagers Arise'
+side = ''
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '132.32'
+x-prismlauncher-version-number = '132.36'
 
 [download]
-hash = 'fbc90f0e918d834c72e067fa64a836d2022de846c652156f25e2c4b56fe1c979bbbda45fe7595273680039b9a48552dc250cf6dbc2b8c0e8f7ae1963018e6e0d'
+hash = '81405f806b400c11b6052e35212923935f5e1052c8b0068f33794ea754c6b50ff658c8ec99b8eab7bd26c517b5f8572c07c8429e6391fc01066ea065c7adbee8'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/VT2rW2wr/versions/PXXtJByp/create_pillagers_arise-132.32 Release-neoforge-1.21.1.jar'
+url = 'https://cdn.modrinth.com/data/VT2rW2wr/versions/dSpuz2DS/create_pillagers_arise NeoForge 1.21.1-132.36.jar'
 
 [update.modrinth]
 mod-id = 'VT2rW2wr'
-version = 'PXXtJByp'
+version = 'dSpuz2DS'

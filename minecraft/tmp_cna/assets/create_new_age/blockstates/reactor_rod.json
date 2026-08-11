@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "axis=x,lit=false": {
+      "model": "create_new_age:block/reactor_rod_off",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,lit=true": {
+      "model": "create_new_age:block/reactor_rod_on",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y,lit=false": {
+      "model": "create_new_age:block/reactor_rod_off"
+    },
+    "axis=y,lit=true": {
+      "model": "create_new_age:block/reactor_rod_on"
+    },
+    "axis=z,lit=false": {
+      "model": "create_new_age:block/reactor_rod_off",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,lit=true": {
+      "model": "create_new_age:block/reactor_rod_on",
+      "x": 90,
+      "y": 180
+    }
+  }
+}

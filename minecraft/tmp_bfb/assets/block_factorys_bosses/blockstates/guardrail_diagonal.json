@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "block_factorys_bosses:block/guardrail_diagonal_up" },
+    "facing=south": { "model": "block_factorys_bosses:block/guardrail_diagonal_up", "y": 180 },
+    "facing=east":  { "model": "block_factorys_bosses:block/guardrail_diagonal_up", "y": 90 },
+    "facing=west":  { "model": "block_factorys_bosses:block/guardrail_diagonal_up", "y": 270 }
+  }
+}

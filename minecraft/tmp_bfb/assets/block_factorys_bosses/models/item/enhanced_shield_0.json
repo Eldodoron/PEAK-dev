@@ -1,0 +1,7 @@
+{
+  "parent": "block_factorys_bosses:custom/shield_blocking",
+  "textures": {
+    "3": "block_factorys_bosses:block/shield",
+    "particle": "minecraft:item/empty_armor_slot_shield"
+  }
+}

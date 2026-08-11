@@ -1,0 +1,38 @@
+{
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "block_factorys_bosses:underworld_arena_empty_spawner",
+				"projection": "rigid",
+				"processors": {
+					"processors": []
+				}
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "block_factorys_bosses:underworld_arena_empty_trial_spawner",
+				"projection": "rigid",
+				"processors": {
+					"processors": []
+				}
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "block_factorys_bosses:underworld_arena_empty_vault",
+				"projection": "rigid",
+				"processors": {
+					"processors": []
+				}
+			}
+		}
+	]
+}

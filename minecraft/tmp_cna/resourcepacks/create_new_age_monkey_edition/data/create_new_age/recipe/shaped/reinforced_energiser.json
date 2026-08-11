@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "tag": "c:storage_blocks/copper"
+    },
+    "R": {
+      "tag": "c:storage_blocks/redstone"
+    },
+    "E": {
+      "tag": "c:storage_blocks/diamond"
+    },
+    "c": {
+      "tag": "c:ingots/copper"
+    },
+    "d": {
+      "tag": "c:gems/diamond"
+    }
+  },
+  "pattern": [
+    "RER",
+    "dcd",
+    " C "
+  ],
+  "result": {
+    "count": 1,
+    "id": "create_new_age:reinforced_energiser"
+  },
+  "show_notification": true
+}

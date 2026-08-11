@@ -3,4 +3,13 @@ ServerEvents.tags('item', event => {
     // Unify screwdrivers
     event.add('c:tools/screwdriver', 'immersiveengineering:screwdriver');
     event.add('c:tools/screwdriver', 'tfmg:screwdriver');
+
+    // Runes tag for recipes
+    event.add('kubejs:irons_runes', [
+        'irons_spellbooks:arcane_rune', 'irons_spellbooks:blank_rune', 'irons_spellbooks:blood_rune',
+        'irons_spellbooks:cinderous_soul_rune', 'irons_spellbooks:cooldown_rune', 'irons_spellbooks:ender_rune',
+        'irons_spellbooks:evocation_rune', 'irons_spellbooks:fire_rune', 'irons_spellbooks:holy_rune',
+        'irons_spellbooks:ice_rune', 'irons_spellbooks:lightning_rune', 'irons_spellbooks:nature_rune',
+        'irons_spellbooks:protection_rune'
+    ]);
 });

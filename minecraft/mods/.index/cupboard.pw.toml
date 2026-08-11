@@ -1,18 +1,18 @@
-filename = 'cupboard-1.21-3.7.jar'
+filename = 'cupboard-1.21.1-3.9.jar'
 name = 'Cupboard mod'
-side = ''
+side = 'server'
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge' ]
-x-prismlauncher-mc-versions = [ '1.21', '1.21.1', '1.21.2', '1.21.3', '1.21.4', '1.21.5' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'cupboard-1.21-3.7.jar'
+x-prismlauncher-version-number = 'cupboard-1.21.1-3.9.jar'
 
 [download]
-hash = '428c992f2c01bb84f3da14db244728695117b0a0'
+hash = '39952f4de65df780cf68ab0fd2f3d44a53d855f2'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 8217735
+file-id = 8481114
 project-id = 326652

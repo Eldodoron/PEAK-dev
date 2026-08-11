@@ -105,6 +105,9 @@
     "energy": true,
     "tooltip_renderer": true
   },
+  "quark": {
+    "oretoise_eating_cooldown": true
+  },
   "reliquary": {
     "pedestal": true,
     "altar": true,
@@ -175,9 +178,6 @@
   },
   "ars_nouveau": {
     "mob_jar": true
-  },
-  "betterend": {
-    "plant_growth": true
   },
   "twilightforest": {
     "drying_rack": true,

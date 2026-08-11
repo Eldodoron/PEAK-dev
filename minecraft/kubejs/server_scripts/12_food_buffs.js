@@ -34,7 +34,7 @@ ItemEvents.foodEaten(event => {
         player.potionEffects.add('minecraft:strength', 18000, 0);
         player.potionEffects.add('minecraft:resistance', 18000, 0);
         player.potionEffects.add('minecraft:regeneration', 3600, 0); // 3 min regen
-        player.tell('Â§aâœ¦ A hearty meal! You feel reinvigorated. âœ¦');
+        player.tell(Text.green('\u2726 A hearty meal! You feel reinvigorated. \u2726'));
     }
 
     // --- TIER 4: DIMENSIONAL FEASTS (30 MINUTES) ---
@@ -58,7 +58,7 @@ ItemEvents.foodEaten(event => {
         player.potionEffects.add('minecraft:resistance', 36000, 0);
         player.potionEffects.add('minecraft:fire_resistance', 36000, 0);
         player.potionEffects.add('minecraft:absorption', 36000, 1);
-        player.tell('Â§6âœ¦ The dimensional feast empowers your very soul! âœ¦');
+        player.tell(Text.gold('\u2726 The dimensional feast empowers your very soul! \u2726'));
     }
 
     // --- TIER 5: MASTER FEASTS (60 MINUTES) ---
@@ -77,7 +77,7 @@ ItemEvents.foodEaten(event => {
         player.potionEffects.add('minecraft:resistance', 72000, 1);
         player.potionEffects.add('minecraft:absorption', 72000, 3);
         player.potionEffects.add('minecraft:regeneration', 7200, 1); // Regen is 6 mins
-        player.tell('Â§dâœ¦ A culinary masterpiece! You feel unstoppable! âœ¦');
+        player.tell(Text.lightPurple('\u2726 A culinary masterpiece! You feel unstoppable! \u2726'));
     }
 
     // --- MAGICAL PIES (Ars Delight) â€” SPECIAL BUFFS ---
@@ -94,7 +94,7 @@ ItemEvents.foodEaten(event => {
         player.potionEffects.add('minecraft:speed', 54000, 1);
         player.potionEffects.add('minecraft:luck', 54000, 0);
         player.potionEffects.add('minecraft:strength', 54000, 0);
-        player.tell('Â§bâœ¦ Arcane flavors heighten your senses! âœ¦');
+        player.tell(Text.aqua('\u2726 Arcane flavors heighten your senses! \u2726'));
     }
 });
 

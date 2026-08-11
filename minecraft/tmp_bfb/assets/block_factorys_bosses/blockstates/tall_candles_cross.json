@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "blockstate=1": {
+      "model": "block_factorys_bosses:block/tall_twisted_candle_blockstates_blockstate_0"
+    },
+    "blockstate=2": {
+      "model": "block_factorys_bosses:block/tall_twisted_candle_blockstates_blockstate_1"
+    }
+  }
+}

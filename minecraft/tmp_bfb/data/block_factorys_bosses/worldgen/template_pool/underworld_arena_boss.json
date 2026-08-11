@@ -1,0 +1,61 @@
+{
+	"name": "block_factorys_bosses:underworld_arena_rooms",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "block_factorys_bosses:underworld_arena_1",
+				"projection": "rigid",
+				"processors": {
+					"processors": []
+				}
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "block_factorys_bosses:underworld_arena_1_top",
+				"projection": "rigid",
+				"processors": {
+					"processors": []
+				}
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "block_factorys_bosses:underworld_arena_2",
+				"projection": "rigid",
+				"processors": {
+					"processors": []
+				}
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "block_factorys_bosses:underworld_arena_2_top",
+				"projection": "rigid",
+				"processors": {
+					"processors": []
+				}
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "block_factorys_bosses:underworld_arena_3",
+				"projection": "rigid",
+				"processors": {
+					"processors": []
+				}
+			}
+		}
+	]
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "block_factorys_bosses:big_oak_planks"
+  },
+  "result": {
+    "count": 1,
+    "id": "block_factorys_bosses:big_oak_planks_variation"
+  }
+}

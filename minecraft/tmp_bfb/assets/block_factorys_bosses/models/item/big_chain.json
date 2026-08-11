@@ -1,0 +1,28 @@
+{
+  "parent": "block_factorys_bosses:custom/chainitem",
+  "textures": {
+    "all": "block_factorys_bosses:block/big_chains",
+    "particle": "block_factorys_bosses:block/big_chains",
+    "0": "block_factorys_bosses:block/big_chains"
+  },
+  "render_type": "cutout",
+  "display": {
+    "thirdperson": {
+      "rotation": [
+        10,
+        -45,
+        170
+      ],
+      "translation": [
+        0,
+        1.5,
+        -2.75
+      ],
+      "scale": [
+        0.375,
+        0.375,
+        0.375
+      ]
+    }
+  }
+}

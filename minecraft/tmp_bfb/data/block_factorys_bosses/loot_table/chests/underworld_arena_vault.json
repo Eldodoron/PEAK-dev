@@ -1,0 +1,304 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": {
+				"min": 3,
+				"max": 4
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:diamond",
+					"weight": 2904,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 3,
+								"max": 4
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "block_factorys_bosses:underworld_arena_key",
+					"weight": 2904,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 0,
+								"max": 1
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:gold_ingot",
+					"weight": 2904,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 4,
+								"max": 6
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:coal",
+					"weight": 2531,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 3,
+								"max": 8
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:iron_ingot",
+					"weight": 2237,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 4,
+								"max": 8
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:experience_bottle",
+					"weight": 2237,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 5,
+								"max": 7
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:golden_apple",
+					"weight": 2237,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:magma_cream",
+					"weight": 1531,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 3,
+								"max": 4
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:diamond_boots",
+					"weight": 1000,
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": 20,
+							"treasure": true
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:diamond_chestplate",
+					"weight": 1000,
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": 20,
+							"treasure": true
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:diamond_helmet",
+					"weight": 1000,
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": 20,
+							"treasure": true
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:diamond_leggings",
+					"weight": 1000,
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": 20,
+							"treasure": true
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:diamond_sword",
+					"weight": 1000,
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": 20,
+							"treasure": true
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "block_factorys_bosses:dagger",
+					"weight": 500,
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": 20,
+							"treasure": true
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "block_factorys_bosses:enhanced_shield",
+					"weight": 500,
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": 20,
+							"treasure": true
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "block_factorys_bosses:large_sword",
+					"weight": 500,
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": 20,
+							"treasure": true
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "block_factorys_bosses:warrior_sword",
+					"weight": 500,
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": 20,
+							"treasure": true
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:totem_of_undying",
+					"weight": 500
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:enchanted_golden_apple",
+					"weight": 281
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:ancient_debris",
+					"weight": 281,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 4
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:netherite_scrap",
+					"weight": 281,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 3,
+								"max": 7
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:wither_skeleton_skull",
+					"weight": 281,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:netherite_ingot",
+					"weight": 500
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:book",
+					"weight": 500,
+					"functions": [
+						{
+							"function": "minecraft:set_enchantments",
+							"enchantments": {
+								"minecraft:mending": 1
+							}
+						}
+					]
+				}
+			]
+		}
+	],
+	"random_sequence": "block_factorys_bosses:chests/underworld_arena_vault"
+}

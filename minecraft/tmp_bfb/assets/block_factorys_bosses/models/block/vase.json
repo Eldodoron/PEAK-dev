@@ -1,0 +1,9 @@
+{
+  "parent": "block_factorys_bosses:custom/vase",
+  "textures": {
+    "all": "block_factorys_bosses:block/vase_sheet",
+    "particle": "block_factorys_bosses:block/vase_particule",
+    "0": "block_factorys_bosses:block/vase_sheet"
+  },
+  "render_type": "cutout"
+}

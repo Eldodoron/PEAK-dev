@@ -1,31 +1,31 @@
-filename = 'iceandfire-2.0-beta.17.jar'
+filename = 'iceandfire-2.1-beta.3.jar'
 name = 'Ice And Fire Community Edition'
 side = 'server'
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'beta'
-x-prismlauncher-version-number = 'iceandfire-2.0-beta.17.jar'
+x-prismlauncher-version-number = 'iceandfire-2.1-beta.3.jar'
 
 [download]
-hash = 'a14c9ca16da7a108bb454000e560a0f8495ff0fe'
+hash = '217498b651056dd7a17bfa32c005fd6155c13003'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 8147245
+file-id = 8575617
 project-id = 1040076
-
-[[x-prismlauncher-dependencies]]
-addonId = '993166'
-type = 'OPTIONAL'
 
 [[x-prismlauncher-dependencies]]
 addonId = '398521'
 type = 'OPTIONAL'
 
 [[x-prismlauncher-dependencies]]
-addonId = '580555'
+addonId = '324717'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '993166'
 type = 'OPTIONAL'
 
 [[x-prismlauncher-dependencies]]
@@ -33,9 +33,9 @@ addonId = '1072905'
 type = 'REQUIRED'
 
 [[x-prismlauncher-dependencies]]
-addonId = '324717'
-type = 'OPTIONAL'
-
-[[x-prismlauncher-dependencies]]
 addonId = '1010827'
 type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '580555'
+type = 'OPTIONAL'

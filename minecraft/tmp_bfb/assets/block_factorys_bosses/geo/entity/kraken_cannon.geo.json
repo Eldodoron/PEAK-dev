@@ -1,0 +1,81 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.unknown",
+				"texture_width": 256,
+				"texture_height": 256,
+				"visible_bounds_width": 6,
+				"visible_bounds_height": 5.5,
+				"visible_bounds_offset": [0, 2.25, 0]
+			},
+			"bones": [
+				{
+					"name": "all",
+					"pivot": [0, 1, 1],
+					"cubes": [
+						{"origin": [-24, 0, -24], "size": [48, 6, 48], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "rotating_horizontal",
+					"parent": "all",
+					"pivot": [0, 5, 1],
+					"cubes": [
+						{"origin": [13, 17, -8], "size": [5, 29, 16], "uv": [163, 74]},
+						{"origin": [-13, 17, -8], "size": [26, 4, 16], "uv": [160, 54]},
+						{"origin": [-5.5, 7, -6], "size": [11, 15, 12], "uv": [100, 187]},
+						{"origin": [-17, 6, -17], "size": [34, 1, 34], "uv": [0, 135]},
+						{"origin": [-18, 17, -8], "size": [5, 29, 16], "uv": [163, 74], "mirror": true}
+					]
+				},
+				{
+					"name": "rotating_vertical",
+					"parent": "rotating_horizontal",
+					"pivot": [0, 36, 1],
+					"cubes": [
+						{"origin": [-13, 31, -14], "size": [26, 20, 32], "uv": [136, 135]},
+						{"origin": [-10, 35, -53], "size": [20, 20, 61], "uv": [0, 54]},
+						{"origin": [-8, 42, 18], "size": [16, 6, 13], "uv": [42, 170]},
+						{"origin": [-8, 41.5, 30.8], "size": [16, 19, 5], "inflate": 0.01, "pivot": [0, 50, 33.3], "rotation": [-10, 0, 0], "uv": [146, 187]},
+						{"origin": [-2, 37, 18], "size": [4, 5, 16], "uv": [42, 189]},
+						{"origin": [-9.5, 55, -48], "size": [19, 14, 0], "uv": [165, 121]}
+					]
+				},
+				{
+					"name": "seat",
+					"parent": "rotating_vertical",
+					"pivot": [0, 48, 29]
+				},
+				{
+					"name": "control",
+					"parent": "rotating_vertical",
+					"pivot": [-0.5, 51, 14],
+					"cubes": [
+						{"origin": [-1.5, 51, 12], "size": [3, 4, 3], "uv": [124, 170]}
+					]
+				},
+				{
+					"name": "control2",
+					"parent": "control",
+					"pivot": [0, 55.4, 14.8],
+					"cubes": [
+						{"origin": [-6.5, 54, 14], "size": [2, 7, 2], "pivot": [0, 56.5, 14.5], "rotation": [-32.5, 0, 0], "uv": [100, 176]},
+						{"origin": [-4.5, 54, 13], "size": [9, 3, 3], "pivot": [0, 56.5, 14.5], "rotation": [-32.5, 0, 0], "uv": [100, 170]},
+						{"origin": [4.5, 54, 14], "size": [2, 7, 2], "pivot": [0, 56.5, 14.5], "rotation": [-32.5, 0, 0], "uv": [108, 176]}
+					]
+				},
+				{
+					"name": "ladder",
+					"parent": "rotating_vertical",
+					"pivot": [8, 42.7, 25],
+					"cubes": [
+						{"origin": [8, 14, 18], "size": [0, 28, 13], "uv": [188, 187]},
+						{"origin": [-8, 14, 18], "size": [0, 28, 13], "uv": [188, 187]}
+					]
+				}
+			]
+		}
+	]
+}

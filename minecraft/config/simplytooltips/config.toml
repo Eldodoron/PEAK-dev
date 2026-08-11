@@ -11,7 +11,7 @@ applyTooltipsToModItems = false
 [layout]
 padding = 10
 lineSpacing = 1
-maxTextWidth = 221
+maxTextWidth = 160
 maxBodyHeight = 160
 
 [animation]

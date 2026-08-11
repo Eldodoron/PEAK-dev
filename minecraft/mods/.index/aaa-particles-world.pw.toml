@@ -1,25 +1,25 @@
-filename = 'aaa_particles_world-neoforge-1.21-1.0.3.jar'
-name = 'AAA Particles: World'
-side = 'client'
+filename = 'aaa_particles_world-neoforge-1.21.1-2.0.0.jar'
+name = 'AAAParticles: World'
+side = ''
 x-prismlauncher-loaders = [ 'neoforge' ]
-x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '1.21-1.0.3-neoforge'
+x-prismlauncher-version-number = 'neoforge-1.21.1-2.0.0'
 
 [download]
-hash = 'ce4e4aca9dff8eaf075704adaea196ab3d2d0822fb7c0639a4cb0dd90088c92028feed601066d80fa74a56935ff2d95cb8dcdb348cd9ff47caaf2a1c86618e92'
+hash = 'a80f54e761adf00aa392e0e675f2da4e5546ed241ba14d569d396e9114da45ad3fbe3f643e157fd150b97fe2cc8a55c862778d9d717bc4963e18d1323a20fb97'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/Yr92MC4d/versions/LdVptZig/aaa_particles_world-neoforge-1.21-1.0.3.jar'
+url = 'https://cdn.modrinth.com/data/Yr92MC4d/versions/2T7gxgVP/aaa_particles_world-neoforge-1.21.1-2.0.0.jar'
 
 [update.modrinth]
 mod-id = 'Yr92MC4d'
-version = 'LdVptZig'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'lhGA9TYQ'
-type = 'REQUIRED'
+version = '2T7gxgVP'
 
 [[x-prismlauncher-dependencies]]
 addonId = 'En8uHTOK'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'lhGA9TYQ'
 type = 'REQUIRED'

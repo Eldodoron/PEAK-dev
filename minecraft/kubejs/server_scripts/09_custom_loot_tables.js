@@ -117,6 +117,26 @@ EntityEvents.death(event => {
     }
 
     // ==========================================
+    // BLOCK FACTORY'S BOSSES
+    // ==========================================
+
+    if (entityType === 'block_factorys_bosses:infernal_dragon' ||
+        entityType === 'block_factorys_bosses:yeti' ||
+        entityType === 'block_factorys_bosses:sandworm' ||
+        entityType === 'block_factorys_bosses:kraken' ||
+        entityType === 'block_factorys_bosses:underworld_knight') {
+        dropItem('kubejs:infinity_fragment', 1, 3);
+    }
+
+    // ==========================================
+    // ARS NOUVEAU BOSS (WILDEN CHIMERA)
+    // ==========================================
+
+    if (entityType === 'ars_nouveau:wilden_boss') {
+        dropItem('kubejs:infinity_fragment', 1, 3);
+    }
+
+    // ==========================================
     // ALEX'S MOBS / ALEX'S CAVES BOSSES
     // ==========================================
 
@@ -131,21 +151,51 @@ EntityEvents.death(event => {
     // they kill each specific boss type.
 
     const eyeBosses = [
+        // Mowzie's Mobs
         'mowziesmobs:frostmaw',
         'mowziesmobs:ferrous_wroughtnaut',
+        // Twilight Forest
         'twilightforest:naga',
         'twilightforest:lich',
+        'twilightforest:minoshroom',
+        'twilightforest:hydra',
+        'twilightforest:ur_ghast',
+        'twilightforest:alpha_yeti',
+        'twilightforest:snow_queen',
+        'twilightforest:knight_phantom',
+        // L_Ender's Cataclysm
         'cataclysm:ancient_remnant',
         'cataclysm:ender_guardian',
         'cataclysm:ignis',
         'cataclysm:the_leviathan',
         'cataclysm:netherite_monstrosity',
+        'cataclysm:the_harbinger',
+        // Bosses of Mass Destruction
+        'bosses_of_mass_destruction:lich',
+        'bosses_of_mass_destruction:obsidilith',
+        'bosses_of_mass_destruction:void_blossom',
+        'bosses_of_mass_destruction:gauntlet',
+        // Remnant Bosses
+        'remnant_bosses:armored_grub',
+        'remnant_bosses:bone_tyrant',
+        'remnant_bosses:remnant_ossukage',
+        // Vanilla / Ice & Fire / Alex's
         'minecraft:warden',
+        'minecraft:wither',
         'iceandfire:fire_dragon',
         'iceandfire:ice_dragon',
         'iceandfire:lightning_dragon',
-        'minecraft:wither',
-        'alexsmobs:void_worm'
+        'alexsmobs:void_worm',
+        // Block Factory's Bosses
+        'block_factorys_bosses:infernal_dragon',
+        'block_factorys_bosses:yeti',
+        'block_factorys_bosses:sandworm',
+        'block_factorys_bosses:underworld_knight',
+        'block_factorys_bosses:kraken',
+        // Magic Bosses
+        'ars_nouveau:wilden_boss',
+        'irons_spellbooks:dead_king',
+        'irons_spellbooks:fire_boss'
     ];
 
     if (eyeBosses.includes(entityType)) {
@@ -154,7 +204,7 @@ EntityEvents.death(event => {
         if (!pData.getBoolean(key)) {
             pData.putBoolean(key, true);
             event.entity.block.popItem(Item.of('minecraft:ender_eye', 1));
-            source.tell('Â§dâœ¦ You extracted an Ender Eye from defeating this powerful foe for the first time! âœ¦');
+            source.tell(Text.lightPurple('\u2726 You extracted an Ender Eye from defeating this powerful foe for the first time! \u2726'));
         }
     }
 });

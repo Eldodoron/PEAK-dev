@@ -1,0 +1,9 @@
+{
+	"multipart": [
+		{
+			"apply": {
+				"model": "block_factorys_bosses:block/underworld_arena_door"
+			}
+		}
+	]
+}

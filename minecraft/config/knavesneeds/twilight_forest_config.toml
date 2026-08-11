@@ -1,0 +1,50 @@
+# Don't change this! Version used to track needed updates.
+version = 1
+# Enables/disables - Knaves' Needs' Fiery additions.
+fieryEnabled = true
+# Fiery durability/uses, can be any whole number.
+fieryDurability = 1024
+# Fiery attack speed, can be any decimal number.
+fierySpeed = 9.0
+# Fiery bonus damage, can be any decimal number.
+fieryAttackBonus = 4.0
+# Fiery mining level, can be any whole number.
+fieryMiningLevel = 4
+# Fiery enchantability, can be any whole number.
+fieryEnchantability = 10
+# Enables/disables - Knaves' Needs' Ironwood additions.
+ironwoodEnabled = true
+# Ironwood durability/uses, can be any whole number.
+ironwoodDurability = 512
+# Ironwood attack speed, can be any decimal number.
+ironwoodSpeed = 6.5
+# Ironwood bonus damage, can be any decimal number.
+ironwoodAttackBonus = 2.5
+# Ironwood mining level, can be any whole number.
+ironwoodMiningLevel = 2
+# Ironwood enchantability, can be any whole number.
+ironwoodEnchantability = 25
+# Enables/disables - Knaves' Needs' Knightmetal additions.
+knightmetalEnabled = true
+# Knightmetal durability/uses, can be any whole number.
+knightmetalDurability = 512
+# Knightmetal attack speed, can be any decimal number.
+knightmetalSpeed = 7.0
+# Knightmetal bonus damage, can be any decimal number.
+knightmetalAttackBonus = 3.0
+# Knightmetal mining level, can be any whole number.
+knightmetalMiningLevel = 3
+# Knightmetal enchantability, can be any whole number.
+knightmetalEnchantability = 8
+# Enables/disables - Knaves' Needs' Steeleaf additions.
+steeleafEnabled = true
+# Steeleaf durability/uses, can be any whole number.
+steeleafDurability = 131
+# Steeleaf attack speed, can be any decimal number.
+steeleafSpeed = 8.0
+# Steeleaf bonus damage, can be any decimal number.
+steeleafAttackBonus = 3.0
+# Steeleaf mining level, can be any whole number.
+steeleafMiningLevel = 3
+# Steeleaf enchantability, can be any whole number.
+steeleafEnchantability = 9

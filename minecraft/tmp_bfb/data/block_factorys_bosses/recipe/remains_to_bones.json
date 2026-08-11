@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "block_factorys_bosses:bone_remains"
+    }
+  ],
+  "result": {
+    "count": 3,
+    "id": "minecraft:bone"
+  }
+}

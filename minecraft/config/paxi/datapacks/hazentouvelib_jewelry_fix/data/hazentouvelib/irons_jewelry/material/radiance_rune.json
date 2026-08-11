@@ -1,0 +1,18 @@
+{
+  "descriptionId": "material.hazentouvelib.rune_radiance",
+  "ingredient": {
+    "item": "hazentouvelib:radiance_rune"
+  },
+  "materialType": [
+    "gem"
+  ],
+  "paletteLocation": "hazentouvelib:palettes/rune_radiance",
+  "quality": 1.5,
+  "bonusParameters": {
+    "irons_jewelry:attribute": {
+      "attribute": "hazentouvelib:radiance_spell_power",
+      "amount": 0.025,
+      "operation": "add_multiplied_total"
+    }
+  }
+}

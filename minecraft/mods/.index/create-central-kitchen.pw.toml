@@ -1,20 +1,24 @@
-filename = 'create-central-kitchen-2.4.0.jar'
+filename = 'create-central-kitchen-2.5.0.jar'
 name = 'Create: Central Kitchen'
-side = 'both'
+side = ''
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
-x-prismlauncher-release-type = 'beta'
-x-prismlauncher-version-number = '2.4.0'
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '2.5.0'
 
 [download]
-hash = 'adcdb5a85b2dd727fa2b0563aa9e73d26b58ee3ae57192e049f0c2a1e4a878dc9d07fe20589f6e52e6f4be2ba1bb5ab3a64f5fcf5f1f9a42b9518e7c2380fd23'
+hash = 'a184285bd2dc3181c7a0cc1a3af8501e5ce6caa566fec14d7f3d06555707fcbac855c3b8f56d71c6e6e223df377c7f05024093046899f4375d5c65580cc62972'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/btq68HMO/versions/TUJIHmUh/create-central-kitchen-2.4.0.jar'
+url = 'https://cdn.modrinth.com/data/btq68HMO/versions/kmHFmmpV/create-central-kitchen-2.5.0.jar'
 
 [update.modrinth]
 mod-id = 'btq68HMO'
-version = 'TUJIHmUh'
+version = 'kmHFmmpV'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'LNytGWDc'
+type = 'REQUIRED'
 
 [[x-prismlauncher-dependencies]]
 addonId = 'dzb1a5WV'

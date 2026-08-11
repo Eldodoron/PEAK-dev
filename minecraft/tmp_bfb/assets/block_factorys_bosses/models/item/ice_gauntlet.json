@@ -1,0 +1,35 @@
+{
+  "loader": "neoforge:separate_transforms",
+  "gui_light": "front",
+  "base": {
+    "gui_light": "front",
+    "parent": "builtin/entity",
+    "textures": {
+      "layer0": "block_factorys_bosses:item/ice_gauntlet"
+    }
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "item/generated",
+      "textures": {
+        "layer0": "block_factorys_bosses:item/ice_gauntlet"
+      },
+      "gui_light": "front"
+    },
+    "ground": {
+      "parent": "item/generated",
+      "textures": {
+        "layer0": "block_factorys_bosses:item/ice_gauntlet"
+      },
+      "gui_light": "front"
+    }
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "blocking": 1
+      },
+      "model": "block_factorys_bosses:item/ice_gauntlet_0"
+    }
+  ]
+}

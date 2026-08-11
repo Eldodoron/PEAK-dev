@@ -1,0 +1,25 @@
+filename = 'JustEnoughBeacons-NeoForge-1.21-1.3.0.jar'
+name = 'Just Enough Beacons Reforged'
+side = 'client'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.3.0'
+
+[download]
+hash = '20040c02ca2dbf410156357e0a818270cf797b05a8b7611d07b28bc16da26fab014bee4fe2f2267968430da0bb6602064184fb0d1d09421f1e955799e5533437'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/fgqpjvEk/versions/NXAVgiee/JustEnoughBeacons-NeoForge-1.21-1.3.0.jar'
+
+[update.modrinth]
+mod-id = 'fgqpjvEk'
+version = 'NXAVgiee'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'u6dRKJwZ'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'GkIc6rRo'
+type = 'REQUIRED'

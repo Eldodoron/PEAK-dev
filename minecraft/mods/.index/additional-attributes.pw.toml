@@ -1,0 +1,18 @@
+filename = 'additional_attributes-1.21.1-1.2.2.jar'
+name = 'Additional Attributes'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Additional Attributes 1.21.1 - 1.2.2'
+
+[download]
+hash = 'c0b51977a06b3578023a4e16772aa1f8d2b6bcca'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6388896
+project-id = 986624

@@ -1,6 +1,10 @@
 [slime]
 	#Slime Blobs Enabled
 	enabled = true
+	#Slime blob RGB color (0x000000 - 0xFFFFFF)
+	# Default: 8978297
+	# Range: 0 ~ 16777215
+	color = 8978297
 
 [charge]
 	#Charge Particle Enabled

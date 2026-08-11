@@ -1,0 +1,22 @@
+# Don't change this! Version used to track needed updates.
+version = 0
+# Enables Amethyst Imbuement support.
+amethystImbuementEnabled = true
+# Enables Better End support.
+betterEndEnabled = true
+# Enables Better Nether support.
+betterNetherEnabled = true
+# Enables Blue Skies support.
+blueSkiesEnabled = true
+# Enables Deeper and Darker support.
+deeperDarkerEnabled = true
+# Enables Forbidden Arcanus support.
+forbiddenArcanusEnabled = true
+# Enables Plus The End support.
+plusTheEndEnabled = true
+# Enables Marium's Soulslike Weaponry support.
+soulsWeaponsEnabled = true
+# Enables Twilight Forest support
+twilightForestEnabled = true
+# Enables Undergarden support
+undergardenEnabled = true

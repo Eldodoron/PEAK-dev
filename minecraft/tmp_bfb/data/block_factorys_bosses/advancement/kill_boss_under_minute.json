@@ -1,0 +1,33 @@
+{
+  "parent": "block_factorys_bosses:die_boss",
+  "criteria": {
+    "kill_boss_under_minute_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancement.kill_boss_under_minute.desc"
+    },
+    "frame": "challenge",
+    "icon": {
+      "components": {
+        "minecraft:custom_model_data": 6
+      },
+      "count": 1,
+      "id": "block_factorys_bosses:achievement_icons"
+    },
+    "title": {
+      "translate": "advancement.kill_boss_under_minute.title"
+    }
+  },
+  "requirements": [
+    [
+      "kill_boss_under_minute_0"
+    ]
+  ],
+  "rewards": {
+    "experience": 200
+  },
+  "sends_telemetry_event": true
+}

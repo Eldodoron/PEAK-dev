@@ -1,0 +1,29 @@
+filename = 'apothic_compats-0.2.4.2.jar'
+name = 'Apothic Compats'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'apothic_compats-0.2.4.2.jar'
+
+[download]
+hash = '46d3699a4af63531fe84c69fdd2623fbe71fbc75'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8483936
+project-id = 1188699
+
+[[x-prismlauncher-dependencies]]
+addonId = '313970'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '283644'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '898963'
+type = 'REQUIRED'

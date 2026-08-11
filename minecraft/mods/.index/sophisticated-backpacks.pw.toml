@@ -1,19 +1,19 @@
-filename = 'sophisticatedbackpacks-1.21.1-3.25.46.1746.jar'
+filename = 'sophisticatedbackpacks-1.21.1-3.25.74.2043.jar'
 name = 'Sophisticated Backpacks'
-side = ''
+side = 'server'
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'sophisticatedbackpacks-1.21.1-3.25.46.1746.jar'
+x-prismlauncher-version-number = 'sophisticatedbackpacks-1.21.1-3.25.74.2043.jar'
 
 [download]
-hash = 'a56ddd1d048f1ce71a13a1e3627aae350a5b03b3'
+hash = 'bc687ffbc3ca72800ca7f20d97793d500213b1c4'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 8116197
+file-id = 8587644
 project-id = 422301
 
 [[x-prismlauncher-dependencies]]
@@ -29,10 +29,6 @@ addonId = '238222'
 type = 'OPTIONAL'
 
 [[x-prismlauncher-dependencies]]
-addonId = '456956'
-type = 'OPTIONAL'
-
-[[x-prismlauncher-dependencies]]
 addonId = '618298'
 type = 'REQUIRED'
 
@@ -41,9 +37,13 @@ addonId = '309927'
 type = 'OPTIONAL'
 
 [[x-prismlauncher-dependencies]]
+addonId = '513769'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
 addonId = '233071'
 type = 'OPTIONAL'
 
 [[x-prismlauncher-dependencies]]
-addonId = '513769'
+addonId = '456956'
 type = 'OPTIONAL'

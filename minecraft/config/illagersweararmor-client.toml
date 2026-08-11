@@ -1,1 +1,2 @@
-"Have Illagers cross their arms when neutral?" = true
+#This will make sure any entity id in this list wont render with armor. Example outputs would be "minecraft:vex" and "minecraft:vex","minecraft:witch"
+"Illager Armor BlackList" = []

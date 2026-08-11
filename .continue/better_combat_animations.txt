@@ -1,0 +1,55 @@
+// =========================================================================
+// BETTER COMBAT ANIMATION PRESETS
+// =========================================================================
+// This is a reference list of all built-in weapon animation presets 
+// available in Better Combat 2.4.0+ for NeoForge 1.21.1.
+// 
+// To use them, create a JSON file in your datapack or kubejs/data folder:
+// Path: data/<mod_id>/weapon_attributes/<weapon_name>.json
+// Content: { "parent": "bettercombat:<preset_name>" }
+// =========================================================================
+
+// --- ONE-HANDED / LIGHT / FAST ---
+dagger               // Dagger, combat knife
+soul_knife           // Magical/agile knife
+claw                 // Claws, knuckles
+fist                 // Unarmed fighting style
+sickle               // Sickle, small scythe
+wand                 // Magic wand
+
+// --- SWORDS ---
+sword                // Standard sword (broad sweeps)
+cutlass              // Cutlass, scimitar
+katana               // Katana (fast, fluid strikes)
+rapier               // Rapier, epee (thrusting attacks)
+coral_blade          // Special blade variant
+
+// --- TWO-HANDED / HEAVY ---
+claymore             // Greatsword, very heavy sword
+heavy_axe            // Battleaxe, large axe
+double_axe           // Double-bladed axe
+hammer               // Warhammer, maul
+mace                 // Mace, morningstar
+vanilla_mace         // Vanilla 1.21 mace style
+anchor               // Giant anchor weapon
+
+// --- POLEARMS / LONG REACH ---
+spear                // Spear, pike (thrusting)
+glaive               // Glaive, naginata (sweeping cuts)
+halberd              // Halberd, poleaxe
+lance                // Jousting lance
+battlestaff          // Quarterstaff, martial arts staff
+staff                // Magic staff
+scythe               // Large scythe
+trident              // Trident
+
+// --- RANGED WEAPONS ---
+bow_two_handed_heavy
+bow_two_handed_light
+crossbow_two_handed_heavy
+crossbow_two_handed_light
+
+// --- TOOLS / OTHER ---
+axe                  // Standard hatchet/axe
+pickaxe              // Pickaxe
+twin_blade           // Twinblades (Darth Maul style / Thanos sword)

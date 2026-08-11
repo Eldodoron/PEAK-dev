@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "block_factorys_bosses:block/invisible",
+    "particle": "block_factorys_bosses:block/invisible"
+  },
+  "render_type": "cutout"
+}

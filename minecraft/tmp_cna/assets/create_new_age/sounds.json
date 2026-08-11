@@ -1,0 +1,11 @@
+{
+  "geiger_counter": {
+    "sounds": [
+      {
+        "type": "file",
+        "name": "create_new_age:geiger_counter"
+      }
+    ],
+    "subtitle": "create_new_age.subtitle.geiger_counter"
+  }
+}

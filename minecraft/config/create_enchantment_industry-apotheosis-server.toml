@@ -2,49 +2,60 @@
 #Parameters and abilities of fluids and fluid operating components
 [ex-fluid]
 	#.
-	#.
-	#This setting affects the calculation of operating costs of Gem Cutter.
-	#In Apotheosis, Gem cutting/upgrading requires consuming one Gem of the same type & purity,
-	#a certain quantity of Gem Dust, and Rarity Materials.
-	#Specifically, it typically requires 1 + (purity level) x 2 Gem Dust, alongside Rarity Materials equivalent to 3^(purity level) units of common Rarity Material.
-	#Therefore, when calculating processing cost of Gem Cutter, both Gem Dust consumption and Gem consumption are converted into Crystal Essence,
-	#while Rarity Material consumption is converted into Apotheotic Essence, which is then converted into Crystal Essence.
-	#This config determines the conversion ratio of Gem Dust to Crystal Essence (mB) IN GEM CUTTING ONLY.
-	#[@cui:RequiresReload:server]
-	# Default: 10
-	# Range: > 1
-	gemCutterCostGemDustToCrystalEssenceRatio = 10
-	#.
-	#The config above has explained the calculation mechanism for the operating costs of Gem Cutter.
-	#This config determines the conversion ratio of Gem of "Cracked" purity to Crystal Essence (mB) IN GEM CUTTING ONLY.
-	#[@cui:RequiresReload:server]
-	# Default: 20
-	# Range: > 1
-	gemCutterCostCrackedGemToCrystalEssenceRatio = 20
-	#.
-	#The config above has explained the calculation mechanism for the operating costs of Gem Cutter.
-	#This config determines the conversion ratio of Apotheotic Essence (mB) to Crystal Essence (mB) IN GEM CUTTER ONLY.
-	#[@cui:RequiresReload:server]
-	# Default: 10
-	# Range: > 1
-	gemCutterCostApotheoticEssenceCostToCrystalEssenceRatio = 10
-	#.
-	#This setting affects the calculation of operating costs of Affix Augmentor.
+	#This setting affects the Apotheosis upgrade reference cost used by Affix Augmentor and Blaze Composer.
 	#In Apotheosis, Affix augmenting requires consuming 225 levels of Player Experience and 2 Sigil of Enhancement.
-	#Therefore, when calculating processing cost of Affix Augmentor, to ease customization, Experience consumption is replaced by Apotheotic Essence,
+	#Therefore, when calculating processing cost, to ease customization, Experience consumption is replaced by Apotheotic Essence,
 	#while Sigil of Enhancement consumption is converted into Apotheotic Essence too.
-	#This config determines the total Apotheotic Essence (mB) that replaces Experience Cost of Augmenting Table IN AFFIX AUGMENTOR ONLY.
+	#This config determines the total Apotheotic Essence (mB) that replaces the default 225-level Experience Cost of Augmenting Table upgrades.
 	#[@cui:RequiresReload:server]
 	# Default: 19347
 	# Range: > 1
 	affixAugmentorCostExperienceToApotheoticEssenceTotal = 19347
 	#.
-	#The config above has explained the calculation mechanism for the operating costs of Affix Augmentor.
-	#This config determines the conversion ratio of Sigil of Enhancement to Apotheotic Essence (mB) IN AFFIX AUGMENTOR ONLY.
+	#The config above has explained the calculation mechanism for the Apotheosis upgrade reference cost.
+	#This config determines the conversion ratio of Sigil of Enhancement to Apotheotic Essence (mB).
 	#[@cui:RequiresReload:server]
 	# Default: 81
 	# Range: > 1
 	affixAugmentorCostSigilToApotheoticEssenceRatio = 81
+	#.
+	#.
+	#Crystal Essence cost (mB) for Gem Cutter to upgrade a Cracked gem into a Chipped gem.
+	#Gem Cutter uses explicit per-purity costs so modpack authors can tune each upgrade step directly.
+	#[@cui:RequiresReload:server]
+	# Default: 100
+	# Range: > 1
+	gemCutterCostCrackedToChipped = 100
+	#.
+	#Crystal Essence cost (mB) for Gem Cutter to upgrade a Chipped gem into a Flawed gem.
+	#[@cui:RequiresReload:server]
+	# Default: 300
+	# Range: > 1
+	gemCutterCostChippedToFlawed = 300
+	#.
+	#Crystal Essence cost (mB) for Gem Cutter to upgrade a Flawed gem into a Normal gem.
+	#[@cui:RequiresReload:server]
+	# Default: 800
+	# Range: > 1
+	gemCutterCostFlawedToNormal = 800
+	#.
+	#Crystal Essence cost (mB) for Gem Cutter to upgrade a Normal gem into a Flawless gem.
+	#[@cui:RequiresReload:server]
+	# Default: 2000
+	# Range: > 1
+	gemCutterCostNormalToFlawless = 2000
+	#.
+	#Crystal Essence cost (mB) for Gem Cutter to upgrade a Flawless gem into a Perfect gem.
+	#[@cui:RequiresReload:server]
+	# Default: 5000
+	# Range: > 1
+	gemCutterCostFlawlessToPerfect = 5000
+	#.
+	#Global multiplier applied to all Gem Cutter Crystal Essence costs.
+	#[@cui:RequiresReload:server]
+	# Default: 1.0
+	# Range: 0.0 ~ 3.4028234663852886E38
+	gemCutterCostMultiplier = 1.0
 
 #.
 #Parameters and abilities of various utility components
@@ -76,3 +87,173 @@
 	# Default: 1
 	# Range: > 0
 	fragileFluidTankInfusedDragonBreathMaxEquippedItemsPerEntity = 1
+
+#.
+#Parameters and rules of Apotheosis affix composing
+[ex-affix]
+	#.
+	#.
+	#The amount of Apotheotic Essence (mB) the Blaze Composer can hold.
+	#[@cui:RequiresReload:server]
+	# Default: 8000
+	# Range: > 1000
+	blazeComposerFluidCapacity = 8000
+	#.
+	#The amount of Super Apotheotic Essence (mB) the Blaze Composer can hold after its normal tank is full.
+	#[@cui:RequiresReload:server]
+	# Default: 8000
+	# Range: > 1000
+	blazeComposerSuperFluidCapacity = 8000
+	#.
+	#The processing time, in ticks, of one Blaze Composer operation.
+	#[@cui:RequiresReload:server]
+	# Default: 200
+	# Range: > 1
+	blazeComposerProcessingTime = 200
+	#.
+	#The minimum affix level loss applied to a Super Blaze Composer operation when its lightning path is blocked. The penalty is rolled when processing starts.
+	# Default: 0.05000000074505806
+	# Range: 0.0 ~ 3.4028234663852886E38
+	blazeComposerBlockedSuperMinLevelPenalty = 0.05000000074505806
+	#.
+	#The maximum affix level loss applied to a Super Blaze Composer operation when its lightning path is blocked. The penalty is rolled when processing starts.
+	# Default: 0.20000000298023224
+	# Range: 0.0 ~ 3.4028234663852886E38
+	blazeComposerBlockedSuperMaxLevelPenalty = 0.20000000298023224
+	#.
+	#The maximum affix level a Brass Affix Template can hold. Default: 1.0, matching standard Apotheosis affixes.
+	# Default: 1.0
+	# Range: 0.009999999776482582 ~ 3.4028234663852886E38
+	brassAffixTemplateMaxLevel = 1.0
+	#.
+	#The maximum affix level a Crystal Affix Template can hold. Default: 2.0, matching Apotheosis' native upper range.
+	# Default: 2.0
+	# Range: 0.009999999776482582 ~ 3.4028234663852886E38
+	crystalAffixTemplateMaxLevel = 2.0
+	#.
+	#The maximum affix level an Apotheotic Affix Template can hold. The implementation supports very high values; this config is the balancing cap.
+	# Default: 4.0
+	# Range: 0.009999999776482582 ~ 3.4028234663852886E38
+	apotheoticAffixTemplateMaxLevel = 4.0
+	#.
+	#The level gained when merging two templates with the same affix and level.
+	# Default: 0.25
+	# Range: 0.009999999776482582 ~ 3.4028234663852886E38
+	affixTemplateMergeStep = 0.25
+	#.
+	#The base Apotheotic Essence cost (mB) of extracting an affix into a blank template.
+	# Default: 250
+	# Range: > 1
+	blazeComposerExtractBaseCost = 250
+	#.
+	#The base Apotheotic Essence cost (mB) of applying a filled template to equipment.
+	# Default: 350
+	# Range: > 1
+	blazeComposerApplyBaseCost = 350
+	#.
+	#The base Apotheotic Essence cost (mB) of merging two matching affix templates.
+	# Default: 500
+	# Range: > 1
+	blazeComposerMergeBaseCost = 500
+	#.
+	#Multiplier applied to the stored affix value when extracting an affix into a blank template.
+	# Default: 0.07999999821186066
+	# Range: 0.0 ~ 3.4028234663852886E38
+	blazeComposerExtractSnapshotMultiplier = 0.07999999821186066
+	#.
+	#Multiplier applied to the stored affix value when applying a new filled template to equipment.
+	# Default: 0.15000000596046448
+	# Range: 0.0 ~ 3.4028234663852886E38
+	blazeComposerApplyNewTemplateMultiplier = 0.15000000596046448
+	#.
+	#Multiplier applied to the added affix value when a filled template upgrades an existing matching affix.
+	# Default: 0.550000011920929
+	# Range: 0.0 ~ 3.4028234663852886E38
+	blazeComposerApplyUpgradeDeltaMultiplier = 0.550000011920929
+	#.
+	#Multiplier applied to the added affix value when merging two matching templates.
+	# Default: 0.3499999940395355
+	# Range: 0.0 ~ 3.4028234663852886E38
+	blazeComposerMergeUpgradeDeltaMultiplier = 0.3499999940395355
+	#.
+	#Maximum non-Super level cost contribution, expressed as a multiplier of the current Apotheosis Augmenting Table upgrade reference cost. Super levels above 2.0 are not capped by this setting.
+	# Default: 1.0
+	# Range: 0.0 ~ 3.4028234663852886E38
+	blazeComposerStandardOperationCostCap = 1.0
+	#.
+	#Multiplier applied to the 1.0-2.0 level segment.
+	# Default: 1.7999999523162842
+	# Range: 0.009999999776482582 ~ 3.4028234663852886E38
+	blazeComposerCrystalLevelMultiplier = 1.7999999523162842
+	#.
+	#Multiplier applied to the Super level segment above 2.0.
+	# Default: 3.5
+	# Range: 0.009999999776482582 ~ 3.4028234663852886E38
+	blazeComposerSuperLevelMultiplier = 3.5
+	#.
+	#Exponential growth applied to Super levels above 2.0. Use 1.0 for linear Super costs.
+	# Default: 1.649999976158142
+	# Range: 1.0 ~ 3.4028234663852886E38
+	blazeComposerSuperLevelExponent = 1.649999976158142
+	#.
+	#Cost multiplier for operations using Brass Affix Templates.
+	# Default: 1.0
+	# Range: 0.009999999776482582 ~ 3.4028234663852886E38
+	brassAffixTemplateCostMultiplier = 1.0
+	#.
+	#Cost multiplier for operations using Crystal Affix Templates.
+	# Default: 1.7999999523162842
+	# Range: 0.009999999776482582 ~ 3.4028234663852886E38
+	crystalAffixTemplateCostMultiplier = 1.7999999523162842
+	#.
+	#Cost multiplier for operations using Apotheotic Affix Templates.
+	# Default: 3.0
+	# Range: 0.009999999776482582 ~ 3.4028234663852886E38
+	apotheoticAffixTemplateCostMultiplier = 3.0
+	#.
+	#Cost multiplier for STAT affixes.
+	# Default: 1.0
+	# Range: 0.009999999776482582 ~ 3.4028234663852886E38
+	statAffixTypeCostMultiplier = 1.0
+	#.
+	#Cost multiplier for BASIC_EFFECT affixes.
+	# Default: 1.2000000476837158
+	# Range: 0.009999999776482582 ~ 3.4028234663852886E38
+	basicEffectAffixTypeCostMultiplier = 1.2000000476837158
+	#.
+	#Cost multiplier for ABILITY affixes.
+	# Default: 1.600000023841858
+	# Range: 0.009999999776482582 ~ 3.4028234663852886E38
+	abilityAffixTypeCostMultiplier = 1.600000023841858
+	#.
+	#Global multiplier for Affix Augmentor costs after Apotheosis upgrade reference, level delta, and datapack rule multipliers are applied.
+	# Default: 0.550000011920929
+	# Range: 0.0 ~ 3.4028234663852886E38
+	affixAugmentorCostMultiplier = 0.550000011920929
+	#.
+	#The maximum affix level the Affix Augmentor can reach. Default: 1.0, matching standard Apotheosis Augmenting Table upgrades.
+	# Default: 1.0
+	# Range: 0.009999999776482582 ~ 3.4028234663852886E38
+	affixAugmentorMaxLevel = 1.0
+	#.
+	#Whether filled templates can be applied to equipment with a different existing rarity.
+	allowRarityMismatchApplying = false
+	#.
+	#Whether Super Mode may ignore Apotheosis affix exclusive sets when applying Apotheotic templates to equipment.
+	allowExclusiveSetBypassInSuperApplying = false
+	#.
+	#Whether Super Mode may ignore Apotheosis affix exclusive sets when merging Apotheotic templates.
+	allowExclusiveSetBypassInSuperMerging = false
+	#.
+	#Extra Apotheotic Essence cost for each exclusive-set conflict bypassed while applying in Super Mode, expressed as a multiplier of the current Apotheosis upgrade reference cost.
+	# Default: 1.0
+	# Range: 0.0 ~ 3.4028234663852886E38
+	superExclusiveSetApplyExtraCostMultiplier = 1.0
+	#.
+	#Extra Apotheotic Essence cost for each exclusive-set conflict bypassed while merging in Super Mode, expressed as a multiplier of the current Apotheosis upgrade reference cost.
+	# Default: 1.0
+	# Range: 0.0 ~ 3.4028234663852886E38
+	superExclusiveSetMergeExtraCostMultiplier = 1.0
+	#.
+	#Whether affixes marked as level-independent by Apotheosis may be upgraded by template merging.
+	allowLevelIndependentAffixUpgrade = false

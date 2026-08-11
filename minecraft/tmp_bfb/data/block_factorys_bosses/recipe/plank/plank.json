@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "O": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "pattern": [
+    "  O",
+    " O ",
+    "O  "
+  ],
+  "result": {
+    "count": 12,
+    "id": "block_factorys_bosses:plank"
+  }
+}

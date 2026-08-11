@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "block_factorys_bosses:block/big_oak_planks_wet_broken",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "block_factorys_bosses:block/big_oak_planks_wet_broken"
+    },
+    "facing=south": {
+      "model": "block_factorys_bosses:block/big_oak_planks_wet_broken",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "block_factorys_bosses:block/big_oak_planks_wet_broken",
+      "y": 270
+    }
+  }
+}

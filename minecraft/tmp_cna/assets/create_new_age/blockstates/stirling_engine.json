@@ -1,0 +1,15 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "create_new_age:block/stirling_engine",
+      "y": 90
+    },
+    "axis=y": {
+      "model": "create_new_age:block/stirling_engine",
+      "x": 90
+    },
+    "axis=z": {
+      "model": "create_new_age:block/stirling_engine"
+    }
+  }
+}

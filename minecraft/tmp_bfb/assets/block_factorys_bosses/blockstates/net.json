@@ -1,0 +1,18 @@
+{
+	"variants": {
+		"facing=south,net_type=leaning": { "model": "block_factorys_bosses:block/net_diagonal", "y": 90 },
+		"facing=west,net_type=leaning":  { "model": "block_factorys_bosses:block/net_diagonal", "y": 180 },
+		"facing=north,net_type=leaning": { "model": "block_factorys_bosses:block/net_diagonal", "y": 270 },
+		"facing=east,net_type=leaning":  { "model": "block_factorys_bosses:block/net_diagonal"},
+
+		"facing=south,net_type=floor": { "model": "block_factorys_bosses:block/net_horizontal", "y": 90 },
+		"facing=west,net_type=floor":  { "model": "block_factorys_bosses:block/net_horizontal", "y": 180 },
+		"facing=north,net_type=floor": { "model": "block_factorys_bosses:block/net_horizontal", "y": 270 },
+		"facing=east,net_type=floor":  { "model": "block_factorys_bosses:block/net_horizontal"},
+
+		"facing=south,net_type=hanging": { "model": "block_factorys_bosses:block/net_hanging", "y": 90 },
+		"facing=west,net_type=hanging":  { "model": "block_factorys_bosses:block/net_hanging", "y": 180 },
+		"facing=north,net_type=hanging": { "model": "block_factorys_bosses:block/net_hanging", "y": 270 },
+		"facing=east,net_type=hanging":  { "model": "block_factorys_bosses:block/net_hanging"}
+	}
+}

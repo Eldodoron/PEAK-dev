@@ -1,0 +1,13 @@
+// 1.21.1	2026-05-01T23:49:47.038731174	Tags for minecraft:block mod id block_factorys_bosses
+47c1cd2a40f6f2c5c90ceaa98caad55adb76f135 data/block_factorys_bosses/tags/block/bone_remains.json
+4218f6e56361e9b06c1e2ba311adea6142bd42bb data/block_factorys_bosses/tags/block/protection_exempt.json
+5702cf0c53dce24b1e368487d0f4ecdb40b9ff2d data/block_factorys_bosses/tags/block/ship_planks.json
+29723cebbae53d6101d25dd1a7940d9339e0cb5d data/block_factorys_bosses/tags/block/underworld_arena_valid_spawn.json
+f530779163f9ca438cbf888738b80efba7eda938 data/minecraft/tags/block/incorrect_for_gold_tool.json
+f530779163f9ca438cbf888738b80efba7eda938 data/minecraft/tags/block/incorrect_for_iron_tool.json
+f530779163f9ca438cbf888738b80efba7eda938 data/minecraft/tags/block/incorrect_for_stone_tool.json
+f530779163f9ca438cbf888738b80efba7eda938 data/minecraft/tags/block/incorrect_for_wooden_tool.json
+cb859f908ea5bf5267332a5f0dbd818abfff6800 data/minecraft/tags/block/inside_step_sound_blocks.json
+741e64e50172c4a72b82ce06fd54c1beeb883f7b data/minecraft/tags/block/mineable/pickaxe.json
+6a7dc06ebb4a36c4d909afcfaef389ef535ef550 data/minecraft/tags/block/planks.json
+f2354774cc7d5278c36dcfef9a3d9339c86bfb0c data/minecraft/tags/block/replaceable.json

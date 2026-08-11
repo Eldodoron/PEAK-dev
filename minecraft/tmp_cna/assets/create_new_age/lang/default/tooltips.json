@@ -1,0 +1,39 @@
+{
+    "tooltip.create_new_age.motor_extension": "Placed behind a motor",
+    
+    "create.tooltip.create_new_age.connector_info": "Connector Info: ",
+    "create.tooltip.create_new_age.mode": "Mode: ",
+    "create.tooltip.create_new_age.connector_mode.inert": "Inert",
+    "create.tooltip.create_new_age.connector_mode.pull": "Pull",
+    
+    "create.tooltip.create_new_age.energy_stored": "Energy Stored: ",
+    "create.tooltip.create_new_age.energy_stats": "Energy Stats: ",
+    "create.tooltip.create_new_age.energy_usage": "Energy Usage: ",
+    "create.tooltip.create_new_age.energy_output": "Energy Output: ",
+    "create.tooltip.create_new_age.energy": "%s ⚡",
+    "create.tooltip.create_new_age.max_speed": "Maximum Speed: ",
+    "create.tooltip.create_new_age.temperature": "%s ˚T",
+    "create.tooltip.create_new_age.rpm": "%s RPM",
+    "create.tooltip.create_new_age.temperature.ps": "%s ˚T/s",
+    "create.tooltip.create_new_age.pump": "Pumping: ",
+    "create.tooltip.create_new_age.energy_per_tick": "%s ⚡/t",
+    "create.tooltip.create_new_age.per_rpm": "per %s RPM",
+    "create.tooltip.create_new_age.energy_storage": "%s ⚡ / %s ⚡",
+    "create.tooltip.create_new_age.using": "Using: ",
+    "create.tooltip.create_new_age.extracting": "Extracting: ",
+    "create.tooltip.create_new_age.releasing": "Releasing: ",
+    "create.tooltip.create_new_age.generating": "Generating: ",
+    "create.tooltip.create_new_age.generates": "Generates: ",
+    "create.tooltip.create_new_age.transfers": "Transfers: ",
+    "create.tooltip.create_new_age.stores": "Stores: ",
+    "create.tooltip.create_new_age.speed": "Speed: ",
+    "create.tooltip.create_new_age.efficiency": "Efficiency: ",
+    "create.tooltip.create_new_age.percent": "%s%%",
+    "create.tooltip.create_new_age.magnetic_force": "Magnetic Force: ",
+    
+    "create.tooltip.create_new_age.stress_limit_multiplier": "Stress Capacity Multiplier",
+    "create.tooltip.create_new_age.additional_capacity": "Additional Capacity",
+
+    "create.tooltip.create_new_age.per_light_level": "per Light Level",
+    "create.create_new_age.street_light.light_level": "Light Level"
+}

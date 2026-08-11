@@ -52,3 +52,7 @@
     *   Disabled **Winged** (`elytra_flight`) and **Unbound** (`creative_flight`) affixes from rolling on chestplates in Apotheosis via a dedicated Paxi datapack (`config/paxi/datapacks/apotheosis_flight_disable/`), ensuring Placebo's dynamic registry loads the override with priority before any reforging or loot drops.
 *   **Dynamic Difficulty Trap & Mimic Exclusion:**
     *   Blacklisted disguised trap and mimic entities (`unusualend:endstone_trapper`, `artifacts:mimic`, `mowziesmobs:foliaath`) in `dynamic_difficulty-common.toml` so they do not receive level indicators or health scaling that would spoil their disguise.
+*   **Client Stabilization & Iris Shaders Compatibility:**
+    *   Removed `acceleratedrendering-1.0.10.1-1.21.1-alpha.jar` and its stale configs to resolve a critical mixin injection crash (`ModelToEntityVertexSerializerMixin`) when enabling Iris Shaders, relying on stable Sodium + ImmediatelyFast + C2ME rendering pipelines.
+*   **HazentouveLib & Iron's Jewelry Schema Crash Fix:**
+    *   Created a dedicated Paxi datapack (`config/paxi/datapacks/hazentouvelib_jewelry_fix/`) adding the required `"materialType": ["gem"]` array to HazentouveLib's three rune material JSONs (`cosmic_rune`, `radiance_rune`, `shadow_rune`), fixing `IllegalStateException: No key materialType in MapLike` when creating or loading worlds.

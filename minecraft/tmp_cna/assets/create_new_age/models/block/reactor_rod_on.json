@@ -1,0 +1,6 @@
+{
+  "parent": "create_new_age:block/reactor_rod",
+  "textures": {
+    "all": "create_new_age:block/reactor_rod_on"
+  }
+}

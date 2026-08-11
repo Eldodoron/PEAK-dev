@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "irons_spellbooks:portal",
+    "irons_spellbooks:dead_king_corpse",
+    "#c:bosses"
+  ]
+}

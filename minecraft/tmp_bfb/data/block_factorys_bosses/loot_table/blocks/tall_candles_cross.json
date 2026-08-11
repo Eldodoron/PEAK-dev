@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "conditions": [
+            {
+              "block": "block_factorys_bosses:tall_candles_cross",
+              "condition": "minecraft:block_state_property",
+              "properties": {
+                "blockstate": "2"
+              }
+            }
+          ],
+          "name": "block_factorys_bosses:tall_candles_cross"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "block_factorys_bosses:blocks/tall_candles_cross"
+}

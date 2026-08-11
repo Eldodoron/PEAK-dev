@@ -1,0 +1,11 @@
+{
+  "pack": {
+    "pack_format": 48,
+    "description": [
+      {
+        "text": "Removes recipes for less realistic items.",
+        "color": "#bbccff"
+      }
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "tag": "c:ingots/iron"
+    },
+    ".": {
+      "tag": "minecraft:soul_fire_base_blocks"
+    },
+    "I": {
+      "tag": "c:rods/wooden"
+    },
+    "O": {
+      "tag": "minecraft:coals"
+    }
+  },
+  "pattern": [
+    " O ",
+    ".#.",
+    " I."
+  ],
+  "result": {
+    "count": 1,
+    "id": "block_factorys_bosses:underwold_wall_torch"
+  }
+}

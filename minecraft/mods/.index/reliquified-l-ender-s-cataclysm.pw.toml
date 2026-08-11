@@ -1,25 +1,21 @@
 filename = 'reliquified_lenders_cataclysm-1.21.1-0.1.1.jar'
 name = "Reliquified L_Ender 's Cataclysm"
-side = 'both'
+side = 'server'
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '0.1.1'
+x-prismlauncher-version-number = 'reliquified_lenders_cataclysm-1.21.1-0.1.1.jar'
 
 [download]
-hash = 'e33cf111802b32b433c63c61c957cc136b6e52375ad31b5c81ea5826a32a3a0b37e81fcd22a7fcb4a867efddd4afc6c5628f69a656eee4ebcf14ad2e003f4e50'
-hash-format = 'sha512'
-mode = 'url'
-url = 'https://cdn.modrinth.com/data/rBEndPUc/versions/ZHAIRSeF/reliquified_lenders_cataclysm-1.21.1-0.1.1.jar'
+hash = 'be89d697455f04a1531ed81b45bcc038354430c8'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
 
-[update.modrinth]
-mod-id = 'rBEndPUc'
-version = 'ZHAIRSeF'
-
-[[x-prismlauncher-dependencies]]
-addonId = '46KJle7n'
-type = 'REQUIRED'
+[update.curseforge]
+file-id = 6882649
+project-id = 1232116
 
 [[x-prismlauncher-dependencies]]
-addonId = 'OCJRPujW'
+addonId = '445274'
 type = 'REQUIRED'

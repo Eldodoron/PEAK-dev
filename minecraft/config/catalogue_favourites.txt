@@ -1,3 +1,2 @@
-smooththirdpersoncamera
 cosycritters
 structurify

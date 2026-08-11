@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "tag": "c:storage_blocks/copper"
+    },
+    "D": {
+      "item": "create_new_age:overcharged_diamond"
+    },
+    "E": {
+      "item": "create_new_age:advanced_energiser"
+    },
+    "c": {
+      "tag": "c:ingots/copper"
+    },
+    "d": {
+      "tag": "c:gems/diamond"
+    }
+  },
+  "pattern": [
+    "DED",
+    "dcd",
+    " C "
+  ],
+  "result": {
+    "count": 1,
+    "id": "create_new_age:reinforced_energiser"
+  }
+}

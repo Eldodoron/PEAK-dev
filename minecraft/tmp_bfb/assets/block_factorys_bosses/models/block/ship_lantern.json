@@ -1,0 +1,4 @@
+{
+	"parent": "block_factorys_bosses:custom/ship_lantern",
+	"render_type": "cutout"
+}

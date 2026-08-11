@@ -1,0 +1,5 @@
+{
+	"parent": "block_factorys_bosses:custom/ship_steering_wheel",
+	"render_type": "cutout",
+	"ambientocclusion": false
+}

@@ -1,0 +1,38 @@
+{
+  "required": true,
+  "package": "net.unusual.block_factorys_bosses.mixins",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "BasaltColumnsFeatureMixin",
+    "ControlMixin",
+    "KrakenTridentTridentItemMixin",
+    "PlacementBypassMixin",
+    "RollMixin",
+    "accessor.AnimatableManagerAccessor",
+    "accessor.AnimationControllerAccessor",
+    "accessor.AnimationProcessorAccessor",
+    "server.EndDragonFightMixin",
+    "server.ServerBossEventMixin",
+    "server.WardenMixin",
+    "server.WitherBossMixin"
+  ],
+  "client": [
+    "client.CameraMixin",
+    "client.CapeLayerMixin",
+    "client.CinematicEntitiesMixin",
+    "client.ElytraLayerMixin",
+    "client.GameRendererMixin",
+    "client.GameRendererNightVisionMixin",
+    "client.LevelRendererMixin",
+    "client.LocalPlayerMixin",
+    "client.MouseHandlerMixin",
+    "client.MusicManagerMixin",
+    "client.ParticleEngineMixin",
+    "client.PlayerAnimationMixin",
+    "client.PoseStackMixin"
+  ],
+  "server": [
+    "server.GeckolibMolangQueries"
+  ],
+  "minVersion": "0.8"
+}

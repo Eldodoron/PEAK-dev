@@ -1,0 +1,27 @@
+{
+  "loader": "neoforge:separate_transforms",
+  "gui_light": "front",
+  "base": {
+    "gui_light": "front",
+    "parent": "builtin/entity",
+    "textures": {
+      "layer0": "block_factorys_bosses:item/dagger"
+    }
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "item/generated",
+      "textures": {
+        "layer0": "block_factorys_bosses:item/dagger"
+      },
+      "gui_light": "front"
+    },
+    "ground": {
+      "parent": "item/generated",
+      "textures": {
+        "layer0": "block_factorys_bosses:item/dagger"
+      },
+      "gui_light": "front"
+    }
+  }
+}

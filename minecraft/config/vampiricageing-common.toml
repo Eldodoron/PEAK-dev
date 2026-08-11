@@ -23,15 +23,15 @@
 	sireingMechanic = false
 	#How much a petty hunt is worth. These are things like basic versions of vampires or hunters
 	# Default: 1
-	# Range: 0 ~ 99
+	# Range: 0 ~ 999999999
 	pettyHuntWorth = 1
 	#How much a common hunt is worth. These are things like advanced vampires or advanced hunters
 	# Default: 3
-	# Range: 0 ~ 99
+	# Range: 0 ~ 999999999
 	commonHuntWorth = 3
 	#How much a greater hunt is worth. These are things like vampire barons 
 	# Default: 5
-	# Range: 0 ~ 99
+	# Range: 0 ~ 999999999
 	greaterHuntWorth = 5
 	#How many points worth of hunted entities are needed to increase Age Rank. Count is reset on Rank Up
 	huntedforNextAge = [20, 40, 80, 160, 250]

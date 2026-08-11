@@ -1,0 +1,24 @@
+{
+  "values": [
+    {
+      "id": "gravestone:gravestone",
+      "required": false
+    },
+    {
+      "id": "mogrulgravestones:boulder_gravestone",
+      "required": false
+    },
+    {
+      "id": "mogrulgravestones:celtic_gravestone",
+      "required": false
+    },
+    {
+      "id": "mogrulgravestones:headstone_gravestone",
+      "required": false
+    },
+    {
+      "id": "soulgravestone:gravestone",
+      "required": false
+    }
+  ]
+}

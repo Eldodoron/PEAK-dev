@@ -1,0 +1,28 @@
+{
+	"name": "block_factorys_bosses:underworld_arena_tower",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "block_factorys_bosses:underworld_arena_tower",
+				"projection": "rigid",
+				"processors": {
+					"processors": []
+				}
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "block_factorys_bosses:underworld_arena_tower_top",
+				"projection": "rigid",
+				"processors": {
+					"processors": []
+				}
+			}
+		}
+	]
+}

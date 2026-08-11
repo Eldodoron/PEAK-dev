@@ -1,18 +1,18 @@
-filename = 'illagersweararmor-1.21-2.3.1.jar'
+filename = 'illagersweararmor-1.21.1-2.4.0.jar'
 name = 'Illagers Wear Armor'
-side = 'both'
+side = ''
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge' ]
-x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '2.3.1'
+x-prismlauncher-version-number = '2.4.0'
 
 [download]
-hash = '2dc149d3c003ff3db86a701525a0a157e8284705fbff6497785e461108160ad1d9506299f23ba55ac6c89d60d073a36f6d203d5a282c34d3f3b983b12b7e3657'
+hash = 'c7fbbeb8ea5b7a28c21cb5ecabb671ec456efe0d575d1d62c28f6e5beb03066f765df400891fcd2569b2b677a93ee8e37ffb8ba89284e81560740730c39ddb15'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/xXNP32XJ/versions/PVktbRbc/illagersweararmor-1.21-2.3.1.jar'
+url = 'https://cdn.modrinth.com/data/xXNP32XJ/versions/CZuRtcSr/illagersweararmor-1.21.1-2.4.0.jar'
 
 [update.modrinth]
 mod-id = 'xXNP32XJ'
-version = 'PVktbRbc'
+version = 'CZuRtcSr'

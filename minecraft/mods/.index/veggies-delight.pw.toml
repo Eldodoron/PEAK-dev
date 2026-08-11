@@ -1,21 +1,18 @@
-filename = 'VeggiesDelight-1.21.1-1.9.2.jar'
-name = "Veggies Delight (A Farmer's Delight Add-on)"
-side = 'both'
+filename = 'VeggiesDelight-1.21.1-1.9.3.jar'
+name = 'Veggies Delight'
+side = ''
+x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '1.9.2'
+x-prismlauncher-version-number = '1.9.3'
 
 [download]
-hash = '18b7b437cda661db0fe729feba477c2d035accbde537aa9d2e1c0f92d68ebdd1876cf9a15fb41a621209c92424f9741d1a8b7a8cd9ba8ef176de58d758a5d2dd'
+hash = 'bd108223b38236c7cae2a02601e52c98d4f655a45f4f3a8c2f5d298aaa0ed0debbb2639bb08e11c5f33a0ae27242a3d4ff0aab9820915e3dadb1ce06a2763960'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/emQ94xri/versions/F59kXZJ1/VeggiesDelight-1.21.1-1.9.2.jar'
+url = 'https://cdn.modrinth.com/data/emQ94xri/versions/9LiRnALb/VeggiesDelight-1.21.1-1.9.3.jar'
 
 [update.modrinth]
 mod-id = 'emQ94xri'
-version = 'F59kXZJ1'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'R2OftAxM'
-type = 'REQUIRED'
+version = '9LiRnALb'

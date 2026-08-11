@@ -1,0 +1,61 @@
+{
+	"name": "block_factorys_bosses:underworld_arena_rooms",
+	"fallback": "block_factorys_bosses:underworld_arena_end_caps_short",
+	"elements": [
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "block_factorys_bosses:underworld_arena_dungeons",
+				"projection": "rigid",
+				"processors": {
+					"processors": []
+				}
+			}
+		},
+		{
+			"weight": 8,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "block_factorys_bosses:underworld_arena_hallway",
+				"projection": "rigid",
+				"processors": {
+					"processors": []
+				}
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "block_factorys_bosses:underworld_arena_storage",
+				"projection": "rigid",
+				"processors": {
+					"processors": []
+				}
+			}
+		},
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "block_factorys_bosses:underworld_arena_tower",
+				"projection": "rigid",
+				"processors": {
+					"processors": []
+				}
+			}
+		},
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "block_factorys_bosses:underworld_arena_bridge_entrance",
+				"projection": "rigid",
+				"processors": {
+					"processors": []
+				}
+			}
+		}
+	]
+}

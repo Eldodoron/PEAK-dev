@@ -1,10 +1,109 @@
-#Whether to log the dirt block on common setup
-logDirtBlock = true
-#A magic number
-# Default: 42
-# Range: > 0
-magicNumber = 42
-#What you want the introduction message to be for the magic number
-magicNumberIntroduction = "The magic number is... "
-#A list of items to log on common setup.
-items = ["minecraft:iron_ingot"]
+[mana_siphon]
+	#Block radius the Mana Siphon drains within in its confined mode (1 = a 3x3 area).
+	# Default: 1
+	# Range: 1 ~ 32
+	manaSiphonSmallRadius = 1
+	#Block radius the Mana Siphon drains within when expanded with a wrench (3 = a 7x7 area).
+	# Default: 3
+	# Range: 1 ~ 32
+	manaSiphonLargeRadius = 3
+	#Mana (mB) the Mana Siphon pulls from each entity per drain operation.
+	# Default: 1
+	# Range: 1 ~ 1000
+	manaSiphonDrainPerOp = 1
+	#Mana (mB) the Mana Siphon banks per 1 point of damage of a spell projectile
+	#pulled in and consumed within its radius (each absorption banks at least 1 mB).
+	# Default: 1.25
+	# Range: 0.0 ~ 1000.0
+	manaSiphonSpellManaPerDamage = 1.25
+	#Damage dealt to a mob when the Mana Siphon reverts it (fraction of the reverted
+	#mob's max health, dealt once on transformation; 0.25 = 25%). Only applies when the
+	#siphonTransformationDamage gamerule is enabled.
+	# Default: 0.25
+	# Range: 0.0 ~ 1.0
+	manaSiphonTransformationDamagePercent = 0.25
+	#Player mana spent per 1 mB the Mana Siphon stores (only applies to players).
+	# Default: 5
+	# Range: 1 ~ 1000
+	playerManaPerMb = 5
+	#Whether mobs drop their key item (e.g. tarnished crown, spell book, permafrost shard)
+	#when the Mana Siphon fully drains and reverts them.
+	manaSiphonDropKeyItems = true
+	#Whether the Mana Siphon sucks mana out of dropped items within its radius
+	#(spell scrolls, arcane ingots/sheets, and magic cloth).
+	manaSiphonDrainItems = true
+	#Fraction of a spell scroll's mana cost banked (as mB) when the Siphon drains it.
+	#0.5 = 50% of the spell's mana cost. The scroll is consumed.
+	# Default: 0.5
+	# Range: 0.0 ~ 1.0
+	manaSiphonScrollDrainPercent = 0.5
+	#Fraction of an arcane material's craft mana (mB) banked when the Siphon drains it.
+	#0.25 = 25% of the ~500 mB it costs to make an arcane ingot/sheet/magic cloth.
+	#Arcane ingots/sheets transmute into mundane ingots/sheets; magic cloth becomes wool.
+	# Default: 0.25
+	# Range: 0.0 ~ 1.0
+	manaSiphonItemDrainPercent = 0.25
+	#Ticks an item must sit in the Mana Siphon's radius (with a rune-line
+	#tethered to it) before it transforms and banks its mana. 100 ticks = 5s;
+	#0 = instant. Applies to scrolls, arcane ingots/sheets, and magic cloth.
+	# Default: 100
+	# Range: 0 ~ 1200
+	manaSiphonTransformDelayTicks = 100
+	#Whether draining arcane ingots/sheets can yield the rare Brass and
+	#Netherite/Sturdy Sheet results. When false, only Gold/Iron/Copper variants drop.
+	manaSiphonSpecialIngotDrops = true
+	#Chance an arcane ingot/sheet transmutes into Brass (only when special drops are enabled).
+	# Default: 0.05
+	# Range: 0.0 ~ 1.0
+	manaSiphonBrassDropChance = 0.05
+	#Chance an arcane ingot transmutes into a Netherite Ingot, or an arcane sheet into a
+	#Sturdy Sheet (only when special drops are enabled).
+	# Default: 0.01
+	# Range: 0.0 ~ 1.0
+	manaSiphonRareDropChance = 0.01
+	#Whether the Mana Siphon needs rotational power to function. When false, the
+	#Siphon drains, absorbs spells, and pumps mana even with no rotation (still applies
+	#stress if connected to a kinetic network).
+	manaSiphonRequiresRotation = true
+
+[mana_pipes]
+	#Whether Mana leaks out of uninsulated (non-arcane) pipes and pumps as it travels.
+	#When false, ordinary Create pipes carry Mana losslessly and no leak particles spawn.
+	manaLeakingEnabled = true
+	#Per-block Mana loss rate of uninsulated pipes. The fraction surviving b blocks is e^(-rate*b),
+	#so 0.05 leaves ~37% after 20 blocks. Only used when manaLeakingEnabled is true.
+	# Default: 0.05
+	# Range: 0.0 ~ 1.0
+	manaPipeLossRate = 0.05
+
+[channeler]
+	#Block radius within which the Channeler drains nearby charged creepers.
+	# Default: 2
+	# Range: 1 ~ 32
+	channelerCreeperRange = 2
+	#Block radius within which the Channeler captures lightning bolts.
+	# Default: 8
+	# Range: 1 ~ 64
+	channelerLightningRange = 8
+
+[player_mana]
+	#Whether running out of mana inflicts the Depletion effect (slowness and slowed
+	#mana regen until mana recovers). When false, low mana applies no penalty.
+	manaDepletionEnabled = true
+
+[blaze_caster]
+	#How long (in ticks) a Blaze Caster stays superheated after being fed a
+	#Caster's Scone. 3600 ticks = 3 minutes. Feeding another scone refreshes the timer.
+	# Default: 3600
+	# Range: 100 ~ 72000
+	blazeCasterSuperheatDuration = 3600
+	#Spell cooldown multiplier while a Blaze Caster is superheated.
+	#0.5 = half the normal cooldown.
+	# Default: 0.5
+	# Range: 0.0 ~ 1.0
+	blazeCasterSuperheatCooldownMult = 0.5
+	#Extra spell power granted while a Blaze Caster is superheated, applied as an
+	#added fraction of base spell power. 0.10 = +10% damage.
+	# Default: 0.1
+	# Range: 0.0 ~ 10.0
+	blazeCasterSuperheatDamageBonus = 0.1

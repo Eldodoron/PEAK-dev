@@ -1,18 +1,18 @@
-filename = 'Re-Avaritia-neoforge-1.21.1-1.3.9.9-release.jar'
-name = 'Re:Avaritia'
-side = 'both'
+filename = 'Re-Avaritia-neoforge-1.21.1-1.4.1-release.jar'
+name = 'Re-Avaritia'
+side = ''
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '1.3.9.9'
+x-prismlauncher-version-number = '1.21.1-1.4.1-release'
 
 [download]
-hash = 'c4b7a83761069f049f6a18090447d8872a482f1fbeba0698c17d2bb9c6d87986be592f7c8b3b3d21a99e4faa039fec8739685109170c9534e9004803216a6c02'
+hash = '34217cb841f149e8ad697fd79bee3fcbafab096731d9498157a887e78fafebaa72f52d09e104e7391f5c529b6ca61a6006c98c9fe9204adf85228aee519d400f'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/QeB3NRC5/versions/VXmzsQD6/Re-Avaritia-neoforge-1.21.1-1.3.9.9-release.jar'
+url = 'https://cdn.modrinth.com/data/QeB3NRC5/versions/GxKTptCM/Re-Avaritia-neoforge-1.21.1-1.4.1-release.jar'
 
 [update.modrinth]
 mod-id = 'QeB3NRC5'
-version = 'VXmzsQD6'
+version = 'GxKTptCM'

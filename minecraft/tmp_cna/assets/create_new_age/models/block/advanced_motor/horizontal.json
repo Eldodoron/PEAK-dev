@@ -1,0 +1,6 @@
+{
+  "parent": "create_new_age:block/motor/horizontal",
+  "textures": {
+    "tier": "create_new_age:block/advanced_motor"
+  }
+}

@@ -8,7 +8,7 @@ ServerEvents.recipes(event => {
     event.remove({ output: 'minecraft:ender_eye' });
 
     // Create Sequenced Assembly for Ender Eye
-    // Requires: Ender Pearl -> Blaze Powder -> Ghast Tear -> Source Gem -> Pressing
+    // Requires: Ender Pearl -> Blaze Powder -> End Stone Powder -> Source Gem -> Pressing
     event.custom({
         "type": "create:sequenced_assembly",
         "ingredient": { "item": "minecraft:ender_pearl" },
@@ -21,7 +21,7 @@ ServerEvents.recipes(event => {
             },
             {
                 "type": "create:deploying",
-                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "item": "minecraft:ghast_tear" }],
+                "ingredients": [{ "item": "kubejs:incomplete_ender_eye" }, { "item": "aeronautics:end_stone_powder" }],
                 "results": [{ "id": "kubejs:incomplete_ender_eye" }]
             },
             {
@@ -38,6 +38,14 @@ ServerEvents.recipes(event => {
         "results": [{ "id": "minecraft:ender_eye" }],
         "loops": 1
     });
+
+    // Shapeless manual crafting alternative
+    event.shapeless('minecraft:ender_eye', [
+        'minecraft:ender_pearl',
+        'minecraft:blaze_powder',
+        'aeronautics:end_stone_powder',
+        'ars_nouveau:source_gem'
+    ]);
 
     console.log('[PEAK Expert Mode] Script 11: Ender Eye Gating loaded!');
 });

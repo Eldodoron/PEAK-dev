@@ -100,3 +100,4 @@
 	# Range: -9999 ~ 9999
 	"How low of a reputation of a player should have to be instantly aggroed upon by guards and golems?" = -100
 	"Allow guards to naturally patrol villages? This feature can cause lag if a lot of guards are spawned" = false
+	"Allow guards to patrol around villager workstations like golems?" = true

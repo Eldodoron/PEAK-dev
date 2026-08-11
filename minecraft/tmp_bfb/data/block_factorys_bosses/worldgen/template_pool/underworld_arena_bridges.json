@@ -1,0 +1,50 @@
+{
+	"name": "block_factorys_bosses:underworld_arena_bridges",
+	"fallback": "block_factorys_bosses:underworld_arena_end_caps_short",
+	"elements": [
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "block_factorys_bosses:underworld_arena_bridge_junction",
+				"projection": "rigid",
+				"processors": {
+					"processors": []
+				}
+			}
+		},
+		{
+			"weight": 6,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "block_factorys_bosses:underworld_arena_bridge_straight",
+				"projection": "rigid",
+				"processors": {
+					"processors": []
+				}
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "block_factorys_bosses:underworld_arena_bridge_dead_end",
+				"projection": "rigid",
+				"processors": {
+					"processors": []
+				}
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "block_factorys_bosses:underworld_arena_bridge_broken",
+				"projection": "rigid",
+				"processors": {
+					"processors": []
+				}
+			}
+		}
+	]
+}

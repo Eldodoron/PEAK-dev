@@ -1,19 +1,19 @@
-filename = 'aeroworks-1.2.11.jar'
+filename = 'aeroworks-1.3.0.jar'
 name = 'Create: Aeroworks'
 side = ''
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '1.2.11+mc1.21.1'
+x-prismlauncher-version-number = '1.3.0+mc1.21.1'
 
 [download]
-hash = 'b36e8b2abeb37a5e8cc0f885e4fad93b3b6709ec'
+hash = '0767ffd7796b5adb0ebba6ebcebd729bdcdfa33a'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 8185390
+file-id = 8409091
 project-id = 1522473
 
 [[x-prismlauncher-dependencies]]

@@ -1,0 +1,12 @@
+{
+  "parent": "block/block",
+  "ambientocclusion": false,
+  "textures": {
+    "0": "create_new_age:block/generator_coil",
+    "particle": "create_new_age:block/generator_coil"
+  },
+
+  "loader": "neoforge:obj",
+  "flip_v": true,
+  "model": "create_new_age:models/block/generator_coil/generator_coil.obj"
+}

@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "conditions": [
+            {
+              "block": "block_factorys_bosses:underworld_tall_candles",
+              "condition": "minecraft:block_state_property",
+              "properties": {
+                "blockstate": "2"
+              }
+            }
+          ],
+          "name": "block_factorys_bosses:underworld_tall_candles"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "block_factorys_bosses:blocks/underworld_tall_candles"
+}

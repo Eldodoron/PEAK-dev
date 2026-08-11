@@ -6,3 +6,5 @@ useFirstPersonCamera = false
 # Default: 4.0
 # Range: 0.5 ~ 16.0
 subLevelCameraDistance = 4.0
+#Show the on-screen controls hint popup when entering ragdoll mode.
+showControlsHint = true

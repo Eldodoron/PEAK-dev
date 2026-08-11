@@ -1,5 +1,5 @@
-filename = 'lootintegrations_vanilla-1.6.jar'
-name = 'Loot Integrations: Randomized Loot Compatibility'
+filename = 'lootintegrations_vanilla-1.7.jar'
+name = 'lootintegrations_vanilla mod'
 side = ''
 x-prismlauncher-loaders = [ 'neoforge', 'forge', 'fabric' ]
 x-prismlauncher-mc-versions = [
@@ -17,19 +17,20 @@ x-prismlauncher-mc-versions = [
     '1.21.11',
     '26.1',
     '26.1.1',
-    '26.1.2'
+    '26.1.2',
+    '26.2'
 ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'lootintegrations_vanilla-1.6.jar'
+x-prismlauncher-version-number = 'lootintegrations_vanilla-1.7.jar'
 
 [download]
-hash = '0f89be3a7dc5a0e6af59a4b93e138b4c10883286'
+hash = 'c545c5177ac6a7d49b88a80f2706da7085d7708d'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 8010842
+file-id = 8472896
 project-id = 1128055
 
 [[x-prismlauncher-dependencies]]

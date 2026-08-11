@@ -1,0 +1,78 @@
+[defaultGroups]
+	#Master switch for all built-in default groups.
+	#Set to false to start with a completely clean slate (no default groups).
+	enabled = true
+	#Whether to load built-in generic cross-mod groups (potions, enchanted books, spawn eggs, etc.)
+	loadGeneric = true
+	#Whether to load built-in vanilla item groupings (wool, concrete, terracotta, etc.)
+	loadVanilla = true
+
+	[defaultGroups.ModIntegration]
+		#Whether to load built-in mod-integration groups.
+		#Groups for mods that are not currently installed are always skipped.
+		loadModIntegration = true
+		#Whether to load built-in AE2 groups.
+		#Has no effect if AE2 is not installed.
+		loadAE2 = true
+		#Whether to load built-in RS2 groups.
+		#Has no effect if RS2 is not installed.
+		loadRS2 = true
+		#Whether to load built-in EnderIO groups.
+		#Has no effect if EnderIO is not installed.
+		loadEnderIO = true
+		#Whether to load built-in Chipped block-variant groups (one group per block type).
+		#Has no effect if Chipped is not installed.
+		loadChipped = true
+		#Whether to load built-in Rechiseled block-variant groups (one group per block type).
+		#Has no effect if Rechiseled is not installed.
+		loadRechiseled = true
+		#Whether to load built-in Macaw's series block-tag groups.
+		#Has no effect if none of the supported Macaw's mods are installed.
+		loadMacawsSeries = true
+		#Whether to load built-in Chisel block-variant groups (one group per carving tag).
+		#Has no effect if Chisel is not installed.
+		loadChisel = true
+		#Whether to load built-in Apotheosis gem groups (one group per gem type).
+		#Has no effect if Apotheosis is not installed.
+		loadApotheosis = true
+		#Whether to load built-in Iron's Spellbooks scroll groups (one group per spell).
+		#Has no effect if Iron's Spellbooks is not installed.
+		loadIronsSpellbooks = true
+
+[ui]
+	#Whether to show the group manager button in the JEI ingredient list overlay.
+	showManagerButton = true
+	#Whether grouped JEI slots draw a semi-transparent background tint.
+	#Set to false to keep group backgrounds fully transparent while preserving the +/- indicator and borders.
+	showGroupBackgrounds = true
+	#Whether small matching groups should be shown as regular entries while filtering JEI search results.
+	#This avoids showing a group header when only a few children match the search.
+	searchUngroupSmallGroups = true
+	#Filtered group child count must be lower than this value before search leaves it ungrouped.
+	#For example, 5 leaves groups with 2-4 matching entries ungrouped; 0 disables this behavior.
+	# Default: 5
+	# Range: > 0
+	searchUngroupThreshold = 5
+	#ARGB background color for collapsed group headers.
+	#Accepted formats: #AARRGGBB, 0xAARRGGBB, AARRGGBB, or RGB variants that keep the default alpha.
+	collapsedGroupBackgroundColor = "#24FFFFFF"
+	#ARGB background color for expanded group headers and children.
+	#Accepted formats: #AARRGGBB, 0xAARRGGBB, AARRGGBB, or RGB variants that keep the default alpha.
+	expandedGroupBackgroundColor = "#24FFFFFF"
+	#RGB color for group display names. Alpha is ignored if an ARGB value is provided.
+	#Accepted formats: #RRGGBB, 0xRRGGBB, RRGGBB, or ARGB variants with ignored alpha.
+	groupNameColor = "#FFAA00"
+	#ARGB color for the connected border around expanded groups.
+	#Accepted formats: #AARRGGBB, 0xAARRGGBB, AARRGGBB, or RGB variants that keep the default alpha.
+	expandedGroupBorderColor = "#66FFFFFF"
+
+[debug]
+	#Show Collapsible Groups timing logs in the game log.
+	#Useful when diagnosing slow JEI startup, group rebuilds, or editor/manager refreshes.
+	enableTimingLogs = false
+	#Verify the startup item-group index against a reference implementation.
+	#Builds the reference result and compares it with the optimized startup index. This is slower, but useful for correctness testing.
+	verifyStartupIndex = false
+	#Verify the editor preview index against a reference implementation.
+	#Useful when testing editor-side preview correctness.
+	verifyEditorPreviewIndex = false

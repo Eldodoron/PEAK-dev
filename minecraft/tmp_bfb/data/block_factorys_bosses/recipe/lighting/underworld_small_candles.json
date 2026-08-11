@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "tag": "c:ingots/gold"
+    },
+    ".": {
+      "tag": "minecraft:soul_fire_base_blocks"
+    },
+    "O": {
+      "tag": "minecraft:candles"
+    }
+  },
+  "pattern": [
+    "OOO",
+    ".#."
+  ],
+  "result": {
+    "count": 1,
+    "id": "block_factorys_bosses:underwold_candles"
+  }
+}

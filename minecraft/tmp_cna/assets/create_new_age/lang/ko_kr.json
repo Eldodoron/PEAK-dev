@@ -1,0 +1,201 @@
+{
+  "create_new_age.monkey_edition": "Create: New Age [Monkey Edition]",
+
+  "recipe.assembly.energising": "Energizing",
+  "create.tooltip.create_new_age.energy_stored": "에너지 저장량: ",
+  "create.tooltip.create_new_age.energy_stats": "Energy Stats: ",
+  "create.tooltip.create_new_age.energy_usage": "에너지 사용량: ",
+  "create.tooltip.create_new_age.energy_output": "에너지 출력량: ",
+  "create.tooltip.create_new_age.energy": "%s ⚡",
+  "create.tooltip.create_new_age.max_speed": "최대 속도: ",
+  "create.tooltip.create_new_age.temperature": "%s ˚T",
+  "create.tooltip.create_new_age.rpm": "%s RPM",
+  "create.tooltip.create_new_age.temperature.ps": "%s ˚T/s",
+  "create.tooltip.create_new_age.pump": "전달중: ",
+  "create.tooltip.create_new_age.energy_per_tick": "%s ⚡/t",
+  "create.tooltip.create_new_age.per_rpm": "per %s RPM",
+  "create.tooltip.create_new_age.energy_storage": "%s ⚡ / %s ⚡",
+  "create.tooltip.create_new_age.releasing": "방출량: ",
+  "create.tooltip.create_new_age.generating": "생산중: ",
+  "create.tooltip.create_new_age.using": "사용중: ",
+  "create.tooltip.create_new_age.extracting": "추출량: ",
+  "create.tooltip.create_new_age.generates":  "생산량: ",
+  "create.tooltip.create_new_age.stores":  "저장량: ",
+  "create.tooltip.create_new_age.speed":  "속도: ",
+  "create.tooltip.create_new_age.efficiency":  "효율: ",
+  "create.tooltip.create_new_age.transfers":  "전송량: ",
+  "create.tooltip.create_new_age.percent":  "%s%%",
+  "create.tooltip.create_new_age.magnetic_force":  "자기력: ",
+
+  "create.tooltip.create_new_age.connector_info": "커넥터 정보: ",
+  "create.tooltip.create_new_age.mode": "모드: ",
+  "create.tooltip.create_new_age.connector_mode.inert": "Inert",
+  "create.tooltip.create_new_age.connector_mode.pull": "Pull",
+
+
+  "tab.create_new_age.tab": "Create: New Age",
+  "block.create_new_age.basic_energiser": "충전기",
+  "block.create_new_age.advanced_energiser": "고급 충전기",
+  "block.create_new_age.reinforced_energiser": "최고급 충전기",
+  "block.create_new_age.carbon_brushes": "탄소 브러쉬",
+  "block.create_new_age.heat_pipe": "히트 파이프",
+  "block.create_new_age.heat_pump": "히트 펌프",
+  "block.create_new_age.heater": "보일러 히터",
+  "block.create_new_age.generator_coil": "발전 코일",
+  "block.create_new_age.stirling_engine": "스털링 기관",
+  "block.create_new_age.magnetite_block": "자철광",
+  "block.create_new_age.fluxuated_magnetite": "유동자철광",
+  "block.create_new_age.netherite_magnet": "네더라이트 자석",
+  "block.create_new_age.layered_magnet": "적층형 자석",
+  "block.create_new_age.redstone_magnet": "레드스톤 자석",
+  "block.create_new_age.solid_corium": "고체 코륨",
+  "block.create_new_age.corium": "코륨",
+  "block.create_new_age.reactor_casing": "반응로 케이싱",
+  "block.create_new_age.reactor_rod": "반응로 연료봉",
+  "block.create_new_age.reactor_glass": "반응로 유리",
+  "block.create_new_age.reactor_fuel_acceptor": "반응로 연료 투입기",
+  "block.create_new_age.reactor_heat_vent": "반응로 열 교환기",
+  "block.create_new_age.basic_solar_heating_plate": "태양열 패널",
+  "block.create_new_age.advanced_solar_heating_plate": "발전된 태양열 패널",
+  "block.create_new_age.electrical_connector": "전기 커넥터",
+  "block.create_new_age.basic_motor": "모터",
+  "block.create_new_age.advanced_motor": "고급 모터",
+  "block.create_new_age.reinforced_motor": "최고급 모터",
+  "block.create_new_age.thorium_ore": "토륨 원석",
+  "item.create_new_age.nuclear_fuel": "핵 연료",
+  "item.create_new_age.incomplete_fuel": "미완성된 핵연료",
+  "item.create_new_age.incomplete_casing": "미완성된 반응로 케이싱",
+  "item.create_new_age.incomplete_wire": "미완성된 전선",
+  "item.create_new_age.thorium": "토륨",
+  "item.create_new_age.radioactive_thorium": "방사성 토륨",
+  "item.create_new_age.overcharged_iron": "과충전된 철 주괴",
+  "item.create_new_age.overcharged_gold": "과충전된 금 주괴",
+  "item.create_new_age.overcharged_diamond": "과충전된 다이아몬드",
+  "item.create_new_age.overcharged_iron_sheet": "과충전된 철 판",
+  "item.create_new_age.overcharged_golden_sheet": "과충전된 금 판",
+  "item.create_new_age.copper_wire": "구리 전선",
+  "item.create_new_age.overcharged_iron_wire": "과충전된 철 전선",
+  "item.create_new_age.overcharged_golden_wire": "과충전된 금 전선",
+  "item.create_new_age.overcharged_diamond_wire": "과충전된 다이아몬드 전선",
+
+  "item.create_new_age.wire.message.self_connect": "커넥터 자체적으로 연결할 수 없습니다.",
+  "item.create_new_age.wire.message.too_far": "너무 멉니다! 전선의 최대 길이는 %d 블럭입니다",
+  "item.create_new_age.wire.message.already_connected": "두 커넥터끼리는 이미 연결되어 있습니다",
+  "item.create_new_age.wire.message.unbound": "커넥터에서 연결이 해제됨",
+  "item.create_new_age.wire.message.connected": "커넥터에 연결됨",
+
+  "tag.create_new_age.nuclear.hazmat_suit": "방사능 보호의",
+  "tag.create_new_age.nuclear.is_nuclear_fuel": "핵 연료",
+  "emi.category.create_new_age.energising": "충전기",
+
+  "create_new_age.ponder.heating.header": "가열 시스템",
+
+  "create_new_age.ponder.heating.text_1": "낮에는 태양열 패널을 사용하여 열을 발생시킬 수 있습니다.",
+  "create_new_age.ponder.heating.text_2": "히트파이프를 사용하면 열을 주변으로 전달할 수 있습니다.",
+
+  "create_new_age.ponder.heating.text_3": "240 ˚T",
+  "create_new_age.ponder.heating.text_4": "0 ˚T",
+  "create_new_age.ponder.heating.text_5": "0 ˚T",
+
+  "create_new_age.ponder.heating.text_6": "120 ˚T",
+  "create_new_age.ponder.heating.text_7": "120 ˚T",
+  "create_new_age.ponder.heating.text_8": "0 ˚T",
+
+  "create_new_age.ponder.heating.text_9": "80 ˚T",
+  "create_new_age.ponder.heating.text_10": "80 ˚T",
+  "create_new_age.ponder.heating.text_11": "80 ˚T",
+
+  "create_new_age.ponder.heating.text_12": "아래에서 열이 공급되면 스털링 기관이 작동하기 시작합니다.",
+  "create_new_age.ponder.heating.text_13": "스털링 기관에 더 많은 열이 제공되면 회전 속도가 점점 더 빨라집니다 ",
+
+  "create_new_age.ponder.heating.text_14": "히트 펌프를 사용하여 열을 앞으로 전달할 수 있습니다.",
+  "create_new_age.ponder.heating.text_15": "하지만 조심해야합니다. 만약 블록이 과열되면 용암으로 변합니다.",
+
+  "create_new_age.ponder.heater.header": "보일러 히터",
+  "create_new_age.ponder.heater.text_1": "보일러 히터는 블레이즈 버너와 동일한 방식으로 작동하지만 가연성 연료 대신 열을 사용합니다.",
+  "create_new_age.ponder.heater.text_2": "더 많은 열을 제공할수록 더 많은 열이 방출됩니다.",
+
+
+  "create_new_age.ponder.reactor.header": "원자력 이용",
+  "create_new_age.ponder.reactor.text_1": "원자로는 많은 양의 열을 발생시키는 좋은 방법입니다.",
+  "create_new_age.ponder.reactor.text_2": "원자로의 첫 번째 구성요소는 핵반응이 일어나는 반응로 연료봉입니다.",
+  "create_new_age.ponder.reactor.text_3": "두 번째 구성 요소는 원자로에 연료를 공급할 수 있는 반응로 연료 투입기입니다.",
+  "create_new_age.ponder.reactor.text_4": "원자로에 필요한 최종 구성 요소는 원자로에서 열을 모아 연결된 히트파이프로 분배하는 반응로 열 교환기입니다.",
+
+  "create_new_age.ponder.reactor.text_5": "그러나 원자로를 사용할 때에는 원자로에서 치명적인 방사선이 방출되므로 주의해야 합니다.",
+
+  "create_new_age.ponder.reactor.text_6": "가죽갑옷을 입거나 원자로를 반응로 케이싱/유리로 완전히 감싸면 방사선을 차폐할 수 있습니다.",
+
+  "create_new_age.ponder.reactor.text_7": "추가적으로 원자로의 열을 사용하는 무언가가 있어야 합니다. 그렇지 않으면 아주 재미있는 노심용융이 발생할 것입니다.",
+
+  "create_new_age.ponder.energiser.header": "충전기",
+
+  "create_new_age.ponder.energiser.text_1": "전기와 회전동력이 제공되면 충전기는 벨트와 아이템 거치대에 있는 품목에 에너지를 공급합니다.",
+
+
+  "create_new_age.ponder.wires.header": "배선",
+  "create_new_age.ponder.wires.text_1": "전선은 한 곳에서 다른 곳으로 에너지를 전달하는 데 사용됩니다.",
+  "create_new_age.ponder.wires.text_2": "이 블록은 자동으로 주변 블록에 에너지를 전달합니다. 하지만 그렇게 하지 않았다면 어떨까요?",
+  "create_new_age.ponder.wires.text_3": "'Pull' 모드가 활성화되면 커넥터는 자신이 연결되어있는 블록에서 에너지를 끌어옵니다. 모드는 렌치로 전환 할 수 있습니다",
+  "create_new_age.ponder.wires.text_4": "'Pull' 모드는 다른 모드와의 호환성만을 위한 것이며 충전기와 모터 내부 저장소에서 에너지를 추출하지는 못합니다.",
+
+  "create_new_age.ponder.generation.header": "전기 생성",
+
+  "create_new_age.ponder.generation.text_1": "회전하면 발전 코일은 자석으로 둘러싸여 있는 한 전기를 생성합니다.",
+  "create_new_age.ponder.generation.text_2": "코일에서 생성된 전기는 탄소 브러쉬를 사용하여 수집할 수 있습니다.",
+  "create_new_age.ponder.generation.text_3": "발전 코일 주위의 자석의 자력이 증가함에 따라 피로도(SU)가 전기로 전환되는 비율이 증가합니다.",
+  "create_new_age.ponder.generation.text_4": "효율: 33.3%%",
+  "create_new_age.ponder.generation.text_5": "효율: 50.0%%",
+  "create_new_age.ponder.generation.text_6": "그러나 효율이 증가함에 따라 발전기 코일에 더 많은 피로도(SU)를 요구합니다.",
+
+  "create_new_age.ponder.motor.header": "모터!",
+  "create_new_age.ponder.motor.text_1": "모터를 사용하면 전기를 사용하여 동력을 생성할 수 있습니다.",
+  "create_new_age.ponder.motor.text_2": "렌치를 사용하여 속도를 구성할 수 있지만 피로도(SU)의 양은 속도에 상관없이 동일합니다.",
+  "create_new_age.ponder.motor.text_3": "레드스톤신호를 가하면 비활성화할 수 있습니다.",
+  "create_new_age.ponder.motor.text_4": "또한 렌치를 들고 마우스 오른쪽 버튼으로 클릭하여 전원을 껐다 킬 수 있습니다.",
+
+  "create_new_age.ponder.motor_extension.header": "모터 확장기",
+  "create_new_age.ponder.motor_extension.text_1": "모터가 과부하에 걸리는것에 지치셨나요? 모터 확장기를 사용해보세요!",
+  "create_new_age.ponder.motor_extension.text_2": "확장기 기능을 사용하면 모터 피로도(SU)를 구성할 수 있습니다.",
+  "create_new_age.ponder.motor_extension.text_3": "에너지 소비는 피로도(SU)에 비례합니다.",
+
+
+  "create_new_age.ponder.tag.electrical": "전기 부품",
+  "create_new_age.ponder.tag.electrical.description": "전기의 생성, 운송, 사용을 담당하는 품목들",
+
+  "create_new_age.ponder.tag.wiring": "배선",
+  "create_new_age.ponder.tag.wiring.description": "전기 배선에 사용되는 품목들",
+
+  "create_new_age.ponder.tag.magnets": "자석들",
+  "create_new_age.ponder.tag.magnets.description": "전기를 생산하는 데 사용되는 자석들",
+
+  "create_new_age.ponder.tag.electricity_generation": "발전",
+  "create_new_age.ponder.tag.electricity_generation.description": "전기를 생산하는데 사용되는 품목들",
+
+  "create_new_age.ponder.tag.heating": "가열 부품",
+  "create_new_age.ponder.tag.heating.description": "열을 생성, 운반 및 사용하는 데 사용되는 품목들",
+
+  "create_new_age.ponder.tag.reactor": "원자로",
+  "create_new_age.ponder.tag.reactor.description": "원자로에 사용되는 품목들",
+
+
+  "item.create_new_age.glowstone_electrolyte_bucket": "발광석 전해질 양동이",
+
+  "fluid.create_new_age.glowstone_electrolyte": "발광석 전해질",
+
+  "create.tooltip.create_new_age.attention": "주목!",
+  "create.tooltip.create_new_age.battery_issue": "_배터리 컨트롤러_는 _전해질_로 채워진 _유체 탱크_ 상단에 위치해야 합니다.",
+
+  "create_new_age.ponder.generation.text_7": "참고: 발전 코일은 회전을 생성하지 않고 전기만 생성합니다.",
+
+  "create.tooltip.create_new_age.stress_limit_multiplier": "피로도 배율 조정",
+  "create.tooltip.create_new_age.additional_capacity": "추가 용량",
+  "create.new_age.motor.stress_multiplier": "피로도 배율 조정",
+
+  "block.create_new_age.basic_motor_extension": "모터 확장기",
+  "block.create_new_age.advanced_motor_extension": "고급 모터 확장기",
+  "item.create_new_age.copper_circuit": "구리 회로",
+  "item.create_new_age.blank_circuit": "빈 회로",
+
+  "tooltip.create_new_age.motor_extension": "모터 뒤에 배치"
+}

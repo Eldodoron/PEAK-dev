@@ -1,0 +1,6 @@
+{
+  "parent": "create_new_age:block/wire_block",
+  "textures": {
+    "0": "create_new_age:block/copper_wire_block"
+  }
+}

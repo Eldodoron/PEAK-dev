@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "O": {
+      "tag": "c:ingots/iron"
+    }
+  },
+  "pattern": [
+    " O ",
+    "OOO",
+    " O "
+  ],
+  "result": {
+    "count": 1,
+    "id": "block_factorys_bosses:cannonball"
+  }
+}

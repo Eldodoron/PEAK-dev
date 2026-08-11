@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "block_factorys_bosses:item/underworld_arena_door"
+	}
+}

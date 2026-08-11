@@ -1,0 +1,21 @@
+filename = 'jeioptimizer-1.21.1-1.1.0-19.42.jar'
+name = 'JEIOptimizer'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'jeioptimizer-1.21.1-1.1.0-19.42'
+
+[download]
+hash = 'a9a4e4675dddcb438707b0fcc8e9fb98d89ae721'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8536579
+project-id = 1570444
+
+[[x-prismlauncher-dependencies]]
+addonId = '238222'
+type = 'REQUIRED'

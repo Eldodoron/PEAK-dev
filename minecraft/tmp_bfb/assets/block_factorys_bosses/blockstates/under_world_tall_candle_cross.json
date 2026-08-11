@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "blockstate=1": {
+      "model": "block_factorys_bosses:block/tall_underworld_cross_candle_blockstat_blockstate_0"
+    },
+    "blockstate=2": {
+      "model": "block_factorys_bosses:block/tall_underworld_cross_candle_blockstat_blockstate_1"
+    }
+  }
+}

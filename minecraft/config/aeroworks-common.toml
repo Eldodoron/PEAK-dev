@@ -53,3 +53,10 @@
 	# Default: 4.0
 	# Range: 0.0 ~ 1024.0
 	stressImpact = 4.0
+
+#Settings for modular control consoles.
+[console]
+	#Raw mouse pixels per axis step for mouse-driven modules. Lower = more sensitive. Full deflection (15 steps) is reached after 15x this many pixels of mouse movement.
+	# Default: 30.0
+	# Range: 1.0 ~ 500.0
+	pixelsPerStep = 30.0

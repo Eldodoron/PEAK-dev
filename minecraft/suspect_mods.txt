@@ -1,0 +1,180 @@
+File: atlas_api-1.21.1-1.2.0.jar
+Name: Atlas API
+Reasons: model
+Desc Snippet: provides an api for generating atlases during game runtime, and helpers for loading custom item mode...
+-------------------
+File: azurelib-neo-1.21.1-3.1.8.jar
+Name: AzureLib
+Reasons: animation, model
+Desc Snippet: java minecraft mod using bedrock models to create custom models and animations for items, blocks, en...
+-------------------
+File: bigwater-1.2.0-neoforge+mc1.21.1.jar
+Name: Big Water
+Reasons: texture
+Desc Snippet: larger-scale fluid textures
+...
+-------------------
+File: blueprint-1.21.1-8.1.0.jar
+Name: Blueprint
+Reasons: animation
+Desc Snippet:     the library mod used by all abnormals mods. adds support for various types of blocks, helps with...
+-------------------
+File: cataclysm_spellbooks-1.1.11-1.21.jar
+Name: Cataclysm: Spellbooks
+Reasons: texture, animation, model
+Desc Snippet: an integration mod between l_ender's cataclysm and iron's spells 'n spellbooks
+adds in a new armor s...
+-------------------
+File: chunkactivitytracker-neoforge-1.0.1-1.21.1.jar
+Name: Chunk Activity Tracker
+Reasons: map
+Desc Snippet: library mod that stores a heatmap of player activity in chunks...
+-------------------
+File: CodeChickenLib-1.21.1-4.6.1.529.jar
+Name: CodeChicken Lib
+Reasons: render, model
+Desc Snippet: codechickenlib is a library of systems to help make various aspects of minecraft modding easier.
+it ...
+-------------------
+File: CrashAssistant-neoforge-1.20.6-1.21.4-1.11.9.jar
+Name: Crash Assistant
+Reasons: gui 
+Desc Snippet: shows a gui after minecraft crashes, immediately showing all affected logs, crash reports, or hs_err...
+-------------------
+File: create-aeronautics-bundled-1.21.1-1.2.1.jar
+Name: Create Aeronautics
+Reasons: physics
+Desc Snippet: expands the create mod with physics-based contraptions, to build anything from cars to planes. this ...
+-------------------
+File: createaeronauticscurios-neoforge-1.21.1-2.2.jar
+Name: Create Aeronautics Curios Compat
+Reasons: render
+Desc Snippet: adds curios slot and rendering support to the create aeronautics aviator goggles, and remote linkedt...
+-------------------
+File: darkermagic-1.3.3-1.21.1-ver.b.jar
+Name: Deeper and Darker: Spellbooks
+Reasons: model
+Desc Snippet: an addon between deeper and darker and iron's spells 'n spellbooks. let me know in the official iron...
+-------------------
+File: dodospyglass-1.0.0-neoforge+1.21.1-SNAPSHOT.jar
+Name: DodoSpyglass
+Reasons: keybind
+Desc Snippet: adds a curios equipment slot for the spyglass, letting you zoom hands-free with a keybind....
+-------------------
+File: EvoLoginTimeout-NeoForge-1.21.1-1.0.9.jar
+Name: EvoLoginTimeout
+Reasons: client
+Desc Snippet: neoforge client + server mod that increases login/configuration/common/protocol transition timeouts ...
+-------------------
+File: fwa+1.21.1-neoforge-1.2.31.jar
+Name: Fancy World Animations
+Reasons: animation, animation (in name)
+Desc Snippet: adds a bunch of animations to blocks
+...
+-------------------
+File: fzzy_config-0.7.6+1.21+neoforge.jar
+Name: Fzzy Config
+Reasons: gui , client
+Desc Snippet: configuration engine with automatic gui generation, client-server syncing, powerful validation and e...
+-------------------
+File: geckolib-neoforge-1.21.1-4.9.2.jar
+Name: GeckoLib 4
+Reasons: sound, animation, particle
+Desc Snippet: geckolib is an animation engine for minecraft mods, with support for complex 3d keyframe-based anima...
+-------------------
+File: healight-neoforge-1.21.1-1.0.1.jar
+Name: Healight
+Reasons: visual
+Desc Snippet: enhances the existing damage flash by adding green glow when entities heal, providing better visual ...
+-------------------
+File: heavier_weapons-1.21.1-NeoForge-1.1.0.jar
+Name: Heavier Weapons
+Reasons: camera
+Desc Snippet: adds hitstop, camera shake, and entity freeze effects on weapon impact....
+-------------------
+File: L_Ender's Cataclysm 1.21.1-3.27.jar
+Name: L_Ender's Cataclysm 1.21.1
+Reasons: texture
+Desc Snippet: https://www.curseforge.com/minecraft/texture-packs/cataclysmic-tunes...
+-------------------
+File: moonlight-1.21.1-3.3.2-neoforge.jar
+Name: Moonlight Lib
+Reasons: map
+Desc Snippet: a small library with many cool unique features, from dynamic asset generation to dynamic villager sc...
+-------------------
+File: multipiston-1.2.58-1.21.1.jar
+Name: Multi-Piston
+Reasons: gui 
+Desc Snippet: piston unlimited adds the multipiston block which allows you to move any block with a handy gui into...
+-------------------
+File: particle_core-0.3.3+1.21+neoforge.jar
+Name: Particle Core
+Reasons: render, particle (in name), particle
+Desc Snippet: particle optimizations. particle culling, rendering optimization, and configurable disabling of part...
+-------------------
+File: particular-1.21.1-NeoForge-1.5.5.jar
+Name: Particular Reforged
+Reasons: visual
+Desc Snippet: particular is a mod that enhances minecraft's ambience with many hand-crafted visual effects....
+-------------------
+File: Perception-NEOFORGE-0.2.1+1.21.1.jar
+Name: Perception
+Reasons: visual
+Desc Snippet: enriching the world with immersive visual effects...
+-------------------
+File: punchy-2.6.2-neoforge-1.21.1.jar
+Name: Punchy
+Reasons: animation
+Desc Snippet: first-person animations. special thanks to godku for the support....
+-------------------
+File: ragdoll_reactions-1.21.1-0.7.0.jar
+Name: Ragdoll Reactions
+Reasons: ragdoll, ragdoll (in name)
+Desc Snippet: players and mobs ragdoll in reaction to the world around them! crashes, explosions, damage, and more...
+-------------------
+File: refurbished_furniture-neoforge-1.21.1-1.0.22.jar
+Name: MrCrayfish's Furniture Mod: Refurbished
+Reasons: sound, model
+Desc Snippet: the next generation of mrcrayfish's furniture mod, built from the ground up with brand-new blocks, m...
+-------------------
+File: sable-neoforge-1.21.1-1.2.2.jar
+Name: Sable
+Reasons: physics
+Desc Snippet: interactive moving block structures with physics....
+-------------------
+File: sable_player_ragdoll-1.21.1-0.7.5.jar
+Name: Sable Ragdolls
+Reasons: ragdoll, physics, ragdoll (in name)
+Desc Snippet: ragdoll physics api for sable. provides the core ragdoll system and api for addon mods....
+-------------------
+File: sounds-2.4.22+lts+1.21.1-neoforge.jar
+Name: Sounds
+Reasons: sound, sound (in name)
+Desc Snippet: a highly configurable sound overhaul mod that adds new sound effects while improving vanilla sounds ...
+-------------------
+File: spark-1.10.124-neoforge.jar
+Name: spark
+Reasons: client
+Desc Snippet: spark is a performance profiling plugin/mod for minecraft clients, servers and proxies....
+-------------------
+File: tlc-neoforge-1.21.1-2.1.0.jar
+Name: The Lost Castle
+Reasons: map
+Desc Snippet: former structure of end remastered, the lost castle introduces an enormous castle that you'll be abl...
+-------------------
+File: treephysics-1.8.jar
+Name: Tree Physics
+Reasons: physics (in name), physics
+Desc Snippet: a small mod that causes trees to fall with realistic, interactive physics...
+-------------------
+File: uranus-2.4.1-1.21.1-neoforge.jar
+Name: Uranus
+Reasons: animation
+Desc Snippet: a library contains animation engine, object helper and so on. partly based on llibrary and citadel.
+...
+-------------------
+File: waystonessable-1.0.3.jar
+Name: WaystonesSable
+Reasons: client
+Desc Snippet: a compatibility mod that allows waystones to work properly within sable's sublevel system. fixes tel...
+-------------------

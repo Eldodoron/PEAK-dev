@@ -1,69 +1,69 @@
-/summon minecraft:evoker ~ ~ ~ {Tags:["force_supreme_evoker"]}
-/summon cataclysm:ignited_berserker ~ ~ ~ {Tags:["force_champion_berserker"]}
-/summon iceandfire:gorgon ~ ~ ~ {Tags:["force_matriarch_gorgon"]}
+/execute in minecraft:the_end run tp @s 0 80 0
+/kill
+/apoth reforge nadir:cataclysmic
+/apoth set_world_tier Eldodoron pinnacle
 /reload
-/summon minecraft:zombie ~ ~ ~ {Tags:["force_deceased_dragonslayer"]}
-/summon minecraft:warden ~ ~ ~ {Tags:["force_ancient_warden"]}
-/summon minecraft:enderman ~ ~ ~ {Tags:["force_void_walker"]}
-/reload
-/summon minecraft:zombie ~ ~ ~ {Tags:["force_deceased_dragonslayer"]}
-/reload
-/summon minecraft:zombie ~ ~ ~ {Tags:["force_deceased_dragonslayer"]}
-<<<<<<< Updated upstream
-/summon bosses_of_mass_destruction:obsidilith 30.35 -59.00 10.48
-/apoth reforge nadir:esoteric
-/summon bosses_of_mass_destruction:obsidilith
-/tp Eldodoron 10000 ~ 10000
-/summon minecraft:wither
-/summon bosses_of_mass_destruction:obsidilith
-/summon minecraft:wither
-/summon bosses_of_mass_destruction:obsidilith
+/apoth set_world_tier Eldodoron pinnacle
+/apoth reforge nadir:cataclysmic
+/kill
+/spark profiler start --timeout 200
+/relics maximize
+/spark profiler start --timeout 200
+/give Eldodoron minecraft:ender_pearl
+/flywheel backend
+/spark profiler start --timeout 200
+/summon ghastscrashneoforge:falling_ghast
+/spark profiler start --timeout 200
+/mana -
+/relics maximize
 /
-/summon bosses_of_mass_destruction:obsidilith
-=======
-/summon minecraft:enderman ~ ~ ~ {Tags:["force_void_walker"]}
-/summon minecraft:warden ~ ~ ~ {Tags:["force_ancient_warden"]}
-/summon mowziesmobs:frostmaw ~ ~ ~ {Tags:["force_mother_frostmaw"]}
-/summon mowziesmobs:frostmaw ~ ~ ~
-/summon mowziesmobs:frostmaw ~ ~ ~ {Tags:["force_mother_frostmaw"]}
-/apoth reforge nadir:ancient
-/summon mowziesmobs:frostmaw ~ ~ ~ {Tags:["force_mother_frostmaw"]}
-/apoth reforge nadir:ancient
-/summon mowziesmobs:frostmaw ~ ~ ~ {Tags:["force_mother_frostmaw"]}
-/apoth reforge nadir:ancient
-/summon mowziesmobs:frostmaw ~ ~ ~ {Tags:["force_mother_frostmaw"]}
-/reload
-/summon minecraft:cow
->>>>>>> Stashed changes
-/tp Eldodoron 10000 ~ 10000
 /wits
-/configure_update
-/configure_update 1ew
-/give Eldodoron minecraft:ender_eye
-/vampirism level vampirism:vampire 0 Eldodoron
-/locate structure minecraft:end_city
-/tp @s 10336 ~ 10272
-/wits
-/tp Eldodoron 10000 ~ 10000
-/fill ~ ~ ~ 10100 180 10100 the_beyond:auroracite
-/fill ~ ~ ~ 10100 120 10100 the_beyond:auroracite
-/fill ~ ~ ~ 10050 120 10050 the_beyond:auroracite
-/fill ~ ~ ~ 10050 100 10050 the_beyond:auroracite
-/fill ~ ~ ~ 10030 100 10030 the_beyond:auroracite
-/tp Eldodoron 10000 ~ 10000
-/tp Eldodoron -10000 ~ -10000
-/tp Eldodoron 20000 120 20000
-/tp 10000 100 10000
-/execute in minecraft:the_end run tp @s 0 80 0
-/tp 10000 100 10000
-/tp 10000 100 20000
-/execute in minecraft:the_end run tp @s 10000 100 10000
-/apoth reforge nadir:cataclysmic
-/execute in minecraft:the_end run tp @s 0 80 0
-/kill
-/apoth reforge nadir:cataclysmic
-/apoth set_world_tier Eldodoron pinnacle
+/spark profiler start --timeout 200
+/locate structure block_factorys_bosses:dragon_tower
+/tp @s -2624 ~ 4032
+/locate structure block_factorys_bosses:dragon_tower
+/tp @s -2624 ~ 4032
+/locate structure block_factorys_bosses:dragon_tower
+/tp @s 10000 ~ -10000
+/locate structure block_factorys_bosses:dragon_tower
+/tp @s 9856 ~ -8704
+/tp @s 10000 ~ 10000
+/locate structure block_factorys_bosses:dragon_tower
+/tp @s 7776 ~ 9856
 /reload
-/apoth set_world_tier Eldodoron pinnacle
+/tp @s 10000 ~ 100000
+/locate structure block_factorys_bosses:dragon_tower
+/tp @s 9648 ~ 98480
+/apoth reforge apotheosis:mythic
+/crafttweaker hand registry_name
+/ironsSpellbooks summons Eldodoron setOwner Eldodoron
+/time set day
+/crafttweaker hand registry_name
+/reload
+/ct ctgui
+/ct dump_brackets
+/ct examples
+/ct give <item:aces_spell_utils:example_ap_magic_sword>
+/ct recipes hand
+/crafttweaker hand registry_name
+/reload
+/crafttweaker hand registry_name
+/ct recipes hand
+/crafttweaker hand registry_name
+/ct recipes hand
+/crafttweaker hand registry_name
 /apoth reforge nadir:cataclysmic
-/kill
+/summon ars_nouveau:wilden_boss
+/reload
+/level add level 50
+/level add level 50 Eldodoron
+/coins add 1000 Eldodoron
+/time set night
+/time set day
+/crafttweaker inventory tags
+/crafttweaker inventory registryNames
+/respawn_draconic_guardian
+/reload
+/tp Eldodoron 30000000 ~ ~
+/tp Eldodoron 29999999 ~ ~
+/worldborder add 100

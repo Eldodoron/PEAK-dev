@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "create_new_age:block/overcharged_diamond_wire_block",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "create_new_age:block/overcharged_diamond_wire_block"
+    },
+    "axis=z": {
+      "model": "create_new_age:block/overcharged_diamond_wire_block",
+      "x": 90
+    }
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "create_new_age:block/heat_pump/center_down"
+      },
+      "when": {
+        "facing": "down"
+      }
+    },
+    {
+      "apply": {
+        "model": "create_new_age:block/heat_pump/front",
+        "x": -180
+      },
+      "when": {
+        "facing": "down"
+      }
+    },
+    {
+      "apply": {
+        "model": "create_new_age:block/heat_pipe/side",
+        "x": -180
+      },
+      "when": {
+        "down": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "create_new_age:block/heat_pump/center_up"
+      },
+      "when": {
+        "facing": "up"
+      }
+    },
+    {
+      "apply": {
+        "model": "create_new_age:block/heat_pump/front"
+      },
+      "when": {
+        "facing": "up"
+      }
+    },
+    {
+      "apply": {
+        "model": "create_new_age:block/heat_pipe/side"
+      },
+      "when": {
+        "up": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "create_new_age:block/heat_pump/center",
+        "y": 180
+      },
+      "when": {
+        "facing": "south"
+      }
+    },
+    {
+      "apply": {
+        "model": "create_new_age:block/heat_pump/front",
+        "x": 90,
+        "y": 180
+      },
+      "when": {
+        "facing": "south"
+      }
+    },
+    {
+      "apply": {
+        "model": "create_new_age:block/heat_pipe/side",
+        "x": 90,
+        "y": 180
+      },
+      "when": {
+        "south": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "create_new_age:block/heat_pump/center"
+      },
+      "when": {
+        "facing": "north"
+      }
+    },
+    {
+      "apply": {
+        "model": "create_new_age:block/heat_pump/front",
+        "x": 90
+      },
+      "when": {
+        "facing": "north"
+      }
+    },
+    {
+      "apply": {
+        "model": "create_new_age:block/heat_pipe/side",
+        "x": 90
+      },
+      "when": {
+        "north": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "create_new_age:block/heat_pump/center",
+        "y": 90
+      },
+      "when": {
+        "facing": "east"
+      }
+    },
+    {
+      "apply": {
+        "model": "create_new_age:block/heat_pump/front",
+        "x": 90,
+        "y": 90
+      },
+      "when": {
+        "facing": "east"
+      }
+    },
+    {
+      "apply": {
+        "model": "create_new_age:block/heat_pipe/side",
+        "x": 90,
+        "y": 90
+      },
+      "when": {
+        "east": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "create_new_age:block/heat_pump/center",
+        "y": -90
+      },
+      "when": {
+        "facing": "west"
+      }
+    },
+    {
+      "apply": {
+        "model": "create_new_age:block/heat_pump/front",
+        "x": 90,
+        "y": -90
+      },
+      "when": {
+        "facing": "west"
+      }
+    },
+    {
+      "apply": {
+        "model": "create_new_age:block/heat_pipe/side",
+        "x": 90,
+        "y": -90
+      },
+      "when": {
+        "west": "true"
+      }
+    }
+  ]
+}

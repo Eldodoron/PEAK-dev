@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "create_new_age:reactor_casing"
+    },
+    "G": {
+      "tag": "c:glass_blocks/colorless"
+    }
+  },
+  "pattern": [
+    "CGC",
+    "GGG",
+    "CGC"
+  ],
+  "result": {
+    "count": 1,
+    "id": "create_new_age:reactor_glass"
+  }
+}

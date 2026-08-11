@@ -1,0 +1,3 @@
+accessWidener v2 named
+
+extendable method net/minecraft/data/recipes/RecipeProvider getName ()Ljava/lang/String;

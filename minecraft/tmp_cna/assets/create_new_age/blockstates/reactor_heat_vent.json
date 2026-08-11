@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "create_new_age:block/reactor_heat_vent",
+      "x": 180
+    },
+    "facing=east": {
+      "model": "create_new_age:block/reactor_heat_vent",
+      "x": 90,
+      "y": 90
+    },
+    "facing=north": {
+      "model": "create_new_age:block/reactor_heat_vent",
+      "x": 90
+    },
+    "facing=south": {
+      "model": "create_new_age:block/reactor_heat_vent",
+      "x": 90,
+      "y": 180
+    },
+    "facing=up": {
+      "model": "create_new_age:block/reactor_heat_vent"
+    },
+    "facing=west": {
+      "model": "create_new_age:block/reactor_heat_vent",
+      "x": 90,
+      "y": 270
+    }
+  }
+}

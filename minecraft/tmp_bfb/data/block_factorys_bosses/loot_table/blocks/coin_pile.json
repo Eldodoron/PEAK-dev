@@ -1,0 +1,57 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "conditions": [
+            {
+              "block": "block_factorys_bosses:coin_pile",
+              "condition": "minecraft:block_state_property",
+              "properties": {
+                "coins": "1"
+              }
+            }
+          ],
+          "functions": [
+            {
+              "add": false,
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "block_factorys_bosses:coin_pile"
+        },
+        {
+          "type": "minecraft:item",
+          "conditions": [
+            {
+              "block": "block_factorys_bosses:coin_pile",
+              "condition": "minecraft:block_state_property",
+              "properties": {
+                "coins": "2"
+              }
+            }
+          ],
+          "functions": [
+            {
+              "add": false,
+              "count": 2.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "block_factorys_bosses:coin_pile"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "block_factorys_bosses:blocks/coin_pile"
+}

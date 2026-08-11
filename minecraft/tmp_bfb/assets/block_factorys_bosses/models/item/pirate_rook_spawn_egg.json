@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "block_factorys_bosses:item/spawn_egg/pirate_rook_spawn_egg"
+  }
+}

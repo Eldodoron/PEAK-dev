@@ -1,21 +1,18 @@
-filename = 'MyNethersDelight-1.21.1-1.10.2.jar'
+filename = 'MyNethersDelight-1.21.1-1.10.4.jar'
 name = "My Nether's Delight"
-side = 'both'
+side = ''
+x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '1.10.2'
+x-prismlauncher-version-number = '1.10.4'
 
 [download]
-hash = '2d16064b7cbbc1ef829c731d7ede5c680709ac6fe808c5bf2122443aa17862f86860b9d61f42b39847bebe6dfff42b883696503b986a9c88c5b6dfa82cd5d0fe'
+hash = '97b3244486430bce3bc6851bf700a9643cd018fdb48961210fecce3a6823ad2a4a25e4943763c0a27f68607cc33c7ce6b0b913cacb12dd1a28850ac5508cc57c'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/O53VhQoZ/versions/qBUSJw5Z/MyNethersDelight-1.21.1-1.10.2.jar'
+url = 'https://cdn.modrinth.com/data/O53VhQoZ/versions/OdH19ieD/MyNethersDelight-1.21.1-1.10.4.jar'
 
 [update.modrinth]
 mod-id = 'O53VhQoZ'
-version = 'qBUSJw5Z'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'R2OftAxM'
-type = 'REQUIRED'
+version = 'OdH19ieD'

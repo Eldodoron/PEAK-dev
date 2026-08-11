@@ -1,20 +1,32 @@
-filename = 'irons_apothic-2.2.0.jar'
+filename = 'irons_apothic-2.2.1.jar'
 name = "Apotheosis x Iron's Spellbooks Compat"
 side = 'server'
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '2.2.0+1.21.1'
+x-prismlauncher-version-number = '2.2.1+1.21.1'
 
 [download]
-hash = '25292e52346f0cd4f27fe8e820789f6eb6a1c9dd'
+hash = '9d23a600a762bb1bc5c86c54559409189e75aa0b'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 8048938
+file-id = 8480849
 project-id = 1244863
+
+[[x-prismlauncher-dependencies]]
+addonId = '1160104'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1509193'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1231627'
+type = 'OPTIONAL'
 
 [[x-prismlauncher-dependencies]]
 addonId = '1336977'
@@ -25,11 +37,7 @@ addonId = '313970'
 type = 'REQUIRED'
 
 [[x-prismlauncher-dependencies]]
-addonId = '1099461'
-type = 'OPTIONAL'
-
-[[x-prismlauncher-dependencies]]
-addonId = '1509193'
+addonId = '1046916'
 type = 'OPTIONAL'
 
 [[x-prismlauncher-dependencies]]
@@ -37,15 +45,7 @@ addonId = '855414'
 type = 'REQUIRED'
 
 [[x-prismlauncher-dependencies]]
-addonId = '1046916'
-type = 'OPTIONAL'
-
-[[x-prismlauncher-dependencies]]
-addonId = '1231627'
-type = 'OPTIONAL'
-
-[[x-prismlauncher-dependencies]]
-addonId = '1160104'
+addonId = '1099461'
 type = 'OPTIONAL'
 
 [[x-prismlauncher-dependencies]]

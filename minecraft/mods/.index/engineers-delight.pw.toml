@@ -1,19 +1,19 @@
-filename = 'Engineers Delight 1.21.1 neoforge R.1.8.jar'
+filename = 'engineers_delight-neoforge-1.21.1-2.0.1.jar'
 name = 'Engineers Delight'
 side = 'server'
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'TMTED 1.21.1 NF R.1.8'
+x-prismlauncher-version-number = 'engineers_delight-neoforge-1.21.1-2.0.1.jar'
 
 [download]
-hash = '575331b4f7d72a3dc40cba282f9553dfe5dd67c8'
+hash = '90e310711f89926990e18782997e58087b814e39'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 7745912
+file-id = 8541209
 project-id = 861437
 
 [[x-prismlauncher-dependencies]]

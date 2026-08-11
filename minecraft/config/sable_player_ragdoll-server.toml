@@ -36,6 +36,12 @@ grabEnabled = true
 	ragdollMaxLaunchSpeed = 128.0
 	#When true, the body parts of a ragdoll collide with each other.
 	partSelfCollision = true
+	#When true, a hand grip slips loose once it is stretched past the break distance under load.
+	grabBreakEnabled = true
+	#How far (blocks) the hand can be pulled from the spot it grabbed before the grip slips.
+	# Default: 0.275
+	# Range: 0.05 ~ 5.0
+	grabBreakDistance = 0.275
 
 #Damage from hard ragdoll impacts.
 [impact_damage]
@@ -83,24 +89,12 @@ grabEnabled = true
 	# Range: 20 ~ 2400
 	step1BodyLifetimeTicks = 200
 
-#Physics mass per body part (kg). Minimum 0.1.
+#Ragdoll mass density. Individual parts scale by collision volume.
 [body_mass]
-	#Mass of the head.
-	# Default: 0.35
-	# Range: 0.1 ~ 100.0
-	massHead = 1.65
-	#Mass of the torso.
+	#Ragdoll mass per full 16x16x16 collision block. Player and mob parts scale by volume.
 	# Default: 1.4
-	# Range: 0.1 ~ 100.0
-	massTorso = 3.4
-	#Mass of each arm.
-	# Default: 0.2
-	# Range: 0.1 ~ 100.0
-	massArm = 1.8
-	#Mass of each leg.
-	# Default: 0.45
-	# Range: 0.1 ~ 100.0
-	massLeg = 2.0
+	# Range: 0.01 ~ 100.0
+	mobMassDensity = 1.4
 
 #Developer options.
 [debug]

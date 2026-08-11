@@ -1,0 +1,9 @@
+{
+  "parent": "block_factorys_bosses:custom/wall_torch",
+  "textures": {
+    "all": "block_factorys_bosses:block/underworld_wall_torch",
+    "particle": "minecraft:block/spruce_planks",
+    "0": "block_factorys_bosses:block/underworld_wall_torch"
+  },
+  "render_type": "cutout_mipped"
+}

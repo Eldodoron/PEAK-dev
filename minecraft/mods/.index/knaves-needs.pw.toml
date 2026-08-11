@@ -1,0 +1,57 @@
+filename = 'knavesneeds-neoforge-1.21.1-3.0.0-beta.1.jar'
+name = "Knaves' Needs"
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'knavesneeds-neoforge-1.21.1-3.0.0-beta.1.jar'
+
+[download]
+hash = '36f43fd7fcf44e7355cee54908610e72ac7507d0'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8537694
+project-id = 813527
+
+[[x-prismlauncher-dependencies]]
+addonId = '348521'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '608261'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '659011'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '413596'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '247560'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '659887'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '639842'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '227639'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '419699'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '311377'
+type = 'OPTIONAL'

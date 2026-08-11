@@ -1,0 +1,9 @@
+{
+  "parent": "block_factorys_bosses:custom/corpse",
+  "textures": {
+    "all": "block_factorys_bosses:block/invisible",
+    "particle": "minecraft:block/bone_block_side",
+    "1": "block_factorys_bosses:block/skelly"
+  },
+  "render_type": "translucent"
+}

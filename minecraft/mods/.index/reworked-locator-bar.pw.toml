@@ -1,0 +1,18 @@
+filename = 'LocatorBar-neoforge-1.2.1+1.21.1.jar'
+name = 'Locator Bar'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Release 1.2.1 for Neoforge 1.21.1'
+
+[download]
+hash = 'cbc6594b61ca8940b3e1d299496d7cb9f6d2d268'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8405131
+project-id = 1523749

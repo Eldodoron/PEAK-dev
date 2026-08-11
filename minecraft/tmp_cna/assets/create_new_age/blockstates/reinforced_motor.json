@@ -1,0 +1,26 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "create_new_age:block/reinforced_motor/vertical",
+      "x": 180
+    },
+    "facing=east": {
+      "model": "create_new_age:block/reinforced_motor/horizontal",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "create_new_age:block/reinforced_motor/horizontal"
+    },
+    "facing=south": {
+      "model": "create_new_age:block/reinforced_motor/horizontal",
+      "y": 180
+    },
+    "facing=up": {
+      "model": "create_new_age:block/reinforced_motor/vertical"
+    },
+    "facing=west": {
+      "model": "create_new_age:block/reinforced_motor/horizontal",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,49 @@
+Detected that Windows reported recent critical or error events in the Application log,
+which can indicate that a process (including the Minecraft JVM) terminated unexpectedly.
+Scope: Application log; Levels: Error & Critical; Window: last ~15 seconds.
+
+If no java.exe (or related JVM processes) are listed below, you can disregard this message.
+To inspect these events manually:
+  1) Press Win+R, type "eventvwr.msc", press Enter.
+  2) Open "Windows Logs" → "Application".
+  3) Sort by Date and look for entries with Level = Error or Critical near the crash time.
+
+-----------------------
+Time: 2026-08-10 14:46:44.177 EDT
+Source: Application Error
+Event ID: 1000
+Level: Error
+
+Message:
+  Faulting application name: javaw.exe, version: 21.0.8.0, time stamp: 0xcfdcce0b
+  Faulting module name: sable_rapier_x86_64_windows.dll, version: 0.0.0.0, time stamp: 0x69f11a0f
+  Exception code: 0xc0000409
+  Fault offset: 0x000000000011ab34
+  Faulting process id: 0x5ab8
+  Faulting application start time: 0x01dd28f278885f7d
+  Faulting application path: C:\Program Files\Eclipse Adoptium\jdk-21.0.8.9-hotspot\bin\javaw.exe
+  Faulting module path: C:\Users\wamb9\MINECRAFT\Prism\Instances\PEAK dev\minecraft\.sable\natives\sable_rapier_x86_64_windows.dll
+  Report Id: f486443d-d049-4a9d-b48a-e40e8df96e98
+  Faulting package full name: 
+  Faulting package-relative application ID:
+
+
+Details:
+  - Data[1]: javaw.exe
+  - Data[2]: 21.0.8.0
+  - Data[3]: cfdcce0b
+  - Data[4]: sable_rapier_x86_64_windows.dll
+  - Data[5]: 0.0.0.0
+  - Data[6]: 69f11a0f
+  - Data[7]: c0000409
+  - Data[8]: 000000000011ab34
+  - Data[9]: 5ab8
+  - Data[10]: 01dd28f278885f7d
+  - Data[11]: C:\Program Files\Eclipse Adoptium\jdk-21.0.8.9-hotspot\bin\javaw.exe
+  - Data[12]: C:\Users\wamb9\MINECRAFT\Prism\Instances\PEAK dev\minecraft\.sable\natives\sable_rapier_x86_64_windows.dll
+  - Data[13]: f486443d-d049-4a9d-b48a-e40e8df96e98
+  - Process ID: 23224 [0x5ab8]
+  - Start Time: 2026-08-10 14:02:56.038 EDT [0x01dd28f278885f7d]
+  - Exception Code: 3221226505 [0xc0000409]
+-----------------------
+

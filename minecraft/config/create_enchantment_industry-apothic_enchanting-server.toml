@@ -45,18 +45,6 @@
 	# Default: 4000
 	# Range: > 1000
 	infuserFluidCapacity = 4000
-	#.
-	#The amount of liquid a Gem Cutter can hold (mB).
-	#[@cui:RequiresReload:server]
-	# Default: 4000
-	# Range: > 1000
-	gemFluidCutterCapacity = 4000
-	#.
-	#The amount of liquid an Affix Enhancer can hold (mB).
-	#[@cui:RequiresReload:server]
-	# Default: 4000
-	# Range: > 1000
-	affixEnhancerFluidCutterCapacity = 4000
 
 	#.
 	#Fine tune the kinetic stats of individual components

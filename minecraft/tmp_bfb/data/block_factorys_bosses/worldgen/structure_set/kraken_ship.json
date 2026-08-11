@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "block_factorys_bosses:kraken_ship",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 52,
+    "separation": 24,
+    "salt": 496078896
+  }
+}

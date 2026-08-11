@@ -1,20 +1,32 @@
-filename = 'vampirism_integrations-1.21.1-1.10.0.jar'
+filename = 'vampirism_integrations-1.21.1-1.10.2.jar'
 name = 'Vampirism Integrations'
-side = 'both'
+side = ''
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '1.21.1-1.10.0'
+x-prismlauncher-version-number = '1.21.1-1.10.2'
 
 [download]
-hash = '71e088ed69501166c2b737bd19f681ddf60c397b52bdff0be99e32c17082ebc4198e65da642ca8e7c6c6c222c4f40ba7e9369cbf5159f7da504aea606dfe0187'
+hash = '7eb89de58eea6d68ef3ac3e27c470703dcbc569def15c3876d67f0dd0b3cb15e2edc100537ce597b1ce941cdfd7982bfd71608c2055fae98213d45b841c980fd'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/ygTFuViO/versions/lUZ3VFxN/vampirism_integrations-1.21.1-1.10.0.jar'
+url = 'https://cdn.modrinth.com/data/ygTFuViO/versions/ua6OU2jv/vampirism_integrations-1.21.1-1.10.2.jar'
 
 [update.modrinth]
 mod-id = 'ygTFuViO'
-version = 'lUZ3VFxN'
+version = 'ua6OU2jv'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'H1sntfo8'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '3ANq2btA'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'HXF82T3G'
+type = 'OPTIONAL'
 
 [[x-prismlauncher-dependencies]]
 addonId = 'ge1sOdFH'
@@ -25,31 +37,7 @@ addonId = 'vg4qcCBb'
 type = 'OPTIONAL'
 
 [[x-prismlauncher-dependencies]]
-addonId = 'fgmhI8kH'
-type = 'OPTIONAL'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'nvQzSEkH'
-type = 'OPTIONAL'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'HXF82T3G'
-type = 'OPTIONAL'
-
-[[x-prismlauncher-dependencies]]
-addonId = '3ANq2btA'
-type = 'OPTIONAL'
-
-[[x-prismlauncher-dependencies]]
 addonId = '5sy6g3kz'
-type = 'OPTIONAL'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'jVZ0F1wn'
-type = 'REQUIRED'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'H1sntfo8'
 type = 'OPTIONAL'
 
 [[x-prismlauncher-dependencies]]
@@ -57,9 +45,21 @@ addonId = '6AQIaxuO'
 type = 'OPTIONAL'
 
 [[x-prismlauncher-dependencies]]
-addonId = 'Xg35A4rS'
+addonId = 'uXhSmPjd'
 type = 'OPTIONAL'
 
 [[x-prismlauncher-dependencies]]
-addonId = 'uXhSmPjd'
+addonId = 'fgmhI8kH'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'jVZ0F1wn'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'nvQzSEkH'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'Xg35A4rS'
 type = 'OPTIONAL'
