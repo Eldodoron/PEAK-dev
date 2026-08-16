@@ -1,0 +1,18 @@
+{
+  "report_exists": true,
+  "report_size_bytes": 52260,
+  "citations_tested": 25,
+  "citations_passed": 25,
+  "citations_failed": [],
+  "inventory_checked": {},
+  "table_files_checked": 95,
+  "table_files_existing": 93,
+  "independent_scan_stats": {
+    "kubejs_js_count": 64,
+    "workspace_py_count": 24,
+    "flowerbed_models_count": 4,
+    "ftbquests_snbt_lines": 3309,
+    "ore_report_lines": 143
+  },
+  "errors": []
+}

@@ -1,8 +1,0 @@
-{
-	"variants": {
-		"facing=north": { "model": "block_factorys_bosses:block/ship_steering_wheel" },
-		"facing=east":  { "model": "block_factorys_bosses:block/ship_steering_wheel", "y": 90 },
-		"facing=south": { "model": "block_factorys_bosses:block/ship_steering_wheel", "y": 180 },
-		"facing=west":  { "model": "block_factorys_bosses:block/ship_steering_wheel", "y": 270 }
-	}
-}

@@ -1,9 +1,0 @@
-{
-  "parent": "block_factorys_bosses:custom/prison_door",
-  "textures": {
-    "all": "block_factorys_bosses:block/prison_door",
-    "particle": "block_factorys_bosses:block/prison_door",
-    "0": "block_factorys_bosses:block/prison_door"
-  },
-  "render_type": "cutout"
-}

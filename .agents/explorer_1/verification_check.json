@@ -1,0 +1,857 @@
+[
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\README.txt",
+    "exists": true,
+    "size": 1203
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\assets\\acsol\\lang\\en_us.json",
+    "exists": true,
+    "size": 699
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\assets\\kubejs\\textures\\gui\\bubbling_pot_animated.png",
+    "exists": true,
+    "size": 237
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\assets\\kubejs\\textures\\gui\\bubbling_pot_animated.png.mcmeta",
+    "exists": true,
+    "size": 74
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\assets\\kubejs\\textures\\gui\\chef_hat_happy_animated.png",
+    "exists": true,
+    "size": 201
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\assets\\kubejs\\textures\\gui\\chef_hat_happy_animated.png.mcmeta",
+    "exists": true,
+    "size": 74
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\assets\\kubejs\\textures\\gui\\happy_carrot_animated.png",
+    "exists": true,
+    "size": 271
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\assets\\kubejs\\textures\\gui\\happy_carrot_animated.png.mcmeta",
+    "exists": true,
+    "size": 74
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\assets\\kubejs\\textures\\gui\\sparkling_star_animated.png",
+    "exists": true,
+    "size": 195
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\assets\\kubejs\\textures\\gui\\sparkling_star_animated.png.mcmeta",
+    "exists": true,
+    "size": 74
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\assets\\kubejs\\textures\\item\\abyssal_catalyst.png",
+    "exists": true,
+    "size": 244
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\assets\\kubejs\\textures\\item\\anomaly_replicator.png",
+    "exists": true,
+    "size": 208
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\assets\\kubejs\\textures\\item\\chaos_essence.png",
+    "exists": true,
+    "size": 247
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\assets\\kubejs\\textures\\item\\culinary_singularity.png",
+    "exists": true,
+    "size": 245
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\assets\\kubejs\\textures\\item\\draconic_scale.png",
+    "exists": true,
+    "size": 206
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\assets\\kubejs\\textures\\item\\frozen_heart_core.png",
+    "exists": true,
+    "size": 170
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\assets\\kubejs\\textures\\item\\heart_of_the_inferno.png",
+    "exists": true,
+    "size": 167
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\assets\\kubejs\\textures\\item\\incomplete_upgrade.png",
+    "exists": true,
+    "size": 177
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\assets\\kubejs\\textures\\item\\infinity_fragment.png",
+    "exists": true,
+    "size": 203
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\assets\\kubejs\\textures\\item\\lich_phylactery.png",
+    "exists": true,
+    "size": 207
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\assets\\kubejs\\textures\\item\\netheric_core.png",
+    "exists": true,
+    "size": 199
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\assets\\kubejs\\textures\\item\\primordial_core.png",
+    "exists": true,
+    "size": 204
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\assets\\kubejs\\textures\\item\\primordial_dragon_blood.png",
+    "exists": true,
+    "size": 191
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\assets\\kubejs\\textures\\item\\sculk_heart.png",
+    "exists": true,
+    "size": 167
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\assets\\kubejs\\textures\\item\\void_resonator.png",
+    "exists": true,
+    "size": 204
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\assets\\kubejs\\textures\\item\\wither_soul.png",
+    "exists": true,
+    "size": 195
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\assets\\minecraft\\blockstates\\pink_petals.json",
+    "exists": true,
+    "size": 1643
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\assets\\minecraft\\models\\block\\flowerbed_1.json",
+    "exists": true,
+    "size": 5064
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\assets\\minecraft\\models\\block\\flowerbed_2.json",
+    "exists": true,
+    "size": 2207
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\assets\\minecraft\\models\\block\\flowerbed_3.json",
+    "exists": true,
+    "size": 3648
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\assets\\minecraft\\models\\block\\flowerbed_4.json",
+    "exists": true,
+    "size": 3643
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\assets\\peak\\textures\\gui\\bubbling_pot_animated.png",
+    "exists": true,
+    "size": 237
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\assets\\peak\\textures\\gui\\bubbling_pot_animated.png.mcmeta",
+    "exists": true,
+    "size": 74
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\assets\\peak\\textures\\gui\\chef_hat_happy_animated.png",
+    "exists": true,
+    "size": 201
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\assets\\peak\\textures\\gui\\chef_hat_happy_animated.png.mcmeta",
+    "exists": true,
+    "size": 74
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\assets\\peak\\textures\\gui\\happy_carrot_animated.png",
+    "exists": true,
+    "size": 271
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\assets\\peak\\textures\\gui\\happy_carrot_animated.png.mcmeta",
+    "exists": true,
+    "size": 74
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\assets\\peak\\textures\\gui\\sparkling_star_animated.png",
+    "exists": true,
+    "size": 195
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\assets\\peak\\textures\\gui\\sparkling_star_animated.png.mcmeta",
+    "exists": true,
+    "size": 74
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\client_scripts\\14_translations.js",
+    "exists": true,
+    "size": 289
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\client_scripts\\30_hide_create_sa_copper.js",
+    "exists": true,
+    "size": 704
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\client_scripts\\32_hide_raid_blimp.js",
+    "exists": true,
+    "size": 190
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\client_scripts\\35_hide_technical_items.js",
+    "exists": true,
+    "size": 1327
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\client_scripts\\36_hide_incomplete_items.js",
+    "exists": true,
+    "size": 369
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\client_scripts\\37_hide_banned_and_disabled_items.js",
+    "exists": true,
+    "size": 707
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\client_scripts\\main.js",
+    "exists": true,
+    "size": 116
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\config\\client.json",
+    "exists": true,
+    "size": 184
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\config\\common.json",
+    "exists": true,
+    "size": 446
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\config\\web_server.json",
+    "exists": true,
+    "size": 120
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\data\\alltheores\\worldgen\\placed_feature\\ore_aluminum_placed.json",
+    "exists": true,
+    "size": 491
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\data\\alltheores\\worldgen\\placed_feature\\ore_cinnabar_placed.json",
+    "exists": true,
+    "size": 491
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\data\\alltheores\\worldgen\\placed_feature\\ore_fluorite_placed.json",
+    "exists": true,
+    "size": 491
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\data\\alltheores\\worldgen\\placed_feature\\ore_iridium_placed.json",
+    "exists": true,
+    "size": 489
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\data\\alltheores\\worldgen\\placed_feature\\ore_lead_placed.json",
+    "exists": true,
+    "size": 486
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\data\\alltheores\\worldgen\\placed_feature\\ore_nickel_placed.json",
+    "exists": true,
+    "size": 488
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\data\\alltheores\\worldgen\\placed_feature\\ore_osmium_placed.json",
+    "exists": true,
+    "size": 488
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\data\\alltheores\\worldgen\\placed_feature\\ore_peridot_placed.json",
+    "exists": true,
+    "size": 490
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\data\\alltheores\\worldgen\\placed_feature\\ore_ruby_placed.json",
+    "exists": true,
+    "size": 487
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\data\\alltheores\\worldgen\\placed_feature\\ore_salt_placed.json",
+    "exists": true,
+    "size": 487
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\data\\alltheores\\worldgen\\placed_feature\\ore_sapphire_placed.json",
+    "exists": true,
+    "size": 491
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\data\\alltheores\\worldgen\\placed_feature\\ore_silver_placed.json",
+    "exists": true,
+    "size": 488
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\data\\alltheores\\worldgen\\placed_feature\\ore_tin_placed.json",
+    "exists": true,
+    "size": 486
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\data\\alltheores\\worldgen\\placed_feature\\ore_uranium_placed.json",
+    "exists": true,
+    "size": 489
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\data\\alltheores\\worldgen\\placed_feature\\ore_uranium_placed_mining.json",
+    "exists": true,
+    "size": 499
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\data\\alltheores\\worldgen\\placed_feature\\ore_zinc_placed.json",
+    "exists": true,
+    "size": 487
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\data\\artifacts\\worldgen\\placed_feature\\underground_campsite.json",
+    "exists": true,
+    "size": 1025
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\data\\artifacts\\worldgen\\placed_feature\\underground_minimalist_campsite.json",
+    "exists": true,
+    "size": 1035
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\data\\create\\worldgen\\placed_feature\\striated_ores_nether.json",
+    "exists": true,
+    "size": 506
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\data\\create\\worldgen\\placed_feature\\striated_ores_overworld.json",
+    "exists": true,
+    "size": 510
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\data\\create\\worldgen\\placed_feature\\zinc_ore.json",
+    "exists": true,
+    "size": 485
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\data\\deeperdarker\\worldgen\\placed_feature\\gloomslate_coal.json",
+    "exists": true,
+    "size": 502
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\data\\deeperdarker\\worldgen\\placed_feature\\gloomslate_copper.json",
+    "exists": true,
+    "size": 509
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\data\\deeperdarker\\worldgen\\placed_feature\\gloomslate_diamond.json",
+    "exists": true,
+    "size": 510
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\data\\deeperdarker\\worldgen\\placed_feature\\gloomslate_emerald.json",
+    "exists": true,
+    "size": 510
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\data\\deeperdarker\\worldgen\\placed_feature\\gloomslate_gold.json",
+    "exists": true,
+    "size": 507
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\data\\deeperdarker\\worldgen\\placed_feature\\gloomslate_iron.json",
+    "exists": true,
+    "size": 502
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\data\\deeperdarker\\worldgen\\placed_feature\\gloomslate_lapis.json",
+    "exists": true,
+    "size": 507
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\data\\deeperdarker\\worldgen\\placed_feature\\gloomslate_redstone.json",
+    "exists": true,
+    "size": 507
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\data\\deeperdarker\\worldgen\\placed_feature\\sculk_coal.json",
+    "exists": true,
+    "size": 497
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\data\\deeperdarker\\worldgen\\placed_feature\\sculk_copper.json",
+    "exists": true,
+    "size": 504
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\data\\deeperdarker\\worldgen\\placed_feature\\sculk_diamond.json",
+    "exists": true,
+    "size": 505
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\data\\deeperdarker\\worldgen\\placed_feature\\sculk_emerald.json",
+    "exists": true,
+    "size": 505
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\data\\deeperdarker\\worldgen\\placed_feature\\sculk_gleam_forest.json",
+    "exists": true,
+    "size": 498
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\data\\deeperdarker\\worldgen\\placed_feature\\sculk_gold.json",
+    "exists": true,
+    "size": 502
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\data\\deeperdarker\\worldgen\\placed_feature\\sculk_iron.json",
+    "exists": true,
+    "size": 497
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\data\\deeperdarker\\worldgen\\placed_feature\\sculk_lapis.json",
+    "exists": true,
+    "size": 502
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\data\\deeperdarker\\worldgen\\placed_feature\\sculk_redstone.json",
+    "exists": true,
+    "size": 502
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\data\\dragonloot\\weapon_attributes\\dragon_sword.json",
+    "exists": true,
+    "size": 957
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\data\\gobber2\\worldgen\\placed_feature\\gobber_end_ore_placed.json",
+    "exists": true,
+    "size": 502
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\data\\gobber2\\worldgen\\placed_feature\\gobber_nether_ore_placed.json",
+    "exists": true,
+    "size": 507
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\data\\gobber2\\worldgen\\placed_feature\\gobber_ore_placed.json",
+    "exists": true,
+    "size": 494
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\data\\iceandfire\\weapon_attributes\\dragonsteel_fire_sword.json",
+    "exists": true,
+    "size": 957
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\data\\iceandfire\\weapon_attributes\\dragonsteel_ice_sword.json",
+    "exists": true,
+    "size": 957
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\data\\iceandfire\\weapon_attributes\\dragonsteel_lightning_sword.json",
+    "exists": true,
+    "size": 957
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\data\\iceandfire\\worldgen\\placed_feature\\sapphire_ore.json",
+    "exists": true,
+    "size": 491
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\data\\iceandfire\\worldgen\\placed_feature\\silver_ore.json",
+    "exists": true,
+    "size": 490
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\data\\irons_spellbooks\\worldgen\\placed_feature\\ore_mithril_placement.json",
+    "exists": true,
+    "size": 502
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\data\\malum\\worldgen\\placed_feature\\blazing_quartz_ore.json",
+    "exists": true,
+    "size": 492
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\data\\malum\\worldgen\\placed_feature\\ore_brilliant.json",
+    "exists": true,
+    "size": 486
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\data\\malum\\worldgen\\placed_feature\\ore_natural_quartz.json",
+    "exists": true,
+    "size": 491
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\data\\malum\\worldgen\\placed_feature\\ore_soulstone.json",
+    "exists": true,
+    "size": 487
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\data\\supplementaries\\worldgen\\placed_feature\\shore_barnacles.json",
+    "exists": true,
+    "size": 495
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\data\\tfmg\\worldgen\\placed_feature\\lead_ore.json",
+    "exists": true,
+    "size": 483
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\data\\tfmg\\worldgen\\placed_feature\\lithium_ore.json",
+    "exists": true,
+    "size": 486
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\data\\tfmg\\worldgen\\placed_feature\\nickel_ore.json",
+    "exists": true,
+    "size": 485
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\data\\tfmg\\worldgen\\placed_feature\\tfmg_striated_ores_nether.json",
+    "exists": true,
+    "size": 509
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\data\\tfmg\\worldgen\\placed_feature\\tfmg_striated_ores_overworld.json",
+    "exists": true,
+    "size": 513
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\data\\twilightforest\\weapon_attributes\\giant_sword.json",
+    "exists": true,
+    "size": 977
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\00_recipe_fixer.js",
+    "exists": true,
+    "size": 1121
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\00_tags.js",
+    "exists": true,
+    "size": 791
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\02_create_era_gates.js",
+    "exists": true,
+    "size": 18408
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\03_pneumatic_mekanism_gates.js",
+    "exists": true,
+    "size": 11598
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\04_magic_integration.js",
+    "exists": true,
+    "size": 14219
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\05_dark_magic_dimensions.js",
+    "exists": true,
+    "size": 11504
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\06_enderio_ae2.js",
+    "exists": true,
+    "size": 10174
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\07_draconic_endgame.js",
+    "exists": true,
+    "size": 8157
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\08_reliquary_balance.js",
+    "exists": true,
+    "size": 7615
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\09_custom_loot_tables.js",
+    "exists": true,
+    "size": 8488
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\10_avaritia_final_polish.js",
+    "exists": true,
+    "size": 16957
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\11_end_gating.js",
+    "exists": true,
+    "size": 2447
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\12_admin_commands.js",
+    "exists": true,
+    "size": 4984
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\12_food_buffs.js",
+    "exists": true,
+    "size": 4634
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\13a_food_overhaul_farmersdelight.js",
+    "exists": true,
+    "size": 24835
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\13b_food_overhaul_dimensions.js",
+    "exists": true,
+    "size": 31078
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\13c_food_overhaul_creatures.js",
+    "exists": true,
+    "size": 18141
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\13d_food_overhaul_magic.js",
+    "exists": true,
+    "size": 31345
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\13e_food_fixes.js",
+    "exists": true,
+    "size": 9932
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\13_simply_mythics_loot.js",
+    "exists": true,
+    "size": 3089
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\14_waystone_balance.js",
+    "exists": true,
+    "size": 623
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\15_loot_nerfs.js",
+    "exists": true,
+    "size": 1254
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\16_recipes_and_balance.js",
+    "exists": true,
+    "size": 2031
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\17_goblin_trades.js",
+    "exists": true,
+    "size": 3000
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\18_boss_duplicator.js",
+    "exists": true,
+    "size": 2361
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\19_mob_gear.js",
+    "exists": true,
+    "size": 16112
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\20_disable_bugged_spells.js",
+    "exists": true,
+    "size": 1780
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\20_disable_bugged_spells_data.js",
+    "exists": true,
+    "size": 813
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\20_fixed_datapacks.js",
+    "exists": true,
+    "size": 61841
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\21_backpack_upgrades.js",
+    "exists": true,
+    "size": 34925
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\21_fix_illusioner_crash.js",
+    "exists": true,
+    "size": 1645
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\22_apotheosis_gear_sets.js",
+    "exists": true,
+    "size": 8341
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\23_fix_illager_weapons.js",
+    "exists": true,
+    "size": 813
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\23_zenith_saber.js",
+    "exists": true,
+    "size": 2403
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\24_pixie_spawn_limiter.js",
+    "exists": true,
+    "size": 1458
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\25_hardcoded_minibosses.js",
+    "exists": true,
+    "size": 13052
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\26_mob_max_health_fix.js",
+    "exists": true,
+    "size": 1047
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\30_remove_create_sa_copper.js",
+    "exists": true,
+    "size": 731
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\32_ban_raid_blimp.js",
+    "exists": true,
+    "size": 414
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\33_remove_vampirism_coatings.js",
+    "exists": true,
+    "size": 1028
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\34_ban_ender_eye.js",
+    "exists": true,
+    "size": 350
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\41_iaf_loot_buff.js",
+    "exists": true,
+    "size": 301
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\50_xp_fluids_unification.js",
+    "exists": true,
+    "size": 1324
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\60_dragonforge_materials.js",
+    "exists": true,
+    "size": 866
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\61_spellbook_assembly.js",
+    "exists": true,
+    "size": 2960
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\apotheosis_auto_tiers.js",
+    "exists": true,
+    "size": 3903
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\clean_suppressor.py",
+    "exists": true,
+    "size": 1411
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\convert_chance.py",
+    "exists": true,
+    "size": 1503
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\convert_to_js.py",
+    "exists": true,
+    "size": 1500
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\dump_ids.js",
+    "exists": true,
+    "size": 494
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\expert_mode_recipes.js",
+    "exists": true,
+    "size": 14936
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\fix_datapacks.py",
+    "exists": true,
+    "size": 3206
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\fix_fluid.py",
+    "exists": true,
+    "size": 435
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\fix_illusioner_crash.js",
+    "exists": true,
+    "size": 543
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\fix_transitional.py",
+    "exists": true,
+    "size": 426
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\nerf_irons_jewelry.js",
+    "exists": true,
+    "size": 303
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\startup_scripts\\14_waystone_balance.js",
+    "exists": true,
+    "size": 576
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\startup_scripts\\40_iaf_durability_buff.js",
+    "exists": true,
+    "size": 677
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\startup_scripts\\50_avarice_swords_damage.js",
+    "exists": true,
+    "size": 948
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\startup_scripts\\60_spellbook_rebalance.js",
+    "exists": true,
+    "size": 3440
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\startup_scripts\\custom_items.js",
+    "exists": true,
+    "size": 13692
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\startup_scripts\\fix_malum_watchdog.js",
+    "exists": true,
+    "size": 893
+  },
+  {
+    "path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\startup_scripts\\main.js",
+    "exists": true,
+    "size": 117
+  }
+]

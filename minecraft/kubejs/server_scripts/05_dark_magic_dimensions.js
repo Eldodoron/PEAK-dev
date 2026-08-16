@@ -139,11 +139,6 @@ ServerEvents.recipes(event => {
         CreateItem.of('minecraft:redstone', 0.25)
     ], 'vampirism:vampire_fang');
 
-    // --- BLOOD PROCESSING (Tech meets dark magic) ---
-    // Mekanism's Chemical systems can process blood
-    // (Blood is a fluid Ã¢â€ â€™ Mekanism handles fluids Ã¢â€ â€™ logical)
-    // This is mostly a narrative connection for Prompt 4
-
     // --- HUNTER CROSSBOW ENHANCED ---
     // Vampire Hunters need tech to fight supernatural threats
     // Hunter weapons benefit from Create engineering
@@ -157,9 +152,6 @@ ServerEvents.recipes(event => {
         S: 'create:shaft',
         F: 'minecraft:feather'
     });
-
-    // --- GARLIC PROCESSING via Create ---
-    // (Recipe removed per user request)
 
     // ==========================================
     // SECTION 4: DEEPER DARKER Ã¢â‚¬â€  ENDGAME DIMENSION
@@ -176,7 +168,7 @@ ServerEvents.recipes(event => {
     // --- WARDEN CARAPACE ---
     // The Warden's shell is one of the hardest materials.
     // Used as a component in Draconic Evolution Wyvern cores.
-    // (Defined in Prompt 4's Draconic recipes)
+    // (Defined in Draconic Evolution recipes)
 
     // --- REINFORCED ECHO SHARD ---
     // Created by combining Echo Shards with tech materials

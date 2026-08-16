@@ -1,6 +1,0 @@
-// 1.21.1	2026-04-27T11:45:39.503921707	Tags for minecraft:worldgen/biome mod id block_factorys_bosses
-64c3c5ccf8c51506e7211bd02b8d2213074f467b data/block_factorys_bosses/tags/worldgen/biome/dragon_tower.json
-e9e426eda20c074e1031cf0bbaa75af1f8ceadea data/block_factorys_bosses/tags/worldgen/biome/kraken_ship.json
-f3ef2895c49e29111297e950661e5bc71a79989e data/block_factorys_bosses/tags/worldgen/biome/sandworm_nest.json
-7d5941e8e3343232ad51784184e6ad28a4dc2047 data/block_factorys_bosses/tags/worldgen/biome/underworld_arena.json
-f618bcdd46ef4a345def4ad2181ac31502864c9a data/block_factorys_bosses/tags/worldgen/biome/yeti_hideout.json

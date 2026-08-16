@@ -1,9 +1,0 @@
-{
-	"parent": "block_factorys_bosses:custom/corpse",
-	"textures": {
-		"all": "block_factorys_bosses:block/various_bones",
-		"particle": "minecraft:block/bone_block_side",
-		"1": "block_factorys_bosses:block/corpse"
-	},
-	"render_type": "cutout_mipped"
-}

@@ -1,6 +1,0 @@
-{
-  "parent": "create_new_age:block/street_light/block",
-  "textures": {
-    "lit": "create_new_age:block/street_light_unlit"
-  }
-}

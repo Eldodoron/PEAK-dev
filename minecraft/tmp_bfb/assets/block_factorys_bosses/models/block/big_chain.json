@@ -1,8 +1,0 @@
-{
-  "parent": "block_factorys_bosses:custom/chain",
-  "textures": {
-    "all": "block_factorys_bosses:block/big_chains",
-    "particle": "block_factorys_bosses:block/big_chains",
-    "0": "block_factorys_bosses:block/big_chains"
-  }
-}

@@ -1,7 +1,7 @@
 ServerEvents.recipes(event => {
     // --- REMOVE CREATE STUFF & ADDITIONS COPPER EQUIPMENT ---
-    // The user wants to force the use of Ice and Fire's copper equipment because it is better balanced.
-    // We only remove the basic tools and armor, keeping the jetpack and exoskeleton.
+    // Prefer Ice and Fire copper equipment for balance.
+    // Only basic tools and armor are removed; jetpack and exoskeleton are retained.
     
     let itemsToRemove = [
         'create_sa:copper_helmet',

@@ -1,7 +1,0 @@
-// 1.21.1	2026-04-18T01:33:14.824032236	Tags for minecraft:damage_type mod id block_factorys_bosses
-43de1aa9b764a4ad7929bc0a1e0e9662630e2d20 data/minecraft/tags/damage_type/always_kills_armor_stands.json
-35484bca24be47af998f01368b1bf39e1d7e0900 data/minecraft/tags/damage_type/bypasses_armor.json
-43de1aa9b764a4ad7929bc0a1e0e9662630e2d20 data/minecraft/tags/damage_type/bypasses_shield.json
-43de1aa9b764a4ad7929bc0a1e0e9662630e2d20 data/minecraft/tags/damage_type/is_projectile.json
-03c4c780a3c043a8534359c4c72b308350f6ad24 data/minecraft/tags/damage_type/no_knockback.json
-43de1aa9b764a4ad7929bc0a1e0e9662630e2d20 data/minecraft/tags/damage_type/panic_causes.json

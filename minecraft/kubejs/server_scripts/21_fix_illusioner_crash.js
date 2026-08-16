@@ -17,7 +17,7 @@ EntityEvents.spawned('friendsandfoes:illusioner', event => {
     if (!mainhand.id.contains('bow') && !mainhand.id.contains('crossbow')) {
         entity.setItemSlot('mainhand', 'minecraft:bow');
         
-        // Log it so the user knows the fix is working
+        // Log weapon correction to confirm event handling
         console.log(`[PEAK Fix] Corrected invalid weapon on Illusioner (${entity.customName || 'Unnamed'}) to prevent crash.`);
     }
 });

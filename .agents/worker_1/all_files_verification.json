@@ -1,0 +1,660 @@
+[
+  {
+    "relative_path": "kubejs\\server_scripts\\00_tags.js",
+    "absolute_path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\00_tags.js",
+    "exists": true,
+    "line_count": 15,
+    "size_bytes": 791
+  },
+  {
+    "relative_path": "kubejs\\server_scripts\\20_fixed_datapacks.js",
+    "absolute_path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\20_fixed_datapacks.js",
+    "exists": true,
+    "line_count": 257,
+    "size_bytes": 61841
+  },
+  {
+    "relative_path": "kubejs\\server_scripts\\convert_to_js.py",
+    "absolute_path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\convert_to_js.py",
+    "exists": true,
+    "line_count": 35,
+    "size_bytes": 1500
+  },
+  {
+    "relative_path": "kubejs\\assets\\minecraft\\models\\block\\flowerbed_1.json",
+    "absolute_path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\assets\\minecraft\\models\\block\\flowerbed_1.json",
+    "exists": true,
+    "line_count": 307,
+    "size_bytes": 5064
+  },
+  {
+    "relative_path": "kubejs\\assets\\minecraft\\models\\block\\flowerbed_2.json",
+    "absolute_path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\assets\\minecraft\\models\\block\\flowerbed_2.json",
+    "exists": true,
+    "line_count": 131,
+    "size_bytes": 2207
+  },
+  {
+    "relative_path": "kubejs\\assets\\minecraft\\models\\block\\flowerbed_3.json",
+    "absolute_path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\assets\\minecraft\\models\\block\\flowerbed_3.json",
+    "exists": true,
+    "line_count": 219,
+    "size_bytes": 3648
+  },
+  {
+    "relative_path": "kubejs\\assets\\minecraft\\models\\block\\flowerbed_4.json",
+    "absolute_path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\assets\\minecraft\\models\\block\\flowerbed_4.json",
+    "exists": true,
+    "line_count": 219,
+    "size_bytes": 3643
+  },
+  {
+    "relative_path": "check_client_toml.py",
+    "absolute_path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\check_client_toml.py",
+    "exists": true,
+    "line_count": 52,
+    "size_bytes": 1638
+  },
+  {
+    "relative_path": "generate_high_priority_data.py",
+    "absolute_path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\generate_high_priority_data.py",
+    "exists": true,
+    "line_count": 74,
+    "size_bytes": 3259
+  },
+  {
+    "relative_path": "scratch\\mod_extraction\\convert_recipes.py",
+    "absolute_path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\scratch\\mod_extraction\\convert_recipes.py",
+    "exists": true,
+    "line_count": 102,
+    "size_bytes": 4158
+  },
+  {
+    "relative_path": "kubejs\\server_scripts\\expert_mode_recipes.js",
+    "absolute_path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\expert_mode_recipes.js",
+    "exists": true,
+    "line_count": 397,
+    "size_bytes": 14936
+  },
+  {
+    "relative_path": "kubejs\\server_scripts\\03_pneumatic_mekanism_gates.js",
+    "absolute_path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\03_pneumatic_mekanism_gates.js",
+    "exists": true,
+    "line_count": 366,
+    "size_bytes": 11598
+  },
+  {
+    "relative_path": "kubejs\\server_scripts\\05_dark_magic_dimensions.js",
+    "absolute_path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\05_dark_magic_dimensions.js",
+    "exists": true,
+    "line_count": 312,
+    "size_bytes": 11504
+  },
+  {
+    "relative_path": "kubejs\\server_scripts\\07_draconic_endgame.js",
+    "absolute_path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\07_draconic_endgame.js",
+    "exists": true,
+    "line_count": 241,
+    "size_bytes": 8157
+  },
+  {
+    "relative_path": "kubejs\\server_scripts\\21_fix_illusioner_crash.js",
+    "absolute_path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\21_fix_illusioner_crash.js",
+    "exists": true,
+    "line_count": 37,
+    "size_bytes": 1645
+  },
+  {
+    "relative_path": "kubejs\\server_scripts\\30_remove_create_sa_copper.js",
+    "absolute_path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\30_remove_create_sa_copper.js",
+    "exists": true,
+    "line_count": 21,
+    "size_bytes": 731
+  },
+  {
+    "relative_path": "kubejs\\client_scripts\\30_hide_create_sa_copper.js",
+    "absolute_path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\client_scripts\\30_hide_create_sa_copper.js",
+    "exists": true,
+    "line_count": 21,
+    "size_bytes": 704
+  },
+  {
+    "relative_path": "kubejs\\server_scripts\\convert_chance.py",
+    "absolute_path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\convert_chance.py",
+    "exists": true,
+    "line_count": 35,
+    "size_bytes": 1503
+  },
+  {
+    "relative_path": "kubejs\\server_scripts\\clean_suppressor.py",
+    "absolute_path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\clean_suppressor.py",
+    "exists": true,
+    "line_count": 38,
+    "size_bytes": 1411
+  },
+  {
+    "relative_path": "kubejs\\server_scripts\\fix_datapacks.py",
+    "absolute_path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\fix_datapacks.py",
+    "exists": true,
+    "line_count": 82,
+    "size_bytes": 3206
+  },
+  {
+    "relative_path": "kubejs\\server_scripts\\fix_fluid.py",
+    "absolute_path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\fix_fluid.py",
+    "exists": true,
+    "line_count": 11,
+    "size_bytes": 435
+  },
+  {
+    "relative_path": "kubejs\\server_scripts\\fix_transitional.py",
+    "absolute_path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\fix_transitional.py",
+    "exists": true,
+    "line_count": 12,
+    "size_bytes": 426
+  },
+  {
+    "relative_path": "kubejs\\server_scripts\\00_recipe_fixer.js",
+    "absolute_path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\00_recipe_fixer.js",
+    "exists": true,
+    "line_count": 31,
+    "size_bytes": 1121
+  },
+  {
+    "relative_path": "kubejs\\server_scripts\\02_create_era_gates.js",
+    "absolute_path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\02_create_era_gates.js",
+    "exists": true,
+    "line_count": 477,
+    "size_bytes": 18408
+  },
+  {
+    "relative_path": "kubejs\\server_scripts\\04_magic_integration.js",
+    "absolute_path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\04_magic_integration.js",
+    "exists": true,
+    "line_count": 406,
+    "size_bytes": 14219
+  },
+  {
+    "relative_path": "kubejs\\server_scripts\\06_enderio_ae2.js",
+    "absolute_path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\06_enderio_ae2.js",
+    "exists": true,
+    "line_count": 326,
+    "size_bytes": 10174
+  },
+  {
+    "relative_path": "kubejs\\server_scripts\\08_reliquary_balance.js",
+    "absolute_path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\08_reliquary_balance.js",
+    "exists": true,
+    "line_count": 180,
+    "size_bytes": 7615
+  },
+  {
+    "relative_path": "kubejs\\server_scripts\\09_custom_loot_tables.js",
+    "absolute_path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\09_custom_loot_tables.js",
+    "exists": true,
+    "line_count": 241,
+    "size_bytes": 8488
+  },
+  {
+    "relative_path": "kubejs\\server_scripts\\10_avaritia_final_polish.js",
+    "absolute_path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\10_avaritia_final_polish.js",
+    "exists": true,
+    "line_count": 469,
+    "size_bytes": 16957
+  },
+  {
+    "relative_path": "kubejs\\server_scripts\\11_end_gating.js",
+    "absolute_path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\11_end_gating.js",
+    "exists": true,
+    "line_count": 58,
+    "size_bytes": 2447
+  },
+  {
+    "relative_path": "kubejs\\server_scripts\\12_admin_commands.js",
+    "absolute_path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\12_admin_commands.js",
+    "exists": true,
+    "line_count": 106,
+    "size_bytes": 4984
+  },
+  {
+    "relative_path": "kubejs\\server_scripts\\12_food_buffs.js",
+    "absolute_path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\12_food_buffs.js",
+    "exists": true,
+    "line_count": 106,
+    "size_bytes": 4634
+  },
+  {
+    "relative_path": "kubejs\\server_scripts\\13_simply_mythics_loot.js",
+    "absolute_path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\13_simply_mythics_loot.js",
+    "exists": true,
+    "line_count": 79,
+    "size_bytes": 3089
+  },
+  {
+    "relative_path": "kubejs\\server_scripts\\13a_food_overhaul_farmersdelight.js",
+    "absolute_path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\13a_food_overhaul_farmersdelight.js",
+    "exists": true,
+    "line_count": 645,
+    "size_bytes": 24835
+  },
+  {
+    "relative_path": "kubejs\\server_scripts\\13b_food_overhaul_dimensions.js",
+    "absolute_path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\13b_food_overhaul_dimensions.js",
+    "exists": true,
+    "line_count": 748,
+    "size_bytes": 31078
+  },
+  {
+    "relative_path": "kubejs\\server_scripts\\13c_food_overhaul_creatures.js",
+    "absolute_path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\13c_food_overhaul_creatures.js",
+    "exists": true,
+    "line_count": 448,
+    "size_bytes": 18141
+  },
+  {
+    "relative_path": "kubejs\\server_scripts\\13d_food_overhaul_magic.js",
+    "absolute_path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\13d_food_overhaul_magic.js",
+    "exists": true,
+    "line_count": 730,
+    "size_bytes": 31345
+  },
+  {
+    "relative_path": "kubejs\\server_scripts\\13e_food_fixes.js",
+    "absolute_path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\13e_food_fixes.js",
+    "exists": true,
+    "line_count": 261,
+    "size_bytes": 9932
+  },
+  {
+    "relative_path": "kubejs\\server_scripts\\14_waystone_balance.js",
+    "absolute_path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\14_waystone_balance.js",
+    "exists": true,
+    "line_count": 15,
+    "size_bytes": 623
+  },
+  {
+    "relative_path": "kubejs\\server_scripts\\15_loot_nerfs.js",
+    "absolute_path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\15_loot_nerfs.js",
+    "exists": true,
+    "line_count": 32,
+    "size_bytes": 1254
+  },
+  {
+    "relative_path": "kubejs\\server_scripts\\16_recipes_and_balance.js",
+    "absolute_path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\16_recipes_and_balance.js",
+    "exists": true,
+    "line_count": 50,
+    "size_bytes": 2031
+  },
+  {
+    "relative_path": "kubejs\\server_scripts\\17_goblin_trades.js",
+    "absolute_path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\17_goblin_trades.js",
+    "exists": true,
+    "line_count": 87,
+    "size_bytes": 3000
+  },
+  {
+    "relative_path": "kubejs\\server_scripts\\18_boss_duplicator.js",
+    "absolute_path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\18_boss_duplicator.js",
+    "exists": true,
+    "line_count": 68,
+    "size_bytes": 2361
+  },
+  {
+    "relative_path": "kubejs\\server_scripts\\19_mob_gear.js",
+    "absolute_path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\19_mob_gear.js",
+    "exists": true,
+    "line_count": 253,
+    "size_bytes": 16112
+  },
+  {
+    "relative_path": "kubejs\\server_scripts\\20_disable_bugged_spells.js",
+    "absolute_path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\20_disable_bugged_spells.js",
+    "exists": true,
+    "line_count": 42,
+    "size_bytes": 1780
+  },
+  {
+    "relative_path": "kubejs\\server_scripts\\20_disable_bugged_spells_data.js",
+    "absolute_path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\20_disable_bugged_spells_data.js",
+    "exists": true,
+    "line_count": 21,
+    "size_bytes": 813
+  },
+  {
+    "relative_path": "kubejs\\server_scripts\\21_backpack_upgrades.js",
+    "absolute_path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\21_backpack_upgrades.js",
+    "exists": true,
+    "line_count": 391,
+    "size_bytes": 34925
+  },
+  {
+    "relative_path": "kubejs\\server_scripts\\22_apotheosis_gear_sets.js",
+    "absolute_path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\22_apotheosis_gear_sets.js",
+    "exists": true,
+    "line_count": 136,
+    "size_bytes": 8341
+  },
+  {
+    "relative_path": "kubejs\\server_scripts\\23_fix_illager_weapons.js",
+    "absolute_path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\23_fix_illager_weapons.js",
+    "exists": true,
+    "line_count": 21,
+    "size_bytes": 813
+  },
+  {
+    "relative_path": "kubejs\\server_scripts\\23_zenith_saber.js",
+    "absolute_path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\23_zenith_saber.js",
+    "exists": true,
+    "line_count": 63,
+    "size_bytes": 2403
+  },
+  {
+    "relative_path": "kubejs\\server_scripts\\24_pixie_spawn_limiter.js",
+    "absolute_path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\24_pixie_spawn_limiter.js",
+    "exists": true,
+    "line_count": 31,
+    "size_bytes": 1458
+  },
+  {
+    "relative_path": "kubejs\\server_scripts\\25_hardcoded_minibosses.js",
+    "absolute_path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\25_hardcoded_minibosses.js",
+    "exists": true,
+    "line_count": 410,
+    "size_bytes": 13052
+  },
+  {
+    "relative_path": "kubejs\\server_scripts\\26_mob_max_health_fix.js",
+    "absolute_path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\26_mob_max_health_fix.js",
+    "exists": true,
+    "line_count": 28,
+    "size_bytes": 1047
+  },
+  {
+    "relative_path": "kubejs\\server_scripts\\32_ban_raid_blimp.js",
+    "absolute_path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\32_ban_raid_blimp.js",
+    "exists": true,
+    "line_count": 10,
+    "size_bytes": 414
+  },
+  {
+    "relative_path": "kubejs\\server_scripts\\33_remove_vampirism_coatings.js",
+    "absolute_path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\33_remove_vampirism_coatings.js",
+    "exists": true,
+    "line_count": 17,
+    "size_bytes": 1028
+  },
+  {
+    "relative_path": "kubejs\\server_scripts\\34_ban_ender_eye.js",
+    "absolute_path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\34_ban_ender_eye.js",
+    "exists": true,
+    "line_count": 10,
+    "size_bytes": 350
+  },
+  {
+    "relative_path": "kubejs\\server_scripts\\41_iaf_loot_buff.js",
+    "absolute_path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\41_iaf_loot_buff.js",
+    "exists": true,
+    "line_count": 8,
+    "size_bytes": 301
+  },
+  {
+    "relative_path": "kubejs\\server_scripts\\50_xp_fluids_unification.js",
+    "absolute_path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\50_xp_fluids_unification.js",
+    "exists": true,
+    "line_count": 39,
+    "size_bytes": 1324
+  },
+  {
+    "relative_path": "kubejs\\server_scripts\\60_dragonforge_materials.js",
+    "absolute_path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\60_dragonforge_materials.js",
+    "exists": true,
+    "line_count": 23,
+    "size_bytes": 866
+  },
+  {
+    "relative_path": "kubejs\\server_scripts\\61_spellbook_assembly.js",
+    "absolute_path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\61_spellbook_assembly.js",
+    "exists": true,
+    "line_count": 59,
+    "size_bytes": 2960
+  },
+  {
+    "relative_path": "kubejs\\server_scripts\\apotheosis_auto_tiers.js",
+    "absolute_path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\apotheosis_auto_tiers.js",
+    "exists": true,
+    "line_count": 90,
+    "size_bytes": 3903
+  },
+  {
+    "relative_path": "kubejs\\server_scripts\\dump_ids.js",
+    "absolute_path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\dump_ids.js",
+    "exists": true,
+    "line_count": 5,
+    "size_bytes": 494
+  },
+  {
+    "relative_path": "kubejs\\server_scripts\\fix_illusioner_crash.js",
+    "absolute_path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\fix_illusioner_crash.js",
+    "exists": true,
+    "line_count": 17,
+    "size_bytes": 543
+  },
+  {
+    "relative_path": "kubejs\\server_scripts\\nerf_irons_jewelry.js",
+    "absolute_path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\nerf_irons_jewelry.js",
+    "exists": true,
+    "line_count": 7,
+    "size_bytes": 303
+  },
+  {
+    "relative_path": "kubejs\\client_scripts\\14_translations.js",
+    "absolute_path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\client_scripts\\14_translations.js",
+    "exists": true,
+    "line_count": 10,
+    "size_bytes": 289
+  },
+  {
+    "relative_path": "kubejs\\client_scripts\\32_hide_raid_blimp.js",
+    "absolute_path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\client_scripts\\32_hide_raid_blimp.js",
+    "exists": true,
+    "line_count": 4,
+    "size_bytes": 190
+  },
+  {
+    "relative_path": "kubejs\\client_scripts\\35_hide_technical_items.js",
+    "absolute_path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\client_scripts\\35_hide_technical_items.js",
+    "exists": true,
+    "line_count": 40,
+    "size_bytes": 1327
+  },
+  {
+    "relative_path": "kubejs\\client_scripts\\36_hide_incomplete_items.js",
+    "absolute_path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\client_scripts\\36_hide_incomplete_items.js",
+    "exists": true,
+    "line_count": 6,
+    "size_bytes": 369
+  },
+  {
+    "relative_path": "kubejs\\client_scripts\\37_hide_banned_and_disabled_items.js",
+    "absolute_path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\client_scripts\\37_hide_banned_and_disabled_items.js",
+    "exists": true,
+    "line_count": 21,
+    "size_bytes": 707
+  },
+  {
+    "relative_path": "kubejs\\client_scripts\\main.js",
+    "absolute_path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\client_scripts\\main.js",
+    "exists": true,
+    "line_count": 3,
+    "size_bytes": 116
+  },
+  {
+    "relative_path": "kubejs\\startup_scripts\\14_waystone_balance.js",
+    "absolute_path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\startup_scripts\\14_waystone_balance.js",
+    "exists": true,
+    "line_count": 15,
+    "size_bytes": 576
+  },
+  {
+    "relative_path": "kubejs\\startup_scripts\\40_iaf_durability_buff.js",
+    "absolute_path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\startup_scripts\\40_iaf_durability_buff.js",
+    "exists": true,
+    "line_count": 11,
+    "size_bytes": 677
+  },
+  {
+    "relative_path": "kubejs\\startup_scripts\\50_avarice_swords_damage.js",
+    "absolute_path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\startup_scripts\\50_avarice_swords_damage.js",
+    "exists": true,
+    "line_count": 16,
+    "size_bytes": 948
+  },
+  {
+    "relative_path": "kubejs\\startup_scripts\\60_spellbook_rebalance.js",
+    "absolute_path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\startup_scripts\\60_spellbook_rebalance.js",
+    "exists": true,
+    "line_count": 89,
+    "size_bytes": 3440
+  },
+  {
+    "relative_path": "kubejs\\startup_scripts\\custom_items.js",
+    "absolute_path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\startup_scripts\\custom_items.js",
+    "exists": true,
+    "line_count": 238,
+    "size_bytes": 13692
+  },
+  {
+    "relative_path": "kubejs\\startup_scripts\\fix_malum_watchdog.js",
+    "absolute_path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\startup_scripts\\fix_malum_watchdog.js",
+    "exists": true,
+    "line_count": 16,
+    "size_bytes": 893
+  },
+  {
+    "relative_path": "kubejs\\startup_scripts\\main.js",
+    "absolute_path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\startup_scripts\\main.js",
+    "exists": true,
+    "line_count": 3,
+    "size_bytes": 117
+  },
+  {
+    "relative_path": "check_mods.py",
+    "absolute_path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\check_mods.py",
+    "exists": true,
+    "line_count": 73,
+    "size_bytes": 2697
+  },
+  {
+    "relative_path": "check_shine.py",
+    "absolute_path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\check_shine.py",
+    "exists": true,
+    "line_count": 9,
+    "size_bytes": 390
+  },
+  {
+    "relative_path": "check_specific.py",
+    "absolute_path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\check_specific.py",
+    "exists": true,
+    "line_count": 41,
+    "size_bytes": 1376
+  },
+  {
+    "relative_path": "deep_check.py",
+    "absolute_path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\deep_check.py",
+    "exists": true,
+    "line_count": 66,
+    "size_bytes": 2703
+  },
+  {
+    "relative_path": "find_recipes.py",
+    "absolute_path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\find_recipes.py",
+    "exists": true,
+    "line_count": 55,
+    "size_bytes": 2035
+  },
+  {
+    "relative_path": "fix_fluids.py",
+    "absolute_path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\fix_fluids.py",
+    "exists": true,
+    "line_count": 22,
+    "size_bytes": 956
+  },
+  {
+    "relative_path": "fix_json.py",
+    "absolute_path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\fix_json.py",
+    "exists": true,
+    "line_count": 17,
+    "size_bytes": 683
+  },
+  {
+    "relative_path": "fix_suppressor.py",
+    "absolute_path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\fix_suppressor.py",
+    "exists": true,
+    "line_count": 12,
+    "size_bytes": 474
+  },
+  {
+    "relative_path": "fix_syntax.py",
+    "absolute_path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\fix_syntax.py",
+    "exists": true,
+    "line_count": 14,
+    "size_bytes": 469
+  },
+  {
+    "relative_path": "fix_syntax_errors.py",
+    "absolute_path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\fix_syntax_errors.py",
+    "exists": true,
+    "line_count": 51,
+    "size_bytes": 2131
+  },
+  {
+    "relative_path": "generate_dummy_recipes.py",
+    "absolute_path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\generate_dummy_recipes.py",
+    "exists": true,
+    "line_count": 55,
+    "size_bytes": 1964
+  },
+  {
+    "relative_path": "generate_physical_datapack.py",
+    "absolute_path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\generate_physical_datapack.py",
+    "exists": true,
+    "line_count": 88,
+    "size_bytes": 3120
+  },
+  {
+    "relative_path": "get_missing_items.py",
+    "absolute_path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\get_missing_items.py",
+    "exists": true,
+    "line_count": 29,
+    "size_bytes": 1088
+  },
+  {
+    "relative_path": "replace_missing_items.py",
+    "absolute_path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\replace_missing_items.py",
+    "exists": true,
+    "line_count": 33,
+    "size_bytes": 1143
+  },
+  {
+    "relative_path": "rewrite_20_fixed_datapacks.py",
+    "absolute_path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\rewrite_20_fixed_datapacks.py",
+    "exists": true,
+    "line_count": 142,
+    "size_bytes": 5426
+  },
+  {
+    "relative_path": "ore_report.md",
+    "absolute_path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\ore_report.md",
+    "exists": true,
+    "line_count": 143,
+    "size_bytes": 6504
+  },
+  {
+    "relative_path": "config\\ftbquests\\quests\\lang\\en_us.snbt",
+    "absolute_path": "c:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\config\\ftbquests\\quests\\lang\\en_us.snbt",
+    "exists": true,
+    "line_count": 3309,
+    "size_bytes": 204869
+  }
+]

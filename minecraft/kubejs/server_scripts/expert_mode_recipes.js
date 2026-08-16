@@ -62,7 +62,7 @@ ServerEvents.recipes(event => {
     // PneumaticCraft: Compressed Iron Block needs Create processing
     // (Compressed Iron is normally made by just placing iron under pressure,
     //  we add a Create prerequisite by requiring the Pressure Chamber itself
-    //  to use Create components - handled in prompt 2)
+    //  to use Create components)
 
     // Mekanism: Steel Casing (base of ALL Mekanism machines)
     // Now requires Andesite Alloy + Steel

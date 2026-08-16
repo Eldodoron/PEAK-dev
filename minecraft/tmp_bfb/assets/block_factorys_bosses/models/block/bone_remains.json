@@ -1,9 +1,0 @@
-{
-  "parent": "block_factorys_bosses:custom/bones1",
-  "textures": {
-    "all": "block_factorys_bosses:block/various_bones",
-    "particle": "minecraft:block/bone_block_side",
-    "0": "block_factorys_bosses:block/various_bones"
-  },
-  "render_type": "translucent"
-}

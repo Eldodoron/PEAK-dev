@@ -1,8 +1,0 @@
-{
-	"variants": {
-		"facing=north": {"model": "block_factorys_bosses:block/plank"},
-		"facing=south": {"model": "block_factorys_bosses:block/plank"},
-		"facing=east":  {"model": "block_factorys_bosses:block/plank"},
-		"facing=west":  {"model": "block_factorys_bosses:block/plank"}
-	}
-}

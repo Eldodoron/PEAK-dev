@@ -1,0 +1,253 @@
+{
+  "timestamp": "2026-08-16T21:19:07.738019+00:00",
+  "overall_status": "PASSED",
+  "duration_seconds": 22.938081400001465,
+  "total_tests": 23,
+  "passed_tests": 23,
+  "failed_tests": 0,
+  "skipped_tests": 0,
+  "error_tests": 0,
+  "summary_by_tier": {
+    "Tier 1": {
+      "passed": 6,
+      "failed": 0,
+      "skipped": 0,
+      "errors": 0
+    },
+    "Tier 2": {
+      "passed": 7,
+      "failed": 0,
+      "skipped": 0,
+      "errors": 0
+    },
+    "Tier 3": {
+      "passed": 6,
+      "failed": 0,
+      "skipped": 0,
+      "errors": 0
+    },
+    "Tier 4": {
+      "passed": 4,
+      "failed": 0,
+      "skipped": 0,
+      "errors": 0
+    }
+  },
+  "tier_results": {
+    "Tier 1": [
+      {
+        "test_id": "tests.test_tier1_feature_coverage.TestTier1FeatureCoverage.test_01_no_python_files_remain_in_minecraft",
+        "tier": "Tier 1",
+        "name": "Verify that zero .py files remain anywhere inside the minecraft/ directory tree.",
+        "status": "PASS",
+        "duration_ms": 703.8541999991139,
+        "message": null,
+        "details": null
+      },
+      {
+        "test_id": "tests.test_tier1_feature_coverage.TestTier1FeatureCoverage.test_02_all_python_scripts_archived_in_scrapped_tools",
+        "tier": "Tier 1",
+        "name": "Verify that all 24 maintenance Python utility scripts exist in scrapped_tools/.",
+        "status": "PASS",
+        "duration_ms": 1.290599999265396,
+        "message": null,
+        "details": null
+      },
+      {
+        "test_id": "tests.test_tier1_feature_coverage.TestTier1FeatureCoverage.test_03_zero_banned_ai_signatures_in_minecraft",
+        "tier": "Tier 1",
+        "name": "Verify that an exhaustive scan across all readable files in minecraft/ finds zero AI signatures.",
+        "status": "PASS",
+        "duration_ms": 6464.920399999755,
+        "message": null,
+        "details": null
+      },
+      {
+        "test_id": "tests.test_tier1_feature_coverage.TestTier1FeatureCoverage.test_04_all_kubejs_javascript_files_parse_cleanly",
+        "tier": "Tier 1",
+        "name": "Verify that 100% of .js scripts in kubejs/ parse cleanly with zero syntax errors.",
+        "status": "PASS",
+        "duration_ms": 4871.284700002434,
+        "message": null,
+        "details": null
+      },
+      {
+        "test_id": "tests.test_tier1_feature_coverage.TestTier1FeatureCoverage.test_05_all_minecraft_json_files_parse_cleanly",
+        "tier": "Tier 1",
+        "name": "Verify that all .json files in minecraft/ (assets, worldgen, configs, models) parse without syntax errors.",
+        "status": "PASS",
+        "duration_ms": 1568.1769999973767,
+        "message": null,
+        "details": null
+      },
+      {
+        "test_id": "tests.test_tier1_feature_coverage.TestTier1FeatureCoverage.test_06_blockbench_flowerbed_model_credits_cleaned",
+        "tier": "Tier 1",
+        "name": "Verify that all flowerbed 3D models retain standard Blockbench credits without AI attribution.",
+        "status": "PASS",
+        "duration_ms": 2.8712000021187123,
+        "message": null,
+        "details": null
+      }
+    ],
+    "Tier 2": [
+      {
+        "test_id": "tests.test_tier2_boundary_cases.TestTier2BoundaryCases.test_01_case_insensitive_regex_variations",
+        "tier": "Tier 2",
+        "name": "Verify that all casing permutations of banned terms are detected.",
+        "status": "PASS",
+        "duration_ms": 52.00970000078087,
+        "message": null,
+        "details": null
+      },
+      {
+        "test_id": "tests.test_tier2_boundary_cases.TestTier2BoundaryCases.test_02_whitelist_preservation_for_ingame_antigravity",
+        "tier": "Tier 2",
+        "name": "Verify that legitimate in-game status effect identifiers are not flagged as violations.",
+        "status": "PASS",
+        "duration_ms": 37.38809999777004,
+        "message": null,
+        "details": null
+      },
+      {
+        "test_id": "tests.test_tier2_boundary_cases.TestTier2BoundaryCases.test_03_multiline_and_block_comment_handling",
+        "tier": "Tier 2",
+        "name": "Verify that comments embedded inside multiline block comments are detected and handled.",
+        "status": "PASS",
+        "duration_ms": 43.75449999861303,
+        "message": null,
+        "details": null
+      },
+      {
+        "test_id": "tests.test_tier2_boundary_cases.TestTier2BoundaryCases.test_04_comments_inside_string_literals_are_not_stripped",
+        "tier": "Tier 2",
+        "name": "Verify that URL strings or text containing '//' or '/*' inside quotes are preserved.",
+        "status": "PASS",
+        "duration_ms": 43.792399999802,
+        "message": null,
+        "details": null
+      },
+      {
+        "test_id": "tests.test_tier2_boundary_cases.TestTier2BoundaryCases.test_05_non_ascii_and_unicode_emoji_resilience",
+        "tier": "Tier 2",
+        "name": "Verify that non-ASCII characters, mojibake, and emojis do not crash validators or tokenizers.",
+        "status": "PASS",
+        "duration_ms": 114.2029000002367,
+        "message": null,
+        "details": null
+      },
+      {
+        "test_id": "tests.test_tier2_boundary_cases.TestTier2BoundaryCases.test_06_empty_file_and_whitespace_only_handling",
+        "tier": "Tier 2",
+        "name": "Verify that 0-byte or whitespace-only files pass safely without exceptions.",
+        "status": "PASS",
+        "duration_ms": 33.03169999708189,
+        "message": null,
+        "details": null
+      },
+      {
+        "test_id": "tests.test_tier2_boundary_cases.TestTier2BoundaryCases.test_07_json_structure_integrity_detection",
+        "tier": "Tier 2",
+        "name": "Verify that JSONValidator properly identifies syntax and structure errors.",
+        "status": "PASS",
+        "duration_ms": 40.236900000309106,
+        "message": null,
+        "details": null
+      }
+    ],
+    "Tier 3": [
+      {
+        "test_id": "tests.test_tier3_functional_preservation.TestTier3FunctionalPreservation.test_01_kubejs_scripts_retain_all_functional_event_listeners",
+        "tier": "Tier 3",
+        "name": "Verify that essential KubeJS event listeners (ServerEvents, ClientEvents, StartupEvents) are intact.",
+        "status": "PASS",
+        "duration_ms": 231.24479999751202,
+        "message": null,
+        "details": null
+      },
+      {
+        "test_id": "tests.test_tier3_functional_preservation.TestTier3FunctionalPreservation.test_02_tag_unifications_script_integrity",
+        "tier": "Tier 3",
+        "name": "Verify that 00_tags.js retains screwdriver unifications and rune tags.",
+        "status": "PASS",
+        "duration_ms": 2.0441999986360315,
+        "message": null,
+        "details": null
+      },
+      {
+        "test_id": "tests.test_tier3_functional_preservation.TestTier3FunctionalPreservation.test_03_sequenced_assembly_datapack_recipes_integrity",
+        "tier": "Tier 3",
+        "name": "Verify that 20_fixed_datapacks.js retains its sequenced assembly recipes.",
+        "status": "PASS",
+        "duration_ms": 30.02790000027744,
+        "message": null,
+        "details": null
+      },
+      {
+        "test_id": "tests.test_tier3_functional_preservation.TestTier3FunctionalPreservation.test_04_create_and_pneumaticcraft_progression_gates_integrity",
+        "tier": "Tier 3",
+        "name": "Verify progression gates in 02_create_era_gates.js and 03_pneumatic_mekanism_gates.js.",
+        "status": "PASS",
+        "duration_ms": 12.249299998075003,
+        "message": null,
+        "details": null
+      },
+      {
+        "test_id": "tests.test_tier3_functional_preservation.TestTier3FunctionalPreservation.test_05_flowerbed_3d_geometry_and_texture_preservation",
+        "tier": "Tier 3",
+        "name": "Verify that all flowerbed 3D model cubes, UV maps, rotations, and textures are 100% intact.",
+        "status": "PASS",
+        "duration_ms": 2.889399998821318,
+        "message": null,
+        "details": null
+      },
+      {
+        "test_id": "tests.test_tier3_functional_preservation.TestTier3FunctionalPreservation.test_06_custom_items_startup_registry_intact",
+        "tier": "Tier 3",
+        "name": "Verify that custom_items.js in startup_scripts retains all item registrations.",
+        "status": "PASS",
+        "duration_ms": 6.048999999620719,
+        "message": null,
+        "details": null
+      }
+    ],
+    "Tier 4": [
+      {
+        "test_id": "tests.test_tier4_workload_scenarios.TestTier4WorkloadScenarios.test_01_full_kubejs_subsystem_verification",
+        "tier": "Tier 4",
+        "name": "Simulates full KubeJS subsystem load: scans all 170+ files for integrity and clean syntax.",
+        "status": "PASS",
+        "duration_ms": 315.58050000239746,
+        "message": null,
+        "details": null
+      },
+      {
+        "test_id": "tests.test_tier4_workload_scenarios.TestTier4WorkloadScenarios.test_02_deep_ast_parsing_and_syntax_of_all_js_scripts",
+        "tier": "Tier 4",
+        "name": "Performs deep AST parsing on all 64 JS scripts to ensure zero syntax or bracket errors.",
+        "status": "PASS",
+        "duration_ms": 4584.3778000016755,
+        "message": null,
+        "details": null
+      },
+      {
+        "test_id": "tests.test_tier4_workload_scenarios.TestTier4WorkloadScenarios.test_03_ftbquests_snbt_localization_and_zero_ai_check",
+        "tier": "Tier 4",
+        "name": "Parses the entire 3,310+ line FTB Quests localization file, validating all 680+ quests and clean text.",
+        "status": "PASS",
+        "duration_ms": 122.68880000192439,
+        "message": null,
+        "details": null
+      },
+      {
+        "test_id": "tests.test_tier4_workload_scenarios.TestTier4WorkloadScenarios.test_04_mod_configs_integrity_and_cleanliness",
+        "tier": "Tier 4",
+        "name": "Verifies that all mod configuration files in config/ and defaultconfigs/ remain valid and clean.",
+        "status": "PASS",
+        "duration_ms": 3541.5099000019836,
+        "message": null,
+        "details": null
+      }
+    ]
+  }
+}

@@ -1,7 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "block_factorys_bosses:item/underworld_wall_torch_item"
-  },
-  "render_type": "translucent"
-}

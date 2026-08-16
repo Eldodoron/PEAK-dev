@@ -1,0 +1,374 @@
+=== check_client_toml.py (52 lines) ===
+﻿import os
+import zipfile
+import tomllib
+import re
+
+mods_dir = r'C:\Users\wamb9\MINECRAFT\Prism\Instances\PEAK dev\minecraft\mods'
+
+# List from user prompt
+user_list = '''
+aero_cam_sync-1.3.1.jar
+catalogue-neoforge-1.21.1-1.11.2.jar
+configured-neoforge-1.21.1-2.6.3.jar
+fastboot-1.21.x-v1.3neo.jar
+guideme-21.1.16.jar
+SimplyTooltips-neoforge-0.1.3.jar
+
+=== check_mods.py (73 lines) ===
+﻿import os
+import zipfile
+import tomllib
+
+mods_dir = r'C:\Users\wamb9\MINECRAFT\Prism\Instances\PEAK dev\minecraft\mods'
+client_mods = []
+server_mods = []
+unknown_mods = []
+
+for filename in os.listdir(mods_dir):
+    if not filename.endswith('.jar'):
+        continue
+    filepath = os.path.join(mods_dir, filename)
+    is_client_only = False
+    found_toml = False
+
+=== check_shine.py (9 lines) ===
+﻿import zipfile
+import tomllib
+
+jarPath = r'C:\Users\wamb9\Desktop\Server_Mods_PEAK\shine-2.0.1+1.21.1-neoforge.jar'
+with zipfile.ZipFile(jarPath, 'r') as z:
+    for name in z.namelist():
+        if name.endswith('neoforge.mods.toml') or name.endswith('mods.toml') or name.endswith('fabric.mod.json'):
+            print(f'--- {name} ---')
+            print(z.read(name).decode('utf-8'))
+
+=== check_specific.py (41 lines) ===
+﻿import zipfile
+import tomllib
+import os
+
+jars = [
+    'bigwater-1.2.0-neoforge+mc1.21.1.jar',
+    'CrashAssistant-neoforge-1.20.6-1.21.4-1.11.9.jar',
+    'fwa+1.21.1-neoforge-1.2.31.jar',
+    'healight-neoforge-1.21.1-1.0.1.jar',
+    'particle_core-0.3.3+1.21+neoforge.jar',
+    'particular-1.21.1-NeoForge-1.5.5.jar',
+    'Perception-NEOFORGE-0.2.1+1.21.1.jar',
+    'punchy-2.6.2-neoforge-1.21.1.jar',
+    'sounds-2.4.22+lts+1.21.1-neoforge.jar'
+]
+
+=== deep_check.py (66 lines) ===
+﻿import os
+import zipfile
+import tomllib
+import json
+
+mods_dir = r'C:\Users\wamb9\Desktop\Server_Mods_PEAK'
+
+suspect_keywords = [
+    'client', 'visual', 'hud', 'gui ', 'menu', 'tooltip', 'render', 'animation',
+    'sound', 'particle', 'shader', 'bloom', 'lighting', 'camera', 'minimap',
+    'map', 'crosshair', 'keybind', 'music', 'texture', 'model', 'physics', 'ragdoll'
+]
+
+results = []
+
+
+=== find_recipes.py (55 lines) ===
+import glob
+import zipfile
+import json
+import os
+
+books_to_check = [
+    'wind_spellbooks:wind_spell_book',
+    'ess_requiem:spellblade_spellbook',
+    'irons_spellbooks:villager_spell_book',
+    'irons_spellbooks:evoker_spell_book',
+    'irons_spellbooks:blaze_spell_book',
+    'irons_spellbooks:druidic_spell_book',
+    'irons_spellbooks:ice_spell_book',
+    'irons_spellbooks:cursed_doll_spell_book',
+    'irons_spellbooks:necronomicon_spell_book',
+
+=== fix_fluids.py (22 lines) ===
+import os
+
+scripts_dir = 'c:/Users/wamb9/MINECRAFT/Prism/Instances/PEAK dev/minecraft/kubejs/server_scripts/'
+
+# Fix 00_recipe_error_suppressor.js
+path = os.path.join(scripts_dir, '00_recipe_error_suppressor.js')
+with open(path, 'r', encoding='utf-8') as f:
+    text = f.read()
+text = text.replace("Fluid.of('#c:crude_oil'", "Fluid.of('createdieselgenerators:crude_oil'")
+text = text.replace("Fluid.of('#c:plantoil'", "Fluid.of('createdieselgenerators:plant_oil'")
+text = text.replace("Fluid.of('#c:ethanol'", "Fluid.of('createdieselgenerators:ethanol'")
+with open(path, 'w', encoding='utf-8') as f:
+    f.write(text)
+
+# Fix 20_fixed_datapacks.js
+
+=== fix_json.py (17 lines) ===
+import os
+import re
+
+file_path = 'c:/Users/wamb9/MINECRAFT/Prism/Instances/PEAK dev/minecraft/kubejs/server_scripts/20_fixed_datapacks.js'
+with open(file_path, 'r', encoding='utf-8') as f:
+    content = f.read()
+
+# Fix base: {'id': ...} to base: {'item': ...}
+content = re.sub(r'"base":\s*\{"id":', '"base": {"item":', content)
+content = re.sub(r'"template":\s*\{"id":', '"template": {"item":', content)
+content = re.sub(r'"result":\s*\{"count":\s*1,\s*"id":', '"result": {"id":', content)
+
+# Fix Fluid.of('#...') to Fluid.of('...')
+content = re.sub(r'Fluid\.of\([\'"]#(.*?)([\'"])', r"Fluid.of('\1'", content)
+
+
+=== fix_suppressor.py (12 lines) ===
+import os
+
+scripts_dir = 'c:/Users/wamb9/MINECRAFT/Prism/Instances/PEAK dev/minecraft/kubejs/server_scripts/'
+path = os.path.join(scripts_dir, '00_recipe_error_suppressor.js')
+with open(path, 'r', encoding='utf-8') as f:
+    lines = f.readlines()
+for i in range(len(lines)):
+    if "{'id': '" in lines[i]:
+        lines[i] = lines[i].replace("{'id': '", "")
+with open(path, 'w', encoding='utf-8') as f:
+    f.writelines(lines)
+print('Fixed id syntax in suppressor script!')
+
+=== fix_syntax.py (14 lines) ===
+import re
+
+file_path = 'c:/Users/wamb9/MINECRAFT/Prism/Instances/PEAK dev/minecraft/kubejs/server_scripts/00_recipe_error_suppressor.js'
+with open(file_path, 'r', encoding='utf-8') as f:
+    content = f.read()
+
+# Replace '{'id': 'create:andesite_alloy'}' with 'create:andesite_alloy'
+content = content.replace("'{'id': '", "'")
+content = content.replace("'}'", "'")
+
+with open(file_path, 'w', encoding='utf-8') as f:
+    f.write(content)
+
+print('Fixed syntax errors.')
+
+=== fix_syntax_errors.py (51 lines) ===
+import os
+import re
+
+scripts_dir = 'c:/Users/wamb9/MINECRAFT/Prism/Instances/PEAK dev/minecraft/kubejs/server_scripts/'
+
+# Fix 13b_food_overhaul_dimensions.js
+path = os.path.join(scripts_dir, '13b_food_overhaul_dimensions.js')
+with open(path, 'r', encoding='utf-8') as f:
+    lines = f.readlines()
+for i in [718, 719, 724, 725]:
+    if not lines[i].startswith('//'):
+        lines[i] = '// ' + lines[i]
+with open(path, 'w', encoding='utf-8') as f:
+    f.writelines(lines)
+
+
+=== generate_dummy_recipes.py (55 lines) ===
+import os
+import re
+import json
+
+log_file = "c:/Users/wamb9/MINECRAFT/Prism/Instances/PEAK dev/minecraft/errors2.txt"
+data_dir = "c:/Users/wamb9/MINECRAFT/Prism/Instances/PEAK dev/minecraft/kubejs/data"
+
+dummy_recipe = {
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [{"item": "minecraft:barrier"}],
+  "result": {"id": "minecraft:barrier", "count": 1}
+}
+
+dummy_loot_table = {
+
+=== generate_high_priority_data.py (74 lines) ===
+import re
+import json
+
+log_files = [
+    "c:/Users/wamb9/MINECRAFT/Prism/Instances/PEAK dev/minecraft/errors.txt",
+    "c:/Users/wamb9/MINECRAFT/Prism/Instances/PEAK dev/minecraft/errors2.txt"
+]
+output_js = "c:/Users/wamb9/MINECRAFT/Prism/Instances/PEAK dev/minecraft/kubejs/server_scripts/01_high_priority_data_override.js"
+
+broken_paths = set()
+
+for log_file in log_files:
+    try:
+        with open(log_file, 'r', encoding='utf-8') as f:
+            for line in f:
+
+=== generate_physical_datapack.py (88 lines) ===
+import os
+import re
+import json
+import shutil
+
+log_files = [
+    "c:/Users/wamb9/MINECRAFT/Prism/Instances/PEAK dev/minecraft/errors.txt",
+    "c:/Users/wamb9/MINECRAFT/Prism/Instances/PEAK dev/minecraft/errors2.txt"
+]
+
+pack_dir = "c:/Users/wamb9/MINECRAFT/Prism/Instances/PEAK dev/minecraft/global_packs/required_data/recipe_error_fixer"
+data_dir = os.path.join(pack_dir, "data")
+broken_script = "c:/Users/wamb9/MINECRAFT/Prism/Instances/PEAK dev/minecraft/kubejs/server_scripts/01_high_priority_data_override.js"
+
+# 1. Clean up KubeJS broken script
+
+=== get_missing_items.py (29 lines) ===
+import re
+
+files = [
+    '07_draconic_endgame.js', '10_avaritia_final_polish.js', 
+    '13a_food_overhaul_farmersdelight.js', '12_food_buffs.js', 
+    '13d_food_overhaul_magic.js', '13b_food_overhaul_dimensions.js', 
+    '21_backpack_upgrades.js'
+]
+
+missing_items = set()
+
+with open('c:/Users/wamb9/MINECRAFT/Prism/Instances/PEAK dev/minecraft/logs/latest.log', 'r', encoding='utf-8', errors='ignore') as f:
+    for line in f:
+        if any(script in line for script in files) and ('ERROR' in line or 'Failed' in line):
+            m1 = re.search(r'Unknown registry key in ResourceKey\[.*?(item|fluid)\]: ([a-zA-Z0-9_:-]+)', line)
+
+=== replace_missing_items.py (33 lines) ===
+import os
+import glob
+
+# Map of old broken items to deduced new items for 1.21.1
+replacements = {
+    "pneumaticcraft:compressor": "pneumaticcraft:air_compressor",
+    "iceandfire:dragon_bone": "iceandfire:dragonbone",
+    "create_enchantment_industry:experience_rotor": "create_enchantment_industry:experience_hatch",
+    "alexscaves:pulse_laser": "alexscaves:raygun",
+    "kubejs:chaos_essence": "draconicevolution:chaos_shard"
+}
+
+scripts_dir = "c:/Users/wamb9/MINECRAFT/Prism/Instances/PEAK dev/minecraft/kubejs/server_scripts"
+files = glob.glob(os.path.join(scripts_dir, "*.js"))
+
+
+=== rewrite_20_fixed_datapacks.py (142 lines) ===
+import re
+import json
+
+file_path = 'c:/Users/wamb9/MINECRAFT/Prism/Instances/PEAK dev/minecraft/kubejs/server_scripts/20_fixed_datapacks.js'
+out_path = 'c:/Users/wamb9/MINECRAFT/Prism/Instances/PEAK dev/minecraft/kubejs/server_scripts/20_fixed_datapacks.js'
+
+with open(file_path, 'r', encoding='utf-8') as f:
+    lines = f.readlines()
+
+new_lines = []
+
+def format_ingredient(ing):
+    if "item" in ing:
+        return f"'{ing['item']}'"
+    elif "tag" in ing:
+
+=== kubejs\server_scripts\clean_suppressor.py (38 lines) ===
+import os
+import glob
+
+suppressor = r"c:\Users\chris\AppData\Roaming\PrismLauncher\instances\PEAK-dev\minecraft\kubejs\server_scripts\00_recipe_error_suppressor.js"
+kubejs_data = r"c:\Users\chris\AppData\Roaming\PrismLauncher\instances\PEAK-dev\minecraft\kubejs\data"
+
+# Find all JSON files in kubejs_data
+fixed_ids = set()
+for root, dirs, files in os.walk(kubejs_data):
+    for f in files:
+        if f.endswith('.json'):
+            # The path looks like: kubejs/data/<ns>/recipe/<path>.json
+            rel_path = os.path.relpath(os.path.join(root, f), kubejs_data).replace('\\', '/')
+            parts = rel_path.split('/')
+            if len(parts) >= 3:
+
+=== kubejs\server_scripts\convert_chance.py (35 lines) ===
+import os
+import re
+
+directory = r"c:\Users\chris\AppData\Roaming\PrismLauncher\instances\PEAK-dev\minecraft\kubejs\server_scripts"
+
+def process_file(filepath):
+    with open(filepath, 'r', encoding='utf-8') as f:
+        content = f.read()
+
+    # Find Item.of('item').withChance(X)
+    pattern = r"Item\.of\((['\"`].*?['\"`])\)\.withChance\((.*?)\)"
+    new_content, count = re.subn(pattern, r"CreateItem.of(\1, \2)", content)
+
+    # Fix experience nugget
+    new_content, c2 = re.subn(r"minecraft:experience_nugget", r"create:experience_nugget", new_content)
+
+=== kubejs\server_scripts\convert_to_js.py (35 lines) ===
+import os
+import json
+import glob
+
+kubejs_data = r"c:\Users\chris\AppData\Roaming\PrismLauncher\instances\PEAK-dev\minecraft\kubejs\data"
+out_js = r"c:\Users\chris\AppData\Roaming\PrismLauncher\instances\PEAK-dev\minecraft\kubejs\server_scripts\20_fixed_datapacks.js"
+
+with open(out_js, 'w', encoding='utf-8') as f_out:
+    f_out.write("// Auto-generated by Antigravity to fix broken datapack recipes\n")
+    f_out.write("ServerEvents.recipes(event => {\n")
+    
+    count = 0
+    for root, dirs, files in os.walk(kubejs_data):
+        for f in files:
+            if f.endswith('.json'):
+
+=== kubejs\server_scripts\fix_datapacks.py (82 lines) ===
+import os
+import zipfile
+import json
+import glob
+
+mods_dir = r"c:\Users\chris\AppData\Roaming\PrismLauncher\instances\PEAK-dev\minecraft\mods"
+kubejs_data = r"c:\Users\chris\AppData\Roaming\PrismLauncher\instances\PEAK-dev\minecraft\kubejs\data"
+suppressor = r"c:\Users\chris\AppData\Roaming\PrismLauncher\instances\PEAK-dev\minecraft\kubejs\server_scripts\00_recipe_error_suppressor.js"
+
+# 1. Read broken recipes
+broken = []
+with open(suppressor, 'r', encoding='utf-8') as f:
+    for line in f:
+        line = line.strip()
+        if line.startswith("'") and "'," in line:
+
+=== kubejs\server_scripts\fix_fluid.py (11 lines) ===
+import os
+filepath = r'c:\Users\chris\AppData\Roaming\PrismLauncher\instances\PEAK-dev\minecraft\kubejs\server_scripts\20_fixed_datapacks.js'
+with open(filepath, 'r', encoding='utf-8') as f:
+    content = f.read()
+
+content = content.replace('"fluid":', '"id":')
+content = content.replace('"fluidTag":', '"tag":')
+
+with open(filepath, 'w', encoding='utf-8') as f:
+    f.write(content)
+print("Fixed fluid and fluidTag keys!")
+
+=== kubejs\server_scripts\fix_transitional.py (12 lines) ===
+import os
+import glob
+
+for filepath in glob.glob('*.js'):
+    with open(filepath, 'r', encoding='utf-8') as f:
+        content = f.read()
+    
+    if '"transitionalItem":' in content:
+        new_content = content.replace('"transitionalItem":', '"transitional_item":')
+        with open(filepath, 'w', encoding='utf-8') as f:
+            f.write(new_content)
+        print(f"Fixed transitionalItem in {filepath}")
+

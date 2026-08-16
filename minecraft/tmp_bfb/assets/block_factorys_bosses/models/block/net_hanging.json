@@ -1,5 +1,0 @@
-{
-	"parent": "block_factorys_bosses:custom/net_hanging",
-	"render_type": "cutout",
-	"ambientocclusion": false
-}

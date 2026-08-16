@@ -1,9 +1,0 @@
-{
-  "parent": "block_factorys_bosses:custom/tall_candles",
-  "textures": {
-    "all": "block_factorys_bosses:block/gold",
-    "particle": "block_factorys_bosses:block/gold",
-    "0": "block_factorys_bosses:block/candles_sheet"
-  },
-  "render_type": "cutout"
-}

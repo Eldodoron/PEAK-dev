@@ -295,7 +295,6 @@ ServerEvents.recipes(event => {
 
     // --- ELITE CONTROL CIRCUIT ---
     // Requires Ender IO components (forward gate to Era 5)
-    // Note: This will be further refined in Prompt 4
     event.remove({ output: 'mekanism:elite_control_circuit' });
     event.shaped('mekanism:elite_control_circuit', [
         'PPP',
@@ -308,8 +307,7 @@ ServerEvents.recipes(event => {
     });
 
     // --- ULTIMATE CONTROL CIRCUIT ---
-    // Will be fully defined in Prompt 4 (needs AE2 components)
-    // For now, make it expensive with current materials
+    // Recipe uses current era materials
     event.remove({ output: 'mekanism:ultimate_control_circuit' });
     event.shaped('mekanism:ultimate_control_circuit', [
         'DPD',

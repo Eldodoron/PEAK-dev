@@ -36,10 +36,6 @@ ServerEvents.recipes(event => {
 
     // --- DRAGON BLOOD MIXING ---
     // Dragon blood + metals in Create's Mixer = enhanced alloys
-    // Fire Dragon Blood + Steel = Fire-tempered Steel
-    // (Recipe removed per user request)
-
-
 
     // Lightning Dragon Blood + Redstone = Supercharged circuits
     event.recipes.create.mixing(

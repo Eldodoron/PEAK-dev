@@ -1,7 +1,0 @@
-{
-  "parent": "block_factorys_bosses:custom/dragon_guard_shield_blocking",
-  "textures": {
-    "2": "block_factorys_bosses:block/dragon_guard_shield",
-    "particle": "minecraft:item/empty_armor_slot_shield"
-  }
-}

@@ -1,9 +1,0 @@
-{
-  "parent": "block_factorys_bosses:custom/nothing",
-  "textures": {
-    "all": "block_factorys_bosses:block/invisible",
-    "particle": "minecraft:block/bone_block_side",
-    "missing": "block_factorys_bosses:block/invisible"
-  },
-  "render_type": "translucent"
-}
