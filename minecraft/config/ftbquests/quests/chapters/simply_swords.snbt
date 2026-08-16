@@ -1,0 +1,1048 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "simply_swords"
+	group: "2000000000000000"
+	id: "2102000000000000"
+	images: [
+		{
+			height: 2.2d
+			id: "322AE074991CA4C7"
+			image: "minecraft:item/experience_bottle"
+			rotation: 0.0d
+			width: 2.2d
+			x: 0.0d
+			y: -2.6d
+		}
+		{
+			height: 1.8d
+			id: "3D0BCE156675E642"
+			image: "minecraft:item/nether_star"
+			rotation: 0.0d
+			width: 1.8d
+			x: -2.2d
+			y: 15.0d
+		}
+		{
+			height: 1.8d
+			id: "03CE3F71DA1D57DB"
+			image: "minecraft:item/nether_star"
+			rotation: 0.0d
+			width: 1.8d
+			x: 2.2d
+			y: 15.0d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "2002000000000000"
+			rewards: [
+				{
+					id: "3000000000000031"
+					item: {
+						count: 1
+						id: "simplyswords:runic_tablet"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000000000032"
+					table_id: 1117392878634643457L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			size: 1.7d
+			tasks: [{
+				id: "4000000000000028"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2002000000000000"]
+			id: "2002000000000001"
+			optional: true
+			rewards: [{
+				id: "3000000000000033"
+				table_id: 1117392878634643458L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000029"
+				item: { count: 1, id: "simplyswords:hearthflame" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2002000000000000"]
+			id: "2002000000000002"
+			optional: true
+			rewards: [{
+				id: "3000000000000034"
+				table_id: 1117392878634643458L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000030"
+				item: { count: 1, id: "simplyswords:brimstone_claymore" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2002000000000000"]
+			id: "2002000000000003"
+			optional: true
+			rewards: [{
+				id: "3000000000000035"
+				table_id: 1117392878634643458L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000031"
+				item: { count: 1, id: "simplyswords:sunfire" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2002000000000000"]
+			id: "2002000000000004"
+			optional: true
+			rewards: [{
+				id: "3000000000000036"
+				table_id: 1117392878634643458L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000032"
+				item: { count: 1, id: "simplyswords:flamewind" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2002000000000000"]
+			id: "2002000000000005"
+			optional: true
+			rewards: [{
+				id: "3000000000000037"
+				table_id: 1117392878634643458L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000033"
+				item: { count: 1, id: "simplyswords:molten_edge" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2002000000000000"]
+			id: "2002000000000006"
+			optional: true
+			rewards: [{
+				id: "3000000000000038"
+				table_id: 1117392878634643458L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000034"
+				item: { count: 1, id: "simplyswords:wickpiercer" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2002000000000000"]
+			id: "2002000000000007"
+			optional: true
+			rewards: [{
+				id: "3000000000000039"
+				table_id: 1117392878634643458L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000035"
+				item: { count: 1, id: "simplyswords:emberblade" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2002000000000000"]
+			id: "2002000000000008"
+			optional: true
+			rewards: [{
+				id: "3000000000000040"
+				table_id: 1117392878634643458L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000036"
+				item: { count: 1, id: "simplyswords:emberlash" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2002000000000000"]
+			id: "2002000000000009"
+			optional: true
+			rewards: [{
+				id: "3000000000000041"
+				table_id: 1117392878634643458L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000037"
+				item: { count: 1, id: "simplyswords:frostfall" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2002000000000000"]
+			id: "200200000000000A"
+			optional: true
+			rewards: [{
+				id: "3000000000000042"
+				table_id: 1117392878634643458L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000038"
+				item: { count: 1, id: "simplyswords:icewhisper" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2002000000000000"]
+			id: "200200000000000B"
+			optional: true
+			rewards: [{
+				id: "3000000000000043"
+				table_id: 1117392878634643458L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000039"
+				item: { count: 1, id: "simplyswords:stormbringer" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2002000000000000"]
+			id: "200200000000000C"
+			optional: true
+			rewards: [{
+				id: "3000000000000044"
+				table_id: 1117392878634643458L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000040"
+				item: { count: 1, id: "simplyswords:storms_edge" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2002000000000000"]
+			id: "200200000000000D"
+			optional: true
+			rewards: [{
+				id: "3000000000000045"
+				table_id: 1117392878634643458L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000041"
+				item: { count: 1, id: "simplyswords:thunderbrand" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2002000000000000"]
+			id: "200200000000000E"
+			optional: true
+			rewards: [{
+				id: "3000000000000046"
+				table_id: 1117392878634643458L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000042"
+				item: { count: 1, id: "simplyswords:whisperwind" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2002000000000000"]
+			id: "200200000000000F"
+			optional: true
+			rewards: [{
+				id: "3000000000000047"
+				table_id: 1117392878634643458L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000043"
+				item: { count: 1, id: "simplyswords:tempest" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2002000000000000"]
+			id: "2002000000000010"
+			optional: true
+			rewards: [{
+				id: "3000000000000048"
+				table_id: 1117392878634643458L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000044"
+				item: { count: 1, id: "simplyswords:slumbering_lichblade" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2002000000000000"]
+			id: "2002000000000011"
+			optional: true
+			rewards: [{
+				id: "3000000000000049"
+				table_id: 1117392878634643458L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000045"
+				item: { count: 1, id: "simplyswords:waking_lichblade" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2002000000000000"]
+			id: "2002000000000012"
+			optional: true
+			rewards: [{
+				id: "3000000000000050"
+				table_id: 1117392878634643458L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000046"
+				item: { count: 1, id: "simplyswords:awakened_lichblade" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2002000000000000"]
+			id: "2002000000000013"
+			optional: true
+			rewards: [{
+				id: "3000000000000051"
+				table_id: 1117392878634643458L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000047"
+				item: { count: 1, id: "simplyswords:soulrender" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2002000000000000"]
+			id: "2002000000000014"
+			optional: true
+			rewards: [{
+				id: "3000000000000052"
+				table_id: 1117392878634643458L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000048"
+				item: { count: 1, id: "simplyswords:soulstealer" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2002000000000000"]
+			id: "2002000000000015"
+			optional: true
+			rewards: [{
+				id: "3000000000000053"
+				table_id: 1117392878634643458L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000049"
+				item: { count: 1, id: "simplyswords:soulpyre" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2002000000000000"]
+			id: "2002000000000016"
+			optional: true
+			rewards: [{
+				id: "3000000000000054"
+				table_id: 1117392878634643458L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000050"
+				item: { count: 1, id: "simplyswords:soulkeeper" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2002000000000000"]
+			id: "2002000000000017"
+			optional: true
+			rewards: [{
+				id: "3000000000000055"
+				table_id: 1117392878634643458L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000051"
+				item: { count: 1, id: "simplyswords:harbinger" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2002000000000000"]
+			id: "2002000000000018"
+			optional: true
+			rewards: [{
+				id: "3000000000000056"
+				table_id: 1117392878634643458L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000052"
+				item: { count: 1, id: "simplyswords:toxic_longsword" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2002000000000000"]
+			id: "2002000000000019"
+			optional: true
+			rewards: [{
+				id: "3000000000000057"
+				table_id: 1117392878634643458L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000053"
+				item: { count: 1, id: "simplyswords:empowered_remnant" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2002000000000000"]
+			id: "200200000000001A"
+			optional: true
+			rewards: [{
+				id: "3000000000000058"
+				table_id: 1117392878634643458L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000054"
+				item: { count: 1, id: "simplyswords:wraithfang" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2002000000000000"]
+			id: "200200000000001B"
+			optional: true
+			rewards: [{
+				id: "3000000000000059"
+				table_id: 1117392878634643458L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000055"
+				item: { count: 1, id: "simplyswords:arcanethyst" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["2002000000000000"]
+			id: "200200000000001C"
+			optional: true
+			rewards: [{
+				id: "3000000000000060"
+				table_id: 1117392878634643458L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000056"
+				item: { count: 1, id: "simplyswords:caelestis" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["2002000000000000"]
+			id: "200200000000001D"
+			optional: true
+			rewards: [{
+				id: "3000000000000061"
+				table_id: 1117392878634643458L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000057"
+				item: { count: 1, id: "simplyswords:stars_edge" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["2002000000000000"]
+			id: "200200000000001E"
+			optional: true
+			rewards: [{
+				id: "3000000000000062"
+				table_id: 1117392878634643458L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000058"
+				item: { count: 1, id: "simplyswords:watcher_claymore" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["2002000000000000"]
+			id: "200200000000001F"
+			optional: true
+			rewards: [{
+				id: "3000000000000063"
+				table_id: 1117392878634643458L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000059"
+				item: { count: 1, id: "simplyswords:watching_warglaive" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["2002000000000000"]
+			id: "2002000000000020"
+			optional: true
+			rewards: [{
+				id: "3000000000000064"
+				table_id: 1117392878634643458L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000060"
+				item: { count: 1, id: "simplyswords:shadowsting" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["2002000000000000"]
+			id: "2002000000000021"
+			optional: true
+			rewards: [{
+				id: "3000000000000065"
+				table_id: 1117392878634643458L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000061"
+				item: { count: 1, id: "simplyswords:magiblade" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["2002000000000000"]
+			id: "2002000000000022"
+			optional: true
+			rewards: [{
+				id: "3000000000000066"
+				table_id: 1117392878634643458L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000062"
+				item: { count: 1, id: "simplyswords:magiscythe" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["2002000000000000"]
+			id: "2002000000000023"
+			optional: true
+			rewards: [{
+				id: "3000000000000067"
+				table_id: 1117392878634643458L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000063"
+				item: { count: 1, id: "simplyswords:magispear" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["2002000000000000"]
+			id: "2002000000000024"
+			optional: true
+			rewards: [{
+				id: "3000000000000068"
+				table_id: 1117392878634643458L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000064"
+				item: { count: 1, id: "simplyswords:waxweaver" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["2002000000000000"]
+			id: "2002000000000025"
+			optional: true
+			rewards: [{
+				id: "3000000000000069"
+				table_id: 1117392878634643458L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000065"
+				item: { count: 1, id: "simplyswords:bramblethorn" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["2002000000000000"]
+			id: "2002000000000026"
+			optional: true
+			rewards: [{
+				id: "3000000000000070"
+				table_id: 1117392878634643458L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000066"
+				item: { count: 1, id: "simplyswords:hiveheart" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["2002000000000000"]
+			id: "2002000000000027"
+			optional: true
+			rewards: [{
+				id: "3000000000000071"
+				table_id: 1117392878634643458L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000067"
+				item: { count: 1, id: "simplyswords:enigma" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["2002000000000000"]
+			id: "2002000000000028"
+			optional: true
+			rewards: [{
+				id: "3000000000000072"
+				table_id: 1117392878634643458L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000068"
+				item: { count: 1, id: "simplyswords:twisted_blade" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["2002000000000000"]
+			id: "2002000000000029"
+			optional: true
+			rewards: [{
+				id: "3000000000000073"
+				table_id: 1117392878634643458L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000069"
+				item: { count: 1, id: "simplyswords:livyatan" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["2002000000000000"]
+			id: "200200000000002A"
+			optional: true
+			rewards: [{
+				id: "3000000000000074"
+				table_id: 1117392878634643458L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000070"
+				item: { count: 1, id: "simplyswords:chompolotl" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["2002000000000000"]
+			id: "200200000000002B"
+			optional: true
+			rewards: [{
+				id: "3000000000000075"
+				table_id: 1117392878634643458L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000071"
+				item: { count: 1, id: "simplyswords:ribboncleaver" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["2002000000000000"]
+			id: "200200000000002C"
+			optional: true
+			rewards: [{
+				id: "3000000000000076"
+				table_id: 1117392878634643458L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000072"
+				item: { count: 1, id: "simplyswords:sword_on_a_stick" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["2002000000000000"]
+			id: "200200000000002D"
+			optional: true
+			rewards: [{
+				id: "3000000000000077"
+				table_id: 1117392878634643458L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000073"
+				item: { count: 1, id: "simplyswords:mjolnir" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["2002000000000000"]
+			id: "200200000000002E"
+			optional: true
+			rewards: [{
+				id: "3000000000000078"
+				table_id: 1117392878634643458L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000074"
+				item: { count: 1, id: "simplyswords:dormant_relic" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["2002000000000000"]
+			id: "200200000000002F"
+			optional: true
+			rewards: [{
+				id: "3000000000000079"
+				table_id: 1117392878634643458L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000075"
+				item: { count: 1, id: "simplyswords:righteous_relic" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["2002000000000000"]
+			id: "2002000000000030"
+			optional: true
+			rewards: [{
+				id: "3000000000000080"
+				table_id: 1117392878634643458L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000076"
+				item: { count: 1, id: "simplyswords:tainted_relic" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["2002000000000000"]
+			id: "2002000000000031"
+			optional: true
+			rewards: [{
+				id: "3000000000000081"
+				table_id: 1117392878634643458L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000077"
+				item: { count: 1, id: "simplyswords:decaying_relic" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 12.5d
+		}
+		{
+			dependencies: [
+				"2002000000000001"
+				"2002000000000002"
+				"2002000000000003"
+				"2002000000000004"
+				"2002000000000005"
+				"2002000000000006"
+				"2002000000000007"
+				"2002000000000008"
+				"2002000000000009"
+				"200200000000000A"
+				"200200000000000B"
+				"200200000000000C"
+				"200200000000000D"
+				"200200000000000E"
+				"200200000000000F"
+				"2002000000000010"
+				"2002000000000011"
+				"2002000000000012"
+				"2002000000000013"
+				"2002000000000014"
+				"2002000000000015"
+				"2002000000000016"
+				"2002000000000017"
+				"2002000000000018"
+				"2002000000000019"
+				"200200000000001A"
+				"200200000000001B"
+				"200200000000001C"
+				"200200000000001D"
+				"200200000000001E"
+				"200200000000001F"
+				"2002000000000020"
+				"2002000000000021"
+				"2002000000000022"
+				"2002000000000023"
+				"2002000000000024"
+				"2002000000000025"
+				"2002000000000026"
+				"2002000000000027"
+				"2002000000000028"
+				"2002000000000029"
+				"200200000000002A"
+				"200200000000002B"
+				"200200000000002C"
+				"200200000000002D"
+				"200200000000002E"
+				"200200000000002F"
+				"2002000000000030"
+				"2002000000000031"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "2004000000000000"
+			optional: true
+			rewards: [
+				{
+					count: 5
+					id: "3000000000000082"
+					item: {
+						count: 1
+						id: "simplyswords:runic_tablet"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3000000000000083"
+					item: {
+						count: 1
+						id: "kubejs:infinity_fragment"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3000000000000084"
+					item: {
+						count: 1
+						id: "minecraft:netherite_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000000000085"
+					table_id: 1117392878634643459L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 1.8d
+			tasks: [{
+				id: "4000000000000078"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 15.0d
+		}
+	]
+}

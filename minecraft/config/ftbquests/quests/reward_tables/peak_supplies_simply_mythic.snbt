@@ -1,0 +1,60 @@
+{
+	id: "0F81C6E72591B003"
+	loot_crate: {
+		color: 16755200
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "peak_simply_mythic"
+	}
+	loot_size: 1
+	order_index: 9
+	rewards: [
+		{
+			count: 3
+			id: "013DB9302EB777E5"
+			item: {
+				count: 1
+				id: "simplyswords:runic_tablet"
+			}
+			weight: 25.0f
+		}
+		{
+			count: 16
+			id: "4FB0086942F9862A"
+			item: {
+				count: 1
+				id: "apotheosis:gem_dust"
+			}
+			weight: 25.0f
+		}
+		{
+			count: 2
+			id: "3261DA0C75ACC2AB"
+			item: {
+				count: 1
+				id: "minecraft:netherite_ingot"
+			}
+			weight: 15.0f
+		}
+		{
+			count: 3
+			id: "402E4E5BEB9DEF8E"
+			item: {
+				count: 1
+				id: "minecraft:enchanted_golden_apple"
+			}
+			weight: 15.0f
+		}
+		{
+			id: "5ABFA3D04559DB5B"
+			item: {
+				count: 1
+				id: "kubejs:infinity_fragment"
+			}
+			weight: 10.0f
+		}
+	]
+}

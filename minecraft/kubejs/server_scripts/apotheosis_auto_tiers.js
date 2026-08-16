@@ -70,3 +70,21 @@ PlayerEvents.advancement(event => {
         }
     }
 });
+
+// Auto-initialize player on login so they never need to open the Ctrl+T tutorial menu
+PlayerEvents.loggedIn(event => {
+    let player = event.player;
+    let server = event.server;
+    
+    // Check if player has already initialized Haven
+    if (!player.persistentData.contains('apoth_tier_initialized')) {
+        player.persistentData.putBoolean('apoth_tier_initialized', true);
+        
+        // Grant root and haven advancements automatically
+        server.runCommandSilent(`advancement grant ${player.username} only apotheosis:progression/root`);
+        server.runCommandSilent(`advancement grant ${player.username} only apotheosis:progression/haven`);
+        
+        // Ensure Haven tier is active
+        server.runCommandSilent(`apotheosis set_world_tier ${player.username} haven`);
+    }
+});

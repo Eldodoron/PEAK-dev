@@ -600,11 +600,11 @@
 			#Damage Cap
 			# Default: 20.0
 			# Range: 0.0 ~ 1000000.0
-			damage_cap = 20.0
+			damage_cap = 100.0
 			#Dps Cap
 			# Default: 14.0
 			# Range: 1.0 ~ 1000000.0
-			dps_cap = 14.0
+			dps_cap = 40.0
 			#DPS Limit Time
 			# Default: 20
 			# Range: 1 ~ 100

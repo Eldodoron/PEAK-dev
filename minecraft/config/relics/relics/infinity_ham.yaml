@@ -123,11 +123,5 @@ levelingData:
     step: 100
 lootData:
     # List of conditions for obtaining the relic. Supports both direct ID specification and regular expressions.
-    entries:
-    -   biomes:
-        - .*
-        dimensions:
-        - .*
-        tables:
-        - '[\w]+:chests\/[\w_\/]*(village|pillage)[\w_\/]*'
-        weight: 500
+    entries: [
+        ]

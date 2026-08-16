@@ -15,6 +15,11 @@
 			}
 			"ftbchunks:chunks": {
 				enabled: true
+				x: 3
+				y: 1
+			}
+			"ftbquests:quests": {
+				enabled: true
 				x: 2
 				y: 1
 			}
@@ -35,7 +40,7 @@
 			}
 			"ftbchunks:claim_chunks": {
 				enabled: true
-				x: 3
+				x: 4
 				y: 1
 			}
 			"ftblibrary:config": {

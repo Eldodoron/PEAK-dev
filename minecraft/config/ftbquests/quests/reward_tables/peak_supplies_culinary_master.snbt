@@ -1,0 +1,45 @@
+{
+	id: "0F81C6E72591C003"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ id: "0550300000000001", item: { count: 1, id: "farmersdelight:netherite_knife" } }
+		{ id: "0550300000000002", item: { count: 1, id: "farmersdelight:stove" } }
+		{
+			count: 16
+			id: "0550300000000003"
+			item: {
+				count: 1
+				id: "farmersdelight:rich_soil"
+			}
+			weight: 2.0f
+		}
+		{
+			count: 2
+			id: "0550300000000004"
+			item: {
+				count: 1
+				id: "farmersdelight:roast_chicken"
+			}
+			weight: 2.0f
+		}
+		{
+			count: 2
+			id: "0550300000000005"
+			item: {
+				count: 1
+				id: "farmersdelight:honey_glazed_ham"
+			}
+			weight: 2.0f
+		}
+		{
+			count: 32
+			id: "0550300000000006"
+			item: {
+				count: 1
+				id: "minecraft:emerald"
+			}
+			weight: 2.0f
+		}
+	]
+}

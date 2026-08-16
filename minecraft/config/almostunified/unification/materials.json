@@ -1,12 +1,18 @@
 {
   "mod_priorities": [
-    "minecraft",
     "create",
+    "create_sa",
     "create_new_age",
-    "create_enchantment_industry",
     "createdieselgenerators",
+    "create_enchantment_industry",
+    "create_factory",
+    "createmetalwork",
+    "minecraft",
+    "alltheores",
     "immersiveengineering",
-    "mekanism"
+    "mekanism",
+    "enderio",
+    "allthemodium"
   ],
   "priority_overrides": {},
   "stone_variants": [
@@ -30,7 +36,17 @@
     "c:rods/{material}",
     "c:storage_blocks/raw_{material}",
     "c:storage_blocks/{material}",
-    "c:wires/{material}"
+    "c:wires/{material}",
+    "forge:dusts/{material}",
+    "forge:gears/{material}",
+    "forge:gems/{material}",
+    "forge:ingots/{material}",
+    "forge:nuggets/{material}",
+    "forge:ores/{material}",
+    "forge:plates/{material}",
+    "forge:raw_materials/{material}",
+    "forge:rods/{material}",
+    "forge:storage_blocks/{material}"
   ],
   "ignored_tags": [],
   "ignored_items": [],

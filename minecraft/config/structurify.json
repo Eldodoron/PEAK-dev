@@ -1,6 +1,6 @@
 {
   "config_version": "2.0.30",
-  "config_datetime": "2026-08-11_01-37-35",
+  "config_datetime": "2026-08-12_15-05-48",
   "general": {
     "disable_all_structures": false,
     "prevent_structure_overlap": true,
@@ -201,7 +201,6 @@
     {
       "name": "block_factorys_bosses:sandworm_nest",
       "whitelisted_biomes": [
-        "allthemodium:desert_hills",
         "#c:is_desert"
       ],
       "override_global_distance_from_world_center": true,
@@ -211,7 +210,6 @@
     {
       "name": "block_factorys_bosses:yeti_hideout",
       "whitelisted_biomes": [
-        "minecraft:ice_spikes",
         "#c:is_snowy"
       ],
       "override_global_distance_from_world_center": true,
@@ -282,11 +280,36 @@
       "max_vertical_distance_from_center": 128
     },
     {
+      "name": "iceandfire:cyclops_cave",
+      "whitelisted_biomes": [
+        "#c:is_hot/overworld"
+      ],
+      "blacklisted_biomes": [
+        "minecraft:beach",
+        "minecraft:snowy_beach"
+      ]
+    },
+    {
       "name": "iceandfire:fire_dragon_roost",
       "override_global_distance_from_world_center": true,
       "min_distance_from_world_center": 2000,
       "max_distance_from_world_center": 0,
       "exclude_from_overlap_prevention": true
+    },
+    {
+      "name": "iceandfire:ice_dragon_cave",
+      "whitelisted_biomes": [
+        "#c:is_snowy_plains",
+        "#c:is_snowy"
+      ]
+    },
+    {
+      "name": "iceandfire:lightning_dragon_cave",
+      "whitelisted_biomes": [
+        "#c:is_savanna",
+        "#c:is_badlands",
+        "#c:is_swamp"
+      ]
     },
     {
       "name": "integrated_villages:marketstead_village",
@@ -359,6 +382,46 @@
       }
     },
     {
+      "spacing": 16,
+      "separation": 6,
+      "name": "iceandfire:cyclops_cave",
+      "is_disabled": false,
+      "salt": 7407930,
+      "frequency": 0.73600006,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "iceandfire:cyclops_cave": 1
+      }
+    },
+    {
+      "spacing": 18,
+      "separation": 12,
+      "name": "iceandfire:dragon_cave",
+      "is_disabled": false,
+      "salt": 9821379,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "iceandfire:fire_dragon_cave": 3,
+        "iceandfire:ice_dragon_cave": 3,
+        "iceandfire:lightning_dragon_cave": 3
+      }
+    },
+    {
+      "spacing": 15,
+      "separation": 6,
+      "name": "iceandfire:dragon_roost",
+      "is_disabled": false,
+      "salt": 3747893,
+      "frequency": 0.80100006,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "iceandfire:ice_dragon_roost": 1,
+        "iceandfire:fire_dragon_roost": 1,
+        "iceandfire:lightning_dragon_roost": 1
+      }
+    },
+    {
       "spacing": 9,
       "separation": 6,
       "name": "vampirism:hunter_camp",
@@ -368,6 +431,42 @@
       "override_global_spacing_and_separation_modifier": false,
       "structure_weights": {
         "vampirism:hunter_camp": 1
+      }
+    },
+    {
+      "spacing": 125,
+      "separation": 45,
+      "name": "village_n_pillage_remake:pirate_ship_0",
+      "is_disabled": false,
+      "salt": 797405476,
+      "frequency": 0.74500006,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "village_n_pillage_remake:pirate_ship_0": 1
+      }
+    },
+    {
+      "spacing": 125,
+      "separation": 45,
+      "name": "village_n_pillage_remake:pirate_ship_1",
+      "is_disabled": false,
+      "salt": 796443604,
+      "frequency": 0.711,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "village_n_pillage_remake:pirate_ship_1": 1
+      }
+    },
+    {
+      "spacing": 125,
+      "separation": 45,
+      "name": "village_n_pillage_remake:pirate_ship_2",
+      "is_disabled": false,
+      "salt": 796251230,
+      "frequency": 0.71500003,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "village_n_pillage_remake:pirate_ship_2": 1
       }
     }
   ],

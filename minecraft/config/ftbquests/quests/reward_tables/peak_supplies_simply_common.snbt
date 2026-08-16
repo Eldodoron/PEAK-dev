@@ -1,0 +1,104 @@
+{
+	id: "0F81C6E72591B001"
+	loot_crate: {
+		color: 14737632
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "peak_simply_common"
+	}
+	loot_size: 1
+	order_index: 7
+	rewards: [
+		{
+			count: 8
+			id: "176B6F72F28D7D7C"
+			item: {
+				count: 1
+				id: "minecraft:iron_ingot"
+			}
+			weight: 20.0f
+		}
+		{
+			count: 4
+			id: "510D5ADCB7A196A8"
+			item: {
+				count: 1
+				id: "minecraft:gold_ingot"
+			}
+			weight: 10.0f
+		}
+		{
+			count: 2
+			id: "3C9BA0DAC71407CB"
+			item: {
+				count: 1
+				id: "minecraft:diamond"
+			}
+			weight: 3.0f
+		}
+		{
+			count: 32
+			id: "3043965068E02A36"
+			item: {
+				count: 1
+				id: "minecraft:torch"
+			}
+			weight: 20.0f
+		}
+		{
+			count: 8
+			id: "311766D32BA86A74"
+			item: {
+				count: 1
+				id: "minecraft:coal"
+			}
+			weight: 15.0f
+		}
+		{
+			count: 4
+			id: "57E192EF8D5988B9"
+			item: {
+				count: 1
+				id: "minecraft:string"
+			}
+			weight: 12.0f
+		}
+		{
+			count: 4
+			id: "78D68D0E0500AF8C"
+			item: {
+				count: 1
+				id: "minecraft:feather"
+			}
+			weight: 12.0f
+		}
+		{
+			id: "0FEC5F185CB9C3D0"
+			item: {
+				count: 1
+				id: "apotheosis:gem_dust"
+			}
+			weight: 8.0f
+		}
+		{
+			count: 2
+			id: "4190099740682FEB"
+			item: {
+				count: 1
+				id: "minecraft:bread"
+			}
+			weight: 15.0f
+		}
+		{
+			id: "6F7ED1CFBAFE42B9"
+			item: {
+				count: 1
+				id: "minecraft:grindstone"
+			}
+			weight: 5.0f
+		}
+	]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "lingering_potions_reliquary",
+  "name": {
+    "translate": "collapsible_groups.group.lingering_potions_reliquary",
+    "fallback": "Lingering Potions-Reliquary"
+  },
+  "enabled": true,
+  "filter": {
+    "type": "item",
+    "id": "reliquary:lingering_potion"
+  }
+}

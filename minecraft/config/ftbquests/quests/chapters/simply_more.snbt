@@ -1,0 +1,782 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "simply_more"
+	group: "2000000000000000"
+	id: "2103000000000000"
+	images: [
+		{
+			height: 2.0d
+			id: "3AD8B991C2F0B14B"
+			image: "minecraft:item/totem_of_undying"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: -2.6d
+		}
+		{
+			height: 1.6d
+			id: "6AA30918418320CF"
+			image: "minecraft:item/nether_star"
+			rotation: 0.0d
+			width: 1.6d
+			x: -2.2d
+			y: 11.0d
+		}
+		{
+			height: 1.6d
+			id: "3F33DFD674B3A704"
+			image: "minecraft:item/nether_star"
+			rotation: 0.0d
+			width: 1.6d
+			x: 2.2d
+			y: 11.0d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "2003000000000000"
+			rewards: [{
+				id: "3000000000000086"
+				table_id: 1117392878634643457L
+				type: "random"
+			}]
+			shape: "gear"
+			size: 1.7d
+			tasks: [{
+				id: "4000000000000079"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2003000000000000"]
+			id: "2003000000000001"
+			optional: true
+			rewards: [{
+				id: "3000000000000087"
+				table_id: 1117392878634643458L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000080"
+				item: { count: 1, id: "simplymore:earthshatter" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2003000000000000"]
+			id: "2003000000000002"
+			optional: true
+			rewards: [{
+				id: "3000000000000088"
+				table_id: 1117392878634643458L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000081"
+				item: { count: 1, id: "simplymore:grandfrost" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2003000000000000"]
+			id: "2003000000000003"
+			optional: true
+			rewards: [{
+				id: "3000000000000089"
+				table_id: 1117392878634643458L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000082"
+				item: { count: 1, id: "simplymore:molten_flare" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2003000000000000"]
+			id: "2003000000000004"
+			optional: true
+			rewards: [{
+				id: "3000000000000090"
+				table_id: 1117392878634643458L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000083"
+				item: { count: 1, id: "simplymore:blade_of_the_grotesque" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2003000000000000"]
+			id: "2003000000000005"
+			optional: true
+			rewards: [{
+				id: "3000000000000091"
+				table_id: 1117392878634643458L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000084"
+				item: { count: 1, id: "simplymore:deaths_eyrie" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2003000000000000"]
+			id: "2003000000000006"
+			optional: true
+			rewards: [{
+				id: "3000000000000092"
+				table_id: 1117392878634643458L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000085"
+				item: { count: 1, id: "simplymore:cindergorge" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2003000000000000"]
+			id: "2003000000000007"
+			optional: true
+			rewards: [{
+				id: "3000000000000093"
+				table_id: 1117392878634643458L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000086"
+				item: { count: 1, id: "simplymore:ruyi_jingu_bang" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2003000000000000"]
+			id: "2003000000000008"
+			optional: true
+			rewards: [{
+				id: "3000000000000094"
+				table_id: 1117392878634643458L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000087"
+				item: { count: 1, id: "simplymore:ascended_idol" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2003000000000000"]
+			id: "2003000000000009"
+			optional: true
+			rewards: [{
+				id: "3000000000000095"
+				table_id: 1117392878634643458L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000088"
+				item: { count: 1, id: "simplymore:tarnished_idol" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2003000000000000"]
+			id: "200300000000000A"
+			optional: true
+			rewards: [{
+				id: "3000000000000096"
+				table_id: 1117392878634643458L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000089"
+				item: { count: 1, id: "simplymore:ruptured_idol" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2003000000000000"]
+			id: "200300000000000B"
+			optional: true
+			rewards: [{
+				id: "3000000000000097"
+				table_id: 1117392878634643458L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000090"
+				item: { count: 1, id: "simplymore:exedrill" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2003000000000000"]
+			id: "200300000000000C"
+			optional: true
+			rewards: [{
+				id: "3000000000000098"
+				table_id: 1117392878634643458L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000091"
+				item: { count: 1, id: "simplymore:revvengine" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2003000000000000"]
+			id: "200300000000000D"
+			optional: true
+			rewards: [{
+				id: "3000000000000099"
+				table_id: 1117392878634643458L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000092"
+				item: { count: 1, id: "simplymore:great_slither" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2003000000000000"]
+			id: "200300000000000E"
+			optional: true
+			rewards: [{
+				id: "3000000000000100"
+				table_id: 1117392878634643458L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000093"
+				item: { count: 1, id: "simplymore:glimmerstep" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2003000000000000"]
+			id: "200300000000000F"
+			optional: true
+			rewards: [{
+				id: "3000000000000101"
+				table_id: 1117392878634643458L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000094"
+				item: { count: 1, id: "simplymore:the_blood_harvester" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2003000000000000"]
+			id: "2003000000000010"
+			optional: true
+			rewards: [{
+				id: "3000000000000102"
+				table_id: 1117392878634643458L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000095"
+				item: { count: 1, id: "simplymore:jester_penetrate" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2003000000000000"]
+			id: "2003000000000011"
+			optional: true
+			rewards: [{
+				id: "3000000000000103"
+				table_id: 1117392878634643458L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000096"
+				item: { count: 1, id: "simplymore:mimicry" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2003000000000000"]
+			id: "2003000000000012"
+			optional: true
+			rewards: [{
+				id: "3000000000000104"
+				table_id: 1117392878634643458L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000097"
+				item: { count: 1, id: "simplymore:myrmedge" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2003000000000000"]
+			id: "2003000000000013"
+			optional: true
+			rewards: [{
+				id: "3000000000000105"
+				table_id: 1117392878634643458L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000098"
+				item: { count: 1, id: "simplymore:black_pearl" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2003000000000000"]
+			id: "2003000000000014"
+			optional: true
+			rewards: [{
+				id: "3000000000000106"
+				table_id: 1117392878634643458L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000099"
+				item: { count: 1, id: "simplymore:the_pan" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2003000000000000"]
+			id: "2003000000000015"
+			optional: true
+			rewards: [{
+				id: "3000000000000107"
+				table_id: 1117392878634643458L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000100"
+				item: { count: 1, id: "simplymore:the_vessel_breach" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2003000000000000"]
+			id: "2003000000000016"
+			optional: true
+			rewards: [{
+				id: "3000000000000108"
+				table_id: 1117392878634643458L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000101"
+				item: { count: 1, id: "simplymore:vipers_call" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2003000000000000"]
+			id: "2003000000000017"
+			optional: true
+			rewards: [{
+				id: "3000000000000109"
+				table_id: 1117392878634643458L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000102"
+				item: { count: 1, id: "simplymore:timekeeper" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2003000000000000"]
+			id: "2003000000000018"
+			optional: true
+			rewards: [{
+				id: "3000000000000110"
+				table_id: 1117392878634643458L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000103"
+				item: { count: 1, id: "simplymore:matterbane" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2003000000000000"]
+			id: "2003000000000019"
+			optional: true
+			rewards: [{
+				id: "3000000000000111"
+				table_id: 1117392878634643458L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000104"
+				item: { count: 1, id: "simplymore:smouldering_ruin" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2003000000000000"]
+			id: "200300000000001A"
+			optional: true
+			rewards: [{
+				id: "3000000000000112"
+				table_id: 1117392878634643458L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000105"
+				item: { count: 1, id: "simplymore:stasis" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2003000000000000"]
+			id: "200300000000001B"
+			optional: true
+			rewards: [{
+				id: "3000000000000113"
+				table_id: 1117392878634643458L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000106"
+				item: { count: 1, id: "simplymore:tidebreaker" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2003000000000000"]
+			id: "200300000000001C"
+			optional: true
+			rewards: [{
+				id: "3000000000000114"
+				table_id: 1117392878634643458L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000107"
+				item: { count: 1, id: "simplymore:holylight" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["2003000000000000"]
+			id: "200300000000001D"
+			optional: true
+			rewards: [{
+				id: "3000000000000115"
+				table_id: 1117392878634643458L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000108"
+				item: { count: 1, id: "simplymore:darksent" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["2003000000000000"]
+			id: "200300000000001E"
+			optional: true
+			rewards: [{
+				id: "3000000000000116"
+				table_id: 1117392878634643458L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000109"
+				item: { count: 1, id: "simplymore:boas_fang" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["2003000000000000"]
+			id: "200300000000001F"
+			optional: true
+			rewards: [{
+				id: "3000000000000117"
+				table_id: 1117392878634643458L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000110"
+				item: { count: 1, id: "simplymore:soul_foreseer" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["2003000000000000"]
+			id: "2003000000000020"
+			optional: true
+			rewards: [{
+				id: "3000000000000118"
+				table_id: 1117392878634643458L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000111"
+				item: { count: 1, id: "simplymore:serpentine_valour" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["2003000000000000"]
+			id: "2003000000000021"
+			optional: true
+			rewards: [{
+				id: "3000000000000119"
+				table_id: 1117392878634643458L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000112"
+				item: { count: 1, id: "simplymore:lustrous_moxie" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["2003000000000000"]
+			id: "2003000000000022"
+			optional: true
+			rewards: [{
+				id: "3000000000000120"
+				table_id: 1117392878634643458L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000113"
+				item: { count: 1, id: "simplymore:brassturn" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["2003000000000000"]
+			id: "2003000000000023"
+			optional: true
+			rewards: [{
+				id: "3000000000000121"
+				table_id: 1117392878634643458L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000114"
+				item: { count: 1, id: "simplymore:perforiscus" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["2003000000000000"]
+			id: "2003000000000024"
+			optional: true
+			rewards: [{
+				id: "3000000000000122"
+				table_id: 1117392878634643458L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000115"
+				item: { count: 1, id: "simplymore:culterex" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 8.5d
+		}
+		{
+			dependencies: [
+				"2003000000000001"
+				"2003000000000002"
+				"2003000000000003"
+				"2003000000000004"
+				"2003000000000005"
+				"2003000000000006"
+				"2003000000000007"
+				"2003000000000008"
+				"2003000000000009"
+				"200300000000000A"
+				"200300000000000B"
+				"200300000000000C"
+				"200300000000000D"
+				"200300000000000E"
+				"200300000000000F"
+				"2003000000000010"
+				"2003000000000011"
+				"2003000000000012"
+				"2003000000000013"
+				"2003000000000014"
+				"2003000000000015"
+				"2003000000000016"
+				"2003000000000017"
+				"2003000000000018"
+				"2003000000000019"
+				"200300000000001A"
+				"200300000000001B"
+				"200300000000001C"
+				"200300000000001D"
+				"200300000000001E"
+				"200300000000001F"
+				"2003000000000020"
+				"2003000000000021"
+				"2003000000000022"
+				"2003000000000023"
+				"2003000000000024"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "2003000000000099"
+			optional: true
+			rewards: [
+				{
+					count: 3
+					id: "3000000000000123"
+					item: {
+						count: 1
+						id: "simplyswords:runic_tablet"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3000000000000124"
+					item: {
+						count: 1
+						id: "minecraft:netherite_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000000000125"
+					table_id: 1117392878634643459L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 1.7d
+			tasks: [{
+				id: "4000000000000116"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 11.0d
+		}
+	]
+}

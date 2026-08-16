@@ -8,5 +8,7 @@
   {"recipe":"ars_nouveau:blank_thread","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
   {"ingredient":{"id":"enigmatic_arcana:nihility","components":"{\"apotheosis:affixes\":{},\"apotheosis:rarity\":\"nadir:cataclysmic\",\"apotheosis:sockets\":4,\"irons_spellbooks:affinity_data\":{bonuses:{\"irons_spellbooks:echoing_strikes\":1}},\"minecraft:unbreakable\":{}}"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"recipe":"ess_requiem:hope","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
-  {"recipe":"alexsmobs:transmutation_table","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"}
+  {"recipe":"alexsmobs:transmutation_table","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
+  {"ingredient":{"id":"ars_nouveau:source_gem"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"recipe":"solcarrot:food_book","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"}
 ]

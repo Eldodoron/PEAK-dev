@@ -1,0 +1,13 @@
+{
+  "id": "tipped_arrow_reliquary",
+  "name": {
+    "translate": "collapsible_groups.group.tipped_arrow_reliquary",
+    "fallback": "Tipped Arrow-Reliquary"
+  },
+  "enabled": true,
+  "icon": "reliquary:tipped_arrow",
+  "filter": {
+    "type": "item",
+    "id": "reliquary:tipped_arrow"
+  }
+}

@@ -4,10 +4,10 @@
 	generateAsLoot = true
 	#The amount of extra levels of luck of the sea that are granted by the Angler's Hat
 	#Range: 0 ~ 100
-	luckOfTheSeaLevelBonus = 1
+	luckOfTheSeaLevelBonus = 2
 	#The amount of extra levels of lure that are granted by the Angler's Hat
 	#Range: 0 ~ 100
-	lureLevelBonus = 1
+	lureLevelBonus = 2
 
 [antidote_vessel]
 	#Whether the Antidote Vessel reduces the duration of negative effects
@@ -33,7 +33,7 @@
 	#Values between -1 and 0 reduce fall damage
 	#Values above 0 increase fall damage
 	#Range: -Infinity ~ Infinity
-	fallDamageMultiplier = 0.0
+	fallDamageMultiplier = -1.0
 	#Whether this item can be found in structures or drop from entities
 	#Allowed Values: true, false
 	generateAsLoot = true
@@ -45,7 +45,7 @@
 	modifyHurtSounds = true
 	#The amount of extra safe fall distance in blocks that is granted by the Bunny Hoppers
 	#Range: -Infinity ~ Infinity
-	safeFallDistanceBonus = 10.0
+	safeFallDistanceBonus = 20.0
 
 [charm_of_shrinking]
 	#Whether this item can be found in structures or drop from entities
@@ -100,13 +100,13 @@
 	generateAsLoot = true
 	#The amount of extra safe fall distance in blocks that is granted by the Cloud in a Bottle
 	#Range: -Infinity ~ Infinity
-	safeFallDistanceBonus = 3.0
+	safeFallDistanceBonus = 7.0
 	#The amount of extra horizontal velocity that is applied to players that double jump while sprinting using the Cloud in a Bottle
 	#Range: > 0.0
-	sprintJumpHorizontalVelocity = 0.25
+	sprintJumpHorizontalVelocity = 0.35
 	#The amount of extra vertical velocity that is applied to players that double jump while sprinting using the Cloud in a Bottle
 	#Range: > 0.0
-	sprintJumpVerticalVelocity = 0.25
+	sprintJumpVerticalVelocity = 0.3
 
 [cowboy_hat]
 	#Whether this item can be found in structures or drop from entities
@@ -114,7 +114,7 @@
 	generateAsLoot = true
 	#How much the Cowboy Hat increases the speed of ridden mounts
 	#Range: -Infinity ~ Infinity
-	mountSpeedBonus = 0.4
+	mountSpeedBonus = 0.65
 
 [cross_necklace]
 	#The amount of extra ticks the player stays invincible for after taking damage while wearing the Cross Necklace
@@ -160,13 +160,13 @@
 	cooldown = 15
 	#The probability that Everlasting Beef drops when a cow or mooshroom is killed by a player
 	#Range: 0.0 ~ 1.0
-	dropRate = 0.002
+	dropRate = 0.0
 	#Whether the Everlasting Beef can be eaten
 	#Allowed Values: true, false
 	enabled = true
 	#Whether this item can be found in structures or drop from entities
 	#Allowed Values: true, false
-	generateAsLoot = true
+	generateAsLoot = false
 
 [feral_claws]
 	#How much the Feral Claws increase the wearer's attack speed

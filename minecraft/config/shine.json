@@ -58,7 +58,8 @@
     "minecraft:furnace": 0.0,
     "minecraft:brown_mushroom": 0.0,
     "minecraft:glow_lichen": 251.0,
-    "lootr:lootr_barrel": 52.0
+    "lootr:lootr_barrel": 52.0,
+    "supplementaries:timber_cross_brace": 0.0
   },
   "entityTextureStrengthOverrides": {
     "minecraft:textures/entity/enderman/enderman_eyes.png": 428.0,

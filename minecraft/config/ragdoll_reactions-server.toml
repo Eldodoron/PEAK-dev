@@ -146,7 +146,7 @@ enabled = true
 		#Extra blocks added to the explosion knockback radius when searching for nearby players.
 		# Default: 2.0
 		# Range: 0.0 ~ 64.0
-		radiusPadding = 2.0
+		radiusPadding = 1.0
 		#Launch speed multiplier applied to explosion power before the global max launch speed clamp.
 		# Default: 15.0
 		# Range: 0.0 ~ 128.0
@@ -159,7 +159,7 @@ enabled = true
 		#Minimum fall damage actually taken (after feather falling, protection, resistance, etc.) required to trigger a ragdoll.
 		# Default: 4.0
 		# Range: 0.0 ~ 1024.0
-		minDamage = 20.0
+		minDamage = 15.0
 		#Fraction of the landing impact speed driven downward to smash the ragdoll into the ground.
 		# Default: 0.5
 		# Range: 0.0 ~ 2.0

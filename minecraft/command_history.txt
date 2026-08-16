@@ -1,69 +1,69 @@
-/execute in minecraft:the_end run tp @s 0 80 0
-/kill
-/apoth reforge nadir:cataclysmic
-/apoth set_world_tier Eldodoron pinnacle
+/summon block_factorys_bosses:yeti
 /reload
+/summon block_factorys_bosses:infernal_dragon
+/reload
+/peak reset_eyes block_factorys_bosses:yeti
+/peak reset_eyes
+/reload
+/peak reset_eyes block_factorys_bosses:yeti
+/summon block_factorys_bosses:yeti
+/peak reset_eyes block_factorys_bosses:infernal_dragon
+/summon block_factorys_bosses:infernal_dragon
+/summon cataclysm:ignis
+/level set level 100 Eldodoron
 /apoth set_world_tier Eldodoron pinnacle
+/apoth reforge nadir:divine
+/reload
+/summon block_factorys_bosses:yeti
+/summon bosses_of_mass_destruction:lich
+/tp Eldodoron 0 ~ 0
+/locate structure minecraft:village_plains
+/locate structure integrated_villages:oasis_village
+/tp @s 3424 ~ -2464
+/apoth reforge nadir:stellar
+/summon cataclysm:ignis
+/reload
+/relics maximize
+/time set day
+/relics maximize
+/summon cataclysm:ignis
 /apoth reforge nadir:cataclysmic
+/enchant Eldodoron minecraft:efficiency 5
+/setworldspawn
+/gamerule keepInventory true
 /kill
-/spark profiler start --timeout 200
-/relics maximize
-/spark profiler start --timeout 200
-/give Eldodoron minecraft:ender_pearl
-/flywheel backend
-/spark profiler start --timeout 200
-/summon ghastscrashneoforge:falling_ghast
-/spark profiler start --timeout 200
-/mana -
-/relics maximize
-/
+/reload
+/effect give Eldodoron minecraft:regeneration infinite
+/effect give Eldodoron minecraft:regeneration infinite 4
+/effect give Eldodoron minecraft:resistance infinite 5
+/locate structure cataclysm:burning_arena
+/tp @s -1040 ~ -2096
+/effect give Eldodoron minecraft:saturation infinite
+/effect give Eldodoron minecraft:strength infinite 3
+/effect give Eldodoron minecraft:strength infinite 10
+/effect give Eldodoron minecraft:regeneration infinite 4
+/effect give Eldodoron minecraft:saturation infinite
+/kill
+/weather clear
+/reload
+/ftbquests reload
+/ftbquests change_progress Eldodoron reset-all
+/reload
+/ftbquests reload
+/reload
+/ftbquests reload
+/summon iceandfire:ice_dragon
+/summon minecraft:warden
+/ftbquests reload
+/ftbquests change_progress Eldodoron reset-all
+/ftbquests reload
+/ftbquests change_progress @p complete
+/ftbquests change_progress @p complete-all
+/ftbquests change_progress @p complete 1000000000000001
+/ftbquests change_progress @p reset 1000000000000006
+/ftbquests change_progress Eldodoron reset-all
+/spark profiler start --timeout 100
 /wits
-/spark profiler start --timeout 200
-/locate structure block_factorys_bosses:dragon_tower
-/tp @s -2624 ~ 4032
-/locate structure block_factorys_bosses:dragon_tower
-/tp @s -2624 ~ 4032
-/locate structure block_factorys_bosses:dragon_tower
-/tp @s 10000 ~ -10000
-/locate structure block_factorys_bosses:dragon_tower
-/tp @s 9856 ~ -8704
-/tp @s 10000 ~ 10000
-/locate structure block_factorys_bosses:dragon_tower
-/tp @s 7776 ~ 9856
-/reload
-/tp @s 10000 ~ 100000
-/locate structure block_factorys_bosses:dragon_tower
-/tp @s 9648 ~ 98480
-/apoth reforge apotheosis:mythic
-/crafttweaker hand registry_name
-/ironsSpellbooks summons Eldodoron setOwner Eldodoron
-/time set day
-/crafttweaker hand registry_name
-/reload
-/ct ctgui
-/ct dump_brackets
-/ct examples
-/ct give <item:aces_spell_utils:example_ap_magic_sword>
-/ct recipes hand
-/crafttweaker hand registry_name
-/reload
-/crafttweaker hand registry_name
-/ct recipes hand
-/crafttweaker hand registry_name
-/ct recipes hand
-/crafttweaker hand registry_name
-/apoth reforge nadir:cataclysmic
-/summon ars_nouveau:wilden_boss
-/reload
-/level add level 50
-/level add level 50 Eldodoron
-/coins add 1000 Eldodoron
-/time set night
-/time set day
-/crafttweaker inventory tags
-/crafttweaker inventory registryNames
-/respawn_draconic_guardian
-/reload
-/tp Eldodoron 30000000 ~ ~
-/tp Eldodoron 29999999 ~ ~
-/worldborder add 100
+/locate biome minecraft:cherry_grove
+/tp @s 2618 63 307
+/tp Eldodoron ~ 200 ~

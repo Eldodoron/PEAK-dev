@@ -1,0 +1,366 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "simply_bows"
+	group: "2000000000000000"
+	id: "2104000000000000"
+	images: [
+		{
+			height: 2.0d
+			id: "220ECE874CE26FDB"
+			image: "minecraft:block/target_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: -2.6d
+		}
+		{
+			height: 1.5d
+			id: "1D013C5976DF9365"
+			image: "minecraft:item/arrow"
+			rotation: 0.0d
+			width: 1.5d
+			x: -4.0d
+			y: 4.5d
+		}
+		{
+			height: 1.5d
+			id: "563796389AB1DABA"
+			image: "minecraft:item/arrow"
+			rotation: 0.0d
+			width: 1.5d
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			height: 1.6d
+			id: "5264250EB9808F42"
+			image: "minecraft:item/nether_star"
+			rotation: 0.0d
+			width: 1.6d
+			x: -2.2d
+			y: 10.0d
+		}
+		{
+			height: 1.6d
+			id: "771467038A6F6D5B"
+			image: "minecraft:item/nether_star"
+			rotation: 0.0d
+			width: 1.6d
+			x: 2.2d
+			y: 10.0d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "2005000000000000"
+			rewards: [
+				{
+					count: 32
+					id: "3000000000000126"
+					item: {
+						count: 1
+						id: "minecraft:arrow"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000000000127"
+					table_id: 1117392878634643457L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			size: 1.7d
+			tasks: [{
+				id: "4000000000000117"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2005000000000000"]
+			id: "2005000000000001"
+			optional: true
+			rewards: [{
+				id: "3000000000000128"
+				table_id: 1117392878634643458L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000118"
+				item: { count: 1, id: "simplybows:ice_bow/ice_bow" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2005000000000000"]
+			id: "2005000000000002"
+			optional: true
+			rewards: [{
+				id: "3000000000000129"
+				table_id: 1117392878634643458L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000119"
+				item: { count: 1, id: "simplybows:echo_bow/echo_bow" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2005000000000000"]
+			id: "2005000000000003"
+			optional: true
+			rewards: [{
+				id: "3000000000000130"
+				table_id: 1117392878634643458L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000120"
+				item: { count: 1, id: "simplybows:earth_bow/earth_bow" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2005000000000000"]
+			id: "2005000000000004"
+			optional: true
+			rewards: [{
+				id: "3000000000000131"
+				table_id: 1117392878634643458L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000121"
+				item: { count: 1, id: "simplybows:vine_bow/vine_bow" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2005000000000000"]
+			id: "2005000000000005"
+			optional: true
+			rewards: [{
+				id: "3000000000000132"
+				table_id: 1117392878634643458L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000122"
+				item: { count: 1, id: "simplybows:bubble_bow/bubble_bow" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2005000000000000"]
+			id: "2005000000000006"
+			optional: true
+			rewards: [{
+				id: "3000000000000133"
+				table_id: 1117392878634643458L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000123"
+				item: { count: 1, id: "simplybows:bee_bow/bee_bow" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2005000000000000"]
+			id: "2005000000000007"
+			optional: true
+			rewards: [{
+				id: "3000000000000134"
+				table_id: 1117392878634643458L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000124"
+				item: { count: 1, id: "simplybows:blossom_bow/blossom_bow" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2005000000000000"]
+			id: "2005000000000011"
+			optional: true
+			rewards: [{
+				id: "3000000000000135"
+				table_id: 1117392878634643458L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000125"
+				item: { count: 1, id: "simplybows:upgrades/enchanted_bow_string" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2005000000000000"]
+			id: "2005000000000012"
+			optional: true
+			rewards: [{
+				id: "3000000000000136"
+				table_id: 1117392878634643458L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000126"
+				item: { count: 1, id: "simplybows:upgrades/reinforced_bow_frame" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2005000000000000"]
+			id: "2005000000000013"
+			optional: true
+			rewards: [{
+				id: "3000000000000137"
+				table_id: 1117392878634643458L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000127"
+				item: { count: 1, id: "simplybows:upgrades/rune_etching_pain" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["2005000000000000"]
+			id: "2005000000000014"
+			optional: true
+			rewards: [{
+				id: "3000000000000138"
+				table_id: 1117392878634643458L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000128"
+				item: { count: 1, id: "simplybows:upgrades/rune_etching_grace" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["2005000000000000"]
+			id: "2005000000000015"
+			optional: true
+			rewards: [{
+				id: "3000000000000139"
+				table_id: 1117392878634643458L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000129"
+				item: { count: 1, id: "simplybows:upgrades/rune_etching_bounty" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["2005000000000000"]
+			id: "2005000000000017"
+			optional: true
+			rewards: [{
+				id: "3000000000000140"
+				table_id: 1117392878634643458L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000130"
+				item: { count: 1, id: "simplybows:upgrades/rune_etching_chaos" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"2005000000000001"
+				"2005000000000002"
+				"2005000000000003"
+				"2005000000000004"
+				"2005000000000005"
+				"2005000000000006"
+				"2005000000000007"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "2005000000000099"
+			optional: true
+			rewards: [
+				{
+					id: "3000000000000141"
+					item: {
+						count: 1
+						id: "simplybows:upgrades/rune_etching_chaos"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000000000142"
+					item: {
+						count: 1
+						id: "simplybows:upgrades/reinforced_bow_frame"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000000000143"
+					table_id: 1117392878634643459L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 1.7d
+			tasks: [{
+				id: "4000000000000131"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 10.0d
+		}
+	]
+}

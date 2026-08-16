@@ -1,0 +1,1458 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "culinary_intro"
+	group: "5000000000000000"
+	id: "5200000000000000"
+	images: [
+		{
+			height: 2.0d
+			id: "693A8A97B0BFB1BF"
+			image: "minecraft:item/golden_apple"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: -2.6d
+		}
+		{
+			height: 2.0d
+			id: "7C29375DCD0449CD"
+			image: "minecraft:item/carrot"
+			rotation: 0.0d
+			width: 2.0d
+			x: -9.0d
+			y: -11.2d
+		}
+		{
+			height: 1.8d
+			id: "5AD8098F0FE25C9E"
+			image: "minecraft:block/campfire_fire"
+			rotation: 0.0d
+			width: 1.8d
+			x: 9.0d
+			y: -11.2d
+		}
+		{
+			height: 2.0d
+			id: "0073878A4A77DB4A"
+			image: "farmersdelight:item/cooking_pot"
+			rotation: 0.0d
+			width: 2.0d
+			x: -9.0d
+			y: 1.0d
+		}
+		{
+			height: 2.0d
+			id: "15FED293F4DA12CE"
+			image: "minecraft:item/cake"
+			rotation: 0.0d
+			width: 2.0d
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+			height: 1.6d
+			id: "455EF176628DF0F0"
+			image: "minecraft:item/nether_star"
+			rotation: 0.0d
+			width: 1.6d
+			x: -2.2d
+			y: 13.0d
+		}
+		{
+			height: 1.6d
+			id: "551E0A8A2300AB4A"
+			image: "minecraft:item/nether_star"
+			rotation: 0.0d
+			width: 1.6d
+			x: 2.2d
+			y: 13.0d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "5100000000000000"
+			rewards: [
+				{
+					count: 4
+					id: "5300000000005001"
+					item: {
+						count: 1
+						id: "minecraft:apple"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5300000000005002"
+					item: {
+						count: 1
+						id: "minecraft:bread"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "5300000000005003"
+					item: {
+						count: 1
+						id: "minecraft:golden_carrot"
+					}
+					type: "item"
+				}
+				{
+					id: "5300000000005004"
+					type: "random"
+				}
+			]
+			shape: "gear"
+			size: 1.7d
+			tasks: [{
+				id: "5400000000005001"
+				item: { count: 1, id: "solcarrot:food_book" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5100000000000000"]
+			hide_dependency_lines: true
+			id: "5100000000000901"
+			optional: true
+			rewards: [{
+				id: "5300000000005005"
+				type: "random"
+			}]
+			shape: "octagon"
+			size: 1.1d
+			tasks: [{
+				id: "5400000000005002"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5100000000000000"]
+			hide_dependency_lines: true
+			id: "5100000000000902"
+			optional: true
+			rewards: [{
+				id: "5300000000005006"
+				type: "random"
+			}]
+			shape: "octagon"
+			size: 1.1d
+			tasks: [{
+				id: "5400000000005003"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5100000000000000"]
+			hide_dependency_lines: true
+			id: "5100000000000903"
+			optional: true
+			rewards: [{
+				id: "5300000000005007"
+				type: "random"
+			}]
+			shape: "octagon"
+			size: 1.1d
+			tasks: [{
+				id: "5400000000005004"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 3.8d
+		}
+		{
+			dependencies: ["5100000000000000"]
+			hide_dependency_lines: true
+			id: "5100000000000904"
+			optional: true
+			rewards: [{
+				id: "5300000000005008"
+				type: "random"
+			}]
+			shape: "octagon"
+			size: 1.1d
+			tasks: [{
+				id: "5400000000005005"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 3.8d
+		}
+		{
+			dependencies: ["5100000000000000"]
+			hide_dependency_lines: true
+			id: "5100000000000801"
+			optional: true
+			rewards: [
+				{
+					count: 4
+					id: "5300000000005009"
+					item: {
+						count: 1
+						id: "minecraft:golden_carrot"
+					}
+					type: "item"
+				}
+				{
+					id: "5300000000005010"
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			size: 1.3d
+			tasks: [{
+				id: "5400000000005006"
+				type: "checkmark"
+			}]
+			x: -9.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["5100000000000000"]
+			hide_dependency_lines: true
+			id: "5100000000000001"
+			optional: true
+			rewards: [{
+				id: "5300000000005011"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000005007"
+				item: { count: 1, id: "minecraft:apple" }
+				type: "item"
+			}]
+			x: -13.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["5100000000000000"]
+			hide_dependency_lines: true
+			id: "5100000000000002"
+			optional: true
+			rewards: [{
+				id: "5300000000005012"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000005008"
+				item: { count: 1, id: "minecraft:golden_apple" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["5100000000000000"]
+			hide_dependency_lines: true
+			id: "5100000000000003"
+			optional: true
+			rewards: [{
+				id: "5300000000005013"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000005009"
+				item: { count: 1, id: "minecraft:enchanted_golden_apple" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["5100000000000000"]
+			hide_dependency_lines: true
+			id: "5100000000000004"
+			optional: true
+			rewards: [{
+				id: "5300000000005014"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000005010"
+				item: { count: 1, id: "minecraft:golden_carrot" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["5100000000000000"]
+			hide_dependency_lines: true
+			id: "5100000000000005"
+			optional: true
+			rewards: [{
+				id: "5300000000005015"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000005011"
+				item: { count: 1, id: "minecraft:carrot" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["5100000000000000"]
+			hide_dependency_lines: true
+			id: "5100000000000006"
+			optional: true
+			rewards: [{
+				id: "5300000000005016"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000005012"
+				item: { count: 1, id: "minecraft:potato" }
+				type: "item"
+			}]
+			x: -13.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["5100000000000000"]
+			hide_dependency_lines: true
+			id: "5100000000000007"
+			optional: true
+			rewards: [{
+				id: "5300000000005017"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000005013"
+				item: { count: 1, id: "minecraft:baked_potato" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["5100000000000000"]
+			hide_dependency_lines: true
+			id: "5100000000000008"
+			optional: true
+			rewards: [{
+				id: "5300000000005018"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000005014"
+				item: { count: 1, id: "minecraft:poisonous_potato" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["5100000000000000"]
+			hide_dependency_lines: true
+			id: "5100000000000009"
+			optional: true
+			rewards: [{
+				id: "5300000000005019"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000005015"
+				item: { count: 1, id: "minecraft:beetroot" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["5100000000000000"]
+			hide_dependency_lines: true
+			id: "5100000000000010"
+			optional: true
+			rewards: [{
+				id: "5300000000005020"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000005016"
+				item: { count: 1, id: "minecraft:sweet_berries" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["5100000000000000"]
+			hide_dependency_lines: true
+			id: "5100000000000011"
+			optional: true
+			rewards: [{
+				id: "5300000000005021"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000005017"
+				item: { count: 1, id: "minecraft:glow_berries" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5100000000000000"]
+			hide_dependency_lines: true
+			id: "5100000000000012"
+			optional: true
+			rewards: [{
+				id: "5300000000005022"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000005018"
+				item: { count: 1, id: "minecraft:melon_slice" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5100000000000000"]
+			hide_dependency_lines: true
+			id: "5100000000000802"
+			optional: true
+			rewards: [
+				{
+					count: 4
+					id: "5300000000005023"
+					item: {
+						count: 1
+						id: "minecraft:cooked_beef"
+					}
+					type: "item"
+				}
+				{
+					id: "5300000000005024"
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			size: 1.3d
+			tasks: [{
+				id: "5400000000005019"
+				type: "checkmark"
+			}]
+			x: 9.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["5100000000000000"]
+			hide_dependency_lines: true
+			id: "5100000000000013"
+			optional: true
+			rewards: [{
+				id: "5300000000005025"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000005020"
+				item: { count: 1, id: "minecraft:beef" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["5100000000000000"]
+			hide_dependency_lines: true
+			id: "5100000000000014"
+			optional: true
+			rewards: [{
+				id: "5300000000005026"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000005021"
+				item: { count: 1, id: "minecraft:cooked_beef" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["5100000000000000"]
+			hide_dependency_lines: true
+			id: "5100000000000015"
+			optional: true
+			rewards: [{
+				id: "5300000000005027"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000005022"
+				item: { count: 1, id: "minecraft:porkchop" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["5100000000000000"]
+			hide_dependency_lines: true
+			id: "5100000000000016"
+			optional: true
+			rewards: [{
+				id: "5300000000005028"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000005023"
+				item: { count: 1, id: "minecraft:cooked_porkchop" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["5100000000000000"]
+			hide_dependency_lines: true
+			id: "5100000000000017"
+			optional: true
+			rewards: [{
+				id: "5300000000005029"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000005024"
+				item: { count: 1, id: "minecraft:mutton" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["5100000000000000"]
+			hide_dependency_lines: true
+			id: "5100000000000018"
+			optional: true
+			rewards: [{
+				id: "5300000000005030"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000005025"
+				item: { count: 1, id: "minecraft:cooked_mutton" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["5100000000000000"]
+			hide_dependency_lines: true
+			id: "5100000000000019"
+			optional: true
+			rewards: [{
+				id: "5300000000005031"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000005026"
+				item: { count: 1, id: "minecraft:chicken" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["5100000000000000"]
+			hide_dependency_lines: true
+			id: "5100000000000020"
+			optional: true
+			rewards: [{
+				id: "5300000000005032"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000005027"
+				item: { count: 1, id: "minecraft:cooked_chicken" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["5100000000000000"]
+			hide_dependency_lines: true
+			id: "5100000000000021"
+			optional: true
+			rewards: [{
+				id: "5300000000005033"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000005028"
+				item: { count: 1, id: "minecraft:cooked_rabbit" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["5100000000000000"]
+			hide_dependency_lines: true
+			id: "5100000000000022"
+			optional: true
+			rewards: [{
+				id: "5300000000005034"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000005029"
+				item: { count: 1, id: "minecraft:cod" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["5100000000000000"]
+			hide_dependency_lines: true
+			id: "5100000000000023"
+			optional: true
+			rewards: [{
+				id: "5300000000005035"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000005030"
+				item: { count: 1, id: "minecraft:cooked_cod" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5100000000000000"]
+			hide_dependency_lines: true
+			id: "5100000000000024"
+			optional: true
+			rewards: [{
+				id: "5300000000005036"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000005031"
+				item: { count: 1, id: "minecraft:salmon" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5100000000000000"]
+			hide_dependency_lines: true
+			id: "5100000000000025"
+			optional: true
+			rewards: [{
+				id: "5300000000005037"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000005032"
+				item: { count: 1, id: "minecraft:cooked_salmon" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5100000000000000"]
+			hide_dependency_lines: true
+			id: "5100000000000803"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "5300000000005038"
+					item: {
+						count: 1
+						id: "minecraft:mushroom_stew"
+					}
+					type: "item"
+				}
+				{
+					id: "5300000000005039"
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			size: 1.3d
+			tasks: [{
+				id: "5400000000005033"
+				type: "checkmark"
+			}]
+			x: -9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5100000000000000"]
+			hide_dependency_lines: true
+			id: "5100000000000026"
+			optional: true
+			rewards: [{
+				id: "5300000000005040"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000005034"
+				item: { count: 1, id: "minecraft:mushroom_stew" }
+				type: "item"
+			}]
+			x: -14.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5100000000000000"]
+			hide_dependency_lines: true
+			id: "5100000000000027"
+			optional: true
+			rewards: [{
+				id: "5300000000005041"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000005035"
+				item: { count: 1, id: "minecraft:beetroot_soup" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5100000000000000"]
+			hide_dependency_lines: true
+			id: "5100000000000028"
+			optional: true
+			rewards: [{
+				id: "5300000000005042"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000005036"
+				item: { count: 1, id: "minecraft:rabbit_stew" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5100000000000000"]
+			hide_dependency_lines: true
+			id: "5100000000000029"
+			optional: true
+			rewards: [{
+				id: "5300000000005043"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000005037"
+				item: { count: 1, id: "minecraft:suspicious_stew" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5100000000000000"]
+			hide_dependency_lines: true
+			id: "5100000000000030"
+			optional: true
+			rewards: [{
+				id: "5300000000005044"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000005038"
+				item: { count: 1, id: "minecraft:honey_bottle" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5100000000000000"]
+			hide_dependency_lines: true
+			id: "5100000000000031"
+			optional: true
+			rewards: [{
+				id: "5300000000005045"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000005039"
+				item: { count: 1, id: "refurbished_furniture:sea_salt" }
+				type: "item"
+			}]
+			x: -14.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5100000000000000"]
+			hide_dependency_lines: true
+			id: "5100000000000032"
+			optional: true
+			rewards: [{
+				id: "5300000000005046"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000005040"
+				item: { count: 1, id: "refurbished_furniture:cheese" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5100000000000000"]
+			hide_dependency_lines: true
+			id: "5100000000000033"
+			optional: true
+			rewards: [{
+				id: "5300000000005047"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000005041"
+				item: { count: 1, id: "refurbished_furniture:wheat_flour" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5100000000000000"]
+			hide_dependency_lines: true
+			id: "5100000000000034"
+			optional: true
+			rewards: [{
+				id: "5300000000005048"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000005042"
+				item: { count: 1, id: "refurbished_furniture:dough" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5100000000000000"]
+			hide_dependency_lines: true
+			id: "5100000000000035"
+			optional: true
+			rewards: [{
+				id: "5300000000005049"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000005043"
+				item: { count: 1, id: "refurbished_furniture:toast" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5100000000000000"]
+			hide_dependency_lines: true
+			id: "5100000000000036"
+			optional: true
+			rewards: [{
+				id: "5300000000005050"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000005044"
+				item: { count: 1, id: "refurbished_furniture:bread_slice" }
+				type: "item"
+			}]
+			x: -14.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5100000000000000"]
+			hide_dependency_lines: true
+			id: "5100000000000037"
+			optional: true
+			rewards: [{
+				id: "5300000000005051"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000005045"
+				item: { count: 1, id: "refurbished_furniture:sweet_berry_jam" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5100000000000000"]
+			hide_dependency_lines: true
+			id: "5100000000000038"
+			optional: true
+			rewards: [{
+				id: "5300000000005052"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000005046"
+				item: { count: 1, id: "refurbished_furniture:glow_berry_jam" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5100000000000000"]
+			hide_dependency_lines: true
+			id: "5100000000000039"
+			optional: true
+			rewards: [{
+				id: "5300000000005053"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000005047"
+				item: { count: 1, id: "refurbished_furniture:sweet_berry_jam_toast" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5100000000000000"]
+			hide_dependency_lines: true
+			id: "5100000000000040"
+			optional: true
+			rewards: [{
+				id: "5300000000005054"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000005048"
+				item: { count: 1, id: "refurbished_furniture:glow_berry_jam_toast" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5100000000000000"]
+			hide_dependency_lines: true
+			id: "5100000000000041"
+			optional: true
+			rewards: [{
+				id: "5300000000005055"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000005049"
+				item: { count: 1, id: "refurbished_furniture:cheese_toastie" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5100000000000000"]
+			hide_dependency_lines: true
+			id: "5100000000000804"
+			optional: true
+			rewards: [
+				{
+					count: 8
+					id: "5300000000005056"
+					item: {
+						count: 1
+						id: "minecraft:bread"
+					}
+					type: "item"
+				}
+				{
+					id: "5300000000005057"
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			size: 1.3d
+			tasks: [{
+				id: "5400000000005050"
+				type: "checkmark"
+			}]
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5100000000000000"]
+			hide_dependency_lines: true
+			id: "5100000000000042"
+			optional: true
+			rewards: [{
+				id: "5300000000005058"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000005051"
+				item: { count: 1, id: "minecraft:bread" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5100000000000000"]
+			hide_dependency_lines: true
+			id: "5100000000000043"
+			optional: true
+			rewards: [{
+				id: "5300000000005059"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000005052"
+				item: { count: 1, id: "minecraft:cookie" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5100000000000000"]
+			hide_dependency_lines: true
+			id: "5100000000000044"
+			optional: true
+			rewards: [{
+				id: "5300000000005060"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000005053"
+				item: { count: 1, id: "minecraft:cake" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5100000000000000"]
+			hide_dependency_lines: true
+			id: "5100000000000045"
+			optional: true
+			rewards: [{
+				id: "5300000000005061"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000005054"
+				item: { count: 1, id: "minecraft:pumpkin_pie" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5100000000000000"]
+			hide_dependency_lines: true
+			id: "5100000000000046"
+			optional: true
+			rewards: [{
+				id: "5300000000005062"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000005055"
+				item: { count: 1, id: "minecraft:chorus_fruit" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5100000000000000"]
+			hide_dependency_lines: true
+			id: "5100000000000047"
+			optional: true
+			rewards: [{
+				id: "5300000000005063"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000005056"
+				item: { count: 1, id: "minecraft:dried_kelp" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5100000000000000"]
+			hide_dependency_lines: true
+			id: "5100000000000048"
+			optional: true
+			rewards: [{
+				id: "5300000000005064"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000005057"
+				item: { count: 1, id: "refurbished_furniture:cheese_sandwich" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5100000000000000"]
+			hide_dependency_lines: true
+			id: "5100000000000049"
+			optional: true
+			rewards: [{
+				id: "5300000000005065"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000005058"
+				item: { count: 1, id: "refurbished_furniture:raw_meatlovers_pizza" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5100000000000000"]
+			hide_dependency_lines: true
+			id: "5100000000000050"
+			optional: true
+			rewards: [{
+				id: "5300000000005066"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000005059"
+				item: { count: 1, id: "refurbished_furniture:cooked_meatlovers_pizza" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5100000000000000"]
+			hide_dependency_lines: true
+			id: "5100000000000051"
+			optional: true
+			rewards: [{
+				id: "5300000000005067"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000005060"
+				item: { count: 1, id: "refurbished_furniture:meatlovers_pizza_slice" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5100000000000000"]
+			hide_dependency_lines: true
+			id: "5100000000000052"
+			optional: true
+			rewards: [{
+				id: "5300000000005068"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000005061"
+				item: { count: 1, id: "refurbished_furniture:raw_vegetable_pizza" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5100000000000000"]
+			hide_dependency_lines: true
+			id: "5100000000000053"
+			optional: true
+			rewards: [{
+				id: "5300000000005069"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000005062"
+				item: { count: 1, id: "refurbished_furniture:cooked_vegetable_pizza" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5100000000000000"]
+			hide_dependency_lines: true
+			id: "5100000000000054"
+			optional: true
+			rewards: [{
+				id: "5300000000005070"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000005063"
+				item: { count: 1, id: "refurbished_furniture:vegetable_pizza_slice" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5100000000000000"]
+			hide_dependency_lines: true
+			id: "5100000000000055"
+			optional: true
+			rewards: [{
+				id: "5300000000005071"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000005064"
+				item: { count: 1, id: "someassemblyrequired:bread_slice" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5100000000000000"]
+			hide_dependency_lines: true
+			id: "5100000000000056"
+			optional: true
+			rewards: [{
+				id: "5300000000005072"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000005065"
+				item: { count: 1, id: "someassemblyrequired:toasted_bread_slice" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5100000000000000"]
+			hide_dependency_lines: true
+			id: "5100000000000057"
+			optional: true
+			rewards: [{
+				id: "5300000000005073"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000005066"
+				item: { count: 1, id: "supplementaries:candy" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5100000000000000"]
+			hide_dependency_lines: true
+			id: "5100000000000058"
+			optional: true
+			rewards: [{
+				id: "5300000000005074"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000005067"
+				item: { count: 1, id: "supplementaries:sugar_cube" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"5100000000000001"
+				"5100000000000002"
+				"5100000000000003"
+				"5100000000000004"
+				"5100000000000005"
+				"5100000000000006"
+				"5100000000000007"
+				"5100000000000008"
+				"5100000000000009"
+				"5100000000000010"
+				"5100000000000011"
+				"5100000000000012"
+				"5100000000000013"
+				"5100000000000014"
+				"5100000000000015"
+				"5100000000000016"
+				"5100000000000017"
+				"5100000000000018"
+				"5100000000000019"
+				"5100000000000020"
+				"5100000000000021"
+				"5100000000000022"
+				"5100000000000023"
+				"5100000000000024"
+				"5100000000000025"
+				"5100000000000026"
+				"5100000000000027"
+				"5100000000000028"
+				"5100000000000029"
+				"5100000000000030"
+				"5100000000000031"
+				"5100000000000032"
+				"5100000000000033"
+				"5100000000000034"
+				"5100000000000035"
+				"5100000000000036"
+				"5100000000000037"
+				"5100000000000038"
+				"5100000000000039"
+				"5100000000000040"
+				"5100000000000041"
+				"5100000000000042"
+				"5100000000000043"
+				"5100000000000044"
+				"5100000000000045"
+				"5100000000000046"
+				"5100000000000047"
+				"5100000000000048"
+				"5100000000000049"
+				"5100000000000050"
+				"5100000000000051"
+				"5100000000000052"
+				"5100000000000053"
+				"5100000000000054"
+				"5100000000000055"
+				"5100000000000056"
+				"5100000000000057"
+				"5100000000000058"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "5100000000000999"
+			optional: true
+			rewards: [
+				{
+					id: "5300000000005075"
+					item: {
+						count: 1
+						id: "farmersdelight:netherite_knife"
+					}
+					type: "item"
+				}
+				{
+					id: "5300000000005076"
+					item: {
+						count: 1
+						id: "farmersdelight:stove"
+					}
+					type: "item"
+				}
+				{
+					id: "5300000000005077"
+					item: {
+						count: 1
+						id: "minecraft:enchanted_golden_apple"
+					}
+					type: "item"
+				}
+				{
+					id: "5300000000005078"
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 1.8d
+			tasks: [{
+				id: "5400000000005068"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 13.0d
+		}
+	]
+}

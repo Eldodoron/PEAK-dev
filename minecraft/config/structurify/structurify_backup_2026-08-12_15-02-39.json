@@ -1,0 +1,398 @@
+{
+  "config_version": "2.0.30",
+  "config_datetime": "2026-08-12_15-01-58",
+  "general": {
+    "disable_all_structures": false,
+    "prevent_structure_overlap": true,
+    "enable_global_spacing_and_separation_modifier": false,
+    "global_spacing_and_separation_modifier": 1.0
+  },
+  "structure_namespaces": [
+    {
+      "name": "cataclysm",
+      "is_disabled": false,
+      "override_global_distance_from_world_center": true,
+      "min_distance_from_world_center": 1000,
+      "max_distance_from_world_center": 0
+    },
+    {
+      "name": "create_ltab",
+      "is_disabled": false,
+      "override_global_distance_from_world_center": true,
+      "min_distance_from_world_center": 3000,
+      "max_distance_from_world_center": 0
+    },
+    {
+      "name": "create_pillagers_arise",
+      "is_disabled": false,
+      "override_global_distance_from_world_center": true,
+      "min_distance_from_world_center": 3500,
+      "max_distance_from_world_center": 0
+    },
+    {
+      "name": "create_sky_village",
+      "is_disabled": false,
+      "override_global_distance_from_world_center": true,
+      "min_distance_from_world_center": 3000,
+      "max_distance_from_world_center": 0
+    },
+    {
+      "name": "create_structures_arise",
+      "is_disabled": false,
+      "override_global_distance_from_world_center": true,
+      "min_distance_from_world_center": 3000,
+      "max_distance_from_world_center": 0
+    },
+    {
+      "name": "create_structures_overhaul",
+      "is_disabled": false,
+      "override_global_distance_from_world_center": true,
+      "min_distance_from_world_center": 2000,
+      "max_distance_from_world_center": 0
+    },
+    {
+      "name": "dungeons_arise",
+      "is_disabled": false,
+      "override_global_distance_from_world_center": true,
+      "min_distance_from_world_center": 1000,
+      "max_distance_from_world_center": 0
+    },
+    {
+      "name": "dungeons_arise_seven_seas",
+      "is_disabled": false,
+      "override_global_distance_from_world_center": true,
+      "min_distance_from_world_center": 1000,
+      "max_distance_from_world_center": 0
+    },
+    {
+      "name": "global",
+      "is_disabled": false,
+      "override_global_distance_from_world_center": false,
+      "min_distance_from_world_center": 120,
+      "max_distance_from_world_center": 0
+    },
+    {
+      "name": "iceandfire",
+      "is_disabled": false,
+      "override_global_distance_from_world_center": true,
+      "min_distance_from_world_center": 1000,
+      "max_distance_from_world_center": 0
+    },
+    {
+      "name": "idas",
+      "is_disabled": false,
+      "override_global_distance_from_world_center": true,
+      "min_distance_from_world_center": 1000,
+      "max_distance_from_world_center": 0,
+      "override_global_flatness_check": false,
+      "enable_flatness_check": true,
+      "flatness_check_allow_non_solid_blocks": false,
+      "flatness_check_mode": "AUTO",
+      "flatness_check_max_height_difference": 21
+    },
+    {
+      "name": "illagerinvasion",
+      "is_disabled": false,
+      "override_global_distance_from_world_center": true,
+      "min_distance_from_world_center": 500,
+      "max_distance_from_world_center": 0
+    },
+    {
+      "name": "integrated_stronghold",
+      "is_disabled": false,
+      "override_global_distance_from_world_center": true,
+      "min_distance_from_world_center": 0,
+      "max_distance_from_world_center": 0
+    },
+    {
+      "name": "integrated_villages",
+      "is_disabled": false,
+      "override_global_distance_from_world_center": true,
+      "min_distance_from_world_center": 0,
+      "max_distance_from_world_center": 0
+    },
+    {
+      "name": "irons_spellbooks",
+      "is_disabled": false,
+      "override_global_distance_from_world_center": true,
+      "min_distance_from_world_center": 1000,
+      "max_distance_from_world_center": 0
+    },
+    {
+      "name": "malum",
+      "is_disabled": false,
+      "override_global_distance_from_world_center": true,
+      "min_distance_from_world_center": 0,
+      "max_distance_from_world_center": 0
+    },
+    {
+      "name": "minecolonies",
+      "is_disabled": false,
+      "override_global_distance_from_world_center": true,
+      "min_distance_from_world_center": 1000,
+      "max_distance_from_world_center": 0
+    },
+    {
+      "name": "mowziesmobs",
+      "is_disabled": false,
+      "override_global_distance_from_world_center": true,
+      "min_distance_from_world_center": 0,
+      "max_distance_from_world_center": 0,
+      "exclude_from_overlap_prevention": true
+    },
+    {
+      "name": "paraglider",
+      "is_disabled": false,
+      "override_global_distance_from_world_center": true,
+      "min_distance_from_world_center": 0,
+      "max_distance_from_world_center": 0
+    },
+    {
+      "name": "supplementaries",
+      "is_disabled": false,
+      "override_global_distance_from_world_center": true,
+      "min_distance_from_world_center": 0,
+      "max_distance_from_world_center": 0
+    },
+    {
+      "name": "tlc",
+      "is_disabled": false,
+      "exclude_from_overlap_prevention": true
+    },
+    {
+      "name": "twilightforest",
+      "is_disabled": false,
+      "override_global_distance_from_world_center": true,
+      "min_distance_from_world_center": 0,
+      "max_distance_from_world_center": 0,
+      "exclude_from_overlap_prevention": true
+    },
+    {
+      "name": "undergarden",
+      "is_disabled": false,
+      "exclude_from_overlap_prevention": true
+    },
+    {
+      "name": "unusualend",
+      "is_disabled": false,
+      "override_global_distance_from_world_center": true,
+      "min_distance_from_world_center": 0,
+      "max_distance_from_world_center": 0
+    },
+    {
+      "name": "vampirism",
+      "is_disabled": false,
+      "override_global_distance_from_world_center": true,
+      "min_distance_from_world_center": 300,
+      "max_distance_from_world_center": 0
+    }
+  ],
+  "structures": [
+    {
+      "name": "block_factorys_bosses:dragon_tower",
+      "whitelisted_biomes": [
+        "#c:is_dark_forest"
+      ],
+      "size": 20,
+      "override_global_distance_from_world_center": true,
+      "min_distance_from_world_center": 1000,
+      "max_distance_from_world_center": 0
+    },
+    {
+      "name": "block_factorys_bosses:sandworm_nest",
+      "whitelisted_biomes": [
+        "#c:is_desert"
+      ],
+      "override_global_distance_from_world_center": true,
+      "min_distance_from_world_center": 1000,
+      "max_distance_from_world_center": 0
+    },
+    {
+      "name": "block_factorys_bosses:yeti_hideout",
+      "whitelisted_biomes": [
+        "#c:is_snowy"
+      ],
+      "override_global_distance_from_world_center": true,
+      "min_distance_from_world_center": 500,
+      "max_distance_from_world_center": 0,
+      "exclude_from_overlap_prevention": true
+    },
+    {
+      "name": "bosses_of_mass_destruction:gauntlet_arena",
+      "size": 2,
+      "max_horizontal_distance_from_center": 60,
+      "max_vertical_distance_from_center": 60
+    },
+    {
+      "name": "create_ltab:dungeon_desert",
+      "size": 20,
+      "max_horizontal_distance_from_center": 128,
+      "max_vertical_distance_from_center": 128,
+      "override_global_distance_from_world_center": true,
+      "min_distance_from_world_center": 0,
+      "max_distance_from_world_center": 0,
+      "exclude_from_overlap_prevention": true
+    },
+    {
+      "name": "create_pillagers_arise:pillagercreatetower",
+      "size": 20,
+      "max_horizontal_distance_from_center": 128,
+      "max_vertical_distance_from_center": 128,
+      "override_global_distance_from_world_center": true,
+      "min_distance_from_world_center": 1000,
+      "max_distance_from_world_center": 0,
+      "exclude_from_overlap_prevention": true
+    },
+    {
+      "name": "create_structures_arise:create_bastion",
+      "override_global_distance_from_world_center": true,
+      "min_distance_from_world_center": 0,
+      "max_distance_from_world_center": 0
+    },
+    {
+      "name": "create_structures_arise:honey_pit",
+      "override_global_distance_from_world_center": true,
+      "min_distance_from_world_center": 0,
+      "max_distance_from_world_center": 0
+    },
+    {
+      "name": "create_structures_arise:windmill",
+      "override_global_distance_from_world_center": true,
+      "min_distance_from_world_center": 0,
+      "max_distance_from_world_center": 0
+    },
+    {
+      "name": "create_structures_overhaul:spooky_house2",
+      "is_disabled": true,
+      "override_global_distance_from_world_center": true,
+      "min_distance_from_world_center": 100000,
+      "max_distance_from_world_center": 0,
+      "override_global_flatness_check": false,
+      "enable_flatness_check": true,
+      "flatness_check_allow_non_solid_blocks": false,
+      "flatness_check_mode": "AUTO",
+      "flatness_check_max_height_difference": 21
+    },
+    {
+      "name": "darkerdepths:catacombs",
+      "size": 20,
+      "max_horizontal_distance_from_center": 128,
+      "max_vertical_distance_from_center": 128
+    },
+    {
+      "name": "iceandfire:cyclops_cave",
+      "whitelisted_biomes": [
+        "#c:is_hot/overworld"
+      ],
+      "blacklisted_biomes": [
+        "minecraft:beach",
+        "minecraft:snowy_beach"
+      ]
+    },
+    {
+      "name": "iceandfire:fire_dragon_roost",
+      "override_global_distance_from_world_center": true,
+      "min_distance_from_world_center": 2000,
+      "max_distance_from_world_center": 0,
+      "exclude_from_overlap_prevention": true
+    },
+    {
+      "name": "iceandfire:ice_dragon_cave",
+      "whitelisted_biomes": [
+        "#c:is_snowy_plains",
+        "#c:is_snowy"
+      ]
+    },
+    {
+      "name": "iceandfire:lightning_dragon_cave",
+      "whitelisted_biomes": [
+        "#c:is_savanna",
+        "#c:is_badlands",
+        "#c:is_swamp"
+      ]
+    },
+    {
+      "name": "integrated_villages:marketstead_village",
+      "size": 20
+    },
+    {
+      "name": "irons_spellbooks:catacombs",
+      "size": 10
+    },
+    {
+      "name": "irons_spellbooks:evoker_fort",
+      "size": 12,
+      "max_horizontal_distance_from_center": 128,
+      "max_vertical_distance_from_center": 128
+    },
+    {
+      "name": "irons_spellbooks:mountain_tower",
+      "size": 8,
+      "max_horizontal_distance_from_center": 50,
+      "max_vertical_distance_from_center": 50,
+      "override_global_distance_from_world_center": true,
+      "min_distance_from_world_center": 1000,
+      "max_distance_from_world_center": 0
+    },
+    {
+      "name": "mowziesmobs:frostmaw_spawn",
+      "override_global_distance_from_world_center": true,
+      "min_distance_from_world_center": 2000,
+      "max_distance_from_world_center": 0
+    },
+    {
+      "name": "mowziesmobs:wrought_chamber",
+      "whitelisted_biomes": [
+        "#c:is_overworld"
+      ],
+      "override_global_distance_from_world_center": true,
+      "min_distance_from_world_center": 0,
+      "max_distance_from_world_center": 0
+    },
+    {
+      "name": "tlc:lost_castle",
+      "override_global_distance_from_world_center": true,
+      "min_distance_from_world_center": 0,
+      "max_distance_from_world_center": 0
+    }
+  ],
+  "structure_sets": [
+    {
+      "spacing": 96,
+      "separation": 32,
+      "name": "create_sky_village:highwind_village",
+      "is_disabled": false,
+      "salt": 182451771,
+      "frequency": 0.1,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "create_sky_village:highwind_village": 1
+      }
+    },
+    {
+      "spacing": 128,
+      "separation": 32,
+      "name": "create_sky_village:skyvillage",
+      "is_disabled": false,
+      "salt": 391245617,
+      "frequency": 0.102000006,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "create_sky_village:skyvillage": 1
+      }
+    },
+    {
+      "spacing": 9,
+      "separation": 6,
+      "name": "vampirism:hunter_camp",
+      "is_disabled": false,
+      "salt": 1724616580,
+      "frequency": 0.499,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "vampirism:hunter_camp": 1
+      }
+    }
+  ],
+  "structure_template_pools": []
+}

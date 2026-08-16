@@ -1,0 +1,2366 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "culinary_dimensional"
+	group: "5000000000000000"
+	id: "5202000000000000"
+	images: [
+		{
+			height: 2.0d
+			id: "5CC5741E6E45131E"
+			image: "minecraft:block/soul_fire_0"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: -2.6d
+		}
+		{
+			height: 1.8d
+			id: "0A32B0E1D85866D6"
+			image: "minecraft:block/soul_fire_0"
+			rotation: 0.0d
+			width: 1.8d
+			x: -9.0d
+			y: -11.0d
+		}
+		{
+			height: 1.8d
+			id: "4C533776B9DA307D"
+			image: "minecraft:item/nether_star"
+			rotation: 0.0d
+			width: 1.8d
+			x: 9.0d
+			y: -11.0d
+		}
+		{
+			height: 1.6d
+			id: "2383373E19622AFE"
+			image: "minecraft:item/nether_star"
+			rotation: 0.0d
+			width: 1.6d
+			x: -2.2d
+			y: 13.0d
+		}
+		{
+			height: 1.6d
+			id: "406A67980D415406"
+			image: "minecraft:item/nether_star"
+			rotation: 0.0d
+			width: 1.6d
+			x: 2.2d
+			y: 13.0d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "5102000000000000"
+			rewards: [
+				{
+					count: 4
+					id: "5300000000001001"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "5300000000001002"
+					item: {
+						count: 1
+						id: "minecraft:blaze_powder"
+					}
+					type: "item"
+				}
+				{
+					id: "5300000000001003"
+					type: "random"
+				}
+			]
+			shape: "gear"
+			size: 1.7d
+			tasks: [{
+				id: "5400000000001001"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5102000000000000"]
+			hide_dependency_lines: true
+			id: "5102000000000801"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "5300000000001004"
+					item: {
+						count: 1
+						id: "mynethersdelight:roasted_sausage"
+					}
+					type: "item"
+				}
+				{
+					id: "5300000000001005"
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			size: 1.3d
+			tasks: [{
+				id: "5400000000001002"
+				type: "checkmark"
+			}]
+			x: -9.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["5102000000000000"]
+			hide_dependency_lines: true
+			id: "5102000000000001"
+			optional: true
+			rewards: [{
+				id: "5300000000001006"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000001003"
+				item: { count: 1, id: "mynethersdelight:bullet_pepper" }
+				type: "item"
+			}]
+			x: -14.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["5102000000000000"]
+			hide_dependency_lines: true
+			id: "5102000000000002"
+			optional: true
+			rewards: [{
+				id: "5300000000001007"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000001004"
+				item: { count: 1, id: "mynethersdelight:ghast_dough" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["5102000000000000"]
+			hide_dependency_lines: true
+			id: "5102000000000003"
+			optional: true
+			rewards: [{
+				id: "5300000000001008"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000001005"
+				item: { count: 1, id: "mynethersdelight:bread_loaf" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["5102000000000000"]
+			hide_dependency_lines: true
+			id: "5102000000000004"
+			optional: true
+			rewards: [{
+				id: "5300000000001009"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000001006"
+				item: { count: 1, id: "mynethersdelight:slices_of_bread" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["5102000000000000"]
+			hide_dependency_lines: true
+			id: "5102000000000005"
+			optional: true
+			rewards: [{
+				id: "5300000000001010"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000001007"
+				item: { count: 1, id: "mynethersdelight:toasts" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["5102000000000000"]
+			hide_dependency_lines: true
+			id: "5102000000000006"
+			optional: true
+			rewards: [{
+				id: "5300000000001011"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000001008"
+				item: { count: 1, id: "mynethersdelight:burnt_roll" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["5102000000000000"]
+			hide_dependency_lines: true
+			id: "5102000000000007"
+			optional: true
+			rewards: [{
+				id: "5300000000001012"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000001009"
+				item: { count: 1, id: "mynethersdelight:boiled_egg" }
+				type: "item"
+			}]
+			x: -14.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5102000000000000"]
+			hide_dependency_lines: true
+			id: "5102000000000008"
+			optional: true
+			rewards: [{
+				id: "5300000000001013"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000001010"
+				item: { count: 1, id: "mynethersdelight:golden_egg" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5102000000000000"]
+			hide_dependency_lines: true
+			id: "5102000000000009"
+			optional: true
+			rewards: [{
+				id: "5300000000001014"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000001011"
+				item: { count: 1, id: "mynethersdelight:enchanted_golden_egg" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5102000000000000"]
+			hide_dependency_lines: true
+			id: "5102000000000010"
+			optional: true
+			rewards: [{
+				id: "5300000000001015"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000001012"
+				item: { count: 1, id: "mynethersdelight:hoglin_loin" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5102000000000000"]
+			hide_dependency_lines: true
+			id: "5102000000000011"
+			optional: true
+			rewards: [{
+				id: "5300000000001016"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000001013"
+				item: { count: 1, id: "mynethersdelight:cooked_loin" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5102000000000000"]
+			hide_dependency_lines: true
+			id: "5102000000000012"
+			optional: true
+			rewards: [{
+				id: "5300000000001017"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000001014"
+				item: { count: 1, id: "mynethersdelight:hoglin_sausage" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5102000000000000"]
+			hide_dependency_lines: true
+			id: "5102000000000013"
+			optional: true
+			rewards: [{
+				id: "5300000000001018"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000001015"
+				item: { count: 1, id: "mynethersdelight:roasted_sausage" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5102000000000000"]
+			hide_dependency_lines: true
+			id: "5102000000000014"
+			optional: true
+			rewards: [{
+				id: "5300000000001019"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000001016"
+				item: { count: 1, id: "mynethersdelight:hotdog" }
+				type: "item"
+			}]
+			x: -14.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5102000000000000"]
+			hide_dependency_lines: true
+			id: "5102000000000015"
+			optional: true
+			rewards: [{
+				id: "5300000000001020"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000001017"
+				item: { count: 1, id: "mynethersdelight:minced_strider" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5102000000000000"]
+			hide_dependency_lines: true
+			id: "5102000000000016"
+			optional: true
+			rewards: [{
+				id: "5300000000001021"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000001018"
+				item: { count: 1, id: "mynethersdelight:strider_slice" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5102000000000000"]
+			hide_dependency_lines: true
+			id: "5102000000000017"
+			optional: true
+			rewards: [{
+				id: "5300000000001022"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000001019"
+				item: { count: 1, id: "mynethersdelight:cold_striderloaf" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5102000000000000"]
+			hide_dependency_lines: true
+			id: "5102000000000018"
+			optional: true
+			rewards: [{
+				id: "5300000000001023"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000001020"
+				item: { count: 1, id: "mynethersdelight:striderloaf" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5102000000000000"]
+			hide_dependency_lines: true
+			id: "5102000000000019"
+			optional: true
+			rewards: [{
+				id: "5300000000001024"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000001021"
+				item: { count: 1, id: "mynethersdelight:egg_soup" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5102000000000000"]
+			hide_dependency_lines: true
+			id: "5102000000000020"
+			optional: true
+			rewards: [{
+				id: "5300000000001025"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000001022"
+				item: { count: 1, id: "mynethersdelight:rock_soup" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5102000000000000"]
+			hide_dependency_lines: true
+			id: "5102000000000021"
+			optional: true
+			rewards: [{
+				id: "5300000000001026"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000001023"
+				item: { count: 1, id: "mynethersdelight:spicy_noodle_soup" }
+				type: "item"
+			}]
+			x: -14.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5102000000000000"]
+			hide_dependency_lines: true
+			id: "5102000000000022"
+			optional: true
+			rewards: [{
+				id: "5300000000001027"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000001024"
+				item: { count: 1, id: "mynethersdelight:ghasmati" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5102000000000000"]
+			hide_dependency_lines: true
+			id: "5102000000000023"
+			optional: true
+			rewards: [{
+				id: "5300000000001028"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000001025"
+				item: { count: 1, id: "mynethersdelight:ghasta" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5102000000000000"]
+			hide_dependency_lines: true
+			id: "5102000000000024"
+			optional: true
+			rewards: [{
+				id: "5300000000001029"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000001026"
+				item: { count: 1, id: "mynethersdelight:ghasta_with_cream" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5102000000000000"]
+			hide_dependency_lines: true
+			id: "5102000000000025"
+			optional: true
+			rewards: [{
+				id: "5300000000001030"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000001027"
+				item: { count: 1, id: "mynethersdelight:magma_cake_slice" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5102000000000000"]
+			hide_dependency_lines: true
+			id: "5102000000000026"
+			optional: true
+			rewards: [{
+				id: "5300000000001031"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000001028"
+				item: { count: 1, id: "mynethersdelight:hot_cream_cone" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5102000000000000"]
+			hide_dependency_lines: true
+			id: "5102000000000027"
+			optional: true
+			rewards: [{
+				id: "5300000000001032"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000001029"
+				item: { count: 1, id: "mynethersdelight:roast_stuffed_hoglin" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5102000000000000"]
+			hide_dependency_lines: true
+			id: "5102000000000802"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "5300000000001033"
+					item: {
+						count: 1
+						id: "twilightforest:berry_medley"
+					}
+					type: "item"
+				}
+				{
+					id: "5300000000001034"
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			size: 1.3d
+			tasks: [{
+				id: "5400000000001030"
+				type: "checkmark"
+			}]
+			x: 9.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["5102000000000000"]
+			hide_dependency_lines: true
+			id: "5102000000000028"
+			optional: true
+			rewards: [{
+				id: "5300000000001035"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000001031"
+				item: { count: 1, id: "twilightforest:blackberry" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["5102000000000000"]
+			hide_dependency_lines: true
+			id: "5102000000000029"
+			optional: true
+			rewards: [{
+				id: "5300000000001036"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000001032"
+				item: { count: 1, id: "twilightforest:blueberry" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["5102000000000000"]
+			hide_dependency_lines: true
+			id: "5102000000000030"
+			optional: true
+			rewards: [{
+				id: "5300000000001037"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000001033"
+				item: { count: 1, id: "twilightforest:raspberry" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["5102000000000000"]
+			hide_dependency_lines: true
+			id: "5102000000000031"
+			optional: true
+			rewards: [{
+				id: "5300000000001038"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000001034"
+				item: { count: 1, id: "twilightforest:berry_medley" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["5102000000000000"]
+			hide_dependency_lines: true
+			id: "5102000000000032"
+			optional: true
+			rewards: [{
+				id: "5300000000001039"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000001035"
+				item: { count: 1, id: "twilightforest:torchberries" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["5102000000000000"]
+			hide_dependency_lines: true
+			id: "5102000000000033"
+			optional: true
+			rewards: [{
+				id: "5300000000001040"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000001036"
+				item: { count: 1, id: "twilightforest:blightberry" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["5102000000000000"]
+			hide_dependency_lines: true
+			id: "5102000000000034"
+			optional: true
+			rewards: [{
+				id: "5300000000001041"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000001037"
+				item: { count: 1, id: "twilightforest:duskberry" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["5102000000000000"]
+			hide_dependency_lines: true
+			id: "5102000000000035"
+			optional: true
+			rewards: [{
+				id: "5300000000001042"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000001038"
+				item: { count: 1, id: "twilightforest:maloberry" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5102000000000000"]
+			hide_dependency_lines: true
+			id: "5102000000000036"
+			optional: true
+			rewards: [{
+				id: "5300000000001043"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000001039"
+				item: { count: 1, id: "twilightforest:skyberry" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5102000000000000"]
+			hide_dependency_lines: true
+			id: "5102000000000037"
+			optional: true
+			rewards: [{
+				id: "5300000000001044"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000001040"
+				item: { count: 1, id: "twilightforest:stingberry" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5102000000000000"]
+			hide_dependency_lines: true
+			id: "5102000000000038"
+			optional: true
+			rewards: [{
+				id: "5300000000001045"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000001041"
+				item: { count: 1, id: "twilightforest:firefly" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5102000000000000"]
+			hide_dependency_lines: true
+			id: "5102000000000039"
+			optional: true
+			rewards: [{
+				id: "5300000000001046"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000001042"
+				item: { count: 1, id: "twilightforest:cicada" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5102000000000000"]
+			hide_dependency_lines: true
+			id: "5102000000000040"
+			optional: true
+			rewards: [{
+				id: "5300000000001047"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000001043"
+				item: { count: 1, id: "twilightforest:moonworm" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5102000000000000"]
+			hide_dependency_lines: true
+			id: "5102000000000041"
+			optional: true
+			rewards: [{
+				id: "5300000000001048"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000001044"
+				item: { count: 1, id: "twilightforest:moss_soup" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5102000000000000"]
+			hide_dependency_lines: true
+			id: "5102000000000042"
+			optional: true
+			rewards: [{
+				id: "5300000000001049"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000001045"
+				item: { count: 1, id: "twilightforest:raw_venison" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5102000000000000"]
+			hide_dependency_lines: true
+			id: "5102000000000043"
+			optional: true
+			rewards: [{
+				id: "5300000000001050"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000001046"
+				item: { count: 1, id: "twilightforest:cooked_venison" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5102000000000000"]
+			hide_dependency_lines: true
+			id: "5102000000000044"
+			optional: true
+			rewards: [{
+				id: "5300000000001051"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000001047"
+				item: { count: 1, id: "twilightdelight:cooked_venison_rib" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5102000000000000"]
+			hide_dependency_lines: true
+			id: "5102000000000045"
+			optional: true
+			rewards: [{
+				id: "5300000000001052"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000001048"
+				item: { count: 1, id: "twilightforest:raw_meef" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5102000000000000"]
+			hide_dependency_lines: true
+			id: "5102000000000046"
+			optional: true
+			rewards: [{
+				id: "5300000000001053"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000001049"
+				item: { count: 1, id: "twilightforest:cooked_meef" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5102000000000000"]
+			hide_dependency_lines: true
+			id: "5102000000000047"
+			optional: true
+			rewards: [{
+				id: "5300000000001054"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000001050"
+				item: { count: 1, id: "twilightdelight:cooked_meef_slice" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5102000000000000"]
+			hide_dependency_lines: true
+			id: "5102000000000048"
+			optional: true
+			rewards: [{
+				id: "5300000000001055"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000001051"
+				item: { count: 1, id: "twilightforest:meef_stroganoff" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5102000000000000"]
+			hide_dependency_lines: true
+			id: "5102000000000049"
+			optional: true
+			rewards: [{
+				id: "5300000000001056"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000001052"
+				item: { count: 1, id: "twilightforest:hydra_chop" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5102000000000000"]
+			hide_dependency_lines: true
+			id: "5102000000000050"
+			optional: true
+			rewards: [{
+				id: "5300000000001057"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000001053"
+				item: { count: 1, id: "twilightforest:experiment_115" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5102000000000000"]
+			hide_dependency_lines: true
+			id: "5102000000000051"
+			optional: true
+			rewards: [{
+				id: "5300000000001058"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000001054"
+				item: { count: 1, id: "twilightforest:maze_wafer" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5102000000000000"]
+			hide_dependency_lines: true
+			id: "5102000000000052"
+			optional: true
+			rewards: [{
+				id: "5300000000001059"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000001055"
+				item: { count: 1, id: "twilightdelight:chocolate_wafer" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5102000000000000"]
+			hide_dependency_lines: true
+			id: "5102000000000053"
+			optional: true
+			rewards: [{
+				id: "5300000000001060"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000001056"
+				item: { count: 1, id: "twilightforest:gelatinous_slime_drop" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5102000000000000"]
+			hide_dependency_lines: true
+			id: "5102000000000054"
+			optional: true
+			rewards: [{
+				id: "5300000000001061"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000001057"
+				item: { count: 1, id: "twilightforest:gelatinous_maze_slime_drop" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5102000000000000"]
+			hide_dependency_lines: true
+			id: "5102000000000055"
+			optional: true
+			rewards: [{
+				id: "5300000000001062"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000001058"
+				item: { count: 1, id: "twilightdelight:torchberry_cookie" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5102000000000000"]
+			hide_dependency_lines: true
+			id: "5102000000000056"
+			optional: true
+			rewards: [{
+				id: "5300000000001063"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000001059"
+				item: { count: 1, id: "twilightforest:beef_jerky" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5102000000000000"]
+			hide_dependency_lines: true
+			id: "5102000000000057"
+			optional: true
+			rewards: [{
+				id: "5300000000001064"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000001060"
+				item: { count: 1, id: "twilightforest:pork_jerky" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5102000000000000"]
+			hide_dependency_lines: true
+			id: "5102000000000058"
+			optional: true
+			rewards: [{
+				id: "5300000000001065"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000001061"
+				item: { count: 1, id: "twilightforest:chicken_jerky" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5102000000000000"]
+			hide_dependency_lines: true
+			id: "5102000000000059"
+			optional: true
+			rewards: [{
+				id: "5300000000001066"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000001062"
+				item: { count: 1, id: "twilightforest:mutton_jerky" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5102000000000000"]
+			hide_dependency_lines: true
+			id: "5102000000000060"
+			optional: true
+			rewards: [{
+				id: "5300000000001067"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000001063"
+				item: { count: 1, id: "twilightforest:rabbit_jerky" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5102000000000000"]
+			hide_dependency_lines: true
+			id: "5102000000000061"
+			optional: true
+			rewards: [{
+				id: "5300000000001068"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000001064"
+				item: { count: 1, id: "twilightforest:venison_jerky" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5102000000000000"]
+			hide_dependency_lines: true
+			id: "5102000000000062"
+			optional: true
+			rewards: [{
+				id: "5300000000001069"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000001065"
+				item: { count: 1, id: "twilightforest:meef_jerky" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5102000000000000"]
+			hide_dependency_lines: true
+			id: "5102000000000063"
+			optional: true
+			rewards: [{
+				id: "5300000000001070"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000001066"
+				item: { count: 1, id: "twilightforest:monster_jerky" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5102000000000000"]
+			hide_dependency_lines: true
+			id: "5102000000000064"
+			optional: true
+			rewards: [{
+				id: "5300000000001071"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000001067"
+				item: { count: 1, id: "twilightforest:cod_jerky" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5102000000000000"]
+			hide_dependency_lines: true
+			id: "5102000000000065"
+			optional: true
+			rewards: [{
+				id: "5300000000001072"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000001068"
+				item: { count: 1, id: "twilightforest:salmon_jerky" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5102000000000000"]
+			hide_dependency_lines: true
+			id: "5102000000000066"
+			optional: true
+			rewards: [{
+				id: "5300000000001073"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000001069"
+				item: { count: 1, id: "twilightforest:fugu_jerky" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5102000000000000"]
+			hide_dependency_lines: true
+			id: "5102000000000067"
+			optional: true
+			rewards: [{
+				id: "5300000000001074"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000001070"
+				item: { count: 1, id: "twilightforest:tropical_fish_jerky" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5102000000000000"]
+			hide_dependency_lines: true
+			id: "5102000000000068"
+			optional: true
+			rewards: [{
+				id: "5300000000001075"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000001071"
+				item: { count: 1, id: "twilightdelight:torchberry_pie_slice" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5102000000000000"]
+			hide_dependency_lines: true
+			id: "5102000000000069"
+			optional: true
+			rewards: [{
+				id: "5300000000001076"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000001072"
+				item: { count: 1, id: "twilightdelight:aurora_pie_slice" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5102000000000000"]
+			hide_dependency_lines: true
+			id: "5102000000000803"
+			optional: true
+			rewards: [
+				{
+					count: 4
+					id: "5300000000001077"
+					item: {
+						count: 1
+						id: "undergarden:roasted_underbeans"
+					}
+					type: "item"
+				}
+				{
+					id: "5300000000001078"
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			size: 1.3d
+			tasks: [{
+				id: "5400000000001073"
+				type: "checkmark"
+			}]
+			x: -9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5102000000000000"]
+			hide_dependency_lines: true
+			id: "5102000000000070"
+			optional: true
+			rewards: [{
+				id: "5300000000001079"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000001074"
+				item: { count: 1, id: "undergarden:underbeans" }
+				type: "item"
+			}]
+			x: -14.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5102000000000000"]
+			hide_dependency_lines: true
+			id: "5102000000000071"
+			optional: true
+			rewards: [{
+				id: "5300000000001080"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000001075"
+				item: { count: 1, id: "undergarden:roasted_underbeans" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5102000000000000"]
+			hide_dependency_lines: true
+			id: "5102000000000072"
+			optional: true
+			rewards: [{
+				id: "5300000000001081"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000001076"
+				item: { count: 1, id: "undergarden:blisterberry" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5102000000000000"]
+			hide_dependency_lines: true
+			id: "5102000000000073"
+			optional: true
+			rewards: [{
+				id: "5300000000001082"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000001077"
+				item: { count: 1, id: "undergarden:rotten_blisterberry" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5102000000000000"]
+			hide_dependency_lines: true
+			id: "5102000000000074"
+			optional: true
+			rewards: [{
+				id: "5300000000001083"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000001078"
+				item: { count: 1, id: "undergarden:droopvine_item" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5102000000000000"]
+			hide_dependency_lines: true
+			id: "5102000000000075"
+			optional: true
+			rewards: [{
+				id: "5300000000001084"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000001079"
+				item: { count: 1, id: "undergarden:blood_globule" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5102000000000000"]
+			hide_dependency_lines: true
+			id: "5102000000000076"
+			optional: true
+			rewards: [{
+				id: "5300000000001085"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000001080"
+				item: { count: 1, id: "undergarden:goo_ball" }
+				type: "item"
+			}]
+			x: -14.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5102000000000000"]
+			hide_dependency_lines: true
+			id: "5102000000000077"
+			optional: true
+			rewards: [{
+				id: "5300000000001086"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000001081"
+				item: { count: 1, id: "undergarden:gloomgourd_pie" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5102000000000000"]
+			hide_dependency_lines: true
+			id: "5102000000000078"
+			optional: true
+			rewards: [{
+				id: "5300000000001087"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000001082"
+				item: { count: 1, id: "undergarden:slop_bowl" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5102000000000000"]
+			hide_dependency_lines: true
+			id: "5102000000000079"
+			optional: true
+			rewards: [{
+				id: "5300000000001088"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000001083"
+				item: { count: 1, id: "undergarden:raw_dweller_meat" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5102000000000000"]
+			hide_dependency_lines: true
+			id: "5102000000000080"
+			optional: true
+			rewards: [{
+				id: "5300000000001089"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000001084"
+				item: { count: 1, id: "undergarden:dweller_steak" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5102000000000000"]
+			hide_dependency_lines: true
+			id: "5102000000000081"
+			optional: true
+			rewards: [{
+				id: "5300000000001090"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000001085"
+				item: { count: 1, id: "undergarden:raw_gloomper_leg" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5102000000000000"]
+			hide_dependency_lines: true
+			id: "5102000000000082"
+			optional: true
+			rewards: [{
+				id: "5300000000001091"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000001086"
+				item: { count: 1, id: "undergarden:gloomper_leg" }
+				type: "item"
+			}]
+			x: -14.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5102000000000000"]
+			hide_dependency_lines: true
+			id: "5102000000000083"
+			optional: true
+			rewards: [{
+				id: "5300000000001092"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000001087"
+				item: { count: 1, id: "undergarden:raw_gwibling" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5102000000000000"]
+			hide_dependency_lines: true
+			id: "5102000000000084"
+			optional: true
+			rewards: [{
+				id: "5300000000001093"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000001088"
+				item: { count: 1, id: "undergarden:cooked_gwibling" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5102000000000000"]
+			hide_dependency_lines: true
+			id: "5102000000000085"
+			optional: true
+			rewards: [{
+				id: "5300000000001094"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000001089"
+				item: { count: 1, id: "undergarden:bloody_stew" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5102000000000000"]
+			hide_dependency_lines: true
+			id: "5102000000000086"
+			optional: true
+			rewards: [{
+				id: "5300000000001095"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000001090"
+				item: { count: 1, id: "undergarden:indigo_stew" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5102000000000000"]
+			hide_dependency_lines: true
+			id: "5102000000000087"
+			optional: true
+			rewards: [{
+				id: "5300000000001096"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000001091"
+				item: { count: 1, id: "undergarden:inky_stew" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5102000000000000"]
+			hide_dependency_lines: true
+			id: "5102000000000088"
+			optional: true
+			rewards: [{
+				id: "5300000000001097"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000001092"
+				item: { count: 1, id: "undergarden:veiled_stew" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5102000000000000"]
+			hide_dependency_lines: true
+			id: "5102000000000804"
+			optional: true
+			rewards: [
+				{
+					count: 4
+					id: "5300000000001098"
+					item: {
+						count: 1
+						id: "endersdelight:uncanny_cookies"
+					}
+					type: "item"
+				}
+				{
+					id: "5300000000001099"
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			size: 1.3d
+			tasks: [{
+				id: "5400000000001093"
+				type: "checkmark"
+			}]
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5102000000000000"]
+			hide_dependency_lines: true
+			id: "5102000000000089"
+			optional: true
+			rewards: [{
+				id: "5300000000001100"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000001094"
+				item: { count: 1, id: "endersdelight:mite_crust" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5102000000000000"]
+			hide_dependency_lines: true
+			id: "5102000000000090"
+			optional: true
+			rewards: [{
+				id: "5300000000001101"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000001095"
+				item: { count: 1, id: "endersdelight:shulker_mollusk" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5102000000000000"]
+			hide_dependency_lines: true
+			id: "5102000000000091"
+			optional: true
+			rewards: [{
+				id: "5300000000001102"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000001096"
+				item: { count: 1, id: "endersdelight:shulker_filet" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5102000000000000"]
+			hide_dependency_lines: true
+			id: "5102000000000092"
+			optional: true
+			rewards: [{
+				id: "5300000000001103"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000001097"
+				item: { count: 1, id: "endersdelight:stuffed_shulker" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5102000000000000"]
+			hide_dependency_lines: true
+			id: "5102000000000093"
+			optional: true
+			rewards: [{
+				id: "5300000000001104"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000001098"
+				item: { count: 1, id: "endersdelight:uncanny_cookies" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5102000000000000"]
+			hide_dependency_lines: true
+			id: "5102000000000094"
+			optional: true
+			rewards: [{
+				id: "5300000000001105"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000001099"
+				item: { count: 1, id: "endersdelight:chorus_pie" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5102000000000000"]
+			hide_dependency_lines: true
+			id: "5102000000000095"
+			optional: true
+			rewards: [{
+				id: "5300000000001106"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000001100"
+				item: { count: 1, id: "endersdelight:chorus_stew" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5102000000000000"]
+			hide_dependency_lines: true
+			id: "5102000000000096"
+			optional: true
+			rewards: [{
+				id: "5300000000001107"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000001101"
+				item: { count: 1, id: "endersdelight:endermite_stew" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5102000000000000"]
+			hide_dependency_lines: true
+			id: "5102000000000097"
+			optional: true
+			rewards: [{
+				id: "5300000000001108"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000001102"
+				item: { count: 1, id: "deeperdarker:angler_fish" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5102000000000000"]
+			hide_dependency_lines: true
+			id: "5102000000000098"
+			optional: true
+			rewards: [{
+				id: "5300000000001109"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000001103"
+				item: { count: 1, id: "deeperdarker:cooked_angler_fish" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5102000000000000"]
+			hide_dependency_lines: true
+			id: "5102000000000099"
+			optional: true
+			rewards: [{
+				id: "5300000000001110"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000001104"
+				item: { count: 1, id: "unusualend:bolok_fin" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5102000000000000"]
+			hide_dependency_lines: true
+			id: "5102000000000100"
+			optional: true
+			rewards: [{
+				id: "5300000000001111"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000001105"
+				item: { count: 1, id: "unusualend:cooked_bolok_fin" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5102000000000000"]
+			hide_dependency_lines: true
+			id: "5102000000000101"
+			optional: true
+			rewards: [{
+				id: "5300000000001112"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000001106"
+				item: { count: 1, id: "unusualend:raw_bluk" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5102000000000000"]
+			hide_dependency_lines: true
+			id: "5102000000000102"
+			optional: true
+			rewards: [{
+				id: "5300000000001113"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000001107"
+				item: { count: 1, id: "unusualend:cooked_bluk" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5102000000000000"]
+			hide_dependency_lines: true
+			id: "5102000000000103"
+			optional: true
+			rewards: [{
+				id: "5300000000001114"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000001108"
+				item: { count: 1, id: "unusualend:gloopilon_slice" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5102000000000000"]
+			hide_dependency_lines: true
+			id: "5102000000000104"
+			optional: true
+			rewards: [{
+				id: "5300000000001115"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000001109"
+				item: { count: 1, id: "unusualend:warped_berries" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5102000000000000"]
+			hide_dependency_lines: true
+			id: "5102000000000105"
+			optional: true
+			rewards: [{
+				id: "5300000000001116"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000001110"
+				item: { count: 1, id: "unusualend:warped_squash_wedge" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5102000000000000"]
+			hide_dependency_lines: true
+			id: "5102000000000106"
+			optional: true
+			rewards: [{
+				id: "5300000000001117"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000001111"
+				item: { count: 1, id: "unusualend:bluk_au_chocolat" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5102000000000000"]
+			hide_dependency_lines: true
+			id: "5102000000000107"
+			optional: true
+			rewards: [{
+				id: "5300000000001118"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000001112"
+				item: { count: 1, id: "unusualend:chorus_juice" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5102000000000000"]
+			hide_dependency_lines: true
+			id: "5102000000000108"
+			optional: true
+			rewards: [{
+				id: "5300000000001119"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000001113"
+				item: { count: 1, id: "unusualend:chorus_tea" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5102000000000000"]
+			hide_dependency_lines: true
+			id: "5102000000000109"
+			optional: true
+			rewards: [{
+				id: "5300000000001120"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000001114"
+				item: { count: 1, id: "unusualend:ender_stew" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["5102000000000000"]
+			hide_dependency_lines: true
+			id: "5102000000000110"
+			optional: true
+			rewards: [{
+				id: "5300000000001121"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000001115"
+				item: { count: 1, id: "unusualend:wandering_stew" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["5102000000000000"]
+			hide_dependency_lines: true
+			id: "5102000000000111"
+			optional: true
+			rewards: [{
+				id: "5300000000001122"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000001116"
+				item: { count: 1, id: "unusualend:warped_stew" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"5102000000000001"
+				"5102000000000002"
+				"5102000000000003"
+				"5102000000000004"
+				"5102000000000005"
+				"5102000000000006"
+				"5102000000000007"
+				"5102000000000008"
+				"5102000000000009"
+				"5102000000000010"
+				"5102000000000011"
+				"5102000000000012"
+				"5102000000000013"
+				"5102000000000014"
+				"5102000000000015"
+				"5102000000000016"
+				"5102000000000017"
+				"5102000000000018"
+				"5102000000000019"
+				"5102000000000020"
+				"5102000000000021"
+				"5102000000000022"
+				"5102000000000023"
+				"5102000000000024"
+				"5102000000000025"
+				"5102000000000026"
+				"5102000000000027"
+				"5102000000000028"
+				"5102000000000029"
+				"5102000000000030"
+				"5102000000000031"
+				"5102000000000032"
+				"5102000000000033"
+				"5102000000000034"
+				"5102000000000035"
+				"5102000000000036"
+				"5102000000000037"
+				"5102000000000038"
+				"5102000000000039"
+				"5102000000000040"
+				"5102000000000041"
+				"5102000000000042"
+				"5102000000000043"
+				"5102000000000044"
+				"5102000000000045"
+				"5102000000000046"
+				"5102000000000047"
+				"5102000000000048"
+				"5102000000000049"
+				"5102000000000050"
+				"5102000000000051"
+				"5102000000000052"
+				"5102000000000053"
+				"5102000000000054"
+				"5102000000000055"
+				"5102000000000056"
+				"5102000000000057"
+				"5102000000000058"
+				"5102000000000059"
+				"5102000000000060"
+				"5102000000000061"
+				"5102000000000062"
+				"5102000000000063"
+				"5102000000000064"
+				"5102000000000065"
+				"5102000000000066"
+				"5102000000000067"
+				"5102000000000068"
+				"5102000000000069"
+				"5102000000000070"
+				"5102000000000071"
+				"5102000000000072"
+				"5102000000000073"
+				"5102000000000074"
+				"5102000000000075"
+				"5102000000000076"
+				"5102000000000077"
+				"5102000000000078"
+				"5102000000000079"
+				"5102000000000080"
+				"5102000000000081"
+				"5102000000000082"
+				"5102000000000083"
+				"5102000000000084"
+				"5102000000000085"
+				"5102000000000086"
+				"5102000000000087"
+				"5102000000000088"
+				"5102000000000089"
+				"5102000000000090"
+				"5102000000000091"
+				"5102000000000092"
+				"5102000000000093"
+				"5102000000000094"
+				"5102000000000095"
+				"5102000000000096"
+				"5102000000000097"
+				"5102000000000098"
+				"5102000000000099"
+				"5102000000000100"
+				"5102000000000101"
+				"5102000000000102"
+				"5102000000000103"
+				"5102000000000104"
+				"5102000000000105"
+				"5102000000000106"
+				"5102000000000107"
+				"5102000000000108"
+				"5102000000000109"
+				"5102000000000110"
+				"5102000000000111"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "5102000000000999"
+			optional: true
+			rewards: [
+				{
+					id: "5300000000001123"
+					item: {
+						count: 1
+						id: "farmersdelight:netherite_knife"
+					}
+					type: "item"
+				}
+				{
+					id: "5300000000001124"
+					item: {
+						count: 1
+						id: "farmersdelight:stove"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "5300000000001125"
+					item: {
+						count: 1
+						id: "minecraft:netherite_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "5300000000001126"
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 1.8d
+			tasks: [{
+				id: "5400000000001117"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 13.0d
+		}
+	]
+}

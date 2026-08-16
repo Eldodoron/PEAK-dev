@@ -1,0 +1,12 @@
+{
+  "id": "temp_group_birch",
+  "name": {
+    "translate": "collapsible_groups.group.temp_group_birch",
+    "fallback": "Potion bucket-immersive engineering"
+  },
+  "enabled": true,
+  "filter": {
+    "type": "item",
+    "id": "immersiveengineering:potion_bucket"
+  }
+}

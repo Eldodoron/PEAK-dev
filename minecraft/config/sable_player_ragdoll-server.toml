@@ -71,11 +71,11 @@ grabEnabled = true
 #When player ragdolls expire.
 [despawn]
 	#Expire player ragdolls after the configured duration. If all despawn toggles are off, player ragdolls never expire automatically.
-	expireAfterDuration = false
+	expireAfterDuration = true
 	#Ticks after launch before a player ragdoll expires and the player is unseated.
 	# Default: 40
 	# Range: 5 ~ 600
-	ragdollDurationTicks = 40
+	ragdollDurationTicks = 80
 	#Expire player ragdolls after they touch down and slow below the release speed threshold.
 	expireWhenSlow = true
 	#Expire after touchdown only once the ragdoll slows below this speed (m/s).

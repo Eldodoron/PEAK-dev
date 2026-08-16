@@ -1,0 +1,80 @@
+{
+	id: "0F81C6E72591C001"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{
+			count: 4
+			id: "0550100000000001"
+			item: {
+				count: 1
+				id: "farmersdelight:rich_soil"
+			}
+			weight: 3.0f
+		}
+		{
+			count: 4
+			id: "0550100000000002"
+			item: {
+				count: 1
+				id: "farmersdelight:cabbage"
+			}
+			weight: 3.0f
+		}
+		{
+			count: 4
+			id: "0550100000000003"
+			item: {
+				count: 1
+				id: "farmersdelight:tomato"
+			}
+			weight: 3.0f
+		}
+		{
+			count: 4
+			id: "0550100000000004"
+			item: {
+				count: 1
+				id: "farmersdelight:onion"
+			}
+			weight: 3.0f
+		}
+		{
+			count: 4
+			id: "0550100000000005"
+			item: {
+				count: 1
+				id: "farmersdelight:rice"
+			}
+			weight: 3.0f
+		}
+		{
+			count: 4
+			id: "0550100000000006"
+			item: {
+				count: 1
+				id: "farmersdelight:wheat_dough"
+			}
+			weight: 2.0f
+		}
+		{
+			count: 2
+			id: "0550100000000007"
+			item: {
+				count: 1
+				id: "farmersdelight:tomato_sauce"
+			}
+			weight: 2.0f
+		}
+		{ id: "0550100000000008", item: { count: 1, id: "farmersdelight:iron_knife" } }
+		{
+			count: 2
+			id: "0550100000000009"
+			item: {
+				count: 1
+				id: "minecraft:emerald"
+			}
+			weight: 2.0f
+		}
+	]
+}

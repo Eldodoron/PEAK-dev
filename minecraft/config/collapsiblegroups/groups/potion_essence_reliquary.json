@@ -1,0 +1,12 @@
+{
+  "id": "potion_essence_reliquary",
+  "name": {
+    "translate": "collapsible_groups.group.potion_essence_reliquary",
+    "fallback": "Potion Essence-Reliquary"
+  },
+  "enabled": true,
+  "filter": {
+    "type": "item",
+    "id": "reliquary:potion_essence"
+  }
+}

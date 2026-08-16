@@ -1,0 +1,505 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "simply_crossmod"
+	group: "2000000000000000"
+	id: "2105000000000000"
+	images: [
+		{
+			height: 2.2d
+			id: "2DA317508D0C39E9"
+			image: "minecraft:block/soul_fire_0"
+			rotation: 0.0d
+			width: 2.2d
+			x: 0.0d
+			y: -2.6d
+		}
+		{
+			height: 1.6d
+			id: "00BBF08A72B35213"
+			image: "minecraft:item/nether_star"
+			rotation: 0.0d
+			width: 1.6d
+			x: -2.2d
+			y: 11.0d
+		}
+		{
+			height: 1.6d
+			id: "00A5CDDCB390CD07"
+			image: "minecraft:item/nether_star"
+			rotation: 0.0d
+			width: 1.6d
+			x: 2.2d
+			y: 11.0d
+		}
+	]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			id: "2006000000000000"
+			rewards: [
+				{
+					count: 8
+					id: "3000000000000144"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000000000145"
+					table_id: 1117392878634643457L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			size: 1.7d
+			tasks: [{
+				id: "4000000000000132"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2006000000000000"]
+			id: "2006000000000001"
+			rewards: [{
+				id: "3000000000000146"
+				table_id: 1117392878634643457L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000133"
+				item: { count: 1, id: "simplycataclysm:ancient_metal_longsword" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2006000000000000"]
+			id: "2006000000000002"
+			rewards: [{
+				id: "3000000000000147"
+				table_id: 1117392878634643457L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000134"
+				item: { count: 1, id: "simplycataclysm:black_steel_longsword" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2006000000000000"]
+			id: "2006000000000003"
+			rewards: [{
+				id: "3000000000000148"
+				table_id: 1117392878634643457L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000135"
+				item: { count: 1, id: "simplycataclysm:cursium_longsword" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2006000000000000"]
+			id: "2006000000000004"
+			rewards: [{
+				id: "3000000000000149"
+				table_id: 1117392878634643457L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000136"
+				item: { count: 1, id: "simplycataclysm:ignitium_longsword" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2006000000000000"]
+			id: "2006000000000005"
+			rewards: [{
+				id: "3000000000000150"
+				table_id: 1117392878634643457L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000137"
+				item: { count: 1, id: "simplycataclysm:witherite_longsword" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2006000000000000"]
+			id: "2006000000000006"
+			rewards: [{
+				id: "3000000000000151"
+				table_id: 1117392878634643457L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000138"
+				item: { count: 1, id: "integrated_simply_swords:iceandfire/dragonbone/longsword" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2006000000000000"]
+			id: "2006000000000007"
+			rewards: [{
+				id: "3000000000000152"
+				table_id: 1117392878634643457L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000139"
+				item: { count: 1, id: "integrated_simply_swords:iceandfire/dragonbone_fire/longsword" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2006000000000000"]
+			id: "2006000000000008"
+			rewards: [{
+				id: "3000000000000153"
+				table_id: 1117392878634643457L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000140"
+				item: { count: 1, id: "integrated_simply_swords:iceandfire/dragonbone_ice/longsword" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2006000000000000"]
+			id: "2006000000000009"
+			rewards: [{
+				id: "3000000000000154"
+				table_id: 1117392878634643457L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000141"
+				item: { count: 1, id: "integrated_simply_swords:iceandfire/dragonbone_lightning/longsword" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2006000000000000"]
+			id: "200600000000000A"
+			rewards: [{
+				id: "3000000000000155"
+				table_id: 1117392878634643457L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000142"
+				item: { count: 1, id: "integrated_simply_swords:iceandfire/dragonsteel_fire/longsword" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2006000000000000"]
+			id: "200600000000000B"
+			rewards: [{
+				id: "3000000000000156"
+				table_id: 1117392878634643457L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000143"
+				item: { count: 1, id: "integrated_simply_swords:iceandfire/dragonsteel_ice/longsword" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2006000000000000"]
+			id: "200600000000000C"
+			rewards: [{
+				id: "3000000000000157"
+				table_id: 1117392878634643457L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000144"
+				item: { count: 1, id: "integrated_simply_swords:iceandfire/dragonsteel_lightning/longsword" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2006000000000000"]
+			id: "200600000000000D"
+			rewards: [{
+				id: "3000000000000158"
+				table_id: 1117392878634643457L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000145"
+				item: { count: 1, id: "integrated_simply_swords:silver/longsword" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2006000000000000"]
+			id: "200600000000000E"
+			rewards: [{
+				id: "3000000000000159"
+				table_id: 1117392878634643457L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000146"
+				item: { count: 1, id: "integrated_simply_swords:knavesneeds/twilight_forest/ironwood/longsword" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2006000000000000"]
+			id: "200600000000000F"
+			rewards: [{
+				id: "3000000000000160"
+				table_id: 1117392878634643457L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000147"
+				item: { count: 1, id: "integrated_simply_swords:knavesneeds/twilight_forest/steeleaf/longsword" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2006000000000000"]
+			id: "2006000000000010"
+			rewards: [{
+				id: "3000000000000161"
+				table_id: 1117392878634643457L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000148"
+				item: { count: 1, id: "integrated_simply_swords:knavesneeds/twilight_forest/knightmetal/longsword" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2006000000000000"]
+			id: "2006000000000011"
+			rewards: [{
+				id: "3000000000000162"
+				table_id: 1117392878634643457L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000149"
+				item: { count: 1, id: "integrated_simply_swords:knavesneeds/twilight_forest/fiery/longsword" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2006000000000000"]
+			id: "2006000000000012"
+			rewards: [{
+				id: "3000000000000163"
+				table_id: 1117392878634643457L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000150"
+				item: { count: 1, id: "integrated_simply_swords:knavesneeds/undergarden/cloggrum/longsword" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["2006000000000000"]
+			id: "2006000000000013"
+			rewards: [{
+				id: "3000000000000164"
+				table_id: 1117392878634643457L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000151"
+				item: { count: 1, id: "integrated_simply_swords:knavesneeds/undergarden/froststeel/longsword" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["2006000000000000"]
+			id: "2006000000000014"
+			rewards: [{
+				id: "3000000000000165"
+				table_id: 1117392878634643457L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000152"
+				item: { count: 1, id: "integrated_simply_swords:knavesneeds/undergarden/utherium/longsword" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["2006000000000000"]
+			id: "2006000000000015"
+			rewards: [{
+				id: "3000000000000166"
+				table_id: 1117392878634643457L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000153"
+				item: { count: 1, id: "integrated_simply_swords:knavesneeds/undergarden/forgotten/longsword" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["2006000000000000"]
+			id: "2006000000000016"
+			rewards: [{
+				id: "3000000000000167"
+				table_id: 1117392878634643457L
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4000000000000154"
+				item: { count: 1, id: "integrated_simply_swords:knavesneeds/deeperdarker/warden/longsword" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 8.5d
+		}
+		{
+			dependencies: [
+				"2006000000000001"
+				"2006000000000002"
+				"2006000000000003"
+				"2006000000000004"
+				"2006000000000005"
+				"2006000000000006"
+				"2006000000000007"
+				"2006000000000008"
+				"2006000000000009"
+				"200600000000000A"
+				"200600000000000B"
+				"200600000000000C"
+				"200600000000000D"
+				"200600000000000E"
+				"200600000000000F"
+				"2006000000000010"
+				"2006000000000011"
+				"2006000000000012"
+				"2006000000000013"
+				"2006000000000014"
+				"2006000000000015"
+				"2006000000000016"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "2006000000000099"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "3000000000000168"
+					item: {
+						count: 1
+						id: "minecraft:netherite_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "3000000000000169"
+					item: {
+						count: 1
+						id: "apotheosis:gem_dust"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000000000170"
+					table_id: 1117392878634643459L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 1.7d
+			tasks: [{
+				id: "4000000000000155"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 11.0d
+		}
+	]
+}

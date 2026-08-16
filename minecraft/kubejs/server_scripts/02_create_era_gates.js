@@ -292,7 +292,7 @@ ServerEvents.recipes(event => {
 
 
     // --- REMOVE DEFAULT UPGRADE RECIPES ---
-    event.remove({ id: 'sophisticatedbackpacks:upgrade_base' });
+    // event.remove({ id: 'sophisticatedbackpacks:upgrade_base' });
     event.remove({ id: 'sophisticatedbackpacks:magnet_upgrade' });
     event.remove({ id: 'sophisticatedbackpacks:advanced_magnet_upgrade' });
     event.remove({ id: 'sophisticatedbackpacks:filter_upgrade' });

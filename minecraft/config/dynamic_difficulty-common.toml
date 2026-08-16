@@ -96,7 +96,13 @@
 	#Entities that cannot level up
 	#Supports wildcards: use 'modid:*' to blacklist all entities from a mod
 	#Examples: ["minecraft:zombie", "minecraft:skeleton", "cataclysm:*"]
-	blacklisted_entities = ["unusualend:endstone_trapper", "artifacts:mimic", "mowziesmobs:foliaath"]
+	blacklisted_entities = [
+		"unusualend:endstone_trapper", "artifacts:mimic", "mowziesmobs:foliaath",
+		"aquaculture:*", "cosycritters:*", "adorablehamsterpets:*", "goodending:*", "naturalist:*",
+		"twilightforest:bighorn_sheep", "twilightforest:boar", "twilightforest:deer", "twilightforest:dwarf_rabbit", "twilightforest:penguin", "twilightforest:raven", "twilightforest:squirrel", "twilightforest:tiny_bird",
+		"friendsandfoes:moobloom", "friendsandfoes:glare", "friendsandfoes:copper_golem", "friendsandfoes:tuff_golem",
+		"alexsmobs:bald_eagle", "alexsmobs:banana_slug", "alexsmobs:bison", "alexsmobs:blobfish", "alexsmobs:blue_jay", "alexsmobs:cachalot_whale", "alexsmobs:capuchin_monkey", "alexsmobs:catfish", "alexsmobs:cockroach", "alexsmobs:comb_jelly", "alexsmobs:crow", "alexsmobs:elephant", "alexsmobs:emu", "alexsmobs:endergrade", "alexsmobs:flutter", "alexsmobs:fly", "alexsmobs:flying_fish", "alexsmobs:frilled_shark", "alexsmobs:gazelle", "alexsmobs:gelada_monkey", "alexsmobs:gorilla", "alexsmobs:grizzly_bear", "alexsmobs:hummingbird", "alexsmobs:jerboa", "alexsmobs:kangaroo", "alexsmobs:kiwi", "alexsmobs:leafcutter_ant", "alexsmobs:lobster", "alexsmobs:macaw", "alexsmobs:maned_wolf", "alexsmobs:mantis_shrimp", "alexsmobs:mimic_octopus", "alexsmobs:moose", "alexsmobs:mudskipper", "alexsmobs:mungu", "alexsmobs:orca", "alexsmobs:platypus", "alexsmobs:potoo", "alexsmobs:raccoon", "alexsmobs:rain_frog", "alexsmobs:rhinoceros", "alexsmobs:roadrunner", "alexsmobs:seagull", "alexsmobs:seal", "alexsmobs:shoebill", "alexsmobs:skunk", "alexsmobs:snow_leopard", "alexsmobs:sugar_glider", "alexsmobs:sunbird", "alexsmobs:terrapin", "alexsmobs:tiger", "alexsmobs:toucan", "alexsmobs:triops", "alexsmobs:tusklin"
+	]
 	#If not empty, only these entities can level up
 	#Supports wildcards: use 'modid:*' to whitelist all entities from a mod
 	#Examples: ["minecraft:zombie", "cataclysm:*"]
@@ -108,7 +114,7 @@
 	#bonus_per_level: The amount to add per entity level
 	#operation: add_value (flat addition), add_multiplied_base (percentage of base), or add_multiplied_total (percentage of final value)
 	#Leave empty to disable all attribute bonuses
-	level_bonus_per_attribute = [["minecraft:generic.attack_damage", 0.25, "add_value"], ["minecraft:generic.armor", 0.2, "add_value"], ["minecraft:generic.max_health", 0.05, "add_multiplied_base"], ["dynamic_difficulty:projectile_damage_bonus", 0.25, "add_value"], ["dynamic_difficulty:magic_damage_bonus", 0.1, "add_value"], ["dynamic_difficulty:explosion_damage_bonus", 0.25, "add_value"]]
+	level_bonus_per_attribute = [["minecraft:generic.attack_damage", 0.15, "add_value"], ["minecraft:generic.armor", 0.05, "add_value"], ["minecraft:generic.max_health", 0.05, "add_multiplied_base"], ["dynamic_difficulty:projectile_damage_bonus", 0.15, "add_value"], ["dynamic_difficulty:magic_damage_bonus", 0.05, "add_value"], ["dynamic_difficulty:explosion_damage_bonus", 0.15, "add_value"]]
 
 [level_up_items]
 	#Maximum level that Potion of Growth can raise an entity to

@@ -67,9 +67,13 @@ Dependencies, duplicate removal, and configuration tweaks.
   - **Issue:** Opening DH options on the main menu crashes the client because Tombstone's server config is queried by SimplyTooltips before NeoForge loads it.
   - **Workaround:** Currently disabled via `showDhOptionsButtonInMinecraftUi = false` in `DistantHorizons.toml`.
   - **Action Required:** Correct this properly (e.g., update mods, report conflict, or investigate SimplyTooltips / Tombstone load-safe config adjustments) so the button can be re-enabled.
-- [ ] **Shine & Reese's Sodium Options Update Watch (Sodium 0.8+ Compatibility):**
-  - **Issue:** **Shine** (`shine-2.0.1`) requires Sodium `<= 0.6.13`, and **Reese's Sodium Options** (`2.2.3`) is incompatible with `sodiumoptionsapi` in Sodium 0.8+. Both were disabled to allow Sodium `0.8.13+` (required by Sable/Veil).
-  - **Action Required:** **[SUPER IMPORTANT]** Actively monitor for future updates to **Shine** on NeoForge 1.21.1 that support Sodium 0.8+, and re-enable Shine as soon as a compatible version is released.
+- [ ] **Shine 3.0 Migration & Visual Mods Clean-up Plan (Sodium 0.8+ & Full Visual Overhaul):**
+  - **Context:** Shine 3.0 is a massive upcoming visual, atmospheric, and ambient fauna overhaul (`https://shine-wiki.pages.dev/reference/feature-explorer`). It provides Bloom, Rimlight, Colored Lighting, procedural 3D Grass Blades, Client-side Ambient Birds (`shine-bird-v1`), Interactive Flowers (`shine-flower-v1`), and Dynamic Weather (Light Rain, Nether Storms, Rainbows, Vultures).
+  - **Action 1 (Particular Removal):** Remove `particular` completely (`particular-*.jar`), as Shine 3.0's particle engine and `.shinepack` system fully obsolete it.
+  - **Action 2 (Cosy Critters Reconfiguration):** In `config/cosycritters.json`, set `"spawnBird": false` and `"maxBirds": 0` so Shine 3.0 handles all avian ambient life on the client side without server entity tick overhead. Keep Cosy Critters solely for cave critters/arachnids (`spawnSpider: true`, `spawnMoth: true`).
+  - **Action 3 (Particle Rain Review):** Evaluate removing `particlerain-*.jar` to consolidate weather effects under Shine 3.0.
+  - **Action 4 (Custom Shine Packs via Paxi/KubeJS):** Create custom bird and flower definitions under `kubejs/assets/peak/shine/birds/` and `flowers/` tailored to PEAK dev biomes and dimensions.
+  - **Action 5 (Compatibility Tuning):** Use `config/shine_compatibility.json` and `shine-compat-v2` rules to manage claims/suppressions with `Visuality` and `GoodEnding`.
 
 
 ---

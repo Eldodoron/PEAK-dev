@@ -1,0 +1,57 @@
+{
+	id: "0F81C6E72591C002"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{
+			id: "0550200000000001"
+			item: {
+				count: 1
+				id: "farmersdelight:skillet"
+			}
+			weight: 2.0f
+		}
+		{
+			id: "0550200000000002"
+			item: {
+				count: 1
+				id: "farmersdelight:cooking_pot"
+			}
+			weight: 2.0f
+		}
+		{ id: "0550200000000003", item: { count: 1, id: "farmersdelight:diamond_knife" } }
+		{
+			id: "0550200000000004"
+			item: {
+				count: 1
+				id: "farmersdelight:roast_chicken"
+			}
+			weight: 2.0f
+		}
+		{
+			id: "0550200000000005"
+			item: {
+				count: 1
+				id: "farmersdelight:honey_glazed_ham"
+			}
+			weight: 2.0f
+		}
+		{
+			id: "0550200000000006"
+			item: {
+				count: 1
+				id: "farmersdelight:shepherds_pie"
+			}
+			weight: 2.0f
+		}
+		{
+			count: 8
+			id: "0550200000000007"
+			item: {
+				count: 1
+				id: "minecraft:emerald"
+			}
+			weight: 2.0f
+		}
+	]
+}

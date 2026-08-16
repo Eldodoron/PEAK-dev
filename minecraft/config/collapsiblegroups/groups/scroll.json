@@ -1,0 +1,12 @@
+{
+  "id": "scroll",
+  "name": {
+    "translate": "collapsible_groups.group.scroll",
+    "fallback": "scrolls"
+  },
+  "enabled": true,
+  "filter": {
+    "type": "item",
+    "id": "irons_spellbooks:scroll"
+  }
+}

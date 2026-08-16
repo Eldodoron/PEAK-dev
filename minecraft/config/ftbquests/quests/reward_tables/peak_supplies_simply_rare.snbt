@@ -1,0 +1,84 @@
+{
+	id: "0F81C6E72591B002"
+	loot_crate: {
+		color: 5636095
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "peak_simply_rare"
+	}
+	loot_size: 1
+	order_index: 8
+	rewards: [
+		{
+			count: 4
+			id: "34B69E35B21F12CE"
+			item: {
+				count: 1
+				id: "apotheosis:gem_dust"
+			}
+			weight: 15.0f
+		}
+		{
+			count: 4
+			id: "2B9EB5156FEBE7E3"
+			item: {
+				count: 1
+				id: "minecraft:diamond"
+			}
+			weight: 15.0f
+		}
+		{
+			count: 2
+			id: "490293AF74E4CDA6"
+			item: {
+				count: 1
+				id: "minecraft:netherite_scrap"
+			}
+			weight: 5.0f
+		}
+		{
+			id: "6D446C7F0F2D8E3F"
+			item: {
+				count: 1
+				id: "simplyswords:runic_tablet"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "32BA8D3858ABB4C9"
+			item: {
+				count: 1
+				id: "minecraft:experience_bottle"
+			}
+			weight: 20.0f
+		}
+		{
+			id: "7701544A54F69E83"
+			item: {
+				count: 1
+				id: "minecraft:enchanted_golden_apple"
+			}
+			weight: 3.0f
+		}
+		{
+			count: 8
+			id: "39D04FEC9E6B14B0"
+			item: {
+				count: 1
+				id: "minecraft:lapis_lazuli"
+			}
+			weight: 15.0f
+		}
+		{
+			id: "16074FE0F7843F43"
+			item: {
+				count: 1
+				id: "minecraft:anvil"
+			}
+			weight: 5.0f
+		}
+	]
+}

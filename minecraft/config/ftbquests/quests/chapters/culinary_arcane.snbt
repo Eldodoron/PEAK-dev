@@ -1,0 +1,1605 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "culinary_arcane"
+	group: "5000000000000000"
+	id: "5203000000000000"
+	images: [
+		{
+			height: 2.0d
+			id: "2B66D48EE75EC7EB"
+			image: "minecraft:item/experience_bottle"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: -2.6d
+		}
+		{
+			height: 1.8d
+			id: "47E7704925472E64"
+			image: "minecraft:item/experience_bottle"
+			rotation: 0.0d
+			width: 1.8d
+			x: -9.0d
+			y: -11.0d
+		}
+		{
+			height: 1.8d
+			id: "060934587BF3A233"
+			image: "minecraft:item/nether_star"
+			rotation: 0.0d
+			width: 1.8d
+			x: 9.0d
+			y: -11.0d
+		}
+		{
+			height: 1.6d
+			id: "7821653980A7BFAD"
+			image: "minecraft:item/nether_star"
+			rotation: 0.0d
+			width: 1.6d
+			x: -2.2d
+			y: 13.0d
+		}
+		{
+			height: 1.6d
+			id: "7D9704631B0028FF"
+			image: "minecraft:item/nether_star"
+			rotation: 0.0d
+			width: 1.6d
+			x: 2.2d
+			y: 13.0d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "5103000000000000"
+			rewards: [
+				{
+					count: 4
+					id: "5300000000002001"
+					item: {
+						count: 1
+						id: "ars_nouveau:sourceberry_bush"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "5300000000002002"
+					item: {
+						count: 1
+						id: "ars_nouveau:source_gem"
+					}
+					type: "item"
+				}
+				{
+					id: "5300000000002003"
+					type: "random"
+				}
+			]
+			shape: "gear"
+			size: 1.7d
+			tasks: [{
+				id: "5400000000002001"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5103000000000000"]
+			hide_dependency_lines: true
+			id: "5103000000000801"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "5300000000002004"
+					item: {
+						count: 1
+						id: "arsdelight:source_berry_jam"
+					}
+					type: "item"
+				}
+				{
+					id: "5300000000002005"
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			size: 1.3d
+			tasks: [{
+				id: "5400000000002002"
+				type: "checkmark"
+			}]
+			x: -9.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["5103000000000000"]
+			hide_dependency_lines: true
+			id: "5103000000000001"
+			optional: true
+			rewards: [{
+				id: "5300000000002006"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000002003"
+				item: { count: 1, id: "ars_nouveau:sourceberry_bush" }
+				type: "item"
+			}]
+			x: -14.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["5103000000000000"]
+			hide_dependency_lines: true
+			id: "5103000000000002"
+			optional: true
+			rewards: [{
+				id: "5300000000002007"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000002004"
+				item: { count: 1, id: "ars_nouveau:bastion_pod" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["5103000000000000"]
+			hide_dependency_lines: true
+			id: "5103000000000003"
+			optional: true
+			rewards: [{
+				id: "5300000000002008"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000002005"
+				item: { count: 1, id: "ars_nouveau:bombegranate_pod" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["5103000000000000"]
+			hide_dependency_lines: true
+			id: "5103000000000004"
+			optional: true
+			rewards: [{
+				id: "5300000000002009"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000002006"
+				item: { count: 1, id: "ars_nouveau:frostaya_pod" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["5103000000000000"]
+			hide_dependency_lines: true
+			id: "5103000000000005"
+			optional: true
+			rewards: [{
+				id: "5300000000002010"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000002007"
+				item: { count: 1, id: "ars_nouveau:mendosteen_pod" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["5103000000000000"]
+			hide_dependency_lines: true
+			id: "5103000000000006"
+			optional: true
+			rewards: [{
+				id: "5300000000002011"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000002008"
+				item: { count: 1, id: "arsdelight:source_berry_jam" }
+				type: "item"
+			}]
+			x: -14.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5103000000000000"]
+			hide_dependency_lines: true
+			id: "5103000000000007"
+			optional: true
+			rewards: [{
+				id: "5300000000002012"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000002009"
+				item: { count: 1, id: "arsdelight:source_berry_jelly" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5103000000000000"]
+			hide_dependency_lines: true
+			id: "5103000000000008"
+			optional: true
+			rewards: [{
+				id: "5300000000002013"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000002010"
+				item: { count: 1, id: "arsdelight:bastion_jelly" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5103000000000000"]
+			hide_dependency_lines: true
+			id: "5103000000000009"
+			optional: true
+			rewards: [{
+				id: "5300000000002014"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000002011"
+				item: { count: 1, id: "arsdelight:activated_bastion_jam" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5103000000000000"]
+			hide_dependency_lines: true
+			id: "5103000000000010"
+			optional: true
+			rewards: [{
+				id: "5300000000002015"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000002012"
+				item: { count: 1, id: "arsdelight:bombegrante_jelly" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5103000000000000"]
+			hide_dependency_lines: true
+			id: "5103000000000011"
+			optional: true
+			rewards: [{
+				id: "5300000000002016"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000002013"
+				item: { count: 1, id: "arsdelight:neutralized_bombegrante_jam" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5103000000000000"]
+			hide_dependency_lines: true
+			id: "5103000000000012"
+			optional: true
+			rewards: [{
+				id: "5300000000002017"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000002014"
+				item: { count: 1, id: "arsdelight:frostaya_jelly" }
+				type: "item"
+			}]
+			x: -14.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5103000000000000"]
+			hide_dependency_lines: true
+			id: "5103000000000013"
+			optional: true
+			rewards: [{
+				id: "5300000000002018"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000002015"
+				item: { count: 1, id: "arsdelight:neutralized_frostaya_jam" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5103000000000000"]
+			hide_dependency_lines: true
+			id: "5103000000000014"
+			optional: true
+			rewards: [{
+				id: "5300000000002019"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000002016"
+				item: { count: 1, id: "arsdelight:mendosteen_jelly" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5103000000000000"]
+			hide_dependency_lines: true
+			id: "5103000000000015"
+			optional: true
+			rewards: [{
+				id: "5300000000002020"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000002017"
+				item: { count: 1, id: "arsdelight:activated_mendosteen_jam" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5103000000000000"]
+			hide_dependency_lines: true
+			id: "5103000000000016"
+			optional: true
+			rewards: [{
+				id: "5300000000002021"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000002018"
+				item: { count: 1, id: "arsdelight:arch_sauce" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5103000000000000"]
+			hide_dependency_lines: true
+			id: "5103000000000017"
+			optional: true
+			rewards: [{
+				id: "5300000000002022"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000002019"
+				item: { count: 1, id: "arsdelight:wilden_sauce" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5103000000000000"]
+			hide_dependency_lines: true
+			id: "5103000000000018"
+			optional: true
+			rewards: [{
+				id: "5300000000002023"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000002020"
+				item: { count: 1, id: "arsdelight:horn_roll" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5103000000000000"]
+			hide_dependency_lines: true
+			id: "5103000000000802"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "5300000000002024"
+					item: {
+						count: 1
+						id: "arsdelight:grilled_wilden_skewer"
+					}
+					type: "item"
+				}
+				{
+					id: "5300000000002025"
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			size: 1.3d
+			tasks: [{
+				id: "5400000000002021"
+				type: "checkmark"
+			}]
+			x: 9.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["5103000000000000"]
+			hide_dependency_lines: true
+			id: "5103000000000019"
+			optional: true
+			rewards: [{
+				id: "5300000000002026"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000002022"
+				item: { count: 1, id: "arsdelight:wilden_meat" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["5103000000000000"]
+			hide_dependency_lines: true
+			id: "5103000000000020"
+			optional: true
+			rewards: [{
+				id: "5300000000002027"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000002023"
+				item: { count: 1, id: "arsdelight:wilden_meat_slice" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["5103000000000000"]
+			hide_dependency_lines: true
+			id: "5103000000000021"
+			optional: true
+			rewards: [{
+				id: "5300000000002028"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000002024"
+				item: { count: 1, id: "arsdelight:grilled_wilden_meat" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["5103000000000000"]
+			hide_dependency_lines: true
+			id: "5103000000000022"
+			optional: true
+			rewards: [{
+				id: "5300000000002029"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000002025"
+				item: { count: 1, id: "arsdelight:grilled_wilden_meat_slice" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["5103000000000000"]
+			hide_dependency_lines: true
+			id: "5103000000000023"
+			optional: true
+			rewards: [{
+				id: "5300000000002030"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000002026"
+				item: { count: 1, id: "arsdelight:wilden_skewer" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["5103000000000000"]
+			hide_dependency_lines: true
+			id: "5103000000000024"
+			optional: true
+			rewards: [{
+				id: "5300000000002031"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000002027"
+				item: { count: 1, id: "arsdelight:grilled_wilden_skewer" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["5103000000000000"]
+			hide_dependency_lines: true
+			id: "5103000000000025"
+			optional: true
+			rewards: [{
+				id: "5300000000002032"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000002028"
+				item: { count: 1, id: "arsdelight:bowl_of_wilden_salad" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["5103000000000000"]
+			hide_dependency_lines: true
+			id: "5103000000000026"
+			optional: true
+			rewards: [{
+				id: "5300000000002033"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000002029"
+				item: { count: 1, id: "arsdelight:wilden_stew" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5103000000000000"]
+			hide_dependency_lines: true
+			id: "5103000000000027"
+			optional: true
+			rewards: [{
+				id: "5300000000002034"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000002030"
+				item: { count: 1, id: "arsdelight:chimera_meat" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5103000000000000"]
+			hide_dependency_lines: true
+			id: "5103000000000028"
+			optional: true
+			rewards: [{
+				id: "5300000000002035"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000002031"
+				item: { count: 1, id: "arsdelight:chimera_meat_slice" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5103000000000000"]
+			hide_dependency_lines: true
+			id: "5103000000000029"
+			optional: true
+			rewards: [{
+				id: "5300000000002036"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000002032"
+				item: { count: 1, id: "arsdelight:grilled_chimera_meat" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5103000000000000"]
+			hide_dependency_lines: true
+			id: "5103000000000030"
+			optional: true
+			rewards: [{
+				id: "5300000000002037"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000002033"
+				item: { count: 1, id: "arsdelight:grilled_chimera_meat_slice" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5103000000000000"]
+			hide_dependency_lines: true
+			id: "5103000000000031"
+			optional: true
+			rewards: [{
+				id: "5300000000002038"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000002034"
+				item: { count: 1, id: "arsdelight:chimera_skewer" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5103000000000000"]
+			hide_dependency_lines: true
+			id: "5103000000000032"
+			optional: true
+			rewards: [{
+				id: "5300000000002039"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000002035"
+				item: { count: 1, id: "arsdelight:grilled_chimera_skewer" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5103000000000000"]
+			hide_dependency_lines: true
+			id: "5103000000000033"
+			optional: true
+			rewards: [{
+				id: "5300000000002040"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000002036"
+				item: { count: 1, id: "arsdelight:bowl_of_honey_glazed_chimera" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5103000000000000"]
+			hide_dependency_lines: true
+			id: "5103000000000034"
+			optional: true
+			rewards: [{
+				id: "5300000000002041"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000002037"
+				item: { count: 1, id: "arsdelight:bastion_pork" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5103000000000000"]
+			hide_dependency_lines: true
+			id: "5103000000000035"
+			optional: true
+			rewards: [{
+				id: "5300000000002042"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000002038"
+				item: { count: 1, id: "arsdelight:bombegrante_steak" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5103000000000000"]
+			hide_dependency_lines: true
+			id: "5103000000000036"
+			optional: true
+			rewards: [{
+				id: "5300000000002043"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000002039"
+				item: { count: 1, id: "arsdelight:frostaya_mutton" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5103000000000000"]
+			hide_dependency_lines: true
+			id: "5103000000000037"
+			optional: true
+			rewards: [{
+				id: "5300000000002044"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000002040"
+				item: { count: 1, id: "arsdelight:mendosteen_chicken" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5103000000000000"]
+			hide_dependency_lines: true
+			id: "5103000000000038"
+			optional: true
+			rewards: [{
+				id: "5300000000002045"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000002041"
+				item: { count: 1, id: "arsdelight:arch_soup" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5103000000000000"]
+			hide_dependency_lines: true
+			id: "5103000000000803"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "5300000000002046"
+					item: {
+						count: 1
+						id: "arsdelight:source_berry_tea"
+					}
+					type: "item"
+				}
+				{
+					id: "5300000000002047"
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			size: 1.3d
+			tasks: [{
+				id: "5400000000002042"
+				type: "checkmark"
+			}]
+			x: -9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5103000000000000"]
+			hide_dependency_lines: true
+			id: "5103000000000039"
+			optional: true
+			rewards: [{
+				id: "5300000000002048"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000002043"
+				item: { count: 1, id: "arsdelight:source_berry_tea" }
+				type: "item"
+			}]
+			x: -14.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5103000000000000"]
+			hide_dependency_lines: true
+			id: "5103000000000040"
+			optional: true
+			rewards: [{
+				id: "5300000000002049"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000002044"
+				item: { count: 1, id: "arsdelight:bastion_tea" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5103000000000000"]
+			hide_dependency_lines: true
+			id: "5103000000000041"
+			optional: true
+			rewards: [{
+				id: "5300000000002050"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000002045"
+				item: { count: 1, id: "arsdelight:bombegrante_tea" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5103000000000000"]
+			hide_dependency_lines: true
+			id: "5103000000000042"
+			optional: true
+			rewards: [{
+				id: "5300000000002051"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000002046"
+				item: { count: 1, id: "arsdelight:frostaya_tea" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5103000000000000"]
+			hide_dependency_lines: true
+			id: "5103000000000043"
+			optional: true
+			rewards: [{
+				id: "5300000000002052"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000002047"
+				item: { count: 1, id: "arsdelight:mendosteen_tea" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5103000000000000"]
+			hide_dependency_lines: true
+			id: "5103000000000044"
+			optional: true
+			rewards: [{
+				id: "5300000000002053"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000002048"
+				item: { count: 1, id: "arsdelight:source_berry_hornbeer" }
+				type: "item"
+			}]
+			x: -14.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5103000000000000"]
+			hide_dependency_lines: true
+			id: "5103000000000045"
+			optional: true
+			rewards: [{
+				id: "5300000000002054"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000002049"
+				item: { count: 1, id: "arsdelight:bastion_hornbeer" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5103000000000000"]
+			hide_dependency_lines: true
+			id: "5103000000000046"
+			optional: true
+			rewards: [{
+				id: "5300000000002055"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000002050"
+				item: { count: 1, id: "arsdelight:bombegrante_hornbeer" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5103000000000000"]
+			hide_dependency_lines: true
+			id: "5103000000000047"
+			optional: true
+			rewards: [{
+				id: "5300000000002056"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000002051"
+				item: { count: 1, id: "arsdelight:frostaya_hornbeer" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5103000000000000"]
+			hide_dependency_lines: true
+			id: "5103000000000048"
+			optional: true
+			rewards: [{
+				id: "5300000000002057"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000002052"
+				item: { count: 1, id: "arsdelight:mendosteen_hornbeer" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5103000000000000"]
+			hide_dependency_lines: true
+			id: "5103000000000049"
+			optional: true
+			rewards: [{
+				id: "5300000000002058"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000002053"
+				item: { count: 1, id: "arsdelight:unstable_cocktail" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5103000000000000"]
+			hide_dependency_lines: true
+			id: "5103000000000050"
+			optional: true
+			rewards: [{
+				id: "5300000000002059"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000002054"
+				item: { count: 1, id: "arsdelight:source_berry_cookie" }
+				type: "item"
+			}]
+			x: -14.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5103000000000000"]
+			hide_dependency_lines: true
+			id: "5103000000000051"
+			optional: true
+			rewards: [{
+				id: "5300000000002060"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000002055"
+				item: { count: 1, id: "arsdelight:source_berry_cupcake" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5103000000000000"]
+			hide_dependency_lines: true
+			id: "5103000000000052"
+			optional: true
+			rewards: [{
+				id: "5300000000002061"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000002056"
+				item: { count: 1, id: "arsdelight:source_berry_pie_slice" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5103000000000000"]
+			hide_dependency_lines: true
+			id: "5103000000000053"
+			optional: true
+			rewards: [{
+				id: "5300000000002062"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000002057"
+				item: { count: 1, id: "ars_nouveau:source_berry_pie" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5103000000000000"]
+			hide_dependency_lines: true
+			id: "5103000000000054"
+			optional: true
+			rewards: [{
+				id: "5300000000002063"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000002058"
+				item: { count: 1, id: "ars_nouveau:source_berry_roll" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5103000000000000"]
+			hide_dependency_lines: true
+			id: "5103000000000804"
+			optional: true
+			rewards: [
+				{
+					id: "5300000000002064"
+					item: {
+						count: 1
+						id: "allthemodium:allthemodium_carrot"
+					}
+					type: "item"
+				}
+				{
+					id: "5300000000002065"
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			size: 1.3d
+			tasks: [{
+				id: "5400000000002059"
+				type: "checkmark"
+			}]
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5103000000000000"]
+			hide_dependency_lines: true
+			id: "5103000000000055"
+			optional: true
+			rewards: [{
+				id: "5300000000002066"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000002060"
+				item: { count: 1, id: "lendersdelight:cooked_netherite_monstrosity_meat" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5103000000000000"]
+			hide_dependency_lines: true
+			id: "5103000000000056"
+			optional: true
+			rewards: [{
+				id: "5300000000002067"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000002061"
+				item: { count: 1, id: "lendersdelight:cooked_ender_golem_meat" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5103000000000000"]
+			hide_dependency_lines: true
+			id: "5103000000000057"
+			optional: true
+			rewards: [{
+				id: "5300000000002068"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000002062"
+				item: { count: 1, id: "lendersdelight:cooked_coral_golem_meat" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5103000000000000"]
+			hide_dependency_lines: true
+			id: "5103000000000058"
+			optional: true
+			rewards: [{
+				id: "5300000000002069"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000002063"
+				item: { count: 1, id: "lendersdelight:cooked_leviathan" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5103000000000000"]
+			hide_dependency_lines: true
+			id: "5103000000000059"
+			optional: true
+			rewards: [{
+				id: "5300000000002070"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000002064"
+				item: { count: 1, id: "lendersdelight:cooked_berserker" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5103000000000000"]
+			hide_dependency_lines: true
+			id: "5103000000000060"
+			optional: true
+			rewards: [{
+				id: "5300000000002071"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000002065"
+				item: { count: 1, id: "lendersdelight:cooked_koboleton_meat" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5103000000000000"]
+			hide_dependency_lines: true
+			id: "5103000000000061"
+			optional: true
+			rewards: [{
+				id: "5300000000002072"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000002066"
+				item: { count: 1, id: "lendersdelight:cooked_amethyst_crab_meat" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5103000000000000"]
+			hide_dependency_lines: true
+			id: "5103000000000062"
+			optional: true
+			rewards: [{
+				id: "5300000000002073"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000002067"
+				item: { count: 1, id: "lendersdelight:cooked_amethyst_crab_meat_slice" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5103000000000000"]
+			hide_dependency_lines: true
+			id: "5103000000000063"
+			optional: true
+			rewards: [{
+				id: "5300000000002074"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000002068"
+				item: { count: 1, id: "lendersdelight:cooked_crab_legs" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5103000000000000"]
+			hide_dependency_lines: true
+			id: "5103000000000064"
+			optional: true
+			rewards: [{
+				id: "5300000000002075"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000002069"
+				item: { count: 1, id: "lendersdelight:cooked_lionfish" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5103000000000000"]
+			hide_dependency_lines: true
+			id: "5103000000000065"
+			optional: true
+			rewards: [{
+				id: "5300000000002076"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000002070"
+				item: { components: { "relics:data": { abilities: { abilities: { marinade: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 0 }, points: 0, research: { links: { }, researched: 0b }, stats: { duration: { initialValue: 1.03982d } } }, meat_bat: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 0 }, points: 0, research: { links: { }, researched: 0b }, stats: { damage: { initialValue: 0.89917d }, stun: { initialValue: 0.15853d } } }, regeneration: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { cooldown: { initialValue: 16.64424d }, feed: { initialValue: 2.60802d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "relics:infinity_ham" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5103000000000000"]
+			hide_dependency_lines: true
+			id: "5103000000000066"
+			optional: true
+			rewards: [{
+				id: "5300000000002077"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000002071"
+				item: { count: 1, id: "allthemodium:allthemodium_apple" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5103000000000000"]
+			hide_dependency_lines: true
+			id: "5103000000000067"
+			optional: true
+			rewards: [{
+				id: "5300000000002078"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000002072"
+				item: { count: 1, id: "allthemodium:allthemodium_carrot" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5103000000000000"]
+			hide_dependency_lines: true
+			id: "5103000000000068"
+			optional: true
+			rewards: [{
+				id: "5300000000002079"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000002073"
+				item: { count: 1, id: "vampirism:human_heart" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5103000000000000"]
+			hide_dependency_lines: true
+			id: "5103000000000069"
+			optional: true
+			rewards: [{
+				id: "5300000000002080"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000002074"
+				item: { count: 1, id: "vampirism:weak_human_heart" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5103000000000000"]
+			hide_dependency_lines: true
+			id: "5103000000000070"
+			optional: true
+			rewards: [{
+				id: "5300000000002081"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000002075"
+				item: { count: 1, id: "malum:concentrated_gluttony" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5103000000000000"]
+			hide_dependency_lines: true
+			id: "5103000000000071"
+			optional: true
+			rewards: [{
+				id: "5300000000002082"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000002076"
+				item: { count: 1, id: "malum:rotting_essence" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"5103000000000001"
+				"5103000000000002"
+				"5103000000000003"
+				"5103000000000004"
+				"5103000000000005"
+				"5103000000000006"
+				"5103000000000007"
+				"5103000000000008"
+				"5103000000000009"
+				"5103000000000010"
+				"5103000000000011"
+				"5103000000000012"
+				"5103000000000013"
+				"5103000000000014"
+				"5103000000000015"
+				"5103000000000016"
+				"5103000000000017"
+				"5103000000000018"
+				"5103000000000019"
+				"5103000000000020"
+				"5103000000000021"
+				"5103000000000022"
+				"5103000000000023"
+				"5103000000000024"
+				"5103000000000025"
+				"5103000000000026"
+				"5103000000000027"
+				"5103000000000028"
+				"5103000000000029"
+				"5103000000000030"
+				"5103000000000031"
+				"5103000000000032"
+				"5103000000000033"
+				"5103000000000034"
+				"5103000000000035"
+				"5103000000000036"
+				"5103000000000037"
+				"5103000000000038"
+				"5103000000000039"
+				"5103000000000040"
+				"5103000000000041"
+				"5103000000000042"
+				"5103000000000043"
+				"5103000000000044"
+				"5103000000000045"
+				"5103000000000046"
+				"5103000000000047"
+				"5103000000000048"
+				"5103000000000049"
+				"5103000000000050"
+				"5103000000000051"
+				"5103000000000052"
+				"5103000000000053"
+				"5103000000000054"
+				"5103000000000055"
+				"5103000000000056"
+				"5103000000000057"
+				"5103000000000058"
+				"5103000000000059"
+				"5103000000000060"
+				"5103000000000061"
+				"5103000000000062"
+				"5103000000000063"
+				"5103000000000064"
+				"5103000000000065"
+				"5103000000000066"
+				"5103000000000067"
+				"5103000000000068"
+				"5103000000000069"
+				"5103000000000070"
+				"5103000000000071"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "5103000000000999"
+			optional: true
+			rewards: [
+				{
+					id: "5300000000002083"
+					item: {
+						count: 1
+						id: "farmersdelight:netherite_knife"
+					}
+					type: "item"
+				}
+				{
+					id: "5300000000002084"
+					item: {
+						count: 1
+						id: "farmersdelight:stove"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "5300000000002085"
+					item: {
+						count: 1
+						id: "ars_nouveau:source_gem"
+					}
+					type: "item"
+				}
+				{
+					id: "5300000000002086"
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 1.8d
+			tasks: [{
+				id: "5400000000002077"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 13.0d
+		}
+	]
+}

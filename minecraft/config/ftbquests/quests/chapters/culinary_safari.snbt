@@ -1,0 +1,1569 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "culinary_safari"
+	group: "5000000000000000"
+	id: "5205000000000000"
+	images: [
+		{
+			height: 2.0d
+			id: "4C82D64F997740C4"
+			image: "minecraft:item/golden_apple"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: -2.6d
+		}
+		{
+			height: 1.8d
+			id: "5137A6BF5F62E805"
+			image: "minecraft:item/nether_star"
+			rotation: 0.0d
+			width: 1.8d
+			x: 9.0d
+			y: -11.0d
+		}
+		{
+			height: 1.6d
+			id: "16DFF89582DDC9F0"
+			image: "minecraft:item/nether_star"
+			rotation: 0.0d
+			width: 1.6d
+			x: -2.2d
+			y: 13.0d
+		}
+		{
+			height: 1.6d
+			id: "0305A7CAC91FF65C"
+			image: "minecraft:item/nether_star"
+			rotation: 0.0d
+			width: 1.6d
+			x: 2.2d
+			y: 13.0d
+		}
+	]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			id: "5105000000000000"
+			rewards: [
+				{
+					count: 8
+					id: "5300000000004001"
+					item: {
+						count: 1
+						id: "alexscaves:dinosaur_nugget"
+					}
+					type: "item"
+				}
+				{
+					id: "5300000000004002"
+					type: "random"
+				}
+			]
+			shape: "gear"
+			size: 1.7d
+			tasks: [{
+				id: "5400000000004001"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5105000000000000"]
+			hide_dependency_lines: true
+			id: "5105000000000801"
+			optional: true
+			rewards: [
+				{
+					count: 4
+					id: "5300000000004003"
+					item: {
+						count: 1
+						id: "alexscaves:dinosaur_nugget"
+					}
+					type: "item"
+				}
+				{
+					id: "5300000000004004"
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			size: 1.3d
+			tasks: [{
+				id: "5400000000004002"
+				type: "checkmark"
+			}]
+			x: -9.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["5105000000000000"]
+			hide_dependency_lines: true
+			id: "5105000000000001"
+			optional: true
+			rewards: [{
+				id: "5300000000004005"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000004003"
+				item: { count: 1, id: "alexscaves:dinosaur_nugget" }
+				type: "item"
+			}]
+			x: -14.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["5105000000000000"]
+			hide_dependency_lines: true
+			id: "5105000000000002"
+			optional: true
+			rewards: [{
+				id: "5300000000004006"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000004004"
+				item: { count: 1, id: "alexscaves:primordial_soup" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["5105000000000000"]
+			hide_dependency_lines: true
+			id: "5105000000000003"
+			optional: true
+			rewards: [{
+				id: "5300000000004007"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000004005"
+				item: { count: 1, id: "alexscaves:trilocaris_tail" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["5105000000000000"]
+			hide_dependency_lines: true
+			id: "5105000000000004"
+			optional: true
+			rewards: [{
+				id: "5300000000004008"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000004006"
+				item: { count: 1, id: "alexscaves:cooked_trilocaris_tail" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["5105000000000000"]
+			hide_dependency_lines: true
+			id: "5105000000000005"
+			optional: true
+			rewards: [{
+				id: "5300000000004009"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000004007"
+				item: { count: 1, id: "alexscaves:pine_nuts" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["5105000000000000"]
+			hide_dependency_lines: true
+			id: "5105000000000006"
+			optional: true
+			rewards: [{
+				id: "5300000000004010"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000004008"
+				item: { count: 1, id: "alexscaves:serene_salad" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["5105000000000000"]
+			hide_dependency_lines: true
+			id: "5105000000000007"
+			optional: true
+			rewards: [{
+				id: "5300000000004011"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000004009"
+				item: { count: 1, id: "alexscaves:seething_stew" }
+				type: "item"
+			}]
+			x: -14.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5105000000000000"]
+			hide_dependency_lines: true
+			id: "5105000000000008"
+			optional: true
+			rewards: [{
+				id: "5300000000004012"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000004010"
+				item: { count: 1, id: "alexscaves:green_soylent" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5105000000000000"]
+			hide_dependency_lines: true
+			id: "5105000000000009"
+			optional: true
+			rewards: [{
+				id: "5300000000004013"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000004011"
+				item: { count: 1, id: "alexscaves:slam" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5105000000000000"]
+			hide_dependency_lines: true
+			id: "5105000000000010"
+			optional: true
+			rewards: [{
+				id: "5300000000004014"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000004012"
+				item: { count: 1, id: "alexscaves:spelunkie" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5105000000000000"]
+			hide_dependency_lines: true
+			id: "5105000000000011"
+			optional: true
+			rewards: [{
+				id: "5300000000004015"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000004013"
+				item: { count: 1, id: "alexscaves:vesper_wing" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5105000000000000"]
+			hide_dependency_lines: true
+			id: "5105000000000012"
+			optional: true
+			rewards: [{
+				id: "5300000000004016"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000004014"
+				item: { count: 1, id: "alexscaves:vesper_stew" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5105000000000000"]
+			hide_dependency_lines: true
+			id: "5105000000000013"
+			optional: true
+			rewards: [{
+				id: "5300000000004017"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000004015"
+				item: { count: 1, id: "alexscaves:darkened_apple" }
+				type: "item"
+			}]
+			x: -14.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5105000000000000"]
+			hide_dependency_lines: true
+			id: "5105000000000014"
+			optional: true
+			rewards: [{
+				id: "5300000000004018"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000004016"
+				item: { count: 1, id: "alexsdelight:cooked_bunfungus" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5105000000000000"]
+			hide_dependency_lines: true
+			id: "5105000000000015"
+			optional: true
+			rewards: [{
+				id: "5300000000004019"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000004017"
+				item: { count: 1, id: "alexsdelight:cooked_bunfungus_drumstick" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5105000000000000"]
+			hide_dependency_lines: true
+			id: "5105000000000016"
+			optional: true
+			rewards: [{
+				id: "5300000000004020"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000004018"
+				item: { count: 1, id: "alexsmobs:gongylidia" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5105000000000000"]
+			hide_dependency_lines: true
+			id: "5105000000000017"
+			optional: true
+			rewards: [{
+				id: "5300000000004021"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000004019"
+				item: { count: 1, id: "alexsmobs:maggot" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5105000000000000"]
+			hide_dependency_lines: true
+			id: "5105000000000018"
+			optional: true
+			rewards: [{
+				id: "5300000000004022"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000004020"
+				item: { count: 1, id: "alexsmobs:mimicream" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5105000000000000"]
+			hide_dependency_lines: true
+			id: "5105000000000802"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "5300000000004023"
+					item: {
+						count: 1
+						id: "alexscaves:purple_soda_bottle"
+					}
+					type: "item"
+				}
+				{
+					id: "5300000000004024"
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			size: 1.3d
+			tasks: [{
+				id: "5400000000004021"
+				type: "checkmark"
+			}]
+			x: 9.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["5105000000000000"]
+			hide_dependency_lines: true
+			id: "5105000000000019"
+			optional: true
+			rewards: [{
+				id: "5300000000004025"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000004022"
+				item: { count: 1, id: "alexscaves:sundae" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["5105000000000000"]
+			hide_dependency_lines: true
+			id: "5105000000000020"
+			optional: true
+			rewards: [{
+				id: "5300000000004026"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000004023"
+				item: { count: 1, id: "alexscaves:hot_chocolate_bottle" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["5105000000000000"]
+			hide_dependency_lines: true
+			id: "5105000000000021"
+			optional: true
+			rewards: [{
+				id: "5300000000004027"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000004024"
+				item: { count: 1, id: "alexscaves:purple_soda_bottle" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["5105000000000000"]
+			hide_dependency_lines: true
+			id: "5105000000000022"
+			optional: true
+			rewards: [{
+				id: "5300000000004028"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000004025"
+				item: { count: 1, id: "alexscaves:caramel" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["5105000000000000"]
+			hide_dependency_lines: true
+			id: "5105000000000023"
+			optional: true
+			rewards: [{
+				id: "5300000000004029"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000004026"
+				item: { count: 1, id: "alexscaves:caramel_apple" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["5105000000000000"]
+			hide_dependency_lines: true
+			id: "5105000000000024"
+			optional: true
+			rewards: [{
+				id: "5300000000004030"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000004027"
+				item: { count: 1, id: "alexscaves:gingerbread_crumbs" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["5105000000000000"]
+			hide_dependency_lines: true
+			id: "5105000000000025"
+			optional: true
+			rewards: [{
+				id: "5300000000004031"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000004028"
+				item: { count: 1, id: "alexscaves:peppermint_powder" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["5105000000000000"]
+			hide_dependency_lines: true
+			id: "5105000000000026"
+			optional: true
+			rewards: [{
+				id: "5300000000004032"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000004029"
+				item: { count: 1, id: "alexscaves:sharpened_candy_cane" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5105000000000000"]
+			hide_dependency_lines: true
+			id: "5105000000000027"
+			optional: true
+			rewards: [{
+				id: "5300000000004033"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000004030"
+				item: { count: 1, id: "alexscaves:gumball_pile" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5105000000000000"]
+			hide_dependency_lines: true
+			id: "5105000000000028"
+			optional: true
+			rewards: [{
+				id: "5300000000004034"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000004031"
+				item: { count: 1, id: "alexscaves:jelly_bean" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5105000000000000"]
+			hide_dependency_lines: true
+			id: "5105000000000029"
+			optional: true
+			rewards: [{
+				id: "5300000000004035"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000004032"
+				item: { count: 1, id: "alexscaves:sweetish_fish_red" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5105000000000000"]
+			hide_dependency_lines: true
+			id: "5105000000000030"
+			optional: true
+			rewards: [{
+				id: "5300000000004036"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000004033"
+				item: { count: 1, id: "alexscaves:sweetish_fish_blue" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5105000000000000"]
+			hide_dependency_lines: true
+			id: "5105000000000031"
+			optional: true
+			rewards: [{
+				id: "5300000000004037"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000004034"
+				item: { count: 1, id: "alexscaves:sweetish_fish_green" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5105000000000000"]
+			hide_dependency_lines: true
+			id: "5105000000000032"
+			optional: true
+			rewards: [{
+				id: "5300000000004038"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000004035"
+				item: { count: 1, id: "alexscaves:sweetish_fish_yellow" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5105000000000000"]
+			hide_dependency_lines: true
+			id: "5105000000000033"
+			optional: true
+			rewards: [{
+				id: "5300000000004039"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000004036"
+				item: { count: 1, id: "alexscaves:sweetish_fish_pink" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5105000000000000"]
+			hide_dependency_lines: true
+			id: "5105000000000034"
+			optional: true
+			rewards: [{
+				id: "5300000000004040"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000004037"
+				item: { count: 1, id: "alexscaves:gelatin_red" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5105000000000000"]
+			hide_dependency_lines: true
+			id: "5105000000000035"
+			optional: true
+			rewards: [{
+				id: "5300000000004041"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000004038"
+				item: { count: 1, id: "alexscaves:gelatin_blue" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5105000000000000"]
+			hide_dependency_lines: true
+			id: "5105000000000036"
+			optional: true
+			rewards: [{
+				id: "5300000000004042"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000004039"
+				item: { count: 1, id: "alexscaves:gelatin_green" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5105000000000000"]
+			hide_dependency_lines: true
+			id: "5105000000000037"
+			optional: true
+			rewards: [{
+				id: "5300000000004043"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000004040"
+				item: { count: 1, id: "alexscaves:gelatin_yellow" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5105000000000000"]
+			hide_dependency_lines: true
+			id: "5105000000000038"
+			optional: true
+			rewards: [{
+				id: "5300000000004044"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000004041"
+				item: { count: 1, id: "alexscaves:gelatin_pink" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5105000000000000"]
+			hide_dependency_lines: true
+			id: "5105000000000803"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "5300000000004045"
+					item: {
+						count: 1
+						id: "alexsmobs:kangaroo_burger"
+					}
+					type: "item"
+				}
+				{
+					id: "5300000000004046"
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			size: 1.3d
+			tasks: [{
+				id: "5400000000004042"
+				type: "checkmark"
+			}]
+			x: -9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5105000000000000"]
+			hide_dependency_lines: true
+			id: "5105000000000039"
+			optional: true
+			rewards: [{
+				id: "5300000000004047"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000004043"
+				item: { count: 1, id: "alexsmobs:kangaroo_meat" }
+				type: "item"
+			}]
+			x: -14.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5105000000000000"]
+			hide_dependency_lines: true
+			id: "5105000000000040"
+			optional: true
+			rewards: [{
+				id: "5300000000004048"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000004044"
+				item: { count: 1, id: "alexsmobs:cooked_kangaroo_meat" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5105000000000000"]
+			hide_dependency_lines: true
+			id: "5105000000000041"
+			optional: true
+			rewards: [{
+				id: "5300000000004049"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000004045"
+				item: { count: 1, id: "alexsmobs:kangaroo_burger" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5105000000000000"]
+			hide_dependency_lines: true
+			id: "5105000000000042"
+			optional: true
+			rewards: [{
+				id: "5300000000004050"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000004046"
+				item: { count: 1, id: "alexsdelight:cooked_kangaroo_shank" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5105000000000000"]
+			hide_dependency_lines: true
+			id: "5105000000000043"
+			optional: true
+			rewards: [{
+				id: "5300000000004051"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000004047"
+				item: { count: 1, id: "alexsmobs:moose_ribs" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5105000000000000"]
+			hide_dependency_lines: true
+			id: "5105000000000044"
+			optional: true
+			rewards: [{
+				id: "5300000000004052"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000004048"
+				item: { count: 1, id: "alexsmobs:cooked_moose_ribs" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5105000000000000"]
+			hide_dependency_lines: true
+			id: "5105000000000045"
+			optional: true
+			rewards: [{
+				id: "5300000000004053"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000004049"
+				item: { count: 1, id: "alexsmobs:boiled_emu_egg" }
+				type: "item"
+			}]
+			x: -14.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5105000000000000"]
+			hide_dependency_lines: true
+			id: "5105000000000046"
+			optional: true
+			rewards: [{
+				id: "5300000000004054"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000004050"
+				item: { count: 1, id: "alexsmobs:crocodile_egg" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5105000000000000"]
+			hide_dependency_lines: true
+			id: "5105000000000047"
+			optional: true
+			rewards: [{
+				id: "5300000000004055"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000004051"
+				item: { count: 1, id: "alexsmobs:terrapin_egg" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5105000000000000"]
+			hide_dependency_lines: true
+			id: "5105000000000048"
+			optional: true
+			rewards: [{
+				id: "5300000000004056"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000004052"
+				item: { count: 1, id: "alexsmobs:sopa_de_macaco" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5105000000000000"]
+			hide_dependency_lines: true
+			id: "5105000000000049"
+			optional: true
+			rewards: [{
+				id: "5300000000004057"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000004053"
+				item: { count: 1, id: "alexsmobs:banana" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5105000000000000"]
+			hide_dependency_lines: true
+			id: "5105000000000050"
+			optional: true
+			rewards: [{
+				id: "5300000000004058"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000004054"
+				item: { count: 1, id: "alexsmobs:acacia_blossom" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5105000000000000"]
+			hide_dependency_lines: true
+			id: "5105000000000051"
+			optional: true
+			rewards: [{
+				id: "5300000000004059"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000004055"
+				item: { count: 1, id: "alexsmobs:mosquito_repellent_stew" }
+				type: "item"
+			}]
+			x: -14.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5105000000000000"]
+			hide_dependency_lines: true
+			id: "5105000000000052"
+			optional: true
+			rewards: [{
+				id: "5300000000004060"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000004056"
+				item: { count: 1, id: "alexsmobs:shrimp_fried_rice" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5105000000000000"]
+			hide_dependency_lines: true
+			id: "5105000000000053"
+			optional: true
+			rewards: [{
+				id: "5300000000004061"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000004057"
+				item: { count: 1, id: "alexsmobs:lobster_tail" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5105000000000000"]
+			hide_dependency_lines: true
+			id: "5105000000000054"
+			optional: true
+			rewards: [{
+				id: "5300000000004062"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000004058"
+				item: { count: 1, id: "alexsmobs:cooked_lobster_tail" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5105000000000000"]
+			hide_dependency_lines: true
+			id: "5105000000000055"
+			optional: true
+			rewards: [{
+				id: "5300000000004063"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000004059"
+				item: { count: 1, id: "alexsmobs:rainbow_jelly" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5105000000000000"]
+			hide_dependency_lines: true
+			id: "5105000000000804"
+			optional: true
+			rewards: [
+				{
+					count: 4
+					id: "5300000000004064"
+					item: {
+						count: 1
+						id: "alexscaves:deep_sea_sushi_roll"
+					}
+					type: "item"
+				}
+				{
+					id: "5300000000004065"
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			size: 1.3d
+			tasks: [{
+				id: "5400000000004060"
+				type: "checkmark"
+			}]
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5105000000000000"]
+			hide_dependency_lines: true
+			id: "5105000000000056"
+			optional: true
+			rewards: [{
+				id: "5300000000004066"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000004061"
+				item: { count: 1, id: "alexscaves:deep_sea_sushi_roll" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5105000000000000"]
+			hide_dependency_lines: true
+			id: "5105000000000057"
+			optional: true
+			rewards: [{
+				id: "5300000000004067"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000004062"
+				item: { count: 1, id: "alexscaves:lanternfish" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5105000000000000"]
+			hide_dependency_lines: true
+			id: "5105000000000058"
+			optional: true
+			rewards: [{
+				id: "5300000000004068"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000004063"
+				item: { count: 1, id: "alexscaves:cooked_lanternfish" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5105000000000000"]
+			hide_dependency_lines: true
+			id: "5105000000000059"
+			optional: true
+			rewards: [{
+				id: "5300000000004069"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000004064"
+				item: { count: 1, id: "alexscaves:tripodfish" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5105000000000000"]
+			hide_dependency_lines: true
+			id: "5105000000000060"
+			optional: true
+			rewards: [{
+				id: "5300000000004070"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000004065"
+				item: { count: 1, id: "alexscaves:cooked_tripodfish" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5105000000000000"]
+			hide_dependency_lines: true
+			id: "5105000000000061"
+			optional: true
+			rewards: [{
+				id: "5300000000004071"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000004066"
+				item: { count: 1, id: "alexscaves:cooked_mussel" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5105000000000000"]
+			hide_dependency_lines: true
+			id: "5105000000000062"
+			optional: true
+			rewards: [{
+				id: "5300000000004072"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000004067"
+				item: { count: 1, id: "alexscaves:sea_pig" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5105000000000000"]
+			hide_dependency_lines: true
+			id: "5105000000000063"
+			optional: true
+			rewards: [{
+				id: "5300000000004073"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000004068"
+				item: { count: 1, id: "alexscaves:radgill" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5105000000000000"]
+			hide_dependency_lines: true
+			id: "5105000000000064"
+			optional: true
+			rewards: [{
+				id: "5300000000004074"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000004069"
+				item: { count: 1, id: "alexscaves:cooked_radgill" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5105000000000000"]
+			hide_dependency_lines: true
+			id: "5105000000000065"
+			optional: true
+			rewards: [{
+				id: "5300000000004075"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000004070"
+				item: { count: 1, id: "alexsmobs:blobfish" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5105000000000000"]
+			hide_dependency_lines: true
+			id: "5105000000000066"
+			optional: true
+			rewards: [{
+				id: "5300000000004076"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000004071"
+				item: { count: 1, id: "alexsmobs:cosmic_cod" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5105000000000000"]
+			hide_dependency_lines: true
+			id: "5105000000000067"
+			optional: true
+			rewards: [{
+				id: "5300000000004077"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000004072"
+				item: { count: 1, id: "alexsmobs:flying_fish" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5105000000000000"]
+			hide_dependency_lines: true
+			id: "5105000000000068"
+			optional: true
+			rewards: [{
+				id: "5300000000004078"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000004073"
+				item: { count: 1, id: "alexsmobs:raw_catfish" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5105000000000000"]
+			hide_dependency_lines: true
+			id: "5105000000000069"
+			optional: true
+			rewards: [{
+				id: "5300000000004079"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000004074"
+				item: { count: 1, id: "alexsmobs:cooked_catfish" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5105000000000000"]
+			hide_dependency_lines: true
+			id: "5105000000000070"
+			optional: true
+			rewards: [{
+				id: "5300000000004080"
+				type: "random"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5400000000004075"
+				item: { count: 1, id: "alexsmobs:fish_oil" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"5105000000000001"
+				"5105000000000002"
+				"5105000000000003"
+				"5105000000000004"
+				"5105000000000005"
+				"5105000000000006"
+				"5105000000000007"
+				"5105000000000008"
+				"5105000000000009"
+				"5105000000000010"
+				"5105000000000011"
+				"5105000000000012"
+				"5105000000000013"
+				"5105000000000014"
+				"5105000000000015"
+				"5105000000000016"
+				"5105000000000017"
+				"5105000000000018"
+				"5105000000000019"
+				"5105000000000020"
+				"5105000000000021"
+				"5105000000000022"
+				"5105000000000023"
+				"5105000000000024"
+				"5105000000000025"
+				"5105000000000026"
+				"5105000000000027"
+				"5105000000000028"
+				"5105000000000029"
+				"5105000000000030"
+				"5105000000000031"
+				"5105000000000032"
+				"5105000000000033"
+				"5105000000000034"
+				"5105000000000035"
+				"5105000000000036"
+				"5105000000000037"
+				"5105000000000038"
+				"5105000000000039"
+				"5105000000000040"
+				"5105000000000041"
+				"5105000000000042"
+				"5105000000000043"
+				"5105000000000044"
+				"5105000000000045"
+				"5105000000000046"
+				"5105000000000047"
+				"5105000000000048"
+				"5105000000000049"
+				"5105000000000050"
+				"5105000000000051"
+				"5105000000000052"
+				"5105000000000053"
+				"5105000000000054"
+				"5105000000000055"
+				"5105000000000056"
+				"5105000000000057"
+				"5105000000000058"
+				"5105000000000059"
+				"5105000000000060"
+				"5105000000000061"
+				"5105000000000062"
+				"5105000000000063"
+				"5105000000000064"
+				"5105000000000065"
+				"5105000000000066"
+				"5105000000000067"
+				"5105000000000068"
+				"5105000000000069"
+				"5105000000000070"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "5105000000000999"
+			optional: true
+			rewards: [
+				{
+					id: "5300000000004081"
+					item: {
+						count: 1
+						id: "farmersdelight:netherite_knife"
+					}
+					type: "item"
+				}
+				{
+					id: "5300000000004082"
+					item: {
+						count: 1
+						id: "farmersdelight:stove"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "5300000000004083"
+					item: {
+						count: 1
+						id: "alexscaves:dinosaur_nugget"
+					}
+					type: "item"
+				}
+				{
+					id: "5300000000004084"
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 1.8d
+			tasks: [{
+				id: "5400000000004076"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 13.0d
+		}
+	]
+}

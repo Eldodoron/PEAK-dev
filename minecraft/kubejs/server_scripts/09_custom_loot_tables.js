@@ -1,5 +1,5 @@
 // ==========================================
-// PEAK EXPERT MODE â€” SCRIPT 09
+// PEAK EXPERT MODE — SCRIPT 09
 // CUSTOM BOSS LOOT TABLES (via EntityEvents)
 // ==========================================
 // Each boss drops a unique custom component that
@@ -13,19 +13,26 @@ EntityEvents.death(event => {
     if (!event.entity.isLiving()) return;
 
     let entityType = event.entity.type;
-    let source = event.source.actual;
     
-    // Only drop special items if killed by a player
-    if (!source || !source.isPlayer()) return;
-
-    // Helper function to drop items
+    if (entityType.includes('block_factorys_bosses')) {
+        console.log('[DEBUG] A block factory boss DIED! Type: ' + entityType);
+    }
+    
+    // Helper function to drop regular items
     const dropItem = (item, min, max) => {
         let count = min;
         if (max > min) {
             count = min + Math.floor(Math.random() * (max - min + 1));
         }
         if (count > 0) {
-            event.entity.block.popItem(Item.of(item, count));
+            let itemEntity = event.entity.block.createEntity('item');
+            itemEntity.item = Item.of(item, count);
+            itemEntity.mergeNbt({
+                Invulnerable: 1,
+                Age: -12000
+            });
+            itemEntity.setGlowing(true);
+            itemEntity.spawn();
         }
     };
 
@@ -59,61 +66,50 @@ EntityEvents.death(event => {
     // ==========================================
 
     if (entityType === 'cataclysm:ancient_remnant') {
-        dropItem('kubejs:primordial_core', 1, 1);
-        dropItem('kubejs:infinity_fragment', 2, 4);
+        dropItem('kubejs:infinity_fragment', 1, 3);
     }
 
     if (entityType === 'cataclysm:ender_guardian') {
         dropItem('kubejs:void_resonator', 1, 1);
-        dropItem('kubejs:infinity_fragment', 2, 5);
+        dropItem('kubejs:infinity_fragment', 1, 2);
     }
 
     if (entityType === 'cataclysm:ignis') {
-        dropItem('kubejs:heart_of_the_inferno', 1, 1);
-        dropItem('kubejs:infinity_fragment', 3, 6);
+        dropItem('kubejs:infernal_core', 1, 1);
+        dropItem('kubejs:infinity_fragment', 1, 4);
     }
 
     if (entityType === 'cataclysm:the_leviathan') {
-        dropItem('kubejs:abyssal_catalyst', 1, 1);
-        dropItem('kubejs:infinity_fragment', 2, 5);
+        dropItem('kubejs:abyssal_heart', 1, 1);
+        dropItem('kubejs:infinity_fragment', 1, 4);
     }
 
     if (entityType === 'cataclysm:netherite_monstrosity') {
-        dropItem('kubejs:netheric_core', 1, 1);
-        dropItem('kubejs:infinity_fragment', 2, 4);
+        dropItem('kubejs:infinity_fragment', 1, 3);
     }
 
     // ==========================================
-    // WARDEN â€” THE DEEP DARK GUARDIAN
+    // ICE & FIRE BOSS DROPS
+    // ==========================================
+
+    if (entityType === 'iceandfire:fire_dragon' ||
+        entityType === 'iceandfire:ice_dragon' ||
+        entityType === 'iceandfire:lightning_dragon') {
+        dropItem('kubejs:dragon_soul_gem', 1, 1);
+        dropItem('kubejs:infinity_fragment', 1, 4);
+    }
+
+    // ==========================================
+    // VANILLA BOSS DROPS
     // ==========================================
 
     if (entityType === 'minecraft:warden') {
-        dropItem('kubejs:sculk_heart', 1, 1);
-        dropItem('kubejs:infinity_fragment', 2, 4);
-    }
-
-    // ==========================================
-    // ICE AND FIRE â€” STAGE 5 DRAGONS
-    // ==========================================
-
-    if (entityType === 'iceandfire:fire_dragon' || 
-        entityType === 'iceandfire:ice_dragon' || 
-        entityType === 'iceandfire:lightning_dragon') {
-        // High stage dragons drop primordial blood
-        dropItem('kubejs:primordial_dragon_blood', 1, 1);
-    }
-
-    // ==========================================
-    // ENDER DRAGON & WITHER â€” VANILLA BOSSES
-    // ==========================================
-
-    if (entityType === 'minecraft:ender_dragon') {
-        dropItem('kubejs:void_resonator', 1, 1);
-        dropItem('kubejs:infinity_fragment', 4, 8);
+        dropItem('kubejs:void_resonator', 1, 2);
+        dropItem('kubejs:infinity_fragment', 1, 2);
     }
 
     if (entityType === 'minecraft:wither') {
-        dropItem('kubejs:infinity_fragment', 2, 5);
+        dropItem('kubejs:infinity_fragment', 1, 3);
     }
 
     // ==========================================
@@ -145,10 +141,10 @@ EntityEvents.death(event => {
     }
 
     // ==========================================
-    // ONCE-PER-PLAYER ENDER EYE DROP
+    // ONCE-PER-PLAYER ENDER EYE DROP (PROXIMITY BASED)
     // ==========================================
     // To reward exploration, players get 1 Ender Eye the FIRST time 
-    // they kill each specific boss type.
+    // they participate in defeating a specific unique boss.
 
     const eyeBosses = [
         // Mowzie's Mobs
@@ -199,12 +195,45 @@ EntityEvents.death(event => {
     ];
 
     if (eyeBosses.includes(entityType)) {
-        let pData = source.persistentData;
+        let closestPlayer = null;
+        let minDistanceSq = 128 * 128; // 8 chunks radius squared
         let key = 'dropped_eye_' + entityType.replace(':', '_');
-        if (!pData.getBoolean(key)) {
-            pData.putBoolean(key, true);
-            event.entity.block.popItem(Item.of('minecraft:ender_eye', 1));
-            source.tell(Text.lightPurple('\u2726 You extracted an Ender Eye from defeating this powerful foe for the first time! \u2726'));
+        
+        // Find the closest player who has NOT received an eye from this boss yet
+        let players = event.level.getPlayers();
+        players.forEach(p => {
+            if (p.level.dimension === event.entity.level.dimension) {
+                let distSq = p.distanceToSqr(event.entity);
+                if (distSq <= minDistanceSq) {
+                    if (!p.persistentData.getBoolean(key)) {
+                        closestPlayer = p;
+                        minDistanceSq = distSq;
+                    }
+                }
+            }
+        });
+
+        if (closestPlayer != null) {
+            // Mark it as completed for this player
+            closestPlayer.persistentData.putBoolean(key, true);
+            
+            // Spawn indestructible, 15-minute Ender Eye
+            let itemEntity = event.entity.block.createEntity('item');
+            itemEntity.item = Item.of('minecraft:ender_eye', 1);
+            
+            // Invulnerable: 1b makes it immune to lava, fire, and explosions.
+            // Age: -12000 means it will take 18000 ticks (15 mins) to reach 6000 and despawn.
+            itemEntity.mergeNbt({
+                Invulnerable: 1,
+                Age: -12000
+            });
+            
+            // Add glowing effect so it's easy to find in the chaos
+            itemEntity.setGlowing(true);
+            
+            itemEntity.spawn();
+            
+            closestPlayer.tell(Text.lightPurple('✦ You extracted a durable Ender Eye from defeating this powerful foe for the first time! ✦'));
         }
     }
 });

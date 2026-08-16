@@ -1,0 +1,18 @@
+filename = 'waystonessable-1.0.3.jar'
+name = 'Waystones: Sable (Create Aeronautics Addon)'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'waystonessable-1.0.3'
+
+[download]
+hash = 'e6d6cd96f226a41505671a27df287cad15521c20'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8158831
+project-id = 1524471
