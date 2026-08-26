@@ -25,11 +25,11 @@
 			#Multiply armor damage reduction by this amount. See official Minecraft Wiki for an explanation of how armor damage reduction works.
 			# Default: 1.0
 			# Range: 0.0 ~ 1.7976931348623157E308
-			damage_reduction_multiplier = 1.0
+			damage_reduction_multiplier = 2.5
 			#Multiply armor toughness by this amount. See official Minecraft Wiki for an explanation of how armor toughness works.
 			# Default: 1.0
 			# Range: 0.0 ~ 1.7976931348623157E308
-			toughness_multiplier = 1.0
+			toughness_multiplier = 2.0
 
 	[tools_and_abilities.axe_of_a_thousand_metals]
 		#Set to true for the Axe of a Thousand Metals to have limited durability.

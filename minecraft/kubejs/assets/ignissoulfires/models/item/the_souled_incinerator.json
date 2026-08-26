@@ -1,0 +1,18 @@
+{
+	"parent": "minecraft:item/handheld",
+	"loader": "neoforge:separate_transforms",
+	"textures": {
+	  "layer0": "ignissoulfires:item/the_souled_incinerator_gui"
+	},
+	"base": {
+	  "parent": "ignissoulfires:item/the_souled_incinerator_hand"
+	},
+	"perspectives": {
+	  "gui": {
+		"parent": "ignissoulfires:item/the_souled_incinerator_gui"
+	  },
+	  "fixed": {
+		"parent": "ignissoulfires:item/the_souled_incinerator_gui"
+	  }
+	}
+  }

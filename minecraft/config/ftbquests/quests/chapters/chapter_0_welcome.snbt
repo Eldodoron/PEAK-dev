@@ -1,0 +1,218 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "chapter_0_welcome"
+	group: ""
+	id: "0A290DCDA6464A4C"
+	images: [ ]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "5D2557E4CB68CD20"
+			rewards: [
+				{
+					count: 2
+					id: "374B41C20D0DFB0D"
+					item: {
+						count: 1
+						id: "farmersdelight:hamburger"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "1A272A634C3A31E7"
+					item: {
+						count: 1
+						id: "minecraft:torch"
+					}
+					type: "item"
+				}
+				{
+					id: "7629246B7AD637D4"
+					table_id: 1117392878634639361L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			size: 1.7d
+			tasks: [{
+				id: "6B36E6F1DB1874BA"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "4EE2AD508E3AFC18"
+			rewards: [
+				{
+					count: 4
+					id: "48EF4CAFE7416851"
+					item: {
+						count: 1
+						id: "minecraft:cooked_beef"
+					}
+					type: "item"
+				}
+				{
+					id: "1B5B7398D5A04328"
+					table_id: 1117392878634639361L
+					type: "random"
+				}
+			]
+			size: 1.2d
+			tasks: [{
+				id: "5A882049DCE3048F"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			id: "294E83A86DA5DA5D"
+			rewards: [
+				{
+					id: "197FE241F83768B6"
+					item: {
+						count: 1
+						id: "create:wrench"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4E7DEBF2D4A7D083"
+					item: {
+						count: 1
+						id: "waystones:warp_dust"
+					}
+					type: "item"
+				}
+			]
+			size: 1.2d
+			tasks: [{
+				id: "156814E316C0EBD2"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			id: "47ACECB62DA96AD6"
+			rewards: [{
+				id: "5DD4B8EE3C116A12"
+				table_id: 1117392878634639362L
+				type: "random"
+			}]
+			size: 1.2d
+			tasks: [{
+				id: "1E865F52B424C496"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			id: "76DDB3679DAB9C49"
+			rewards: [
+				{
+					id: "4B87BE67EE9EA0C0"
+					item: {
+						count: 1
+						id: "paraglider:paraglider"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4A463F92C3849828"
+					item: {
+						count: 1
+						id: "minecraft:golden_carrot"
+					}
+					type: "item"
+				}
+			]
+			shape: "heart"
+			size: 1.3d
+			tasks: [{
+				id: "5014CF55C43101A3"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			id: "688264C4B7E58483"
+			rewards: [
+				{
+					id: "5B69F2FBAB1AF28E"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:backpack"
+					}
+					type: "item"
+				}
+				{
+					id: "2636F5D5324F5A2B"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:upgrade_base"
+					}
+					type: "item"
+				}
+			]
+			size: 1.2d
+			tasks: [{
+				id: "0F345A2AAEA94E39"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			id: "3C8F7B4F87FED011"
+			rewards: [{
+				id: "1295EDF117378764"
+				table_id: 1117392878634639361L
+				type: "random"
+			}]
+			size: 1.2d
+			tasks: [{
+				id: "648336802D1C5CCA"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			id: "161340988011CD45"
+			rewards: [
+				{
+					count: 16
+					id: "1C3F5C8CE159B069"
+					item: {
+						count: 1
+						id: "minecraft:cookie"
+					}
+					type: "item"
+				}
+				{
+					id: "1DEB4609145423DA"
+					table_id: 1117392878634639361L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "7FB7262F8114BA77"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+	]
+}

@@ -356,7 +356,7 @@
 	#Number of villager offers randomly selected for the 'live' offer list. Note: this a maximum, and the actual number chosen each time may be less.
 	# Default: 20
 	# Range: > 0
-	numVillagerOffers = 20
+	numVillagerOffers = 0
 	#Time in ticks between each periodic offer reshuffle (24000 ticks = one Minecraft day)
 	# Default: 24000
 	# Range: > 1000

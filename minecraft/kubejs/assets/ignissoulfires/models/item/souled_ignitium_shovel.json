@@ -1,0 +1,18 @@
+{
+	"parent": "minecraft:item/handheld",
+	"loader": "neoforge:separate_transforms",
+	"textures": {
+	  "layer0": "ignissoulfires:item/souled_ignitium_shovel_gui"
+	},
+	"base": {
+	  "parent": "ignissoulfires:item/souled_ignitium_shovel_hand"
+	},
+	"perspectives": {
+	  "gui": {
+		"parent": "ignissoulfires:item/souled_ignitium_shovel_gui"
+	  },
+	  "fixed": {
+		"parent": "ignissoulfires:item/souled_ignitium_shovel_gui"
+	  }
+	}
+  }

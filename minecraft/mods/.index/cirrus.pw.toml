@@ -1,0 +1,29 @@
+filename = 'cirrus-neoforge-1.21.1-1.2.1.jar'
+name = 'Cirrus'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'cirrus-neoforge-1.21.1-1.2.1.jar'
+
+[download]
+hash = '32fa8d991410156c8ea9974aa4d7e42cd65e335b'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8689121
+project-id = 1572354
+
+[[x-prismlauncher-dependencies]]
+addonId = '419699'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '508933'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '667299'
+type = 'REQUIRED'

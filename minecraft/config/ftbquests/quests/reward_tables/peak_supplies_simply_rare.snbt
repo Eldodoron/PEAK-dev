@@ -10,7 +10,7 @@
 		string_id: "peak_simply_rare"
 	}
 	loot_size: 1
-	order_index: 8
+	order_index: 15
 	rewards: [
 		{
 			count: 4

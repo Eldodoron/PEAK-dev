@@ -1,0 +1,25 @@
+{
+	id: "0F81C6E72591A004"
+	loot_size: 1
+	order_index: 11
+	rewards: [
+		{ id: "3E82C146DC13684C", item: { count: 1, id: "minecraft:netherite_ingot" } }
+		{
+			count: 2
+			id: "1000000000000104"
+			item: {
+				count: 1
+				id: "minecraft:diamond_block"
+			}
+			weight: 2.0f
+		}
+		{
+			count: 2
+			id: "1000000000000105"
+			item: {
+				count: 1
+				id: "minecraft:enchanted_golden_apple"
+			}
+		}
+	]
+}

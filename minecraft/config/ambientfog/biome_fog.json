@@ -92,7 +92,7 @@
   "fogDensity": 0.3,
   "transitionColorTau": 0.9985866,
   "transitionDistanceTau": 0.9985866,
-  "debugBiomeOnly": false,
+  "debugBiomeOnly": true,
   "sky": {
     "enabled": true,
     "renderNightSky": true,
@@ -263,6 +263,7 @@
     "weatherThunderSpeed": 9.012731933593749
   },
   "savedColors": [
+    16777215,
     5068384,
     16741068,
     11402751,
@@ -273,8 +274,7 @@
     2142975,
     1646618,
     661515,
-    4811775,
-    16765311
+    4811775
   ],
   "completedBiomes": [],
   "selectedBiomes": [],
@@ -798,8 +798,8 @@
       "nightCloudColor": 526361,
       "intensity": 1.0,
       "fogDensity": 1.0,
-      "startDistance": 15.282321,
-      "endDistance": 250.31425,
+      "startDistance": 256.0,
+      "endDistance": 257.0,
       "nightStartDistance": 0.17512147,
       "nightEndDistance": 150.21846,
       "nightFogDensity": 1.0,
@@ -2692,8 +2692,8 @@
       "nightCloudColor": 526361,
       "intensity": 1.0,
       "fogDensity": 1.0,
-      "startDistance": 15.282321,
-      "endDistance": 250.31425,
+      "startDistance": 0.17512147,
+      "endDistance": 991.02325,
       "nightStartDistance": 0.17512147,
       "nightEndDistance": 150.21846,
       "nightFogDensity": 1.0,

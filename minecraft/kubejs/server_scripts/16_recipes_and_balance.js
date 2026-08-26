@@ -41,6 +41,8 @@ EntityEvents.hurt(event => {
 
 // ECONOMY: WANDERING TRADER
 MoreJS.wandererTrades(event => {
+    event.removeTrades({ output: 'minecraft:ender_eye' });
+
     event.addTrade(2, ['10x minecraft:emerald_block'], 'kubejs:infinity_fragment');
     event.addTrade(2, ['5x minecraft:emerald_block'], 'minecraft:netherite_ingot');
     event.addTrade(2, ['1x minecraft:emerald_block'], '10x minecraft:experience_bottle');

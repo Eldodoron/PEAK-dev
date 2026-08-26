@@ -20,6 +20,7 @@ Items that require validation, performance testing, or runtime behavior checks.
 | **Netherite Helmet Enchanting** | Investigate why the Netherite Helmet is not enchanting properly. Check mod compatibility and values. | `[ ] Pending` |
 | **All Enchantments Audit** | Conduct a thorough check of all enchantments in the pack to ensure they apply and scale correctly. | `[ ] Pending` |
 | **Tooltip Overhaul** | Test and verify the mod's features, performance, and customization in the future. *(Fix: Disabled custom rendering due to Apotheosis conflicts)* | `[x] Disabled` |
+| **Script 26 (Mob Max Health Fix)** | Investigate and test `26_mob_max_health_fix.js`; suspected not to be functioning properly when healing scaled entities upon spawning. | `[/] In Review` |
 
 ---
 
@@ -96,6 +97,8 @@ Fixes to assets, tooltips, and rendering.
   - **Desired Behavior:** Limit the 3D preview tooltips to only work on specific, premium armor sets (e.g., Fantasy Armor, Immersive Armor, Dragonsteel from Ice and Fire, etc.).
 - [ ] **Custom Tooltips for Simply Weapons:**
   - **Action:** Since SimplyTooltips rendering was disabled for Apotheosis compatibility, write a KubeJS script to manually inject custom lore/tooltips into the special weapons from *Simply Swords, Simply Bows, and Simply More*.
+- [ ] **Add Custom JEI Information Tabs (`JEI Information Tabs`):**
+  - **Goal:** Add informative JEI tabs/pages via KubeJS (`JEIEvents.information` / item descriptions) for key custom progression items, mechanics, and modpack features (e.g., Spirit Orbs acquisition from spawners, World Tiers gating, Infinity fragments, custom Create assembly components, and special boss drops) to explain in-game how they are obtained and used.
 
 ---
 
@@ -168,29 +171,22 @@ graph TD
 - [ ] **Fix Better Combat compat for Crystal Chronicles:** The `spear` and `evocation_twinblade` don't inherit KubeJS scripts correctly because the mod overrides them internally. Needs a proper physical datapack loaded in the world folder (`world/datapacks`).
 - [ ] **Considerar Traveler's Compass:** Evaluar su incorporación al modpack, recetas y configuración.
 - [ ] **Mod Addition Suggestion**: Evaluate and potentially add `Sophisticated Backpacks Create Integration`. Allows SB backpacks to be placed on Create contraptions and retain inventory management functionality while moving.
--
--
--
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
+- [ ] **Review Script 26 (`26_mob_max_health_fix.js`):** `[/] In Review` — Suspected not to be working as intended. Test whether `server.scheduleInTicks` and `entity.setHealth(entity.maxHealth)` actually heal `block_factorys_bosses:infernal_dragon` and other scaled entities upon spawn, or if another event hook / entity health synchronization approach is required.
+- [ ] **Magic & QoL Recipe Purge (Remove Illogical Ironwood & Precision Mechanism Gating):**
+  - **`ars_nouveau:scribes_table`:** Remove Twilight Forest Ironwood requirement. Use Archwood/noble planks, gold, and book/quill.
+  - **`ars_nouveau:enchanting_apparatus`:** Remove `create:precision_mechanism`, `brass_casing`, and `ironwood_ingot`. Replace with pure mystical components (Gold, Arcane Core, Source Gem block, Amethyst).
+  - **`irons_spellbooks:uncommon_ink`:** Remove `twilightforest:ironwood_ingot`. Replace with botanical/alchemical reagents (Magebloom fiber, Glowstone, or Lapis).
+  - **`malum:spirit_crucible`:** Remove `create:precision_mechanism`. Replace with dark magic components (`malum:refined_soulstone`, `malum:hallowed_gold_ingot`, dark bones/quartz).
+  - **`wands:diamond_wand`:** Remove `create:precision_mechanism`. Keep as a clean diamond + wood building QoL tool.
+  - *Full design details documented in [`.continue/recipe_design_critique.md`](file:///C:/Users/wamb9/MINECRAFT/Prism/Instances/PEAK%20dev/.continue/recipe_design_critique.md).*
 - [ ] **KubeJS Recipe Fixes**: Revisit disabled recipes in 20_fixed_datapacks.js (lines 3-21, broken Avaritia/Create Assembly syntax for 1.21.1) and expert_mode_recipes.js / 13b_food_overhaul_dimensions.js (recipes using minecraft:barrier in Create Mixers that crashed).
 - [ ] **Forzar Resource Packs con Paxi:** Definir e implementar quÃ© paquetes de textura deben estar activados por defecto para todos los jugadores.
 - [x] **Remove Copper Armor:** Quitar las armaduras de copper de Create Crafts & Additions.
 - [x] **Ragdoll Rework:** Rework/configuración pendiente para físicas ragdoll.
+- [ ] **Custom GUI Inventory Buttons / Quick-Access Integration:**
+  - **Feature Idea:** Evaluate and add a custom GUI buttons mod or KubeJS UI script (e.g., Inventory Tabs / Custom Buttons) to embed graphical shortcut buttons directly inside the player's inventory frame.
+  - **Functionality:** Provide one-click access to open key progression interfaces, specifically Corail Tombstone's Knowledge Screen (`ScreenKnowledge`) and Apotheosis World Tier Selection Screen (`WorldTierSelectScreen`).
+
+
+- [ ] **Enchantment Descriptions:**
+  - Agregar las descripciones de los encantamientos (enchantments) que faltan en el juego para mayor claridad y QoL.

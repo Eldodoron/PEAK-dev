@@ -1,0 +1,154 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "chapter_boss_intro"
+	group: "3000000000000000"
+	id: "3100000000000000"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "3100000000000001"
+			rewards: [
+				{
+					count: 4
+					id: "3300000000000001"
+					item: {
+						count: 1
+						id: "farmersdelight:hamburger"
+					}
+					type: "item"
+				}
+				{
+					id: "3300000000000002"
+					table_id: 1117392878634651649L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			size: 1.8d
+			tasks: [{
+				id: "3200000000000001"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3100000000000001"]
+			id: "3100000000000002"
+			rewards: [
+				{
+					count: 8
+					id: "3300000000000003"
+					item: {
+						count: 1
+						id: "minecraft:golden_carrot"
+					}
+					type: "item"
+				}
+				{
+					id: "3300000000000004"
+					table_id: 1117392878634651649L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			size: 1.3d
+			tasks: [{
+				id: "3200000000000002"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3100000000000001"]
+			id: "3100000000000003"
+			rewards: [
+				{
+					count: 2
+					id: "3300000000000005"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+				{
+					id: "3300000000000006"
+					table_id: 1117392878634651650L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			size: 1.3d
+			tasks: [{
+				id: "3200000000000003"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3100000000000001"]
+			id: "3100000000000004"
+			rewards: [
+				{
+					count: 2
+					id: "3300000000000007"
+					item: {
+						count: 1
+						id: "farmersdelight:roast_chicken"
+					}
+					type: "item"
+				}
+				{
+					id: "3300000000000008"
+					table_id: 1117392878634651649L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			size: 1.3d
+			tasks: [{
+				id: "3200000000000004"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"3100000000000002"
+				"3100000000000003"
+				"3100000000000004"
+			]
+			id: "3100000000000005"
+			rewards: [
+				{
+					id: "3300000000000009"
+					item: {
+						count: 1
+						id: "minecraft:enchanted_golden_apple"
+					}
+					type: "item"
+				}
+				{
+					id: "3300000000000010"
+					table_id: 1117392878634651650L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 1.6d
+			tasks: [{
+				id: "3200000000000005"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 7.0d
+		}
+	]
+}

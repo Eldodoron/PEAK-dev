@@ -1,0 +1,69 @@
+{
+	id: "0F81C6E72591D002"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{
+			count: 2
+			id: "0560200000000001"
+			item: {
+				count: 1
+				id: "farmersdelight:honey_glazed_ham"
+			}
+			weight: 3.0f
+		}
+		{
+			count: 4
+			id: "0560200000000002"
+			item: {
+				count: 1
+				id: "minecraft:golden_apple"
+			}
+			weight: 3.0f
+		}
+		{
+			count: 2
+			id: "0560200000000003"
+			item: {
+				count: 1
+				id: "twilightforest:hydra_chop"
+			}
+			weight: 2.0f
+		}
+		{
+			count: 2
+			id: "0560200000000004"
+			item: {
+				count: 1
+				id: "alexscaves:cooked_dinosaur_chop"
+			}
+			weight: 2.0f
+		}
+		{
+			count: 32
+			id: "0560200000000005"
+			item: {
+				count: 1
+				id: "minecraft:experience_bottle"
+			}
+			weight: 2.0f
+		}
+		{
+			count: 2
+			id: "0560200000000006"
+			item: {
+				count: 1
+				id: "minecraft:netherite_scrap"
+			}
+		}
+		{
+			count: 16
+			id: "0560200000000007"
+			item: {
+				count: 1
+				id: "minecraft:emerald"
+			}
+			weight: 2.0f
+		}
+	]
+}

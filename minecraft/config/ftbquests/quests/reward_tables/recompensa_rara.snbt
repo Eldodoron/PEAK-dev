@@ -1,5 +1,5 @@
 {
-	id: "0F81C6E72591A003"
+	id: "368BEB743A80C282"
 	loot_crate: {
 		color: 5636095
 		drops: {
@@ -10,7 +10,7 @@
 		string_id: "recompensa_rara"
 	}
 	loot_size: 1
-	order_index: 5
+	order_index: 8
 	rewards: [
 		{
 			count: 2

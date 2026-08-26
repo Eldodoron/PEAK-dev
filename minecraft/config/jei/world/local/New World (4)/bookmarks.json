@@ -10,5 +10,8 @@
   {"recipe":"ess_requiem:hope","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
   {"recipe":"alexsmobs:transmutation_table","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
   {"ingredient":{"id":"ars_nouveau:source_gem"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"recipe":"solcarrot:food_book","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"}
+  {"recipe":"solcarrot:food_book","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
+  {"ingredient":{"id":"irons_spellbooks:scroll_forge"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"irons_spellbooks:inscription_table"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"irons_spellbooks:alchemist_cauldron"},"type":"item_stack","bookmarkType":"INGREDIENT"}
 ]

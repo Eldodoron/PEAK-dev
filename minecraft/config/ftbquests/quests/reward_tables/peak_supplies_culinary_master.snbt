@@ -1,7 +1,7 @@
 {
 	id: "0F81C6E72591C003"
 	loot_size: 1
-	order_index: 1
+	order_index: 12
 	rewards: [
 		{ id: "0550300000000001", item: { count: 1, id: "farmersdelight:netherite_knife" } }
 		{ id: "0550300000000002", item: { count: 1, id: "farmersdelight:stove" } }

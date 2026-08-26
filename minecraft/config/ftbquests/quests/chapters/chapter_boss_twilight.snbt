@@ -1,0 +1,372 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "chapter_boss_twilight"
+	group: "3000000000000000"
+	id: "3102000000000000"
+	images: [ ]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "3102000000000001"
+			rewards: [
+				{
+					count: 4
+					id: "3302000000000001"
+					item: {
+						count: 1
+						id: "farmersdelight:noodle_soup"
+					}
+					type: "item"
+				}
+				{
+					id: "3302000000000002"
+					table_id: 1117392878634651649L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			size: 1.8d
+			tasks: [{
+				id: "3202000000000001"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3102000000000001"]
+			id: "3102000000000011"
+			rewards: [
+				{
+					count: 4
+					id: "3302000000000011"
+					item: {
+						count: 1
+						id: "farmersdelight:noodle_soup"
+					}
+					type: "item"
+				}
+				{
+					id: "3302000000000012"
+					table_id: 1117392878634651649L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				entity: "twilightforest:naga"
+				id: "3202000000000011"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3102000000000011"]
+			id: "3102000000000012"
+			rewards: [
+				{
+					count: 2
+					id: "3302000000000013"
+					item: {
+						count: 1
+						id: "farmersdelight:stuffed_pumpkin"
+					}
+					type: "item"
+				}
+				{
+					id: "3302000000000014"
+					table_id: 1117392878634651650L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				entity: "twilightforest:lich"
+				id: "3202000000000012"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3102000000000012"]
+			id: "3102000000000013"
+			rewards: [
+				{
+					count: 4
+					id: "3302000000000015"
+					item: {
+						count: 1
+						id: "twilightforest:meef_stroganoff"
+					}
+					type: "item"
+				}
+				{
+					id: "3302000000000016"
+					table_id: 1117392878634651649L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				entity: "twilightforest:minoshroom"
+				id: "3202000000000013"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3102000000000013"]
+			id: "3102000000000014"
+			rewards: [
+				{
+					count: 4
+					id: "3302000000000017"
+					item: {
+						count: 1
+						id: "twilightforest:hydra_chop"
+					}
+					type: "item"
+				}
+				{
+					id: "3302000000000018"
+					table_id: 1117392878634651650L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 1.4d
+			tasks: [{
+				entity: "twilightforest:hydra"
+				id: "3202000000000014"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3102000000000012"]
+			id: "3102000000000015"
+			rewards: [
+				{
+					count: 4
+					id: "3302000000000019"
+					item: {
+						count: 1
+						id: "farmersdelight:roast_chicken"
+					}
+					type: "item"
+				}
+				{
+					id: "3302000000000020"
+					table_id: 1117392878634651649L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				entity: "twilightforest:knight_phantom"
+				id: "3202000000000015"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3102000000000015"]
+			id: "3102000000000016"
+			rewards: [
+				{
+					count: 4
+					id: "3302000000000021"
+					item: {
+						count: 1
+						id: "farmersdelight:honey_glazed_ham"
+					}
+					type: "item"
+				}
+				{
+					id: "3302000000000022"
+					table_id: 1117392878634651650L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 1.4d
+			tasks: [{
+				entity: "twilightforest:ur_ghast"
+				id: "3202000000000016"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"3102000000000014"
+				"3102000000000016"
+			]
+			id: "3102000000000017"
+			rewards: [
+				{
+					count: 4
+					id: "3302000000000023"
+					item: {
+						count: 1
+						id: "twilightforest:experiment_115"
+					}
+					type: "item"
+				}
+				{
+					id: "3302000000000024"
+					table_id: 1117392878634651650L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [{
+				entity: "twilightforest:alpha_yeti"
+				id: "3202000000000017"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["3102000000000017"]
+			id: "3102000000000018"
+			rewards: [
+				{
+					count: 4
+					id: "3302000000000025"
+					item: {
+						count: 1
+						id: "farmersdelight:shepherds_pie"
+					}
+					type: "item"
+				}
+				{
+					id: "3302000000000026"
+					table_id: 1117392878634651650L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 1.4d
+			tasks: [{
+				entity: "twilightforest:snow_queen"
+				id: "3202000000000018"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["3102000000000013"]
+			id: "3102000000000021"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "3302000000000027"
+					item: {
+						count: 1
+						id: "farmersdelight:beef_stew"
+					}
+					type: "item"
+				}
+				{
+					id: "3302000000000028"
+					table_id: 1117392878634651649L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			size: 1.1d
+			tasks: [{
+				entity: "twilightforest:minotaur"
+				id: "3202000000000021"
+				type: "kill"
+				value: 5L
+			}]
+			x: -4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3102000000000016"]
+			id: "3102000000000022"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "3302000000000029"
+					item: {
+						count: 1
+						id: "farmersdelight:pasta_with_meatballs"
+					}
+					type: "item"
+				}
+				{
+					id: "3302000000000030"
+					table_id: 1117392878634651649L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			size: 1.1d
+			tasks: [{
+				entity: "twilightforest:carminite_golem"
+				id: "3202000000000022"
+				type: "kill"
+				value: 3L
+			}]
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3102000000000018"]
+			id: "3102000000000999"
+			rewards: [
+				{
+					count: 2
+					id: "3302000000000991"
+					item: {
+						count: 1
+						id: "minecraft:enchanted_golden_apple"
+					}
+					type: "item"
+				}
+				{
+					id: "3302000000000992"
+					table_id: 1117392878634651651L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 1.7d
+			tasks: [{
+				id: "3202000000000999"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 14.5d
+		}
+	]
+}

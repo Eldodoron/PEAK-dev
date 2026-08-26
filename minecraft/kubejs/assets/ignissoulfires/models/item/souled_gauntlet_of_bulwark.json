@@ -1,0 +1,18 @@
+{
+	"parent": "minecraft:item/handheld",
+	"loader": "neoforge:separate_transforms",
+	"textures": {
+	  "layer0": "ignissoulfires:item/souled_gauntlet_of_bulwark_gui"
+	},
+	"base": {
+	  "parent": "ignissoulfires:item/souled_gauntlet_of_bulwark_hand"
+	},
+	"perspectives": {
+	  "gui": {
+		"parent": "ignissoulfires:item/souled_gauntlet_of_bulwark_gui"
+	  },
+	  "fixed": {
+		"parent": "ignissoulfires:item/souled_gauntlet_of_bulwark_gui"
+	  }
+	}
+  }

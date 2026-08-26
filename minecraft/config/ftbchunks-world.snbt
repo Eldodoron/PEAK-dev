@@ -34,7 +34,7 @@
 	
 	# If true, "Location Visibility" team settings are ignored, and all players can see each other anywhere on the map.
 	# Default: false
-	location_mode_override: false
+	location_mode_override: true
 	
 	# Interval in ticks to send updates to clients with long-range player tracking data.
 	# Lower values mean more frequent updates but more server load and network traffic; be careful with this, especially on busy servers.

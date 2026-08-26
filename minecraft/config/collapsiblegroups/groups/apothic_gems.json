@@ -1,0 +1,22 @@
+{
+  "id": "apothic_gems",
+  "name": {
+    "translate": "collapsible_groups.group.apothic_gems",
+    "fallback": "Apothic Gems"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "apotheosis"
+      },
+      {
+        "item_path_starts_with": "gem"
+      },
+      {
+        "item_path_ends_with": "gem"
+      }
+    ]
+  }
+}

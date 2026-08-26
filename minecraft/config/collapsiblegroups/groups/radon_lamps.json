@@ -1,0 +1,11 @@
+{
+  "id": "radon_lamps",
+  "name": {
+    "translate": "collapsible_groups.group.radon_lamps",
+    "fallback": "Radon Lamps"
+  },
+  "enabled": true,
+  "filter": {
+    "item_path_contains": "radon_lamp"
+  }
+}

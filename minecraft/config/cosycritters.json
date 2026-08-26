@@ -21,12 +21,13 @@
     },
     "blockList": {
       "entries": [
-        "#minecraft:leaves"
+        "#minecraft:leaves",
+        "#minecraft:grass_block"
       ],
       "isWhitelist": true
     },
-    "reactionDistance": 10,
-    "reactionSpeed": 20,
+    "reactionDistance": 15,
+    "reactionSpeed": 1,
     "despawnDistance": 128,
     "blockAvoidanceDistance": 8,
     "blockAvoidanceFactor": 0.1,
@@ -35,11 +36,11 @@
     "flockRange": 20,
     "alignment": 0.05,
     "cohesion": 0.001,
-    "maxSpeed": 1.0,
-    "minSpeed": 0.3,
+    "maxSpeed": 2.0,
+    "minSpeed": 0.7,
     "maxBehaviourTime": 400,
     "landingResponsiveness": 0.01,
-    "flightHeightLimit": 20,
+    "flightHeightLimit": 30,
     "flightHeightLimitFactor": 0.005,
     "flightRandomness": 0.03
   }

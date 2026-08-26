@@ -784,7 +784,7 @@ _version = 4
 				#
 				# Should Minecraft's fog render? 
 				# Note: Other mods may conflict with this setting.
-				enableVanillaFog = false
+				enableVanillaFog = true
 				#
 				# What is the maximum fog thickness? 
 				# 

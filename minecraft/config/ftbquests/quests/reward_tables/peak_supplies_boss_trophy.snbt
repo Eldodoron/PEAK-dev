@@ -1,0 +1,70 @@
+{
+	id: "0F81C6E72591D001"
+	loot_size: 1
+	order_index: 5
+	rewards: [
+		{
+			count: 2
+			id: "0560100000000001"
+			item: {
+				count: 1
+				id: "farmersdelight:roast_chicken"
+			}
+			weight: 3.0f
+		}
+		{
+			count: 2
+			id: "0560100000000002"
+			item: {
+				count: 1
+				id: "farmersdelight:shepherds_pie"
+			}
+			weight: 3.0f
+		}
+		{
+			count: 2
+			id: "0560100000000003"
+			item: {
+				count: 1
+				id: "farmersdelight:stuffed_pumpkin"
+			}
+			weight: 3.0f
+		}
+		{
+			count: 8
+			id: "0560100000000004"
+			item: {
+				count: 1
+				id: "minecraft:golden_carrot"
+			}
+			weight: 3.0f
+		}
+		{
+			count: 16
+			id: "0560100000000005"
+			item: {
+				count: 1
+				id: "minecraft:experience_bottle"
+			}
+			weight: 2.0f
+		}
+		{
+			count: 4
+			id: "0560100000000006"
+			item: {
+				count: 1
+				id: "minecraft:diamond"
+			}
+			weight: 2.0f
+		}
+		{
+			count: 8
+			id: "0560100000000007"
+			item: {
+				count: 1
+				id: "minecraft:emerald"
+			}
+			weight: 2.0f
+		}
+	]
+}

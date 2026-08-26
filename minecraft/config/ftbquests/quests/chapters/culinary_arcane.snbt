@@ -77,6 +77,7 @@
 				}
 				{
 					id: "5300000000002003"
+					table_id: 1117392878634647553L
 					type: "random"
 				}
 			]
@@ -106,6 +107,7 @@
 				}
 				{
 					id: "5300000000002005"
+					table_id: 1117392878634647553L
 					type: "random"
 				}
 			]
@@ -125,6 +127,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000002006"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -143,6 +146,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000002007"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -161,6 +165,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000002008"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -179,6 +184,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000002009"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -197,6 +203,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000002010"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -215,6 +222,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000002011"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -233,6 +241,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000002012"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -251,6 +260,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000002013"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -269,6 +279,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000002014"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -287,6 +298,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000002015"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -305,6 +317,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000002016"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -323,6 +336,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000002017"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -341,6 +355,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000002018"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -359,6 +374,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000002019"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -377,6 +393,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000002020"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -395,6 +412,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000002021"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -413,6 +431,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000002022"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -431,6 +450,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000002023"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -459,6 +479,7 @@
 				}
 				{
 					id: "5300000000002025"
+					table_id: 1117392878634647553L
 					type: "random"
 				}
 			]
@@ -478,6 +499,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000002026"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -496,6 +518,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000002027"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -514,6 +537,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000002028"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -532,6 +556,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000002029"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -550,6 +575,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000002030"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -568,6 +594,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000002031"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -586,6 +613,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000002032"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -604,6 +632,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000002033"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -622,6 +651,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000002034"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -640,6 +670,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000002035"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -658,6 +689,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000002036"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -676,6 +708,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000002037"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -694,6 +727,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000002038"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -712,6 +746,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000002039"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -730,6 +765,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000002040"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -748,6 +784,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000002041"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -766,6 +803,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000002042"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -784,6 +822,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000002043"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -802,6 +841,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000002044"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -820,6 +860,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000002045"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -848,6 +889,7 @@
 				}
 				{
 					id: "5300000000002047"
+					table_id: 1117392878634647553L
 					type: "random"
 				}
 			]
@@ -867,6 +909,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000002048"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -885,6 +928,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000002049"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -903,6 +947,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000002050"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -921,6 +966,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000002051"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -939,6 +985,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000002052"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -957,6 +1004,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000002053"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -975,6 +1023,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000002054"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -993,6 +1042,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000002055"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -1011,6 +1061,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000002056"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -1029,6 +1080,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000002057"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -1047,6 +1099,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000002058"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -1065,6 +1118,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000002059"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -1083,6 +1137,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000002060"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -1101,6 +1156,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000002061"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -1119,6 +1175,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000002062"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -1137,6 +1194,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000002063"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -1164,6 +1222,7 @@
 				}
 				{
 					id: "5300000000002065"
+					table_id: 1117392878634647553L
 					type: "random"
 				}
 			]
@@ -1183,6 +1242,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000002066"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -1201,6 +1261,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000002067"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -1219,6 +1280,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000002068"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -1237,6 +1299,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000002069"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -1255,6 +1318,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000002070"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -1273,6 +1337,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000002071"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -1291,6 +1356,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000002072"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -1309,6 +1375,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000002073"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -1327,6 +1394,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000002074"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -1345,6 +1413,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000002075"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -1363,6 +1432,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000002076"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -1381,6 +1451,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000002077"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -1399,6 +1470,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000002078"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -1417,6 +1489,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000002079"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -1435,6 +1508,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000002080"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -1453,6 +1527,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000002081"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -1471,6 +1546,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000002082"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -1589,6 +1665,7 @@
 				}
 				{
 					id: "5300000000002086"
+					table_id: 1117392878634647553L
 					type: "random"
 				}
 			]

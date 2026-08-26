@@ -1,0 +1,19 @@
+{
+  "id": "singularities",
+  "name": {
+    "translate": "collapsible_groups.group.singularities",
+    "fallback": "Singularities"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "avaritia"
+      },
+      {
+        "item_path_contains": "singularity"
+      }
+    ]
+  }
+}

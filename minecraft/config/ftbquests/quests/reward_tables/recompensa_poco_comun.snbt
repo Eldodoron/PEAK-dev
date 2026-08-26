@@ -1,5 +1,5 @@
 {
-	id: "0F81C6E72591A002"
+	id: "09621E809FF388C1"
 	loot_crate: {
 		color: 5635925
 		drops: {
@@ -10,7 +10,7 @@
 		string_id: "recompensa_poco_comun"
 	}
 	loot_size: 1
-	order_index: 4
+	order_index: 6
 	rewards: [
 		{
 			count: 4

@@ -1,0 +1,128 @@
+{
+  "id": "suspicious_stew",
+  "name": {
+    "translate": "collapsible_groups.group.suspicious_stew",
+    "fallback": "Suspicious Stew"
+  },
+  "enabled": true,
+  "icon": [
+    "minecraft:suspicious_stew",
+    "minecraft:suspicious_stew"
+  ],
+  "filter": {
+    "any": [
+      {
+        "type": "item",
+        "stack": "{\"id\":\"minecraft:suspicious_stew\",\"components\":{\"minecraft:suspicious_stew_effects\":[{\"id\":\"minecraft:saturation\",\"duration\":7}]}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"minecraft:suspicious_stew\",\"components\":{\"minecraft:suspicious_stew_effects\":[{\"id\":\"minecraft:night_vision\",\"duration\":100}]}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"minecraft:suspicious_stew\",\"components\":{\"minecraft:suspicious_stew_effects\":[{\"id\":\"minecraft:fire_resistance\",\"duration\":80}]}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"minecraft:suspicious_stew\",\"components\":{\"minecraft:suspicious_stew_effects\":[{\"id\":\"minecraft:glowing\",\"duration\":120}]}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"minecraft:suspicious_stew\",\"components\":{\"minecraft:suspicious_stew_effects\":[{\"id\":\"minecraft:blindness\"}]}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"minecraft:suspicious_stew\",\"components\":{\"minecraft:suspicious_stew_effects\":[{\"id\":\"minecraft:weakness\",\"duration\":180}]}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"minecraft:suspicious_stew\",\"components\":{\"minecraft:suspicious_stew_effects\":[{\"id\":\"minecraft:regeneration\"}]}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"minecraft:suspicious_stew\",\"components\":{\"minecraft:suspicious_stew_effects\":[{\"id\":\"minecraft:jump_boost\",\"duration\":120}]}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"minecraft:suspicious_stew\",\"components\":{\"minecraft:suspicious_stew_effects\":[{\"id\":\"minecraft:wither\"}]}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"minecraft:suspicious_stew\",\"components\":{\"minecraft:suspicious_stew_effects\":[{\"id\":\"tombstone:true_sight\",\"duration\":80}]}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"minecraft:suspicious_stew\",\"components\":{\"minecraft:suspicious_stew_effects\":[{\"id\":\"minecraft:glowing\",\"duration\":0}]}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"minecraft:suspicious_stew\",\"components\":{\"minecraft:suspicious_stew_effects\":[{\"id\":\"minecraft:saturation\",\"duration\":120}]}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"minecraft:suspicious_stew\",\"components\":{\"minecraft:suspicious_stew_effects\":[{\"id\":\"minecraft:levitation\",\"duration\":2000}]}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"minecraft:suspicious_stew\",\"components\":{\"minecraft:suspicious_stew_effects\":[{\"id\":\"minecraft:speed\",\"duration\":2000}]}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"minecraft:suspicious_stew\",\"components\":{\"minecraft:suspicious_stew_effects\":[{\"id\":\"minecraft:resistance\",\"duration\":2000}]}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"minecraft:suspicious_stew\",\"components\":{\"minecraft:suspicious_stew_effects\":[{\"id\":\"minecraft:nausea\",\"duration\":2000}]}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"minecraft:suspicious_stew\",\"components\":{\"minecraft:suspicious_stew_effects\":[{\"id\":\"minecraft:weakness\",\"duration\":2000}]}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"minecraft:suspicious_stew\",\"components\":{\"minecraft:suspicious_stew_effects\":[{\"id\":\"minecraft:blindness\",\"duration\":220}]}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"minecraft:suspicious_stew\",\"components\":{\"minecraft:suspicious_stew_effects\":[{\"id\":\"minecraft:nausea\",\"duration\":140}]}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"minecraft:suspicious_stew\",\"components\":{\"minecraft:suspicious_stew_effects\":[{\"id\":\"minecraft:blindness\",\"duration\":140}]}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"minecraft:suspicious_stew\",\"components\":{\"minecraft:suspicious_stew_effects\":[{\"id\":\"minecraft:strength\",\"duration\":120}]}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"minecraft:suspicious_stew\",\"components\":{\"minecraft:suspicious_stew_effects\":[{\"id\":\"minecraft:luck\",\"duration\":100}]}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"minecraft:suspicious_stew\",\"components\":{\"minecraft:suspicious_stew_effects\":[{\"id\":\"minecraft:water_breathing\"}]}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"minecraft:suspicious_stew\",\"components\":{\"minecraft:suspicious_stew_effects\":[{\"id\":\"minecraft:nausea\"}]}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"minecraft:suspicious_stew\",\"components\":{\"minecraft:suspicious_stew_effects\":[{\"id\":\"minecraft:mining_fatigue\",\"duration\":120}]}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"minecraft:suspicious_stew\",\"components\":{\"minecraft:suspicious_stew_effects\":[{\"id\":\"minecraft:poison\",\"duration\":200}]}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"minecraft:suspicious_stew\",\"components\":{\"minecraft:suspicious_stew_effects\":[{\"id\":\"minecraft:fire_resistance\",\"duration\":120}]}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"minecraft:suspicious_stew\",\"components\":{\"minecraft:suspicious_stew_effects\":[{\"id\":\"minecraft:poison\",\"duration\":240}]}}"
+      }
+    ]
+  }
+}

@@ -1,5 +1,5 @@
 {
-	id: "0F81C6E72591A004"
+	id: "30829DB847C0B4B3"
 	loot_crate: {
 		color: 11141290
 		drops: {
@@ -10,7 +10,7 @@
 		string_id: "recompensa_epica"
 	}
 	loot_size: 1
-	order_index: 6
+	order_index: 10
 	rewards: [
 		{
 			count: 2

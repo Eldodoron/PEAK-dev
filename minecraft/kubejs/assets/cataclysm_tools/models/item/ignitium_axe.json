@@ -1,0 +1,18 @@
+{
+	"parent": "minecraft:item/handheld",
+	"loader": "neoforge:separate_transforms",
+	"textures": {
+	  "layer0": "cataclysm_tools:item/ignitium_axe_gui"
+	},
+	"base": {
+	  "parent": "cataclysm_tools:custom/ignitium_axe"
+	},
+	"perspectives": {
+	  "gui": {
+		"parent": "cataclysm_tools:item/ignitium_axe_gui"
+	  },
+	  "fixed": {
+		"parent": "cataclysm_tools:item/ignitium_axe_gui"
+	  }
+	}
+  }

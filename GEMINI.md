@@ -13,6 +13,31 @@
 
 ## 3. KubeJS & Modding Best Practices (NeoForge 1.21.1)
 - Use standard KubeJS 1.21 events (`ServerEvents.recipes`, `ServerEvents.tags`, etc.).
+- **NEVER use `ForgeEvents` or `NeoForgeEvents`; always use `NativeEvents.onEvent(...)` when subscribing to native NeoForge events.**
 - Target Data Components via `.withComponents()` instead of legacy `.withNBT()`.
 - Ensure all scripts and JSON files compile cleanly with zero syntax errors.
 - Never delete or modify functional game logic without explicit verification.
+
+## 4. Registry References & Inspection Dumps (`ct_dumps` & `panoptic`)
+- **`minecraft/ct_dumps/`**: Contains exact, up-to-date registry dumps from CraftTweaker (`item.txt`, `tag.txt`, `block.txt`, `attribute.txt`, `componenttype.txt`, `fluid.txt`, `enchantment.txt`, `effect.txt`, `soundevent.txt`, etc.). ALWAYS search and consult these dumps to verify accurate item IDs, mod namespaces, tags, and Data Components before writing KubeJS scripts instead of guessing.
+- **`minecraft/panoptic/`**: Contains structure inspection data, seedmaps, and worldgen metadata (`inspections.json`). Reference this folder when auditing or tuning structure generation, mod structure palettes, and loot integrations.
+
+## 5. Strict English-Only Policy
+- **ALL** code comments, in-game text, tooltips, console logs (`console.log`), JSON localization files, documentation (`.md`), backlog notes, and git commit messages **MUST** be written strictly in **English**.
+- Never include Spanish or other languages inside code comments, script outputs, or project repository files.
+
+## 6. Strict Scope Adherence & Prohibition of Unsolicited JAR Patching
+- **NEVER** modify, decompile, patch, or alter binary third-party mod JAR files (e.g., editing `neoforge.mods.toml` or class files inside a `.jar`) unless the user explicitly requests a JAR patch.
+- **NEVER** take unsolicited, intrusive actions or over-engineer workarounds when the user asks an investigatory, lookup, or informational question (e.g., searching for compatible mod versions). Answer the question directly with clear, factual options.
+- **ALWAYS** ask for explicit user permission before executing any modifying actions, workarounds, or filesystem changes.
+
+## 7. FTB Quests Invariants & Best Practices (NeoForge 1.21.1)
+- **Zero Emojis in Titles & Descriptions:** **NEVER** include raw Unicode emoji characters in quest, chapter, or chapter group titles and descriptions (e.g., avoid `🗡️`, `🔮`, `🏹`, `🍞`). Minecraft font engines render these as low-res, redundant glyphs alongside native high-res item icons. Use clean formatted text with standard color codes (`&6`, `&b`, etc.).
+- **Zero Literal Ampersands (`& `):** In Minecraft / NeoForge text formatting, `&` is strictly a formatting escape character (`&6`, `&a`, `&r`). **NEVER** write literal `& ` or unescaped ampersands in titles, subtitles, or descriptions, as Minecraft parses `& ` as an invalid color sequence and renders **"Invalid formatting code"**. Always write "and" in prose and titles.
+- **Mandatory Localization Synchronization (`lang/en_us.snbt`):** FTB Quests prioritizes `quests/lang/en_us.snbt` for in-game localized display text. Whenever adding or updating quest titles, subtitles, or descriptions, **ALWAYS** update both the `.snbt` chapter file AND `quests/lang/en_us.snbt` simultaneously to prevent stale client strings.
+- **No Redundant Boss Drop Rewards:** Boss progression quests **MUST NOT** award items that the bosses themselves drop (e.g., `minecraft:ender_eye`, `minecraft:ender_pearl`, `kubejs:infinity_fragment`). Reward themed gourmet food (Hydra chops, Meef stroganoff, Dino nuggets/chops, Squid ink pasta) or slayer supply caches instead.
+- **Clean Grid & Column Progression (No Spiderwebs):** Organize chapter quests into parallel vertical columns or linear spines with standard coordinate spacing (`x: -6.0, -2.0, 2.0, 6.0` or `y: 0.0, 2.5, 5.0, 7.5`). Use `hide_dependency_lines: true` on broad cross-category milestone nodes to prevent intersecting diagonal lines that cut through other quest nodes.
+- **Strict Chapter Ordering (`order_index`):** Every chapter file in `quests/chapters/*.snbt` **MUST** declare a unique, sequential `order_index: <int>` (0, 1, 2, 3...) within its `group` so the sidebar displays chapters in chronological progression order rather than random filesystem order.
+- **Mandatory Table IDs on Random Rewards:** Every reward with `type: "random"` **MUST** declare a valid `table_id: <long>L` referencing an existing reward table in `reward_tables/*.snbt`. Never create random rewards without `table_id`, as FTB Quests will fallback to a broken red die that drops nothing.
+- **Explicit Reward Table Metadata:** All reward table `.snbt` files in `reward_tables/` must include explicit `title` and `icon` properties (e.g., `icon: "farmersdelight:cabbage"`) so they render proper mod sprites in the quest reward UI.
+- **Quest Icon Syntax:** Declare quest-level icons as standard string identifiers (`icon: "modid:item_name"`), rather than compound objects. Checkmark tasks granting free rewards must have their parent quest icon explicitly set to the gift item.

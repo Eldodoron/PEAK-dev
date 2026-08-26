@@ -1,0 +1,250 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "chapter_boss_endgame"
+	group: "3000000000000000"
+	id: "3107000000000000"
+	images: [ ]
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			id: "3107000000000001"
+			rewards: [
+				{
+					count: 2
+					id: "3307000000000001"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+				{
+					id: "3307000000000002"
+					table_id: 1117392878634651650L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			size: 1.8d
+			tasks: [{
+				id: "3207000000000001"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3107000000000001"]
+			id: "3107000000000011"
+			rewards: [
+				{
+					count: 2
+					id: "3307000000000011"
+					item: {
+						count: 1
+						id: "minecraft:enchanted_golden_apple"
+					}
+					type: "item"
+				}
+				{
+					id: "3307000000000012"
+					table_id: 1117392878634651651L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 1.4d
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "3207000000000011"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3107000000000001"]
+			id: "3107000000000012"
+			rewards: [
+				{
+					id: "3307000000000013"
+					item: {
+						count: 1
+						id: "minecraft:nether_star"
+					}
+					type: "item"
+				}
+				{
+					id: "3307000000000014"
+					table_id: 1117392878634651650L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 1.4d
+			tasks: [{
+				entity: "minecraft:wither"
+				id: "3207000000000012"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3107000000000001"]
+			id: "3107000000000021"
+			rewards: [
+				{
+					count: 16
+					id: "3307000000000021"
+					item: {
+						count: 1
+						id: "minecraft:golden_carrot"
+					}
+					type: "item"
+				}
+				{
+					id: "3307000000000022"
+					table_id: 1117392878634651650L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [{
+				entity: "bosses_of_mass_destruction:obsidilith"
+				id: "3207000000000021"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3107000000000001"]
+			id: "3107000000000022"
+			rewards: [
+				{
+					count: 4
+					id: "3307000000000023"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+				{
+					id: "3307000000000024"
+					table_id: 1117392878634651651L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 1.4d
+			tasks: [{
+				entity: "alexsmobs:void_worm"
+				id: "3207000000000022"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3107000000000001"]
+			id: "3107000000000023"
+			rewards: [
+				{
+					count: 4
+					id: "3307000000000025"
+					item: {
+						count: 1
+						id: "farmersdelight:fruit_salad"
+					}
+					type: "item"
+				}
+				{
+					id: "3307000000000026"
+					table_id: 1117392878634651649L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				entity: "unusualend:enderblob_queen"
+				id: "3207000000000023"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"3107000000000011"
+				"3107000000000021"
+				"3107000000000022"
+			]
+			id: "3107000000000031"
+			rewards: [
+				{
+					count: 4
+					id: "3307000000000031"
+					item: {
+						count: 1
+						id: "minecraft:enchanted_golden_apple"
+					}
+					type: "item"
+				}
+				{
+					id: "3307000000000032"
+					table_id: 1117392878634651651L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				entity: "draconicevolution:draconic_guardian"
+				id: "3207000000000031"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["3107000000000031"]
+			id: "3107000000000999"
+			rewards: [
+				{
+					count: 4
+					id: "3307000000000991"
+					item: {
+						count: 1
+						id: "minecraft:enchanted_golden_apple"
+					}
+					type: "item"
+				}
+				{
+					id: "3307000000000992"
+					table_id: 1117392878634651651L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 1.8d
+			tasks: [{
+				id: "3207000000000999"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 10.0d
+		}
+	]
+}

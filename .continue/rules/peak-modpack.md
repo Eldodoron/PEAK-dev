@@ -41,3 +41,10 @@ globs: "**/*.js,**/*.json,**/*.toml,**/*.cfg"
   - **Alex's Caves & Vampirism:** Las IA de vampiros y dinosaurios/monstruos consumen CPU moderada-alta (5% a 8%).
 - **Gestión de RAM:** En sistemas con 64 GB de RAM física, asignar entre 10 GB y 12 GB máximo (`-Xmx`). Recomendar siempre **G1GC** optimizado (-XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200 -XX:+UnlockExperimentalVMOptions -XX:+AlwaysPreTouch -XX:G1NewSizePercent=30 -XX:G1MaxNewSizePercent=40 -XX:G1ReservePercent=20 -XX:G1HeapWastePercent=5 -XX:G1MixedGCCountTarget=4 -XX:InitiatingHeapOccupancyPercent=15 -XX:G1MixedGCLiveThresholdPercent=90 -XX:G1RSetUpdatingPauseTimePercent=5 -XX:SurvivorRatio=32 -XX:+PerfDisableSharedMem -XX:MaxTenuringThreshold=1).
 
+## Procedimientos Generales de Scripting y Debugging (1.21.1)
+- **Mecánicas Custom vs KubeJS:** Antes de aplicar `ItemEvents.modification`, verificar si el mod gestiona proyectiles, habilidades o multiplicadores en sus propios archivos de configuración (`config/*.toml`).
+- **Edición Segura de Configs:** Al editar configuraciones con scripts/regex, aislar estrictamente las secciones objetivo para no alterar valores comunes no deseados.
+- **Validación Real de APIs (1.21.1):** En caso de dudas o errores de métodos inexistentes en librerías (LootJS, KubeJS, etc.), inspeccionar/descompilar la clase Java del `.jar` con `javap` antes de iterar suposiciones de sintaxis.
+- **Automatización de Onboarding:** Si una mecánica o mod de progresión requiere interacción manual inicial para activarse (tutoriales/menús), automatizar la inicialización silenciosa en `PlayerEvents.loggedIn`.
+
+

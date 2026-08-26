@@ -1,0 +1,34 @@
+{
+	id: "0F81C6E72591A003"
+	loot_size: 1
+	order_index: 7
+	rewards: [
+		{
+			count: 2
+			id: "05B0366357BA26A7"
+			item: {
+				count: 1
+				id: "sophisticatedbackpacks:upgrade_base"
+			}
+			weight: 2.0f
+		}
+		{
+			count: 4
+			id: "3E82C146DC136843"
+			item: {
+				count: 1
+				id: "minecraft:diamond"
+			}
+			weight: 2.0f
+		}
+		{
+			count: 4
+			id: "1000000000000103"
+			item: {
+				count: 1
+				id: "minecraft:golden_apple"
+			}
+			weight: 2.0f
+		}
+	]
+}

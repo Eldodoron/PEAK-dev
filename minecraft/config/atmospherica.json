@@ -324,6 +324,6 @@
     "dayBrightness": 1.0,
     "dayTwinkle": 0.35
   },
-  "fogEnabled": true,
+  "fogEnabled": false,
   "skyEnabled": true
 }

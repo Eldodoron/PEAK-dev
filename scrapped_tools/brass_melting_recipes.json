@@ -1,0 +1,770 @@
+[
+  {
+    "mod": "alltheores-3.2.0_neoforge_1.21.1.jar",
+    "file": "data/alltheores/advancement/recipes/misc/crafting/brass/block_from_ingot.json",
+    "content": {
+      "parent": "minecraft:recipes/root",
+      "criteria": {
+        "has_brass_ingot": {
+          "conditions": {
+            "items": [
+              {
+                "items": "#c:ingots/brass"
+              }
+            ]
+          },
+          "trigger": "minecraft:inventory_changed"
+        },
+        "has_the_recipe": {
+          "conditions": {
+            "recipe": "alltheores:crafting/brass/block_from_ingot"
+          },
+          "trigger": "minecraft:recipe_unlocked"
+        }
+      },
+      "requirements": [
+        [
+          "has_the_recipe",
+          "has_brass_ingot"
+        ]
+      ],
+      "rewards": {
+        "recipes": [
+          "alltheores:crafting/brass/block_from_ingot"
+        ]
+      }
+    }
+  },
+  {
+    "mod": "alltheores-3.2.0_neoforge_1.21.1.jar",
+    "file": "data/alltheores/advancement/recipes/misc/crafting/brass/gear.json",
+    "content": {
+      "parent": "minecraft:recipes/root",
+      "criteria": {
+        "has_brass_ingot": {
+          "conditions": {
+            "items": [
+              {
+                "items": "#c:ingots/brass"
+              }
+            ]
+          },
+          "trigger": "minecraft:inventory_changed"
+        },
+        "has_the_recipe": {
+          "conditions": {
+            "recipe": "alltheores:crafting/brass/gear"
+          },
+          "trigger": "minecraft:recipe_unlocked"
+        }
+      },
+      "requirements": [
+        [
+          "has_the_recipe",
+          "has_brass_ingot"
+        ]
+      ],
+      "rewards": {
+        "recipes": [
+          "alltheores:crafting/brass/gear"
+        ]
+      }
+    }
+  },
+  {
+    "mod": "alltheores-3.2.0_neoforge_1.21.1.jar",
+    "file": "data/alltheores/advancement/recipes/misc/crafting/brass/ingot_from_nugget.json",
+    "content": {
+      "parent": "minecraft:recipes/root",
+      "criteria": {
+        "has_brass_nugget": {
+          "conditions": {
+            "items": [
+              {
+                "items": "#c:nuggets/brass"
+              }
+            ]
+          },
+          "trigger": "minecraft:inventory_changed"
+        },
+        "has_the_recipe": {
+          "conditions": {
+            "recipe": "alltheores:crafting/brass/ingot_from_nugget"
+          },
+          "trigger": "minecraft:recipe_unlocked"
+        }
+      },
+      "requirements": [
+        [
+          "has_the_recipe",
+          "has_brass_nugget"
+        ]
+      ],
+      "rewards": {
+        "recipes": [
+          "alltheores:crafting/brass/ingot_from_nugget"
+        ]
+      }
+    }
+  },
+  {
+    "mod": "alltheores-3.2.0_neoforge_1.21.1.jar",
+    "file": "data/alltheores/advancement/recipes/misc/crafting/brass/nugget_from_ingot.json",
+    "content": {
+      "parent": "minecraft:recipes/root",
+      "criteria": {
+        "has_brass_ingot": {
+          "conditions": {
+            "items": [
+              {
+                "items": "#c:ingots/brass"
+              }
+            ]
+          },
+          "trigger": "minecraft:inventory_changed"
+        },
+        "has_the_recipe": {
+          "conditions": {
+            "recipe": "alltheores:crafting/brass/nugget_from_ingot"
+          },
+          "trigger": "minecraft:recipe_unlocked"
+        }
+      },
+      "requirements": [
+        [
+          "has_the_recipe",
+          "has_brass_ingot"
+        ]
+      ],
+      "rewards": {
+        "recipes": [
+          "alltheores:crafting/brass/nugget_from_ingot"
+        ]
+      }
+    }
+  },
+  {
+    "mod": "alltheores-3.2.0_neoforge_1.21.1.jar",
+    "file": "data/alltheores/advancement/recipes/misc/crafting/brass/plate.json",
+    "content": {
+      "parent": "minecraft:recipes/root",
+      "criteria": {
+        "has_brass_ingot": {
+          "conditions": {
+            "items": [
+              {
+                "items": "#c:ingots/brass"
+              }
+            ]
+          },
+          "trigger": "minecraft:inventory_changed"
+        },
+        "has_the_recipe": {
+          "conditions": {
+            "recipe": "alltheores:crafting/brass/plate"
+          },
+          "trigger": "minecraft:recipe_unlocked"
+        }
+      },
+      "requirements": [
+        [
+          "has_the_recipe",
+          "has_brass_ingot"
+        ]
+      ],
+      "rewards": {
+        "recipes": [
+          "alltheores:crafting/brass/plate"
+        ]
+      }
+    }
+  },
+  {
+    "mod": "alltheores-3.2.0_neoforge_1.21.1.jar",
+    "file": "data/alltheores/advancement/recipes/misc/crafting/brass/rod.json",
+    "content": {
+      "parent": "minecraft:recipes/root",
+      "criteria": {
+        "has_brass_ingot": {
+          "conditions": {
+            "items": [
+              {
+                "items": "#c:ingots/brass"
+              }
+            ]
+          },
+          "trigger": "minecraft:inventory_changed"
+        },
+        "has_the_recipe": {
+          "conditions": {
+            "recipe": "alltheores:crafting/brass/rod"
+          },
+          "trigger": "minecraft:recipe_unlocked"
+        }
+      },
+      "requirements": [
+        [
+          "has_the_recipe",
+          "has_brass_ingot"
+        ]
+      ],
+      "rewards": {
+        "recipes": [
+          "alltheores:crafting/brass/rod"
+        ]
+      }
+    }
+  },
+  {
+    "mod": "create-1.21.1-6.0.10.jar",
+    "file": "data/create/advancement/recipes/misc/crafting/materials/brass_block_from_compacting.json",
+    "content": {
+      "parent": "minecraft:recipes/root",
+      "criteria": {
+        "has_item": {
+          "conditions": {
+            "items": [
+              {
+                "items": "create:brass_ingot"
+              }
+            ]
+          },
+          "trigger": "minecraft:inventory_changed"
+        },
+        "has_the_recipe": {
+          "conditions": {
+            "recipe": "create:crafting/materials/brass_block_from_compacting"
+          },
+          "trigger": "minecraft:recipe_unlocked"
+        }
+      },
+      "requirements": [
+        [
+          "has_the_recipe",
+          "has_item"
+        ]
+      ],
+      "rewards": {
+        "recipes": [
+          "create:crafting/materials/brass_block_from_compacting"
+        ]
+      }
+    }
+  },
+  {
+    "mod": "create-1.21.1-6.0.10.jar",
+    "file": "data/create/advancement/recipes/misc/crafting/materials/brass_ingot_from_decompacting.json",
+    "content": {
+      "parent": "minecraft:recipes/root",
+      "criteria": {
+        "has_item": {
+          "conditions": {
+            "items": [
+              {
+                "items": "create:brass_block"
+              }
+            ]
+          },
+          "trigger": "minecraft:inventory_changed"
+        },
+        "has_the_recipe": {
+          "conditions": {
+            "recipe": "create:crafting/materials/brass_ingot_from_decompacting"
+          },
+          "trigger": "minecraft:recipe_unlocked"
+        }
+      },
+      "requirements": [
+        [
+          "has_the_recipe",
+          "has_item"
+        ]
+      ],
+      "rewards": {
+        "recipes": [
+          "create:crafting/materials/brass_ingot_from_decompacting"
+        ]
+      }
+    }
+  },
+  {
+    "mod": "create-1.21.1-6.0.10.jar",
+    "file": "data/create/advancement/recipes/misc/crafting/materials/brass_ingot_from_compacting.json",
+    "content": {
+      "parent": "minecraft:recipes/root",
+      "criteria": {
+        "has_item": {
+          "conditions": {
+            "items": [
+              {
+                "items": "create:brass_nugget"
+              }
+            ]
+          },
+          "trigger": "minecraft:inventory_changed"
+        },
+        "has_the_recipe": {
+          "conditions": {
+            "recipe": "create:crafting/materials/brass_ingot_from_compacting"
+          },
+          "trigger": "minecraft:recipe_unlocked"
+        }
+      },
+      "requirements": [
+        [
+          "has_the_recipe",
+          "has_item"
+        ]
+      ],
+      "rewards": {
+        "recipes": [
+          "create:crafting/materials/brass_ingot_from_compacting"
+        ]
+      }
+    }
+  },
+  {
+    "mod": "create-1.21.1-6.0.10.jar",
+    "file": "data/create/advancement/recipes/misc/crafting/materials/brass_nugget_from_decompacting.json",
+    "content": {
+      "parent": "minecraft:recipes/root",
+      "criteria": {
+        "has_item": {
+          "conditions": {
+            "items": [
+              {
+                "items": "create:brass_ingot"
+              }
+            ]
+          },
+          "trigger": "minecraft:inventory_changed"
+        },
+        "has_the_recipe": {
+          "conditions": {
+            "recipe": "create:crafting/materials/brass_nugget_from_decompacting"
+          },
+          "trigger": "minecraft:recipe_unlocked"
+        }
+      },
+      "requirements": [
+        [
+          "has_the_recipe",
+          "has_item"
+        ]
+      ],
+      "rewards": {
+        "recipes": [
+          "create:crafting/materials/brass_nugget_from_decompacting"
+        ]
+      }
+    }
+  },
+  {
+    "mod": "create-enchantment-industry-2.5.0-preview-alpha1.jar",
+    "file": "data/create_enchantment_industry/advancement/recipes/ender_woven_bag.json",
+    "content": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "apothic_enchanting"
+        }
+      ],
+      "criteria": {
+        "brass": {
+          "conditions": {
+            "items": [
+              {
+                "items": "create:brass_ingot"
+              }
+            ]
+          },
+          "trigger": "minecraft:inventory_changed"
+        },
+        "has_the_recipe": {
+          "conditions": {
+            "recipe": "create_enchantment_industry:ender_woven_bag"
+          },
+          "trigger": "minecraft:recipe_unlocked"
+        }
+      },
+      "requirements": [
+        [
+          "has_the_recipe",
+          "brass"
+        ]
+      ],
+      "rewards": {
+        "recipes": [
+          "create_enchantment_industry:ender_woven_bag"
+        ]
+      },
+      "sends_telemetry_event": true
+    }
+  },
+  {
+    "mod": "create-enchantment-industry-2.5.0-preview-alpha1.jar",
+    "file": "data/create_enchantment_industry/advancement/recipes/infuser.json",
+    "content": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "apothic_enchanting"
+        }
+      ],
+      "criteria": {
+        "brass": {
+          "conditions": {
+            "items": [
+              {
+                "items": "create:brass_ingot"
+              }
+            ]
+          },
+          "trigger": "minecraft:inventory_changed"
+        },
+        "has_the_recipe": {
+          "conditions": {
+            "recipe": "create_enchantment_industry:infuser"
+          },
+          "trigger": "minecraft:recipe_unlocked"
+        }
+      },
+      "requirements": [
+        [
+          "has_the_recipe",
+          "brass"
+        ]
+      ],
+      "rewards": {
+        "recipes": [
+          "create_enchantment_industry:infuser"
+        ]
+      },
+      "sends_telemetry_event": true
+    }
+  },
+  {
+    "mod": "create-enchantment-industry-2.5.0-preview-alpha1.jar",
+    "file": "data/create_enchantment_industry/advancement/recipes/printer.json",
+    "content": {
+      "criteria": {
+        "brass": {
+          "conditions": {
+            "items": [
+              {
+                "items": "create:brass_ingot"
+              }
+            ]
+          },
+          "trigger": "minecraft:inventory_changed"
+        },
+        "has_the_recipe": {
+          "conditions": {
+            "recipe": "create_enchantment_industry:printer"
+          },
+          "trigger": "minecraft:recipe_unlocked"
+        }
+      },
+      "requirements": [
+        [
+          "has_the_recipe",
+          "brass"
+        ]
+      ],
+      "rewards": {
+        "recipes": [
+          "create_enchantment_industry:printer"
+        ]
+      },
+      "sends_telemetry_event": true
+    }
+  },
+  {
+    "mod": "tfmg-1.2.0.jar",
+    "file": "data/tfmg/advancement/recipes/misc/crafting/materials/brass_fluid_valve.json",
+    "content": {
+      "parent": "minecraft:recipes/root",
+      "criteria": {
+        "has_item": {
+          "conditions": {
+            "items": [
+              {
+                "items": "create:brass_ingot"
+              }
+            ]
+          },
+          "trigger": "minecraft:inventory_changed"
+        },
+        "has_the_recipe": {
+          "conditions": {
+            "recipe": "tfmg:crafting/materials/brass_fluid_valve"
+          },
+          "trigger": "minecraft:recipe_unlocked"
+        }
+      },
+      "requirements": [
+        [
+          "has_the_recipe",
+          "has_item"
+        ]
+      ],
+      "rewards": {
+        "recipes": [
+          "tfmg:crafting/materials/brass_fluid_valve"
+        ]
+      }
+    }
+  },
+  {
+    "mod": "tfmg-1.2.0.jar",
+    "file": "data/tfmg/advancement/recipes/misc/crafting/materials/brass_frame.json",
+    "content": {
+      "parent": "minecraft:recipes/root",
+      "criteria": {
+        "has_item": {
+          "conditions": {
+            "items": [
+              {
+                "items": "create:brass_ingot"
+              }
+            ]
+          },
+          "trigger": "minecraft:inventory_changed"
+        },
+        "has_the_recipe": {
+          "conditions": {
+            "recipe": "tfmg:crafting/materials/brass_frame"
+          },
+          "trigger": "minecraft:recipe_unlocked"
+        }
+      },
+      "requirements": [
+        [
+          "has_the_recipe",
+          "has_item"
+        ]
+      ],
+      "rewards": {
+        "recipes": [
+          "tfmg:crafting/materials/brass_frame"
+        ]
+      }
+    }
+  },
+  {
+    "mod": "tfmg-1.2.0.jar",
+    "file": "data/tfmg/advancement/recipes/misc/crafting/materials/brass_mechanical_pump.json",
+    "content": {
+      "parent": "minecraft:recipes/root",
+      "criteria": {
+        "has_item": {
+          "conditions": {
+            "items": [
+              {
+                "items": "create:brass_ingot"
+              }
+            ]
+          },
+          "trigger": "minecraft:inventory_changed"
+        },
+        "has_the_recipe": {
+          "conditions": {
+            "recipe": "tfmg:crafting/materials/brass_mechanical_pump"
+          },
+          "trigger": "minecraft:recipe_unlocked"
+        }
+      },
+      "requirements": [
+        [
+          "has_the_recipe",
+          "has_item"
+        ]
+      ],
+      "rewards": {
+        "recipes": [
+          "tfmg:crafting/materials/brass_mechanical_pump"
+        ]
+      }
+    }
+  },
+  {
+    "mod": "tfmg-1.2.0.jar",
+    "file": "data/tfmg/advancement/recipes/misc/crafting/materials/brass_pipe.json",
+    "content": {
+      "parent": "minecraft:recipes/root",
+      "criteria": {
+        "has_item": {
+          "conditions": {
+            "items": [
+              {
+                "items": "create:brass_ingot"
+              }
+            ]
+          },
+          "trigger": "minecraft:inventory_changed"
+        },
+        "has_the_recipe": {
+          "conditions": {
+            "recipe": "tfmg:crafting/materials/brass_pipe"
+          },
+          "trigger": "minecraft:recipe_unlocked"
+        }
+      },
+      "requirements": [
+        [
+          "has_the_recipe",
+          "has_item"
+        ]
+      ],
+      "rewards": {
+        "recipes": [
+          "tfmg:crafting/materials/brass_pipe"
+        ]
+      }
+    }
+  },
+  {
+    "mod": "tfmg-1.2.0.jar",
+    "file": "data/tfmg/advancement/recipes/misc/crafting/materials/brass_pipe_vertical.json",
+    "content": {
+      "parent": "minecraft:recipes/root",
+      "criteria": {
+        "has_item": {
+          "conditions": {
+            "items": [
+              {
+                "items": "create:brass_ingot"
+              }
+            ]
+          },
+          "trigger": "minecraft:inventory_changed"
+        },
+        "has_the_recipe": {
+          "conditions": {
+            "recipe": "tfmg:crafting/materials/brass_pipe_vertical"
+          },
+          "trigger": "minecraft:recipe_unlocked"
+        }
+      },
+      "requirements": [
+        [
+          "has_the_recipe",
+          "has_item"
+        ]
+      ],
+      "rewards": {
+        "recipes": [
+          "tfmg:crafting/materials/brass_pipe_vertical"
+        ]
+      }
+    }
+  },
+  {
+    "mod": "tfmg-1.2.0.jar",
+    "file": "data/tfmg/advancement/recipes/misc/crafting/materials/brass_smart_fluid_pipe.json",
+    "content": {
+      "parent": "minecraft:recipes/root",
+      "criteria": {
+        "has_item": {
+          "conditions": {
+            "items": [
+              {
+                "items": "create:brass_ingot"
+              }
+            ]
+          },
+          "trigger": "minecraft:inventory_changed"
+        },
+        "has_the_recipe": {
+          "conditions": {
+            "recipe": "tfmg:crafting/materials/brass_smart_fluid_pipe"
+          },
+          "trigger": "minecraft:recipe_unlocked"
+        }
+      },
+      "requirements": [
+        [
+          "has_the_recipe",
+          "has_item"
+        ]
+      ],
+      "rewards": {
+        "recipes": [
+          "tfmg:crafting/materials/brass_smart_fluid_pipe"
+        ]
+      }
+    }
+  },
+  {
+    "mod": "tfmg-1.2.0.jar",
+    "file": "data/tfmg/advancement/recipes/misc/crafting/materials/brass_truss.json",
+    "content": {
+      "parent": "minecraft:recipes/root",
+      "criteria": {
+        "has_item": {
+          "conditions": {
+            "items": [
+              {
+                "items": "create:brass_ingot"
+              }
+            ]
+          },
+          "trigger": "minecraft:inventory_changed"
+        },
+        "has_the_recipe": {
+          "conditions": {
+            "recipe": "tfmg:crafting/materials/brass_truss"
+          },
+          "trigger": "minecraft:recipe_unlocked"
+        }
+      },
+      "requirements": [
+        [
+          "has_the_recipe",
+          "has_item"
+        ]
+      ],
+      "rewards": {
+        "recipes": [
+          "tfmg:crafting/materials/brass_truss"
+        ]
+      }
+    }
+  },
+  {
+    "mod": "tfmg-1.2.0.jar",
+    "file": "data/tfmg/advancement/recipes/misc/crafting/materials/screwdriverfrom_brass.json",
+    "content": {
+      "parent": "minecraft:recipes/root",
+      "criteria": {
+        "has_item": {
+          "conditions": {
+            "items": [
+              {
+                "items": "create:brass_ingot"
+              }
+            ]
+          },
+          "trigger": "minecraft:inventory_changed"
+        },
+        "has_the_recipe": {
+          "conditions": {
+            "recipe": "tfmg:crafting/materials/screwdriverfrom_brass"
+          },
+          "trigger": "minecraft:recipe_unlocked"
+        }
+      },
+      "requirements": [
+        [
+          "has_the_recipe",
+          "has_item"
+        ]
+      ],
+      "rewards": {
+        "recipes": [
+          "tfmg:crafting/materials/screwdriverfrom_brass"
+        ]
+      }
+    }
+  }
+]

@@ -253,6 +253,9 @@ ServerEvents.recipes(event => {
     // Immersive Engineering Hammer (removes ALL recipes using it as input)
     event.remove({ input: 'immersiveengineering:hammer' });
 
+    // AllTheOres Hammers (removes default shapeless recipes that glitch in Create Mixers)
+    event.remove({ id: /^alltheores:crafting\/hammer\/.*/ });
+
     // --- ALLTHEORES PLATES REFORM ---
     // Remove ALL AllTheOres crafting table plate recipes by their exact recipe IDs
     // (These are shaped recipes using 2 hammers + 2 ingots, so input filters don't catch them)

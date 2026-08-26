@@ -42,7 +42,7 @@
 	#allow cactus flowers to generate
 	cactus_flowers = true
 	#allow variants for pigs, cows and chickens to generate
-	farm_animal_variants = true
+	farm_animal_variants = false
 	#allow wolfs to have variants for their sounds
 	wolf_sound_variants = true
 	#allow features from 'Spring to Life' to be obtainable through wandering traders

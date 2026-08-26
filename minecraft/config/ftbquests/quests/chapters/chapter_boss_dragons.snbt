@@ -1,0 +1,344 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "chapter_boss_dragons"
+	group: "3000000000000000"
+	id: "3104000000000000"
+	images: [ ]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			id: "3104000000000001"
+			rewards: [
+				{
+					count: 2
+					id: "3304000000000001"
+					item: {
+						count: 1
+						id: "farmersdelight:honey_glazed_ham"
+					}
+					type: "item"
+				}
+				{
+					id: "3304000000000002"
+					table_id: 1117392878634651649L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			size: 1.8d
+			tasks: [{
+				id: "3204000000000001"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3104000000000001"]
+			id: "3104000000000011"
+			rewards: [
+				{
+					count: 4
+					id: "3304000000000011"
+					item: {
+						count: 1
+						id: "farmersdelight:honey_glazed_ham"
+					}
+					type: "item"
+				}
+				{
+					id: "3304000000000012"
+					table_id: 1117392878634651650L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [{
+				entity: "iceandfire:fire_dragon"
+				id: "3204000000000011"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3104000000000001"]
+			id: "3104000000000012"
+			rewards: [
+				{
+					count: 4
+					id: "3304000000000013"
+					item: {
+						count: 1
+						id: "farmersdelight:roast_chicken"
+					}
+					type: "item"
+				}
+				{
+					id: "3304000000000014"
+					table_id: 1117392878634651650L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [{
+				entity: "iceandfire:ice_dragon"
+				id: "3204000000000012"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3104000000000001"]
+			id: "3104000000000013"
+			rewards: [
+				{
+					count: 8
+					id: "3304000000000015"
+					item: {
+						count: 1
+						id: "minecraft:golden_carrot"
+					}
+					type: "item"
+				}
+				{
+					id: "3304000000000016"
+					table_id: 1117392878634651650L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [{
+				entity: "iceandfire:lightning_dragon"
+				id: "3204000000000013"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3104000000000001"]
+			id: "3104000000000014"
+			optional: true
+			rewards: [
+				{
+					count: 4
+					id: "3304000000000017"
+					item: {
+						count: 1
+						id: "farmersdelight:pasta_with_meatballs"
+					}
+					type: "item"
+				}
+				{
+					id: "3304000000000018"
+					table_id: 1117392878634651649L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			size: 1.1d
+			tasks: [{
+				entity: "iceandfire:dread_knight"
+				id: "3204000000000014"
+				type: "kill"
+				value: 3L
+			}]
+			x: -6.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3104000000000001"]
+			id: "3104000000000021"
+			rewards: [
+				{
+					count: 4
+					id: "3304000000000021"
+					item: {
+						count: 1
+						id: "farmersdelight:pasta_with_mutton_chop"
+					}
+					type: "item"
+				}
+				{
+					id: "3304000000000022"
+					table_id: 1117392878634651649L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				entity: "iceandfire:gorgon"
+				id: "3204000000000021"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3104000000000001"]
+			id: "3104000000000022"
+			rewards: [
+				{
+					count: 4
+					id: "3304000000000023"
+					item: {
+						count: 1
+						id: "farmersdelight:mutton_wrap"
+					}
+					type: "item"
+				}
+				{
+					id: "3304000000000024"
+					table_id: 1117392878634651649L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				entity: "iceandfire:cyclops"
+				id: "3204000000000022"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3104000000000001"]
+			id: "3104000000000023"
+			rewards: [
+				{
+					count: 4
+					id: "3304000000000025"
+					item: {
+						count: 1
+						id: "farmersdelight:cooked_salmon_slice"
+					}
+					type: "item"
+				}
+				{
+					id: "3304000000000026"
+					table_id: 1117392878634651649L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			size: 1.1d
+			tasks: [{
+				entity: "iceandfire:siren"
+				id: "3204000000000023"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3104000000000001"]
+			id: "3104000000000024"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "3304000000000027"
+					item: {
+						count: 1
+						id: "farmersdelight:chicken_soup"
+					}
+					type: "item"
+				}
+				{
+					id: "3304000000000028"
+					table_id: 1117392878634651649L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			size: 1.1d
+			tasks: [{
+				entity: "iceandfire:stymphalian_bird"
+				id: "3204000000000024"
+				type: "kill"
+				value: 5L
+			}]
+			x: 6.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3104000000000001"]
+			id: "3104000000000025"
+			rewards: [
+				{
+					count: 2
+					id: "3304000000000029"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+				{
+					id: "3304000000000030"
+					table_id: 1117392878634651650L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [{
+				entity: "iceandfire:dread_lich"
+				id: "3204000000000025"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"3104000000000011"
+				"3104000000000012"
+				"3104000000000013"
+			]
+			hide_dependency_lines: true
+			id: "3104000000000999"
+			rewards: [
+				{
+					count: 2
+					id: "3304000000000991"
+					item: {
+						count: 1
+						id: "minecraft:enchanted_golden_apple"
+					}
+					type: "item"
+				}
+				{
+					id: "3304000000000992"
+					table_id: 1117392878634651651L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 1.7d
+			tasks: [{
+				id: "3204000000000999"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 7.5d
+		}
+	]
+}

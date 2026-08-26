@@ -17,6 +17,8 @@
   },
   "traitBlackList": {
     "desc:": "List of traits which are not allowed to appear, example:  [\"evolution:armored\", \"evolution:mutant\"]",
-    "traitBlackList": []
+    "traitBlackList": [
+      "evolution:explosive"
+    ]
   }
 }

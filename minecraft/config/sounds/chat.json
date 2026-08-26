@@ -22,7 +22,8 @@
 	},
 	"mentionKeywords": [
 		"@Eldodoron",
-		"@EldoTest"
+		"@EldoTest",
+		"@Eldotest"
 	],
 	"ignoreSystemChats": true,
 	"enableChatSoundCooldown": true,

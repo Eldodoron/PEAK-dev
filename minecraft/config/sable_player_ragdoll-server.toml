@@ -1,7 +1,7 @@
 #Master switch for the ragdoll system.
-enabled = true
+enabled = false
 #Allow players to grab and drag ragdolls.
-grabEnabled = true
+grabEnabled = false
 
 #Ragdoll trigger behavior.
 [trigger]

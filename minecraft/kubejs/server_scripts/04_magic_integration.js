@@ -198,49 +198,51 @@ ServerEvents.recipes(event => {
     // and craftsmanship.
     // ==========================================
 
-    // --- INSCRIPTION TABLE (Where you inscribe spells) ---
-    // Requires Source Gems: you need Ars Nouveau knowledge
-    // to write combat spells. Also needs Brass for precision.
+    // --- INSCRIPTION TABLE ---
     event.remove({ output: 'irons_spellbooks:inscription_table' });
     event.shaped('irons_spellbooks:inscription_table', [
-        'SSS',
-        'BAB',
-        'W W'
+        'ISW',
+        ' D '
     ], {
-        S: 'minecraft:smooth_stone_slab',
-        B: 'create:brass_ingot',
-        A: 'ars_nouveau:source_gem',
-        W: 'twilightforest:ironwood_ingot'
+        I: Ingredient.of(['irons_spellbooks:common_ink', 'irons_spellbooks:uncommon_ink', 'irons_spellbooks:rare_ink', 'irons_spellbooks:epic_ink', 'irons_spellbooks:legendary_ink']),
+        S: Ingredient.of(['#curios:spellbook', 'ars_nouveau:novice_spell_book', 'ars_nouveau:apprentice_spell_book', 'ars_nouveau:archmage_spell_book']),
+        W: 'minecraft:writable_book',
+        D: Ingredient.of([
+            'refurbished_furniture:dark_oak_desk',
+            'refurbished_furniture:dark_oak_table',
+            'refurbished_furniture:spruce_desk',
+            'refurbished_furniture:spruce_table'
+        ])
     });
 
-    // --- SCROLL FORGE (Creates spell scrolls) ---
-    // An advanced magical machine that combines Ars Nouveau's
-    // enchanting knowledge with Iron's Spellbooks combat system
+    // --- SCROLL FORGE ---
     event.remove({ output: 'irons_spellbooks:scroll_forge' });
     event.shaped('irons_spellbooks:scroll_forge', [
-        'ISI',
-        'PAP',
-        'IGI'
+        'SSS',
+        ' A ',
+        'OOO'
     ], {
-        I: 'twilightforest:ironwood_ingot',
-        S: 'ars_nouveau:source_gem',
-        P: 'create:precision_mechanism',
+        S: Ingredient.of(['minecraft:polished_deepslate', 'minecraft:polished_deepslate_slab']),
         A: 'ars_nouveau:arcane_core',
-        G: '#c:ingots/gold'
+        O: 'minecraft:crying_obsidian'
     });
 
-    // --- ALCHEMIST CAULDRON (Potion crafting for spells) ---
-    // Needs Ars Nouveau Source + Create mechanical components
+    // --- ALCHEMIST CAULDRON ---
     event.remove({ output: 'irons_spellbooks:alchemist_cauldron' });
     event.shaped('irons_spellbooks:alchemist_cauldron', [
-        'I I',
-        'ISI',
-        'BCB'
+        ' E ',
+        ' C ',
+        'SSS'
     ], {
-        I: '#c:ingots/iron',
-        S: 'ars_nouveau:source_gem',
-        B: 'create:brass_ingot',
-        C: 'minecraft:cauldron'
+        E: Ingredient.of([
+            'irons_spellbooks:arcane_essence', 'irons_spellbooks:cinder_essence',
+            'ars_nouveau:abjuration_essence', 'ars_nouveau:air_essence', 'ars_nouveau:conjuration_essence',
+            'ars_nouveau:earth_essence', 'ars_nouveau:fire_essence', 'ars_nouveau:manipulation_essence',
+            'ars_nouveau:water_essence', 'gatesofavarice:arcane_essence', 'gatesofavarice:dark_essence',
+            'gatesofavarice:mystic_essence'
+        ]),
+        C: 'minecraft:cauldron',
+        S: 'minecraft:stick'
     });
 
     // --- INK SYSTEM (Tiered spell power) ---
@@ -347,16 +349,6 @@ ServerEvents.recipes(event => {
     // crossover between Create and Ars Nouveau
     // ==========================================
 
-    // Source-powered Create machines:
-    // Mixing Source Gems with Create metals yields enhanced alloys
-    event.recipes.create.mixing(
-        'create:brass_ingot',
-        [
-            '#c:ingots/copper',
-            'create:zinc_ingot',
-            'ars_nouveau:source_gem'
-        ]
-    ).heated();
 
     // --- SPELL BOOKS GATES (Avaritia Integration) ---
 
@@ -365,14 +357,15 @@ ServerEvents.recipes(event => {
     event.custom({
         type: 'avaritia:shaped_table',
         pattern: [
-            "SIS",
+            "FWF",
             "IBI",
-            "SIS"
+            "FWF"
         ],
         key: {
-            S: { item: 'twilightforest:naga_scale' },
-            I: { item: 'minecraft:packed_ice' },
-            B: { item: 'ars_nouveau:apprentice_spell_book' }
+            F: Ingredient.of(['twilightforest:arctic_fur', 'twilightforest:alpha_yeti_fur']).toJson(),
+            W: { item: 'ars_nouveau:water_essence' },
+            I: { item: 'minecraft:blue_ice' },
+            B: Ingredient.of(['ars_nouveau:apprentice_spell_book', 'irons_spellbooks:diamond_spell_book']).toJson()
         },
         result: { id: 'irons_spellbooks:ice_spell_book', count: 1 },
         tier: 1

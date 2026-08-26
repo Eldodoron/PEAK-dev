@@ -1,0 +1,18 @@
+{
+	"parent": "minecraft:item/handheld",
+	"loader": "neoforge:separate_transforms",
+	"textures": {
+	  "layer0": "ignissoulfires:item/ignitium_axe_gui"
+	},
+	"base": {
+	  "parent": "ignissoulfires:item/ignitium_axe_hand"
+	},
+	"perspectives": {
+	  "gui": {
+		"parent": "ignissoulfires:item/ignitium_axe_gui"
+	  },
+	  "fixed": {
+		"parent": "ignissoulfires:item/ignitium_axe_gui"
+	  }
+	}
+  }

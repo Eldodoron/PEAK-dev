@@ -1,0 +1,52 @@
+{
+	id: "0F81C6E72591A001"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{
+			count: 2
+			id: "69620BB2C504CAD4"
+			item: {
+				count: 1
+				id: "farmersdelight:hamburger"
+			}
+			weight: 3.0f
+		}
+		{
+			count: 8
+			id: "6E154EC9DDE3BA71"
+			item: {
+				count: 1
+				id: "minecraft:torch"
+			}
+			weight: 3.0f
+		}
+		{
+			count: 4
+			id: "05B0366357BA26A1"
+			item: {
+				count: 1
+				id: "minecraft:bread"
+			}
+			weight: 3.0f
+		}
+		{
+			count: 4
+			id: "3E82C146DC136841"
+			item: {
+				count: 1
+				id: "minecraft:iron_ingot"
+			}
+			weight: 2.0f
+		}
+		{
+			count: 8
+			id: "1000000000000101"
+			item: {
+				count: 1
+				id: "minecraft:oak_log"
+			}
+			weight: 2.0f
+		}
+	]
+}

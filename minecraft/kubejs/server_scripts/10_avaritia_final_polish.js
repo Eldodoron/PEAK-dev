@@ -268,9 +268,9 @@ ServerEvents.recipes(event => {
             "NNNNNNNNN",
             "NHCCCCCHN",
             "NCADXDACN",
-            "NCDEVDECN",
+            "NCDEVEDCN",
             "NCXVUVXCN",
-            "NCDEVDECN",
+            "NCDEVEDCN",
             "NCADXDACN",
             "NHCCCCCHN",
             "NNNNNNNNN"

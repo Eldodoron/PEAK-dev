@@ -1,0 +1,163 @@
+[
+  {
+    "file": "C:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\02_create_era_gates.js",
+    "line": 42,
+    "type": "precision_mechanism",
+    "matched_line": "P: 'create:precision_mechanism',",
+    "context": "\n    // TFMG's Radial Engine requires advanced Create\n    // (This is TFMG's top-tier power generation)\n    event.remove({ output: 'tfmg:radial_engine' });\n    event.shaped('tfmg:radial_engine', [\n        'SPS',\n        'HMH',\n        'SPS'\n    ], {\n        S: '#c:ingots/steel',\n        P: 'create:precision_mechanism',\n        H: 'tfmg:heavy_plate',\n        M: 'create:shaft'\n    });\n\n    // ==========================================\n    // SECTION 2: IE MACHINES NEED CREATE + TFMG\n    // IE is the SECOND tech era. You can't skip Create.\n    // ==========================================\n\n    // IE Workbench (the crafting station) needs Create basics\n    event.remove({ output: 'immersiveengineering:workbench' });\n    event.shaped('immersiveengineering:workbench', [\n        ' B ',\n        'AFA',"
+  },
+  {
+    "file": "C:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\02_create_era_gates.js",
+    "line": 115,
+    "type": "precision_mechanism",
+    "matched_line": "P: 'create:precision_mechanism',",
+    "context": "        D: 'tfmg:steel_mechanism'\n    });\n\n    // IE Metal Press = industrial upgrade of Create's Mechanical Press\n    event.remove({ output: 'immersiveengineering:metal_press' });\n    event.shaped('immersiveengineering:metal_press', [\n        'PHP',\n        'L L',\n        'SRS'\n    ], {\n        P: 'create:precision_mechanism',\n        H: 'create:mechanical_press',\n        L: 'immersiveengineering:light_engineering',\n        S: '#c:ingots/steel',\n        R: 'minecraft:redstone'\n    });\n\n    // IE Excavator (multiblock - requires the bucket wheel)\n    // Gate this behind TFMG + Create's large-scale engineering\n    event.remove({ output: 'immersiveengineering:bucket_wheel' });\n    event.shaped('immersiveengineering:bucket_wheel', [\n        'SHS',\n        'HLH',\n        'SHS'\n    ], {"
+  },
+  {
+    "file": "C:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\02_create_era_gates.js",
+    "line": 171,
+    "type": "precision_mechanism",
+    "matched_line": "P: 'create:precision_mechanism',",
+    "context": "        E: 'create:electron_tube'\n    });\n\n    // HV Wire Connector requires Precision Mechanism\n    event.remove({ output: 'immersiveengineering:connector_hv' });\n    event.shaped('2x immersiveengineering:connector_hv', [\n        ' P ',\n        'PIP',\n        ' S '\n    ], {\n        P: 'create:precision_mechanism',\n        I: '#c:ingots/iron',\n        S: '#c:ingots/steel'\n    });\n\n    // ==========================================\n    // SECTION 4: IE GENERATORS NEED TFMG/CREATE\n    // Power generation should feel earned\n    // ==========================================\n\n    // Dynamo (basic IE power) requires Create rotation\n    event.remove({ output: 'immersiveengineering:dynamo' });\n    event.shaped('immersiveengineering:dynamo', [\n        ' S ',\n        'SCS',"
+  },
+  {
+    "file": "C:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\02_create_era_gates.js",
+    "line": 338,
+    "type": "precision_mechanism",
+    "matched_line": "P: 'create:precision_mechanism',",
+    "context": "        S: '#minecraft:wooden_fences'\n    });\n\n    event.remove({ output: 'wands:diamond_wand' });\n    event.shaped('wands:diamond_wand', [\n        '  D',\n        ' P ',\n        'S  '\n    ], {\n        D: '#c:gems/diamond',\n        P: 'create:precision_mechanism',\n        S: '#minecraft:wooden_fences'\n    });\n\n    // ==========================================\n    // SECTION 9: SOPHISTICATED STORAGE INTEGRATION\n    // ==========================================\n\n    // --- SAFE TIER UPGRADES (Keep NBT/Data Components via Sequenced Assembly) ---\n    // Instead of Mechanical Crafters or overriding the standard recipe (which wipes NBT), \n    // we use Sequenced Assembly. The base backpack is the transitional item, so its NBT is preserved!\n\n    // 0. Remove Default Upgrades (they use a custom recipe type or smithing)\n    // Remove by exact ID to catch standard crafting/smithing recipes\n    event.remove({ id: 'sophisticatedbackpacks:copper_backpack' });"
+  },
+  {
+    "file": "C:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\03_pneumatic_mekanism_gates.js",
+    "line": 43,
+    "type": "precision_mechanism",
+    "matched_line": "P: 'create:precision_mechanism',",
+    "context": "    });\n\n    // Advanced Air Compressor needs IE Heavy Engineering\n    event.remove({ output: 'pneumaticcraft:advanced_air_compressor' });\n    event.shaped('pneumaticcraft:advanced_air_compressor', [\n        'SPS',\n        'HCH',\n        'SES'\n    ], {\n        S: '#c:ingots/steel',\n        P: 'create:precision_mechanism',\n        H: 'immersiveengineering:heavy_engineering',\n        C: 'pneumaticcraft:air_compressor',\n        E: 'create:electron_tube'\n    });\n\n    // Pressure Tubes \u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u20ac\u009d THE BACKBONE of PneumaticCraft\n    // Require Cloggrum from The Undergarden!\n    // (Cloggrum is a corrosion-resistant metal = perfect for pressure tubes)\n    event.remove({ output: 'pneumaticcraft:pressure_tube' });\n    event.shaped('4x pneumaticcraft:pressure_tube', [\n        'CIC',\n        'I I',\n        'CIC'\n    ], {"
+  },
+  {
+    "file": "C:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\03_pneumatic_mekanism_gates.js",
+    "line": 136,
+    "type": "precision_mechanism",
+    "matched_line": "E: 'create:precision_mechanism'",
+    "context": "    event.remove({ output: 'pneumaticcraft:thermopneumatic_processing_plant' });\n    event.shaped('pneumaticcraft:thermopneumatic_processing_plant', [\n        'SPS',\n        'HBH',\n        'SES'\n    ], {\n        S: '#c:ingots/steel',\n        P: 'pneumaticcraft:pressure_tube',\n        H: 'immersiveengineering:heavy_engineering',\n        B: 'minecraft:blast_furnace',\n        E: 'create:precision_mechanism'\n    });\n\n    // ==========================================\n    // SECTION 2: ASSEMBLY SYSTEM\n    // PneumaticCraft's assembly line = precision crafting\n    // Required for Mekanism's circuits\n    // ==========================================\n\n    // Assembly Platform\n    event.remove({ output: 'pneumaticcraft:assembly_platform' });\n    event.shaped('pneumaticcraft:assembly_platform', [\n        'PMP',\n        'SCS',\n        'SSS'"
+  },
+  {
+    "file": "C:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\03_pneumatic_mekanism_gates.js",
+    "line": 153,
+    "type": "precision_mechanism",
+    "matched_line": "M: 'create:precision_mechanism',",
+    "context": "    // ==========================================\n\n    // Assembly Platform\n    event.remove({ output: 'pneumaticcraft:assembly_platform' });\n    event.shaped('pneumaticcraft:assembly_platform', [\n        'PMP',\n        'SCS',\n        'SSS'\n    ], {\n        P: 'pneumaticcraft:pressure_tube',\n        M: 'create:precision_mechanism',\n        S: '#c:ingots/steel',\n        C: 'immersiveengineering:component_steel'\n    });\n\n    // Assembly Drill\n    event.remove({ output: 'pneumaticcraft:assembly_drill' });\n    event.shaped('pneumaticcraft:assembly_drill', [\n        ' D ',\n        'SPS',\n        'SCS'\n    ], {\n        D: '#c:gems/diamond',\n        S: '#c:ingots/steel',\n        P: 'pneumaticcraft:pressure_tube',"
+  },
+  {
+    "file": "C:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\03_pneumatic_mekanism_gates.js",
+    "line": 168,
+    "type": "precision_mechanism",
+    "matched_line": "C: 'create:precision_mechanism'",
+    "context": "    // Assembly Drill\n    event.remove({ output: 'pneumaticcraft:assembly_drill' });\n    event.shaped('pneumaticcraft:assembly_drill', [\n        ' D ',\n        'SPS',\n        'SCS'\n    ], {\n        D: '#c:gems/diamond',\n        S: '#c:ingots/steel',\n        P: 'pneumaticcraft:pressure_tube',\n        C: 'create:precision_mechanism'\n    });\n\n    // Assembly Laser\n    event.remove({ output: 'pneumaticcraft:assembly_laser' });\n    event.shaped('pneumaticcraft:assembly_laser', [\n        ' E ',\n        'SPS',\n        'SCS'\n    ], {\n        E: 'create:electron_tube',\n        S: '#c:ingots/steel',\n        P: 'pneumaticcraft:pressure_tube',\n        C: 'create:precision_mechanism'\n    });"
+  },
+  {
+    "file": "C:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\03_pneumatic_mekanism_gates.js",
+    "line": 181,
+    "type": "precision_mechanism",
+    "matched_line": "C: 'create:precision_mechanism'",
+    "context": "    // Assembly Laser\n    event.remove({ output: 'pneumaticcraft:assembly_laser' });\n    event.shaped('pneumaticcraft:assembly_laser', [\n        ' E ',\n        'SPS',\n        'SCS'\n    ], {\n        E: 'create:electron_tube',\n        S: '#c:ingots/steel',\n        P: 'pneumaticcraft:pressure_tube',\n        C: 'create:precision_mechanism'\n    });\n\n    // Assembly Controller\n    event.remove({ output: 'pneumaticcraft:assembly_controller' });\n    event.shaped('pneumaticcraft:assembly_controller', [\n        'EPE',\n        'SPS',\n        'SCS'\n    ], {\n        E: 'create:electron_tube',\n        S: '#c:ingots/steel',\n        P: 'pneumaticcraft:pressure_tube',\n        C: 'immersiveengineering:rs_engineering'\n    });"
+  },
+  {
+    "file": "C:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\04_magic_integration.js",
+    "line": 62,
+    "type": "ironwood",
+    "matched_line": "I: 'twilightforest:ironwood_ingot',",
+    "context": "    // --- SCRIBES TABLE (Where you design spells) ---\n    // Needs Twilight Forest Ironwood: a naturally magical wood\n    // perfect for a magical workstation (wood + iron + magic)\n    event.remove({ output: 'ars_nouveau:scribes_table' });\n    event.shaped('ars_nouveau:scribes_table', [\n        'SSS',\n        'I I',\n        'W W'\n    ], {\n        S: 'minecraft:smooth_stone_slab',\n        I: 'twilightforest:ironwood_ingot',\n        W: '#minecraft:planks'\n    });\n\n    // --- ENCHANTING APPARATUS (Advanced magical crafting) ---\n    // This is the Ars Nouveau \"machine\" \u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u20ac\u009d it deserves to need\n    // Create Precision Mechanisms (mechanical precision for\n    // precise enchantment channeling) + Twilight materials\n    event.remove({ output: 'ars_nouveau:enchanting_apparatus' });\n    event.shaped('ars_nouveau:enchanting_apparatus', [\n        'IPI',\n        'GAG',\n        'IBI'\n    ], {\n        I: 'twilightforest:ironwood_ingot',"
+  },
+  {
+    "file": "C:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\04_magic_integration.js",
+    "line": 76,
+    "type": "ironwood",
+    "matched_line": "I: 'twilightforest:ironwood_ingot',",
+    "context": "    // --- ENCHANTING APPARATUS (Advanced magical crafting) ---\n    // This is the Ars Nouveau \"machine\" \u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u20ac\u009d it deserves to need\n    // Create Precision Mechanisms (mechanical precision for\n    // precise enchantment channeling) + Twilight materials\n    event.remove({ output: 'ars_nouveau:enchanting_apparatus' });\n    event.shaped('ars_nouveau:enchanting_apparatus', [\n        'IPI',\n        'GAG',\n        'IBI'\n    ], {\n        I: 'twilightforest:ironwood_ingot',\n        P: 'create:precision_mechanism',\n        G: '#c:ingots/gold',\n        A: 'ars_nouveau:arcane_core',\n        B: 'create:brass_casing'\n    });\n\n    // --- IMBUEMENT CHAMBER (Source infusion) ---\n    // Requires Twilight Forest Steeleaf: a magical metal-plant\n    // hybrid perfect for channeling Source into items\n    event.remove({ output: 'ars_nouveau:imbuement_chamber' });\n    event.shaped('ars_nouveau:imbuement_chamber', [\n        'SAS',\n        'L L',\n        'SAS'"
+  },
+  {
+    "file": "C:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\04_magic_integration.js",
+    "line": 77,
+    "type": "precision_mechanism",
+    "matched_line": "P: 'create:precision_mechanism',",
+    "context": "    // This is the Ars Nouveau \"machine\" \u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u20ac\u009d it deserves to need\n    // Create Precision Mechanisms (mechanical precision for\n    // precise enchantment channeling) + Twilight materials\n    event.remove({ output: 'ars_nouveau:enchanting_apparatus' });\n    event.shaped('ars_nouveau:enchanting_apparatus', [\n        'IPI',\n        'GAG',\n        'IBI'\n    ], {\n        I: 'twilightforest:ironwood_ingot',\n        P: 'create:precision_mechanism',\n        G: '#c:ingots/gold',\n        A: 'ars_nouveau:arcane_core',\n        B: 'create:brass_casing'\n    });\n\n    // --- IMBUEMENT CHAMBER (Source infusion) ---\n    // Requires Twilight Forest Steeleaf: a magical metal-plant\n    // hybrid perfect for channeling Source into items\n    event.remove({ output: 'ars_nouveau:imbuement_chamber' });\n    event.shaped('ars_nouveau:imbuement_chamber', [\n        'SAS',\n        'L L',\n        'SAS'\n    ], {"
+  },
+  {
+    "file": "C:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\04_magic_integration.js",
+    "line": 269,
+    "type": "ironwood",
+    "matched_line": "'twilightforest:ironwood_ingot',",
+    "context": "        F: 'minecraft:feather',\n        G: 'minecraft:glow_ink_sac',\n        B: 'minecraft:glass_bottle',\n        D: 'ars_nouveau:magebloom_fiber'\n    });\n\n    // Uncommon Ink: Requires Twilight Forest materials\n    event.remove({ output: 'irons_spellbooks:uncommon_ink' });\n    event.shapeless('irons_spellbooks:uncommon_ink', [\n        'irons_spellbooks:common_ink',\n        'twilightforest:ironwood_ingot',\n        'ars_nouveau:source_gem',\n        'minecraft:lapis_lazuli'\n    ]);\n\n    // Rare Ink: Requires Wilden boss drops + Steeleaf\n    event.remove({ output: 'irons_spellbooks:rare_ink' });\n    event.shapeless('irons_spellbooks:rare_ink', [\n        'irons_spellbooks:uncommon_ink',\n        'ars_nouveau:wilden_horn',\n        'twilightforest:steeleaf_ingot',\n        'minecraft:blaze_powder'\n    ]);\n\n    // Epic Ink: Requires Knightmetal + Fiery Ingot (deep TF)"
+  },
+  {
+    "file": "C:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\05_dark_magic_dimensions.js",
+    "line": 54,
+    "type": "precision_mechanism",
+    "matched_line": "P: 'create:precision_mechanism'",
+    "context": "    // The crucible refines raw spirits into usable essences\n    event.remove({ output: 'malum:spirit_crucible' });\n    event.shaped('malum:spirit_crucible', [\n        'SHS',\n        'HAH',\n        'SPS'\n    ], {\n        S: 'malum:soul_stained_steel_ingot',\n        H: 'malum:hallowed_gold_ingot',\n        A: 'ars_nouveau:arcane_core',\n        P: 'create:precision_mechanism'\n    });\n\n    // --- SOUL STAINED STEEL (Malum's dark metal) ---\n    // Created by mixing steel with soul essence in Create's Mixer\n    // (Mechanical infusion of souls into steel = dark engineering)\n    event.remove({ output: 'malum:soul_stained_steel_ingot' });\n    event.recipes.create.mixing(\n        'malum:soul_stained_steel_ingot',\n        [\n            '#c:ingots/steel',\n            'malum:refined_soulstone',\n            'minecraft:soul_sand'\n        ]\n    ).heated();"
+  },
+  {
+    "file": "C:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\06_enderio_ae2.js",
+    "line": 211,
+    "type": "precision_mechanism",
+    "matched_line": "P: 'create:precision_mechanism',",
+    "context": "\n    // --- INSCRIBER (AE2's core crafting machine) ---\n    // Needs Ender IO machine chassis + Create precision\n    event.remove({ output: 'ae2:inscriber' });\n    event.shaped('ae2:inscriber', [\n        'IPI',\n        'DCE',\n        'IPI'\n    ], {\n        I: '#c:ingots/iron',\n        P: 'create:precision_mechanism',\n        D: 'enderio:dark_steel_ingot',\n        C: 'enderio:void_chassis',\n        E: 'create:electron_tube'\n    });\n\n    // --- ME CONTROLLER (AE2's brain) ---\n    // The most important AE2 block. Needs EVERYTHING.\n    event.remove({ output: 'ae2:controller' });\n    event.shaped('ae2:controller', [\n        'ECE',\n        'CMC',\n        'ECE'\n    ], {\n        E: 'ae2:engineering_processor',"
+  },
+  {
+    "file": "C:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\08_reliquary_balance.js",
+    "line": 35,
+    "type": "precision_mechanism",
+    "matched_line": "P: 'create:precision_mechanism',",
+    "context": "    // ==========================================\n\n    event.remove({ output: 'reliquary:alkahestry_tome' });\n    event.shaped('reliquary:alkahestry_tome', [\n        'NSN',\n        'PBP',\n        'HAH'\n    ], {\n        N: 'minecraft:nether_star',\n        S: 'ars_nouveau:source_gem_block',\n        P: 'create:precision_mechanism',\n        B: 'minecraft:book',\n        H: 'malum:hallowed_gold_ingot',\n        A: 'mekanism:alloy_reinforced'\n    });\n\n    // ==========================================\n    // SECTION 2: REMOVE OVERPOWERED DUPLICATIONS\n    // Alkahestry should NOT be able to duplicate\n    // any of these endgame/progression items.\n    // We remove these specific alkahestry recipes.\n    // ==========================================\n\n    // Remove duplication of Nether Stars\n    event.remove({ output: 'minecraft:nether_star', type: 'reliquary:alkahestry_crafting' });"
+  },
+  {
+    "file": "C:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\08_reliquary_balance.js",
+    "line": 78,
+    "type": "precision_mechanism",
+    "matched_line": "event.remove({ output: 'create:precision_mechanism', type: 'reliquary:alkahestry_crafting' });",
+    "context": "    event.remove({ output: 'iceandfire:dragonsteel_fire_ingot', type: 'reliquary:alkahestry_crafting' });\n    event.remove({ output: 'minecraft:barrier', type: 'reliquary:alkahestry_crafting' });\n    event.remove({ output: 'iceandfire:dragonsteel_lightning_ingot', type: 'reliquary:alkahestry_crafting' });\n\n    // Remove duplication of Netherite\n    event.remove({ output: 'minecraft:netherite_ingot', type: 'reliquary:alkahestry_crafting' });\n    event.remove({ output: 'minecraft:netherite_scrap', type: 'reliquary:alkahestry_crafting' });\n    event.remove({ output: 'minecraft:ancient_debris', type: 'reliquary:alkahestry_crafting' });\n\n    // Remove duplication of key tech components\n    event.remove({ output: 'create:precision_mechanism', type: 'reliquary:alkahestry_crafting' });\n    event.remove({ output: 'mekanism:alloy_atomic', type: 'reliquary:alkahestry_crafting' });\n    event.remove({ output: 'mekanism:pellet_antimatter', type: 'reliquary:alkahestry_crafting' });\n    event.remove({ output: 'ae2:singularity', type: 'reliquary:alkahestry_crafting' });\n\n    // Remove duplication of Source Gems (magic economy)\n    event.remove({ output: 'ars_nouveau:source_gem_block', type: 'reliquary:alkahestry_crafting' });\n\n    // Remove duplication of Soul materials\n    event.remove({ output: 'malum:soul_stained_steel_ingot', type: 'reliquary:alkahestry_crafting' });\n    event.remove({ output: 'enderio:soularium_ingot', type: 'reliquary:alkahestry_crafting' });\n\n    // Remove duplication of Ender Pearls (too easy to break EIO)\n    event.remove({ output: 'minecraft:ender_pearl', type: 'reliquary:alkahestry_crafting' });\n"
+  },
+  {
+    "file": "C:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\10_avaritia_final_polish.js",
+    "line": 36,
+    "type": "precision_mechanism",
+    "matched_line": "P: { item: 'create:precision_mechanism' },",
+    "context": "    event.remove({ output: 'pneumaticcraft:advanced_air_compressor' });\n    event.custom({\n        type: 'avaritia:shaped_table',\n        pattern: [\n            \"SPS\",\n            \"FCF\",\n            \"SES\"\n        ],\n        key: {\n            S: { tag: 'c:ingots/steel' },\n            P: { item: 'create:precision_mechanism' },\n            F: { item: 'kubejs:frozen_heart_core' },\n            C: { item: 'pneumaticcraft:air_compressor' },\n            E: { item: 'immersiveengineering:heavy_engineering' }\n        },\n        result: { id: 'pneumaticcraft:advanced_air_compressor', count: 1 },\n        tier: 1\n    });\n\n    // --- VOID RESONATOR (Ender Guardian / Void Worm) ---\n    // Used in AE2 ME Controller (dimensional void tech)\n    event.remove({ output: 'ae2:controller' });\n    event.custom({\n        type: 'avaritia:shaped_table',\n        pattern: ["
+  },
+  {
+    "file": "C:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\19_mob_gear.js",
+    "line": 198,
+    "type": "ironwood",
+    "matched_line": "helmets.push('twilightforest:knightmetal_helmet', 'twilightforest:ironwood_helmet');",
+    "context": "    if (Platform.isLoaded('immersive_armors')) {\n        helmets.push('immersive_armors:heavy_helmet', 'immersive_armors:divine_helmet', 'immersive_armors:bone_helmet');\n        chestplates.push('immersive_armors:heavy_chestplate', 'immersive_armors:divine_chestplate', 'immersive_armors:bone_chestplate');\n    }\n\n    if (Platform.isLoaded('simplybows')) {\n        bows.push('simplybows:ice_bow/ice_bow', 'simplybows:bee_bow/bee_bow', 'simplybows:echo_bow/echo_bow', 'simplybows:vine_bow/vine_bow');\n    }\n\n    if (Platform.isLoaded('twilightforest')) {\n        helmets.push('twilightforest:knightmetal_helmet', 'twilightforest:ironwood_helmet');\n        chestplates.push('twilightforest:knightmetal_chestplate', 'twilightforest:ironwood_chestplate');\n        bows.push('twilightforest:triple_bow', 'twilightforest:seeker_bow');\n    }\n\n    // Safely extract the biome ID to prevent KubeJS Either/Left wrapper crashes\n    let currentBiomeId = { namespace: 'minecraft', path: 'plains', toString: function() { return 'minecraft:plains'; } };\n    try {\n        let biomeHolder = entity.level.getBiome(entity.blockPosition());\n        if (biomeHolder.unwrapKey && biomeHolder.unwrapKey().isPresent()) {\n            currentBiomeId = biomeHolder.unwrapKey().get().location();\n        } else if (biomeHolder.unwrap && biomeHolder.unwrap().left().isPresent()) {\n            currentBiomeId = biomeHolder.unwrap().left().get().location();\n        }\n    } catch(e) {}"
+  },
+  {
+    "file": "C:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\19_mob_gear.js",
+    "line": 199,
+    "type": "ironwood",
+    "matched_line": "chestplates.push('twilightforest:knightmetal_chestplate', 'twilightforest:ironwood_chestplate');",
+    "context": "        helmets.push('immersive_armors:heavy_helmet', 'immersive_armors:divine_helmet', 'immersive_armors:bone_helmet');\n        chestplates.push('immersive_armors:heavy_chestplate', 'immersive_armors:divine_chestplate', 'immersive_armors:bone_chestplate');\n    }\n\n    if (Platform.isLoaded('simplybows')) {\n        bows.push('simplybows:ice_bow/ice_bow', 'simplybows:bee_bow/bee_bow', 'simplybows:echo_bow/echo_bow', 'simplybows:vine_bow/vine_bow');\n    }\n\n    if (Platform.isLoaded('twilightforest')) {\n        helmets.push('twilightforest:knightmetal_helmet', 'twilightforest:ironwood_helmet');\n        chestplates.push('twilightforest:knightmetal_chestplate', 'twilightforest:ironwood_chestplate');\n        bows.push('twilightforest:triple_bow', 'twilightforest:seeker_bow');\n    }\n\n    // Safely extract the biome ID to prevent KubeJS Either/Left wrapper crashes\n    let currentBiomeId = { namespace: 'minecraft', path: 'plains', toString: function() { return 'minecraft:plains'; } };\n    try {\n        let biomeHolder = entity.level.getBiome(entity.blockPosition());\n        if (biomeHolder.unwrapKey && biomeHolder.unwrapKey().isPresent()) {\n            currentBiomeId = biomeHolder.unwrapKey().get().location();\n        } else if (biomeHolder.unwrap && biomeHolder.unwrap().left().isPresent()) {\n            currentBiomeId = biomeHolder.unwrap().left().get().location();\n        }\n    } catch(e) {}\n"
+  },
+  {
+    "file": "C:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\apotheosis_auto_tiers.js",
+    "line": 21,
+    "type": "precision_mechanism",
+    "matched_line": "{ item: 'create:precision_mechanism', count: 2 }",
+    "context": "    haven: [\n        { item: 'minecraft:bread', count: 8 },\n        { item: 'minecraft:coal', count: 16 }\n    ],\n    frontier: [\n        { item: 'apotheosis:gem_dust', count: 4 },\n        { item: 'create:brass_ingot', count: 4 }\n    ],\n    ascent: [\n        { item: 'apotheosis:sigil_of_enhancement', count: 2 },\n        { item: 'create:precision_mechanism', count: 2 }\n    ],\n    summit: [\n        { item: 'apotheosis:sigil_of_socketing', count: 1 },\n        { item: 'create:sturdy_sheet', count: 2 }\n    ],\n    pinnacle: [\n        { item: 'apotheosis:sigil_of_supremacy', count: 1 },\n        { item: 'kubejs:infinity_fragment', count: 1 }\n    ]\n};\n\nPlayerEvents.advancement(event => {\n    let advancementId = event.advancement.id.toString();\n    "
+  },
+  {
+    "file": "C:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\expert_mode_recipes.js",
+    "line": 124,
+    "type": "precision_mechanism",
+    "matched_line": "P: 'create:precision_mechanism'",
+    "context": "    });\n\n    // IE: Steel Component needs Precision Mechanism\n    event.remove({ output: 'immersiveengineering:component_steel' });\n    event.shaped('immersiveengineering:component_steel', [\n        ' S ',\n        'SPS',\n        ' S '\n    ], {\n        S: '#c:ingots/steel',\n        P: 'create:precision_mechanism'\n    });\n\n    // ==========================================\n    // SECTION 4: PRECISION MECHANISM = ADVANCED CREATE GATE\n    // The most important Create item. Gates access to advanced machines.\n    // ==========================================\n\n    // IE: Heavy Engineering Block requires Precision Mechanisms\n    event.remove({ output: 'immersiveengineering:heavy_engineering' });\n    event.shaped('immersiveengineering:heavy_engineering', [\n        'SPS',\n        'CEC',\n        'SPS'\n    ], {"
+  },
+  {
+    "file": "C:\\Users\\wamb9\\MINECRAFT\\Prism\\Instances\\PEAK dev\\minecraft\\kubejs\\server_scripts\\expert_mode_recipes.js",
+    "line": 140,
+    "type": "precision_mechanism",
+    "matched_line": "P: 'create:precision_mechanism',",
+    "context": "    // ==========================================\n\n    // IE: Heavy Engineering Block requires Precision Mechanisms\n    event.remove({ output: 'immersiveengineering:heavy_engineering' });\n    event.shaped('immersiveengineering:heavy_engineering', [\n        'SPS',\n        'CEC',\n        'SPS'\n    ], {\n        S: '#c:ingots/steel',\n        P: 'create:precision_mechanism',\n        C: 'immersiveengineering:component_steel',\n        E: 'create:electron_tube'\n    });\n\n    // IE: Redstone Engineering Block requires Electron Tubes from Create\n    event.remove({ output: 'immersiveengineering:rs_engineering' });\n    event.shaped('immersiveengineering:rs_engineering', [\n        'IEI',\n        'RCR',\n        'IEI'\n    ], {\n        I: '#c:ingots/iron',\n        E: 'create:electron_tube',\n        R: 'minecraft:redstone',"
+  }
+]

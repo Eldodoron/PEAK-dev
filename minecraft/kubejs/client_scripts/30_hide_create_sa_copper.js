@@ -16,6 +16,6 @@ RecipeViewerEvents.removeEntries('item', event => {
     ];
     
     itemsToHide.forEach(item => {
-        event.hide(item);
+        event.remove(item);
     });
 });

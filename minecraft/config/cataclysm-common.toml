@@ -2,7 +2,7 @@
 			#Armor_Multiplier
 			# Default: 1.0
 			# Range: 0.0 ~ 1000000.0
-			armor_multiplier = 1.0
+			armor_multiplier = 1.4
 			#Toughness
 			# Default: 4.0
 			# Range: 0.0 ~ 1000000.0
@@ -16,7 +16,7 @@
 			#Armor_Multiplier
 			# Default: 1.0
 			# Range: 0.0 ~ 1000000.0
-			armor_multiplier = 1.0
+			armor_multiplier = 1.2
 			#Toughness
 			# Default: 4.0
 			# Range: 0.0 ~ 1000000.0
@@ -30,7 +30,7 @@
 			#Armor_Multiplier
 			# Default: 1.0
 			# Range: 0.0 ~ 1000000.0
-			armor_multiplier = 1.0
+			armor_multiplier = 1.1
 			#Toughness
 			# Default: 2.5
 			# Range: 0.0 ~ 1000000.0
@@ -44,7 +44,7 @@
 			#Armor_Multiplier
 			# Default: 1.0
 			# Range: 0.0 ~ 1000000.0
-			armor_multiplier = 1.0
+			armor_multiplier = 1.15
 			#Toughness
 			# Default: 2.0
 			# Range: 0.0 ~ 1000000.0
@@ -64,11 +64,11 @@
 			#Tool attack damage
 			# Default: 14.0
 			# Range: 0.0 ~ 1000000.0
-			attack_damage = 14.0
+			attack_damage = 35.0
 			#Tool attack speed
 			# Default: 1.4
 			# Range: 0.0 ~ 1000000.0
-			attack_speed = 1.4
+			attack_speed = 1.0
 
 	[tools_and_abilities.bulwark_of_the_flame]
 		#Bulwark Of The Flame Cooldown
@@ -128,7 +128,7 @@
 			#Tool attack damage
 			# Default: 13.0
 			# Range: 0.0 ~ 1000000.0
-			attack_damage = 13.0
+			attack_damage = 22.0
 			#Tool attack speed
 			# Default: 1.0
 			# Range: 0.0 ~ 1000000.0
@@ -142,13 +142,13 @@
 		#Void Forge Rune Damage
 		# Default: 7.0
 		# Range: 0.0 ~ 1000000.0
-		void_forge_rune_damage = 7.0
+		void_forge_rune_damage = 15.0
 
 		[tools_and_abilities.void_forge.tool_config]
 			#Tool attack damage
 			# Default: 13.0
 			# Range: 0.0 ~ 1000000.0
-			attack_damage = 13.0
+			attack_damage = 25.0
 			#Tool attack speed
 			# Default: 1.0
 			# Range: 0.0 ~ 1000000.0
@@ -158,7 +158,7 @@
 		#Brontes Storm Damage
 		# Default: 10.0
 		# Range: 0.0 ~ 1000000.0
-		brontes_storm_damage = 10.0
+		brontes_storm_damage = 16.0
 		#Brontes Storm Area Damage
 		# Default: 1.0
 		# Range: 0.0 ~ 1000000.0
@@ -168,7 +168,7 @@
 			#Tool attack damage
 			# Default: 13.0
 			# Range: 0.0 ~ 1000000.0
-			attack_damage = 13.0
+			attack_damage = 20.0
 			#Tool attack speed
 			# Default: 1.0
 			# Range: 0.0 ~ 1000000.0
@@ -182,7 +182,7 @@
 		#Missile Damage
 		# Default: 16.0
 		# Range: 0.0 ~ 100000.0
-		missile_damage = 16.0
+		missile_damage = 22.0
 		#Howitzer Cooldown
 		# Default: 100
 		# Range: 0 ~ 1000
@@ -196,7 +196,7 @@
 		#VASW Rune Damage
 		# Default: 7.0
 		# Range: 0.0 ~ 1000000.0
-		vasw_rune_damage = 7.0
+		vasw_rune_damage = 12.0
 
 	[tools_and_abilities.void_core]
 		#Cooldown
@@ -206,7 +206,7 @@
 		#Void Core Rune Damage
 		# Default: 7.0
 		# Range: 0.0 ~ 1000000.0
-		void_core_rune_damage = 7.0
+		void_core_rune_damage = 12.0
 
 	[tools_and_abilities.sandstorm]
 		#Cooldown
@@ -228,7 +228,7 @@
 			#Tool attack damage
 			# Default: 15.0
 			# Range: 0.0 ~ 1000000.0
-			attack_damage = 15.0
+			attack_damage = 23.0
 			#Tool attack speed
 			# Default: 1.05
 			# Range: 0.0 ~ 1000000.0
@@ -244,7 +244,7 @@
 			#Tool attack damage
 			# Default: 8.5
 			# Range: 0.0 ~ 1000000.0
-			attack_damage = 8.5
+			attack_damage = 20.0
 			#Tool attack speed
 			# Default: 1.6
 			# Range: 0.0 ~ 1000000.0
@@ -254,7 +254,7 @@
 			#Tool attack damage
 			# Default: 8.0
 			# Range: 0.0 ~ 1000000.0
-			attack_damage = 8.0
+			attack_damage = 12.0
 			#Tool attack speed
 			# Default: 1.6
 			# Range: 0.0 ~ 1000000.0
@@ -274,7 +274,7 @@
 			#Tool attack damage
 			# Default: 16.0
 			# Range: 0.0 ~ 1000000.0
-			attack_damage = 16.0
+			attack_damage = 24.0
 			#Tool attack speed
 			# Default: 0.7
 			# Range: 0.0 ~ 1000000.0
@@ -298,7 +298,7 @@
 			#Tool attack damage
 			# Default: 10.5
 			# Range: 0.0 ~ 1000000.0
-			attack_damage = 10.5
+			attack_damage = 17.0
 			#Tool attack speed
 			# Default: 1.4
 			# Range: 0.0 ~ 1000000.0
@@ -308,7 +308,7 @@
 			#Tool attack damage
 			# Default: 8.5
 			# Range: 0.0 ~ 1000000.0
-			attack_damage = 8.5
+			attack_damage = 16.0
 			#Tool attack speed
 			# Default: 1.4
 			# Range: 0.0 ~ 1000000.0
@@ -318,7 +318,7 @@
 			#Tool attack damage
 			# Default: 8.5
 			# Range: 0.0 ~ 1000000.0
-			attack_damage = 8.5
+			attack_damage = 25.0
 			#Tool attack speed
 			# Default: 1.6
 			# Range: 0.0 ~ 1000000.0
@@ -328,19 +328,19 @@
 		#Cursed Bow Damage
 		# Default: 8.0
 		# Range: 0.0 ~ 1000000.0
-		cursed_bow_damage = 8.0
+		cursed_bow_damage = 14.0
 
 	[tools_and_abilities.wrath_of_the_desert]
 		#Wrath Of The Desert Damage
 		# Default: 7.5
 		# Range: 0.0 ~ 1000000.0
-		wrath_of_the_desert_damage = 7.5
+		wrath_of_the_desert_damage = 14.0
 
 	[tools_and_abilities.laser_gatling]
 		#Laser Damage
 		# Default: 7.0
 		# Range: 0.0 ~ 1000000.0
-		laser_damage = 7.0
+		laser_damage = 12.0
 
 	[tools_and_abilities.ancient_spear]
 		#SandStorm
@@ -352,7 +352,7 @@
 			#Tool attack damage
 			# Default: 9.5
 			# Range: 0.0 ~ 1000000.0
-			attack_damage = 9.5
+			attack_damage = 16.0
 			#Tool attack speed
 			# Default: 1.4
 			# Range: 0.0 ~ 1000000.0
@@ -656,15 +656,15 @@
 		#Wither Missile Damage
 		# Default: 8.0
 		# Range: 0.0 ~ 1000000.0
-		wither_missile_damage = 8.0
+		wither_missile_damage = 22.0
 		#Laser Damage
 		# Default: 5.0
 		# Range: 0.0 ~ 1000000.0
-		laser_damage = 5.0
+		laser_damage = 12.0
 		#Death Laser Damage
 		# Default: 5.0
 		# Range: 0.0 ~ 1000000.0
-		death_laser_damage = 5.0
+		death_laser_damage = 12.0
 		#Death Laser HP Damage
 		# Default: 0.05
 		# Range: 0.0 ~ 1.0
@@ -728,7 +728,7 @@
 		#Death Laser Damage
 		# Default: 5.0
 		# Range: 0.0 ~ 1000000.0
-		death_laser_damage = 5.0
+		death_laser_damage = 12.0
 		#Death Laser HP Damage
 		# Default: 0.05
 		# Range: 0.0 ~ 1.0

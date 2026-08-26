@@ -77,6 +77,7 @@
 				}
 				{
 					id: "5300000000001003"
+					table_id: 1117392878634647553L
 					type: "random"
 				}
 			]
@@ -106,6 +107,7 @@
 				}
 				{
 					id: "5300000000001005"
+					table_id: 1117392878634647553L
 					type: "random"
 				}
 			]
@@ -125,6 +127,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000001006"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -143,6 +146,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000001007"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -161,6 +165,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000001008"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -179,6 +184,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000001009"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -197,6 +203,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000001010"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -215,6 +222,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000001011"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -233,6 +241,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000001012"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -251,6 +260,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000001013"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -269,6 +279,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000001014"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -287,6 +298,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000001015"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -305,6 +317,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000001016"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -323,6 +336,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000001017"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -341,6 +355,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000001018"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -359,6 +374,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000001019"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -377,6 +393,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000001020"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -395,6 +412,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000001021"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -413,6 +431,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000001022"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -431,6 +450,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000001023"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -449,6 +469,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000001024"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -467,6 +488,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000001025"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -485,6 +507,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000001026"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -503,6 +526,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000001027"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -521,6 +545,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000001028"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -539,6 +564,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000001029"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -557,6 +583,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000001030"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -575,6 +602,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000001031"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -593,6 +621,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000001032"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -621,6 +650,7 @@
 				}
 				{
 					id: "5300000000001034"
+					table_id: 1117392878634647553L
 					type: "random"
 				}
 			]
@@ -640,6 +670,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000001035"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -658,6 +689,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000001036"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -676,6 +708,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000001037"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -694,6 +727,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000001038"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -712,6 +746,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000001039"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -730,6 +765,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000001040"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -748,6 +784,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000001041"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -766,6 +803,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000001042"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -784,6 +822,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000001043"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -802,6 +841,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000001044"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -820,6 +860,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000001045"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -838,6 +879,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000001046"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -856,6 +898,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000001047"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -874,6 +917,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000001048"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -892,6 +936,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000001049"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -910,6 +955,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000001050"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -928,6 +974,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000001051"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -946,6 +993,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000001052"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -964,6 +1012,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000001053"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -982,6 +1031,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000001054"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -1000,6 +1050,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000001055"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -1018,6 +1069,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000001056"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -1036,6 +1088,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000001057"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -1054,6 +1107,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000001058"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -1072,6 +1126,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000001059"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -1090,6 +1145,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000001060"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -1108,6 +1164,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000001061"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -1126,6 +1183,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000001062"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -1144,6 +1202,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000001063"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -1162,6 +1221,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000001064"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -1180,6 +1240,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000001065"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -1198,6 +1259,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000001066"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -1216,6 +1278,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000001067"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -1234,6 +1297,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000001068"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -1252,6 +1316,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000001069"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -1270,6 +1335,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000001070"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -1288,6 +1354,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000001071"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -1306,6 +1373,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000001072"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -1324,6 +1392,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000001073"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -1342,6 +1411,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000001074"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -1360,6 +1430,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000001075"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -1378,6 +1449,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000001076"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -1406,6 +1478,7 @@
 				}
 				{
 					id: "5300000000001078"
+					table_id: 1117392878634647553L
 					type: "random"
 				}
 			]
@@ -1425,6 +1498,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000001079"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -1443,6 +1517,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000001080"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -1461,6 +1536,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000001081"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -1479,6 +1555,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000001082"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -1497,6 +1574,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000001083"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -1515,6 +1593,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000001084"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -1533,6 +1612,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000001085"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -1551,6 +1631,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000001086"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -1569,6 +1650,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000001087"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -1587,6 +1669,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000001088"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -1605,6 +1688,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000001089"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -1623,6 +1707,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000001090"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -1641,6 +1726,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000001091"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -1659,6 +1745,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000001092"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -1677,6 +1764,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000001093"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -1695,6 +1783,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000001094"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -1713,6 +1802,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000001095"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -1731,6 +1821,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000001096"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -1749,6 +1840,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000001097"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -1777,6 +1869,7 @@
 				}
 				{
 					id: "5300000000001099"
+					table_id: 1117392878634647553L
 					type: "random"
 				}
 			]
@@ -1796,6 +1889,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000001100"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -1814,6 +1908,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000001101"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -1832,6 +1927,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000001102"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -1850,6 +1946,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000001103"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -1868,6 +1965,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000001104"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -1886,6 +1984,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000001105"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -1904,6 +2003,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000001106"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -1922,6 +2022,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000001107"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -1940,6 +2041,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000001108"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -1958,6 +2060,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000001109"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -1976,6 +2079,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000001110"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -1994,6 +2098,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000001111"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -2012,6 +2117,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000001112"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -2030,6 +2136,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000001113"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -2048,6 +2155,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000001114"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -2066,6 +2174,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000001115"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -2084,6 +2193,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000001116"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -2102,6 +2212,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000001117"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -2120,6 +2231,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000001118"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -2138,6 +2250,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000001119"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -2156,6 +2269,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000001120"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -2174,6 +2288,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000001121"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -2192,6 +2307,7 @@
 			optional: true
 			rewards: [{
 				id: "5300000000001122"
+				table_id: 1117392878634647553L
 				type: "random"
 			}]
 			size: 1.1d
@@ -2350,6 +2466,7 @@
 				}
 				{
 					id: "5300000000001126"
+					table_id: 1117392878634647553L
 					type: "random"
 				}
 			]

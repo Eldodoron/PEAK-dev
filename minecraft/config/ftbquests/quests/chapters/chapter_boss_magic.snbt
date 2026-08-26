@@ -1,0 +1,314 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "chapter_boss_magic"
+	group: "3000000000000000"
+	id: "3106000000000000"
+	images: [ ]
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			id: "3106000000000001"
+			rewards: [
+				{
+					count: 2
+					id: "3306000000000001"
+					item: {
+						count: 1
+						id: "farmersdelight:roast_chicken"
+					}
+					type: "item"
+				}
+				{
+					id: "3306000000000002"
+					table_id: 1117392878634651649L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			size: 1.8d
+			tasks: [{
+				id: "3206000000000001"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3106000000000001"]
+			id: "3106000000000011"
+			rewards: [
+				{
+					count: 4
+					id: "3306000000000011"
+					item: {
+						count: 1
+						id: "farmersdelight:roast_chicken"
+					}
+					type: "item"
+				}
+				{
+					id: "3306000000000012"
+					table_id: 1117392878634651651L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 1.4d
+			tasks: [{
+				entity: "irons_spellbooks:dead_king"
+				id: "3206000000000011"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3106000000000001"]
+			id: "3106000000000012"
+			rewards: [
+				{
+					count: 2
+					id: "3306000000000013"
+					item: {
+						count: 1
+						id: "farmersdelight:shepherds_pie"
+					}
+					type: "item"
+				}
+				{
+					id: "3306000000000014"
+					table_id: 1117392878634651649L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				entity: "irons_spellbooks:citadel_keeper"
+				id: "3206000000000012"
+				type: "kill"
+				value: 1L
+			}]
+			x: -6.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3106000000000001"]
+			id: "3106000000000013"
+			rewards: [
+				{
+					count: 2
+					id: "3306000000000015"
+					item: {
+						count: 1
+						id: "farmersdelight:stuffed_pumpkin"
+					}
+					type: "item"
+				}
+				{
+					id: "3306000000000016"
+					table_id: 1117392878634651649L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				entity: "irons_spellbooks:archevoker"
+				id: "3206000000000013"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3106000000000001"]
+			id: "3106000000000021"
+			rewards: [
+				{
+					count: 4
+					id: "3306000000000021"
+					item: {
+						count: 1
+						id: "ars_nouveau:source_berry_pie"
+					}
+					type: "item"
+				}
+				{
+					id: "3306000000000022"
+					table_id: 1117392878634651650L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [{
+				entity: "ars_nouveau:wilden_boss"
+				id: "3206000000000021"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3106000000000001"]
+			id: "3106000000000022"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "3306000000000023"
+					item: {
+						count: 1
+						id: "farmersdelight:fruit_salad"
+					}
+					type: "item"
+				}
+				{
+					id: "3306000000000024"
+					table_id: 1117392878634651649L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			size: 1.1d
+			tasks: [{
+				entity: "ars_nouveau:wilden_guardian"
+				id: "3206000000000022"
+				type: "kill"
+				value: 5L
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3106000000000001"]
+			id: "3106000000000031"
+			rewards: [
+				{
+					count: 2
+					id: "3306000000000025"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+				{
+					id: "3306000000000026"
+					table_id: 1117392878634651650L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [{
+				entity: "vampirism:vampire_baron"
+				id: "3206000000000031"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3106000000000001"]
+			id: "3106000000000032"
+			optional: true
+			rewards: [
+				{
+					count: 4
+					id: "3306000000000027"
+					item: {
+						count: 1
+						id: "farmersdelight:dumplings"
+					}
+					type: "item"
+				}
+				{
+					id: "3306000000000028"
+					table_id: 1117392878634651649L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			size: 1.1d
+			tasks: [{
+				entity: "vampirism:advanced_vampire"
+				id: "3206000000000032"
+				type: "kill"
+				value: 5L
+			}]
+			x: 6.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3106000000000001"]
+			id: "3106000000000033"
+			rewards: [
+				{
+					count: 2
+					id: "3306000000000029"
+					item: {
+						count: 1
+						id: "farmersdelight:honey_glazed_ham"
+					}
+					type: "item"
+				}
+				{
+					id: "3306000000000030"
+					table_id: 1117392878634651649L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				entity: "block_factorys_bosses:underworld_knight"
+				id: "3206000000000033"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"3106000000000011"
+				"3106000000000021"
+				"3106000000000031"
+			]
+			hide_dependency_lines: true
+			id: "3106000000000999"
+			rewards: [
+				{
+					count: 2
+					id: "3306000000000991"
+					item: {
+						count: 1
+						id: "minecraft:enchanted_golden_apple"
+					}
+					type: "item"
+				}
+				{
+					id: "3306000000000992"
+					table_id: 1117392878634651651L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 1.7d
+			tasks: [{
+				id: "3206000000000999"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 7.5d
+		}
+	]
+}

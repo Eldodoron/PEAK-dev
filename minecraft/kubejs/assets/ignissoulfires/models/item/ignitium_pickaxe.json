@@ -1,0 +1,18 @@
+{
+	"parent": "minecraft:item/handheld",
+	"loader": "neoforge:separate_transforms",
+	"textures": {
+	  "layer0": "ignissoulfires:item/ignitium_pickaxe_gui"
+	},і
+	"base": {
+	  "parent": "ignissoulfires:item/ignitium_pickaxe_hand"
+	},
+	"perspectives": {
+	  "gui": {
+		"parent": "ignissoulfires:item/ignitium_pickaxe_gui"
+	  },
+	  "fixed": {
+		"parent": "ignissoulfires:item/ignitium_pickaxe_gui"
+	  }
+	}
+  }

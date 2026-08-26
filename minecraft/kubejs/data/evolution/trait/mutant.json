@@ -1,0 +1,8 @@
+{
+  "desc": "Mutant trait, has various effects and allows receiving any compatible trait at random, traitblacklist specifies which traits cannot be randomly received during e.g. evolution:explosive",
+  "weight": 1,
+  "traitblacklist": [
+    "evolution:none",
+    "evolution:explosive"
+  ]
+}

@@ -11,7 +11,7 @@ RecipeViewerEvents.removeEntries('item', event => {
         'minecraft:repeating_command_block',
         'minecraft:command_block_minecart',
         'minecraft:jigsaw',
-        'minecraft:test_instance_block'
+        ''
     ];
 
     // --- HIDE MOD DEBUGGERS, DUMMY & TEST ITEMS ---

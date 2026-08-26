@@ -2464,6 +2464,14 @@
     "curseForgeHash": 3606950632,
     "modrinthHash": "a8bb6e25807682e72c23bf4065f3cd5f6373ece3"
   },
+  "Panoptic-1.08a-NeoForge-1.21.1.jar": {
+    "jarName": "Panoptic-1.08a-NeoForge-1.21.1.jar",
+    "modId": "panoptic",
+    "name": "Panoptic",
+    "version": "1.08a",
+    "curseForgeHash": 3801807862,
+    "modrinthHash": "a77ffa771c48d2e8b3a75dddd0b398546050b382"
+  },
   "Paraglider-neoforge-21.1.5.jar": {
     "jarName": "Paraglider-neoforge-21.1.5.jar",
     "modId": "paraglider",
@@ -2479,14 +2487,6 @@
     "version": "0.3.3+1.21+neoforge",
     "curseForgeHash": 3166916631,
     "modrinthHash": "f859d68818e522fb00056d3ed1603ca4300eb681"
-  },
-  "particlerain-4.0.0-beta.10+1.21.1-neoforge.jar": {
-    "jarName": "particlerain-4.0.0-beta.10+1.21.1-neoforge.jar",
-    "modId": "particlerain",
-    "name": "Particle Rain",
-    "version": "4.0.0-beta.10",
-    "curseForgeHash": 2531601297,
-    "modrinthHash": "df2800c721e8a588dde48bc4b426707eccf712b6"
   },
   "particular-1.21.1-NeoForge-1.5.5.jar": {
     "jarName": "particular-1.21.1-NeoForge-1.5.5.jar",

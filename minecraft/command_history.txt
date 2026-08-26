@@ -1,63 +1,3 @@
-/summon block_factorys_bosses:yeti
-/reload
-/summon block_factorys_bosses:infernal_dragon
-/reload
-/peak reset_eyes block_factorys_bosses:yeti
-/peak reset_eyes
-/reload
-/peak reset_eyes block_factorys_bosses:yeti
-/summon block_factorys_bosses:yeti
-/peak reset_eyes block_factorys_bosses:infernal_dragon
-/summon block_factorys_bosses:infernal_dragon
-/summon cataclysm:ignis
-/level set level 100 Eldodoron
-/apoth set_world_tier Eldodoron pinnacle
-/apoth reforge nadir:divine
-/reload
-/summon block_factorys_bosses:yeti
-/summon bosses_of_mass_destruction:lich
-/tp Eldodoron 0 ~ 0
-/locate structure minecraft:village_plains
-/locate structure integrated_villages:oasis_village
-/tp @s 3424 ~ -2464
-/apoth reforge nadir:stellar
-/summon cataclysm:ignis
-/reload
-/relics maximize
-/time set day
-/relics maximize
-/summon cataclysm:ignis
-/apoth reforge nadir:cataclysmic
-/enchant Eldodoron minecraft:efficiency 5
-/setworldspawn
-/gamerule keepInventory true
-/kill
-/reload
-/effect give Eldodoron minecraft:regeneration infinite
-/effect give Eldodoron minecraft:regeneration infinite 4
-/effect give Eldodoron minecraft:resistance infinite 5
-/locate structure cataclysm:burning_arena
-/tp @s -1040 ~ -2096
-/effect give Eldodoron minecraft:saturation infinite
-/effect give Eldodoron minecraft:strength infinite 3
-/effect give Eldodoron minecraft:strength infinite 10
-/effect give Eldodoron minecraft:regeneration infinite 4
-/effect give Eldodoron minecraft:saturation infinite
-/kill
-/weather clear
-/reload
-/ftbquests reload
-/ftbquests change_progress Eldodoron reset-all
-/reload
-/ftbquests reload
-/reload
-/ftbquests reload
-/summon iceandfire:ice_dragon
-/summon minecraft:warden
-/ftbquests reload
-/ftbquests change_progress Eldodoron reset-all
-/ftbquests reload
-/ftbquests change_progress @p complete
 /ftbquests change_progress @p complete-all
 /ftbquests change_progress @p complete 1000000000000001
 /ftbquests change_progress @p reset 1000000000000006
@@ -67,3 +7,63 @@
 /locate biome minecraft:cherry_grove
 /tp @s 2618 63 307
 /tp Eldodoron ~ 200 ~
+/apoth reforge nadir:cataclysmic
+/locate biome minecraft:old_growth_spruce_taiga
+/tp @s 3115 148 1351
+/caravan spawn ~ ~ ~ classic_caravans:swamp_miners_tier_3
+/peak greenscreen 20 20 20
+/reload
+/chunky start minecraft:overworld square 0 0 500 500
+/locate structure block_factorys_bosses:dragon_tower
+/tp @s 1744 ~ 3712
+/summon mowziesmobs:ferrous_wroughtnaut
+/setworldspawn
+/summon mowziesmobs:ferrous_wroughtnaut
+/summon mowziesmobs:pillar_piece
+/summon cataclysm:ignis
+/execute in minecraft:the_end run tp Eldotest 0 100 0
+/tp Eldotest 10000 100 10000
+/execute in minecraft:the_nether run tp Eldotest 0 100 0
+/locate structure cataclysm:acropolis
+/tp @s -14992 ~ 6448
+/locate structure cataclysm:ruined_citadel
+/locate structure cataclysm:amethyst_nest
+/tp @s -912 ~ 752
+/locate structure cataclysm:abandoned_spire
+/tp @s 1920 ~ -2256
+/locate structure cataclysm:ancient_factory
+/tp @s 1952 ~ -5360
+/locate structure cataclysm:abandoned_temple
+/tp @s 3472 ~ -5200
+/locate structure cataclysm:ruined_citadel
+/locate structure cataclysm:sunken_city
+/tp @s 3552 ~ -7696
+/wits
+/summon block_factorys_bosses:kraken
+/kill
+/reload
+/time set day
+/ftbquests reload
+/summon cataclysm:ignis
+/summon cataclysm:the_leviathan
+/ct hand
+/summon minecraft:elder_guardian
+/summon cataclysm:ender_guardian
+/ct hand\
+/ct hand
+/summon cataclysm:the_harbinger
+/reload
+/setblock ~ ~ ~ minecraft:grass_block
+/summon cataclysm:netherite_ministrosity
+/summon cataclysm:netherite_monstrosity
+/ct hand
+/summon cataclysm:netherite_ministrosity
+/summon cataclysm:netherite_monstrosity
+/apoth reforge nadir:cataclysmic
+/ftbquests reload
+/summon minecraft:zombie
+/reload
+/locate biome minecraft:savanna
+/tp @s 1350 111 1050
+/peak greenscreen
+/reload

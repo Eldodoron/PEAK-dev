@@ -1,5 +1,5 @@
 {
-	id: "0F81C6E72591A001"
+	id: "3AEB3823F475E7C2"
 	loot_crate: {
 		color: 14737632
 		drops: {
@@ -10,7 +10,7 @@
 		string_id: "recompensa_comun"
 	}
 	loot_size: 1
-	order_index: 3
+	order_index: 4
 	rewards: [
 		{
 			count: 2

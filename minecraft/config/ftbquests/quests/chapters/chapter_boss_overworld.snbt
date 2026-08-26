@@ -1,0 +1,560 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "chapter_boss_overworld"
+	group: "3000000000000000"
+	id: "3101000000000000"
+	images: [ ]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "3101000000000802"
+			rewards: [{
+				id: "3301000000000802"
+				table_id: 1117392878634651649L
+				type: "random"
+			}]
+			shape: "rsquare"
+			size: 1.3d
+			tasks: [{
+				id: "3201000000000802"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3101000000000802"]
+			id: "3101000000000021"
+			rewards: [
+				{
+					count: 4
+					id: "3301000000000021"
+					item: {
+						count: 1
+						id: "twilightforest:experiment_115"
+					}
+					type: "item"
+				}
+				{
+					id: "3301000000000022"
+					table_id: 1117392878634651650L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				entity: "mowziesmobs:frostmaw"
+				id: "3201000000000021"
+				type: "kill"
+				value: 1L
+			}]
+			x: -7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3101000000000802"]
+			id: "3101000000000022"
+			rewards: [
+				{
+					count: 4
+					id: "3301000000000023"
+					item: {
+						count: 1
+						id: "farmersdelight:shepherds_pie"
+					}
+					type: "item"
+				}
+				{
+					id: "3301000000000024"
+					table_id: 1117392878634651649L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				entity: "mowziesmobs:ferrous_wroughtnaut"
+				id: "3201000000000022"
+				type: "kill"
+				value: 1L
+			}]
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3101000000000802"]
+			id: "3101000000000023"
+			rewards: [
+				{
+					count: 4
+					id: "3301000000000025"
+					item: {
+						count: 1
+						id: "farmersdelight:fruit_salad"
+					}
+					type: "item"
+				}
+				{
+					id: "3301000000000026"
+					table_id: 1117392878634651649L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			size: 1.1d
+			tasks: [{
+				entity: "mowziesmobs:umvuthi"
+				id: "3201000000000023"
+				type: "kill"
+				value: 1L
+			}]
+			x: -7.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3101000000000802"]
+			id: "3101000000000024"
+			rewards: [
+				{
+					count: 2
+					id: "3301000000000027"
+					item: {
+						count: 1
+						id: "farmersdelight:pasta_with_meatballs"
+					}
+					type: "item"
+				}
+				{
+					id: "3301000000000028"
+					table_id: 1117392878634651649L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			size: 1.1d
+			tasks: [{
+				entity: "mowziesmobs:naga"
+				id: "3201000000000024"
+				type: "kill"
+				value: 1L
+			}]
+			x: -5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3101000000000802"]
+			id: "3101000000000025"
+			rewards: [
+				{
+					count: 4
+					id: "3301000000000029"
+					item: {
+						count: 1
+						id: "farmersdelight:cabbage_rolls"
+					}
+					type: "item"
+				}
+				{
+					id: "3301000000000030"
+					table_id: 1117392878634651649L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			size: 1.1d
+			tasks: [{
+				entity: "mowziesmobs:foliaath"
+				id: "3201000000000025"
+				type: "kill"
+				value: 1L
+			}]
+			x: -6.0d
+			y: 5.8d
+		}
+		{
+			id: "3101000000000801"
+			rewards: [{
+				id: "3301000000000801"
+				table_id: 1117392878634651649L
+				type: "random"
+			}]
+			shape: "rsquare"
+			size: 1.3d
+			tasks: [{
+				id: "3201000000000801"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3101000000000801"]
+			id: "3101000000000011"
+			rewards: [
+				{
+					count: 2
+					id: "3301000000000011"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+				{
+					id: "3301000000000012"
+					table_id: 1117392878634651650L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [{
+				entity: "minecraft:warden"
+				id: "3201000000000011"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3101000000000801"]
+			id: "3101000000000012"
+			rewards: [
+				{
+					count: 4
+					id: "3301000000000013"
+					item: {
+						count: 1
+						id: "farmersdelight:cooked_salmon_slice"
+					}
+					type: "item"
+				}
+				{
+					id: "3301000000000014"
+					table_id: 1117392878634651649L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				entity: "minecraft:elder_guardian"
+				id: "3201000000000012"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			id: "3101000000000803"
+			rewards: [{
+				id: "3301000000000803"
+				table_id: 1117392878634651649L
+				type: "random"
+			}]
+			shape: "rsquare"
+			size: 1.3d
+			tasks: [{
+				id: "3201000000000803"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3101000000000803"]
+			id: "3101000000000031"
+			rewards: [
+				{
+					count: 2
+					id: "3301000000000031"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+				{
+					id: "3301000000000032"
+					table_id: 1117392878634651650L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [{
+				entity: "bosses_of_mass_destruction:lich"
+				id: "3201000000000031"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3101000000000803"]
+			id: "3101000000000032"
+			rewards: [
+				{
+					count: 4
+					id: "3301000000000033"
+					item: {
+						count: 1
+						id: "ars_nouveau:source_berry_pie"
+					}
+					type: "item"
+				}
+				{
+					id: "3301000000000034"
+					table_id: 1117392878634651649L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				entity: "bosses_of_mass_destruction:void_blossom"
+				id: "3201000000000032"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3101000000000803"]
+			id: "3101000000000033"
+			rewards: [
+				{
+					count: 2
+					id: "3301000000000035"
+					item: {
+						count: 1
+						id: "mynethersdelight:strider_stew"
+					}
+					type: "item"
+				}
+				{
+					id: "3301000000000036"
+					table_id: 1117392878634651650L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				entity: "bosses_of_mass_destruction:gauntlet"
+				id: "3201000000000033"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: 5.8d
+		}
+		{
+			id: "3101000000000804"
+			rewards: [{
+				id: "3301000000000804"
+				table_id: 1117392878634651649L
+				type: "random"
+			}]
+			shape: "rsquare"
+			size: 1.3d
+			tasks: [{
+				id: "3201000000000804"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3101000000000804"]
+			id: "3101000000000041"
+			rewards: [
+				{
+					count: 2
+					id: "3301000000000041"
+					item: {
+						count: 1
+						id: "farmersdelight:roast_chicken"
+					}
+					type: "item"
+				}
+				{
+					id: "3301000000000042"
+					table_id: 1117392878634651650L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [{
+				entity: "remnant_bosses:bone_tyrant"
+				id: "3201000000000041"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3101000000000804"]
+			id: "3101000000000042"
+			rewards: [
+				{
+					count: 4
+					id: "3301000000000043"
+					item: {
+						count: 1
+						id: "farmersdelight:dumplings"
+					}
+					type: "item"
+				}
+				{
+					id: "3301000000000044"
+					table_id: 1117392878634651649L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			size: 1.1d
+			tasks: [{
+				entity: "remnant_bosses:remnant_ossukage"
+				id: "3201000000000042"
+				type: "kill"
+				value: 1L
+			}]
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3101000000000804"]
+			id: "3101000000000043"
+			rewards: [
+				{
+					count: 2
+					id: "3301000000000045"
+					item: {
+						count: 1
+						id: "farmersdelight:stuffed_pumpkin"
+					}
+					type: "item"
+				}
+				{
+					id: "3301000000000046"
+					table_id: 1117392878634651649L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			size: 1.1d
+			tasks: [{
+				entity: "illagerinvasion:invoker"
+				id: "3201000000000043"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3101000000000804"]
+			id: "3101000000000044"
+			rewards: [
+				{
+					count: 4
+					id: "3301000000000047"
+					item: {
+						count: 1
+						id: "farmersdelight:mutton_wrap"
+					}
+					type: "item"
+				}
+				{
+					id: "3301000000000048"
+					table_id: 1117392878634651649L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			size: 1.1d
+			tasks: [{
+				entity: "illagerinvasion:inquisitor"
+				id: "3201000000000044"
+				type: "kill"
+				value: 1L
+			}]
+			x: 7.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3101000000000804"]
+			id: "3101000000000045"
+			rewards: [
+				{
+					count: 4
+					id: "3301000000000049"
+					item: {
+						count: 1
+						id: "farmersdelight:pasta_with_meatballs"
+					}
+					type: "item"
+				}
+				{
+					id: "3301000000000050"
+					table_id: 1117392878634651649L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			size: 1.1d
+			tasks: [{
+				entity: "illagerinvasion:sorcerer"
+				id: "3201000000000045"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.0d
+			y: 5.8d
+		}
+		{
+			dependencies: [
+				"3101000000000011"
+				"3101000000000021"
+				"3101000000000031"
+				"3101000000000041"
+			]
+			hide_dependency_lines: true
+			id: "3101000000000999"
+			rewards: [
+				{
+					count: 2
+					id: "3301000000000991"
+					item: {
+						count: 1
+						id: "minecraft:enchanted_golden_apple"
+					}
+					type: "item"
+				}
+				{
+					id: "3301000000000992"
+					table_id: 1117392878634651651L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 1.7d
+			tasks: [{
+				id: "3201000000000999"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+	]
+}

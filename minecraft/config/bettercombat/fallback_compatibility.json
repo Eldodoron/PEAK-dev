@@ -11,7 +11,7 @@
       "weapon_attributes": "bettercombat:hammer"
     },
     {
-      "item_id_regex": "double_axe|doubleaxe|war_axe|waraxe|great_axe|greataxe",
+      "item_id_regex": "double_axe|doubleaxe|war_axe|waraxe|great_axe|greataxe|wrought_axe",
       "weapon_attributes": "bettercombat:double_axe"
     },
     {
@@ -79,7 +79,7 @@
       "weapon_attributes": "bettercombat:wand"
     },
     {
-      "item_id_regex": "mace|hammer|flail",
+      "item_id_regex": "mace|hammer|flail|infinity_ham",
       "weapon_attributes": "bettercombat:mace"
     },
     {

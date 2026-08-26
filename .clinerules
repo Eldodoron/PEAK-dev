@@ -21,3 +21,16 @@
 - El modpack corre en un sistema con 64GB RAM (asignar 10-12GB a Minecraft).
 - Distancia de simulación máxima: 8-10 chunks.
 - Mixin `mixin.perf.dynamic_languages` de ModernFix DEBE permanecer en `false` (crashea el juego).
+
+## Procedimientos de Scripting y Debugging (1.21.1)
+- Antes de modificar items con KubeJS, verificar si el mod maneja su daño/habilidades en `config/*.toml`.
+- Al modificar configs con scripts/regex, aislar estrictamente las secciones para no afectar valores comunes.
+- Verificar APIs de 1.21.1 descompilando clases Java con `javap` en vez de suponer métodos o sintaxis.
+- Automatizar la inicialización de estado de mods en `PlayerEvents.loggedIn` si requieren tutoriales/menús manuales.
+
+## Reglas de Control de Alcance (Anti-Acciones Invasivas)
+- **PROHIBIDO** descompilar, parchear o alterar binarios `.jar` de terceros (como modificar `neoforge.mods.toml` o clases) a menos que el usuario lo pida explícitamente.
+- Si el usuario hace una pregunta informativa, de búsqueda o diagnóstico (ej. buscar versiones compatibles de un mod), responder directamente con la información y opciones sin alterar archivos del juego.
+- Siempre pedir confirmación explícita al usuario antes de ejecutar cualquier modificación o parche invasivo.
+
+

@@ -97,7 +97,7 @@
 	#Supports wildcards: use 'modid:*' to blacklist all entities from a mod
 	#Examples: ["minecraft:zombie", "minecraft:skeleton", "cataclysm:*"]
 	blacklisted_entities = [
-		"unusualend:endstone_trapper", "artifacts:mimic", "mowziesmobs:foliaath",
+		"minecraft:witch", "unusualend:endstone_trapper", "artifacts:mimic", "mowziesmobs:foliaath",
 		"aquaculture:*", "cosycritters:*", "adorablehamsterpets:*", "goodending:*", "naturalist:*",
 		"twilightforest:bighorn_sheep", "twilightforest:boar", "twilightforest:deer", "twilightforest:dwarf_rabbit", "twilightforest:penguin", "twilightforest:raven", "twilightforest:squirrel", "twilightforest:tiny_bird",
 		"friendsandfoes:moobloom", "friendsandfoes:glare", "friendsandfoes:copper_golem", "friendsandfoes:tuff_golem",
