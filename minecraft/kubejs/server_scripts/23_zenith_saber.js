@@ -1,5 +1,5 @@
 // ==========================================
-// PEAK ZENITH SABER Ã¢â‚¬â€ RECIPE AND EVENTS SCRIPT
+// PEAK ZENITH SABER - RECIPE AND EVENTS SCRIPT
 // Minecraft 1.21.1 NeoForge Mojmap
 // ==========================================
 
@@ -12,7 +12,7 @@ ServerEvents.recipes(event => {
             
             // Lore (Array of JSON component strings in 1.21+)
             'minecraft:lore': [
-                '{"text":"Forged inside PEAK dev instance.","color":"gray"}',
+                '{"text":"Forged with primordial cosmic energy.","color":"gray"}',
                 '{"text":"Active stabilizing core.","color":"dark_gray"}'
             ],
             

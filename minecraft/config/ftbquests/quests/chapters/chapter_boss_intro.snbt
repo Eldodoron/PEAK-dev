@@ -40,13 +40,9 @@
 			id: "3100000000000002"
 			rewards: [
 				{
-					count: 8
 					id: "3300000000000003"
-					item: {
-						count: 1
-						id: "minecraft:golden_carrot"
-					}
-					type: "item"
+					table_id: 1117392878634651664L
+					type: "random"
 				}
 				{
 					id: "3300000000000004"
@@ -68,13 +64,9 @@
 			id: "3100000000000003"
 			rewards: [
 				{
-					count: 2
 					id: "3300000000000005"
-					item: {
-						count: 1
-						id: "minecraft:golden_apple"
-					}
-					type: "item"
+					table_id: 1117392878634651664L
+					type: "random"
 				}
 				{
 					id: "3300000000000006"
@@ -96,13 +88,9 @@
 			id: "3100000000000004"
 			rewards: [
 				{
-					count: 2
 					id: "3300000000000007"
-					item: {
-						count: 1
-						id: "farmersdelight:roast_chicken"
-					}
-					type: "item"
+					table_id: 1117392878634651664L
+					type: "random"
 				}
 				{
 					id: "3300000000000008"

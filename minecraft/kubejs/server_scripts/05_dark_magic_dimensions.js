@@ -40,18 +40,17 @@ ServerEvents.recipes(event => {
     });
 
     // --- SPIRIT CRUCIBLE (Advanced spirit processing) ---
-    // Requires Enchanting Apparatus knowledge + dark materials
     // The crucible refines raw spirits into usable essences
     event.remove({ output: 'malum:spirit_crucible' });
     event.shaped('malum:spirit_crucible', [
         'SHS',
         'HAH',
-        'SPS'
+        'STS'
     ], {
         S: 'malum:soul_stained_steel_ingot',
         H: 'malum:hallowed_gold_ingot',
         A: 'ars_nouveau:arcane_core',
-        P: 'create:precision_mechanism'
+        T: 'malum:twisted_rock'
     });
 
     // --- SOUL STAINED STEEL (Malum's dark metal) ---

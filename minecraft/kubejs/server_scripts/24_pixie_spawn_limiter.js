@@ -15,16 +15,15 @@
 EntityEvents.spawned('iceandfire:pixie', event => {
     const { entity } = event;
     
-    // Evitar borrar pixies ya existentes que se cargan del disco (chunks guardados)
+    // Skip pixies already loaded from disk in saved chunks
     if (entity.persistentData.getBoolean('peak_spawn_processed')) {
         return;
     }
     
-    // Marcar como procesada para que no se cancele en futuras cargas
+    // Mark as processed so it is not re-evaluated on subsequent chunk loads
     entity.persistentData.putBoolean('peak_spawn_processed', true);
     
-    // Cancelar ~45% de los nuevos spawns naturales (conservar ~55%)
-    // Math.random() < 0.45 â†’ ~45% de probabilidad de cancelaciÃ³n
+    // Cancel ~45% of new natural spawns to maintain optimal population density
     if (Math.random() < 0.45) {
         event.cancel();
     }

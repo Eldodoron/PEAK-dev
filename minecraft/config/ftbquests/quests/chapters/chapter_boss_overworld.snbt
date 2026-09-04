@@ -29,13 +29,9 @@
 			id: "3101000000000021"
 			rewards: [
 				{
-					count: 4
 					id: "3301000000000021"
-					item: {
-						count: 1
-						id: "twilightforest:experiment_115"
-					}
-					type: "item"
+					table_id: 1117392878634651664L
+					type: "random"
 				}
 				{
 					id: "3301000000000022"
@@ -59,13 +55,9 @@
 			id: "3101000000000022"
 			rewards: [
 				{
-					count: 4
 					id: "3301000000000023"
-					item: {
-						count: 1
-						id: "farmersdelight:shepherds_pie"
-					}
-					type: "item"
+					table_id: 1117392878634651664L
+					type: "random"
 				}
 				{
 					id: "3301000000000024"
@@ -119,13 +111,9 @@
 			id: "3101000000000024"
 			rewards: [
 				{
-					count: 2
 					id: "3301000000000027"
-					item: {
-						count: 1
-						id: "farmersdelight:pasta_with_meatballs"
-					}
-					type: "item"
+					table_id: 1117392878634651664L
+					type: "random"
 				}
 				{
 					id: "3301000000000028"
@@ -149,13 +137,9 @@
 			id: "3101000000000025"
 			rewards: [
 				{
-					count: 4
 					id: "3301000000000029"
-					item: {
-						count: 1
-						id: "farmersdelight:cabbage_rolls"
-					}
-					type: "item"
+					table_id: 1117392878634651664L
+					type: "random"
 				}
 				{
 					id: "3301000000000030"
@@ -195,13 +179,9 @@
 			id: "3101000000000011"
 			rewards: [
 				{
-					count: 2
 					id: "3301000000000011"
-					item: {
-						count: 1
-						id: "minecraft:golden_apple"
-					}
-					type: "item"
+					table_id: 1117392878634651664L
+					type: "random"
 				}
 				{
 					id: "3301000000000012"
@@ -225,13 +205,9 @@
 			id: "3101000000000012"
 			rewards: [
 				{
-					count: 4
 					id: "3301000000000013"
-					item: {
-						count: 1
-						id: "farmersdelight:cooked_salmon_slice"
-					}
-					type: "item"
+					table_id: 1117392878634651664L
+					type: "random"
 				}
 				{
 					id: "3301000000000014"
@@ -271,13 +247,9 @@
 			id: "3101000000000031"
 			rewards: [
 				{
-					count: 2
 					id: "3301000000000031"
-					item: {
-						count: 1
-						id: "minecraft:golden_apple"
-					}
-					type: "item"
+					table_id: 1117392878634651664L
+					type: "random"
 				}
 				{
 					id: "3301000000000032"
@@ -301,13 +273,9 @@
 			id: "3101000000000032"
 			rewards: [
 				{
-					count: 4
 					id: "3301000000000033"
-					item: {
-						count: 1
-						id: "ars_nouveau:source_berry_pie"
-					}
-					type: "item"
+					table_id: 1117392878634651664L
+					type: "random"
 				}
 				{
 					id: "3301000000000034"
@@ -377,13 +345,9 @@
 			id: "3101000000000041"
 			rewards: [
 				{
-					count: 2
 					id: "3301000000000041"
-					item: {
-						count: 1
-						id: "farmersdelight:roast_chicken"
-					}
-					type: "item"
+					table_id: 1117392878634651664L
+					type: "random"
 				}
 				{
 					id: "3301000000000042"
@@ -407,13 +371,9 @@
 			id: "3101000000000042"
 			rewards: [
 				{
-					count: 4
 					id: "3301000000000043"
-					item: {
-						count: 1
-						id: "farmersdelight:dumplings"
-					}
-					type: "item"
+					table_id: 1117392878634651664L
+					type: "random"
 				}
 				{
 					id: "3301000000000044"
@@ -437,13 +397,9 @@
 			id: "3101000000000043"
 			rewards: [
 				{
-					count: 2
 					id: "3301000000000045"
-					item: {
-						count: 1
-						id: "farmersdelight:stuffed_pumpkin"
-					}
-					type: "item"
+					table_id: 1117392878634651664L
+					type: "random"
 				}
 				{
 					id: "3301000000000046"
@@ -467,13 +423,9 @@
 			id: "3101000000000044"
 			rewards: [
 				{
-					count: 4
 					id: "3301000000000047"
-					item: {
-						count: 1
-						id: "farmersdelight:mutton_wrap"
-					}
-					type: "item"
+					table_id: 1117392878634651664L
+					type: "random"
 				}
 				{
 					id: "3301000000000048"
@@ -497,13 +449,9 @@
 			id: "3101000000000045"
 			rewards: [
 				{
-					count: 4
 					id: "3301000000000049"
-					item: {
-						count: 1
-						id: "farmersdelight:pasta_with_meatballs"
-					}
-					type: "item"
+					table_id: 1117392878634651664L
+					type: "random"
 				}
 				{
 					id: "3301000000000050"

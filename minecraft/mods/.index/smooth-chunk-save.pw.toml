@@ -1,0 +1,21 @@
+filename = 'smoothchunk-1.21-4.1.jar'
+name = 'Server Performance - Smooth Chunk Save'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'smoothchunk-1.21-4.1.jar'
+
+[download]
+hash = 'f54d5d352e15560240f151a7d054096a33a58f4a'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6296628
+project-id = 582327
+
+[[x-prismlauncher-dependencies]]
+addonId = '326652'
+type = 'REQUIRED'

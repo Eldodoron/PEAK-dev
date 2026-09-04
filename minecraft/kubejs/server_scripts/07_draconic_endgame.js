@@ -95,8 +95,8 @@ ServerEvents.recipes(event => {
 
     // --- WYVERN ENERGY CORE ---
     // Energy storage for Wyvern tier
-    event.remove({ output: 'minecraft:barrier' });
-    event.shaped('minecraft:barrier', [
+    event.remove({ output: 'draconicevolution:wyvern_energy_core' });
+    event.shaped('draconicevolution:wyvern_energy_core', [
         'DWD',
         'WNW',
         'DWD'
@@ -107,7 +107,7 @@ ServerEvents.recipes(event => {
     });
 
     // ==========================================
-    // SECTION 5: DRACONIC EVOLUTION Ã¢â‚¬â€ DRACONIC TIER
+    // SECTION 5: DRACONIC EVOLUTION — DRACONIC TIER
     // Mid-endgame. Requires:
     // - Awakened Draconium
     // - DRAGONSTEEL from Ice and Fire (the hard-to-farm gate!)
@@ -128,16 +128,16 @@ ServerEvents.recipes(event => {
         W: 'draconicevolution:wyvern_core'
     });
 
-    // --- AWAKENED ENERGY CORE ---
-    event.remove({ output: 'minecraft:barrier' });
-    event.shaped('minecraft:barrier', [
+    // --- DRACONIC ENERGY CORE ---
+    event.remove({ output: 'draconicevolution:draconic_energy_core' });
+    event.shaped('draconicevolution:draconic_energy_core', [
         'DAD',
         'AWA',
         'DAD'
     ], {
-        D: 'minecraft:barrier',
+        D: 'draconicevolution:awakened_draconium_ingot',
         A: 'allthemodium:allthemodium_ingot',
-        W: 'minecraft:barrier'
+        W: 'draconicevolution:wyvern_energy_core'
     });
 
     // --- AWAKENED DRACONIUM ---
@@ -154,7 +154,7 @@ ServerEvents.recipes(event => {
     ).superheated();
 
     // ==========================================
-    // SECTION 6: DRACONIC EVOLUTION Ã¢â‚¬â€ CHAOTIC TIER
+    // SECTION 6: DRACONIC EVOLUTION — CHAOTIC TIER
     // The absolute endgame. Requires EVERYTHING.
     // - Chaos Shards (from Chaos Guardian boss)
     // - Vibranium + Unobtainium (AllTheModium top tiers)
@@ -174,15 +174,15 @@ ServerEvents.recipes(event => {
     });
 
     // --- CHAOTIC ENERGY CORE ---
-    event.remove({ output: 'minecraft:barrier' });
-    event.shaped('minecraft:barrier', [
+    event.remove({ output: 'draconicevolution:chaotic_energy_core' });
+    event.shaped('draconicevolution:chaotic_energy_core', [
         'UCU',
         'CDE',
         'UCU'
     ], {
         U: 'allthemodium:unobtainium_ingot',
-        C: 'minecraft:barrier',
-        D: 'minecraft:barrier',
+        C: 'draconicevolution:draconic_energy_core',
+        D: 'draconicevolution:chaotic_core',
         E: 'mekanism:ultimate_control_circuit'
     });
 
@@ -196,7 +196,7 @@ ServerEvents.recipes(event => {
     ], {
         U: 'allthemodium:unobtainium_ingot',
         C: 'draconicevolution:chaotic_core',
-        N: 'minecraft:barrier'
+        N: 'draconicevolution:chaotic_energy_core'
     });
 
 

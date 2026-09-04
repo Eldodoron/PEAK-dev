@@ -35,7 +35,7 @@
 	enable_jade_integration = true
 
 [entity_settings]
-	entities_with_hidden_levels = []
+	entities_with_hidden_levels = ["#minecraft:animals", "#minecraft:passive_mobs", "#c:animals", "minecraft:chicken", "minecraft:cow", "minecraft:pig", "minecraft:sheep", "minecraft:villager", "minecraft:iron_golem", "minecraft:squid", "minecraft:bat", "minecraft:horse", "minecraft:donkey", "minecraft:mule", "minecraft:wolf", "minecraft:cat", "minecraft:parrot", "minecraft:rabbit", "minecraft:turtle", "minecraft:dolphin", "minecraft:panda", "minecraft:fox", "minecraft:bee", "minecraft:strider", "minecraft:axolotl", "minecraft:glow_squid", "minecraft:goat", "minecraft:frog", "minecraft:tadpole", "minecraft:allay", "minecraft:camel", "minecraft:sniffer", "minecraft:armadillo"]
 
 [structure_title_display]
 	#Display structure names and level bonuses when entering structures

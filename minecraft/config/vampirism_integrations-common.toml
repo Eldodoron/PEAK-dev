@@ -1,8 +1,5 @@
 	[Compatibility.vampirism]
 		enable_compat_vampirism = true
 
-	[Compatibility.guardvillagers]
-		enable_compat_guardvillagers = true
-
 	[Compatibility.crafttweaker]
 		enable_compat_crafttweaker = true

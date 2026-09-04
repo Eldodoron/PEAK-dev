@@ -12,13 +12,9 @@
 			id: "3103000000000001"
 			rewards: [
 				{
-					count: 2
 					id: "3303000000000001"
-					item: {
-						count: 1
-						id: "farmersdelight:honey_glazed_ham"
-					}
-					type: "item"
+					table_id: 1117392878634651664L
+					type: "random"
 				}
 				{
 					id: "3303000000000002"
@@ -70,13 +66,9 @@
 			id: "3103000000000012"
 			rewards: [
 				{
-					count: 4
 					id: "3303000000000013"
-					item: {
-						count: 1
-						id: "farmersdelight:honey_glazed_ham"
-					}
-					type: "item"
+					table_id: 1117392878634651664L
+					type: "random"
 				}
 				{
 					id: "3303000000000014"
@@ -101,13 +93,9 @@
 			optional: true
 			rewards: [
 				{
-					count: 4
 					id: "3303000000000015"
-					item: {
-						count: 1
-						id: "farmersdelight:barbecue_stick"
-					}
-					type: "item"
+					table_id: 1117392878634651664L
+					type: "random"
 				}
 				{
 					id: "3303000000000016"
@@ -191,13 +179,9 @@
 			id: "3103000000000023"
 			rewards: [
 				{
-					count: 2
 					id: "3303000000000025"
-					item: {
-						count: 1
-						id: "farmersdelight:roast_chicken"
-					}
-					type: "item"
+					table_id: 1117392878634651664L
+					type: "random"
 				}
 				{
 					id: "3303000000000026"
@@ -221,13 +205,9 @@
 			id: "3103000000000024"
 			rewards: [
 				{
-					count: 2
 					id: "3303000000000027"
-					item: {
-						count: 1
-						id: "farmersdelight:stuffed_pumpkin"
-					}
-					type: "item"
+					table_id: 1117392878634651664L
+					type: "random"
 				}
 				{
 					id: "3303000000000028"
@@ -251,13 +231,9 @@
 			id: "3103000000000031"
 			rewards: [
 				{
-					count: 4
 					id: "3303000000000031"
-					item: {
-						count: 1
-						id: "farmersdelight:shepherds_pie"
-					}
-					type: "item"
+					table_id: 1117392878634651664L
+					type: "random"
 				}
 				{
 					id: "3303000000000032"
@@ -281,13 +257,9 @@
 			id: "3103000000000032"
 			rewards: [
 				{
-					count: 2
 					id: "3303000000000033"
-					item: {
-						count: 1
-						id: "minecraft:golden_apple"
-					}
-					type: "item"
+					table_id: 1117392878634651664L
+					type: "random"
 				}
 				{
 					id: "3303000000000034"

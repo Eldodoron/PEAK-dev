@@ -66,6 +66,7 @@ EntityEvents.death(event => {
     // ==========================================
 
     if (entityType === 'cataclysm:ancient_remnant') {
+        dropItem('kubejs:primordial_core', 1, 1);
         dropItem('kubejs:infinity_fragment', 1, 3);
     }
 
@@ -75,16 +76,17 @@ EntityEvents.death(event => {
     }
 
     if (entityType === 'cataclysm:ignis') {
-        dropItem('kubejs:infernal_core', 1, 1);
+        dropItem('kubejs:heart_of_the_inferno', 1, 1);
         dropItem('kubejs:infinity_fragment', 1, 4);
     }
 
     if (entityType === 'cataclysm:the_leviathan') {
-        dropItem('kubejs:abyssal_heart', 1, 1);
+        dropItem('kubejs:abyssal_catalyst', 1, 1);
         dropItem('kubejs:infinity_fragment', 1, 4);
     }
 
     if (entityType === 'cataclysm:netherite_monstrosity') {
+        dropItem('kubejs:netheric_core', 1, 1);
         dropItem('kubejs:infinity_fragment', 1, 3);
     }
 
@@ -95,7 +97,7 @@ EntityEvents.death(event => {
     if (entityType === 'iceandfire:fire_dragon' ||
         entityType === 'iceandfire:ice_dragon' ||
         entityType === 'iceandfire:lightning_dragon') {
-        dropItem('kubejs:dragon_soul_gem', 1, 1);
+        dropItem('kubejs:primordial_dragon_blood', 1, 1);
         dropItem('kubejs:infinity_fragment', 1, 4);
     }
 
@@ -104,12 +106,19 @@ EntityEvents.death(event => {
     // ==========================================
 
     if (entityType === 'minecraft:warden') {
-        dropItem('kubejs:void_resonator', 1, 2);
+        dropItem('kubejs:sculk_heart', 1, 1);
+        dropItem('kubejs:void_resonator', 1, 1);
         dropItem('kubejs:infinity_fragment', 1, 2);
     }
 
     if (entityType === 'minecraft:wither') {
+        dropItem('kubejs:wither_soul', 1, 1);
         dropItem('kubejs:infinity_fragment', 1, 3);
+    }
+
+    if (entityType === 'minecraft:ender_dragon') {
+        dropItem('kubejs:draconic_scale', 1, 2);
+        dropItem('kubejs:infinity_fragment', 1, 4);
     }
 
     // ==========================================

@@ -10,7 +10,7 @@
       "book.                                                                           "
     ],
     "//default": false,
-    "value": false
+    "value": true
   },
   "only_in_enchanting_table": {
     "//": [
@@ -39,7 +39,7 @@
     },
     "value": {
       "translate": "enchdesc.activate.message",
-      "color": "dark_gray"
+      "color": "gray"
     }
   },
   "prefix": {
@@ -64,7 +64,7 @@
       "color": "dark_gray"
     },
     "value": {
-      "color": "dark_gray"
+      "color": "gray"
     }
   }
 }

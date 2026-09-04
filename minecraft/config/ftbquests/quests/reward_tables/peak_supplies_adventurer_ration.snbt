@@ -1,0 +1,255 @@
+{
+	id: "0F81C6E72591D010"
+	loot_size: 1
+	order_index: 5
+	rewards: [
+		{
+			count: 2
+			id: "0561000000000001"
+			item: {
+				count: 1
+				id: "farmersdelight:egg_sandwich"
+			}
+			weight: 2.0f
+		}
+		{
+			count: 2
+			id: "0561000000000002"
+			item: {
+				count: 1
+				id: "farmersdelight:chicken_sandwich"
+			}
+			weight: 2.0f
+		}
+		{
+			count: 2
+			id: "0561000000000003"
+			item: {
+				count: 1
+				id: "farmersdelight:bacon_sandwich"
+			}
+			weight: 2.0f
+		}
+		{
+			count: 2
+			id: "0561000000000004"
+			item: {
+				count: 1
+				id: "farmersdelight:hamburger"
+			}
+			weight: 2.0f
+		}
+		{
+			count: 2
+			id: "0561000000000005"
+			item: {
+				count: 1
+				id: "farmersdelight:mutton_wrap"
+			}
+			weight: 2.0f
+		}
+		{
+			count: 3
+			id: "0561000000000006"
+			item: {
+				count: 1
+				id: "farmersdelight:cabbage_rolls"
+			}
+			weight: 2.0f
+		}
+		{
+			count: 3
+			id: "0561000000000007"
+			item: {
+				count: 1
+				id: "farmersdelight:dumplings"
+			}
+			weight: 2.0f
+		}
+		{
+			count: 2
+			id: "0561000000000008"
+			item: {
+				count: 1
+				id: "farmersdelight:stuffed_potato"
+			}
+			weight: 2.0f
+		}
+		{
+			count: 3
+			id: "0561000000000009"
+			item: {
+				count: 1
+				id: "farmersdelight:barbecue_stick"
+			}
+			weight: 2.0f
+		}
+		{
+			count: 3
+			id: "0561000000000010"
+			item: {
+				count: 1
+				id: "farmersdelight:salmon_roll"
+			}
+			weight: 2.0f
+		}
+		{
+			count: 3
+			id: "0561000000000011"
+			item: {
+				count: 1
+				id: "farmersdelight:cod_roll"
+			}
+			weight: 2.0f
+		}
+		{
+			id: "0561000000000012"
+			item: {
+				count: 1
+				id: "farmersdelight:chicken_soup"
+			}
+			weight: 2.0f
+		}
+		{
+			id: "0561000000000013"
+			item: {
+				count: 1
+				id: "farmersdelight:vegetable_soup"
+			}
+			weight: 2.0f
+		}
+		{
+			id: "0561000000000014"
+			item: {
+				count: 1
+				id: "farmersdelight:beef_stew"
+			}
+			weight: 2.0f
+		}
+		{
+			id: "0561000000000015"
+			item: {
+				count: 1
+				id: "farmersdelight:noodle_soup"
+			}
+			weight: 2.0f
+		}
+		{
+			id: "0561000000000016"
+			item: {
+				count: 1
+				id: "farmersdelight:pumpkin_soup"
+			}
+			weight: 2.0f
+		}
+		{
+			id: "0561000000000017"
+			item: {
+				count: 1
+				id: "farmersdelight:bone_broth"
+			}
+			weight: 2.0f
+		}
+		{
+			id: "0561000000000018"
+			item: {
+				count: 1
+				id: "farmersdelight:fish_stew"
+			}
+			weight: 2.0f
+		}
+		{
+			id: "0561000000000019"
+			item: {
+				count: 1
+				id: "farmersdelight:fried_rice"
+			}
+			weight: 2.0f
+		}
+		{
+			id: "0561000000000020"
+			item: {
+				count: 1
+				id: "farmersdelight:pasta_with_meatballs"
+			}
+			weight: 2.0f
+		}
+		{
+			id: "0561000000000021"
+			item: {
+				count: 1
+				id: "farmersdelight:pasta_with_mutton_chop"
+			}
+			weight: 2.0f
+		}
+		{
+			id: "0561000000000022"
+			item: {
+				count: 1
+				id: "farmersdelight:ratatouille"
+			}
+			weight: 2.0f
+		}
+		{
+			id: "0561000000000023"
+			item: {
+				count: 1
+				id: "farmersdelight:squid_ink_pasta"
+			}
+			weight: 2.0f
+		}
+		{
+			id: "0561000000000024"
+			item: {
+				count: 1
+				id: "farmersdelight:roast_chicken"
+			}
+			weight: 2.0f
+		}
+		{
+			count: 3
+			id: "0561000000000025"
+			item: {
+				count: 1
+				id: "farmersdelight:apple_pie_slice"
+			}
+			weight: 2.0f
+		}
+		{
+			count: 3
+			id: "0561000000000026"
+			item: {
+				count: 1
+				id: "farmersdelight:chocolate_pie_slice"
+			}
+			weight: 2.0f
+		}
+		{
+			count: 3
+			id: "0561000000000027"
+			item: {
+				count: 1
+				id: "farmersdelight:sweet_berry_cheesecake_slice"
+			}
+			weight: 2.0f
+		}
+		{
+			count: 2
+			id: "0561000000000028"
+			item: {
+				count: 1
+				id: "farmersdelight:glow_berry_custard"
+			}
+			weight: 2.0f
+		}
+		{
+			count: 2
+			id: "0561000000000029"
+			item: {
+				count: 1
+				id: "farmersdelight:fruit_salad"
+			}
+			weight: 2.0f
+		}
+	]
+}

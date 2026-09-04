@@ -12,13 +12,9 @@
 			id: "3105000000000001"
 			rewards: [
 				{
-					count: 8
 					id: "3305000000000001"
-					item: {
-						count: 1
-						id: "alexscaves:dinosaur_nugget"
-					}
-					type: "item"
+					table_id: 1117392878634651664L
+					type: "random"
 				}
 				{
 					id: "3305000000000002"
@@ -40,13 +36,9 @@
 			id: "3105000000000011"
 			rewards: [
 				{
-					count: 4
 					id: "3305000000000011"
-					item: {
-						count: 1
-						id: "undergarden:gloomper_leg"
-					}
-					type: "item"
+					table_id: 1117392878634651664L
+					type: "random"
 				}
 				{
 					id: "3305000000000012"
@@ -101,13 +93,9 @@
 			id: "3105000000000042"
 			rewards: [
 				{
-					count: 8
 					id: "3305000000000043"
-					item: {
-						count: 1
-						id: "alexscaves:dinosaur_nugget"
-					}
-					type: "item"
+					table_id: 1117392878634651664L
+					type: "random"
 				}
 				{
 					id: "3305000000000044"
@@ -251,13 +239,9 @@
 			id: "3105000000000021"
 			rewards: [
 				{
-					count: 8
 					id: "3305000000000021"
-					item: {
-						count: 1
-						id: "minecraft:golden_carrot"
-					}
-					type: "item"
+					table_id: 1117392878634651664L
+					type: "random"
 				}
 				{
 					id: "3305000000000022"
@@ -282,13 +266,9 @@
 			optional: true
 			rewards: [
 				{
-					count: 2
 					id: "3305000000000023"
-					item: {
-						count: 1
-						id: "farmersdelight:squid_ink_pasta"
-					}
-					type: "item"
+					table_id: 1117392878634651664L
+					type: "random"
 				}
 				{
 					id: "3305000000000024"

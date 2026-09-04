@@ -6,20 +6,19 @@
 // try to fire arrows using melee weapons they shouldn't have.
 // ==========================================
 
-EntityEvents.spawned('friendsandfoes:illusioner', event => {
-    const { entity } = event;
-    
-    // Check if the entity has a weapon that isn't a bow
+const fixIllusionerWeapon = (entity) => {
     let mainhand = entity.getMainHandItem();
-    
-    // If it's empty or not a bow/crossbow, and the entity is an illusioner, give it a bow
-    // We check for common bow types.
     if (!mainhand.id.contains('bow') && !mainhand.id.contains('crossbow')) {
         entity.setItemSlot('mainhand', 'minecraft:bow');
-        
-        // Log weapon correction to confirm event handling
-        console.log(`[PEAK Fix] Corrected invalid weapon on Illusioner (${entity.customName || 'Unnamed'}) to prevent crash.`);
     }
+};
+
+EntityEvents.spawned('friendsandfoes:illusioner', event => {
+    fixIllusionerWeapon(event.entity);
+});
+
+EntityEvents.spawned('minecraft:illusioner', event => {
+    fixIllusionerWeapon(event.entity);
 });
 
 // Also try to disable Illusioner from being an Apotheosis boss via data injection

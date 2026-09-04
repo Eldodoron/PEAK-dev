@@ -1,9 +1,14 @@
 RecipeViewerEvents.removeEntries('item', event => {
     // --- HIDE BANNED & DISABLED ITEMS FROM JEI ---
     const bannedItems = [
+        // Dummy items created to fix missing tags
+        'allthemodium:allthemodium_bow',
+        'allthemodium:unobtainium_crossbow',
+        'allthemodium:vibranium_shield',
+        'darkermagic:whispers_staff',
+
         // Banned Raid Blimps
         'raidsenhanced:player_blimp',
-        '',
 
         // Create SA Copper Equipment (Disabled in favor of Ice & Fire copper gear)
         'create_sa:copper_helmet',

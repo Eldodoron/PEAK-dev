@@ -12,13 +12,9 @@
 			id: "3106000000000001"
 			rewards: [
 				{
-					count: 2
 					id: "3306000000000001"
-					item: {
-						count: 1
-						id: "farmersdelight:roast_chicken"
-					}
-					type: "item"
+					table_id: 1117392878634651664L
+					type: "random"
 				}
 				{
 					id: "3306000000000002"
@@ -40,13 +36,9 @@
 			id: "3106000000000011"
 			rewards: [
 				{
-					count: 4
 					id: "3306000000000011"
-					item: {
-						count: 1
-						id: "farmersdelight:roast_chicken"
-					}
-					type: "item"
+					table_id: 1117392878634651664L
+					type: "random"
 				}
 				{
 					id: "3306000000000012"
@@ -70,13 +62,9 @@
 			id: "3106000000000012"
 			rewards: [
 				{
-					count: 2
 					id: "3306000000000013"
-					item: {
-						count: 1
-						id: "farmersdelight:shepherds_pie"
-					}
-					type: "item"
+					table_id: 1117392878634651664L
+					type: "random"
 				}
 				{
 					id: "3306000000000014"
@@ -100,13 +88,9 @@
 			id: "3106000000000013"
 			rewards: [
 				{
-					count: 2
 					id: "3306000000000015"
-					item: {
-						count: 1
-						id: "farmersdelight:stuffed_pumpkin"
-					}
-					type: "item"
+					table_id: 1117392878634651664L
+					type: "random"
 				}
 				{
 					id: "3306000000000016"
@@ -130,13 +114,9 @@
 			id: "3106000000000021"
 			rewards: [
 				{
-					count: 4
 					id: "3306000000000021"
-					item: {
-						count: 1
-						id: "ars_nouveau:source_berry_pie"
-					}
-					type: "item"
+					table_id: 1117392878634651664L
+					type: "random"
 				}
 				{
 					id: "3306000000000022"
@@ -161,13 +141,9 @@
 			optional: true
 			rewards: [
 				{
-					count: 2
 					id: "3306000000000023"
-					item: {
-						count: 1
-						id: "farmersdelight:fruit_salad"
-					}
-					type: "item"
+					table_id: 1117392878634651664L
+					type: "random"
 				}
 				{
 					id: "3306000000000024"
@@ -191,13 +167,9 @@
 			id: "3106000000000031"
 			rewards: [
 				{
-					count: 2
 					id: "3306000000000025"
-					item: {
-						count: 1
-						id: "minecraft:golden_apple"
-					}
-					type: "item"
+					table_id: 1117392878634651664L
+					type: "random"
 				}
 				{
 					id: "3306000000000026"
@@ -222,13 +194,9 @@
 			optional: true
 			rewards: [
 				{
-					count: 4
 					id: "3306000000000027"
-					item: {
-						count: 1
-						id: "farmersdelight:dumplings"
-					}
-					type: "item"
+					table_id: 1117392878634651664L
+					type: "random"
 				}
 				{
 					id: "3306000000000028"
@@ -252,13 +220,9 @@
 			id: "3106000000000033"
 			rewards: [
 				{
-					count: 2
 					id: "3306000000000029"
-					item: {
-						count: 1
-						id: "farmersdelight:honey_glazed_ham"
-					}
-					type: "item"
+					table_id: 1117392878634651664L
+					type: "random"
 				}
 				{
 					id: "3306000000000030"

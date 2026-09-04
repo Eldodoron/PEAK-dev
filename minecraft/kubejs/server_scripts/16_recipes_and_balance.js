@@ -3,10 +3,6 @@
 // RECIPES, BALANCE & ECONOMY
 // ==========================================
 
-// DIAGNOSTIC: Try different class paths
-try { console.info('STAGES 1: ' + Java.loadClass('dev.latvian.mods.kubejs.data.GeneratedDataStage').values()) } catch(e) {}
-try { console.info('STAGES 2: ' + Java.loadClass('dev.latvian.kubejs.data.GeneratedDataStage').values()) } catch(e) {}
-
 ServerEvents.recipes(event => {
     // MALUM: HALLOWED GOLD REWORK
     event.remove({ id: 'malum:spirit_infusion/hallowed_gold_ingot' });

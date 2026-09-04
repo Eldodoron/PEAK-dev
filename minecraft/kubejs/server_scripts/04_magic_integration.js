@@ -50,8 +50,7 @@ ServerEvents.recipes(event => {
     });
 
     // --- SCRIBES TABLE (Where you design spells) ---
-    // Needs Twilight Forest Ironwood: a naturally magical wood
-    // perfect for a magical workstation (wood + iron + magic)
+    // Pure magic starter workstation
     event.remove({ output: 'ars_nouveau:scribes_table' });
     event.shaped('ars_nouveau:scribes_table', [
         'SSS',
@@ -59,25 +58,21 @@ ServerEvents.recipes(event => {
         'W W'
     ], {
         S: 'minecraft:smooth_stone_slab',
-        I: 'twilightforest:ironwood_ingot',
+        I: '#c:ingots/gold',
         W: '#minecraft:planks'
     });
 
-    // --- ENCHANTING APPARATUS (Advanced magical crafting) ---
-    // This is the Ars Nouveau "machine" Ã¢â‚¬â€ it deserves to need
-    // Create Precision Mechanisms (mechanical precision for
-    // precise enchantment channeling) + Twilight materials
+    // --- ENCHANTING APPARATUS (Ars Nouveau enchanting workstation) ---
     event.remove({ output: 'ars_nouveau:enchanting_apparatus' });
     event.shaped('ars_nouveau:enchanting_apparatus', [
-        'IPI',
+        'DGD',
         'GAG',
-        'IBI'
+        'DBD'
     ], {
-        I: 'twilightforest:ironwood_ingot',
-        P: 'create:precision_mechanism',
+        D: '#c:gems/diamond',
         G: '#c:ingots/gold',
         A: 'ars_nouveau:arcane_core',
-        B: 'create:brass_casing'
+        B: 'ars_nouveau:source_gem'
     });
 
     // --- IMBUEMENT CHAMBER (Source infusion) ---
@@ -262,11 +257,11 @@ ServerEvents.recipes(event => {
         D: 'ars_nouveau:magebloom_fiber'
     });
 
-    // Uncommon Ink: Requires Twilight Forest materials
+    // Uncommon Ink: Early-mid magic ink using amethyst
     event.remove({ output: 'irons_spellbooks:uncommon_ink' });
     event.shapeless('irons_spellbooks:uncommon_ink', [
         'irons_spellbooks:common_ink',
-        'twilightforest:ironwood_ingot',
+        'minecraft:amethyst_shard',
         'ars_nouveau:source_gem',
         'minecraft:lapis_lazuli'
     ]);

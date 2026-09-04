@@ -12,13 +12,9 @@
 			id: "3104000000000001"
 			rewards: [
 				{
-					count: 2
 					id: "3304000000000001"
-					item: {
-						count: 1
-						id: "farmersdelight:honey_glazed_ham"
-					}
-					type: "item"
+					table_id: 1117392878634651664L
+					type: "random"
 				}
 				{
 					id: "3304000000000002"
@@ -40,13 +36,9 @@
 			id: "3104000000000011"
 			rewards: [
 				{
-					count: 4
 					id: "3304000000000011"
-					item: {
-						count: 1
-						id: "farmersdelight:honey_glazed_ham"
-					}
-					type: "item"
+					table_id: 1117392878634651664L
+					type: "random"
 				}
 				{
 					id: "3304000000000012"
@@ -70,13 +62,9 @@
 			id: "3104000000000012"
 			rewards: [
 				{
-					count: 4
 					id: "3304000000000013"
-					item: {
-						count: 1
-						id: "farmersdelight:roast_chicken"
-					}
-					type: "item"
+					table_id: 1117392878634651664L
+					type: "random"
 				}
 				{
 					id: "3304000000000014"
@@ -100,13 +88,9 @@
 			id: "3104000000000013"
 			rewards: [
 				{
-					count: 8
 					id: "3304000000000015"
-					item: {
-						count: 1
-						id: "minecraft:golden_carrot"
-					}
-					type: "item"
+					table_id: 1117392878634651664L
+					type: "random"
 				}
 				{
 					id: "3304000000000016"
@@ -131,13 +115,9 @@
 			optional: true
 			rewards: [
 				{
-					count: 4
 					id: "3304000000000017"
-					item: {
-						count: 1
-						id: "farmersdelight:pasta_with_meatballs"
-					}
-					type: "item"
+					table_id: 1117392878634651664L
+					type: "random"
 				}
 				{
 					id: "3304000000000018"
@@ -161,13 +141,9 @@
 			id: "3104000000000021"
 			rewards: [
 				{
-					count: 4
 					id: "3304000000000021"
-					item: {
-						count: 1
-						id: "farmersdelight:pasta_with_mutton_chop"
-					}
-					type: "item"
+					table_id: 1117392878634651664L
+					type: "random"
 				}
 				{
 					id: "3304000000000022"
@@ -191,13 +167,9 @@
 			id: "3104000000000022"
 			rewards: [
 				{
-					count: 4
 					id: "3304000000000023"
-					item: {
-						count: 1
-						id: "farmersdelight:mutton_wrap"
-					}
-					type: "item"
+					table_id: 1117392878634651664L
+					type: "random"
 				}
 				{
 					id: "3304000000000024"
@@ -221,13 +193,9 @@
 			id: "3104000000000023"
 			rewards: [
 				{
-					count: 4
 					id: "3304000000000025"
-					item: {
-						count: 1
-						id: "farmersdelight:cooked_salmon_slice"
-					}
-					type: "item"
+					table_id: 1117392878634651664L
+					type: "random"
 				}
 				{
 					id: "3304000000000026"
@@ -252,13 +220,9 @@
 			optional: true
 			rewards: [
 				{
-					count: 2
 					id: "3304000000000027"
-					item: {
-						count: 1
-						id: "farmersdelight:chicken_soup"
-					}
-					type: "item"
+					table_id: 1117392878634651664L
+					type: "random"
 				}
 				{
 					id: "3304000000000028"
@@ -282,13 +246,9 @@
 			id: "3104000000000025"
 			rewards: [
 				{
-					count: 2
 					id: "3304000000000029"
-					item: {
-						count: 1
-						id: "minecraft:golden_apple"
-					}
-					type: "item"
+					table_id: 1117392878634651664L
+					type: "random"
 				}
 				{
 					id: "3304000000000030"

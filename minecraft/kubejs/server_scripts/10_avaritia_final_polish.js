@@ -85,7 +85,7 @@ ServerEvents.recipes(event => {
 
     // --- SCULK HEART (Warden) ---
     // Used in Draconic Wyvern Energy Core
-    event.remove({ output: 'minecraft:barrier' });
+    event.remove({ output: 'draconicevolution:wyvern_energy_core' });
     event.custom({
         type: 'avaritia:shaped_table',
         pattern: [
@@ -99,7 +99,7 @@ ServerEvents.recipes(event => {
             W: { item: 'deeperdarker:reinforced_echo_shard' },
             N: { item: 'minecraft:nether_star' }
         },
-        result: { id: 'minecraft:barrier', count: 1 },
+        result: { id: 'draconicevolution:wyvern_energy_core', count: 1 },
         tier: 1
     });
 
@@ -199,8 +199,8 @@ ServerEvents.recipes(event => {
     // ==========================================
 
     event.recipes.create.crushing([
-        '2x draconicevolution:chaos_shard'
-    ], 'minecraft:bedrock');
+        '2x kubejs:chaos_essence'
+    ], 'draconicevolution:chaos_shard');
 
     // ==========================================
     // SECTION 3: AVARITIA â€” THE INFINITY CATALYST

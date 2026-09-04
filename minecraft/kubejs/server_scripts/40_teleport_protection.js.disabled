@@ -1,0 +1,87 @@
+// Priority: 0
+// Grants players invulnerability and invisibility when teleporting, respawning, or changing dimensions
+// The protection lasts for 60 seconds, but immediately drops if the player moves, looks around, or sneaks.
+
+function grantSpawnProtection(player) {
+    let duration = 1200; // 60 seconds
+    player.potionEffects.add('minecraft:resistance', duration, 4, false, false);
+    player.potionEffects.add('minecraft:invisibility', duration, 0, false, false);
+    
+    player.persistentData.putInt("SpawnProtectionTicks", duration);
+    player.persistentData.putDouble("SpawnProtectionX", player.getX());
+    player.persistentData.putDouble("SpawnProtectionY", player.getY());
+    player.persistentData.putDouble("SpawnProtectionZ", player.getZ());
+    player.persistentData.putFloat("SpawnProtectionYaw", player.getYRot()); // getYaw() is typically getYRot() in 1.21 Mojmap
+}
+
+NativeEvents.onEvent('net.neoforged.neoforge.event.entity.player.PlayerEvent$PlayerChangedDimensionEvent', event => {
+    let player = event.getEntity();
+    if (player && player.isPlayer()) {
+        grantSpawnProtection(player);
+    }
+});
+
+NativeEvents.onEvent('net.neoforged.neoforge.event.entity.player.PlayerEvent$PlayerRespawnEvent', event => {
+    let player = event.getEntity();
+    if (player && player.isPlayer()) {
+        grantSpawnProtection(player);
+    }
+});
+
+NativeEvents.onEvent('net.neoforged.neoforge.event.entity.player.PlayerEvent$PlayerLoggedInEvent', event => {
+    let player = event.getEntity();
+    if (player && player.isPlayer()) {
+        grantSpawnProtection(player);
+    }
+});
+
+NativeEvents.onEvent('net.neoforged.neoforge.event.entity.EntityTeleportEvent', event => {
+    let entity = event.getEntity();
+    
+    if (entity && entity.isPlayer()) {
+        let player = entity;
+        let dx = event.getTargetX() - event.getPrevX();
+        let dy = event.getTargetY() - event.getPrevY();
+        let dz = event.getTargetZ() - event.getPrevZ();
+        let distSq = dx*dx + dy*dy + dz*dz;
+        
+        // Only grant protection if teleporting a significant distance (> 10 blocks)
+        if (distSq > 100) {
+            grantSpawnProtection(player);
+        }
+    }
+});
+
+PlayerEvents.tick(event => {
+    let player = event.player;
+    if (player.persistentData.contains("SpawnProtectionTicks")) {
+        let ticks = player.persistentData.getInt("SpawnProtectionTicks");
+        if (ticks > 0) {
+            let startX = player.persistentData.getDouble("SpawnProtectionX");
+            let startY = player.persistentData.getDouble("SpawnProtectionY");
+            let startZ = player.persistentData.getDouble("SpawnProtectionZ");
+            let startYaw = player.persistentData.getFloat("SpawnProtectionYaw");
+            
+            let dx = player.getX() - startX;
+            let dy = player.getY() - startY;
+            let dz = player.getZ() - startZ;
+            let distSq = dx*dx + dy*dy + dz*dz;
+            
+            let yawDiff = Math.abs(player.getYRot() - startYaw);
+            
+            // If they move > 1 block distance, look around > 20 degrees, sneak, or sprint
+            if (distSq > 1.5 || yawDiff > 20.0 || player.isCrouching() || player.isSprinting()) {
+                player.persistentData.remove("SpawnProtectionTicks");
+                player.removeEffect('minecraft:resistance');
+                player.removeEffect('minecraft:invisibility');
+            } else {
+                player.persistentData.putInt("SpawnProtectionTicks", ticks - 1);
+            }
+        } else {
+            // Expired naturally
+            player.persistentData.remove("SpawnProtectionTicks");
+            player.removeEffect('minecraft:resistance');
+            player.removeEffect('minecraft:invisibility');
+        }
+    }
+});

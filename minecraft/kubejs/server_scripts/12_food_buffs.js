@@ -25,7 +25,6 @@ ItemEvents.foodEaten(event => {
         'aquaculturedelight:large_fish_with_vegetables',
         'mynethersdelight:blue_tenderloin_steak',
         'mynethersdelight:breakfast_sampler',
-        'minecraft:barrier',
         'twilightdelight:ghast_brain_salad'
     ];
 
@@ -33,16 +32,19 @@ ItemEvents.foodEaten(event => {
         // Strength I, Resistance I, Regen (15 mins)
         player.potionEffects.add('minecraft:strength', 18000, 0);
         player.potionEffects.add('minecraft:resistance', 18000, 0);
-        player.potionEffects.add('minecraft:regeneration', 3600, 0); // 3 min regen
-        player.tell(Text.green('\u2726 A hearty meal! You feel reinvigorated. \u2726'));
+        player.potionEffects.add('minecraft:regeneration', 18000, 0);
+        player.tell(Text.green('✦ Plated vitality courses through you! (15 Mins) ✦'));
     }
 
     // --- TIER 4: DIMENSIONAL FEASTS (30 MINUTES) ---
     // Powerful buffs for mastering other dimensions
     const tier4Foods = [
+        'twilightdelight:plate_of_meef_wellington',
         'twilightdelight:meef_wellington_block',
-        'mynethersdelight:roast_hoglin',
-        'mynethersdelight:raw_stuffed_hoglin',
+        'mynethersdelight:plate_of_stuffed_hoglin',
+        'mynethersdelight:plate_of_stuffed_hoglin_ham',
+        'mynethersdelight:plate_of_stuffed_hoglin_snout',
+        'mynethersdelight:roast_stuffed_hoglin',
         'oceansdelight:stuffed_squid',
         'oceansdelight:stuffed_cod',
         'aquaculturedelight:fish_roll_medley',
@@ -58,17 +60,20 @@ ItemEvents.foodEaten(event => {
         player.potionEffects.add('minecraft:resistance', 36000, 0);
         player.potionEffects.add('minecraft:fire_resistance', 36000, 0);
         player.potionEffects.add('minecraft:absorption', 36000, 1);
-        player.tell(Text.gold('\u2726 The dimensional feast empowers your very soul! \u2726'));
+        player.tell(Text.gold('✦ The dimensional feast empowers your very soul! ✦'));
     }
 
     // --- TIER 5: MASTER FEASTS (60 MINUTES) ---
-    // The absolute best foods â€” Overworld Feast Blocks
+    // The absolute best foods — Overworld Feasts and Portions
     const tier5Foods = [
+        'farmersdelight:roast_chicken',
         'farmersdelight:roast_chicken_block',
+        'farmersdelight:honey_glazed_ham',
         'farmersdelight:honey_glazed_ham_block',
+        'farmersdelight:shepherds_pie',
         'farmersdelight:shepherds_pie_block',
-        'farmersdelight:stuffed_pumpkin_block',
-        'farmersdelight:rice_roll_medley_block'
+        'farmersdelight:stuffed_pumpkin',
+        'farmersdelight:stuffed_pumpkin_block'
     ];
 
     if (tier5Foods.includes(item)) {

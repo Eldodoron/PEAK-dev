@@ -17,7 +17,7 @@ ServerEvents.generateData('peak', 'apotheosis_gear', event => {
                 { "stack": { "id": "simplyswords:gold_rapier" }, "weight": 10 },
                 { "stack": { "id": "simplyswords:iron_claymore" }, "weight": 10 },
                 { "stack": { "id": "simplyswords:iron_glaive" }, "weight": 10 },
-                { "stack": { "id": "simplymore:grandsword" }, "weight": 5 },
+                { "stack": { "id": "simplymore:iron_grandsword" }, "weight": 5 },
                 { "stack": { "id": "iceandfire:dragonbone_sword" }, "weight": 5 }
             ],
             "helmets": [

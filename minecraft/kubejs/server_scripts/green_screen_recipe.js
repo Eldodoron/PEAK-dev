@@ -6,7 +6,7 @@ ServerEvents.recipes(event => {
         'GGG'
     ], {
         G: '#c:dyes/lime',
-        L: '#c:lights'
+        L: 'minecraft:glowstone'
     });
 
     event.shapeless('4x kubejs:green_screen', [

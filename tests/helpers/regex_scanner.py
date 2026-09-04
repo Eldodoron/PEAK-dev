@@ -25,7 +25,7 @@ DEFAULT_EXCLUDE_DIRS: Set[str] = {
     ".git", ".continue", ".agents", "libraries", "create.zip",
     "logs", "crash-reports", "saves", "cache", "downloads",
     "Distant_Horizons_server_data", "blueprints", "particular_cache",
-    "tmp_irons", "tmp_cei", "create_jar_temp",
+    "tmp_irons", "tmp_cei", "create_jar_temp", "panoptic",
 }
 
 DEFAULT_EXCLUDE_FILES: Set[str] = {

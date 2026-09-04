@@ -1,0 +1,21 @@
+filename = 'leaky-1.21-3.3.jar'
+name = 'leaky mod'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'leaky-1.21-3.3.jar'
+
+[download]
+hash = 'cce509c47072d29bda22537b17145239d579db81'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8755808
+project-id = 856906
+
+[[x-prismlauncher-dependencies]]
+addonId = '326652'
+type = 'REQUIRED'

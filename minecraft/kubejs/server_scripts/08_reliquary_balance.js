@@ -57,7 +57,7 @@ ServerEvents.recipes(event => {
     event.remove({ output: 'draconicevolution:awakened_draconium_ingot', type: 'reliquary:alkahestry_crafting' });
 
     // Remove duplication of Chaos Shards
-    event.remove({ output: 'minecraft:barrier', type: 'reliquary:alkahestry_crafting' });
+    event.remove({ output: 'draconicevolution:chaos_shard', type: 'reliquary:alkahestry_crafting' });
 
     // Remove duplication of AllTheModium metals
     event.remove({ output: 'allthemodium:allthemodium_ingot', type: 'reliquary:alkahestry_crafting' });
@@ -66,7 +66,7 @@ ServerEvents.recipes(event => {
 
     // Remove duplication of Dragonsteel
     event.remove({ output: 'iceandfire:dragonsteel_fire_ingot', type: 'reliquary:alkahestry_crafting' });
-    event.remove({ output: 'minecraft:barrier', type: 'reliquary:alkahestry_crafting' });
+    event.remove({ output: 'iceandfire:dragonsteel_ice_ingot', type: 'reliquary:alkahestry_crafting' });
     event.remove({ output: 'iceandfire:dragonsteel_lightning_ingot', type: 'reliquary:alkahestry_crafting' });
 
     // Remove duplication of Netherite

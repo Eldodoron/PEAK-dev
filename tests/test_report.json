@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-08-16T21:19:07.738019+00:00",
+  "timestamp": "2026-09-04T18:46:07.235134+00:00",
   "overall_status": "PASSED",
-  "duration_seconds": 22.938081400001465,
+  "duration_seconds": 25.38821760000019,
   "total_tests": 23,
   "passed_tests": 23,
   "failed_tests": 0,
@@ -40,7 +40,7 @@
         "tier": "Tier 1",
         "name": "Verify that zero .py files remain anywhere inside the minecraft/ directory tree.",
         "status": "PASS",
-        "duration_ms": 703.8541999991139,
+        "duration_ms": 742.3282999998264,
         "message": null,
         "details": null
       },
@@ -49,7 +49,7 @@
         "tier": "Tier 1",
         "name": "Verify that all 24 maintenance Python utility scripts exist in scrapped_tools/.",
         "status": "PASS",
-        "duration_ms": 1.290599999265396,
+        "duration_ms": 1.5235000000757282,
         "message": null,
         "details": null
       },
@@ -58,7 +58,7 @@
         "tier": "Tier 1",
         "name": "Verify that an exhaustive scan across all readable files in minecraft/ finds zero AI signatures.",
         "status": "PASS",
-        "duration_ms": 6464.920399999755,
+        "duration_ms": 13445.396299999857,
         "message": null,
         "details": null
       },
@@ -67,7 +67,7 @@
         "tier": "Tier 1",
         "name": "Verify that 100% of .js scripts in kubejs/ parse cleanly with zero syntax errors.",
         "status": "PASS",
-        "duration_ms": 4871.284700002434,
+        "duration_ms": 3642.2743000000537,
         "message": null,
         "details": null
       },
@@ -76,7 +76,7 @@
         "tier": "Tier 1",
         "name": "Verify that all .json files in minecraft/ (assets, worldgen, configs, models) parse without syntax errors.",
         "status": "PASS",
-        "duration_ms": 1568.1769999973767,
+        "duration_ms": 1147.9291000000558,
         "message": null,
         "details": null
       },
@@ -85,7 +85,7 @@
         "tier": "Tier 1",
         "name": "Verify that all flowerbed 3D models retain standard Blockbench credits without AI attribution.",
         "status": "PASS",
-        "duration_ms": 2.8712000021187123,
+        "duration_ms": 1.783400000022084,
         "message": null,
         "details": null
       }
@@ -96,7 +96,7 @@
         "tier": "Tier 2",
         "name": "Verify that all casing permutations of banned terms are detected.",
         "status": "PASS",
-        "duration_ms": 52.00970000078087,
+        "duration_ms": 26.20729999989635,
         "message": null,
         "details": null
       },
@@ -105,7 +105,7 @@
         "tier": "Tier 2",
         "name": "Verify that legitimate in-game status effect identifiers are not flagged as violations.",
         "status": "PASS",
-        "duration_ms": 37.38809999777004,
+        "duration_ms": 24.979900000062116,
         "message": null,
         "details": null
       },
@@ -114,7 +114,7 @@
         "tier": "Tier 2",
         "name": "Verify that comments embedded inside multiline block comments are detected and handled.",
         "status": "PASS",
-        "duration_ms": 43.75449999861303,
+        "duration_ms": 24.42949999999655,
         "message": null,
         "details": null
       },
@@ -123,7 +123,7 @@
         "tier": "Tier 2",
         "name": "Verify that URL strings or text containing '//' or '/*' inside quotes are preserved.",
         "status": "PASS",
-        "duration_ms": 43.792399999802,
+        "duration_ms": 24.228599999787548,
         "message": null,
         "details": null
       },
@@ -132,7 +132,7 @@
         "tier": "Tier 2",
         "name": "Verify that non-ASCII characters, mojibake, and emojis do not crash validators or tokenizers.",
         "status": "PASS",
-        "duration_ms": 114.2029000002367,
+        "duration_ms": 77.50129999999444,
         "message": null,
         "details": null
       },
@@ -141,7 +141,7 @@
         "tier": "Tier 2",
         "name": "Verify that 0-byte or whitespace-only files pass safely without exceptions.",
         "status": "PASS",
-        "duration_ms": 33.03169999708189,
+        "duration_ms": 24.274499999819454,
         "message": null,
         "details": null
       },
@@ -150,7 +150,7 @@
         "tier": "Tier 2",
         "name": "Verify that JSONValidator properly identifies syntax and structure errors.",
         "status": "PASS",
-        "duration_ms": 40.236900000309106,
+        "duration_ms": 24.477499999875363,
         "message": null,
         "details": null
       }
@@ -161,7 +161,7 @@
         "tier": "Tier 3",
         "name": "Verify that essential KubeJS event listeners (ServerEvents, ClientEvents, StartupEvents) are intact.",
         "status": "PASS",
-        "duration_ms": 231.24479999751202,
+        "duration_ms": 167.83120000013696,
         "message": null,
         "details": null
       },
@@ -170,7 +170,7 @@
         "tier": "Tier 3",
         "name": "Verify that 00_tags.js retains screwdriver unifications and rune tags.",
         "status": "PASS",
-        "duration_ms": 2.0441999986360315,
+        "duration_ms": 1.1141999998471874,
         "message": null,
         "details": null
       },
@@ -179,7 +179,7 @@
         "tier": "Tier 3",
         "name": "Verify that 20_fixed_datapacks.js retains its sequenced assembly recipes.",
         "status": "PASS",
-        "duration_ms": 30.02790000027744,
+        "duration_ms": 16.595000000052096,
         "message": null,
         "details": null
       },
@@ -188,7 +188,7 @@
         "tier": "Tier 3",
         "name": "Verify progression gates in 02_create_era_gates.js and 03_pneumatic_mekanism_gates.js.",
         "status": "PASS",
-        "duration_ms": 12.249299998075003,
+        "duration_ms": 7.722999999941749,
         "message": null,
         "details": null
       },
@@ -197,7 +197,7 @@
         "tier": "Tier 3",
         "name": "Verify that all flowerbed 3D model cubes, UV maps, rotations, and textures are 100% intact.",
         "status": "PASS",
-        "duration_ms": 2.889399998821318,
+        "duration_ms": 1.5404999999191205,
         "message": null,
         "details": null
       },
@@ -206,7 +206,7 @@
         "tier": "Tier 3",
         "name": "Verify that custom_items.js in startup_scripts retains all item registrations.",
         "status": "PASS",
-        "duration_ms": 6.048999999620719,
+        "duration_ms": 4.082599999946979,
         "message": null,
         "details": null
       }
@@ -217,7 +217,7 @@
         "tier": "Tier 4",
         "name": "Simulates full KubeJS subsystem load: scans all 170+ files for integrity and clean syntax.",
         "status": "PASS",
-        "duration_ms": 315.58050000239746,
+        "duration_ms": 391.2289999998393,
         "message": null,
         "details": null
       },
@@ -226,7 +226,7 @@
         "tier": "Tier 4",
         "name": "Performs deep AST parsing on all 64 JS scripts to ensure zero syntax or bracket errors.",
         "status": "PASS",
-        "duration_ms": 4584.3778000016755,
+        "duration_ms": 3319.077399999969,
         "message": null,
         "details": null
       },
@@ -235,7 +235,7 @@
         "tier": "Tier 4",
         "name": "Parses the entire 3,310+ line FTB Quests localization file, validating all 680+ quests and clean text.",
         "status": "PASS",
-        "duration_ms": 122.68880000192439,
+        "duration_ms": 85.0355000000036,
         "message": null,
         "details": null
       },
@@ -244,7 +244,7 @@
         "tier": "Tier 4",
         "name": "Verifies that all mod configuration files in config/ and defaultconfigs/ remain valid and clean.",
         "status": "PASS",
-        "duration_ms": 3541.5099000019836,
+        "duration_ms": 2109.7723000000315,
         "message": null,
         "details": null
       }

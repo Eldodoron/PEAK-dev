@@ -12,13 +12,9 @@
 			id: "3107000000000001"
 			rewards: [
 				{
-					count: 2
 					id: "3307000000000001"
-					item: {
-						count: 1
-						id: "minecraft:golden_apple"
-					}
-					type: "item"
+					table_id: 1117392878634651664L
+					type: "random"
 				}
 				{
 					id: "3307000000000002"
@@ -40,13 +36,9 @@
 			id: "3107000000000011"
 			rewards: [
 				{
-					count: 2
 					id: "3307000000000011"
-					item: {
-						count: 1
-						id: "minecraft:enchanted_golden_apple"
-					}
-					type: "item"
+					table_id: 1117392878634651664L
+					type: "random"
 				}
 				{
 					id: "3307000000000012"
@@ -71,11 +63,8 @@
 			rewards: [
 				{
 					id: "3307000000000013"
-					item: {
-						count: 1
-						id: "minecraft:nether_star"
-					}
-					type: "item"
+					table_id: 1117392878634651664L
+					type: "random"
 				}
 				{
 					id: "3307000000000014"
@@ -99,13 +88,9 @@
 			id: "3107000000000021"
 			rewards: [
 				{
-					count: 16
 					id: "3307000000000021"
-					item: {
-						count: 1
-						id: "minecraft:golden_carrot"
-					}
-					type: "item"
+					table_id: 1117392878634651664L
+					type: "random"
 				}
 				{
 					id: "3307000000000022"
@@ -129,13 +114,9 @@
 			id: "3107000000000022"
 			rewards: [
 				{
-					count: 4
 					id: "3307000000000023"
-					item: {
-						count: 1
-						id: "minecraft:golden_apple"
-					}
-					type: "item"
+					table_id: 1117392878634651664L
+					type: "random"
 				}
 				{
 					id: "3307000000000024"
@@ -159,13 +140,9 @@
 			id: "3107000000000023"
 			rewards: [
 				{
-					count: 4
 					id: "3307000000000025"
-					item: {
-						count: 1
-						id: "farmersdelight:fruit_salad"
-					}
-					type: "item"
+					table_id: 1117392878634651664L
+					type: "random"
 				}
 				{
 					id: "3307000000000026"
@@ -193,13 +170,9 @@
 			id: "3107000000000031"
 			rewards: [
 				{
-					count: 4
 					id: "3307000000000031"
-					item: {
-						count: 1
-						id: "minecraft:enchanted_golden_apple"
-					}
-					type: "item"
+					table_id: 1117392878634651664L
+					type: "random"
 				}
 				{
 					id: "3307000000000032"

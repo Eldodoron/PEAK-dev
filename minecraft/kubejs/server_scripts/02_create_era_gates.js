@@ -338,7 +338,7 @@ ServerEvents.recipes(event => {
         'S  '
     ], {
         D: '#c:gems/diamond',
-        P: 'create:precision_mechanism',
+        P: 'create:brass_ingot',
         S: '#minecraft:wooden_fences'
     });
 

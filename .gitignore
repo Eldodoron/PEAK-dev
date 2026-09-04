@@ -45,3 +45,16 @@ Thumbs.db
 minecraft/saves/New World/data/DistantHorizons.sqlite
 *.sqlite
 *.sqlite
+
+# Testing and diagnostics
+tests/test_report.json
+*.pyc
+__pycache__/
+scratch/
+spark_profile.json
+scrapped_tools/performance_audit/
+minecraft/config/jei/world/
+minecraft/config/ars_nouveau/search_index/
+data/
+
+
