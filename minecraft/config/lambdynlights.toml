@@ -1367,12 +1367,6 @@ chunk_rebuild_scheduler = "culling"
 			[light_sources.settings.entities.createdieselgenerators]
 				chemical_sprayer_projectile = true
 
-			[light_sources.settings.entities.tombstone]
-				cloud = true
-				grave_guardian = true
-				spectral_bite = true
-				spectral_wolf = true
-
 			[light_sources.settings.entities.simulated]
 				contraption_diagram = true
 				honey_glue = true

@@ -1,4 +1,8 @@
 [general]
+	#The experience, in levels, that each transmutation of a stack takes in the transmuting table.
+	# Default: 3
+	# Range: 0 ~ 100000
+	transmutingExperienceCost = 5
 	#Whether all players should get an Animal Dictionary when joining the world for the first time.
 	giveBookOnStartup = true
 	#Lava Opacity for the Lava Vision Potion.
@@ -108,7 +112,7 @@
 	#Whether the void worm boss is summonable or not, via the mysterious worm item.
 	voidWormSummonable = true
 	#Whether seagulls should steal food out of players' hotbar slots.
-	seagullStealing = false
+	seagullStealing = true
 	#List of items that seagulls cannot take from players.
 	seagullStealingBlacklist = []
 	#Whether the Clinging Potion effect should flip the screen. Warning: may cause nausea.
@@ -131,10 +135,6 @@
 	limitTransmutingToLootTables = false
 	#True if transmutation tables can explode when broken.
 	transmutingTableExplodes = true
-	#The experience, in levels, that each transmutation of a stack takes in the transmuting table.
-	# Default: 3
-	# Range: 0 ~ 100000
-	transmutingExperienceCost = 3
 	#The step value multiplied by the log of the stack size when transmuting an item, used to determine its weight for appearing in future transmutation possibilities. Higher number = more likely to appear.
 	# Default: 3.0
 	# Range: 1.0 ~ 10000.0
@@ -905,9 +905,9 @@
 	murmurSpawnHeight = -30
 
 [dangerZone]
-	#Its been so long...
-	superSecretSettings = false
 	#How many cpu cores some mobs(elephants, leafcutter ants, bison etc) should utilize when pathing. Bigger number = less impact on TPS
 	# Default: 5
 	# Range: 1 ~ 100
-	pathfindingThreads = 8
+	pathfindingThreads = 5
+	#Its been so long...
+	superSecretSettings = false

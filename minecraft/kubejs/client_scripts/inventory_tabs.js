@@ -29,15 +29,10 @@ NativeEvents.onEvent('net.neoforged.neoforge.client.event.ScreenEvent$Init$Post'
         let guiLeft = Math.floor((width - 176) / 2);
         let guiTop = Math.floor((height - 166) / 2);
         
-        let tombstoneBtn = Button.builder(Component.literal("T"), btn => {
-            triggerKeybind("tombstone.message.knowledge_of_death");
-        }).bounds(guiLeft - 22, guiTop + 10, 20, 20).build();
-        
         let apothBtn = Button.builder(Component.literal("A"), btn => {
             triggerKeybind("key.apotheosis.open_world_tier_select");
-        }).bounds(guiLeft - 22, guiTop + 35, 20, 20).build();
+        }).bounds(guiLeft - 22, guiTop + 10, 20, 20).build();
         
-        event.addListener(tombstoneBtn);
         event.addListener(apothBtn);
     }
 });

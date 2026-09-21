@@ -49,10 +49,6 @@
       },
       {
         "type": "item",
-        "stack": "{\"id\":\"minecraft:suspicious_stew\",\"components\":{\"minecraft:suspicious_stew_effects\":[{\"id\":\"tombstone:true_sight\",\"duration\":80}]}}"
-      },
-      {
-        "type": "item",
         "stack": "{\"id\":\"minecraft:suspicious_stew\",\"components\":{\"minecraft:suspicious_stew_effects\":[{\"id\":\"minecraft:glowing\",\"duration\":0}]}}"
       },
       {

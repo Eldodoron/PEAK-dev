@@ -293,7 +293,7 @@ _version = 4
 [client]
 	#
 	# Should Distant Horizon's config button appear in Minecraft's options screen next to the fov slider?
-	showDhOptionsButtonInMinecraftUi = false
+	showDhOptionsButtonInMinecraftUi = true
 
 		[client.advanced.autoUpdater]
 			#
@@ -701,7 +701,7 @@ _version = 4
 				# 
 				# Lowest Quality: HEIGHT_MAP
 				# Highest Quality: PIXEL_ART
-				verticalQuality = "MEDIUM"
+				verticalQuality = "HEIGHT_MAP"
 				#
 				# What blocks shouldn't be rendered as LODs? 
 				# 
@@ -733,13 +733,13 @@ _version = 4
 				# 
 				# Higher settings will increase the distance between drops 
 				# but will increase memory and GPU usage.
-				horizontalQuality = "MEDIUM"
+				horizontalQuality = "LOW"
 				#
 				# How should LOD transparency be handled. 
 				# 
 				# COMPLETE: LODs will render transparent. 
 				# DISABLED: LODs will be opaque.
-				transparency = "COMPLETE"
+				transparency = "DISABLED"
 				#
 				# This is the same as vanilla Biome Blending settings for Lod area. 
 				#     Note: anything above '0' will slow down LOD loading time. 
@@ -747,14 +747,14 @@ _version = 4
 				#     '0' equals to Vanilla Biome Blending of '1x1' or 'OFF', 
 				#     '1' equals to Vanilla Biome Blending of '3x3', 
 				#     '2' equals to Vanilla Biome Blending of '5x5'...
-				lodBiomeBlending = 2
+				lodBiomeBlending = 1
 				#
 				# How should vanilla Minecraft fade into Distant Horizons LODs? 
 				# 
 				# NONE: Fastest, there will be a pronounced border between DH and MC rendering. 
 				# SINGLE_PASS: Fades after MC's transparent pass, opaque blocks underwater won't be faded. 
 				# DOUBLE_PASS: Slowest, fades after both MC's opaque and transparent passes, provides the smoothest transition.
-				vanillaFadeMode = "DOUBLE_PASS"
+				vanillaFadeMode = "SINGLE_PASS"
 				#
 				# If true DH will try to use the camera position when 
 				# determining LOD quality drop-off. 

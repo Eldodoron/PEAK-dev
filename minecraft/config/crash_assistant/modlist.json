@@ -5,22 +5,6 @@
     "name": "neoforge",
     "version": "neoforge-21.1.238"
   },
-  "aaa_particles-neoforge-1.21.1-2.2.3.jar": {
-    "jarName": "aaa_particles-neoforge-1.21.1-2.2.3.jar",
-    "modId": "aaa_particles",
-    "name": "AAA Particles",
-    "version": "2.2.3",
-    "curseForgeHash": 190689013,
-    "modrinthHash": "05c06223740c63c19b63aaa555573547c998b8cc"
-  },
-  "aaa_particles_world-neoforge-1.21.1-2.0.0.jar": {
-    "jarName": "aaa_particles_world-neoforge-1.21.1-2.0.0.jar",
-    "modId": "aaa_particles_world",
-    "name": "AAA Particles: World",
-    "version": "2.0.0",
-    "curseForgeHash": 1208598932,
-    "modrinthHash": "577ddd74cf6de99dfb31f33f493ebcae539e00e8"
-  },
   "aces_spell_utils-1.2.6.1-1.21.1.jar": {
     "jarName": "aces_spell_utils-1.2.6.1-1.21.1.jar",
     "modId": "aces_spell_utils",
@@ -36,14 +20,6 @@
     "version": "1.2.2",
     "curseForgeHash": 1795295701,
     "modrinthHash": "c0b51977a06b3578023a4e16772aa1f8d2b6bcca"
-  },
-  "adorablehamsterpets-3.6.0-1.21.1+neoforge.jar": {
-    "jarName": "adorablehamsterpets-3.6.0-1.21.1+neoforge.jar",
-    "modId": "adorablehamsterpets",
-    "name": "Adorable Hamster Pets",
-    "version": "3.6.0-1.21.1+neoforge",
-    "curseForgeHash": 2104004941,
-    "modrinthHash": "52ce78209a420c15b3e90cb63d8c9a8680e429f2"
   },
   "aero_cam_sync-1.3.1.jar": {
     "jarName": "aero_cam_sync-1.3.1.jar",
@@ -421,14 +397,6 @@
     "curseForgeHash": 1612804075,
     "modrinthHash": "e91af996b413bb498e276bf410d0deff52a34a74"
   },
-  "bigwater-1.2.0-neoforge+mc1.21.1.jar": {
-    "jarName": "bigwater-1.2.0-neoforge+mc1.21.1.jar",
-    "modId": "bigwater",
-    "name": "Big Water",
-    "version": "1.2.0-neoforge+mc1.21.1",
-    "curseForgeHash": 3936659407,
-    "modrinthHash": "5d1cf6603c8518faadd19230b700c7bdee9a6a4a"
-  },
   "block_factorys_bosses-2.1.2-neo-1.21.1.jar": {
     "jarName": "block_factorys_bosses-2.1.2-neo-1.21.1.jar",
     "modId": "block_factorys_bosses",
@@ -525,14 +493,6 @@
     "curseForgeHash": 2767968248,
     "modrinthHash": "e4c2e1af4e3082d68f7df75f7c8ce30116d71515"
   },
-  "CameraOverhaul-v2.1.1-neoforge+mc[1.21-1.21.1].jar": {
-    "jarName": "CameraOverhaul-v2.1.1-neoforge+mc[1.21-1.21.1].jar",
-    "modId": "cameraoverhaul",
-    "name": "CameraOverhaul",
-    "version": "2.1.1-neoforge+mc.1.21-1.21.1",
-    "curseForgeHash": 3970251954,
-    "modrinthHash": "4b30a0b3f5fa8290fa7fad94dab2b9419f54215f"
-  },
   "caravans-neoforge-1.21.1-3.0.0.jar": {
     "jarName": "caravans-neoforge-1.21.1-3.0.0.jar",
     "modId": "caravans",
@@ -621,6 +581,14 @@
     "curseForgeHash": 4242182892,
     "modrinthHash": "cf068831c27693cc49b79a74ed252caa12351275"
   },
+  "chunksending-1.21-3.9.jar": {
+    "jarName": "chunksending-1.21-3.9.jar",
+    "modId": "chunksending",
+    "name": "chunksending mod",
+    "version": "3.9",
+    "curseForgeHash": 4099034055,
+    "modrinthHash": "31706585eb19ef540d09fe23631f12489da004c5"
+  },
   "Chunky-NeoForge-1.4.23.jar": {
     "jarName": "Chunky-NeoForge-1.4.23.jar",
     "modId": "chunky",
@@ -644,14 +612,6 @@
     "version": "2.7.6",
     "curseForgeHash": 3647258928,
     "modrinthHash": "e0392370117ec16a721f8d65728944398de77607"
-  },
-  "clean_tooltips-1.1-neoforge-1.21.1.jar": {
-    "jarName": "clean_tooltips-1.1-neoforge-1.21.1.jar",
-    "modId": "clean_tooltips",
-    "name": "Clean Tooltips",
-    "version": "1.1",
-    "curseForgeHash": 4035273959,
-    "modrinthHash": "36b42f526885c45a62546cc9888ac63012ee3f87"
   },
   "cloth-config-15.0.140-neoforge.jar": {
     "jarName": "cloth-config-15.0.140-neoforge.jar",
@@ -1523,14 +1483,6 @@
     "curseForgeHash": 3249692509,
     "modrinthHash": "66db0dfc874ca396befa60d8d315430e2997d65c"
   },
-  "guardvillagers-2.4.10-1.21.1.jar": {
-    "jarName": "guardvillagers-2.4.10-1.21.1.jar",
-    "modId": "guardvillagers",
-    "name": "Guard Villagers",
-    "version": "2.4.10",
-    "curseForgeHash": 4060553227,
-    "modrinthHash": "3367fcfe8b72a2358cb4be83ac0b7f0470831a92"
-  },
   "guideme-21.1.17.jar": {
     "jarName": "guideme-21.1.17.jar",
     "modId": "guideme",
@@ -1976,6 +1928,14 @@
     "curseForgeHash": 791753316,
     "modrinthHash": "d0ab30eebffdb999c07964c5775b199792b5cf46"
   },
+  "leaky-1.21-3.3.jar": {
+    "jarName": "leaky-1.21-3.3.jar",
+    "modId": "leaky",
+    "name": "leaky mod",
+    "version": "3.3",
+    "curseForgeHash": 2343735160,
+    "modrinthHash": "cce509c47072d29bda22537b17145239d579db81"
+  },
   "lendersdelight-1.21.1-1.0.10.jar": {
     "jarName": "lendersdelight-1.21.1-1.0.10.jar",
     "modId": "lendersdelight",
@@ -2047,6 +2007,14 @@
     "version": "1.8.2",
     "curseForgeHash": 2407022906,
     "modrinthHash": "d1f7c638fac5192e01b1873f27e694a3c262ad11"
+  },
+  "logprot-1.21-3.5.jar": {
+    "jarName": "logprot-1.21-3.5.jar",
+    "modId": "logprot",
+    "name": "Logprot",
+    "version": "3.5",
+    "curseForgeHash": 1625519874,
+    "modrinthHash": "2875ba9e30f72d42279558e22fe79c4ea4503e10"
   },
   "Loot Beams Refork-neoforge-1.21.1-3.4.7.jar": {
     "jarName": "Loot Beams Refork-neoforge-1.21.1-3.4.7.jar",
@@ -2600,14 +2568,6 @@
     "curseForgeHash": 1538484394,
     "modrinthHash": "f73c3008321a9fb2da1151be9b49f0dfd006b6b5"
   },
-  "ragdoll_reactions-1.21.1-0.7.0.jar": {
-    "jarName": "ragdoll_reactions-1.21.1-0.7.0.jar",
-    "modId": "ragdoll_reactions",
-    "name": "Ragdoll Reactions",
-    "version": "0.7.0",
-    "curseForgeHash": 2898524709,
-    "modrinthHash": "60fd4e9695b4cc3055ef728dc1023f0a335cfc32"
-  },
   "Raided-1.21.1-0.1.6.jar": {
     "jarName": "Raided-1.21.1-0.1.6.jar",
     "modId": "raided",
@@ -2640,6 +2600,14 @@
     "curseForgeHash": 600434647,
     "modrinthHash": "6cc663fa2afe356ab3be8c9616df5f1d7e0e259c"
   },
+  "recipeessentials-1.21.1-4.7.jar": {
+    "jarName": "recipeessentials-1.21.1-4.7.jar",
+    "modId": "recipeessentials",
+    "name": "recipeessentials mod",
+    "version": "4.7",
+    "curseForgeHash": 36640916,
+    "modrinthHash": "77c1796d445683b237b7391fe277388cd2ea0ee7"
+  },
   "redirected-neoforge-1.0.0-1.21.1.jar": {
     "jarName": "redirected-neoforge-1.0.0-1.21.1.jar",
     "modId": "redirected",
@@ -2655,14 +2623,6 @@
     "version": "1.0.22",
     "curseForgeHash": 2252929595,
     "modrinthHash": "6c209e6b755ff26218efd55aedf2dea49183d29b"
-  },
-  "reliable_replacer-neoforge-1.21.1-1.7.0.jar": {
-    "jarName": "reliable_replacer-neoforge-1.21.1-1.7.0.jar",
-    "modId": "reliable_replacer",
-    "name": "Reliable Replacer",
-    "version": "1.7.0",
-    "curseForgeHash": 2732517847,
-    "modrinthHash": "91e2f5b795352cc84879bc80e58d53fe0477a099"
   },
   "relics-1.21.1-0.10.7.8.jar": {
     "jarName": "relics-1.21.1-0.10.7.8.jar",
@@ -2760,14 +2720,6 @@
     "curseForgeHash": 1741490269,
     "modrinthHash": "c5ecd3fcf60a31d84112c708abe29e341b2d1b73"
   },
-  "sable_player_ragdoll-1.21.1-0.7.5.jar": {
-    "jarName": "sable_player_ragdoll-1.21.1-0.7.5.jar",
-    "modId": "sable_player_ragdoll",
-    "name": "Sable Ragdolls",
-    "version": "0.7.5",
-    "curseForgeHash": 3877880340,
-    "modrinthHash": "114a953a830673ebfe2af154f5a1ce535fc4d90c"
-  },
   "sabledestructive-1.7.2.jar": {
     "jarName": "sabledestructive-1.7.2.jar",
     "modId": "sabledestructive",
@@ -2864,6 +2816,14 @@
     "curseForgeHash": 698903972,
     "modrinthHash": "5ab7e196b99ae7cd06e6f910ae0e88db9f8c659c"
   },
+  "smoothchunk-1.21-4.1.jar": {
+    "jarName": "smoothchunk-1.21-4.1.jar",
+    "modId": "smoothchunk",
+    "name": "Smoothchunk mod",
+    "version": "4.1",
+    "curseForgeHash": 2270201149,
+    "modrinthHash": "f54d5d352e15560240f151a7d054096a33a58f4a"
+  },
   "smoothswapping-0.9.3.2-1.21.1-neoforge.jar": {
     "jarName": "smoothswapping-0.9.3.2-1.21.1-neoforge.jar",
     "modId": "smoothswapping",
@@ -2928,6 +2888,14 @@
     "curseForgeHash": 3447435049,
     "modrinthHash": "9430cc2ab64ff89d698be593769fb9f9ee4efae6"
   },
+  "structureessentials-1.21.1-5.0.jar": {
+    "jarName": "structureessentials-1.21.1-5.0.jar",
+    "modId": "structureessentials",
+    "name": "Structure Essentials mod",
+    "version": "5.0",
+    "curseForgeHash": 608980435,
+    "modrinthHash": "5c059c2cb2ad8c43e1384b0939bf258801aadfea"
+  },
   "structurify-neoforge-2.0.30+mc1.21.1.jar": {
     "jarName": "structurify-neoforge-2.0.30+mc1.21.1.jar",
     "modId": "structurify",
@@ -2967,14 +2935,6 @@
     "version": "4.1.0.8",
     "curseForgeHash": 4290330137,
     "modrinthHash": "2016eed89eac0eb0510d2190c3b0b80bf4346191"
-  },
-  "textureupdatesneo.jar": {
-    "jarName": "textureupdatesneo.jar",
-    "modId": "angrytremorzilla",
-    "name": "angrytremorzilla",
-    "version": "1.0.0",
-    "curseForgeHash": 603356987,
-    "modrinthHash": "3a773dd51a14942aa53aef3e75614d09930302f5"
   },
   "tfmg-1.2.0.jar": {
     "jarName": "tfmg-1.2.0.jar",
@@ -3016,14 +2976,6 @@
     "curseForgeHash": 3258843963,
     "modrinthHash": "33477c2db0479c9be33d1ca3b2fa47cf6c97988c"
   },
-  "tombstone-neoforge-1.21.1-9.4.10.jar": {
-    "jarName": "tombstone-neoforge-1.21.1-9.4.10.jar",
-    "modId": "tombstone",
-    "name": "Corail Tombstone",
-    "version": "9.4.10",
-    "curseForgeHash": 4186820992,
-    "modrinthHash": "557c567754588e9e8aaa8b5b8fb4bfd21a475802"
-  },
   "tooltipoverhaul-neoforge-1.21.1-1.5.1.jar": {
     "jarName": "tooltipoverhaul-neoforge-1.21.1-1.5.1.jar",
     "modId": "tooltipoverhaul",
@@ -3039,6 +2991,14 @@
     "version": "1.2.0",
     "curseForgeHash": 3428339686,
     "modrinthHash": "6866d898938bdde1a17fadee16983c0c6071eac6"
+  },
+  "trade-cycling-neoforge-1.21.1-1.0.18.jar": {
+    "jarName": "trade-cycling-neoforge-1.21.1-1.0.18.jar",
+    "modId": "trade_cycling",
+    "name": "Trade Cycling",
+    "version": "1.21.1-1.0.18",
+    "curseForgeHash": 3391123782,
+    "modrinthHash": "f0c95fb82f68f2c7402e0615a5d241e6097920cf"
   },
   "trading_floor-3.0.16.jar": {
     "jarName": "trading_floor-3.0.16.jar",
@@ -3224,6 +3184,14 @@
     "curseForgeHash": 1166863698,
     "modrinthHash": "4fb6e087325c70031fdb7fe6eb5278c5038511dd"
   },
+  "yagm-1.21.1-0.1.2-NEOFORGE.jar": {
+    "jarName": "yagm-1.21.1-0.1.2-NEOFORGE.jar",
+    "modId": "yagm",
+    "name": "Yet Another Gravestone Mod",
+    "version": "0.1",
+    "curseForgeHash": 830137263,
+    "modrinthHash": "b8642fb0e2a8660a53875979f0788892b41e889e"
+  },
   "yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar": {
     "jarName": "yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar",
     "modId": "yet_another_config_lib_v3",
@@ -3239,14 +3207,6 @@
     "version": "1.21.1-NeoForge-5.1.6",
     "curseForgeHash": 3632489824,
     "modrinthHash": "e1c394779fb9e038e4f7a1b4558d0432607d263b"
-  },
-  "YungsBetterCaves-1.21.1-NeoForge-3.1.4.jar": {
-    "jarName": "YungsBetterCaves-1.21.1-NeoForge-3.1.4.jar",
-    "modId": "bettercaves",
-    "name": "YUNG\u0027s Better Caves",
-    "version": "1.21.1-NeoForge-3.1.4",
-    "curseForgeHash": 960679350,
-    "modrinthHash": "c7eaa25a8734525d7085e730728344242a177990"
   },
   "YungsBetterDesertTemples-1.21.1-NeoForge-4.1.5.jar": {
     "jarName": "YungsBetterDesertTemples-1.21.1-NeoForge-4.1.5.jar",
