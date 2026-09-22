@@ -462,7 +462,7 @@ ServerEvents.recipes(event => {
     console.log('The PEAK Expert Mode tech tree is ACTIVE.');
     console.log('Create â†’ TFMG â†’ IE â†’ PneumaticCraft â†’ Mekanism');
     console.log('â†’ Ender IO â†’ AE2 â†’ Draconic â†’ Re-Avaritia');
-    console.log('Magic: Ars Nouveau â†’ Iron Spells â†’ Malum â†’ Vampirism');
+    console.log('Magic: Ars Nouveau --> Iron Spells --> Malum');
     console.log('Dimensions: Twilight Forest, Undergarden, Alex Caves, Deeper Darker');
     console.log('==========================================');
 });

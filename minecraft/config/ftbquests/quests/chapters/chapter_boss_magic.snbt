@@ -164,59 +164,6 @@
 		}
 		{
 			dependencies: ["3106000000000001"]
-			id: "3106000000000031"
-			rewards: [
-				{
-					id: "3306000000000025"
-					table_id: 1117392878634651664L
-					type: "random"
-				}
-				{
-					id: "3306000000000026"
-					table_id: 1117392878634651650L
-					type: "random"
-				}
-			]
-			shape: "diamond"
-			size: 1.3d
-			tasks: [{
-				entity: "vampirism:vampire_baron"
-				id: "3206000000000031"
-				type: "kill"
-				value: 1L
-			}]
-			x: 4.0d
-			y: 2.5d
-		}
-		{
-			dependencies: ["3106000000000001"]
-			id: "3106000000000032"
-			optional: true
-			rewards: [
-				{
-					id: "3306000000000027"
-					table_id: 1117392878634651664L
-					type: "random"
-				}
-				{
-					id: "3306000000000028"
-					table_id: 1117392878634651649L
-					type: "random"
-				}
-			]
-			shape: "circle"
-			size: 1.1d
-			tasks: [{
-				entity: "vampirism:advanced_vampire"
-				id: "3206000000000032"
-				type: "kill"
-				value: 5L
-			}]
-			x: 6.0d
-			y: 2.5d
-		}
-		{
-			dependencies: ["3106000000000001"]
 			id: "3106000000000033"
 			rewards: [
 				{
@@ -245,7 +192,7 @@
 			dependencies: [
 				"3106000000000011"
 				"3106000000000021"
-				"3106000000000031"
+				"3106000000000033"
 			]
 			hide_dependency_lines: true
 			id: "3106000000000999"

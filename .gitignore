@@ -20,6 +20,9 @@ minecraft/dynamic-data-pack-cache/
 minecraft/dynamic-resource-pack-cache/
 minecraft/local/
 minecraft/debug/
+minecraft/particular_cache/
+minecraft/config/structurify/structurify_backup_*.json
+backups/
 
 # Cache and user-specific files
 minecraft/usercache.json

@@ -1547,20 +1547,13 @@
 	quest.3106000000000021.title: "&dThe Wilden Chimera&r"
 	quest.3106000000000022.quest_desc: ["&2Heavy woodland beasts protecting magical groves.&r"]
 	quest.3106000000000022.quest_subtitle: "Slay 5 Wilden Guardians"
-	quest.3106000000000022.title: "&2Wilden Guardians&r"
-	quest.3106000000000031.quest_desc: ["&4A blood-drinking noble commanding shadows and vampire swarms.&r"]
-	quest.3106000000000031.quest_subtitle: "Slay a Vampire Baron in dark castle tombs"
-	quest.3106000000000031.title: "&4The Vampire Baron&r"
-	quest.3106000000000032.quest_desc: ["&cElite blood-fueled predators roaming the midnight fog.&r"]
-	quest.3106000000000032.quest_subtitle: "Slay 5 Advanced Vampires"
-	quest.3106000000000032.title: "&cAdvanced Vampires&r"
 	quest.3106000000000033.quest_desc: [
 		"&8A soul-clad dark warrior commanding wither magic.&r"
 		"&e* Drops an Infinity Fragment and an Eye of Ender on first defeat.&r"
 	]
 	quest.3106000000000033.quest_subtitle: "Slay the Underworld Knight"
 	quest.3106000000000033.title: "&8Underworld Knight&r"
-	quest.3106000000000999.quest_desc: ["&5&lThe arcane weave responds only to you.&r The spellcasters and vampires have fallen."]
+	quest.3106000000000999.quest_desc: ["&5&lThe arcane weave responds only to you.&r All magical monarchs have fallen."]
 	quest.3106000000000999.quest_subtitle: "Conquer all magical monarchs"
 	quest.3106000000000999.title: "&5Grand Sorcerer of the Arcane Realm&r"
 	quest.3107000000000001.quest_desc: ["&dThe ultimate apex bosses presiding over space, time, and entropy.&r"]
@@ -3020,15 +3013,6 @@
 	quest.5103000000000067.quest_desc: ["&6* Pierces the darkest abyssal shadows with crystalline vision."]
 	quest.5103000000000067.quest_subtitle: "Golden root vegetable with eternal night vision."
 	quest.5103000000000067.title: "&6Allthemodium Carrot&r"
-	quest.5103000000000068.quest_desc: [
-		"&4* The supreme feast for creatures of the night.&r"
-		"&cMortals beware - consuming this is not for the faint of stomach."
-	]
-	quest.5103000000000068.quest_subtitle: "A fresh pulsating heart for bloodthirsty vampires."
-	quest.5103000000000068.title: "&4Pure Human Heart&r"
-	quest.5103000000000069.quest_desc: ["&4* Provides quick sustenance for fledgling vampire lords."]
-	quest.5103000000000069.quest_subtitle: "A smaller blood donor heart."
-	quest.5103000000000069.title: "&4Weakened Heart&r"
 	quest.5103000000000070.quest_desc: ["&5* Dark soul morsel that devours hunger with terrifying efficiency."]
 	quest.5103000000000070.quest_subtitle: "Condensed spirit essence of pure ravenous hunger."
 	quest.5103000000000070.title: "&5Concentrated Gluttony&r"

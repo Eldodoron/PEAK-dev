@@ -58,10 +58,6 @@
 <fluid:alltheores:molten_tin>
 <fluid:alltheores:molten_uranium>
 <fluid:alltheores:molten_zinc>
-<fluid:angrytremorzilla:amethyst_fluid>
-<fluid:angrytremorzilla:biofluid>
-<fluid:angrytremorzilla:flowing_amethyst_fluid>
-<fluid:angrytremorzilla:flowing_biofluid>
 <fluid:ape:enriched_dragonsteel>
 <fluid:ape:enriched_dragonsteel_flow>
 <fluid:ape:molten_dragonsteel>

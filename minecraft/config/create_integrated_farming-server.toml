@@ -4,6 +4,19 @@
 	#.
 	#When harvested by Harvester, if mushroom colonies drops itself instead of corresponding mushroom.
 	mushroomColoniesDropSelf = false
+	#.
+	#The horizontal radius harvested by a stationary or contraption-mounted Vacuum Harvester.
+	#Its vertical range is always one block above and below the machine.
+	# Default: 10
+	# Range: 1 ~ 16
+	vacuumHarvesterRange = 10
+	#.
+	#The number of ticks a Vacuum Harvester takes to charge at 64 RPM.
+	#Stationary harvesters scale this time with RPM, while contraption-mounted harvesters use it directly.
+	#20 ticks equal one second.
+	# Default: 600
+	# Range: 20 ~ 72000
+	vacuumHarvesterChargeTime = 600
 
 #.
 #Settings for Fishing utilities
@@ -59,3 +72,14 @@
 	# Default: 1
 	# Range: 1 ~ 16
 	roostingInventorySlotSize = 1
+
+	#.
+	#Configure the stress impact of Create: Integrated Farming machines
+	[stressValues.v1]
+
+		#.
+		#.
+		#[in Stress Units]
+		#Configure the individual stress impact of mechanical blocks. Note that this cost is doubled for every speed increase it receives.
+		[stressValues.v1.impact]
+			vacuum_harvester = 8.0

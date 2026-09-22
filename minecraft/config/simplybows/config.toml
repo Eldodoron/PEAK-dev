@@ -220,6 +220,51 @@ chaosBlackHolePullStrengthPerFrame = 0.025
 chaosBlackHoleDamageIntervalTicks = 10
 chaosBlackHoleDamagePerTick = 2.0
 
+[cosmicBow]
+arrowSpeedMultiplier = 0.9
+arrowDivergence = 0.8
+baseDamage = 2.0
+trailDurationTicks = 25
+trailLineDurationTicks = 12
+trailMaxConnectionDist = 2.5
+trailConnectionProbability = 0.35
+orbitDurationTicks = 180
+orbitDurationBonusPerString = 20
+orbitAttackRadius = 10.0
+orbitAttackDamage = 4.0
+orbitAttackIntervalMinTicks = 18
+orbitMaxJumps = 5
+orbitAttackIntervalMaxTicks = 36
+painOrbitCooldownTicks = 1600
+painMaxTetherTargets = 6
+painTetherPullStrength = 0.08
+graceFieldDurationTicks = 160
+graceFieldCooldownTicks = 400
+graceFieldRadius = 4.5
+graceFieldBuffDurationTicks = 30
+graceFieldCocoonChance = 0.2
+graceFieldCocoonNightChanceBonus = 0.2
+graceFieldBuffAmplifier = 0
+bountyCooldownTicks = 40
+bountyArrowSpeedMultiplier = 0.62
+bountyMaxChargeTicks = 60
+bountyImplodeTicks = 42
+bountyMinRadius = 3.0
+bountyMaxRadius = 7.0
+bountyMinDamage = 5.0
+bountyMaxDamage = 13.0
+bountyPullStrength = 0.18
+chaosSunDurationTicks = 200
+chaosSunMaxDurationTicks = 1200
+chaosSunCooldownTicks = 1200
+chaosSunRadius = 8.0
+chaosSunMaxCapturedProjectiles = 40
+chaosSunFireIntervalTicks = 60
+chaosSunDurationBonusPerShotTicks = 40
+chaosCelestialSwiftnessDurationTicks = 140
+chaosCelestialSwiftnessMaxStacks = 15
+chaosCelestialBowPullBonusPerStack = 0.16
+
 [loot]
 baseStringChance = 20.0
 baseFrameChance = 20.0
@@ -240,8 +285,15 @@ drawSpeedBee = 20.0
 drawSpeedBlossom = 20.0
 drawSpeedEarth = 40.0
 drawSpeedEcho = 30.0
+drawSpeedCosmic = 30.0
 
 [general]
 debugMode = false
 modernTooltipsEnabled = true
 rangedWeaponApiDamageMultiplier = 1.0
+enableNonPlayerBowUse = true
+nonPlayerBowCheckInterval = 60
+nonPlayerBowChance = 50
+nonPlayerBowAbilityDamageModifier = 0.5
+nonPlayerBowProjectileDamageModifier = 0.5
+nonPlayerBowDamageToPlayersModifier = 0.5

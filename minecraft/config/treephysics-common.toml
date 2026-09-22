@@ -8,7 +8,7 @@ despawn_time = 144000
 small_tree_maximum = 6
 #treephysics.config.despawn_behavior.tooltip
 #Allowed Values: NO_DESPAWN, DESPAWN_SMALL, DESPAWN_ALL
-despawn_behavior = "DESPAWN_SMALL"
+despawn_behavior = "DESPAWN_ALL"
 #treephysics.config.drop_items_on_despawn.tooltip
 drop_items_on_despawn = true
 #treephysics.config.rooted_dirt_generation.tooltip
@@ -18,7 +18,7 @@ remove_rooted_dirt = true
 #treephysics.config.drop_hanging_roots.tooltip
 drop_hanging_roots = false
 #treephysics.config.rootless_tree_detection.tooltip
-rootless_tree_detection = false
+rootless_tree_detection = true
 #treephysics.config.requires_axe.tooltip
 requires_axe = false
 #treephysics.config.prevent_interacting_with_trees.tooltip

@@ -190,7 +190,6 @@
 <tagmanager:tfmg/cable_types>
 <tagmanager:tfmg/electrodes>
 <tagmanager:tfmg/flamethrower_fuel/type>
-<tagmanager:tombstone/perks>
 <tagmanager:trigger_type>
 <tagmanager:trim_material>
 <tagmanager:trim_pattern>

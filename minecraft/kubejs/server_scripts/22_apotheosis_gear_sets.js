@@ -1,5 +1,5 @@
 // ==========================================
-// PEAK EXPERT MODE Ã¢â‚¬â€ SCRIPT 22
+// PEAK EXPERT MODE - SCRIPT 22
 // APOTHEOSIS MASTER EXPERT POOLS
 // ==========================================
 
@@ -21,9 +21,9 @@ ServerEvents.generateData('peak', 'apotheosis_gear', event => {
                 { "stack": { "id": "iceandfire:dragonbone_sword" }, "weight": 5 }
             ],
             "helmets": [
-                { "stack": { "id": "armoroftheages:samurai_helmet" }, "weight": 10 },
-                { "stack": { "id": "armoroftheages:anubis_helmet" }, "weight": 10 },
-                { "stack": { "id": "armoroftheages:centurion_helmet" }, "weight": 10 },
+                { "stack": { "id": "armoroftheages:o_yoroi_armor_head" }, "weight": 10 },
+                { "stack": { "id": "armoroftheages:anubis_armor_head" }, "weight": 10 },
+                { "stack": { "id": "armoroftheages:centurion_armor_head" }, "weight": 10 },
                 { "stack": { "id": "fantasy_armor:dead_gladiator_helmet" }, "weight": 10 },
                 { "stack": { "id": "fantasy_armor:evening_ghost_helmet" }, "weight": 10 },
                 { "stack": { "id": "immersive_armors:heavy_helmet" }, "weight": 10 },
@@ -34,9 +34,9 @@ ServerEvents.generateData('peak', 'apotheosis_gear', event => {
                 { "stack": { "id": "mowziesmobs:wrought_helmet", "drop_chance": 0.0 }, "weight": 5 }
             ],
             "chestplates": [
-                { "stack": { "id": "armoroftheages:samurai_chestplate" }, "weight": 10 },
-                { "stack": { "id": "armoroftheages:anubis_chestplate" }, "weight": 10 },
-                { "stack": { "id": "armoroftheages:centurion_chestplate" }, "weight": 10 },
+                { "stack": { "id": "armoroftheages:o_yoroi_armor_chest" }, "weight": 10 },
+                { "stack": { "id": "armoroftheages:anubis_armor_chest" }, "weight": 10 },
+                { "stack": { "id": "armoroftheages:centurion_armor_chest" }, "weight": 10 },
                 { "stack": { "id": "fantasy_armor:dead_gladiator_chestplate" }, "weight": 10 },
                 { "stack": { "id": "fantasy_armor:evening_ghost_chestplate" }, "weight": 10 },
                 { "stack": { "id": "immersive_armors:heavy_chestplate" }, "weight": 10 },
@@ -46,14 +46,14 @@ ServerEvents.generateData('peak', 'apotheosis_gear', event => {
                 { "stack": { "id": "iceandfire:armor_silver_metal_chestplate" }, "weight": 5 }
             ],
             "leggings": [
-                { "stack": { "id": "armoroftheages:samurai_leggings" }, "weight": 10 },
+                { "stack": { "id": "armoroftheages:o_yoroi_armor_legs" }, "weight": 10 },
                 { "stack": { "id": "fantasy_armor:dead_gladiator_leggings" }, "weight": 10 },
                 { "stack": { "id": "immersive_armors:heavy_leggings" }, "weight": 10 },
                 { "stack": { "id": "ars_nouveau:arcanist_leggings" }, "weight": 10 },
                 { "stack": { "id": "iceandfire:armor_red_leggings" }, "weight": 5 }
             ],
             "boots": [
-                { "stack": { "id": "armoroftheages:samurai_boots" }, "weight": 10 },
+                { "stack": { "id": "armoroftheages:o_yoroi_armor_feet" }, "weight": 10 },
                 { "stack": { "id": "fantasy_armor:dead_gladiator_boots" }, "weight": 10 },
                 { "stack": { "id": "immersive_armors:heavy_boots" }, "weight": 10 },
                 { "stack": { "id": "ars_nouveau:arcanist_boots" }, "weight": 10 },
@@ -82,7 +82,7 @@ ServerEvents.generateData('peak', 'apotheosis_gear', event => {
                 { "stack": { "id": "iceandfire:dragonbone_bow" }, "weight": 10 }
             ],
             "helmets": [
-                { "stack": { "id": "armoroftheages:samurai_helmet" }, "weight": 10 },
+                { "stack": { "id": "armoroftheages:o_yoroi_armor_head" }, "weight": 10 },
                 { "stack": { "id": "ars_nouveau:arcanist_hood" }, "weight": 20 }
             ],
             "chestplates": [
@@ -100,14 +100,14 @@ ServerEvents.generateData('peak', 'apotheosis_gear', event => {
     event.json('apothic_enchanting:gear_sets/pinnacle/expert_uniques.json', {
         "weight": 150,
         "mainhands": [
-            { "stack": { "id": "simplyswords:brimstone" }, "weight": 5 },
+            { "stack": { "id": "simplyswords:brimstone_claymore" }, "weight": 5 },
             { "stack": { "id": "simplyswords:caelestis" }, "weight": 5 },
             { "stack": { "id": "simplyswords:emberblade" }, "weight": 5 },
             { "stack": { "id": "simplyswords:frostfall" }, "weight": 5 },
             { "stack": { "id": "simplyswords:harbinger" }, "weight": 5 },
             { "stack": { "id": "simplyswords:hearthflame" }, "weight": 5 },
             { "stack": { "id": "simplyswords:icewhisper" }, "weight": 5 },
-            { "stack": { "id": "simplyswords:lichblade" }, "weight": 5 },
+            { "stack": { "id": "simplyswords:awakened_lichblade" }, "weight": 5 },
             { "stack": { "id": "simplyswords:mjolnir" }, "weight": 5 },
             { "stack": { "id": "simplyswords:ribboncleaver" }, "weight": 5 },
             { "stack": { "id": "simplyswords:soulpyre" }, "weight": 5 },

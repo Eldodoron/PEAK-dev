@@ -3,9 +3,9 @@ enabled = true
 #Allow in 3rd person view (BETA)
 allow3rdPerson = false
 #Force use client
-clientOnly = false
+clientOnly = true
 #Toggle mod keybind
-toggleKey = "key.keyboard.i"
+toggleKey = "key.keyboard.unknown"
 #Open config screen keybind
 openConfigKey = "key.keyboard.unknown"
 #Rotate camera

@@ -57,10 +57,78 @@ ServerEvents.tags('item', event => {
         'twilightforest:knightmetal_ring',
         'the_beyond:ring_remembrance',
         'unusualend:pearlescent_ring',
-        'vampirism:ring',
         'cataclysm:ring_of_grudged'
     ];
 
     event.add('curios:ring', allModpackRings);
     event.add('curios:rings', allModpackRings);
 });
+
+// Boss entity tag unifications for Boss Rifts and common compat
+ServerEvents.tags('entity_type', event => {
+    const PEAK_BOSSES = [
+        // Mowzie's Mobs
+        'mowziesmobs:frostmaw',
+        'mowziesmobs:ferrous_wroughtnaut',
+        'mowziesmobs:umvuthi',
+        'mowziesmobs:sculptor',
+        // Twilight Forest
+        'twilightforest:naga',
+        'twilightforest:lich',
+        'twilightforest:minoshroom',
+        'twilightforest:hydra',
+        'twilightforest:ur_ghast',
+        'twilightforest:alpha_yeti',
+        'twilightforest:snow_queen',
+        'twilightforest:knight_phantom',
+        // L_Ender's Cataclysm
+        'cataclysm:ancient_remnant',
+        'cataclysm:ender_guardian',
+        'cataclysm:ignis',
+        'cataclysm:the_leviathan',
+        'cataclysm:netherite_monstrosity',
+        'cataclysm:the_harbinger',
+        'cataclysm:maledictus',
+        'cataclysm:scylla',
+        // Bosses of Mass Destruction
+        'bosses_of_mass_destruction:lich',
+        'bosses_of_mass_destruction:obsidilith',
+        'bosses_of_mass_destruction:void_blossom',
+        'bosses_of_mass_destruction:gauntlet',
+        // Remnant Bosses
+        'remnant_bosses:armored_grub',
+        'remnant_bosses:bone_tyrant',
+        'remnant_bosses:remnant_ossukage',
+        // Ice & Fire
+        'iceandfire:fire_dragon',
+        'iceandfire:ice_dragon',
+        'iceandfire:lightning_dragon',
+        'iceandfire:cyclops',
+        'iceandfire:gorgon',
+        'iceandfire:hydra',
+        // Alex's Mobs / Caves
+        'alexsmobs:void_worm',
+        // Block Factory's Bosses
+        'block_factorys_bosses:infernal_dragon',
+        'block_factorys_bosses:yeti',
+        'block_factorys_bosses:sandworm',
+        'block_factorys_bosses:underworld_knight',
+        'block_factorys_bosses:kraken',
+        // Magic Bosses
+        'ars_nouveau:wilden_boss',
+        'irons_spellbooks:dead_king',
+        'irons_spellbooks:fire_boss',
+        // Undergarden
+        'undergarden:forgotten_guardian'
+    ];
+
+    event.add('c:bosses', PEAK_BOSSES);
+    event.add('bossrifts:rift_bosses', PEAK_BOSSES);
+
+    // Bosses excluded from spawning rifts
+    event.add('bossrifts:boss_exception', [
+        'minecraft:wither',
+        'minecraft:warden'
+    ]);
+});
+

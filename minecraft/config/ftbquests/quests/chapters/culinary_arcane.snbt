@@ -1485,44 +1485,6 @@
 		{
 			dependencies: ["5103000000000000"]
 			hide_dependency_lines: true
-			id: "5103000000000068"
-			optional: true
-			rewards: [{
-				id: "5300000000002079"
-				table_id: 1117392878634647553L
-				type: "random"
-			}]
-			size: 1.1d
-			tasks: [{
-				id: "5400000000002073"
-				item: { count: 1, id: "vampirism:human_heart" }
-				type: "item"
-			}]
-			x: 4.0d
-			y: 7.5d
-		}
-		{
-			dependencies: ["5103000000000000"]
-			hide_dependency_lines: true
-			id: "5103000000000069"
-			optional: true
-			rewards: [{
-				id: "5300000000002080"
-				table_id: 1117392878634647553L
-				type: "random"
-			}]
-			size: 1.1d
-			tasks: [{
-				id: "5400000000002074"
-				item: { count: 1, id: "vampirism:weak_human_heart" }
-				type: "item"
-			}]
-			x: 6.0d
-			y: 7.5d
-		}
-		{
-			dependencies: ["5103000000000000"]
-			hide_dependency_lines: true
 			id: "5103000000000070"
 			optional: true
 			rewards: [{
@@ -1627,8 +1589,6 @@
 				"5103000000000065"
 				"5103000000000066"
 				"5103000000000067"
-				"5103000000000068"
-				"5103000000000069"
 				"5103000000000070"
 				"5103000000000071"
 			]

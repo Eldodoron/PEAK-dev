@@ -5,7 +5,7 @@
 // ==========================================
 // Draconic Evolution has 3 tiers:
 //   WYVERN  Ã¢â€ â€™ Requires Deeper Darker + Mekanism + Ender IO
-//   DRACONIC Ã¢â€ â€™ Requires Dragonsteel + AllTheModium + Vampirism
+//   DRACONIC --> Requires Dragonsteel + AllTheModium
 //   CHAOTIC  Ã¢â€ â€™ Requires Vibranium/Unobtainium + Everything
 //
 // Ice and Fire's Dragonsteel is the physical endgame.
@@ -112,7 +112,6 @@ ServerEvents.recipes(event => {
     // - Awakened Draconium
     // - DRAGONSTEEL from Ice and Fire (the hard-to-farm gate!)
     // - Allthemodium
-    // - Vampirism Pure Blood (dark sacrifice for power)
     // - AE2 Processors
     // ==========================================
 

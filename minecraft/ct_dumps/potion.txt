@@ -25,7 +25,6 @@
 <potion:alexsmobs:speed_iii>
 <potion:alexsmobs:strong_knockback_resistance>
 <potion:alexsmobs:strong_soulsteal>
-<potion:angrytremorzilla:smart_cells>
 <potion:apothic_attributes:absorption>
 <potion:apothic_attributes:extra_long_flying>
 <potion:apothic_attributes:fatigue>
@@ -144,16 +143,6 @@
 <potion:rottencreatures:freeze>
 <potion:rottencreatures:long_freeze>
 <potion:rottencreatures:strong_freeze>
-<potion:tombstone:bait>
-<potion:tombstone:darkness>
-<potion:tombstone:discretion>
-<potion:tombstone:earthly_garden>
-<potion:tombstone:frostbite>
-<potion:tombstone:giant_strength>
-<potion:tombstone:little_world>
-<potion:tombstone:restoration>
-<potion:tombstone:spectral>
-<potion:tombstone:weaver_walk>
 <potion:undergarden:brittleness>
 <potion:undergarden:featherweight>
 <potion:undergarden:glowing>

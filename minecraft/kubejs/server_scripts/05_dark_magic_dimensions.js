@@ -1,16 +1,12 @@
 // ==========================================
 // PEAK EXPERT MODE Ã¢â‚¬â€ SCRIPT 05
 // DARK MAGIC + DIMENSIONS
-// Malum (Spirits/Souls) + Vampirism (Blood)
+// Malum (Spirits/Souls)
 // Deeper Darker + Undergarden enhanced roles
 // ==========================================
 // Malum is the bridge between magic and Ender IO.
 // Its spirit system feeds directly into Ender IO's
 // soul-based technology (Soularium, Soul Machines).
-//
-// Vampirism represents the pinnacle of dark magic,
-// with Pure Blood being a key endgame material for
-// Draconic Evolution's higher tiers.
 //
 // Deeper Darker provides endgame materials that gate
 // access to Draconic Evolution's Wyvern tier.
@@ -124,33 +120,6 @@ ServerEvents.recipes(event => {
         ]
     ).superheated();
 
-    // ==========================================
-    // SECTION 3: VAMPIRISM Ã¢â‚¬â€ BLOOD MAGIC (MAGIC ERA 4)
-    // The darkest magic. Late-game magical progression.
-    // Blood = life force = power for Draconic Evolution.
-    // ==========================================
-
-    // --- VAMPIRE FANG processing ---
-    // Vampire Fangs can be processed in Create for essence
-    event.recipes.create.crushing([
-        'minecraft:bone_meal',
-        CreateItem.of('minecraft:bone_meal', 0.5),
-        CreateItem.of('minecraft:redstone', 0.25)
-    ], 'vampirism:vampire_fang');
-
-    // --- HUNTER CROSSBOW ENHANCED ---
-    // Vampire Hunters need tech to fight supernatural threats
-    // Hunter weapons benefit from Create engineering
-    event.remove({ output: 'vampirism:crossbow_arrow_normal' });
-    event.shaped('8x vampirism:crossbow_arrow_normal', [
-        ' I ',
-        ' S ',
-        ' F '
-    ], {
-        I: '#c:ingots/iron',
-        S: 'create:shaft',
-        F: 'minecraft:feather'
-    });
 
     // ==========================================
     // SECTION 4: DEEPER DARKER Ã¢â‚¬â€  ENDGAME DIMENSION

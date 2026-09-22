@@ -49,12 +49,6 @@
 <attachment_type:gatesofavarice:coin_multiplier>
 <attachment_type:gatesofavarice:magnet_enabled>
 <attachment_type:gatesofavarice:mythic_coins>
-<attachment_type:guardvillagers:last_repaired_golem>
-<attachment_type:guardvillagers:last_repaired_guard>
-<attachment_type:guardvillagers:last_thrown_potion>
-<attachment_type:guardvillagers:times_repaired_golem>
-<attachment_type:guardvillagers:times_repaired_guard>
-<attachment_type:guardvillagers:times_thrown_potion>
 <attachment_type:healthbars:health_tracker>
 <attachment_type:iceandfire:chain_data>
 <attachment_type:iceandfire:misc_data>

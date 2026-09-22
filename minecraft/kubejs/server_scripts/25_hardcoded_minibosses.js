@@ -326,13 +326,18 @@ EntityEvents.spawned('minecraft:zombie', event => {
     const { entity, server } = event;
     if (!entity || !entity.living) return;
 
+    // Remove nametag display for existing dragonslayers upon loading
+    if (entity.tags.contains('is_deceased_dragonslayer')) {
+        entity.customNameVisible = false;
+    }
+
     // Ignore non-natural spawns (spawners, tech farms, eggs) unless forced via command tag
     let isForced = entity.tags.contains('force_deceased_dragonslayer');
     let reason = event.spawnReason ? String(event.spawnReason) : '';
     if (reason && reason !== 'NATURAL' && !isForced) return;
 
-    // 1% chance (rare encounter)
-    if (Math.random() > 0.01 && !isForced) return;
+    // 0.2% chance (rare encounter, 1 in 500 zombies)
+    if (Math.random() > 0.002 && !isForced) return;
 
     // Mark as mutated
     entity.tags.add('is_deceased_dragonslayer');
@@ -376,7 +381,7 @@ EntityEvents.spawned('minecraft:zombie', event => {
 
     // Custom Name
     entity.customName = set.color(set.name).bold();
-    entity.customNameVisible = true;
+    entity.customNameVisible = false;
 
     // Equip full matching dragonscale armor + dragonbone sword
     entity.setItemSlot('head', Item.of(set.helmet));

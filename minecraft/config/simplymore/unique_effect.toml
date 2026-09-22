@@ -1,16 +1,31 @@
 # Don't change this! Version used to track needed updates.
 version = 0
+globalBlacklist = [
+    "simplyswords:magislam",
+    "simplyswords:fatal_flicker",
+    "simplymore:grasping",
+    "simplymore:mimicry_happening",
+    "simplymore:mistified",
+    "simplymore:rage"
+]
 
 [black_pearl]
 chance = 0.1
 cooldown = 180
+maxLevel = 5
+maxDuration = 600
+cannonballDamage = 15.0
+cannonballKnockback = 1.2
+cannonballRecoil = 1.5
+includeGlobalBlacklist = true
+blacklist = [
+    "simplymore:blessing"
+]
 
 [blade_of_the_grotesque]
 selfStunTime = 50
 auraStunTime = 50
 auraRange = 4.0
-selfStunnedArmorBuff = 10
-attackerStunnedArmorBuff = 10
 cooldown = 500
 selfSlow = -0.02
 maxAuraWard = 5
@@ -41,16 +56,18 @@ speedTime = 40
 explosionRange = 5
 explosionWindup = 60
 cooldown = 800
-glimmerstepAllyDamage = 0.8
 starlightTime = 800
 
 [grandfrost]
 chance = 0.25
 chillTime = 140
-blizzardRange = 5
-blizzardStrength = 3.5
-blizzardEffectTime = 200
+stunTime = 10
+radius = 6.5
+wallDuration = 500
 cooldown = 500
+knockUpDamage = 12.0
+knockUp = 0.25
+blizzardDamage = 4.0
 
 [great_slither]
 poisonTime = 90
@@ -65,12 +82,19 @@ cooldown = 300
 [lustrous_moxie]
 chance = 0.2
 cooldown = 400
-stunTime = 30
-range = 20
-aoe = 5
-knockbackStrength = 2.0
-targetDamage = 15.0
-aoeDamage = 10.0
+cancelCooldown = 200
+orbDuration = 2400
+maxOrbs = 3
+explosionDamage = 8.0
+dazzleDuration = 120
+minSpeed = 0.8
+maxSpeed = 2.0
+beamDuration = 40
+maxChargeTime = 40
+minSize = 1.0
+maxSize = 2.0
+glowDuration = 80
+beamDamage = 8
 
 [matterbane]
 chance = 0.2
@@ -82,6 +106,9 @@ cooldown = 1200
 typeCooldown = 400
 cooldown = 60
 windup = 10
+maximumCopyChance = 0.5
+copyChancePerItem = 0.1
+baseCopyChance = 0.15
 
 [mimicry.config]
 
@@ -217,14 +244,29 @@ disabled = false
 damage = 14.0
 extraDamage = 4.0
 
-[molten_flare]
-chance = 0.2
-radius = 4
-radiusEmpowered = 7
-activeAttackSpeedBonus = 0.6
-cooldown = 300
+[magmaseep]
+chance = 0.3
+smokeDuration = 100
+knockback = 2.0
+eruptionDamage = 8.0
+smokeRange = 1.25
+cooldown = 600
+lavaDamage = 5.0
+lavaRainDamage = 3.0
+lavaRainRange = 5.0
+ventDuration = 300
+ventExplosionDamage = 14.0
+ventExplosionKnockback = 2.0
 
 [ruyi_jingu_bang]
+chance = 0.3
+maxGrowth = 10
+maxExtraRange = 5.0
+maxSlamRange = 40.0
+maxSlamWidth = 5.0
+maxSlamDamage = 48.0
+maxSlamSundereredArmor = 80
+slamSunderedArmorDuration = 200
 cooldown = 300
 
 [myrmedge]
@@ -245,9 +287,13 @@ chance = 0.3
 knockbackStrength = 20.0
 
 [holylight]
-spreadChance = 0.15
+chance = 0.15
 blessingHeal = 4.0
 cooldown = 800
+includeGlobalBlacklist = true
+blacklist = [
+    "simplyswords:battle_fatigue"
+]
 
 [darksent]
 chance = 0.15
@@ -260,11 +306,16 @@ cooldown = 800
 chance = 0.25
 witherTime = 100
 
-[soul_foreseer]
-foreseenTime = 160
+[soulfracture]
+fragmentRadius = 6.0
+fragmentPassiveRotationSpeed = 0.64285713
+cooldown = 500
 chance = 0.3
-range = 20
-effectTime = 80
+fragmentHeal = 2.0
+stealFragmentDamage = 3.0
+returningFragmentDamage = 12.0
+blindDuration = 100
+stunDuration = 20
 
 [stasis]
 cooldown = 700
@@ -272,7 +323,9 @@ stunTime = 80
 chance = 0.2
 strikeDamage = 16.0
 strikeWindup = 60
-range = 4
+radius = 3.0
+strikes = 3
+delay = 10
 
 [the_blood_harvester]
 cooldown = 1800
@@ -307,7 +360,8 @@ dayDamage = 6.0
 chance = 0.2
 
 [vipers_call]
-vipersCallCooldown = 1200
+cooldown = 1200
+includeGlobalBlacklist = true
 blacklist = [  ]
 
 [brassturn]
@@ -334,7 +388,7 @@ crowBleedTime = 120
 crowBlindTime = 20
 crowAttackTimePerCrow = 30
 crowDamage = 2.3
-deathsEyrieCrowAttackHeal = 0.3
+crowHeal = 0.3
 
 [perforiscus]
 bloomTime = 500
@@ -359,20 +413,17 @@ explosionDamage = 10
 damageBuff = 0.6
 rangeBuff = 0.5
 
-[exedrill]
-cooldown = 250
-chance = 0.15
-trembleEffectTime = 80
-chanceMounted = 0.3
-trembleHeatAmount = 6
-hitHeatAmount = 1
-maxHeat = 25
-explosionDamage = 12.0
-rockDamage = 6.0
-rockSpeed = 0.4
-rockStunTime = 14
-rocksAmount = 5
+[moundshifter]
+cooldown = 300
+maxHeat = 12
+earthquakeDamage = 12.0
+blockDamage = 6.0
+blockSpeed = 2.0
+blockStunTime = 20
+blocks = 3
 earthquakeStrength = 1.8
+speedMultiplier = 10.0
+maxDrillTime = 200
 
 [culterex]
 cooldown = 400
@@ -381,3 +432,5 @@ extraDuration = 60
 chance = 0.35
 durationPerEffectLevel = 60
 range = 30
+includeGlobalBlacklist = true
+blacklist = [  ]

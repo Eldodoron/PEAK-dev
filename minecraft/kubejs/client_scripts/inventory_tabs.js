@@ -1,23 +1,5 @@
 let Minecraft = Java.loadClass('net.minecraft.client.Minecraft');
 
-function triggerKeybind(keyName) {
-    let mc = Minecraft.getInstance();
-    let mappings = mc.options.keyMappings;
-    for (let i = 0; i < mappings.length; i++) {
-        if (mappings[i].getName() === keyName) {
-            mc.setScreen(null);
-            try {
-                mappings[i].clickCount++;
-            } catch (e) {
-                try {
-                    mappings[i].setDown(true);
-                } catch (e2) {}
-            }
-            return;
-        }
-    }
-}
-
 NativeEvents.onEvent('net.neoforged.neoforge.client.event.ScreenEvent$Init$Post', event => {
     let screen = event.getScreen();
     let InventoryScreen = Java.loadClass('net.minecraft.client.gui.screens.inventory.InventoryScreen');
@@ -29,10 +11,21 @@ NativeEvents.onEvent('net.neoforged.neoforge.client.event.ScreenEvent$Init$Post'
         let guiLeft = Math.floor((width - 176) / 2);
         let guiTop = Math.floor((height - 166) / 2);
         
-        let apothBtn = Button.builder(Component.literal("A"), btn => {
-            triggerKeybind("key.apotheosis.open_world_tier_select");
-        }).bounds(guiLeft - 22, guiTop + 10, 20, 20).build();
-        
+        let builder = Button.builder(Component.literal("A"), btn => {
+            try {
+                let WorldTierSelectScreen = Java.loadClass('dev.shadowsoffire.apotheosis.client.WorldTierSelectScreen');
+                Minecraft.getInstance().setScreen(new WorldTierSelectScreen());
+            } catch (err) {
+                console.error("Failed to open Apotheosis World Tier Select Screen: " + err);
+            }
+        }).bounds(guiLeft - 22, guiTop + 10, 20, 20);
+
+        try {
+            let Tooltip = Java.loadClass('net.minecraft.client.gui.components.Tooltip');
+            builder.tooltip(Tooltip.create(Component.translatable("title.apotheosis.select_world_tier")));
+        } catch (err) {}
+
+        let apothBtn = builder.build();
         event.addListener(apothBtn);
     }
 });
