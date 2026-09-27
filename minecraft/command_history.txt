@@ -1,51 +1,3 @@
-/tp @s -912 ~ 752
-/locate structure cataclysm:abandoned_spire
-/tp @s 1920 ~ -2256
-/locate structure cataclysm:ancient_factory
-/tp @s 1952 ~ -5360
-/locate structure cataclysm:abandoned_temple
-/tp @s 3472 ~ -5200
-/locate structure cataclysm:ruined_citadel
-/locate structure cataclysm:sunken_city
-/tp @s 3552 ~ -7696
-/wits
-/summon block_factorys_bosses:kraken
-/kill
-/reload
-/time set day
-/ftbquests reload
-/summon cataclysm:ignis
-/summon cataclysm:the_leviathan
-/ct hand
-/summon minecraft:elder_guardian
-/summon cataclysm:ender_guardian
-/ct hand\
-/ct hand
-/summon cataclysm:the_harbinger
-/reload
-/setblock ~ ~ ~ minecraft:grass_block
-/summon cataclysm:netherite_ministrosity
-/summon cataclysm:netherite_monstrosity
-/ct hand
-/summon cataclysm:netherite_ministrosity
-/summon cataclysm:netherite_monstrosity
-/apoth reforge nadir:cataclysmic
-/ftbquests reload
-/summon minecraft:zombie
-/reload
-/locate biome minecraft:savanna
-/tp @s 1350 111 1050
-/peak greenscreen
-/reload
-/leaky status
-/leaky restore 1
-/leaky restore 1 minecraft:overworld
-/leaky deleteCluster 1
-/leaky deleteCluster 9
-/leaky deleteCluster 8
-/summon ghastscrashneoforge:falling_ghast
-/leaky deleteCluster
-/leaky deleteCluster 1
 /leaky status
 /leaky deleteCluster 4
 /chunky start minecraft:overworld square 460 -560 1200 1200
@@ -67,3 +19,51 @@
 /execute in allthemodium:the_beyond run tp Eldotest 0 70 0
 /execute in allthemodium:the_other run tp Eldotest 0 70 0
 /execute in irons_spellbooks:pocket_dimension run tp Eldotest 0 70 0
+/wits
+/effect give EldoTest tombstone:true_sight infinite
+/ars-glyph EldoTest ars_nouveau:glyph_animate_block
+/ars-tome ars_nouveau:tomes/alex_tome
+/ars-tome ars_nouveau:tomes/pranks_tome
+/ars-tome ars_nouveau:tomes/simulmancers_storm
+/ars-tome ars_nouveau:tomes/aurellia_tome
+/ars-tome ars_nouveau:tomes/plauged757_tome
+/chunky start minecraft:overworld square 0 0 500 500
+/chunky confirm
+/chunky start minecraft:overworld square 0 0 500 500
+/locate structure minecraft:ancient_city
+/tp @s -1056 ~ 1296
+/fill ~ ~ ~ -1000 ~ 1400 minecraft:slime_block
+/fill ~ ~ ~ -1000 ~ 1360 minecraft:slime_block
+/spark profiler start --timeout 150
+/fill ~ ~ ~ -1000 ~ 1400 minecraft:slime_block
+/fill ~ ~ ~ -1000 ~ 1360 minecraft:slime_block
+/tp @s -1056 ~ 1296
+/spark profiler start --timeout 100
+/time set day
+/time set night
+/time set day
+/spark profiler start --timeout 100
+/spark profiler start --timeout 150
+/ct dump_brackets
+/ct dump
+/ct dump wandering_trades
+/spark profiler start --timeout 150
+/summon alexsmobs:void_worm
+/spark profiler start --timeout 150
+/locate structure iceandfire:pixie_village
+/chunky start minecraft:overworld square 0 0 250 250
+/spark profiler start --timeout 600
+/spark profiler start --timeout 150
+/tp Eldodoron 1000 ~ 1000
+/spark profiler start --timeout 250
+/spark profiler --timeout 1200
+/ct hand
+/ct hand data
+/ct hand registry_name
+/ct hand tags
+/ct hand vanilla
+/ct hand attributes
+/spark profiler start --timeout 100
+/spark profiler start --timeout 120
+/spark profiler start --timeout 600
+/spark profiler start --timeout 1200

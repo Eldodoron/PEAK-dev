@@ -477,13 +477,13 @@
     "curseForgeHash": 4083784143,
     "modrinthHash": "d9664553d584f7478832768107e4dfe11c876857"
   },
-  "c2me-neoforge-mc1.21.1-0.3.0+alpha.0.93.jar": {
-    "jarName": "c2me-neoforge-mc1.21.1-0.3.0+alpha.0.93.jar",
+  "c2me-neoforge-mc1.21.1-0.4.0-alpha.0.122.jar": {
+    "jarName": "c2me-neoforge-mc1.21.1-0.4.0-alpha.0.122.jar",
     "modId": "c2me",
     "name": "Concurrent Chunk Management Engine",
-    "version": "0.3.0+alpha.0.93+1.21.1",
-    "curseForgeHash": 3435860482,
-    "modrinthHash": "942a6d51d4c475117418a6a36b46833a8128fbc7"
+    "version": "0.4.0-alpha.0.122+1.21.1",
+    "curseForgeHash": 2677533063,
+    "modrinthHash": "91a9a9b7791fb8a9642752ca6009553a0546c96e"
   },
   "caelus-neoforge-7.0.1+1.21.1.jar": {
     "jarName": "caelus-neoforge-7.0.1+1.21.1.jar",
@@ -588,14 +588,6 @@
     "version": "3.9",
     "curseForgeHash": 4099034055,
     "modrinthHash": "31706585eb19ef540d09fe23631f12489da004c5"
-  },
-  "Chunky-NeoForge-1.4.23.jar": {
-    "jarName": "Chunky-NeoForge-1.4.23.jar",
-    "modId": "chunky",
-    "name": "Chunky",
-    "version": "1.4.23",
-    "curseForgeHash": 233801764,
-    "modrinthHash": "ab0c74743a653020fe2dfc4986b43e893947f3e9"
   },
   "cinematic_respawn-1.21.1-neoforge-1.2.0.jar": {
     "jarName": "cinematic_respawn-1.21.1-neoforge-1.2.0.jar",
@@ -1003,13 +995,13 @@
     "curseForgeHash": 3308218808,
     "modrinthHash": "79dab35beb45bd1378d078ae913890bf87142710"
   },
-  "DistantHorizons-3.2.0-b-1.21.1-fabric-neoforge.jar": {
-    "jarName": "DistantHorizons-3.2.0-b-1.21.1-fabric-neoforge.jar",
+  "DistantHorizons-3.3.2-1.21.1-fabric-neoforge.jar": {
+    "jarName": "DistantHorizons-3.3.2-1.21.1-fabric-neoforge.jar",
     "modId": "distanthorizons",
     "name": "Distant Horizons",
-    "version": "3.2.0-b",
-    "curseForgeHash": 4200228399,
-    "modrinthHash": "df25e8cfe06917963778723a1d9a60610dd21bec"
+    "version": "3.3.2",
+    "curseForgeHash": 798029569,
+    "modrinthHash": "d18b0829416ec6948102524b6e913e5bc73ae402"
   },
   "DnDesires-1.21.1-2.3a-BETA.jar": {
     "jarName": "DnDesires-1.21.1-2.3a-BETA.jar",
@@ -1443,13 +1435,13 @@
     "curseForgeHash": 1661329890,
     "modrinthHash": "f91a593378209f527fe81e731ca60fe8f8da2319"
   },
-  "geckolib-neoforge-1.21.1-4.9.2.jar": {
-    "jarName": "geckolib-neoforge-1.21.1-4.9.2.jar",
+  "geckolib-neoforge-1.21.1-4.9.3.jar": {
+    "jarName": "geckolib-neoforge-1.21.1-4.9.3.jar",
     "modId": "geckolib",
     "name": "GeckoLib 4",
-    "version": "4.9.2",
-    "curseForgeHash": 3926185248,
-    "modrinthHash": "14c64013cadee7d28f3685f94350f9a4d2ec6d86"
+    "version": "4.9.3",
+    "curseForgeHash": 3402830604,
+    "modrinthHash": "5cfe835472a5c5457ae9ac192d9d7b317454d5ac"
   },
   "ghastscrash-neoforge-1.21.1.jar": {
     "jarName": "ghastscrash-neoforge-1.21.1.jar",
@@ -1992,13 +1984,13 @@
     "curseForgeHash": 1666655641,
     "modrinthHash": "9fd5fa9076044180ae7f51672de74669196ec72e"
   },
-  "LocatorBar-neoforge-1.2.1+1.21.1.jar": {
-    "jarName": "LocatorBar-neoforge-1.2.1+1.21.1.jar",
+  "LocatorBar-neoforge-1.2.2+1.21.1.jar": {
+    "jarName": "LocatorBar-neoforge-1.2.2+1.21.1.jar",
     "modId": "locatorbar",
     "name": "Locator Bar",
-    "version": "1.2.1",
-    "curseForgeHash": 2399083219,
-    "modrinthHash": "cbc6594b61ca8940b3e1d299496d7cb9f6d2d268"
+    "version": "1.2.2",
+    "curseForgeHash": 349439452,
+    "modrinthHash": "9d8b9375b32ce84d81e110a1ca673d6284c04eff"
   },
   "lodestone-1.21.1-1.8.2.jar": {
     "jarName": "lodestone-1.21.1-1.8.2.jar",

@@ -59,5 +59,6 @@ scrapped_tools/performance_audit/
 minecraft/config/jei/world/
 minecraft/config/ars_nouveau/search_index/
 data/
+!minecraft/kubejs/data/
 
 

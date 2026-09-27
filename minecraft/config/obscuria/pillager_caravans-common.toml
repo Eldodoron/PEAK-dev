@@ -8,7 +8,7 @@ enablePillagerCaravans = true
 enableEncounterToast = true
 # Default: 24000
 # Range: > 0
-worldAgeRequired = 24000
+worldAgeRequired = 144000
 # Default: 1200
 # Range: > 0
 spawnAttemptCooldown = 1200
@@ -44,10 +44,10 @@ largeCaravanSpawnCooldown = 144000
 largeCaravanDespawnDelay = 36000
 # Default: 32
 # Range: > 0
-spawnDistance = 32
+spawnDistance = 64
 # Default: 32
 # Range: > 0
-spawnDistanceVariance = 32
+spawnDistanceVariance = 48
 # Default: 4
 # Range: 0 ~ 15
 maxBlockLight = 4

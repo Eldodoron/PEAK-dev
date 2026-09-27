@@ -11,7 +11,9 @@
   "entityRenderModeOverrides": {},
   "entityPhysicsModPatchOverrides": {},
   "entityVanillaHologramOverrides": {},
-  "modelsNamesDisabled": [],
+  "modelsNamesDisabled": [
+    "head_wither_skeleton"
+  ],
   "allowEBEModConfigModify": true,
   "animationLODDistance": 20,
   "retainDetailOnLowFps": true,

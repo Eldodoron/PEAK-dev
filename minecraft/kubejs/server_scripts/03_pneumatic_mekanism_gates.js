@@ -200,18 +200,6 @@ ServerEvents.recipes(event => {
     // and IE/Create components
     // ==========================================
 
-    // --- BASIC CONTROL CIRCUIT (Mekanism's fundamental component) ---
-    // Now requires PLASTIC from PneumaticCraft!
-    event.remove({ output: 'mekanism:basic_control_circuit' });
-    event.shaped('mekanism:basic_control_circuit', [
-        'PPP',
-        'ROR',
-        'PPP'
-    ], {
-        P: 'pneumaticcraft:plastic',
-        R: 'minecraft:redstone',
-        O: 'mekanism:ingot_osmium'
-    });
 
     // Metallurgic Infuser (Mekanism's gate machine)
     // Requires IE Treated Wood + PneumaticCraft components
@@ -280,45 +268,6 @@ ServerEvents.recipes(event => {
         C: 'mekanism:steel_casing'
     });
 
-    // --- ADVANCED CONTROL CIRCUIT ---
-    // Requires Alex's Caves Scarlet Neodymium!
-    event.remove({ output: 'mekanism:advanced_control_circuit' });
-    event.shaped('mekanism:advanced_control_circuit', [
-        'PPP',
-        'NAN',
-        'PPP'
-    ], {
-        P: 'pneumaticcraft:plastic',
-        N: 'alexscaves:scarlet_neodymium_ingot',
-        A: 'mekanism:alloy_infused'
-    });
-
-    // --- ELITE CONTROL CIRCUIT ---
-    // Requires Ender IO components (forward gate to Era 5)
-    event.remove({ output: 'mekanism:elite_control_circuit' });
-    event.shaped('mekanism:elite_control_circuit', [
-        'PPP',
-        'EAE',
-        'PPP'
-    ], {
-        P: 'pneumaticcraft:plastic',
-        E: 'minecraft:ender_pearl',
-        A: 'mekanism:alloy_reinforced'
-    });
-
-    // --- ULTIMATE CONTROL CIRCUIT ---
-    // Recipe uses current era materials
-    event.remove({ output: 'mekanism:ultimate_control_circuit' });
-    event.shaped('mekanism:ultimate_control_circuit', [
-        'DPD',
-        'EAE',
-        'DPD'
-    ], {
-        D: '#c:gems/diamond',
-        P: 'pneumaticcraft:plastic',
-        E: 'mekanism:elite_control_circuit',
-        A: 'mekanism:alloy_atomic'
-    });
 
     // ==========================================
     // SECTION 4: UNDERGARDEN INTEGRATION

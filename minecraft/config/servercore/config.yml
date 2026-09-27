@@ -32,7 +32,7 @@ dynamic:
   # Note: adding view / simulation distance here will override their value in server.properties.
   default-values:
     MOBCAP_PERCENTAGE: 100
-    CHUNK_TICK_DISTANCE: 10
+    CHUNK_TICK_DISTANCE: 6
 
   # The settings that will be decreased when the server is overloaded, in the specified order.
   # You can remove settings from the list that you don't want to be dynamically adjusted.
@@ -42,14 +42,14 @@ dynamic:
   # ► interval = The amount of seconds between each check to increase or decrease.
   dynamic-settings:
     - setting: 'CHUNK_TICK_DISTANCE'
-      max: 10
-      min: 6
+      max: 6
+      min: 4
       increment: 1
       interval: 10
 
     - setting: 'SIMULATION_DISTANCE'
-      max: 10
-      min: 6
+      max: 6
+      min: 5
       increment: 1
       interval: 15
 
@@ -225,6 +225,7 @@ activation-range:
   villager-work-immunity-for: 20
   # A list of entity types that should be excluded from activation range checks.
   excluded-entity-types:
+    - 'minecraft:bee'
     - 'minecraft:warden'
     - 'minecraft:ghast'
     - 'minecraft:hopper_minecart'
@@ -355,6 +356,11 @@ activation-range:
       entity-matcher:
         - 'typeof:animal'
         - 'typeof:ambient'
+        - 'alexsmobs:hummingbird'
+        - 'alexsmobs:crow'
+        - 'alexsmobs:blue_jay'
+        - 'alexsmobs:seagull'
+        - 'alexsmobs:cockroach'
 
     - name: 'creature'
       activation-range: 24

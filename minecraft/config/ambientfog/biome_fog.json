@@ -120,7 +120,7 @@
     "nightRadius": 30.0
   },
   "clouds": {
-    "enabled": true,
+    "enabled": false,
     "renderNightClouds": true,
     "vanillaShading": true,
     "storeModeCloud": true,

@@ -1,0 +1,35 @@
+{
+    "anvil_cost": 2,
+    "description": {
+        "color": "yellow",
+        "translate": "enchantment.kubejs.concussive_impact"
+    },
+    "effects": {
+        "minecraft:damage": [
+            {
+                "effect": {
+                    "type": "minecraft:add",
+                    "value": {
+                        "type": "minecraft:linear",
+                        "base": 1.5,
+                        "per_level_above_first": 1.0
+                    }
+                }
+            }
+        ]
+    },
+    "max_cost": {
+        "base": 25,
+        "per_level_above_first": 10
+    },
+    "max_level": 5,
+    "min_cost": {
+        "base": 5,
+        "per_level_above_first": 10
+    },
+    "slots": [
+        "mainhand"
+    ],
+    "supported_items": "#kubejs:enchantable/concussive_weapons",
+    "weight": 10
+}

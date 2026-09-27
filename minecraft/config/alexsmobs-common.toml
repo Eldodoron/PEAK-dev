@@ -202,11 +202,11 @@
 	#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 	# Default: 19
 	# Range: 0 ~ 1000
-	hummingbirdSpawnWeight = 19
+	hummingbirdSpawnWeight = 6
 	#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 	# Default: 1
 	# Range: > 0
-	hummingbirdSpawnRolls = 1
+	hummingbirdSpawnRolls = 2
 	#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 	# Default: 2
 	# Range: 0 ~ 1000
@@ -350,7 +350,7 @@
 	#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 	# Default: 0
 	# Range: > 0
-	cockroachSpawnRolls = 0
+	cockroachSpawnRolls = 1
 	#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 	# Default: 10
 	# Range: 0 ~ 1000
@@ -394,11 +394,11 @@
 	#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 	# Default: 10
 	# Range: 0 ~ 1000
-	crowSpawnWeight = 10
+	crowSpawnWeight = 6
 	#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 	# Default: 0
 	# Range: > 0
-	crowSpawnRolls = 0
+	crowSpawnRolls = 1
 	#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 	# Default: 20
 	# Range: 0 ~ 1000
@@ -562,11 +562,11 @@
 	#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 	# Default: 21
 	# Range: 0 ~ 1000
-	seagullSpawnWeight = 21
+	seagullSpawnWeight = 8
 	#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 	# Default: 0
 	# Range: > 0
-	seagullSpawnRolls = 0
+	seagullSpawnRolls = 1
 	#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 	# Default: 20
 	# Range: 0 ~ 1000
@@ -834,11 +834,11 @@
 	#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 	# Default: 16
 	# Range: 0 ~ 1000
-	blueJaySpawnWeight = 16
+	blueJaySpawnWeight = 6
 	#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 	# Default: 0
 	# Range: > 0
-	blueJaySpawnRolls = 0
+	blueJaySpawnRolls = 1
 	#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 	# Default: 29
 	# Range: 0 ~ 1000

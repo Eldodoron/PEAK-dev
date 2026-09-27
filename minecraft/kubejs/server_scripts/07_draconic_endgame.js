@@ -34,19 +34,6 @@ ServerEvents.recipes(event => {
         'minecraft:blaze_powder'
     ], 'iceandfire:dragonbone');
 
-    // --- DRAGON BLOOD MIXING ---
-    // Dragon blood + metals in Create's Mixer = enhanced alloys
-
-    // Lightning Dragon Blood + Redstone = Supercharged circuits
-    event.recipes.create.mixing(
-        '2x mekanism:advanced_control_circuit',
-        [
-            'mekanism:basic_control_circuit',
-            'mekanism:basic_control_circuit',
-            'iceandfire:lightning_dragon_blood',
-            'minecraft:redstone_block'
-        ]
-    ).superheated();
 
     // ==========================================
     // SECTION 2: ALLTHEMODIUM PROCESSING

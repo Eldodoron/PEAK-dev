@@ -19,5 +19,13 @@
   "enchantment.nova_structures.shulker_miniboss.desc": "An innate trait used by the Shulker Miniboss.",
   "enchantment.nova_structures.traveler.desc": "Increases movement speed when traveling over long distances.",
   "enchantment.nova_structures.wax_wings.desc": "Grants temporary flight that degrades when exposed to heat or sunlight.",
-  "enchantment.nova_structures.wither_coated.desc": "Applies the Wither effect to attacked enemies."
+  "enchantment.nova_structures.wither_coated.desc": "Applies the Wither effect to attacked enemies.",
+  "enchantment.kubejs.subjugation": "Subjugation",
+  "enchantment.kubejs.subjugation.desc": "Allows cages to capture and transport villagers and traders.",
+  "enchantment.kubejs.concussive_impact": "Concussive Impact",
+  "enchantment.kubejs.concussive_impact.desc": "Deals extra damage and slows targets with a resounding clang.",
+  "enchantment.kubejs.midas_touch": "Midas Touch",
+  "enchantment.kubejs.midas_touch.desc": "Transmutes mined stone into gold nuggets.",
+  "enchantment.kubejs.soul_siphon": "Soul Siphon",
+  "enchantment.kubejs.soul_siphon.desc": "Grants absorption hearts when striking enemies."
 }

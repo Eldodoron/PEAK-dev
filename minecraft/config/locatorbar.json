@@ -27,5 +27,6 @@
   "showDeathWaypoint": true,
   "waypointsScale": 1.0,
   "maxVisibleWaypoints": 16,
-  "waypoints": {}
+  "waypoints": {},
+  "unsupportedVersionWarningShown": false
 }
