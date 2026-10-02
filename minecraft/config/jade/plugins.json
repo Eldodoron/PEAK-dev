@@ -55,6 +55,13 @@
   "apothic_spawners": {
     "spawner": true
   },
+  "jade_access": {
+    "held_item": true,
+    "sign": true,
+    "block": true,
+    "entity": true,
+    "entity_variant": true
+  },
   "ftbquests": {
     "barrier": true
   },
@@ -62,6 +69,14 @@
     "extreme_smithing": true,
     "crafting_table": true,
     "compressor": true
+  },
+  "pneumaticcraft": {
+    "pneumatic": true,
+    "tube_module": true,
+    "entity": true,
+    "redstone": true,
+    "camo": true,
+    "semiblock": true
   },
   "immersiveengineering": {
     "multiblock_icon": true
@@ -77,14 +92,26 @@
     "block_properties": false,
     "mod_name": true
   },
-  "adorablehamsterpets": {
-    "hamster_debug_info": true,
-    "hamster_bed_info": true,
-    "wild_bush_tooltips": true,
-    "hamster_genetics": true
+  "apotheosis": {
+    "adventure": true
   },
   "allthemodium": {
     "teleport_pad": true
+  },
+  "evolution": {
+    "jade": true
+  },
+  "iceandfire": {
+    "dragon_egg_entity": true,
+    "multipart": true,
+    "dragon": true,
+    "dragon_egg_block": true
+  },
+  "apothic_enchanting": {
+    "ench": true
+  },
+  "balm": {
+    "jade": true
   },
   "ae2": {
     "part_icon": true,
@@ -97,6 +124,9 @@
     "power_storage": true,
     "crafting_monitor": true,
     "part_name": true
+  },
+  "ars_nouveau": {
+    "mob_jar": true
   },
   "enderio": {
     "soul_bound": true
@@ -111,79 +141,24 @@
   "quark": {
     "oretoise_eating_cooldown": true
   },
+  "twilightforest": {
+    "drying_rack": true,
+    "chiseled_bookshelf_spawner": true,
+    "quest_ram_wool": true
+  },
   "reliquary": {
     "pedestal": true,
     "altar": true,
     "mortar": true,
     "cauldron": true
   },
+  "supplementaries": {
+    "hat_stand": true
+  },
   "waystones": {
     "waystone": true
   },
   "dynamic_difficulty": {
     "level": true
-  },
-  "jade_access": {
-    "held_item": true,
-    "sign": true,
-    "block": true,
-    "entity": true,
-    "entity_variant": true
-  },
-  "pneumaticcraft": {
-    "pneumatic": true,
-    "tube_module": true,
-    "entity": true,
-    "redstone": true,
-    "camo": true,
-    "semiblock": true
-  },
-  "apotheosis": {
-    "adventure": true
-  },
-  "evolution": {
-    "jade": true
-  },
-  "vampirism": {
-    "altar_pillar": true,
-    "weapon_table": true,
-    "player_faction.lord_level_number": false,
-    "alchemy_table": true,
-    "entity_faction": true,
-    "entity_blood.show_fraction": false,
-    "entity_blood.max_for_render": 40,
-    "potion_table": true,
-    "totem": true,
-    "research_table": true,
-    "entity_blood.icon_per_line": 10,
-    "player_faction": true,
-    "entity_blood": true,
-    "altar_of_infusion": true,
-    "garlic_beacon": true,
-    "pedestal_charging": true,
-    "altar_of_inspiration": true
-  },
-  "iceandfire": {
-    "dragon_egg_entity": true,
-    "multipart": true,
-    "dragon": true,
-    "dragon_egg_block": true
-  },
-  "apothic_enchanting": {
-    "ench": true
-  },
-  "balm": {
-    "jade": true
-  },
-  "ars_nouveau": {
-    "mob_jar": true
-  },
-  "twilightforest": {
-    "drying_rack": true,
-    "chiseled_bookshelf_spawner": true,
-    "quest_ram_wool": true
-  },
-  "supplementaries": {
-    "hat_stand": true
   }
 }

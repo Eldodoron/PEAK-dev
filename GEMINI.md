@@ -41,3 +41,25 @@
 - **Mandatory Table IDs on Random Rewards:** Every reward with `type: "random"` **MUST** declare a valid `table_id: <long>L` referencing an existing reward table in `reward_tables/*.snbt`. Never create random rewards without `table_id`, as FTB Quests will fallback to a broken red die that drops nothing.
 - **Explicit Reward Table Metadata:** All reward table `.snbt` files in `reward_tables/` must include explicit `title` and `icon` properties (e.g., `icon: "farmersdelight:cabbage"`) so they render proper mod sprites in the quest reward UI.
 - **Quest Icon Syntax:** Declare quest-level icons as standard string identifiers (`icon: "modid:item_name"`), rather than compound objects. Checkmark tasks granting free rewards must have their parent quest icon explicitly set to the gift item.
+
+## 8. EntityJS & Custom Mob Invariants (NeoForge 1.21.1)
+- **Prefer EntityJS over Vanilla Mob Hacking:** When introducing a custom mob with unique AI, weaponless melee, or distinct scaling, NEVER hack a vanilla entity via NBT tags and tick command loops. Use `StartupEvents.registry('entity_type', ...)` with `entityjs:mob` (or `irons_spells_js:spellcasting`).
+- **Strict Lifecycle Separation (Startup vs. Server):**
+  - `startup_scripts/` is STRICTLY for static entity definitions: type registration, dimensions (`.sized`), attributes, GeckoLib model/texture/layer bindings, and base sounds.
+  - NEVER place dynamic combat state machines, phase changes, enrage timers, or complex AI transitions in startup scripts (which cannot be hot-reloaded). Place all dynamic combat logic in `server_scripts/` (`ServerEvents.tick`, `EntityEvents.afterHurt`) to allow instant live reloading via `/kubejs reload server_scripts`.
+- **Accurate Rhino / KubeJS 1.21 NeoForge Syntax:**
+  - DamageSource Lookups: NEVER call `source.getEntity()`. Use `source.actual || source.entity || source.player`.
+  - Hurt Events: `EntityEvents.afterHurt` and `EntityEvents.beforeHurt` do NOT accept entity type strings. Always use untargeted `EntityEvents.afterHurt(event => { if (event.entity?.type !== 'modid:name') return; ... })`.
+  - Sound hooks: Use `builder.setAmbientSound(...)`, `builder.setDeathSound(...)`, and `builder.setHurtSound(ctx => ...)` (methods like `ambientSound(...)` do not exist).
+  - Emissive layers: Use `builder.newGlowingGeoLayer(layer => { layer.textureResource(...) })` for glowing eyes/markings.
+  - Combat hooks: In `builder.onHurtTarget(ctx => ...)`, `ctx.entity` is the mob and `ctx.targetEntity` is the victim.
+  - Daylight checks: Use `entity.getHeadArmorItem().isEmpty()` to inspect helmets (never string slots).
+  - Animation Controller Returns: In `addAnimationController`, `IAnimationPredicateJS.test(event)` expects a primitive `boolean`. Call `event.thenLoop(...)` as a statement and explicitly `return true`.
+- **Multi-Layer Phase Fail-Safes:** Never rely on a single event to switch mob phases or enrage states. Implement engine-level fail-safes in `ServerEvents.tick` inspecting health reduction (`currentHp < lastHp`), `entity.hurtTime > 0`, and `entity.lastHurtByMobTimestamp`.
+- **Continuous Evasion AI:** Disengage/fleeing states must never stop at a fixed coordinate if pursued. Dynamically evaluate player proximity (`pDist < 12.0`) and line-of-sight (`hasBlockObstruction`); continuously recalculate evasion vectors until the entity is both behind solid cover and outside pursuit range.
+- **Sunlight Gap Raycasting:** When building sun-vulnerable mobs, check for daylight exposure along the entire line-of-sight vector between mob and target (`hasSunlitGapBetween`) to prevent suicidal charges into sunlight.
+
+## 9. Paxi & Resource Pack Load Ordering
+- **No Ad-Hoc Zips in Paxi:** NEVER generate loose or temporary `.zip` files directly inside `config/paxi/resourcepacks/` for KubeJS assets. Place all custom items, entity textures, emissive maps, and models inside `minecraft/kubejs/assets/`.
+- **Compat Pack Precedence:** In `config/paxi/resourcepack_load_order.json`, compatibility patches (e.g. `Whimscape_x_FreshAnimations`) MUST be declared *after* the base animation pack (`FreshAnimations`) so that Minecraft loads them *above* the base pack in the resource stack.
+

@@ -26,10 +26,10 @@ ServerEvents.recipes(event => {
 
 // RANGED DAMAGE REBALANCE
 /*
-EntityEvents.hurt(event => {
+EntityEvents.beforeHurt(event => {
     if (event.source.type === 'arrow' && event.source.actual) {
         if (event.source.actual.isPlayer()) {
-            event.amount = event.amount * 1.5;
+            event.damage = event.damage * 1.5;
         }
     }
 });

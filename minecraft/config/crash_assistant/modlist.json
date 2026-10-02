@@ -1195,6 +1195,14 @@
     "curseForgeHash": 2247657042,
     "modrinthHash": "420d0006dbc0a20b1c2dd0b3c7c20ddb5cc51fcf"
   },
+  "entityjs-1.5.0.jar": {
+    "jarName": "entityjs-1.5.0.jar",
+    "modId": "entityjs",
+    "name": "EntityJS",
+    "version": "1.5.0",
+    "curseForgeHash": 2012839229,
+    "modrinthHash": "f3b58ad02bf9ca5db58ce1a8401eb561d63d855e"
+  },
   "ess_requiem-0.1.6.jar": {
     "jarName": "ess_requiem-0.1.6.jar",
     "modId": "ess_requiem",
@@ -1202,6 +1210,13 @@
     "version": "0.1.6",
     "curseForgeHash": 2383657255,
     "modrinthHash": "1488c28deb9b5fe947926bf5959379ecd814e0ba"
+  },
+  "Essential_1-5-0-1_neoforge_1-21-1.jar": {
+    "jarName": "Essential_1-5-0-1_neoforge_1-21-1.jar",
+    "modId": "essential-container",
+    "name": "Essential",
+    "curseForgeHash": 3248765085,
+    "modrinthHash": "bcdade1307e9f927d6e7544b798dbddb613704c5"
   },
   "EvoLoginTimeout-NeoForge-1.21.1-1.0.9.jar": {
     "jarName": "EvoLoginTimeout-NeoForge-1.21.1-1.0.9.jar",

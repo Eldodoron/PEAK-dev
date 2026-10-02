@@ -259,7 +259,7 @@ threadPoolPriorityPreset = "default"
 		# (Default: true) Whether to modify maximum view distance
 		enabled = "default"
 		# ================================================================
-		# (Default: 67) Max render distance allowed in game options
+		# (Default: 63) Max render distance allowed in game options
 		maxViewDistance = "default"
 		# ================================================================
 		# (Default: true) Enable client-side support for extended render distance protocol (c2me:ext_render_distance_v1)

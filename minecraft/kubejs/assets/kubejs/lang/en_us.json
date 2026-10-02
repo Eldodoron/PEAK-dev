@@ -27,5 +27,11 @@
   "enchantment.kubejs.midas_touch": "Midas Touch",
   "enchantment.kubejs.midas_touch.desc": "Transmutes mined stone into gold nuggets.",
   "enchantment.kubejs.soul_siphon": "Soul Siphon",
-  "enchantment.kubejs.soul_siphon.desc": "Grants absorption hearts when striking enemies."
+  "enchantment.kubejs.soul_siphon.desc": "Grants absorption hearts when striking enemies.",
+  "entity.kubejs.vampillager": "Vampillager",
+  "item.kubejs.vampillager_spawn_egg": "Vampillager Spawn Egg",
+  "item.kubejs.vampire_fang": "Vampire Fang",
+  "block.kubejs.void_teleport_pad": "Void Teleport Pad",
+  "item.kubejs.void_teleport_pad": "Void Teleport Pad"
 }
+

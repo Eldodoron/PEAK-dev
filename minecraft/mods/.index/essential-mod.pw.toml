@@ -1,0 +1,18 @@
+filename = 'Essential_1-5-0-1_neoforge_1-21-1.jar'
+name = 'Essential Mod'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Essential 1.5.0.1 [Neoforge 1.21.1]'
+
+[download]
+hash = 'bcdade1307e9f927d6e7544b798dbddb613704c5'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8905508
+project-id = 546670

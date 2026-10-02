@@ -1,52 +1,3 @@
-/leaky status
-/leaky deleteCluster 4
-/chunky start minecraft:overworld square 460 -560 1200 1200
-/locate biome deeperdarker:blooming_caverns
-/locate biome minecraft:sparse_jungle
-/tp @s -371 121 -1507
-/level set level 40
-/level set level 40 Eldotest
-/relics maximize
-/spark profiler start --timeout 100
-/spark profiler start --timeout 200
-/execute in minecraft:overworld run tp Eldotest 0 70 0
-/spark profiler start --timeout 200
-/apoth reforge nadir:esoteric
-/apoth reforge nadir:cataclysmic
-/effect give Eldotest tombstone:true_sight infinite
-/execute in ae2:spatial_storage run tp Eldotest 0 70 0
-/execute in allthemodium:mining run tp Eldotest 0 70 0
-/execute in allthemodium:the_beyond run tp Eldotest 0 70 0
-/execute in allthemodium:the_other run tp Eldotest 0 70 0
-/execute in irons_spellbooks:pocket_dimension run tp Eldotest 0 70 0
-/wits
-/effect give EldoTest tombstone:true_sight infinite
-/ars-glyph EldoTest ars_nouveau:glyph_animate_block
-/ars-tome ars_nouveau:tomes/alex_tome
-/ars-tome ars_nouveau:tomes/pranks_tome
-/ars-tome ars_nouveau:tomes/simulmancers_storm
-/ars-tome ars_nouveau:tomes/aurellia_tome
-/ars-tome ars_nouveau:tomes/plauged757_tome
-/chunky start minecraft:overworld square 0 0 500 500
-/chunky confirm
-/chunky start minecraft:overworld square 0 0 500 500
-/locate structure minecraft:ancient_city
-/tp @s -1056 ~ 1296
-/fill ~ ~ ~ -1000 ~ 1400 minecraft:slime_block
-/fill ~ ~ ~ -1000 ~ 1360 minecraft:slime_block
-/spark profiler start --timeout 150
-/fill ~ ~ ~ -1000 ~ 1400 minecraft:slime_block
-/fill ~ ~ ~ -1000 ~ 1360 minecraft:slime_block
-/tp @s -1056 ~ 1296
-/spark profiler start --timeout 100
-/time set day
-/time set night
-/time set day
-/spark profiler start --timeout 100
-/spark profiler start --timeout 150
-/ct dump_brackets
-/ct dump
-/ct dump wandering_trades
 /spark profiler start --timeout 150
 /summon alexsmobs:void_worm
 /spark profiler start --timeout 150
@@ -67,3 +18,52 @@
 /spark profiler start --timeout 120
 /spark profiler start --timeout 600
 /spark profiler start --timeout 1200
+/tp thehakai7
+/wits
+/tp thehakai7
+/wits
+/tp thehakai7
+/tp thehakai7 Eldodoron
+/tp thehakai7
+/summon vindicator ~ ~ ~ {Tags:["force_vampillager"],CustomName:'"Vampillager"'}
+/reload
+/summon vindicator ~ ~ ~ {Tags:["force_vampillager"],CustomName:'"Vampillager"'}
+/tick freeze
+/summon vindicator ~ ~ ~ {Tags:["force_vampillager"],CustomName:'"Vampillager"'}
+/summon minecraft:evoker
+/summon minecraft:vindicator
+/summon minecraft:pillager
+/summon minecraft:vex
+/summon minecraft:cow
+/summon minecraft:pig
+/summon minecraft:piglin
+/kill @a
+/tick unfreeze
+/kill @e
+/summon vindicator ~ ~ ~ {Tags:["force_vampillager"],CustomName:'"Vampillager"'}
+/effect give Eldodoron minecraft:saturation infinite 3
+/summon vindicator ~ ~ ~ {Tags:["force_vampillager"],CustomName:'"Vampillager"'}
+/tick freeze
+/summon kubejs:vampillager
+/reload
+/summon kubejs:vampillager
+/reload
+/summon kubejs:vampillager
+/give @a kubejs:sanctuary_pad
+/give @a allthemodium:teleport_pad
+/give @a kubejs:sanctuary_pad
+/execute in minecraft:the_end run tp Eldodoron 1 50 1
+/effect give Eldodoron minecraft:saturation infinite 3
+/kubejs reload server-scripts
+/time set day
+/weather rain
+/give Eldodoron kubejs:void_teleport_pad 64
+/reload
+/give @a allthemodium:vibranium_pickaxe
+/reload
+/effect give Eldodoron minecraft:saturation infinite 5
+/summon kubejs:vampillager
+/kubejs reload server-scripts
+/effect give Eldodoron minecraft:saturation infinite 5
+/kubejs reload server-scripts
+/effect give Eldodoron minecraft:saturation infinite 5

@@ -92,7 +92,7 @@
   "fogDensity": 0.3,
   "transitionColorTau": 0.9985866,
   "transitionDistanceTau": 0.9985866,
-  "debugBiomeOnly": true,
+  "debugBiomeOnly": false,
   "sky": {
     "enabled": true,
     "renderNightSky": true,
@@ -120,7 +120,7 @@
     "nightRadius": 30.0
   },
   "clouds": {
-    "enabled": false,
+    "enabled": true,
     "renderNightClouds": true,
     "vanillaShading": true,
     "storeModeCloud": true,
@@ -182,13 +182,13 @@
     "thunderHazeColor": 1184020,
     "fogNightColorDarkening": 1.0,
     "hazeNightColorDarkening": 1.0,
-    "cloudNightColorDarkening": 0.89916295,
+    "cloudNightColorDarkening": 0.5986394,
     "rain": {
       "fog": 0.0,
       "sky": 0.0,
       "clouds": 0.0,
       "haze": 0.0,
-      "fogStart": 1000.0,
+      "fogStart": 0.0,
       "fogEnd": 1000.0
     },
     "thunder": {
@@ -2724,11 +2724,11 @@
     },
     "minecraft:the_void": {
       "enabled": true,
-      "fogColor": 10978349,
-      "skyColor": 9881850,
+      "fogColor": 0,
+      "skyColor": 0,
       "cloudColor": 16777215,
       "nightSkyColor": 0,
-      "nightFogColor": 3820902,
+      "nightFogColor": 0,
       "nightCloudColor": 526361,
       "intensity": 1.0,
       "fogDensity": 1.0,
@@ -2739,8 +2739,8 @@
       "nightFogDensity": 1.0,
       "haze": {
         "enabled": true,
-        "color": 15398143,
-        "nightColor": 3866805,
+        "color": 0,
+        "nightColor": 0,
         "strength": 3.0,
         "bottomY": -64.0,
         "middleY": -5.0,
@@ -3645,7 +3645,7 @@
     "allthemodium:the_beyond": {
       "enabled": true,
       "fogColor": 12638463,
-      "skyColor": 7254527,
+      "skyColor": 16777215,
       "cloudColor": 16777215,
       "nightSkyColor": 0,
       "nightFogColor": 3820902,
@@ -3659,8 +3659,8 @@
       "nightFogDensity": 1.0,
       "haze": {
         "enabled": true,
-        "color": 15398143,
-        "nightColor": 3866805,
+        "color": 16777215,
+        "nightColor": 16777215,
         "strength": 2.0,
         "bottomY": -64.0,
         "middleY": -5.0,

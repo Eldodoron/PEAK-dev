@@ -31,6 +31,11 @@ minecraft/supportercache.json
 minecraft/options.txt
 minecraft/patchouli_data.json
 minecraft/ponders_watched.json
+minecraft/*ETF*skin_printout*
+minecraft/essential/
+minecraft/servers.essential.dat
+scrapped_tools/*_tmp*
+
 
 # Prism Launcher
 instance.cfg

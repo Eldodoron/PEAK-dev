@@ -146,10 +146,10 @@ BlockEvents.rightClicked(event => {
 // ==========================================
 // 2. CONCUSSIVE IMPACT & 4. SOUL SIPHON
 // ==========================================
-EntityEvents.hurt(event => {
+EntityEvents.afterHurt(event => {
     let source = event.source;
     if (!source) return;
-    let attacker = source.actual;
+    let attacker = source.actual || source.entity;
     let victim = event.entity;
     if (!attacker || !victim) return;
 
