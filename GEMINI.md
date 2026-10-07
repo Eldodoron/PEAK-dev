@@ -63,3 +63,7 @@
 - **No Ad-Hoc Zips in Paxi:** NEVER generate loose or temporary `.zip` files directly inside `config/paxi/resourcepacks/` for KubeJS assets. Place all custom items, entity textures, emissive maps, and models inside `minecraft/kubejs/assets/`.
 - **Compat Pack Precedence:** In `config/paxi/resourcepack_load_order.json`, compatibility patches (e.g. `Whimscape_x_FreshAnimations`) MUST be declared *after* the base animation pack (`FreshAnimations`) so that Minecraft loads them *above* the base pack in the resource stack.
 
+## 10. Direct In-Chat Visual Previews & Asset Review Workflow
+- **Mandatory Direct Markdown Image Rendering:** Whenever proposing, iterating, or reviewing custom item sprites, entity textures, UI designs, or pixel art options, **ALWAYS** display the images directly in the chat message using standard Markdown image syntax (`![alt text](file:///absolute/path/to/image_256.png)`).
+- **No Fragile Embeds for Asset Comparisons:** Avoid relying on `<agent-embed>` or requiring the user to navigate to external HTML artifacts just to inspect visual proposals. Always generate nearest-neighbor upscaled previews (e.g. 256×256) and display them inline in the chat alongside concise bullet points for immediate review.
+

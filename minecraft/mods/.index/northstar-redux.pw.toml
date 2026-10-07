@@ -1,0 +1,18 @@
+filename = 'Northstar-0.6.6+1.21.1.jar'
+name = 'Create: Northstar - Redux'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '0.6.6+1.21.1'
+
+[download]
+hash = '8babca6fdd67308cc5cc8f67d12b1ff1ba42a95c263ccca8c757292686b9d390cb696d016ccd4e93b584f7c193f0a04b712924e2294849be880664fae4075206'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/UZiq3QVW/versions/2xMVbJcV/Northstar-0.6.6%2B1.21.1.jar'
+
+[update.modrinth]
+mod-id = 'UZiq3QVW'
+version = '2xMVbJcV'

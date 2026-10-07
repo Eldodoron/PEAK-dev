@@ -106,8 +106,6 @@ EntityEvents.death(event => {
     // ==========================================
 
     if (entityType === 'minecraft:warden') {
-        dropItem('kubejs:sculk_heart', 1, 1);
-        dropItem('kubejs:void_resonator', 1, 1);
         dropItem('kubejs:infinity_fragment', 1, 2);
     }
 
@@ -117,7 +115,6 @@ EntityEvents.death(event => {
     }
 
     if (entityType === 'minecraft:ender_dragon') {
-        dropItem('kubejs:draconic_scale', 1, 2);
         dropItem('kubejs:infinity_fragment', 1, 4);
     }
 
@@ -191,6 +188,9 @@ EntityEvents.death(event => {
         'iceandfire:ice_dragon',
         'iceandfire:lightning_dragon',
         'alexsmobs:void_worm',
+        'alexscaves:luxtructosaurus',
+        'alexscaves:tremorzilla',
+        'alexscaves:hullbreaker',
         // Block Factory's Bosses
         'block_factorys_bosses:infernal_dragon',
         'block_factorys_bosses:yeti',

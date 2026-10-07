@@ -14,14 +14,20 @@
 	chapter.3105000000000000.title: "&3Depths and Subterranean Horrors&r"
 	chapter.3106000000000000.title: "&5Arcane Rulers and Undead Monarchs&r"
 	chapter.3107000000000000.title: "&dApex of the Void and Draconic Chaos&r"
+	chapter.4101000000000000.title: "&6Rotational Kinetics and Power&r"
+	chapter.4102000000000000.title: "&6Automated Fabrication and Processing&r"
+	chapter.4103000000000000.title: "&6Logistics, Fluids and Steam Power&r"
+	chapter.4104000000000000.title: "&6Heavy Industry, Aeronautics and Spaceflight&r"
 	chapter.5200000000000000.title: "&6The Gastronome's Journey (Spice of Life)&r"
 	chapter.5201000000000000.title: "&6Farming and Homestead Cuisine&r"
 	chapter.5202000000000000.title: "&5Dimensional Gastronomy&r"
 	chapter.5203000000000000.title: "&dThe Arcane Kitchen and Mystic Feasts&r"
 	chapter.5204000000000000.title: "&3Fisheries and Marine Delicacies&r"
 	chapter.5205000000000000.title: "&2Prehistoric Feasts and Safari Expeditions&r"
+	chapter.7000000000000000.title: "&6PEAK Adventures and Discoveries&r"
 	chapter_group.2000000000000000.title: "&6Weapon Collections&r"
 	chapter_group.3000000000000000.title: "&cThe Boss Pantheon&r"
+	chapter_group.4000000000000000.title: "&6The Mechanical Frontier (Create)&r"
 	chapter_group.5000000000000000.title: "&6Culinary Compendium&r"
 	quest.02A758FDC30D745D.quest_desc: [
 		"&c* Maximum concussive damage. Staggers and pushes heavies.&r"
@@ -1168,16 +1174,15 @@
 	quest.3100000000000001.quest_desc: [
 		"&6&lWelcome to the Boss Pantheon.&r"
 		""
-		"In PEAK, crafting Eyes of Ender has been disabled to restore true danger and exploration."
+		"In PEAK, crafting Eyes of Ender has been changed to restore true danger and exploration."
 		""
 		"&b&lHow to open the End Portal:&r"
-		"&e1. Slay 12 unique major bosses&r across the Overworld, Twilight Forest, Nether, and dimensions."
+		"&e1. Slay many unique major bosses&r across the Overworld, Twilight Forest, Nether, and dimensions."
 		"&e2. First-Kill Drop:&r The very first time you defeat a unique major boss, an indestructible glowing Eye of Ender drops at its feet."
-		"&e3. Place the 12 Eyes&r into the End Portal Frame in the Stronghold to open the gateway to The End."
+		"&e3. Place the missing Eyes&r into the End Portal Frame in the Stronghold to open the gateway to The End."
 		""
 		"&7Prepare your equipment, study boss tactics, and conquer all realms!&r"
 	]
-	quest.3100000000000001.quest_subtitle: "Crafting Eyes of Ender is disabled. Hunt 12 unique bosses."
 	quest.3100000000000001.title: "&6Unlocking The End: The 12 Sacred Eyes&r"
 	quest.3100000000000002.quest_desc: [
 		"&bThe Boss Pantheon is divided into 7 progression chapters:&r"
@@ -1637,6 +1642,309 @@
 	]
 	quest.4029CAAA2669BC14.quest_subtitle: "One swing clears everything. Slowly."
 	quest.4029CAAA2669BC14.title: "&cGrandsword - Titanic Weapon&r"
+	quest.4101000000000010.quest_desc: [
+		"&eWelcome to the mechanical world of Create!&r"
+		"The Wrench is your most vital tool. Right-click any kinetic component to rotate it, configure its axis, or sneak-right-click to instantly dismantle machinery safely into your inventory."
+		"Keep it on your hotbar at all times."
+	]
+	quest.4101000000000010.quest_subtitle: "The cornerstone of all kinetic mechanics."
+	quest.4101000000000010.title: "&6The Engineer's Wrench&r"
+	quest.4101000000000020.quest_desc: [
+		"&eAndesite Alloy binds stone and iron into durable mechanical framing.&r"
+		"Combine Andesite blocks with Iron or Zinc nuggets to craft your primary building block."
+		"Almost every tier 1 machine, axle, and casing relies on this material."
+	]
+	quest.4101000000000020.quest_subtitle: "Blended minerals forming the backbone of kinetics."
+	quest.4101000000000020.title: "&6Andesite Alloy - The Base Matrix&r"
+	quest.4101000000000030.quest_desc: [
+		"&eKinetic energy moves through rotational force (RPM) and torque (Stress Capacity).&r"
+		"Shafts carry rotation linearly."
+		"Small cogwheels pass rotation diagonally, while pairing a Large Cogwheel to a Small Cogwheel doubles the speed (and doubles the stress consumption!)."
+	]
+	quest.4101000000000030.quest_subtitle: "Transferring torque across space and axes."
+	quest.4101000000000030.title: "&6Shafts and Cogwheels - Rotational Transmission&r"
+	quest.4101000000000040.quest_desc: [
+		"&eWater wheels convert flowing water into constant rotational energy.&r"
+		"Surround the wheel with flowing water on as many sides as possible to reach maximum generation speed."
+		"The Large Water Wheel generates substantial Stress Capacity, perfect for early mills and presses."
+	]
+	quest.4101000000000040.quest_subtitle: "Perpetual hydroelectric kinetic generation."
+	quest.4101000000000040.title: "&6Harnessing the River - Water Wheels&r"
+	quest.4101000000000050.quest_desc: [
+		"&eWindmill Bearings harness the breeze to generate massive kinetic power.&r"
+		"Attach at least 8 sail blocks (or wool blocks glued together) to the bearing and right-click to activate."
+		"More sails increase rotational stress capacity up to a staggering 128 sails."
+	]
+	quest.4101000000000050.quest_subtitle: "Scaling up your factory's rotational grid."
+	quest.4101000000000050.title: "&6The Winds of Industry - Windmills&r"
+	quest.4101000000000060.quest_desc: [
+		"&eNeed to turn a corner without awkward exposed cogs?&r"
+		"Gearboxes pass rotation at a clean 90-degree angle. Place a Wrench to flip it between horizontal and vertical configurations instantly."
+	]
+	quest.4101000000000060.quest_subtitle: "Redirecting rotational power through tight spaces."
+	quest.4101000000000060.title: "&6Gearboxes - Clean 90 Degree Turns&r"
+	quest.4101000000000070.quest_desc: [
+		"&eClutches stop rotation when powered by redstone, acting as automated breaker switches.&r"
+		"Gearshifts reverse rotational direction upon redstone activation, essential for bidirectional lifts, drill rigs, and piston doors."
+	]
+	quest.4101000000000070.quest_subtitle: "Automated switching and direction toggles."
+	quest.4101000000000070.title: "&6Clutches and Gearshifts - Redstone Control&r"
+	quest.4101000000000080.quest_desc: [
+		"&eChain drives link parallel shafts together without massive gear trains.&r"
+		"Place them in a line to form an enclosed chain drive, sharing speed and direction across all connected machines."
+	]
+	quest.4101000000000080.quest_subtitle: "Connecting arrays of shafts across linear distances."
+	quest.4101000000000080.title: "&6Encased Chain Drives - Parallel Shafts&r"
+	quest.4101000000000090.quest_desc: [
+		"&eNever guess your factory's limits.&r"
+		"The Speedometer displays current RPM."
+		"The Stressometer measures current Stress Units consumed versus maximum capacity. Wear Engineer's Goggles to read exact numerical values directly on your HUD."
+	]
+	quest.4101000000000090.quest_subtitle: "Diagnosing your kinetic power network."
+	quest.4101000000000090.title: "&6Instrumentation - Speed and Stress Gauges&r"
+	quest.4101000000000100.quest_desc: [
+		"&eStacking gear ratios to reach high RPM is bulky and cumbersome.&r"
+		"Place a Large Cogwheel above the Rotation Speed Controller, scroll with your mouse wheel, and tune the exact output RPM up to 256 RPM effortlessly."
+	]
+	quest.4101000000000100.quest_subtitle: "Instant, tunable RPM adjustments."
+	quest.4101000000000100.title: "&6The Speed Controller - Precise Velocity&r"
+	quest.4101000000000110.quest_desc: [
+		"&6You have mastered the foundational mechanics of kinetic power!&r"
+		"With shafts, speed regulation, and massive windmills humming, your factory is primed for automated fabrication, metallurgy, and steam generation."
+		"Claim your Pioneer Coffer, master mechanic!"
+	]
+	quest.4101000000000110.quest_subtitle: "Mastery of rotational motion."
+	quest.4101000000000110.title: "&6Kinetic Master - The Flywheel&r"
+	quest.4102000000000010.quest_desc: [
+		"&eTo craft advanced machinery, you must encase stripped logs in Andesite Alloy.&r"
+		"Right-click an Andesite Alloy onto any stripped log or wood block to forge an Andesite Casing."
+		"Casings are the core ingredient for presses, mixers, saws, and automated harvesters."
+	]
+	quest.4102000000000010.quest_subtitle: "Enclosing bare kinetic axes into functional machinery."
+	quest.4102000000000010.title: "&6Andesite Casings - Machine Housing&r"
+	quest.4102000000000020.quest_desc: [
+		"&eHammering metal manually is a thing of the past.&r"
+		"Power a Mechanical Press from above. Place ingots on a depot, belt, or floor underneath to flatten them into sheets."
+		"Placing a Basin beneath the press enables automated compaction of packing recipes like blaze cake bases and honey blocks."
+	]
+	quest.4102000000000020.quest_subtitle: "Forging ingots into heavy sheets."
+	quest.4102000000000020.title: "&6The Mechanical Press - Sheets and Compacting&r"
+	quest.4102000000000030.quest_desc: [
+		"&ePlace a Mechanical Mixer directly above a Basin to unlock industrial recipe synthesis.&r"
+		"Mixers can blend solids, dissolve items into fluids, or brew dough, potions, and alloys."
+		"If a recipe requires thermal energy, you will need a heat source below the basin."
+	]
+	quest.4102000000000030.quest_subtitle: "Combining ingredients into exotic compounds."
+	quest.4102000000000030.title: "&6Basins and Mixers - Fluid and Solid Blending&r"
+	quest.4102000000000040.quest_desc: [
+		"&eCertain chemical and metallurgical reactions require intense heat.&r"
+		"Capture a Blaze in the Nether using an Empty Blaze Burner."
+		"Feed it coal or wood to provide standard heat, or feed it Blaze Cakes to unlock the blazing blue flame of Superheating!"
+	]
+	quest.4102000000000040.quest_subtitle: "Thermal control for advanced metallurgy."
+	quest.4102000000000040.title: "&6Caging the Inferno - Blaze Burners&r"
+	quest.4102000000000050.quest_desc: [
+		"&eBrass is the gateway to intelligent automation.&r"
+		"Mix Copper and Zinc in a heated basin to smelt Brass Ingots."
+		"Encase stripped logs with Brass to produce Brass Casings, which unlock smart funnels, tunnels, and mechanical arms."
+	]
+	quest.4102000000000050.quest_subtitle: "Mixing copper and zinc under intense heat."
+	quest.4102000000000050.title: "&6Brass Metallurgy - The Industrial Age&r"
+	quest.4102000000000060.quest_desc: [
+		"&eNever chop a massive jungle or redwood tree block by block again.&r"
+		"A powered Mechanical Saw pointed at the base of a tree fells the entire tree structure in seconds, dropping clean logs, saplings, and sticks."
+	]
+	quest.4102000000000060.quest_subtitle: "High-speed automated lumberjacking."
+	quest.4102000000000060.title: "&6The Mechanical Saw - Treefeller and Stonecutter&r"
+	quest.4102000000000070.quest_desc: [
+		"&eThe Millstone is your early workhorse for culinary and crafting prep.&r"
+		"Grind wheat into flour for breadmaking, bone into extra bone meal, and flowers into rich dye yields."
+	]
+	quest.4102000000000070.quest_subtitle: "Grinding wheat, flowers, and bone with ease."
+	quest.4102000000000070.title: "&6Milling - Powders and Grain&r"
+	quest.4102000000000080.quest_desc: [
+		"&ePair two Crushing Wheels rotating towards each other to create the apex pulverizer.&r"
+		"Crushes raw ores, cobblestone into gravel, gravel into sand, and drops massive bonus mineral byproducts without consuming durability."
+	]
+	quest.4102000000000080.quest_subtitle: "The ultimate industrial pulverizer."
+	quest.4102000000000080.title: "&6Crushing Wheels - Apex Ore Grinding&r"
+	quest.4102000000000090.quest_desc: [
+		"&eEncased Fans can push or pull entities and items with rotational power.&r"
+		"More importantly: blowing air through elemental blocks transforms entire stacks of items simultaneously without consuming fuel!"
+	]
+	quest.4102000000000090.quest_subtitle: "Pumping air currents for bulk transformation."
+	quest.4102000000000090.title: "&6Encased Fans - Aerodynamic Currents&r"
+	quest.4102000000000100.quest_desc: [
+		"&eHarness all airflow processing mediums with your Encased Fan:&r"
+		"- &bWater:&r Bulk Washing (gravel into iron nuggets, flour into dough, crushed ores into pure metal)."
+		"- &6Lava:&r Bulk Blasting (smelts raw ores and stone without fuel)."
+		"- &cFire or Campfire:&r Bulk Smoking (cooks food stacks without fuel)."
+		"- &5Soul Campfire:&r Bulk Haunting (converts stone to blackstone, sand to soul sand)."
+		"- &eSand:&r Bulk Sanding (blowing airflow through sand polishes rose quartz and items just like sandpaper)."
+	]
+	quest.4102000000000100.quest_subtitle: "Fuel-free bulk stack conversions via airflow."
+	quest.4102000000000100.title: "&6Bulk Processing - Washing, Blasting, Smoking and Sanding&r"
+	quest.4102000000000110.quest_desc: [
+		"&eDeployers act as automated player hands.&r"
+		"Equip them with tools, swords, or items to harvest crops, milk cows, slay monsters, or assemble complex sequenced recipes automatically."
+	]
+	quest.4102000000000110.quest_subtitle: "Simulating player clicks with machine precision."
+	quest.4102000000000110.title: "&6Mechanical Deployers - Artificial Hands&r"
+	quest.4102000000000120.quest_desc: [
+		"&6Precision Mechanisms represent true engineering mastery.&r"
+		"Build a Sequenced Assembly line: pass a Golden Sheet under three Deployers adding Small Cogs, Large Cogs, and Iron Nuggets, followed by a Press."
+		"This delicate assembly unlocks advanced automation, train controls, and aerospace computers. Claim your Slayer Coffer!"
+	]
+	quest.4102000000000120.quest_subtitle: "The zenith of kinetic fabrication."
+	quest.4102000000000120.title: "&6Sequenced Assembly - Precision Mechanisms&r"
+	quest.4103000000000010.quest_desc: [
+		"&eMechanical Belts transport items cleanly across slopes, flats, and ceilings.&r"
+		"Connect two shafts with dried kelp belts to synchronize their rotational speed and create automated assembly lines."
+	]
+	quest.4103000000000010.quest_subtitle: "Moving items and torque across your facility."
+	quest.4103000000000010.title: "&6Mechanical Belts - The Arteries of the Factory&r"
+	quest.4103000000000020.quest_desc: [
+		"&eBrass Funnels allow precise extraction counts and item filter lists.&r"
+		"Brass Tunnels placed over belts allow splitting, sorting, and merging item streams automatically."
+	]
+	quest.4103000000000020.quest_subtitle: "Filter, extract, and sort with surgical precision."
+	quest.4103000000000020.title: "&6Smart Logistics - Brass Funnels and Tunnels&r"
+	quest.4103000000000030.quest_desc: [
+		"&eMechanical Arms can transfer items between depots, belts, crafters, and inventories over multi-block radii.&r"
+		"Select input points and output points with your wrench to establish rapid pick-and-place routines."
+	]
+	quest.4103000000000030.quest_subtitle: "High-speed pick and place automation."
+	quest.4103000000000030.title: "&6The Mechanical Arm - Robotic Handling&r"
+	quest.4103000000000040.quest_desc: [
+		"&eItem Vaults can be expanded up to 3x3x30 blocks in volume.&r"
+		"Connect directly to item funnels and trains for massive bulk loading and unloading without FPS lag."
+	]
+	quest.4103000000000040.quest_subtitle: "Multiblock vaults for massive item storage."
+	quest.4103000000000040.title: "&6Item Vaults - Bulk Storage Silos&r"
+	quest.4103000000000050.quest_desc: [
+		"&eFluid Pipes carry liquids across vast factory distances.&r"
+		"Place a Mechanical Pump inline and power it rotationally to dictate fluid direction and pressure."
+	]
+	quest.4103000000000050.quest_subtitle: "Pumping water, lava, and chemicals through your base."
+	quest.4103000000000050.title: "&bFluid Dynamics - Pipes and Pumps&r"
+	quest.4103000000000060.quest_desc: [
+		"&eFluid Tanks form multiblock liquid storage vessels up to 3x3x30 blocks.&r"
+		"Glass windows let you view fluid volumes and colors at a glance."
+	]
+	quest.4103000000000060.quest_subtitle: "Expandable glass and copper storage tanks."
+	quest.4103000000000060.title: "&bFluid Tanks - Industrial Reservoirs&r"
+	quest.4103000000000070.quest_desc: [
+		"&ePlace a Spout above a depot or belt to fill bottles, buckets, and culinary pastries automatically.&r"
+		"Essential for filling potions, sweet rolls, and sequenced industrial parts."
+	]
+	quest.4103000000000070.quest_subtitle: "Infusing items with fluid payloads."
+	quest.4103000000000070.title: "&bSpouts - Automated Bottling and Filling&r"
+	quest.4103000000000080.quest_desc: [
+		"&eLower a Hose Pulley into an ocean or lava lake.&r"
+		"If the body contains more than 10,000 blocks of fluid, Create recognizes it as an bottomless source, granting your factory infinite water or lava!"
+	]
+	quest.4103000000000080.quest_subtitle: "Lowering hoses into subterranean oceans."
+	quest.4103000000000080.title: "&bThe Hose Pulley - Infinite Drain and Fill&r"
+	quest.4103000000000090.quest_desc: [
+		"&eSteam Engines attached to heated fluid tanks generate colossal Stress Capacity.&r"
+		"Provide active water pumping and blaze heat beneath the tank."
+		"A Level 9 Boiler with passive water and superheated blaze burners can output over 100,000 Stress Units!"
+	]
+	quest.4103000000000090.quest_subtitle: "Unleashing the power of pressurized steam."
+	quest.4103000000000090.title: "&cSteam Boilers - Apex Kinetic Energy&r"
+	quest.4103000000000100.quest_desc: [
+		"&eCreate trains can travel at breakneck speeds across dimensions, carrying passengers and freight.&r"
+		"Tracks can be laid with curves, slopes, and portals."
+		"Automate track laying using a mechanical cart contraption!"
+	]
+	quest.4103000000000100.quest_subtitle: "Laying smooth tracks across continental biomes."
+	quest.4103000000000100.title: "&6The Transcontinental Rail - Train Tracks&r"
+	quest.4103000000000110.quest_desc: [
+		"&eAssemble custom train carriages on a Track Station with superglue.&r"
+		"Hand Train Schedules to conductor bogeys to automate continental cargo deliveries across your empire without player intervention."
+	]
+	quest.4103000000000110.quest_subtitle: "Assembling, naming, and dispatching trains."
+	quest.4103000000000110.title: "&6Train Stations and Autonomous Schedules&r"
+	quest.4103000000000120.quest_desc: [
+		"&6Your logistics empire is complete!&r"
+		"Link Display Boards to train stations, item vaults, and speedometers to build real-time terminal departures and factory dashboards."
+		"Claim your Slayer Coffer, grand logistics engineer!"
+	]
+	quest.4103000000000120.quest_subtitle: "Mastery of factory logistics and transit."
+	quest.4103000000000120.title: "&6Central Command - Display Systems&r"
+	quest.4104000000000010.quest_desc: [
+		"&eTo break the planetary boundary, standard iron and brass will not suffice.&r"
+		"The Factory Must Grow introduces true heavy metallurgy: blast furnace casting, coking, and molten steel production."
+		"Steel is the cornerstone of industrial casings, diesel combustion, and aerospace rocketry."
+	]
+	quest.4104000000000010.quest_subtitle: "Coking, blast furnaces, and heavy metallurgy."
+	quest.4104000000000010.title: "&8The Foundry's Call - TFMG Steel Metallurgy&r"
+	quest.4104000000000020.quest_desc: [
+		"&eCombine steel plates with concrete and heavy framing to craft Heavy Machinery Casings.&r"
+		"Used to construct industrial petrochemical distillation towers, chemical reactors, and diesel generators."
+	]
+	quest.4104000000000020.quest_subtitle: "Structural integrity for high-pressure systems."
+	quest.4104000000000020.title: "&8Heavy Machinery Casings&r"
+	quest.4104000000000030.quest_desc: [
+		"&eWhen steam boilers reach their limit, diesel combustion takes over.&r"
+		"Refine crude oil into diesel or kerosene with TFMG distillation towers."
+		"Fuel a Diesel Engine to produce immense rotational speed and stress capacity with minimal factory footprint."
+	]
+	quest.4104000000000030.quest_subtitle: "Fuel-injected rotational output."
+	quest.4104000000000030.title: "&6Diesel Combustion - High-Torque Power&r"
+	quest.4104000000000040.quest_desc: [
+		"&eCreate Aeronautics and Sable break the grid.&r"
+		"Build an airframe from wood, brass, and lightweight panels. Superglue your flight decks, engines, and cargo bays into a persistent physical craft."
+		"Mount a steering wheel or flight control to lift off into 3D airspace!"
+	]
+	quest.4104000000000040.quest_subtitle: "Real physical flying contraptions."
+	quest.4104000000000040.title: "&bSable Physics - Take to the Skies&r"
+	quest.4104000000000050.quest_desc: [
+		"&eWith a mobile sky-vessel, distance becomes obsolete.&r"
+		"Survey mountains, locate hidden dungeons, and ferry entire mining expeditions across biomes in style."
+	]
+	quest.4104000000000050.quest_subtitle: "Exploring the world from above."
+	quest.4104000000000050.title: "&bThe Aviator's Freedom&r"
+	quest.4104000000000060.quest_desc: [
+		"&eTitanium is the essential aerospace material for Create: Northstar.&r"
+		"Lightweight, heat-resistant, and extraordinarily strong, Titanium sheets and platings form the pressurized hulls of space rockets and life-support modules."
+	]
+	quest.4104000000000060.quest_subtitle: "The metal that touches the stars."
+	quest.4104000000000060.title: "&fAerospace Metallurgy - Titanium&r"
+	quest.4104000000000070.quest_desc: [
+		"&eThe Rocket Station coordinates launch pad assembly, fuel lines, and waypoint guidance.&r"
+		"Construct your rocket pad, link fuel pipes, and prepare for orbital staging."
+	]
+	quest.4104000000000070.quest_subtitle: "Assembling staged kinetic spacecraft."
+	quest.4104000000000070.title: "&6The Rocket Station - Launch Gantry&r"
+	quest.4104000000000080.quest_desc: [
+		"&eBuild your propulsion stages!&r"
+		"Fit Rocket Thrusters and combustion chambers beneath pressurized propellant tanks."
+		"Fuel can be supplied via TFMG Kerosene distillation or Mekanism Liquid Hydrogen, combined with Liquid Oxygen."
+	]
+	quest.4104000000000080.quest_subtitle: "Generating escape velocity thrust."
+	quest.4104000000000080.title: "&6Rocket Propulsion - Kerosene and Oxygen&r"
+	quest.4104000000000090.quest_desc: [
+		"&eSpace is unforgiving. Without oxygen and thermal insulation, death is instantaneous.&r"
+		"Craft a Space Suit (or install Northstar EVA modules onto your Mekanism MekaSuit)."
+		"Keep your oxygen tanks filled at an Oxygen Filler before entering the launch seat."
+	]
+	quest.4104000000000090.quest_subtitle: "Surviving vacuum, cold, and radiation."
+	quest.4104000000000090.title: "&fLife Support - Space Suits&r"
+	quest.4104000000000100.quest_desc: [
+		"&cYou have broken through the atmosphere and touched down on Mars!&r"
+		"Raid abandoned Martian Research Bases, battle subterranean Mars Worms, and harvest Martian Iron to forge Martian Steel."
+		"Martian Steel is the ultimate high-pressure alloy needed to prepare for the extreme hazards of Venus."
+	]
+	quest.4104000000000100.quest_subtitle: "Conquering the canyons and mining Martian Steel."
+	quest.4104000000000100.title: "&cDestination Mars - The Red Frontier&r"
+	quest.4104000000000110.quest_desc: [
+		"&6You have journeyed from placing your very first wooden water wheel to conquering interplanetary spaceflight.&r"
+		"With steel foundries, diesel power, physics airships, and Martian bases under your command, your industrial mastery over PEAK is absolute."
+		"Claim your Ancient Coffer, cosmic engineer!"
+	]
+	quest.4104000000000110.quest_subtitle: "From water wheels to interplanetary spaceflight."
+	quest.4104000000000110.title: "&6The Master Machinist - Cosmic Zenith&r"
 	quest.47ACECB62DA96AD6.quest_desc: [
 		"&a&lCombat and Weapons:&r"
 		""
@@ -3578,15 +3886,111 @@
 	]
 	quest.5D2557E4CB68CD20.quest_subtitle: "Your journey in the world of PEAK begins here"
 	quest.5D2557E4CB68CD20.title: "&6Welcome to PEAK&r"
-	quest.688264C4B7E58483.quest_desc: [
-		"&6&lPortable Storage:&r"
-		""
-		"Sophisticated Backpacks provide customizable, upgradeable portable inventory storage."
-		""
-		"Equip it in your back slot (or wear it) and press 'B' to open it anywhere."
+	quest.7000000000000010.quest_desc: [
+		"&eWelcome to the unscripted wilderness of PEAK!&r"
+		"This chapter is your personal survival companion, packed with hard-learned lessons, quality of life secrets, and clever tricks to make your journey smoother."
+		"Unlike the strict boss gauntlets, here you can wander at your own pace. Branch out, experiment, and remember: work smarter, not harder."
 	]
-	quest.688264C4B7E58483.quest_subtitle: "Expand your carrying capacity"
-	quest.688264C4B7E58483.title: "&6Sophisticated Backpack&r"
+	quest.7000000000000010.quest_subtitle: "A traveler's field guide to surviving and thriving in PEAK."
+	quest.7000000000000010.title: "&6The Trailhead - Field Guide&r"
+	quest.7000000000000020.quest_desc: [
+		"&eWhen you inevitably perish, your possessions are preserved in a secure gravestone by YAGM.&r"
+		"Glowing trails will guide your steps back to your resting place across the Overworld, Nether, and beyond."
+		"The first time you die, this quest completes automatically to award you a free Restore Key!"
+		"Keep it stored safely at your base for true emergencies where your grave is trapped in lava or deep hazardous dungeons."
+	]
+	quest.7000000000000020.quest_subtitle: "Death happens. Panic is optional."
+	quest.7000000000000020.title: "&cYou're Already Gone - Grave Safety&r"
+	quest.7000000000000030.quest_desc: [
+		"&eDefeating ethereal shades or mining near ancient cemeteries can unearth Ghost Pearls.&r"
+		"These spectral orbs can be bound into custom charms and soul markers."
+		"Keep a few in your knapsack to craft emergency recovery gear on the fly."
+	]
+	quest.7000000000000030.quest_subtitle: "Harvesting the remnants of the fallen."
+	quest.7000000000000030.title: "&5Ghost Pearls and Soul Beacons&r"
+	quest.7000000000000040.quest_desc: [
+		"&eTired of getting a single ingot from your hard-mined raw ores?&r"
+		"Craft any Ore Hammer (iron, bronze, diamond, and more)! Combining your hammer with raw ores on any crafting grid crushes each raw ore into two mineral dusts."
+		"Any hammer from AllTheOres counts. Keep one on hand whenever you return from a mining trip!"
+	]
+	quest.7000000000000040.quest_subtitle: "Why smelt 1:1 when you can crush for 2:1?"
+	quest.7000000000000040.title: "&6Sledgehammer Economics - Mineral Duplication&r"
+	quest.7000000000000050.quest_desc: [
+		"&eCrushing raw ores with your Ore Hammer yields two mineral dusts per raw ore.&r"
+		"Take those dusts directly to any furnace or blast furnace to smelt them into finished metal ingots."
+		"This guarantees a full 2:1 ingot duplication yield on all early-game mining without needing complex machines!"
+	]
+	quest.7000000000000050.quest_subtitle: "Turn crushed dusts into double ingots."
+	quest.7000000000000050.title: "&6Double Ingot Yield - Dust Smelting&r"
+	quest.7000000000000060.quest_desc: [
+		"&eBuilding large defensive walls, castle battlements, and roofs by hand drains time and sanity.&r"
+		"Construction wands let you extend entire surfaces with a single right-click."
+		"Shift right-click in mid-air to open the wand configuration menu and customize placement direction, rows, and limits."
+	]
+	quest.7000000000000060.quest_subtitle: "Placing blocks one by one is a relic of the past."
+	quest.7000000000000060.title: "&bThe Master's Wand - Instant Construction&r"
+	quest.7000000000000070.quest_desc: [
+		"&eThe Building Palette lets you load multiple block variants into your wand.&r"
+		"Fill it with Stone Bricks, Mossy Stone Bricks, and Cracked Stone Bricks."
+		"When placing, the wand automatically randomizes textures to give walls an authentic, weathered architectural look instantly."
+	]
+	quest.7000000000000070.quest_subtitle: "How master builders paint castle walls in seconds."
+	quest.7000000000000070.title: "&bPalette Gradients and Weathered Textures&r"
+	quest.7000000000000080.quest_desc: [
+		"&eDelving into deep caves and perilous dungeons can quickly turn deadly.&r"
+		"Return Scrolls allow you to channel a quick recall directly back to your spawn point or nearest sanctuary."
+		"Always keep a scroll on your hotbar for rapid extraction before hostile swarms overwhelm you."
+	]
+	quest.7000000000000080.quest_subtitle: "One-way emergency transit back to safety."
+	quest.7000000000000080.title: "&aEmergency Recall - Return Scrolls&r"
+	quest.7000000000000090.quest_desc: [
+		"&eDiscovered a village, dangerous trial arena, or subterranean stronghold? Activate its Waystone!&r"
+		"Waystones provide instant transit across dimensions."
+		"Carry a Bound Scroll or Warp Stone in your knapsack for one-button returns to your home sanctuary whenever danger strikes."
+	]
+	quest.7000000000000090.quest_subtitle: "Instant overland transit across all dimensions."
+	quest.7000000000000090.title: "&aContinental Leylines - Waystone Networks&r"
+	quest.7000000000000100.quest_desc: [
+		"&eVanilla inventory space is brutal in an expert modpack.&r"
+		"Sophisticated Backpacks can be worn directly in your chest or curios slot, dyed, and expanded with tiered storage upgrades."
+		"Press your backpack keybind to open it instantly without ever placing it down on the dirt."
+	]
+	quest.7000000000000100.quest_subtitle: "Never leave valuable relics behind."
+	quest.7000000000000100.title: "&dThe Bottomless Knapsack - Pocket Storage&r"
+	quest.7000000000000110.quest_desc: [
+		"&eEquipping a Feeding Upgrade inside your backpack automatically consumes food items when your hunger bar drops.&r"
+		"It prioritizes optimal saturation without wasting high-tier culinary feasts."
+		"Combine this with a Magnet Upgrade to gather fallen drops while you sprint through caves."
+	]
+	quest.7000000000000110.quest_subtitle: "Let your knapsack manage your hunger."
+	quest.7000000000000110.title: "&dAutomated Nourishment - The Auto-Feeder&r"
+	quest.7000000000000120.quest_desc: [
+		"&eDuring long quarry runs, excess stone, diorite, and gravel quickly overrun your capacity.&r"
+		"Install a Void Upgrade inside your backpack, configure its whitelist for unwanted cobblestone, and watch excess clutter vanish into the ether automatically."
+	]
+	quest.7000000000000120.quest_subtitle: "Say goodbye to 5,000 cobblestone clogging your bags."
+	quest.7000000000000120.title: "&dVoiding the Waste - Junk Disintegration&r"
+	quest.7000000000000130.quest_desc: [
+		"&ePEAK incorporates Spice of Life culinary rewards!&r"
+		"Eating distinct meals permanently unlocks additional hearts on your health bar."
+		"Never survive purely on plain dried kelp or raw meat. Craft a Farmer's Delight Skillet, simmer stews, and expand your palate to build an impenetrable vitality pool."
+	]
+	quest.7000000000000130.quest_subtitle: "Eating varied meals literally saves your life."
+	quest.7000000000000130.title: "&eThe Gastronome's Secret - Food Diversity&r"
+	quest.7000000000000140.quest_desc: [
+		"&eOpen your Curios accessory slots to inspect your equipped jewelry.&r"
+		"Stacking double-jump bottles, feline slippers, and claws grants incredible mobility during high-stakes dungeon crawls."
+		"Accessories can often save you from fall damage and environmental hazards more effectively than standard armor."
+	]
+	quest.7000000000000140.quest_subtitle: "Small charms, monumental combat advantages."
+	quest.7000000000000140.title: "&eCurios Synergy - Trinket Optimization&r"
+	quest.7000000000000150.quest_desc: [
+		"&6With efficient ore doubling, grave safety, instant building wands, and pocket logistics in hand, you are fully prepared for the perils of PEAK.&r"
+		"You are now equipped to master the kinetic factories of Create, conquer the 12 Boss Eyes, and embark on the voyage to Mars and Venus."
+		"Claim your Ancient Coffer, pioneer!"
+	]
+	quest.7000000000000150.quest_subtitle: "You have mastered the art of practical adventure."
+	quest.7000000000000150.title: "&6The PEAK Pioneer - Summit Mastery&r"
 	quest.70F487B00CB7A079.quest_desc: [
 		"&e* Bladed polearm for wide sweeping attacks at medium range.&r"
 		"&7Clear groups without getting close."
@@ -3736,5 +4140,6 @@
 	task.5A882049DCE3048F.title: "Culinary Nutrition"
 	task.648336802D1C5CCA.title: "The Boss Pantheon"
 	task.6B36E6F1DB1874BA.title: "Welcome to PEAK"
+	task.7000000000000041.title: "Any Ore Hammer"
 	task.7FB7262F8114BA77.title: "Ready for Adventure"
 }

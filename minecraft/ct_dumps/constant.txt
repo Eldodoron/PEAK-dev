@@ -341,8 +341,6 @@
 <constant:minecraft:mobcategory:rascals>
 <constant:minecraft:mobcategory:undergarden_stupid_mob_category>
 <constant:minecraft:mobcategory:underground_water_creature>
-<constant:minecraft:mobcategory:vampirism_hunter>
-<constant:minecraft:mobcategory:vampirism_vampire>
 <constant:minecraft:mobcategory:water_ambient>
 <constant:minecraft:mobcategory:water_creature>
 <constant:minecraft:mobeffect/category:beneficial>

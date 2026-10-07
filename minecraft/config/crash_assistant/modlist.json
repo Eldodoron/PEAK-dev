@@ -1,9 +1,9 @@
 {
-  "neoforge-21.1.238 (modloader)": {
-    "jarName": "neoforge-21.1.238 (modloader)",
+  "neoforge-21.1.240 (modloader)": {
+    "jarName": "neoforge-21.1.240 (modloader)",
     "modId": "neoforge",
     "name": "neoforge",
-    "version": "neoforge-21.1.238"
+    "version": "neoforge-21.1.240"
   },
   "aces_spell_utils-1.2.6.1-1.21.1.jar": {
     "jarName": "aces_spell_utils-1.2.6.1-1.21.1.jar",
@@ -149,13 +149,13 @@
     "curseForgeHash": 3362945668,
     "modrinthHash": "7a639e58c820069ec1d8a3431c38b58511d24dc1"
   },
-  "apotheosis-addon-compat-1.0.jar": {
-    "jarName": "apotheosis-addon-compat-1.0.jar",
+  "apotheosis-addon-compat-1.1.jar": {
+    "jarName": "apotheosis-addon-compat-1.1.jar",
     "modId": "mr_apotheosis_addoncompat",
     "name": "Apotheosis Addon Compat",
-    "version": "1.0",
-    "curseForgeHash": 3236981485,
-    "modrinthHash": "53801339337dd471c0a0a02cd4d81dae4c1429f9"
+    "version": "1.1",
+    "curseForgeHash": 3550967569,
+    "modrinthHash": "8d9f054ea2de1dc0010eca2dc03f5d0d7c552f55"
   },
   "apotheosis_create-1.1.1-neoforge-1.21.1.jar": {
     "jarName": "apotheosis_create-1.1.1-neoforge-1.21.1.jar",
@@ -2175,6 +2175,14 @@
     "curseForgeHash": 2879657841,
     "modrinthHash": "7bea3f874f186a17ad3e271df145c179e81c2a1d"
   },
+  "mek_x_star-1.21.1-1.2.0.jar": {
+    "jarName": "mek_x_star-1.21.1-1.2.0.jar",
+    "modId": "mek_x_star",
+    "name": "Mekanism X Create: Northstar",
+    "version": "1.21.1-1.2.0",
+    "curseForgeHash": 2450951149,
+    "modrinthHash": "962da70a6bfbc7b51af04ff7af349349fd817ad8"
+  },
   "Mekanism-1.21.1-10.7.19.85.jar": {
     "jarName": "Mekanism-1.21.1-10.7.19.85.jar",
     "modId": "mekanism",
@@ -2374,6 +2382,14 @@
     "version": "3.0.6-neoforge-1.21.1",
     "curseForgeHash": 2478447755,
     "modrinthHash": "e44c648f5719eacc2a35e69fb78dbb625bf4f12b"
+  },
+  "Northstar-0.6.6+1.21.1.jar": {
+    "jarName": "Northstar-0.6.6+1.21.1.jar",
+    "modId": "northstar",
+    "name": "Northstar Redux",
+    "version": "0.6.6+1.21.1",
+    "curseForgeHash": 77989857,
+    "modrinthHash": "21290951e26b8ca0c73955a13de4aa014f473a11"
   },
   "Not Enough Recipe Book-NEOFORGE-0.4.3+1.21.jar": {
     "jarName": "Not Enough Recipe Book-NEOFORGE-0.4.3+1.21.jar",
@@ -2727,14 +2743,6 @@
     "curseForgeHash": 1741490269,
     "modrinthHash": "c5ecd3fcf60a31d84112c708abe29e341b2d1b73"
   },
-  "sabledestructive-1.7.2.jar": {
-    "jarName": "sabledestructive-1.7.2.jar",
-    "modId": "sabledestructive",
-    "name": "Sable: Destructive",
-    "version": "1.7.2",
-    "curseForgeHash": 4278978978,
-    "modrinthHash": "0e2a576ac0fb7b9a7c5b64512a5ba2dbaf312c68"
-  },
   "Searchables-neoforge-1.21.1-1.0.2.jar": {
     "jarName": "Searchables-neoforge-1.21.1-1.0.2.jar",
     "modId": "searchables",
@@ -2886,6 +2894,14 @@
     "version": "1.10.124",
     "curseForgeHash": 3447435049,
     "modrinthHash": "9430cc2ab64ff89d698be593769fb9f9ee4efae6"
+  },
+  "spatial-gui-1.6+1.21.1-neoforge.jar": {
+    "jarName": "spatial-gui-1.6+1.21.1-neoforge.jar",
+    "modId": "spatial_gui",
+    "name": "Spatial GUI",
+    "version": "1.6",
+    "curseForgeHash": 498326450,
+    "modrinthHash": "6885c898ce807a8a45d78cd70ffe147c6715fdbd"
   },
   "structureessentials-1.21.1-5.0.jar": {
     "jarName": "structureessentials-1.21.1-5.0.jar",

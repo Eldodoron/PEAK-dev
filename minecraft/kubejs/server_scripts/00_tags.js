@@ -62,6 +62,9 @@ ServerEvents.tags('item', event => {
 
     event.add('curios:ring', allModpackRings);
     event.add('curios:rings', allModpackRings);
+
+    // Dragon scale tag unification
+    event.add('c:dragon_scales', ['dragonloot:dragon_scale', 'kubejs:draconic_scale']);
 });
 
 // Boss entity tag unifications for Boss Rifts and common compat

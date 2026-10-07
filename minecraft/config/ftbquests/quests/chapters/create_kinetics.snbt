@@ -1,0 +1,365 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "create_kinetics"
+	group: "4000000000000000"
+	id: "4101000000000000"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "4101000000000010"
+			rewards: [
+				{
+					count: 16
+					id: "4101000000000012"
+					item: {
+						count: 1
+						id: "create:andesite_alloy"
+					}
+					type: "item"
+				}
+				{
+					id: "4101000000000013"
+					table_id: 1117392878634639361L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "4101000000000011"
+				item: { count: 1, id: "create:wrench" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4101000000000010"]
+			id: "4101000000000020"
+			rewards: [
+				{
+					count: 32
+					id: "4101000000000022"
+					item: {
+						count: 1
+						id: "minecraft:iron_nugget"
+					}
+					type: "item"
+				}
+				{
+					id: "4101000000000023"
+					table_id: 1117392878634639361L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				id: "4101000000000021"
+				item: { count: 1, id: "create:andesite_alloy" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4101000000000020"]
+			id: "4101000000000030"
+			rewards: [
+				{
+					count: 16
+					id: "4101000000000034"
+					item: {
+						count: 1
+						id: "create:shaft"
+					}
+					type: "item"
+				}
+				{
+					id: "4101000000000035"
+					table_id: 1117392878634639361L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			size: 1.1d
+			tasks: [
+				{
+					id: "4101000000000031"
+					item: { count: 1, id: "create:shaft" }
+					type: "item"
+				}
+				{
+					id: "4101000000000032"
+					item: { count: 1, id: "create:cogwheel" }
+					type: "item"
+				}
+				{
+					id: "4101000000000033"
+					item: { count: 1, id: "create:large_cogwheel" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4101000000000030"]
+			id: "4101000000000040"
+			rewards: [
+				{
+					id: "4101000000000043"
+					item: {
+						count: 1
+						id: "minecraft:water_bucket"
+					}
+					type: "item"
+				}
+				{
+					id: "4101000000000044"
+					table_id: 1117392878634639362L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			size: 1.1d
+			tasks: [
+				{
+					id: "4101000000000041"
+					item: { count: 1, id: "create:water_wheel" }
+					type: "item"
+				}
+				{
+					id: "4101000000000042"
+					item: { count: 1, id: "create:large_water_wheel" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4101000000000040"]
+			id: "4101000000000050"
+			rewards: [
+				{
+					count: 16
+					id: "4101000000000052"
+					item: {
+						count: 1
+						id: "create:white_sail"
+					}
+					type: "item"
+				}
+				{
+					id: "4101000000000053"
+					table_id: 1117392878634639362L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			size: 1.1d
+			tasks: [{
+				id: "4101000000000051"
+				item: { count: 1, id: "create:windmill_bearing" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4101000000000030"]
+			id: "4101000000000060"
+			rewards: [
+				{
+					count: 2
+					id: "4101000000000062"
+					item: {
+						count: 1
+						id: "create:vertical_gearbox"
+					}
+					type: "item"
+				}
+				{
+					id: "4101000000000063"
+					table_id: 1117392878634639361L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				id: "4101000000000061"
+				item: { count: 1, id: "create:gearbox" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4101000000000060"]
+			id: "4101000000000070"
+			rewards: [
+				{
+					count: 16
+					id: "4101000000000073"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+				{
+					id: "4101000000000074"
+					table_id: 1117392878634639361L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4101000000000071"
+					item: { count: 1, id: "create:clutch" }
+					type: "item"
+				}
+				{
+					id: "4101000000000072"
+					item: { count: 1, id: "create:gearshift" }
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4101000000000070"]
+			id: "4101000000000080"
+			rewards: [
+				{
+					count: 4
+					id: "4101000000000082"
+					item: {
+						count: 1
+						id: "create:encased_chain_drive"
+					}
+					type: "item"
+				}
+				{
+					id: "4101000000000083"
+					table_id: 1117392878634639362L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				id: "4101000000000081"
+				item: { count: 1, id: "create:encased_chain_drive" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4101000000000030"]
+			id: "4101000000000090"
+			rewards: [
+				{
+					id: "4101000000000093"
+					item: {
+						count: 1
+						id: "create:goggles"
+					}
+					type: "item"
+				}
+				{
+					id: "4101000000000094"
+					table_id: 1117392878634639361L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4101000000000091"
+					item: { count: 1, id: "create:speedometer" }
+					type: "item"
+				}
+				{
+					id: "4101000000000092"
+					item: { count: 1, id: "create:stressometer" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4101000000000090"]
+			id: "4101000000000100"
+			rewards: [
+				{
+					count: 4
+					id: "4101000000000102"
+					item: {
+						count: 1
+						id: "create:large_cogwheel"
+					}
+					type: "item"
+				}
+				{
+					id: "4101000000000103"
+					table_id: 1117392878634639362L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				id: "4101000000000101"
+				item: { count: 1, id: "create:rotation_speed_controller" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"4101000000000050"
+				"4101000000000080"
+				"4101000000000100"
+			]
+			id: "4101000000000110"
+			rewards: [
+				{
+					count: 8
+					id: "4101000000000112"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "4101000000000113"
+					table_id: 1117392878634639362L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 1.6d
+			tasks: [{
+				id: "4101000000000111"
+				item: { count: 1, id: "create:flywheel" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 10.0d
+		}
+	]
+}

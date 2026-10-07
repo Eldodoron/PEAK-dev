@@ -682,9 +682,5 @@
 <attribute:twilightforest:clone_count>
 <attribute:twilightforest:max_shield_strength>
 <attribute:twilightforest:minion_count>
-<attribute:vampirism:blood_exhaustion>
-<attribute:vampirism:dbno_duration>
-<attribute:vampirism:neonatal_duration>
-<attribute:vampirism:sundamage>
 <attribute:wind_spellbooks:wind_magic_resist>
 <attribute:wind_spellbooks:wind_spell_power>

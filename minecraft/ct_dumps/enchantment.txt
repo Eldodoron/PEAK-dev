@@ -100,6 +100,10 @@
 <enchantment:dungeons_arise:purification>
 <enchantment:dungeons_arise:voltaic_shot>
 <enchantment:farmersdelight:backstabbing>
+<enchantment:kubejs:concussive_impact>
+<enchantment:kubejs:midas_touch>
+<enchantment:kubejs:soul_siphon>
+<enchantment:kubejs:subjugation>
 <enchantment:malum:animated>
 <enchantment:malum:ascension>
 <enchantment:malum:capacitor>
@@ -153,6 +157,7 @@
 <enchantment:minecraft:vanishing_curse>
 <enchantment:minecraft:wind_burst>
 <enchantment:mynethersdelight:poaching>
+<enchantment:northstar:frostbite>
 <enchantment:nova_structures:antidote>
 <enchantment:nova_structures:boss_behaviour>
 <enchantment:nova_structures:conductivity_curse>
@@ -186,5 +191,3 @@
 <enchantment:unusualend:bonding>
 <enchantment:unusualend:everlasting>
 <enchantment:unusualend:joust>
-<enchantment:vampirism:arrow_frugality>
-<enchantment:vampirism:vampire_slayer>

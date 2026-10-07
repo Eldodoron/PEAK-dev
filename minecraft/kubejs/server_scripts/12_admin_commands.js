@@ -216,6 +216,68 @@ ServerEvents.commandRegistry(event => {
                     })
                 )
             )
+            .then(Commands.literal('spawn_animals')
+                .executes(ctx => spawnAnimals(ctx))
+            )
+    );
+
+    function spawnAnimals(ctx) {
+        let source = ctx.source;
+        let player = source.player;
+        let server = source.server;
+
+        if (!player) {
+            source.sendFailure(Text.red('This command can only be executed by a player.'));
+            return 0;
+        }
+
+        const animals = [
+            'minecraft:pig',
+            'minecraft:cow',
+            'minecraft:chicken',
+            'minecraft:sheep',
+            'minecraft:horse',
+            'minecraft:donkey',
+            'minecraft:mule',
+            'minecraft:cat',
+            'minecraft:ocelot',
+            'minecraft:wolf',
+            'minecraft:parrot',
+            'minecraft:rabbit',
+            'minecraft:fox',
+            'minecraft:goat',
+            'minecraft:llama',
+            'minecraft:panda',
+            'minecraft:polar_bear',
+            'minecraft:bee',
+            'minecraft:frog',
+            'minecraft:armadillo',
+            'minecraft:sniffer',
+            'minecraft:camel'
+        ];
+
+        let px = player.x;
+        let py = player.y;
+        let pz = player.z;
+        let radius = 3.5;
+        let angleStep = (2 * Math.PI) / animals.length;
+
+        animals.forEach((animalId, index) => {
+            let angle = index * angleStep;
+            let spawnX = (px + Math.cos(angle) * radius).toFixed(2);
+            let spawnZ = (pz + Math.sin(angle) * radius).toFixed(2);
+            server.runCommandSilent(`execute in ${player.level.dimension} run summon ${animalId} ${spawnX} ${py} ${spawnZ}`);
+        });
+
+        player.tell(Text.green(`✅ Spawned ${animals.length} common animals around you!`));
+        return 1;
+    }
+
+    // Also register /spawnanimals directly as a convenient alias
+    event.register(
+        Commands.literal('spawnanimals')
+            .requires(src => src.hasPermission(2))
+            .executes(ctx => spawnAnimals(ctx))
     );
 
     // Also register /greenscreen directly as a convenient alias

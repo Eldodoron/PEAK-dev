@@ -1,8 +1,12 @@
 {
   "ignored_recipe_types": [
-    "cucumber:shaped_tag"
+    "cucumber:shaped_tag",
+    "create:crushing"
   ],
-  "ignored_recipe_ids": [],
+  "ignored_recipe_ids": [
+    "northstar:crushing/.*",
+    "deeperdarker:compatibility/create/crushing/.*"
+  ],
   "default_duplicate_rules": {
     "ignored_fields": [
       "neoforge:conditions",

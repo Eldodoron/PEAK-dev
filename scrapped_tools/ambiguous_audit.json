@@ -1,0 +1,1584 @@
+{
+  "trade-cycling-neoforge-1.21.1-1.0.18.jar": {
+    "filename": "trade-cycling-neoforge-1.21.1-1.0.18.jar",
+    "toml_sample": "modLoader = \"javafml\"\nloaderVersion = \"*\"\nlicense = \"All rights reserved\"\nissueTrackerURL = \"https://github.com/henkelmax/trade-cycling/issues\"\n[[mods]]\nmodId = \"trade_cycling\"\nversion = \"1.21.1-1.0.18\"\ndisplayName = \"Trade Cycling\"\nupdateJSONURL = \"https://update.maxhenkel.de/neoforge/trade_cycling",
+    "mixins": [
+      {
+        "file": "trade_cycling.mixins.json",
+        "package": "de.maxhenkel.tradecycling.mixin",
+        "client": [
+          "AbstractContainerScreenAccessor"
+        ],
+        "server": [],
+        "common": [
+          "MerchantMenuAccessor",
+          "VillagerAccessor"
+        ]
+      }
+    ],
+    "net_classes_count": 2,
+    "net_classes_sample": [
+      "de/maxhenkel/tradecycling/net/CycleTradesPacket$1.class",
+      "de/maxhenkel/tradecycling/net/CycleTradesPacket.class"
+    ],
+    "client_classes_count": 6,
+    "cmd_classes_count": 0
+  },
+  "jauml-neoforge-1.21.1-2.0.0.jar": {
+    "filename": "jauml-neoforge-1.21.1-2.0.0.jar",
+    "toml_sample": "modLoader = \"javafml\" #mandatory\nloaderVersion = \"[4,)\" #mandatory\nlicense = \"MIT\" # Review your options at https://choosealicense.com/.\n#issueTrackerURL=\"https://change.me.to.your.issue.tracker.example.invalid/\" #optional\n[[mods]] #mandatory\nmodId = \"jauml\" #mandatory\nversion=\"2.0.0\" #mandatory\ndis",
+    "mixins": [],
+    "net_classes_count": 0,
+    "net_classes_sample": [],
+    "client_classes_count": 0,
+    "cmd_classes_count": 0
+  },
+  "saturn-mc1.21.1-0.1.5.jar.disabled": {
+    "filename": "saturn-mc1.21.1-0.1.5.jar.disabled",
+    "toml_sample": "# This is an example neoforge.mods.toml file. It contains the data relating to the loading mods.\n# There are several mandatory fields (#mandatory), and many more that are optional (#optional).\n# The overall format is standard TOML format, v0.5.0.\n# Note that there are a couple of TOML lists in this ",
+    "mixins": [
+      {
+        "file": "saturn.mixins.json",
+        "package": "com.aziz.saturn.mixin",
+        "client": [
+          "gc_heap.unnecessary_object_creation.ViewAreaMixin"
+        ],
+        "server": [],
+        "common": [
+          "allocations.empty_vector.PigMixin",
+          "allocations.empty_vector.StriderMixin",
+          "allocations.composter.ComposterBlockMixin$EmptyContainerMixin",
+          "allocations.composter.ComposterBlockMixin$InputContainerMixin",
+          "allocations.composter.ComposterBlockMixin$OutputContainerMixin",
+          "allocations.do_nothing.AllayAiMixin",
+          "allocations.do_nothing.CamelAiMixin",
+          "allocations.do_nothing.GoatAiMixin",
+          "allocations.do_nothing.HoglinAiMixin",
+          "allocations.do_nothing.PiglinAiMixin",
+          "allocations.do_nothing.PiglinBruteAiMixin",
+          "allocations.do_nothing.SnifferAiMixin",
+          "allocations.do_nothing.VillagerGoalPackagesMixin",
+          "allocations.do_nothing.WardenAiMixin",
+          "allocations.do_nothing.ZoglinMixin",
+          "allocations.fall_sounds.ArmorStandMixin",
+          "allocations.fall_sounds.LivingEntityMixin",
+          "allocations.fall_sounds.MonsterMixin",
+          "allocations.fall_sounds.PlayerMixin",
+          "allocations.item_cooldowns.PlayerMixin",
+          "gc_heap.unnecessary_object_creation.PointFreeMixin",
+          "allocations.shulker_look_control.ShulkerLookControlMixin",
+          "gc_heap.unnecessary_object_creation.TypeMixin",
+          "leaks.biome_temperature_cache.BiomeMixin",
+          "miscellaneous.threading_detector.PalettedContainerMixin"
+        ]
+      }
+    ],
+    "net_classes_count": 0,
+    "net_classes_sample": [],
+    "client_classes_count": 0,
+    "cmd_classes_count": 0
+  },
+  "DistantHorizons-3.3.2-1.21.1-fabric-neoforge.jar": {
+    "filename": "DistantHorizons-3.3.2-1.21.1-fabric-neoforge.jar",
+    "toml_sample": "modLoader = \"javafml\" #//mandatory\nloaderVersion = \"*\" # // mandatory. Allow all forge versions as we are definding what Minecraft versions we requre later on\nlicense = \"LGPL\"\nissueTrackerURL = \"https://gitlab.com/distant-horizons-team/distant-horizons/-/issues\"\n\n# https://docs.neoforged.net/docs/ge",
+    "mixins": [
+      {
+        "file": "DistantHorizons.fabric.mixins.json",
+        "package": "com.seibel.distanthorizons.fabric.mixins",
+        "client": [
+          "client.MixinClientLevel",
+          "client.MixinClientPacketListener",
+          "client.MixinDebugScreenOverlay",
+          "client.MixinFogRenderer",
+          "client.MixinGameRenderer",
+          "client.MixinImmersivePortalsRenderStates",
+          "client.MixinIrisFrameBuffer",
+          "client.MixinLevelRenderer",
+          "client.MixinChunkSectionsToRender",
+          "client.MixinLightTexture",
+          "client.MixinMinecraft",
+          "client.MixinOptionsScreen",
+          "client.MixinSharedConstants",
+          "client.MixinProjectionMatrixBuffer",
+          "client.MixinMain"
+        ],
+        "server": [],
+        "common": [
+          "server.MixinChunkGenerator",
+          "server.MixinChunkMap",
+          "server.MixinEntity",
+          "server.MixinServerPlayer",
+          "server.MixinTracingExecutor",
+          "server.MixinUtilBackgroundThread",
+          "server.MixinLevelTicks"
+        ]
+      },
+      {
+        "file": "DistantHorizons.neoforge.mixins.json",
+        "package": "com.seibel.distanthorizons.neoforge.mixins",
+        "client": [
+          "client.MixinClientPacketListener",
+          "client.MixinDebugScreenOverlay",
+          "client.MixinFogRenderer",
+          "client.MixinGameRenderer",
+          "client.MixinImmersivePortalsRenderStates",
+          "client.MixinIrisFrameBuffer",
+          "client.MixinLevelRenderer",
+          "client.MixinChunkSectionsToRender",
+          "client.MixinLightTexture",
+          "client.MixinMinecraft",
+          "client.MixinOptionsScreen",
+          "client.MixinSharedConstants",
+          "client.MixinProjectionMatrixBuffer",
+          "client.MixinMain"
+        ],
+        "server": [],
+        "common": [
+          "server.MixinChunkGenerator",
+          "server.MixinChunkMap",
+          "server.MixinServerPlayer",
+          "server.MixinTFChunkGenerator",
+          "server.MixinTracingExecutor",
+          "server.MixinUtilBackgroundThread",
+          "server.MixinLevelTicks"
+        ]
+      }
+    ],
+    "net_classes_count": 61,
+    "net_classes_sample": [
+      "META-INF/jars/fabric-networking-api-v1-4.3.0+c7469b2119.jar",
+      "com/seibel/distanthorizons/common/AbstractPluginPacketSender.class",
+      "com/seibel/distanthorizons/common/CommonPacketPayload$Codec.class",
+      "com/seibel/distanthorizons/common/CommonPacketPayload.class",
+      "com/seibel/distanthorizons/core/multiplayer/client/AbstractFullDataNetworkRequestQueue$1.class"
+    ],
+    "client_classes_count": 132,
+    "cmd_classes_count": 24
+  },
+  "aero_cam_sync-1.3.1.jar": {
+    "filename": "aero_cam_sync-1.3.1.jar",
+    "toml_sample": "\nmodLoader=\"javafml\" #mandatory\n\nloaderVersion=\"[1,)\" #mandatory\n\nlicense=\"MIT\"\n\n\n[[mods]] #mandatory\nmodId=\"aero_cam_sync\" #mandatory\nversion=\"1.3.1\" #mandatory\ndisplayName=\"Aeronautics Camera Sync\" #mandatory\nlogoFile=\"icon.png\"\n\ndescription='''\nAdds a dynamic camera tilt for the contraption from ",
+    "mixins": [
+      {
+        "file": "aero_cam_sync.mixins.json",
+        "package": "com.playsi.aero_cam_sync.mixins",
+        "client": [
+          "client.CameraMixin",
+          "client.EntityLookMixin",
+          "client.GameRendererPickMixin",
+          "client.SableCompatClipMixin"
+        ],
+        "server": [],
+        "common": []
+      }
+    ],
+    "net_classes_count": 6,
+    "net_classes_sample": [
+      "com/playsi/aero_cam_sync/network/",
+      "com/playsi/aero_cam_sync/network/HandshakePacket.class",
+      "com/playsi/aero_cam_sync/network/HandshakeResponsePacket.class",
+      "com/playsi/aero_cam_sync/network/NetworkHandler.class",
+      "com/playsi/aero_cam_sync/network/Payload/"
+    ],
+    "client_classes_count": 54,
+    "cmd_classes_count": 0
+  },
+  "atmospherics-2.6.5-mc-1.21.1.jar": {
+    "filename": "atmospherics-2.6.5-mc-1.21.1.jar",
+    "toml_sample": "# This is an example neoforge.mods.toml file. It contains the data relating to the loading mods.\n# There are several mandatory fields (#mandatory), and many more that are optional (#optional).\n# The overall format is standard TOML format, v0.5.0.\n# Note that there are a couple of TOML lists in this ",
+    "mixins": [
+      {
+        "file": "atmospherics.mixins.json",
+        "package": "com.beash.atmospherics.mixin",
+        "client": [
+          "AmbientFlowMixin",
+          "LightningEntityRendererMixin",
+          "ClientWorldSkyColorMixin",
+          "DimensionEffectsSunriseMixin",
+          "LightningEntityRendererMixin",
+          "BackgroundRendererMixin",
+          "WeatherSoundMixin",
+          "WorldRendererSkyMixin"
+        ],
+        "server": [],
+        "common": []
+      }
+    ],
+    "net_classes_count": 0,
+    "net_classes_sample": [],
+    "client_classes_count": 2,
+    "cmd_classes_count": 0
+  },
+  "cloudlayers-1.21.1-1.1.jar": {
+    "filename": "cloudlayers-1.21.1-1.1.jar",
+    "toml_sample": "# This is an example neoforge.mods.toml file. It contains the data relating to the loading mods.\n# There are several mandatory fields (#mandatory), and many more that are optional (#optional).\n# The overall format is standard TOML format, v0.5.0.\n# Note that there are a couple of TOML lists in this ",
+    "mixins": [
+      {
+        "file": "cloudlayers.mixins.json",
+        "package": "com.diamondwalker.cloudlayers.mixin",
+        "client": [
+          "MixinLevelRenderer"
+        ],
+        "server": [],
+        "common": []
+      }
+    ],
+    "net_classes_count": 0,
+    "net_classes_sample": [],
+    "client_classes_count": 2,
+    "cmd_classes_count": 0
+  },
+  "collapsible_groups-neoforge-1.21.1-1.4.2.jar": {
+    "filename": "collapsible_groups-neoforge-1.21.1-1.4.2.jar",
+    "toml_sample": "modLoader = \"javafml\" #mandatory\nloaderVersion = \"[4,)\" #mandatory\nlicense = \"MIT\" # Review your options at https://choosealicense.com/.\n[[mods]] #mandatory\nmodId = \"collapsible_groups\" #mandatory\nversion = \"1.4.2\" #mandatory\ndisplayName = \"Collapsible Groups\" #mandatory\nlogoFile=\"collapsible_groups",
+    "mixins": [
+      {
+        "file": "collapsible_groups.mixins.json",
+        "package": "com.starskyxiii.collapsible_groups.mixin",
+        "client": [],
+        "server": [],
+        "common": []
+      },
+      {
+        "file": "collapsible_groups.neoforge.mixins.json",
+        "package": "com.starskyxiii.collapsible_groups.mixin",
+        "client": [
+          "MixinBookmarkList",
+          "MixinIngredientFilter",
+          "MixinIngredientListOverlay",
+          "MixinGuiTextFieldFilterAccessor"
+        ],
+        "server": [],
+        "common": []
+      }
+    ],
+    "net_classes_count": 0,
+    "net_classes_sample": [],
+    "client_classes_count": 126,
+    "cmd_classes_count": 4
+  },
+  "cosycritters-0.3.2+1.21.1-neoforge.jar": {
+    "filename": "cosycritters-0.3.2+1.21.1-neoforge.jar",
+    "toml_sample": "modLoader = \"javafml\"\nloaderVersion = \"[2,)\"\nissueTrackerURL = \"https://github.com/PigCart/cosy-critters/issues?q=is%3Aissue\"\nlicense = \"MIT\"\nlogoFile = \"assets/cosycritters/textures/particle/crow_right.png\"\n\n[[mods]]\nmodId = \"cosycritters\"\nversion = \"0.3.2\"\ndisplayName = \"Cosy Critters & Creepy Cra",
+    "mixins": [
+      {
+        "file": "cosycritters.mixins.json",
+        "package": "pigcart.cosycritters.mixin",
+        "client": [
+          "AbstractWidgetMixin",
+          "ParticleEngineMixin",
+          "access.ParticleEngineAccessor",
+          "level.BlockMixin",
+          "level.WebBlockMixin",
+          "level.ClientLevelMixin"
+        ],
+        "server": [],
+        "common": []
+      }
+    ],
+    "net_classes_count": 0,
+    "net_classes_sample": [],
+    "client_classes_count": 1,
+    "cmd_classes_count": 0
+  },
+  "denseflower-1.0.0.jar": {
+    "filename": "denseflower-1.0.0.jar",
+    "toml_sample": "# This is an example neoforge.mods.toml file. It contains the data relating to the loading mods.\n# There are several mandatory fields (#mandatory), and many more that are optional (#optional).\n# The overall format is standard TOML format, v0.5.0.\n# Note that there are a couple of TOML lists in this ",
+    "mixins": [
+      {
+        "file": "dense-flowers.mixins.json",
+        "package": "tobinio.denseflowers.mixin",
+        "client": [
+          "AbstractBlockAccessor",
+          "SectionBuilderMixin",
+          "sodium.ChunkBuilderMeshingTaskMixin",
+          "sodium.BlockRendererMixin"
+        ],
+        "server": [],
+        "common": []
+      }
+    ],
+    "net_classes_count": 0,
+    "net_classes_sample": [],
+    "client_classes_count": 0,
+    "cmd_classes_count": 0
+  },
+  "enchdesc-neoforge-1.21.1-21.1.10.jar": {
+    "filename": "enchdesc-neoforge-1.21.1-21.1.10.jar",
+    "toml_sample": "modLoader = \"javafml\"\nloaderVersion = \"[4,)\"\nlicense = \"LGPL 2.1\"\nissueTrackerURL=\"https://github.com/Darkhax-Minecraft/Enchantment-Descriptions/issues\"\n\n[[mods]]\nmodId = \"enchdesc\"\nversion = \"21.1.10\"\ndisplayName = \"EnchantmentDescriptions\"\nupdateJSONURL = \"https://updates.blamejared.com/get?n=ench",
+    "mixins": [
+      {
+        "file": "enchdesc.neoforge.mixins.json",
+        "package": "net.darkhax.enchdesc.neoforge.mixin",
+        "client": [],
+        "server": [],
+        "common": []
+      },
+      {
+        "file": "enchdesc.mixins.json",
+        "package": "net.darkhax.enchdesc.common.mixin",
+        "client": [
+          "patch.MixinItemEnchants",
+          "patch.MixinItemStack"
+        ],
+        "server": [],
+        "common": []
+      }
+    ],
+    "net_classes_count": 0,
+    "net_classes_sample": [],
+    "client_classes_count": 0,
+    "cmd_classes_count": 0
+  },
+  "explosiveenhancement-neoforge-1.21.1-1.1.2.jar": {
+    "filename": "explosiveenhancement-neoforge-1.21.1-1.1.2.jar",
+    "toml_sample": "modLoader = \"javafml\" #mandatory\nloaderVersion = \"[4,)\" #mandatory\nlicense = \"GNU GPL v3.0\" # Review your options at https://choosealicense.com/.\n#issueTrackerURL=\"https://change.me.to.your.issue.tracker.example.invalid/\" #optional\n[[mods]] #mandatory\nmodId = \"explosiveenhancement\" #mandatory\nversio",
+    "mixins": [
+      {
+        "file": "explosiveenhancement.mixins.json",
+        "package": "dev.xylonity.explosiveenhancement.mixin",
+        "client": [],
+        "server": [],
+        "common": []
+      },
+      {
+        "file": "explosiveenhancement.neoforge.mixins.json",
+        "package": "dev.xylonity.explosiveenhancement.mixin",
+        "client": [
+          "ExplosionMixin",
+          "ParticleManagerMixin"
+        ],
+        "server": [],
+        "common": []
+      }
+    ],
+    "net_classes_count": 0,
+    "net_classes_sample": [],
+    "client_classes_count": 0,
+    "cmd_classes_count": 0
+  },
+  "fwa+1.21.1-neoforge-1.2.31.jar": {
+    "filename": "fwa+1.21.1-neoforge-1.2.31.jar",
+    "toml_sample": "# This is an example neoforge.mods.toml file. It contains the data relating to the loading mods.\n# There are several mandatory fields (#mandatory), and many more that are optional (#optional).\n# The overall format is standard TOML format, v0.5.0.\n# Note that there are a couple of TOML lists in this ",
+    "mixins": [
+      {
+        "file": "fwa.mixins.json",
+        "package": "fr.madu59.fwa.mixin",
+        "client": [
+          "ClientLevelMixin",
+          "BlockEntityRenderDispatcherMixin",
+          "ChestLidControllerMixin",
+          "SetSectionDirtyInvoker",
+          "GetContentHeightInvoker",
+          "LevelChunkMixin",
+          "RenderChunkRegionMixin",
+          "ShulkerBoxModelMixin",
+          "sodium.BlockRendererMixin",
+          "iris.ShadowRendererMixin",
+          "scholar.ChiseledBookShelfBlockEntityMixin",
+          "entityculling.CullTaskMixin"
+        ],
+        "server": [],
+        "common": []
+      }
+    ],
+    "net_classes_count": 0,
+    "net_classes_sample": [],
+    "client_classes_count": 3,
+    "cmd_classes_count": 0
+  },
+  "guideme-21.1.17.jar": {
+    "filename": "guideme-21.1.17.jar",
+    "toml_sample": "modLoader = \"javafml\"\nloaderVersion = \"*\"\nlogoFile = \"logo.png\"\nauthors = \"shartte\"\nlicense = \"See GitHub repository for details\"\n\n[[mixins]]\nconfig=\"guideme.optional.mixins.json\"\n\n[[mods]]\nmodId = \"guideme\"\nversion = \"21.1.17\"\ndisplayName = \"GuideME\"\ndescription = \"GuideME offers the foundation for",
+    "mixins": [
+      {
+        "file": "guideme.optional.mixins.json",
+        "package": "guideme.internal.hooks.mixins",
+        "client": [
+          "LuceneVectorizationMixin"
+        ],
+        "server": [],
+        "common": []
+      }
+    ],
+    "net_classes_count": 2,
+    "net_classes_sample": [
+      "guideme/internal/network/",
+      "guideme/internal/network/OpenGuideRequest.class"
+    ],
+    "client_classes_count": 4,
+    "cmd_classes_count": 8
+  },
+  "incrementalmining-1.21.1-1.5.jar.disabled": {
+    "filename": "incrementalmining-1.21.1-1.5.jar.disabled",
+    "toml_sample": "modLoader=\"javafml\"\nloaderVersion=\"[1,)\"\nlicense=\"All Rights Reserved\"\n\n[[mods]]\nmodId=\"incrementalmining\"\nversion=\"1.5\"\ndisplayName=\"Incremental Mining\"\ndescription='''\nA satisfying overhaul to Minecraft's mining swings.\nRequires NeoForge 1.21.1\n'''\n\nlogoFile=\"assets/incrementalmining/icon.png\"\n\n[[",
+    "mixins": [
+      {
+        "file": "incrementalmining.mixins.json",
+        "package": "com.jdynamo.incrementalmining.mixin.client",
+        "client": [
+          "ItemInHandRendererMixin",
+          "LocalPlayerMixin",
+          "LivingEntityMixin",
+          "MultiPlayerGameModeMixin",
+          "ParticleEngineMixin"
+        ],
+        "server": [],
+        "common": []
+      }
+    ],
+    "net_classes_count": 6,
+    "net_classes_sample": [
+      "com/jdynamo/incrementalmining/network/",
+      "com/jdynamo/incrementalmining/network/ModNetwork.class",
+      "com/jdynamo/incrementalmining/network/packet/",
+      "com/jdynamo/incrementalmining/network/packet/BlockSoundPacket.class",
+      "com/jdynamo/incrementalmining/network/packet/HoldAttackPacket.class"
+    ],
+    "client_classes_count": 11,
+    "cmd_classes_count": 0
+  },
+  "jeed-1.21-2.3.3.jar": {
+    "filename": "jeed-1.21-2.3.3.jar",
+    "toml_sample": "\nmodLoader = \"javafml\"\nloaderVersion = \"[4,)\"\n\nlicense = \"GLP3\"\nissueTrackerURL = \"https://github.com/MehVahdJukaar/JustEnoughEffectDescriptions/issues\"\n\n[[mixins]]\nconfig = \"jeed.mixins.json\"\n\n[[mods]]\nmodId = \"jeed\"\nversion = \"1.21-2.3.3\"\ndisplayName = \"Just Enough Effects Descriptions\"\nlogoFile =",
+    "mixins": [
+      {
+        "file": "jeed.mixins.json",
+        "package": "net.mehvahdjukaar.jeed.mixins",
+        "client": [
+          "BeaconButtonMixin",
+          "EffectsRenderingInventoryScreenMixin"
+        ],
+        "server": [],
+        "common": []
+      }
+    ],
+    "net_classes_count": 0,
+    "net_classes_sample": [],
+    "client_classes_count": 1,
+    "cmd_classes_count": 0
+  },
+  "lootr_liason-1.2-neoforge.jar": {
+    "filename": "lootr_liason-1.2-neoforge.jar",
+    "toml_sample": "# The name of the mod loader type to load - for regular FML @Mod mods it should be javafml\nmodLoader = \"javafml\"\nloaderVersion = \"[1,)\"\nlicense = \"All Rights Reserved\"\n\n[[mods]]\nmodId = \"lootr_liason\"\nversion = \"1.2-neoforge\"\ndisplayName = \"Lootr Liason\"\nauthors = \"Extra_Special_K, Ginger1y, Maniala",
+    "mixins": [
+      {
+        "file": "lootr_liason.mixins.json",
+        "package": "uk.creatopia.unbound.lootr_liason.mixin",
+        "client": [],
+        "server": [],
+        "common": [
+          "MixinLevelChunkSetLevelEarly"
+        ]
+      }
+    ],
+    "net_classes_count": 0,
+    "net_classes_sample": [],
+    "client_classes_count": 0,
+    "cmd_classes_count": 2
+  },
+  "multiplayerbosses-neoforge-1.21.1-1.0.0.jar": {
+    "filename": "multiplayerbosses-neoforge-1.21.1-1.0.0.jar",
+    "toml_sample": "modLoader = \"javafml\" #mandatory\nloaderVersion = \"[4,)\" #mandatory\nlicense = \"CC0-1.0\" # Review your options at https://choosealicense.com/.\n#issueTrackerURL=\"https://change.me.to.your.issue.tracker.example.invalid/\" #optional\n[[mods]] #mandatory\nmodId = \"multiplayerbosses\" #mandatory\nversion = \"1.0",
+    "mixins": [
+      {
+        "file": "multiplayerbosses.neoforge.mixins.json",
+        "package": "co.basin.multiplayerbosses.mixin",
+        "client": [
+          "MixinTitleScreen"
+        ],
+        "server": [],
+        "common": []
+      },
+      {
+        "file": "multiplayerbosses.mixins.json",
+        "package": "co.basin.multiplayerbosses.mixin",
+        "client": [
+          "MixinMinecraft"
+        ],
+        "server": [],
+        "common": []
+      }
+    ],
+    "net_classes_count": 0,
+    "net_classes_sample": [],
+    "client_classes_count": 7,
+    "cmd_classes_count": 0
+  },
+  "NBTac-NEOFORGE-1.21.1-1.3.10.jar": {
+    "filename": "NBTac-NEOFORGE-1.21.1-1.3.10.jar",
+    "toml_sample": "modLoader=\"javafml\"\nloaderVersion=\"*\"\nlicense=\"LGPL-3.0-only\"\nissueTrackerURL=\"https://github.com/mt1006/mc-nbtac-mod/issues\"\n\n[[mods]]\nmodId=\"nbt_ac\"\nversion=\"1.3.10\"\ndisplayName=\"NBT Autocomplete\"\ndisplayURL=\"https://modrinth.com/mod/nbt-autocomplete\"\nlogoFile=\"logo.png\"\nauthors=\"mt1006\"\ndescripti",
+    "mixins": [
+      {
+        "file": "nbt_ac.mixins.json",
+        "package": "com.mt1006.nbt_ac.mixin",
+        "client": [
+          "constructors.BlockEntityMixin",
+          "constructors.EntityMixin",
+          "constructors.EntityTypeMixin",
+          "fields.ClientLevelFields",
+          "fields.CommandSuggestionsFields",
+          "fields.DecoratedPotPatternsFields",
+          "fields.EntitySelectorFields",
+          "fields.FontManagerFields",
+          "fields.KeyMappingFields",
+          "fields.MinecraftFields",
+          "fields.TextColorFields",
+          "misc.ArgumentCommandNodeMixin",
+          "misc.RealmsMainScreenMixin",
+          "suggestions.SuggestionsListMixin",
+          "suggestions.arguments.ComponentArgumentMixin",
+          "suggestions.arguments.CompoundTagArgumentMixin",
+          "suggestions.arguments.NbtPathArgumentMixin",
+          "suggestions.arguments.NbtTagArgumentMixin",
+          "suggestions.arguments.StyleArgumentMixin",
+          "suggestions.selectors.BlockStateParserMixin",
+          "suggestions.selectors.EntitySelectorParserMixin",
+          "suggestions.selectors.ItemParserStateMixin"
+        ],
+        "server": [],
+        "common": []
+      }
+    ],
+    "net_classes_count": 0,
+    "net_classes_sample": [],
+    "client_classes_count": 1,
+    "cmd_classes_count": 2
+  },
+  "Nirvana Lib-neoforge-1.21.1-2.2.0.jar": {
+    "filename": "Nirvana Lib-neoforge-1.21.1-2.2.0.jar",
+    "toml_sample": "license = \"MIT\"\r\nmodLoader = \"javafml\"\r\naccessTransformers = []\r\nloaderVersion = \"[2,)\"\r\nissueTrackerURL = \"https://github.com/TUsama/Loot-Beams-Refork/issues\"\r\n\r\n\t[[dependencies.nirvana_lib]]\r\n\t\tversionRange = \"[21,)\"\r\n\t\tside = \"BOTH\"\r\n\t\tordering = \"NONE\"\r\n\t\ttype = \"required\"\r\n\t\tmodId = \"neoforge\"\r",
+    "mixins": [
+      {
+        "file": "nirvana_lib.mixins.json",
+        "package": "com.clefal.nirvana_lib.mixin",
+        "client": [
+          "AccessorRenderType"
+        ],
+        "server": [],
+        "common": []
+      },
+      {
+        "file": "nirvana_lib.new_render.mixins.json",
+        "package": "com.clefal.nirvana_lib.mixin",
+        "client": [
+          "AccessorRenderType",
+          "GuiGraphicsAccessor"
+        ],
+        "server": [],
+        "common": []
+      }
+    ],
+    "net_classes_count": 11,
+    "net_classes_sample": [
+      "com/clefal/nirvana_lib/network/",
+      "com/clefal/nirvana_lib/network/PhysicalSide.class",
+      "com/clefal/nirvana_lib/network/newtoolchain/",
+      "com/clefal/nirvana_lib/network/newtoolchain/C2SModPacket.class",
+      "com/clefal/nirvana_lib/network/newtoolchain/ModPacket.class"
+    ],
+    "client_classes_count": 60,
+    "cmd_classes_count": 0
+  },
+  "OctoLib-NEOFORGE-0.6.2+1.21.jar": {
+    "filename": "OctoLib-NEOFORGE-0.6.2+1.21.jar",
+    "toml_sample": "modLoader = \"javafml\"\nloaderVersion = \"[4,)\"\nissueTrackerURL = \"https://github.com/SSKirillSS/octo-lib/issues\"\nlicense = \"All Rights Reserved\"\n\n[[mods]]\nmodId = \"octolib\"\nversion = \"0.6.2\"\ndisplayName = \"OctoLib\"\nauthors = \"OctoStudios\"\ndescription = \"Collection of shared code for OctoStudios' mods\"",
+    "mixins": [
+      {
+        "file": "octolib-common.mixins.json",
+        "package": "it.hurts.octostudios.octolib.mixin",
+        "client": [
+          "AbstractContainerScreenMixin",
+          "AbstractWidgetAccessor",
+          "AbstractWidgetMixin",
+          "ClientLevelMixin",
+          "GameRendererMixin",
+          "GuiMixin",
+          "MinecraftMixin",
+          "ParticleEngineMixin",
+          "ScreenMixin",
+          "chromatic_aberration.GameRendererMixin",
+          "post_effect.GameRendererMixin"
+        ],
+        "server": [],
+        "common": []
+      }
+    ],
+    "net_classes_count": 9,
+    "net_classes_sample": [
+      "it/hurts/octostudios/octolib/module/chromatic_aberration/misc/S2CChromaticAberrationPacket.class",
+      "it/hurts/octostudios/octolib/module/config/network/",
+      "it/hurts/octostudios/octolib/module/config/network/SyncConfigPacket.class",
+      "it/hurts/octostudios/octolib/module/config/network/TestScreenPacket.class",
+      "it/hurts/octostudios/octolib/module/config/network/UnholyAbominationPacket.class"
+    ],
+    "client_classes_count": 39,
+    "cmd_classes_count": 2
+  },
+  "Panoptic-1.08a-NeoForge-1.21.1.jar": {
+    "filename": "Panoptic-1.08a-NeoForge-1.21.1.jar",
+    "toml_sample": "modLoader=\"javafml\"\nloaderVersion=\"[4,)\"\nlicense=\"LGPL-3.0-only\"\n\n[[mods]]\nmodId=\"panoptic\"\nversion=\"1.08a\"\ndisplayName=\"Panoptic\"\nauthors=\"Mokich\"\nlogoFile=\"logo.png\"\ndisplayTest=\"IGNORE_SERVER_VERSION\"\ndescription=''''''\n\n[[mixins]]\nconfig=\"panoptic.mixins.json\"\n\n[[dependencies.\"panoptic\"]]\n    mo",
+    "mixins": [
+      {
+        "file": "panoptic.mixins.json",
+        "package": "net.mokich.panoptic.mixin",
+        "client": [
+          "GuiGraphicsCaptureMixin",
+          "InventoryScreenEntityMixin",
+          "ItemRendererCaptureMixin"
+        ],
+        "server": [],
+        "common": []
+      }
+    ],
+    "net_classes_count": 23,
+    "net_classes_sample": [
+      "net/mokich/panoptic/network/",
+      "net/mokich/panoptic/network/AdminEditPacket.class",
+      "net/mokich/panoptic/network/AdminOpenPacket.class",
+      "net/mokich/panoptic/network/AdminStatePacket$PlayerRow.class",
+      "net/mokich/panoptic/network/AdminStatePacket.class"
+    ],
+    "client_classes_count": 2,
+    "cmd_classes_count": 0
+  },
+  "particular-1.21.1-NeoForge-1.5.5.jar": {
+    "filename": "particular-1.21.1-NeoForge-1.5.5.jar",
+    "toml_sample": "modLoader = \"javafml\"\nloaderVersion = \"[4,)\"\nlogoFile = \"logo.png\"\nlicense = \"LGPL-3.0\"\n\n[[mods]]\nmodId = \"particular\"\nversion = \"1.5.5\"\ndisplayName = \"Particular Reforged\"\nlogoFile = \"particular.png\"\ncredits = \"Leclowndu93150, and Chai the goat for the original Particular mod\"\nauthors = \"Leclowndu9",
+    "mixins": [
+      {
+        "file": "particular.mixins.json",
+        "package": "com.leclowndu93150.particular.mixin",
+        "client": [
+          "AccessorBillboardParticle",
+          "AccessorBiome",
+          "AccessorBlockLeakParticle",
+          "AccessorChestBlockEntity",
+          "AccessorEnderChestBlockEntity",
+          "AccessorParticle",
+          "InjectBarrelBlock",
+          "InjectBlockLeakParticle",
+          "InjectClientLevelAnimateTick",
+          "InjectBubbleColumnUpParticle",
+          "InjectCakeBlock",
+          "InjectChestBlock",
+          "InjectChestBlockEntity",
+          "InjectContinuousFalling",
+          "InjectEnderChestBlock",
+          "InjectEnderChestBlockEntity",
+          "InjectEntity",
+          "InjectFlowableFluid",
+          "InjectLeavesBlock",
+          "InjectLevelRenderer",
+          "InjectSpongeBlock",
+          "InjectWaterBubbleParticle",
+          "InjectWaterFluid",
+          "InvokerLivingEntity",
+          "InvokerViewerCountManager",
+          "NativeImageAccessor"
+        ],
+        "server": [],
+        "common": []
+      },
+      {
+        "file": "particular.neoforge.mixins.json",
+        "package": "com.leclowndu93150.particular.mixin",
+        "client": [
+          "ParticleEngineMixinNeo"
+        ],
+        "server": [],
+        "common": []
+      },
+      {
+        "file": "particular.sable.mixins.json",
+        "package": "com.leclowndu93150.particular.mixin.sable",
+        "client": [
+          "SableLevelPlotMixin",
+          "SubLevelTickMixin"
+        ],
+        "server": [],
+        "common": []
+      },
+      {
+        "file": "particular.tfc.mixins.json",
+        "package": "com.leclowndu93150.particular.mixin.compat",
+        "client": [
+          "TFCMixingFluidMixin"
+        ],
+        "server": [],
+        "common": []
+      }
+    ],
+    "net_classes_count": 0,
+    "net_classes_sample": [],
+    "client_classes_count": 3,
+    "cmd_classes_count": 0
+  },
+  "ragdoll_reactions-1.21.1-0.7.0.jar.disabled": {
+    "filename": "ragdoll_reactions-1.21.1-0.7.0.jar.disabled",
+    "toml_sample": "modLoader = \"javafml\"\nloaderVersion = \"[4,)\"\nlicense = \"All Rights Reserved. Do not redistribute.\"\n[[mods]]\nmodId = \"ragdoll_reactions\"\nversion = \"0.7.0\"\ndisplayName = \"Ragdoll Reactions\"\nlogoFile = \"ragdoll_reactions_icon.png\"\nauthors = \"Leonardoinc22\"\ndescription = '''Players and mobs ragdoll in r",
+    "mixins": [],
+    "net_classes_count": 3,
+    "net_classes_sample": [
+      "dev/leo/ragdollreactions/neoforge/network/",
+      "dev/leo/ragdollreactions/neoforge/network/ClientMotionPacket.class",
+      "dev/leo/ragdollreactions/neoforge/network/ReactionNetworking.class"
+    ],
+    "client_classes_count": 7,
+    "cmd_classes_count": 0
+  },
+  "sable_player_ragdoll-1.21.1-0.7.5.jar.disabled": {
+    "filename": "sable_player_ragdoll-1.21.1-0.7.5.jar.disabled",
+    "toml_sample": "modLoader = \"javafml\"\nloaderVersion = \"[4,)\"\nlicense = \"All Rights Reserved. Do not redistribute.\"\n[[mods]]\nmodId = \"sable_player_ragdoll\"\nversion = \"0.7.5\"\ndisplayName = \"Sable Ragdolls\"\nlogoFile = \"sable_player_ragdoll_icon.png\"\nauthors = \"Leonardoinc22\"\ndescription = '''Ragdoll physics API for Sa",
+    "mixins": [
+      {
+        "file": "sable_player_ragdoll.mixins.json",
+        "package": "dev.leo.sableplayerragdoll.mixin",
+        "client": [
+          "client.GuiOverlayRagdollMixin"
+        ],
+        "server": [],
+        "common": []
+      },
+      {
+        "file": "sable_player_ragdoll.neoforge.mixins.json",
+        "package": "dev.leo.sableplayerragdoll.neoforge.mixin",
+        "client": [
+          "ActiveSableCompanionCameraMixin",
+          "RagdollFirstPersonEyeMixin",
+          "EntitySubLevelRotationHelperMixin",
+          "HumanoidArmorLayerMixin",
+          "HumanoidModelMixin",
+          "LivingEntityRendererAccessor",
+          "LivingEntityRendererMixin",
+          "LivingEntityRendererRagdollMixin"
+        ],
+        "server": [],
+        "common": [
+          "EntityRagdollHiddenMixin",
+          "PlayerRagdollHiddenMixin",
+          "PhysicsBlockPropertyHelperMixin",
+          "LivingEntityRagdollDamageMixin",
+          "ActiveSableCompanionBodyGuardMixin"
+        ]
+      }
+    ],
+    "net_classes_count": 17,
+    "net_classes_sample": [
+      "dev/leo/sableplayerragdoll/mob/network/",
+      "dev/leo/sableplayerragdoll/mob/network/MobRagdollDespawnPacket.class",
+      "dev/leo/sableplayerragdoll/mob/network/MobRagdollLaunchRequestPacket.class",
+      "dev/leo/sableplayerragdoll/mob/network/MobRagdollNetworking.class",
+      "dev/leo/sableplayerragdoll/mob/network/MobRagdollSpawnPacket$Part.class"
+    ],
+    "client_classes_count": 39,
+    "cmd_classes_count": 2
+  },
+  "shine-2.0.1+1.21.1-neoforge.jar": {
+    "filename": "shine-2.0.1+1.21.1-neoforge.jar",
+    "toml_sample": "modLoader=\"javafml\"\nloaderVersion=\"[4,)\"\nlicense=\"ARR\"\nissueTrackerURL=\"https://github.com/tapeQ/Shine/issues\"\n\n[[mods]]\nmodId=\"shine\"\nversion=\"2.0.1+1.21.1-neoforge\"\ndisplayName=\"Shine\"\ndescription='''\nAdds bloom, colored lighting, and stylized effects to Minecraft, without shaders.\n'''\nauthors=\"ta",
+    "mixins": [
+      {
+        "file": "shine.mixins.json",
+        "package": "com.bloom.mixin.client",
+        "client": [
+          "LevelRendererMixin",
+          "MainTargetMixin",
+          "ModelBlockRendererMixin",
+          "ColoredLightClientLevelMixin",
+          "FixedScaleScreenRenderMixin",
+          "GuiDrawBufferMixin",
+          "LiquidBlockRendererMixin",
+          "PostChainMixin",
+          "ProgramMixin",
+          "RenderTargetMixin",
+          "ShaderInstanceColoredLightMixin",
+          "ShineUpgradeNoticeScreenMixin",
+          "distanthorizons.DistantHorizonsApplyShaderMixin",
+          "distanthorizons.DistantHorizonsTerrainRendererMixin",
+          "ponder.PonderSceneShadingContextMixin",
+          "sable.SableVanillaSubLevelRenderDispatcherMixin",
+          "sable.sodium.SableSodiumSubLevelRenderSectionManagerMixin",
+          "shading.BakedQuadNoShadingMixin",
+          "shading.ClientLevelNoShadingMixin",
+          "shading.LiquidBlockNoShadingMixin",
+          "sodium.SodiumBlockRendererMixin",
+          "sodium.SodiumChunkBuilderMeshingTaskMixin",
+          "sodium.SodiumChunkMeshBufferBuilderMixin",
+          "sodium.SodiumCompactChunkVertexMixin",
+          "sodium.SodiumDefaultFluidRendererMixin",
+          "sodium.SodiumShaderLoaderMixin",
+          "sodium.SodiumShaderChunkRendererMixin",
+          "accessor.PostChainAccessor"
+        ],
+        "server": [],
+        "common": []
+      }
+    ],
+    "net_classes_count": 0,
+    "net_classes_sample": [],
+    "client_classes_count": 142,
+    "cmd_classes_count": 0
+  },
+  "SimplyTooltips-neoforge-0.1.5.jar": {
+    "filename": "SimplyTooltips-neoforge-0.1.5.jar",
+    "toml_sample": "modLoader = \"javafml\"\nloaderVersion = \"[2,)\"\nlicense = \"Timefall Development License 1.2\"\n\n[[mods]]\nmodId = \"simplytooltips\"\nversion = \"0.1.5\"\ndisplayName = \"Simply Tooltips\"\nauthors = \"Sweenus\"\ndescription = '''\nModern data driven tooltip renderer for Simply mods. Optionally available for other van",
+    "mixins": [
+      {
+        "file": "simplytooltips.mixins.json",
+        "package": "net.sweenus.simplytooltips.mixin",
+        "client": [
+          "client.DrawContextMixin",
+          "client.ScreenScrollMixin"
+        ],
+        "server": [],
+        "common": []
+      }
+    ],
+    "net_classes_count": 0,
+    "net_classes_sample": [],
+    "client_classes_count": 133,
+    "cmd_classes_count": 1
+  },
+  "towntalk-1.2.0.jar": {
+    "filename": "towntalk-1.2.0.jar",
+    "toml_sample": "# This is an example neoforge.mods.toml file. It contains the data relating to the loading mods.\n# There are several mandatory fields (#mandatory), and many more that are optional (#optional).\n# The overall format is standard TOML format, v0.5.0.\n# Note that there are a couple of TOML lists in this ",
+    "mixins": [],
+    "net_classes_count": 0,
+    "net_classes_sample": [],
+    "client_classes_count": 0,
+    "cmd_classes_count": 0
+  },
+  "txnilib-neoforge-1.0.24-1.21.1.jar": {
+    "filename": "txnilib-neoforge-1.0.24-1.21.1.jar",
+    "toml_sample": "modLoader = \"javafml\"\nloaderVersion=\"[1,)\"\nlicense=\"MIT\"\nshowAsResourcePack=false\n\nissueTrackerURL = \"https://github.com/txnimc/TxniLib/issues\"\n\n[[mods]]\nmodId=\"txnilib\"\ndisplayName=\"TxniLib\"\nversion=\"1.0.24\"\nauthors=\"Toni\"\ndescription=\"Yet Another Library Mod\"\nlogoFile=\"assets/lib/textures/mod_logo",
+    "mixins": [],
+    "net_classes_count": 21,
+    "net_classes_sample": [
+      "toni/lib/networking/",
+      "toni/lib/networking/ToniPacket.class",
+      "toni/lib/networking/codecs/",
+      "toni/lib/networking/codecs/ByteBufCodecs$1.class",
+      "toni/lib/networking/codecs/ByteBufCodecs.class"
+    ],
+    "client_classes_count": 0,
+    "cmd_classes_count": 0
+  },
+  "uranus-2.4.1-1.21.1-neoforge.jar": {
+    "filename": "uranus-2.4.1-1.21.1-neoforge.jar",
+    "toml_sample": "modLoader = \"javafml\"\nloaderVersion = \"[2,)\"\nissueTrackerURL = \"https://github.com/IAFEnvoy/Uranus/issues\"\nlicense = \"LGPL-3.0\"\n\n[[mods]]\nmodId = \"uranus\"\nversion = \"2.4.1\"\ndisplayName = \"Uranus\"\nauthors = \"IAFEnvoy\"\ndescription = '''\nA Library contains animation engine, object helper and so on. Par",
+    "mixins": [
+      {
+        "file": "uranus-neoforge.mixins.json",
+        "package": "com.iafenvoy.uranus.neoforge.mixin",
+        "client": [
+          "ArmorFeatureRendererMixin"
+        ],
+        "server": [],
+        "common": []
+      },
+      {
+        "file": "uranus.mixins.json",
+        "package": "com.iafenvoy.uranus.mixin",
+        "client": [
+          "ArmorFeatureRendererMixin",
+          "BuiltinModelItemRendererMixin",
+          "ClientWorldMixin",
+          "ModelLoaderMixin"
+        ],
+        "server": [],
+        "common": [
+          "EntityMixin",
+          "EntityTrackerEntryMixin",
+          "LevelPropertiesMixin",
+          "LivingEntityMixin",
+          "MinecraftServerMixin",
+          "PlayerEntityMixin",
+          "PlayerInventoryMixin",
+          "PlayerManagerMixin",
+          "ServerEntityManagerMixin"
+        ]
+      }
+    ],
+    "net_classes_count": 3,
+    "net_classes_sample": [
+      "com/iafenvoy/uranus/network/",
+      "com/iafenvoy/uranus/network/AnimationPayload.class",
+      "com/iafenvoy/uranus/network/PacketBufferUtils.class"
+    ],
+    "client_classes_count": 57,
+    "cmd_classes_count": 0
+  },
+  "yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar": {
+    "filename": "yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar",
+    "toml_sample": "#issueTrackerURL = \"\"\nlicense = \"LGPL-3.0-or-later\"\nmodLoader = \"javafml\"\nloaderVersion = \"[1,)\"\n[[mods]]\n\tlogoFile = \"yacl-128x.png\"\n\tdisplayName = \"YetAnotherConfigLib\"\n\tdescription = \"YetAnotherConfigLib (yacl) is just that. A builder-based configuration library for Minecraft.\\n\"\n\tversion = \"3.8.",
+    "mixins": [
+      {
+        "file": "yacl-fabric.mixins.json",
+        "package": "dev.isxander.yacl3.mixin",
+        "client": [
+          "ContainerEventHandlerMixin"
+        ],
+        "server": [],
+        "common": []
+      },
+      {
+        "file": "yacl.mixins.json",
+        "package": "dev.isxander.yacl3.mixin",
+        "client": [
+          "AbstractSelectionListAccessor",
+          "AbstractSelectionListMixin",
+          "MinecraftMixin",
+          "OptionInstanceAccessor",
+          "TabNavigationBarAccessor",
+          "GuiGraphicsMixin"
+        ],
+        "server": [],
+        "common": []
+      }
+    ],
+    "net_classes_count": 0,
+    "net_classes_sample": [],
+    "client_classes_count": 0,
+    "cmd_classes_count": 0
+  },
+  "Searchables-neoforge-1.21.1-1.0.2.jar": {
+    "filename": "Searchables-neoforge-1.21.1-1.0.2.jar",
+    "toml_sample": "modLoader = \"javafml\"\nloaderVersion = \"[4,)\"\nissueTrackerURL = \"https://github.com/jaredlll08/searchables/issues\"\nlicense = \"MIT\"\n[[mods]]\nmodId = \"searchables\"\nupdateJSONURL = \"https://updates.blamejared.com/get?n=searchables&gv=1.21.1&ml=neoforge\"\nversion = \"1.0.2\"\ndisplayName = \"Searchables\"\ndisp",
+    "mixins": [
+      {
+        "file": "searchables.neoforge.mixins.json",
+        "package": "com.blamejared.searchables.mixin",
+        "client": [],
+        "server": [],
+        "common": []
+      },
+      {
+        "file": "searchables.mixins.json",
+        "package": "com.blamejared.searchables.mixin",
+        "client": [
+          "AccessEditBox"
+        ],
+        "server": [],
+        "common": []
+      }
+    ],
+    "net_classes_count": 0,
+    "net_classes_sample": [],
+    "client_classes_count": 0,
+    "cmd_classes_count": 0
+  },
+  "CrashAssistant-neoforge-1.20.6-1.21.4-1.11.9.jar": {
+    "filename": "CrashAssistant-neoforge-1.20.6-1.21.4-1.11.9.jar",
+    "toml_sample": "modLoader = \"javafml\" #mandatory\nloaderVersion = \"[3,)\" #mandatory\nlicense = \"KostromDan's Modded Minecraft License (Version 1.1.3)\" # Review your options at https://choosealicense.com/.\nissueTrackerURL=\"https://github.com/KostromDan/Crash-Assistant/issues\"\n[[mods]] #mandatory\nmodId = \"crash_assista",
+    "mixins": [],
+    "net_classes_count": 0,
+    "net_classes_sample": [],
+    "client_classes_count": 0,
+    "cmd_classes_count": 0
+  },
+  "EvoLoginTimeout-NeoForge-1.21.1-1.0.9.jar": {
+    "filename": "EvoLoginTimeout-NeoForge-1.21.1-1.0.9.jar",
+    "toml_sample": "modLoader=\"javafml\"\nloaderVersion=\"[4,)\"\nlicense=\"All Rights Reserved\"\nissueTrackerURL=\"https://discord.gg/evocraft\"\n\n[[mods]]\nmodId=\"evologintimeout\"\nversion=\"1.0.9\"\ndisplayName=\"EvoLoginTimeout\"\nauthors=\"dxleloup / EvoCraft\"\ndescription='''\nNeoForge client + server mod that increases login/configu",
+    "mixins": [
+      {
+        "file": "evologintimeout.mixins.json",
+        "package": "fr.evocraft.evologintimeout.mixin",
+        "client": [
+          "ClientCommonPacketListenerImplMixin",
+          "ClientConfigurationPacketListenerImplMixin",
+          "ClientPacketListenerMixin"
+        ],
+        "server": [],
+        "common": [
+          "ConnectionMixin",
+          "ServerLoginPacketListenerImplMixin",
+          "ServerConfigurationPacketListenerImplMixin",
+          "ServerCommonPacketListenerImplMixin",
+          "ServerGamePacketListenerImplMixin"
+        ]
+      }
+    ],
+    "net_classes_count": 7,
+    "net_classes_sample": [
+      "fr/evocraft/evologintimeout/mixin/ClientCommonPacketListenerImplMixin.class",
+      "fr/evocraft/evologintimeout/mixin/ClientConfigurationPacketListenerImplMixin.class",
+      "fr/evocraft/evologintimeout/mixin/ClientPacketListenerMixin.class",
+      "fr/evocraft/evologintimeout/mixin/ServerCommonPacketListenerImplMixin.class",
+      "fr/evocraft/evologintimeout/mixin/ServerConfigurationPacketListenerImplMixin.class"
+    ],
+    "client_classes_count": 3,
+    "cmd_classes_count": 0
+  },
+  "Almanac-1.21.1-2-neoforge-1.5.2.jar": {
+    "filename": "Almanac-1.21.1-2-neoforge-1.5.2.jar",
+    "toml_sample": "modLoader = \"javafml\"\nloaderVersion = \"[2,)\"\nissueTrackerURL = \"https://github.com/frikinjay/almanac\"\nlicense = \"GNU LGPL 3.0\"\n\n[[mods]]\nmodId = \"almanac\"\nversion = \"1.5.2\"\ndisplayName = \"Almanac\"\nauthors = \"frikinjay\"\ndescription = '''\nLoader independent library mod for frikinjay's mods\n'''\nlogoFil",
+    "mixins": [
+      {
+        "file": "almanac.mixins.json",
+        "package": "com.frikinjay.almanac.mixin",
+        "client": [],
+        "server": [],
+        "common": [
+          "CommandsMixin",
+          "EntityMixin",
+          "ItemStackMixin",
+          "SlotMixin"
+        ]
+      }
+    ],
+    "net_classes_count": 0,
+    "net_classes_sample": [],
+    "client_classes_count": 0,
+    "cmd_classes_count": 3
+  },
+  "Antique Atlas-1.21.1-8.0.1-NeoForge.jar.disabled": {
+    "filename": "Antique Atlas-1.21.1-8.0.1-NeoForge.jar.disabled",
+    "toml_sample": "modLoader=\"javafml\"\nloaderVersion=\"[4,5)\"\nlicense=\"GNU GENERAL PUBLIC LICENSE\"\nissueTrackerURL=\"https://github.com/AntiqueAtlasTeam/AntiqueAtlas/issues\"\nlogoFile=\"pack.png\"\n[[mods]]\nmodId=\"antiqueatlas\"\nversion=\"8.0.1\"\ndisplayName=\"Antique Atlas\"\nupdateJSONURL=\"\"\ndisplayURL=\"https://www.curseforge.c",
+    "mixins": [
+      {
+        "file": "antiqueatlas-common.mixins.json",
+        "package": "hunternif.mc.impl.atlas.mixin",
+        "client": [
+          "MixinClientPlayNetworkHandler",
+          "MixinInGameHud",
+          "MixinMinecraftClient",
+          "HeldItemRendererMixin"
+        ],
+        "server": [],
+        "common": [
+          "MixinCraftingResultSlot",
+          "MixinEntity",
+          "MixinPlayerEntity",
+          "MixinPlayerEntityDeath",
+          "structure.StructureStartMixin",
+          "MixinCartographyTableScreenHandler",
+          "dev.MixinCartographyTableScreenHandlerSlot",
+          "prod.MixinCartographyTableScreenHandlerSlot",
+          "dev.MixinCartographyTableScreenHandlerResultSlot",
+          "prod.MixinCartographyTableScreenHandlerResultSlot"
+        ]
+      },
+      {
+        "file": "antiqueatlas.mixins.json",
+        "package": "hunternif.mc.impl.atlas.mixin",
+        "client": [
+          "HeldItemRendererMixin",
+          "MinecraftClientMixin",
+          "MixinEntity",
+          "GlDebugMixin",
+          "MixinPlayerEntityDeath"
+        ],
+        "server": [],
+        "common": [
+          "MixinPlayerEntity"
+        ]
+      }
+    ],
+    "net_classes_count": 21,
+    "net_classes_sample": [
+      "hunternif/mc/impl/atlas/network/",
+      "hunternif/mc/impl/atlas/network/packet/",
+      "hunternif/mc/impl/atlas/network/packet/c2s/",
+      "hunternif/mc/impl/atlas/network/packet/c2s/play/",
+      "hunternif/mc/impl/atlas/network/packet/c2s/play/PutTileC2SPacket.class"
+    ],
+    "client_classes_count": 75,
+    "cmd_classes_count": 0
+  },
+  "CameraOverhaul-v2.1.1-neoforge+mc[1.21-1.21.1].jar.disabled": {
+    "filename": "CameraOverhaul-v2.1.1-neoforge+mc[1.21-1.21.1].jar.disabled",
+    "toml_sample": "modLoader = \"javafml\"\nloaderVersion = \"*\"\nlicense = \"GNU General Public License 3.0, https://www.gnu.org/licenses/gpl-3.0.en.html\"\nissueTrackerURL = \"https://github.com/Mirsario/Minecraft-CameraOverhaul/issues\"\n\n[[mods]]\nmodId = \"cameraoverhaul\"\nversion = \"2.1.1-neoforge+mc.1.21-1.21.1\"\ndisplayName ",
+    "mixins": [
+      {
+        "file": "cameraoverhaul.mixins.json",
+        "package": "mirsario.cameraoverhaul.mixins",
+        "client": [],
+        "server": [],
+        "common": []
+      }
+    ],
+    "net_classes_count": 0,
+    "net_classes_sample": [],
+    "client_classes_count": 0,
+    "cmd_classes_count": 0
+  },
+  "BetterThirdPerson-neoforge-1.9.0.jar": {
+    "filename": "BetterThirdPerson-neoforge-1.9.0.jar",
+    "toml_sample": "modLoader = \"javafml\"\nloaderVersion = \"[4,)\"\nissueTrackerURL = \"https://www.curseforge.com/minecraft/mc-mods/better-third-person/issues\"\nlicense = \"All Rights Reserved\"\n\n[[mods]]\nmodId = \"betterthirdperson\"\nversion = \"1.9.0\"\ndisplayName = \"Better Third Person\"\nauthors = \"Socolio\"\ndescription = '''\nA",
+    "mixins": [
+      {
+        "file": "betterthirdperson.mixins.json",
+        "package": "io.socol.betterthirdperson.mixin",
+        "client": [
+          "CameraMixin",
+          "EntityMixin",
+          "KeyboardInputMixin",
+          "MinecraftClientMixin",
+          "MouseFixupMixin",
+          "MouseMixin",
+          "PlayerEntityMixin"
+        ],
+        "server": [],
+        "common": []
+      }
+    ],
+    "net_classes_count": 0,
+    "net_classes_sample": [],
+    "client_classes_count": 3,
+    "cmd_classes_count": 0
+  },
+  "smooththirdpersoncamera-26.05.28-mc1.21.1.jar.disabled": {
+    "filename": "smooththirdpersoncamera-26.05.28-mc1.21.1.jar.disabled",
+    "toml_sample": "modLoader=\"javafml\"\nloaderVersion=\"[0,)\"\nlicense=\"ARR\"\n\n[[mods]]\nmodId=\"smooththirdpersoncamera\"\nversion=\"26.05.28-mc1.21.1\"\ndisplayName=\"Smooth Third Person Camera\"\ndisplayURL=\"https://modrinth.com/mod/smooth-third-person-camera\"\ndisplayTest=\"IGNORE_SERVER_VERSION\"\nlogoFile=\"assets/smooththirdperso",
+    "mixins": [
+      {
+        "file": "smooththirdpersoncamera.client.mixins.json",
+        "package": "com.yoima.smooththirdpersoncamera.mixin.client",
+        "client": [
+          "CameraMixin"
+        ],
+        "server": [],
+        "common": []
+      },
+      {
+        "file": "smooththirdpersoncamera.mixins.json",
+        "package": "com.yoima.smooththirdpersoncamera.mixin",
+        "client": [],
+        "server": [],
+        "common": []
+      }
+    ],
+    "net_classes_count": 0,
+    "net_classes_sample": [],
+    "client_classes_count": 5,
+    "cmd_classes_count": 0
+  },
+  "smoothswapping-0.9.3.2-1.21.1-neoforge.jar": {
+    "filename": "smoothswapping-0.9.3.2-1.21.1-neoforge.jar",
+    "toml_sample": "modLoader = \"javafml\" #mandatory\nloaderVersion = \"[4,)\" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.\nlicense = \"GNU LGPL 3.0\"\nissueTrackerURL = \"https://github.com/Schauweg/Smooth-Swapping/issues\"\n\n[[mods]] #mandatory\nmodId = \"smo",
+    "mixins": [
+      {
+        "file": "smoothswapping-common.mixins.json",
+        "package": "dev.shwg.smoothswapping.mixin",
+        "client": [
+          "ClickSlotPacketMixin",
+          "DrawContextMixin",
+          "HandledScreenMixin",
+          "SimpleInventoryAccessor",
+          "ItemStackMixin"
+        ],
+        "server": [],
+        "common": []
+      }
+    ],
+    "net_classes_count": 1,
+    "net_classes_sample": [
+      "dev/shwg/smoothswapping/mixin/ClickSlotPacketMixin.class"
+    ],
+    "client_classes_count": 0,
+    "cmd_classes_count": 0
+  },
+  "smoothchunk-1.21-4.1.jar.disabled": {
+    "filename": "smoothchunk-1.21-4.1.jar.disabled",
+    "toml_sample": "# This is an example mods.toml file. It contains the data relating to the loading mods.\n# There are several mandatory fields (#mandatory), and many more that are optional (#optional).\n# The overall format is standard TOML format, v0.5.0.\n# Note that there are a couple of TOML lists in this file.\n# F",
+    "mixins": [
+      {
+        "file": "smoothchunk.mixins.json",
+        "package": "com.smoothchunk.mixin",
+        "client": [],
+        "server": [],
+        "common": [
+          "ChunkAccessMixin",
+          "ChunkMapMixin",
+          "ChunkMapSlowUnload",
+          "PersistentEntitySectionManagerMixin",
+          "ServerChunkCacheMixin"
+        ]
+      }
+    ],
+    "net_classes_count": 0,
+    "net_classes_sample": [],
+    "client_classes_count": 0,
+    "cmd_classes_count": 0
+  },
+  "super_resolution-neoforge-1.21..1.21.1-0.8.3-alpha.4+opengl.jar.disabled": {
+    "filename": "super_resolution-neoforge-1.21..1.21.1-0.8.3-alpha.4+opengl.jar.disabled",
+    "toml_sample": "modLoader = \"javafml\"\nloaderVersion = \"*\"\nissueTrackerURL = \"https://github.com/187J3X1-114514/superresolution/issues\"\nlicense = \"MIT\"\n\n[[mods]]\nmodId = \"super_resolution\"\nversion = \"0.8.3-alpha.4+opengl\"\ndisplayName = \"Super Resolution\"\nauthors = \"187J3X1\"\ndescription = '''\n\u55b5\n'''\nlogoFile = \"assets",
+    "mixins": [
+      {
+        "file": "super_resolution-neoforge-compat.mixins.json",
+        "package": "io.homo.superresolution.neoforge.mixin.compat",
+        "client": [
+          "iris.GlFramebufferMixin",
+          "iris.IrisRenderingPipelineMixin",
+          "reesessodiumoptions.TabFrameMixin",
+          "simpleclouds.DefaultPipelineMixin",
+          "simpleclouds.ShaderSupportPipelineMixin",
+          "sodium.SodiumOptionsGUIMixin",
+          "sodiumoptionsapi.SodiumOptionsTabFrameMixin",
+          "iris.DHCompatInternalMixin"
+        ],
+        "server": [],
+        "common": []
+      },
+      {
+        "file": "super_resolution-neoforge.mixins.json",
+        "package": "io.homo.superresolution.neoforge.mixin",
+        "client": [
+          "core.MinecraftMixin",
+          "neoforge.FuckingValidation1218Mixin",
+          "neoforge.FuckingValidationMixin",
+          "neoforge.WindowMixin"
+        ],
+        "server": [],
+        "common": []
+      },
+      {
+        "file": "super_resolution.mixins.json",
+        "package": "io.homo.superresolution.common.mixin",
+        "client": [
+          "core.ForceOpenGLVersion_WindowMixin",
+          "core.GameRendererMixin",
+          "core.GlDebugMixin",
+          "core.GlTextureViewMixin",
+          "core.GLXMixin",
+          "core.MinecraftMixin",
+          "core.OptionsMixin",
+          "core.PostChainMixin",
+          "core.WindowMixin",
+          "core.accessor.LevelRendererAccessor",
+          "core.accessor.MinecraftAccessor",
+          "core.accessor.OptionInstanceAccessor",
+          "core.accessor.PostChainAccessor",
+          "core.parts.LevelRendererMixin_1_20_1",
+          "core.parts.LevelRendererMixin_1_20_4",
+          "core.parts.LevelRendererMixin_1_20_6",
+          "core.parts.LevelRendererMixin_1_21_1",
+          "core.parts.LevelRendererMixin_1_21_4",
+          "core.parts.LevelRendererMixin_1_21_5",
+          "core.parts.LevelRendererMixin_1_21_678",
+          "core.parts.LevelRendererMixin_1_21_Future",
+          "core.parts.LevelRendererMixinCommon",
+          "debug.ImguiMixin",
+          "debug.KeyboardHandlerMixin",
+          "gui.AbstractWidgetAccessor",
+          "gui.GameRendererAccessor",
+          "gui.GuiGraphicsAccessor",
+          "gui.GuiRendererMixin",
+          "gui.GuiRendererDrawAccessor"
+        ],
+        "server": [],
+        "common": []
+      },
+      {
+        "file": "super_resolution.shadercompat.mixins.json",
+        "package": "io.homo.superresolution.shadercompat.mixin",
+        "client": [
+          "core.CompositeRendererAccessor",
+          "core.IrisRenderingPipelineAccessor",
+          "core.IrisRenderingPipelineMixin",
+          "core.RenderTargetsAccessor",
+          "core.ShaderPackAccessor",
+          "core.ShaderPackMixin",
+          "core.IrisMixin",
+          "core.MixinTheFuckingStupidGLDebug",
+          "core.PackRenderTargetDirectivesAccessor",
+          "core.PackRenderTargetDirectivesMixin",
+          "core.PipelineManagerMixin"
+        ],
+        "server": [],
+        "common": []
+      },
+      {
+        "file": "super_resolution_irisapi.mixins.json",
+        "package": "io.homo.irisapi.mixin",
+        "client": [
+          "composite.CompositeRendererAccessor",
+          "composite.CompositeRendererPassMixin",
+          "composite.IrisRenderingPipelineAccessor",
+          "composite.after1_21_11.CompositeRendererMixin",
+          "composite.after1_21_4.CompositeRendererMixin",
+          "composite.before1_21_1.CompositeRendererMixin",
+          "composite.before1_21_1.GlStateManagerTextureStateAccessor",
+          "composite.v1_21_1.CompositeRendererMixin",
+          "macros.StandardMacrosEventMixin",
+          "uniform.CommonUniformsEventMixin",
+          "composite.before1_21_1.IrisRenderingPipelineMixin"
+        ],
+        "server": [],
+        "common": []
+      }
+    ],
+    "net_classes_count": 0,
+    "net_classes_sample": [],
+    "client_classes_count": 2,
+    "cmd_classes_count": 38
+  },
+  "ToastControl-1.21.1-9.0.1.jar": {
+    "filename": "ToastControl-1.21.1-9.0.1.jar",
+    "toml_sample": "modLoader=\"javafml\"\n\nloaderVersion=\"[2,)\"\n\nlicense=\"MIT License\"\n\n[[mods]] #mandatory\n\nmodId=\"toastcontrol\"\n\nversion=\"9.0.1\"\n\ndisplayName=\"Toast Control\"\n\nauthors=\"Shadows_of_Fire\"\n\ndescription='''Blocking annoying popups since 1.12'''\n\n\n\n[[dependencies.toastcontrol]]\n    modId=\"minecraft\"\n    type=",
+    "mixins": [
+      {
+        "file": "toastcontrol.mixins.json",
+        "package": "dev.shadowsoffire.toastcontrol.mixin",
+        "client": [],
+        "server": [],
+        "common": []
+      }
+    ],
+    "net_classes_count": 0,
+    "net_classes_sample": [],
+    "client_classes_count": 0,
+    "cmd_classes_count": 0
+  },
+  "tooltipoverhaul-neoforge-1.21.1-1.5.1.jar": {
+    "filename": "tooltipoverhaul-neoforge-1.21.1-1.5.1.jar",
+    "toml_sample": "modLoader = \"javafml\" #mandatory\nloaderVersion = \"[4,)\" #mandatory\nlicense = \"GNU GPLv3\" # Review your options at https://choosealicense.com/.\n#issueTrackerURL=\"https://change.me.to.your.issue.tracker.example.invalid/\" #optional\n[[mods]] #mandatory\nmodId = \"tooltipoverhaul\" #mandatory\nversion = \"1.5",
+    "mixins": [
+      {
+        "file": "tooltipoverhaul.mixins.json",
+        "package": "dev.xylonity.tooltipoverhaul.mixin",
+        "client": [
+          "AbstractContainerScreenMixin",
+          "BypassHoverGuiCullingMixin",
+          "ClientTextTooltipAccessor",
+          "EditBoxScrollFixMixin",
+          "GuiGraphicsItemMixin",
+          "GuiGraphicsItemTooltipMixin",
+          "GuiGraphicsMixin",
+          "ItemRendererCacheMixin",
+          "KeyMappingAccessor",
+          "MinecraftMixin",
+          "MouseHandlerMixin",
+          "ScreenRecorderMixin"
+        ],
+        "server": [],
+        "common": []
+      },
+      {
+        "file": "tooltipoverhaul.neoforge.mixins.json",
+        "package": "dev.xylonity.tooltipoverhaul.mixin",
+        "client": [
+          "GuiGraphicsAccessor"
+        ],
+        "server": [],
+        "common": []
+      }
+    ],
+    "net_classes_count": 0,
+    "net_classes_sample": [],
+    "client_classes_count": 157,
+    "cmd_classes_count": 2
+  },
+  "wits-1.3.0+1.21-neoforge.jar": {
+    "filename": "wits-1.3.0+1.21-neoforge.jar",
+    "toml_sample": "modLoader=\"javafml\" #mandatory\nloaderVersion=\"[1,)\" #mandatory\nissueTrackerURL=\"https://github.com/TelepathicGrunt/WITS/issues\" #optional\nlicense=\"https://github.com/TelepathicGrunt/WITS/blob/latest-released/LICENSE\"\n\n[[mods]] #mandatory\nmodId=\"wits\" #mandatory\nlogoFile= \"wits_logo_wide.png\"\nlogoBlu",
+    "mixins": [],
+    "net_classes_count": 0,
+    "net_classes_sample": [],
+    "client_classes_count": 0,
+    "cmd_classes_count": 2
+  },
+  "rhenium-1.0.0+neo.jar": {
+    "filename": "rhenium-1.0.0+neo.jar",
+    "toml_sample": "# This is an example mods.toml file. It contains the data relating to the loading mods.\n# There are several mandatory fields (#mandatory), and many more that are optional (#optional).\n# The overall format is standard TOML format, v0.5.0.\n# Note that there are a couple of TOML lists in this file.\n# F",
+    "mixins": [
+      {
+        "file": "rhenium.mixins.json",
+        "package": "cn.star.rhenium.mixin",
+        "client": [],
+        "server": [],
+        "common": [
+          "StructureTemplateManagerMixin"
+        ]
+      }
+    ],
+    "net_classes_count": 0,
+    "net_classes_sample": [],
+    "client_classes_count": 0,
+    "cmd_classes_count": 0
+  },
+  "clean_tooltips-1.1-neoforge-1.21.1.jar.disabled": {
+    "filename": "clean_tooltips-1.1-neoforge-1.21.1.jar.disabled",
+    "toml_sample": "# This is an example neoforge.mods.toml file. It contains the data relating to the loading mods.\n# There are several mandatory fields (#mandatory), and many more that are optional (#optional).\n# The overall format is standard TOML format, v0.5.0.\n# Note that there are a couple of TOML lists in this ",
+    "mixins": [
+      {
+        "file": "clean_tooltips-common.mixins.json",
+        "package": "net.mandalacreations.clean_tooltips.mixin",
+        "client": [],
+        "server": [],
+        "common": [
+          "DyedItemColorMixin",
+          "ItemEnchantmentsMixin",
+          "ItemStackMixin"
+        ]
+      },
+      {
+        "file": "clean_tooltips-neoforge.mixins.json",
+        "package": "net.mandalacreations.clean_tooltips.neoforge.mixin",
+        "client": [],
+        "server": [],
+        "common": [
+          "ItemStackMixin"
+        ]
+      }
+    ],
+    "net_classes_count": 0,
+    "net_classes_sample": [],
+    "client_classes_count": 7,
+    "cmd_classes_count": 0
+  },
+  "JustEnoughResources-NeoForge-1.21.1-1.6.0.17.jar": {
+    "filename": "JustEnoughResources-NeoForge-1.21.1-1.6.0.17.jar",
+    "toml_sample": "# The name of the mod loader type to load - for regular FML @Mod mods it should be javafml\nmodLoader=\"javafml\" #mandatory\n# A version range to match for said mod loader - for regular FML @Mod it will be the forge version\nloaderVersion=\"[4,)\" #mandatory\n# The license for you mod. This is mandatory me",
+    "mixins": [],
+    "net_classes_count": 0,
+    "net_classes_sample": [],
+    "client_classes_count": 3,
+    "cmd_classes_count": 2
+  },
+  "JustEnoughProfessions-neoforge-1.21.1-4.0.5.jar": {
+    "filename": "JustEnoughProfessions-neoforge-1.21.1-4.0.5.jar",
+    "toml_sample": "modLoader=\"javafml\"\nloaderVersion=\"[4,)\"\nissueTrackerURL=\"https://github.com/Mrbysco/JustEnoughProfessions/issues\"\nlicense=\"MIT\"\n\n[[mods]]\nmodId=\"justenoughprofessions\"\nversion=\"${file.jarVersion}\"\ndisplayName=\"Just Enough Professions (JEP)\"\ndisplayURL=\"https://www.curseforge.com/minecraft/mc-mods/j",
+    "mixins": [],
+    "net_classes_count": 0,
+    "net_classes_sample": [],
+    "client_classes_count": 0,
+    "cmd_classes_count": 0
+  },
+  "jeiworldgen-neoforge-1.21.1-1.4.1.jar": {
+    "filename": "jeiworldgen-neoforge-1.21.1-1.4.1.jar",
+    "toml_sample": "modLoader = \"javafml\"\nloaderVersion = \"[4,)\"\n#issueTrackerURL = \"\"\nlicense = \"GNU GPL 3.0\"\n\n[[mods]]\nmodId = \"jeiworldgen\"\nversion = \"1.4.1\"\ndisplayName = \"JEIWorldGen\"\nauthors = \"LarsenR\"\ndescription = '''\nWorldGen Info Pages for JustEnoughItems (JEI)\n'''\nlogoFile = \"icon.png\"\ndisplayTest = \"NONE\"\n",
+    "mixins": [
+      {
+        "file": "jeiworldgen.mekacompat.mixins.json",
+        "package": "de.larsensmods.jeiworldgen.forge.mixin",
+        "client": [],
+        "server": [],
+        "common": [
+          "ConfigurableHeightProviderAccessor"
+        ]
+      },
+      {
+        "file": "jeiworldgen.mixins.json",
+        "package": "de.larsensmods.jeiworldgen.mixin",
+        "client": [],
+        "server": [],
+        "common": [
+          "ApplyBonusCountAccessor",
+          "CompositeEntryBaseAccessor",
+          "CountPlacementAccessor",
+          "HeightRangePlacementAccessor",
+          "ItemEnchantmentsPredicateAccessor",
+          "LootItemAccessor",
+          "LootPoolAccessor",
+          "LootPoolEntryContainerAccessor",
+          "LootPoolSingletonContainerAccessor",
+          "LootTableAccessor",
+          "RarityFilterAccessor",
+          "SetItemCountFunctionAccessor",
+          "TrapezoidHeightAccessor",
+          "UniformHeightAccessor"
+        ]
+      }
+    ],
+    "net_classes_count": 11,
+    "net_classes_sample": [
+      "de/larsensmods/jeiworldgen/forge/networking/",
+      "de/larsensmods/jeiworldgen/forge/networking/LootInfoPayload.class",
+      "de/larsensmods/jeiworldgen/forge/networking/LootInfoTask.class",
+      "de/larsensmods/jeiworldgen/forge/networking/ServerNetworkHandler.class",
+      "de/larsensmods/jeiworldgen/forge/networking/WorldGenInfoPayload.class"
+    ],
+    "client_classes_count": 13,
+    "cmd_classes_count": 0
+  },
+  "Perception-NEOFORGE-0.2.1+1.21.1.jar": {
+    "filename": "Perception-NEOFORGE-0.2.1+1.21.1.jar",
+    "toml_sample": "modLoader = \"javafml\"\nloaderVersion = \"[4,)\"\nissueTrackerURL = \"https://github.com/Octo-Studios/perception/issues\"\nlicense = \"All Rights Reserved\"\n\n[[mods]]\nmodId = \"perception\"\nversion = \"0.2.1\"\ndisplayName = \"Perception\"\nauthors = \"OctoStudios\"\ndescription = \"Enriching the world with immersive vis",
+    "mixins": [
+      {
+        "file": "perception-common.mixins.json",
+        "package": "it.hurts.octostudios.perception.common.mixin",
+        "client": [
+          "chromatic_aberration.ClientLevelMixin",
+          "shakes.AbstractClientPlayerMixin",
+          "shakes.CameraMixin",
+          "shakes.ClientLevelMixin",
+          "shakes.GameRendererMixin",
+          "trails.particle.ParticleEngineMixin",
+          "trails.particle.ParticleMixin"
+        ],
+        "server": [],
+        "common": [
+          "shakes.PlayerMixin"
+        ]
+      },
+      {
+        "file": "perception-neoforge.mixins.json",
+        "package": "it.hurts.octostudios.perception.neoforge.mixin",
+        "client": [],
+        "server": [],
+        "common": []
+      }
+    ],
+    "net_classes_count": 0,
+    "net_classes_sample": [],
+    "client_classes_count": 5,
+    "cmd_classes_count": 0
+  },
+  "redirected-neoforge-1.0.0-1.21.1.jar.disabled": {
+    "filename": "redirected-neoforge-1.0.0-1.21.1.jar.disabled",
+    "toml_sample": "modLoader = \"javafml\"\nloaderVersion=\"[1,)\"\nlicense=\"LGPL\"\nshowAsResourcePack=false\n\nissueTrackerURL = \"https://github.com/txnimc/Redirected/issues\"\n\n[[mods]]\nmodId=\"redirected\"\nversion=\"1.0.0\"\ndisplayName=\"Redirected\"\nauthors=\"Toni\"\ndescription=\"Memory optimization mod that prevents duplication of E",
+    "mixins": [],
+    "net_classes_count": 5,
+    "net_classes_sample": [
+      "toni/redirected/mixin/net/minecraft/client/multiplayer/ClientPacketListenerMixin.class",
+      "toni/redirected/mixin/net/minecraft/network/",
+      "toni/redirected/mixin/net/minecraft/network/protocol/",
+      "toni/redirected/mixin/net/minecraft/network/protocol/game/",
+      "toni/redirected/mixin/net/minecraft/network/protocol/game/ClientboundSetEquipmentPacketMixin.class"
+    ],
+    "client_classes_count": 64,
+    "cmd_classes_count": 9
+  },
+  "reliable_replacer-neoforge-1.21.1-1.7.0.jar.disabled": {
+    "filename": "reliable_replacer-neoforge-1.21.1-1.7.0.jar.disabled",
+    "toml_sample": "modLoader = \"javafml\"\nloaderVersion = \"[4,)\"\nlicense = \"MIT\"\nissueTrackerURL=\"https://github.com/evanbones/Reliable-Replacer/issues\"\n\n[[mods]]\nmodId = \"reliable_replacer\"\nversion = \"1.7.0\"\ndisplayName = \"Reliable Replacer\"\nlogoFile=\"reliable_replacer.png\"\ncredits=\"\"\nauthors = \"Evan\"\ndescription = ''",
+    "mixins": [
+      {
+        "file": "reliable_replacer.mixins.json",
+        "package": "com.evandev.reliable_replacer.mixin",
+        "client": [],
+        "server": [],
+        "common": [
+          "minecraft.BlockItemMixin",
+          "minecraft.ChunkAccessMixin",
+          "minecraft.ChunkGeneratorMixin",
+          "minecraft.ChunkMapAccessor",
+          "minecraft.ChunkSerializerMixin",
+          "minecraft.FeatureMixin",
+          "minecraft.LevelMixin",
+          "minecraft.MinecraftServerMixin",
+          "minecraft.PlacedFeatureMixin",
+          "minecraft.ServerLevelMixin",
+          "minecraft.StructureTemplateMixin",
+          "minecraft.WorldGenRegionAccessor",
+          "minecraft.WorldGenRegionMixin"
+        ]
+      },
+      {
+        "file": "reliable_replacer.neoforge.mixins.json",
+        "package": "com.evandev.reliable_replacer.mixin",
+        "client": [],
+        "server": [],
+        "common": []
+      }
+    ],
+    "net_classes_count": 0,
+    "net_classes_sample": [],
+    "client_classes_count": 4,
+    "cmd_classes_count": 0
+  }
+}

@@ -1,0 +1,318 @@
+aces_spell_utils-1.2.6.1-1.21.1.jar | id: aces_spell_utils | name: Ace
+additional_attributes-1.21.1-1.2.2.jar | id: additional_attributes | name: Additional Attributes
+adorablehamsterpets-3.6.0-1.21.1+neoforge.jar.disabled | id: adorablehamsterpets | name: Adorable Hamster Pets
+aeroworks-1.3.0.jar | id: aeroworks | name: Create: Aeroworks
+alexscaves-2.0.10.jar | id: alexscaves | name: Alex
+alexsdelight-1.6.jar | id: alexsdelight | name: Alexs Delight
+alexsmobs-1.22.17.jar | id: alexsmobs | name: Alex
+allthemodium-3.0.1_mc_1.21.1.jar | id: allthemodium | name: Allthemodium
+alltheores-3.2.0_neoforge_1.21.1.jar | id: alltheores | name: AllTheOres
+allthewizardgear-1.21.1-1.1.12.jar | id: allthewizardgear | name: All the Wizard Gear
+Almanac-1.21.1-2-neoforge-1.5.2.jar | id: almanac | name: Almanac
+almostunified-neoforge-1.21.1-1.4.2.jar | id: almostunified | name: AlmostUnified
+amendments-1.21-2.0.15-neoforge.jar | id: amendments | name: Amendments
+Antique Atlas-1.21.1-8.0.1-NeoForge.jar.disabled | id: antiqueatlas | name: Antique Atlas
+anvilcore-10.1 Release-neoforge-1.21.1.jar | id: anvilcore | name: AnvilCore
+ape-neoforge-1.21.1.jar | id: ape | name: Avaritia Progression Expansion
+Apotheosis-1.21.1-8.6.1.jar | id: apotheosis | name: Apotheosis
+apotheosis-addon-compat-1.0.jar | id: mr_apotheosis_addoncompat | name: Apotheosis Addon Compat
+apotheosis_create-1.1.1-neoforge-1.21.1.jar | id: apotheosis_create | name: Apotheosis Create
+apothic_cataclysm-1.2.0.jar | id: apothic_cataclysm | name: Apothic Cataclysm
+apothic_compats-0.2.4.2.jar | id: apothic_compats | name: Apothic Compats
+ApothicAttributes-1.21.1-2.10.1.jar | id: apothic_attributes | name: Apothic Attributes
+ApothicEnchanting-1.21.1-1.6.0.jar | id: apothic_enchanting | name: Apothic Enchanting
+ApothicSpawners-1.21.1-1.4.0.jar | id: apothic_spawners | name: Apothic Spawners
+appliedenergistics2-19.2.17.jar | id: ae2 | name: Applied Energistics 2
+Aquaculture-1.21.1-2.7.21.jar | id: aquaculture | name: Aquaculture 2
+aquaculturedelight-1.2.0-neoforge-1.21.1.jar | id: aquaculturedelight | name: Aquaculture Delight
+architectury-13.0.11-neoforge.jar | id: architectury | name: Architectury
+armoroftheages-neoforge-1.21.1-1.5.10.jar | id: armoroftheages | name: Armor of the Ages
+ars_creo-1.21.1-5.4.0.jar | id: ars_creo | name: Ars Creo
+ars_n_spells-2.6.1.jar | id: ars_n_spells | name: Ars 
+ars_nouveau-1.21.1-5.11.7.jar | id: ars_nouveau | name: Ars Nouveau
+arsdelight-2.2.1.jar | id: arsdelight | name: Ars Nouveau
+arseng-2.1.1-beta.jar | id: arseng | name: Ars Énergistique
+artifacts-neoforge-13.2.1.jar | id: artifacts | name: Artifacts
+awesomedungeonend-neoforge-1.21.1-3.1.1.jar | id: awesomedungeonend | name: Awesome dungeon the end
+azurelib-neo-1.21.1-3.1.8.jar | id: azurelib | name: AzureLib
+backpack_allthemodium_upgrade-2.4.jar | id: backpack_allthemodium_upgrade | name: backpack allthemodium upgrade
+balm-neoforge-1.21.1-21.0.56.jar | id: balm | name: Balm
+bettercombat-neoforge-2.4.0+1.21.1.jar | id: bettercombat | name: Better Combat
+block_factorys_bosses-2.1.2-neo-1.21.1.jar | id: block_factorys_bosses | name: Bosses
+blockui-1.0.209-1.21.1.jar | id: blockui | name: UI Library Mod
+blueprint-1.21.1-8.1.0.jar | id: blueprint | name: Blueprint
+BOMD-NeoForge-1.21-1.3.3.jar | id: bosses_of_mass_destruction | name: Bosses of Mass Destruction
+bookshelf-neoforge-1.21.1-21.1.81.jar | id: bookshelf | name: Bookshelf
+Boss Rifts Compat+ 1.21.1 1.0.33.jar.disabled | id: boss_rifts_extended_compat | name: §l§aBoss Rifts Compat+
+boss_ai_tweaks-neoforge-1.0.3-1.21.1.jar | id: boss_ai_tweaks | name: Boss AI Tweaks
+bossrifts-1.21.0-V1.4.1.jar | id: bossrifts | name: Boss Rifts
+BuildingWands-neoforge-MC1.21.1-3.0.5.jar | id: wands | name: Building Wands
+caelus-neoforge-7.0.1+1.21.1.jar | id: caelus | name: Caelus API
+cataclysm_compat_1.21.1-1.0.2.jar | id: cataclysm_compat | name: Cataclysm & BetterCombat - Compatibility
+cataclysm_spellbooks-1.1.11-1.21.jar | id: cataclysm_spellbooks | name: Cataclysm: Spellbooks
+cataclysm_tools-2.0.0-neoforge-1.21.1.jar | id: cataclysm_tools | name: Cataclysm Tools
+cataclysmfortresses-1.21.1-NeoForge.jar | id: cataclysmfortresses | name: Cataclysm x YUNG
+cataclysmiccombat-1.4.1.jar | id: cataclysmiccombat | name: Cataclysmic Combat
+cataclysmspells_compat.jar | id: cataclysmspells_compat | name: cataclysmspells_compat
+Chunky-NeoForge-1.4.23.jar.disabled | id: chunky | name: Chunky
+citadel-1.21.1-2.7.6.jar | id: citadel | name: Citadel
+cloth-config-15.0.140-neoforge.jar | id: cloth_config | name: Cloth Config v15 API
+CodeChickenLib-1.21.1-4.6.1.529.jar | id: codechickenlib | name: CodeChicken Lib
+CraftTweaker-neoforge-1.21.1-21.0.38.jar | id: crafttweaker | name: CraftTweaker
+create-1.21.1-6.0.10.jar | id: create | name: Create
+create-central-kitchen-2.6.1.jar | id: create_central_kitchen | name: Create: Central Kitchen
+create-confectionery1.21.1_v1.1.3b.jar | id: create_confectionery | name: Create Confectionery
+create-enchantment-industry-2.5.0-preview-alpha1.jar | id: create_enchantment_industry | name: Create: Enchantment Industry
+create-integrated-farming-1.4.1c.jar | id: create_integrated_farming | name: Create: Integrated Farming
+create-new-age-1.2.0+neoforge-mc1.21.1.jar | id: create_new_age | name: Create: New Age
+create-stuff-additions1.21.1_v2.1.4a.jar | id: create_sa | name: Create Stuff 
+create_ae2recipes-0.2.0+1.21.1.jar | id: create_ae2recipes | name: Create: AE2 recipes
+create_ars_nouveau_compat-1.21.1-1.1.jar | id: create_ars_nouveau_compat | name: Create Ars Nouveau Compat
+create_compat_core-1.0.0-neoforge-1.21.1.jar | id: create_compat_core | name: Create: Compat Core
+create_deep_dark-3.0.2-neoforge-1.21.1.jar | id: create_deep_dark | name: Create: Deep Dark
+create_factory-0.7a-1.21.1.jar | id: create_factory | name: Create: Factory
+create_heat_js-1.21.1-0.0.6.jar | id: create_heat_js | name: CreateHeatJS
+create_jetpack_curios-1.2.0-neoforge-1.21.1.jar | id: create_jetpack_curios | name: Create: Jetpack Curios
+create_ltab-4.0.3.jar | id: create_ltab | name: Create Let The Adventure Begin
+create_pillagers_arise NeoForge 1.21.1-132.36.jar | id: create_pillagers_arise | name: Create: Pillagers Arise
+create_power_loader-2.0.5-mc1.21.1.jar | id: create_power_loader | name: Create: Power Loader
+create_sky_village-0.0.38 NeoForge 1.21.1.jar | id: create_sky_village | name: Create: Sky Village
+create_sophback_compat-1.0.jar | id: create_sophback_compat | name: Create Oh The Biomes We ve Gone Compat
+create_structures_arise-176.49.48 NeoForge 1.21.1.jar | id: create_structures_arise | name: Create: Structures Arise
+create_structures_overhaul-1.4.0-neoforge-1.21.1.jar | id: create_structures_overhaul | name: Create: Structures Overhaul
+create_ultimate_factory-2.2.4-neoforge-1.21.1.jar | id: create_ultimate_factory | name: Create: Ultimate Factory
+create_wizardry-1.21.1-0.5.1-pre1.jar | id: create_wizardry | name: Create: Wizardry
+createaeronauticscurios-neoforge-1.21.1-2.2.jar | id: aeronautics_curios_compat | name: Create Aeronautics Curios Compat
+createappliedkinetics-1.5.4-1.21.1.jar | id: createappliedkinetics | name: Create: Applied Kinetics
+createbb-4.0.1.jar | id: createbb | name: Create: Broken Bad
+createdieselgenerators-1.21.1-1.3.15.jar | id: createdieselgenerators | name: Create Diesel Generators
+CreateDragonsPlus-1.11.9.jar | id: create_dragons_plus | name: Create: Dragons Plus
+createenchantablemachinery-3.6.0+mc1.21.1-neoforge.jar | id: createenchantablemachinery | name: Create: Enchantable Machinery
+createmetalwork-2.0.0.jar | id: createmetalwork | name: Create: Metalwork
+crystal_chronicles-0.0.9.jar.disabled | id: crystal_chronicles | name: CrystalChronicles
+cupboard-1.21.1-3.9.jar | id: cupboard | name: Cupboard mod
+curios-neoforge-9.5.1+1.21.1.jar | id: curios | name: Curios API
+darkerdepths-2.1.4.jar | id: darkerdepths | name: Darker Depths
+darkermagic-1.3.3-1.21.1-ver.b.jar | id: darkermagic | name: Deeper and Darker: Spellbooks
+deeperdarker-neoforge-1.21.1-1.4.1.jar | id: deeperdarker | name: Deeper and Darker
+delightfulcreators-1.2.jar | id: delightfulcreators | name: Delightful Creators
+DnDesires-1.21.1-2.3a-BETA.jar | id: dndesires | name: Create: Dreams n
+dodospyglass-1.0.0-neoforge+1.21.1-SNAPSHOT.jar | id: curios | name: DodoSpyglass
+domum-ornamentum-1.0.233-snapshot-main.jar | id: domum_ornamentum | name: Domum Ornamentum
+Draconic-Evolution-1.21.1-3.1.4.632.jar | id: draconicevolution | name: Draconic Evolution
+dragonloot-1.1.15-1.21.1-neoforge.jar | id: dragonloot | name: DragonLoot
+dungeons-and-taverns-v4.4.4 [NeoForge].jar | id: mr_dungeons_andtaverns | name: Dungeons and Taverns
+DungeonsArise-1.21.1-2.1.68-release.jar | id: dungeons_arise | name: When Dungeons Arise
+DungeonsAriseSevenSeas-1.21.x-1.0.4-neoforge.jar | id: dungeons_arise_seven_seas | name: When Dungeons Arise: Seven Seas
+dynamic_difficulty-neoforge-1.1.1+1.21.1.jar | id: dynamic_difficulty | name: Dynamic Difficulty
+EasyAnvils-v21.1.0-1.21.1-NeoForge.jar | id: easyanvils | name: Easy Anvils
+enderio-8.2.11-beta.jar | id: enderio | name: Ender IO
+endersdelight-1.3.0.jar | id: endersdelight | name: Ender
+engineers_delight-neoforge-1.21.1-2.0.1.jar | id: tmted | name: Engineers Delight
+enigmatic_arcana-1.1.0.jar | id: enigmatic_arcana | name: Enigmatic Arcana
+entityjs-1.5.0.jar | id: entityjs | name: EntityJS
+ess_requiem-0.1.6.jar | id: ess_requiem | name: Ender
+EvoLoginTimeout-NeoForge-1.21.1-1.0.9.jar | id: evologintimeout | name: EvoLoginTimeout
+evolution-1.21.1-1.8.jar | id: evolution | name: Evolution mod
+ExplorersCompass-1.21.1-3.4.0-neoforge.jar | id: explorerscompass | name: Explorer
+fallen_gems_affixes-1.21.1-1.0.0.jar | id: fallen_gems_affixes | name: Fallen Gems Affixes
+FallingTree-1.21.1-1.21.1.11.jar | id: fallingtree | name: FallingTree
+fantasy_armor-neoforge-1.2.4-1.21.1.jar | id: fantasy_armor | name: Fantasy Armor
+FarmersDelight-1.21.1-1.3.2.jar | id: farmersdelight | name: Farmer
+FarmersStructures-1.0.6-1.21.1_neoforge.jar | id: farmers_structures | name: FarmersStructures
+FastSuite-1.21.1-6.0.7.jar.disabled | id: fastsuite | name: Fast Suite
+featurify-neoforge-1.0.4+mc1.21.1.jar | id: featurify | name: Featurify
+ferritecore-7.0.3-neoforge.jar | id: ferritecore | name: Ferrite Core
+firesenderexpansion-2.4.1.jar | id: firesenderexpansion | name: Fire
+friendsandfoes-neoforge-4.0.26+mc1.21.1.jar | id: friendsandfoes | name: Friends&Foes
+ftb-chunks-neoforge-2101.1.21.jar | id: ftbchunks | name: FTB Chunks
+ftb-filter-system-neoforge-21.1.4.jar | id: ftbfiltersystem | name: FTB Filter System
+ftb-library-neoforge-2101.1.35.jar | id: ftblibrary | name: FTB Library
+ftb-quests-neoforge-2101.1.31.jar | id: ftbquests | name: FTB Quests
+ftb-teams-neoforge-2101.1.10.jar | id: ftbteams | name: FTB Teams
+ftb-xmod-compat-neoforge-21.1.10.jar | id: ftbxmodcompat | name: FTB XMod Compat
+gatesofavarice-1.0.0.jar | id: gatesofavarice | name: Gates Of Avarice
+GatewaysToEternity-1.21.1-5.1.0.jar | id: gateways | name: Gateways To Eternity
+geckolib-neoforge-1.21.1-4.9.3.jar | id: geckolib | name: GeckoLib 4
+Gobber-NeoForge-1.21.1-2.10.15.jar | id: gobber2 | name: Gobber for NeoForge
+goblintraders-neoforge-1.21.1-1.11.2.jar | id: goblintraders | name: Goblin Traders
+GoodEnding-1.21.1-1.1.1-NeoForge.jar | id: goodending | name: GoodEnding
+guardvillagers-2.4.10-1.21.1.jar.disabled | id: guardvillagers | name: Guard Villagers
+hazentouvelib-1.0.8.jar | id: hazentouvelib | name: HazentouveLib
+ice_and_fire_spellbooks-2.3.3-1.21.1.jar.disabled | id: ice_and_fire_spellbooks | name: Ice and Fire: Spellbooks
+iceandfire-2.1-beta.3.jar | id: iceandfire | name: Ice And Fire Community Edition
+iceandfirexbettercombat-1.21.1.jar | id: iceandfirexbettercombat | name: iceandfirexbettercombat
+IDA v2.1.1-1.21.1.jar | id: integrated_dungeons_arise | name: Integrated Dungeons Arise
+idas-1.13.7+1.21.1-neoforge.jar | id: idas | name: Integrated Dungeons and Structures
+IllagerInvasion-v21.1.6-1.21.1-NeoForge.jar | id: illagerinvasion | name: Illager Invasion
+illagersweararmor-1.21.1-2.4.0.jar | id: illagersweararmor | name: Illagers Wear Armor
+immersive_armors-1.7.6+1.21.1-neoforge.jar | id: immersive_armors | name: Immersive Armors
+ImmersiveEngineering-1.21.1-12.4.2-194.jar | id: immersiveengineering | name: Immersive Engineering
+Incendium_1.21.x_v5.4.4.jar | id: incendium | name: Incendium
+integrated_api-1.7.4+1.21.1-neoforge.jar | id: integrated_api | name: Integrated API
+integrated_cataclysm-1.0.6+1.21.1-neoforge.jar | id: integrated_cataclysm | name: Integrated Cataclysm
+integrated_simply_swords-1.4.0+1.21.1-neoforge.jar | id: integrated_simply_swords | name: Integrated Simply Swords
+integrated_stronghold-1.1.4+1.21.1-neoforge.jar | id: integrated_stronghold | name: Integrated Stronghold
+integrated_villages-1.3.3+1.21.1-neoforge.jar | id: integrated_villages | name: Integrated Villages
+irons_apothic-2.2.1.jar | id: irons_apothic | name: Iron
+irons_apothic_invaders_1.0.0.jar | id: irons_apothic_invaders | name: Iron
+irons_jewelry-1.21.1-1.6.1.1.jar | id: irons_jewelry | name: Iron
+irons_lib-1.21.1-1.0.2.jar | id: irons_lib | name: Iron
+irons_spellbooks-1.21.1-3.15.6.jar | id: irons_spellbooks | name: Iron
+ISS-1.21.1.jar | id: integrated_seven_seas | name: Integrated Seven Seas
+Item-Obliterator-NeoForge-MC1.21.1-2.3.0.jar | id: item_obliterator | name: Item Obliterator
+Jade-1.21.1-NeoForge-15.10.5.jar | id: jade | name: Jade
+jeed-1.21-2.3.3.jar | id: jeed | name: Just Enough Effects Descriptions
+jei-1.21.1-neoforge-19.43.0.393.jar | id: jei | name: Just Enough Items
+justenoughbreeding-neoforge-1.21.1-3.2.1.jar | id: justenoughbreeding | name: Just Enough Breeding
+kjscauto-0.8.0-beta-neoforge.jar | id: kjscauto | name: KubeJS Create Automation
+krypton_fnp-neoforge-1.21.1-0.2.28.1-1.21.1.jar | id: krypton_fnp | name: Krypton FNP
+kubejs-create-neoforge-2101.3.1-build.18.jar | id: kubejs_create | name: KubeJS Create
+kubejs-mekanism-neoforge-2101.1.7-build.18.jar | id: kubejs_mekanism | name: KubeJS Mekanism
+kubejs-neoforge-2101.7.2-build.368.jar | id: kubejs | name: KubeJS
+kubejs_curios_neoforge_1.21.1-1.0.4.jar | id: kubejs_curios | name: KubeJSCurios
+kubejs_enderio-neoforge-1.21.1-0.13.0.jar | id: kubejs_enderio | name: KubeJS EnderIO
+kubejs_rarity-1.21.1-1.0.0+neoforge.jar | id: kubejs_rarity | name: KubeJS Custom Rarity
+kubejsarsnouveau-1.3.2.jar | id: kubejsarsnouveau | name: kubejsarsnouveau
+kubejsde-1.21.1-1.1.0.jar | id: kubejsde | name: KubeJS Draconic Evolution
+kubejsdelight-1.1.6.jar | id: kubejsdelight | name: KubeJSDelight
+L_Ender's Cataclysm 1.21.1-3.27.jar | id: cataclysm | name: L_Ender
+leaky-1.21-3.3.jar | id: leaky | name: leaky mod
+lendersdelight-1.21.1-1.0.10.jar | id: lendersdelight | name: L_Ender 
+letmedespawn-1.21.x-neoforge-1.5.0.jar | id: letmedespawn | name: Let Me Despawn
+levelup-3.1.jar | id: levelup | name: LevelUP
+libertyvillagers-1.21.1-NeoForge-1.0.2.jar | id: libertyvillagers | name: Liberty
+libraryferret-neoforge-1.21.1-4.0.0.jar | id: libraryferret | name: Library ferret
+lionfishapi-2.8.jar | id: lionfishapi | name: lionfishapi
+lithium-neoforge-0.15.3+mc1.21.1.jar | id: lithium | name: Lithium
+lodestone-1.21.1-1.8.2.jar | id: lodestone | name: Lodestone
+logprot-1.21-3.5.jar | id: logprot | name: Logprot
+Loot Beams Refork-neoforge-1.21.1-3.4.7.jar | id: neoforge | name: Loot Beams Refork
+lootintegration_townsandtowers-1.4.jar | id: lootintegration_townsandtowers | name: lootintegration_townsandtowers mod
+lootintegration_wda-1.8.jar | id: lootintegration_wda | name: lootintegration_wda mod
+lootintegrations-1.21.1-4.7.jar | id: lootintegrations | name: Lootintegrations mod
+lootintegrations_cataclysm-1.2.jar | id: lootintegrations_cataclysm | name: lootintegrations_cataclysm mod
+lootintegrations_dnt-2.6.jar | id: lootintegrations_dnt | name: lootintegrations_dnt mod
+lootintegrations_dungeonsenhanced-1.7.jar | id: lootintegrations_dungeonsenhanced | name: lootintegrations_dungeonsenhanced mod
+lootintegrations_iceandfire-1.2.jar | id: lootintegrations_iceandfire | name: lootintegrations_iceandfire mod
+lootintegrations_integrated-1.5.jar | id: lootintegrations_integrated | name: lootintegrations_integrated mod
+lootintegrations_lootintegrations_bygonepillage-1.2.jar | id: lootintegrations_bygonepillage | name: lootintegrations_bygonepillage mod
+lootintegrations_moog-2.1.jar | id: lootintegrations_moog | name: lootintegrations_moog mod
+lootintegrations_phillipsruins-1.3.jar | id: lootintegrations_phillipsruins | name: lootintegrations_phillipsruins mod
+lootintegrations_structory-1.4.jar | id: lootintegrations_structory | name: lootintegrations_structory mod
+lootintegrations_vanilla-1.7.jar | id: lootintegrations_vanilla | name: lootintegrations_vanilla mod
+lootintegrations_yungs-1.6.jar | id: lootintegrations_yungs | name: lootintegrations_yungs mod
+lootjs-neoforge-1.21.1-3.7.0.jar | id: lootjs | name: LootJS
+lootr-neoforge-1.21.1-1.11.38.123.jar | id: lootr | name: Lootr
+lootr_liason-1.2-neoforge.jar | id: lootr_liason | name: Lootr Liason
+malum-1.21.1-1.8.2.jar | id: malum | name: Malum
+Mekanism-1.21.1-10.7.19.85.jar | id: mekanism | name: Mekanism
+memguard-1.0.4.jar | id: memguard | name: MemGuard
+minecolonies-1.1.1300-1.21.1.jar | id: minecolonies | name: MineColonies
+mobspropertiesrandomness-6.0.1.3.jar.disabled | id: mobspropertiesrandomness | name: Mobs Properties Randomness
+modernfix-neoforge-5.27.20+mc1.21.1.jar | id: modernfix | name: ModernFix
+MoogsEndStructures-1.21-2.0.3.jar | id: mes | name: MoogsEndStructures
+moonlight-1.21.1-3.3.2-neoforge.jar | id: moonlight | name: Moonlight Lib
+morejs-neoforge-1.21.1-0.16.0.jar | id: morejs | name: MoreJS
+morerelics-1.7.4-1.21.1.jar | id: morerelics | name: More Relics
+mowziesmobs-1.21.1-1.8.2.jar | id: mowziesmobs | name: Mowzie
+mru-1.0.31+1.21.1-neoforge.jar | id: mru | name: MRU
+multipiston-1.2.58-1.21.1.jar | id: multipiston | name: Multi-Piston
+multiplayerbosses-neoforge-1.21.1-1.0.0.jar | id: multiplayerbosses | name: MultiplayerBosses
+MyNethersDelight-1.21.1-1.10.4.jar | id: mynethersdelight | name: My Nether
+nadir-1.0.0.jar | id: nadir | name: Nadir
+NaturesCompass-1.21.1-3.4.0-neoforge.jar | id: naturescompass | name: Nature
+Necronomicon-NeoForge-1.6.0+1.21.jar | id: necronomicon | name: Necronomicon
+Nirvana Lib-neoforge-1.21.1-2.2.0.jar | id: neoforge | name: Nirvana Lib
+noisiumed-3.0.6-neoforge-1.21.1.jar | id: noisiumed | name: Noisiumed
+not_enough_glyphs-1.21.1-4.5.1.jar | id: not_enough_glyphs | name: Not Enough Glyphs
+Nullscape_1.21.x_v1.2.14.jar | id: nullscape | name: Nullscape
+oceansdelight-neoforge-1.0.4-1.21.1.jar | id: oceansdelight | name: Ocean
+OctoLib-NEOFORGE-0.6.2+1.21.jar | id: octolib | name: OctoLib
+Panoptic-1.08a-NeoForge-1.21.1.jar | id: panoptic | name: Panoptic
+Paraglider-neoforge-21.1.5.jar | id: paraglider | name: Paraglider
+particular-1.21.1-NeoForge-1.5.5.jar | id: particular | name: Particular Reforged
+Patchouli-1.21.1-93-NEOFORGE.jar | id: patchouli | name: Patchouli
+Paxi-1.21.1-NeoForge-5.1.3.jar | id: paxi | name: Paxi
+Philips-Ruins1.21.1-2.0-NeoForge.jar | id: philipsruins | name: Philip
+Placebo-1.21.1-9.9.2.jar | id: placebo | name: Placebo
+Platform-neoforge-1.21.1-1.3.3.jar | id: platform | name: Platform
+player-animation-lib-forge-2.0.4+1.21.1.jar | id: playeranimator | name: Player Animator
+pneumaticcraft-repressurized-8.2.23+mc1.21.1.jar | id: pneumaticcraft | name: PneumaticCraft: Repressurized
+polymorph-neoforge-1.1.0+1.21.1.jar | id: polymorph | name: Polymorph
+prickle-neoforge-1.21.1-21.1.11.jar | id: prickle | name: PrickleMC
+PuzzlesLib-v21.1.52-1.21.1-NeoForge.jar | id: puzzleslib | name: Puzzles Lib
+Quark-4.1-482.jar | id: quark | name: Quark
+Raided-1.21.1-0.1.6.jar | id: raided | name: Raided
+raidsenhanced-1.0.2-1.21.1.jar | id: raidsenhanced | name: Raids: Enhanced
+RandomGatewaysSpawning-1.21.1-2.8.jar | id: plagatesummon | name: Random Gateways Spawning
+Re-Avaritia-neoforge-1.21.1-1.4.1-release.jar | id: avaritia | name: Re-Avaritia
+refurbished_furniture-neoforge-1.21.1-1.0.22.jar | id: refurbished_furniture | name: MrCrayfish
+relics-1.21.1-0.10.7.8.jar | id: relics | name: Relics
+reliquary-1.21.1-2.0.77.1537.jar | id: reliquary | name: Reliquary Reincarnations
+reliquified_ars_nouveau-1.21.1-0.6.1.jar | id: reliquified_ars_nouveau | name: Reliquified Ars Nouveau
+reliquified_artifacts-1.21.1-1.0.jar.disabled | id: reliquified_artifacts | name: reliquified_artifacts
+reliquified_irons_spells_and_spellbooks-1.21-0.1.jar.disabled | id: reliquified_irons_spells_and_spellbooks | name: Reliquified Iron
+reliquified_lenders_cataclysm-1.21.1-0.1.1.jar | id: reliquified_lenders_cataclysm | name: Reliquified L_Ender
+reliquified_twilight_forest-1.21.1-0.5.3.jar | id: reliquified_twilight_forest | name: Reliquified Twilight Forest
+remnant_bosses-neoforge-1.21.1-2.2.0.jar | id: remnant_bosses | name: Remnant Bosses
+resourcefullib-neoforge-1.21-3.0.12.jar | id: resourcefullib | name: Resourceful Lib
+rhino-2101.2.7-build.85.jar | id: rhino | name: Rhino
+rottencreatures-neoforge-1.21.1-1.1.2.jar | id: rottencreatures | name: RottenCreatures
+royal-variations-[NeoForge]_1.21.1_2.0.4.jar | id: royalvariations | name: Royal Variations
+sable-neoforge-1.21.1-1.2.2.jar | id: sable | name: Sable
+sabledestructive-1.7.2.jar | id: sabledestructive | name: Sable: Destructive
+servercore-neoforge-1.5.17+1.21.1.jar | id: servercore | name: ServerCore
+SimplyBows-neoforge-0.1.4-1.21.1.jar | id: simplybows | name: Simply Bows
+simplycataclysm-1.0.2+1.21.1+neoforge.jar | id: simplycataclysm | name: Simply Swords: Cataclysm
+simplyentityequipment-neoforge-0.1.0-1.21.1.jar | id: simplyentityequipment | name: Simply Entity Equipment
+simplymore-neoforge-1.3.0_alpha5+1.21.1.jar | id: simplymore | name: Simply More
+simplyswords-neoforge-1.70.2-1.21.1.jar | id: simplyswords | name: Simply Swords
+SmartBrainLib-neoforge-1.21.1-1.16.11.jar | id: smartbrainlib | name: SmartBrainLib
+smooth_steps-neoforge-1.1.0.jar | id: smooth_steps | name: Smooth Steps
+solcarrot-1.21.1-1.16.6.jar | id: solcarrot | name: Spice of Life: Carrot Edition
+someassemblyrequired-5.2.8.jar | id: someassemblyrequired | name: Some Assembly Required
+sophisticatedbackpacks-1.21.1-3.26.3.2158.jar | id: sophisticatedbackpacks | name: Sophisticated Backpacks
+spark-1.10.124-neoforge.jar | id: spark | name: spark
+structurify-neoforge-2.0.30+mc1.21.1.jar | id: structurify | name: Structurify
+structurize-1.0.828-1.21.1-snapshot.jar | id: structurize | name: Structurize
+supplementaries-neoforge-1.21.1-3.6.7.jar | id: supplementaries | name: Supplementaries
+takesapillage-neoforge-1.0.10+mc1.21.1.jar | id: takesapillage | name: It Takes a Pillage Continuation
+TerraBlender-neoforge-1.21.1-4.1.0.8.jar | id: terrablender | name: TerraBlender
+tfmg-1.2.0.jar | id: tfmg | name: Create: The Factory Must Grow
+the_beyond-0.0.5-InDev.jar | id: the_beyond | name: The Beyond
+The_Undergarden-1.21.1-0.9.6.jar | id: undergarden | name: The Undergarden
+tlc-neoforge-1.21.1-2.1.0.jar | id: tlc | name: The Lost Castle
+towntalk-1.2.0.jar | id: towntalk | name: Towntalk
+trading_floor-3.0.16.jar | id: trading_floor | name: Create: Trading Floor
+traveloptics-4.4.0.1-1.21.1.jar.disabled | id: traveloptics | name: T.O Magic n
+treephysics-1.8.jar.disabled | id: treephysics | name: Tree Physics
+trimeffects-neoforge-mc1.21-2.1.1.jar | id: trimeffects | name: TrimsEffects
+twilightdelight-3.2.2.jar | id: twilightdelight | name: Twilight Flavors & Delight
+twilightforest-1.21.1-4.8.3345-universal.jar | id: twilightforest | name: The Twilight Forest
+unusualend-2.3.jar | id: unusualend | name: Unusual End
+uranus-2.4.1-1.21.1-neoforge.jar | id: uranus | name: Uranus
+vampire_spells_addon-neoforge-1.21.1-0.0.9.jar.disabled | id: vampire_spells_addon | name: Vampire Spells Addon
+VampiresNeedUmbrellas-1.21.1-1.0.3.jar.disabled | id: vampiresneedumbrellas | name: Vampires Need Umbrellas
+vampiricageing-1.21-1.4.21.jar.disabled | id: vampiricageing | name: Vampiric Ageing
+VanillaBackport-neoforge-1.21.1-1.1.7.10.jar | id: vanillabackport | name: VanillaBackport
+variantsandventures-neoforge-1.0.26+mc1.21.1.jar | id: variantsandventures | name: Variants&Ventures
+VeggiesDelight-1.21.1-1.9.3.jar | id: veggiesdelight | name: Veggies Delight
+village_n_pillage_remake-1.0.0-neoforge-1.21.1.jar | id: village_n_pillage_remake | name: Village n
+villagesandpillages-neoforge-mc1.21.1-1.0.3.jar | id: villagesandpillages | name: Villages & Pillages
+waystones-neoforge-1.21.1-21.1.34.jar | id: waystones | name: Waystones
+waystonessable-1.0.3.jar | id: waystonessable | name: WaystonesSable
+wind_spellbooks-1.0.5.jar | id: wind_spellbooks | name: Wind
+wizard_samurai-1.5.2.jar.disabled | id: wizard_samurai | name: Wizard Samurai
+yagm-1.21.1-0.1.2-NEOFORGE.jar | id: yagm | name: Yet Another Gravestone Mod
+YungsApi-1.21.1-NeoForge-5.1.6.jar | id: yungsapi | name: YUNG
+YungsBetterCaves-1.21.1-NeoForge-3.1.4.jar.disabled | id: bettercaves | name: YUNG
+YungsBetterDesertTemples-1.21.1-NeoForge-4.1.5.jar | id: betterdeserttemples | name: YUNG
+YungsBetterDungeons-1.21.1-NeoForge-5.1.4.jar | id: betterdungeons | name: YUNG
+YungsBetterJungleTemples-1.21.1-NeoForge-3.1.2.jar | id: betterjungletemples | name: YUNG
+YungsBetterMineshafts-1.21.1-NeoForge-5.1.1.jar | id: bettermineshafts | name: YUNG
+YungsBetterNetherFortresses-1.21.1-NeoForge-3.1.5.jar | id: betterfortresses | name: YUNG
+YungsBetterOceanMonuments-1.21.1-NeoForge-4.1.2.jar | id: betteroceanmonuments | name: YUNG
+YungsBetterStrongholds-1.21.1-NeoForge-5.1.3.jar | id: betterstrongholds | name: YUNG
+YungsBetterWitchHuts-1.21.1-NeoForge-4.1.1.jar | id: betterwitchhuts | name: YUNG
+Zeta-1.1-40.jar | id: zeta | name: Zeta

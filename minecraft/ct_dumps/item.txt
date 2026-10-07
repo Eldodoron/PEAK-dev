@@ -3299,7 +3299,7 @@
 <item:cataclysm_spellbooks:cursium_mage_boots>
 <item:cataclysm_spellbooks:cursium_mage_chestplate>.withJsonComponent(<componenttype:irons_spellbooks:spell_container>, {spellWheel: true, mustEquip: true, maxSpells: 1, data: []})
 <item:cataclysm_spellbooks:cursium_mage_circlet>.withJsonComponent(<componenttype:irons_spellbooks:spell_container>, {spellWheel: true, mustEquip: true, maxSpells: 1, data: []})
-<item:cataclysm_spellbooks:cursium_mage_elytra>.withJsonComponent(<componenttype:azurelib:az_id>, [1877326754, -879016180, -1209932573, -2087679590]).withJsonComponent(<componenttype:irons_spellbooks:spell_container>, {spellWheel: true, mustEquip: true, maxSpells: 1, data: []})
+<item:cataclysm_spellbooks:cursium_mage_elytra>.withJsonComponent(<componenttype:azurelib:az_id>, [-241286005, 821513389, -1612934038, 1043232970]).withJsonComponent(<componenttype:irons_spellbooks:spell_container>, {spellWheel: true, mustEquip: true, maxSpells: 1, data: []})
 <item:cataclysm_spellbooks:cursium_mage_skirt>
 <item:cataclysm_spellbooks:desert_spell_book>
 <item:cataclysm_spellbooks:engineer_boots>
@@ -3308,17 +3308,17 @@
 <item:cataclysm_spellbooks:engineer_suit>.withJsonComponent(<componenttype:irons_spellbooks:spell_container>, {spellWheel: true, mustEquip: true, maxSpells: 1, data: []})
 <item:cataclysm_spellbooks:excelsius_greaves>
 <item:cataclysm_spellbooks:excelsius_leggings>
-<item:cataclysm_spellbooks:excelsius_power_chestplate>.withJsonComponent(<componenttype:azurelib:az_id>, [-510501727, 292244300, -1317842917, -1043959227]).withJsonComponent(<componenttype:irons_spellbooks:spell_container>, {spellWheel: true, mustEquip: true, maxSpells: 1, data: []})
-<item:cataclysm_spellbooks:excelsius_power_visors>.withJsonComponent(<componenttype:azurelib:az_id>, [-1696172486, -2144056743, -2125690264, 338701419]).withJsonComponent(<componenttype:irons_spellbooks:spell_container>, {spellWheel: true, mustEquip: true, maxSpells: 1, data: []})
-<item:cataclysm_spellbooks:excelsius_resist_chestplate>.withJsonComponent(<componenttype:azurelib:az_id>, [-451942990, -49395189, -2004204984, 124542386]).withJsonComponent(<componenttype:irons_spellbooks:spell_container>, {spellWheel: true, mustEquip: true, maxSpells: 1, data: []})
-<item:cataclysm_spellbooks:excelsius_resist_visors>.withJsonComponent(<componenttype:azurelib:az_id>, [1894426525, -1466152871, -1589158180, 1114644278]).withJsonComponent(<componenttype:irons_spellbooks:spell_container>, {spellWheel: true, mustEquip: true, maxSpells: 1, data: []})
-<item:cataclysm_spellbooks:excelsius_speed_chestplate>.withJsonComponent(<componenttype:azurelib:az_id>, [1908965279, 1249332653, -1464869424, -1056568672]).withJsonComponent(<componenttype:irons_spellbooks:spell_container>, {spellWheel: true, mustEquip: true, maxSpells: 1, data: []})
-<item:cataclysm_spellbooks:excelsius_speed_visors>.withJsonComponent(<componenttype:azurelib:az_id>, [931735868, 403916887, -1075017635, -1705980559]).withJsonComponent(<componenttype:irons_spellbooks:spell_container>, {spellWheel: true, mustEquip: true, maxSpells: 1, data: []})
+<item:cataclysm_spellbooks:excelsius_power_chestplate>.withJsonComponent(<componenttype:azurelib:az_id>, [639975941, -61913184, -1432475624, -512711309]).withJsonComponent(<componenttype:irons_spellbooks:spell_container>, {spellWheel: true, mustEquip: true, maxSpells: 1, data: []})
+<item:cataclysm_spellbooks:excelsius_power_visors>.withJsonComponent(<componenttype:azurelib:az_id>, [-1518264600, -1293399597, -1773372343, -912724607]).withJsonComponent(<componenttype:irons_spellbooks:spell_container>, {spellWheel: true, mustEquip: true, maxSpells: 1, data: []})
+<item:cataclysm_spellbooks:excelsius_resist_chestplate>.withJsonComponent(<componenttype:azurelib:az_id>, [1667197841, -459914368, -1651274828, -1660647969]).withJsonComponent(<componenttype:irons_spellbooks:spell_container>, {spellWheel: true, mustEquip: true, maxSpells: 1, data: []})
+<item:cataclysm_spellbooks:excelsius_resist_visors>.withJsonComponent(<componenttype:azurelib:az_id>, [-188588722, -1035121672, -1927364324, 633966109]).withJsonComponent(<componenttype:irons_spellbooks:spell_container>, {spellWheel: true, mustEquip: true, maxSpells: 1, data: []})
+<item:cataclysm_spellbooks:excelsius_speed_chestplate>.withJsonComponent(<componenttype:azurelib:az_id>, [-83063284, 1332037635, -1180567182, -230186701]).withJsonComponent(<componenttype:irons_spellbooks:spell_container>, {spellWheel: true, mustEquip: true, maxSpells: 1, data: []})
+<item:cataclysm_spellbooks:excelsius_speed_visors>.withJsonComponent(<componenttype:azurelib:az_id>, [942884124, 267667074, -1416336925, -1842948350]).withJsonComponent(<componenttype:irons_spellbooks:spell_container>, {spellWheel: true, mustEquip: true, maxSpells: 1, data: []})
 <item:cataclysm_spellbooks:fake_wudjets_staff>
 <item:cataclysm_spellbooks:hellfire_forge>.withJsonComponent(<componenttype:irons_spellbooks:spell_container>, {spellWheel: true, mustEquip: false, maxSpells: 1, data: [{locked: 1, index: 0, id: "irons_spellbooks:raise_hell", level: 4}]})
 <item:cataclysm_spellbooks:ignis_boots>
 <item:cataclysm_spellbooks:ignis_chestplate>.withJsonComponent(<componenttype:irons_spellbooks:spell_container>, {spellWheel: true, mustEquip: true, maxSpells: 1, data: []})
-<item:cataclysm_spellbooks:ignis_chestplate_elytra>.withJsonComponent(<componenttype:azurelib:az_id>, [-1983492034, 1303268754, -1846008074, -532726888]).withJsonComponent(<componenttype:irons_spellbooks:spell_container>, {spellWheel: true, mustEquip: true, maxSpells: 1, data: []})
+<item:cataclysm_spellbooks:ignis_chestplate_elytra>.withJsonComponent(<componenttype:azurelib:az_id>, [-1836542863, 1043351089, -1380918044, -976356715]).withJsonComponent(<componenttype:irons_spellbooks:spell_container>, {spellWheel: true, mustEquip: true, maxSpells: 1, data: []})
 <item:cataclysm_spellbooks:ignis_helmet>.withJsonComponent(<componenttype:irons_spellbooks:spell_container>, {spellWheel: true, mustEquip: true, maxSpells: 1, data: []})
 <item:cataclysm_spellbooks:ignis_leggings>
 <item:cataclysm_spellbooks:ignis_spell_book>
@@ -6345,13 +6345,13 @@
 <item:endersdelight:veil_of_flames_risotto>
 <item:endersdelight:voidpepper>
 <item:enigmatic_arcana:agroconic_alloy>
-<item:enigmatic_arcana:agroconic_bulwark>.withJsonComponent(<componenttype:azurelib:az_id>, [1759798050, 962481226, -1130229119, 1408367338])
-<item:enigmatic_arcana:agroconic_wings>.withJsonComponent(<componenttype:azurelib:az_id>, [-1292167176, 2098741733, -2000077397, 393892888])
-<item:enigmatic_arcana:antonomos>.withJsonComponent(<componenttype:azurelib:az_id>, [-1388713758, -458406612, -1856830290, 1566293162])
-<item:enigmatic_arcana:apothic_crusader_boots>.withJsonComponent(<componenttype:azurelib:az_id>, [413468408, 165300338, -1201701171, 1275739783])
-<item:enigmatic_arcana:apothic_crusader_chestplate>.withJsonComponent(<componenttype:azurelib:az_id>, [1466756399, -322878907, -1124822868, -732662205]).withJsonComponent(<componenttype:irons_spellbooks:spell_container>, {spellWheel: true, mustEquip: true, maxSpells: 1, data: []})
-<item:enigmatic_arcana:apothic_crusader_helmet>.withJsonComponent(<componenttype:azurelib:az_id>, [1983535362, -1933359148, -1354791600, 366441692])
-<item:enigmatic_arcana:apothic_crusader_leggings>.withJsonComponent(<componenttype:azurelib:az_id>, [-1025685626, -1385085117, -1898707484, -1934574079])
+<item:enigmatic_arcana:agroconic_bulwark>.withJsonComponent(<componenttype:azurelib:az_id>, [-1777654637, -713997455, -1757636274, 59974900])
+<item:enigmatic_arcana:agroconic_wings>.withJsonComponent(<componenttype:azurelib:az_id>, [-1587210393, 2084064973, -1084741965, 2061476165])
+<item:enigmatic_arcana:antonomos>.withJsonComponent(<componenttype:azurelib:az_id>, [320371862, -1801108026, -1490049524, -1923884043])
+<item:enigmatic_arcana:apothic_crusader_boots>.withJsonComponent(<componenttype:azurelib:az_id>, [-1359269714, -1453175341, -1596485125, -1681679258])
+<item:enigmatic_arcana:apothic_crusader_chestplate>.withJsonComponent(<componenttype:azurelib:az_id>, [1013435666, 1245531520, -1663708446, 325875226]).withJsonComponent(<componenttype:irons_spellbooks:spell_container>, {spellWheel: true, mustEquip: true, maxSpells: 1, data: []})
+<item:enigmatic_arcana:apothic_crusader_helmet>.withJsonComponent(<componenttype:azurelib:az_id>, [-2001060434, -1137228647, -1634120725, 780923571])
+<item:enigmatic_arcana:apothic_crusader_leggings>.withJsonComponent(<componenttype:azurelib:az_id>, [-64577999, -1689500848, -1321494962, -433785298])
 <item:enigmatic_arcana:catastrophe>
 <item:enigmatic_arcana:nihility>.withJsonComponent(<componenttype:irons_spellbooks:affinity_data>, {bonuses: {"irons_spellbooks:echoing_strikes": 1}})
 <item:enigmatic_arcana:umbral_weave>
@@ -8616,7 +8616,7 @@
 <item:irons_spellbooks:cultist_chestplate>.withJsonComponent(<componenttype:irons_spellbooks:spell_container>, {spellWheel: true, mustEquip: true, maxSpells: 1, data: []})
 <item:irons_spellbooks:cultist_helmet>
 <item:irons_spellbooks:cultist_leggings>
-<item:irons_spellbooks:cursed_doll_spell_book>.withJsonComponent(<componenttype:irons_spellbooks:affinity_data>, {bonuses: {"irons_spellbooks:blood_slash": 1, "irons_spellbooks:blood_step": 1}})
+<item:irons_spellbooks:cursed_doll_spell_book>.withJsonComponent(<componenttype:irons_spellbooks:affinity_data>, {bonuses: {"irons_spellbooks:blood_step": 1, "irons_spellbooks:blood_slash": 1}})
 <item:irons_spellbooks:dead_king_corpse_spawn_egg>
 <item:irons_spellbooks:decrepit_key>
 <item:irons_spellbooks:decrepit_scythe>
@@ -8786,6 +8786,11 @@
 <item:kubejs:abyssal_catalyst>
 <item:kubejs:anomaly_replicator>
 <item:kubejs:chaos_essence>
+<item:kubejs:coffer_common>
+<item:kubejs:coffer_epic>
+<item:kubejs:coffer_mythic>
+<item:kubejs:coffer_rare>
+<item:kubejs:coffer_uncommon>
 <item:kubejs:culinary_singularity>
 <item:kubejs:draconic_scale>
 <item:kubejs:frozen_heart_core>
@@ -8849,7 +8854,10 @@
 <item:kubejs:primordial_core>
 <item:kubejs:primordial_dragon_blood>
 <item:kubejs:sculk_heart>
+<item:kubejs:vampillager>
+<item:kubejs:vampire_fang>
 <item:kubejs:void_resonator>
+<item:kubejs:void_teleport_pad>
 <item:kubejs:wither_soul>
 <item:lendersdelight:abyssal_knife>
 <item:lendersdelight:amethyst_crab_meat_slice>
@@ -9479,6 +9487,17 @@
 <item:malum:zephyr_impetus>
 <item:malum:zinc_impetus>
 <item:malum:zinc_node>
+<item:mek_x_star:crushed_wool>
+<item:mek_x_star:durasteel>
+<item:mek_x_star:heat_insulation>
+<item:mek_x_star:incomplete_oxygen_tank_expansion>
+<item:mek_x_star:insulation>
+<item:mek_x_star:module_heat_resistive>
+<item:mek_x_star:module_oxygen_tank>
+<item:mek_x_star:module_oxygen_tank_expansion>
+<item:mek_x_star:module_space_suit>
+<item:mek_x_star:module_space_suit_insulation>
+<item:mek_x_star:pressurized_durasteel>
 <item:mekanism:advanced_bin>
 <item:mekanism:advanced_chemical_tank>
 <item:mekanism:advanced_combining_factory>
@@ -11537,33 +11556,33 @@
 <item:mob_weapon_api:twilight_wand>
 <item:moonlight:placeable_item>
 <item:moonlight:spawn_box>
-<item:morerelics:axolotl_cream>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {mend_moisturize: {stats: {multip: {initialValue: 0.9038}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
-<item:morerelics:biojoint>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {cyberpsychosis: {stats: {duration: {initialValue: 5.5151}, chance: {initialValue: 4.91568}}, "lock": {breaks: 0}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, suspension: {stats: {max_reduction: {initialValue: 13.05497}, min_reduction: {initialValue: 4.66667}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
-<item:morerelics:bionic_eye>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {seeker: {stats: {range: {initialValue: 13.2871}, cooldown: {initialValue: 105.48566}, duration: {initialValue: 11.15175}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, cyberpsychosis: {stats: {duration: {initialValue: 6.15403}, chance: {initialValue: 3.34883}}, "lock": {breaks: 0}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
+<item:morerelics:axolotl_cream>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {mend_moisturize: {stats: {multip: {initialValue: 0.7841}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
+<item:morerelics:biojoint>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {cyberpsychosis: {stats: {duration: {initialValue: 6.22505}, chance: {initialValue: 4.10897}}, "lock": {breaks: 0}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, suspension: {stats: {max_reduction: {initialValue: 13.22685}, min_reduction: {initialValue: 5.9876}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
+<item:morerelics:bionic_eye>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {seeker: {stats: {range: {initialValue: 13.31598}, cooldown: {initialValue: 108.83488}, duration: {initialValue: 14.72034}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, cyberpsychosis: {stats: {duration: {initialValue: 6.45617}, chance: {initialValue: 4.68487}}, "lock": {breaks: 0}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
 <item:morerelics:converging_orb>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {convergence: {stats: {}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
-<item:morerelics:crown_of_the_legend>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {never_die: {stats: {potency: {initialValue: 0.18257}}, "lock": {breaks: 0}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, pig_king: {stats: {perch: {initialValue: 0.33655}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
+<item:morerelics:crown_of_the_legend>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {never_die: {stats: {potency: {initialValue: 0.13798}}, "lock": {breaks: 0}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, pig_king: {stats: {perch: {initialValue: 0.25686}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
 <item:morerelics:depleted_spool>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {restoration: {stats: {}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
-<item:morerelics:eject_button>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {nope: {stats: {speed: {initialValue: 1.71333}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
-<item:morerelics:epoch_apple>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {persistent: {stats: {cooldown: {initialValue: 12.61777}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, ripen: {stats: {cooldown: {initialValue: 53.85642}}, "lock": {breaks: 0}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
-<item:morerelics:gravitum_glove>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {bonk: {stats: {duration: {initialValue: 5.962}, chance: {initialValue: 3.37861}}, "lock": {breaks: 0}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, all_in: {stats: {damage_boost: {initialValue: 1.47551}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
-<item:morerelics:gravitum_strider>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {elevated_steps: {stats: {gravity_reduction: {initialValue: 32.16673}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, leap: {stats: {jump_force: {initialValue: 0.21729}}, "lock": {breaks: 0}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 1}, points: 0}}}})
-<item:morerelics:guts_orb>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {guts: {stats: {damage_perchantage: {initialValue: 0.23103}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
-<item:morerelics:king_crimson>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {epitaph: {stats: {cooldown: {initialValue: 182.9022}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, talk_to_the_wind: {stats: {seconds: {initialValue: 4.85062}, chance: {initialValue: 3.07925}}, "lock": {breaks: 0}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, the_court: {stats: {threshold: {initialValue: 13.92631}}, "lock": {breaks: 0}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
-<item:morerelics:made_in_heaven>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {divine_judgement: {stats: {cooldown: {initialValue: 1081.3012}, damage: {initialValue: 50.96311}}, "lock": {breaks: 0}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, as_one: {stats: {accel_cooldown: {initialValue: 40.77035}, initial_boost: {initialValue: 0.04491}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, zenith: {stats: {stat_boost: {initialValue: 0.08754}, revive_cooldown: {initialValue: 941.68136}}, "lock": {breaks: 0}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, condemn: {stats: {cooldown: {initialValue: 47.52322}, damage: {initialValue: 4.36171}}, "lock": {breaks: 0}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
-<item:morerelics:mass_gauntlet>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {heavy_hitter: {stats: {perch: {initialValue: 9.51138}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
-<item:morerelics:moodworm>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {tranquillity: {stats: {}, "lock": {breaks: 0}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, moody: {stats: {reduction: {initialValue: 8.88602}, multip: {initialValue: 0.48913}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
-<item:morerelics:opal_necklace>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {bubble_shield: {stats: {cooldown: {initialValue: 211.02245}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
-<item:morerelics:sentient_rust>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {corrosive: {stats: {seconds: {initialValue: 28.43194}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
-<item:morerelics:shieldweave_cape>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {impact_shield: {stats: {per_armor: {initialValue: 0.21805}, flat_chance: {initialValue: 5.90679}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, dynamic_thread: {stats: {perch: {initialValue: 4.50826}}, "lock": {breaks: 0}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
+<item:morerelics:eject_button>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {nope: {stats: {speed: {initialValue: 1.71353}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
+<item:morerelics:epoch_apple>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {persistent: {stats: {cooldown: {initialValue: 13.54692}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, ripen: {stats: {cooldown: {initialValue: 59.10243}}, "lock": {breaks: 0}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
+<item:morerelics:gravitum_glove>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {bonk: {stats: {duration: {initialValue: 4.30638}, chance: {initialValue: 4.79108}}, "lock": {breaks: 0}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, all_in: {stats: {damage_boost: {initialValue: 1.63163}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
+<item:morerelics:gravitum_strider>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {elevated_steps: {stats: {gravity_reduction: {initialValue: 32.44171}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, leap: {stats: {jump_force: {initialValue: 0.24666}}, "lock": {breaks: 0}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 1}, points: 0}}}})
+<item:morerelics:guts_orb>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {guts: {stats: {damage_perchantage: {initialValue: 0.22835}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
+<item:morerelics:king_crimson>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {epitaph: {stats: {cooldown: {initialValue: 162.45445}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, talk_to_the_wind: {stats: {seconds: {initialValue: 3.27145}, chance: {initialValue: 2.44849}}, "lock": {breaks: 0}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, the_court: {stats: {threshold: {initialValue: 10.5244}}, "lock": {breaks: 0}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
+<item:morerelics:made_in_heaven>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {divine_judgement: {stats: {cooldown: {initialValue: 1241.51102}, damage: {initialValue: 54.35768}}, "lock": {breaks: 0}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, as_one: {stats: {accel_cooldown: {initialValue: 32.65139}, initial_boost: {initialValue: 0.03607}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, zenith: {stats: {stat_boost: {initialValue: 0.11234}, revive_cooldown: {initialValue: 1035.39697}}, "lock": {breaks: 0}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, condemn: {stats: {cooldown: {initialValue: 50.99951}, damage: {initialValue: 5.50839}}, "lock": {breaks: 0}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
+<item:morerelics:mass_gauntlet>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {heavy_hitter: {stats: {perch: {initialValue: 8.53769}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
+<item:morerelics:moodworm>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {tranquillity: {stats: {}, "lock": {breaks: 0}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, moody: {stats: {reduction: {initialValue: 9.60407}, multip: {initialValue: 0.26863}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
+<item:morerelics:opal_necklace>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {bubble_shield: {stats: {cooldown: {initialValue: 260.71629}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
+<item:morerelics:sentient_rust>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {corrosive: {stats: {seconds: {initialValue: 23.62715}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
+<item:morerelics:shieldweave_cape>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {impact_shield: {stats: {per_armor: {initialValue: 0.18679}, flat_chance: {initialValue: 3.35175}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, dynamic_thread: {stats: {perch: {initialValue: 5.15913}}, "lock": {breaks: 0}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
 <item:morerelics:slumbering_amulet>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {odd_aura: {stats: {}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, awakening_potential: {stats: {}, "lock": {breaks: 0}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
-<item:morerelics:thermoseismic_heart>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {pyromania: {stats: {duration: {initialValue: 26.20608}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, cyberpsychosis: {stats: {duration: {initialValue: 5.538}, chance: {initialValue: 3.50134}}, "lock": {breaks: 0}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, thermal_discharge: {stats: {radius: {initialValue: 1.06144}, damage: {initialValue: 3.81169}}, "lock": {breaks: 0}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
-<item:morerelics:twin_fangs>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {two_fold: {stats: {bigger_strike_per: {initialValue: 60.19325}, smaller_strike_per: {initialValue: 41.22999}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, blindside: {stats: {}, "lock": {breaks: 0}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
+<item:morerelics:thermoseismic_heart>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {pyromania: {stats: {duration: {initialValue: 21.47375}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, cyberpsychosis: {stats: {duration: {initialValue: 5.94539}, chance: {initialValue: 3.17458}}, "lock": {breaks: 0}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, thermal_discharge: {stats: {radius: {initialValue: 1.15527}, damage: {initialValue: 3.89411}}, "lock": {breaks: 0}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
+<item:morerelics:twin_fangs>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {two_fold: {stats: {bigger_strike_per: {initialValue: 60.68233}, smaller_strike_per: {initialValue: 41.50199}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, blindside: {stats: {}, "lock": {breaks: 0}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
 <item:morerelics:tyrant_mask>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {revenge: {stats: {}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, monotony: {stats: {}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, futility: {stats: {}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, regrets: {stats: {debuff: {initialValue: 20.0}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
-<item:morerelics:vertebrax>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {inoculation: {stats: {}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, cyberpsychosis: {stats: {duration: {initialValue: 4.17397}, chance: {initialValue: 4.0657}}, "lock": {breaks: 0}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, fortification: {stats: {reduction: {initialValue: 18.51422}, increase: {initialValue: 19.64561}}, "lock": {breaks: 0}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, acquired_immunity: {stats: {}, "lock": {breaks: 0}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
-<item:morerelics:weavers_spool>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {unravel: {stats: {slow_duration: {initialValue: 2.10496}, damage: {initialValue: 4.13362}}, "lock": {breaks: 0}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, weaver: {stats: {passive_regen_time: {initialValue: 5.82439}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, bind: {stats: {healing_amount: {initialValue: 3.25248}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, soar: {stats: {speed_duration: {initialValue: 7.58623}, leap_power: {initialValue: 1.14707}}, "lock": {breaks: 0}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
-<item:morerelics:whims_of_fate>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {just_one_more: {stats: {damage_reduction_per: {initialValue: 0.75307}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
+<item:morerelics:vertebrax>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {inoculation: {stats: {}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, cyberpsychosis: {stats: {duration: {initialValue: 5.00886}, chance: {initialValue: 4.72096}}, "lock": {breaks: 0}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, fortification: {stats: {reduction: {initialValue: 13.55596}, increase: {initialValue: 22.96288}}, "lock": {breaks: 0}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, acquired_immunity: {stats: {}, "lock": {breaks: 0}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
+<item:morerelics:weavers_spool>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {unravel: {stats: {slow_duration: {initialValue: 2.3209}, damage: {initialValue: 5.31262}}, "lock": {breaks: 0}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, weaver: {stats: {passive_regen_time: {initialValue: 6.89408}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, bind: {stats: {healing_amount: {initialValue: 3.33056}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, soar: {stats: {speed_duration: {initialValue: 8.53131}, leap_power: {initialValue: 1.21863}}, "lock": {breaks: 0}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
+<item:morerelics:whims_of_fate>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {just_one_more: {stats: {damage_reduction_per: {initialValue: 0.52754}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
 <item:morerelics:whispering_amulet>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {ascend_heaven: {stats: {}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
-<item:morerelics:wonder_of_u>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {entropy: {stats: {perch: {initialValue: 9.25003}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, flow_of_calamity: {stats: {cooldown: {initialValue: 12.89662}}, "lock": {breaks: 0}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, event_horizon: {stats: {duration: {initialValue: 8.00804}, cooldown: {initialValue: 450.42612}}, "lock": {breaks: 0}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
+<item:morerelics:wonder_of_u>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {entropy: {stats: {perch: {initialValue: 7.84739}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, flow_of_calamity: {stats: {cooldown: {initialValue: 12.57397}}, "lock": {breaks: 0}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, event_horizon: {stats: {duration: {initialValue: 6.80222}, cooldown: {initialValue: 467.92785}}, "lock": {breaks: 0}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
 <item:mowziesmobs:blowgun>
 <item:mowziesmobs:bluff_rod>
 <item:mowziesmobs:bluff_spawn_egg>
@@ -11743,6 +11762,370 @@
 <item:nadir:stellar_material>
 <item:nadir:worthless_material>
 <item:naturescompass:naturescompass>
+<item:northstar:advanced_circuit>
+<item:northstar:amethyst_crystal>
+<item:northstar:argyre_leaves>
+<item:northstar:argyre_log>
+<item:northstar:argyre_planks>
+<item:northstar:argyre_sapling>
+<item:northstar:argyre_slab>
+<item:northstar:argyre_stairs>
+<item:northstar:astronomical_reading>
+<item:northstar:astronomy_table>
+<item:northstar:atmospheric_concentrator>
+<item:northstar:auto_lander>
+<item:northstar:biofuel_bucket>
+<item:northstar:bloom_fungus>
+<item:northstar:bloom_fungus_block>
+<item:northstar:bloom_fungus_stem_block>
+<item:northstar:brine_bucket>
+<item:northstar:broken_iron_space_suit_boots>
+<item:northstar:broken_iron_space_suit_chestpiece>
+<item:northstar:broken_iron_space_suit_helmet>
+<item:northstar:broken_iron_space_suit_leggings>
+<item:northstar:budding_lunar_sapphire_block>
+<item:northstar:calorian_log>
+<item:northstar:calorian_planks>
+<item:northstar:calorian_slab>
+<item:northstar:calorian_stairs>
+<item:northstar:carbon_bucket>
+<item:northstar:chiseled_mars_stone>
+<item:northstar:chiseled_mercury_stone>
+<item:northstar:chiseled_moon_stone>
+<item:northstar:chiseled_venus_stone>
+<item:northstar:chlorine_bucket>
+<item:northstar:chocolate_ice_cream>
+<item:northstar:chocolate_ice_cream_bucket>
+<item:northstar:circuit>
+<item:northstar:circuit_engraver>
+<item:northstar:coiler_leaves>
+<item:northstar:coiler_log>
+<item:northstar:coiler_planks>
+<item:northstar:coiler_sapling>
+<item:northstar:coiler_slab>
+<item:northstar:coiler_stairs>
+<item:northstar:coiler_vines>
+<item:northstar:combustion_engine>
+<item:northstar:computer_rack>
+<item:northstar:crushed_raw_tungsten>
+<item:northstar:dormant_martian_sapling>
+<item:northstar:dormant_martian_sapling_sequenced>
+<item:northstar:dormant_martian_seed>
+<item:northstar:dormant_martian_seed_sequenced>
+<item:northstar:dry_plant_fiber>
+<item:northstar:durable_fabric>
+<item:northstar:electrolysis_machine>
+<item:northstar:enriched_glowstone_ore>
+<item:northstar:extinguished_lantern>
+<item:northstar:extinguished_torch>
+<item:northstar:fan_blade>
+<item:northstar:flattened_dough>
+<item:northstar:frost>
+<item:northstar:frozen_zombie_spawn_egg>
+<item:northstar:glowing_mars_roots>
+<item:northstar:glowing_venus_vines>
+<item:northstar:glowstone_lamp>
+<item:northstar:glowstone_lantern>
+<item:northstar:glowstone_torch>
+<item:northstar:hardened_precision_mechanism>
+<item:northstar:hydrocarbon_bucket>
+<item:northstar:hydrogen_bucket>
+<item:northstar:ice_box>
+<item:northstar:ice_cream_cone>
+<item:northstar:icicle>
+<item:northstar:incomplete_hardened_precision_mechanism>
+<item:northstar:incomplete_titanium_ingot>
+<item:northstar:interplanetary_navigator>
+<item:northstar:iron_cogwheel>
+<item:northstar:iron_large_cogwheel>
+<item:northstar:iron_space_suit_boots>
+<item:northstar:iron_space_suit_chestpiece>
+<item:northstar:iron_space_suit_helmet>
+<item:northstar:iron_space_suit_leggings>
+<item:northstar:large_fan>
+<item:northstar:large_lunar_sapphire_bud>
+<item:northstar:liquid_hydrogen_bucket>
+<item:northstar:liquid_oxygen_bucket>
+<item:northstar:lunar_sapphire_block>
+<item:northstar:lunar_sapphire_cluster>
+<item:northstar:lunar_sapphire_crystal>
+<item:northstar:lunar_sapphire_shard>
+<item:northstar:mars_cobra_spawn_egg>
+<item:northstar:mars_copper_ore>
+<item:northstar:mars_deep_copper_ore>
+<item:northstar:mars_deep_diamond_ore>
+<item:northstar:mars_deep_gold_ore>
+<item:northstar:mars_deep_iron_ore>
+<item:northstar:mars_deep_quartz_ore>
+<item:northstar:mars_deep_redstone_ore>
+<item:northstar:mars_deep_stone>
+<item:northstar:mars_deep_titanium_ore>
+<item:northstar:mars_deep_zinc_ore>
+<item:northstar:mars_diamond_ore>
+<item:northstar:mars_farmland>
+<item:northstar:mars_gold_ore>
+<item:northstar:mars_gravel>
+<item:northstar:mars_iron_ore>
+<item:northstar:mars_moth_spawn_egg>
+<item:northstar:mars_palm>
+<item:northstar:mars_palm_flower>
+<item:northstar:mars_palm_seeds>
+<item:northstar:mars_quartz_ore>
+<item:northstar:mars_redstone_ore>
+<item:northstar:mars_roots>
+<item:northstar:mars_sand>
+<item:northstar:mars_soil>
+<item:northstar:mars_sprout>
+<item:northstar:mars_sprout_big>
+<item:northstar:mars_sprout_flower>
+<item:northstar:mars_sprout_seeds>
+<item:northstar:mars_stone>
+<item:northstar:mars_stone_brick_slab>
+<item:northstar:mars_stone_brick_slab_vertical>
+<item:northstar:mars_stone_brick_stairs>
+<item:northstar:mars_stone_brick_wall>
+<item:northstar:mars_stone_bricks>
+<item:northstar:mars_stone_lamp>
+<item:northstar:mars_stone_pillar>
+<item:northstar:mars_titanium_ore>
+<item:northstar:mars_toad_spawn_egg>
+<item:northstar:mars_tulip>
+<item:northstar:mars_tulip_flower>
+<item:northstar:mars_tulip_seeds>
+<item:northstar:mars_worm_nest>
+<item:northstar:mars_worm_spawn_egg>
+<item:northstar:mars_zinc_ore>
+<item:northstar:martian_axe>
+<item:northstar:martian_grass>
+<item:northstar:martian_hoe>
+<item:northstar:martian_pickaxe>
+<item:northstar:martian_shovel>
+<item:northstar:martian_steel_block>
+<item:northstar:martian_steel_blue_lamp>
+<item:northstar:martian_steel_boots>
+<item:northstar:martian_steel_chestplate>
+<item:northstar:martian_steel_grate>
+<item:northstar:martian_steel_helmet>
+<item:northstar:martian_steel_ingot>
+<item:northstar:martian_steel_lamp>
+<item:northstar:martian_steel_large_plating>
+<item:northstar:martian_steel_leggings>
+<item:northstar:martian_steel_pillar>
+<item:northstar:martian_steel_plating>
+<item:northstar:martian_steel_plating_slab>
+<item:northstar:martian_steel_plating_stairs>
+<item:northstar:martian_steel_plating_vertical_slab>
+<item:northstar:martian_steel_sheet>
+<item:northstar:martian_steel_sheetmetal>
+<item:northstar:martian_steel_sheetmetal_slab>
+<item:northstar:martian_steel_sheetmetal_vertical_slab>
+<item:northstar:martian_steel_space_suit_boots>
+<item:northstar:martian_steel_space_suit_chestpiece>
+<item:northstar:martian_steel_space_suit_helmet>
+<item:northstar:martian_steel_space_suit_leggings>
+<item:northstar:martian_strawberry>
+<item:northstar:martian_strawberry_bush>
+<item:northstar:martian_sword>
+<item:northstar:martian_tall_grass>
+<item:northstar:medium_lunar_sapphire_bud>
+<item:northstar:mercury_cactus>
+<item:northstar:mercury_copper_ore>
+<item:northstar:mercury_deep_copper_ore>
+<item:northstar:mercury_deep_diamond_ore>
+<item:northstar:mercury_deep_glowstone_ore>
+<item:northstar:mercury_deep_gold_ore>
+<item:northstar:mercury_deep_iron_ore>
+<item:northstar:mercury_deep_lapis_ore>
+<item:northstar:mercury_deep_redstone_ore>
+<item:northstar:mercury_deep_stone>
+<item:northstar:mercury_deep_titanium_ore>
+<item:northstar:mercury_deep_tungsten_ore>
+<item:northstar:mercury_deep_zinc_ore>
+<item:northstar:mercury_diamond_ore>
+<item:northstar:mercury_glowstone_ore>
+<item:northstar:mercury_gold_ore>
+<item:northstar:mercury_iron_ore>
+<item:northstar:mercury_lapis_ore>
+<item:northstar:mercury_raptor_spawn_egg>
+<item:northstar:mercury_redstone_ore>
+<item:northstar:mercury_roach_spawn_egg>
+<item:northstar:mercury_shelf_fungus>
+<item:northstar:mercury_shelf_fungus_block>
+<item:northstar:mercury_stone>
+<item:northstar:mercury_stone_brick_slab>
+<item:northstar:mercury_stone_brick_slab_vertical>
+<item:northstar:mercury_stone_brick_stairs>
+<item:northstar:mercury_stone_brick_wall>
+<item:northstar:mercury_stone_bricks>
+<item:northstar:mercury_stone_lamp>
+<item:northstar:mercury_stone_pillar>
+<item:northstar:mercury_titanium_ore>
+<item:northstar:mercury_tortoise_spawn_egg>
+<item:northstar:mercury_tungsten_ore>
+<item:northstar:mercury_zinc_ore>
+<item:northstar:methane_bucket>
+<item:northstar:methane_ice>
+<item:northstar:monolithite>
+<item:northstar:moon_copper_ore>
+<item:northstar:moon_deep_copper_ore>
+<item:northstar:moon_deep_diamond_ore>
+<item:northstar:moon_deep_glowstone_ore>
+<item:northstar:moon_deep_gold_ore>
+<item:northstar:moon_deep_iron_ore>
+<item:northstar:moon_deep_lapis_ore>
+<item:northstar:moon_deep_redstone_ore>
+<item:northstar:moon_deep_stone>
+<item:northstar:moon_deep_titanium_ore>
+<item:northstar:moon_deep_zinc_ore>
+<item:northstar:moon_diamond_ore>
+<item:northstar:moon_eel_spawn_egg>
+<item:northstar:moon_glowstone_ore>
+<item:northstar:moon_gold_ore>
+<item:northstar:moon_iron_ore>
+<item:northstar:moon_lapis_ore>
+<item:northstar:moon_lunargrade_spawn_egg>
+<item:northstar:moon_redstone_ore>
+<item:northstar:moon_sand>
+<item:northstar:moon_sand_paper>
+<item:northstar:moon_snail_spawn_egg>
+<item:northstar:moon_stone>
+<item:northstar:moon_stone_brick_slab>
+<item:northstar:moon_stone_brick_slab_vertical>
+<item:northstar:moon_stone_brick_stairs>
+<item:northstar:moon_stone_brick_wall>
+<item:northstar:moon_stone_bricks>
+<item:northstar:moon_stone_lamp>
+<item:northstar:moon_stone_pillar>
+<item:northstar:moon_titanium_ore>
+<item:northstar:moon_zinc_ore>
+<item:northstar:oxygen_bucket>
+<item:northstar:oxygen_detector>
+<item:northstar:oxygen_filler>
+<item:northstar:oxygen_sealer>
+<item:northstar:oxygen_separator>
+<item:northstar:plate_fungus>
+<item:northstar:plate_fungus_cap_block>
+<item:northstar:plate_fungus_stem_block>
+<item:northstar:pointed_crimsite>
+<item:northstar:polished_amethyst>
+<item:northstar:polished_diamond>
+<item:northstar:polished_lunar_sapphire>
+<item:northstar:polished_mars_stone>
+<item:northstar:polished_mercury_stone>
+<item:northstar:polished_moon_stone>
+<item:northstar:polished_venus_stone>
+<item:northstar:raw_glowstone_ore>
+<item:northstar:raw_ice_cream_cone>
+<item:northstar:raw_martian_iron_ore>
+<item:northstar:raw_titanium_ore>
+<item:northstar:raw_tungsten_ore>
+<item:northstar:return_ticket>
+<item:northstar:rocket_combustion_chamber>
+<item:northstar:rocket_controls>
+<item:northstar:rocket_station>
+<item:northstar:rocket_thruster>
+<item:northstar:rocket_waypoint>
+<item:northstar:rutile_concentrate>
+<item:northstar:salt>
+<item:northstar:small_lunar_sapphire_bud>
+<item:northstar:sodium_bucket>
+<item:northstar:sodium_catalyst>
+<item:northstar:solar_panel>
+<item:northstar:space_atlas>
+<item:northstar:spike_fungus>
+<item:northstar:spike_fungus_block>
+<item:northstar:strawberry_ice_cream>
+<item:northstar:strawberry_ice_cream_bucket>
+<item:northstar:stripped_argyre_log>
+<item:northstar:stripped_coiler_log>
+<item:northstar:stripped_wilter_log>
+<item:northstar:sulfuric_acid_bucket>
+<item:northstar:tall_venus_mycelium>
+<item:northstar:targeting_computer>
+<item:northstar:telescope>
+<item:northstar:temperature_regulator>
+<item:northstar:titanium_block>
+<item:northstar:titanium_grate>
+<item:northstar:titanium_ingot>
+<item:northstar:titanium_nugget>
+<item:northstar:titanium_pillar>
+<item:northstar:titanium_plating>
+<item:northstar:titanium_plating_slab>
+<item:northstar:titanium_plating_stairs>
+<item:northstar:titanium_plating_vertical_slab>
+<item:northstar:titanium_sheet>
+<item:northstar:titanium_sheetmetal>
+<item:northstar:titanium_sheetmetal_slab>
+<item:northstar:titanium_sheetmetal_vertical_slab>
+<item:northstar:titanium_space_door>
+<item:northstar:titanium_tetrachloride_bucket>
+<item:northstar:titanium_trapdoor>
+<item:northstar:tower_fungus>
+<item:northstar:tower_fungus_cap_block>
+<item:northstar:tower_fungus_stem_block>
+<item:northstar:tungsten_block>
+<item:northstar:tungsten_grate>
+<item:northstar:tungsten_ingot>
+<item:northstar:tungsten_nugget>
+<item:northstar:tungsten_pillar>
+<item:northstar:tungsten_plating>
+<item:northstar:tungsten_plating_slab>
+<item:northstar:tungsten_plating_stairs>
+<item:northstar:tungsten_plating_vertical_slab>
+<item:northstar:tungsten_sheet>
+<item:northstar:tungsten_sheetmetal>
+<item:northstar:tungsten_sheetmetal_slab>
+<item:northstar:tungsten_sheetmetal_vertical_slab>
+<item:northstar:unfinished_advanced_circuit>
+<item:northstar:unfinished_circuit>
+<item:northstar:unfinished_targeting_computer>
+<item:northstar:vanilla_ice_cream>
+<item:northstar:vanilla_ice_cream_bucket>
+<item:northstar:vent>
+<item:northstar:venus_coal_ore>
+<item:northstar:venus_copper_ore>
+<item:northstar:venus_deep_copper_ore>
+<item:northstar:venus_deep_diamond_ore>
+<item:northstar:venus_deep_glowstone_ore>
+<item:northstar:venus_deep_gold_ore>
+<item:northstar:venus_deep_iron_ore>
+<item:northstar:venus_deep_quartz_ore>
+<item:northstar:venus_deep_redstone_ore>
+<item:northstar:venus_deep_stone>
+<item:northstar:venus_deep_titanium_ore>
+<item:northstar:venus_deep_zinc_ore>
+<item:northstar:venus_diamond_ore>
+<item:northstar:venus_glowstone_ore>
+<item:northstar:venus_gold_ore>
+<item:northstar:venus_gravel>
+<item:northstar:venus_iron_ore>
+<item:northstar:venus_mimic_spawn_egg>
+<item:northstar:venus_plume>
+<item:northstar:venus_quartz_ore>
+<item:northstar:venus_redstone_ore>
+<item:northstar:venus_scorpion_spawn_egg>
+<item:northstar:venus_stone>
+<item:northstar:venus_stone_brick_slab>
+<item:northstar:venus_stone_brick_slab_vertical>
+<item:northstar:venus_stone_brick_stairs>
+<item:northstar:venus_stone_brick_wall>
+<item:northstar:venus_stone_bricks>
+<item:northstar:venus_stone_bull_spawn_egg>
+<item:northstar:venus_stone_lamp>
+<item:northstar:venus_stone_pillar>
+<item:northstar:venus_titanium_ore>
+<item:northstar:venus_vines>
+<item:northstar:venus_vulture_spawn_egg>
+<item:northstar:venus_zinc_ore>
+<item:northstar:volcanic_ash>
+<item:northstar:volcanic_ash_item>
+<item:northstar:volcanic_rock>
+<item:northstar:wilter_leaves>
+<item:northstar:wilter_log>
+<item:northstar:wilter_planks>
+<item:northstar:wilter_sapling>
+<item:northstar:wilter_slab>
+<item:northstar:wilter_stairs>
 <item:not_enough_glyphs:glyph_contingency_blink>
 <item:not_enough_glyphs:glyph_contingency_death>
 <item:not_enough_glyphs:glyph_contingency_fall>
@@ -13435,38 +13818,38 @@
 <item:refurbished_furniture:yellow_stool>
 <item:refurbished_furniture:yellow_toilet>
 <item:refurbished_furniture:yellow_trampoline>
-<item:relics:amphibian_boot>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {swimming: {stats: {duration: {initialValue: 30.75866}, speed: {initialValue: 0.00505}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, gills: {stats: {chance: {initialValue: 0.09598}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, slipping: {stats: {duration: {initialValue: 17.48397}, speed: {initialValue: 0.00927}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
-<item:relics:aqua_walker>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {walking: {stats: {time: {initialValue: 49.71038}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
-<item:relics:bastion_ring>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {trade: {stats: {rolls: {initialValue: 0.44752}}, "lock": {breaks: 0}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, compass: {stats: {}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
-<item:relics:blazing_flask>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {bonfire: {stats: {height: {initialValue: 4.92186}, step: {initialValue: 1.79013}, speed: {initialValue: 0.03608}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
-<item:relics:chorus_inhibitor>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {blink: {stats: {distance: {initialValue: 29.78584}, cooldown: {initialValue: 7.53432}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
-<item:relics:drowned_belt>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {riptide: {stats: {cooldown: {initialValue: 7.99894}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, anchor: {stats: {sinking: {initialValue: 4.57339}, slowness: {initialValue: 0.43468}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, slots: {stats: {charm: {initialValue: 1.8145}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, pressure: {stats: {damage: {initialValue: 1.27445}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
-<item:relics:elytra_booster>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {boost: {stats: {capacity: {initialValue: 62.25301}, speed: {initialValue: 1.28603}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
-<item:relics:enders_hand>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {neutrality: {stats: {}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, swap: {stats: {distance: {initialValue: 30.90529}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
-<item:relics:holy_locket>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {ascension: {stats: {duration: {initialValue: 0.58161}, max_duration: {initialValue: 12.45155}}, "lock": {breaks: 0}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, penitence: {stats: {amount: {initialValue: 0.26896}}, "lock": {breaks: 0}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, faith: {stats: {damage: {initialValue: 0.27506}, radius: {initialValue: 9.39784}, health: {initialValue: 0.11084}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
-<item:relics:hunter_belt>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {slots: {stats: {charm: {initialValue: 1.82115}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, training: {stats: {damage: {initialValue: 1.32173}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
-<item:relics:ice_breaker>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {impact: {stats: {size: {initialValue: 3.96537}, damage: {initialValue: 3.69076}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, sustainability: {stats: {modifier: {initialValue: 0.7165}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
-<item:relics:ice_skates>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {skating: {stats: {duration: {initialValue: 43.71276}, speed: {initialValue: 0.02401}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, ram: {stats: {damage: {initialValue: 0.24804}}, "lock": {breaks: 0}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
-<item:relics:infinity_ham>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {regeneration: {stats: {cooldown: {initialValue: 26.39226}, feed: {initialValue: 2.18686}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, marinade: {stats: {duration: {initialValue: 2.26957}}, "lock": {breaks: 0}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, meat_bat: {stats: {damage: {initialValue: 10.93013}, stun: {initialValue: 0.95154}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
-<item:relics:jellyfish_necklace>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {unsinkable: {stats: {}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, paralysis: {stats: {duration: {initialValue: 0.67023}}, "lock": {breaks: 0}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, shock: {stats: {damage: {initialValue: 0.8311}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 1}, points: 0}}}})
-<item:relics:leafy_ring>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {hide: {stats: {speed: {initialValue: 0.2144}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
-<item:relics:leather_belt>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {slots: {stats: {charm: {initialValue: 2.73889}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
-<item:relics:magic_mirror>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {teleport: {stats: {distance: {initialValue: 738.01937}, cooldown: {initialValue: 109.84406}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
-<item:relics:magma_walker>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {heat_resistance: {stats: {}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, pace: {stats: {time: {initialValue: 34.07301}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
-<item:relics:midnight_robe>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {vanish: {stats: {speed: {initialValue: 0.16965}, light: {initialValue: 1.85312}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 1}, points: 0}, backstab: {stats: {distance: {initialValue: 16.78376}, damage: {initialValue: 1.44903}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
+<item:relics:amphibian_boot>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {swimming: {stats: {duration: {initialValue: 20.53701}, speed: {initialValue: 0.00557}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, gills: {stats: {chance: {initialValue: 0.0902}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, slipping: {stats: {duration: {initialValue: 22.55742}, speed: {initialValue: 0.00699}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
+<item:relics:aqua_walker>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {walking: {stats: {time: {initialValue: 49.18518}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
+<item:relics:bastion_ring>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {trade: {stats: {rolls: {initialValue: 0.83163}}, "lock": {breaks: 0}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, compass: {stats: {}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
+<item:relics:blazing_flask>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {bonfire: {stats: {height: {initialValue: 4.97267}, step: {initialValue: 1.89582}, speed: {initialValue: 0.04159}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
+<item:relics:chorus_inhibitor>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {blink: {stats: {distance: {initialValue: 26.31836}, cooldown: {initialValue: 5.35484}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
+<item:relics:drowned_belt>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {riptide: {stats: {cooldown: {initialValue: 6.5709}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, anchor: {stats: {sinking: {initialValue: 3.73791}, slowness: {initialValue: 0.42729}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, slots: {stats: {charm: {initialValue: 0.71836}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, pressure: {stats: {damage: {initialValue: 1.6206}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
+<item:relics:elytra_booster>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {boost: {stats: {capacity: {initialValue: 92.14372}, speed: {initialValue: 1.12802}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
+<item:relics:enders_hand>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {neutrality: {stats: {}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, swap: {stats: {distance: {initialValue: 22.41674}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
+<item:relics:holy_locket>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {ascension: {stats: {duration: {initialValue: 0.50418}, max_duration: {initialValue: 12.3795}}, "lock": {breaks: 0}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, penitence: {stats: {amount: {initialValue: 0.40705}}, "lock": {breaks: 0}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, faith: {stats: {damage: {initialValue: 0.34292}, radius: {initialValue: 9.67958}, health: {initialValue: 0.13804}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
+<item:relics:hunter_belt>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {slots: {stats: {charm: {initialValue: 1.93419}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, training: {stats: {damage: {initialValue: 1.95377}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
+<item:relics:ice_breaker>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {impact: {stats: {size: {initialValue: 4.88572}, damage: {initialValue: 4.95527}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, sustainability: {stats: {modifier: {initialValue: 0.7093}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
+<item:relics:ice_skates>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {skating: {stats: {duration: {initialValue: 25.91891}, speed: {initialValue: 0.01776}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, ram: {stats: {damage: {initialValue: 0.09723}}, "lock": {breaks: 0}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
+<item:relics:infinity_ham>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {regeneration: {stats: {cooldown: {initialValue: 20.11528}, feed: {initialValue: 2.63979}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, marinade: {stats: {duration: {initialValue: 2.78928}}, "lock": {breaks: 0}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, meat_bat: {stats: {damage: {initialValue: 8.78781}, stun: {initialValue: 0.82923}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
+<item:relics:jellyfish_necklace>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {unsinkable: {stats: {}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, paralysis: {stats: {duration: {initialValue: 1.22498}}, "lock": {breaks: 0}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, shock: {stats: {damage: {initialValue: 2.12098}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 1}, points: 0}}}})
+<item:relics:leafy_ring>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {hide: {stats: {speed: {initialValue: 0.10904}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
+<item:relics:leather_belt>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {slots: {stats: {charm: {initialValue: 2.55489}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
+<item:relics:magic_mirror>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {teleport: {stats: {distance: {initialValue: 721.21642}, cooldown: {initialValue: 116.00004}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
+<item:relics:magma_walker>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {heat_resistance: {stats: {}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, pace: {stats: {time: {initialValue: 42.58001}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
+<item:relics:midnight_robe>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {vanish: {stats: {speed: {initialValue: 0.17276}, light: {initialValue: 1.39597}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 1}, points: 0}, backstab: {stats: {distance: {initialValue: 19.66238}, damage: {initialValue: 1.69961}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
 <item:relics:phantom_block>
-<item:relics:phantom_boot>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {bridge: {stats: {duration: {initialValue: 0.57475}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 1}, points: 0}}}})
-<item:relics:rage_glove>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {rage: {stats: {dealt_damage: {initialValue: 0.0511}, incoming_damage: {initialValue: 0.04964}, duration: {initialValue: 2.16906}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, phlebotomy: {stats: {heal: {initialValue: 2.3E-4}, movement_speed: {initialValue: 0.02322}, attack_speed: {initialValue: 0.00727}}, "lock": {breaks: 0}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, spurt: {stats: {distance: {initialValue: 3.19069}, cooldown: {initialValue: 18.66431}, damage: {initialValue: 0.24786}}, "lock": {breaks: 0}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
-<item:relics:reflection_necklace>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {explode: {stats: {capacity: {initialValue: 52.7599}, stun: {initialValue: 0.11832}, damage: {initialValue: 0.26728}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
+<item:relics:phantom_boot>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {bridge: {stats: {duration: {initialValue: 0.51623}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 1}, points: 0}}}})
+<item:relics:rage_glove>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {rage: {stats: {dealt_damage: {initialValue: 0.05269}, incoming_damage: {initialValue: 0.0409}, duration: {initialValue: 3.28805}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, phlebotomy: {stats: {heal: {initialValue: 2.1E-4}, movement_speed: {initialValue: 0.02498}, attack_speed: {initialValue: 0.00622}}, "lock": {breaks: 0}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, spurt: {stats: {distance: {initialValue: 6.50605}, cooldown: {initialValue: 18.69377}, damage: {initialValue: 0.15377}}, "lock": {breaks: 0}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
+<item:relics:reflection_necklace>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {explode: {stats: {capacity: {initialValue: 22.8951}, stun: {initialValue: 0.16143}, damage: {initialValue: 0.34643}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
 <item:relics:relic_experience_bottle>
 <item:relics:researching_table>
-<item:relics:roller_skates>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {skating: {stats: {duration: {initialValue: 32.55487}, speed: {initialValue: 0.00132}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
-<item:relics:shadow_glaive>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {mayhem: {stats: {bounces: {initialValue: 3.96095}, chance: {initialValue: 0.12239}, damage: {initialValue: 0.18696}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, cloning: {stats: {chance: {initialValue: 0.06597}}, "lock": {breaks: 0}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
+<item:relics:roller_skates>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {skating: {stats: {duration: {initialValue: 15.61815}, speed: {initialValue: 0.00107}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
+<item:relics:shadow_glaive>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {mayhem: {stats: {bounces: {initialValue: 2.40477}, chance: {initialValue: 0.14276}, damage: {initialValue: 0.10825}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, cloning: {stats: {chance: {initialValue: 0.06512}}, "lock": {breaks: 0}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
 <item:relics:solid_snowball>
-<item:relics:space_dissector>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {dissection: {stats: {distance: {initialValue: 19.89535}, time: {initialValue: 7.37011}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
-<item:relics:spore_sack>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {spore_mist: {stats: {amount: {initialValue: 6.0872}, damage: {initialValue: 0.2327}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
-<item:relics:springy_boot>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {bounce: {stats: {power: {initialValue: 0.27902}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 1}, points: 0}}}})
-<item:relics:wool_mitten>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {mold: {stats: {size: {initialValue: 20.49892}, damage: {initialValue: 0.23985}, stun: {initialValue: 0.04813}, freeze: {initialValue: 1.27693}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
+<item:relics:space_dissector>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {dissection: {stats: {distance: {initialValue: 31.3242}, time: {initialValue: 9.70278}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
+<item:relics:spore_sack>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {spore_mist: {stats: {amount: {initialValue: 3.19894}, damage: {initialValue: 0.15689}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
+<item:relics:springy_boot>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {bounce: {stats: {power: {initialValue: 0.36665}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 1}, points: 0}}}})
+<item:relics:wool_mitten>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {mold: {stats: {size: {initialValue: 16.51332}, damage: {initialValue: 0.1504}, stun: {initialValue: 0.02594}, freeze: {initialValue: 1.12055}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
 <item:reliquary:alkahestry_altar>
 <item:reliquary:alkahestry_tome>
 <item:reliquary:angelheart_vial>
@@ -13592,30 +13975,30 @@
 <item:reliquary:wraith_node>
 <item:reliquary:xp_bucket>
 <item:reliquary:zombie_heart>
-<item:reliquified_ars_nouveau:architects_staff>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {designer: {stats: {periodicity: {initialValue: 19.18921}, distance: {initialValue: 17.45482}, count: {initialValue: 2.04295}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
-<item:reliquified_ars_nouveau:archmage_glove>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {multicasted: {stats: {chance: {initialValue: 0.15453}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
-<item:reliquified_ars_nouveau:ballistarian_bracer>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {striker: {stats: {count: {initialValue: 4.13996}, cooldown: {initialValue: 19.23435}, damage: {initialValue: 4.94972}, chance: {initialValue: 0.54715}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
-<item:reliquified_ars_nouveau:cloak_of_concealment>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {absorption: {stats: {cooldown: {initialValue: 37.22083}, absorbing: {initialValue: 183.13375}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
-<item:reliquified_ars_nouveau:emblem_of_assault>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {effort: {stats: {count: {initialValue: 2.51732}, cooldown: {initialValue: 24.39135}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
-<item:reliquified_ars_nouveau:emblem_of_defense>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {repulse: {stats: {count: {initialValue: 2.37583}, cooldown: {initialValue: 17.80233}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
-<item:reliquified_ars_nouveau:emblem_of_devotion>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {devotion: {stats: {periodicity: {initialValue: 25.42324}, count: {initialValue: 1.77726}, size: {initialValue: 2.51038}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
-<item:reliquified_ars_nouveau:flaming_bracer>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {resistance: {stats: {}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, pyroclastic: {stats: {count: {initialValue: 3.34459}, chance: {initialValue: 0.12324}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
-<item:reliquified_ars_nouveau:horn_of_the_wild_hunter>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {summoner: {stats: {damage: {initialValue: 4.37856}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
-<item:reliquified_ars_nouveau:illusionists_mantle>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {illusion: {stats: {duration: {initialValue: 8.79111}, chance: {initialValue: 0.12819}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
-<item:reliquified_ars_nouveau:mana_ring>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {empower: {stats: {capacity: {initialValue: 54.93634}, regeneration: {initialValue: 1.21126}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
-<item:reliquified_ars_nouveau:quantum_bubble>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {stasis: {stats: {duration: {initialValue: 6.58437}, cooldown: {initialValue: 29.48744}, levitation: {initialValue: 2.85483}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
-<item:reliquified_ars_nouveau:ring_of_last_will>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {hibernation: {stats: {cooldown: {initialValue: 58.28618}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
-<item:reliquified_ars_nouveau:ring_of_the_spectral_walker>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {spectral: {stats: {consumption: {initialValue: 71.38797}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
-<item:reliquified_ars_nouveau:ring_of_thrift>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {thrift: {stats: {chance: {initialValue: 0.0646}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
-<item:reliquified_ars_nouveau:spiked_cloak>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {spikes: {stats: {time: {initialValue: 11.8729}, threshold: {initialValue: 0.22664}, damage: {initialValue: 3.96288}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
-<item:reliquified_ars_nouveau:whirling_broom>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {broom: {stats: {boost: {initialValue: 0.85227}, health: {initialValue: 11.97524}, height: {initialValue: 19.86613}, manacost: {initialValue: 61.83965}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
-<item:reliquified_ars_nouveau:whirlisprig_petals>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {petals: {stats: {duration: {initialValue: 3.93434}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
-<item:reliquified_ars_nouveau:wing_of_the_wild_stalker>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {wings: {stats: {charges: {initialValue: 2.66476}, strength: {initialValue: 3.11601}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
-<item:reliquified_lenders_cataclysm:scouring_eye>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {glowing_scour: {stats: {glowing_time: {initialValue: 10.30419}, cooldown: {initialValue: 15.32755}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
-<item:reliquified_lenders_cataclysm:vacuum_glove>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {vacuum_slowdown: {stats: {slowdown: {initialValue: 0.29897}, radius: {initialValue: 6.4807}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
-<item:reliquified_lenders_cataclysm:void_bubble>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {protective_bubble: {stats: {cooldown: {initialValue: 25.84218}, damage: {initialValue: 0.41464}, projectiles: {initialValue: 16.05786}, attack_blocks: {initialValue: 2.82732}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
-<item:reliquified_lenders_cataclysm:void_cloak>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {void_rune: {stats: {cooldown: {initialValue: 17.86889}, damage: {initialValue: 1.4745}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 1}, points: 0}, void_invulnerability: {stats: {}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, seismic_zone: {stats: {waves: {initialValue: 2.47462}, radius: {initialValue: 2.11198}, damage: {initialValue: 1.58346}}, "lock": {breaks: 0}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
-<item:reliquified_lenders_cataclysm:void_vortex_in_bottle>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {spawn_vortex: {stats: {height: {initialValue: 3.81355}, cooldown: {initialValue: 27.86581}, damage: {initialValue: 7.85027}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
+<item:reliquified_ars_nouveau:architects_staff>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {designer: {stats: {periodicity: {initialValue: 16.79588}, distance: {initialValue: 24.34443}, count: {initialValue: 2.14132}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
+<item:reliquified_ars_nouveau:archmage_glove>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {multicasted: {stats: {chance: {initialValue: 0.24116}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
+<item:reliquified_ars_nouveau:ballistarian_bracer>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {striker: {stats: {count: {initialValue: 4.52626}, cooldown: {initialValue: 16.28077}, damage: {initialValue: 3.82437}, chance: {initialValue: 0.56633}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
+<item:reliquified_ars_nouveau:cloak_of_concealment>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {absorption: {stats: {cooldown: {initialValue: 38.29714}, absorbing: {initialValue: 196.34339}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
+<item:reliquified_ars_nouveau:emblem_of_assault>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {effort: {stats: {count: {initialValue: 2.09285}, cooldown: {initialValue: 24.98749}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
+<item:reliquified_ars_nouveau:emblem_of_defense>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {repulse: {stats: {count: {initialValue: 2.84566}, cooldown: {initialValue: 16.53396}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
+<item:reliquified_ars_nouveau:emblem_of_devotion>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {devotion: {stats: {periodicity: {initialValue: 25.29832}, count: {initialValue: 1.83494}, size: {initialValue: 2.71866}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
+<item:reliquified_ars_nouveau:flaming_bracer>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {resistance: {stats: {}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, pyroclastic: {stats: {count: {initialValue: 2.78911}, chance: {initialValue: 0.2032}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
+<item:reliquified_ars_nouveau:horn_of_the_wild_hunter>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {summoner: {stats: {damage: {initialValue: 2.04829}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
+<item:reliquified_ars_nouveau:illusionists_mantle>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {illusion: {stats: {duration: {initialValue: 7.41073}, chance: {initialValue: 0.10433}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
+<item:reliquified_ars_nouveau:mana_ring>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {empower: {stats: {capacity: {initialValue: 53.43578}, regeneration: {initialValue: 1.26464}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
+<item:reliquified_ars_nouveau:quantum_bubble>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {stasis: {stats: {duration: {initialValue: 7.37489}, cooldown: {initialValue: 25.9773}, levitation: {initialValue: 2.0756}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
+<item:reliquified_ars_nouveau:ring_of_last_will>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {hibernation: {stats: {cooldown: {initialValue: 58.03623}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
+<item:reliquified_ars_nouveau:ring_of_the_spectral_walker>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {spectral: {stats: {consumption: {initialValue: 68.97144}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
+<item:reliquified_ars_nouveau:ring_of_thrift>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {thrift: {stats: {chance: {initialValue: 0.11652}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
+<item:reliquified_ars_nouveau:spiked_cloak>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {spikes: {stats: {time: {initialValue: 8.8758}, threshold: {initialValue: 0.12107}, damage: {initialValue: 4.91612}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
+<item:reliquified_ars_nouveau:whirling_broom>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {broom: {stats: {boost: {initialValue: 0.8176}, health: {initialValue: 11.4614}, height: {initialValue: 19.89158}, manacost: {initialValue: 61.46475}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
+<item:reliquified_ars_nouveau:whirlisprig_petals>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {petals: {stats: {duration: {initialValue: 3.10458}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
+<item:reliquified_ars_nouveau:wing_of_the_wild_stalker>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {wings: {stats: {charges: {initialValue: 2.60047}, strength: {initialValue: 2.81023}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
+<item:reliquified_lenders_cataclysm:scouring_eye>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {glowing_scour: {stats: {glowing_time: {initialValue: 10.96769}, cooldown: {initialValue: 15.7272}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
+<item:reliquified_lenders_cataclysm:vacuum_glove>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {vacuum_slowdown: {stats: {slowdown: {initialValue: 0.32785}, radius: {initialValue: 6.07234}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
+<item:reliquified_lenders_cataclysm:void_bubble>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {protective_bubble: {stats: {cooldown: {initialValue: 27.09331}, damage: {initialValue: 0.53413}, projectiles: {initialValue: 19.96665}, attack_blocks: {initialValue: 2.81993}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
+<item:reliquified_lenders_cataclysm:void_cloak>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {void_rune: {stats: {cooldown: {initialValue: 18.01805}, damage: {initialValue: 1.7382}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 1}, points: 0}, void_invulnerability: {stats: {}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, seismic_zone: {stats: {waves: {initialValue: 2.40177}, radius: {initialValue: 2.55285}, damage: {initialValue: 1.49932}}, "lock": {breaks: 0}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
+<item:reliquified_lenders_cataclysm:void_vortex_in_bottle>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {spawn_vortex: {stats: {height: {initialValue: 3.09852}, cooldown: {initialValue: 28.92334}, damage: {initialValue: 6.23415}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
 <item:reliquified_twilight_forest:absorption_gem>
 <item:reliquified_twilight_forest:broken_charm_of_keeping_1>
 <item:reliquified_twilight_forest:broken_charm_of_keeping_2>
@@ -13623,30 +14006,30 @@
 <item:reliquified_twilight_forest:broken_charm_of_life_1>
 <item:reliquified_twilight_forest:broken_charm_of_life_2>
 <item:reliquified_twilight_forest:carminite_gem>
-<item:reliquified_twilight_forest:charm_backpack>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {charm_storage: {stats: {repair_time: {initialValue: 28.4944}, max_slots: {initialValue: 1.99019}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
-<item:reliquified_twilight_forest:chromatic_cloak>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {effect_stacking: {stats: {max_amplifier: {initialValue: 2.55768}}, "lock": {breaks: 0}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, wool_storage: {stats: {duration: {initialValue: 209.69327}, max_stack_size: {initialValue: 7.58151}, max_slots: {initialValue: 3.22892}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
-<item:reliquified_twilight_forest:cicada_bottle>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {cicada_infestation: {stats: {duration: {initialValue: 103.36912}, chance: {initialValue: 0.12845}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
-<item:reliquified_twilight_forest:deer_antler>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {ride_along: {stats: {entity_volume: {initialValue: 0.8878}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
+<item:reliquified_twilight_forest:charm_backpack>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {charm_storage: {stats: {repair_time: {initialValue: 24.66535}, max_slots: {initialValue: 2.23827}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
+<item:reliquified_twilight_forest:chromatic_cloak>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {effect_stacking: {stats: {max_amplifier: {initialValue: 3.85713}}, "lock": {breaks: 0}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, wool_storage: {stats: {duration: {initialValue: 222.83147}, max_stack_size: {initialValue: 5.09472}, max_slots: {initialValue: 3.49086}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
+<item:reliquified_twilight_forest:cicada_bottle>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {cicada_infestation: {stats: {duration: {initialValue: 79.55079}, chance: {initialValue: 0.12502}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
+<item:reliquified_twilight_forest:deer_antler>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {ride_along: {stats: {entity_volume: {initialValue: 1.13231}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
 <item:reliquified_twilight_forest:ether_gem>
 <item:reliquified_twilight_forest:fire_gem>
-<item:reliquified_twilight_forest:firefly_queen>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {glowkeeper: {stats: {max_charges: {initialValue: 1.8961}, cooldown: {initialValue: 190.03414}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
+<item:reliquified_twilight_forest:firefly_queen>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {glowkeeper: {stats: {max_charges: {initialValue: 2.72427}, cooldown: {initialValue: 148.35918}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
 <item:reliquified_twilight_forest:frenzy_gem>
 <item:reliquified_twilight_forest:frost_gem>
-<item:reliquified_twilight_forest:giant_glove>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {oversized_grip: {stats: {multiplier: {initialValue: 0.08469}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
-<item:reliquified_twilight_forest:goblin_nose>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {vein_seeker: {stats: {filter_slots: {initialValue: 0.0}, radius: {initialValue: 4.28238}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 1}, points: 0}}}})
-<item:reliquified_twilight_forest:hydra_heart>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {hydra_fire: {stats: {lifetime: {initialValue: 88.0275}, damage: {initialValue: 1.90249}, chance: {initialValue: 0.18598}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
-<item:reliquified_twilight_forest:invisibility_cloak>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {cosmetic_armor: {stats: {}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, invisibility: {stats: {duration: {initialValue: 154.04995}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
-<item:reliquified_twilight_forest:lich_crown>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {frostbite: {stats: {duration: {initialValue: 98.06424}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, biome_burn: {stats: {multiplier: {initialValue: 0.02946}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, bone_pact: {stats: {}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, ethereal_guard: {stats: {max_projectiles: {initialValue: 5.96005}, cooldown: {initialValue: 235.82058}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, mirror_leech: {stats: {chance: {initialValue: 0.0913}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, zombie: {stats: {max_zombies: {initialValue: 1.97447}, interval: {initialValue: 362.6971}, damage: {initialValue: 2.45297}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, frenzy: {stats: {additive_multiplier: {initialValue: 0.02884}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, soulbound_gems: {stats: {gem_amount: {initialValue: 2.74309}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, lifedrain: {stats: {heal_percentage: {initialValue: 0.01186}, radius: {initialValue: 2.46975}, interval: {initialValue: 272.87977}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, vendetta: {stats: {lifetime: {initialValue: 8.07504}, multiplier: {initialValue: 0.36841}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, twilight: {stats: {speed_scale: {initialValue: 0.90601}, damage: {initialValue: 3.46048}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, twilight_sovereign: {stats: {}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, fortification: {stats: {max_shields: {initialValue: 4.03728}, interval: {initialValue: 189.11825}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
-<item:reliquified_twilight_forest:maple_syrup_bottle>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {sugar_rush: {stats: {regen_multiplier: {initialValue: 0.36918}, regen_time: {initialValue: 161.58685}, chance: {initialValue: 0.17627}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
-<item:reliquified_twilight_forest:minotaur_hoof>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {momentum_rush: {stats: {damage_reduction: {initialValue: 0.28966}, max_speed_multiplier: {initialValue: 0.27164}, damage: {initialValue: 1.99511}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
+<item:reliquified_twilight_forest:giant_glove>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {oversized_grip: {stats: {multiplier: {initialValue: 0.09441}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
+<item:reliquified_twilight_forest:goblin_nose>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {vein_seeker: {stats: {filter_slots: {initialValue: 0.0}, radius: {initialValue: 5.53799}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 1}, points: 0}}}})
+<item:reliquified_twilight_forest:hydra_heart>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {hydra_fire: {stats: {lifetime: {initialValue: 90.22198}, damage: {initialValue: 1.41707}, chance: {initialValue: 0.16948}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
+<item:reliquified_twilight_forest:invisibility_cloak>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {cosmetic_armor: {stats: {}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, invisibility: {stats: {duration: {initialValue: 138.05966}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
+<item:reliquified_twilight_forest:lich_crown>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {frostbite: {stats: {duration: {initialValue: 83.88289}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, biome_burn: {stats: {multiplier: {initialValue: 0.02586}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, bone_pact: {stats: {}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, ethereal_guard: {stats: {max_projectiles: {initialValue: 3.89859}, cooldown: {initialValue: 272.84657}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, mirror_leech: {stats: {chance: {initialValue: 0.05396}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, zombie: {stats: {max_zombies: {initialValue: 1.55825}, interval: {initialValue: 371.6778}, damage: {initialValue: 2.06707}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, frenzy: {stats: {additive_multiplier: {initialValue: 0.03179}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, soulbound_gems: {stats: {gem_amount: {initialValue: 2.03118}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, lifedrain: {stats: {heal_percentage: {initialValue: 0.01333}, radius: {initialValue: 4.90483}, interval: {initialValue: 283.04386}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, vendetta: {stats: {lifetime: {initialValue: 6.65679}, multiplier: {initialValue: 0.37923}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, twilight: {stats: {speed_scale: {initialValue: 1.09018}, damage: {initialValue: 3.55675}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, twilight_sovereign: {stats: {}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, fortification: {stats: {max_shields: {initialValue: 4.59506}, interval: {initialValue: 177.39386}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
+<item:reliquified_twilight_forest:maple_syrup_bottle>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {sugar_rush: {stats: {regen_multiplier: {initialValue: 0.42864}, regen_time: {initialValue: 190.70587}, chance: {initialValue: 0.12981}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
+<item:reliquified_twilight_forest:minotaur_hoof>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {momentum_rush: {stats: {damage_reduction: {initialValue: 0.26839}, max_speed_multiplier: {initialValue: 0.26833}, damage: {initialValue: 1.55064}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
 <item:reliquified_twilight_forest:necromancy_gem>
-<item:reliquified_twilight_forest:parasite_115>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {infectious_bloom: {stats: {max_attacks: {initialValue: 2.86954}, damage: {initialValue: 0.83817}, drops: {initialValue: 2.42143}, chance: {initialValue: 0.09647}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
-<item:reliquified_twilight_forest:parasite_116>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {infectious_bloom: {stats: {max_attacks: {initialValue: 2.87232}, damage: {initialValue: 0.88192}, drops: {initialValue: 4.58096}, chance: {initialValue: 0.13279}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, rage_consumption: {stats: {amount_restored: {initialValue: 87.21546}, multiplier: {initialValue: 0.62438}}, "lock": {breaks: 0}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
-<item:reliquified_twilight_forest:scaled_cloak>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {elusive_stare: {stats: {chance: {initialValue: 0.23085}}, "lock": {breaks: 0}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, wall_crawler: {stats: {max_time: {initialValue: 68.44041}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
+<item:reliquified_twilight_forest:parasite_115>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {infectious_bloom: {stats: {max_attacks: {initialValue: 1.32016}, damage: {initialValue: 0.85082}, drops: {initialValue: 2.63229}, chance: {initialValue: 0.12318}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
+<item:reliquified_twilight_forest:parasite_116>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {infectious_bloom: {stats: {max_attacks: {initialValue: 1.26504}, damage: {initialValue: 1.09481}, drops: {initialValue: 2.39466}, chance: {initialValue: 0.1088}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, rage_consumption: {stats: {amount_restored: {initialValue: 78.92905}, multiplier: {initialValue: 0.52079}}, "lock": {breaks: 0}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
+<item:reliquified_twilight_forest:scaled_cloak>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {elusive_stare: {stats: {chance: {initialValue: 0.21024}}, "lock": {breaks: 0}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, wall_crawler: {stats: {max_time: {initialValue: 81.81724}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
 <item:reliquified_twilight_forest:shielding_gem>
-<item:reliquified_twilight_forest:steel_cape>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {iron_guard: {stats: {flat_armor: {initialValue: 0.24983}, damage: {initialValue: 5.10468}, stun_duration: {initialValue: 11.77782}, chance: {initialValue: 0.1021}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
-<item:reliquified_twilight_forest:thorn_crown>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {thorn_shield: {stats: {}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, poking: {stats: {paralyze_chance: {initialValue: 0.091}, damage: {initialValue: 1.43411}, paralyze_duration: {initialValue: 14.17963}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
-<item:reliquified_twilight_forest:twilight_feather>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {execution: {stats: {chance: {initialValue: 0.0095}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
+<item:reliquified_twilight_forest:steel_cape>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {iron_guard: {stats: {flat_armor: {initialValue: 0.32601}, damage: {initialValue: 4.85972}, stun_duration: {initialValue: 18.66233}, chance: {initialValue: 0.1814}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
+<item:reliquified_twilight_forest:thorn_crown>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {thorn_shield: {stats: {}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}, poking: {stats: {paralyze_chance: {initialValue: 0.07406}, damage: {initialValue: 1.6311}, paralyze_duration: {initialValue: 14.11044}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
+<item:reliquified_twilight_forest:twilight_feather>.withJsonComponent(<componenttype:relics:data>, {leveling: {luck: 0, experience: 0, level: 0, points: 0}, abilities: {abilities: {execution: {stats: {chance: {initialValue: 0.00943}}, "lock": {breaks: 5}, research: {links: {}, researched: 0}, extender: {cooldownCap: 0, cooldown: 0, ticking: 0}, points: 0}}}})
 <item:reliquified_twilight_forest:twilight_gem>
 <item:reliquified_twilight_forest:vengeful_gem>
 <item:remnant_bosses:ancient_altar>
@@ -14469,6 +14852,10 @@
 <item:supplementaries:mynethersdelight/way_sign_powdery>
 <item:supplementaries:netherite_door>
 <item:supplementaries:netherite_trapdoor>
+<item:supplementaries:northstar/way_sign_argyre>
+<item:supplementaries:northstar/way_sign_calorian>
+<item:supplementaries:northstar/way_sign_coiler>
+<item:supplementaries:northstar/way_sign_wilter>
 <item:supplementaries:notice_board>
 <item:supplementaries:pancake>
 <item:supplementaries:pedestal>
@@ -14572,10 +14959,6 @@
 <item:supplementaries:undergarden/way_sign_wigglewood>
 <item:supplementaries:unusualend/way_sign_chorus_nest>
 <item:supplementaries:urn>
-<item:supplementaries:vampirism/cannon_boat_cursed_spruce>
-<item:supplementaries:vampirism/cannon_boat_dark_spruce>
-<item:supplementaries:vampirism/way_sign_cursed_spruce>
-<item:supplementaries:vampirism/way_sign_dark_spruce>
 <item:supplementaries:way_sign_acacia>
 <item:supplementaries:way_sign_bamboo>
 <item:supplementaries:way_sign_birch>
@@ -16621,340 +17004,6 @@
 <item:unusualend:warping_waystone>
 <item:unusualend:weak_end_stone_bricks>
 <item:unusualend:withering_orb>
-<item:vampiresneedumbrellas:brown_diamond_umbrella>
-<item:vampiresneedumbrellas:brown_gold_umbrella>
-<item:vampiresneedumbrellas:brown_iron_umbrella>
-<item:vampiresneedumbrellas:brown_netherite_umbrella>
-<item:vampiresneedumbrellas:cactus_green_diamond_umbrella>
-<item:vampiresneedumbrellas:cactus_green_gold_umbrella>
-<item:vampiresneedumbrellas:cactus_green_iron_umbrella>
-<item:vampiresneedumbrellas:cactus_green_netherite_umbrella>
-<item:vampiresneedumbrellas:creative_umbrella>
-<item:vampiresneedumbrellas:cyan_diamond_umbrella>
-<item:vampiresneedumbrellas:cyan_gold_umbrella>
-<item:vampiresneedumbrellas:cyan_iron_umbrella>
-<item:vampiresneedumbrellas:cyan_netherite_umbrella>
-<item:vampiresneedumbrellas:diamond_umbrella>
-<item:vampiresneedumbrellas:diamond_umbrella_rod>
-<item:vampiresneedumbrellas:gold_umbrella>
-<item:vampiresneedumbrellas:gold_umbrella_rod>
-<item:vampiresneedumbrellas:gray_diamond_umbrella>
-<item:vampiresneedumbrellas:gray_gold_umbrella>
-<item:vampiresneedumbrellas:gray_iron_umbrella>
-<item:vampiresneedumbrellas:gray_netherite_umbrella>
-<item:vampiresneedumbrellas:iron_umbrella>
-<item:vampiresneedumbrellas:iron_umbrella_rod>
-<item:vampiresneedumbrellas:lapis_blue_diamond_umbrella>
-<item:vampiresneedumbrellas:lapis_blue_gold_umbrella>
-<item:vampiresneedumbrellas:lapis_blue_iron_umbrella>
-<item:vampiresneedumbrellas:lapis_blue_netherite_umbrella>
-<item:vampiresneedumbrellas:light_blue_diamond_umbrella>
-<item:vampiresneedumbrellas:light_blue_gold_umbrella>
-<item:vampiresneedumbrellas:light_blue_iron_umbrella>
-<item:vampiresneedumbrellas:light_blue_netherite_umbrella>
-<item:vampiresneedumbrellas:light_gray_diamond_umbrella>
-<item:vampiresneedumbrellas:light_gray_gold_umbrella>
-<item:vampiresneedumbrellas:light_gray_iron_umbrella>
-<item:vampiresneedumbrellas:light_gray_netherite_umbrella>
-<item:vampiresneedumbrellas:lime_green_diamond_umbrella>
-<item:vampiresneedumbrellas:lime_green_gold_umbrella>
-<item:vampiresneedumbrellas:lime_green_iron_umbrella>
-<item:vampiresneedumbrellas:lime_green_netherite_umbrella>
-<item:vampiresneedumbrellas:magenta_diamond_umbrella>
-<item:vampiresneedumbrellas:magenta_gold_umbrella>
-<item:vampiresneedumbrellas:magenta_iron_umbrella>
-<item:vampiresneedumbrellas:magenta_netherite_umbrella>
-<item:vampiresneedumbrellas:netherite_umbrella>
-<item:vampiresneedumbrellas:orange_diamond_umbrella>
-<item:vampiresneedumbrellas:orange_gold_umbrella>
-<item:vampiresneedumbrellas:orange_iron_umbrella>
-<item:vampiresneedumbrellas:orange_netherite_umbrella>
-<item:vampiresneedumbrellas:pink_diamond_umbrella>
-<item:vampiresneedumbrellas:pink_gold_umbrella>
-<item:vampiresneedumbrellas:pink_iron_umbrella>
-<item:vampiresneedumbrellas:pink_netherite_umbrella>
-<item:vampiresneedumbrellas:purple_diamond_umbrella>
-<item:vampiresneedumbrellas:purple_gold_umbrella>
-<item:vampiresneedumbrellas:purple_iron_umbrella>
-<item:vampiresneedumbrellas:purple_netherite_umbrella>
-<item:vampiresneedumbrellas:red_diamond_umbrella>
-<item:vampiresneedumbrellas:red_gold_umbrella>
-<item:vampiresneedumbrellas:red_iron_umbrella>
-<item:vampiresneedumbrellas:red_netherite_umbrella>
-<item:vampiresneedumbrellas:white_diamond_umbrella>
-<item:vampiresneedumbrellas:white_gold_umbrella>
-<item:vampiresneedumbrellas:white_iron_umbrella>
-<item:vampiresneedumbrellas:white_netherite_umbrella>
-<item:vampiresneedumbrellas:yellow_diamond_umbrella>
-<item:vampiresneedumbrellas:yellow_gold_umbrella>
-<item:vampiresneedumbrellas:yellow_iron_umbrella>
-<item:vampiresneedumbrellas:yellow_netherite_umbrella>
-<item:vampiricageing:blood_tester>
-<item:vampiricageing:tainted_blood_bottle>
-<item:vampiricageing:tainted_concentrate>
-<item:vampiricageing:tainted_elixir>
-<item:vampirism:advanced_vampire_hunter_spawn_egg>
-<item:vampirism:advanced_vampire_spawn_egg>
-<item:vampirism:alchemical_cauldron>
-<item:vampirism:alchemy_table>
-<item:vampirism:altar_cleansing>
-<item:vampirism:altar_infusion>
-<item:vampirism:altar_inspiration>
-<item:vampirism:altar_pillar>
-<item:vampirism:altar_tip>
-<item:vampirism:amulet>
-<item:vampirism:armor_of_swiftness_chest_enhanced>
-<item:vampirism:armor_of_swiftness_chest_normal>
-<item:vampirism:armor_of_swiftness_chest_ultimate>
-<item:vampirism:armor_of_swiftness_feet_enhanced>
-<item:vampirism:armor_of_swiftness_feet_normal>
-<item:vampirism:armor_of_swiftness_feet_ultimate>
-<item:vampirism:armor_of_swiftness_head_enhanced>
-<item:vampirism:armor_of_swiftness_head_normal>
-<item:vampirism:armor_of_swiftness_head_ultimate>
-<item:vampirism:armor_of_swiftness_legs_enhanced>
-<item:vampirism:armor_of_swiftness_legs_normal>
-<item:vampirism:armor_of_swiftness_legs_ultimate>
-<item:vampirism:basic_crossbow>
-<item:vampirism:basic_double_crossbow>
-<item:vampirism:basic_tech_crossbow>
-<item:vampirism:bat_cage>
-<item:vampirism:blood_bottle>
-<item:vampirism:blood_bucket>
-<item:vampirism:blood_container>
-<item:vampirism:blood_grinder>
-<item:vampirism:blood_infused_enhanced_iron_block>
-<item:vampirism:blood_infused_enhanced_iron_ingot>
-<item:vampirism:blood_infused_iron_block>
-<item:vampirism:blood_infused_iron_ingot>
-<item:vampirism:blood_pedestal>
-<item:vampirism:blood_sieve>
-<item:vampirism:bloody_dark_stone_bricks>
-<item:vampirism:candle_stick>
-<item:vampirism:chandelier>
-<item:vampirism:chiseled_dark_stone_bricks>
-<item:vampirism:cobbled_dark_stone>
-<item:vampirism:cobbled_dark_stone_slab>
-<item:vampirism:cobbled_dark_stone_stairs>
-<item:vampirism:cobbled_dark_stone_wall>
-<item:vampirism:coffin_black>
-<item:vampirism:coffin_blue>
-<item:vampirism:coffin_brown>
-<item:vampirism:coffin_cyan>
-<item:vampirism:coffin_gray>
-<item:vampirism:coffin_green>
-<item:vampirism:coffin_light_blue>
-<item:vampirism:coffin_light_gray>
-<item:vampirism:coffin_lime>
-<item:vampirism:coffin_magenta>
-<item:vampirism:coffin_orange>
-<item:vampirism:coffin_pink>
-<item:vampirism:coffin_purple>
-<item:vampirism:coffin_red>
-<item:vampirism:coffin_white>
-<item:vampirism:coffin_yellow>
-<item:vampirism:cracked_dark_stone_bricks>
-<item:vampirism:cracked_dark_stone_tiles>
-<item:vampirism:cross>
-<item:vampirism:crossbow_arrow_normal>
-<item:vampirism:crossbow_arrow_spitfire>
-<item:vampirism:crossbow_arrow_teleport>
-<item:vampirism:crossbow_arrow_vampire_killer>
-<item:vampirism:crucifix_enhanced>
-<item:vampirism:crucifix_normal>
-<item:vampirism:crucifix_ultimate>
-<item:vampirism:cursed_earth>
-<item:vampirism:cursed_earth_path>
-<item:vampirism:cursed_grass>
-<item:vampirism:cursed_hanging_roots>
-<item:vampirism:cursed_roots>
-<item:vampirism:cursed_spruce_boat>
-<item:vampirism:cursed_spruce_button>
-<item:vampirism:cursed_spruce_chest_boat>
-<item:vampirism:cursed_spruce_door>
-<item:vampirism:cursed_spruce_fence>
-<item:vampirism:cursed_spruce_fence_gate>
-<item:vampirism:cursed_spruce_hanging_sign>
-<item:vampirism:cursed_spruce_log>
-<item:vampirism:cursed_spruce_log_cured>
-<item:vampirism:cursed_spruce_planks>
-<item:vampirism:cursed_spruce_pressure_plate>
-<item:vampirism:cursed_spruce_sapling>
-<item:vampirism:cursed_spruce_sign>
-<item:vampirism:cursed_spruce_slab>
-<item:vampirism:cursed_spruce_stairs>
-<item:vampirism:cursed_spruce_trapdoor>
-<item:vampirism:cursed_spruce_wood>
-<item:vampirism:cursed_spruce_wood_cured>
-<item:vampirism:dark_spruce_boat>
-<item:vampirism:dark_spruce_button>
-<item:vampirism:dark_spruce_chest_boat>
-<item:vampirism:dark_spruce_door>
-<item:vampirism:dark_spruce_fence>
-<item:vampirism:dark_spruce_fence_gate>
-<item:vampirism:dark_spruce_hanging_sign>
-<item:vampirism:dark_spruce_leaves>
-<item:vampirism:dark_spruce_log>
-<item:vampirism:dark_spruce_planks>
-<item:vampirism:dark_spruce_pressure_plate>
-<item:vampirism:dark_spruce_sapling>
-<item:vampirism:dark_spruce_sign>
-<item:vampirism:dark_spruce_slab>
-<item:vampirism:dark_spruce_stairs>
-<item:vampirism:dark_spruce_trapdoor>
-<item:vampirism:dark_spruce_wood>
-<item:vampirism:dark_stone>
-<item:vampirism:dark_stone_brick_slab>
-<item:vampirism:dark_stone_brick_stairs>
-<item:vampirism:dark_stone_brick_wall>
-<item:vampirism:dark_stone_bricks>
-<item:vampirism:dark_stone_slab>
-<item:vampirism:dark_stone_stairs>
-<item:vampirism:dark_stone_tiles>
-<item:vampirism:dark_stone_tiles_slab>
-<item:vampirism:dark_stone_tiles_stairs>
-<item:vampirism:dark_stone_tiles_wall>
-<item:vampirism:dark_stone_wall>
-<item:vampirism:direct_cursed_bark>
-<item:vampirism:enhanced_crossbow>
-<item:vampirism:enhanced_double_crossbow>
-<item:vampirism:enhanced_tech_crossbow>
-<item:vampirism:feeding_adapter>
-<item:vampirism:fire_place>
-<item:vampirism:fog_diffuser>
-<item:vampirism:garlic>
-<item:vampirism:garlic_bread>
-<item:vampirism:garlic_diffuser_core>
-<item:vampirism:garlic_diffuser_core_improved>
-<item:vampirism:garlic_diffuser_improved>
-<item:vampirism:garlic_diffuser_normal>
-<item:vampirism:garlic_diffuser_weak>
-<item:vampirism:garlic_finder>
-<item:vampirism:grave_cage>
-<item:vampirism:heart_seeker_enhanced>
-<item:vampirism:heart_seeker_normal>
-<item:vampirism:heart_seeker_ultimate>
-<item:vampirism:heart_striker_enhanced>
-<item:vampirism:heart_striker_normal>
-<item:vampirism:heart_striker_ultimate>
-<item:vampirism:holy_water_bottle_enhanced>
-<item:vampirism:holy_water_bottle_normal>
-<item:vampirism:holy_water_bottle_ultimate>
-<item:vampirism:holy_water_splash_bottle_enhanced>
-<item:vampirism:holy_water_splash_bottle_normal>
-<item:vampirism:holy_water_splash_bottle_ultimate>
-<item:vampirism:human_heart>
-<item:vampirism:hunter_axe_enhanced>
-<item:vampirism:hunter_axe_normal>
-<item:vampirism:hunter_axe_ultimate>
-<item:vampirism:hunter_coat_chest_enhanced>
-<item:vampirism:hunter_coat_chest_normal>
-<item:vampirism:hunter_coat_chest_ultimate>
-<item:vampirism:hunter_coat_feet_enhanced>
-<item:vampirism:hunter_coat_feet_normal>
-<item:vampirism:hunter_coat_feet_ultimate>
-<item:vampirism:hunter_coat_head_enhanced>
-<item:vampirism:hunter_coat_head_normal>
-<item:vampirism:hunter_coat_head_ultimate>
-<item:vampirism:hunter_coat_legs_enhanced>
-<item:vampirism:hunter_coat_legs_normal>
-<item:vampirism:hunter_coat_legs_ultimate>
-<item:vampirism:hunter_hat_head_0>
-<item:vampirism:hunter_hat_head_1>
-<item:vampirism:hunter_intel_0>
-<item:vampirism:hunter_intel_1>
-<item:vampirism:hunter_intel_2>
-<item:vampirism:hunter_intel_3>
-<item:vampirism:hunter_intel_4>
-<item:vampirism:hunter_intel_5>
-<item:vampirism:hunter_intel_6>
-<item:vampirism:hunter_intel_7>
-<item:vampirism:hunter_intel_8>
-<item:vampirism:hunter_intel_9>
-<item:vampirism:hunter_minion_equipment>
-<item:vampirism:hunter_minion_upgrade_enhanced>
-<item:vampirism:hunter_minion_upgrade_simple>
-<item:vampirism:hunter_minion_upgrade_special>
-<item:vampirism:hunter_table>
-<item:vampirism:hunter_trainer_spawn_egg>
-<item:vampirism:impure_blood_bucket>
-<item:vampirism:infested_dark_stone>
-<item:vampirism:injection_empty>
-<item:vampirism:injection_garlic>
-<item:vampirism:injection_sanguinare>
-<item:vampirism:item_alchemical_fire>
-<item:vampirism:item_candelabra>
-<item:vampirism:item_tent>
-<item:vampirism:item_tent_spawner>
-<item:vampirism:med_chair>
-<item:vampirism:mother_core>
-<item:vampirism:mother_trophy>
-<item:vampirism:obi_belt>
-<item:vampirism:oblivion_potion>
-<item:vampirism:oil_bottle>.withJsonComponent(<componenttype:vampirism:oil_contents>, {})
-<item:vampirism:pitchfork>
-<item:vampirism:polished_dark_stone>
-<item:vampirism:polished_dark_stone_slab>
-<item:vampirism:polished_dark_stone_stairs>
-<item:vampirism:polished_dark_stone_wall>
-<item:vampirism:potion_table>
-<item:vampirism:pure_blood_0>
-<item:vampirism:pure_blood_1>
-<item:vampirism:pure_blood_2>
-<item:vampirism:pure_blood_3>
-<item:vampirism:pure_blood_4>
-<item:vampirism:pure_salt>
-<item:vampirism:pure_salt_water>
-<item:vampirism:purified_garlic>
-<item:vampirism:purple_stone_brick_slab>
-<item:vampirism:purple_stone_brick_stairs>
-<item:vampirism:purple_stone_brick_wall>
-<item:vampirism:purple_stone_bricks>
-<item:vampirism:purple_stone_tiles>
-<item:vampirism:purple_stone_tiles_slab>
-<item:vampirism:purple_stone_tiles_stairs>
-<item:vampirism:purple_stone_tiles_wall>
-<item:vampirism:ring>
-<item:vampirism:soul_orb_vampire>
-<item:vampirism:stake>
-<item:vampirism:stripped_cursed_spruce_log>
-<item:vampirism:stripped_cursed_spruce_wood>
-<item:vampirism:stripped_dark_spruce_log>
-<item:vampirism:stripped_dark_spruce_wood>
-<item:vampirism:sunscreen_beacon>
-<item:vampirism:tech_crossbow_ammo_package>
-<item:vampirism:throne>
-<item:vampirism:tombstone1>
-<item:vampirism:tombstone2>
-<item:vampirism:tombstone3>
-<item:vampirism:totem_base>
-<item:vampirism:totem_top>
-<item:vampirism:totem_top_crafted>
-<item:vampirism:umbrella>
-<item:vampirism:vampire_baron_spawn_egg>
-<item:vampirism:vampire_beacon>
-<item:vampirism:vampire_blood_bottle>
-<item:vampirism:vampire_book>
-<item:vampirism:vampire_cloak_black_blue>
-<item:vampirism:vampire_cloak_black_red>
-<item:vampirism:vampire_cloak_black_white>
-<item:vampirism:vampire_cloak_red_black>
-<item:vampirism:vampire_cloak_white_black>
-<item:vampirism:vampire_clothing_boots>
-<item:vampirism:vampire_clothing_crown>
-<item:vampirism:vampire_clothing_hat>
-<item:vampirism:vampire_clothing_legs>
-<item:vampirism:vampire_fang>
-<item:vampirism:vampire_hunter_spawn_egg>
-<item:vampirism:vampire_minion_binding>
-<item:vampirism:vampire_minion_upgrade_enhanced>
-<item:vampirism:vampire_minion_upgrade_simple>
-<item:vampirism:vampire_minion_upgrade_special>
-<item:vampirism:vampire_orchid>
-<item:vampirism:vampire_rack>
-<item:vampirism:vampire_spawn_egg>
-<item:vampirism:weak_human_heart>
-<item:vampirism:weapon_table>
 <item:variantsandventures:gelid_spawn_egg>
 <item:variantsandventures:murk_spawn_egg>
 <item:variantsandventures:thicket_spawn_egg>

@@ -165,6 +165,9 @@
 <recipetype:minecraft:smithing>
 <recipetype:minecraft:smoking>
 <recipetype:minecraft:stonecutting>
+<recipetype:northstar:electrolysis>
+<recipetype:northstar:engraving>
+<recipetype:northstar:freezing>
 <recipetype:paraglider:bargain>
 <recipetype:pneumaticcraft:amadron>
 <recipetype:pneumaticcraft:assembly_drill>
@@ -203,6 +206,3 @@
 <recipetype:twilightforest:drying>
 <recipetype:twilightforest:uncrafting>
 <recipetype:undergarden:infusing>
-<recipetype:vampirism:alchemical_cauldron>
-<recipetype:vampirism:alchemical_table>
-<recipetype:vampirism:weapon_table>

@@ -1,0 +1,21 @@
+filename = 'spatial-gui-1.6+1.21.1-neoforge.jar'
+name = 'Spatial GUI'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '[NeoForge 1.21.1] v1.6'
+
+[download]
+hash = '6885c898ce807a8a45d78cd70ffe147c6715fdbd'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 9033566
+project-id = 1676741
+
+[[x-prismlauncher-dependencies]]
+addonId = '348521'
+type = 'REQUIRED'

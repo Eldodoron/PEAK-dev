@@ -64,7 +64,7 @@ function spawnGlowAt(server, level, pos) {
     let be = level.getBlockEntity(pos);
     if (!be || be.isDecorative()) return;
 
-    let dim = level.dimension.location().toString();
+    let dim = String(level.dimension.location ? level.dimension.location() : level.dimension);
     let posKey = `${dim}@${pos.x},${pos.y},${pos.z}`;
     if (activeGraveGlows.has(posKey)) return;
 
@@ -88,7 +88,7 @@ function spawnGlowAt(server, level, pos) {
 }
 
 function removeGlowAt(level, pos) {
-    let dim = level.dimension.location().toString();
+    let dim = String(level.dimension.location ? level.dimension.location() : level.dimension);
     let posKey = `${dim}@${pos.x},${pos.y},${pos.z}`;
     activeGraveGlows.delete(posKey);
 
@@ -121,7 +121,12 @@ EntityEvents.death(event => {
         // A. Check CemeteryManager for exact position of last placed grave
         try {
             let CemeteryManager = Java.loadClass('it.hurts.sskirillss.yagm.structure.cemetery.CemeteryManager');
-            let lastGravePos = CemeteryManager.getInstance().getLastAddedGrave(level.dimension());
+            let ResourceKeyClass = Java.loadClass('net.minecraft.resources.ResourceKey');
+            let RegistriesClass = Java.loadClass('net.minecraft.core.registries.Registries');
+            let ResourceLocationClass = Java.loadClass('net.minecraft.resources.ResourceLocation');
+            let dim = String(level.dimension.location ? level.dimension.location() : level.dimension);
+            let dimKey = ResourceKeyClass.create(RegistriesClass.DIMENSION, ResourceLocationClass.parse(dim));
+            let lastGravePos = CemeteryManager.getInstance().getLastAddedGrave(dimKey);
             if (lastGravePos && level.isLoaded(lastGravePos)) {
                 let block = level.getBlock(lastGravePos);
                 if (block.id.startsWith('yagm:') && block.id.includes('grave')) {

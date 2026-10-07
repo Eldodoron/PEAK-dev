@@ -134,6 +134,31 @@
       "width": 16,
       "height": 16,
       "bits": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\u003d"
+    },
+    "mekanism:block/models/fluid_tank_top": {
+      "width": 16,
+      "height": 16,
+      "bits": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\u003d"
+    },
+    "ars_nouveau:block/magelight_torch": {
+      "width": 32,
+      "height": 32,
+      "bits": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMADAADAAwAAwAMAAMADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\u003d"
+    },
+    "minecraft:missingno": {
+      "width": 16,
+      "height": 16,
+      "bits": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\u003d"
+    },
+    "northstar:fluid/biofuel_still": {
+      "width": 16,
+      "height": 16,
+      "bits": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\u003d"
+    },
+    "alexscaves:block/bioluminescent_torch": {
+      "width": 16,
+      "height": 16,
+      "bits": "AAAAAAAAAAAAAAAAgAGAAQAAAAAAAAAAAAAAAAAAAAA\u003d"
     }
   },
   "sourceMasks": {
@@ -937,6 +962,141 @@
       "width": 16,
       "height": 16,
       "bits": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\u003d"
+    },
+    "block:mekanism:creative_fluid_tank#north": {
+      "sourceId": "mekanism:creative_fluid_tank",
+      "fluid": false,
+      "face": "north",
+      "spriteId": "mekanism:block/models/fluid_tank_top",
+      "width": 16,
+      "height": 16,
+      "bits": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\u003d"
+    },
+    "block:alexscaves:bioluminescent_torch#north": {
+      "sourceId": "alexscaves:bioluminescent_torch",
+      "fluid": false,
+      "face": "north",
+      "spriteId": "alexscaves:block/bioluminescent_torch",
+      "width": 16,
+      "height": 16,
+      "bits": "AAAAAAAAAAAAAAAAgAGAAQAAAAAAAAAAAAAAAAAAAAA\u003d"
+    },
+    "fluid:create_wizardry:lightning_flowing#north": {
+      "sourceId": "create_wizardry:lightning_flowing",
+      "fluid": true,
+      "face": "north",
+      "spriteId": "minecraft:missingno",
+      "width": 16,
+      "height": 16,
+      "bits": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\u003d"
+    },
+    "fluid:createdieselgenerators:flowing_light_blue_cement#north": {
+      "sourceId": "createdieselgenerators:flowing_light_blue_cement",
+      "fluid": true,
+      "face": "north",
+      "spriteId": "minecraft:missingno",
+      "width": 16,
+      "height": 16,
+      "bits": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\u003d"
+    },
+    "fluid:northstar:flowing_biofuel#north": {
+      "sourceId": "northstar:flowing_biofuel",
+      "fluid": true,
+      "face": "north",
+      "spriteId": "minecraft:missingno",
+      "width": 16,
+      "height": 16,
+      "bits": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\u003d"
+    },
+    "block:enderio:fire_water#north": {
+      "sourceId": "enderio:fire_water",
+      "fluid": false,
+      "face": "north",
+      "spriteId": "minecraft:block/water_still",
+      "width": 16,
+      "height": 16,
+      "bits": "fz3v//nD/v///////7/9/8/v////////f//////nn/w\u003d"
+    },
+    "fluid:enderio:fluid_fire_water_still#north": {
+      "sourceId": "enderio:fluid_fire_water_still",
+      "fluid": true,
+      "face": "north",
+      "spriteId": "minecraft:missingno",
+      "width": 16,
+      "height": 16,
+      "bits": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\u003d"
+    },
+    "block:mekanism:heavy_water#north": {
+      "sourceId": "mekanism:heavy_water",
+      "fluid": false,
+      "face": "north",
+      "spriteId": "minecraft:block/water_still",
+      "width": 16,
+      "height": 16,
+      "bits": "fz3v//nD/v///////7/9/8/v////////f//////nn/w\u003d"
+    },
+    "fluid:createdieselgenerators:flowing_light_gray_cement#north": {
+      "sourceId": "createdieselgenerators:flowing_light_gray_cement",
+      "fluid": true,
+      "face": "north",
+      "spriteId": "minecraft:missingno",
+      "width": 16,
+      "height": 16,
+      "bits": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\u003d"
+    },
+    "block:create:water_wheel_structure#north": {
+      "sourceId": "create:water_wheel_structure",
+      "fluid": false,
+      "face": "north",
+      "spriteId": "minecraft:missingno",
+      "width": 16,
+      "height": 16,
+      "bits": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\u003d"
+    },
+    "fluid:create_dragons_plus:flowing_light_blue_dye#north": {
+      "sourceId": "create_dragons_plus:flowing_light_blue_dye",
+      "fluid": true,
+      "face": "north",
+      "spriteId": "minecraft:missingno",
+      "width": 16,
+      "height": 16,
+      "bits": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\u003d"
+    },
+    "fluid:enderio:fluid_fire_water_flowing#north": {
+      "sourceId": "enderio:fluid_fire_water_flowing",
+      "fluid": true,
+      "face": "north",
+      "spriteId": "minecraft:missingno",
+      "width": 16,
+      "height": 16,
+      "bits": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\u003d"
+    },
+    "fluid:mekanism:flowing_heavy_water#north": {
+      "sourceId": "mekanism:flowing_heavy_water",
+      "fluid": true,
+      "face": "north",
+      "spriteId": "minecraft:missingno",
+      "width": 16,
+      "height": 16,
+      "bits": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\u003d"
+    },
+    "block:northstar:biofuel#north": {
+      "sourceId": "northstar:biofuel",
+      "fluid": false,
+      "face": "north",
+      "spriteId": "northstar:fluid/biofuel_still",
+      "width": 16,
+      "height": 16,
+      "bits": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\u003d"
+    },
+    "block:ars_nouveau:magelight_torch#north": {
+      "sourceId": "ars_nouveau:magelight_torch",
+      "fluid": false,
+      "face": "north",
+      "spriteId": "ars_nouveau:block/magelight_torch",
+      "width": 32,
+      "height": 32,
+      "bits": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMADAADAAwAAwAMAAMADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\u003d"
     }
   },
   "entityTextureMasks": {
@@ -959,6 +1119,16 @@
       "width": 64,
       "height": 32,
       "bits": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABCAAAAAAAAACQAAAAAAACAgQEAAAAAAIC9AQAAAAAAADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\u003d\u003d"
+    },
+    "kubejs:textures/entity/vampillager.png": {
+      "width": 64,
+      "height": 64,
+      "bits": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIABAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\u003d"
+    },
+    "kubejs:textures/entity/vampillager_glow.png": {
+      "width": 64,
+      "height": 64,
+      "bits": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAICBAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\u003d"
     }
   }
 }

@@ -145,34 +145,6 @@
 			y: 0.5d
 		}
 		{
-			id: "688264C4B7E58483"
-			rewards: [
-				{
-					id: "5B69F2FBAB1AF28E"
-					item: {
-						count: 1
-						id: "sophisticatedbackpacks:backpack"
-					}
-					type: "item"
-				}
-				{
-					id: "2636F5D5324F5A2B"
-					item: {
-						count: 1
-						id: "sophisticatedbackpacks:upgrade_base"
-					}
-					type: "item"
-				}
-			]
-			size: 1.2d
-			tasks: [{
-				id: "0F345A2AAEA94E39"
-				type: "checkmark"
-			}]
-			x: -1.5d
-			y: 2.0d
-		}
-		{
 			id: "3C8F7B4F87FED011"
 			rewards: [{
 				id: "1295EDF117378764"

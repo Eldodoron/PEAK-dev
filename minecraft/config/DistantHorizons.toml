@@ -369,7 +369,7 @@ _version = 4
 		# 
 		# DISABLED 
 		# No distant terrain will be generated.
-		generatorPlan = "SURFACE_THEN_CHUNKS"
+		generatorPlan = "SURFACE_ONLY"
 		#
 		# For how many seconds should instructions for disabling the distant generator progress be displayed? 
 		# Setting this to 0 hides the instructional message so the world gen progress is shown immediately when it starts.
@@ -742,7 +742,7 @@ _version = 4
 				# Note:
 				# Some DH settings will be disabled and/or changed to improve 
 				# visuals when DH rendering is disabled.
-				ignoredDimensionCsv = "minecraft:the_end"
+				ignoredDimensionCsv = "minecraft:the_end,allthemodium:the_beyond,northstar:earth_orbit,northstar:mars_orbit,northstar:mercury_orbit,northstar:venus_orbit,firesenderexpansion:void_dimension,ae2:spatial_storage,irons_spellbooks:pocket_dimension"
 				#
 				# Requires a restart to change. 
 				#  
@@ -873,7 +873,7 @@ _version = 4
 				# 
 				# Lowest Quality: HEIGHT_MAP
 				# Highest Quality: PIXEL_ART
-				verticalQuality = "HEIGHT_MAP"
+				verticalQuality = "MEDIUM"
 				#
 				# What blocks shouldn't be rendered as LODs? 
 				# 
@@ -926,7 +926,7 @@ _version = 4
 				# NONE: Fastest, there will be a pronounced border between DH and MC rendering. 
 				# SINGLE_PASS: Fades after MC's transparent pass, opaque blocks underwater won't be faded. 
 				# DOUBLE_PASS: Slowest, fades after both MC's opaque and transparent passes, provides the smoothest transition.
-				vanillaFadeMode = "SINGLE_PASS"
+				vanillaFadeMode = "NONE"
 				#
 				# If true LOD quality will increase when the camera is zoomed in, 
 				# IE when using a spyglass or zoom mod. 
@@ -941,7 +941,7 @@ _version = 4
 				#
 				# Should Minecraft's fog render? 
 				# Note: Other mods may conflict with this setting.
-				enableVanillaFog = true
+				enableVanillaFog = false
 				#
 				# What is the maximum fog thickness? 
 				# 

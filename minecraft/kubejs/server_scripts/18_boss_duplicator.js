@@ -11,7 +11,7 @@ const BOSS_DROPS_TO_DUPLICATE = [
     'cataclysm:ignitium_ingot',
     'cataclysm:abyssal_egg',
     'kubejs:wither_soul',
-    'kubejs:draconic_scale',
+    'dragonloot:dragon_scale',
     'twilightforest:fiery_blood',
     'twilightforest:naga_scale',
     'mowziesmobs:wrought_helmet',

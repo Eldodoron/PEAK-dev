@@ -49,11 +49,21 @@
     "forge:storage_blocks/{material}"
   ],
   "ignored_tags": [],
-  "ignored_items": [],
-  "ignored_recipe_types": [
-    "cucumber:shaped_tag"
+  "ignored_items": [
+    "northstar:.*_ore",
+    "deeperdarker:.*_ore",
+    "undergarden:.*_ore",
+    "malum:.*_ore",
+    "alexscaves:.*_ore"
   ],
-  "ignored_recipe_ids": [],
+  "ignored_recipe_types": [
+    "cucumber:shaped_tag",
+    "create:crushing"
+  ],
+  "ignored_recipe_ids": [
+    "northstar:crushing/.*",
+    "deeperdarker:compatibility/create/crushing/.*"
+  ],
   "recipe_viewer_hiding": true,
   "loot_unification": true,
   "ignored_loot_tables": []

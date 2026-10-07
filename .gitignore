@@ -42,6 +42,8 @@ instance.cfg
 
 
 # Others
+PEAK_Server_Pack.zip
+minecraft/servers.dat*
 *.tmp
 *.bak
 .DS_Store

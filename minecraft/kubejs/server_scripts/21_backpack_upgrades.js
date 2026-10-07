@@ -382,7 +382,7 @@ ServerEvents.recipes(event => {
     ]).transitionalItem('kubejs:incomplete_inception_upgrade').loops(8).id('kubejs:sequenced_assembly/inception_upgrade');
 
     sa.sequenced_assembly('sophisticatedbackpacks:everlasting_upgrade', 'backpack_allthemodium_upgrade:stack_upgrade_tier_7', [
-        sa.deploying('kubejs:incomplete_everlasting_upgrade', ['kubejs:incomplete_everlasting_upgrade', 'kubejs:draconic_scale']),
+        sa.deploying('kubejs:incomplete_everlasting_upgrade', ['kubejs:incomplete_everlasting_upgrade', 'dragonloot:dragon_scale']),
         sa.deploying('kubejs:incomplete_everlasting_upgrade', ['kubejs:incomplete_everlasting_upgrade', 'kubejs:wither_soul']),
         sa.pressing('kubejs:incomplete_everlasting_upgrade', 'kubejs:incomplete_everlasting_upgrade')
     ]).transitionalItem('kubejs:incomplete_everlasting_upgrade').loops(8).id('kubejs:sequenced_assembly/everlasting_upgrade');

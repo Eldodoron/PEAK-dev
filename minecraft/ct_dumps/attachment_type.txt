@@ -131,13 +131,4 @@
 <attachment_type:undergarden:previous_utheric_infection_damage>
 <attachment_type:undergarden:utheric_infection>
 <attachment_type:unusualend:player_variables>
-<attachment_type:vampiricageing:ageing_manager>
-<attachment_type:vampirism:damage_handler>
-<attachment_type:vampirism:extended_creature>
-<attachment_type:vampirism:faction_player_handler>
-<attachment_type:vampirism:fog_handler>
-<attachment_type:vampirism:garlic_handler>
-<attachment_type:vampirism:hunter_player>
-<attachment_type:vampirism:vampire_bat>
-<attachment_type:vampirism:vampire_player>
 <attachment_type:wands:player_data>

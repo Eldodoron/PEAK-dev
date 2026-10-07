@@ -1,0 +1,90 @@
+import json
+
+with open(r'c:\Users\chris\AppData\Roaming\PrismLauncher\instances\PEAK-dev\scrapped_tools\precise_mod_info.json', 'r', encoding='utf-8') as f:
+    mods_info = json.load(f)
+
+# The current 72 candidate excluded mods
+excluded_fns = {
+    'BadOptimizations-2.4.1-1.21.1.jar',
+    'BetterThirdPerson-neoforge-1.9.0.jar',
+    'CameraOverhaul-v2.1.1-neoforge+mc[1.21-1.21.1].jar.disabled',
+    'catalogue-neoforge-1.21.1-1.11.2.jar',
+    'cinematic_respawn-1.21.1-neoforge-1.2.0.jar',
+    'cirrus-neoforge-1.21.1-1.2.1.jar.disabled',
+    'clean_tooltips-1.1-neoforge-1.21.1.jar.disabled',
+    'cloudlayers-1.21.1-1.1.jar',
+    'collapsible_groups-neoforge-1.21.1-1.4.2.jar',
+    'Controlling-neoforge-1.21.1-19.0.5.jar',
+    'cosycritters-0.3.2+1.21.1-neoforge.jar',
+    'CrashAssistant-neoforge-1.20.6-1.21.4-1.11.9.jar',
+    'denseflower-1.0.0.jar',
+    'dynamic-fps-3.7.7+minecraft-1.21.0-neoforge.jar',
+    'emf_compat_better_combat_1.21.1_1.1.0.jar',
+    'emf_compat_core-1.1.2.jar',
+    'enchdesc-neoforge-1.21.1-21.1.10.jar',
+    'entity_model_features-3.2.4-1.21-neoforge.jar',
+    'entity_texture_features_1.21-neoforge-7.1.jar',
+    'entityculling-neoforge-1.10.5-mc1.21.1.jar',
+    'Essential_1-5-0-1_neoforge_1-21-1.jar',
+    'explosiveenhancement-neoforge-1.21.1-1.1.2.jar',
+    'freecam-neoforge-1.3.0+mc1.21.jar',
+    'fwa+1.21.1-neoforge-1.2.31.jar',
+    'healthbars-dd-compat-0.3.0+1.21.1.jar',
+    'HealthBars-v21.1.0-1.21.1-NeoForge.jar',
+    'ImmediatelyFast-NeoForge-1.6.11+1.21.1.jar',
+    'ImmersiveUI-NEOFORGE-0.3.3+1.21.1.jar',
+    'iris-neoforge-1.8.12+mc1.21.1.jar.disabled',
+    'Ixeris-4.4.1+1.21.1-neoforge.jar',
+    'jeed-1.21-2.3.3.jar',
+    'JustEnoughBeacons-NeoForge-1.21-1.3.0.jar',
+    'JustEnoughProfessions-neoforge-1.21.1-4.0.5.jar',
+    'lambdynamiclights-4.8.8+1.21.1.jar',
+    'LocatorBar-neoforge-1.2.2+1.21.1.jar',
+    'Loot Beams Refork-neoforge-1.21.1-3.4.7.jar',
+    'minecraft-cursor-neoforge-3.11.3+1.21.1.jar',
+    'miningspeedtooltips-neoforge-1.0.0-1.21.1.jar',
+    'moreculling-neoforge-1.21.1-1.0.7.jar',
+    'MouseTweaks-neoforge-mc1.21-2.26.1.jar',
+    'NBTac-NEOFORGE-1.21.1-1.3.10.jar',
+    'Nirvana Lib-neoforge-1.21.1-2.2.0.jar',
+    'Not Enough Recipe Book-NEOFORGE-0.4.3+1.21.jar',
+    'notenoughanimations-neoforge-1.12.3-mc1.21.1.jar',
+    'nowheel-1.0.6+1.21.1neoforge.jar',
+    'OverflowingBars-v21.1.1-1.21.1-NeoForge.jar',
+    'particle_core-0.3.3+1.21+neoforge.jar',
+    'particular-1.21.1-NeoForge-1.5.5.jar',
+    'Perception-NEOFORGE-0.2.1+1.21.1.jar',
+    'punchy-2.6.2-neoforge-1.21.1.jar',
+    'reeses-sodium-options-neoforge-2.2.3+mc1.21.1.jar.disabled',
+    'rhenium-1.0.0+neo.jar',
+    'Searchables-neoforge-1.21.1-1.0.2.jar',
+    'shine-2.0.1+1.21.1-neoforge.jar',
+    'simplefog-neoforge-1.21.1-2.0.5.jar.disabled',
+    'SimplyTooltips-neoforge-0.1.5.jar',
+    'smooth_steps-neoforge-1.1.0.jar',
+    'smoothchunk-1.21-4.1.jar.disabled',
+    'smoothswapping-0.9.3.2-1.21.1-neoforge.jar',
+    'smooththirdpersoncamera-26.05.28-mc1.21.1.jar.disabled',
+    'sodium-neoforge-0.6.13+mc1.21.1.jar',
+    'sodiumoptionsapi-neoforge-1.0.10-1.21.1.jar.disabled',
+    'sodiumoptionsmodcompat-neoforge-1.0.0-1.21.1.jar.disabled',
+    'sounds-2.4.22+lts+1.21.1-neoforge.jar',
+    'super_resolution-neoforge-1.21..1.21.1-0.8.3-alpha.4+opengl.jar.disabled',
+    'ToastControl-1.21.1-9.0.1.jar',
+    'tooltipoverhaul-neoforge-1.21.1-1.5.1.jar',
+    'towntalk-1.2.0.jar',
+    'visuality-forge-3.0.0.jar',
+    'aero_cam_sync-1.3.1.jar',
+    'atmospherics-2.6.5-mc-1.21.1.jar',
+    'bigwater-1.2.0-neoforge+mc1.21.1.jar.disabled',
+    'txnilib-neoforge-1.0.24-1.21.1.jar.backup',
+    'txnilib-neoforge-1.0.24-1.21.1.jar.modified'
+}
+
+print(f"Candidate excluded count: {len(excluded_fns)}")
+
+# Check remaining mods without data/
+remaining_nodata = [v for k, v in mods_info.items() if k not in excluded_fns and not v.get('has_data')]
+print(f"Remaining mods with NO data/ folder: {len(remaining_nodata)}")
+for m in sorted(remaining_nodata, key=lambda x: x['filename'].lower()):
+    print(f"  {m['filename']} | id: {m.get('mod_id')} | name: {m.get('display_name')} | desc: {(m.get('description') or '')[:70]}")

@@ -1,0 +1,42 @@
+# PEAK Lite - Excluded Visual Components List
+# These files are stripped when building the PEAK Lite edition.
+
+# 1. Client Visual Mods (minecraft/mods/)
+shine-2.0.1+1.21.1-neoforge.jar
+lambdynamiclights-4.8.8+1.21.1.jar
+particular-1.21.1-NeoForge-1.5.5.jar
+visuality-forge-3.0.0.jar
+explosiveenhancement-neoforge-1.21.1-1.1.2.jar
+particle_core-0.3.3+1.21+neoforge.jar
+cosycritters-0.3.2+1.21.1-neoforge.jar
+notenoughanimations-neoforge-1.12.3-mc1.21.1.jar
+fwa+1.21.1-neoforge-1.2.31.jar
+punchy-2.6.2-neoforge-1.21.1.jar
+Perception-NEOFORGE-0.2.1+1.21.1.jar
+Loot Beams Refork-neoforge-1.21.1-3.4.7.jar
+Nirvana Lib-neoforge-1.21.1-2.2.0.jar
+cloudlayers-1.21.1-1.1.jar
+denseflower-1.0.0.jar
+
+# 2. Pure Cosmetic & Non-Essential Client Mods (minecraft/mods/)
+atmospherics-2.6.5-mc-1.21.1.jar
+smoothswapping-0.9.3.2-1.21.1-neoforge.jar
+
+# 3. Development & Diagnostic Tools (minecraft/mods/)
+CraftTweaker-neoforge-1.21.1-21.0.38.jar
+Panoptic-1.08a-NeoForge-1.21.1.jar
+spark-1.10.124-neoforge.jar
+wits-1.3.0+1.21-neoforge.jar
+
+# 4. Heavy Animation & 3D Resource Packs (minecraft/config/paxi/resourcepacks/)
+FreshAnimations_v1.10.4.zip
+FreshCompats_v1.6.zip
+FA_Player-v1.0.zip
+Whimscape_x_FreshAnimations_1.20-1.21.11_r3.zip
+Cubic Leaves 2.3 (resource pack compatible).zip
+HyperPunchy-v2.5+.zip
+Modded Swords x Punchy! 1.21.1 v1.3.1.zip
+
+# 3. Shaderpacks (minecraft/shaderpacks/)
+BSL_v10.1.3.zip
+bsl-shaders.pw.toml

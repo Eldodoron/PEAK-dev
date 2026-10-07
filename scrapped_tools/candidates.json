@@ -1,0 +1,1501 @@
+[
+  {
+    "filename": "BadOptimizations-2.4.1-1.21.1.jar",
+    "mod_id": "badoptimizations",
+    "name": "BadOptimizations",
+    "reasons": [
+      "fabric.mod.json environment = client",
+      "neoforge dependency side = CLIENT",
+      "Matched keywords: badoptimization"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": "Optimization mod that focuses on things other than rendering"
+  },
+  {
+    "filename": "BetterThirdPerson-neoforge-1.9.0.jar",
+    "mod_id": "betterthirdperson",
+    "name": "Better Third Person",
+    "reasons": [
+      "Matched keywords: betterthirdperson"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": "Adds independent camera rotation for third-person view."
+  },
+  {
+    "filename": "BrandonsCore-1.21.1-3.2.1.309.jar",
+    "mod_id": "brandonscore",
+    "name": "Brandon",
+    "reasons": [
+      "No data folder and not in known server list"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": ""
+  },
+  {
+    "filename": "CameraOverhaul-v2.1.1-neoforge+mc[1.21-1.21.1].jar.disabled",
+    "mod_id": "cameraoverhaul",
+    "name": "CameraOverhaul",
+    "reasons": [
+      "Matched keywords: cameraoverhaul"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": "CameraOverhaul is a highly configurable clientside Minecraft mod that attempts to improve overall sa"
+  },
+  {
+    "filename": "CerbonsAPI-NeoForge-1.21-1.3.0.jar",
+    "mod_id": "cerbons_api",
+    "name": "Cerbons API",
+    "reasons": [
+      "No data folder and not in known server list"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": "API Library for CERBONS"
+  },
+  {
+    "filename": "Clumps-neoforge-1.21.1-19.0.0.1.jar",
+    "mod_id": "clumps",
+    "name": "Clumps",
+    "reasons": [
+      "No data folder and not in known server list"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": "Clumps xp orbs together."
+  },
+  {
+    "filename": "Controlling-neoforge-1.21.1-19.0.5.jar",
+    "mod_id": "controlling",
+    "name": "Controlling",
+    "reasons": [
+      "neoforge dependency side = CLIENT",
+      "Matched keywords: controlling"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": "Adds the ability to search for keybinds using their name in the KeyBinding menu, this allows players"
+  },
+  {
+    "filename": "CrashAssistant-neoforge-1.20.6-1.21.4-1.11.9.jar",
+    "mod_id": "crash_assistant",
+    "name": "Crash Assistant",
+    "reasons": [
+      "Matched keywords: crashassistant"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": "Shows a GUI after Minecraft crashes, immediately showing all affected logs, crash reports, or hs_err"
+  },
+  {
+    "filename": "DistantHorizons-3.3.2-1.21.1-fabric-neoforge.jar",
+    "mod_id": "distanthorizons",
+    "name": "Distant Horizons",
+    "reasons": [
+      "No data folder and not in known server list"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": "This mod generates and renders simplified terrain beyond the normal view distance at a low performan"
+  },
+  {
+    "filename": "Essential_1-5-0-1_neoforge_1-21-1.jar",
+    "mod_id": "",
+    "name": null,
+    "reasons": [
+      "Matched keywords: essential"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": ""
+  },
+  {
+    "filename": "HealthBars-v21.1.0-1.21.1-NeoForge.jar",
+    "mod_id": "healthbars",
+    "name": "Health Bars",
+    "reasons": [
+      "displayTest = IGNORE_ALL_VERSION",
+      "Matched keywords: healthbars"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": "See every mob"
+  },
+  {
+    "filename": "ImmediatelyFast-NeoForge-1.6.11+1.21.1.jar",
+    "mod_id": "immediatelyfast",
+    "name": "ImmediatelyFast",
+    "reasons": [
+      "neoforge dependency side = CLIENT",
+      "Matched keywords: immediatelyfast"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": "Speed up and optimize immediate mode rendering in Minecraft"
+  },
+  {
+    "filename": "ImmersiveUI-NEOFORGE-0.3.3+1.21.1.jar",
+    "mod_id": "immersiveui",
+    "name": "ImmersiveUI",
+    "reasons": [
+      "neoforge dependency side = CLIENT"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": "Makes your UI flashy :D"
+  },
+  {
+    "filename": "Ixeris-4.4.1+1.21.1-neoforge.jar",
+    "mod_id": "ixeris_dummy",
+    "name": "Ixeris",
+    "reasons": [
+      "No data folder and not in known server list"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": "Buffered raw input and threaded event polling"
+  },
+  {
+    "filename": "JustEnoughBeacons-NeoForge-1.21-1.3.0.jar",
+    "mod_id": "just_enough_beacons",
+    "name": "Just Enough Beacons",
+    "reasons": [
+      "neoforge dependency side = CLIENT",
+      "displayTest = IGNORE_ALL_VERSION",
+      "Matched keywords: justenoughbeacons"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": "JEI addon to display useful information about beacons."
+  },
+  {
+    "filename": "JustEnoughProfessions-neoforge-1.21.1-4.0.5.jar",
+    "mod_id": "justenoughprofessions",
+    "name": "Just Enough Professions (JEP)",
+    "reasons": [
+      "Matched keywords: justenoughprofessions"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": "Adds info about professions to JEI"
+  },
+  {
+    "filename": "JustEnoughResources-NeoForge-1.21.1-1.6.0.17.jar",
+    "mod_id": "jeresources",
+    "name": "Just Enough Resources",
+    "reasons": [
+      "No data folder and not in known server list"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": "Adds Resources and Mob Drops to JEI"
+  },
+  {
+    "filename": "LocatorBar-neoforge-1.2.2+1.21.1.jar",
+    "mod_id": "locatorbar",
+    "name": "Locator Bar",
+    "reasons": [
+      "Matched keywords: locatorbar"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": "Reworked concept of a player locator bar for Minecraft. Simple, clean bar at the top of your screen."
+  },
+  {
+    "filename": "MouseTweaks-neoforge-mc1.21-2.26.1.jar",
+    "mod_id": "mousetweaks",
+    "name": "Mouse Tweaks",
+    "reasons": [
+      "Matched keywords: mousetweaks"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": "A mod that enhances the inventory management by adding various additional functions to the usual mou"
+  },
+  {
+    "filename": "NBTac-NEOFORGE-1.21.1-1.3.10.jar",
+    "mod_id": "nbt_ac",
+    "name": "NBT Autocomplete",
+    "reasons": [
+      "No data folder and not in known server list"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": "Adds suggestions for NBT tags."
+  },
+  {
+    "filename": "Not Enough Recipe Book-NEOFORGE-0.4.3+1.21.jar",
+    "mod_id": "nerb",
+    "name": "Not Enough Recipe Book",
+    "reasons": [
+      "No data folder and not in known server list"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": "Optimization tool that removes Minecraft"
+  },
+  {
+    "filename": "OverflowingBars-v21.1.1-1.21.1-NeoForge.jar",
+    "mod_id": "overflowingbars",
+    "name": "Overflowing Bars",
+    "reasons": [
+      "displayTest = IGNORE_ALL_VERSION",
+      "Matched keywords: overflowingbars"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": "Expand health, armor and armor toughness bars beyond vanilla. Nice and compact without confusing col"
+  },
+  {
+    "filename": "Perception-NEOFORGE-0.2.1+1.21.1.jar",
+    "mod_id": "perception",
+    "name": "Perception",
+    "reasons": [
+      "No data folder and not in known server list"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": "Enriching the world with immersive visual effects"
+  },
+  {
+    "filename": "Searchables-neoforge-1.21.1-1.0.2.jar",
+    "mod_id": "searchables",
+    "name": "Searchables",
+    "reasons": [
+      "Matched keywords: searchables"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": "A library mod to facilitate adding search bars with auto complete and search types."
+  },
+  {
+    "filename": "SimplyTooltips-neoforge-0.1.5.jar",
+    "mod_id": "simplytooltips",
+    "name": "Simply Tooltips",
+    "reasons": [
+      "Matched keywords: tooltip"
+    ],
+    "has_data": true,
+    "data_dirs": [
+      "",
+      "tags"
+    ],
+    "desc": "Modern data driven tooltip renderer for Simply mods. Optionally available for other vanilla and modd"
+  },
+  {
+    "filename": "ToastControl-1.21.1-9.0.1.jar",
+    "mod_id": "toastcontrol",
+    "name": "Toast Control",
+    "reasons": [
+      "Matched keywords: toast"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": "Blocking annoying popups since 1.12"
+  },
+  {
+    "filename": "Vampirism-1.21-1.10.12.jar.disabled",
+    "mod_id": "vampirism",
+    "name": "Vampirism",
+    "reasons": [
+      "Matched keywords: iris"
+    ],
+    "has_data": true,
+    "data_dirs": [
+      "",
+      "advancement",
+      "damage_type",
+      "data_maps",
+      "enchantment",
+      "loot_modifiers",
+      "loot_table",
+      "neoforge",
+      "recipe",
+      "rs_pieces_spawn_counts",
+      "rs_pool_additions",
+      "structure",
+      "tags",
+      "vampirism",
+      "worldgen"
+    ],
+    "desc": "Allows you to become a vampire"
+  },
+  {
+    "filename": "aaa_particles-neoforge-1.21.1-2.2.3.jar.disabled",
+    "mod_id": "aaa_particles",
+    "name": "AAA Particles",
+    "reasons": [
+      "Matched keywords: particle"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": "Effekseer for Minecraft"
+  },
+  {
+    "filename": "aaa_particles_world-neoforge-1.21.1-2.0.0.jar.disabled",
+    "mod_id": "aaa_particles_world",
+    "name": "AAA Particles: World",
+    "reasons": [
+      "Matched keywords: particle"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": "The lightning is back!"
+  },
+  {
+    "filename": "aero_cam_sync-1.3.1.jar",
+    "mod_id": "aero_cam_sync",
+    "name": "Aeronautics Camera Sync",
+    "reasons": [
+      "No data folder and not in known server list"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": "Adds a dynamic camera tilt for the contraption from the Create Aeronautics mod"
+  },
+  {
+    "filename": "alltheleaks-1.1.9+1.21.1-neoforge.jar",
+    "mod_id": "alltheleaks",
+    "name": "All The Leaks",
+    "reasons": [
+      "No data folder and not in known server list"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": "This mod fixes memory leaks when needed!"
+  },
+  {
+    "filename": "almostunified_ie-neoforge-1.21.1-1.0.1.jar",
+    "mod_id": "almostunified_ie",
+    "name": "Almost Unified Immersive Engineering",
+    "reasons": [
+      "No data folder and not in known server list"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": "Almost Unified integration for Immersive Engineering."
+  },
+  {
+    "filename": "apothiccombat-1.2.1.jar",
+    "mod_id": "apothiccombat",
+    "name": "Apothic Combat",
+    "reasons": [
+      "No data folder and not in known server list"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": "Compatibility between Better Combat and Apotheosis"
+  },
+  {
+    "filename": "applied_kjs-1.0.0.jar",
+    "mod_id": "applied_kjs",
+    "name": "Applied KubeJS",
+    "reasons": [
+      "No data folder and not in known server list"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": "KubeJS addon for AE2!"
+  },
+  {
+    "filename": "ars_unification-1.2.18.jar",
+    "mod_id": "ars_unification",
+    "name": "Ars Unification",
+    "reasons": [
+      "No data folder and not in known server list"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": "Lets Ars Nouveau take recipes from other mods."
+  },
+  {
+    "filename": "asynclogger-2.2.1+1.21.1-neoforge.jar",
+    "mod_id": "asynclogger",
+    "name": "Async Logger",
+    "reasons": [
+      "No data folder and not in known server list"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": "Asynchronous logging and efficient filtering - performance improvements and utility for keeping your"
+  },
+  {
+    "filename": "atlas_api-1.21.1-1.2.0.jar",
+    "mod_id": "atlas_api",
+    "name": "Atlas API",
+    "reasons": [
+      "No data folder and not in known server list"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": "Provides an API for generating atlases during game runtime, and helpers for loading custom item mode"
+  },
+  {
+    "filename": "atmospherics-2.6.5-mc-1.21.1.jar",
+    "mod_id": "atmospherics",
+    "name": "Atmospherics",
+    "reasons": [
+      "neoforge dependency side = CLIENT"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": "An editor for fog, sky, clouds, haze, stars, comets, sandstorms, and more...  [To open the menu, pre"
+  },
+  {
+    "filename": "attributefix-neoforge-1.21.1-21.1.3.jar",
+    "mod_id": "attributefix",
+    "name": "AttributeFix",
+    "reasons": [
+      "No data folder and not in known server list"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": "Extends the maximum attribute ranges to allow for higher values."
+  },
+  {
+    "filename": "bigwater-1.2.0-neoforge+mc1.21.1.jar.disabled",
+    "mod_id": "bigwater",
+    "name": "Big Water",
+    "reasons": [
+      "No data folder and not in known server list"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": "Larger-scale fluid textures"
+  },
+  {
+    "filename": "c2me-neoforge-mc1.21.1-0.4.0-alpha.0.122.jar",
+    "mod_id": "c2me",
+    "name": "Concurrent Chunk Management Engine",
+    "reasons": [
+      "No data folder and not in known server list"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": "A NeoForge mod designed to improve the chunk performance of Minecraft."
+  },
+  {
+    "filename": "caravans-neoforge-1.21.1-3.0.0.jar",
+    "mod_id": "caravans",
+    "name": "Pillager Caravans",
+    "reasons": [
+      "No data folder and not in known server list"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": "Adds roaming pillager caravans with biome-themed loot and guarded convoys."
+  },
+  {
+    "filename": "catalogue-neoforge-1.21.1-1.11.2.jar",
+    "mod_id": "catalogue",
+    "name": "Catalogue",
+    "reasons": [
+      "Matched keywords: catalogue"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": "A modern mod list menu designed for all modloaders"
+  },
+  {
+    "filename": "cerulean-neoforge-1.0.0-1.21.1.jar",
+    "mod_id": "cerulean",
+    "name": "Cerulean",
+    "reasons": [
+      "No data folder and not in known server list"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": "Advancements optimization mod, updated fork of Icterine with added features"
+  },
+  {
+    "filename": "chunkactivitytracker-neoforge-1.0.1-1.21.1.jar",
+    "mod_id": "chunkactivitytracker",
+    "name": "Chunk Activity Tracker",
+    "reasons": [
+      "No data folder and not in known server list"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": "Library mod that stores a heatmap of player activity in chunks"
+  },
+  {
+    "filename": "chunksending-1.21-3.9.jar",
+    "mod_id": "chunksending",
+    "name": "chunksending mod",
+    "reasons": [
+      "No data folder and not in known server list"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": "Balances chunk network load"
+  },
+  {
+    "filename": "cinematic_respawn-1.21.1-neoforge-1.2.0.jar",
+    "mod_id": "cinematic_respawn",
+    "name": "Cinematic Respawn",
+    "reasons": [
+      "neoforge dependency side = CLIENT",
+      "Matched keywords: cinematic_respawn"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": "Cinematic respawn experience for Minecraft."
+  },
+  {
+    "filename": "cirrus-neoforge-1.21.1-1.2.1.jar.disabled",
+    "mod_id": "cirrus",
+    "name": "Cirrus",
+    "reasons": [
+      "neoforge dependency side = CLIENT",
+      "displayTest = IGNORE_ALL_VERSION",
+      "Matched keywords: cirrus"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": "The sky"
+  },
+  {
+    "filename": "clean_tooltips-1.1-neoforge-1.21.1.jar.disabled",
+    "mod_id": "clean_tooltips",
+    "name": "Clean Tooltips",
+    "reasons": [
+      "displayTest = NONE",
+      "Matched keywords: tooltip"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": ""
+  },
+  {
+    "filename": "cloudlayers-1.21.1-1.1.jar",
+    "mod_id": "cloudlayers",
+    "name": "Cloud Layers",
+    "reasons": [
+      "No data folder and not in known server list"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": "Small mod that adds configurable layered rendering to clouds."
+  },
+  {
+    "filename": "collapsible_groups-neoforge-1.21.1-1.4.2.jar",
+    "mod_id": "collapsible_groups",
+    "name": "Collapsible Groups",
+    "reasons": [
+      "No data folder and not in known server list"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": "Collapsible item/fluid/ingredient groups for JEI."
+  },
+  {
+    "filename": "common-networking-neoforge-1.0.21-1.21.1.jar",
+    "mod_id": "commonnetworking",
+    "name": "Common Networking",
+    "reasons": [
+      "No data folder and not in known server list"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": "This mod unifies networking in to a single location to work with Forge and Fabric, so developers onl"
+  },
+  {
+    "filename": "configured-neoforge-1.21.1-2.6.3.jar",
+    "mod_id": "configured",
+    "name": "Configured",
+    "reasons": [
+      "Matched keywords: configured"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": "Creates a simple GUI config for every mod!"
+  },
+  {
+    "filename": "cosycritters-0.3.2+1.21.1-neoforge.jar",
+    "mod_id": "cosycritters",
+    "name": "Cosy Critters & Creepy Crawlies",
+    "reasons": [
+      "neoforge dependency side = CLIENT"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": "Adds adorable atmospheric animals: birds, bugs, and bothersome creatures."
+  },
+  {
+    "filename": "create-aeronautics-bundled-1.21.1-1.2.1.jar",
+    "mod_id": "aeronautics_bundled",
+    "name": "Create Aeronautics",
+    "reasons": [
+      "No data folder and not in known server list"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": "Expands the Create mod with physics-based contraptions, to build anything from cars to planes. This "
+  },
+  {
+    "filename": "denseflower-1.0.0.jar",
+    "mod_id": "denseflower",
+    "name": "Dense Flowers",
+    "reasons": [
+      "No data folder and not in known server list"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": "A Fabric mod that makes flowers fields look denser, ported to Neoforge by owen233666"
+  },
+  {
+    "filename": "does_it_tick-neoforge-1.1.4-1.21.1.jar",
+    "mod_id": "does_it_tick",
+    "name": "Does It Tick?",
+    "reasons": [
+      "No data folder and not in known server list"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": "Entity Ticking Performance Mod"
+  },
+  {
+    "filename": "dragonfight-1.21-4.7.jar",
+    "mod_id": "dragonfight",
+    "name": "dragonfight mod",
+    "reasons": [
+      "No data folder and not in known server list"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": "dragonfight mod"
+  },
+  {
+    "filename": "dynamic-fps-3.7.7+minecraft-1.21.0-neoforge.jar",
+    "mod_id": "dynamic_fps",
+    "name": "Dynamic FPS",
+    "reasons": [
+      "neoforge dependency side = CLIENT",
+      "displayTest = IGNORE_ALL_VERSION",
+      "Matched keywords: dynamic-fps"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": "Reduce resource usage while Minecraft is in the background or idle."
+  },
+  {
+    "filename": "efficient_hashing-neoforge-1.0.0+1.21.1-mod.jar",
+    "mod_id": "efficient_hashing",
+    "name": "Efficient Hashing",
+    "reasons": [
+      "No data folder and not in known server list"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": "Better hashing algorithm for Vec3i & BlockPos"
+  },
+  {
+    "filename": "emf_compat_better_combat_1.21.1_1.1.0.jar",
+    "mod_id": "emf_compat_better_combat",
+    "name": "EMF Compat: Better Combat",
+    "reasons": [
+      "neoforge dependency side = CLIENT",
+      "Matched keywords: emf"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": "Restores Better Combat attack poses after EMF animation, so weapon swing animations are not overwrit"
+  },
+  {
+    "filename": "emf_compat_core-1.1.2.jar",
+    "mod_id": "emf_compat_core",
+    "name": "EMF Compat: Core",
+    "reasons": [
+      "neoforge dependency side = CLIENT",
+      "Matched keywords: emf"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": "Core framework for EMF Compat. Provides animation pause / vanilla-model conditions and pose capture "
+  },
+  {
+    "filename": "enchdesc-neoforge-1.21.1-21.1.10.jar",
+    "mod_id": "enchdesc",
+    "name": "EnchantmentDescriptions",
+    "reasons": [
+      "No data folder and not in known server list"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": "Adds descriptions of enchantment effects to their descriptions."
+  },
+  {
+    "filename": "entity_model_features-3.2.4-1.21-neoforge.jar",
+    "mod_id": "entity_model_features",
+    "name": "Entity Model Features",
+    "reasons": [
+      "neoforge dependency side = CLIENT",
+      "Matched keywords: entity_model_features"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": "This is an expansion of the ETF mod, it adds support for OptiFine format Custom Entity Model (CEM) r"
+  },
+  {
+    "filename": "entity_texture_features_1.21-neoforge-7.1.jar",
+    "mod_id": "entity_texture_features",
+    "name": "Entity Texture Features",
+    "reasons": [
+      "neoforge dependency side = CLIENT",
+      "Matched keywords: entity_texture_features"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": "Adds support for resource-pack driven features for entity textures including some OptiFine features\n"
+  },
+  {
+    "filename": "entityculling-neoforge-1.10.5-mc1.21.1.jar",
+    "mod_id": "entityculling",
+    "name": "EntityCulling",
+    "reasons": [
+      "displayTest = IGNORE_ALL_VERSION",
+      "Matched keywords: culling, entityculling"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": "This mod uses async path-tracing to hide Tiles/Entities that are not visible."
+  },
+  {
+    "filename": "explosiveenhancement-neoforge-1.21.1-1.1.2.jar",
+    "mod_id": "explosiveenhancement",
+    "name": "Explosive Enhancement",
+    "reasons": [
+      "No data folder and not in known server list"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": "Explosive Enhancement."
+  },
+  {
+    "filename": "fastboot-1.21.x-v1.3neo.jar",
+    "mod_id": "fastboot",
+    "name": "FastBoot",
+    "reasons": [
+      "No data folder and not in known server list"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": "FastBoot reduces loading time, providing players with swift access to gameplay."
+  },
+  {
+    "filename": "fdlib-1.0.9-1.21.1.jar",
+    "mod_id": "fdlib",
+    "name": "FDLib",
+    "reasons": [
+      "No data folder and not in known server list"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": "A library with some cool features. Idk what other things to write here."
+  },
+  {
+    "filename": "findme-3.3.3-neoforge.jar",
+    "mod_id": "findme",
+    "name": "FindMe",
+    "reasons": [
+      "No data folder and not in known server list"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": "FindMe allows you to search for items in nearby inventories by pressing a key."
+  },
+  {
+    "filename": "fragmentum-neoforge-1.21.1-2.2.4.jar",
+    "mod_id": "fragmentum",
+    "name": "Fragmentum",
+    "reasons": [
+      "No data folder and not in known server list"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": "The lightweight framework for the Obscuria Collection cross-platform mods."
+  },
+  {
+    "filename": "framework-neoforge-1.21.1-0.13.11.jar",
+    "mod_id": "framework",
+    "name": "Framework",
+    "reasons": [
+      "No data folder and not in known server list"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": "A library providing powerful utilities for developers"
+  },
+  {
+    "filename": "freecam-neoforge-1.3.0+mc1.21.jar",
+    "mod_id": "freecam",
+    "name": "Freecam",
+    "reasons": [
+      "neoforge dependency side = CLIENT",
+      "Matched keywords: freecam"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": "A highly customizable freecam mod."
+  },
+  {
+    "filename": "fwa+1.21.1-neoforge-1.2.31.jar",
+    "mod_id": "fwa",
+    "name": "Fancy World Animations",
+    "reasons": [
+      "No data folder and not in known server list"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": "Adds a bunch of animations to blocks"
+  },
+  {
+    "filename": "fzzy_config-0.7.6+1.21+neoforge.jar",
+    "mod_id": "fzzy_config",
+    "name": "Fzzy Config",
+    "reasons": [
+      "No data folder and not in known server list"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": "Configuration engine with automatic GUI generation, client-server syncing, powerful validation and e"
+  },
+  {
+    "filename": "ghastscrash-neoforge-1.21.1.jar",
+    "mod_id": "ghastscrashneoforge",
+    "name": "GhastsCrashNeoForge",
+    "reasons": [
+      "No data folder and not in known server list"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": ""
+  },
+  {
+    "filename": "guideme-21.1.17.jar",
+    "mod_id": "guideme",
+    "name": "GuideME",
+    "reasons": [
+      "No data folder and not in known server list"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": "GuideME offers the foundation for your mods or modpacks guidebook."
+  },
+  {
+    "filename": "healight-neoforge-1.21.1-1.0.1.jar",
+    "mod_id": "healight",
+    "name": "Healight",
+    "reasons": [
+      "No data folder and not in known server list"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": "Enhances the existing damage flash by adding green glow when entities heal, providing better visual "
+  },
+  {
+    "filename": "healthbars-dd-compat-0.3.0+1.21.1.jar",
+    "mod_id": "healthbars_dd_compat",
+    "name": "Health Bars Dynamic Difficulty Compat",
+    "reasons": [
+      "Matched keywords: healthbars"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": "Adds Dynamic Difficulty level display to Health Bars."
+  },
+  {
+    "filename": "heavier_weapons-1.21.1-NeoForge-1.1.0.jar",
+    "mod_id": "heavier_weapons",
+    "name": "Heavier Weapons",
+    "reasons": [
+      "No data folder and not in known server list"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": "Adds hitstop, camera shake, and entity freeze effects on weapon impact."
+  },
+  {
+    "filename": "immersive_engineering_js-2101.1.1.jar",
+    "mod_id": "immersive_engineering_js",
+    "name": "Immersive Engineering JS",
+    "reasons": [
+      "No data folder and not in known server list"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": "kubejs compat for ie"
+  },
+  {
+    "filename": "incrementalmining-1.21.1-1.5.jar.disabled",
+    "mod_id": "incrementalmining",
+    "name": "Incremental Mining",
+    "reasons": [
+      "No data folder and not in known server list"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": "A satisfying overhaul to Minecraft"
+  },
+  {
+    "filename": "iris-neoforge-1.8.12+mc1.21.1.jar.disabled",
+    "mod_id": "iris",
+    "name": "Iris",
+    "reasons": [
+      "neoforge dependency side = CLIENT",
+      "Matched keywords: iris"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": "Iris is a modern shaders mod for Minecraft intended to be compatible with existing OptiFine shader p"
+  },
+  {
+    "filename": "irons_spells_js-4.0.3.jar",
+    "mod_id": "irons_spells_js",
+    "name": "Iron",
+    "reasons": [
+      "No data folder and not in known server list"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": "Allows you to create custom spells for Iron"
+  },
+  {
+    "filename": "jauml-neoforge-1.21.1-2.0.0.jar",
+    "mod_id": "jauml",
+    "name": "Jauml",
+    "reasons": [
+      "No data folder and not in known server list"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": "Just Another Utility Minecraft Lib"
+  },
+  {
+    "filename": "jeiworldgen-neoforge-1.21.1-1.4.1.jar",
+    "mod_id": "jeiworldgen",
+    "name": "JEIWorldGen",
+    "reasons": [
+      "displayTest = NONE",
+      "Matched keywords: jeiworldgen"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": "WorldGen Info Pages for JustEnoughItems (JEI)"
+  },
+  {
+    "filename": "jupiter-2.3.7-1.21.1-neoforge.jar",
+    "mod_id": "jupiter",
+    "name": "Jupiter",
+    "reasons": [
+      "No data folder and not in known server list"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": "A powerful, auto sync config library."
+  },
+  {
+    "filename": "kotlinforforge-5.11.0-all.jar",
+    "mod_id": "",
+    "name": null,
+    "reasons": [
+      "No data folder and not in known server list"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": ""
+  },
+  {
+    "filename": "lambdynamiclights-4.8.8+1.21.1.jar",
+    "mod_id": "lambdynlights",
+    "name": "LambDynamicLights",
+    "reasons": [
+      "fabric.mod.json environment = client",
+      "neoforge dependency side = CLIENT"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": "The most feature-complete dynamic lighting mod."
+  },
+  {
+    "filename": "minecraft-cursor-neoforge-3.11.3+1.21.1.jar",
+    "mod_id": "minecraft_cursor",
+    "name": "Minecraft Cursor",
+    "reasons": [
+      "neoforge dependency side = CLIENT",
+      "Matched keywords: cursor"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": "Configurable Cursor for Minecraft."
+  },
+  {
+    "filename": "miningspeedtooltips-neoforge-1.0.0-1.21.1.jar",
+    "mod_id": "miningspeedtooltips",
+    "name": "Mining Speed Tooltips",
+    "reasons": [
+      "Matched keywords: tooltip, miningspeedtooltips"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": "Adds information about harvest speed to all tools."
+  },
+  {
+    "filename": "moogs_structures-neoforge-1.21.1-3.0.3.jar",
+    "mod_id": "moogs_structures",
+    "name": "Moog",
+    "reasons": [
+      "No data folder and not in known server list"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": "Moogs Structure Lib is a library mod used to generate the structures from the\n    moog structure mod"
+  },
+  {
+    "filename": "moreculling-neoforge-1.21.1-1.0.7.jar",
+    "mod_id": "moreculling",
+    "name": "More Culling",
+    "reasons": [
+      "Matched keywords: culling, moreculling"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": "Processes main resources."
+  },
+  {
+    "filename": "netherportalfix-neoforge-1.21.1-21.1.1.jar",
+    "mod_id": "netherportalfix",
+    "name": "NetherPortalFix",
+    "reasons": [
+      "displayTest = NONE"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": "Ensures correct destinations when travelling back and forth through Nether Portals in Multiplayer."
+  },
+  {
+    "filename": "notenoughanimations-neoforge-1.12.3-mc1.21.1.jar",
+    "mod_id": "notenoughanimations",
+    "name": "NotEnoughAnimations",
+    "reasons": [
+      "displayTest = IGNORE_ALL_VERSION",
+      "Matched keywords: notenoughanimations"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": "Adding and improving animations in Third-Person."
+  },
+  {
+    "filename": "nowheel-1.0.6+1.21.1neoforge.jar",
+    "mod_id": "nowheel",
+    "name": "Nowheel",
+    "reasons": [
+      "neoforge dependency side = CLIENT",
+      "Matched keywords: nowheel"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": "Boost performance in Create using Occlusion Culling"
+  },
+  {
+    "filename": "packetfixer-3.3.1-1.20.5-1.21.X-merged.jar",
+    "mod_id": "packetfixer",
+    "name": "PacketFixer",
+    "reasons": [
+      "Matched keywords: etf"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": "A simple mod to solve various problems with packets."
+  },
+  {
+    "filename": "particle_core-0.3.3+1.21+neoforge.jar",
+    "mod_id": "particle_core",
+    "name": "Particle Core",
+    "reasons": [
+      "neoforge dependency side = CLIENT",
+      "Matched keywords: particle"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": "Particle optimizations. Particle culling, rendering optimization, and configurable disabling of part"
+  },
+  {
+    "filename": "punchy-2.6.2-neoforge-1.21.1.jar",
+    "mod_id": "punchy",
+    "name": "Punchy",
+    "reasons": [
+      "neoforge dependency side = CLIENT",
+      "Matched keywords: punchy"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": "First-person animations. Special thanks to Godku for the support."
+  },
+  {
+    "filename": "ragdoll_reactions-1.21.1-0.7.0.jar.disabled",
+    "mod_id": "ragdoll_reactions",
+    "name": "Ragdoll Reactions",
+    "reasons": [
+      "Matched keywords: ragdoll"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": "Players and mobs ragdoll in reaction to the world around them! Crashes, explosions, damage, and more"
+  },
+  {
+    "filename": "recipeessentials-1.21.1-4.7.jar",
+    "mod_id": "recipeessentials",
+    "name": "recipeessentials mod",
+    "reasons": [
+      "Matched keywords: essential"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": "recipeessentials mod"
+  },
+  {
+    "filename": "redirected-neoforge-1.0.0-1.21.1.jar.disabled",
+    "mod_id": "redirected",
+    "name": "Redirected",
+    "reasons": [
+      "No data folder and not in known server list"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": "Memory optimization mod that prevents duplication of Enum values."
+  },
+  {
+    "filename": "reeses-sodium-options-neoforge-2.2.3+mc1.21.1.jar.disabled",
+    "mod_id": "reeses_sodium_options",
+    "name": "Reese",
+    "reasons": [
+      "neoforge dependency side = CLIENT",
+      "Matched keywords: sodium, reeses"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": "Replaces Sodium"
+  },
+  {
+    "filename": "reliable_replacer-neoforge-1.21.1-1.7.0.jar.disabled",
+    "mod_id": "reliable_replacer",
+    "name": "Reliable Replacer",
+    "reasons": [
+      "No data folder and not in known server list"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": "A lightweight utility for replacing one block with another, both during worldgen and afterward."
+  },
+  {
+    "filename": "rhenium-1.0.0+neo.jar",
+    "mod_id": "rhenium",
+    "name": "Rhenium",
+    "reasons": [
+      "Matched keywords: rhenium"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": ""
+  },
+  {
+    "filename": "sable_player_ragdoll-1.21.1-0.7.5.jar.disabled",
+    "mod_id": "sable_player_ragdoll",
+    "name": "Sable Ragdolls",
+    "reasons": [
+      "Matched keywords: ragdoll"
+    ],
+    "has_data": true,
+    "data_dirs": [
+      "",
+      "physics_block_properties",
+      "ragdoll_models",
+      "tags"
+    ],
+    "desc": "Ragdoll physics API for Sable. Provides the core ragdoll system and API for addon mods."
+  },
+  {
+    "filename": "saturn-mc1.21.1-0.1.5.jar.disabled",
+    "mod_id": "saturn",
+    "name": "Saturn",
+    "reasons": [
+      "Matched keywords: saturn"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": "A performance mod designed to optimize Minecraft"
+  },
+  {
+    "filename": "shine-2.0.1+1.21.1-neoforge.jar",
+    "mod_id": "shine",
+    "name": "Shine",
+    "reasons": [
+      "neoforge dependency side = CLIENT",
+      "Matched keywords: shine"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": "Adds bloom, colored lighting, and stylized effects to Minecraft, without shaders."
+  },
+  {
+    "filename": "simplefog-neoforge-1.21.1-2.0.5.jar.disabled",
+    "mod_id": "simplefog",
+    "name": "Simple Fog Control",
+    "reasons": [
+      "neoforge dependency side = CLIENT",
+      "Matched keywords: simplefog"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": "Allows simple control over water, nether and terrain fog."
+  },
+  {
+    "filename": "smoothchunk-1.21-4.1.jar.disabled",
+    "mod_id": "smoothchunk",
+    "name": "Smoothchunk mod",
+    "reasons": [
+      "Matched keywords: smoothchunk"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": "Spreads chunk saves over time smoothly"
+  },
+  {
+    "filename": "smoothswapping-0.9.3.2-1.21.1-neoforge.jar",
+    "mod_id": "smoothswapping",
+    "name": "Smooth Swapping",
+    "reasons": [
+      "Matched keywords: smoothswapping"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": "Moves items smoothly in inventories"
+  },
+  {
+    "filename": "smooththirdpersoncamera-26.05.28-mc1.21.1.jar.disabled",
+    "mod_id": "smooththirdpersoncamera",
+    "name": "Smooth Third Person Camera",
+    "reasons": [
+      "neoforge dependency side = CLIENT",
+      "Matched keywords: smooththirdperson"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": "Smooth third-person camera."
+  },
+  {
+    "filename": "sodium-neoforge-0.6.13+mc1.21.1.jar",
+    "mod_id": "sodium",
+    "name": "Sodium",
+    "reasons": [
+      "neoforge dependency side = CLIENT",
+      "Matched keywords: sodium"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": "Sodium is a powerful rendering engine for Minecraft which improves frame rates and reduces lag spike"
+  },
+  {
+    "filename": "sodiumoptionsapi-neoforge-1.0.10-1.21.1.jar.disabled",
+    "mod_id": "sodiumoptionsapi",
+    "name": "Sodium Options API",
+    "reasons": [
+      "Matched keywords: sodium, sodiumoptions"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": "Cross-platform Sodium config event API for Sodium 1.21 and Embeddium 1.20"
+  },
+  {
+    "filename": "sodiumoptionsmodcompat-neoforge-1.0.0-1.21.1.jar.disabled",
+    "mod_id": "sodiumoptionsmodcompat",
+    "name": "Sodium Options Mod Compat",
+    "reasons": [
+      "Matched keywords: sodium, sodiumoptions"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": "Adds compatibility for various mods through Sodium Options API"
+  },
+  {
+    "filename": "sophisticatedcore-1.21.1-1.5.1.2341.jar",
+    "mod_id": "sophisticatedcore",
+    "name": "Sophisticated Core",
+    "reasons": [
+      "neoforge dependency side = CLIENT"
+    ],
+    "has_data": true,
+    "data_dirs": [
+      "",
+      "advancement",
+      "recipe",
+      "tags"
+    ],
+    "desc": "A library / shared functionality mod for Sophisticated Storage and Backpacks"
+  },
+  {
+    "filename": "sounds-2.4.22+lts+1.21.1-neoforge.jar",
+    "mod_id": "sounds",
+    "name": "Sounds",
+    "reasons": [
+      "neoforge dependency side = CLIENT",
+      "Matched keywords: sounds-"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": "A highly configurable sound overhaul mod that adds new sound effects while improving vanilla sounds "
+  },
+  {
+    "filename": "structureessentials-1.21.1-5.0.jar",
+    "mod_id": "structureessentials",
+    "name": "Structure Essentials mod",
+    "reasons": [
+      "Matched keywords: essential"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": "Essential Utilities for structures"
+  },
+  {
+    "filename": "super_resolution-neoforge-1.21..1.21.1-0.8.3-alpha.4+opengl.jar.disabled",
+    "mod_id": "super_resolution",
+    "name": "Super Resolution",
+    "reasons": [
+      "Matched keywords: super_resolution"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": "\u55b5"
+  },
+  {
+    "filename": "textureupdatesneo.jar.disabled",
+    "mod_id": "angrytremorzilla",
+    "name": "angrytremorzilla",
+    "reasons": [
+      "Matched keywords: textureupdates"
+    ],
+    "has_data": true,
+    "data_dirs": [
+      "",
+      "advancement",
+      "loot_table",
+      "recipe",
+      "structure",
+      "tags",
+      "worldgen"
+    ],
+    "desc": ""
+  },
+  {
+    "filename": "tooltipoverhaul-neoforge-1.21.1-1.5.1.jar",
+    "mod_id": "tooltipoverhaul",
+    "name": "Tooltip overhaul",
+    "reasons": [
+      "Matched keywords: tooltip"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": "Every tooltip, more modern, sharper, clearer"
+  },
+  {
+    "filename": "trade-cycling-neoforge-1.21.1-1.0.18.jar",
+    "mod_id": "trade_cycling",
+    "name": "Trade Cycling",
+    "reasons": [
+      "Matched keywords: trade_cycling"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": "The trade cycling functionality from Easy Villagers."
+  },
+  {
+    "filename": "txnilib-neoforge-1.0.24-1.21.1.jar",
+    "mod_id": "txnilib",
+    "name": "TxniLib",
+    "reasons": [
+      "No data folder and not in known server list"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": "Yet Another Library Mod"
+  },
+  {
+    "filename": "txnilib-neoforge-1.0.24-1.21.1.jar.backup",
+    "mod_id": "txnilib",
+    "name": "TxniLib",
+    "reasons": [
+      "No data folder and not in known server list"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": "Yet Another Library Mod"
+  },
+  {
+    "filename": "txnilib-neoforge-1.0.24-1.21.1.jar.modified",
+    "mod_id": "txnilib",
+    "name": "TxniLib",
+    "reasons": [
+      "No data folder and not in known server list"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": "Yet Another Library Mod"
+  },
+  {
+    "filename": "vampirism_integrations-1.21.1-1.10.2.jar.disabled",
+    "mod_id": "vampirism_integrations",
+    "name": "Vampirism Integrations",
+    "reasons": [
+      "Matched keywords: iris"
+    ],
+    "has_data": true,
+    "data_dirs": [
+      "",
+      "data_maps",
+      "lithostitched",
+      "scripts",
+      "structures",
+      "tags",
+      "vampirism",
+      "weapon_attributes"
+    ],
+    "desc": "Adds integration for Vampirism with several other mods"
+  },
+  {
+    "filename": "visuality-forge-3.0.0.jar",
+    "mod_id": "visuality",
+    "name": "Visuality: Reforged",
+    "reasons": [
+      "Matched keywords: visuality"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": "Little visual improvements by adding a bunch of new particles."
+  },
+  {
+    "filename": "wits-1.3.0+1.21-neoforge.jar",
+    "mod_id": "wits",
+    "name": "WITS",
+    "reasons": [
+      "Matched keywords: wits"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": "Use `\\wits` command to get registry name of all structures where you are standing."
+  },
+  {
+    "filename": "yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar",
+    "mod_id": "yet_another_config_lib_v3",
+    "name": "YetAnotherConfigLib",
+    "reasons": [
+      "Matched keywords: yet_another_config_lib"
+    ],
+    "has_data": false,
+    "data_dirs": [],
+    "desc": "YetAnotherConfigLib (yacl) is just that. A builder-based configuration library for Minecraft.\\n"
+  }
+]

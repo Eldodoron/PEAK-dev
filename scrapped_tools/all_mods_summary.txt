@@ -1,0 +1,2682 @@
+FILE: aaa_particles-neoforge-1.21.1-2.2.3.jar.disabled
+  ID: aaa_particles | NAME: AAA Particles
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=5, server=0, common=2
+  DESC: Effekseer for Minecraft
+
+FILE: aaa_particles_world-neoforge-1.21.1-2.0.0.jar.disabled
+  ID: aaa_particles_world | NAME: AAA Particles: World
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=6, server=0, common=2
+  DESC: The lightning is back!
+
+FILE: aces_spell_utils-1.2.6.1-1.21.1.jar
+  ID: aces_spell_utils | NAME: Ace
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: A util API mod for making Iron
+
+FILE: additional_attributes-1.21.1-1.2.2.jar
+  ID: additional_attributes | NAME: Additional Attributes
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=1, server=0, common=8
+  DESC: Adds additional attributes to the game
+
+FILE: adorablehamsterpets-3.6.0-1.21.1+neoforge.jar.disabled
+  ID: adorablehamsterpets | NAME: Adorable Hamster Pets
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=19, server=0, common=11
+  DESC: Sure, you’ve got dragons and machines, but let’s be honest— no respectable mod pack is complete with
+
+FILE: aero_cam_sync-1.3.1.jar
+  ID: aero_cam_sync | NAME: Aeronautics Camera Sync
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=4, server=0, common=0
+  DESC: Adds a dynamic camera tilt for the contraption from the Create Aeronautics mod
+
+FILE: aeroworks-1.3.0.jar
+  ID: aeroworks | NAME: Create: Aeroworks
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=4, server=0, common=3
+  DESC: A collection of various addons for Create Aeronautics.
+
+FILE: alexscaves-2.0.10.jar
+  ID: alexscaves | NAME: Alex
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=25, server=0, common=36
+  DESC: Explore new rare cave biomes hidden under the surface of the Overworld...
+
+FILE: alexsdelight-1.6.jar
+  ID: alexsdelight | NAME: Alexs Delight
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: Adds compatibility between Alexs Mobs and Farmers Delight
+
+FILE: alexsmobs-1.22.17.jar
+  ID: alexsmobs | NAME: Alex
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: New, original, engaging, and aesthetic mobs for Minecraft.
+
+FILE: alltheleaks-1.1.9+1.21.1-neoforge.jar
+  ID: alltheleaks | NAME: All The Leaks
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=55, server=0, common=60
+  DESC: This mod fixes memory leaks when needed!
+
+FILE: allthemodium-3.0.1_mc_1.21.1.jar
+  ID: allthemodium | NAME: Allthemodium
+  DATA: True | DT: MATCH_VERSION | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=2, server=0, common=0
+  DESC: Allthemodium!. Brought to you by AllTheMods!
+
+FILE: alltheores-3.2.0_neoforge_1.21.1.jar
+  ID: alltheores | NAME: AllTheOres
+  DATA: True | DT: MATCH_VERSION | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: Commonly found modded ores in one easy spot!. Brought to you by AllTheMods!
+
+FILE: allthewizardgear-1.21.1-1.1.12.jar
+  ID: allthewizardgear | NAME: All the Wizard Gear
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: Allthemodium compat for Iron
+
+FILE: Almanac-1.21.1-2-neoforge-1.5.2.jar
+  ID: almanac | NAME: Almanac
+  DATA: False | DT: None | DEP_SIDE: SERVER | ENV: None
+  MIXINS: client=0, server=0, common=4
+  DESC: Loader independent library mod for frikinjay
+
+FILE: almostunified-neoforge-1.21.1-1.4.2.jar
+  ID: almostunified | NAME: AlmostUnified
+  DATA: True | DT: None | DEP_SIDE: None | ENV: None
+  MIXINS: client=1, server=0, common=11
+  DESC: Unify all resources.
+
+FILE: almostunified_ie-neoforge-1.21.1-1.0.1.jar
+  ID: almostunified_ie | NAME: Almost Unified Immersive Engineering
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=1
+  DESC: Almost Unified integration for Immersive Engineering.
+
+FILE: amendments-1.21-2.0.15-neoforge.jar
+  ID: amendments | NAME: Amendments
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=11, server=0, common=39
+  DESC: Many tweaks to Vanilla Blocks
+
+FILE: Antique Atlas-1.21.1-8.0.1-NeoForge.jar.disabled
+  ID: antiqueatlas | NAME: Antique Atlas
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=9, server=0, common=11
+  DESC: Antique Atlas is a book that acts like a map featuring infinite scrolling, zoom and custom labeled m
+
+FILE: anvilcore-10.1 Release-neoforge-1.21.1.jar
+  ID: anvilcore | NAME: AnvilCore
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: AnvilCore is the official library mod for SmartStreamLabs projects. It provides shared systems, util
+
+FILE: ape-neoforge-1.21.1.jar
+  ID: ape | NAME: Avaritia Progression Expansion
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: Adds a over-complicated Avaritia progression.
+
+FILE: Apotheosis-1.21.1-8.6.1.jar
+  ID: apotheosis | NAME: Apotheosis
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=5, server=0, common=17
+  DESC: All things that should have been
+
+FILE: apotheosis-addon-compat-1.0.jar
+  ID: mr_apotheosis_addoncompat | NAME: Apotheosis Addon Compat
+  DATA: True | DT: None | DEP_SIDE: None | ENV: *
+  MIXINS: client=0, server=0, common=0
+  DESC: Apotheosis Addon Compat is a simple addon that only adds compatibility between Apotheosis and other 
+
+FILE: apotheosis_create-1.1.1-neoforge-1.21.1.jar
+  ID: apotheosis_create | NAME: Apotheosis Create
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: Create recipes for Apotheosis on NeoForge 1.21.1, with NeoForge 1.21 recipe-path and item-stack fixe
+
+FILE: apothic_cataclysm-1.2.0.jar
+  ID: apothic_cataclysm | NAME: Apothic Cataclysm
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: Allow Apotheosis bosses to use weapons from Cataclysm
+
+FILE: apothic_compats-0.2.4.2.jar
+  ID: apothic_compats | NAME: Apothic Compats
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=3
+  DESC: An apotheosis compatibility datapack packed into a mod for easy installation
+
+FILE: ApothicAttributes-1.21.1-2.10.1.jar
+  ID: apothic_attributes | NAME: Apothic Attributes
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=1, server=0, common=7
+  DESC: A library mod providing Attributes and related things.
+
+FILE: apothiccombat-1.2.1.jar
+  ID: apothiccombat | NAME: Apothic Combat
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=1
+  DESC: Compatibility between Better Combat and Apotheosis
+
+FILE: ApothicEnchanting-1.21.1-1.6.0.jar
+  ID: apothic_enchanting | NAME: Apothic Enchanting
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=3, server=0, common=17
+  DESC: The Enchanting Module of Apotheosis, overhauling major enchanting systems.
+
+FILE: ApothicSpawners-1.21.1-1.4.0.jar
+  ID: apothic_spawners | NAME: Apothic Spawners
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=2
+  DESC: The Spawner Module of Apotheosis, allowing for silk-touching and modification.
+
+FILE: applied_kjs-1.0.0.jar
+  ID: applied_kjs | NAME: Applied KubeJS
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: KubeJS addon for AE2!
+
+FILE: appliedenergistics2-19.2.17.jar
+  ID: ae2 | NAME: Applied Energistics 2
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=8, server=0, common=8
+  DESC: A Mod about Matter, Energy and using them to conquer the world...
+
+FILE: Aquaculture-1.21.1-2.7.21.jar
+  ID: aquaculture | NAME: Aquaculture 2
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: Welcome to Aquaculture! An expansion of Minecraft
+
+FILE: aquaculturedelight-1.2.0-neoforge-1.21.1.jar
+  ID: aquaculturedelight | NAME: Aquaculture Delight
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: Adds Farmer
+
+FILE: architectury-13.0.11-neoforge.jar
+  ID: architectury | NAME: Architectury
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=3, server=0, common=17
+  DESC: A intermediary api aimed to ease developing multiplatform mods.
+
+FILE: armoroftheages-neoforge-1.21.1-1.5.10.jar
+  ID: armoroftheages | NAME: Armor of the Ages
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=1, server=0, common=0
+  DESC: A mod that adds fancy armors from different cultures.
+
+FILE: ars_creo-1.21.1-5.4.0.jar
+  ID: ars_creo | NAME: Ars Creo
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=1, server=0, common=1
+  DESC: A create addon for Ars Nouveau
+
+FILE: ars_n_spells-2.6.1.jar
+  ID: ars_n_spells | NAME: Ars 
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=6
+  DESC: Bridges Ars Nouveau and Iron
+
+FILE: ars_nouveau-1.21.1-5.11.7.jar
+  ID: ars_nouveau | NAME: Ars Nouveau
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=10, server=0, common=30
+  DESC: Craft spells, create powerful baubles, and summon magical creatures!
+
+FILE: ars_unification-1.2.18.jar
+  ID: ars_unification | NAME: Ars Unification
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=5
+  DESC: Lets Ars Nouveau take recipes from other mods.
+
+FILE: arsdelight-2.2.1.jar
+  ID: arsdelight | NAME: Ars Nouveau
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=3
+  DESC: Crossover contents between Twilight Forest and Farmer
+
+FILE: arseng-2.1.1-beta.jar
+  ID: arseng | NAME: Ars Énergistique
+  DATA: True | DT: None | DEP_SIDE: None | ENV: None
+  MIXINS: client=0, server=0, common=3
+  DESC: Bringing magic to the digital age. Adds digital source storage, P2P transport and various other cros
+
+FILE: artifacts-neoforge-13.2.1.jar
+  ID: artifacts | NAME: Artifacts
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: Adds various new powerful uncraftable items to make exploration a bit more interesting
+
+FILE: asynclogger-2.2.1+1.21.1-neoforge.jar
+  ID: asynclogger | NAME: Async Logger
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: Asynchronous logging and efficient filtering - performance improvements and utility for keeping your
+
+FILE: atlas_api-1.21.1-1.2.0.jar
+  ID: atlas_api | NAME: Atlas API
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: Provides an API for generating atlases during game runtime, and helpers for loading custom item mode
+
+FILE: atmospherics-2.6.5-mc-1.21.1.jar
+  ID: atmospherics | NAME: Atmospherics
+  DATA: False | DT: None | DEP_SIDE: CLIENT | ENV: None
+  MIXINS: client=8, server=0, common=0
+  DESC: An editor for fog, sky, clouds, haze, stars, comets, sandstorms, and more...  [To open the menu, pre
+
+FILE: attributefix-neoforge-1.21.1-21.1.3.jar
+  ID: attributefix | NAME: AttributeFix
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=1
+  DESC: Extends the maximum attribute ranges to allow for higher values.
+
+FILE: awesomedungeonend-neoforge-1.21.1-3.1.1.jar
+  ID: awesomedungeonend | NAME: Awesome dungeon the end
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: Add a structure in your dimension the END !!!
+
+FILE: azurelib-neo-1.21.1-3.1.8.jar
+  ID: azurelib | NAME: AzureLib
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=8, server=0, common=4
+  DESC: Java Minecraft mod using Bedrock models to create custom models and animations for items, blocks, en
+
+FILE: backpack_allthemodium_upgrade-2.4.jar
+  ID: backpack_allthemodium_upgrade | NAME: backpack allthemodium upgrade
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: sophisticated backpack allthemodium tier upgrades
+
+FILE: BadOptimizations-2.4.1-1.21.1.jar
+  ID: badoptimizations | NAME: BadOptimizations
+  DATA: False | DT: None | DEP_SIDE: CLIENT | ENV: client
+  MIXINS: client=40, server=0, common=0
+  DESC: Optimization mod that focuses on things other than rendering
+
+FILE: balm-neoforge-1.21.1-21.0.56.jar
+  ID: balm | NAME: Balm
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=10, server=0, common=8
+  DESC: Abstraction Layer (but not really) for Blay
+
+FILE: bettercombat-neoforge-2.4.0+1.21.1.jar
+  ID: bettercombat | NAME: Better Combat
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=9, server=0, common=10
+  DESC: Easy, spectacular and fun melee combat system from Minecraft Dungeons.
+
+FILE: BetterThirdPerson-neoforge-1.9.0.jar
+  ID: betterthirdperson | NAME: Better Third Person
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=7, server=0, common=0
+  DESC: Adds independent camera rotation for third-person view.
+
+FILE: bigwater-1.2.0-neoforge+mc1.21.1.jar.disabled
+  ID: bigwater | NAME: Big Water
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=4, server=0, common=0
+  DESC: Larger-scale fluid textures
+
+FILE: block_factorys_bosses-2.1.2-neo-1.21.1.jar
+  ID: block_factorys_bosses | NAME: Bosses
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=13, server=1, common=12
+  DESC: The Minecraft Bosses
+
+FILE: blockui-1.0.209-1.21.1.jar
+  ID: blockui | NAME: UI Library Mod
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: UI Library mod, use ctrl+alt+shift+x to open a test-ui
+
+FILE: blueprint-1.21.1-8.1.0.jar
+  ID: blueprint | NAME: Blueprint
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=12, server=0, common=22
+  DESC: The library mod used by all Abnormals mods. Adds support for various types of blocks, helps with reg
+
+FILE: BOMD-NeoForge-1.21-1.3.3.jar
+  ID: bosses_of_mass_destruction | NAME: Bosses of Mass Destruction
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=3, server=0, common=5
+  DESC: Adds high threat mobs for players to take on.
+
+FILE: bookshelf-neoforge-1.21.1-21.1.81.jar
+  ID: bookshelf | NAME: Bookshelf
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=8, server=0, common=27
+  DESC: Bookshelf is a library mod that provides code, frameworks, and utilities for other mods. Many mods m
+
+FILE: Boss Rifts Compat+ 1.21.1 1.0.33.jar.disabled
+  ID: boss_rifts_extended_compat | NAME: §l§aBoss Rifts Compat+
+  DATA: True | DT: None | DEP_SIDE: None | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: §bAn addon to the §l\
+
+FILE: boss_ai_tweaks-neoforge-1.0.3-1.21.1.jar
+  ID: boss_ai_tweaks | NAME: Boss AI Tweaks
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=3, server=0, common=14
+  DESC: Mob AI Tweaks but only the boss reworks
+
+FILE: bossrifts-1.21.0-V1.4.1.jar
+  ID: bossrifts | NAME: Boss Rifts
+  DATA: True | DT: MATCH_VERSION | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: Killing bosses out while exploring will summon a rift core that when used, will transport everything
+
+FILE: BrandonsCore-1.21.1-3.2.1.309.jar
+  ID: brandonscore | NAME: Brandon
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: 
+
+FILE: BuildingWands-neoforge-MC1.21.1-3.0.5.jar
+  ID: wands | NAME: Building Wands
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=3, server=0, common=4
+  DESC: Building Wands!
+
+FILE: c2me-neoforge-mc1.21.1-0.4.0-alpha.0.122.jar
+  ID: c2me | NAME: Concurrent Chunk Management Engine
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: A NeoForge mod designed to improve the chunk performance of Minecraft.
+
+FILE: caelus-neoforge-7.0.1+1.21.1.jar
+  ID: caelus | NAME: Caelus API
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=2, server=0, common=2
+  DESC: An API to provide developers access to the elytra
+
+FILE: CameraOverhaul-v2.1.1-neoforge+mc[1.21-1.21.1].jar.disabled
+  ID: cameraoverhaul | NAME: CameraOverhaul
+  DATA: False | DT: None | DEP_SIDE: None | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: CameraOverhaul is a highly configurable clientside Minecraft mod that attempts to improve overall sa
+
+FILE: caravans-neoforge-1.21.1-3.0.0.jar
+  ID: caravans | NAME: Pillager Caravans
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=9
+  DESC: Adds roaming pillager caravans with biome-themed loot and guarded convoys.
+
+FILE: cataclysm_compat_1.21.1-1.0.2.jar
+  ID: cataclysm_compat | NAME: Cataclysm & BetterCombat - Compatibility
+  DATA: True | DT: None | DEP_SIDE: None | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: This is a datapack/mod for compatibility between Cataclysm and Better Combat
+
+FILE: cataclysm_spellbooks-1.1.11-1.21.jar
+  ID: cataclysm_spellbooks | NAME: Cataclysm: Spellbooks
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=1, server=0, common=0
+  DESC: An integration mod between L_Ender
+
+FILE: cataclysm_tools-2.0.0-neoforge-1.21.1.jar
+  ID: cataclysm_tools | NAME: Cataclysm Tools
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: 
+
+FILE: cataclysmfortresses-1.21.1-NeoForge.jar
+  ID: cataclysmfortresses | NAME: Cataclysm x YUNG
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: Cataclysm
+
+FILE: cataclysmiccombat-1.4.1.jar
+  ID: cataclysmiccombat | NAME: Cataclysmic Combat
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: Better combat support for Ender L
+
+FILE: cataclysmspells_compat.jar
+  ID: cataclysmspells_compat | NAME: cataclysmspells_compat
+  DATA: True | DT: None | DEP_SIDE: None | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: This is a datapack/mod for compatibility between Cataclysm: Spellbooks and Better Combat
+
+FILE: catalogue-neoforge-1.21.1-1.11.2.jar
+  ID: catalogue | NAME: Catalogue
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: A modern mod list menu designed for all modloaders
+
+FILE: CerbonsAPI-NeoForge-1.21-1.3.0.jar
+  ID: cerbons_api | NAME: Cerbons API
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=2, server=0, common=6
+  DESC: API Library for CERBONS
+
+FILE: cerulean-neoforge-1.0.0-1.21.1.jar
+  ID: cerulean | NAME: Cerulean
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: Advancements optimization mod, updated fork of Icterine with added features
+
+FILE: chunkactivitytracker-neoforge-1.0.1-1.21.1.jar
+  ID: chunkactivitytracker | NAME: Chunk Activity Tracker
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: Library mod that stores a heatmap of player activity in chunks
+
+FILE: chunksending-1.21-3.9.jar
+  ID: chunksending | NAME: chunksending mod
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=7
+  DESC: Balances chunk network load
+
+FILE: Chunky-NeoForge-1.4.23.jar.disabled
+  ID: chunky | NAME: Chunky
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: Pre-generates chunks, quickly, efficiently, and safely
+
+FILE: cinematic_respawn-1.21.1-neoforge-1.2.0.jar
+  ID: cinematic_respawn | NAME: Cinematic Respawn
+  DATA: False | DT: None | DEP_SIDE: CLIENT | ENV: None
+  MIXINS: client=7, server=0, common=0
+  DESC: Cinematic respawn experience for Minecraft.
+
+FILE: cirrus-neoforge-1.21.1-1.2.1.jar.disabled
+  ID: cirrus | NAME: Cirrus
+  DATA: False | DT: IGNORE_ALL_VERSION | DEP_SIDE: CLIENT | ENV: None
+  MIXINS: client=13, server=0, common=0
+  DESC: The sky
+
+FILE: citadel-1.21.1-2.7.6.jar
+  ID: citadel | NAME: Citadel
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=3
+  DESC: A shared code library for many of Alexthe666
+
+FILE: clean_tooltips-1.1-neoforge-1.21.1.jar.disabled
+  ID: clean_tooltips | NAME: Clean Tooltips
+  DATA: False | DT: NONE | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=4
+  DESC: 
+
+FILE: cloth-config-15.0.140-neoforge.jar
+  ID: cloth_config | NAME: Cloth Config v15 API
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: An API for config screens.
+
+FILE: cloudlayers-1.21.1-1.1.jar
+  ID: cloudlayers | NAME: Cloud Layers
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=1, server=0, common=0
+  DESC: Small mod that adds configurable layered rendering to clouds.
+
+FILE: Clumps-neoforge-1.21.1-19.0.0.1.jar
+  ID: clumps | NAME: Clumps
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=2
+  DESC: Clumps xp orbs together.
+
+FILE: CodeChickenLib-1.21.1-4.6.1.529.jar
+  ID: codechickenlib | NAME: CodeChicken Lib
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: CodeChickenLib is a library of systems to help make various aspects of minecraft modding easier. It 
+
+FILE: collapsible_groups-neoforge-1.21.1-1.4.2.jar
+  ID: collapsible_groups | NAME: Collapsible Groups
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=4, server=0, common=0
+  DESC: Collapsible item/fluid/ingredient groups for JEI.
+
+FILE: common-networking-neoforge-1.0.21-1.21.1.jar
+  ID: commonnetworking | NAME: Common Networking
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: This mod unifies networking in to a single location to work with Forge and Fabric, so developers onl
+
+FILE: configured-neoforge-1.21.1-2.6.3.jar
+  ID: configured | NAME: Configured
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: Creates a simple GUI config for every mod!
+
+FILE: Controlling-neoforge-1.21.1-19.0.5.jar
+  ID: controlling | NAME: Controlling
+  DATA: False | DT: None | DEP_SIDE: CLIENT | ENV: None
+  MIXINS: client=5, server=0, common=0
+  DESC: Adds the ability to search for keybinds using their name in the KeyBinding menu, this allows players
+
+FILE: cosycritters-0.3.2+1.21.1-neoforge.jar
+  ID: cosycritters | NAME: Cosy Critters & Creepy Crawlies
+  DATA: False | DT: None | DEP_SIDE: CLIENT | ENV: None
+  MIXINS: client=6, server=0, common=0
+  DESC: Adds adorable atmospheric animals: birds, bugs, and bothersome creatures.
+
+FILE: CraftTweaker-neoforge-1.21.1-21.0.38.jar
+  ID: crafttweaker | NAME: CraftTweaker
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=2, server=0, common=44
+  DESC: Customize your minecraft experience!
+
+FILE: CrashAssistant-neoforge-1.20.6-1.21.4-1.11.9.jar
+  ID: crash_assistant | NAME: Crash Assistant
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: Shows a GUI after Minecraft crashes, immediately showing all affected logs, crash reports, or hs_err
+
+FILE: create-1.21.1-6.0.10.jar
+  ID: create | NAME: Create
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=21, server=0, common=43
+  DESC: Technology that empowers the player.
+
+FILE: create-aeronautics-bundled-1.21.1-1.2.1.jar
+  ID: aeronautics_bundled | NAME: Create Aeronautics
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: Expands the Create mod with physics-based contraptions, to build anything from cars to planes. This 
+
+FILE: create-central-kitchen-2.6.1.jar
+  ID: create_central_kitchen | NAME: Create: Central Kitchen
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=5, server=0, common=21
+  DESC: Integrated cooking automation for Create
+
+FILE: create-confectionery1.21.1_v1.1.3b.jar
+  ID: create_confectionery | NAME: Create Confectionery
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: 
+
+FILE: create-enchantment-industry-2.5.0-preview-alpha1.jar
+  ID: create_enchantment_industry | NAME: Create: Enchantment Industry
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=23
+  DESC: Enchantment, Experience, Enhancement and Enlightening - with Create
+
+FILE: create-integrated-farming-1.4.1c.jar
+  ID: create_integrated_farming | NAME: Create: Integrated Farming
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=19
+  DESC: Integrated farming automation for Create
+
+FILE: create-new-age-1.2.0+neoforge-mc1.21.1.jar
+  ID: create_new_age | NAME: Create: New Age
+  DATA: True | DT: MATCH_VERSION | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: An addon for the Create mod that adds integration with electricity
+
+FILE: create-stuff-additions1.21.1_v2.1.4a.jar
+  ID: create_sa | NAME: Create Stuff 
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: Create Stuff & Additions is a mod that uses the resources of Create to offer a new set of equipment,
+
+FILE: create_ae2recipes-0.2.0+1.21.1.jar
+  ID: create_ae2recipes | NAME: Create: AE2 recipes
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: Create machines can make AE2 items
+
+FILE: create_ars_nouveau_compat-1.21.1-1.1.jar
+  ID: create_ars_nouveau_compat | NAME: Create Ars Nouveau Compat
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: A Create addon for Ars Nouveau
+
+FILE: create_compat_core-1.0.0-neoforge-1.21.1.jar
+  ID: create_compat_core | NAME: Create: Compat Core
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: 
+
+FILE: create_deep_dark-3.0.2-neoforge-1.21.1.jar
+  ID: create_deep_dark | NAME: Create: Deep Dark
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: A Create addon featuring new end-game items based on the deep dark biome, giving new incentives to v
+
+FILE: create_factory-0.7a-1.21.1.jar
+  ID: create_factory | NAME: Create: Factory
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: 
+
+FILE: create_heat_js-1.21.1-0.0.6.jar
+  ID: create_heat_js | NAME: CreateHeatJS
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=1, server=0, common=5
+  DESC: 
+
+FILE: create_jetpack_curios-1.2.0-neoforge-1.21.1.jar
+  ID: create_jetpack_curios | NAME: Create: Jetpack Curios
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: Use backtanks and jetpacks in your back curios/trinket slot.
+
+FILE: create_ltab-4.0.3.jar
+  ID: create_ltab | NAME: Create Let The Adventure Begin
+  DATA: True | DT: None | DEP_SIDE: None | ENV: *
+  MIXINS: client=0, server=0, common=0
+  DESC: Create: Let The Adventure Begin adds Structures 62 unique structures, New Loot, a chance to fish cre
+
+FILE: create_pillagers_arise NeoForge 1.21.1-132.36.jar
+  ID: create_pillagers_arise | NAME: Create: Pillagers Arise
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: \u00A73Create: Pillagers Arise is a thrilling structure mod that combines the mechanical ingenuity o
+
+FILE: create_power_loader-2.0.5-mc1.21.1.jar
+  ID: create_power_loader | NAME: Create: Power Loader
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=4
+  DESC: Mechanical chunk loaders for Create.
+
+FILE: create_sky_village-0.0.38 NeoForge 1.21.1.jar
+  ID: create_sky_village | NAME: Create: Sky Village
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: Let the villagers have a village in the sky! Want some Create loot?
+
+FILE: create_sophback_compat-1.0.jar
+  ID: create_sophback_compat | NAME: Create Oh The Biomes We ve Gone Compat
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: A Create addon for Oh The Biomes We ve Gone
+
+FILE: create_structures_arise-176.49.48 NeoForge 1.21.1.jar
+  ID: create_structures_arise | NAME: Create: Structures Arise
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: \u00A7eComplete your world with create: structures arise. more create loot for you to enjoy!  See al
+
+FILE: create_structures_overhaul-1.4.0-neoforge-1.21.1.jar
+  ID: create_structures_overhaul | NAME: Create: Structures Overhaul
+  DATA: True | DT: IGNORE_SERVER_VERSION | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: This mod adding some structures to create mod
+
+FILE: create_ultimate_factory-2.2.4-neoforge-1.21.1.jar
+  ID: create_ultimate_factory | NAME: Create: Ultimate Factory
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: An addon for the Create mod developed to increase automation possibilities, adding 30 (reasonably) b
+
+FILE: create_wizardry-1.21.1-0.5.1-pre1.jar
+  ID: create_wizardry | NAME: Create: Wizardry
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=9
+  DESC: This is an addon mod for Create adding enhanced compatibility with Iron
+
+FILE: createaeronauticscurios-neoforge-1.21.1-2.2.jar
+  ID: aeronautics_curios_compat | NAME: Create Aeronautics Curios Compat
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=3
+  DESC: Adds Curios slot and rendering support to the Create Aeronautics Aviator Goggles, and remote LinkedT
+
+FILE: createappliedkinetics-1.5.4-1.21.1.jar
+  ID: createappliedkinetics | NAME: Create: Applied Kinetics
+  DATA: True | DT: MATCH_VERSION | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: Yes
+
+FILE: createbb-4.0.1.jar
+  ID: createbb | NAME: Create: Broken Bad
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: Experience a new field of science with Create.
+
+FILE: createdieselgenerators-1.21.1-1.3.15.jar
+  ID: createdieselgenerators | NAME: Create Diesel Generators
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=3, server=0, common=12
+  DESC: Diesel Generators, Oil processing.
+
+FILE: CreateDragonsPlus-1.11.9.jar
+  ID: create_dragons_plus | NAME: Create: Dragons Plus
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=4, server=0, common=35
+  DESC: Library mod for DragonsPlusMinecraft Create-addons.
+
+FILE: createenchantablemachinery-3.6.0+mc1.21.1-neoforge.jar
+  ID: createenchantablemachinery | NAME: Create: Enchantable Machinery
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=15
+  DESC: This mod allows you to enchant various blocks added with Create.
+
+FILE: createmetalwork-2.0.0.jar
+  ID: createmetalwork | NAME: Create: Metalwork
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: An Addon for Create that introduces new fluids and crushed ores that can be used to increase the num
+
+FILE: crystal_chronicles-0.0.9.jar.disabled
+  ID: crystal_chronicles | NAME: CrystalChronicles
+  DATA: True | DT: MATCH_VERSION | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: 
+
+FILE: cupboard-1.21.1-3.9.jar
+  ID: cupboard | NAME: Cupboard mod
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=5
+  DESC: Cupboard library for utilities and configs
+
+FILE: curios-neoforge-9.5.1+1.21.1.jar
+  ID: curios | NAME: Curios API
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=13
+  DESC: A flexible and expandable accessory/equipment API for users and developers.
+
+FILE: darkerdepths-2.1.4.jar
+  ID: darkerdepths | NAME: Darker Depths
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=1, server=0, common=4
+  DESC: A mod to expand the underground  Author: - Naterbobber  Main Developers: - Naterbobber - Orcinus - B
+
+FILE: darkermagic-1.3.3-1.21.1-ver.b.jar
+  ID: darkermagic | NAME: Deeper and Darker: Spellbooks
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: An Addon between Deeper and Darker and Iron
+
+FILE: deeperdarker-neoforge-1.21.1-1.4.1.jar
+  ID: deeperdarker | NAME: Deeper and Darker
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=1, server=0, common=8
+  DESC: A Minecraft mod featuring new blocks, items, armor, and hidden mysteries to complement the Deep Dark
+
+FILE: delightfulcreators-1.2.jar
+  ID: delightfulcreators | NAME: Delightful Creators
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: Making automation between Farmer
+
+FILE: denseflower-1.0.0.jar
+  ID: denseflower | NAME: Dense Flowers
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=4, server=0, common=0
+  DESC: A Fabric mod that makes flowers fields look denser, ported to Neoforge by owen233666
+
+FILE: DistantHorizons-3.3.2-1.21.1-fabric-neoforge.jar
+  ID: distanthorizons | NAME: Distant Horizons
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: *
+  MIXINS: client=29, server=0, common=14
+  DESC: This mod generates and renders simplified terrain beyond the normal view distance at a low performan
+
+FILE: DnDesires-1.21.1-2.3a-BETA.jar
+  ID: dndesires | NAME: Create: Dreams n
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=18
+  DESC: A mod of Qol
+
+FILE: dodospyglass-1.0.0-neoforge+1.21.1-SNAPSHOT.jar
+  ID: curios | NAME: DodoSpyglass
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=2
+  DESC: Adds a Curios equipment slot for the Spyglass, letting you zoom hands-free with a keybind.
+
+FILE: does_it_tick-neoforge-1.1.4-1.21.1.jar
+  ID: does_it_tick | NAME: Does It Tick?
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: Entity Ticking Performance Mod
+
+FILE: domum-ornamentum-1.0.233-snapshot-main.jar
+  ID: domum_ornamentum | NAME: Domum Ornamentum
+  DATA: True | DT: None | DEP_SIDE: None | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: Home decorations made easy. Out of several materials
+
+FILE: Draconic-Evolution-1.21.1-3.1.4.632.jar
+  ID: draconicevolution | NAME: Draconic Evolution
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: 
+
+FILE: dragonfight-1.21-4.7.jar
+  ID: dragonfight | NAME: dragonfight mod
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=6
+  DESC: dragonfight mod
+
+FILE: dragonloot-1.1.15-1.21.1-neoforge.jar
+  ID: dragonloot | NAME: DragonLoot
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=6, server=0, common=9
+  DESC: Adds loot for the Ender Dragon.
+
+FILE: dungeons-and-taverns-v4.4.4 [NeoForge].jar
+  ID: mr_dungeons_andtaverns | NAME: Dungeons and Taverns
+  DATA: True | DT: None | DEP_SIDE: None | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: A Structure Datapack adding dungeons, taverns and other structures to find while you explore the wor
+
+FILE: DungeonsArise-1.21.1-2.1.68-release.jar
+  ID: dungeons_arise | NAME: When Dungeons Arise
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: Elegant - and likely dangerous - structures and roguelike dungeons to lose yourself in...
+
+FILE: DungeonsAriseSevenSeas-1.21.x-1.0.4-neoforge.jar
+  ID: dungeons_arise_seven_seas | NAME: When Dungeons Arise: Seven Seas
+  DATA: True | DT: None | DEP_SIDE: SERVER | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: Elegant - and likely dangerous - vessels lost in the seven seas...
+
+FILE: dynamic-fps-3.7.7+minecraft-1.21.0-neoforge.jar
+  ID: dynamic_fps | NAME: Dynamic FPS
+  DATA: False | DT: IGNORE_ALL_VERSION | DEP_SIDE: CLIENT | ENV: None
+  MIXINS: client=10, server=0, common=0
+  DESC: Reduce resource usage while Minecraft is in the background or idle.
+
+FILE: dynamic_difficulty-neoforge-1.1.1+1.21.1.jar
+  ID: dynamic_difficulty | NAME: Dynamic Difficulty
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=8
+  DESC: It
+
+FILE: EasyAnvils-v21.1.0-1.21.1-NeoForge.jar
+  ID: easyanvils | NAME: Easy Anvils
+  DATA: True | DT: MATCH_VERSION | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=2
+  DESC: Be ready for overhauled anvils! Items stay, better name tags, many tweaks!
+
+FILE: efficient_hashing-neoforge-1.0.0+1.21.1-mod.jar
+  ID: efficient_hashing | NAME: Efficient Hashing
+  DATA: False | DT: None | DEP_SIDE: None | ENV: None
+  MIXINS: client=0, server=0, common=1
+  DESC: Better hashing algorithm for Vec3i & BlockPos
+
+FILE: emf_compat_better_combat_1.21.1_1.1.0.jar
+  ID: emf_compat_better_combat | NAME: EMF Compat: Better Combat
+  DATA: False | DT: None | DEP_SIDE: CLIENT | ENV: None
+  MIXINS: client=6, server=0, common=0
+  DESC: Restores Better Combat attack poses after EMF animation, so weapon swing animations are not overwrit
+
+FILE: emf_compat_core-1.1.2.jar
+  ID: emf_compat_core | NAME: EMF Compat: Core
+  DATA: False | DT: None | DEP_SIDE: CLIENT | ENV: None
+  MIXINS: client=2, server=0, common=0
+  DESC: Core framework for EMF Compat. Provides animation pause / vanilla-model conditions and pose capture 
+
+FILE: enchdesc-neoforge-1.21.1-21.1.10.jar
+  ID: enchdesc | NAME: EnchantmentDescriptions
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=2, server=0, common=0
+  DESC: Adds descriptions of enchantment effects to their descriptions.
+
+FILE: enderio-8.2.11-beta.jar
+  ID: enderio | NAME: Ender IO
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=2, server=0, common=3
+  DESC: Compact conduits, painted things and all sorts of stuff and bling. This is the monolithic jar, conta
+
+FILE: endersdelight-1.3.0.jar
+  ID: endersdelight | NAME: Ender
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: An addon for Farmer
+
+FILE: engineers_delight-neoforge-1.21.1-2.0.1.jar
+  ID: tmted | NAME: Engineers Delight
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: Compatibility Mod between Immersive Engineering and Farmer
+
+FILE: enigmatic_arcana-1.1.0.jar
+  ID: enigmatic_arcana | NAME: Enigmatic Arcana
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: An Iron
+
+FILE: entity_model_features-3.2.4-1.21-neoforge.jar
+  ID: entity_model_features | NAME: Entity Model Features
+  DATA: False | DT: None | DEP_SIDE: CLIENT | ENV: None
+  MIXINS: client=58, server=0, common=0
+  DESC: This is an expansion of the ETF mod, it adds support for OptiFine format Custom Entity Model (CEM) r
+
+FILE: entity_texture_features_1.21-neoforge-7.1.jar
+  ID: entity_texture_features | NAME: Entity Texture Features
+  DATA: False | DT: None | DEP_SIDE: CLIENT | ENV: None
+  MIXINS: client=32, server=0, common=17
+  DESC: Adds support for resource-pack driven features for entity textures including some OptiFine features 
+
+FILE: entityculling-neoforge-1.10.5-mc1.21.1.jar
+  ID: entityculling | NAME: EntityCulling
+  DATA: False | DT: IGNORE_ALL_VERSION | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=9, server=0, common=0
+  DESC: This mod uses async path-tracing to hide Tiles/Entities that are not visible.
+
+FILE: entityjs-1.5.0.jar
+  ID: entityjs | NAME: EntityJS
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=3, server=0, common=11
+  DESC: Entity Registry Addon Mod For KubeJS
+
+FILE: ess_requiem-0.1.6.jar
+  ID: ess_requiem | NAME: Ender
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: An addon for Iron
+
+FILE: Essential_1-5-0-1_neoforge_1-21-1.jar
+  ID: None | NAME: None
+  DATA: False | DT: None | DEP_SIDE: None | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: 
+
+FILE: EvoLoginTimeout-NeoForge-1.21.1-1.0.9.jar
+  ID: evologintimeout | NAME: EvoLoginTimeout
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=3, server=0, common=5
+  DESC: NeoForge client + server mod that increases login/configuration/common/protocol transition timeouts 
+
+FILE: evolution-1.21.1-1.8.jar
+  ID: evolution | NAME: Evolution mod
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=9
+  DESC: Evolution mod adds evolutionary traits to entities
+
+FILE: ExplorersCompass-1.21.1-3.4.0-neoforge.jar
+  ID: explorerscompass | NAME: Explorer
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: Search for and locate structures anywhere in the world.
+
+FILE: explosiveenhancement-neoforge-1.21.1-1.1.2.jar
+  ID: explosiveenhancement | NAME: Explosive Enhancement
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=2, server=0, common=0
+  DESC: Explosive Enhancement.
+
+FILE: fallen_gems_affixes-1.21.1-1.0.0.jar
+  ID: fallen_gems_affixes | NAME: Fallen Gems Affixes
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=5
+  DESC: An Apotheosis addon focusing on integration and compatibility
+
+FILE: FallingTree-1.21.1-1.21.1.11.jar
+  ID: fallingtree | NAME: FallingTree
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: *
+  MIXINS: client=0, server=0, common=2
+  DESC: Change the way you cut trees.
+
+FILE: fantasy_armor-neoforge-1.2.4-1.21.1.jar
+  ID: fantasy_armor | NAME: Fantasy Armor
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: Welcome to the world of fantasy equipment! This mod adds awesome armor sets that will diversify your
+
+FILE: FarmersDelight-1.21.1-1.3.2.jar
+  ID: farmersdelight | NAME: Farmer
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=2, server=0, common=12
+  DESC: A cozy farming and cooking expansion for Minecraft!
+
+FILE: FarmersStructures-1.0.6-1.21.1_neoforge.jar
+  ID: farmers_structures | NAME: FarmersStructures
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: 
+
+FILE: fastboot-1.21.x-v1.3neo.jar
+  ID: fastboot | NAME: FastBoot
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=3
+  DESC: FastBoot reduces loading time, providing players with swift access to gameplay.
+
+FILE: FastSuite-1.21.1-6.0.7.jar.disabled
+  ID: fastsuite | NAME: Fast Suite
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=1, server=0, common=4
+  DESC: Introduces multithreading to the json recipe system.
+
+FILE: fdlib-1.0.9-1.21.1.jar
+  ID: fdlib | NAME: FDLib
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=12, server=0, common=1
+  DESC: A library with some cool features. Idk what other things to write here.
+
+FILE: featurify-neoforge-1.0.4+mc1.21.1.jar
+  ID: featurify | NAME: Featurify
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=9, server=0, common=4
+  DESC: A worldgen feature configuration mod that eliminates the need for datapacks. Add, remove, and tweak 
+
+FILE: ferritecore-7.0.3-neoforge.jar
+  ID: ferritecore | NAME: Ferrite Core
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=9, server=0, common=11
+  DESC: Reduces memory usage.
+
+FILE: findme-3.3.3-neoforge.jar
+  ID: findme | NAME: FindMe
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=1, server=0, common=1
+  DESC: FindMe allows you to search for items in nearby inventories by pressing a key.
+
+FILE: firesenderexpansion-2.4.1.jar
+  ID: firesenderexpansion | NAME: Fire
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=1, server=0, common=3
+  DESC: Adds several new ender spells, and a new casting implement.
+
+FILE: fragmentum-neoforge-1.21.1-2.2.4.jar
+  ID: fragmentum | NAME: Fragmentum
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=2, server=0, common=3
+  DESC: The lightweight framework for the Obscuria Collection cross-platform mods.
+
+FILE: framework-neoforge-1.21.1-0.13.11.jar
+  ID: framework | NAME: Framework
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: A library providing powerful utilities for developers
+
+FILE: freecam-neoforge-1.3.0+mc1.21.jar
+  ID: freecam | NAME: Freecam
+  DATA: False | DT: None | DEP_SIDE: CLIENT | ENV: None
+  MIXINS: client=17, server=0, common=0
+  DESC: A highly customizable freecam mod.
+
+FILE: friendsandfoes-neoforge-4.0.26+mc1.21.1.jar
+  ID: friendsandfoes | NAME: Friends&Foes
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=3, server=0, common=48
+  DESC: Adds outvoted and forgotten mobs from the mob vote, expanding on their original concepts and introdu
+
+FILE: ftb-chunks-neoforge-2101.1.21.jar
+  ID: ftbchunks | NAME: FTB Chunks
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=3, server=0, common=9
+  DESC: Claim chunks to protect your base from griefers!
+
+FILE: ftb-filter-system-neoforge-21.1.4.jar
+  ID: ftbfiltersystem | NAME: FTB Filter System
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: Smart and highly configurable item filtering system with useful GUI configuration
+
+FILE: ftb-library-neoforge-2101.1.35.jar
+  ID: ftblibrary | NAME: FTB Library
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=1, server=0, common=4
+  DESC: FTB Library adds nothing.
+
+FILE: ftb-quests-neoforge-2101.1.31.jar
+  ID: ftbquests | NAME: FTB Quests
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=1, server=0, common=1
+  DESC: Lets you easily create and play with quests
+
+FILE: ftb-teams-neoforge-2101.1.10.jar
+  ID: ftbteams | NAME: FTB Teams
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: FTB Teams adds ability to create your own teams that can be used for quests etc.
+
+FILE: ftb-xmod-compat-neoforge-21.1.10.jar
+  ID: ftbxmodcompat | NAME: FTB XMod Compat
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=2
+  DESC: Provides cross-mod compatibilty/integration for all main FTB mods
+
+FILE: fwa+1.21.1-neoforge-1.2.31.jar
+  ID: fwa | NAME: Fancy World Animations
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=12, server=0, common=0
+  DESC: Adds a bunch of animations to blocks
+
+FILE: fzzy_config-0.7.6+1.21+neoforge.jar
+  ID: fzzy_config | NAME: Fzzy Config
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: Configuration engine with automatic GUI generation, client-server syncing, powerful validation and e
+
+FILE: gatesofavarice-1.0.0.jar
+  ID: gatesofavarice | NAME: Gates Of Avarice
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: An expansion framework for Gateways to Eternity with crystals, augments, catalysts, and a Gateway Wo
+
+FILE: GatewaysToEternity-1.21.1-5.1.0.jar
+  ID: gateways | NAME: Gateways To Eternity
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=1
+  DESC: Adds combat-based events which provide various rewards and challenges.
+
+FILE: geckolib-neoforge-1.21.1-4.9.3.jar
+  ID: geckolib | NAME: GeckoLib 4
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=4, server=0, common=3
+  DESC: GeckoLib is an animation engine for Minecraft Mods, with support for complex 3D keyframe-based anima
+
+FILE: ghastscrash-neoforge-1.21.1.jar
+  ID: ghastscrashneoforge | NAME: GhastsCrashNeoForge
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: 
+
+FILE: Gobber-NeoForge-1.21.1-2.10.15.jar
+  ID: gobber2 | NAME: Gobber for NeoForge
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=1
+  DESC: Adds lots of armor, tools, weapons, and OP items
+
+FILE: goblintraders-neoforge-1.21.1-1.11.2.jar
+  ID: goblintraders | NAME: Goblin Traders
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=2
+  DESC: Adds goblins that have unique trades to improve your adventure!
+
+FILE: GoodEnding-1.21.1-1.1.1-NeoForge.jar
+  ID: goodending | NAME: GoodEnding
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=12
+  DESC: This mod aims to revitalise Minecraft
+
+FILE: guardvillagers-2.4.10-1.21.1.jar.disabled
+  ID: guardvillagers | NAME: Guard Villagers
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=1, server=0, common=3
+  DESC: Need some help with pest control? The Guards are ready to help!
+
+FILE: guideme-21.1.17.jar
+  ID: guideme | NAME: GuideME
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=1, server=0, common=0
+  DESC: GuideME offers the foundation for your mods or modpacks guidebook.
+
+FILE: hazentouvelib-1.0.8.jar
+  ID: hazentouvelib | NAME: HazentouveLib
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=1
+  DESC: Hazen Lib for my mods
+
+FILE: healight-neoforge-1.21.1-1.0.1.jar
+  ID: healight | NAME: Healight
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=1, server=0, common=1
+  DESC: Enhances the existing damage flash by adding green glow when entities heal, providing better visual 
+
+FILE: healthbars-dd-compat-0.3.0+1.21.1.jar
+  ID: healthbars_dd_compat | NAME: Health Bars Dynamic Difficulty Compat
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=1
+  DESC: Adds Dynamic Difficulty level display to Health Bars.
+
+FILE: HealthBars-v21.1.0-1.21.1-NeoForge.jar
+  ID: healthbars | NAME: Health Bars
+  DATA: False | DT: IGNORE_ALL_VERSION | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: See every mob
+
+FILE: heavier_weapons-1.21.1-NeoForge-1.1.0.jar
+  ID: heavier_weapons | NAME: Heavier Weapons
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=4, server=0, common=2
+  DESC: Adds hitstop, camera shake, and entity freeze effects on weapon impact.
+
+FILE: ice_and_fire_spellbooks-2.3.3-1.21.1.jar.disabled
+  ID: ice_and_fire_spellbooks | NAME: Ice and Fire: Spellbooks
+  DATA: True | DT: MATCH_VERSION | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: Adds compatibility with Iron
+
+FILE: iceandfire-2.1-beta.3.jar
+  ID: iceandfire | NAME: Ice And Fire Community Edition
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=3, server=0, common=5
+  DESC: An unofficial fork of Ice And Fire. Dragons and other mythological creatures in minecraft.
+
+FILE: iceandfirexbettercombat-1.21.1.jar
+  ID: iceandfirexbettercombat | NAME: iceandfirexbettercombat
+  DATA: True | DT: None | DEP_SIDE: None | ENV: *
+  MIXINS: client=0, server=0, common=0
+  DESC: Adds compat between ice and fire and better combat
+
+FILE: IDA v2.1.1-1.21.1.jar
+  ID: integrated_dungeons_arise | NAME: Integrated Dungeons Arise
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: Integrated Dungeons Arise is a Datapack that overhauls WDA with integration
+
+FILE: idas-1.13.7+1.21.1-neoforge.jar
+  ID: idas | NAME: Integrated Dungeons and Structures
+  DATA: True | DT: None | DEP_SIDE: None | ENV: None
+  MIXINS: client=0, server=0, common=5
+  DESC: Integrated Dungeons and Structures (aka IDAS) is a mod that adds heavily detailed structures using b
+
+FILE: IllagerInvasion-v21.1.6-1.21.1-NeoForge.jar
+  ID: illagerinvasion | NAME: Illager Invasion
+  DATA: True | DT: MATCH_VERSION | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=1, server=0, common=5
+  DESC: The illagers are back! Be ready to fight new foes. A port of Illager Expansion.
+
+FILE: illagersweararmor-1.21.1-2.4.0.jar
+  ID: illagersweararmor | NAME: Illagers Wear Armor
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: Illagers wear armor
+
+FILE: ImmediatelyFast-NeoForge-1.6.11+1.21.1.jar
+  ID: immediatelyfast | NAME: ImmediatelyFast
+  DATA: False | DT: None | DEP_SIDE: CLIENT | ENV: None
+  MIXINS: client=37, server=0, common=0
+  DESC: Speed up and optimize immediate mode rendering in Minecraft
+
+FILE: immersive_armors-1.7.6+1.21.1-neoforge.jar
+  ID: immersive_armors | NAME: Immersive Armors
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=4, server=0, common=2
+  DESC: A lot of unique and vanilla-faithful armor sets.
+
+FILE: immersive_engineering_js-2101.1.1.jar
+  ID: immersive_engineering_js | NAME: Immersive Engineering JS
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=2
+  DESC: kubejs compat for ie
+
+FILE: ImmersiveEngineering-1.21.1-12.4.2-194.jar
+  ID: immersiveengineering | NAME: Immersive Engineering
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=15, server=0, common=31
+  DESC: A tech based mod focused on realism.
+
+FILE: ImmersiveUI-NEOFORGE-0.3.3+1.21.1.jar
+  ID: immersiveui | NAME: ImmersiveUI
+  DATA: False | DT: None | DEP_SIDE: CLIENT | ENV: None
+  MIXINS: client=15, server=0, common=0
+  DESC: Makes your UI flashy :D
+
+FILE: Incendium_1.21.x_v5.4.4.jar
+  ID: incendium | NAME: Incendium
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: *
+  MIXINS: client=0, server=0, common=0
+  DESC: A nether biome overhaul combined with challenging structures to conquer, unique weapons to obtain, a
+
+FILE: incrementalmining-1.21.1-1.5.jar.disabled
+  ID: incrementalmining | NAME: Incremental Mining
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=5, server=0, common=0
+  DESC: A satisfying overhaul to Minecraft
+
+FILE: integrated_api-1.7.4+1.21.1-neoforge.jar
+  ID: integrated_api | NAME: Integrated API
+  DATA: True | DT: None | DEP_SIDE: None | ENV: None
+  MIXINS: client=2, server=0, common=27
+  DESC: Library mod for the Integrated Structures series
+
+FILE: integrated_cataclysm-1.0.6+1.21.1-neoforge.jar
+  ID: integrated_cataclysm | NAME: Integrated Cataclysm
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: Integrated Cataclysm integrates blocks from other mods in Cataclysm
+
+FILE: integrated_simply_swords-1.4.0+1.21.1-neoforge.jar
+  ID: integrated_simply_swords | NAME: Integrated Simply Swords
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=3
+  DESC: Additional swords for Simply Swords.
+
+FILE: integrated_stronghold-1.1.4+1.21.1-neoforge.jar
+  ID: integrated_stronghold | NAME: Integrated Stronghold
+  DATA: True | DT: None | DEP_SIDE: None | ENV: None
+  MIXINS: client=0, server=0, common=2
+  DESC: Adds integrated and drastically improves the Stronghold structure!
+
+FILE: integrated_villages-1.3.3+1.21.1-neoforge.jar
+  ID: integrated_villages | NAME: Integrated Villages
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=2
+  DESC: Adds integration and drastically improves Minecraft Villages!
+
+FILE: iris-neoforge-1.8.12+mc1.21.1.jar.disabled
+  ID: iris | NAME: Iris
+  DATA: False | DT: None | DEP_SIDE: CLIENT | ENV: None
+  MIXINS: client=18, server=0, common=0
+  DESC: Iris is a modern shaders mod for Minecraft intended to be compatible with existing OptiFine shader p
+
+FILE: irons_apothic-2.2.1.jar
+  ID: irons_apothic | NAME: Iron
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=3
+  DESC: Compatibility between Apotheosis and Iron
+
+FILE: irons_apothic_invaders_1.0.0.jar
+  ID: irons_apothic_invaders | NAME: Iron
+  DATA: True | DT: None | DEP_SIDE: None | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: Adds Iron
+
+FILE: irons_jewelry-1.21.1-1.6.1.1.jar
+  ID: irons_jewelry | NAME: Iron
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=3
+  DESC: Iron
+
+FILE: irons_lib-1.21.1-1.0.2.jar
+  ID: irons_lib | NAME: Iron
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=6, server=0, common=1
+  DESC: Provides common functionality and content for Iron431
+
+FILE: irons_spellbooks-1.21.1-3.15.6.jar
+  ID: irons_spellbooks | NAME: Iron
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=10, server=0, common=20
+  DESC: A magic mod for Minecraft returning to the classic RPG spellcasting fantasy.
+
+FILE: irons_spells_js-4.0.3.jar
+  ID: irons_spells_js | NAME: Iron
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=5
+  DESC: Allows you to create custom spells for Iron
+
+FILE: ISS-1.21.1.jar
+  ID: integrated_seven_seas | NAME: Integrated Seven Seas
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: Integrated Seven Seas is a Datapack that overhauls When Dungeons Arise - Seven Seas with integration
+
+FILE: Item-Obliterator-NeoForge-MC1.21.1-2.3.0.jar
+  ID: item_obliterator | NAME: Item Obliterator
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=6
+  DESC: Allows to remove items!
+
+FILE: Ixeris-4.4.1+1.21.1-neoforge.jar
+  ID: ixeris_dummy | NAME: Ixeris
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: Buffered raw input and threaded event polling
+
+FILE: Jade-1.21.1-NeoForge-15.10.5.jar
+  ID: jade | NAME: Jade
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=3, server=0, common=3
+  DESC: Minecraft mod shows what you are looking at. (Hwyla fork)
+
+FILE: jauml-neoforge-1.21.1-2.0.0.jar
+  ID: jauml | NAME: Jauml
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: Just Another Utility Minecraft Lib
+
+FILE: jeed-1.21-2.3.3.jar
+  ID: jeed | NAME: Just Enough Effects Descriptions
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=2, server=0, common=0
+  DESC: REI/JEI/EMI addon that shows effects and their descriptions
+
+FILE: jei-1.21.1-neoforge-19.43.0.393.jar
+  ID: jei | NAME: Just Enough Items
+  DATA: False | DT: IGNORE_SERVER_VERSION | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: JEI is an item and recipe viewing mod for Minecraft, built from the ground up for stability and perf
+
+FILE: jeiworldgen-neoforge-1.21.1-1.4.1.jar
+  ID: jeiworldgen | NAME: JEIWorldGen
+  DATA: False | DT: NONE | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=15
+  DESC: WorldGen Info Pages for JustEnoughItems (JEI)
+
+FILE: jupiter-2.3.7-1.21.1-neoforge.jar
+  ID: jupiter | NAME: Jupiter
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=1, server=0, common=1
+  DESC: A powerful, auto sync config library.
+
+FILE: JustEnoughBeacons-NeoForge-1.21-1.3.0.jar
+  ID: just_enough_beacons | NAME: Just Enough Beacons
+  DATA: False | DT: IGNORE_ALL_VERSION | DEP_SIDE: CLIENT | ENV: None
+  MIXINS: client=2, server=0, common=0
+  DESC: JEI addon to display useful information about beacons.
+
+FILE: justenoughbreeding-neoforge-1.21.1-3.2.1.jar
+  ID: justenoughbreeding | NAME: Just Enough Breeding
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: JEI/REI/EMI plugin that displays breeding information
+
+FILE: JustEnoughProfessions-neoforge-1.21.1-4.0.5.jar
+  ID: justenoughprofessions | NAME: Just Enough Professions (JEP)
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: Adds info about professions to JEI
+
+FILE: JustEnoughResources-NeoForge-1.21.1-1.6.0.17.jar
+  ID: jeresources | NAME: Just Enough Resources
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: Adds Resources and Mob Drops to JEI
+
+FILE: kjscauto-0.8.0-beta-neoforge.jar
+  ID: kjscauto | NAME: KubeJS Create Automation
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=11
+  DESC: A KubeJS addon for modifying Create mod kinetic blocks.
+
+FILE: kotlinforforge-5.11.0-all.jar
+  ID: None | NAME: None
+  DATA: False | DT: None | DEP_SIDE: None | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: 
+
+FILE: krypton_fnp-neoforge-1.21.1-0.2.28.1-1.21.1.jar
+  ID: krypton_fnp | NAME: Krypton FNP
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=1, server=0, common=12
+  DESC: Provides powerful network optimization capabilities for all mainstream systems.
+
+FILE: kubejs-create-neoforge-2101.3.1-build.18.jar
+  ID: kubejs_create | NAME: KubeJS Create
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=2
+  DESC: KubeJS Create integration
+
+FILE: kubejs-mekanism-neoforge-2101.1.7-build.18.jar
+  ID: kubejs_mekanism | NAME: KubeJS Mekanism
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: KubeJS Mekanism integration
+
+FILE: kubejs-neoforge-2101.7.2-build.368.jar
+  ID: kubejs | NAME: KubeJS
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=17, server=0, common=69
+  DESC: Customize your modpack or server with JavaScript!
+
+FILE: kubejs_curios_neoforge_1.21.1-1.0.4.jar
+  ID: kubejs_curios | NAME: KubeJSCurios
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=6
+  DESC: 
+
+FILE: kubejs_enderio-neoforge-1.21.1-0.13.0.jar
+  ID: kubejs_enderio | NAME: KubeJS EnderIO
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=5
+  DESC: KubeJS integration for EnderIO.
+
+FILE: kubejs_rarity-1.21.1-1.0.0+neoforge.jar
+  ID: kubejs_rarity | NAME: KubeJS Custom Rarity
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=1
+  DESC: Adds ability to create custom rarities via KubeJS
+
+FILE: kubejsarsnouveau-1.3.2.jar
+  ID: kubejsarsnouveau | NAME: kubejsarsnouveau
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: 
+
+FILE: kubejsde-1.21.1-1.1.0.jar
+  ID: kubejsde | NAME: KubeJS Draconic Evolution
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: Kubejs and Draconic Evolution compat.
+
+FILE: kubejsdelight-1.1.6.jar
+  ID: kubejsdelight | NAME: KubeJSDelight
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: FD integration for KubeJS
+
+FILE: L_Ender's Cataclysm 1.21.1-3.27.jar
+  ID: cataclysm | NAME: L_Ender
+  DATA: True | DT: MATCH_VERSION | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=3, server=0, common=20
+  DESC: https://www.curseforge.com/minecraft/texture-packs/cataclysmic-tunes
+
+FILE: lambdynamiclights-4.8.8+1.21.1.jar
+  ID: lambdynlights | NAME: LambDynamicLights
+  DATA: False | DT: None | DEP_SIDE: CLIENT | ENV: client
+  MIXINS: client=0, server=0, common=0
+  DESC: The most feature-complete dynamic lighting mod.
+
+FILE: leaky-1.21-3.3.jar
+  ID: leaky | NAME: leaky mod
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=5
+  DESC: Improve item performance and detects, reports and removes too many stacked items.
+
+FILE: lendersdelight-1.21.1-1.0.10.jar
+  ID: lendersdelight | NAME: L_Ender 
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: Adds 50+ foods, linking L_Ender
+
+FILE: letmedespawn-1.21.x-neoforge-1.5.0.jar
+  ID: letmedespawn | NAME: Let Me Despawn
+  DATA: False | DT: None | DEP_SIDE: SERVER | ENV: None
+  MIXINS: client=0, server=0, common=1
+  DESC: Tweaks mob despawn rules to prevent accidental persistent mobs to increase performance.
+
+FILE: levelup-3.1.jar
+  ID: levelup | NAME: LevelUP
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: LevelUP is a lightweight shared progression framework mod.
+
+FILE: libertyvillagers-1.21.1-NeoForge-1.0.2.jar
+  ID: libertyvillagers | NAME: Liberty
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=3, server=0, common=43
+  DESC: 
+
+FILE: libraryferret-neoforge-1.21.1-4.0.0.jar
+  ID: libraryferret | NAME: Library ferret
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: Shared code for my mod.
+
+FILE: lionfishapi-2.8.jar
+  ID: lionfishapi | NAME: lionfishapi
+  DATA: False | DT: MATCH_VERSION | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=1, server=0, common=1
+  DESC: 
+
+FILE: lithium-neoforge-0.15.3+mc1.21.1.jar
+  ID: lithium | NAME: Lithium
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=6, server=0, common=234
+  DESC: Lithium is a free and open-source optimization mod for Minecraft which makes a wide range of perform
+
+FILE: LocatorBar-neoforge-1.2.2+1.21.1.jar
+  ID: locatorbar | NAME: Locator Bar
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=4, server=0, common=1
+  DESC: Reworked concept of a player locator bar for Minecraft. Simple, clean bar at the top of your screen.
+
+FILE: lodestone-1.21.1-1.8.2.jar
+  ID: lodestone | NAME: Lodestone
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=12, server=0, common=3
+  DESC: A library containing various utilities.
+
+FILE: logprot-1.21-3.5.jar
+  ID: logprot | NAME: Logprot
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=2
+  DESC: Login protection mod which protects the player form damage during login.
+
+FILE: Loot Beams Refork-neoforge-1.21.1-3.4.7.jar
+  ID: neoforge | NAME: Loot Beams Refork
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=16, server=0, common=4
+  DESC: Loot items, guided by light!
+
+FILE: lootintegration_townsandtowers-1.4.jar
+  ID: lootintegration_townsandtowers | NAME: lootintegration_townsandtowers mod
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: *
+  MIXINS: client=0, server=0, common=0
+  DESC: lootintegration_townsandtowers mod
+
+FILE: lootintegration_wda-1.8.jar
+  ID: lootintegration_wda | NAME: lootintegration_wda mod
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: *
+  MIXINS: client=0, server=0, common=0
+  DESC: lootintegration_wda mod
+
+FILE: lootintegrations-1.21.1-4.7.jar
+  ID: lootintegrations | NAME: Lootintegrations mod
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=3
+  DESC: Integrates items from loottables into other loottables for intermod loot compatibility
+
+FILE: lootintegrations_cataclysm-1.2.jar
+  ID: lootintegrations_cataclysm | NAME: lootintegrations_cataclysm mod
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: *
+  MIXINS: client=0, server=0, common=0
+  DESC: lootintegrations_cataclysm mod
+
+FILE: lootintegrations_dnt-2.6.jar
+  ID: lootintegrations_dnt | NAME: lootintegrations_dnt mod
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: *
+  MIXINS: client=0, server=0, common=0
+  DESC: lootintegrations_dnt mod
+
+FILE: lootintegrations_dungeonsenhanced-1.7.jar
+  ID: lootintegrations_dungeonsenhanced | NAME: lootintegrations_dungeonsenhanced mod
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: *
+  MIXINS: client=0, server=0, common=0
+  DESC: lootintegrations_dungeonsenhanced mod
+
+FILE: lootintegrations_iceandfire-1.2.jar
+  ID: lootintegrations_iceandfire | NAME: lootintegrations_iceandfire mod
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: *
+  MIXINS: client=0, server=0, common=0
+  DESC: lootintegrations_iceandfire mod
+
+FILE: lootintegrations_integrated-1.5.jar
+  ID: lootintegrations_integrated | NAME: lootintegrations_integrated mod
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: *
+  MIXINS: client=0, server=0, common=0
+  DESC: lootintegrations_integrated mod
+
+FILE: lootintegrations_lootintegrations_bygonepillage-1.2.jar
+  ID: lootintegrations_bygonepillage | NAME: lootintegrations_bygonepillage mod
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: *
+  MIXINS: client=0, server=0, common=0
+  DESC: lootintegrations_bygonepillage mod
+
+FILE: lootintegrations_moog-2.1.jar
+  ID: lootintegrations_moog | NAME: lootintegrations_moog mod
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: *
+  MIXINS: client=0, server=0, common=0
+  DESC: lootintegrations_moog mod
+
+FILE: lootintegrations_phillipsruins-1.3.jar
+  ID: lootintegrations_phillipsruins | NAME: lootintegrations_phillipsruins mod
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: *
+  MIXINS: client=0, server=0, common=0
+  DESC: lootintegrations_phillipsruins mod
+
+FILE: lootintegrations_structory-1.4.jar
+  ID: lootintegrations_structory | NAME: lootintegrations_structory mod
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: *
+  MIXINS: client=0, server=0, common=0
+  DESC: lootintegrations_structory mod
+
+FILE: lootintegrations_vanilla-1.7.jar
+  ID: lootintegrations_vanilla | NAME: lootintegrations_vanilla mod
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: *
+  MIXINS: client=0, server=0, common=0
+  DESC: lootintegrations_vanilla mod
+
+FILE: lootintegrations_yungs-1.6.jar
+  ID: lootintegrations_yungs | NAME: lootintegrations_yungs mod
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: *
+  MIXINS: client=0, server=0, common=0
+  DESC: lootintegrations_yungs mod
+
+FILE: lootjs-neoforge-1.21.1-3.7.0.jar
+  ID: lootjs | NAME: LootJS
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=20
+  DESC: Modify loot through KubeJS.
+
+FILE: lootr-neoforge-1.21.1-1.11.38.123.jar
+  ID: lootr | NAME: Lootr
+  DATA: True | DT: None | DEP_SIDE: None | ENV: None
+  MIXINS: client=0, server=0, common=33
+  DESC: Generates unique loot for each player that opens a loot container.
+
+FILE: lootr_liason-1.2-neoforge.jar
+  ID: lootr_liason | NAME: Lootr Liason
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=1
+  DESC: Stabilizes structure-generated containers with Lootr: finalization queue, single conversion, and Art
+
+FILE: malum-1.21.1-1.8.2.jar
+  ID: malum | NAME: Malum
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=10, server=0, common=14
+  DESC: A dark magic mod focused on soul and spirit magic.
+
+FILE: Mekanism-1.21.1-10.7.19.85.jar
+  ID: mekanism | NAME: Mekanism
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: Mekanism is a Minecraft add-on featuring high-tech machinery that can be used to create powerful too
+
+FILE: memguard-1.0.4.jar
+  ID: memguard | NAME: MemGuard
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: Adds lightweight heap usage monitoring logs for large modpacks and servers.
+
+FILE: minecolonies-1.1.1300-1.21.1.jar
+  ID: minecolonies | NAME: MineColonies
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: MineColonies is a colony simulator within Minecraft! There are numerous types of workers, and each w
+
+FILE: minecraft-cursor-neoforge-3.11.3+1.21.1.jar
+  ID: minecraft_cursor | NAME: Minecraft Cursor
+  DATA: False | DT: None | DEP_SIDE: CLIENT | ENV: None
+  MIXINS: client=26, server=0, common=0
+  DESC: Configurable Cursor for Minecraft.
+
+FILE: miningspeedtooltips-neoforge-1.0.0-1.21.1.jar
+  ID: miningspeedtooltips | NAME: Mining Speed Tooltips
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: Adds information about harvest speed to all tools.
+
+FILE: mobspropertiesrandomness-6.0.1.3.jar.disabled
+  ID: mobspropertiesrandomness | NAME: Mobs Properties Randomness
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=5
+  DESC: Change many properties to mobs on spawn, and on other events (e.g. on attack, on death). Change prop
+
+FILE: modernfix-neoforge-5.27.20+mc1.21.1.jar
+  ID: modernfix | NAME: ModernFix
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=68, server=0, common=87
+  DESC: Egregious, yet effective performance improvements for modern Minecraft
+
+FILE: moogs_structures-neoforge-1.21.1-3.0.3.jar
+  ID: moogs_structures | NAME: Moog
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=16
+  DESC: Moogs Structure Lib is a library mod used to generate the structures from the     moog structure mod
+
+FILE: MoogsEndStructures-1.21-2.0.3.jar
+  ID: mes | NAME: MoogsEndStructures
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: *
+  MIXINS: client=0, server=0, common=0
+  DESC: Lots of vanilla style structures to bring your end dimension to life! With plenty of mobs and great 
+
+FILE: moonlight-1.21.1-3.3.2-neoforge.jar
+  ID: moonlight | NAME: Moonlight Lib
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=21, server=0, common=43
+  DESC: A small library with many cool unique features, from dynamic asset generation to dynamic villager sc
+
+FILE: moreculling-neoforge-1.21.1-1.0.7.jar
+  ID: moreculling | NAME: More Culling
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=53, server=0, common=0
+  DESC: Processes main resources.
+
+FILE: morejs-neoforge-1.21.1-0.16.0.jar
+  ID: morejs | NAME: MoreJS
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=2, server=0, common=24
+  DESC: More KubeJS stuff.
+
+FILE: morerelics-1.7.4-1.21.1.jar
+  ID: morerelics | NAME: More Relics
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=1, server=0, common=5
+  DESC: Adds more relics! What did you expect?
+
+FILE: MouseTweaks-neoforge-mc1.21-2.26.1.jar
+  ID: mousetweaks | NAME: Mouse Tweaks
+  DATA: False | DT: None | DEP_SIDE: None | ENV: None
+  MIXINS: client=2, server=0, common=0
+  DESC: A mod that enhances the inventory management by adding various additional functions to the usual mou
+
+FILE: mowziesmobs-1.21.1-1.8.2.jar
+  ID: mowziesmobs | NAME: Mowzie
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=2, server=0, common=2
+  DESC: Mowzie
+
+FILE: mru-1.0.31+1.21.1-neoforge.jar
+  ID: mru | NAME: MRU
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: A library mod which provides various utilities for Cassian and IMB11
+
+FILE: multipiston-1.2.58-1.21.1.jar
+  ID: multipiston | NAME: Multi-Piston
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: Piston unlimited adds the multipiston block which allows you to move any block with a handy GUI into
+
+FILE: multiplayerbosses-neoforge-1.21.1-1.0.0.jar
+  ID: multiplayerbosses | NAME: MultiplayerBosses
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=2, server=0, common=0
+  DESC: The description of your mod.  Accepts multilines.
+
+FILE: MyNethersDelight-1.21.1-1.10.4.jar
+  ID: mynethersdelight | NAME: My Nether
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=8
+  DESC: A new Nether expansion for Farmer
+
+FILE: nadir-1.0.0.jar
+  ID: nadir | NAME: Nadir
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=1
+  DESC: An addon for the Apotheosis mod.
+
+FILE: NaturesCompass-1.21.1-3.4.0-neoforge.jar
+  ID: naturescompass | NAME: Nature
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: Search for a biome and get information about it.
+
+FILE: NBTac-NEOFORGE-1.21.1-1.3.10.jar
+  ID: nbt_ac | NAME: NBT Autocomplete
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=22, server=0, common=0
+  DESC: Adds suggestions for NBT tags.
+
+FILE: Necronomicon-NeoForge-1.6.0+1.21.jar
+  ID: necronomicon | NAME: Necronomicon
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: *
+  MIXINS: client=1, server=0, common=1
+  DESC: An utility library for my mods!
+
+FILE: netherportalfix-neoforge-1.21.1-21.1.1.jar
+  ID: netherportalfix | NAME: NetherPortalFix
+  DATA: False | DT: NONE | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=2
+  DESC: Ensures correct destinations when travelling back and forth through Nether Portals in Multiplayer.
+
+FILE: Nirvana Lib-neoforge-1.21.1-2.2.0.jar
+  ID: neoforge | NAME: Nirvana Lib
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=3, server=0, common=0
+  DESC: Library mod for Clefal
+
+FILE: noisiumed-3.0.6-neoforge-1.21.1.jar
+  ID: noisiumed | NAME: Noisiumed
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=5
+  DESC: Optimises worldgen performance for a better gameplay experience.
+
+FILE: Not Enough Recipe Book-NEOFORGE-0.4.3+1.21.jar
+  ID: nerb | NAME: Not Enough Recipe Book
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=3, server=0, common=3
+  DESC: Optimization tool that removes Minecraft
+
+FILE: not_enough_glyphs-1.21.1-4.5.1.jar
+  ID: not_enough_glyphs | NAME: Not Enough Glyphs
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=2
+  DESC: A mixed bag of add-ons to make Ars Nouveau spells more flexible, more intelligent, or maybe in a few
+
+FILE: notenoughanimations-neoforge-1.12.3-mc1.21.1.jar
+  ID: notenoughanimations | NAME: NotEnoughAnimations
+  DATA: False | DT: IGNORE_ALL_VERSION | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=13, server=0, common=0
+  DESC: Adding and improving animations in Third-Person.
+
+FILE: nowheel-1.0.6+1.21.1neoforge.jar
+  ID: nowheel | NAME: Nowheel
+  DATA: False | DT: None | DEP_SIDE: CLIENT | ENV: None
+  MIXINS: client=8, server=0, common=0
+  DESC: Boost performance in Create using Occlusion Culling
+
+FILE: Nullscape_1.21.x_v1.2.14.jar
+  ID: nullscape | NAME: Nullscape
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: *
+  MIXINS: client=0, server=0, common=0
+  DESC: Transforms the boring Vanilla end into an alien dimension with the most surreal terrain imaginable. 
+
+FILE: oceansdelight-neoforge-1.0.4-1.21.1.jar
+  ID: oceansdelight | NAME: Ocean
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: This is a mod that adds food based on the creatures in the ocean
+
+FILE: OctoLib-NEOFORGE-0.6.2+1.21.jar
+  ID: octolib | NAME: OctoLib
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=11, server=0, common=0
+  DESC: Collection of shared code for OctoStudios
+
+FILE: OverflowingBars-v21.1.1-1.21.1-NeoForge.jar
+  ID: overflowingbars | NAME: Overflowing Bars
+  DATA: False | DT: IGNORE_ALL_VERSION | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: Expand health, armor and armor toughness bars beyond vanilla. Nice and compact without confusing col
+
+FILE: packetfixer-3.3.1-1.20.5-1.21.X-merged.jar
+  ID: packetfixer | NAME: PacketFixer
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: *
+  MIXINS: client=0, server=0, common=38
+  DESC: A simple mod to solve various problems with packets.
+
+FILE: Panoptic-1.08a-NeoForge-1.21.1.jar
+  ID: panoptic | NAME: Panoptic
+  DATA: False | DT: IGNORE_SERVER_VERSION | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=3, server=0, common=0
+  DESC: 
+
+FILE: Paraglider-neoforge-21.1.5.jar
+  ID: paraglider | NAME: Paraglider
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=1, server=0, common=3
+  DESC: BotW style Paraglider
+
+FILE: particle_core-0.3.3+1.21+neoforge.jar
+  ID: particle_core | NAME: Particle Core
+  DATA: False | DT: None | DEP_SIDE: CLIENT | ENV: None
+  MIXINS: client=18, server=0, common=0
+  DESC: Particle optimizations. Particle culling, rendering optimization, and configurable disabling of part
+
+FILE: particular-1.21.1-NeoForge-1.5.5.jar
+  ID: particular | NAME: Particular Reforged
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=30, server=0, common=0
+  DESC: Particular is a mod that enhances Minecraft
+
+FILE: Patchouli-1.21.1-93-NEOFORGE.jar
+  ID: patchouli | NAME: Patchouli
+  DATA: True | DT: None | DEP_SIDE: None | ENV: None
+  MIXINS: client=8, server=0, common=2
+  DESC: Accessible, Data-Driven, Dependency-Free Documentation for Minecraft Modders and Pack Makers
+
+FILE: Paxi-1.21.1-NeoForge-5.1.3.jar
+  ID: paxi | NAME: Paxi
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=2
+  DESC: Drag-and-drop your data packs and let Paxi do the rest! Global data packs made easy.
+
+FILE: Perception-NEOFORGE-0.2.1+1.21.1.jar
+  ID: perception | NAME: Perception
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=7, server=0, common=1
+  DESC: Enriching the world with immersive visual effects
+
+FILE: Philips-Ruins1.21.1-2.0-NeoForge.jar
+  ID: philipsruins | NAME: Philip
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: Philip
+
+FILE: Placebo-1.21.1-9.9.2.jar
+  ID: placebo | NAME: Placebo
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=2, server=0, common=4
+  DESC: 1 (one) library boi
+
+FILE: Platform-neoforge-1.21.1-1.3.3.jar
+  ID: platform | NAME: Platform
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=12, server=0, common=14
+  DESC: Cross-Platform library mod based on Architectury to access both Forge and Fabric APIs
+
+FILE: player-animation-lib-forge-2.0.4+1.21.1.jar
+  ID: playeranimator | NAME: Player Animator
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=17, server=0, common=0
+  DESC: A lightweight library to easily animate the player
+
+FILE: pneumaticcraft-repressurized-8.2.23+mc1.21.1.jar
+  ID: pneumaticcraft | NAME: PneumaticCraft: Repressurized
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: Doing cool stuff with compressed air.
+
+FILE: polymorph-neoforge-1.1.0+1.21.1.jar
+  ID: polymorph | NAME: Polymorph
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=1, server=0, common=20
+  DESC: No more recipe conflicts! Adds an option to choose the crafting result if more than one is available
+
+FILE: prickle-neoforge-1.21.1-21.1.11.jar
+  ID: prickle | NAME: PrickleMC
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: Bringing Prickle, the JSON based configuration file format to Minecraft.
+
+FILE: punchy-2.6.2-neoforge-1.21.1.jar
+  ID: punchy | NAME: Punchy
+  DATA: False | DT: None | DEP_SIDE: CLIENT | ENV: None
+  MIXINS: client=33, server=0, common=0
+  DESC: First-person animations. Special thanks to Godku for the support.
+
+FILE: PuzzlesLib-v21.1.52-1.21.1-NeoForge.jar
+  ID: puzzleslib | NAME: Puzzles Lib
+  DATA: False | DT: MATCH_VERSION | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=5, server=2, common=13
+  DESC: Why it
+
+FILE: Quark-4.1-482.jar
+  ID: quark | NAME: Quark
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=43, server=0, common=78
+  DESC: Small things, improving Minecraft bit by bit.
+
+FILE: ragdoll_reactions-1.21.1-0.7.0.jar.disabled
+  ID: ragdoll_reactions | NAME: Ragdoll Reactions
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: Players and mobs ragdoll in reaction to the world around them! Crashes, explosions, damage, and more
+
+FILE: Raided-1.21.1-0.1.6.jar
+  ID: raided | NAME: Raided
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: Expands upon the vanilla raid system to allow for more advanced raid mechanics.
+
+FILE: raidsenhanced-1.0.2-1.21.1.jar
+  ID: raidsenhanced | NAME: Raids: Enhanced
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=2, server=0, common=2
+  DESC: Example mod description.
+
+FILE: RandomGatewaysSpawning-1.21.1-2.8.jar
+  ID: plagatesummon | NAME: Random Gateways Spawning
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=1
+  DESC: Pla made this mod for randomly summon gates.
+
+FILE: Re-Avaritia-neoforge-1.21.1-1.4.1-release.jar
+  ID: avaritia | NAME: Re-Avaritia
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=2, server=0, common=9
+  DESC: Are you the type of modded Minecraft player that makes a beeline for the designated
+
+FILE: recipeessentials-1.21.1-4.7.jar
+  ID: recipeessentials | NAME: recipeessentials mod
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=7, server=0, common=9
+  DESC: recipeessentials mod
+
+FILE: redirected-neoforge-1.0.0-1.21.1.jar.disabled
+  ID: redirected | NAME: Redirected
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: Memory optimization mod that prevents duplication of Enum values.
+
+FILE: reeses-sodium-options-neoforge-2.2.3+mc1.21.1.jar.disabled
+  ID: reeses_sodium_options | NAME: Reese
+  DATA: False | DT: None | DEP_SIDE: CLIENT | ENV: None
+  MIXINS: client=3, server=0, common=0
+  DESC: Replaces Sodium
+
+FILE: refurbished_furniture-neoforge-1.21.1-1.0.22.jar
+  ID: refurbished_furniture | NAME: MrCrayfish
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=5, server=0, common=7
+  DESC: The next generation of MrCrayfish
+
+FILE: reliable_replacer-neoforge-1.21.1-1.7.0.jar.disabled
+  ID: reliable_replacer | NAME: Reliable Replacer
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=13
+  DESC: A lightweight utility for replacing one block with another, both during worldgen and afterward.
+
+FILE: relics-1.21.1-0.10.7.8.jar
+  ID: relics | NAME: Relics
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=6, server=0, common=13
+  DESC: Just a mod about useful relics with unique mechanics ;)
+
+FILE: reliquary-1.21.1-2.0.77.1537.jar
+  ID: reliquary | NAME: Reliquary Reincarnations
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: Two words: magical swag. Oh, and a gun.
+
+FILE: reliquified_ars_nouveau-1.21.1-0.6.1.jar
+  ID: reliquified_ars_nouveau | NAME: Reliquified Ars Nouveau
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=1, server=0, common=9
+  DESC: Compatibility addon between Relics & Ars Nouveau
+
+FILE: reliquified_artifacts-1.21.1-1.0.jar.disabled
+  ID: reliquified_artifacts | NAME: reliquified_artifacts
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=3, server=0, common=12
+  DESC: Compat addon between Relics and Artifacts
+
+FILE: reliquified_irons_spells_and_spellbooks-1.21-0.1.jar.disabled
+  ID: reliquified_irons_spells_and_spellbooks | NAME: Reliquified Iron
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: Compatibility addon between Relics & Iron
+
+FILE: reliquified_lenders_cataclysm-1.21.1-0.1.1.jar
+  ID: reliquified_lenders_cataclysm | NAME: Reliquified L_Ender
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=1
+  DESC: Compatibility addon between Relics & L_Ender
+
+FILE: reliquified_twilight_forest-1.21.1-0.5.3.jar
+  ID: reliquified_twilight_forest | NAME: Reliquified Twilight Forest
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=3, server=0, common=5
+  DESC: Compatibility addon between Relics & The Twilight Forest
+
+FILE: remnant_bosses-neoforge-1.21.1-2.2.0.jar
+  ID: remnant_bosses | NAME: Remnant Bosses
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: Face the deadliest bosses ever forged combat, fights, and chaos await!
+
+FILE: resourcefullib-neoforge-1.21-3.0.12.jar
+  ID: resourcefullib | NAME: Resourceful Lib
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=1
+  DESC: Team Resourceful Library
+
+FILE: rhenium-1.0.0+neo.jar
+  ID: rhenium | NAME: Rhenium
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=1
+  DESC: 
+
+FILE: rhino-2101.2.7-build.85.jar
+  ID: rhino | NAME: Rhino
+  DATA: False | DT: None | DEP_SIDE: None | ENV: *
+  MIXINS: client=0, server=0, common=0
+  DESC: A fork of Mozilla
+
+FILE: rottencreatures-neoforge-1.21.1-1.1.2.jar
+  ID: rottencreatures | NAME: RottenCreatures
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=1, server=0, common=12
+  DESC: Rotten Creatures is a mod that aims to add lots of fun new zombie variants to the game!
+
+FILE: royal-variations-[NeoForge]_1.21.1_2.0.4.jar
+  ID: royalvariations | NAME: Royal Variations
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=2, server=0, common=3
+  DESC: Adds enhanced royal variations of vanilla mobs with their own characteristics
+
+FILE: sable-neoforge-1.21.1-1.2.2.jar
+  ID: sable | NAME: Sable
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=129, server=0, common=234
+  DESC: Interactive moving block structures with physics.
+
+FILE: sable_player_ragdoll-1.21.1-0.7.5.jar.disabled
+  ID: sable_player_ragdoll | NAME: Sable Ragdolls
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=9, server=0, common=5
+  DESC: Ragdoll physics API for Sable. Provides the core ragdoll system and API for addon mods.
+
+FILE: sabledestructive-1.7.2.jar
+  ID: sabledestructive | NAME: Sable: Destructive
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=1
+  DESC: Sable: Destructive — physics blocks in Sable sub-levels can be broken by collisions and vanilla expl
+
+FILE: saturn-mc1.21.1-0.1.5.jar.disabled
+  ID: saturn | NAME: Saturn
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=1, server=0, common=25
+  DESC: A performance mod designed to optimize Minecraft
+
+FILE: Searchables-neoforge-1.21.1-1.0.2.jar
+  ID: searchables | NAME: Searchables
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=1, server=0, common=0
+  DESC: A library mod to facilitate adding search bars with auto complete and search types.
+
+FILE: servercore-neoforge-1.5.17+1.21.1.jar
+  ID: servercore | NAME: ServerCore
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=60
+  DESC: A NeoForge mod that aims to optimize the minecraft server.
+
+FILE: shine-2.0.1+1.21.1-neoforge.jar
+  ID: shine | NAME: Shine
+  DATA: False | DT: None | DEP_SIDE: CLIENT | ENV: None
+  MIXINS: client=28, server=0, common=0
+  DESC: Adds bloom, colored lighting, and stylized effects to Minecraft, without shaders.
+
+FILE: simplefog-neoforge-1.21.1-2.0.5.jar.disabled
+  ID: simplefog | NAME: Simple Fog Control
+  DATA: False | DT: None | DEP_SIDE: CLIENT | ENV: None
+  MIXINS: client=1, server=0, common=0
+  DESC: Allows simple control over water, nether and terrain fog.
+
+FILE: SimplyBows-neoforge-0.1.4-1.21.1.jar
+  ID: simplybows | NAME: Simply Bows
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=2, server=0, common=10
+  DESC: 
+
+FILE: simplycataclysm-1.0.2+1.21.1+neoforge.jar
+  ID: simplycataclysm | NAME: Simply Swords: Cataclysm
+  DATA: True | DT: MATCH_VERSION | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: Addon for Simply Swords that adds compatibility with L_Ender
+
+FILE: simplyentityequipment-neoforge-0.1.0-1.21.1.jar
+  ID: simplyentityequipment | NAME: Simply Entity Equipment
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=1, server=0, common=4
+  DESC: Data-driven system that allows living entities to spawn with custom equipment.
+
+FILE: simplymore-neoforge-1.3.0_alpha5+1.21.1.jar
+  ID: simplymore | NAME: Simply More
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=7, server=0, common=9
+  DESC: An addon to Simply Swords which adds even more weapons variety and new uniques!
+
+FILE: simplyswords-neoforge-1.70.2-1.21.1.jar
+  ID: simplyswords | NAME: Simply Swords
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=14, server=0, common=18
+  DESC: A variety of unique weapons to add to your minecraft repertoire
+
+FILE: SimplyTooltips-neoforge-0.1.5.jar
+  ID: simplytooltips | NAME: Simply Tooltips
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=2, server=0, common=0
+  DESC: Modern data driven tooltip renderer for Simply mods. Optionally available for other vanilla and modd
+
+FILE: SmartBrainLib-neoforge-1.21.1-1.16.11.jar
+  ID: smartbrainlib | NAME: SmartBrainLib
+  DATA: False | DT: IGNORE_SERVER_VERSION | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: A library mod for smarter Brains and easier usage of the Brain system.
+
+FILE: smooth_steps-neoforge-1.1.0.jar
+  ID: smooth_steps | NAME: Smooth Steps
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=1, server=0, common=1
+  DESC: A mod for improving the experience when stepping up slabs & stairs!
+
+FILE: smoothchunk-1.21-4.1.jar.disabled
+  ID: smoothchunk | NAME: Smoothchunk mod
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=5
+  DESC: Spreads chunk saves over time smoothly
+
+FILE: smoothswapping-0.9.3.2-1.21.1-neoforge.jar
+  ID: smoothswapping | NAME: Smooth Swapping
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=5, server=0, common=0
+  DESC: Moves items smoothly in inventories
+
+FILE: smooththirdpersoncamera-26.05.28-mc1.21.1.jar.disabled
+  ID: smooththirdpersoncamera | NAME: Smooth Third Person Camera
+  DATA: False | DT: IGNORE_SERVER_VERSION | DEP_SIDE: CLIENT | ENV: None
+  MIXINS: client=1, server=0, common=0
+  DESC: Smooth third-person camera.
+
+FILE: sodium-neoforge-0.6.13+mc1.21.1.jar
+  ID: sodium | NAME: Sodium
+  DATA: False | DT: None | DEP_SIDE: CLIENT | ENV: None
+  MIXINS: client=94, server=0, common=0
+  DESC: Sodium is a powerful rendering engine for Minecraft which improves frame rates and reduces lag spike
+
+FILE: sodiumoptionsapi-neoforge-1.0.10-1.21.1.jar.disabled
+  ID: sodiumoptionsapi | NAME: Sodium Options API
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: Cross-platform Sodium config event API for Sodium 1.21 and Embeddium 1.20
+
+FILE: sodiumoptionsmodcompat-neoforge-1.0.0-1.21.1.jar.disabled
+  ID: sodiumoptionsmodcompat | NAME: Sodium Options Mod Compat
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: Adds compatibility for various mods through Sodium Options API
+
+FILE: solcarrot-1.21.1-1.16.6.jar
+  ID: solcarrot | NAME: Spice of Life: Carrot Edition
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: A mod designed to encourage dietary variety!  It does so by rewarding the player for eating a variet
+
+FILE: someassemblyrequired-5.2.8.jar
+  ID: someassemblyrequired | NAME: Some Assembly Required
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=1
+  DESC: Design your own sandwiches!
+
+FILE: sophisticatedbackpacks-1.21.1-3.26.3.2158.jar
+  ID: sophisticatedbackpacks | NAME: Sophisticated Backpacks
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=1
+  DESC: Fancy and functional backpacks.
+
+FILE: sophisticatedcore-1.21.1-1.5.1.2341.jar
+  ID: sophisticatedcore | NAME: Sophisticated Core
+  DATA: True | DT: None | DEP_SIDE: CLIENT | ENV: None
+  MIXINS: client=1, server=0, common=3
+  DESC: A library / shared functionality mod for Sophisticated Storage and Backpacks
+
+FILE: sounds-2.4.22+lts+1.21.1-neoforge.jar
+  ID: sounds | NAME: Sounds
+  DATA: False | DT: None | DEP_SIDE: CLIENT | ENV: None
+  MIXINS: client=33, server=0, common=0
+  DESC: A highly configurable sound overhaul mod that adds new sound effects while improving vanilla sounds 
+
+FILE: spark-1.10.124-neoforge.jar
+  ID: spark | NAME: spark
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: spark is a performance profiling plugin/mod for Minecraft clients, servers and proxies.
+
+FILE: structureessentials-1.21.1-5.0.jar
+  ID: structureessentials | NAME: Structure Essentials mod
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=18
+  DESC: Essential Utilities for structures
+
+FILE: structurify-neoforge-2.0.30+mc1.21.1.jar
+  ID: structurify | NAME: Structurify
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=9, server=0, common=24
+  DESC: Configuration mod that makes customizing world generation features easy and accessible without creat
+
+FILE: structurize-1.0.828-1.21.1-snapshot.jar
+  ID: structurize | NAME: Structurize
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: An astonishing way to copy & paste structures!  Allows you to:  - save structures of your choice int
+
+FILE: super_resolution-neoforge-1.21..1.21.1-0.8.3-alpha.4+opengl.jar.disabled
+  ID: super_resolution | NAME: Super Resolution
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=63, server=0, common=0
+  DESC: 喵
+
+FILE: supplementaries-neoforge-1.21.1-3.6.7.jar
+  ID: supplementaries | NAME: Supplementaries
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=37, server=0, common=73
+  DESC: Many functional and useful Vanilla+ blocks
+
+FILE: takesapillage-neoforge-1.0.10+mc1.21.1.jar
+  ID: takesapillage | NAME: It Takes a Pillage Continuation
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=1, server=0, common=6
+  DESC: The Pillagers have expanded their Civilization! They have set up encampments and fortresses all over
+
+FILE: TerraBlender-neoforge-1.21.1-4.1.0.8.jar
+  ID: terrablender | NAME: TerraBlender
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=1, server=0, common=10
+  DESC: A library mod for adding biomes in a simple and compatible manner with Minecraft
+
+FILE: textureupdatesneo.jar.disabled
+  ID: angrytremorzilla | NAME: angrytremorzilla
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: 
+
+FILE: tfmg-1.2.0.jar
+  ID: tfmg | NAME: Create: The Factory Must Grow
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=14
+  DESC: Create: The Factory Must Grow brings the age of steel, oil and electricity to the Create mod
+
+FILE: the_beyond-0.0.5-InDev.jar
+  ID: the_beyond | NAME: The Beyond
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=2, server=0, common=34
+  DESC: Extensive end dimension expansion mod
+
+FILE: The_Undergarden-1.21.1-0.9.6.jar
+  ID: undergarden | NAME: The Undergarden
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=2, server=0, common=0
+  DESC: Deep underground, a forgotten land awaits.
+
+FILE: tlc-neoforge-1.21.1-2.1.0.jar
+  ID: tlc | NAME: The Lost Castle
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=1, common=0
+  DESC: Former structure of End Remastered, The Lost Castle introduces an enormous castle that you
+
+FILE: ToastControl-1.21.1-9.0.1.jar
+  ID: toastcontrol | NAME: Toast Control
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: Blocking annoying popups since 1.12
+
+FILE: tooltipoverhaul-neoforge-1.21.1-1.5.1.jar
+  ID: tooltipoverhaul | NAME: Tooltip overhaul
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=13, server=0, common=0
+  DESC: Every tooltip, more modern, sharper, clearer
+
+FILE: towntalk-1.2.0.jar
+  ID: towntalk | NAME: Towntalk
+  DATA: False | DT: MATCH_VERSION | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: Minecolonies VoicePacks
+
+FILE: trade-cycling-neoforge-1.21.1-1.0.18.jar
+  ID: trade_cycling | NAME: Trade Cycling
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=1, server=0, common=2
+  DESC: The trade cycling functionality from Easy Villagers.
+
+FILE: trading_floor-3.0.16.jar
+  ID: trading_floor | NAME: Create: Trading Floor
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=17
+  DESC: Automate trading with villagers in Create!
+
+FILE: traveloptics-4.4.0.1-1.21.1.jar.disabled
+  ID: traveloptics | NAME: T.O Magic n
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: T.O Magic n
+
+FILE: treephysics-1.8.jar.disabled
+  ID: treephysics | NAME: Tree Physics
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=2, server=0, common=19
+  DESC: A small mod that causes trees to fall with realistic, interactive Physics
+
+FILE: trimeffects-neoforge-mc1.21-2.1.1.jar
+  ID: trimeffects | NAME: TrimsEffects
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=1, server=0, common=2
+  DESC: Makes armor trims grant special effects.
+
+FILE: twilightdelight-3.2.2.jar
+  ID: twilightdelight | NAME: Twilight Flavors & Delight
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=1, server=0, common=9
+  DESC: Crossover contents between Twilight Forest and Farmer
+
+FILE: twilightforest-1.21.1-4.8.3345-universal.jar
+  ID: twilightforest | NAME: The Twilight Forest
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: An enchanted forest dimension.
+
+FILE: txnilib-neoforge-1.0.24-1.21.1.jar
+  ID: txnilib | NAME: TxniLib
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: Yet Another Library Mod
+
+FILE: txnilib-neoforge-1.0.24-1.21.1.jar.backup
+  ID: txnilib | NAME: TxniLib
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: Yet Another Library Mod
+
+FILE: txnilib-neoforge-1.0.24-1.21.1.jar.modified
+  ID: txnilib | NAME: TxniLib
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: Yet Another Library Mod
+
+FILE: unusualend-2.3.jar
+  ID: unusualend | NAME: Unusual End
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: Enhance your End experience !
+
+FILE: uranus-2.4.1-1.21.1-neoforge.jar
+  ID: uranus | NAME: Uranus
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=5, server=0, common=9
+  DESC: A Library contains animation engine, object helper and so on. Partly based on LLibrary and Citadel.
+
+FILE: vampire_spells_addon-neoforge-1.21.1-0.0.9.jar.disabled
+  ID: vampire_spells_addon | NAME: Vampire Spells Addon
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=1, server=0, common=2
+  DESC: Adds vampire-specific rebalancing for Iron
+
+FILE: VampiresNeedUmbrellas-1.21.1-1.0.3.jar.disabled
+  ID: vampiresneedumbrellas | NAME: Vampires Need Umbrellas
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: Now vampires no longer need to fear the sun! This mod adds umbrellas that protect vampires from the 
+
+FILE: vampiricageing-1.21-1.4.21.jar.disabled
+  ID: vampiricageing | NAME: Vampiric Ageing
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=2, server=0, common=18
+  DESC: This mod adds a Vampiric Ageing system other than the existing systems in Vampirism.
+
+FILE: Vampirism-1.21-1.10.12.jar.disabled
+  ID: vampirism | NAME: Vampirism
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=16, server=0, common=51
+  DESC: Allows you to become a vampire
+
+FILE: vampirism_integrations-1.21.1-1.10.2.jar.disabled
+  ID: vampirism_integrations | NAME: Vampirism Integrations
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: Adds integration for Vampirism with several other mods
+
+FILE: VanillaBackport-neoforge-1.21.1-1.1.7.10.jar
+  ID: vanillabackport | NAME: VanillaBackport
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=25, server=0, common=51
+  DESC: Backporting Minecraft Features to previous versions!
+
+FILE: variantsandventures-neoforge-1.0.26+mc1.21.1.jar
+  ID: variantsandventures | NAME: Variants&Ventures
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=7, server=0, common=13
+  DESC: Adds multiple new mob variants seamlessly integrated into your Minecraft world.
+
+FILE: VeggiesDelight-1.21.1-1.9.3.jar
+  ID: veggiesdelight | NAME: Veggies Delight
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: An addon mod for Farmer
+
+FILE: village_n_pillage_remake-1.0.0-neoforge-1.21.1.jar
+  ID: village_n_pillage_remake | NAME: Village n
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: Village n
+
+FILE: villagesandpillages-neoforge-mc1.21.1-1.0.3.jar
+  ID: villagesandpillages | NAME: Villages & Pillages
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=3
+  DESC: Structure mod that brings an exciting twist to Minecraft by introducing hostile and unfriendly pilla
+
+FILE: visuality-forge-3.0.0.jar
+  ID: visuality | NAME: Visuality: Reforged
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=5, server=0, common=1
+  DESC: Little visual improvements by adding a bunch of new particles.
+
+FILE: waystones-neoforge-1.21.1-21.1.34.jar
+  ID: waystones | NAME: Waystones
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=3
+  DESC: Teleport back to activated waystones. For Survival, Adventure or Servers.
+
+FILE: waystonessable-1.0.3.jar
+  ID: waystonessable | NAME: WaystonesSable
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=2, server=0, common=13
+  DESC: A compatibility mod that allows Waystones to work properly within Sable
+
+FILE: wind_spellbooks-1.0.5.jar
+  ID: wind_spellbooks | NAME: Wind
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=3
+  DESC: Example mod description.
+
+FILE: wits-1.3.0+1.21-neoforge.jar
+  ID: wits | NAME: WITS
+  DATA: False | DT: None | DEP_SIDE: None | ENV: None
+  MIXINS: client=0, server=0, common=0
+  DESC: Use `\wits` command to get registry name of all structures where you are standing.
+
+FILE: wizard_samurai-1.5.2.jar.disabled
+  ID: wizard_samurai | NAME: Wizard Samurai
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=1, server=0, common=2
+  DESC: Add  Newline Wizard Armor, Mask, Katana, Omamori, Ring, Crafting Table, Smiting Table.
+
+FILE: yagm-1.21.1-0.1.2-NEOFORGE.jar
+  ID: yagm | NAME: Yet Another Gravestone Mod
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=2, server=0, common=1
+  DESC: 
+
+FILE: yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar
+  ID: yet_another_config_lib_v3 | NAME: YetAnotherConfigLib
+  DATA: False | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=7, server=0, common=0
+  DESC: YetAnotherConfigLib (yacl) is just that. A builder-based configuration library for Minecraft.\n
+
+FILE: YungsApi-1.21.1-NeoForge-5.1.6.jar
+  ID: yungsapi | NAME: YUNG
+  DATA: True | DT: None | DEP_SIDE: None | ENV: None
+  MIXINS: client=0, server=0, common=16
+  DESC: API Library for YUNG
+
+FILE: YungsBetterCaves-1.21.1-NeoForge-3.1.4.jar.disabled
+  ID: bettercaves | NAME: YUNG
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=7
+  DESC: A complete overhaul of Minecraft
+
+FILE: YungsBetterDesertTemples-1.21.1-NeoForge-4.1.5.jar
+  ID: betterdeserttemples | NAME: YUNG
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=11
+  DESC: A complete redesign of Minecraft
+
+FILE: YungsBetterDungeons-1.21.1-NeoForge-5.1.4.jar
+  ID: betterdungeons | NAME: YUNG
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=3
+  DESC: A complete redesign of Minecraft
+
+FILE: YungsBetterJungleTemples-1.21.1-NeoForge-3.1.2.jar
+  ID: betterjungletemples | NAME: YUNG
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=3
+  DESC: A complete redesign of Minecraft
+
+FILE: YungsBetterMineshafts-1.21.1-NeoForge-5.1.1.jar
+  ID: bettermineshafts | NAME: YUNG
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=5
+  DESC: The long-awaited and much-needed abandoned mineshaft overhaul!
+
+FILE: YungsBetterNetherFortresses-1.21.1-NeoForge-3.1.5.jar
+  ID: betterfortresses | NAME: YUNG
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=3
+  DESC: A complete redesign of Minecraft
+
+FILE: YungsBetterOceanMonuments-1.21.1-NeoForge-4.1.2.jar
+  ID: betteroceanmonuments | NAME: YUNG
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=4
+  DESC: A complete redesign of Minecraft
+
+FILE: YungsBetterStrongholds-1.21.1-NeoForge-5.1.3.jar
+  ID: betterstrongholds | NAME: YUNG
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=2
+  DESC: A complete redesign of Minecraft
+
+FILE: YungsBetterWitchHuts-1.21.1-NeoForge-4.1.1.jar
+  ID: betterwitchhuts | NAME: YUNG
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=0, server=0, common=2
+  DESC: Adds new and improved witch huts to swamps!
+
+FILE: Zeta-1.1-40.jar
+  ID: zeta | NAME: Zeta
+  DATA: True | DT: None | DEP_SIDE: BOTH | ENV: None
+  MIXINS: client=3, server=0, common=18
+  DESC: A fully featured Library designed around loading highly configurable, agile developed. modular mods
+

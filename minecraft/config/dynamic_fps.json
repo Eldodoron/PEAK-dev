@@ -1,1 +1,22 @@
-{}
+{
+  "battery_tracker": {
+    "display": {
+      "placement": "top_right"
+    }
+  },
+  "states": {
+    "hovered": {
+      "graphics_state": "reduced",
+      "show_toasts": false
+    },
+    "unfocused": {
+      "graphics_state": "reduced"
+    },
+    "invisible": {
+      "graphics_state": "reduced"
+    },
+    "unplugged": {
+      "enable_vsync": false
+    }
+  }
+}

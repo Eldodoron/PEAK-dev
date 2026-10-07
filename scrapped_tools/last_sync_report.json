@@ -1,0 +1,43 @@
+{
+  "timestamp": "2026-10-05 15:57:45",
+  "dry_run": false,
+  "mods": {
+    "created": 0,
+    "updated": 0,
+    "deleted": 0
+  },
+  "kubejs": {
+    "created": 3,
+    "updated": 4,
+    "deleted": 1
+  },
+  "config": {
+    "created": 0,
+    "updated": 19,
+    "deleted": 0
+  },
+  "datapacks": {
+    "created": 0,
+    "updated": 0,
+    "deleted": 0
+  },
+  "defaultconfigs": {
+    "created": 0,
+    "updated": 0,
+    "deleted": 0
+  },
+  "blueprints": {
+    "created": 0,
+    "updated": 0,
+    "deleted": 0
+  },
+  "root": {
+    "created": 0,
+    "updated": 0,
+    "deleted": 0
+  },
+  "duration_seconds": 7.87,
+  "total_added": 3,
+  "total_updated": 23,
+  "total_pruned": 1
+}

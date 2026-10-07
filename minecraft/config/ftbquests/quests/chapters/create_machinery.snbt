@@ -1,0 +1,376 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "create_machinery"
+	group: "4000000000000000"
+	id: "4102000000000000"
+	images: [ ]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "4102000000000010"
+			rewards: [
+				{
+					count: 8
+					id: "4102000000000012"
+					item: {
+						count: 1
+						id: "create:andesite_casing"
+					}
+					type: "item"
+				}
+				{
+					id: "4102000000000013"
+					table_id: 1117392878634639361L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "4102000000000011"
+				item: { count: 1, id: "create:andesite_casing" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4102000000000010"]
+			id: "4102000000000020"
+			rewards: [
+				{
+					count: 2
+					id: "4102000000000022"
+					item: {
+						count: 1
+						id: "create:depot"
+					}
+					type: "item"
+				}
+				{
+					id: "4102000000000023"
+					table_id: 1117392878634639361L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			size: 1.1d
+			tasks: [{
+				id: "4102000000000021"
+				item: { count: 1, id: "create:mechanical_press" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4102000000000020"]
+			id: "4102000000000030"
+			rewards: [
+				{
+					count: 2
+					id: "4102000000000033"
+					item: {
+						count: 1
+						id: "create:basin"
+					}
+					type: "item"
+				}
+				{
+					id: "4102000000000034"
+					table_id: 1117392878634639362L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			size: 1.1d
+			tasks: [
+				{
+					id: "4102000000000031"
+					item: { count: 1, id: "create:basin" }
+					type: "item"
+				}
+				{
+					id: "4102000000000032"
+					item: { count: 1, id: "create:mechanical_mixer" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4102000000000030"]
+			id: "4102000000000040"
+			rewards: [
+				{
+					count: 4
+					id: "4102000000000042"
+					item: {
+						count: 1
+						id: "minecraft:blaze_rod"
+					}
+					type: "item"
+				}
+				{
+					id: "4102000000000043"
+					table_id: 1117392878634639362L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			size: 1.1d
+			tasks: [{
+				id: "4102000000000041"
+				item: { count: 1, id: "create:blaze_burner" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4102000000000040"]
+			id: "4102000000000050"
+			rewards: [
+				{
+					count: 16
+					id: "4102000000000053"
+					item: {
+						count: 1
+						id: "create:brass_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "4102000000000054"
+					table_id: 1117392878634639362L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			size: 1.1d
+			tasks: [
+				{
+					id: "4102000000000051"
+					item: { count: 1, id: "create:brass_ingot" }
+					type: "item"
+				}
+				{
+					id: "4102000000000052"
+					item: { count: 1, id: "create:brass_casing" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4102000000000010"]
+			id: "4102000000000060"
+			rewards: [
+				{
+					count: 32
+					id: "4102000000000062"
+					item: {
+						count: 1
+						id: "minecraft:oak_log"
+					}
+					type: "item"
+				}
+				{
+					id: "4102000000000063"
+					table_id: 1117392878634639361L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				id: "4102000000000061"
+				item: { count: 1, id: "create:mechanical_saw" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4102000000000060"]
+			id: "4102000000000070"
+			rewards: [
+				{
+					count: 16
+					id: "4102000000000072"
+					item: {
+						count: 1
+						id: "create:wheat_flour"
+					}
+					type: "item"
+				}
+				{
+					id: "4102000000000073"
+					table_id: 1117392878634639361L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				id: "4102000000000071"
+				item: { count: 1, id: "create:millstone" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"4102000000000070"
+				"4102000000000050"
+			]
+			id: "4102000000000080"
+			rewards: [
+				{
+					count: 8
+					id: "4102000000000082"
+					item: {
+						count: 1
+						id: "minecraft:raw_gold"
+					}
+					type: "item"
+				}
+				{
+					id: "4102000000000083"
+					table_id: 1117392878634639363L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			size: 1.1d
+			tasks: [{
+				id: "4102000000000081"
+				item: { count: 1, id: "create:crushing_wheel" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4102000000000010"]
+			id: "4102000000000090"
+			rewards: [
+				{
+					id: "4102000000000092"
+					item: {
+						count: 1
+						id: "create:propeller"
+					}
+					type: "item"
+				}
+				{
+					id: "4102000000000093"
+					table_id: 1117392878634639361L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				id: "4102000000000091"
+				item: { count: 1, id: "create:encased_fan" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4102000000000090"]
+			id: "4102000000000100"
+			rewards: [
+				{
+					id: "4102000000000102"
+					item: {
+						count: 1
+						id: "minecraft:soul_campfire"
+					}
+					type: "item"
+				}
+				{
+					id: "4102000000000103"
+					table_id: 1117392878634639361L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				id: "4102000000000101"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4102000000000050"]
+			id: "4102000000000110"
+			rewards: [
+				{
+					count: 2
+					id: "4102000000000112"
+					item: {
+						count: 1
+						id: "create:brass_hand"
+					}
+					type: "item"
+				}
+				{
+					id: "4102000000000113"
+					table_id: 1117392878634639362L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			size: 1.1d
+			tasks: [{
+				id: "4102000000000111"
+				item: { count: 1, id: "create:deployer" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"4102000000000050"
+				"4102000000000110"
+			]
+			id: "4102000000000120"
+			rewards: [
+				{
+					count: 2
+					id: "4102000000000122"
+					item: {
+						count: 1
+						id: "create:precision_mechanism"
+					}
+					type: "item"
+				}
+				{
+					id: "4102000000000123"
+					table_id: 1117392878634639363L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 1.6d
+			tasks: [{
+				id: "4102000000000121"
+				item: { count: 1, id: "create:precision_mechanism" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 10.0d
+		}
+	]
+}

@@ -1,0 +1,99 @@
+# PEAK Server Pack - Excluded Mod JARs List (79 Files)
+# These files must NOT be included in the dedicated server pack.
+# 65 Active Client/Dev Mods | 12 Disabled Client Mods | 2 Development Artifacts
+
+# 1. Client Rendering Engines, Performance & Culling (8)
+BadOptimizations-2.4.1-1.21.1.jar
+denseflower-1.0.0.jar
+dynamic-fps-3.7.7+minecraft-1.21.0-neoforge.jar
+entityculling-neoforge-1.10.5-mc1.21.1.jar
+ImmediatelyFast-NeoForge-1.6.11+1.21.1.jar
+moreculling-neoforge-1.21.1-1.0.7.jar
+rhenium-1.0.0+neo.jar
+sodium-neoforge-0.6.13+mc1.21.1.jar
+
+# 2. Shaders, Upscaling & Video Settings Menus (6)
+iris-neoforge-1.8.12+mc1.21.1.jar.disabled
+reeses-sodium-options-neoforge-2.2.3+mc1.21.1.jar.disabled
+shine-2.0.1+1.21.1-neoforge.jar
+sodiumoptionsapi-neoforge-1.0.10-1.21.1.jar.disabled
+sodiumoptionsmodcompat-neoforge-1.0.0-1.21.1.jar.disabled
+super_resolution-neoforge-1.21..1.21.1-0.8.3-alpha.4+opengl.jar.disabled
+
+# 3. Client Visuals, Textures, Particles & Animations (23)
+atmospherics-2.6.5-mc-1.21.1.jar
+bigwater-1.2.0-neoforge+mc1.21.1.jar.disabled
+cinematic_respawn-1.21.1-neoforge-1.2.0.jar
+cirrus-neoforge-1.21.1-1.2.1.jar.disabled
+cloudlayers-1.21.1-1.1.jar
+cosycritters-0.3.2+1.21.1-neoforge.jar
+emf_compat_better_combat_1.21.1_1.1.0.jar
+emf_compat_core-1.1.2.jar
+entity_model_features-3.2.4-1.21-neoforge.jar
+entity_texture_features_1.21-neoforge-7.1.jar
+explosiveenhancement-neoforge-1.21.1-1.1.2.jar
+fwa+1.21.1-neoforge-1.2.31.jar
+lambdynamiclights-4.8.8+1.21.1.jar
+Loot Beams Refork-neoforge-1.21.1-3.4.7.jar
+Nirvana Lib-neoforge-1.21.1-2.2.0.jar
+notenoughanimations-neoforge-1.12.3-mc1.21.1.jar
+particle_core-0.3.3+1.21+neoforge.jar
+particular-1.21.1-NeoForge-1.5.5.jar
+Perception-NEOFORGE-0.2.1+1.21.1.jar
+punchy-2.6.2-neoforge-1.21.1.jar
+simplefog-neoforge-1.21.1-2.0.5.jar.disabled
+smoothchunk-1.21-4.1.jar.disabled
+visuality-forge-3.0.0.jar
+
+# 4. Client Camera, View & Input Controls (10)
+aero_cam_sync-1.3.1.jar
+BetterThirdPerson-neoforge-1.9.0.jar
+CameraOverhaul-v2.1.1-neoforge+mc[1.21-1.21.1].jar.disabled
+freecam-neoforge-1.3.0+mc1.21.jar
+Ixeris-4.4.1+1.21.1-neoforge.jar
+minecraft-cursor-neoforge-3.11.3+1.21.1.jar
+MouseTweaks-neoforge-mc1.21-2.26.1.jar
+nowheel-1.0.6+1.21.1neoforge.jar
+smooth_steps-neoforge-1.1.0.jar
+smooththirdpersoncamera-26.05.28-mc1.21.1.jar.disabled
+
+# 5. Client HUD, Tooltips & GUI Enhancements (19)
+apothiccombat-1.2.1.jar
+catalogue-neoforge-1.21.1-1.11.2.jar
+clean_tooltips-1.1-neoforge-1.21.1.jar.disabled
+configured-neoforge-1.21.1-2.6.3.jar
+Controlling-neoforge-1.21.1-19.0.5.jar
+enchdesc-neoforge-1.21.1-21.1.10.jar
+HealthBars-v21.1.0-1.21.1-NeoForge.jar
+healthbars-dd-compat-0.3.0+1.21.1.jar
+ImmersiveUI-NEOFORGE-0.3.3+1.21.1.jar
+LocatorBar-neoforge-1.2.2+1.21.1.jar
+miningspeedtooltips-neoforge-1.0.0-1.21.1.jar
+NBTac-NEOFORGE-1.21.1-1.3.10.jar
+Not Enough Recipe Book-NEOFORGE-0.4.3+1.21.jar
+OverflowingBars-v21.1.1-1.21.1-NeoForge.jar
+Searchables-neoforge-1.21.1-1.0.2.jar
+smoothswapping-0.9.3.2-1.21.1-neoforge.jar
+ToastControl-1.21.1-9.0.1.jar
+tooltipoverhaul-neoforge-1.21.1-1.5.1.jar
+
+# 6. Client JEI Addons (Purely Client-Side) (4)
+collapsible_groups-neoforge-1.21.1-1.4.2.jar
+jeed-1.21-2.3.3.jar
+JustEnoughBeacons-NeoForge-1.21-1.3.0.jar
+JustEnoughProfessions-neoforge-1.21.1-4.0.5.jar
+
+# 7. Client Audio & Sound Packs (2)
+sounds-2.4.22+lts+1.21.1-neoforge.jar
+towntalk-1.2.0.jar
+
+# 8. Client Social & Crash Management (2)
+CrashAssistant-neoforge-1.20.6-1.21.4-1.11.9.jar
+Essential_1-5-0-1_neoforge_1-21-1.jar
+
+# 9. Development & Inspection Tools (5)
+CraftTweaker-neoforge-1.21.1-21.0.38.jar
+Panoptic-1.08a-NeoForge-1.21.1.jar
+wits-1.3.0+1.21-neoforge.jar
+txnilib-neoforge-1.0.24-1.21.1.jar.backup
+txnilib-neoforge-1.0.24-1.21.1.jar.modified

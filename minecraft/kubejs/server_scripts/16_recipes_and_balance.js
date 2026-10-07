@@ -21,6 +21,32 @@ ServerEvents.recipes(event => {
         result: { id: 'malum:hallowed_gold_ingot', count: 9 }
     });
 
+    // NORTHSTAR: MARS IRON ORE CRUSHING RESTORATION
+    event.remove({ id: 'northstar:crushing/mars_iron_ore' });
+    event.remove({ id: 'northstar:crushing/mars_deep_iron_ore' });
+
+    event.recipes.create.crushing([
+        '1x northstar:raw_martian_iron_ore',
+        CreateItem.of('northstar:raw_martian_iron_ore', 0.75),
+        CreateItem.of('create:experience_nugget', 0.75),
+        CreateItem.of('northstar:mars_stone', 0.125)
+    ], 'northstar:mars_iron_ore').processingTime(250).id('northstar:crushing/mars_iron_ore');
+
+    event.recipes.create.crushing([
+        '2x northstar:raw_martian_iron_ore',
+        CreateItem.of('northstar:raw_martian_iron_ore', 0.25),
+        CreateItem.of('create:experience_nugget', 0.75),
+        CreateItem.of('northstar:mars_deep_stone', 0.125)
+    ], 'northstar:mars_deep_iron_ore').processingTime(350).id('northstar:crushing/mars_deep_iron_ore');
+
+    // Elytra duplication
+    event.shapeless('minecraft:elytra', ['minecraft:elytra', 'dragonloot:dragon_scale'])
+        .keepIngredient('minecraft:elytra')
+        .id('kubejs:elytra_duplication');
+
+    // Dragon scale unification conversion
+    event.shapeless('dragonloot:dragon_scale', 'kubejs:draconic_scale').id('kubejs:draconic_scale_to_dragonloot');
+
     console.log('[PEAK Expert Mode] Script 16: Recipes loaded!');
 });
 

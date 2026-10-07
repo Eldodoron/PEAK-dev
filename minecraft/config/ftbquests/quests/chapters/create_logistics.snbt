@@ -1,0 +1,376 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "create_logistics"
+	group: "4000000000000000"
+	id: "4103000000000000"
+	images: [ ]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "4103000000000010"
+			rewards: [
+				{
+					count: 16
+					id: "4103000000000012"
+					item: {
+						count: 1
+						id: "create:belt_connector"
+					}
+					type: "item"
+				}
+				{
+					id: "4103000000000013"
+					table_id: 1117392878634639361L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "4103000000000011"
+				item: { count: 1, id: "create:belt_connector" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4103000000000010"]
+			id: "4103000000000020"
+			rewards: [
+				{
+					count: 2
+					id: "4103000000000022"
+					item: {
+						count: 1
+						id: "create:brass_tunnel"
+					}
+					type: "item"
+				}
+				{
+					id: "4103000000000023"
+					table_id: 1117392878634639362L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			size: 1.1d
+			tasks: [{
+				id: "4103000000000021"
+				item: { count: 1, id: "create:brass_funnel" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4103000000000020"]
+			id: "4103000000000030"
+			rewards: [
+				{
+					count: 4
+					id: "4103000000000032"
+					item: {
+						count: 1
+						id: "create:depot"
+					}
+					type: "item"
+				}
+				{
+					id: "4103000000000033"
+					table_id: 1117392878634639362L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			size: 1.1d
+			tasks: [{
+				id: "4103000000000031"
+				item: { count: 1, id: "create:mechanical_arm" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4103000000000030"]
+			id: "4103000000000040"
+			rewards: [
+				{
+					count: 8
+					id: "4103000000000042"
+					item: {
+						count: 1
+						id: "create:item_vault"
+					}
+					type: "item"
+				}
+				{
+					id: "4103000000000043"
+					table_id: 1117392878634639362L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			size: 1.1d
+			tasks: [{
+				id: "4103000000000041"
+				item: { count: 1, id: "create:item_vault" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4103000000000010"]
+			id: "4103000000000050"
+			rewards: [
+				{
+					count: 16
+					id: "4103000000000053"
+					item: {
+						count: 1
+						id: "create:fluid_pipe"
+					}
+					type: "item"
+				}
+				{
+					id: "4103000000000054"
+					table_id: 1117392878634639361L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4103000000000051"
+					item: { count: 1, id: "create:fluid_pipe" }
+					type: "item"
+				}
+				{
+					id: "4103000000000052"
+					item: { count: 1, id: "create:mechanical_pump" }
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4103000000000050"]
+			id: "4103000000000060"
+			rewards: [
+				{
+					count: 4
+					id: "4103000000000062"
+					item: {
+						count: 1
+						id: "create:fluid_tank"
+					}
+					type: "item"
+				}
+				{
+					id: "4103000000000063"
+					table_id: 1117392878634639362L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				id: "4103000000000061"
+				item: { count: 1, id: "create:fluid_tank" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4103000000000060"]
+			id: "4103000000000070"
+			rewards: [
+				{
+					count: 16
+					id: "4103000000000072"
+					item: {
+						count: 1
+						id: "minecraft:glass_bottle"
+					}
+					type: "item"
+				}
+				{
+					id: "4103000000000073"
+					table_id: 1117392878634639362L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				id: "4103000000000071"
+				item: { count: 1, id: "create:spout" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4103000000000070"]
+			id: "4103000000000080"
+			rewards: [
+				{
+					count: 4
+					id: "4103000000000082"
+					item: {
+						count: 1
+						id: "create:copper_casing"
+					}
+					type: "item"
+				}
+				{
+					id: "4103000000000083"
+					table_id: 1117392878634639362L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			size: 1.1d
+			tasks: [{
+				id: "4103000000000081"
+				item: { count: 1, id: "create:hose_pulley" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4103000000000010"]
+			id: "4103000000000090"
+			rewards: [
+				{
+					id: "4103000000000092"
+					item: {
+						count: 1
+						id: "create:steam_whistle"
+					}
+					type: "item"
+				}
+				{
+					id: "4103000000000093"
+					table_id: 1117392878634639363L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			size: 1.1d
+			tasks: [{
+				id: "4103000000000091"
+				item: { count: 1, id: "create:steam_engine" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4103000000000090"]
+			id: "4103000000000100"
+			rewards: [
+				{
+					count: 64
+					id: "4103000000000102"
+					item: {
+						count: 1
+						id: "create:track"
+					}
+					type: "item"
+				}
+				{
+					id: "4103000000000103"
+					table_id: 1117392878634639361L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				id: "4103000000000101"
+				item: { count: 1, id: "create:track" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4103000000000100"]
+			id: "4103000000000110"
+			rewards: [
+				{
+					count: 2
+					id: "4103000000000113"
+					item: {
+						count: 1
+						id: "create:schedule"
+					}
+					type: "item"
+				}
+				{
+					id: "4103000000000114"
+					table_id: 1117392878634639362L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			size: 1.1d
+			tasks: [
+				{
+					id: "4103000000000111"
+					item: { count: 1, id: "create:track_station" }
+					type: "item"
+				}
+				{
+					id: "4103000000000112"
+					item: { count: 1, id: "create:controls" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"4103000000000040"
+				"4103000000000080"
+				"4103000000000110"
+			]
+			id: "4103000000000120"
+			rewards: [
+				{
+					count: 2
+					id: "4103000000000122"
+					item: {
+						count: 1
+						id: "create:display_link"
+					}
+					type: "item"
+				}
+				{
+					id: "4103000000000123"
+					table_id: 1117392878634639363L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 1.6d
+			tasks: [{
+				id: "4103000000000121"
+				item: { count: 1, id: "create:display_board" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.5d
+		}
+	]
+}

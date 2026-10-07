@@ -1,10 +1,14 @@
+.agents
 .continue
 .git
 .gitignore
 .packignore
+BACKLOG.md
+GEMINI.md
 analyze_spark.py
 analyze_spark_tree.py
 assets
+backups
 changelogs
 create_jar_temp
 easymodsfolder
@@ -36,7 +40,6 @@ minecraft/generate_dummy_recipes.py
 minecraft/generate_high_priority_data.py
 minecraft/generate_physical_datapack.py
 minecraft/get_missing_items.py
-minecraft/icon.png
 minecraft/nvngx.log
 minecraft/nvngx_dlss_310_6_0.log
 minecraft/nvsdk_ngx.log
@@ -63,5 +66,7 @@ patch_lithostitched.py
 read_mcmeta.py
 replace.js
 rewrite00.js
+scrapped_tools
 scratch
 temp_to
+tests

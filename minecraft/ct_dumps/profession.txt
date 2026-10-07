@@ -24,7 +24,4 @@
 <profession:minecraft:toolsmith>
 <profession:minecraft:weaponsmith>
 <profession:pneumaticcraft:mechanic>
-<profession:vampirism:hunter_expert>
-<profession:vampirism:priest>
-<profession:vampirism:vampire_expert>
 <profession:village_n_pillage_remake:nomad>

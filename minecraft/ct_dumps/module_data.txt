@@ -1,3 +1,8 @@
+<module_data:mek_x_star:heat_resistive>
+<module_data:mek_x_star:oxygen_tank>
+<module_data:mek_x_star:oxygen_tank_expansion>
+<module_data:mek_x_star:space_suit>
+<module_data:mek_x_star:space_suit_insulation>
 <module_data:mekanism:attack_amplification_unit>
 <module_data:mekanism:blasting_unit>
 <module_data:mekanism:charge_distribution_unit>

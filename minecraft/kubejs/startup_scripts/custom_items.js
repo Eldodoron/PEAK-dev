@@ -81,15 +81,6 @@ StartupEvents.registry('item', event => {
         .maxStackSize(8)
         .glow(true);
 
-    // --- WARDEN (Deeper Darker enhanced) ---
-    // A crystallized heart of sculk resonance
-    // Used in: Draconic Evolution Wyvern cores
-    event.create('sculk_heart')
-        .displayName('§8💎 Sculk Heart')
-        .tooltip('§7Drops from: §fThe Warden')
-        .rarity('epic')
-        .maxStackSize(4)
-        .glow(true);
 
     // --- STAGE 5 DRAGON (Ice and Fire) ---
     // Ancient primordial dragon blood, far more potent
@@ -121,7 +112,8 @@ StartupEvents.registry('item', event => {
         .tooltip('§7Drops from: §fVarious Major Bosses')
         .rarity('epic')
         .maxStackSize(64)
-        .glow(true);
+        .glow(true)
+        .component('quark:rune_color', 'rainbow');
 
     // --- CHAOS ESSENCE ---
     // The distilled essence of entropy itself
@@ -146,16 +138,17 @@ StartupEvents.registry('item', event => {
         .tooltip('§7Drops from: §fThe Wither')
         .rarity('epic')
         .maxStackSize(8)
-        .glow(true);
+        .glow(true)
+        .component('quark:rune_color', 'black');
 
-    // --- DRACONIC SCALE ---
-    // Dropped by the Ender Dragon
+    // --- DRACONIC SCALE (DEPRECATED) ---
+    // Replaced by dragonloot:dragon_scale
     event.create('draconic_scale')
         .displayName('§5🐉 Draconic Scale')
-        .tooltip('§7Drops from: §fThe Ender Dragon')
+        .tooltip('§eCraft into Dragon Scale')
         .rarity('epic')
         .maxStackSize(16)
-        .glow(true);
+        .texture('dragonloot:item/dragon_scale');
 
     // --- CULINARY SINGULARITY ---
     // The ultimate mastery of gastronomy.

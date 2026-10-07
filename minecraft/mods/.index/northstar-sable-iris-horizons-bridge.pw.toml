@@ -1,0 +1,52 @@
+filename = 'northstar-sable-iris-horizon-bridge-0.6.4+1.21.1.jar'
+name = 'Northstar Sable Iris Horizons Bridge'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '0.6.4+1.21.1'
+
+[download]
+hash = '3a3cade052b4f786a8ae8023640efd1676d7c5b2282c9332c5e315d9bfdd0d58e8da5cce94140934f592d941a9a61fd480a6bee6894b11a3a8a8a0ab3a5bed45'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/MSoLk54A/versions/kaxeIMPF/northstar-sable-iris-horizon-bridge-0.6.4%2B1.21.1.jar'
+
+[update.modrinth]
+mod-id = 'MSoLk54A'
+version = 'kaxeIMPF'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'AANobbMI'
+type = 'OPTIONAL'
+version = 'S3DUMfBo'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'YL57xq9U'
+type = 'OPTIONAL'
+version = 'KduFYu4t'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'uCdwusMi'
+type = 'OPTIONAL'
+version = 'ZpKb4kZp'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'T9PomCSv'
+type = 'OPTIONAL'
+version = '1L6XJqnY'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'R6NEzAwj'
+type = 'OPTIONAL'
+version = 'VMHXIk50'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'HVnmMxH1'
+type = 'OPTIONAL'
+version = 'yCCduG44'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'UZiq3QVW'
+type = 'REQUIRED'
+version = 'COjXrpwb'

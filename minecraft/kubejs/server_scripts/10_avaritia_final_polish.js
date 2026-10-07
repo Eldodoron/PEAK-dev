@@ -83,7 +83,7 @@ ServerEvents.recipes(event => {
         tier: 1
     });
 
-    // --- SCULK HEART (Warden) ---
+    // --- HEART OF THE DEEP (Warden) ---
     // Used in Draconic Wyvern Energy Core
     event.remove({ output: 'draconicevolution:wyvern_energy_core' });
     event.custom({
@@ -95,7 +95,7 @@ ServerEvents.recipes(event => {
         ],
         key: {
             D: { item: 'draconicevolution:draconium_ingot' },
-            S: { item: 'kubejs:sculk_heart' },
+            S: { item: 'deeperdarker:heart_of_the_deep' },
             W: { item: 'deeperdarker:reinforced_echo_shard' },
             N: { item: 'minecraft:nether_star' }
         },
@@ -228,7 +228,7 @@ ServerEvents.recipes(event => {
             { item: 'kubejs:void_resonator' },            // Boss: Ender Guardian
             { item: 'kubejs:primordial_core' },           // Boss: Ancient Remnant
             { item: 'draconicevolution:chaos_shard' },             // Draconic Evolution Chaos Guardian
-            { item: 'kubejs:sculk_heart' },               // Boss: The Warden
+            { item: 'deeperdarker:heart_of_the_deep' },   // Boss: The Warden (Deeper and Darker)
             { item: 'kubejs:primordial_dragon_blood' },   // Boss: Stage 5 Dragons (Ice & Fire)
             { item: 'iceandfire:dragonsteel_fire_ingot' },// Ice and Fire dragon forge
             { item: 'mekanism:pellet_antimatter' },       // Mekanism nuclear peak

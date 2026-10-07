@@ -24,7 +24,6 @@ RecipeViewerEvents.removeEntries('item', event => {
         'ae2:debug_phantom_node',
         'ae2:debug_replicator_card',
         'ars_nouveau:debug',
-        'avaritia:test_sword',
         'block_factorys_bosses:placeholder',
         'citadel:debug',
         'farmersdelight:debug_pumpkin_pie',
@@ -34,6 +33,10 @@ RecipeViewerEvents.removeEntries('item', event => {
         'tfmg:debug_cinderblock'
     ];
 
-    vanillaTechnical.forEach(item => event.remove(item));
-    modTechnical.forEach(item => event.remove(item));
+    vanillaTechnical.forEach(item => {
+        if (Item.exists(item)) event.remove(item);
+    });
+    modTechnical.forEach(item => {
+        if (Item.exists(item)) event.remove(item);
+    });
 });

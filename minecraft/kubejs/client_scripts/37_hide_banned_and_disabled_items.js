@@ -9,6 +9,7 @@ RecipeViewerEvents.removeEntries('item', event => {
 
         // Banned Raid Blimps
         'raidsenhanced:player_blimp',
+        'raidsenhanced:blimp_parts',
 
         // Create SA Copper Equipment (Disabled in favor of Ice & Fire copper gear)
         'create_sa:copper_helmet',

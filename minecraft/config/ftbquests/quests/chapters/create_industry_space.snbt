@@ -1,0 +1,335 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "create_industry_space"
+	group: "4000000000000000"
+	id: "4104000000000000"
+	images: [ ]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "4104000000000010"
+			rewards: [
+				{
+					count: 8
+					id: "4104000000000012"
+					item: {
+						count: 1
+						id: "tfmg:steel_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "4104000000000013"
+					table_id: 1117392878634639362L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "4104000000000011"
+				item: { count: 1, id: "tfmg:steel_ingot" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4104000000000010"]
+			id: "4104000000000020"
+			rewards: [
+				{
+					count: 4
+					id: "4104000000000022"
+					item: {
+						count: 1
+						id: "tfmg:heavy_machinery_casing"
+					}
+					type: "item"
+				}
+				{
+					id: "4104000000000023"
+					table_id: 1117392878634639362L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			size: 1.1d
+			tasks: [{
+				id: "4104000000000021"
+				item: { count: 1, id: "tfmg:heavy_machinery_casing" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4104000000000020"]
+			id: "4104000000000030"
+			rewards: [
+				{
+					count: 2
+					id: "4104000000000032"
+					item: {
+						count: 1
+						id: "createdieselgenerators:engine_piston"
+					}
+					type: "item"
+				}
+				{
+					id: "4104000000000033"
+					table_id: 1117392878634639363L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			size: 1.1d
+			tasks: [{
+				id: "4104000000000031"
+				item: { count: 1, id: "createdieselgenerators:diesel_engine" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4104000000000010"]
+			id: "4104000000000040"
+			rewards: [
+				{
+					id: "4104000000000042"
+					item: {
+						count: 1
+						id: "create:super_glue"
+					}
+					type: "item"
+				}
+				{
+					id: "4104000000000043"
+					table_id: 1117392878634639362L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				id: "4104000000000041"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4104000000000040"]
+			id: "4104000000000050"
+			rewards: [
+				{
+					count: 32
+					id: "4104000000000052"
+					item: {
+						count: 1
+						id: "minecraft:firework_rocket"
+					}
+					type: "item"
+				}
+				{
+					id: "4104000000000053"
+					table_id: 1117392878634639362L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			size: 1.1d
+			tasks: [{
+				id: "4104000000000051"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4104000000000010"]
+			id: "4104000000000060"
+			rewards: [
+				{
+					count: 8
+					id: "4104000000000062"
+					item: {
+						count: 1
+						id: "northstar:titanium_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "4104000000000063"
+					table_id: 1117392878634639362L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			size: 1.1d
+			tasks: [{
+				id: "4104000000000061"
+				item: { count: 1, id: "northstar:titanium_ingot" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4104000000000060"]
+			id: "4104000000000070"
+			rewards: [
+				{
+					id: "4104000000000072"
+					item: {
+						count: 1
+						id: "northstar:rocket_controls"
+					}
+					type: "item"
+				}
+				{
+					id: "4104000000000073"
+					table_id: 1117392878634639362L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			size: 1.1d
+			tasks: [{
+				id: "4104000000000071"
+				item: { count: 1, id: "northstar:rocket_station" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4104000000000070"]
+			id: "4104000000000080"
+			rewards: [
+				{
+					id: "4104000000000082"
+					item: {
+						count: 1
+						id: "northstar:rocket_combustion_chamber"
+					}
+					type: "item"
+				}
+				{
+					id: "4104000000000083"
+					table_id: 1117392878634639363L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			size: 1.1d
+			tasks: [{
+				id: "4104000000000081"
+				item: { count: 1, id: "northstar:rocket_thruster" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4104000000000080"]
+			id: "4104000000000090"
+			rewards: [
+				{
+					id: "4104000000000092"
+					item: {
+						count: 1
+						id: "northstar:oxygen_filler"
+					}
+					type: "item"
+				}
+				{
+					id: "4104000000000093"
+					table_id: 1117392878634639362L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				id: "4104000000000091"
+				item: { count: 1, id: "northstar:iron_space_suit_helmet" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"4104000000000080"
+				"4104000000000090"
+			]
+			id: "4104000000000100"
+			rewards: [
+				{
+					count: 8
+					id: "4104000000000102"
+					item: {
+						count: 1
+						id: "northstar:martian_steel_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "4104000000000103"
+					table_id: 1117392878634639364L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			size: 1.2d
+			tasks: [{
+				id: "4104000000000101"
+				item: { count: 1, id: "northstar:martian_steel_ingot" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 8.5d
+		}
+		{
+			dependencies: [
+				"4104000000000030"
+				"4104000000000050"
+				"4104000000000100"
+			]
+			id: "4104000000000110"
+			rewards: [
+				{
+					count: 2
+					id: "4104000000000112"
+					item: {
+						count: 1
+						id: "minecraft:nether_star"
+					}
+					type: "item"
+				}
+				{
+					id: "4104000000000113"
+					table_id: 1117392878634639364L
+					type: "random"
+				}
+				{
+					id: "4104000000000114"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "diamond"
+			size: 1.8d
+			tasks: [{
+				id: "4104000000000111"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 10.0d
+		}
+	]
+}
