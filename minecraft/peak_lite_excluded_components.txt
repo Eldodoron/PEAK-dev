@@ -21,6 +21,8 @@ denseflower-1.0.0.jar
 # 2. Pure Cosmetic & Non-Essential Client Mods (minecraft/mods/)
 atmospherics-2.6.5-mc-1.21.1.jar
 smoothswapping-0.9.3.2-1.21.1-neoforge.jar
+spatial-gui-1.6+1.21.1-neoforge.jar
+spatial-gui.json
 
 # 3. Development & Diagnostic Tools (minecraft/mods/)
 CraftTweaker-neoforge-1.21.1-21.0.38.jar
