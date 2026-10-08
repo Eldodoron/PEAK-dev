@@ -51,7 +51,7 @@ ServerEvents.recipes(event => {
 // Helper: Ensure the anchor platform exists in The Beyond at (0, 64, 0)
 function ensureVoidSanctuaryPlatform(server) {
     let beyondLevel = server.getLevel('allthemodium:the_beyond');
-    if (!beyondLevel) return;
+    if (!beyondLevel) return false;
 
     // Ensure all 4 intersection chunks around (0, 0) are forceloaded
     server.runCommandSilent('execute in allthemodium:the_beyond run forceload add -16 -16 16 16');
@@ -76,40 +76,69 @@ function ensureVoidSanctuaryPlatform(server) {
     server.runCommandSilent('execute in allthemodium:the_beyond run setblock 2 64 -2 minecraft:soul_lantern');
     server.runCommandSilent('execute in allthemodium:the_beyond run setblock -2 64 2 minecraft:soul_lantern');
     server.runCommandSilent('execute in allthemodium:the_beyond run setblock 2 64 2 minecraft:soul_lantern');
+    return true;
 }
 
-// Helper: Setup communal World Spawn dais in Overworld
-function setupWorldSpawnDais(server) {
-    let overworld = server.getLevel('minecraft:overworld');
-    if (!overworld) return;
-
-    let spawnPos = overworld.getSharedSpawnPos();
-    let sx = spawnPos.getX();
-    let sz = spawnPos.getZ();
-
-    // Calculate the real surface height at world spawn
-    let sy = 64;
+// Helper: Calculate real surface height, accounting for existing pad/lanterns
+function getSurfaceY(level, x, z) {
+    let topY = 64;
     try {
         let Heightmap = Java.loadClass('net.minecraft.world.level.levelgen.Heightmap');
-        sy = overworld.getHeight(Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, sx, sz);
+        topY = level.getHeight(Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, x, z);
     } catch (e) {
-        // Fallback: scan downward from world ceiling to find top surface
         for (let y = 319; y > -64; y--) {
-            let b = overworld.getBlock(sx, y, sz);
+            let b = level.getBlock(x, y, z);
             if (b) {
                 let bid = String(b.id);
                 if (bid !== 'minecraft:air' && bid !== 'minecraft:void_air') {
-                    sy = y + 1;
+                    topY = y + 1;
                     break;
                 }
             }
         }
     }
 
-    // Save communal spawn pad coordinates
+    let topBlock = level.getBlock(x, topY - 1, z);
+    if (topBlock) {
+        let bid = String(topBlock.id);
+        if (bid === 'kubejs:void_teleport_pad' || bid === 'minecraft:soul_lantern') {
+            return topY - 1;
+        }
+    }
+    return topY;
+}
+
+// Helper: Setup communal World Spawn dais in Overworld
+function setupWorldSpawnDais(server, forceRecalculate) {
+    let overworld = server.getLevel('minecraft:overworld');
+    if (!overworld) return null;
+
+    let spawnPos = overworld.getSharedSpawnPos();
+    let sx = spawnPos.getX();
+    let sz = spawnPos.getZ();
+
+    let sy = 64;
+    let storedX = server.persistentData.getInt('sanctuary_spawn_x');
+    let storedY = server.persistentData.getInt('sanctuary_spawn_y');
+    let storedZ = server.persistentData.getInt('sanctuary_spawn_z');
+
+    if (!forceRecalculate && storedX === sx && storedZ === sz && storedY > -64) {
+        let floorBlock = overworld.getBlock(sx, storedY - 1, sz);
+        if (floorBlock && String(floorBlock.id) === 'minecraft:reinforced_deepslate') {
+            sy = storedY;
+        } else {
+            sy = getSurfaceY(overworld, sx, sz);
+        }
+    } else {
+        sy = getSurfaceY(overworld, sx, sz);
+    }
+
+    // Save communal spawn pad coordinates and reset cleared state
     server.persistentData.putInt('sanctuary_spawn_x', sx);
     server.persistentData.putInt('sanctuary_spawn_y', sy);
     server.persistentData.putInt('sanctuary_spawn_z', sz);
+    server.persistentData.putBoolean('sanctuary_spawn_cleared', false);
+    server.persistentData.putBoolean('sanctuary_world_spawn_initialized', true);
 
     // 3x3 platform around spawn
     for (let dx = -1; dx <= 1; dx++) {
@@ -131,7 +160,12 @@ function setupWorldSpawnDais(server) {
     server.runCommandSilent(`execute in minecraft:overworld run setblock ${sx + 1} ${sy} ${sz - 1} minecraft:soul_lantern`);
     server.runCommandSilent(`execute in minecraft:overworld run setblock ${sx - 1} ${sy} ${sz + 1} minecraft:soul_lantern`);
     server.runCommandSilent(`execute in minecraft:overworld run setblock ${sx + 1} ${sy} ${sz + 1} minecraft:soul_lantern`);
+
+    return { x: sx, y: sy, z: sz };
 }
+
+global.setupWorldSpawnDais = setupWorldSpawnDais;
+global.ensureVoidSanctuaryPlatform = ensureVoidSanctuaryPlatform;
 
 // Helper: Check if a given block is one of the communal non-dropping pads
 function isCommunalPad(block) {

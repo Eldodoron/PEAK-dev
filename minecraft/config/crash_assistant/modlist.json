@@ -1011,13 +1011,13 @@
     "curseForgeHash": 3194201287,
     "modrinthHash": "72635119b4bcc49b050c50d6cbb1abb02bb3982a"
   },
-  "dodospyglass-1.0.0-neoforge+1.21.1-SNAPSHOT.jar": {
-    "jarName": "dodospyglass-1.0.0-neoforge+1.21.1-SNAPSHOT.jar",
+  "DodoSpyglass_1.21.1_NeoForge.jar": {
+    "jarName": "DodoSpyglass_1.21.1_NeoForge.jar",
     "modId": "dodospyglass",
     "name": "DodoSpyglass",
     "version": "1.0.0",
-    "curseForgeHash": 3134256950,
-    "modrinthHash": "6694a94f8813370b6625ed67cb940439689ca329"
+    "curseForgeHash": 1396869453,
+    "modrinthHash": "0ef2a201b1db2eb8ba7a25a2572cd71960887d68"
   },
   "does_it_tick-neoforge-1.1.4-1.21.1.jar": {
     "jarName": "does_it_tick-neoforge-1.1.4-1.21.1.jar",
@@ -1762,13 +1762,13 @@
     "curseForgeHash": 3605477462,
     "modrinthHash": "accece17d5ca0ccd0cd09889593ab35a2e9f3688"
   },
-  "jeed-1.21-2.3.3.jar": {
-    "jarName": "jeed-1.21-2.3.3.jar",
+  "jeed-1.21-2.3.4-neoforge.jar": {
+    "jarName": "jeed-1.21-2.3.4-neoforge.jar",
     "modId": "jeed",
     "name": "Just Enough Effects Descriptions",
-    "version": "1.21-2.3.3",
-    "curseForgeHash": 3382086651,
-    "modrinthHash": "fc7c50a12243aad12df0a184f8dffb6cb3e29cf1"
+    "version": "1.21-2.3.4",
+    "curseForgeHash": 2594090096,
+    "modrinthHash": "48e3480220811b68a9c8e1bd2d3d0bad82f444ba"
   },
   "jei-1.21.1-neoforge-19.43.0.393.jar": {
     "jarName": "jei-1.21.1-neoforge-19.43.0.393.jar",

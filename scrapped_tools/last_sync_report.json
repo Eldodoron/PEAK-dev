@@ -1,20 +1,20 @@
 {
-  "timestamp": "2026-10-07 12:25:58",
+  "timestamp": "2026-10-08 11:07:30",
   "dry_run": false,
   "mods": {
-    "created": 2,
-    "updated": 2,
-    "deleted": 2
+    "created": 0,
+    "updated": 0,
+    "deleted": 0
   },
   "kubejs": {
-    "created": 2,
-    "updated": 18,
+    "created": 0,
+    "updated": 2,
     "deleted": 0
   },
   "config": {
     "created": 0,
-    "updated": 18,
-    "deleted": 0
+    "updated": 13,
+    "deleted": 6
   },
   "datapacks": {
     "created": 0,
@@ -22,7 +22,7 @@
     "deleted": 0
   },
   "defaultconfigs": {
-    "created": 1,
+    "created": 0,
     "updated": 0,
     "deleted": 0
   },
@@ -33,11 +33,11 @@
   },
   "root": {
     "created": 0,
-    "updated": 5,
+    "updated": 2,
     "deleted": 0
   },
-  "duration_seconds": 11.23,
-  "total_added": 5,
-  "total_updated": 43,
-  "total_pruned": 2
+  "duration_seconds": 8.15,
+  "total_added": 0,
+  "total_updated": 17,
+  "total_pruned": 6
 }
