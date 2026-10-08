@@ -67,3 +67,9 @@
 - **Mandatory Direct Markdown Image Rendering:** Whenever proposing, iterating, or reviewing custom item sprites, entity textures, UI designs, or pixel art options, **ALWAYS** display the images directly in the chat message using standard Markdown image syntax (`![alt text](file:///absolute/path/to/image_256.png)`).
 - **No Fragile Embeds for Asset Comparisons:** Avoid relying on `<agent-embed>` or requiring the user to navigate to external HTML artifacts just to inspect visual proposals. Always generate nearest-neighbor upscaled previews (e.g. 256×256) and display them inline in the chat alongside concise bullet points for immediate review.
 
+## 11. Modpack Export & CurseForge Invariants
+- **Strict Pure UTF-8 (No BOM):** `manifest.json`, `modlist.html`, and all exported datapack/config JSON/TOML/SNBT files **MUST NEVER** contain a UTF-8 Byte Order Mark (`\xEF\xBB\xBF`). `manifest.json` must always begin directly with `{` (`0x7B`). Never use default Windows PowerShell `Out-File` or `Set-Content` without BOM-stripping verification.
+- **Zero Loose JARs in Overrides:** Mod files (`.jar`) must **NEVER** reside inside `overrides/mods/`. Every active mod must be mapped to valid integer `projectID` and `fileID` entries in `manifest.json`.
+- **Dead Project Verification:** Before exporting, verify that every `projectID` in `manifest.json` corresponds to an active, approved CurseForge project. Purge deleted or unapproved project IDs (e.g. `1277910`).
+- **Autonomous Browser Upload Staging:** When delegating file uploads to the browser subagent, always stage the upload file inside the system temp directory (`os.tmpdir()` / `%TEMP%`) to satisfy `chrome_devtools` MCP workspace root requirements.
+
