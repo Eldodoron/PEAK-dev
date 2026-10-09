@@ -74,6 +74,7 @@ Not Enough Recipe Book-NEOFORGE-0.4.3+1.21.jar
 OverflowingBars-v21.1.1-1.21.1-NeoForge.jar
 Searchables-neoforge-1.21.1-1.0.2.jar
 smoothswapping-0.9.3.2-1.21.1-neoforge.jar
+spatial-gui-1.6+1.21.1-neoforge.jar
 ToastControl-1.21.1-9.0.1.jar
 tooltipoverhaul-neoforge-1.21.1-1.5.1.jar
 
