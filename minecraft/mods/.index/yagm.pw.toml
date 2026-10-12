@@ -1,19 +1,19 @@
-filename = 'yagm-1.21.1-0.1.2-NEOFORGE.jar'
-name = 'Yet Another Gravestone [YAGM]'
+filename = 'yagm-1.21.1-0.1.5-NEOFORGE.jar'
+name = 'Yet Another Gravestone Mod'
 side = 'server'
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'yagm-1.21.1-0.1.2-NEOFORGE.jar'
+x-prismlauncher-version-number = 'yagm-1.21.1-0.1.5-NEOFORGE.jar'
 
 [download]
-hash = 'b8642fb0e2a8660a53875979f0788892b41e889e'
+hash = 'a026785df22f68b499fbc4f406c6d6b2d3ac450a'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 8258937
+file-id = 9099698
 project-id = 1559657
 
 [[x-prismlauncher-dependencies]]

@@ -8,12 +8,12 @@ LootJS.modifiers((event) => {
     // 1. GLOBAL DROP (ULTRA RARE)
     // ---------------------------------------------------------
     // 0.10% (1 in 1000) for Runic Tablet in ANY non-vanilla chest
-    event.addTableModifier(LootType.CHEST, /^(?!minecraft:).*/)
+    event.addTableModifier(/^(?!minecraft:)[a-z0-9_.-]+:(chests?|injects?)\/.*$/)
         .randomChance(0.001)
         .addLoot('simplyswords:runic_tablet');
 
     // 0.05% (1 in 2000) for a random Mythic Bow in ANY non-vanilla chest
-    event.addTableModifier(LootType.CHEST, /^(?!minecraft:).*/)
+    event.addTableModifier(/^(?!minecraft:)[a-z0-9_.-]+:(chests?|injects?)\/.*$/)
         .randomChance(0.0005)
         .addAlternativesLoot(
             'simplybows:bee_bow/bee_bow',

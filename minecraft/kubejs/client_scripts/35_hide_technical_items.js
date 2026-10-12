@@ -39,4 +39,18 @@ RecipeViewerEvents.removeEntries('item', event => {
     modTechnical.forEach(item => {
         if (Item.exists(item)) event.remove(item);
     });
+
+    // --- HIDE DUMMY MOB-BEHAVIOR ENCHANTED BOOKS ---
+    const dummyEnchantments = [
+        'nova_structures:shulker_boss',
+        'nova_structures:shulker_miniboss',
+        'nova_structures:boss_behaviour'
+    ];
+
+    dummyEnchantments.forEach(ench => {
+        event.remove(Item.of('minecraft:enchanted_book').withComponents({
+            'minecraft:stored_enchantments': { levels: { [ench]: 1 } }
+        }));
+    });
 });
+

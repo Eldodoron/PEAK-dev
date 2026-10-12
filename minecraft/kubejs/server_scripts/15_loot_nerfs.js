@@ -28,5 +28,20 @@ LootJS.modifiers(event => {
     event.addEntityModifier('minecraft:silverfish').removeLoot(overpoweredDrops);
     event.addEntityModifier('minecraft:endermite').removeLoot(overpoweredDrops);
 
+    // ==========================================
+    // PURGE INTERNAL MOB-BEHAVIOR ENCHANTMENT BOOKS
+    // Removes leaked internal boss traits from all loot tables
+    // ==========================================
+    event.addTableModifier(/.*/)
+        .modifyLoot(Item.of('minecraft:enchanted_book'), item => {
+            let comp = item.getComponents().toString();
+            if (comp.includes('nova_structures:shulker_boss') || 
+                comp.includes('nova_structures:shulker_miniboss') || 
+                comp.includes('nova_structures:boss_behaviour')) {
+                return Item.empty;
+            }
+            return item;
+        });
+
     console.log('[PEAK Expert Mode] Script 15: Loot Nerfs loaded!');
 });

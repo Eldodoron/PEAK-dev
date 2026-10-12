@@ -3,5 +3,16 @@
     {
       "type": "neoforge:false"
     }
-  ]
+  ],
+  "type": "placebo:basic_trade",
+  "input_1": {
+    "count": 64,
+    "id": "minecraft:barrier"
+  },
+  "max_trades": 0,
+  "output": {
+    "count": 1,
+    "id": "minecraft:barrier"
+  },
+  "xp": 0
 }
