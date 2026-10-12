@@ -3,6 +3,10 @@
 This repository contains the **PEAK dev** modpack.
 Built for NeoForge 1.21.1.
 
+## CurseForge Links
+- **PEAK (Dev):** [CurseForge Project](https://www.curseforge.com/minecraft/modpacks/peak-dev)
+- **PEAK Lite:** [CurseForge Project](https://www.curseforge.com/minecraft/modpacks/peak-lite)
+
 ## Installation
 To use this modpack:
 1. Install [Prism Launcher](https://prismlauncher.org/).

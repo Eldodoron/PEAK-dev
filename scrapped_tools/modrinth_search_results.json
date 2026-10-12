@@ -1,0 +1,704 @@
+[
+  {
+    "jar": "ApothicAttributes-1.21.1-2.10.1.jar",
+    "query": "ApothicAttributes",
+    "found": null,
+    "slug": null
+  },
+  {
+    "jar": "EvoLoginTimeout-NeoForge-1.21.1-1.0.9.jar",
+    "query": "EvoLoginTimeout",
+    "found": null,
+    "slug": null
+  },
+  {
+    "jar": "FallingTree-1.21.1-1.21.1.11.jar",
+    "query": "FallingTree",
+    "found": null,
+    "slug": null
+  },
+  {
+    "jar": "FarmersStructures-1.0.6-1.21.1_neoforge.jar",
+    "query": "FarmersStructures",
+    "found": null,
+    "slug": null
+  },
+  {
+    "jar": "GatewaysToEternity-1.21.1-5.1.0.jar",
+    "query": "GatewaysToEternity",
+    "found": null,
+    "slug": null
+  },
+  {
+    "jar": "Gobber-NeoForge-1.21.1-2.10.15.jar",
+    "query": "Gobber",
+    "found": null,
+    "slug": null
+  },
+  {
+    "jar": "JustEnoughProfessions-neoforge-1.21.1-4.0.5.jar",
+    "query": "JustEnoughProfessions",
+    "found": null,
+    "slug": null
+  },
+  {
+    "jar": "Raided-1.21.1-0.1.6.jar",
+    "query": "Raided",
+    "found": null,
+    "slug": null
+  },
+  {
+    "jar": "TerraBlender-neoforge-1.21.1-4.1.0.8.jar",
+    "query": "TerraBlender",
+    "found": null,
+    "slug": null
+  },
+  {
+    "jar": "ToastControl-1.21.1-9.0.1.jar",
+    "query": "ToastControl",
+    "found": null,
+    "slug": null
+  },
+  {
+    "jar": "aeroworks-1.3.0.jar",
+    "query": "aeroworks",
+    "found": null,
+    "slug": null
+  },
+  {
+    "jar": "alexsdelight-1.6.jar",
+    "query": "alexsdelight",
+    "found": null,
+    "slug": null
+  },
+  {
+    "jar": "alltheleaks-1.1.9+1.21.1-neoforge.jar",
+    "query": "alltheleaks",
+    "found": null,
+    "slug": null
+  },
+  {
+    "jar": "alltheores-3.2.0_neoforge_1.21.1.jar",
+    "query": "alltheores",
+    "found": null,
+    "slug": null
+  },
+  {
+    "jar": "allthewizardgear-1.21.1-1.1.12.jar",
+    "query": "allthewizardgear",
+    "found": null,
+    "slug": null
+  },
+  {
+    "jar": "anvilcore-10.1 Release-neoforge-1.21.1.jar",
+    "query": "anvilcore",
+    "found": null,
+    "slug": null
+  },
+  {
+    "jar": "ape-neoforge-1.21.1.jar",
+    "query": "ape",
+    "found": null,
+    "slug": null
+  },
+  {
+    "jar": "apotheosis_create-1.1.1-neoforge-1.21.1.jar",
+    "query": "apotheosis create",
+    "found": null,
+    "slug": null
+  },
+  {
+    "jar": "apothic_cataclysm-1.2.0.jar",
+    "query": "apothic cataclysm",
+    "found": null,
+    "slug": null
+  },
+  {
+    "jar": "apothic_compats-0.2.4.2.jar",
+    "query": "apothic compats",
+    "found": null,
+    "slug": null
+  },
+  {
+    "jar": "ars_n_spells-2.6.1.jar",
+    "query": "ars n spells",
+    "found": null,
+    "slug": null
+  },
+  {
+    "jar": "arsdelight-2.2.1.jar",
+    "query": "arsdelight",
+    "found": null,
+    "slug": null
+  },
+  {
+    "jar": "atmospherics-2.6.5-mc-1.21.1.jar",
+    "query": "atmospherics",
+    "found": null,
+    "slug": null
+  },
+  {
+    "jar": "awesomedungeonend-neoforge-1.21.1-3.1.1.jar",
+    "query": "awesomedungeonend",
+    "found": null,
+    "slug": null
+  },
+  {
+    "jar": "backpack_allthemodium_upgrade-2.4.jar",
+    "query": "backpack allthemodium upgrade",
+    "found": null,
+    "slug": null
+  },
+  {
+    "jar": "balm-neoforge-1.21.1-21.0.56.jar",
+    "query": "balm",
+    "found": null,
+    "slug": null
+  },
+  {
+    "jar": "blockui-1.0.209-1.21.1.jar",
+    "query": "blockui",
+    "found": null,
+    "slug": null
+  },
+  {
+    "jar": "bossrifts-1.21.0-V1.4.1.jar",
+    "query": "bossrifts",
+    "found": null,
+    "slug": null
+  },
+  {
+    "jar": "cataclysmfortresses-1.21.1-NeoForge.jar",
+    "query": "cataclysmfortresses",
+    "found": null,
+    "slug": null
+  },
+  {
+    "jar": "cataclysmiccombat-1.4.1.jar",
+    "query": "cataclysmiccombat",
+    "found": null,
+    "slug": null
+  },
+  {
+    "jar": "catalogue-neoforge-1.21.1-1.11.2.jar",
+    "query": "catalogue",
+    "found": null,
+    "slug": null
+  },
+  {
+    "jar": "chunksending-1.21-3.9.jar",
+    "query": "chunksending",
+    "found": null,
+    "slug": null
+  },
+  {
+    "jar": "collapsible_groups-neoforge-1.21.1-1.4.2.jar",
+    "query": "collapsible groups",
+    "found": null,
+    "slug": null
+  },
+  {
+    "jar": "common-networking-neoforge-1.0.21-1.21.1.jar",
+    "query": "common networking",
+    "found": null,
+    "slug": null
+  },
+  {
+    "jar": "configured-neoforge-1.21.1-2.6.3.jar",
+    "query": "configured",
+    "found": null,
+    "slug": null
+  },
+  {
+    "jar": "create_ae2recipes-0.2.0+1.21.1.jar",
+    "query": "create ae2recipes",
+    "found": null,
+    "slug": null
+  },
+  {
+    "jar": "create_heat_js-1.21.1-0.0.6.jar",
+    "query": "create heat js",
+    "found": null,
+    "slug": null
+  },
+  {
+    "jar": "create_structures_overhaul-1.4.0-neoforge-1.21.1.jar",
+    "query": "create structures overhaul",
+    "found": null,
+    "slug": null
+  },
+  {
+    "jar": "createbb-4.0.1.jar",
+    "query": "createbb",
+    "found": null,
+    "slug": null
+  },
+  {
+    "jar": "cupboard-1.21.1-3.9.jar",
+    "query": "cupboard",
+    "found": null,
+    "slug": null
+  },
+  {
+    "jar": "domum-ornamentum-1.0.233-snapshot-main.jar",
+    "query": "domum ornamentum",
+    "found": null,
+    "slug": null
+  },
+  {
+    "jar": "dragonfight-1.21-4.7.jar",
+    "query": "dragonfight",
+    "found": null,
+    "slug": null
+  },
+  {
+    "jar": "dragonloot-1.1.15-1.21.1-neoforge.jar",
+    "query": "dragonloot",
+    "found": null,
+    "slug": null
+  },
+  {
+    "jar": "dynamic_difficulty-neoforge-1.1.1+1.21.1.jar",
+    "query": "dynamic difficulty",
+    "found": null,
+    "slug": null
+  },
+  {
+    "jar": "engineers_delight-neoforge-1.21.1-2.0.1.jar",
+    "query": "engineers delight",
+    "found": null,
+    "slug": null
+  },
+  {
+    "jar": "enigmatic_arcana-1.1.0.jar",
+    "query": "enigmatic arcana",
+    "found": null,
+    "slug": null
+  },
+  {
+    "jar": "ess_requiem-0.1.6.jar",
+    "query": "ess requiem",
+    "found": null,
+    "slug": null
+  },
+  {
+    "jar": "evolution-1.21.1-1.8.jar",
+    "query": "evolution",
+    "found": null,
+    "slug": null
+  },
+  {
+    "jar": "fallen_gems_affixes-1.21.1-1.0.0.jar",
+    "query": "fallen gems affixes",
+    "found": null,
+    "slug": null
+  },
+  {
+    "jar": "fastboot-1.21.x-v1.3neo.jar",
+    "query": "fastboot",
+    "found": null,
+    "slug": null
+  },
+  {
+    "jar": "firesenderexpansion-2.4.1.jar",
+    "query": "firesenderexpansion",
+    "found": null,
+    "slug": null
+  },
+  {
+    "jar": "framework-neoforge-1.21.1-0.13.11.jar",
+    "query": "framework",
+    "found": null,
+    "slug": null
+  },
+  {
+    "jar": "ftb-chunks-neoforge-2101.1.21.jar",
+    "query": "ftb chunks",
+    "found": null,
+    "slug": null
+  },
+  {
+    "jar": "ftb-filter-system-neoforge-21.1.4.jar",
+    "query": "ftb filter system",
+    "found": null,
+    "slug": null
+  },
+  {
+    "jar": "ftb-library-neoforge-2101.1.35.jar",
+    "query": "ftb library",
+    "found": null,
+    "slug": null
+  },
+  {
+    "jar": "ftb-quests-neoforge-2101.1.31.jar",
+    "query": "ftb quests",
+    "found": null,
+    "slug": null
+  },
+  {
+    "jar": "ftb-teams-neoforge-2101.1.10.jar",
+    "query": "ftb teams",
+    "found": null,
+    "slug": null
+  },
+  {
+    "jar": "ftb-xmod-compat-neoforge-21.1.10.jar",
+    "query": "ftb xmod compat",
+    "found": null,
+    "slug": null
+  },
+  {
+    "jar": "ghastscrash-neoforge-1.21.1.jar",
+    "query": "ghastscrash",
+    "found": null,
+    "slug": null
+  },
+  {
+    "jar": "goblintraders-neoforge-1.21.1-1.11.2.jar",
+    "query": "goblintraders",
+    "found": null,
+    "slug": null
+  },
+  {
+    "jar": "healthbars-dd-compat-0.3.0+1.21.1.jar",
+    "query": "healthbars dd compat",
+    "found": null,
+    "slug": null
+  },
+  {
+    "jar": "heavier_weapons-1.21.1-NeoForge-1.1.0.jar",
+    "query": "heavier weapons",
+    "found": null,
+    "slug": null
+  },
+  {
+    "jar": "iceandfire-2.1-beta.3.jar",
+    "query": "iceandfire",
+    "found": null,
+    "slug": null
+  },
+  {
+    "jar": "iceandfirexbettercombat-1.21.1.jar",
+    "query": "iceandfirexbettercombat",
+    "found": null,
+    "slug": null
+  },
+  {
+    "jar": "immersive_engineering_js-2101.1.1.jar",
+    "query": "immersive engineering js",
+    "found": null,
+    "slug": null
+  },
+  {
+    "jar": "integrated_api-1.7.4+1.21.1-neoforge.jar",
+    "query": "integrated api",
+    "found": null,
+    "slug": null
+  },
+  {
+    "jar": "irons_apothic-2.2.1.jar",
+    "query": "irons apothic",
+    "found": null,
+    "slug": null
+  },
+  {
+    "jar": "irons_jewelry-1.21.1-1.6.1.1.jar",
+    "query": "irons jewelry",
+    "found": null,
+    "slug": null
+  },
+  {
+    "jar": "kotlinforforge-5.11.0-all.jar",
+    "query": "kotlinforforge",
+    "found": null,
+    "slug": null
+  },
+  {
+    "jar": "kubejs-create-neoforge-2101.3.1-build.18.jar",
+    "query": "kubejs create",
+    "found": null,
+    "slug": null
+  },
+  {
+    "jar": "kubejs-mekanism-neoforge-2101.1.7-build.18.jar",
+    "query": "kubejs mekanism",
+    "found": null,
+    "slug": null
+  },
+  {
+    "jar": "kubejs-neoforge-2101.7.2-build.368.jar",
+    "query": "kubejs",
+    "found": null,
+    "slug": null
+  },
+  {
+    "jar": "kubejs_curios_neoforge_1.21.1-1.0.4.jar",
+    "query": "kubejs curios neoforge 1.21.1",
+    "found": null,
+    "slug": null
+  },
+  {
+    "jar": "kubejs_rarity-1.21.1-1.0.0+neoforge.jar",
+    "query": "kubejs rarity",
+    "found": null,
+    "slug": null
+  },
+  {
+    "jar": "kubejsarsnouveau-1.3.2.jar",
+    "query": "kubejsarsnouveau",
+    "found": null,
+    "slug": null
+  },
+  {
+    "jar": "kubejsde-1.21.1-1.1.0.jar",
+    "query": "kubejsde",
+    "found": null,
+    "slug": null
+  },
+  {
+    "jar": "leaky-1.21-3.3.jar",
+    "query": "leaky",
+    "found": null,
+    "slug": null
+  },
+  {
+    "jar": "libertyvillagers-1.21.1-NeoForge-1.0.2.jar",
+    "query": "libertyvillagers",
+    "found": null,
+    "slug": null
+  },
+  {
+    "jar": "libraryferret-neoforge-1.21.1-4.0.0.jar",
+    "query": "libraryferret",
+    "found": null,
+    "slug": null
+  },
+  {
+    "jar": "logprot-1.21-3.5.jar",
+    "query": "logprot",
+    "found": null,
+    "slug": null
+  },
+  {
+    "jar": "lootintegration_townsandtowers-1.4.jar",
+    "query": "lootintegration townsandtowers",
+    "found": null,
+    "slug": null
+  },
+  {
+    "jar": "lootintegration_wda-1.8.jar",
+    "query": "lootintegration wda",
+    "found": null,
+    "slug": null
+  },
+  {
+    "jar": "lootintegrations-1.21.1-4.7.jar",
+    "query": "lootintegrations",
+    "found": null,
+    "slug": null
+  },
+  {
+    "jar": "lootintegrations_cataclysm-1.2.jar",
+    "query": "lootintegrations cataclysm",
+    "found": null,
+    "slug": null
+  },
+  {
+    "jar": "lootintegrations_dnt-2.6.jar",
+    "query": "lootintegrations dnt",
+    "found": null,
+    "slug": null
+  },
+  {
+    "jar": "lootintegrations_dungeonsenhanced-1.7.jar",
+    "query": "lootintegrations dungeonsenhanced",
+    "found": null,
+    "slug": null
+  },
+  {
+    "jar": "lootintegrations_iceandfire-1.2.jar",
+    "query": "lootintegrations iceandfire",
+    "found": null,
+    "slug": null
+  },
+  {
+    "jar": "lootintegrations_integrated-1.5.jar",
+    "query": "lootintegrations integrated",
+    "found": null,
+    "slug": null
+  },
+  {
+    "jar": "lootintegrations_lootintegrations_bygonepillage-1.2.jar",
+    "query": "lootintegrations lootintegrations bygonepillage",
+    "found": null,
+    "slug": null
+  },
+  {
+    "jar": "lootintegrations_moog-2.1.jar",
+    "query": "lootintegrations moog",
+    "found": null,
+    "slug": null
+  },
+  {
+    "jar": "lootintegrations_phillipsruins-1.3.jar",
+    "query": "lootintegrations phillipsruins",
+    "found": null,
+    "slug": null
+  },
+  {
+    "jar": "lootintegrations_structory-1.4.jar",
+    "query": "lootintegrations structory",
+    "found": null,
+    "slug": null
+  },
+  {
+    "jar": "lootintegrations_vanilla-1.7.jar",
+    "query": "lootintegrations vanilla",
+    "found": null,
+    "slug": null
+  },
+  {
+    "jar": "lootintegrations_yungs-1.6.jar",
+    "query": "lootintegrations yungs",
+    "found": null,
+    "slug": null
+  },
+  {
+    "jar": "lootr_liason-1.2-neoforge.jar",
+    "query": "lootr liason",
+    "found": null,
+    "slug": null
+  },
+  {
+    "jar": "minecolonies-1.1.1300-1.21.1.jar",
+    "query": "minecolonies",
+    "found": null,
+    "slug": null
+  },
+  {
+    "jar": "multipiston-1.2.58-1.21.1.jar",
+    "query": "multipiston",
+    "found": null,
+    "slug": null
+  },
+  {
+    "jar": "nadir-1.0.0.jar",
+    "query": "nadir",
+    "found": null,
+    "slug": null
+  },
+  {
+    "jar": "netherportalfix-neoforge-1.21.1-21.1.1.jar",
+    "query": "netherportalfix",
+    "found": null,
+    "slug": null
+  },
+  {
+    "jar": "recipeessentials-1.21.1-4.7.jar",
+    "query": "recipeessentials",
+    "found": null,
+    "slug": null
+  },
+  {
+    "jar": "refurbished_furniture-neoforge-1.21.1-1.0.22.jar",
+    "query": "refurbished furniture",
+    "found": null,
+    "slug": null
+  },
+  {
+    "jar": "reliquary-1.21.1-2.0.77.1537.jar",
+    "query": "reliquary",
+    "found": null,
+    "slug": null
+  },
+  {
+    "jar": "rhenium-1.0.0+neo.jar",
+    "query": "rhenium",
+    "found": null,
+    "slug": null
+  },
+  {
+    "jar": "rhino-2101.2.7-build.85.jar",
+    "query": "rhino",
+    "found": null,
+    "slug": null
+  },
+  {
+    "jar": "servercore-neoforge-1.5.17+1.21.1.jar",
+    "query": "servercore",
+    "found": null,
+    "slug": null
+  },
+  {
+    "jar": "simplyentityequipment-neoforge-0.1.0-1.21.1.jar",
+    "query": "simplyentityequipment",
+    "found": null,
+    "slug": null
+  },
+  {
+    "jar": "solcarrot-1.21.1-1.16.6.jar",
+    "query": "solcarrot",
+    "found": null,
+    "slug": null
+  },
+  {
+    "jar": "sophisticatedbackpacks-1.21.1-3.26.3.2158.jar",
+    "query": "sophisticatedbackpacks",
+    "found": null,
+    "slug": null
+  },
+  {
+    "jar": "sophisticatedcore-1.21.1-1.5.1.2341.jar",
+    "query": "sophisticatedcore",
+    "found": null,
+    "slug": null
+  },
+  {
+    "jar": "structureessentials-1.21.1-5.0.jar",
+    "query": "structureessentials",
+    "found": null,
+    "slug": null
+  },
+  {
+    "jar": "structurize-1.0.828-1.21.1-snapshot.jar",
+    "query": "structurize",
+    "found": null,
+    "slug": null
+  },
+  {
+    "jar": "towntalk-1.2.0.jar",
+    "query": "towntalk",
+    "found": null,
+    "slug": null
+  },
+  {
+    "jar": "trade-cycling-neoforge-1.21.1-1.0.18.jar",
+    "query": "trade cycling",
+    "found": null,
+    "slug": null
+  },
+  {
+    "jar": "twilightdelight-3.2.2.jar",
+    "query": "twilightdelight",
+    "found": null,
+    "slug": null
+  },
+  {
+    "jar": "twilightforest-1.21.1-4.8.3345-universal.jar",
+    "query": "twilightforest",
+    "found": null,
+    "slug": null
+  },
+  {
+    "jar": "village_n_pillage_remake-1.0.0-neoforge-1.21.1.jar",
+    "query": "village n pillage remake",
+    "found": null,
+    "slug": null
+  },
+  {
+    "jar": "wind_spellbooks-1.0.5.jar",
+    "query": "wind spellbooks",
+    "found": null,
+    "slug": null
+  }
+]
