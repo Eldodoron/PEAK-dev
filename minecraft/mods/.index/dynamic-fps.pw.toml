@@ -1,0 +1,21 @@
+filename = 'dynamic-fps-3.7.7+minecraft-1.21.0-neoforge.jar'
+name = 'Dynamic FPS'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'v3.7.7'
+
+[download]
+hash = 'd005752e4a196c2e27f1ed0283de15b04ec67744'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5959826
+project-id = 335493
+
+[[x-prismlauncher-dependencies]]
+addonId = '348521'
+type = 'OPTIONAL'

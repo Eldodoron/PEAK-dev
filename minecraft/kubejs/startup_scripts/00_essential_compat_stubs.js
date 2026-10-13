@@ -6,7 +6,7 @@
 
 StartupEvents.registry('particle_type', event => {
     if (!Platform.isLoaded('particular')) {
-        const particularParticles = [
+        [
             'particular:acacia_leaf',
             'particular:azalea_leaf',
             'particular:bamboo_leaf',
@@ -46,12 +46,11 @@ StartupEvents.registry('particle_type', event => {
             'particular:ww_baobab_leaf',
             'particular:ww_cypress_leaf',
             'particular:ww_palm_leaf'
-        ];
-        particularParticles.forEach(id => event.create(id));
+        ].forEach(id => event.create(id));
     }
 
     if (!Platform.isLoaded('atmospherics')) {
-        const atmosphericsParticles = [
+        [
             'atmospherics:cave_fog',
             'atmospherics:deep_dark_fog',
             'atmospherics:desert_dust',
@@ -69,31 +68,28 @@ StartupEvents.registry('particle_type', event => {
             'atmospherics:strong_wind_streak',
             'atmospherics:swamp_fog',
             'atmospherics:wind_streak'
-        ];
-        atmosphericsParticles.forEach(id => event.create(id));
+        ].forEach(id => event.create(id));
     }
 
     if (!Platform.isLoaded('cosycritters')) {
-        const cosyCrittersParticles = [
+        [
             'cosycritters:bird',
             'cosycritters:hat_man',
             'cosycritters:moth',
             'cosycritters:spider'
-        ];
-        cosyCrittersParticles.forEach(id => event.create(id));
+        ].forEach(id => event.create(id));
     }
 });
 
 StartupEvents.registry('sound_event', event => {
     if (!Platform.isLoaded('atmospherics')) {
-        const atmosphericsSounds = [
+        [
             'atmospherics:weather.desert_rain',
             'atmospherics:weather.desert_rain_loop',
             'atmospherics:weather.desert_rain_start',
             'atmospherics:weather.desert_thunder',
             'atmospherics:weather.desert_thunder_loop',
             'atmospherics:weather.desert_thunder_start'
-        ];
-        atmosphericsSounds.forEach(id => event.create(id));
+        ].forEach(id => event.create(id));
     }
 });

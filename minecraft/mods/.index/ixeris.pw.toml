@@ -1,0 +1,18 @@
+filename = 'Ixeris-4.4.1+1.21.1-neoforge.jar'
+name = 'Ixeris'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Ixeris 4.4.1+1.21.1-neoforge'
+
+[download]
+hash = '039cfc341d0083e29ee39647abe930399fd5e1dc'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8189938
+project-id = 1285307

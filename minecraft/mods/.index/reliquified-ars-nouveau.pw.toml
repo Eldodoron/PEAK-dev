@@ -1,0 +1,25 @@
+filename = 'reliquified_ars_nouveau-1.21.1-0.6.1.jar'
+name = 'Reliquified Ars Nouveau'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'reliquified_ars_nouveau-1.21.1-0.6.1.jar'
+
+[download]
+hash = '882aba237860441a7ad2943775ffa3cc4d6324a9'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6882233
+project-id = 1196449
+
+[[x-prismlauncher-dependencies]]
+addonId = '401955'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '445274'
+type = 'REQUIRED'
