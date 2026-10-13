@@ -55,7 +55,7 @@ ruyijingubang_damage_modifier = 7
 rupturedidol_damage_modifier = 8
 boasfang_damage_modifier = 5
 earthshatter_damage_modifier = 10
-soulfracture_damage_modifier = 3
+soulfracture_damage_modifier = 7
 serpentinevalour_damage_modifier = 9
 lustrousmoxie_damage_modifier = 8
 brassturn_damage_modifier = 6
@@ -63,7 +63,7 @@ cindergorge_damage_modifier = 9
 deathseyrie_damage_modifier = 10
 perforiscus_damage_modifier = 8
 revvengine_damage_modifier = 6
-moundshifter_damage_modifier = 3
+moundshifter_damage_modifier = 7
 culterex_damage_modifier = 6
 
 [uniqueWeaponsSwingSpeed]

@@ -11,21 +11,8 @@ ServerEvents.recipes(event => {
 
     // -------------------------------------------------------------
     // 1. Iron's Spells: Alchemist Cauldron Soaking
+    // Handled via datapack JSON in kubejs/data/irons_spellbooks/recipe/alchemist_cauldron/soak_emboldened_ingot.json
     // -------------------------------------------------------------
-    event.custom({
-        type: 'irons_spellbooks:alchemist_cauldron_brew',
-        base_fluid: {
-            amount: 1000,
-            id: 'irons_spellbooks:blood'
-        },
-        input: {
-            item: 'minecraft:iron_ingot'
-        },
-        byproduct: {
-            id: 'ess_requiem:emboldened_ingot'
-        },
-        results: []
-    }).id('kubejs:irons_spellbooks/alchemist_cauldron/emboldened_ingot');
 
     // -------------------------------------------------------------
     // 2. Create: Spout Filling (1000 mB Blood)

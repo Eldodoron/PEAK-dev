@@ -79,33 +79,21 @@ function ensureVoidSanctuaryPlatform(server) {
     return true;
 }
 
-// Helper: Calculate real surface height, accounting for existing pad/lanterns
+// Helper: Calculate real surface height, accurately handling terrain, water, and existing pads
 function getSurfaceY(level, x, z) {
-    let topY = 64;
-    try {
-        let Heightmap = Java.loadClass('net.minecraft.world.level.levelgen.Heightmap');
-        topY = level.getHeight(Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, x, z);
-    } catch (e) {
-        for (let y = 319; y > -64; y--) {
-            let b = level.getBlock(x, y, z);
-            if (b) {
-                let bid = String(b.id);
-                if (bid !== 'minecraft:air' && bid !== 'minecraft:void_air') {
-                    topY = y + 1;
-                    break;
+    for (let y = 319; y > -64; y--) {
+        let b = level.getBlock(x, y, z);
+        if (b) {
+            let bid = String(b.id);
+            if (bid !== 'minecraft:air' && bid !== 'minecraft:void_air') {
+                if (bid === 'kubejs:void_teleport_pad' || bid === 'minecraft:soul_lantern') {
+                    return y;
                 }
+                return y + 1;
             }
         }
     }
-
-    let topBlock = level.getBlock(x, topY - 1, z);
-    if (topBlock) {
-        let bid = String(topBlock.id);
-        if (bid === 'kubejs:void_teleport_pad' || bid === 'minecraft:soul_lantern') {
-            return topY - 1;
-        }
-    }
-    return topY;
+    return 64;
 }
 
 // Helper: Setup communal World Spawn dais in Overworld
@@ -140,6 +128,18 @@ function setupWorldSpawnDais(server, forceRecalculate) {
     server.persistentData.putBoolean('sanctuary_spawn_cleared', false);
     server.persistentData.putBoolean('sanctuary_world_spawn_initialized', true);
 
+    // If over water or fluids, build a foundation pier down into the water
+    for (let dy = 1; dy <= 4; dy++) {
+        for (let dx = -1; dx <= 1; dx++) {
+            for (let dz = -1; dz <= 1; dz++) {
+                let under = overworld.getBlock(sx + dx, sy - 1 - dy, sz + dz);
+                if (under && (String(under.id).includes('water') || under.liquid)) {
+                    server.runCommandSilent(`execute in minecraft:overworld run setblock ${sx + dx} ${sy - 1 - dy} ${sz + dz} minecraft:polished_deepslate`);
+                }
+            }
+        }
+    }
+
     // 3x3 platform around spawn
     for (let dx = -1; dx <= 1; dx++) {
         for (let dz = -1; dz <= 1; dz++) {
@@ -164,8 +164,89 @@ function setupWorldSpawnDais(server, forceRecalculate) {
     return { x: sx, y: sy, z: sz };
 }
 
-global.setupWorldSpawnDais = setupWorldSpawnDais;
-global.ensureVoidSanctuaryPlatform = ensureVoidSanctuaryPlatform;
+// ==========================================
+// ADMIN COMMANDS: /peak pad & /regeneratepad
+// ==========================================
+ServerEvents.commandRegistry(event => {
+    const { commands: Commands } = event;
+
+    function regenerateOverworldPad(ctx) {
+        let source = ctx.source;
+        let server = source.server;
+        let coords = setupWorldSpawnDais(server, true);
+        if (coords) {
+            server.runCommandSilent(`execute in minecraft:overworld run playsound minecraft:block.beacon.activate block @a ${coords.x} ${coords.y} ${coords.z} 1.0 1.0`);
+            server.runCommandSilent(`execute in minecraft:overworld run particle minecraft:reverse_portal ${coords.x + 0.5} ${coords.y + 0.5} ${coords.z + 0.5} 0.5 0.5 0.5 0.05 60`);
+            let msg = Text.green(`Overworld Void Teleport Pad dais successfully regenerated at (${coords.x}, ${coords.y}, ${coords.z}).`);
+            if (source.player) source.player.tell(msg);
+            else source.sendSuccess(msg, true);
+            return 1;
+        }
+        let err = Text.red('Failed to regenerate Overworld pad: Overworld level not found.');
+        if (source.player) source.player.tell(err);
+        else source.sendFailure(err);
+        return 0;
+    }
+
+    function regenerateBeyondPad(ctx) {
+        let source = ctx.source;
+        let server = source.server;
+        let success = ensureVoidSanctuaryPlatform(server);
+        if (success) {
+            server.runCommandSilent('execute in allthemodium:the_beyond run playsound minecraft:block.beacon.activate block @a 0 64 0 1.0 1.0');
+            server.runCommandSilent('execute in allthemodium:the_beyond run particle minecraft:reverse_portal 0.5 64.5 0.5 0.5 0.5 0.5 0.05 60');
+            let msg = Text.green('The Beyond anchor dais successfully regenerated at (0, 64, 0).');
+            if (source.player) source.player.tell(msg);
+            else source.sendSuccess(msg, true);
+            return 1;
+        }
+        let err = Text.red('Failed to regenerate The Beyond pad: dimension unavailable.');
+        if (source.player) source.player.tell(err);
+        else source.sendFailure(err);
+        return 0;
+    }
+
+    function regenerateAllPads(ctx) {
+        let r1 = regenerateOverworldPad(ctx);
+        let r2 = regenerateBeyondPad(ctx);
+        return (r1 && r2) ? 1 : 0;
+    }
+
+    function showPadInfo(ctx) {
+        let source = ctx.source;
+        let server = source.server;
+        let sx = server.persistentData.getInt('sanctuary_spawn_x');
+        let sy = server.persistentData.getInt('sanctuary_spawn_y');
+        let sz = server.persistentData.getInt('sanctuary_spawn_z');
+        let cleared = server.persistentData.getBoolean('sanctuary_spawn_cleared');
+        let initialized = server.persistentData.getBoolean('sanctuary_world_spawn_initialized');
+
+        let msg = Text.gold('--- Void Teleport Pad Status ---\n')
+            .append(Text.white(`Overworld Dais: (${sx}, ${sy}, ${sz}) - Status: `))
+            .append(!initialized ? Text.yellow('Uninitialized') : (cleared ? Text.red('Cleared / Inactive') : Text.green('Active')))
+            .append(Text.white('\nThe Beyond Anchor: (0, 64, 0) - Status: '))
+            .append(Text.green('Active'));
+
+        if (source.player) source.player.tell(msg);
+        else source.sendSuccess(msg, false);
+        return 1;
+    }
+
+    event.register(
+        Commands.literal('peak')
+            .requires(src => src.hasPermission(2))
+            .then(Commands.literal('pad')
+                .executes(ctx => regenerateOverworldPad(ctx))
+                .then(Commands.literal('regenerate')
+                    .executes(ctx => regenerateOverworldPad(ctx))
+                    .then(Commands.literal('overworld').executes(ctx => regenerateOverworldPad(ctx)))
+                    .then(Commands.literal('beyond').executes(ctx => regenerateBeyondPad(ctx)))
+                    .then(Commands.literal('all').executes(ctx => regenerateAllPads(ctx)))
+                )
+                .then(Commands.literal('info').executes(ctx => showPadInfo(ctx)))
+            )
+    );
+});
 
 // Helper: Check if a given block is one of the communal non-dropping pads
 function isCommunalPad(block) {

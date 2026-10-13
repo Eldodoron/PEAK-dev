@@ -48,9 +48,7 @@ RecipeViewerEvents.removeEntries('item', event => {
     ];
 
     dummyEnchantments.forEach(ench => {
-        event.remove(Item.of('minecraft:enchanted_book').withComponents({
-            'minecraft:stored_enchantments': { levels: { [ench]: 1 } }
-        }));
+        event.remove(`minecraft:enchanted_book[minecraft:stored_enchantments={levels:{'${ench}':1}}]`);
     });
 });
 

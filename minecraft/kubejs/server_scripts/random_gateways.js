@@ -330,7 +330,7 @@ function scheduleGatewayEvent(server, overworld, targetPlayer, forcedGateId) {
     let pos = findSurfacePos(overworld, px, pz, RG_DEFAULTS.min_player_dist, RG_DEFAULTS.max_player_dist);
     let gateId = forcedGateId || selectGatewayForPos(overworld, pos.x, pos.z);
 
-    let dayTime = overworld.getDayTime();
+    let dayTime = overworld.dayTime || 0;
     let timeOfDay = dayTime % 24000;
 
     // Pick a spawn tick later in the day, with at least 6000 ticks (300s) buffer for the warning
@@ -473,12 +473,12 @@ ServerEvents.tick(event => {
     if (!overworld) return;
 
     // Run throttled logic once every second (20 ticks)
-    let gameTime = overworld.getGameTime();
+    let gameTime = overworld.gameTime || server.tickCount || 0;
     if (gameTime % 20 !== 0) return;
 
     let cfg = getRGConfig(server);
     let p = server.persistentData;
-    let dayTime = overworld.getDayTime();
+    let dayTime = overworld.dayTime || 0;
     let timeOfDay = dayTime % 24000;
 
     // 1. Sunrise Daily Evaluation (around tick 1 - 40)

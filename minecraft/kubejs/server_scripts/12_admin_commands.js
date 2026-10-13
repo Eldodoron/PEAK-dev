@@ -219,13 +219,6 @@ ServerEvents.commandRegistry(event => {
             .then(Commands.literal('spawn_animals')
                 .executes(ctx => spawnAnimals(ctx))
             )
-            .then(createPadCommandNode())
-            .then(Commands.literal('regenerate_pad')
-                .executes(ctx => regenerateOverworldPad(ctx))
-                .then(Commands.literal('overworld').executes(ctx => regenerateOverworldPad(ctx)))
-                .then(Commands.literal('beyond').executes(ctx => regenerateBeyondPad(ctx)))
-                .then(Commands.literal('all').executes(ctx => regenerateAllPads(ctx)))
-            )
     );
 
     function spawnAnimals(ctx) {
@@ -291,102 +284,6 @@ ServerEvents.commandRegistry(event => {
     event.register(
         createGreenScreenNode()
             .requires(src => src.hasPermission(2))
-    );
-
-    function regenerateOverworldPad(ctx) {
-        let source = ctx.source;
-        let server = source.server;
-        let setupFn = global.setupWorldSpawnDais;
-        if (typeof setupFn === 'function') {
-            let coords = setupFn(server, false);
-            if (coords) {
-                server.runCommandSilent(`execute in minecraft:overworld run playsound minecraft:block.beacon.activate block @a ${coords.x} ${coords.y} ${coords.z} 1.0 1.0`);
-                server.runCommandSilent(`execute in minecraft:overworld run particle minecraft:reverse_portal ${coords.x + 0.5} ${coords.y + 0.5} ${coords.z + 0.5} 0.5 0.5 0.5 0.05 60`);
-                let msg = Text.green(`Overworld Void Teleport Pad dais successfully regenerated at (${coords.x}, ${coords.y}, ${coords.z}).`);
-                if (source.player) {
-                    source.player.tell(msg);
-                } else {
-                    source.sendSuccess(msg, true);
-                }
-                return 1;
-            }
-        }
-        let err = Text.red('Failed to regenerate Overworld pad: generation function unavailable or overworld level missing.');
-        if (source.player) source.player.tell(err);
-        else source.sendFailure(err);
-        return 0;
-    }
-
-    function regenerateBeyondPad(ctx) {
-        let source = ctx.source;
-        let server = source.server;
-        let ensureFn = global.ensureVoidSanctuaryPlatform;
-        if (typeof ensureFn === 'function') {
-            let success = ensureFn(server);
-            if (success) {
-                server.runCommandSilent('execute in allthemodium:the_beyond run playsound minecraft:block.beacon.activate block @a 0 64 0 1.0 1.0');
-                server.runCommandSilent('execute in allthemodium:the_beyond run particle minecraft:reverse_portal 0.5 64.5 0.5 0.5 0.5 0.5 0.05 60');
-                let msg = Text.green('The Beyond anchor dais successfully regenerated at (0, 64, 0).');
-                if (source.player) {
-                    source.player.tell(msg);
-                } else {
-                    source.sendSuccess(msg, true);
-                }
-                return 1;
-            }
-        }
-        let err = Text.red('Failed to regenerate The Beyond pad: dimension unavailable.');
-        if (source.player) source.player.tell(err);
-        else source.sendFailure(err);
-        return 0;
-    }
-
-    function regenerateAllPads(ctx) {
-        let r1 = regenerateOverworldPad(ctx);
-        let r2 = regenerateBeyondPad(ctx);
-        return (r1 && r2) ? 1 : 0;
-    }
-
-    function showPadInfo(ctx) {
-        let source = ctx.source;
-        let server = source.server;
-        let sx = server.persistentData.getInt('sanctuary_spawn_x');
-        let sy = server.persistentData.getInt('sanctuary_spawn_y');
-        let sz = server.persistentData.getInt('sanctuary_spawn_z');
-        let cleared = server.persistentData.getBoolean('sanctuary_spawn_cleared');
-        let initialized = server.persistentData.getBoolean('sanctuary_world_spawn_initialized');
-
-        let msg = Text.gold('--- Void Teleport Pad Status ---\n')
-            .append(Text.white(`Overworld Dais: (${sx}, ${sy}, ${sz}) - Status: `))
-            .append(!initialized ? Text.yellow('Uninitialized') : (cleared ? Text.red('Cleared / Inactive') : Text.green('Active')))
-            .append(Text.white('\nThe Beyond Anchor: (0, 64, 0) - Status: '))
-            .append(Text.green('Active'));
-
-        if (source.player) {
-            source.player.tell(msg);
-        } else {
-            source.sendSuccess(msg, false);
-        }
-        return 1;
-    }
-
-    function createPadCommandNode() {
-        return Commands.literal('pad')
-            .executes(ctx => regenerateOverworldPad(ctx))
-            .then(Commands.literal('regenerate')
-                .executes(ctx => regenerateOverworldPad(ctx))
-                .then(Commands.literal('overworld').executes(ctx => regenerateOverworldPad(ctx)))
-                .then(Commands.literal('beyond').executes(ctx => regenerateBeyondPad(ctx)))
-                .then(Commands.literal('all').executes(ctx => regenerateAllPads(ctx)))
-            )
-            .then(Commands.literal('info').executes(ctx => showPadInfo(ctx)));
-    }
-
-    // Direct alias for /regeneratepad
-    event.register(
-        Commands.literal('regeneratepad')
-            .requires(src => src.hasPermission(2))
-            .executes(ctx => regenerateOverworldPad(ctx))
     );
 });
 

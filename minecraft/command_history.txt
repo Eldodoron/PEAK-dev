@@ -1,31 +1,3 @@
-/ct dump
-/ct dump_brackets
-/ct dump wandering_trades
-/ct dump villager_trades
-/reload
-//ffttbbqquueessttss rreellooaadd
-/ftbquests reload
-/kubejs reload server-scripts
-/reload
-/peak spawn_animals
-/execute in minecraft:overworld run tp Eldodoron
-/execute in minecraft:overworld run tp Eldodoron 1 ~ 1
-/time set day
-/peak spawn_animals
-/summon minecraft:warden
-/ct hand
-/execute in allthemodium:the_beyond run tp Eldodoron 1 ~ 1
-/summon cataclysm:the_harbinger
-/summon cataclysm:ancient_remnant
-/tick freeze
-/summon alexsmobs:void_worm
-/summon cataclysm:ender_guardian
-/tick step 1s
-/summon minecraft:warden
-/summon cataclysm:ignis
-/tick freeze
-/tick unfreeze
-/fill ~ ~ ~ -1800 11211 1597 minecraft:stone
 /tp Eldodoron 1 1 1
 /fill ~ ~ 1 200 200 2 minecraft:stone
 /fill ~ ~ 1 100 100 2 minecraft:stone
@@ -67,3 +39,31 @@
 /time set night
 /weather clear
 /time set night
+/xp add Eldodoron 1000 levels
+/execute in minecraft:the_end run tp Eldodoron 1 100 1
+/gamerule keepInventory true
+/kick
+/kill
+/xp set Eldodoron 100 levels
+/execute in minecraft:the_nether run tp Eldodoron 1 100 1
+/locate structure dungeons_arise:plague_asylum
+/tp Eldodoron 10000 ~ 10000
+/locate structure dungeons_arise:plague_asylum
+/kill
+/kubejs reload server-scripts
+/peak pad info
+/tp Eldodoron 0 0 0
+/peak pad regenerate
+/peak regenerate_pad overworld
+/peak regenerate_pad all
+/peak regenerate_pad beyond
+/kubejs reload server-scripts
+/peak regenerate_pad
+/peak regenerate_pad all
+/peak pad regenerate
+/peak pad regenerate overworld
+/reload
+/peak pad regenerate overworld
+/kill
+/peak pad regenerate overworld
+/reload

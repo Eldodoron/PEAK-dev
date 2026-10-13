@@ -55,37 +55,30 @@ ServerEvents.recipes(event => {
 
     // -------------------------------------------------------------
     // RESTORE KEY (yagm:restore_key) SYNTHESIS
+    // Requires specialized Arcane, Occult, or Industrial synthesis.
     // -------------------------------------------------------------
 
-    // Remove default recipe requiring standard obsidian
-    event.remove({ id: 'yagm:restore_key' });
+    // Remove default crafting recipes
+    event.remove({ output: 'yagm:restore_key' });
 
-    // Crafting Table: Shaped Crafting (Crying Obsidian matches key texture)
-    event.shaped('yagm:restore_key', [
-        ' E ',
-        ' T ',
-        ' C '
-    ], {
-        E: 'minecraft:ender_pearl',
-        T: 'yagm:ghost_pearl',
-        C: 'minecraft:crying_obsidian'
-    }).id('kubejs:crafting/restore_key');
+    // 1. Create: Precision Sequenced Assembly
+    // Ghost Pearl base -> Crying Obsidian casing -> Echo Shard resonant core -> Ender Pearl tether -> Mechanical Press
+    event.recipes.create.sequenced_assembly(
+        'yagm:restore_key',
+        'yagm:ghost_pearl',
+        [
+            event.recipes.create.deploying('yagm:ghost_pearl', ['yagm:ghost_pearl', 'minecraft:crying_obsidian']),
+            event.recipes.create.deploying('yagm:ghost_pearl', ['yagm:ghost_pearl', 'minecraft:echo_shard']),
+            event.recipes.create.deploying('yagm:ghost_pearl', ['yagm:ghost_pearl', 'minecraft:ender_pearl']),
+            event.recipes.create.pressing('yagm:ghost_pearl', 'yagm:ghost_pearl')
+        ]
+    ).transitionalItem('yagm:ghost_pearl').loops(1).id('kubejs:create/sequenced_assembly/restore_key');
 
-    // Create: Mechanical Crafting
-    event.recipes.create.mechanical_crafting('yagm:restore_key', [
-        'E',
-        'T',
-        'C'
-    ], {
-        E: 'minecraft:ender_pearl',
-        T: 'yagm:ghost_pearl',
-        C: 'minecraft:crying_obsidian'
-    }).id('kubejs:create/mechanical_crafting/restore_key');
-
-    // Ars Nouveau: Enchanting Apparatus
+    // 2. Ars Nouveau: Enchanting Apparatus
     event.recipes.ars_nouveau.enchanting_apparatus(
         [
             'minecraft:crying_obsidian',
+            'minecraft:echo_shard',
             'minecraft:ender_pearl',
             'ars_nouveau:source_gem'
         ],
@@ -93,12 +86,13 @@ ServerEvents.recipes(event => {
         'yagm:restore_key'
     ).sourceCost(1000).id('kubejs:ars_nouveau/enchanting_apparatus/restore_key');
 
-    // Malum: Spirit Infusion
+    // 3. Malum: Spirit Infusion
     event.custom({
         type: 'malum:spirit_infusion',
         input: { count: 1, item: 'yagm:ghost_pearl' },
         extraInputs: [
             { count: 1, item: 'minecraft:crying_obsidian' },
+            { count: 1, item: 'minecraft:echo_shard' },
             { count: 1, item: 'minecraft:ender_pearl' }
         ],
         spirits: [

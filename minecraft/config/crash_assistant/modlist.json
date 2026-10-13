@@ -1,9 +1,9 @@
 {
-  "neoforge-21.1.240 (modloader)": {
-    "jarName": "neoforge-21.1.240 (modloader)",
+  "neoforge-21.1.248 (modloader)": {
+    "jarName": "neoforge-21.1.248 (modloader)",
     "modId": "neoforge",
     "name": "neoforge",
-    "version": "neoforge-21.1.240"
+    "version": "neoforge-21.1.248"
   },
   "aces_spell_utils-1.2.6.1-1.21.1.jar": {
     "jarName": "aces_spell_utils-1.2.6.1-1.21.1.jar",
@@ -124,14 +124,6 @@
     "version": "1.21-2.0.15",
     "curseForgeHash": 1748391263,
     "modrinthHash": "00056f29646f3bf86116b281c2362c0dabdb4533"
-  },
-  "anvilcore-10.1 Release-neoforge-1.21.1.jar": {
-    "jarName": "anvilcore-10.1 Release-neoforge-1.21.1.jar",
-    "modId": "anvilcore",
-    "name": "AnvilCore",
-    "version": "10.1",
-    "curseForgeHash": 3868553806,
-    "modrinthHash": "d807fa23228c5260aa85413c4eab03a577cdd255"
   },
   "ape-neoforge-1.21.1.jar": {
     "jarName": "ape-neoforge-1.21.1.jar",
@@ -1099,14 +1091,6 @@
     "curseForgeHash": 3901851543,
     "modrinthHash": "f7a9d53eba6659c08db96d075e8e1839623616b2"
   },
-  "EasyAnvils-v21.1.0-1.21.1-NeoForge.jar": {
-    "jarName": "EasyAnvils-v21.1.0-1.21.1-NeoForge.jar",
-    "modId": "easyanvils",
-    "name": "Easy Anvils",
-    "version": "21.1.0",
-    "curseForgeHash": 2386658472,
-    "modrinthHash": "376c02e44dfcb44b79a494b1dba87b2ffb24277f"
-  },
   "efficient_hashing-neoforge-1.0.0+1.21.1-mod.jar": {
     "jarName": "efficient_hashing-neoforge-1.0.0+1.21.1-mod.jar",
     "modId": "efficient_hashing",
@@ -1538,13 +1522,13 @@
     "curseForgeHash": 1129986569,
     "modrinthHash": "783f53689e29ee119ab8af348f0f6c41901821b7"
   },
-  "iceandfire-2.1-beta.3.jar": {
-    "jarName": "iceandfire-2.1-beta.3.jar",
+  "iceandfire-2.1.4.jar": {
+    "jarName": "iceandfire-2.1.4.jar",
     "modId": "iceandfire",
     "name": "Ice And Fire Community Edition",
-    "version": "2.1-beta.3",
-    "curseForgeHash": 3702004341,
-    "modrinthHash": "217498b651056dd7a17bfa32c005fd6155c13003"
+    "version": "2.1.4",
+    "curseForgeHash": 559540515,
+    "modrinthHash": "3bffc3a55369bba28db6c2f6a5e827b1c6ac8586"
   },
   "iceandfirexbettercombat-1.21.1.jar": {
     "jarName": "iceandfirexbettercombat-1.21.1.jar",
@@ -2615,14 +2599,6 @@
     "curseForgeHash": 3428932014,
     "modrinthHash": "c22960dc0786ddda5771f0a99fcdc1e2955c6f5d"
   },
-  "RandomGatewaysSpawning-1.21.1-2.8.jar": {
-    "jarName": "RandomGatewaysSpawning-1.21.1-2.8.jar",
-    "modId": "plagatesummon",
-    "name": "Random Gateways Spawning",
-    "version": "2.8",
-    "curseForgeHash": 3320952634,
-    "modrinthHash": "1fa3b9caf5be911afb3266524d5c9a9c91a933f7"
-  },
   "Re-Avaritia-neoforge-1.21.1-1.4.1-release.jar": {
     "jarName": "Re-Avaritia-neoforge-1.21.1-1.4.1-release.jar",
     "modId": "avaritia",
@@ -3151,13 +3127,13 @@
     "curseForgeHash": 1166863698,
     "modrinthHash": "4fb6e087325c70031fdb7fe6eb5278c5038511dd"
   },
-  "yagm-1.21.1-0.1.2-NEOFORGE.jar": {
-    "jarName": "yagm-1.21.1-0.1.2-NEOFORGE.jar",
+  "yagm-1.21.1-0.1.5-NEOFORGE.jar": {
+    "jarName": "yagm-1.21.1-0.1.5-NEOFORGE.jar",
     "modId": "yagm",
     "name": "Yet Another Gravestone Mod",
     "version": "0.1",
-    "curseForgeHash": 830137263,
-    "modrinthHash": "b8642fb0e2a8660a53875979f0788892b41e889e"
+    "curseForgeHash": 1130436573,
+    "modrinthHash": "a026785df22f68b499fbc4f406c6d6b2d3ac450a"
   },
   "yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar": {
     "jarName": "yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar",

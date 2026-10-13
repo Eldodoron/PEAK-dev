@@ -378,18 +378,6 @@ ServerEvents.recipes(event => {
         N: 'minecraft:netherite_ingot'
     });
 
-    // --- ENDER CHEST needs Ender IO tech ---
-    event.remove({ output: 'minecraft:ender_chest' });
-    event.shaped('minecraft:ender_chest', [
-        'OPO',
-        'OEO',
-        'OPO'
-    ], {
-        O: 'minecraft:obsidian',
-        P: 'enderio:pulsating_crystal',
-        E: 'minecraft:ender_eye'
-    });
-
     // --- ENCHANTING TABLE needs Ars Nouveau ---
     event.remove({ output: 'minecraft:enchanting_table' });
     event.shaped('minecraft:enchanting_table', [

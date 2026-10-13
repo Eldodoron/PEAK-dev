@@ -4,6 +4,7 @@
 // ==========================================
 
 const $Equipable = Java.loadClass('net.minecraft.world.item.Equipable');
+const $DataComponents = Java.loadClass('net.minecraft.core.component.DataComponents');
 
 ItemEvents.crafted(event => {
     let craftedItem = event.item;
@@ -42,25 +43,61 @@ ItemEvents.crafted(event => {
 
     if (!sourceArmor) return;
 
-    // 4. Transfer modified data components (enchantments, trim, name, apotheosis affixes, sockets)
-    let patch = sourceArmor.getComponentsPatch();
-    if (patch && !patch.isEmpty()) {
-        craftedItem.applyComponents(patch);
-
-        // Clamp damage value if the upgraded armor piece has lower max durability
-        let maxDmg = craftedItem.getMaxDamage();
-        let curDmg = craftedItem.getDamageValue();
-        if (maxDmg > 0 && curDmg >= maxDmg) {
-            craftedItem.setDamageValue(Math.max(0, maxDmg - 1));
-        }
-    }
-
-    // 5. Fallback enchantment merge
+    // 4. Primary: Transfer data components via patch
     try {
-        if (sourceArmor.isEnchanted() && !craftedItem.isEnchanted()) {
+        let patch = sourceArmor.getComponentsPatch();
+        if (patch && !patch.isEmpty()) {
+            if (typeof craftedItem.patch === 'function') {
+                craftedItem.patch(patch);
+            } else if (typeof craftedItem.kjs$patch === 'function') {
+                craftedItem.kjs$patch(patch);
+            } else if (craftedItem.kjs$getComponentHolder) {
+                craftedItem.kjs$getComponentHolder().applyComponents(patch);
+            }
+        }
+    } catch (e1) {}
+
+    // 5. Direct Component Transfer (Guarantees enchantments, trims, names, custom data)
+    try {
+        if (sourceArmor.isEnchanted()) {
             craftedItem.enchant(sourceArmor.getEnchantments());
         }
-    } catch (e) {}
+    } catch (e2) {}
+
+    try {
+        if (sourceArmor.has($DataComponents.TRIM)) {
+            craftedItem.set($DataComponents.TRIM, sourceArmor.get($DataComponents.TRIM));
+        }
+    } catch (e3) {}
+
+    try {
+        if (sourceArmor.has($DataComponents.CUSTOM_NAME)) {
+            craftedItem.set($DataComponents.CUSTOM_NAME, sourceArmor.get($DataComponents.CUSTOM_NAME));
+        }
+    } catch (e4) {}
+
+    try {
+        if (sourceArmor.has($DataComponents.CUSTOM_DATA)) {
+            craftedItem.set($DataComponents.CUSTOM_DATA, sourceArmor.get($DataComponents.CUSTOM_DATA));
+        }
+    } catch (e5) {}
+
+    try {
+        if (sourceArmor.has($DataComponents.REPAIR_COST)) {
+            craftedItem.set($DataComponents.REPAIR_COST, sourceArmor.get($DataComponents.REPAIR_COST));
+        }
+    } catch (e6) {}
+
+    // 6. Handle durability damage safely clamped
+    try {
+        if (sourceArmor.isDamaged()) {
+            let maxDmg = craftedItem.getMaxDamage();
+            let curDmg = sourceArmor.getDamageValue();
+            if (maxDmg > 0 && curDmg > 0) {
+                craftedItem.setDamageValue(Math.min(curDmg, maxDmg - 1));
+            }
+        }
+    } catch (e7) {}
 });
 
 console.log('[PEAK Expert Mode] Script 42: Armor Upgrade Preservation loaded!');
