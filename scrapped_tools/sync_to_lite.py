@@ -294,6 +294,28 @@ def sync_paxi_load_order(exclusions, dry_run=False):
     except Exception as e:
         print(f"  [Warning] Paxi load order sync error: {e}")
 
+def configure_lite_distant_horizons(dry_run=False):
+    """Enforces 32 LOD chunk render distance for PEAK-Lite for optimal client performance."""
+    lite_dh_config = os.path.join(LITE_MC, "config", "DistantHorizons.toml")
+    assert_safe_target_path(lite_dh_config)
+    if not os.path.exists(lite_dh_config):
+        return
+    try:
+        with open(lite_dh_config, "r", encoding="utf-8") as f:
+            content = f.read()
+        import re
+        new_content = re.sub(
+            r"lodChunkRenderDistanceRadius\s*=\s*\d+",
+            "lodChunkRenderDistanceRadius = 32",
+            content
+        )
+        if not dry_run and new_content != content:
+            with open(lite_dh_config, "w", encoding="utf-8") as f:
+                f.write(new_content)
+            print("   Config: DistantHorizons lodChunkRenderDistanceRadius adjusted to 32 for PEAK-Lite.")
+    except Exception as e:
+        print(f"  [Warning] Distant Horizons config adjustment error: {e}")
+
 # -----------------------------------------------------------------------------
 # Main Synchronization Runner
 # -----------------------------------------------------------------------------
@@ -366,6 +388,8 @@ def run_sync(dry_run=False):
 
     # Ensure Paxi load order is tailored for Lite
     sync_paxi_load_order(exclusions, dry_run=dry_run)
+    # Ensure Distant Horizons LOD radius is capped at 32 for Lite performance
+    configure_lite_distant_horizons(dry_run=dry_run)
     print(f"   Config: +{c} added, ~{u} updated, -{d} removed")
 
     # 4. Sync DataPacks, DefaultConfigs, Blueprints
