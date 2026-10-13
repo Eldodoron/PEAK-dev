@@ -101,3 +101,17 @@ Always stage the export file into `%TEMP%` before invoking the browser agent:
 Copy-Item -Path $exportZip -Destination (Join-Path $env:TEMP "Peak-alpha1.zip") -Force
 ```
 Then pass `C:\Users\<user>\AppData\Local\Temp\Peak-alpha1.zip` to the browser agent's `upload_file` command.
+
+---
+
+## 5. File Changelogs Allowed; Project Descriptions Strictly Untouchable
+
+When publishing files via CurseForge automation:
+* **Allowed Scope (File Uploads)**:
+  - Populate the file changelog / description field in the file creation form (`/#/projects/<id>/files/create`) using Markdown formatting.
+  - Verify submitted files on the files list (`/#/projects/<id>/files`).
+* **Strictly Forbidden Scope (Project Descriptions)**:
+  - **NEVER** navigate to or edit the project description tab (`/#/projects/<id>/description`).
+  - **NEVER** switch the main project description editor format to Markdown.
+  - The project's main description is handcrafted in rich WYSIWYG HTML with custom styling and palette colors (`#2dc26b`, `#f1c40f`) and must remain completely untouched.
+

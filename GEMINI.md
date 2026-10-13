@@ -73,3 +73,11 @@
 - **Dead Project Verification:** Before exporting, verify that every `projectID` in `manifest.json` corresponds to an active, approved CurseForge project. Purge deleted or unapproved project IDs (e.g. `1277910`).
 - **Autonomous Browser Upload Staging:** When delegating file uploads to the browser subagent, always stage the upload file inside the system temp directory (`os.tmpdir()` / `%TEMP%`) to satisfy `chrome_devtools` MCP workspace root requirements.
 
+## 12. Modpack Project Description Protection & Scope Confinement
+- **Strict Prohibition on Modifying Project Page Descriptions:** **NEVER** edit, overwrite, update, or alter the main modpack project description on CurseForge (`/description`), Modrinth, or any platform unless the user explicitly commands an exact description edit with verbatim text.
+- **Never Switch Project Page Descriptions to Markdown:** The modpack project page description is maintained in rich WYSIWYG HTML with custom styling and palette colors (`#2dc26b`, `#f1c40f`). **NEVER** switch the project description editor to Markdown or inject raw markdown into the project description, as doing so destroys HTML formatting.
+- **File Changelogs Allowed on Upload:** Populating the **file changelog / file description** field during file uploads (`/files/create`) with Markdown release notes is fully permitted and expected. However, this must remain strictly confined to the file upload form and must never affect the project's main page description.
+- **Strict Browser Scope Confinement:** When executing modpack upload procedures, the browser agent must interact ONLY with `/files/create` and `/files`. It is strictly forbidden from opening or navigating to the `/description` tab.
+- **Zero Unsolicited Browser Dispatch:** **NEVER** launch or dispatch browser subagents to investigate questions or check live web pages unless the user explicitly requests a browser action.
+
+
