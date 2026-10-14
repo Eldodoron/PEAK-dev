@@ -130,6 +130,7 @@ def build_dev_pack():
     manifest_data["author"] = "eldodoron"
     if "minecraft" in manifest_data:
         manifest_data["minecraft"]["recommendedRam"] = 7520
+        manifest_data["minecraft"]["modLoaders"] = [{"id": "neoforge-21.1.248", "primary": True}]
 
     original_files = manifest_data.get("files", [])
     filtered_files = []
@@ -190,6 +191,7 @@ def build_dev_pack():
         assert man["name"] == "Peak"
         assert man["version"] == "alpha2"
         assert man["author"] == "eldodoron"
+        assert man["minecraft"]["modLoaders"][0]["id"] == "neoforge-21.1.248"
         assert len(man["files"]) == 403
         jars = [n for n in zver.namelist() if n.endswith(".jar") or n.endswith(".jar.disabled")]
         assert len(jars) == 0, f"Found loose jars: {jars}"
@@ -208,6 +210,7 @@ def build_lite_pack(dev_manifest, dev_modlist_lines, logo_bytes):
     lite_manifest["author"] = "eldodoron"
     if "minecraft" in lite_manifest:
         lite_manifest["minecraft"]["recommendedRam"] = 6144
+        lite_manifest["minecraft"]["modLoaders"] = [{"id": "neoforge-21.1.248", "primary": True}]
 
     dev_files = dev_manifest.get("files", [])
     lite_files = [
@@ -283,6 +286,7 @@ def build_lite_pack(dev_manifest, dev_modlist_lines, logo_bytes):
         assert man["name"] == "Peak Lite"
         assert man["version"] == "alpha2"
         assert man["author"] == "eldodoron"
+        assert man["minecraft"]["modLoaders"][0]["id"] == "neoforge-21.1.248"
         assert len(man["files"]) == 381
         jars = [n for n in zver.namelist() if n.endswith(".jar") or n.endswith(".jar.disabled")]
         assert len(jars) == 0, f"Found loose jars: {jars}"

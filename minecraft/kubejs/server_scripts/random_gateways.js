@@ -125,6 +125,7 @@ function selectGatewayForPos(overworld, targetX, targetZ) {
         ];
     } else {
         // Tier 4: Toughest / Endgame (> 10,000 blocks)
+        // Finite hardest challenges (Endless Blaze excluded from random rotation as it never completes)
         pool = [
             { id: 'gateways:overworldian_nights', weight: 45 },
             { id: 'gateways:hellish_fortress', weight: 55 }
@@ -151,7 +152,8 @@ function selectGatewayForPos(overworld, targetX, targetZ) {
 
 function findSurfacePos(level, originX, originZ, minRadius, maxRadius) {
     let Heightmap = Java.loadClass('net.minecraft.world.level.levelgen.Heightmap');
-    let attempts = 8;
+    let minBuildHeight = level.getMinBuildHeight ? level.getMinBuildHeight() : -64;
+    let attempts = 25;
 
     for (let i = 0; i < attempts; i++) {
         let angle = Math.random() * Math.PI * 2;
@@ -166,36 +168,55 @@ function findSurfacePos(level, originX, originZ, minRadius, maxRadius) {
             topY = 64;
         }
 
-        // Verify solid ground below and clear air space above
-        let ground = level.getBlock(x, topY - 1, z);
-        let space1 = level.getBlock(x, topY, z);
-        let space2 = level.getBlock(x, topY + 1, z);
+        if (topY <= minBuildHeight) {
+            topY = 64;
+        }
 
-        if (ground && space1 && space2) {
-            let gid = String(ground.id);
-            let s1 = String(space1.id);
-            let s2 = String(space2.id);
+        // Search downward slightly if needed to find solid ground
+        for (let checkY = topY; checkY >= Math.max(minBuildHeight + 2, topY - 12); checkY--) {
+            let ground = level.getBlock(x, checkY - 1, z);
+            let space1 = level.getBlock(x, checkY, z);
+            let space2 = level.getBlock(x, checkY + 1, z);
 
-            // Ground must not be air or liquid
-            let isSolid = gid !== 'minecraft:air' && !gid.includes('water') && !gid.includes('lava');
-            let isClear = (s1 === 'minecraft:air' || s1.includes('air')) && (s2 === 'minecraft:air' || s2.includes('air'));
+            if (ground && space1 && space2) {
+                let gid = String(ground.id);
+                let s1 = String(space1.id);
+                let s2 = String(space2.id);
 
-            if (isSolid && isClear) {
-                return { x: x, y: topY, z: z };
+                let isSolid = gid !== 'minecraft:air' && !gid.includes('air') && !gid.includes('water') && !gid.includes('lava') && !ground.liquid;
+                let isClear = (s1 === 'minecraft:air' || s1.includes('air')) && (s2 === 'minecraft:air' || s2.includes('air'));
+
+                if (isSolid && isClear) {
+                    return { x: x, y: checkY, z: z };
+                }
             }
         }
     }
 
-    // Fallback: direct radius position using surface height
+    // Direct fallback position if all attempts fail (e.g. wide ocean/archipelago)
     let angle = Math.random() * Math.PI * 2;
     let x = Math.floor(originX + minRadius * Math.cos(angle));
     let z = Math.floor(originZ + minRadius * Math.sin(angle));
     let y = 64;
     try {
-        y = level.getHeight(Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, x, z);
+        y = Math.max(60, level.getHeight(Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, x, z));
     } catch (e) {
         y = 64;
     }
+
+    // Safety fallback: build a 5x5 cobblestone platform if ground is liquid or air
+    let groundBlock = level.getBlock(x, y - 1, z);
+    let gid = groundBlock ? String(groundBlock.id) : '';
+    if (!groundBlock || groundBlock.liquid || gid.includes('air') || gid.includes('water') || gid.includes('lava')) {
+        let srv = level.getServer ? level.getServer() : level.server;
+        let dim = String(level.dimension.location ? level.dimension.location() : level.dimension);
+        if (srv) {
+            srv.runCommandSilent(`execute in ${dim} run fill ${x - 2} ${y - 1} ${z - 2} ${x + 2} ${y - 1} ${z + 2} minecraft:cobblestone`);
+            srv.runCommandSilent(`execute in ${dim} run fill ${x - 2} ${y} ${z - 2} ${x + 2} ${y + 2} ${z + 2} minecraft:air replace minecraft:water`);
+            srv.runCommandSilent(`execute in ${dim} run fill ${x - 2} ${y} ${z - 2} ${x + 2} ${y + 2} ${z + 2} minecraft:air replace minecraft:lava`);
+        }
+    }
+
     return { x: x, y: y, z: z };
 }
 
@@ -206,12 +227,12 @@ function findSurfacePos(level, originX, originZ, minRadius, maxRadius) {
 function forceLoadGatewayChunk(server, level, x, y, z, player) {
     try {
         let FTBChunksAPI = Java.loadClass('dev.ftb.mods.ftbchunks.api.FTBChunksAPI').api();
-        let ChunkDimPos = Java.loadClass('dev.ftblibrary.math.ChunkDimPos');
-        let BlockPos = Java.loadClass('net.minecraft.core.BlockPos');
+        let ChunkDimPos = Java.loadClass('dev.ftb.mods.ftblibrary.math.ChunkDimPos');
 
         let manager = FTBChunksAPI.getManager();
-        let blockPos = new BlockPos(x, y, z);
-        let chunkPos = new ChunkDimPos(level, blockPos);
+        let chunkX = Math.floor(x) >> 4;
+        let chunkZ = Math.floor(z) >> 4;
+        let chunkPos = new ChunkDimPos(level.dimension, chunkX, chunkZ);
         let source = server.createCommandSourceStack();
 
         let existingChunk = manager.getChunk(chunkPos);
@@ -221,8 +242,8 @@ function forceLoadGatewayChunk(server, level, x, y, z, player) {
             return {
                 action: 'half',
                 teamId: ownerTeamData.getTeam().getTeamId().toString(),
-                x: chunkPos.x(),
-                z: chunkPos.z(),
+                x: chunkX,
+                z: chunkZ,
                 dim: String(level.dimension.location ? level.dimension.location() : level.dimension)
             };
         } else if (player) {
@@ -232,8 +253,8 @@ function forceLoadGatewayChunk(server, level, x, y, z, player) {
             return {
                 action: 'full',
                 teamId: targetTeamData.getTeam().getTeamId().toString(),
-                x: chunkPos.x(),
-                z: chunkPos.z(),
+                x: chunkX,
+                z: chunkZ,
                 dim: String(level.dimension.location ? level.dimension.location() : level.dimension)
             };
         }
@@ -248,7 +269,7 @@ function unForceLoadGatewayChunk(server, claimInfo) {
     try {
         let FTBChunksAPI = Java.loadClass('dev.ftb.mods.ftbchunks.api.FTBChunksAPI').api();
         let FTBTeamsAPI = Java.loadClass('dev.ftb.mods.ftbteams.api.FTBTeamsAPI').api();
-        let ChunkDimPos = Java.loadClass('dev.ftblibrary.math.ChunkDimPos');
+        let ChunkDimPos = Java.loadClass('dev.ftb.mods.ftblibrary.math.ChunkDimPos');
         let ResourceKey = Java.loadClass('net.minecraft.resources.ResourceKey');
         let Registries = Java.loadClass('net.minecraft.core.registries.Registries');
         let ResourceLocation = Java.loadClass('net.minecraft.resources.ResourceLocation');
@@ -303,7 +324,7 @@ function cancelActiveGateway(server, reason) {
 
     p.putBoolean('rg_scheduled', false);
     p.putBoolean('rg_active', false);
-    p.remove('rg_spawn_tick');
+    p.remove('rg_target_tick');
     p.remove('rg_target_x');
     p.remove('rg_target_y');
     p.remove('rg_target_z');
@@ -317,30 +338,34 @@ function cancelActiveGateway(server, reason) {
     p.remove('rg_warned_5');
     p.remove('rg_active_start_tick');
 
+    // Reset pity if days passed has reached or exceeded max threshold to prevent infinite guaranteed rolls
+    let maxDays = p.getInt('rg_spawn_day') || RG_DEFAULTS.spawn_day;
+    if (p.getInt('rg_days_passed') >= maxDays) {
+        p.putInt('rg_days_passed', 0);
+        p.putInt('rg_current_pity', p.getInt('rg_spawn_rate') || RG_DEFAULTS.spawn_rate);
+    }
+
     if (reason) {
         console.log(`[PEAK RandomGateway] Gateway cleared: ${reason}`);
     }
     return true;
 }
 
-function scheduleGatewayEvent(server, overworld, targetPlayer, forcedGateId) {
+function scheduleGatewayEvent(server, overworld, targetPlayer, forcedGateId, delaySeconds) {
     let px = Math.floor(targetPlayer.x);
     let pz = Math.floor(targetPlayer.z);
 
     let pos = findSurfacePos(overworld, px, pz, RG_DEFAULTS.min_player_dist, RG_DEFAULTS.max_player_dist);
     let gateId = forcedGateId || selectGatewayForPos(overworld, pos.x, pos.z);
 
-    let dayTime = overworld.dayTime || 0;
-    let timeOfDay = dayTime % 24000;
-
-    // Pick a spawn tick later in the day, with at least 6000 ticks (300s) buffer for the warning
-    let spawnDelayTicks = 6000 + Math.floor(Math.random() * 10000);
-    let spawnTick = timeOfDay + spawnDelayTicks;
+    let currentGameTime = overworld.getGameTime();
+    let delayTicks = (delaySeconds ? delaySeconds * 20 : (6000 + Math.floor(Math.random() * 10000)));
+    let targetTick = currentGameTime + delayTicks;
 
     let p = server.persistentData;
     p.putBoolean('rg_scheduled', true);
     p.putBoolean('rg_active', false);
-    p.putLong('rg_spawn_tick', spawnTick);
+    p.putLong('rg_target_tick', targetTick);
     p.putInt('rg_target_x', pos.x);
     p.putInt('rg_target_y', pos.y);
     p.putInt('rg_target_z', pos.z);
@@ -353,29 +378,39 @@ function scheduleGatewayEvent(server, overworld, targetPlayer, forcedGateId) {
     p.putBoolean('rg_warned_20', false);
     p.putBoolean('rg_warned_5', false);
 
-    // Morning announcement to chat
+    // Morning alert to chat
     server.tell(Component.lightPurple("The gate will open today… but to where?"));
     server.runCommandSilent('playsound minecraft:ambient.cave ambient @a ~ ~ ~ 0.6 0.8');
 
-    console.log(`[PEAK RandomGateway] Scheduled ${gateId} at (${pos.x}, ${pos.y}, ${pos.z}) for tick ${spawnTick}`);
+    console.log(`[PEAK RandomGateway] Scheduled ${gateId} at (${pos.x}, ${pos.y}, ${pos.z}) for tick ${targetTick} (${Math.round(delayTicks / 20)}s from now)`);
 }
 
-function spawnGatewayNow(server, overworld) {
+function spawnGatewayNow(server, overworld, customPos, customGateId, customPlayer) {
     let p = server.persistentData;
-    let x = p.getInt('rg_target_x');
-    let y = p.getInt('rg_target_y');
-    let z = p.getInt('rg_target_z');
-    let gateId = p.getString('rg_gate_id') || 'gateways:basic/slime';
+    let x = customPos ? customPos.x : p.getInt('rg_target_x');
+    let y = customPos ? customPos.y : p.getInt('rg_target_y');
+    let z = customPos ? customPos.z : p.getInt('rg_target_z');
+    let gateId = customGateId || p.getString('rg_gate_id') || 'gateways:basic/slime';
     let gateInfo = RG_GATEWAYS[gateId] || { name: 'Gateway', color: '§d' };
 
-    // Find nearby player for FTB Chunks claiming
-    let targetPlayer = null;
-    let playerUUID = p.getString('rg_player_uuid');
-    if (playerUUID) {
-        targetPlayer = server.getPlayerByUuid(playerUUID);
+    let targetPlayer = customPlayer;
+    if (!targetPlayer) {
+        let playerUUID = p.getString('rg_player_uuid');
+        if (playerUUID) {
+            targetPlayer = server.getPlayer(playerUUID);
+        }
     }
     if (!targetPlayer) {
         targetPlayer = overworld.getRandomPlayer();
+    }
+
+    // Ensure solid ground beneath gateway if fluid or air
+    let ground = overworld.getBlock(x, y - 1, z);
+    let gid = ground ? String(ground.id) : '';
+    if (!ground || ground.liquid || gid.includes('air') || gid.includes('water') || gid.includes('lava')) {
+        server.runCommandSilent(`execute in minecraft:overworld run fill ${x - 2} ${y - 1} ${z - 2} ${x + 2} ${y - 1} ${z + 2} minecraft:cobblestone`);
+        server.runCommandSilent(`execute in minecraft:overworld run fill ${x - 2} ${y} ${z - 2} ${x + 2} ${y + 2} ${z + 2} minecraft:air replace minecraft:water`);
+        server.runCommandSilent(`execute in minecraft:overworld run fill ${x - 2} ${y} ${z - 2} ${x + 2} ${y + 2} ${z + 2} minecraft:air replace minecraft:lava`);
     }
 
     // Force load the chunk in FTB Chunks
@@ -391,9 +426,18 @@ function spawnGatewayNow(server, overworld) {
     // Summon gateway entity via Gateways command
     server.runCommandSilent(`execute in minecraft:overworld run open_gateway ${x} ${y} ${z} ${gateId}`);
 
+    // Update persistent state
     p.putBoolean('rg_scheduled', false);
     p.putBoolean('rg_active', true);
+    p.putInt('rg_target_x', x);
+    p.putInt('rg_target_y', y);
+    p.putInt('rg_target_z', z);
+    p.putString('rg_gate_id', gateId);
     p.putLong('rg_active_start_tick', overworld.getGameTime());
+
+    // Reset pity and day counters now that gateway has spawned in world
+    p.putInt('rg_days_passed', 0);
+    p.putInt('rg_current_pity', p.getInt('rg_spawn_rate') || RG_DEFAULTS.spawn_rate);
 
     // Broadcast opening alert to chat
     server.tell(Component.red("§l[Gateways] ").append(Component.literal(`${gateInfo.name} has opened at [X: ${x}, Y: ${y}, Z: ${z}]!`)));
@@ -409,7 +453,14 @@ function spawnGatewayNow(server, overworld) {
 BlockEvents.rightClicked(event => {
     if (event.block && event.block.hasTag('minecraft:beds')) {
         let server = event.server;
-        if (server && isGatewayPendingOrActive(server)) {
+        if (!server || !isGatewayPendingOrActive(server)) return;
+
+        let overworld = server.getLevel('minecraft:overworld');
+        let timeOfDay = overworld ? (overworld.getDayTime() % 24000) : 0;
+        // In Vanilla Minecraft, beds only initiate sleep between ticks 12542 and 23459 (or during thunderstorms)
+        let canSleepNow = (timeOfDay >= 12542 && timeOfDay <= 23459) || (overworld && overworld.isThundering());
+
+        if (canSleepNow) {
             event.cancel();
             event.player.displayClientMessage(Component.red("A strange force prevents you from sleeping ..."), true);
             event.server.runCommandSilent(`execute at ${event.player.uuid} run playsound minecraft:block.enchantment_table.use players @p ~ ~ ~ 0.8 0.7`);
@@ -418,50 +469,120 @@ BlockEvents.rightClicked(event => {
 });
 
 // ==========================================
+// SERVER STARTUP / RESTORATION
+// ==========================================
+
+ServerEvents.loaded(event => {
+    let server = event.server;
+    server.scheduleInTicks(40, () => {
+        let p = server.persistentData;
+        if (!p.getBoolean('rg_active')) return;
+
+        let overworld = server.getLevel('minecraft:overworld');
+        let x = p.getInt('rg_target_x');
+        let y = p.getInt('rg_target_y');
+        let z = p.getInt('rg_target_z');
+
+        let foundGateway = false;
+        if (overworld) {
+            try {
+                let AABB = Java.loadClass('net.minecraft.world.phys.AABB');
+                let box = new AABB(x - 8, y - 8, z - 8, x + 8, y + 8, z + 8);
+                let GatewayEntity = Java.loadClass('dev.shadowsoffire.gateways.entity.GatewayEntity');
+                let entities = overworld.getEntitiesOfClass(GatewayEntity, box);
+                if (entities && !entities.isEmpty()) {
+                    foundGateway = true;
+                }
+            } catch (e) {
+                foundGateway = false;
+            }
+        }
+
+        if (!foundGateway) {
+            cancelActiveGateway(server, 'cleaned orphaned active gateway on startup');
+        }
+    });
+});
+
+// ==========================================
 // GATEWAY COMPLETION & FAILURE HOOKS
 // ==========================================
 
-NativeEvents.onEvent('dev.shadowsoffire.gateways.event.GateEvent$Completed', event => {
-    let gateEntity = event.getEntity();
-    if (!gateEntity) return;
+try {
+    let GateCompleted = Java.loadClass('dev.shadowsoffire.gateways.event.GateEvent$Completed');
+    NativeEvents.onEvent(GateCompleted, event => {
+        let gateEntity = event.getEntity();
+        if (!gateEntity) return;
 
-    let server = gateEntity.getServer();
-    if (!server) return;
+        let server = gateEntity.getServer();
+        if (!server) return;
 
-    let p = server.persistentData;
-    let gateId = p.getString('rg_gate_id');
-    let gateInfo = RG_GATEWAYS[gateId] || { name: 'Gateway', color: '§a' };
+        let p = server.persistentData;
+        if (!p.getBoolean('rg_active')) return;
 
-    server.tell(Component.green("§l[Gateways] ").append(Component.literal(`${gateInfo.name} has been conquered!`)));
-    server.runCommandSilent('playsound minecraft:ui.toast.challenge_complete master @a ~ ~ ~ 1.0 1.0');
+        let dim = String(gateEntity.level.dimension.location ? gateEntity.level.dimension.location() : gateEntity.level.dimension);
+        if (!dim.includes('overworld')) return;
 
-    // Reset pity and day counters on success
-    p.putInt('rg_days_passed', 0);
-    p.putInt('rg_current_pity', p.getInt('rg_spawn_rate') || RG_DEFAULTS.spawn_rate);
+        let targetX = p.getInt('rg_target_x');
+        let targetZ = p.getInt('rg_target_z');
 
-    cancelActiveGateway(server, 'conquered');
-});
+        // Proximity verification: ensure this is our random gateway and not a player's private Gate Pearl
+        let dist = Math.hypot(gateEntity.x - targetX, gateEntity.z - targetZ);
+        if (dist > 12) return;
 
-NativeEvents.onEvent('dev.shadowsoffire.gateways.event.GateEvent$Failed', event => {
-    let gateEntity = event.getEntity();
-    if (!gateEntity) return;
+        let gateId = p.getString('rg_gate_id');
+        let gateInfo = RG_GATEWAYS[gateId] || { name: 'Gateway', color: '§a' };
 
-    let server = gateEntity.getServer();
-    if (!server) return;
+        server.tell(Component.green("§l[Gateways] ").append(Component.literal(`${gateInfo.name} has been conquered!`)));
+        server.runCommandSilent('playsound minecraft:ui.toast.challenge_complete master @a ~ ~ ~ 1.0 1.0');
 
-    let p = server.persistentData;
-    let gateId = p.getString('rg_gate_id');
-    let gateInfo = RG_GATEWAYS[gateId] || { name: 'Gateway', color: '§c' };
+        // Reset pity and day counters on success
+        p.putInt('rg_days_passed', 0);
+        p.putInt('rg_current_pity', p.getInt('rg_spawn_rate') || RG_DEFAULTS.spawn_rate);
 
-    server.tell(Component.red("[Gateways] ").append(Component.literal(`${gateInfo.name} has collapsed into the void.`)));
-    server.runCommandSilent('playsound minecraft:block.beacon.deactivate master @a ~ ~ ~ 0.8 0.8');
+        cancelActiveGateway(server, 'conquered');
+    });
+} catch (e) {
+    console.error(`[PEAK RandomGateway] Could not hook GateEvent$Completed: ${e}`);
+}
 
-    // Reset pity and day counters
-    p.putInt('rg_days_passed', 0);
-    p.putInt('rg_current_pity', p.getInt('rg_spawn_rate') || RG_DEFAULTS.spawn_rate);
+try {
+    let GateFailed = Java.loadClass('dev.shadowsoffire.gateways.event.GateEvent$Failed');
+    NativeEvents.onEvent(GateFailed, event => {
+        let gateEntity = event.getEntity();
+        if (!gateEntity) return;
 
-    cancelActiveGateway(server, 'collapsed');
-});
+        let server = gateEntity.getServer();
+        if (!server) return;
+
+        let p = server.persistentData;
+        if (!p.getBoolean('rg_active')) return;
+
+        let dim = String(gateEntity.level.dimension.location ? gateEntity.level.dimension.location() : gateEntity.level.dimension);
+        if (!dim.includes('overworld')) return;
+
+        let targetX = p.getInt('rg_target_x');
+        let targetZ = p.getInt('rg_target_z');
+
+        // Proximity verification: ensure this is our random gateway
+        let dist = Math.hypot(gateEntity.x - targetX, gateEntity.z - targetZ);
+        if (dist > 12) return;
+
+        let gateId = p.getString('rg_gate_id');
+        let gateInfo = RG_GATEWAYS[gateId] || { name: 'Gateway', color: '§c' };
+
+        server.tell(Component.red("[Gateways] ").append(Component.literal(`${gateInfo.name} has collapsed into the void.`)));
+        server.runCommandSilent('playsound minecraft:block.beacon.deactivate master @a ~ ~ ~ 0.8 0.8');
+
+        // Reset pity and day counters on loss
+        p.putInt('rg_days_passed', 0);
+        p.putInt('rg_current_pity', p.getInt('rg_spawn_rate') || RG_DEFAULTS.spawn_rate);
+
+        cancelActiveGateway(server, 'collapsed');
+    });
+} catch (e) {
+    console.error(`[PEAK RandomGateway] Could not hook GateEvent$Failed: ${e}`);
+}
 
 // ==========================================
 // MAIN SERVER TICK CYCLE
@@ -473,24 +594,24 @@ ServerEvents.tick(event => {
     if (!overworld) return;
 
     // Run throttled logic once every second (20 ticks)
-    let gameTime = overworld.gameTime || server.tickCount || 0;
+    let gameTime = overworld.getGameTime();
     if (gameTime % 20 !== 0) return;
 
     let cfg = getRGConfig(server);
     let p = server.persistentData;
-    let dayTime = overworld.dayTime || 0;
+    let dayTime = overworld.getDayTime();
     let timeOfDay = dayTime % 24000;
 
-    // 1. Sunrise Daily Evaluation (around tick 1 - 40)
+    // 1. Sunrise Daily Evaluation (around tick 0 - 1200 of day cycle, i.e. morning hour)
     if (cfg.enabled && !cfg.scheduled && !cfg.active) {
         let lastCheckedDay = p.getLong('rg_last_checked_day');
         let currentDayNumber = Math.floor(dayTime / 24000);
 
-        if (currentDayNumber !== lastCheckedDay && timeOfDay >= 0 && timeOfDay <= 40) {
-            p.putLong('rg_last_checked_day', currentDayNumber);
-
+        if (currentDayNumber !== lastCheckedDay && timeOfDay >= 0 && timeOfDay <= 1200) {
             let players = overworld.players;
             if (players && !players.isEmpty()) {
+                p.putLong('rg_last_checked_day', currentDayNumber);
+
                 let daysPassed = cfg.days_passed;
                 let currentPity = cfg.current_pity;
                 let maxDays = cfg.spawn_day;
@@ -507,7 +628,7 @@ ServerEvents.tick(event => {
 
                 if (shouldSpawn) {
                     let randomPlayer = players.get(Math.floor(Math.random() * players.size()));
-                    scheduleGatewayEvent(server, overworld, randomPlayer, null);
+                    scheduleGatewayEvent(server, overworld, randomPlayer, null, null);
                 } else {
                     p.putInt('rg_days_passed', daysPassed + 1);
                     p.putInt('rg_current_pity', currentPity + cfg.spawn_rate);
@@ -517,10 +638,10 @@ ServerEvents.tick(event => {
         }
     }
 
-    // 2. Scheduled Countdown & Spawning Phase
+    // 2. Scheduled Countdown & Spawning Phase (Monotonic tracking via gameTime)
     if (cfg.scheduled) {
-        let spawnTick = p.getLong('rg_spawn_tick');
-        let remainingTicks = spawnTick - timeOfDay;
+        let targetTick = p.getLong('rg_target_tick');
+        let remainingTicks = targetTick - gameTime;
         let remainingSec = Math.floor(remainingTicks / 20);
 
         let x = p.getInt('rg_target_x');
@@ -533,12 +654,12 @@ ServerEvents.tick(event => {
         if (remainingSec <= 300 && !p.getBoolean('rg_warned_300')) {
             p.putBoolean('rg_warned_300', true);
 
-            // Create FTB Chunks waypoint for all players
-            server.runCommandSilent(`execute as @a run ftbchunks waypoint add "${gateInfo.name}" minecraft:overworld ${x} ${y} ${z} light_purple`);
+            // Register FTB Chunks waypoint for all players
+            server.runCommandSilent(`execute as @a run ftbchunks waypoint add "${gateInfo.name}" minecraft:overworld ${x} ${y} ${z} light_purple false`);
 
-            // Chat notification with clickable coordinates
+            // Chat notification with clickable waypoint coordinates
             let coordText = Component.literal(`§e[X: ${x}, Y: ${y}, Z: ${z}]§r`)
-                .clickRunCommand(`/ftbchunks waypoint add "${gateInfo.name}" minecraft:overworld ${x} ${y} ${z} light_purple`)
+                .clickRunCommand(`/ftbchunks waypoint add "${gateInfo.name}" minecraft:overworld ${x} ${y} ${z} light_purple false`)
                 .hover(Component.literal("§7Click to add waypoint on map"));
 
             server.tell(
@@ -570,7 +691,7 @@ ServerEvents.tick(event => {
 
         // Time to open the gate
         if (remainingTicks <= 0) {
-            spawnGatewayNow(server, overworld);
+            spawnGatewayNow(server, overworld, null, null, null);
         }
     }
 
@@ -600,11 +721,24 @@ ServerEvents.commandRegistry(event => {
             .then(Commands.literal('enabled')
                 .then(Commands.argument('value', Arguments.BOOLEAN.create(event))
                     .executes(ctx => setEnabled(ctx, Arguments.BOOLEAN.getResult(ctx, 'value')))))
-            // /peak RandomGateway spawn [gateway_id]
+            // /peak RandomGateway spawn [gateway_id] (Immediately spawns the gateway)
             .then(Commands.literal('spawn')
-                .executes(ctx => forceSpawn(ctx, null))
-                .then(Commands.argument('gateway', Arguments.STRING.create(event))
-                    .executes(ctx => forceSpawn(ctx, Arguments.STRING.getResult(ctx, 'gateway')))))
+                .executes(ctx => immediateSpawn(ctx, null))
+                .then(Commands.argument('gateway', Arguments.GREEDY_STRING.create(event))
+                    .suggests((ctx, b) => {
+                        Object.keys(RG_GATEWAYS).forEach(id => b.suggest(id));
+                        return b.buildFuture();
+                    })
+                    .executes(ctx => immediateSpawn(ctx, Arguments.GREEDY_STRING.getResult(ctx, 'gateway')))))
+            // /peak RandomGateway schedule [gateway_id] (Queues with countdown)
+            .then(Commands.literal('schedule')
+                .executes(ctx => forceSchedule(ctx, null))
+                .then(Commands.argument('gateway', Arguments.GREEDY_STRING.create(event))
+                    .suggests((ctx, b) => {
+                        Object.keys(RG_GATEWAYS).forEach(id => b.suggest(id));
+                        return b.buildFuture();
+                    })
+                    .executes(ctx => forceSchedule(ctx, Arguments.GREEDY_STRING.getResult(ctx, 'gateway')))))
             // /peak RandomGateway spawn_rate <number>
             .then(Commands.literal('spawn_rate')
                 .then(Commands.argument('rate', Arguments.INTEGER.create(event))
@@ -628,22 +762,26 @@ ServerEvents.commandRegistry(event => {
         let server = ctx.source.server;
         let cfg = getRGConfig(server);
         let p = server.persistentData;
+        let overworld = server.getLevel('minecraft:overworld');
+        let gameTime = overworld ? overworld.getGameTime() : 0;
 
         let src = ctx.source;
         src.sendSuccess(() => Component.gold("=== PEAK Random Gateways Status ==="), false);
-        src.sendSuccess(() => Component.gray(`Enabled: `).append(Component.literal(cfg.enabled ? "§aTrue" : "§cFalse")), false);
-        src.sendSuccess(() => Component.gray(`Spawn Rate (Pity Base): `).append(Component.literal(`§e${cfg.spawn_rate}%`)), false);
-        src.sendSuccess(() => Component.gray(`Guaranteed Spawn Threshold: `).append(Component.literal(`§e${cfg.spawn_day} days`)), false);
-        src.sendSuccess(() => Component.gray(`Days Passed without spawn: `).append(Component.literal(`§b${cfg.days_passed}`)), false);
-        src.sendSuccess(() => Component.gray(`Current Pity Chance: `).append(Component.literal(`§b${cfg.current_pity}%`)), false);
-        src.sendSuccess(() => Component.gray(`Chat Countdown Alerts: `).append(Component.literal(cfg.countdown_chat ? "§aEnabled" : "§cDisabled")), false);
+        src.sendSuccess(() => Component.gray("Enabled: ").append(Component.literal(cfg.enabled ? "§aTrue" : "§cFalse")), false);
+        src.sendSuccess(() => Component.gray("Spawn Rate (Pity Base): ").append(Component.literal(`§e${cfg.spawn_rate}%`)), false);
+        src.sendSuccess(() => Component.gray("Guaranteed Spawn Threshold: ").append(Component.literal(`§e${cfg.spawn_day} days`)), false);
+        src.sendSuccess(() => Component.gray("Days Passed without spawn: ").append(Component.literal(`§b${cfg.days_passed}`)), false);
+        src.sendSuccess(() => Component.gray("Current Pity Chance: ").append(Component.literal(`§b${cfg.current_pity}%`)), false);
+        src.sendSuccess(() => Component.gray("Chat Countdown Alerts: ").append(Component.literal(cfg.countdown_chat ? "§aEnabled" : "§cDisabled")), false);
 
         if (cfg.scheduled) {
             let x = p.getInt('rg_target_x');
             let y = p.getInt('rg_target_y');
             let z = p.getInt('rg_target_z');
             let gid = p.getString('rg_gate_id');
-            src.sendSuccess(() => Component.yellow(`Status: §6Scheduled§r [${gid}] at (${x}, ${y}, ${z})`), false);
+            let targetTick = p.getLong('rg_target_tick');
+            let remainingSec = Math.max(0, Math.floor((targetTick - gameTime) / 20));
+            src.sendSuccess(() => Component.yellow(`Status: §6Scheduled§r [${gid}] at (${x}, ${y}, ${z}) in §6${remainingSec}s`), false);
         } else if (cfg.active) {
             let x = p.getInt('rg_target_x');
             let y = p.getInt('rg_target_y');
@@ -692,7 +830,7 @@ ServerEvents.commandRegistry(event => {
         return 1;
     }
 
-    function forceSpawn(ctx, customGate) {
+    function immediateSpawn(ctx, customGate) {
         let server = ctx.source.server;
         let overworld = server.getLevel('minecraft:overworld');
         if (!overworld) {
@@ -711,12 +849,41 @@ ServerEvents.commandRegistry(event => {
             return 0;
         }
 
-        // Cancel existing event if any
-        cancelActiveGateway(server, 'force spawned new event');
+        cancelActiveGateway(server, 'force spawning immediate event');
 
-        // Schedule with a quick 300-second window
-        scheduleGatewayEvent(server, overworld, player, customGate);
-        ctx.source.sendSuccess(() => Component.green(`Force scheduled gateway near ${player.username}.`), true);
+        let px = Math.floor(player.x);
+        let pz = Math.floor(player.z);
+        let pos = findSurfacePos(overworld, px, pz, RG_DEFAULTS.min_player_dist, RG_DEFAULTS.max_player_dist);
+        let gateId = customGate || selectGatewayForPos(overworld, pos.x, pos.z);
+
+        spawnGatewayNow(server, overworld, pos, gateId, player);
+        ctx.source.sendSuccess(() => Component.green(`Immediately spawned ${gateId} at (${pos.x}, ${pos.y}, ${pos.z}) near ${player.username}.`), true);
+        return 1;
+    }
+
+    function forceSchedule(ctx, customGate) {
+        let server = ctx.source.server;
+        let overworld = server.getLevel('minecraft:overworld');
+        if (!overworld) {
+            ctx.source.sendFailure(Component.red("Overworld dimension not available."));
+            return 0;
+        }
+
+        let player = ctx.source.player || overworld.getRandomPlayer();
+        if (!player) {
+            ctx.source.sendFailure(Component.red("No player available to anchor the gateway spawn."));
+            return 0;
+        }
+
+        if (customGate && !RG_GATEWAYS[customGate]) {
+            ctx.source.sendFailure(Component.red(`Unknown gateway id '${customGate}'. Available: ${Object.keys(RG_GATEWAYS).join(', ')}`));
+            return 0;
+        }
+
+        cancelActiveGateway(server, 'scheduling new event');
+
+        scheduleGatewayEvent(server, overworld, player, customGate, RG_DEFAULTS.warning_seconds);
+        ctx.source.sendSuccess(() => Component.green(`Scheduled gateway countdown (300s) near ${player.username}.`), true);
         return 1;
     }
 
