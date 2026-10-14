@@ -15,12 +15,12 @@ LITE_MC = os.path.join(BASE_LITE, "minecraft")
 PACK_EXPORTS_DIR = r"C:\Users\chris\Desktop\PEAK DEV MULTIMEDIA\PackExports"
 ALPHA1_ZIP = os.path.join(PACK_EXPORTS_DIR, "Peak-alpha1.zip")
 
-DEV_OUT_ZIP = os.path.join(PACK_EXPORTS_DIR, "Peak-alpha2.zip")
-LITE_OUT_ZIP = os.path.join(PACK_EXPORTS_DIR, "Peak-Lite-alpha2.zip")
+DEV_OUT_ZIP = os.path.join(PACK_EXPORTS_DIR, "Peak-alpha2b.zip")
+LITE_OUT_ZIP = os.path.join(PACK_EXPORTS_DIR, "Peak-Lite-alpha2b.zip")
 
 TEMP_DIR = os.environ.get("TEMP", r"C:\Users\chris\AppData\Local\Temp")
-DEV_STAGED_ZIP = os.path.join(TEMP_DIR, "Peak-alpha2.zip")
-LITE_STAGED_ZIP = os.path.join(TEMP_DIR, "Peak-Lite-alpha2.zip")
+DEV_STAGED_ZIP = os.path.join(TEMP_DIR, "Peak-alpha2b.zip")
+LITE_STAGED_ZIP = os.path.join(TEMP_DIR, "Peak-Lite-alpha2b.zip")
 
 REMOVED_PIDS_DEV = {
     682567,   # Easy Anvils
@@ -115,7 +115,7 @@ def collect_overrides(mc_dir, is_lite=False):
 
 def build_dev_pack():
     print("\n========================================================")
-    print(" Building CurseForge Export: Peak-alpha2.zip")
+    print(" Building CurseForge Export: Peak-alpha2b.zip")
     print("========================================================")
 
     assert os.path.isfile(ALPHA1_ZIP), f"Alpha 1 reference ZIP not found: {ALPHA1_ZIP}"
@@ -126,7 +126,7 @@ def build_dev_pack():
         logo_bytes = zalpha1.read("profileImage/logo_square_preview.png")
 
     manifest_data["name"] = "Peak"
-    manifest_data["version"] = "alpha2"
+    manifest_data["version"] = "alpha2b"
     manifest_data["author"] = "eldodoron"
     if "minecraft" in manifest_data:
         manifest_data["minecraft"]["recommendedRam"] = 7520
@@ -189,24 +189,24 @@ def build_dev_pack():
         assert man_raw[0] == ord("{")
         man = json.loads(man_raw.decode("utf-8"))
         assert man["name"] == "Peak"
-        assert man["version"] == "alpha2"
+        assert man["version"] == "alpha2b"
         assert man["author"] == "eldodoron"
         assert man["minecraft"]["modLoaders"][0]["id"] == "neoforge-21.1.248"
         assert len(man["files"]) == 403
         jars = [n for n in zver.namelist() if n.endswith(".jar") or n.endswith(".jar.disabled")]
         assert len(jars) == 0, f"Found loose jars: {jars}"
-    print("Dev Alpha 2 Package Verified Successfully!")
+    print("Dev Alpha 2b Package Verified Successfully!")
 
     return manifest_data, filtered_modlist_lines, logo_bytes
 
 def build_lite_pack(dev_manifest, dev_modlist_lines, logo_bytes):
     print("\n========================================================")
-    print(" Building CurseForge Export: Peak-Lite-alpha2.zip")
+    print(" Building CurseForge Export: Peak-Lite-alpha2b.zip")
     print("========================================================")
 
     lite_manifest = dict(dev_manifest)
     lite_manifest["name"] = "Peak Lite"
-    lite_manifest["version"] = "alpha2"
+    lite_manifest["version"] = "alpha2b"
     lite_manifest["author"] = "eldodoron"
     if "minecraft" in lite_manifest:
         lite_manifest["minecraft"]["recommendedRam"] = 6144
@@ -284,7 +284,7 @@ def build_lite_pack(dev_manifest, dev_modlist_lines, logo_bytes):
         assert man_raw[0] == ord("{")
         man = json.loads(man_raw.decode("utf-8"))
         assert man["name"] == "Peak Lite"
-        assert man["version"] == "alpha2"
+        assert man["version"] == "alpha2b"
         assert man["author"] == "eldodoron"
         assert man["minecraft"]["modLoaders"][0]["id"] == "neoforge-21.1.248"
         assert len(man["files"]) == 381
@@ -292,7 +292,7 @@ def build_lite_pack(dev_manifest, dev_modlist_lines, logo_bytes):
         assert len(jars) == 0, f"Found loose jars: {jars}"
         dh_raw = zver.read("overrides/config/DistantHorizons.toml").decode("utf-8")
         assert "lodChunkRenderDistanceRadius = 32" in dh_raw, "DH radius in Lite is not 32!"
-    print("Lite Alpha 2 Package Verified Successfully (Including DistantHorizons = 32)!")
+    print("Lite Alpha 2b Package Verified Successfully (Including DistantHorizons = 32)!")
 
 if __name__ == "__main__":
     dev_manifest, dev_modlist_lines, logo_bytes = build_dev_pack()
