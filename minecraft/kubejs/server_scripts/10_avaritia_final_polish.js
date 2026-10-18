@@ -404,16 +404,6 @@ ServerEvents.recipes(event => {
         C: '#c:cobblestones'
     });
 
-    // --- ANVIL needs Create ---
-    event.remove({ output: 'minecraft:anvil' });
-    event.shaped('minecraft:anvil', [
-        'III',
-        ' A ',
-        'IAI'
-    ], {
-        I: 'minecraft:iron_block',
-        A: 'create:andesite_alloy'
-    });
 
     // --- INFINITY FOOD (Artifacts) ---
     // Craftable instead of finding in chests
