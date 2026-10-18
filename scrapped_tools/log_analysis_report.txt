@@ -1,0 +1,1045 @@
+================================================================================
+LOG ERROR SUMMARY (by Mod / Category)
+================================================================================
+
+[AllTheLeaks] - Total Errors: 2
+  (2x) Line 4925: [17Oct2026 13:19:53.402] [Render thread/ERROR] [AllTheLeaks/]: Failed to instantiate constructor.
+
+[GeckoLib] - Total Errors: 6
+  (2x) Line 4114: [17Oct2026 13:18:37.730] [Worker-ResourceReload-4/ERROR] [GeckoLib/]: Unable to parse animation: attack_single
+  (2x) Line 4185: [17Oct2026 13:18:37.854] [Worker-ResourceReload-4/ERROR] [GeckoLib/]: Unable to parse animation: supernova
+  (2x) Line 4226: [17Oct2026 13:18:37.864] [Worker-ResourceReload-4/ERROR] [GeckoLib/]: Unable to parse animation: swim_charge
+
+[ModernFix] - Total Errors: 1
+  (1x) Line 6194: [17Oct2026 13:21:21.510] [Worker-ResourceReload-2/ERROR] [ModernFix/]: Caught exception in thread Thread[#221,Worker-ResourceReload-2,10,main]
+
+[Moonlight] - Total Errors: 1
+  (1x) Line 4838: [17Oct2026 13:19:40.342] [Render thread/ERROR] [Moonlight/]: Fabric API detected! This is not a Fabric mod, so please don't report related issues to MoonlightLib or its dependent(s). This can usually happen when using Connector, or when using a mod that does NOT have a native Neoforge implementation. This can easily lead to poor compatibility and other bizarre issues. Proceed at your own risk.
+
+[Veil] - Total Errors: 72
+  (7x) Line 5436: [17Oct2026 13:20:32.295] [VeilVanillaShaderCompileThread#0/ERROR] [Veil/]: Couldn't load vanilla shader from ccl__brandonscore:shaders/core/shaders/core/contributor/contrib_base.vsh.vsh, skipping
+  (7x) Line 5514: [17Oct2026 13:20:33.160] [VeilVanillaShaderCompileThread#0/ERROR] [Veil/]: Couldn't load vanilla shader from ccl__draconicevolution:shaders/core/shaders/core/tools/tool_base.vsh.vsh, skipping
+  (2x) Line 5553: [17Oct2026 13:20:33.312] [VeilVanillaShaderCompileThread#0/ERROR] [Veil/]: Couldn't load vanilla shader from ccl__draconicevolution:shaders/core/shaders/core/reactor.vsh.vsh, skipping
+  (1x) Line 3680: [17Oct2026 13:18:26.075] [Worker-ResourceReload-3/ERROR] [Veil/]: Failed to load icon for pack: mod/fastboot
+  (1x) Line 3705: [17Oct2026 13:18:26.257] [Worker-ResourceReload-3/ERROR] [Veil/]: Failed to load icon for pack: mod/integrated_api
+  (1x) Line 3730: [17Oct2026 13:18:28.185] [Worker-ResourceReload-3/ERROR] [Veil/]: Error loading resource: healthbars:textures/gui/sprites/boss_bar/button.png.mcmeta
+  (1x) Line 3777: [17Oct2026 13:18:28.510] [Worker-ResourceReload-3/ERROR] [Veil/]: Failed to load icon for pack: mod/integrated_cataclysm
+  (1x) Line 3802: [17Oct2026 13:18:30.030] [Worker-ResourceReload-3/ERROR] [Veil/]: Error loading resource: enderio:textures/block/smelter_front_active.png.mcmeta
+  (1x) Line 3848: [17Oct2026 13:18:30.958] [Worker-ResourceReload-3/ERROR] [Veil/]: Failed to load icon for pack: mod/irons_spellbooks
+  (1x) Line 3997: [17Oct2026 13:18:34.144] [Worker-ResourceReload-3/ERROR] [Veil/]: Failed to load icon for pack: mod/moreculling
+  (1x) Line 4023: [17Oct2026 13:18:34.802] [Worker-ResourceReload-3/ERROR] [Veil/]: Failed to load icon for pack: mod/hazentouvelib
+  (1x) Line 4048: [17Oct2026 13:18:35.092] [Worker-ResourceReload-3/ERROR] [Veil/]: Failed to load icon for pack: mod/integrated_villages
+  (1x) Line 4074: [17Oct2026 13:18:37.280] [Worker-ResourceReload-3/ERROR] [Veil/]: Failed to load icon for pack: mod/idas
+  (1x) Line 4474: [17Oct2026 13:18:39.142] [Worker-ResourceReload-3/ERROR] [Veil/]: Failed to load icon for pack: mod/integrated_stronghold
+  (1x) Line 4908: [17Oct2026 13:19:46.052] [Render thread/ERROR] [Veil/]: Failed to create shader veil:necromancer/skinned_mesh: Failed to compile vertex shader
+  (1x) Line 4916: [17Oct2026 13:19:46.149] [Render thread/ERROR] [Veil/]: Failed to create shader veil:light/indirect_sphere: Failed to compile compute shader
+  (1x) Line 5416: [17Oct2026 13:20:32.008] [VeilVanillaShaderCompileThread#0/ERROR] [Veil/]: Couldn't load vanilla shader from ccl__draconicevolution:shaders/core/shaders/core/energy_crystal.vsh.vsh, skipping
+  (1x) Line 5426: [17Oct2026 13:20:32.008] [VeilVanillaShaderCompileThread#0/ERROR] [Veil/]: Couldn't load vanilla shader from ccl__draconicevolution:shaders/core/shaders/core/energy_crystal.fsh.fsh, skipping
+  (1x) Line 5446: [17Oct2026 13:20:32.295] [VeilVanillaShaderCompileThread#0/ERROR] [Veil/]: Couldn't load vanilla shader from ccl__brandonscore:shaders/core/shaders/core/contributor/contrib_base.fsh.fsh, skipping
+  (1x) Line 5466: [17Oct2026 13:20:32.841] [VeilVanillaShaderCompileThread#0/ERROR] [Veil/]: Couldn't load vanilla shader from ccl__brandonscore:shaders/core/shaders/core/contributor/wings_web.fsh.fsh, skipping
+  (1x) Line 5476: [17Oct2026 13:20:33.031] [VeilVanillaShaderCompileThread#0/ERROR] [Veil/]: Couldn't load vanilla shader from avaritia:shaders/core/hell.fsh, skipping
+  (1x) Line 5495: [17Oct2026 13:20:33.094] [VeilVanillaShaderCompileThread#0/ERROR] [Veil/]: Couldn't load vanilla shader from avaritia:shaders/core/unstable.fsh, skipping
+  (1x) Line 5524: [17Oct2026 13:20:33.160] [VeilVanillaShaderCompileThread#0/ERROR] [Veil/]: Couldn't load vanilla shader from ccl__draconicevolution:shaders/core/shaders/core/tools/chestpiece_shield.fsh.fsh, skipping
+  (1x) Line 5534: [17Oct2026 13:20:33.178] [VeilVanillaShaderCompileThread#0/ERROR] [Veil/]: Couldn't load vanilla shader from avaritia:shaders/core/cosmic.fsh, skipping
+  (1x) Line 5563: [17Oct2026 13:20:33.312] [VeilVanillaShaderCompileThread#0/ERROR] [Veil/]: Couldn't load vanilla shader from ccl__draconicevolution:shaders/core/shaders/core/reactor.fsh.fsh, skipping
+  (1x) Line 5583: [17Oct2026 13:20:33.387] [VeilVanillaShaderCompileThread#0/ERROR] [Veil/]: Couldn't load vanilla shader from ccl__brandonscore:shaders/core/shaders/core/contributor/patreon_core.fsh.fsh, skipping
+  (1x) Line 5593: [17Oct2026 13:20:33.472] [VeilVanillaShaderCompileThread#0/ERROR] [Veil/]: Couldn't load vanilla shader from ccl__draconicevolution:shaders/core/shaders/core/explosion.vsh.vsh, skipping
+  (1x) Line 5603: [17Oct2026 13:20:33.472] [VeilVanillaShaderCompileThread#0/ERROR] [Veil/]: Couldn't load vanilla shader from ccl__draconicevolution:shaders/core/shaders/core/explosion.fsh.fsh, skipping
+  (1x) Line 5613: [17Oct2026 13:20:33.506] [VeilVanillaShaderCompileThread#0/ERROR] [Veil/]: Couldn't load vanilla shader from ccl__brandonscore:shaders/core/shaders/core/position_color_tex_alpha0.vsh.vsh, skipping
+  (1x) Line 5623: [17Oct2026 13:20:33.506] [VeilVanillaShaderCompileThread#0/ERROR] [Veil/]: Couldn't load vanilla shader from ccl__brandonscore:shaders/core/shaders/core/position_color_tex_alpha0.fsh.fsh, skipping
+  (1x) Line 5633: [17Oct2026 13:20:33.695] [VeilVanillaShaderCompileThread#0/ERROR] [Veil/]: Couldn't load vanilla shader from mekanism:shaders/core/rendertype_mekasuit.fsh, skipping
+  (1x) Line 5645: [17Oct2026 13:20:33.764] [VeilVanillaShaderCompileThread#0/ERROR] [Veil/]: Couldn't load vanilla shader from ccl__draconicevolution:shaders/core/shaders/core/shield.vsh.vsh, skipping
+  (1x) Line 5655: [17Oct2026 13:20:33.764] [VeilVanillaShaderCompileThread#0/ERROR] [Veil/]: Couldn't load vanilla shader from ccl__draconicevolution:shaders/core/shaders/core/shield.fsh.fsh, skipping
+  (1x) Line 5675: [17Oct2026 13:20:33.823] [VeilVanillaShaderCompileThread#0/ERROR] [Veil/]: Couldn't load vanilla shader from ccl__draconicevolution:shaders/core/shaders/core/tools/bow_string.fsh.fsh, skipping
+  (1x) Line 5695: [17Oct2026 13:20:33.863] [VeilVanillaShaderCompileThread#0/ERROR] [Veil/]: Couldn't load vanilla shader from ccl__brandonscore:shaders/core/shaders/core/contributor/badge_outline.fsh.fsh, skipping
+  (1x) Line 5705: [17Oct2026 13:20:33.984] [VeilVanillaShaderCompileThread#0/ERROR] [Veil/]: Couldn't load vanilla shader from ccl__brandonscore:shaders/core/shaders/core/energy_bar.vsh.vsh, skipping
+  (1x) Line 5715: [17Oct2026 13:20:33.984] [VeilVanillaShaderCompileThread#0/ERROR] [Veil/]: Couldn't load vanilla shader from ccl__brandonscore:shaders/core/shaders/core/energy_bar.fsh.fsh, skipping
+  (1x) Line 5735: [17Oct2026 13:20:34.025] [VeilVanillaShaderCompileThread#0/ERROR] [Veil/]: Couldn't load vanilla shader from ccl__brandonscore:shaders/core/shaders/core/contributor/wings_bone.fsh.fsh, skipping
+  (1x) Line 5745: [17Oct2026 13:20:34.148] [VeilVanillaShaderCompileThread#0/ERROR] [Veil/]: Couldn't load vanilla shader from ccl__draconicevolution:shaders/core/shaders/core/energy_core.vsh.vsh, skipping
+  (1x) Line 5755: [17Oct2026 13:20:34.148] [VeilVanillaShaderCompileThread#0/ERROR] [Veil/]: Couldn't load vanilla shader from ccl__draconicevolution:shaders/core/shaders/core/energy_core.fsh.fsh, skipping
+  (1x) Line 5765: [17Oct2026 13:20:34.160] [VeilVanillaShaderCompileThread#0/ERROR] [Veil/]: Couldn't load vanilla shader from ccl__draconicevolution:shaders/core/shaders/core/chaos_block.vsh.vsh, skipping
+  (1x) Line 5775: [17Oct2026 13:20:34.160] [VeilVanillaShaderCompileThread#0/ERROR] [Veil/]: Couldn't load vanilla shader from ccl__draconicevolution:shaders/core/shaders/core/chaos_block.fsh.fsh, skipping
+  (1x) Line 5795: [17Oct2026 13:20:34.186] [VeilVanillaShaderCompileThread#0/ERROR] [Veil/]: Couldn't load vanilla shader from ccl__draconicevolution:shaders/core/shaders/core/tools/tool_trace.fsh.fsh, skipping
+  (1x) Line 5815: [17Oct2026 13:20:34.220] [VeilVanillaShaderCompileThread#0/ERROR] [Veil/]: Couldn't load vanilla shader from ccl__draconicevolution:shaders/core/shaders/core/tools/chestpiece_gem.fsh.fsh, skipping
+  (1x) Line 5835: [17Oct2026 13:20:34.278] [VeilVanillaShaderCompileThread#0/ERROR] [Veil/]: Couldn't load vanilla shader from ccl__draconicevolution:shaders/core/shaders/core/reactor_shield.fsh.fsh, skipping
+  (1x) Line 5855: [17Oct2026 13:20:34.351] [VeilVanillaShaderCompileThread#0/ERROR] [Veil/]: Couldn't load vanilla shader from ccl__draconicevolution:shaders/core/shaders/core/tools/tool_base.fsh.fsh, skipping
+  (1x) Line 5865: [17Oct2026 13:20:34.379] [VeilVanillaShaderCompileThread#0/ERROR] [Veil/]: Couldn't load vanilla shader from avaritia:shaders/core/eternal.fsh, skipping
+  (1x) Line 5894: [17Oct2026 13:20:34.391] [VeilVanillaShaderCompileThread#0/ERROR] [Veil/]: Couldn't load vanilla shader from ccl__draconicevolution:shaders/core/shaders/core/tools/tool_blade.fsh.fsh, skipping
+  (1x) Line 5904: [17Oct2026 13:20:34.438] [VeilVanillaShaderCompileThread#0/ERROR] [Veil/]: Couldn't load vanilla shader from ccl__draconicevolution:shaders/core/shaders/core/reactor_beam.vsh.vsh, skipping
+  (1x) Line 5914: [17Oct2026 13:20:34.438] [VeilVanillaShaderCompileThread#0/ERROR] [Veil/]: Couldn't load vanilla shader from ccl__draconicevolution:shaders/core/shaders/core/reactor_beam.fsh.fsh, skipping
+  (1x) Line 5934: [17Oct2026 13:20:34.463] [VeilVanillaShaderCompileThread#0/ERROR] [Veil/]: Couldn't load vanilla shader from ccl__draconicevolution:shaders/core/shaders/core/tools/tool_gem.fsh.fsh, skipping
+  (1x) Line 5944: [17Oct2026 13:20:34.490] [VeilVanillaShaderCompileThread#0/ERROR] [Veil/]: Couldn't load vanilla shader from ccl__brandonscore:shaders/core/shaders/core/chaos_entity.vsh.vsh, skipping
+  (1x) Line 5954: [17Oct2026 13:20:34.490] [VeilVanillaShaderCompileThread#0/ERROR] [Veil/]: Couldn't load vanilla shader from ccl__brandonscore:shaders/core/shaders/core/chaos_entity.fsh.fsh, skipping
+  (1x) Line 5974: [17Oct2026 13:20:34.682] [VeilVanillaShaderCompileThread#0/ERROR] [Veil/]: Couldn't load vanilla shader from ccl__brandonscore:shaders/core/shaders/core/contributor/badge_foil.fsh.fsh, skipping
+  (1x) Line 5984: [17Oct2026 13:20:34.702] [VeilVanillaShaderCompileThread#0/ERROR] [Veil/]: Couldn't load vanilla shader from ccl__draconicevolution:shaders/core/shaders/core/explosion_flash.vsh.vsh, skipping
+  (1x) Line 5994: [17Oct2026 13:20:34.702] [VeilVanillaShaderCompileThread#0/ERROR] [Veil/]: Couldn't load vanilla shader from ccl__draconicevolution:shaders/core/shaders/core/explosion_flash.fsh.fsh, skipping
+  (1x) Line 6014: [17Oct2026 13:20:35.016] [VeilVanillaShaderCompileThread#0/ERROR] [Veil/]: Couldn't load vanilla shader from ccl__brandonscore:shaders/core/shaders/core/contributor/vet_badge.fsh.fsh, skipping
+  (1x) Line 6167: [17Oct2026 13:21:18.906] [Render thread/ERROR] [Veil/]: Failed to recompile vanilla shader: lodestone:nineslice/nine_slice
+  (1x) Line 6231: [17Oct2026 13:21:25.414] [Render thread/ERROR] [Veil/]: Failed to recompile vanilla shader: lodestone:nineslice/distorted/distorted_nine_slice_texture
+
+[dev.ftb.mods.ftblibrary.icon.EntityIconLoader] - Total Errors: 13
+  (1x) Line 3575: [17Oct2026 13:18:05.497] [Worker-ResourceReload-3/ERROR] [dev.ftb.mods.ftblibrary.icon.EntityIconLoader/]: Entity alexsmobs:crow is using legacy invisible texture, please update it to use the new system!
+  (1x) Line 3576: [17Oct2026 13:18:05.506] [Worker-ResourceReload-3/ERROR] [dev.ftb.mods.ftblibrary.icon.EntityIconLoader/]: Entity alexsmobs:blobfish is using legacy invisible texture, please update it to use the new system!
+  (1x) Line 3577: [17Oct2026 13:18:05.517] [Worker-ResourceReload-3/ERROR] [dev.ftb.mods.ftblibrary.icon.EntityIconLoader/]: Entity alexsmobs:centipede_body is using legacy invisible texture, please update it to use the new system!
+  (1x) Line 3578: [17Oct2026 13:18:05.537] [Worker-ResourceReload-3/ERROR] [dev.ftb.mods.ftblibrary.icon.EntityIconLoader/]: Entity artifacts:mimic is using legacy invisible texture, please update it to use the new system!
+  (1x) Line 3579: [17Oct2026 13:18:05.545] [Worker-ResourceReload-3/ERROR] [dev.ftb.mods.ftblibrary.icon.EntityIconLoader/]: Entity undergarden:gwibling is using legacy invisible texture, please update it to use the new system!
+  (1x) Line 3580: [17Oct2026 13:18:05.547] [Worker-ResourceReload-3/ERROR] [dev.ftb.mods.ftblibrary.icon.EntityIconLoader/]: Entity alexsmobs:bone_serpent_part is using legacy invisible texture, please update it to use the new system!
+  (1x) Line 3581: [17Oct2026 13:18:05.547] [Worker-ResourceReload-3/ERROR] [dev.ftb.mods.ftblibrary.icon.EntityIconLoader/]: Entity alexsmobs:fly is using legacy invisible texture, please update it to use the new system!
+  (1x) Line 3582: [17Oct2026 13:18:05.557] [Worker-ResourceReload-3/ERROR] [dev.ftb.mods.ftblibrary.icon.EntityIconLoader/]: Entity alexsmobs:lobster is using legacy invisible texture, please update it to use the new system!
+  (1x) Line 3583: [17Oct2026 13:18:05.557] [Worker-ResourceReload-3/ERROR] [dev.ftb.mods.ftblibrary.icon.EntityIconLoader/]: Entity alexsmobs:hummingbird is using legacy invisible texture, please update it to use the new system!
+  (1x) Line 3584: [17Oct2026 13:18:05.560] [Worker-ResourceReload-3/ERROR] [dev.ftb.mods.ftblibrary.icon.EntityIconLoader/]: Entity alexsmobs:leafcutter_ant is using legacy invisible texture, please update it to use the new system!
+  (1x) Line 3585: [17Oct2026 13:18:05.560] [Worker-ResourceReload-3/ERROR] [dev.ftb.mods.ftblibrary.icon.EntityIconLoader/]: Entity alexsmobs:centipede_tail is using legacy invisible texture, please update it to use the new system!
+  (1x) Line 3586: [17Oct2026 13:18:05.570] [Worker-ResourceReload-3/ERROR] [dev.ftb.mods.ftblibrary.icon.EntityIconLoader/]: Entity alexsmobs:cockroach is using legacy invisible texture, please update it to use the new system!
+  (1x) Line 3587: [17Oct2026 13:18:05.571] [Worker-ResourceReload-3/ERROR] [dev.ftb.mods.ftblibrary.icon.EntityIconLoader/]: Entity iceandfire:stone_statue is using legacy invisible texture, please update it to use the new system!
+
+[gg.essential.sps.LocalResourcePackIndex] - Total Errors: 1
+  (1x) Line 5012: [17Oct2026 13:19:53.691] [Render thread/ERROR] [gg.essential.sps.LocalResourcePackIndex/]: Error while indexing resource packs
+
+[me.wesley1808.servercore.common.ServerCore] - Total Errors: 8
+  (2x) Line 1882: [17Oct2026 13:16:39.590] [modloading-worker-0/ERROR] [me.wesley1808.servercore.common.ServerCore/]: ----------------------------------------------------------------------------------------------------
+  (1x) Line 1881: [17Oct2026 13:16:39.590] [modloading-worker-0/ERROR] [me.wesley1808.servercore.common.ServerCore/]: [ServerCore] One of the values in config.yml is not valid.
+  (1x) Line 1883: [17Oct2026 13:16:39.590] [modloading-worker-0/ERROR] [me.wesley1808.servercore.common.ServerCore/]: For key category:
+  (1x) Line 1884: [17Oct2026 13:16:39.590] [modloading-worker-0/ERROR] [me.wesley1808.servercore.common.ServerCore/]: Encountered an error while loading the configuration.
+  (1x) Line 1885: [17Oct2026 13:16:39.590] [modloading-worker-0/ERROR] [me.wesley1808.servercore.common.ServerCore/]: Reason: The wrong type was entered. The value should be an enum value, but it was really VAMPIRISM_HUNTER
+  (1x) Line 1886: [17Oct2026 13:16:39.590] [modloading-worker-0/ERROR] [me.wesley1808.servercore.common.ServerCore/]: Some examples of valid input: , CREATURE, AMBIENT, AXOLOTLS, UNDERGROUND_WATER_CREATURE, WATER_CREATURE, WATER_AMBIENT, MISC, UNDERGARDEN_STUPID_MOB_CATEGORY, GLARES, RASCALS
+  (1x) Line 1887: [17Oct2026 13:16:39.590] [modloading-worker-0/ERROR] [me.wesley1808.servercore.common.ServerCore/]: Extra info: None
+
+[net.minecraft.Util] - Total Errors: 1309
+  (4x) Line 3613: [17Oct2026 13:18:08.174] [Render thread/ERROR] [net.minecraft.Util/]: Invalid path in pack: royalvariations:textures/models/armor/additionally (if necessary)/royalknightarmor.png, ignoring
+  (4x) Line 3614: [17Oct2026 13:18:08.174] [Render thread/ERROR] [net.minecraft.Util/]: Invalid path in pack: royalvariations:textures/models/armor/additionally (if necessary)/royalknightarmor.bbmodel, ignoring
+  (3x) Line 3615: [17Oct2026 13:18:08.252] [Render thread/ERROR] [net.minecraft.Util/]: Invalid path in pack: integrated_simply_swords:textures/item/knavesneeds/soulsweapons/translucent/translucent_sword TEST.png, ignoring
+  (3x) Line 3616: [17Oct2026 13:18:08.252] [Render thread/ERROR] [net.minecraft.Util/]: Invalid path in pack: integrated_simply_swords:textures/item/knavesneeds/soulsweapons/translucent/translucent_sword BASE.png, ignoring
+  (3x) Line 3617: [17Oct2026 13:18:08.327] [Worker-ResourceReload-5/ERROR] [net.minecraft.Util/]: Invalid path in pack: create_integrated_farming:textures/block/farmersdelight/FARMERS_DELIGHT_LICENSE.txt, ignoring
+  (3x) Line 3625: [17Oct2026 13:18:09.014] [Render thread/ERROR] [net.minecraft.Util/]: Invalid path in pack: knavesneeds:textures/item/soulsweapons/translucent/translucent_sword TEST.png, ignoring
+  (3x) Line 3626: [17Oct2026 13:18:09.014] [Render thread/ERROR] [net.minecraft.Util/]: Invalid path in pack: knavesneeds:textures/item/soulsweapons/translucent/translucent_sword BASE.png, ignoring
+  (3x) Line 3627: [17Oct2026 13:18:09.309] [Render thread/ERROR] [net.minecraft.Util/]: Invalid path in pack: irons_jewelry:textures/item/base/Untitled-2.psd, ignoring
+  (2x) Line 2068: [17Oct2026 13:17:21.286] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity cataclysm_spellbooks:summoned_ignited_revenant has no attributes
+  (2x) Line 2069: [17Oct2026 13:17:21.286] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity cataclysm_spellbooks:summoned_ignited_berserker has no attributes
+  (2x) Line 2070: [17Oct2026 13:17:21.286] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity cataclysm_spellbooks:summoned_koboldiator has no attributes
+  (2x) Line 2071: [17Oct2026 13:17:21.286] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity cataclysm_spellbooks:summoned_koboleton has no attributes
+  (2x) Line 2072: [17Oct2026 13:17:21.286] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity cataclysm_spellbooks:summoned_draugur has no attributes
+  (2x) Line 2073: [17Oct2026 13:17:21.286] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity cataclysm_spellbooks:summoned_royal_draugur has no attributes
+  (2x) Line 2074: [17Oct2026 13:17:21.286] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity cataclysm_spellbooks:summoned_elite_draugur has no attributes
+  (2x) Line 2075: [17Oct2026 13:17:21.286] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity cataclysm_spellbooks:summoned_aptrgangr has no attributes
+  (2x) Line 2076: [17Oct2026 13:17:21.286] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity cataclysm_spellbooks:summoned_amethyst_crab has no attributes
+  (2x) Line 2077: [17Oct2026 13:17:21.286] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity cataclysm_spellbooks:phantom_ancient_remnant has no attributes
+  (2x) Line 2078: [17Oct2026 13:17:21.286] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity quark:crab has no attributes
+  (2x) Line 2079: [17Oct2026 13:17:21.287] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity quark:forgotten has no attributes
+  (2x) Line 2080: [17Oct2026 13:17:21.291] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity quark:foxhound has no attributes
+  (2x) Line 2081: [17Oct2026 13:17:21.291] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity quark:shiba has no attributes
+  (2x) Line 2082: [17Oct2026 13:17:21.291] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity quark:stoneling has no attributes
+  (2x) Line 2083: [17Oct2026 13:17:21.291] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity quark:toretoise has no attributes
+  (2x) Line 2084: [17Oct2026 13:17:21.291] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity quark:wraith has no attributes
+  (2x) Line 2085: [17Oct2026 13:17:21.291] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity supplementaries:red_merchant has no attributes
+  (2x) Line 2086: [17Oct2026 13:17:21.291] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity supplementaries:plunderer has no attributes
+  (2x) Line 2087: [17Oct2026 13:17:21.291] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity block_factorys_bosses:pile_of_bones has no attributes
+  (2x) Line 2088: [17Oct2026 13:17:21.291] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity block_factorys_bosses:yeti has no attributes
+  (2x) Line 2089: [17Oct2026 13:17:21.291] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity block_factorys_bosses:infernal_dragon has no attributes
+  (2x) Line 2090: [17Oct2026 13:17:21.291] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity block_factorys_bosses:underworld_knight has no attributes
+  (2x) Line 2091: [17Oct2026 13:17:21.291] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity block_factorys_bosses:dragon_guard_sword has no attributes
+  (2x) Line 2092: [17Oct2026 13:17:21.291] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity block_factorys_bosses:flaming_skeleton_guard_sword has no attributes
+  (2x) Line 2093: [17Oct2026 13:17:21.291] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity block_factorys_bosses:flaming_skeleton_guard_fireball has no attributes
+  (2x) Line 2094: [17Oct2026 13:17:21.291] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity block_factorys_bosses:soul_skeleton has no attributes
+  (2x) Line 2095: [17Oct2026 13:17:21.291] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity block_factorys_bosses:soul_knight_wither_skeleton has no attributes
+  (2x) Line 2096: [17Oct2026 13:17:21.291] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity block_factorys_bosses:sandworm has no attributes
+  (2x) Line 2097: [17Oct2026 13:17:21.291] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity block_factorys_bosses:kraken has no attributes
+  (2x) Line 2098: [17Oct2026 13:17:21.291] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity block_factorys_bosses:cinematic_kraken has no attributes
+  (2x) Line 2099: [17Oct2026 13:17:21.291] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity block_factorys_bosses:kraken_tentacle has no attributes
+  (2x) Line 2100: [17Oct2026 13:17:21.291] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity block_factorys_bosses:pirate_captain has no attributes
+  (2x) Line 2101: [17Oct2026 13:17:21.291] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity block_factorys_bosses:pirate_rook has no attributes
+  (2x) Line 2102: [17Oct2026 13:17:21.291] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity block_factorys_bosses:crossbow_pirate has no attributes
+  (2x) Line 2103: [17Oct2026 13:17:21.291] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity block_factorys_bosses:ghost_tentacle has no attributes
+  (2x) Line 2104: [17Oct2026 13:17:21.291] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity village_n_pillage_remake:bandit has no attributes
+  (2x) Line 2105: [17Oct2026 13:17:21.291] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity village_n_pillage_remake:bandit_swordsman has no attributes
+  (2x) Line 2106: [17Oct2026 13:17:21.291] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity village_n_pillage_remake:pirate has no attributes
+  (2x) Line 2107: [17Oct2026 13:17:21.291] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity village_n_pillage_remake:captain has no attributes
+  (2x) Line 2108: [17Oct2026 13:17:21.291] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity village_n_pillage_remake:chef_vindicator has no attributes
+  (2x) Line 2109: [17Oct2026 13:17:21.291] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity village_n_pillage_remake:guard_illager has no attributes
+  (2x) Line 2110: [17Oct2026 13:17:21.291] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity village_n_pillage_remake:veiler_illager has no attributes
+  (2x) Line 2111: [17Oct2026 13:17:21.291] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity village_n_pillage_remake:enchant_smith has no attributes
+  (2x) Line 2112: [17Oct2026 13:17:21.291] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity ess_requiem:hopping_skull has no attributes
+  (2x) Line 2113: [17Oct2026 13:17:21.291] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity ess_requiem:soulmaster_sword has no attributes
+  (2x) Line 2114: [17Oct2026 13:17:21.291] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity ess_requiem:gilded_sword has no attributes
+  (2x) Line 2115: [17Oct2026 13:17:21.291] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity ess_requiem:skull_mass has no attributes
+  (2x) Line 2116: [17Oct2026 13:17:21.291] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity ess_requiem:battle_standard has no attributes
+  (2x) Line 2117: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity ess_requiem:tombstone has no attributes
+  (2x) Line 2118: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity ess_requiem:greg has no attributes
+  (2x) Line 2119: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity ess_requiem:bone_maggot has no attributes
+  (2x) Line 2120: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity ess_requiem:nightmare has no attributes
+  (2x) Line 2121: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity illagerinvasion:provoker has no attributes
+  (2x) Line 2122: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity illagerinvasion:invoker has no attributes
+  (2x) Line 2123: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity illagerinvasion:necromancer has no attributes
+  (2x) Line 2124: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity illagerinvasion:basher has no attributes
+  (2x) Line 2125: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity illagerinvasion:sorcerer has no attributes
+  (2x) Line 2126: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity illagerinvasion:archivist has no attributes
+  (2x) Line 2127: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity illagerinvasion:inquisitor has no attributes
+  (2x) Line 2128: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity illagerinvasion:marauder has no attributes
+  (2x) Line 2129: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity illagerinvasion:alchemist has no attributes
+  (2x) Line 2130: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity illagerinvasion:firecaller has no attributes
+  (2x) Line 2131: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity illagerinvasion:surrendered has no attributes
+  (2x) Line 2132: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity royalvariations:royal_zombie has no attributes
+  (2x) Line 2133: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity royalvariations:royal_skeleton has no attributes
+  (2x) Line 2134: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity royalvariations:royal_creeper has no attributes
+  (2x) Line 2135: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity royalvariations:royal_enderman has no attributes
+  (2x) Line 2136: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity takesapillage:archer has no attributes
+  (2x) Line 2137: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity takesapillage:skirmisher has no attributes
+  (2x) Line 2138: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity takesapillage:legioner has no attributes
+  (2x) Line 2139: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity cataclysm:ender_golem has no attributes
+  (2x) Line 2140: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity cataclysm:ender_guardian has no attributes
+  (2x) Line 2141: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity cataclysm:netherite_monstrosity has no attributes
+  (2x) Line 2142: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity cataclysm:netherite_ministrosity has no attributes
+  (2x) Line 2143: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity cataclysm:ignis has no attributes
+  (2x) Line 2144: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity cataclysm:endermaptera has no attributes
+  (2x) Line 2145: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity cataclysm:deepling has no attributes
+  (2x) Line 2146: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity cataclysm:deepling_brute has no attributes
+  (2x) Line 2147: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity cataclysm:deepling_angler has no attributes
+  (2x) Line 2148: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity cataclysm:deepling_priest has no attributes
+  (2x) Line 2149: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity cataclysm:deepling_warlock has no attributes
+  (2x) Line 2150: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity cataclysm:lionfish has no attributes
+  (2x) Line 2151: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity cataclysm:coral_golem has no attributes
+  (2x) Line 2152: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity cataclysm:coralssus has no attributes
+  (2x) Line 2153: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity cataclysm:ignited_revenant has no attributes
+  (2x) Line 2154: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity cataclysm:ignited_berserker has no attributes
+  (2x) Line 2155: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity cataclysm:the_harbinger has no attributes
+  (2x) Line 2156: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity cataclysm:the_watcher has no attributes
+  (2x) Line 2157: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity cataclysm:the_prowler has no attributes
+  (2x) Line 2158: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity cataclysm:the_leviathan has no attributes
+  (2x) Line 2159: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity cataclysm:the_baby_leviathan has no attributes
+  (2x) Line 2160: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity cataclysm:amethyst_crab has no attributes
+  (2x) Line 2161: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity cataclysm:ancient_remnant has no attributes
+  (2x) Line 2162: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity cataclysm:modern_remnant has no attributes
+  (2x) Line 2163: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity cataclysm:koboleton has no attributes
+  (2x) Line 2164: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity cataclysm:kobolediator has no attributes
+  (2x) Line 2165: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity cataclysm:wadjet has no attributes
+  (2x) Line 2166: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity cataclysm:maledictus has no attributes
+  (2x) Line 2167: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity cataclysm:draugr has no attributes
+  (2x) Line 2168: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity cataclysm:royal_draugr has no attributes
+  (2x) Line 2169: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity cataclysm:elite_draugr has no attributes
+  (2x) Line 2170: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity cataclysm:aptrgangr has no attributes
+  (2x) Line 2171: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity cataclysm:hippocamtus has no attributes
+  (2x) Line 2172: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity cataclysm:cindaria has no attributes
+  (2x) Line 2173: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity cataclysm:clawdian has no attributes
+  (2x) Line 2174: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity cataclysm:scylla has no attributes
+  (2x) Line 2175: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity cataclysm:urchinkin has no attributes
+  (2x) Line 2176: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity cataclysm:drowned_host has no attributes
+  (2x) Line 2177: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity cataclysm:symbiocto has no attributes
+  (2x) Line 2178: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity undergarden:rotling has no attributes
+  (2x) Line 2179: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity undergarden:rotwalker has no attributes
+  (2x) Line 2180: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity undergarden:rotbeast has no attributes
+  (2x) Line 2181: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity undergarden:rotbelcher has no attributes
+  (2x) Line 2182: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity undergarden:dweller has no attributes
+  (2x) Line 2183: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity undergarden:greater_dweller has no attributes
+  (2x) Line 2184: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity undergarden:gwibling has no attributes
+  (2x) Line 2185: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity undergarden:brute has no attributes
+  (2x) Line 2186: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity undergarden:scintling has no attributes
+  (2x) Line 2187: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity undergarden:gloomper has no attributes
+  (2x) Line 2188: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity undergarden:stoneborn has no attributes
+  (2x) Line 2189: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity undergarden:nargoyle has no attributes
+  (2x) Line 2190: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity undergarden:muncher has no attributes
+  (2x) Line 2191: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity undergarden:sploogie has no attributes
+  (2x) Line 2192: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity undergarden:gwib has no attributes
+  (2x) Line 2193: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity undergarden:mog has no attributes
+  (2x) Line 2194: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity undergarden:smog_mog has no attributes
+  (2x) Line 2195: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity undergarden:forgotten has no attributes
+  (2x) Line 2196: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity undergarden:denizen has no attributes
+  (2x) Line 2197: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity undergarden:mysterious_pot has no attributes
+  (2x) Line 2198: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity undergarden:forgotten_guardian has no attributes
+  (2x) Line 2199: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity goblintraders:goblin_trader has no attributes
+  (2x) Line 2200: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity goblintraders:vein_goblin_trader has no attributes
+  (2x) Line 2201: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity bosses_of_mass_destruction:lich has no attributes
+  (2x) Line 2202: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity bosses_of_mass_destruction:obsidilith has no attributes
+  (2x) Line 2203: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity bosses_of_mass_destruction:gauntlet has no attributes
+  (2x) Line 2204: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity bosses_of_mass_destruction:void_blossom has no attributes
+  (2x) Line 2205: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity raided:inquisitor has no attributes
+  (2x) Line 2206: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity raided:incinerator has no attributes
+  (2x) Line 2207: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity raided:savager has no attributes
+  (2x) Line 2208: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity raided:necromancer has no attributes
+  (2x) Line 2209: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity raided:electromancer has no attributes
+  (2x) Line 2210: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity friendsandfoes:crab has no attributes
+  (2x) Line 2211: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity friendsandfoes:glare has no attributes
+  (2x) Line 2212: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity friendsandfoes:iceologer has no attributes
+  (2x) Line 2213: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity friendsandfoes:illusioner has no attributes
+  (2x) Line 2214: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity friendsandfoes:mauler has no attributes
+  (2x) Line 2215: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity friendsandfoes:moobloom has no attributes
+  (2x) Line 2216: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity friendsandfoes:rascal has no attributes
+  (2x) Line 2217: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity friendsandfoes:wildfire has no attributes
+  (2x) Line 2218: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:debug_wizard has no attributes
+  (2x) Line 2219: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:spectral_steed has no attributes
+  (2x) Line 2220: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:summoned_vex has no attributes
+  (2x) Line 2221: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:pyromancer has no attributes
+  (2x) Line 2222: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:cryomancer has no attributes
+  (2x) Line 2223: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:necromancer has no attributes
+  (2x) Line 2224: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:summoned_polar_bear has no attributes
+  (2x) Line 2225: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:dead_king has no attributes
+  (2x) Line 2226: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_zombie has no attributes
+  (2x) Line 2227: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:archevoker has no attributes
+  (2x) Line 2228: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:magehunter_vindicator has no attributes
+  (2x) Line 2229: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:citadel_keeper has no attributes
+  (2x) Line 2230: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:fire_boss has no attributes
+  (2x) Line 2231: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:priest has no attributes
+  (2x) Line 2232: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:apothecarist has no attributes
+  (2x) Line 2233: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:cultist has no attributes
+  (2x) Line 2234: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:cursed_armor_stand has no attributes
+  (2x) Line 2235: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:ice_spider has no attributes
+  (2x) Line 2236: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity minecolonies:citizen has no attributes
+  (2x) Line 2237: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity minecolonies:visitor has no attributes
+  (2x) Line 2238: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity minecolonies:mercenary has no attributes
+  (2x) Line 2239: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity minecolonies:barbarian has no attributes
+  (2x) Line 2240: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity minecolonies:archerbarbarian has no attributes
+  (2x) Line 2241: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity minecolonies:chiefbarbarian has no attributes
+  (2x) Line 2242: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity minecolonies:pirate has no attributes
+  (2x) Line 2243: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity minecolonies:archerpirate has no attributes
+  (2x) Line 2244: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity minecolonies:chiefpirate has no attributes
+  (2x) Line 2245: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity minecolonies:cavalry_horse has no attributes
+  (2x) Line 2246: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity minecolonies:mummy has no attributes
+  (2x) Line 2247: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity minecolonies:archermummy has no attributes
+  (2x) Line 2248: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity minecolonies:pharao has no attributes
+  (2x) Line 2249: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity minecolonies:amazon has no attributes
+  (2x) Line 2250: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity minecolonies:amazonspearman has no attributes
+  (2x) Line 2251: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity minecolonies:amazonchief has no attributes
+  (2x) Line 2252: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity minecolonies:shieldmaiden has no attributes
+  (2x) Line 2253: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity minecolonies:norsemenarcher has no attributes
+  (2x) Line 2254: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity minecolonies:norsemenchief has no attributes
+  (2x) Line 2255: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity minecolonies:drownedpirate has no attributes
+  (2x) Line 2256: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity minecolonies:drownedarcherpirate has no attributes
+  (2x) Line 2257: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity minecolonies:drownedchiefpirate has no attributes
+  (2x) Line 2258: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity minecolonies:campbarbarian has no attributes
+  (2x) Line 2259: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity minecolonies:camparcherbarbarian has no attributes
+  (2x) Line 2260: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity minecolonies:campchiefbarbarian has no attributes
+  (2x) Line 2261: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity minecolonies:camppirate has no attributes
+  (2x) Line 2262: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity minecolonies:camparcherpirate has no attributes
+  (2x) Line 2263: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity minecolonies:campchiefpirate has no attributes
+  (2x) Line 2264: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity minecolonies:campamazon has no attributes
+  (2x) Line 2265: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity minecolonies:campamazonspearman has no attributes
+  (2x) Line 2266: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity minecolonies:campamazonchief has no attributes
+  (2x) Line 2267: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity minecolonies:campmummy has no attributes
+  (2x) Line 2268: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity minecolonies:camparchermummy has no attributes
+  (2x) Line 2269: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity minecolonies:camppharao has no attributes
+  (2x) Line 2270: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity minecolonies:campshieldmaiden has no attributes
+  (2x) Line 2271: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity minecolonies:campnorsemenarcher has no attributes
+  (2x) Line 2272: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity minecolonies:campnorsemenchief has no attributes
+  (2x) Line 2273: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity minecolonies:campdrownedpirate has no attributes
+  (2x) Line 2274: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity minecolonies:campdrownedarcherpirate has no attributes
+  (2x) Line 2275: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity minecolonies:campdrownedchiefpirate has no attributes
+  (2x) Line 2276: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity variantsandventures:gelid has no attributes
+  (2x) Line 2277: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity variantsandventures:murk has no attributes
+  (2x) Line 2278: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity variantsandventures:thicket has no attributes
+  (2x) Line 2279: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity variantsandventures:verdant has no attributes
+  (2x) Line 2280: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity goodending:firefly_swarm has no attributes
+  (2x) Line 2281: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity goodending:woodpecker has no attributes
+  (2x) Line 2282: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity goodending:deer has no attributes
+  (2x) Line 2283: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity goodending:hedgehog has no attributes
+  (2x) Line 2284: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity wind_spellbooks:aeromancer has no attributes
+  (2x) Line 2285: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity unusualend:ender_blob has no attributes
+  (2x) Line 2286: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity unusualend:undead_enderling has no attributes
+  (2x) Line 2287: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity unusualend:endstone_trapper has no attributes
+  (2x) Line 2288: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity unusualend:ender_firefly has no attributes
+  (2x) Line 2289: [17Oct2026 13:17:21.293] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity unusualend:endstone_golem has no attributes
+  (2x) Line 2290: [17Oct2026 13:17:21.295] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity unusualend:dragling has no attributes
+  (2x) Line 2291: [17Oct2026 13:17:21.295] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity unusualend:bolok has no attributes
+  (2x) Line 2292: [17Oct2026 13:17:21.295] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity unusualend:enderblob_queen has no attributes
+  (2x) Line 2293: [17Oct2026 13:17:21.295] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity unusualend:block_updater has no attributes
+  (2x) Line 2294: [17Oct2026 13:17:21.295] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity unusualend:spunkler has no attributes
+  (2x) Line 2295: [17Oct2026 13:17:21.295] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity unusualend:void_crack has no attributes
+  (2x) Line 2296: [17Oct2026 13:17:21.295] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity unusualend:warped_balloon has no attributes
+  (2x) Line 2297: [17Oct2026 13:17:21.295] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity unusualend:glub has no attributes
+  (2x) Line 2298: [17Oct2026 13:17:21.295] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity unusualend:void_bomb has no attributes
+  (2x) Line 2299: [17Oct2026 13:17:21.295] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity unusualend:enderbulb has no attributes
+  (2x) Line 2300: [17Oct2026 13:17:21.295] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity unusualend:small_enderbulb has no attributes
+  (2x) Line 2301: [17Oct2026 13:17:21.295] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity unusualend:bluk has no attributes
+  (2x) Line 2302: [17Oct2026 13:17:21.295] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity unusualend:summoned_dragling has no attributes
+  (2x) Line 2303: [17Oct2026 13:17:21.295] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity minecraft:creaking has no attributes
+  (2x) Line 2304: [17Oct2026 13:17:21.295] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity minecraft:happy_ghast has no attributes
+  (2x) Line 2305: [17Oct2026 13:17:21.295] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity minecraft:sulfur_cube has no attributes
+  (2x) Line 2306: [17Oct2026 13:17:21.295] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity darkerdepths:glowshroom_monster has no attributes
+  (2x) Line 2307: [17Oct2026 13:17:21.295] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity darkerdepths:body_snatcher has no attributes
+  (2x) Line 2308: [17Oct2026 13:17:21.295] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity darkerdepths:void_soul_knight has no attributes
+  (2x) Line 2309: [17Oct2026 13:17:21.295] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity darkerdepths:void_soul has no attributes
+  (2x) Line 2310: [17Oct2026 13:17:21.295] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity darkerdepths:scorcher has no attributes
+  (2x) Line 2311: [17Oct2026 13:17:21.295] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity gatesofavarice:gatekeeper has no attributes
+  (2x) Line 2312: [17Oct2026 13:17:21.295] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity draconicevolution:draconic_guardian has no attributes
+  (2x) Line 2313: [17Oct2026 13:17:21.295] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity draconicevolution:guardian_wither has no attributes
+  (2x) Line 2314: [17Oct2026 13:17:21.295] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity mowziesmobs:foliaath has no attributes
+  (2x) Line 2315: [17Oct2026 13:17:21.295] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity mowziesmobs:baby_foliaath has no attributes
+  (2x) Line 2316: [17Oct2026 13:17:21.295] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity mowziesmobs:ferrous_wroughtnaut has no attributes
+  (2x) Line 2317: [17Oct2026 13:17:21.295] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity mowziesmobs:umvuthana_follower_raptor has no attributes
+  (2x) Line 2318: [17Oct2026 13:17:21.295] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity mowziesmobs:umvuthana_follower_player has no attributes
+  (2x) Line 2319: [17Oct2026 13:17:21.295] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity mowziesmobs:umvuthana_crane_player has no attributes
+  (2x) Line 2320: [17Oct2026 13:17:21.295] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity mowziesmobs:umvuthana has no attributes
+  (2x) Line 2321: [17Oct2026 13:17:21.295] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity mowziesmobs:umvuthana_raptor has no attributes
+  (2x) Line 2322: [17Oct2026 13:17:21.295] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity mowziesmobs:umvuthana_crane has no attributes
+  (2x) Line 2323: [17Oct2026 13:17:21.295] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity mowziesmobs:umvuthi has no attributes
+  (2x) Line 2324: [17Oct2026 13:17:21.295] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity mowziesmobs:frostmaw has no attributes
+  (2x) Line 2325: [17Oct2026 13:17:21.295] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity mowziesmobs:grottol has no attributes
+  (2x) Line 2326: [17Oct2026 13:17:21.295] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity mowziesmobs:lantern has no attributes
+  (2x) Line 2327: [17Oct2026 13:17:21.295] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity mowziesmobs:naga has no attributes
+  (2x) Line 2328: [17Oct2026 13:17:21.295] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity mowziesmobs:bluff has no attributes
+  (2x) Line 2329: [17Oct2026 13:17:21.295] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity mowziesmobs:elokosa_follower_howler has no attributes
+  (2x) Line 2330: [17Oct2026 13:17:21.295] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity mowziesmobs:elokosa_howler has no attributes
+  (2x) Line 2331: [17Oct2026 13:17:21.295] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity firesenderexpansion:porphyromancer has no attributes
+  (2x) Line 2332: [17Oct2026 13:17:21.295] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity firesenderexpansion:void_wyrm has no attributes
+  (2x) Line 2333: [17Oct2026 13:17:21.295] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity pneumaticcraft:drone has no attributes
+  (2x) Line 2334: [17Oct2026 13:17:21.295] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity pneumaticcraft:logistics_drone has no attributes
+  (2x) Line 2335: [17Oct2026 13:17:21.295] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity pneumaticcraft:harvesting_drone has no attributes
+  (2x) Line 2336: [17Oct2026 13:17:21.295] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity pneumaticcraft:guard_drone has no attributes
+  (2x) Line 2337: [17Oct2026 13:17:21.295] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity pneumaticcraft:collector_drone has no attributes
+  (2x) Line 2338: [17Oct2026 13:17:21.295] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity pneumaticcraft:amadrone has no attributes
+  (2x) Line 2339: [17Oct2026 13:17:21.295] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity pneumaticcraft:programmable_controller has no attributes
+  (2x) Line 2340: [17Oct2026 13:17:21.295] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity darkermagic:summoned_warden has no attributes
+  (2x) Line 2341: [17Oct2026 13:17:21.295] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity darkermagic:summoned_shattered has no attributes
+  (2x) Line 2342: [17Oct2026 13:17:21.295] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity darkermagic:summoned_sculk_centipede has no attributes
+  (2x) Line 2343: [17Oct2026 13:17:21.295] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity darkermagic:summoned_sculk_snapper has no attributes
+  (2x) Line 2344: [17Oct2026 13:17:21.295] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity iceandfire:fire_dragon has no attributes
+  (2x) Line 2345: [17Oct2026 13:17:21.295] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity iceandfire:ice_dragon has no attributes
+  (2x) Line 2346: [17Oct2026 13:17:21.295] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity iceandfire:lightning_dragon has no attributes
+  (2x) Line 2347: [17Oct2026 13:17:21.295] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity iceandfire:hippogryph has no attributes
+  (2x) Line 2348: [17Oct2026 13:17:21.295] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity iceandfire:stone_statue has no attributes
+  (2x) Line 2349: [17Oct2026 13:17:21.295] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity iceandfire:gorgon has no attributes
+  (2x) Line 2350: [17Oct2026 13:17:21.295] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity iceandfire:pixie has no attributes
+  (2x) Line 2351: [17Oct2026 13:17:21.295] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity iceandfire:cyclops has no attributes
+  (2x) Line 2352: [17Oct2026 13:17:21.295] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity iceandfire:siren has no attributes
+  (2x) Line 2353: [17Oct2026 13:17:21.295] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity iceandfire:hippocampus has no attributes
+  (2x) Line 2354: [17Oct2026 13:17:21.295] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity iceandfire:deathworm has no attributes
+  (2x) Line 2355: [17Oct2026 13:17:21.295] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity iceandfire:cockatrice has no attributes
+  (2x) Line 2356: [17Oct2026 13:17:21.295] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity iceandfire:stymphalian_bird has no attributes
+  (2x) Line 2357: [17Oct2026 13:17:21.295] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity iceandfire:troll has no attributes
+  (2x) Line 2358: [17Oct2026 13:17:21.295] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity iceandfire:amphithere has no attributes
+  (2x) Line 2359: [17Oct2026 13:17:21.295] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity iceandfire:sea_serpent has no attributes
+  (2x) Line 2360: [17Oct2026 13:17:21.295] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity iceandfire:dread_thrall has no attributes
+  (2x) Line 2361: [17Oct2026 13:17:21.295] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity iceandfire:dread_ghoul has no attributes
+  (2x) Line 2362: [17Oct2026 13:17:21.295] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity iceandfire:dread_beast has no attributes
+  (2x) Line 2363: [17Oct2026 13:17:21.295] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity iceandfire:dread_scuttler has no attributes
+  (2x) Line 2364: [17Oct2026 13:17:21.295] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity iceandfire:dread_lich has no attributes
+  (2x) Line 2365: [17Oct2026 13:17:21.295] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity iceandfire:dread_knight has no attributes
+  (2x) Line 2366: [17Oct2026 13:17:21.295] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity iceandfire:dread_horse has no attributes
+  (2x) Line 2367: [17Oct2026 13:17:21.295] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity iceandfire:hydra has no attributes
+  (2x) Line 2368: [17Oct2026 13:17:21.295] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity iceandfire:ghost has no attributes
+  (2x) Line 2369: [17Oct2026 13:17:21.295] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity the_beyond:lantern has no attributes
+  (2x) Line 2370: [17Oct2026 13:17:21.295] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity the_beyond:abyssal_nomad has no attributes
+  (2x) Line 2371: [17Oct2026 13:17:21.295] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity the_beyond:enderglop has no attributes
+  (2x) Line 2372: [17Oct2026 13:17:21.295] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity the_beyond:enadrake has no attributes
+  (2x) Line 2373: [17Oct2026 13:17:21.295] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity immersiveengineering:fusilier has no attributes
+  (2x) Line 2374: [17Oct2026 13:17:21.295] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity immersiveengineering:commando has no attributes
+  (2x) Line 2375: [17Oct2026 13:17:21.295] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity immersiveengineering:bulwark has no attributes
+  (2x) Line 2376: [17Oct2026 13:17:21.295] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity allthemodium:piglich has no attributes
+  (2x) Line 2377: [17Oct2026 13:17:21.295] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity aquaculture:box_turtle has no attributes
+  (2x) Line 2378: [17Oct2026 13:17:21.295] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity aquaculture:arrau_turtle has no attributes
+  (2x) Line 2379: [17Oct2026 13:17:21.295] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity aquaculture:starshell_turtle has no attributes
+  (2x) Line 2380: [17Oct2026 13:17:21.295] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity aquaculture:atlantic_cod has no attributes
+  (2x) Line 2381: [17Oct2026 13:17:21.295] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity aquaculture:blackfish has no attributes
+  (2x) Line 2382: [17Oct2026 13:17:21.295] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity aquaculture:pacific_halibut has no attributes
+  (2x) Line 2383: [17Oct2026 13:17:21.295] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity aquaculture:atlantic_halibut has no attributes
+  (2x) Line 2384: [17Oct2026 13:17:21.295] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity aquaculture:atlantic_herring has no attributes
+  (2x) Line 2385: [17Oct2026 13:17:21.295] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity aquaculture:pink_salmon has no attributes
+  (2x) Line 2386: [17Oct2026 13:17:21.295] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity aquaculture:pollock has no attributes
+  (2x) Line 2387: [17Oct2026 13:17:21.295] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity aquaculture:rainbow_trout has no attributes
+  (2x) Line 2388: [17Oct2026 13:17:21.295] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity aquaculture:bayad has no attributes
+  (2x) Line 2389: [17Oct2026 13:17:21.295] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity aquaculture:boulti has no attributes
+  (2x) Line 2390: [17Oct2026 13:17:21.295] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity aquaculture:capitaine has no attributes
+  (2x) Line 2391: [17Oct2026 13:17:21.295] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity aquaculture:synodontis has no attributes
+  (2x) Line 2392: [17Oct2026 13:17:21.295] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity aquaculture:smallmouth_bass has no attributes
+  (2x) Line 2393: [17Oct2026 13:17:21.295] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity aquaculture:bluegill has no attributes
+  (2x) Line 2394: [17Oct2026 13:17:21.295] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity aquaculture:brown_trout has no attributes
+  (2x) Line 2395: [17Oct2026 13:17:21.295] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity aquaculture:carp has no attributes
+  (2x) Line 2396: [17Oct2026 13:17:21.295] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity aquaculture:catfish has no attributes
+  (2x) Line 2397: [17Oct2026 13:17:21.295] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity aquaculture:gar has no attributes
+  (2x) Line 2398: [17Oct2026 13:17:21.295] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity aquaculture:minnow has no attributes
+  (2x) Line 2399: [17Oct2026 13:17:21.295] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity aquaculture:muskellunge has no attributes
+  (2x) Line 2400: [17Oct2026 13:17:21.295] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity aquaculture:perch has no attributes
+  (2x) Line 2401: [17Oct2026 13:17:21.295] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity aquaculture:arapaima has no attributes
+  (2x) Line 2402: [17Oct2026 13:17:21.295] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity aquaculture:piranha has no attributes
+  (2x) Line 2403: [17Oct2026 13:17:21.295] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity aquaculture:tambaqui has no attributes
+  (2x) Line 2404: [17Oct2026 13:17:21.295] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity aquaculture:brown_shrooma has no attributes
+  (2x) Line 2405: [17Oct2026 13:17:21.295] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity aquaculture:red_shrooma has no attributes
+  (2x) Line 2406: [17Oct2026 13:17:21.295] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity aquaculture:jellyfish has no attributes
+  (2x) Line 2407: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity aquaculture:red_grouper has no attributes
+  (2x) Line 2408: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity aquaculture:tuna has no attributes
+  (2x) Line 2409: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity remnant_bosses:rat has no attributes
+  (2x) Line 2410: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity remnant_bosses:skeleton_minion has no attributes
+  (2x) Line 2411: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity remnant_bosses:remnant_ossukage has no attributes
+  (2x) Line 2412: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity remnant_bosses:wraith has no attributes
+  (2x) Line 2413: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity remnant_bosses:armored_grub has no attributes
+  (2x) Line 2414: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity remnant_bosses:bone_tyrant has no attributes
+  (2x) Line 2415: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity ars_nouveau:starbuncle has no attributes
+  (2x) Line 2416: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity ars_nouveau:alakarkinos has no attributes
+  (2x) Line 2417: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity ars_nouveau:whirlisprig has no attributes
+  (2x) Line 2418: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity ars_nouveau:wilden_hunter has no attributes
+  (2x) Line 2419: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity ars_nouveau:summon_wolf has no attributes
+  (2x) Line 2420: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity ars_nouveau:wilden_stalker has no attributes
+  (2x) Line 2421: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity ars_nouveau:summon_horse has no attributes
+  (2x) Line 2422: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity ars_nouveau:summon_skeleton has no attributes
+  (2x) Line 2423: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity ars_nouveau:wilden_guardian has no attributes
+  (2x) Line 2424: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity ars_nouveau:wilden_boss has no attributes
+  (2x) Line 2425: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity ars_nouveau:drygmy has no attributes
+  (2x) Line 2426: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity ars_nouveau:familiar_starbuncle has no attributes
+  (2x) Line 2427: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity ars_nouveau:familiar_wixie has no attributes
+  (2x) Line 2428: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity ars_nouveau:familiar_bookwyrm has no attributes
+  (2x) Line 2429: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity ars_nouveau:familiar_drygmy has no attributes
+  (2x) Line 2430: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity ars_nouveau:familiar_whirlisprig has no attributes
+  (2x) Line 2431: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity ars_nouveau:familiar_amethyst_golem has no attributes
+  (2x) Line 2432: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity ars_nouveau:cascading_weald_walker has no attributes
+  (2x) Line 2433: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity ars_nouveau:flourishing_weald_walker has no attributes
+  (2x) Line 2434: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity ars_nouveau:blazing_weald_walker has no attributes
+  (2x) Line 2435: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity ars_nouveau:vexing_weald_walker has no attributes
+  (2x) Line 2436: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity ars_nouveau:amethyst_golem has no attributes
+  (2x) Line 2437: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity ars_nouveau:gift_starby has no attributes
+  (2x) Line 2438: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexsmobs:grizzly_bear has no attributes
+  (2x) Line 2439: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexsmobs:roadrunner has no attributes
+  (2x) Line 2440: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexsmobs:bone_serpent has no attributes
+  (2x) Line 2441: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexsmobs:bone_serpent_part has no attributes
+  (2x) Line 2442: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexsmobs:gazelle has no attributes
+  (2x) Line 2443: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexsmobs:crocodile has no attributes
+  (2x) Line 2444: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexsmobs:fly has no attributes
+  (2x) Line 2445: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexsmobs:hummingbird has no attributes
+  (2x) Line 2446: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexsmobs:orca has no attributes
+  (2x) Line 2447: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexsmobs:sunbird has no attributes
+  (2x) Line 2448: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexsmobs:gorilla has no attributes
+  (2x) Line 2449: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexsmobs:crimson_mosquito has no attributes
+  (2x) Line 2450: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexsmobs:rattlesnake has no attributes
+  (2x) Line 2451: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexsmobs:endergrade has no attributes
+  (2x) Line 2452: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexsmobs:hammerhead_shark has no attributes
+  (2x) Line 2453: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexsmobs:lobster has no attributes
+  (2x) Line 2454: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexsmobs:komodo_dragon has no attributes
+  (2x) Line 2455: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexsmobs:capuchin_monkey has no attributes
+  (2x) Line 2456: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexsmobs:centipede_head has no attributes
+  (2x) Line 2457: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexsmobs:warped_toad has no attributes
+  (2x) Line 2458: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexsmobs:moose has no attributes
+  (2x) Line 2459: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexsmobs:mimicube has no attributes
+  (2x) Line 2460: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexsmobs:raccoon has no attributes
+  (2x) Line 2461: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexsmobs:blobfish has no attributes
+  (2x) Line 2462: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexsmobs:seal has no attributes
+  (2x) Line 2463: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexsmobs:cockroach has no attributes
+  (2x) Line 2464: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexsmobs:shoebill has no attributes
+  (2x) Line 2465: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexsmobs:elephant has no attributes
+  (2x) Line 2466: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexsmobs:soul_vulture has no attributes
+  (2x) Line 2467: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexsmobs:snow_leopard has no attributes
+  (2x) Line 2468: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexsmobs:spectre has no attributes
+  (2x) Line 2469: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexsmobs:crow has no attributes
+  (2x) Line 2470: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexsmobs:alligator_snapping_turtle has no attributes
+  (2x) Line 2471: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexsmobs:mungus has no attributes
+  (2x) Line 2472: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexsmobs:mantis_shrimp has no attributes
+  (2x) Line 2473: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexsmobs:guster has no attributes
+  (2x) Line 2474: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexsmobs:warped_mosco has no attributes
+  (2x) Line 2475: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexsmobs:straddler has no attributes
+  (2x) Line 2476: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexsmobs:stradpole has no attributes
+  (2x) Line 2477: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexsmobs:emu has no attributes
+  (2x) Line 2478: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexsmobs:platypus has no attributes
+  (2x) Line 2479: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexsmobs:dropbear has no attributes
+  (2x) Line 2480: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexsmobs:tasmanian_devil has no attributes
+  (2x) Line 2481: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexsmobs:kangaroo has no attributes
+  (2x) Line 2482: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexsmobs:cachalot_whale has no attributes
+  (2x) Line 2483: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexsmobs:leafcutter_ant has no attributes
+  (2x) Line 2484: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexsmobs:enderiophage has no attributes
+  (2x) Line 2485: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexsmobs:bald_eagle has no attributes
+  (2x) Line 2486: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexsmobs:tiger has no attributes
+  (2x) Line 2487: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexsmobs:tarantula_hawk has no attributes
+  (2x) Line 2488: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexsmobs:void_worm has no attributes
+  (2x) Line 2489: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexsmobs:void_worm_part has no attributes
+  (2x) Line 2490: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexsmobs:frilled_shark has no attributes
+  (2x) Line 2491: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexsmobs:mimic_octopus has no attributes
+  (2x) Line 2492: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexsmobs:seagull has no attributes
+  (2x) Line 2493: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexsmobs:froststalker has no attributes
+  (2x) Line 2494: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexsmobs:tusklin has no attributes
+  (2x) Line 2495: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexsmobs:laviathan has no attributes
+  (2x) Line 2496: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexsmobs:cosmaw has no attributes
+  (2x) Line 2497: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexsmobs:toucan has no attributes
+  (2x) Line 2498: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexsmobs:maned_wolf has no attributes
+  (2x) Line 2499: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexsmobs:anaconda has no attributes
+  (2x) Line 2500: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexsmobs:anteater has no attributes
+  (2x) Line 2501: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexsmobs:rocky_roller has no attributes
+  (2x) Line 2502: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexsmobs:flutter has no attributes
+  (2x) Line 2503: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexsmobs:gelada_monkey has no attributes
+  (2x) Line 2504: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexsmobs:jerboa has no attributes
+  (2x) Line 2505: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexsmobs:terrapin has no attributes
+  (2x) Line 2506: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexsmobs:comb_jelly has no attributes
+  (2x) Line 2507: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexsmobs:cosmic_cod has no attributes
+  (2x) Line 2508: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexsmobs:bunfungus has no attributes
+  (2x) Line 2509: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexsmobs:bison has no attributes
+  (2x) Line 2510: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexsmobs:giant_squid has no attributes
+  (2x) Line 2511: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexsmobs:sea_bear has no attributes
+  (2x) Line 2512: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexsmobs:devils_hole_pupfish has no attributes
+  (2x) Line 2513: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexsmobs:catfish has no attributes
+  (2x) Line 2514: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexsmobs:flying_fish has no attributes
+  (2x) Line 2515: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexsmobs:skelewag has no attributes
+  (2x) Line 2516: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexsmobs:rain_frog has no attributes
+  (2x) Line 2517: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexsmobs:potoo has no attributes
+  (2x) Line 2518: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexsmobs:mudskipper has no attributes
+  (2x) Line 2519: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexsmobs:rhinoceros has no attributes
+  (2x) Line 2520: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexsmobs:sugar_glider has no attributes
+  (2x) Line 2521: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexsmobs:farseer has no attributes
+  (2x) Line 2522: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexsmobs:skreecher has no attributes
+  (2x) Line 2523: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexsmobs:underminer has no attributes
+  (2x) Line 2524: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexsmobs:murmur has no attributes
+  (2x) Line 2525: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexsmobs:murmur_head has no attributes
+  (2x) Line 2526: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexsmobs:skunk has no attributes
+  (2x) Line 2527: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexsmobs:banana_slug has no attributes
+  (2x) Line 2528: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexsmobs:blue_jay has no attributes
+  (2x) Line 2529: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexsmobs:caiman has no attributes
+  (2x) Line 2530: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexsmobs:triops has no attributes
+  (2x) Line 2531: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity raidsenhanced:raid_blimp has no attributes
+  (2x) Line 2532: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity raidsenhanced:golem_of_last_resort has no attributes
+  (2x) Line 2533: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity raidsenhanced:zapper has no attributes
+  (2x) Line 2534: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity raidsenhanced:raid_drill has no attributes
+  (2x) Line 2535: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity twilightforest:adherent has no attributes
+  (2x) Line 2536: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity twilightforest:alpha_yeti has no attributes
+  (2x) Line 2537: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity twilightforest:armored_giant has no attributes
+  (2x) Line 2538: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity twilightforest:bighorn_sheep has no attributes
+  (2x) Line 2539: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity twilightforest:blockchain_goblin has no attributes
+  (2x) Line 2540: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity twilightforest:boar has no attributes
+  (2x) Line 2541: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity twilightforest:carminite_broodling has no attributes
+  (2x) Line 2542: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity twilightforest:carminite_ghastguard has no attributes
+  (2x) Line 2543: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity twilightforest:carminite_ghastling has no attributes
+  (2x) Line 2544: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity twilightforest:carminite_golem has no attributes
+  (2x) Line 2545: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity twilightforest:death_tome has no attributes
+  (2x) Line 2546: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity twilightforest:deer has no attributes
+  (2x) Line 2547: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity twilightforest:dwarf_rabbit has no attributes
+  (2x) Line 2548: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity twilightforest:fire_beetle has no attributes
+  (2x) Line 2549: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity twilightforest:giant_miner has no attributes
+  (2x) Line 2550: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity twilightforest:harbinger_cube has no attributes
+  (2x) Line 2551: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity twilightforest:hedge_spider has no attributes
+  (2x) Line 2552: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity twilightforest:helmet_crab has no attributes
+  (2x) Line 2553: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity twilightforest:hostile_wolf has no attributes
+  (2x) Line 2554: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity twilightforest:hydra has no attributes
+  (2x) Line 2555: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity twilightforest:ice_crystal has no attributes
+  (2x) Line 2556: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity twilightforest:king_spider has no attributes
+  (2x) Line 2557: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity twilightforest:knight_phantom has no attributes
+  (2x) Line 2558: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity twilightforest:kobold has no attributes
+  (2x) Line 2559: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity twilightforest:lich has no attributes
+  (2x) Line 2560: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity twilightforest:lich_minion has no attributes
+  (2x) Line 2561: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity twilightforest:lower_goblin_knight has no attributes
+  (2x) Line 2562: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity twilightforest:loyal_zombie has no attributes
+  (2x) Line 2563: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity twilightforest:maze_slime has no attributes
+  (2x) Line 2564: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity twilightforest:minoshroom has no attributes
+  (2x) Line 2565: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity twilightforest:minotaur has no attributes
+  (2x) Line 2566: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity twilightforest:mist_wolf has no attributes
+  (2x) Line 2567: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity twilightforest:mosquito_swarm has no attributes
+  (2x) Line 2568: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity twilightforest:naga has no attributes
+  (2x) Line 2569: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity twilightforest:penguin has no attributes
+  (2x) Line 2570: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity twilightforest:pinch_beetle has no attributes
+  (2x) Line 2571: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity twilightforest:plateau_boss has no attributes
+  (2x) Line 2572: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity twilightforest:quest_ram has no attributes
+  (2x) Line 2573: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity twilightforest:raven has no attributes
+  (2x) Line 2574: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity twilightforest:redcap has no attributes
+  (2x) Line 2575: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity twilightforest:redcap_sapper has no attributes
+  (2x) Line 2576: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity twilightforest:rising_zombie has no attributes
+  (2x) Line 2577: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity twilightforest:roving_cube has no attributes
+  (2x) Line 2578: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity twilightforest:skeleton_druid has no attributes
+  (2x) Line 2579: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity twilightforest:slime_beetle has no attributes
+  (2x) Line 2580: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity twilightforest:snow_guardian has no attributes
+  (2x) Line 2581: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity twilightforest:snow_queen has no attributes
+  (2x) Line 2582: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity twilightforest:squirrel has no attributes
+  (2x) Line 2583: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity twilightforest:stable_ice_core has no attributes
+  (2x) Line 2584: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity twilightforest:swarm_spider has no attributes
+  (2x) Line 2585: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity twilightforest:tiny_bird has no attributes
+  (2x) Line 2586: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity twilightforest:towerwood_borer has no attributes
+  (2x) Line 2587: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity twilightforest:troll has no attributes
+  (2x) Line 2588: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity twilightforest:unstable_ice_core has no attributes
+  (2x) Line 2589: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity twilightforest:upper_goblin_knight has no attributes
+  (2x) Line 2590: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity twilightforest:ur_ghast has no attributes
+  (2x) Line 2591: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity twilightforest:winter_wolf has no attributes
+  (2x) Line 2592: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity twilightforest:wraith has no attributes
+  (2x) Line 2593: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity twilightforest:yeti has no attributes
+  (2x) Line 2594: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity deeperdarker:angler_fish has no attributes
+  (2x) Line 2595: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity deeperdarker:anger_pot has no attributes
+  (2x) Line 2596: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity deeperdarker:fear_pot has no attributes
+  (2x) Line 2597: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity deeperdarker:sorrow_pot has no attributes
+  (2x) Line 2598: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity deeperdarker:sculk_centipede has no attributes
+  (2x) Line 2599: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity deeperdarker:sculk_leech has no attributes
+  (2x) Line 2600: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity deeperdarker:sculk_snapper has no attributes
+  (2x) Line 2601: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity deeperdarker:shattered has no attributes
+  (2x) Line 2602: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity deeperdarker:shriek_worm has no attributes
+  (2x) Line 2603: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity deeperdarker:sludge has no attributes
+  (2x) Line 2604: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity deeperdarker:stalker has no attributes
+  (2x) Line 2605: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity simplyswords:simplybeeentity has no attributes
+  (2x) Line 2606: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity simplyswords:skeleton_minion has no attributes
+  (2x) Line 2607: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity simplyswords:wolf_minion has no attributes
+  (2x) Line 2608: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity simplyswords:goat_stampede has no attributes
+  (2x) Line 2609: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity simplyswords:simplyaxolotlentity has no attributes
+  (2x) Line 2610: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity simplyswords:caelestis_riftling has no attributes
+  (2x) Line 2611: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity simplyswords:caelestis_hollow has no attributes
+  (2x) Line 2612: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity simplyswords:caelestis_dreadglare has no attributes
+  (2x) Line 2613: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity yagm:ghost has no attributes
+  (2x) Line 2614: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity northstar:venus_mimic has no attributes
+  (2x) Line 2615: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity northstar:venus_scorpion has no attributes
+  (2x) Line 2616: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity northstar:venus_stone_bull has no attributes
+  (2x) Line 2617: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity northstar:venus_vulture has no attributes
+  (2x) Line 2618: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity northstar:mars_worm has no attributes
+  (2x) Line 2619: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity northstar:mars_toad has no attributes
+  (2x) Line 2620: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity northstar:mars_cobra has no attributes
+  (2x) Line 2621: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity northstar:mars_moth has no attributes
+  (2x) Line 2622: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity northstar:moon_lunargrade has no attributes
+  (2x) Line 2623: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity northstar:moon_snail has no attributes
+  (2x) Line 2624: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity northstar:moon_eel has no attributes
+  (2x) Line 2625: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity northstar:frozen_zombie has no attributes
+  (2x) Line 2626: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity northstar:mercury_raptor has no attributes
+  (2x) Line 2627: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity northstar:mercury_roach has no attributes
+  (2x) Line 2628: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity northstar:mercury_tortoise has no attributes
+  (2x) Line 2629: [17Oct2026 13:17:21.297] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity create_confectionery:little_gingerbread_man has no attributes
+  (2x) Line 2630: [17Oct2026 13:17:21.298] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexscaves:teletor has no attributes
+  (2x) Line 2631: [17Oct2026 13:17:21.298] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexscaves:magnetron has no attributes
+  (2x) Line 2632: [17Oct2026 13:17:21.298] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexscaves:boundroid has no attributes
+  (2x) Line 2633: [17Oct2026 13:17:21.298] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexscaves:boundroid_winch has no attributes
+  (2x) Line 2634: [17Oct2026 13:17:21.298] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexscaves:ferrouslime has no attributes
+  (2x) Line 2635: [17Oct2026 13:17:21.298] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexscaves:notor has no attributes
+  (2x) Line 2636: [17Oct2026 13:17:21.298] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexscaves:subterranodon has no attributes
+  (2x) Line 2637: [17Oct2026 13:17:21.298] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexscaves:vallumraptor has no attributes
+  (2x) Line 2638: [17Oct2026 13:17:21.298] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexscaves:grottoceratops has no attributes
+  (2x) Line 2639: [17Oct2026 13:17:21.298] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexscaves:trilocaris has no attributes
+  (2x) Line 2640: [17Oct2026 13:17:21.298] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexscaves:tremorsaurus has no attributes
+  (2x) Line 2641: [17Oct2026 13:17:21.298] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexscaves:relicheirus has no attributes
+  (2x) Line 2642: [17Oct2026 13:17:21.298] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexscaves:luxtructosaurus has no attributes
+  (2x) Line 2643: [17Oct2026 13:17:21.298] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexscaves:atlatitan has no attributes
+  (2x) Line 2644: [17Oct2026 13:17:21.298] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexscaves:nucleeper has no attributes
+  (2x) Line 2645: [17Oct2026 13:17:21.298] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexscaves:radgill has no attributes
+  (2x) Line 2646: [17Oct2026 13:17:21.298] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexscaves:brainiac has no attributes
+  (2x) Line 2647: [17Oct2026 13:17:21.298] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexscaves:gammaroach has no attributes
+  (2x) Line 2648: [17Oct2026 13:17:21.298] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexscaves:raycat has no attributes
+  (2x) Line 2649: [17Oct2026 13:17:21.298] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexscaves:tremorzilla has no attributes
+  (2x) Line 2650: [17Oct2026 13:17:21.298] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexscaves:lanternfish has no attributes
+  (2x) Line 2651: [17Oct2026 13:17:21.298] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexscaves:sea_pig has no attributes
+  (2x) Line 2652: [17Oct2026 13:17:21.298] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexscaves:hullbreaker has no attributes
+  (2x) Line 2653: [17Oct2026 13:17:21.298] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexscaves:gossamer_worm has no attributes
+  (2x) Line 2654: [17Oct2026 13:17:21.298] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexscaves:tripodfish has no attributes
+  (2x) Line 2655: [17Oct2026 13:17:21.298] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexscaves:deep_one has no attributes
+  (2x) Line 2656: [17Oct2026 13:17:21.298] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexscaves:deep_one_knight has no attributes
+  (2x) Line 2657: [17Oct2026 13:17:21.298] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexscaves:deep_one_mage has no attributes
+  (2x) Line 2658: [17Oct2026 13:17:21.298] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexscaves:mine_guardian has no attributes
+  (2x) Line 2659: [17Oct2026 13:17:21.298] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexscaves:gloomoth has no attributes
+  (2x) Line 2660: [17Oct2026 13:17:21.298] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexscaves:underzealot has no attributes
+  (2x) Line 2661: [17Oct2026 13:17:21.298] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexscaves:watcher has no attributes
+  (2x) Line 2662: [17Oct2026 13:17:21.298] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexscaves:corrodent has no attributes
+  (2x) Line 2663: [17Oct2026 13:17:21.298] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexscaves:vesper has no attributes
+  (2x) Line 2664: [17Oct2026 13:17:21.298] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexscaves:forsaken has no attributes
+  (2x) Line 2665: [17Oct2026 13:17:21.298] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexscaves:sweetish_fish has no attributes
+  (2x) Line 2666: [17Oct2026 13:17:21.298] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexscaves:caniac has no attributes
+  (2x) Line 2667: [17Oct2026 13:17:21.298] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexscaves:gumbeeper has no attributes
+  (2x) Line 2668: [17Oct2026 13:17:21.298] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexscaves:candicorn has no attributes
+  (2x) Line 2669: [17Oct2026 13:17:21.298] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexscaves:gum_worm has no attributes
+  (2x) Line 2670: [17Oct2026 13:17:21.298] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexscaves:caramel_cube has no attributes
+  (2x) Line 2671: [17Oct2026 13:17:21.298] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexscaves:gummy_bear has no attributes
+  (2x) Line 2672: [17Oct2026 13:17:21.298] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexscaves:licowitch has no attributes
+  (2x) Line 2673: [17Oct2026 13:17:21.298] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity alexscaves:gingerbread_man has no attributes
+  (2x) Line 2674: [17Oct2026 13:17:21.298] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity rottencreatures:burned has no attributes
+  (2x) Line 2675: [17Oct2026 13:17:21.298] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity rottencreatures:frostbitten has no attributes
+  (2x) Line 2676: [17Oct2026 13:17:21.298] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity rottencreatures:swampy has no attributes
+  (2x) Line 2677: [17Oct2026 13:17:21.298] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity rottencreatures:undead_miner has no attributes
+  (2x) Line 2678: [17Oct2026 13:17:21.298] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity rottencreatures:mummy has no attributes
+  (2x) Line 2679: [17Oct2026 13:17:21.298] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity rottencreatures:glacial_hunter has no attributes
+  (2x) Line 2680: [17Oct2026 13:17:21.298] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity rottencreatures:hunter_wolf has no attributes
+  (2x) Line 2681: [17Oct2026 13:17:21.298] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity rottencreatures:scarab has no attributes
+  (2x) Line 2682: [17Oct2026 13:17:21.298] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity rottencreatures:dead_beard has no attributes
+  (2x) Line 2683: [17Oct2026 13:17:21.298] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity rottencreatures:zombie_lackey has no attributes
+  (2x) Line 2684: [17Oct2026 13:17:21.298] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity rottencreatures:skeleton_lackey has no attributes
+  (2x) Line 2685: [17Oct2026 13:17:21.298] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity rottencreatures:immortal has no attributes
+  (2x) Line 2686: [17Oct2026 13:17:21.298] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity rottencreatures:zap has no attributes
+  (2x) Line 2687: [17Oct2026 13:17:21.298] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity create_sa:brass_drone has no attributes
+  (2x) Line 2688: [17Oct2026 13:17:21.298] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity create_sa:lifted_block has no attributes
+  (1x) Line 3873: [17Oct2026 13:18:32.068] [Worker-ResourceReload-0/ERROR] [net.minecraft.Util/]: Invalid path in pack: neoforge:lang/README.txt, ignoring
+  (1x) Line 3874: [17Oct2026 13:18:32.071] [Worker-ResourceReload-0/ERROR] [net.minecraft.Util/]: Invalid path in pack: createdieselgenerators:lang/de_DE.json, ignoring
+  (1x) Line 3875: [17Oct2026 13:18:32.243] [Worker-ResourceReload-0/ERROR] [net.minecraft.Util/]: Invalid path in pack: essential:fonts/Minecraft-Ten.png, ignoring
+  (1x) Line 3876: [17Oct2026 13:18:32.250] [Worker-ResourceReload-0/ERROR] [net.minecraft.Util/]: Invalid path in pack: essential:fonts/Minecraft-Ten.json, ignoring
+  (1x) Line 3877: [17Oct2026 13:18:32.250] [Worker-ResourceReload-0/ERROR] [net.minecraft.Util/]: Invalid path in pack: essential:fonts/Minecraft-Five.png, ignoring
+  (1x) Line 3878: [17Oct2026 13:18:32.250] [Worker-ResourceReload-0/ERROR] [net.minecraft.Util/]: Invalid path in pack: essential:fonts/Minecraft-Five.json, ignoring
+  (1x) Line 3879: [17Oct2026 13:18:32.250] [Worker-ResourceReload-0/ERROR] [net.minecraft.Util/]: Invalid path in pack: essential:certs/sslcom/Sectigo-AAA-Root.der, ignoring
+  (1x) Line 3880: [17Oct2026 13:18:32.250] [Worker-ResourceReload-0/ERROR] [net.minecraft.Util/]: Invalid path in pack: essential:certs/sslcom/SSLcomRootCertificationAuthorityRSA.der, ignoring
+  (1x) Line 3881: [17Oct2026 13:18:32.250] [Worker-ResourceReload-0/ERROR] [net.minecraft.Util/]: Invalid path in pack: essential:certs/sslcom/SSLcomRootCertificationAuthorityECC.der, ignoring
+  (1x) Line 3882: [17Oct2026 13:18:32.250] [Worker-ResourceReload-0/ERROR] [net.minecraft.Util/]: Invalid path in pack: essential:certs/sslcom/SSLcomEVRootCertificationAuthorityECC.der, ignoring
+  (1x) Line 3883: [17Oct2026 13:18:32.250] [Worker-ResourceReload-0/ERROR] [net.minecraft.Util/]: Invalid path in pack: essential:certs/sslcom/SSLcom-TLS-Root-2022-RSA.der, ignoring
+  (1x) Line 3884: [17Oct2026 13:18:32.250] [Worker-ResourceReload-0/ERROR] [net.minecraft.Util/]: Invalid path in pack: essential:certs/sslcom/SSLcom-TLS-Root-2022-ECC.der, ignoring
+  (1x) Line 3885: [17Oct2026 13:18:32.250] [Worker-ResourceReload-0/ERROR] [net.minecraft.Util/]: Invalid path in pack: essential:certs/sslcom/SSLcom-RootCA-RSA-4096-R2.der, ignoring
+  (1x) Line 3886: [17Oct2026 13:18:32.250] [Worker-ResourceReload-0/ERROR] [net.minecraft.Util/]: Invalid path in pack: essential:certs/sslcom/SSLcom-RootCA-EV-RSA-4096-R3.der, ignoring
+  (1x) Line 3887: [17Oct2026 13:18:32.250] [Worker-ResourceReload-0/ERROR] [net.minecraft.Util/]: Invalid path in pack: essential:certs/sslcom/SSLcom-RootCA-EV-RSA-4096-R2.der, ignoring
+  (1x) Line 3888: [17Oct2026 13:18:32.250] [Worker-ResourceReload-0/ERROR] [net.minecraft.Util/]: Invalid path in pack: essential:certs/sslcom/SSLcom-RootCA-EV-ECC-384-R2.der, ignoring
+  (1x) Line 3889: [17Oct2026 13:18:32.250] [Worker-ResourceReload-0/ERROR] [net.minecraft.Util/]: Invalid path in pack: essential:certs/sslcom/SSLcom-RootCA-ECC-384-R2.der, ignoring
+  (1x) Line 3896: [17Oct2026 13:18:32.992] [Worker-ResourceReload-0/ERROR] [net.minecraft.Util/]: Invalid path in pack: minecolonies:LICENSE, ignoring
+  (1x) Line 3897: [17Oct2026 13:18:33.219] [Worker-ResourceReload-0/ERROR] [net.minecraft.Util/]: Invalid path in pack: moreculling:MoreCulling.png, ignoring
+  (1x) Line 3898: [17Oct2026 13:18:33.244] [Worker-ResourceReload-0/ERROR] [net.minecraft.Util/]: Invalid path in pack: brandonscore:lang/ru_RU.lang, ignoring
+  (1x) Line 3899: [17Oct2026 13:18:33.244] [Worker-ResourceReload-0/ERROR] [net.minecraft.Util/]: Invalid path in pack: brandonscore:lang/ko_KR.lang, ignoring
+  (1x) Line 3900: [17Oct2026 13:18:33.244] [Worker-ResourceReload-0/ERROR] [net.minecraft.Util/]: Invalid path in pack: brandonscore:lang/tr_TR.lang, ignoring
+  (1x) Line 3901: [17Oct2026 13:18:33.247] [Worker-ResourceReload-0/ERROR] [net.minecraft.Util/]: Invalid path in pack: draconicevolution:lang/zh_TW.lang, ignoring
+  (1x) Line 3902: [17Oct2026 13:18:33.250] [Worker-ResourceReload-0/ERROR] [net.minecraft.Util/]: Invalid path in pack: draconicevolution:lang/fr_FR.lang, ignoring
+  (1x) Line 3903: [17Oct2026 13:18:33.251] [Worker-ResourceReload-0/ERROR] [net.minecraft.Util/]: Invalid path in pack: draconicevolution:lang/de_DE.lang, ignoring
+  (1x) Line 3904: [17Oct2026 13:18:33.251] [Worker-ResourceReload-0/ERROR] [net.minecraft.Util/]: Invalid path in pack: draconicevolution:lang/pt_BR.lang, ignoring
+  (1x) Line 3905: [17Oct2026 13:18:33.251] [Worker-ResourceReload-0/ERROR] [net.minecraft.Util/]: Invalid path in pack: draconicevolution:lang/ko_KR.lang, ignoring
+  (1x) Line 3906: [17Oct2026 13:18:33.251] [Worker-ResourceReload-0/ERROR] [net.minecraft.Util/]: Invalid path in pack: draconicevolution:lang/ru_RU.lang, ignoring
+  (1x) Line 3907: [17Oct2026 13:18:33.251] [Worker-ResourceReload-0/ERROR] [net.minecraft.Util/]: Invalid path in pack: draconicevolution:lang/zh_CN.lang, ignoring
+  (1x) Line 3908: [17Oct2026 13:18:33.251] [Worker-ResourceReload-0/ERROR] [net.minecraft.Util/]: Invalid path in pack: draconicevolution:lang/en_UD.lang, ignoring
+  (1x) Line 3909: [17Oct2026 13:18:33.310] [Worker-ResourceReload-0/ERROR] [net.minecraft.Util/]: Invalid path in pack: mekanism:lang/ry_UA.json, ignoring
+  (1x) Line 3956: [17Oct2026 13:18:33.519] [Worker-ResourceReload-0/ERROR] [net.minecraft.Util/]: Invalid path in pack: alexsmobs:book/animal_dictionary/pl_pl/devil's_hole_pupfish.txt, ignoring
+  (1x) Line 3957: [17Oct2026 13:18:33.615] [Worker-ResourceReload-0/ERROR] [net.minecraft.Util/]: Invalid path in pack: deeperdarker:lang/uk_UA, ignoring
+  (1x) Line 3958: [17Oct2026 13:18:33.615] [Worker-ResourceReload-0/ERROR] [net.minecraft.Util/]: Invalid path in pack: deeperdarker:lang/sl_SI, ignoring
+  (1x) Line 3959: [17Oct2026 13:18:33.615] [Worker-ResourceReload-0/ERROR] [net.minecraft.Util/]: Invalid path in pack: deeperdarker:lang/ro_RO, ignoring
+  (1x) Line 3960: [17Oct2026 13:18:33.615] [Worker-ResourceReload-0/ERROR] [net.minecraft.Util/]: Invalid path in pack: deeperdarker:lang/la_LA, ignoring
+  (1x) Line 3961: [17Oct2026 13:18:33.615] [Worker-ResourceReload-0/ERROR] [net.minecraft.Util/]: Invalid path in pack: deeperdarker:lang/ko_KR, ignoring
+  (1x) Line 3962: [17Oct2026 13:18:33.634] [Worker-ResourceReload-0/ERROR] [net.minecraft.Util/]: Invalid path in pack: simplyswords:SimplySwords_logo.png, ignoring
+  (1x) Line 3963: [17Oct2026 13:18:33.638] [Worker-ResourceReload-0/ERROR] [net.minecraft.Util/]: Invalid path in pack: oracle_index:books/simplymore/unique_weapons/=.mdx, ignoring
+  (1x) Line 3965: [17Oct2026 13:18:33.788] [Worker-ResourceReload-0/ERROR] [net.minecraft.Util/]: Invalid path in pack: create:lang/README.md, ignoring
+  (1x) Line 4022: [17Oct2026 13:18:34.532] [Worker-ResourceReload-0/ERROR] [net.minecraft.Util/]: Invalid path in pack: jade:lang/README.txt, ignoring
+
+[net.minecraft.server.packs.AbstractPackResources] - Total Errors: 11
+  (4x) Line 3464: [17Oct2026 13:17:52.817] [Render thread/ERROR] [net.minecraft.server.packs.AbstractPackResources/]: Couldn't load filter metadata
+  (2x) Line 3968: [17Oct2026 13:18:34.050] [Worker-ResourceReload-2/ERROR] [net.minecraft.server.packs.AbstractPackResources/]: Couldn't load language metadata
+  (1x) Line 3322: [17Oct2026 13:17:31.391] [Render thread/ERROR] [net.minecraft.server.packs.AbstractPackResources/]: Couldn't load pack metadata
+  (1x) Line 3348: [17Oct2026 13:17:31.391] [Render thread/ERROR] [net.minecraft.server.packs.AbstractPackResources/]: Couldn't load features metadata
+  (1x) Line 3374: [17Oct2026 13:17:31.391] [Render thread/ERROR] [net.minecraft.server.packs.AbstractPackResources/]: Couldn't load overlays metadata
+  (1x) Line 3400: [17Oct2026 13:17:31.391] [Render thread/ERROR] [net.minecraft.server.packs.AbstractPackResources/]: Couldn't load neoforge:overlays metadata
+  (1x) Line 6098: [17Oct2026 13:21:16.555] [Render thread/ERROR] [net.minecraft.server.packs.AbstractPackResources/]: Couldn't load sodium metadata
+
+[net.neoforged.fml.loading.moddiscovery.ModFile/LOADING] - Total Errors: 1
+  (1x) Line 1095: [17Oct2026 13:14:46.407] [main/ERROR] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Access transformer file META-INF/accesstransformer.cfg provided by mod pride does not exist!
+
+Total Errors Found: 1425
+
+================================================================================
+TOP WARNING SUMMARY (by Mod / Category)
+================================================================================
+
+[mixin] - Total Warnings: 269
+  (4x) Line 1477: [17Oct2026 13:15:36.868] [main/WARN] [mixin/]: Error loading class: it/hurts/octostudios/octolib/modules/particles/OctoRenderManager (java.lang.ClassNotFoundException: it.hurts.octostudios.octolib.modules.particles.OctoRenderManager)
+  (4x) Line 1492: [17Oct2026 13:15:37.883] [main/WARN] [mixin/]: Error loading class: net/caffeinemc/sodium/client/render/chunk/compile/pipeline/BlockRenderer (java.lang.ClassNotFoundException: net.caffeinemc.sodium.client.render.chunk.compile.pipeline.BlockRenderer)
+  (4x) Line 1494: [17Oct2026 13:15:37.885] [main/WARN] [mixin/]: Error loading class: me/jellysquid/mods/sodium/client/render/chunk/compile/pipeline/BlockRenderer (java.lang.ClassNotFoundException: me.jellysquid.mods.sodium.client.render.chunk.compile.pipeline.BlockRenderer)
+  (4x) Line 1506: [17Oct2026 13:15:39.429] [main/WARN] [mixin/]: Error loading class: me/jellysquid/mods/sodium/client/gui/SodiumGameOptionPages (java.lang.ClassNotFoundException: me.jellysquid.mods.sodium.client.gui.SodiumGameOptionPages)
+  (4x) Line 1507: [17Oct2026 13:15:39.433] [main/WARN] [mixin/]: Error loading class: net/caffeinemc/sodium/config/user/UserConfigCategories (java.lang.ClassNotFoundException: net.caffeinemc.sodium.config.user.UserConfigCategories)
+  (4x) Line 1543: [17Oct2026 13:15:41.385] [main/WARN] [mixin/]: Error loading class: com/mrh0/createaddition/blocks/liquid_blaze_burner/LiquidBlazeBurnerBlock (java.lang.ClassNotFoundException: com.mrh0.createaddition.blocks.liquid_blaze_burner.LiquidBlazeBurnerBlock)
+  (1x) Line 1103: [17Oct2026 13:15:28.189] [main/WARN] [mixin/]: Reference map 'betterdungeons.refmap.json' for betterdungeons.mixins.json could not be read. If this is a development environment you can ignore this message
+  (1x) Line 1104: [17Oct2026 13:15:28.192] [main/WARN] [mixin/]: Reference map 'kubejs_curios.refmap.json' for kubejs_curios.mixins.json could not be read. If this is a development environment you can ignore this message
+  (1x) Line 1106: [17Oct2026 13:15:28.517] [main/WARN] [mixin/]: Reference map 'apothiccombat.refmap.json' for apothiccombat.mixins.json could not be read. If this is a development environment you can ignore this message
+  (1x) Line 1128: [17Oct2026 13:15:29.297] [main/WARN] [mixin/]: Reference map '' for krypton_fnp.mixins.json could not be read. If this is a development environment you can ignore this message
+
+[GeckoLib] - Total Warnings: 146
+  (2x) Line 3571: [17Oct2026 13:18:04.747] [Worker-ResourceReload-4/WARN] [GeckoLib/]: Unsupported geometry json version: 1.21.0 for model northstar:geo/entity/moon_lunar_hydra.geo.json. Supported versions: 1.12.0. Remove any rotated face UVs and re-export the model to fix
+  (2x) Line 3572: [17Oct2026 13:18:04.747] [Worker-ResourceReload-4/WARN] [GeckoLib/]: Unsupported geometry json version: 1.21.0 for model northstar:geo/entity/moon_snail.geo.json. Supported versions: 1.12.0. Remove any rotated face UVs and re-export the model to fix
+  (2x) Line 3573: [17Oct2026 13:18:04.880] [Worker-ResourceReload-4/WARN] [GeckoLib/]: Unsupported geometry json version for model block_factorys_bosses:geo/item/undying_tentacle.geo.json. Supported versions: 1.12.0
+  (2x) Line 3574: [17Oct2026 13:18:05.035] [Worker-ResourceReload-4/WARN] [GeckoLib/]: Unsupported geometry json version for model enigmatic_arcana:geo/weapons/catastrophe.geo.json. Supported versions: 1.12.0
+  (2x) Line 4099: [17Oct2026 13:18:37.531] [Worker-ResourceReload-4/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/agronomic_sourcelink_animation.json'
+  (2x) Line 4100: [17Oct2026 13:18:37.538] [Worker-ResourceReload-4/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/alchemical_sourcelink_animation.json'
+  (2x) Line 4101: [17Oct2026 13:18:37.538] [Worker-ResourceReload-4/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/alteration_apparatus_animations.json'
+  (2x) Line 4102: [17Oct2026 13:18:37.538] [Worker-ResourceReload-4/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/amethyst_golem_animations.json'
+  (2x) Line 4103: [17Oct2026 13:18:37.544] [Worker-ResourceReload-4/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/animated_block_animations.json'
+  (2x) Line 4104: [17Oct2026 13:18:37.565] [Worker-ResourceReload-4/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/arcane_core_animations.json'
+
+[com.github.alexmodguy.alexscaves.AlexsCaves] - Total Warnings: 145
+  (1x) Line 5250: [17Oct2026 13:20:22.199] [Render thread/WARN] [com.github.alexmodguy.alexscaves.AlexsCaves/]: Could not apply radiation glow layer to block_factorys_bosses:yeti, has custom renderer that is not LivingEntityRenderer.
+  (1x) Line 5251: [17Oct2026 13:20:22.199] [Render thread/WARN] [com.github.alexmodguy.alexscaves.AlexsCaves/]: Could not apply radiation glow layer to block_factorys_bosses:infernal_dragon, has custom renderer that is not LivingEntityRenderer.
+  (1x) Line 5252: [17Oct2026 13:20:22.199] [Render thread/WARN] [com.github.alexmodguy.alexscaves.AlexsCaves/]: Could not apply radiation glow layer to block_factorys_bosses:underworld_knight, has custom renderer that is not LivingEntityRenderer.
+  (1x) Line 5253: [17Oct2026 13:20:22.199] [Render thread/WARN] [com.github.alexmodguy.alexscaves.AlexsCaves/]: Could not apply radiation glow layer to block_factorys_bosses:dragon_guard_sword, has custom renderer that is not LivingEntityRenderer.
+  (1x) Line 5254: [17Oct2026 13:20:22.199] [Render thread/WARN] [com.github.alexmodguy.alexscaves.AlexsCaves/]: Could not apply radiation glow layer to block_factorys_bosses:flaming_skeleton_guard_sword, has custom renderer that is not LivingEntityRenderer.
+  (1x) Line 5255: [17Oct2026 13:20:22.199] [Render thread/WARN] [com.github.alexmodguy.alexscaves.AlexsCaves/]: Could not apply radiation glow layer to block_factorys_bosses:flaming_skeleton_guard_fireball, has custom renderer that is not LivingEntityRenderer.
+  (1x) Line 5256: [17Oct2026 13:20:22.199] [Render thread/WARN] [com.github.alexmodguy.alexscaves.AlexsCaves/]: Could not apply radiation glow layer to block_factorys_bosses:sandworm, has custom renderer that is not LivingEntityRenderer.
+  (1x) Line 5257: [17Oct2026 13:20:22.199] [Render thread/WARN] [com.github.alexmodguy.alexscaves.AlexsCaves/]: Could not apply radiation glow layer to block_factorys_bosses:kraken, has custom renderer that is not LivingEntityRenderer.
+  (1x) Line 5258: [17Oct2026 13:20:22.199] [Render thread/WARN] [com.github.alexmodguy.alexscaves.AlexsCaves/]: Could not apply radiation glow layer to block_factorys_bosses:cinematic_kraken, has custom renderer that is not LivingEntityRenderer.
+  (1x) Line 5259: [17Oct2026 13:20:22.199] [Render thread/WARN] [com.github.alexmodguy.alexscaves.AlexsCaves/]: Could not apply radiation glow layer to block_factorys_bosses:kraken_tentacle, has custom renderer that is not LivingEntityRenderer.
+
+[net.minecraft.server.packs.FilePackResources] - Total Warnings: 34
+  (4x) Line 3612: [17Oct2026 13:18:07.923] [Render thread/WARN] [net.minecraft.server.packs.FilePackResources/]: Invalid path in datapack: minecraft:textures/item/keys/_These_are_for_the_Dungeons_and_Taverns_mod.txt, ignoring
+  (2x) Line 4730: [17Oct2026 13:18:59.172] [Worker-ResourceReload-3/WARN] [net.minecraft.server.packs.FilePackResources/]: Invalid path in datapack: essential:certs/sslcom/SSLcom-RootCA-ECC-384-R2.der, ignoring
+  (2x) Line 4731: [17Oct2026 13:18:59.172] [Worker-ResourceReload-3/WARN] [net.minecraft.server.packs.FilePackResources/]: Invalid path in datapack: essential:certs/sslcom/SSLcom-RootCA-EV-ECC-384-R2.der, ignoring
+  (2x) Line 4732: [17Oct2026 13:18:59.172] [Worker-ResourceReload-3/WARN] [net.minecraft.server.packs.FilePackResources/]: Invalid path in datapack: essential:certs/sslcom/SSLcom-RootCA-EV-RSA-4096-R2.der, ignoring
+  (2x) Line 4733: [17Oct2026 13:18:59.172] [Worker-ResourceReload-3/WARN] [net.minecraft.server.packs.FilePackResources/]: Invalid path in datapack: essential:certs/sslcom/SSLcom-RootCA-EV-RSA-4096-R3.der, ignoring
+  (2x) Line 4734: [17Oct2026 13:18:59.172] [Worker-ResourceReload-3/WARN] [net.minecraft.server.packs.FilePackResources/]: Invalid path in datapack: essential:certs/sslcom/SSLcom-RootCA-RSA-4096-R2.der, ignoring
+  (2x) Line 4735: [17Oct2026 13:18:59.172] [Worker-ResourceReload-3/WARN] [net.minecraft.server.packs.FilePackResources/]: Invalid path in datapack: essential:certs/sslcom/SSLcom-TLS-Root-2022-ECC.der, ignoring
+  (2x) Line 4736: [17Oct2026 13:18:59.172] [Worker-ResourceReload-3/WARN] [net.minecraft.server.packs.FilePackResources/]: Invalid path in datapack: essential:certs/sslcom/SSLcom-TLS-Root-2022-RSA.der, ignoring
+  (2x) Line 4737: [17Oct2026 13:18:59.172] [Worker-ResourceReload-3/WARN] [net.minecraft.server.packs.FilePackResources/]: Invalid path in datapack: essential:certs/sslcom/SSLcomEVRootCertificationAuthorityECC.der, ignoring
+  (2x) Line 4738: [17Oct2026 13:18:59.172] [Worker-ResourceReload-3/WARN] [net.minecraft.server.packs.FilePackResources/]: Invalid path in datapack: essential:certs/sslcom/SSLcomRootCertificationAuthorityECC.der, ignoring
+
+[net.minecraft.client.renderer.texture.SpriteContents] - Total Warnings: 28
+  (1x) Line 4510: [17Oct2026 13:18:40.224] [Worker-ResourceReload-5/WARN] [net.minecraft.client.renderer.texture.SpriteContents/]: Invalid frame index on sprite simplymore:item/uniques/glimmerstep/shimmer frame 49: 10
+  (1x) Line 4511: [17Oct2026 13:18:40.224] [Worker-ResourceReload-5/WARN] [net.minecraft.client.renderer.texture.SpriteContents/]: Invalid frame index on sprite simplymore:item/uniques/glimmerstep/shimmer frame 50: 11
+  (1x) Line 4512: [17Oct2026 13:18:40.224] [Worker-ResourceReload-5/WARN] [net.minecraft.client.renderer.texture.SpriteContents/]: Invalid frame index on sprite simplymore:item/uniques/glimmerstep/shimmer frame 51: 12
+  (1x) Line 4513: [17Oct2026 13:18:40.224] [Worker-ResourceReload-5/WARN] [net.minecraft.client.renderer.texture.SpriteContents/]: Invalid frame index on sprite simplymore:item/uniques/glimmerstep/shimmer frame 52: 13
+  (1x) Line 4514: [17Oct2026 13:18:40.224] [Worker-ResourceReload-5/WARN] [net.minecraft.client.renderer.texture.SpriteContents/]: Invalid frame index on sprite simplymore:item/uniques/glimmerstep/shimmer frame 53: 14
+  (1x) Line 4515: [17Oct2026 13:18:40.224] [Worker-ResourceReload-5/WARN] [net.minecraft.client.renderer.texture.SpriteContents/]: Invalid frame index on sprite simplymore:item/uniques/glimmerstep/shimmer frame 54: 15
+  (1x) Line 4516: [17Oct2026 13:18:40.224] [Worker-ResourceReload-5/WARN] [net.minecraft.client.renderer.texture.SpriteContents/]: Invalid frame index on sprite simplymore:item/uniques/glimmerstep/shimmer frame 55: 16
+  (1x) Line 4517: [17Oct2026 13:18:40.224] [Worker-ResourceReload-5/WARN] [net.minecraft.client.renderer.texture.SpriteContents/]: Invalid frame index on sprite simplymore:item/uniques/glimmerstep/shimmer frame 56: 17
+  (1x) Line 4518: [17Oct2026 13:18:40.224] [Worker-ResourceReload-5/WARN] [net.minecraft.client.renderer.texture.SpriteContents/]: Invalid frame index on sprite simplymore:item/uniques/glimmerstep/shimmer frame 57: 18
+  (1x) Line 4557: [17Oct2026 13:18:42.504] [Worker-ResourceReload-5/WARN] [net.minecraft.client.renderer.texture.SpriteContents/]: Unused frames in sprite reliquified_ars_nouveau:item/mana_ring: [5]
+
+[ModernFix] - Total Warnings: 27
+  (1x) Line 1108: [17Oct2026 13:15:29.040] [main/WARN] [ModernFix/]: Option 'mixin.feature.integrated_server_watchdog' overriden (by user configuration) to 'false'
+  (1x) Line 1109: [17Oct2026 13:15:29.042] [main/WARN] [ModernFix/]: Option 'mixin.perf.release_protochunks' overriden (by mods [c2me]) to 'false'
+  (1x) Line 1110: [17Oct2026 13:15:29.042] [main/WARN] [ModernFix/]: Option 'mixin.bugfix.skip_redundant_saves' overriden (by user configuration) to 'true'
+  (1x) Line 1111: [17Oct2026 13:15:29.042] [main/WARN] [ModernFix/]: Option 'mixin.bugfix.paper_chunk_patches' overriden (by mods [c2me]) to 'false'
+  (1x) Line 1112: [17Oct2026 13:15:29.042] [main/WARN] [ModernFix/]: Option 'mixin.perf.compact_mojang_registries' overriden (by user configuration) to 'false'
+  (1x) Line 1113: [17Oct2026 13:15:29.042] [main/WARN] [ModernFix/]: Option 'mixin.perf.smart_ingredient_sync' overriden (by mods [crafttweaker]) to 'false'
+  (1x) Line 1114: [17Oct2026 13:15:29.042] [main/WARN] [ModernFix/]: Option 'mixin.perf.faster_item_rendering' overriden (by user configuration) to 'true'
+  (1x) Line 1115: [17Oct2026 13:15:29.042] [main/WARN] [ModernFix/]: Option 'mixin.perf.dynamic_resources' overriden (by user configuration) to 'true'
+  (1x) Line 1116: [17Oct2026 13:15:29.042] [main/WARN] [ModernFix/]: Option 'mixin.perf.cache_strongholds' overriden (by mods [c2me]) to 'false'
+  (1x) Line 1117: [17Oct2026 13:15:29.042] [main/WARN] [ModernFix/]: Option 'mixin.perf.clear_mixin_classinfo' overriden (by user configuration) to 'true'
+
+[net.minecraft.client.sounds.SoundManager] - Total Warnings: 25
+  (1x) Line 3592: [17Oct2026 13:18:07.768] [Worker-ResourceReload-3/WARN] [net.minecraft.client.sounds.SoundManager/]: File minecraft:sounds/music/game/calm1.ogg does not exist, cannot add it to event minecraft:music.overworld.jungle_and_forest
+  (1x) Line 3593: [17Oct2026 13:18:07.768] [Worker-ResourceReload-3/WARN] [net.minecraft.client.sounds.SoundManager/]: File minecraft:sounds/music/game/calm2.ogg does not exist, cannot add it to event minecraft:music.overworld.jungle_and_forest
+  (1x) Line 3594: [17Oct2026 13:18:07.768] [Worker-ResourceReload-3/WARN] [net.minecraft.client.sounds.SoundManager/]: File minecraft:sounds/music/game/calm3.ogg does not exist, cannot add it to event minecraft:music.overworld.jungle_and_forest
+  (1x) Line 3595: [17Oct2026 13:18:07.768] [Worker-ResourceReload-3/WARN] [net.minecraft.client.sounds.SoundManager/]: File minecraft:sounds/music/game/hal1.ogg does not exist, cannot add it to event minecraft:music.overworld.jungle_and_forest
+  (1x) Line 3596: [17Oct2026 13:18:07.768] [Worker-ResourceReload-3/WARN] [net.minecraft.client.sounds.SoundManager/]: File minecraft:sounds/music/game/hal2.ogg does not exist, cannot add it to event minecraft:music.overworld.jungle_and_forest
+  (1x) Line 3597: [17Oct2026 13:18:07.768] [Worker-ResourceReload-3/WARN] [net.minecraft.client.sounds.SoundManager/]: File minecraft:sounds/music/game/hal3.ogg does not exist, cannot add it to event minecraft:music.overworld.jungle_and_forest
+  (1x) Line 3598: [17Oct2026 13:18:07.768] [Worker-ResourceReload-3/WARN] [net.minecraft.client.sounds.SoundManager/]: File minecraft:sounds/music/game/hal4.ogg does not exist, cannot add it to event minecraft:music.overworld.jungle_and_forest
+  (1x) Line 3599: [17Oct2026 13:18:07.768] [Worker-ResourceReload-3/WARN] [net.minecraft.client.sounds.SoundManager/]: File minecraft:sounds/music/game/nuance1.ogg does not exist, cannot add it to event minecraft:music.overworld.jungle_and_forest
+  (1x) Line 3600: [17Oct2026 13:18:07.768] [Worker-ResourceReload-3/WARN] [net.minecraft.client.sounds.SoundManager/]: File minecraft:sounds/music/game/nuance2.ogg does not exist, cannot add it to event minecraft:music.overworld.jungle_and_forest
+  (1x) Line 3601: [17Oct2026 13:18:07.768] [Worker-ResourceReload-3/WARN] [net.minecraft.client.sounds.SoundManager/]: File minecraft:sounds/music/game/piano1.ogg does not exist, cannot add it to event minecraft:music.overworld.jungle_and_forest
+
+[net.minecraft.client.renderer.ShaderInstance] - Total Warnings: 22
+  (2x) Line 5403: [17Oct2026 13:20:26.190] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader fdlib:noise could not find uniform named ColorModulator in the specified shader program.
+  (2x) Line 5408: [17Oct2026 13:20:27.393] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader apotheosis:gray could not find uniform named IViewRotMat in the specified shader program.
+  (2x) Line 5410: [17Oct2026 13:20:30.251] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader ars_nouveau:rainbow_entity could not find uniform named IViewRotMat in the specified shader program.
+  (2x) Line 5411: [17Oct2026 13:20:30.315] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader ars_nouveau:blamed_entity could not find uniform named IViewRotMat in the specified shader program.
+  (2x) Line 5412: [17Oct2026 13:20:30.572] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader relics:reveal_panel could not find uniform named ColorModulator in the specified shader program.
+  (2x) Line 5413: [17Oct2026 13:20:30.572] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader relics:reveal_panel could not find uniform named color in the specified shader program.
+  (1x) Line 5401: [17Oct2026 13:20:23.788] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+  (1x) Line 5402: [17Oct2026 13:20:26.190] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader fdlib:noise could not find sampler named Sampler0 in the specified shader program.
+  (1x) Line 5409: [17Oct2026 13:20:28.242] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader brandonscore:contributor/patreon_core could not find uniform named Transition in the specified shader program.
+  (1x) Line 6218: [17Oct2026 13:21:21.753] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_translucent could not find sampler named u_ShineMaskTex in the specified shader program.
+
+[net.unusual.block_factorys_bosses.client.particle.bedrock.appearance.FacingCameraMode] - Total Warnings: 21
+  (9x) Line 3551: [17Oct2026 13:18:04.274] [Worker-ResourceReload-2/WARN] [net.unusual.block_factorys_bosses.client.particle.bedrock.appearance.FacingCameraMode/]: Bedrock particle facing_camera_mode 'lookat_xyz' is not yet implemented, falling back to rotate_xyz
+  (4x) Line 3550: [17Oct2026 13:18:04.249] [Worker-ResourceReload-2/WARN] [net.unusual.block_factorys_bosses.client.particle.bedrock.appearance.FacingCameraMode/]: Bedrock particle facing_camera_mode 'direction_z' is not yet implemented, falling back to rotate_xyz
+  (4x) Line 3561: [17Oct2026 13:18:04.317] [Worker-ResourceReload-2/WARN] [net.unusual.block_factorys_bosses.client.particle.bedrock.appearance.FacingCameraMode/]: Bedrock particle facing_camera_mode 'emitter_transform_xz' is not yet implemented, falling back to rotate_xyz
+  (3x) Line 3557: [17Oct2026 13:18:04.303] [Worker-ResourceReload-2/WARN] [net.unusual.block_factorys_bosses.client.particle.bedrock.appearance.FacingCameraMode/]: Bedrock particle facing_camera_mode 'direction_y' is not yet implemented, falling back to rotate_xyz
+  (1x) Line 3556: [17Oct2026 13:18:04.301] [Worker-ResourceReload-2/WARN] [net.unusual.block_factorys_bosses.client.particle.bedrock.appearance.FacingCameraMode/]: Bedrock particle facing_camera_mode 'lookat_direction' is not yet implemented, falling back to rotate_xyz
+
+[net.minecraft.client.resources.model.ModelBakery] - Total Warnings: 20
+  (1x) Line 4676: [17Oct2026 13:18:48.458] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'irons_spellbooks:item/template_open_spell_book_model' referenced from: irons_spellbooks:item/template_open_spell_book_model: java.io.FileNotFoundException: irons_spellbooks:models/item/template_open_spell_book_model.json
+  (1x) Line 4684: [17Oct2026 13:18:48.539] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'cataclysm_spellbooks:item/affinity_ring_sand' referenced from: cataclysm_spellbooks:item/affinity_ring_sand: java.io.FileNotFoundException: cataclysm_spellbooks:models/item/affinity_ring_sand.json
+  (1x) Line 4692: [17Oct2026 13:18:48.994] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'cataclysm_spellbooks:item/affinity_ring_technomancy' referenced from: cataclysm_spellbooks:item/affinity_ring_technomancy: java.io.FileNotFoundException: cataclysm_spellbooks:models/item/affinity_ring_technomancy.json
+  (1x) Line 4694: [17Oct2026 13:18:49.668] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'ess_requiem:item/affinity_ring_blade' referenced from: ess_requiem:item/affinity_ring_blade: java.io.FileNotFoundException: ess_requiem:models/item/affinity_ring_blade.json
+  (1x) Line 4695: [17Oct2026 13:18:49.682] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'minecraft:block' referenced from: simulated:block/rope_connector/knot: java.io.FileNotFoundException: minecraft:models/block.json
+  (1x) Line 6024: [17Oct2026 13:20:35.427] [Render thread/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'unusualend:block/cracked_small_eggs' referenced from: unusualend:block/endermite_eggs: java.io.FileNotFoundException: unusualend:models/block/cracked_small_eggs.json
+  (1x) Line 6025: [17Oct2026 13:20:35.436] [Render thread/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'minecraft:side_healing_lantern' referenced from: unusualend:block/healing_lantern_side: java.io.FileNotFoundException: minecraft:models/side_healing_lantern.json
+  (1x) Line 6026: [17Oct2026 13:20:35.440] [Render thread/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'minecraft:pedestral' referenced from: unusualend:block/gloopslate_pedestral: java.io.FileNotFoundException: minecraft:models/pedestral.json
+  (1x) Line 6027: [17Oct2026 13:20:35.443] [Render thread/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'minecraft:pedestral_filled' referenced from: unusualend:block/prismatic_pearl_display: java.io.FileNotFoundException: minecraft:models/pedestral_filled.json
+  (1x) Line 6028: [17Oct2026 13:20:35.451] [Render thread/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'minecraft:chorus_cane' referenced from: unusualend:block/chorus_cane: java.io.FileNotFoundException: minecraft:models/chorus_cane.json
+
+[net.minecraft.client.renderer.texture.atlas.sources.SingleFile] - Total Warnings: 15
+  (1x) Line 3651: [17Oct2026 13:18:23.592] [Worker-ResourceReload-5/WARN] [net.minecraft.client.renderer.texture.atlas.sources.SingleFile/]: Missing sprite: reliquary:textures/entity/equipment/humanoid/mob_charm_belt.png
+  (1x) Line 3942: [17Oct2026 13:18:33.380] [Worker-ResourceReload-5/WARN] [net.minecraft.client.renderer.texture.atlas.sources.SingleFile/]: Missing sprite: terra_entity:textures/entity/animal/duck/duck_1.png
+  (1x) Line 3943: [17Oct2026 13:18:33.380] [Worker-ResourceReload-5/WARN] [net.minecraft.client.renderer.texture.atlas.sources.SingleFile/]: Missing sprite: terra_entity:textures/entity/animal/duck/duck_2.png
+  (1x) Line 3944: [17Oct2026 13:18:33.380] [Worker-ResourceReload-5/WARN] [net.minecraft.client.renderer.texture.atlas.sources.SingleFile/]: Missing sprite: untitledduckmod:textures/entity/duck.png
+  (1x) Line 3945: [17Oct2026 13:18:33.380] [Worker-ResourceReload-5/WARN] [net.minecraft.client.renderer.texture.atlas.sources.SingleFile/]: Missing sprite: untitledduckmod:textures/entity/duck_female.png
+  (1x) Line 3946: [17Oct2026 13:18:33.380] [Worker-ResourceReload-5/WARN] [net.minecraft.client.renderer.texture.atlas.sources.SingleFile/]: Missing sprite: untitledduckmod:textures/entity/duck_campbell.png
+  (1x) Line 3947: [17Oct2026 13:18:33.380] [Worker-ResourceReload-5/WARN] [net.minecraft.client.renderer.texture.atlas.sources.SingleFile/]: Missing sprite: untitledduckmod:textures/entity/duck_pekin.png
+  (1x) Line 3948: [17Oct2026 13:18:33.380] [Worker-ResourceReload-5/WARN] [net.minecraft.client.renderer.texture.atlas.sources.SingleFile/]: Missing sprite: untitledduckmod:textures/entity/goose.png
+  (1x) Line 3949: [17Oct2026 13:18:33.380] [Worker-ResourceReload-5/WARN] [net.minecraft.client.renderer.texture.atlas.sources.SingleFile/]: Missing sprite: untitledduckmod:textures/entity/canadian_goose.png
+  (1x) Line 3950: [17Oct2026 13:18:33.380] [Worker-ResourceReload-5/WARN] [net.minecraft.client.renderer.texture.atlas.sources.SingleFile/]: Missing sprite: untitledduckmod:textures/entity/greylag_goose.png
+
+[net.minecraft.client.sounds.SoundEngine] - Total Warnings: 13
+  (1x) Line 5216: [17Oct2026 13:19:58.126] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+  (1x) Line 5217: [17Oct2026 13:19:58.126] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+  (1x) Line 5218: [17Oct2026 13:19:58.126] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: supplementaries:entity.plunderer.cannon_use
+  (1x) Line 5219: [17Oct2026 13:19:58.126] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: cataclysm:ignisshieldbreak
+  (1x) Line 5220: [17Oct2026 13:19:58.126] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: cataclysm:lacerton_ambient
+  (1x) Line 5221: [17Oct2026 13:19:58.126] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: cataclysm:lacerton_hurt
+  (1x) Line 5222: [17Oct2026 13:19:58.126] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: cataclysm:lacerton_death
+  (1x) Line 5223: [17Oct2026 13:19:58.127] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: irons_spellbooks:entity.generic.swing_weird
+  (1x) Line 5224: [17Oct2026 13:19:58.127] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: irons_spellbooks:entity.dead_king.music.drum_loop
+  (1x) Line 5225: [17Oct2026 13:19:58.129] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.potent_sulfur.geyser_continuous_eruption_start
+
+[com.iafenvoy.jupiter.Jupiter] - Total Warnings: 8
+  (2x) Line 6053: [17Oct2026 13:20:39.081] [Render thread/WARN] [com.iafenvoy.jupiter.Jupiter/]: Cannot find suitable entry for key=swing_physics, type=com.electronwill.nightconfig.core.SimpleCommentedConfig in config=amendments:CLIENT
+  (1x) Line 6048: [17Oct2026 13:20:39.037] [Render thread/WARN] [com.iafenvoy.jupiter.Jupiter/]: Cannot find suitable entry for key=special_blocks, type=com.electronwill.nightconfig.core.SimpleCommentedConfig in config=supplementaries:COMMON
+  (1x) Line 6049: [17Oct2026 13:20:39.049] [Render thread/WARN] [com.iafenvoy.jupiter.Jupiter/]: Cannot find suitable entry for key=swing_physics, type=com.electronwill.nightconfig.core.SimpleCommentedConfig in config=supplementaries:CLIENT
+  (1x) Line 6050: [17Oct2026 13:20:39.064] [Render thread/WARN] [com.iafenvoy.jupiter.Jupiter/]: Cannot find suitable entry for key=inverse_potions, type=com.electronwill.nightconfig.core.SimpleCommentedConfig in config=amendments:COMMON
+  (1x) Line 6051: [17Oct2026 13:20:39.065] [Render thread/WARN] [com.iafenvoy.jupiter.Jupiter/]: Cannot find suitable entry for key=sub_level_renderer, type=dev.ryanhcode.sable.sublevel.render.SubLevelRenderer$SelectedRenderer$2 in config=sable:CLIENT
+  (1x) Line 6052: [17Oct2026 13:20:39.071] [Render thread/WARN] [com.iafenvoy.jupiter.Jupiter/]: Cannot find suitable entry for key=scarfOpacity, type=java.lang.Float in config=malum:CLIENT
+  (1x) Line 6055: [17Oct2026 13:20:39.082] [Render thread/WARN] [com.iafenvoy.jupiter.Jupiter/]: Notice: Jupiter cannot resolve 43 empty List<Enum> since technical issue in Java, it is recommended to add a value in default value list.
+
+[net.minecraft.client.renderer.EffectInstance] - Total Warnings: 6
+  (2x) Line 6060: [17Oct2026 13:21:14.053] [Render thread/WARN] [net.minecraft.client.renderer.EffectInstance/]: Shader fdlib:impact_frame could not find uniform named InSize in the specified shader program.
+  (2x) Line 6061: [17Oct2026 13:21:14.095] [Render thread/WARN] [net.minecraft.client.renderer.EffectInstance/]: Shader fdlib:chromatic_abberation could not find uniform named InSize in the specified shader program.
+  (2x) Line 6062: [17Oct2026 13:21:14.141] [Render thread/WARN] [net.minecraft.client.renderer.EffectInstance/]: Shader fdlib:shattered_screen could not find uniform named InSize in the specified shader program.
+
+[net.minecraft.server.packs.PathPackResources] - Total Warnings: 5
+  (5x) Line 3463: [17Oct2026 13:17:52.404] [Render thread/WARN] [net.minecraft.server.packs.PathPackResources/]: Non [a-z0-9_.-] character in namespace LICENSE in pack , ignoring
+
+[net.neoforged.fml.VersionChecker] - Total Warnings: 5
+  (5x) Line 4519: [17Oct2026 13:18:40.328] [NeoForge Version Check/WARN] [net.neoforged.fml.VersionChecker/]: Failed to process update information
+
+[net.minecraft.client.resources.model.ModelManager] - Total Warnings: 5
+  (1x) Line 4718: [17Oct2026 13:18:54.473] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model supplementaries:special_models/plants/root#standalone:
+  (1x) Line 4720: [17Oct2026 13:18:54.473] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model tfmg:block/fuse_block/fuse#standalone:
+  (1x) Line 4722: [17Oct2026 13:18:54.473] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model aces_spell_utils:item/scroll_ritual#standalone:
+  (1x) Line 4724: [17Oct2026 13:18:54.473] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model aces_spell_utils:item/affinity_ring_hydro#standalone:
+  (1x) Line 4726: [17Oct2026 13:18:54.473] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model aces_spell_utils:item/affinity_ring_ritual#standalone:
+
+[net.neoforged.jarjar.selection.JarSelector] - Total Warnings: 4
+  (1x) Line 424: [17Oct2026 13:14:45.531] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Nested Mod File  in Mod File: C:\Users\chris\AppData\Roaming\PrismLauncher\instances\PEAK-dev\minecraft\mods\CreateDragonsPlus-1.11.9.jar and Nested Mod File  in Mod File: C:\Users\chris\AppData\Roaming\PrismLauncher\instances\PEAK-dev\minecraft\mods\particle_core-0.3.3+1.21+neoforge.jar. Using Nested Mod File  in Mod File: C:\Users\chris\AppData\Roaming\PrismLauncher\instances\PEAK-dev\minecraft\mods\CreateDragonsPlus-1.11.9.jar
+  (1x) Line 425: [17Oct2026 13:14:45.538] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: cloth_config. Using Mod File: C:\Users\chris\AppData\Roaming\PrismLauncher\instances\PEAK-dev\minecraft\mods\cloth-config-15.0.140-neoforge.jar
+  (1x) Line 426: [17Oct2026 13:14:45.538] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: architectury. Using Mod File: C:\Users\chris\AppData\Roaming\PrismLauncher\instances\PEAK-dev\minecraft\mods\architectury-13.0.11-neoforge.jar
+  (1x) Line 427: [17Oct2026 13:14:45.539] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: yet_another_config_lib_v3. Using Mod File: C:\Users\chris\AppData\Roaming\PrismLauncher\instances\PEAK-dev\minecraft\mods\yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar
+
+[draconicevolution] - Total Warnings: 3
+  (1x) Line 1893: [17Oct2026 13:16:40.523] [modloading-worker-0/WARN] [draconicevolution/]: Reactor detonation initiated.
+  (1x) Line 1896: [17Oct2026 13:16:40.523] [modloading-worker-0/WARN] [draconicevolution/]: Calculating explosion ETA
+  (1x) Line 1898: [17Oct2026 13:16:40.523] [modloading-worker-0/WARN] [draconicevolution/]: **Explosion Imminent!!!**
+
+[net.minecraft.client.renderer.texture.SpriteLoader] - Total Warnings: 3
+  (1x) Line 4714: [17Oct2026 13:18:52.710] [Worker-ResourceReload-6/WARN] [net.minecraft.client.renderer.texture.SpriteLoader/]: Texture iceandfire:item/dragonsteel_lightning_sword with size 36x36 limits mip level from 3 to 2
+  (1x) Line 4715: [17Oct2026 13:18:52.712] [Worker-ResourceReload-6/WARN] [net.minecraft.client.renderer.texture.SpriteLoader/]: Texture fwaystones:item/end_stone_brick_waystone with size 90x90 limits mip level from 2 to 1
+  (1x) Line 4716: [17Oct2026 13:18:52.714] [Worker-ResourceReload-6/WARN] [net.minecraft.client.renderer.texture.SpriteLoader/]: Texture sophisticatedcore:item/ender_linker_bound with size 15x15 limits mip level from 1 to 0
+
+[dev.kosmx.playerAnim.minecraftApi.PlayerAnimationRegistry] - Total Warnings: 3
+  (3x) Line 6068: [17Oct2026 13:21:14.790] [Render thread/WARN] [dev.kosmx.playerAnim.minecraftApi.PlayerAnimationRegistry/]: [WARNING FOR MOD DEVS] Animation player_animation/casting_animations.json is in wrong directory: "player_animation", please place it in "player_animations".
+
+[CrashAssistantJarInJarHelper] - Total Warnings: 2
+  (1x) Line 9: [17Oct2026 13:14:33.740] [main/WARN] [CrashAssistantJarInJarHelper/]: Stream injection failed; legacy loggers may retain blocking behavior.
+  (1x) Line 6156: [17Oct2026 13:21:18.519] [pool-25-thread-5/WARN] [CrashAssistantJarInJarHelper/]: No descriptors found in drippyloadingscreen-earlywindow_neoforge_3.1.5_MC_1.21.1.jar
+
+[net.minecraft.server.packs.VanillaPackResourcesBuilder] - Total Warnings: 2
+  (1x) Line 1581: [17Oct2026 13:16:17.996] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/chris/AppData/Roaming/PrismLauncher/libraries/net/minecraft/client/1.21.1-20240808.144430/client-1.21.1-20240808.144430-srg.jar%23612!/assets/.mcassetsroot' uses unexpected schema
+  (1x) Line 1582: [17Oct2026 13:16:17.996] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/chris/AppData/Roaming/PrismLauncher/libraries/net/minecraft/client/1.21.1-20240808.144430/client-1.21.1-20240808.144430-srg.jar%23612!/data/.mcassetsroot' uses unexpected schema
+
+[net.neoforged.fml.config.ConfigTracker/CONFIG] - Total Warnings: 2
+  (1x) Line 3310: [17Oct2026 13:17:27.979] [modloading-sync-worker/WARN] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Configuration file C:\Users\chris\AppData\Roaming\PrismLauncher\instances\PEAK-dev\minecraft\config\multiplayerbosses-client.toml is not correct. Correcting
+  (1x) Line 3313: [17Oct2026 13:17:28.123] [modloading-sync-worker/WARN] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Configuration file C:\Users\chris\AppData\Roaming\PrismLauncher\instances\PEAK-dev\minecraft\config\malum-client.toml is not correct. Correcting
+
+[net.neoforged.neoforge.common.ModConfigSpec/CORE] - Total Warnings: 2
+  (1x) Line 3311: [17Oct2026 13:17:28.000] [modloading-sync-worker/WARN] [net.neoforged.neoforge.common.ModConfigSpec/CORE]: Configuration LoadedConfig[config=SynchronizedConfig{DataHolder:{Loot Bag Tints=[[minecraft:wither, 7561558, 13882367], [minecraft:ender_dragon, 2171169, 9830655], [cataclysm:ancient_remnant, 15789718, 16760084], [cataclysm:ignis, 5384240, 4766957], [cataclysm:maledictus, 10387251, 2220943], [cataclysm:ender_golem, 2363210, 7217407], [cataclysm:ender_guardian, 12905869, 1049638], [cataclysm:the_leviathan, 1050911, 6690047], [cataclysm:the_harbinger, 13617352, 12523030], [cataclysm:netherite_monstrosity, 3092275, 7995392], [bosses_of_mass_destruction:void_blossom, 2511372, 4653074], [bosses_of_mass_destruction:lich, 2700357, 6984916], [bosses_of_mass_destruction:obsidilith, 328201, 3089731]]}}, path=C:\Users\chris\AppData\Roaming\PrismLauncher\instances\PEAK-dev\minecraft\config\multiplayerbosses-client.toml, modConfig=net.neoforged.fml.config.ModConfig@2c188f38] is not correct. Correcting
+  (1x) Line 3312: [17Oct2026 13:17:28.005] [modloading-sync-worker/WARN] [net.neoforged.neoforge.common.ModConfigSpec/CORE]: Incorrect key Loot Bag Tints was corrected from [[minecraft:wither, 7561558, 13882367], [minecraft:ender_dragon, 2171169, 9830655], [cataclysm:ancient_remnant, 15789718, 16760084], [cataclysm:ignis, 5384240, 4766957], [cataclysm:maledictus, 10387251, 2220943], [cataclysm:ender_golem, 2363210, 7217407], [cataclysm:ender_guardian, 12905869, 1049638], [cataclysm:the_leviathan, 1050911, 6690047], [cataclysm:the_harbinger, 13617352, 12523030], [cataclysm:netherite_monstrosity, 3092275, 7995392], [bosses_of_mass_destruction:void_blossom, 2511372, 4653074], [bosses_of_mass_destruction:lich, 2700357, 6984916], [bosses_of_mass_destruction:obsidilith, 328201, 3089731]] to its default, [[minecraft:wither, 7561558, 13882367], [minecraft:ender_dragon, 2171169, 9830655], [cataclysm:ancient_remnant, 15789718, 16760084], [cataclysm:ignis, 5384240, 4766957], [cataclysm:maledictus, 10387251, 2220943], [cataclysm:ender_golem, 2363210, 7217407], [cataclysm:ender_guardian, 12905869, 1049638], [cataclysm:the_leviathan, 1050911, 6690047], [cataclysm:the_harbinger, 13617352, 12523030], [cataclysm:netherite_monstrosity, 3092275, 7995392], [bosses_of_mass_destruction:void_blossom, 2511372, 4653074], [bosses_of_mass_destruction:lich, 2700357, 6984916], [bosses_of_mass_destruction:obsidilith, 328201, 3089731]].
+
+[Veil] - Total Warnings: 2
+  (1x) Line 4909: [17Oct2026 13:19:46.052] [Render thread/WARN] [Veil/]: ERROR: 0:116: '*' : wrong operand types no operation '*' exists that takes a left-hand operand of type 'uniform highp uint' and a right operand of type 'InstanceId highp int' (or there is no acceptable conversion)
+  (1x) Line 4917: [17Oct2026 13:19:46.149] [Render thread/WARN] [Veil/]: ERROR: 0:24: 'readonly' : reserved word
+
+[de.keksuccino.drippyloadingscreen.earlywindow.window.texture.EarlyWindowTextureLoader] - Total Warnings: 1
+  (1x) Line 7: [17Oct2026 13:14:32.718] [Drippy-EarlyWindow/WARN] [de.keksuccino.drippyloadingscreen.earlywindow.window.texture.EarlyWindowTextureLoader/]: [DRIPPY LOADING SCREEN] Unable to locate bundled texture at assets/minecraft/textures/gui/title/mojangstudios.png
+
+[gg.essential.loader.stage2.EssentialLoaderBase] - Total Warnings: 1
+  (1x) Line 12: [17Oct2026 13:14:36.203] [main/WARN] [gg.essential.loader.stage2.EssentialLoaderBase/]: Found newer Essential version 1.5.1 [stable], skipping at user request
+
+[C2ME Modules Manager] - Total Warnings: 1
+  (1x) Line 1315: [17Oct2026 13:15:31.495] [main/WARN] [C2ME Modules Manager/]: Disabling com.ishland.c2me.opts.natives_math.mixin due to incompatible Java version, see debug logs for details
+
+[patchouli] - Total Warnings: 1
+  (1x) Line 1901: [17Oct2026 13:16:41.493] [modloading-worker-0/WARN] [patchouli/]: Could not locate JEI keybindings, lookups in books may not work
+
+[KubeJS] - Total Warnings: 1
+  (1x) Line 1963: [17Oct2026 13:16:49.431] [modloading-worker-0/WARN] [KubeJS/]: Plugin net.liopyu.entityjs.probe.EntityJSProbeJSPlugin does not have required mod 'probejs' loaded, skipping
+
+[dev.ryanhcode.sable.Sable] - Total Warnings: 1
+  (1x) Line 1986: [17Oct2026 13:16:50.276] [modloading-worker-0/WARN] [dev.ryanhcode.sable.Sable/]: NOTE: Sable is loaded with Flywheel. Sable contains extensive shader overrides and a full light-storage replacement. Expect this to cause compatibility issues. If issues arise, please report them to the Sable issue tracker (https://github.com/ryanhcode/sable/issues) instead of the Flywheel issue tracker.
+
+[AE2:C] - Total Warnings: 1
+  (1x) Line 1989: [17Oct2026 13:16:51.253] [modloading-worker-0/WARN] [AE2:C/]: Unable to find class com.simibubi.create.foundation.ponder.PonderWorld. Integration with PonderJS disabled.
+
+[Essential - Connection] - Total Warnings: 1
+  (1x) Line 3427: [17Oct2026 13:17:32.089] [Render thread/WARN] [Essential - Connection/]: Connection closed unexpectedly (CloseInfo(code=4500, reason=SERVER_KEEP_ALIVE_TIMEOUT, remote=false, knownReason=null)) after 1m 8.774160600s
+
+[fr.madu59.fwa.FancyWorldAnimations] - Total Warnings: 1
+  (1x) Line 4865: [17Oct2026 13:19:40.910] [Worker-ResourceReload-3/WARN] [fr.madu59.fwa.FancyWorldAnimations/]: Failed to disable MoreCulling's blockStateCulling, visual issues may appear!
+
+[structurize] - Total Warnings: 1
+  (1x) Line 4868: [17Oct2026 13:19:40.915] [Structurize IO Worker #0/WARN] [structurize/]: Finished discovering Client Structure packs
+
+[DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.Initializer] - Total Warnings: 1
+  (1x) Line 4884: [17Oct2026 13:19:42.468] [Worker-ResourceReload-3/WARN] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.Initializer/]: Java.awt.headless is false. This means Distant Horizons can't display error and info dialog windows.
+
+[AllTheLeaks] - Total Warnings: 1
+  (1x) Line 4953: [17Oct2026 13:19:53.435] [Render thread/WARN] [AllTheLeaks/]: Failed to get VarHandle for class class mezz.jei.library.plugins.vanilla.grindstone.GrindstoneRecipeMaker with field GRINDSTONE_MENU and type class net.minecraft.world.inventory.GrindstoneMenu
+
+[minecolonies] - Total Warnings: 1
+  (1x) Line 4989: [17Oct2026 13:19:53.520] [Worker-ResourceReload-4/WARN] [minecolonies/]: Register mappings
+
+[net.minecraft.client.particle.ParticleEngine] - Total Warnings: 1
+  (1x) Line 5396: [17Oct2026 13:20:22.828] [Render thread/WARN] [net.minecraft.client.particle.ParticleEngine/]: Missing particle sprites: ess_requiem:dark_slash_1,ess_requiem:dark_slash_2,ess_requiem:dark_slash_3,ess_requiem:dark_slash_4,atmospherics:deep_dark_fog,atmospherics:fog
+
+[team.lodestar.lodestone.LodestoneLib] - Total Warnings: 1
+  (1x) Line 5407: [17Oct2026 13:20:26.987] [Render thread/WARN] [team.lodestar.lodestone.LodestoneLib/]: Compute shaders are not supported on this system (OpenGL 3.2)

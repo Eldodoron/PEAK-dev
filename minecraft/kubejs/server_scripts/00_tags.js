@@ -133,5 +133,15 @@ ServerEvents.tags('entity_type', event => {
         'minecraft:wither',
         'minecraft:warden'
     ]);
+
+    // Remnant Bosses undead tag corrections
+    event.remove('minecraft:undead', [
+        'remnant_bosses:skeleton_minions',
+        'remnant_bosses:ossukage'
+    ]);
+    event.add('minecraft:undead', [
+        'remnant_bosses:skeleton_minion',
+        'remnant_bosses:remnant_ossukage'
+    ]);
 });
 

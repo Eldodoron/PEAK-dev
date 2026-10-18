@@ -45,7 +45,7 @@
   "hideShieldInFirstPerson": true,
   "swingArmOnFirstPersonClick": false,
   "screenAlpha": 255,
-  "screenDistance": 2.5,
+  "screenDistance": 2.8,
   "screenSideOffset": 0.0,
   "screenHeightOffset": 0.0,
   "screenYawOffset": 180.0,

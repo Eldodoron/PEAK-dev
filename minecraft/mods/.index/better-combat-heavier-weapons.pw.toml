@@ -1,27 +1,31 @@
-filename = 'heavier_weapons-1.21.1-NeoForge-1.1.0.jar'
+filename = 'heavier_weapons-1.21.1-NeoForge-1.2.0.jar'
 name = 'Heavier Weapons'
 side = 'server'
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'heavier_weapons-1.21.1-NeoForge-1.1.0.jar'
+x-prismlauncher-version-number = 'heavier_weapons-1.21.1-NeoForge-1.2.0.jar'
 
 [download]
-hash = '783f53689e29ee119ab8af348f0f6c41901821b7'
+hash = '35e6afdd3492096bd7101f0a11eaa4df74f87071'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 8307609
+file-id = 9165847
 project-id = 1487841
+
+[[x-prismlauncher-dependencies]]
+addonId = '348521'
+type = 'REQUIRED'
 
 [[x-prismlauncher-dependencies]]
 addonId = '639842'
 type = 'REQUIRED'
 
 [[x-prismlauncher-dependencies]]
-addonId = '1379562'
+addonId = '969424'
 type = 'OPTIONAL'
 
 [[x-prismlauncher-dependencies]]
@@ -29,5 +33,5 @@ addonId = '658587'
 type = 'REQUIRED'
 
 [[x-prismlauncher-dependencies]]
-addonId = '348521'
-type = 'REQUIRED'
+addonId = '1379562'
+type = 'OPTIONAL'

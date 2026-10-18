@@ -1,19 +1,19 @@
-filename = 'evolution-1.21.1-1.8.jar'
-name = 'Evolution of Entities'
+filename = 'evolution-1.21.1-1.9.jar'
+name = 'Evolution mod'
 side = 'server'
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'evolution-1.21.1-1.8.jar'
+x-prismlauncher-version-number = 'evolution-1.21.1-1.9.jar'
 
 [download]
-hash = '524bc41af34b26fc0addf24e17c86938f68c1031'
+hash = '991ffa478afc6f03af540b50fd5641da18e5ffca'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 7609491
+file-id = 8616457
 project-id = 1368368
 
 [[x-prismlauncher-dependencies]]

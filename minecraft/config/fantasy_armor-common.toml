@@ -1,14 +1,10 @@
 ["General Settings"]
-	#Show effect icon or not
-	showEffectIcon = false
-	#Enable durability on Fantasy Armor pieces. When false, armor is indestructible. Requires game restart.
-	enableDurability = true
+	#Show item descriptions
+	showDescriptions = false
 	#Apply armor effects
 	applyArmorEffects = true
 	#Apply attribute modifiers
 	applyModifiers = true
-	#Show item descriptions
-	showDescriptions = true
 	#Render custom capes attached to chestplates
 	showCapes = true
 	#Do not make capes static if Epic Fight is loaded. It is not implemented yet completely
@@ -19,3 +15,7 @@
 	# Default: 241
 	# Range: > 1
 	effectsInterval = 241
+	#Show effect icon or not
+	showEffectIcon = true
+	#Enable durability on Fantasy Armor pieces. When false, armor is indestructible. Requires game restart.
+	enableDurability = false

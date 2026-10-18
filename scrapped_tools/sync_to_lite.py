@@ -48,7 +48,18 @@ IGNORED_CONFIG_DIRS = {
 IGNORED_CONFIG_FILES = {
     "panoptic-common.toml",
     "smoothswapping.json",
-    "resourcepack_load_order.json"  # Handled separately by sync_paxi_load_order
+    "resourcepack_load_order.json",  # Handled separately by sync_paxi_load_order
+    "fm_data.db"
+}
+
+IGNORED_FANCYMENU_DATA_DIRS = {
+    "fancymenu_temp",
+    "seamless_world_loading",
+    "video_thumbnails"
+}
+
+IGNORED_FANCYMENU_DATA_FILES = {
+    "last_world.fmdata"
 }
 
 IGNORED_EXTENSIONS = {".bak", ".tmp", ".log"}
@@ -140,7 +151,7 @@ def sync_file_if_different(src, dst, dry_run=False):
             return "updated"
     return None
 
-def sync_directory(src_dir, dst_dir, exclude_set=None, filter_ext=None, is_config=False, dry_run=False):
+def sync_directory(src_dir, dst_dir, exclude_set=None, filter_ext=None, is_config=False, is_fancymenu_data=False, dry_run=False):
     """Recursively mirrors src_dir to dst_dir with strict fail-safes and pruning."""
     created = 0
     updated = 0
@@ -158,6 +169,8 @@ def sync_directory(src_dir, dst_dir, exclude_set=None, filter_ext=None, is_confi
         # Prune ignored directory trees
         if is_config:
             dirs[:] = [d for d in dirs if d.lower() not in IGNORED_CONFIG_DIRS]
+        if is_fancymenu_data:
+            dirs[:] = [d for d in dirs if d.lower() not in IGNORED_FANCYMENU_DATA_DIRS]
 
         rel_path = os.path.relpath(root, src_dir)
         target_root = os.path.join(dst_dir, rel_path)
@@ -168,6 +181,8 @@ def sync_directory(src_dir, dst_dir, exclude_set=None, filter_ext=None, is_confi
             if ext in IGNORED_EXTENSIONS:
                 continue
             if is_config and f_lower in IGNORED_CONFIG_FILES:
+                continue
+            if is_fancymenu_data and f_lower in IGNORED_FANCYMENU_DATA_FILES:
                 continue
             if exclude_set and f_lower in exclude_set:
                 continue
@@ -198,6 +213,8 @@ def sync_directory(src_dir, dst_dir, exclude_set=None, filter_ext=None, is_confi
             if ext in IGNORED_EXTENSIONS:
                 should_delete = True
             elif is_config and f_lower in IGNORED_CONFIG_FILES and f_lower != "resourcepack_load_order.json":
+                should_delete = True
+            elif is_fancymenu_data and f_lower in IGNORED_FANCYMENU_DATA_FILES:
                 should_delete = True
             elif exclude_set and f_lower in exclude_set:
                 should_delete = True
@@ -344,6 +361,7 @@ def run_sync(dry_run=False):
         "datapacks": {"created": 0, "updated": 0, "deleted": 0},
         "defaultconfigs": {"created": 0, "updated": 0, "deleted": 0},
         "blueprints": {"created": 0, "updated": 0, "deleted": 0},
+        "fancymenu_data": {"created": 0, "updated": 0, "deleted": 0},
         "root": {"created": 0, "updated": 0, "deleted": 0}
     }
 
@@ -392,12 +410,13 @@ def run_sync(dry_run=False):
     configure_lite_distant_horizons(dry_run=dry_run)
     print(f"   Config: +{c} added, ~{u} updated, -{d} removed")
 
-    # 4. Sync DataPacks, DefaultConfigs, Blueprints
-    for folder in ["datapacks", "defaultconfigs", "blueprints"]:
+    # 4. Sync DataPacks, DefaultConfigs, Blueprints, FancyMenu Data
+    for folder in ["datapacks", "defaultconfigs", "blueprints", "fancymenu_data"]:
         print(f"-> Synchronizing {folder}...")
         c, u, d = sync_directory(
             os.path.join(DEV_MC, folder),
             os.path.join(LITE_MC, folder),
+            is_fancymenu_data=(folder == "fancymenu_data"),
             dry_run=dry_run
         )
         summary[folder]["created"] += c

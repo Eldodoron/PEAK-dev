@@ -55,13 +55,6 @@
   "apothic_spawners": {
     "spawner": true
   },
-  "jade_access": {
-    "held_item": true,
-    "sign": true,
-    "block": true,
-    "entity": true,
-    "entity_variant": true
-  },
   "ftbquests": {
     "barrier": true
   },
@@ -69,14 +62,6 @@
     "extreme_smithing": true,
     "crafting_table": true,
     "compressor": true
-  },
-  "pneumaticcraft": {
-    "pneumatic": true,
-    "tube_module": true,
-    "entity": true,
-    "redstone": true,
-    "camo": true,
-    "semiblock": true
   },
   "immersiveengineering": {
     "multiblock_icon": true
@@ -92,11 +77,69 @@
     "block_properties": false,
     "mod_name": true
   },
-  "apotheosis": {
-    "adventure": true
-  },
   "allthemodium": {
     "teleport_pad": true
+  },
+  "ae2": {
+    "part_icon": true,
+    "charger": true,
+    "debug": true,
+    "part_tooltip": true,
+    "grid_node_state": true,
+    "pattern_provider": true,
+    "part_mod_name": true,
+    "power_storage": true,
+    "crafting_monitor": true,
+    "part_name": true
+  },
+  "enderio": {
+    "soul_bound": true
+  },
+  "mekanism": {
+    "chemical": true,
+    "remove_builtin": true,
+    "fluid": true,
+    "energy": true,
+    "tooltip_renderer": true
+  },
+  "quark": {
+    "oretoise_eating_cooldown": true
+  },
+  "reliquary": {
+    "pedestal": true,
+    "altar": true,
+    "mortar": true,
+    "cauldron": true
+  },
+  "waystones": {
+    "waystone": true
+  },
+  "dynamic_difficulty": {
+    "level": true
+  },
+  "jade_access": {
+    "held_item": true,
+    "sign": true,
+    "block": true,
+    "entity": true,
+    "entity_variant": true
+  },
+  "apokinetics": {
+    "apokinetic_table": true,
+    "kinetic_pylon": true,
+    "kinetic_pylon_player": true,
+    "machine_sockets": true
+  },
+  "pneumaticcraft": {
+    "pneumatic": true,
+    "tube_module": true,
+    "entity": true,
+    "redstone": true,
+    "camo": true,
+    "semiblock": true
+  },
+  "apotheosis": {
+    "adventure": true
   },
   "evolution": {
     "jade": true
@@ -113,52 +156,15 @@
   "balm": {
     "jade": true
   },
-  "ae2": {
-    "part_icon": true,
-    "charger": true,
-    "debug": true,
-    "part_tooltip": true,
-    "grid_node_state": true,
-    "pattern_provider": true,
-    "part_mod_name": true,
-    "power_storage": true,
-    "crafting_monitor": true,
-    "part_name": true
-  },
   "ars_nouveau": {
     "mob_jar": true
-  },
-  "enderio": {
-    "soul_bound": true
-  },
-  "mekanism": {
-    "chemical": true,
-    "remove_builtin": true,
-    "fluid": true,
-    "energy": true,
-    "tooltip_renderer": true
-  },
-  "quark": {
-    "oretoise_eating_cooldown": true
   },
   "twilightforest": {
     "drying_rack": true,
     "chiseled_bookshelf_spawner": true,
     "quest_ram_wool": true
   },
-  "reliquary": {
-    "pedestal": true,
-    "altar": true,
-    "mortar": true,
-    "cauldron": true
-  },
   "supplementaries": {
     "hat_stand": true
-  },
-  "waystones": {
-    "waystone": true
-  },
-  "dynamic_difficulty": {
-    "level": true
   }
 }

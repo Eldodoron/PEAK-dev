@@ -1,0 +1,33 @@
+filename = 'emf_compat_iron_spells_neoforge_1.21.1_2.1.0.jar'
+name = "EMF Compat: Iron's Spells 'n Spellbooks"
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'emf_compat_iron_spells_neoforge_1.21.1_2.1.0.jar'
+
+[download]
+hash = '3c809569e5082cda819065a6747ab0ca49c5ed53'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 9103488
+project-id = 1629298
+
+[[x-prismlauncher-dependencies]]
+addonId = '844662'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '568563'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '855414'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1605113'
+type = 'REQUIRED'

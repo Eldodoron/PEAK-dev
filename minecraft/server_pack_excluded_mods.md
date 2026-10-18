@@ -7,8 +7,8 @@ This document lists all mod JAR files present in `minecraft/mods/` that must **N
 ## Executive Summary
 
 - **Total Mod Files Audited in `minecraft/mods/`:** 447
-- **Total Files Excluded from Server Pack:** 79
-  - **Active Client-Only & Dev Mods:** 65
+- **Total Files Excluded from Server Pack:** 86
+  - **Active Client-Only & Dev Mods:** 72
   - **Disabled Client-Only Mods (`.jar.disabled`):** 12
   - **Duplicate / Backup Artifacts (`.jar.backup`, `.jar.modified`):** 2
 - **Total Server / Common Mods Retained:** 368
@@ -49,7 +49,7 @@ Shaders and upscaling technologies hook into client framebuffers and shaders.
 
 ---
 
-### 3. Client Visuals, Textures, Particles & Animations (23 Mods)
+### 3. Client Visuals, Textures, Particles & Animations (25 Mods)
 
 Visual enhancements that manipulate particles, models, animations, beam renderers, and skyboxes on the client.
 
@@ -61,10 +61,11 @@ Visual enhancements that manipulate particles, models, animations, beam renderer
 | `cirrus-neoforge-1.21.1-1.2.1.jar.disabled` | Cirrus (`cirrus`) | Disabled | Volumetric cloud generation and sky rendering engine. Manifest `side = CLIENT`. |
 | `cloudlayers-1.21.1-1.1.jar` | Cloud Layers (`cloudlayers`) | Active | Multi-tier altitude cloud rendering in the skybox. Client visual only. |
 | `cosycritters-0.3.2+1.21.1-neoforge.jar` | Cosy Critters (`cosycritters`) | Active | Spawns ambient moths, birds, and insects as client-side particles. Manifest `side = CLIENT`. |
-| `emf_compat_better_combat_1.21.1_1.1.0.jar` | EMF Compat Better Combat (`emf_compat_better_combat`) | Active | Synchronizes Custom Entity Models with Better Combat attack motions. Manifest `side = CLIENT`. |
-| `emf_compat_core-1.1.2.jar` | EMF Compat Core (`emf_compat_core`) | Active | Core compatibility layer for Entity Model Features. Manifest `side = CLIENT`. |
-| `entity_model_features-3.2.4-1.21-neoforge.jar` | Entity Model Features (`entity_model_features`) | Active | OptiFine custom entity model format (.jem) parser and renderer. Manifest `side = CLIENT`. |
-| `entity_texture_features_1.21-neoforge-7.1.jar` | Entity Texture Features (`entity_texture_features`) | Active | OptiFine emissive, random, and blinking entity textures. Manifest `side = CLIENT`. |
+| `emf_compat_better_combat_neoforge_1.21.1_2.1.1.jar` | EMF Compat Better Combat (`emf_compat_better_combat`) | Active | Synchronizes Custom Entity Models with Better Combat attack motions. Manifest `side = CLIENT`. |
+| `emf_compat_core_neoforge_1.21.1_2.3.2.jar` | EMF Compat Core (`emf_compat_core`) | Active | Core compatibility layer for Entity Model Features. Manifest `side = CLIENT`. |
+| `emf_compat_iron_spells_neoforge_1.21.1_2.1.0.jar` | EMF Compat Iron's Spells (`emf_compat_iron_spells`) | Active | Bridges Iron's Spells spellcasting animations to EMF entity rigs. Manifest `side = CLIENT`. |
+| `entity_model_features-3.3.12-1.21-neoforge.jar` | Entity Model Features (`entity_model_features`) | Active | OptiFine custom entity model format (.jem) parser and renderer. Manifest `side = CLIENT`. |
+| `entity_texture_features-7.2.6-1.21-neoforge.jar` | Entity Texture Features (`entity_texture_features`) | Active | OptiFine emissive, random, and blinking entity textures. Manifest `side = CLIENT`. |
 | `explosiveenhancement-neoforge-1.21.1-1.1.2.jar` | Explosive Enhancement (`explosiveenhancement`) | Active | Custom 2D animated explosion smoke and fireball particle sprites. Client-side only. |
 | `fwa+1.21.1-neoforge-1.2.31.jar` | Fancy World Animations (`fwa`) | Active | Adds client-side opening animations to chests, shulker boxes, and bells. Pure client visual. |
 | `lambdynamiclights-4.8.8+1.21.1.jar` | LambDynamicLights (`lambdynlights`) | Active | Real-time dynamic light levels calculated on client mesh for held/dropped light sources. |
@@ -77,6 +78,7 @@ Visual enhancements that manipulate particles, models, animations, beam renderer
 | `punchy-2.6.2-neoforge-1.21.1.jar` | Punchy (`punchy`) | Active | Weapon recoil screen impulse and punch impact animations. Manifest `side = CLIENT`. |
 | `simplefog-neoforge-1.21.1-2.0.5.jar.disabled` | Simple Fog Control (`simplefog`) | Disabled | Fog density and start/end distance configuration menu. Manifest `side = CLIENT`. |
 | `smoothchunk-1.21-4.1.jar.disabled` | Smooth Chunk (`smoothchunk`) | Disabled | Client-side opacity fade-in animation for newly meshed chunks. Pure client visual. |
+| `touch_n_motion_neoforge_1.21.1_1.0.4.jar` | Touch'n Motion (`touch_n_motion`) | Active | Procedural player IK calculations (feet inverse kinematics, wall contacts, rider lean). Manifest `side = CLIENT`. |
 | `visuality-forge-3.0.0.jar` | Visuality: Reforged (`visuality`) | Active | Client visual particles for entity actions (sparkles, splash, slime dripping). |
 
 ---
@@ -100,7 +102,7 @@ Mods adjusting client perspective, mouse input capture, or raw input threading.
 
 ---
 
-### 5. Client HUD, Tooltips & GUI Enhancements (18 Mods)
+### 5. Client HUD, Tooltips & GUI Enhancements (22 Mods)
 
 In-game overlays, HUD indicators, tooltip styling, and keybind menus.
 
@@ -111,10 +113,14 @@ In-game overlays, HUD indicators, tooltip styling, and keybind menus.
 | `clean_tooltips-1.1-neoforge-1.21.1.jar.disabled` | Clean Tooltips (`clean_tooltips`) | Disabled | Formats and hides redundant mod namespace tags on item tooltips. Pure client GUI. |
 | `configured-neoforge-1.21.1-2.6.3.jar` | Configured (`configured`) | Active | Provides an in-game GUI configuration menu for editing mod configs. Dedicated servers have no GUI. |
 | `Controlling-neoforge-1.21.1-19.0.5.jar` | Controlling (`controlling`) | Active | Adds a search bar and conflict filter to the Controls / Key Binds menu. Manifest `side = CLIENT`. |
+| `drippyloadingscreen-earlywindow_neoforge_3.1.5_MC_1.21.1.jar` | Drippy Loading Screen - Early Window (`drippyloadingscreen`) | Active | Native window display active during early engine bootstrap before OpenGL init. Pure client GUI. |
+| `drippyloadingscreen_neoforge_3.1.5_MC_1.21.1.jar` | Drippy Loading Screen (`drippyloadingscreen`) | Active | Customizable splash screen engine with custom progress bars and layout elements. Pure client GUI. |
 | `enchdesc-neoforge-1.21.1-21.1.10.jar` | Enchantment Descriptions (`enchdesc`) | Active | Appends explanatory text descriptions to enchanted book tooltips. Pure client GUI. |
+| `fancymenu_neoforge_3.9.14_MC_1.21.1.jar` | FancyMenu (`fancymenu`) | Active | Comprehensive client GUI engine for custom title screens, pause menus, and layouts. Pure client GUI. |
 | `HealthBars-v21.1.0-1.21.1-NeoForge.jar` | Health Bars (`healthbars`) | Active | Displays stylized mob health bars above entity heads and on screen. Pure client rendering. |
 | `healthbars-dd-compat-0.3.0+1.21.1.jar` | Health Bars - Deeper and Darker Compat (`healthbars_dd_compat`) | Active | Compatibility bridge for Health Bars on Deeper and Darker entities. Pure client rendering. |
 | `ImmersiveUI-NEOFORGE-0.3.3+1.21.1.jar` | Immersive UI (`immersive_ui`) | Active | Overhauls health, food, armor, and mount HUD displays. Manifest `side = CLIENT`. |
+| `konkrete_neoforge_1.9.9_MC_1.21.jar` | Konkrete (`konkrete`) | Active | UI framework and rendering utility library for FancyMenu and Drippy Loading Screen. |
 | `LocatorBar-neoforge-1.2.2+1.21.1.jar` | Locator Bar (`locatorbar`) | Active | Skyrim-style compass navigation bar rendered across the top edge of the HUD. |
 | `miningspeedtooltips-neoforge-1.0.0-1.21.1.jar` | Mining Speed Tooltips (`miningspeedtooltips`) | Active | Displays dynamic harvest speed stats on item hover boxes. Pure client GUI. |
 | `NBTac-NEOFORGE-1.21.1-1.3.10.jar` | NBT Autocomplete (`nbt_ac`) | Active | Adds command line autocomplete suggestions for NBT tags in client chat. Client mixins only. |
@@ -140,10 +146,11 @@ JEI addons that only register display categories in the client JEI screen and ha
 
 ---
 
-### 7. Client Audio & Sound Packs (2 Mods)
+### 7. Client Audio & Sound Packs (3 Mods)
 
 | Filename | Mod Name (ID) | Status | Exclusion Rationale |
 | :--- | :--- | :--- | :--- |
+| `melody_neoforge_1.0.10_MC_1.21.jar` | Melody (`melody`) | Active | OpenAL-based audio and background music engine for FancyMenu. Pure client audio library. |
 | `sounds-2.4.22+lts+1.21.1-neoforge.jar` | Sounds (`sounds`) | Active | Dynamic acoustic sound physics, reverb, room occlusion, and footsteps. Manifest `side = CLIENT`. |
 | `towntalk-1.2.0.jar` | TownTalk (`towntalk`) | Active | 52.3 MB client sound pack registering `.ogg` spoken voice files for MineColonies citizens. Contains only client audio assets. |
 

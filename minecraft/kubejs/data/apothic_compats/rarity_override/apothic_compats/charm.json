@@ -1,0 +1,155 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:not",
+            "value": {
+                "type": "neoforge:mod_loaded",
+                "modid": "ancientreforging"
+            }
+        }
+    ],
+    "type": "apotheosis:rarity_override",
+    "category": "apothic_compats:charm",
+    "overrides": {
+        "apotheosis:uncommon": [
+            {
+                "type": "apotheosis:affix",
+                "affix_type": "stat"
+            },
+            {
+                "type": "apotheosis:chanced",
+                "chance": 0.5,
+                "rule": {
+                    "type": "apotheosis:affix",
+                    "affix_type": "stat"
+                }
+            },
+            {
+                "type": "apotheosis:socket",
+                "min": 0,
+                "max": 1
+            }
+        ],
+        "apotheosis:rare": [
+            {
+                "type": "apotheosis:affix",
+                "affix_type": "stat"
+            },
+            {
+                "type": "apotheosis:affix",
+                "affix_type": "stat"
+            },
+            {
+                "type": "apotheosis:chanced",
+                "chance": 0.15,
+                "rule": {
+                    "type": "apotheosis:affix",
+                    "affix_type": "stat"
+                }
+            },
+            {
+                "type": "apotheosis:socket",
+                "min": 1,
+                "max": 1
+            }
+        ],
+        "apotheosis:epic": [
+            {
+                "type": "apotheosis:affix",
+                "affix_type": "stat"
+            },
+            {
+                "type": "apotheosis:affix",
+                "affix_type": "stat"
+            },
+            {
+                "type": "apotheosis:chanced",
+                "chance": 0.5,
+                "rule": {
+                    "type": "apotheosis:affix",
+                    "affix_type": "stat"
+                }
+            },
+            {
+                "type": "apotheosis:socket",
+                "min": 1,
+                "max": 2
+            }
+        ],
+        "apotheosis:mythic": [
+            {
+                "type": "apotheosis:affix",
+                "affix_type": "stat"
+            },
+            {
+                "type": "apotheosis:affix",
+                "affix_type": "stat"
+            },
+            {
+                "type": "apotheosis:affix",
+                "affix_type": "stat"
+            },
+            {
+                "type": "apotheosis:socket",
+                "min": 2,
+                "max": 2
+            }
+        ],
+        "nadir:worthless": [
+            {
+                "type": "apotheosis:socket",
+                "min": 0,
+                "max": 0
+            }
+        ],
+        "nadir:ancient": [
+            {
+                "type": "apotheosis:socket",
+                "min": 1,
+                "max": 1
+            }
+        ],
+        "nadir:forgotten": [
+            {
+                "type": "apotheosis:socket",
+                "min": 1,
+                "max": 2
+            }
+        ],
+        "nadir:primal": [
+            {
+                "type": "apotheosis:socket",
+                "min": 1,
+                "max": 2
+            }
+        ],
+        "nadir:stellar": [
+            {
+                "type": "apotheosis:socket",
+                "min": 2,
+                "max": 2
+            }
+        ],
+        "nadir:divine": [
+            {
+                "type": "apotheosis:socket",
+                "min": 2,
+                "max": 2
+            }
+        ],
+        "nadir:esoteric": [
+            {
+                "type": "apotheosis:socket",
+                "min": 2,
+                "max": 2
+            }
+        ],
+        "nadir:cataclysmic": [
+            {
+                "type": "apotheosis:socket",
+                "min": 2,
+                "max": 2
+            }
+        ]
+    }
+}

@@ -36,7 +36,22 @@ These mods run continuously on the client render and particle threads, consuming
 
 ---
 
-## 3. Excluded Cosmetic & Non-Essential Client Mods (2 Mods)
+## 3. Excluded Entity Model & Texture Features (6 Mods)
+
+Entity Model Features (EMF), Entity Texture Features (ETF), their animation bridges, and procedural motion mods are purely visual client-side layers. Stripping them saves CPU bone-transform time and video RAM on low-spec hardware:
+
+| Mod File | Name | Primary Render Overhead |
+|---|---|---|
+| `entity_model_features-3.3.12-1.21-neoforge.jar` | Entity Model Features (EMF) | Custom entity model format (`.jem`) parsing, dynamic bone hierarchies, and procedural model replacements. |
+| `entity_texture_features-7.2.6-1.21-neoforge.jar` | Entity Texture Features (ETF) | Emissive textures, random mob skins, and blinking entity eye overlays. |
+| `emf_compat_core_neoforge_1.21.1_2.3.2.jar` | EMF Compat Core | Core animation compatibility and bridge layer for EMF models. |
+| `emf_compat_better_combat_neoforge_1.21.1_2.1.1.jar` | EMF Compat Better Combat | Intercepts Better Combat weapon swing poses and maps them to custom EMF rigs. |
+| `emf_compat_iron_spells_neoforge_1.21.1_2.1.0.jar` | EMF Compat Iron's Spells | Bridges Iron's Spells spellcasting animations to EMF entity rigs. |
+| `touch_n_motion_neoforge_1.21.1_1.0.4.jar` | Touch'n Motion | Procedural player IK calculations (inverse kinematics feet placement, wall contacts, rider lean). |
+
+---
+
+## 4. Excluded Cosmetic & Non-Essential Client Mods (2 Mods)
 
 These mods add cosmetic visual flair or client animations that are non-essential for gameplay:
 
@@ -48,7 +63,7 @@ These mods add cosmetic visual flair or client animations that are non-essential
 
 ---
 
-## 4. Excluded Development & Diagnostic Mods (4 Mods)
+## 5. Excluded Development & Diagnostic Mods (4 Mods)
 
 Development and inspection tools used solely for modpack creation, structure inspection, or profiling:
 
@@ -61,7 +76,7 @@ Development and inspection tools used solely for modpack creation, structure ins
 
 ---
 
-## 5. Excluded Heavy Resource Packs & Shaders (8 Items)
+## 6. Excluded Heavy Resource Packs & Shaders (8 Items)
 
 These resource packs alter mob geometry, add 3D block complexity, or engage OpenGL shader stages:
 
@@ -78,7 +93,7 @@ These resource packs alter mob geometry, add 3D block complexity, or engage Open
 
 ---
 
-## 4. Retained Optimization Engines (Active in Both Packs)
+## 7. Retained Optimization Engines (Active in Both Packs)
 
 PEAK Lite retains all performance-enhancing mods to ensure maximum possible frame rates:
 - **`sodium`**: Core OpenGL 3.3 chunk render pipeline.

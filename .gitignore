@@ -34,6 +34,8 @@ minecraft/ponders_watched.json
 minecraft/*ETF*skin_printout*
 minecraft/essential/
 minecraft/servers.essential.dat
+minecraft/fancymenu_data/
+minecraft/config/fancymenu/fm_data.db
 scrapped_tools/*_tmp*
 
 
@@ -59,6 +61,7 @@ minecraft/saves/New World/data/DistantHorizons.sqlite
 # Testing and diagnostics
 tests/test_report.json
 *.pyc
+*.class
 __pycache__/
 scratch/
 spark_profile.json

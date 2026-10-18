@@ -27,7 +27,7 @@
 	},
 	"utility": {
 		"disableOnDamage": true,
-		"freezePlayer": true,
+		"freezePlayer": false,
 		"allowInteract": false,
 		"interactionMode": "CAMERA"
 	},

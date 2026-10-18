@@ -69,4 +69,6 @@ rewrite00.js
 scrapped_tools
 scratch
 temp_to
-tests
+tests
+minecraft/fancymenu_data
+minecraft/config/fancymenu/fm_data.db

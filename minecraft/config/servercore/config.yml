@@ -168,14 +168,6 @@ mob-spawning:
       mobcap: 50
       spawn-interval: 400
 
-    - category: 'VAMPIRISM_HUNTER'
-      mobcap: 8
-      spawn-interval: 15
-
-    - category: 'VAMPIRISM_VAMPIRE'
-      mobcap: 12
-      spawn-interval: 15
-
     - category: 'GLARES'
       mobcap: 10
       spawn-interval: 400

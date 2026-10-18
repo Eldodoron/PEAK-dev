@@ -1,0 +1,15 @@
+{
+  "type": "unusualend:infuser",
+  "ingredients": [
+    {
+      "item": "unusualend:shiny_crystal"
+    },
+    {
+      "tag": "c:shiny_base"
+    }
+  ],
+  "output": {
+    "id": "unusualend:creative_health_boost",
+    "count": 1
+  }
+}

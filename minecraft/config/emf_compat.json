@@ -1,4 +1,9 @@
 {
   "configVersion": 1,
-  "booleans": {}
+  "booleans": {
+    "bettercombat.bodyFollowArms": true,
+    "ironspells.bodyFollowArms": true,
+    "ironspells.enabled": true
+  },
+  "numbers": {}
 }

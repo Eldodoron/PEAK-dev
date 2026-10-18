@@ -1,0 +1,14 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:mod_loaded",
+        "modid": "minecraft"
+      }
+    }
+  ],
+  "type": "apotheosis:extra_gem_bonus",
+  "gem": "fallen_gems_affixes:compat/hemolith_shard",
+  "bonuses": []
+}

@@ -245,18 +245,5 @@
       "type": "url",
       "value": "https://spark.lucko.me/NR8WybOZ3t"
     }
-  },
-  {
-    "user": {
-      "type": "player",
-      "name": "Eldodoron",
-      "uniqueId": "49be79aa-731a-4f2a-bf25-9d3b8eb016b4"
-    },
-    "time": 1786773731536,
-    "type": "Profiler",
-    "data": {
-      "type": "url",
-      "value": "https://spark.lucko.me/70vgYrjI72"
-    }
   }
 ]

@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "#": {
+            "tag": "c:wood_sticks"
+        },
+        "X": {
+            "item": "undergarden:froststeel_ingot"
+        },
+        "Y": {
+            "item": "minecraft:iron_nugget"
+        }
+    },
+    "pattern": [
+        " XY",
+        "X#X",
+        "#  "
+    ],
+    "result": {
+        "id": "integrated_simply_swords:knavesneeds/undergarden/froststeel/halberd"
+    },
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "undergarden"
+        }
+    ]
+}

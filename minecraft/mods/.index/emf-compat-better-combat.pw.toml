@@ -1,23 +1,23 @@
-filename = 'emf_compat_better_combat_1.21.1_1.1.0.jar'
+filename = 'emf_compat_better_combat_neoforge_1.21.1_2.1.1.jar'
 name = 'EMF Compat: Better Combat'
 side = ''
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'emf_compat_better_combat_1.21.1_1.1.0.jar'
+x-prismlauncher-version-number = 'emf_compat_better_combat_neoforge_1.21.1_2.1.1.jar'
 
 [download]
-hash = 'b76c391f4d91ceb01f93c3ee16cbc88c911bdb7c'
+hash = '180e04f2ba543ec74a2bfb70c61b7044cd12c5a7'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 8540566
+file-id = 9190768
 project-id = 1605147
 
 [[x-prismlauncher-dependencies]]
-addonId = '568563'
+addonId = '1605113'
 type = 'REQUIRED'
 
 [[x-prismlauncher-dependencies]]
@@ -25,9 +25,5 @@ addonId = '844662'
 type = 'REQUIRED'
 
 [[x-prismlauncher-dependencies]]
-addonId = '1605113'
-type = 'REQUIRED'
-
-[[x-prismlauncher-dependencies]]
 addonId = '639842'
-type = 'REQUIRED'
+type = 'OPTIONAL'

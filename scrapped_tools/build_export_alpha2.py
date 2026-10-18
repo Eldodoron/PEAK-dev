@@ -61,7 +61,7 @@ LITE_EXCLUDED_PIDS = {
 
 IGNORED_EXTENSIONS = {".bak", ".tmp", ".log"}
 IGNORED_CONFIG_DIRS = {"panoptic", "crafttweaker", "search_index"}
-IGNORED_CONFIG_FILES = {"panoptic-common.toml", "smoothswapping.json"}
+IGNORED_CONFIG_FILES = {"panoptic-common.toml", "smoothswapping.json", "fm_data.db"}
 
 def collect_overrides(mc_dir, is_lite=False):
     """Walks override folders and collects file entries, stripping BOMs and preventing loose jars."""
@@ -99,6 +99,13 @@ def collect_overrides(mc_dir, is_lite=False):
                 if is_lite and entry_name == "overrides/config/DistantHorizons.toml":
                     text = content.decode("utf-8", errors="replace")
                     text = re.sub(r"lodChunkRenderDistanceRadius\s*=\s*\d+", "lodChunkRenderDistanceRadius = 32", text)
+                    content = text.encode("utf-8")
+
+                # Enforce FancyMenu modpack lock mode and suppress welcome screen in exported packs
+                if entry_name == "overrides/config/fancymenu/options.txt":
+                    text = content.decode("utf-8", errors="replace")
+                    text = re.sub(r"B:modpack_mode\s*=\s*'[a-zA-Z]+';", "B:modpack_mode = 'true';", text)
+                    text = re.sub(r"B:show_welcome_screen\s*=\s*'[a-zA-Z]+';", "B:show_welcome_screen = 'false';", text)
                     content = text.encode("utf-8")
 
                 entries[entry_name] = content

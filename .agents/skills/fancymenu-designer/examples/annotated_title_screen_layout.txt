@@ -1,0 +1,462 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = title_screen
+  render_custom_elements_behind_vanilla = false
+  last_edited_time = 1729180000000
+  is_enabled = true
+  randommode = false
+  randomgroup = 1
+  randomonlyfirsttime = false
+  layout_index = 0
+  custom_menu_title = 
+  [loading_requirement_container_meta:meta_req_0001] = [groups:][instances:]
+}
+
+customization {
+  action = autoscale
+  basewidth = 1920
+  baseheight = 1080
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = true
+}
+
+menu_background {
+  instance_identifier = bg_glsl_0001
+  background_type = glsl
+  inline_shader_source = [source:local]/config/fancymenu/assets/shaders/arcane_nebula.fsh
+  buffer_a_inline_source = 
+  buffer_b_inline_source = 
+  buffer_c_inline_source = 
+  buffer_d_inline_source = 
+  image_ichannel0_input = none
+  image_ichannel1_input = none
+  image_ichannel2_input = none
+  image_ichannel3_input = none
+  compile_mode = auto
+  force_shadertoy_compatibility = true
+  freeze_time = false
+  time_scale = 1.0
+  enable_blending = true
+  use_input = true
+  mouse_position_requires_hold = false
+  opacity_multiplier = 1.0
+  show_compile_errors = true
+}
+
+scroll_list_customization {
+  preserve_scroll_list_header_footer_aspect_ratio = true
+  render_scroll_list_header_shadow = true
+  render_scroll_list_footer_shadow = true
+  show_scroll_list_header_footer_preview_in_editor = false
+  repeat_scroll_list_header_texture = false
+  repeat_scroll_list_footer_texture = false
+  show_screen_background_overlay_on_custom_background = true
+  apply_vanilla_background_blur = false
+}
+
+layout_action_executable_blocks {
+  open_screen_executable_block_identifier = open_blk_0001
+  [executable_block:open_blk_0001][type:generic] = [executables:open_act_0001;]
+  [executable_action_instance:open_act_0001][action_type:set_variable] = menu_energy:1.0%:%clear_on_launch:true
+}
+
+layer_group {
+  group_name = Sidebar UI
+  collapsed = false
+  element_ids = elem_sidebar_panel_01;elem_logo_01;elem_status_text_01;elem_discord_btn_01;
+}
+
+element {
+  element_type = image
+  instance_identifier = elem_sidebar_panel_01
+  custom_element_layer_name = Sidebar NineSlice Panel
+  source = [source:local]/config/fancymenu/assets/textures/sidebar_panel.png
+  repeat_texture = false
+  nine_slice_texture = true
+  nine_slice_texture_border_x = 8
+  nine_slice_texture_border_y = 8
+  image_tint = #141824D9
+  restart_animated_on_menu_load = false
+  rounding_radius_top_left = 0.0
+  rounding_radius_top_right = 12.0
+  rounding_radius_bottom_right = 12.0
+  rounding_radius_bottom_left = 0.0
+  anchor_point = mid-left
+  x = 0
+  y = 0
+  width = 220
+  height = 360
+  stretch_x = false
+  stretch_y = true
+  stay_on_screen = true
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  disappearance_delay = no_delay
+  disappearance_delay_seconds = 1.0
+  fade_in_v2 = first_time
+  fade_in_speed = 1.5
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 0.92
+  enable_parallax = false
+  parallax_intensity_x = 0.5
+  parallax_intensity_y = 0.5
+  invert_parallax = false
+  animated_offset_x = 0
+  animated_offset_y = 0
+  load_once_per_session = false
+  in_editor_color = #FFC800FF
+  layer_hidden_in_editor = false
+  should_be_affected_by_decoration_overlays = false
+  rotation_degrees = 0.0
+  advanced_rotation_mode = false
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_mode = false
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_mode = false
+  element_loading_requirement_container_identifier = req_sidebar_01
+  [loading_requirement_container_meta:req_sidebar_01] = [groups:][instances:]
+}
+
+element {
+  element_type = image
+  instance_identifier = elem_logo_01
+  custom_element_layer_name = Animated Pack Logo
+  source = [source:local]/config/fancymenu/assets/textures/pack_logo.png
+  repeat_texture = false
+  nine_slice_texture = false
+  nine_slice_texture_border_x = 5
+  nine_slice_texture_border_y = 5
+  image_tint = #FFFFFFFF
+  restart_animated_on_menu_load = true
+  rounding_radius_top_left = 0.0
+  rounding_radius_top_right = 0.0
+  rounding_radius_bottom_right = 0.0
+  rounding_radius_bottom_left = 0.0
+  anchor_point = top-left
+  x = 20
+  y = 24
+  width = 180
+  height = 56
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  disappearance_delay = no_delay
+  disappearance_delay_seconds = 1.0
+  fade_in_v2 = first_time
+  fade_in_speed = 1.2
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  enable_parallax = true
+  parallax_intensity_x = 0.15
+  parallax_intensity_y = 0.15
+  invert_parallax = false
+  animated_offset_x = 0
+  animated_offset_y = 0
+  load_once_per_session = false
+  in_editor_color = #FFC800FF
+  layer_hidden_in_editor = false
+  should_be_affected_by_decoration_overlays = false
+  rotation_degrees = 0.0
+  advanced_rotation_mode = true
+  advanced_rotation_degrees = {"placeholder":"calc","values":{"decimal":"true","expression":"sin({"placeholder":"unix_time"} / 800) * 1.5"}}
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_mode = false
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_mode = false
+  element_loading_requirement_container_identifier = req_logo_01
+  [loading_requirement_container_meta:req_logo_01] = [groups:][instances:]
+}
+
+element {
+  element_type = text_v2
+  instance_identifier = elem_status_text_01
+  custom_element_layer_name = System Status HUD
+  interactable = false
+  source = **Player:** &b{"placeholder":"playername"}&r%n%**MC:** {"placeholder":"mcversion"} ({"placeholder":"loadedmods"} mods)%n%**FPS:** &a{"placeholder":"fps"}&r | **RAM:** {"placeholder":"percentram"}%%
+  source_mode = direct
+  shadow = true
+  scale = 0.9
+  base_color = #E0E6F0FF
+  text_border = 2
+  line_spacing = 3
+  enable_scrolling = false
+  auto_line_wrapping = true
+  remove_html_breaks = true
+  parse_markdown = true
+  anchor_point = bottom-left
+  x = 16
+  y = -42
+  width = 190
+  height = 36
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  disappearance_delay = no_delay
+  disappearance_delay_seconds = 1.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 0.9
+  enable_parallax = false
+  parallax_intensity_x = 0.5
+  parallax_intensity_y = 0.5
+  invert_parallax = false
+  animated_offset_x = 0
+  animated_offset_y = 0
+  load_once_per_session = false
+  in_editor_color = #FFC800FF
+  layer_hidden_in_editor = false
+  should_be_affected_by_decoration_overlays = false
+  rotation_degrees = 0.0
+  advanced_rotation_mode = false
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_mode = false
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_mode = false
+  element_loading_requirement_container_identifier = req_status_01
+  [loading_requirement_container_meta:req_status_01] = [groups:][instances:]
+}
+
+element {
+  element_type = custom_button
+  instance_identifier = elem_discord_btn_01
+  custom_element_layer_name = Boost Shader Button
+  label = Pulse Shader
+  hoverlabel = &b> Pulse Shader <
+  label_base_color = #FFFFFF
+  label_hover_color = #55FFFF
+  label_scale = 1.0
+  label_shadow = true
+  description = Click to boost shader energy
+  backgroundnormal = [source:local]/config/fancymenu/assets/textures/btn_normal.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/textures/btn_hover.png
+  background_texture_inactive = [source:local]/config/fancymenu/assets/textures/btn_inactive.png
+  underline_label_on_hover = false
+  transparent_background = false
+  restartbackgroundanimations = true
+  nine_slice_custom_background = true
+  nine_slice_border_x = 6
+  nine_slice_border_y = 6
+  navigatable = true
+  is_template = false
+  template_apply_width = false
+  template_apply_height = false
+  template_apply_posx = false
+  template_apply_posy = false
+  template_apply_opacity = false
+  template_apply_visibility = false
+  template_apply_label = false
+  template_share_with = buttons
+  nine_slice_slider_handle = false
+  nine_slice_slider_handle_border_x = 5
+  nine_slice_slider_handle_border_y = 5
+  button_element_executable_block_identifier = btn_exec_0001
+  [executable_block:btn_exec_0001][type:generic] = [executables:if_blk_0001;]
+  [executable_block:if_blk_0001][type:if] = [executables:act_boost_on;][appended:else_blk_0001]
+  [if_executable_block_body:if_blk_0001] = cond_energy_check
+  [if_executable_block_collapsed:if_blk_0001] = false
+  [loading_requirement_container_meta:cond_energy_check] = [groups:][instances:req_inst_energy;]
+  [loading_requirement:fancymenu_loading_requirement_is_variable_value][requirement_mode:if][req_id:req_inst_energy] = menu_energy:1.0
+  [executable_block:else_blk_0001][type:else] = [executables:act_boost_off;]
+  [executable_action_instance:act_boost_on][action_type:set_variable] = menu_energy:2.5%:%clear_on_launch:true
+  [executable_action_instance:act_boost_off][action_type:set_variable] = menu_energy:1.0%:%clear_on_launch:true
+  widget_active_state_requirement_container_identifier = req_active_0001
+  [loading_requirement_container_meta:req_active_0001] = [groups:][instances:]
+  anchor_point = element
+  anchor_point_element = vanillabtn:button_compatibility_id:mc_titlescreen_quit_button
+  x = 0
+  y = 26
+  width = 180
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  disappearance_delay = no_delay
+  disappearance_delay_seconds = 1.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  enable_parallax = false
+  parallax_intensity_x = 0.5
+  parallax_intensity_y = 0.5
+  invert_parallax = false
+  animated_offset_x = 0
+  animated_offset_y = 0
+  load_once_per_session = false
+  in_editor_color = #FFC800FF
+  layer_hidden_in_editor = false
+  should_be_affected_by_decoration_overlays = false
+  rotation_degrees = 0.0
+  advanced_rotation_mode = false
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_mode = false
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_mode = false
+  element_loading_requirement_container_identifier = req_vis_btn_01
+  [loading_requirement_container_meta:req_vis_btn_01] = [groups:][instances:]
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = minecraft_logo_widget
+  is_hidden = true
+  anchor_point = vanilla
+  x = 0
+  y = 0
+  width = 256
+  height = 51
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  appearance_delay = no_delay
+  disappearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  base_opacity = 1.0
+  element_loading_requirement_container_identifier = req_van_logo
+  [loading_requirement_container_meta:req_van_logo] = [groups:][instances:]
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = minecraft_splash_widget
+  is_hidden = true
+  anchor_point = vanilla
+  x = 0
+  y = 0
+  width = 100
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  appearance_delay = no_delay
+  disappearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  base_opacity = 1.0
+  element_loading_requirement_container_identifier = req_van_splash
+  [loading_requirement_container_meta:req_van_splash] = [groups:][instances:]
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = button_compatibility_id:mc_titlescreen_singleplayer_button
+  is_hidden = false
+  anchor_point = mid-left
+  x = 20
+  y = -48
+  width = 180
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  appearance_delay = no_delay
+  disappearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  base_opacity = 1.0
+  element_loading_requirement_container_identifier = req_van_sp
+  [loading_requirement_container_meta:req_van_sp] = [groups:][instances:]
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = button_compatibility_id:mc_titlescreen_multiplayer_button
+  is_hidden = false
+  anchor_point = element
+  anchor_point_element = vanillabtn:button_compatibility_id:mc_titlescreen_singleplayer_button
+  x = 0
+  y = 26
+  width = 180
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  appearance_delay = no_delay
+  disappearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  base_opacity = 1.0
+  element_loading_requirement_container_identifier = req_van_mp
+  [loading_requirement_container_meta:req_van_mp] = [groups:][instances:]
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = button_compatibility_id:mc_titlescreen_options_button
+  is_hidden = false
+  anchor_point = element
+  anchor_point_element = vanillabtn:button_compatibility_id:mc_titlescreen_multiplayer_button
+  x = 0
+  y = 26
+  width = 180
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  appearance_delay = no_delay
+  disappearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  base_opacity = 1.0
+  element_loading_requirement_container_identifier = req_van_opt
+  [loading_requirement_container_meta:req_van_opt] = [groups:][instances:]
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = button_compatibility_id:mc_titlescreen_quit_button
+  is_hidden = false
+  anchor_point = element
+  anchor_point_element = vanillabtn:button_compatibility_id:mc_titlescreen_options_button
+  x = 0
+  y = 26
+  width = 180
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  appearance_delay = no_delay
+  disappearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  base_opacity = 1.0
+  element_loading_requirement_container_identifier = req_van_quit
+  [loading_requirement_container_meta:req_van_quit] = [groups:][instances:]
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = title_screen_copyright_button
+  is_hidden = false
+  anchor_point = bottom-right
+  x = -4
+  y = -12
+  width = 196
+  height = 10
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  appearance_delay = no_delay
+  disappearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  base_opacity = 0.65
+  element_loading_requirement_container_identifier = req_van_copy
+  [loading_requirement_container_meta:req_van_copy] = [groups:][instances:]
+}

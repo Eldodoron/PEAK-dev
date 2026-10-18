@@ -92,6 +92,43 @@ function isGatewayPendingOrActive(server) {
     return p.getBoolean('rg_scheduled') || p.getBoolean('rg_active');
 }
 
+function getGameTime(server, overworld) {
+    if (overworld) {
+        try {
+            if (overworld.getLevelData) {
+                return Number(overworld.getLevelData().getGameTime());
+            }
+        } catch (e) {}
+        try {
+            if (overworld.getOverworldClockTime) {
+                return Number(overworld.getOverworldClockTime());
+            }
+        } catch (e) {}
+    }
+    return server ? server.tickCount : 0;
+}
+
+function getDayTime(overworld) {
+    if (overworld) {
+        try {
+            if (overworld.getOverworldClockTime) {
+                return Number(overworld.getOverworldClockTime());
+            }
+        } catch (e) {}
+        try {
+            if (overworld.getDefaultClockTime) {
+                return Number(overworld.getDefaultClockTime());
+            }
+        } catch (e) {}
+        try {
+            if (overworld.getLevelData) {
+                return Number(overworld.getLevelData().getGameTime());
+            }
+        } catch (e) {}
+    }
+    return 0;
+}
+
 // ==========================================
 // DISTANCE-FROM-SPAWN SCALING LOGIC
 // ==========================================
@@ -358,7 +395,7 @@ function scheduleGatewayEvent(server, overworld, targetPlayer, forcedGateId, del
     let pos = findSurfacePos(overworld, px, pz, RG_DEFAULTS.min_player_dist, RG_DEFAULTS.max_player_dist);
     let gateId = forcedGateId || selectGatewayForPos(overworld, pos.x, pos.z);
 
-    let currentGameTime = overworld.getGameTime();
+    let currentGameTime = getGameTime(server, overworld);
     let delayTicks = (delaySeconds ? delaySeconds * 20 : (6000 + Math.floor(Math.random() * 10000)));
     let targetTick = currentGameTime + delayTicks;
 
@@ -433,7 +470,7 @@ function spawnGatewayNow(server, overworld, customPos, customGateId, customPlaye
     p.putInt('rg_target_y', y);
     p.putInt('rg_target_z', z);
     p.putString('rg_gate_id', gateId);
-    p.putLong('rg_active_start_tick', overworld.getGameTime());
+    p.putLong('rg_active_start_tick', getGameTime(server, overworld));
 
     // Reset pity and day counters now that gateway has spawned in world
     p.putInt('rg_days_passed', 0);
@@ -456,7 +493,7 @@ BlockEvents.rightClicked(event => {
         if (!server || !isGatewayPendingOrActive(server)) return;
 
         let overworld = server.getLevel('minecraft:overworld');
-        let timeOfDay = overworld ? (overworld.getDayTime() % 24000) : 0;
+        let timeOfDay = overworld ? (getDayTime(overworld) % 24000) : 0;
         // In Vanilla Minecraft, beds only initiate sleep between ticks 12542 and 23459 (or during thunderstorms)
         let canSleepNow = (timeOfDay >= 12542 && timeOfDay <= 23459) || (overworld && overworld.isThundering());
 
@@ -594,12 +631,11 @@ ServerEvents.tick(event => {
     if (!overworld) return;
 
     // Run throttled logic once every second (20 ticks)
-    let gameTime = overworld.getGameTime();
-    if (gameTime % 20 !== 0) return;
+    if (server.tickCount % 20 !== 0) return;
 
     let cfg = getRGConfig(server);
     let p = server.persistentData;
-    let dayTime = overworld.getDayTime();
+    let dayTime = getDayTime(overworld);
     let timeOfDay = dayTime % 24000;
 
     // 1. Sunrise Daily Evaluation (around tick 0 - 1200 of day cycle, i.e. morning hour)
@@ -640,6 +676,7 @@ ServerEvents.tick(event => {
 
     // 2. Scheduled Countdown & Spawning Phase (Monotonic tracking via gameTime)
     if (cfg.scheduled) {
+        let gameTime = getGameTime(server, overworld);
         let targetTick = p.getLong('rg_target_tick');
         let remainingTicks = targetTick - gameTime;
         let remainingSec = Math.floor(remainingTicks / 20);
@@ -697,6 +734,7 @@ ServerEvents.tick(event => {
 
     // 3. Watchdog Fail-Safe for Active Gateway (25 minutes max lifetime)
     if (cfg.active) {
+        let gameTime = getGameTime(server, overworld);
         let startTick = p.getLong('rg_active_start_tick');
         if (startTick > 0 && (gameTime - startTick) > 30000) {
             cancelActiveGateway(server, 'timeout watchdog exceeded (25 min)');
@@ -763,7 +801,7 @@ ServerEvents.commandRegistry(event => {
         let cfg = getRGConfig(server);
         let p = server.persistentData;
         let overworld = server.getLevel('minecraft:overworld');
-        let gameTime = overworld ? overworld.getGameTime() : 0;
+        let gameTime = getGameTime(server, overworld);
 
         let src = ctx.source;
         src.sendSuccess(() => Component.gold("=== PEAK Random Gateways Status ==="), false);

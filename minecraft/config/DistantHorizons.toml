@@ -865,7 +865,7 @@ _version = 4
 				# 0 = black and white 
 				# 1 = normal 
 				# 2 = very saturated
-				saturationMultiplier = "1.0"
+				saturationMultiplier = "1.2"
 				#
 				# This indicates how well LODs will represent 
 				# overhangs, caves, floating islands, etc. 

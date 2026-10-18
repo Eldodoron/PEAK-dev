@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "remove": [
+    "remnant_bosses:skeleton_minions",
+    "remnant_bosses:ossukage"
+  ],
+  "values": [
+    "remnant_bosses:skeleton_minion",
+    "remnant_bosses:remnant_ossukage"
+  ]
+}

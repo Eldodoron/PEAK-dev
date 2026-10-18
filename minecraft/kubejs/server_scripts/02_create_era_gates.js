@@ -289,9 +289,9 @@ ServerEvents.recipes(event => {
         type: "immersiveengineering:metal_press",
         mold: "immersiveengineering:mold_plate",
         input: { item: "minecraft:netherite_ingot" },
-        result: { item: "alltheores:netherite_plate" },
+        result: { id: "alltheores:netherite_plate", count: 1 },
         energy: 2400
-    });
+    }).id('kubejs:metal_press/netherite_plate');
 
 
     // --- REMOVE DEFAULT UPGRADE RECIPES ---

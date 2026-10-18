@@ -1,0 +1,189 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen
+  render_custom_elements_behind_vanilla = true
+  last_edited_time = 1792278366575
+  is_enabled = true
+  randommode = false
+  randomgroup = 1
+  randomonlyfirsttime = false
+  layout_index = 0
+  [loading_requirement_container_meta:563e4baa-f8d4-4658-8eda-d2fcf3038297] = [groups:][instances:]
+}
+
+menu_background {
+  color = #05060A
+  instance_identifier = f61fc457-5fca-4fe7-9157-e5c43d4851ae
+  background_type = color_fancymenu
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = true
+}
+
+scroll_list_customization {
+  preserve_scroll_list_header_footer_aspect_ratio = true
+  render_scroll_list_header_shadow = true
+  render_scroll_list_footer_shadow = true
+  show_scroll_list_header_footer_preview_in_editor = false
+  repeat_scroll_list_header_texture = false
+  repeat_scroll_list_footer_texture = false
+  show_screen_background_overlay_on_custom_background = false
+  apply_vanilla_background_blur = false
+}
+
+layout_action_executable_blocks {
+  open_screen_executable_block_identifier = c5dc5eed-1e97-4a24-b755-8f865c0fb6a2
+  [executable_block:c5dc5eed-1e97-4a24-b755-8f865c0fb6a2][type:generic] = [executables:]
+  close_screen_executable_block_identifier = ebf77217-e062-47d1-803c-22d6732b2652
+  [executable_block:ebf77217-e062-47d1-803c-22d6732b2652][type:generic] = [executables:]
+}
+
+element {
+  source = [source:local]/config/fancymenu/assets/loading_tunnel/tunnel_bg.png
+  repeat_texture = true
+  nine_slice_texture = false
+  nine_slice_texture_border_x = 5
+  nine_slice_texture_border_y = 5
+  image_tint = #FFFFFF
+  restart_animated_on_menu_load = true
+  element_type = image
+  instance_identifier = bdf42ada-64f1-4505-9349-46ccb4fe853b
+  custom_element_layer_name = Tunnel Base Background
+  anchor_point = mid-centered
+  x = -480
+  y = -336
+  width = 960
+  height = 640
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  auto_sizing = false
+  auto_sizing_base_screen_width = 0
+  auto_sizing_base_screen_height = 0
+  auto_sizing_base_gui_scale = 0.0
+  auto_sizing_base_gui_width = 0
+  auto_sizing_base_gui_height = 0
+  element_loading_requirement_container_identifier = d5e4a821-e665-4a5d-9f5e-3d5217e042c7
+  [loading_requirement_container_meta:d5e4a821-e665-4a5d-9f5e-3d5217e042c7] = [groups:][instances:]
+  is_hidden = false
+  automated_button_clicks = 0
+}
+
+element {
+  source = [source:local]/config/fancymenu/assets/loading_tunnel/tunnel_scene.fma
+  repeat_texture = true
+  nine_slice_texture = false
+  nine_slice_texture_border_x = 5
+  nine_slice_texture_border_y = 5
+  image_tint = #FFFFFF
+  restart_animated_on_menu_load = true
+  element_type = image
+  instance_identifier = 167c7cc0-7425-497c-ac07-fa6e275af552
+  custom_element_layer_name = Tunnel Mining Sequence
+  anchor_point = mid-centered
+  x = -128
+  y = -16
+  width = 224
+  height = 96
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  auto_sizing = false
+  auto_sizing_base_screen_width = 0
+  auto_sizing_base_screen_height = 0
+  auto_sizing_base_gui_scale = 0.0
+  auto_sizing_base_gui_width = 0
+  auto_sizing_base_gui_height = 0
+  element_loading_requirement_container_identifier = 46e48e8f-0388-4ac3-a845-1a35f1281fcb
+  [loading_requirement_container_meta:46e48e8f-0388-4ac3-a845-1a35f1281fcb] = [groups:][instances:]
+  is_hidden = false
+  automated_button_clicks = 0
+}
+
+element {
+  color = #FFFFFF
+  element_type = drippy_vanilla_bar
+  instance_identifier = 5c292da9-d41e-40bf-8300-98baff0a591c
+  custom_element_layer_name = Native Mojang Loading Bar
+  anchor_point = mid-centered
+  x = -82
+  y = 67
+  width = 164
+  height = 10
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  auto_sizing = false
+  auto_sizing_base_screen_width = 0
+  auto_sizing_base_screen_height = 0
+  auto_sizing_base_gui_scale = 0.0
+  auto_sizing_base_gui_width = 0
+  auto_sizing_base_gui_height = 0
+  element_loading_requirement_container_identifier = 39960630-24c3-4393-9a1f-73c872810eb9
+  [loading_requirement_container_meta:39960630-24c3-4393-9a1f-73c872810eb9] = [groups:][instances:]
+  is_hidden = false
+  automated_button_clicks = 0
+}
+
+vanilla_button {
+  button_element_executable_block_identifier = 4f3bcc56-7721-4743-9e33-898337a8b151
+  [executable_block:4f3bcc56-7721-4743-9e33-898337a8b151][type:generic] = [executables:]
+  restartbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  navigatable = true
+  widget_active_state_requirement_container_identifier = 79fa3696-d606-47f3-b869-88f1c7728332
+  [loading_requirement_container_meta:79fa3696-d606-47f3-b869-88f1c7728332] = [groups:][instances:]
+  is_template = false
+  template_apply_width = false
+  template_apply_height = false
+  template_apply_posx = false
+  template_apply_posy = false
+  template_apply_opacity = false
+  template_apply_visibility = false
+  template_apply_label = false
+  template_share_with = buttons
+  nine_slice_slider_handle = false
+  nine_slice_slider_handle_border_x = 5
+  nine_slice_slider_handle_border_y = 5
+  element_type = vanilla_button
+  instance_identifier = mojang_logo
+  is_hidden = true
+  automated_button_clicks = 0
+  element_loading_requirement_container_identifier = ba1b7322-8383-4b7f-b325-99828c728b58
+  [loading_requirement_container_meta:ba1b7322-8383-4b7f-b325-99828c728b58] = [groups:][instances:]
+}
+
+vanilla_button {
+  button_element_executable_block_identifier = f8ec655f-0582-497b-b99a-d2ca6510b200
+  [executable_block:f8ec655f-0582-497b-b99a-d2ca6510b200][type:generic] = [executables:]
+  restartbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  navigatable = true
+  widget_active_state_requirement_container_identifier = 77ab135d-af9a-4185-b9fd-586c41aacf69
+  [loading_requirement_container_meta:77ab135d-af9a-4185-b9fd-586c41aacf69] = [groups:][instances:]
+  is_template = false
+  template_apply_width = false
+  template_apply_height = false
+  template_apply_posx = false
+  template_apply_posy = false
+  template_apply_opacity = false
+  template_apply_visibility = false
+  template_apply_label = false
+  template_share_with = buttons
+  nine_slice_slider_handle = false
+  nine_slice_slider_handle_border_x = 5
+  nine_slice_slider_handle_border_y = 5
+  element_type = vanilla_button
+  instance_identifier = progress_bar
+  is_hidden = true
+  automated_button_clicks = 0
+  element_loading_requirement_container_identifier = 10bb68c5-07be-4eba-b0c6-30703c53f6e2
+  [loading_requirement_container_meta:10bb68c5-07be-4eba-b0c6-30703c53f6e2] = [groups:][instances:]
+}

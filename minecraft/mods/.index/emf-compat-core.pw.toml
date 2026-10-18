@@ -1,25 +1,21 @@
-filename = 'emf_compat_core-1.1.2.jar'
+filename = 'emf_compat_core_neoforge_1.21.1_2.3.2.jar'
 name = 'EMF Compat: Core'
 side = ''
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'emf_compat_core-1.1.2.jar'
+x-prismlauncher-version-number = 'emf_compat_core_neoforge_1.21.1_2.3.2.jar'
 
 [download]
-hash = '7be5a9ff84190987761199b6fc570b474f93f20e'
+hash = '67e4a92e2df2a2b86a655cfc081d971a81f5a9f8'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 8610037
+file-id = 9205847
 project-id = 1605113
 
 [[x-prismlauncher-dependencies]]
 addonId = '844662'
-type = 'REQUIRED'
-
-[[x-prismlauncher-dependencies]]
-addonId = '568563'
 type = 'REQUIRED'

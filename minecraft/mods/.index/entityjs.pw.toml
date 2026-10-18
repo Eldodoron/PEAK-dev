@@ -1,25 +1,25 @@
-filename = 'entityjs-1.5.0.jar'
+filename = 'entityjs-1.5.2.jar'
 name = 'EntityJS'
 side = 'server'
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'entityjs-1.5.0.jar'
+x-prismlauncher-version-number = 'entityjs-1.5.2.jar'
 
 [download]
-hash = 'f3b58ad02bf9ca5db58ce1a8401eb561d63d855e'
+hash = 'a074823b0e207fd0aeff04d2b90055a023e22f94'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 8540969
+file-id = 9021968
 project-id = 967617
 
 [[x-prismlauncher-dependencies]]
-addonId = '388172'
+addonId = '238086'
 type = 'REQUIRED'
 
 [[x-prismlauncher-dependencies]]
-addonId = '238086'
+addonId = '388172'
 type = 'REQUIRED'
