@@ -36,7 +36,7 @@
   "stonecutter": true,
   "lectern": true,
   "inventory": true,
-  "creativeInventory": true,
+  "creativeInventory": false,
   "renderScalePercent": 100,
   "useLinearFiltering": false,
   "useAnisotropicFiltering": false,

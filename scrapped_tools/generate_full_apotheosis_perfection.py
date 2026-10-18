@@ -15,9 +15,7 @@ def generate_shears_override():
         data = json.loads(z.read('data/apotheosis/rarity_override/apotheosis/shears.json').decode('utf-8'))
     
     # Add Nadir tiers (shears have no abilities)
-    data['overrides']['nadir:worthless'] = [
-        {"type": "apotheosis:socket", "min": 0, "max": 0}
-    ]
+    data['overrides']['nadir:worthless'] = []
     for r in ['nadir:ancient', 'nadir:forgotten', 'nadir:primal']:
         data['overrides'][r] = [
             {"type": "apotheosis:socket", "min": 1, "max": 1},
@@ -252,7 +250,7 @@ def generate_irons_apothic_overrides():
         staff_data = json.loads(z.read('data/irons_apothic/rarity_override/irons_apothic/staff.json').decode('utf-8'))
     
     # Staves have no Nadir affixes, so grant pure bonus sockets for Nadir tiers
-    staff_data['overrides']['nadir:worthless'] = [{"type": "apotheosis:socket", "min": 0, "max": 0}]
+    staff_data['overrides']['nadir:worthless'] = []
     staff_data['overrides']['nadir:ancient'] = [{"type": "apotheosis:socket", "min": 1, "max": 2}]
     staff_data['overrides']['nadir:forgotten'] = [{"type": "apotheosis:socket", "min": 2, "max": 2}]
     staff_data['overrides']['nadir:primal'] = [{"type": "apotheosis:socket", "min": 2, "max": 3}]
@@ -271,7 +269,7 @@ def generate_irons_apothic_overrides():
         spellbook_data = json.loads(z.read('data/irons_apothic/rarity_override/irons_apothic/spellbook.json').decode('utf-8'))
     
     # Spellbooks have no Nadir affixes, so grant bonus sockets for Nadir tiers
-    spellbook_data['overrides']['nadir:worthless'] = [{"type": "apotheosis:socket", "min": 0, "max": 0}]
+    spellbook_data['overrides']['nadir:worthless'] = []
     spellbook_data['overrides']['nadir:ancient'] = [{"type": "apotheosis:socket", "min": 1, "max": 2}]
     spellbook_data['overrides']['nadir:forgotten'] = [{"type": "apotheosis:socket", "min": 2, "max": 2}]
     spellbook_data['overrides']['nadir:primal'] = [{"type": "apotheosis:socket", "min": 2, "max": 3}]

@@ -31,7 +31,8 @@ DEAD_PIDS = {1277910}
 
 UPDATED_FILES = {
     1040076: 9128508,  # IceAndFire Community Edition -> 2.1.4
-    1559657: 9099698   # Yet Another Gravestone [YAGM] -> 0.1.5
+    1559657: 9099698,  # Yet Another Gravestone [YAGM] -> 0.1.5
+    1676741: 9228021   # Spatial GUI -> 1.8
 }
 
 LITE_EXCLUDED_PIDS = {
@@ -101,6 +102,12 @@ def collect_overrides(mc_dir, is_lite=False):
                     text = re.sub(r"lodChunkRenderDistanceRadius\s*=\s*\d+", "lodChunkRenderDistanceRadius = 32", text)
                     content = text.encode("utf-8")
 
+                # For Lite, turn on Better Combat weapon swing animations in first person
+                if is_lite and entry_name == "overrides/config/bettercombat/client.json5":
+                    text = content.decode("utf-8", errors="replace")
+                    text = re.sub(r'"firstPersonAnimations"\s*:\s*"[^"]*"', '"firstPersonAnimations": "YES"', text)
+                    content = text.encode("utf-8")
+
                 # Enforce FancyMenu modpack lock mode and suppress welcome screen in exported packs
                 if entry_name == "overrides/config/fancymenu/options.txt":
                     text = content.decode("utf-8", errors="replace")
@@ -116,7 +123,11 @@ def collect_overrides(mc_dir, is_lite=False):
             opt_content = f_in.read()
         if opt_content.startswith(b"\xef\xbb\xbf"):
             opt_content = opt_content[3:]
-        entries["overrides/options.txt"] = opt_content
+        # Sanitize options.txt to ensure standard vanilla movement controls
+        opt_text = opt_content.decode("utf-8", errors="replace")
+        opt_text = re.sub(r"^key_key\.sneak:.*$", "key_key.sneak:key.keyboard.left.shift", opt_text, flags=re.MULTILINE)
+        opt_text = re.sub(r"^key_key\.sprint:.*$", "key_key.sprint:key.keyboard.left.control", opt_text, flags=re.MULTILINE)
+        entries["overrides/options.txt"] = opt_text.encode("utf-8")
 
     return entries
 
@@ -299,7 +310,9 @@ def build_lite_pack(dev_manifest, dev_modlist_lines, logo_bytes):
         assert len(jars) == 0, f"Found loose jars: {jars}"
         dh_raw = zver.read("overrides/config/DistantHorizons.toml").decode("utf-8")
         assert "lodChunkRenderDistanceRadius = 32" in dh_raw, "DH radius in Lite is not 32!"
-    print("Lite Alpha 2b Package Verified Successfully (Including DistantHorizons = 32)!")
+        bc_raw = zver.read("overrides/config/bettercombat/client.json5").decode("utf-8")
+        assert '"firstPersonAnimations": "YES"' in bc_raw, "Better Combat first person animations not enabled in Lite!"
+    print("Lite Alpha 2b Package Verified Successfully (Including DistantHorizons = 32 and Better Combat Animations = YES)!")
 
 if __name__ == "__main__":
     dev_manifest, dev_modlist_lines, logo_bytes = build_dev_pack()

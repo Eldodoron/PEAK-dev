@@ -333,6 +333,28 @@ def configure_lite_distant_horizons(dry_run=False):
     except Exception as e:
         print(f"  [Warning] Distant Horizons config adjustment error: {e}")
 
+def configure_lite_better_combat(dry_run=False):
+    """Enables Better Combat first-person weapon swing animations for PEAK-Lite."""
+    lite_bc_config = os.path.join(LITE_MC, "config", "bettercombat", "client.json5")
+    assert_safe_target_path(lite_bc_config)
+    if not os.path.exists(lite_bc_config):
+        return
+    try:
+        with open(lite_bc_config, "r", encoding="utf-8") as f:
+            content = f.read()
+        import re
+        new_content = re.sub(
+            r'"firstPersonAnimations"\s*:\s*"[^"]*"',
+            '"firstPersonAnimations": "YES"',
+            content
+        )
+        if not dry_run and new_content != content:
+            with open(lite_bc_config, "w", encoding="utf-8") as f:
+                f.write(new_content)
+            print("   Config: Better Combat firstPersonAnimations set to YES for PEAK-Lite.")
+    except Exception as e:
+        print(f"  [Warning] Better Combat config adjustment error: {e}")
+
 # -----------------------------------------------------------------------------
 # Main Synchronization Runner
 # -----------------------------------------------------------------------------
@@ -408,6 +430,8 @@ def run_sync(dry_run=False):
     sync_paxi_load_order(exclusions, dry_run=dry_run)
     # Ensure Distant Horizons LOD radius is capped at 32 for Lite performance
     configure_lite_distant_horizons(dry_run=dry_run)
+    # Ensure Better Combat first person weapon animations are enabled for Lite
+    configure_lite_better_combat(dry_run=dry_run)
     print(f"   Config: +{c} added, ~{u} updated, -{d} removed")
 
     # 4. Sync DataPacks, DefaultConfigs, Blueprints, FancyMenu Data

@@ -30,25 +30,31 @@ ItemEvents.modification(event => {
 
     // Weapons - Gauntlets
     event.modify('block_factorys_bosses:sandworm_gauntlet', item => {
-        item.setAttackDamage(25);
+        item.setAttackDamage(22);
+        item.setAttackSpeed(-2.8);
     });
     event.modify('block_factorys_bosses:ice_gauntlet', item => {
-        item.setAttackDamage(25);
+        item.setAttackDamage(22);
+        item.setAttackSpeed(-2.8);
     });
 
     // Weapons - Trident
     event.modify('block_factorys_bosses:kraken_trident', item => {
         item.setAttackDamage(16);
+        item.setAttackSpeed(-2.9);
     });
 
     // Weapons - Swords
     event.modify('block_factorys_bosses:large_sword', item => {
         item.setAttackDamage(12);
+        item.setAttackSpeed(-2.8);
     });
     event.modify('block_factorys_bosses:knight_sword', item => {
         item.setAttackDamage(10);
+        item.setAttackSpeed(-2.4);
     });
     event.modify('block_factorys_bosses:warrior_sword', item => {
         item.setAttackDamage(10);
+        item.setAttackSpeed(-2.4);
     });
 });

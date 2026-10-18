@@ -95,13 +95,7 @@
                 "max": 2
             }
         ],
-        "nadir:worthless": [
-            {
-                "type": "apotheosis:socket",
-                "min": 0,
-                "max": 0
-            }
-        ],
+        "nadir:worthless": [],
         "nadir:ancient": [
             {
                 "type": "apotheosis:socket",

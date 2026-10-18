@@ -71,13 +71,7 @@ def fix_nadir_rarities():
 def fix_curio_rarity_overrides():
     print("Fixing Apothic Compats curio rarity overrides (14 categories)...")
     curio_overrides_to_add = {
-        "nadir:worthless": [
-            {
-                "type": "apotheosis:socket",
-                "min": 0,
-                "max": 0
-            }
-        ],
+        "nadir:worthless": [],
         "nadir:ancient": [
             {
                 "type": "apotheosis:socket",

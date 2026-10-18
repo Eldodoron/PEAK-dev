@@ -41,7 +41,7 @@
 
 [ui]
 	#Whether to show the group manager button in the JEI ingredient list overlay.
-	showManagerButton = true
+	showManagerButton = false
 	#Whether grouped JEI slots draw a semi-transparent background tint.
 	#Set to false to keep group backgrounds fully transparent while preserving the +/- indicator and borders.
 	showGroupBackgrounds = true
