@@ -39,40 +39,52 @@ try {
     let GameRules = Java.loadClass('net.minecraft.world.level.GameRules');
 
     NativeEvents.onEvent(EventPriority.HIGH, LivingDeathEvent, event => {
-        let entity = event.entity;
-        if (!entity || !entity.isPlayer()) return;
-        if (event.isCanceled()) return;
-
-        let player = entity;
-        let level = player.level();
-        if (!level || level.isClientSide()) return;
-        if (player.isSpectator()) return;
-
-        // Skip penalty if keepInventory gamerule is enabled
         try {
-            if (level.getGameRules().getBoolean(GameRules.RULE_KEEPINVENTORY)) return;
-        } catch (e) {}
+            let entity = event.entity;
+            if (!entity || !entity.isPlayer()) return;
+            if (event.canceled || (event.isCanceled && event.isCanceled())) return;
 
-        // Skip penalty if Twilight Forest Charm of Keeping suppresses grave creation
-        try {
-            let tfEventsClass = Java.loadClass('it.hurts.sskirillss.yagm.neoforge.compat.twilight.TwilightForestNeoForgeEvents');
-            let ServerPlayerClass = Java.loadClass('net.minecraft.server.level.ServerPlayer');
-            let suppressMethod = tfEventsClass.getDeclaredMethod('SuppressGrave', ServerPlayerClass);
-            suppressMethod.setAccessible(true);
-            if (suppressMethod.invoke(null, player)) return;
-        } catch (e) {}
+            let player = entity;
+            let level = player.level;
+            if (!level || level.clientSide) return;
+            if (player.spectator || (player.isSpectator && player.isSpectator())) return;
 
-        let totalXp = getTotalPlayerXp(player.experienceLevel, player.experienceProgress);
-        if (totalXp > 0) {
-            let retainedXp = Math.floor(totalXp * XP_RETENTION_RATIO);
-            let decoded = decodeTotalXp(retainedXp);
+            // Skip penalty if keepInventory gamerule is enabled
+            try {
+                let gr = level.gameRules || level.getGameRules();
+                if (gr && gr.getBoolean(GameRules.RULE_KEEPINVENTORY)) return;
+            } catch (e) {}
 
-            player.setExperienceLevels(decoded.level);
-            player.setExperiencePoints(decoded.points);
-            player.experienceProgress = decoded.progress;
-            player.totalExperience = retainedXp;
+            // Skip penalty if Twilight Forest Charm of Keeping suppresses grave creation
+            try {
+                let tfEventsClass = Java.loadClass('it.hurts.sskirillss.yagm.neoforge.compat.twilight.TwilightForestNeoForgeEvents');
+                let ServerPlayerClass = Java.loadClass('net.minecraft.server.level.ServerPlayer');
+                let suppressMethod = tfEventsClass.getDeclaredMethod('SuppressGrave', ServerPlayerClass);
+                suppressMethod.setAccessible(true);
+                if (suppressMethod.invoke(null, player)) return;
+            } catch (e) {}
 
-            player.tell(Text.darkRed('Death Penalty: ').append(Text.gray('20% of your experience was lost to the grave.')));
+            let totalXp = getTotalPlayerXp(player.experienceLevel, player.experienceProgress);
+            if (totalXp > 0) {
+                let retainedXp = Math.floor(totalXp * XP_RETENTION_RATIO);
+                let decoded = decodeTotalXp(retainedXp);
+
+                if (player.setExperienceLevels) {
+                    player.setExperienceLevels(decoded.level);
+                } else {
+                    player.experienceLevel = decoded.level;
+                }
+
+                if (player.setExperiencePoints) {
+                    player.setExperiencePoints(decoded.points);
+                }
+                player.experienceProgress = decoded.progress;
+                player.totalExperience = retainedXp;
+
+                player.tell(Text.darkRed('Death Penalty: ').append(Text.gray('20% of your experience was lost to the grave.')));
+            }
+        } catch (err) {
+            console.error('Error handling YAGM XP death penalty: ' + err);
         }
     });
 } catch (err) {

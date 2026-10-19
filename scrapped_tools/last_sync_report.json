@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-19 03:34:30",
+  "timestamp": "2026-10-19 03:51:35",
   "dry_run": false,
   "mods": {
     "created": 0,
@@ -7,13 +7,13 @@
     "deleted": 0
   },
   "kubejs": {
-    "created": 1,
-    "updated": 0,
+    "created": 2,
+    "updated": 1,
     "deleted": 0
   },
   "config": {
-    "created": 1,
-    "updated": 10,
+    "created": 0,
+    "updated": 11,
     "deleted": 0
   },
   "datapacks": {
@@ -41,8 +41,8 @@
     "updated": 0,
     "deleted": 0
   },
-  "duration_seconds": 13.95,
+  "duration_seconds": 11.59,
   "total_added": 2,
-  "total_updated": 10,
+  "total_updated": 12,
   "total_pruned": 0
 }
