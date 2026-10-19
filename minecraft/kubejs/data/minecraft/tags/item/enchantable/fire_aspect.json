@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "remove": [
+    "block_factorys_bosses:ice_gauntlet"
+  ],
+  "values": [
+    "block_factorys_bosses:sandworm_gauntlet"
+  ]
+}

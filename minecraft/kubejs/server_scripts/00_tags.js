@@ -65,6 +65,41 @@ ServerEvents.tags('item', event => {
 
     // Dragon scale tag unification
     event.add('c:dragon_scales', ['dragonloot:dragon_scale', 'kubejs:draconic_scale']);
+
+    // Sirok (Sandworm Gauntlet) and Ice Gauntlet enchantability and weapon unifications
+    event.add('minecraft:enchantable/durability', [
+        'block_factorys_bosses:sandworm_gauntlet',
+        'block_factorys_bosses:ice_gauntlet'
+    ]);
+    event.add('minecraft:enchantable/weapon', [
+        'block_factorys_bosses:sandworm_gauntlet',
+        'block_factorys_bosses:ice_gauntlet'
+    ]);
+    event.add('minecraft:enchantable/sharp_weapon', [
+        'block_factorys_bosses:sandworm_gauntlet',
+        'block_factorys_bosses:ice_gauntlet'
+    ]);
+    event.add('minecraft:enchantable/sword', [
+        'block_factorys_bosses:sandworm_gauntlet',
+        'block_factorys_bosses:ice_gauntlet'
+    ]);
+    event.add('minecraft:swords', [
+        'block_factorys_bosses:ice_gauntlet'
+    ]);
+    event.add('c:tools/melee_weapon', [
+        'block_factorys_bosses:sandworm_gauntlet',
+        'block_factorys_bosses:ice_gauntlet'
+    ]);
+    event.add('c:weapons', [
+        'block_factorys_bosses:sandworm_gauntlet',
+        'block_factorys_bosses:ice_gauntlet'
+    ]);
+    event.add('minecraft:enchantable/fire_aspect', [
+        'block_factorys_bosses:sandworm_gauntlet'
+    ]);
+    event.remove('minecraft:enchantable/fire_aspect', [
+        'block_factorys_bosses:ice_gauntlet'
+    ]);
 });
 
 // Boss entity tag unifications for Boss Rifts and common compat
