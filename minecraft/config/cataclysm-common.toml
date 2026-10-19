@@ -244,7 +244,7 @@
 			#Tool attack damage
 			# Default: 8.5
 			# Range: 0.0 ~ 1000000.0
-			attack_damage = 20.0
+			attack_damage = 30.0
 			#Tool attack speed
 			# Default: 1.6
 			# Range: 0.0 ~ 1000000.0
