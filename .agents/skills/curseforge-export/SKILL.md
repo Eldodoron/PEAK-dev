@@ -9,6 +9,15 @@ This skill provides the required procedures, verification scripts, and automated
 
 ---
 
+## 0. Prerequisite: Strict Explicit User Directive Required
+
+Building, rebuilding, or packaging modpack export archives (`scrapped_tools/build_export_alpha2.py`, `Peak-*.zip`) creates production release files and stages them for upload.
+
+* **NEVER** run export packaging scripts autonomously as a "routine check", cleanup step, or general post-fix validation.
+* Packaging scripts must **ONLY** be invoked when the user explicitly states that an export or build of the packages is being performed.
+
+---
+
 ## 1. Automated Manifest Sanitization (BOM Stripping)
 
 CurseForge's backend uses a C#/.NET JSON parser (Newtonsoft.Json) that crashes if `manifest.json` starts with an invisible UTF-8 Byte Order Mark (`\xEF\xBB\xBF`):
@@ -183,5 +192,21 @@ def sanitize_options_txt(opt_content):
         
     return ("\n".join(clean_lines) + "\n").encode("utf-8")
 ```
+
+---
+
+## 7. PEAK-Lite Better Combat First-Person Swing Animations
+
+### Invariant & Context
+- **PEAK-dev** includes the `Punchy!` mod (`punchy-neoforge-1.21.1-*.jar`) for first-person weapon attack animations. As a result, Better Combat's built-in first-person animations setting (`firstPersonAnimations` in `config/bettercombat/client.json5`) is set to `"NO"` in PEAK-dev to prevent visual jitter and animation double-rendering.
+- **PEAK-Lite** excludes `Punchy!` (as part of lightweight client optimization). Without Punchy, PEAK-Lite players would have completely static weapon models during Better Combat attacks if `firstPersonAnimations` remained `"NO"`.
+- Therefore, PEAK-Lite must always have Better Combat's first-person animations active (`"firstPersonAnimations": "YES"`).
+
+### Automated Enforcement
+- **`scrapped_tools/sync_to_lite.py`**:
+  Contains `configure_lite_better_combat()` which automatically enforces `"firstPersonAnimations": "YES"` inside `PEAK-Lite/minecraft/config/bettercombat/client.json5` whenever synchronizing from dev.
+- **`scrapped_tools/build_export_alpha2.py`**:
+  Verifies that `overrides/config/bettercombat/client.json5` has `"firstPersonAnimations": "YES"` when packaging `Peak-Lite-alpha2b.zip`.
+
 
 

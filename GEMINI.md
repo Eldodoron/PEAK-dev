@@ -68,6 +68,7 @@
 - **No Fragile Embeds for Asset Comparisons:** Avoid relying on `<agent-embed>` or requiring the user to navigate to external HTML artifacts just to inspect visual proposals. Always generate nearest-neighbor upscaled previews (e.g. 256×256) and display them inline in the chat alongside concise bullet points for immediate review.
 
 ## 11. Modpack Export & CurseForge Invariants
+- **Strict Prohibition on Unsolicited Export Builds:** **NEVER** execute packaging or export scripts (e.g. `scrapped_tools/build_export_alpha2.py` or generating `PackExports/*.zip`) autonomously or as a routine verification step during feature development, balancing, or debugging. Building or rebuilding export packages is strictly reserved for when the user explicitly commands an export.
 - **Strict Pure UTF-8 (No BOM):** `manifest.json`, `modlist.html`, and all exported datapack/config JSON/TOML/SNBT files **MUST NEVER** contain a UTF-8 Byte Order Mark (`\xEF\xBB\xBF`). `manifest.json` must always begin directly with `{` (`0x7B`). Never use default Windows PowerShell `Out-File` or `Set-Content` without BOM-stripping verification.
 - **Zero Loose JARs in Overrides:** Mod files (`.jar`) must **NEVER** reside inside `overrides/mods/`. Every active mod must be mapped to valid integer `projectID` and `fileID` entries in `manifest.json`.
 - **Dead Project Verification:** Before exporting, verify that every `projectID` in `manifest.json` corresponds to an active, approved CurseForge project. Purge deleted or unapproved project IDs (e.g. `1277910`).
