@@ -72,6 +72,7 @@
 - **Zero Loose JARs in Overrides:** Mod files (`.jar`) must **NEVER** reside inside `overrides/mods/`. Every active mod must be mapped to valid integer `projectID` and `fileID` entries in `manifest.json`.
 - **Dead Project Verification:** Before exporting, verify that every `projectID` in `manifest.json` corresponds to an active, approved CurseForge project. Purge deleted or unapproved project IDs (e.g. `1277910`).
 - **Autonomous Browser Upload Staging:** When delegating file uploads to the browser subagent, always stage the upload file inside the system temp directory (`os.tmpdir()` / `%TEMP%`) to satisfy `chrome_devtools` MCP workspace root requirements.
+- **Zero Personal Keybinds in Overrides:** NEVER export developer-specific vanilla keybinds (walk, sprint, crouch/sneak, jump, perspective toggle, inventory, attack, use, swap offhand, hotbar slots) in `overrides/options.txt`. Strip all vanilla player key mapping lines during packaging so Minecraft initializes standard defaults and does not overwrite user controls upon modpack updates.
 
 ## 12. Modpack Project Description Protection & Scope Confinement
 - **Strict Prohibition on Modifying Project Page Descriptions:** **NEVER** edit, overwrite, update, or alter the main modpack project description on CurseForge (`/description`), Modrinth, or any platform unless the user explicitly commands an exact description edit with verbatim text.

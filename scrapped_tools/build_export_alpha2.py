@@ -64,6 +64,43 @@ IGNORED_EXTENSIONS = {".bak", ".tmp", ".log"}
 IGNORED_CONFIG_DIRS = {"panoptic", "crafttweaker", "search_index"}
 IGNORED_CONFIG_FILES = {"panoptic-common.toml", "smoothswapping.json", "fm_data.db"}
 
+VANILLA_KEYBINDS = {
+    "key_key.attack",
+    "key_key.use",
+    "key_key.forward",
+    "key_key.left",
+    "key_key.back",
+    "key_key.right",
+    "key_key.jump",
+    "key_key.sneak",
+    "key_key.sprint",
+    "key_key.drop",
+    "key_key.inventory",
+    "key_key.chat",
+    "key_key.playerlist",
+    "key_key.pickItem",
+    "key_key.command",
+    "key_key.socialInteractions",
+    "key_key.screenshot",
+    "key_key.togglePerspective",
+    "key_key.smoothCamera",
+    "key_key.fullscreen",
+    "key_key.spectatorOutlines",
+    "key_key.swapOffhand",
+    "key_key.saveToolbarActivator",
+    "key_key.loadToolbarActivator",
+    "key_key.advancements",
+    "key_key.hotbar.1",
+    "key_key.hotbar.2",
+    "key_key.hotbar.3",
+    "key_key.hotbar.4",
+    "key_key.hotbar.5",
+    "key_key.hotbar.6",
+    "key_key.hotbar.7",
+    "key_key.hotbar.8",
+    "key_key.hotbar.9"
+}
+
 def collect_overrides(mc_dir, is_lite=False):
     """Walks override folders and collects file entries, stripping BOMs and preventing loose jars."""
     entries = {}
@@ -123,11 +160,17 @@ def collect_overrides(mc_dir, is_lite=False):
             opt_content = f_in.read()
         if opt_content.startswith(b"\xef\xbb\xbf"):
             opt_content = opt_content[3:]
-        # Sanitize options.txt to ensure standard vanilla movement controls
+        # Strip common vanilla player keybinds so developer controls are never exported,
+        # allowing Minecraft to initialize standard defaults and preserve player keybinds on updates.
         opt_text = opt_content.decode("utf-8", errors="replace")
-        opt_text = re.sub(r"^key_key\.sneak:.*$", "key_key.sneak:key.keyboard.left.shift", opt_text, flags=re.MULTILINE)
-        opt_text = re.sub(r"^key_key\.sprint:.*$", "key_key.sprint:key.keyboard.left.control", opt_text, flags=re.MULTILINE)
-        entries["overrides/options.txt"] = opt_text.encode("utf-8")
+        clean_lines = []
+        for line in opt_text.splitlines():
+            line_clean = line.strip()
+            key_name = line_clean.split(":", 1)[0].strip() if ":" in line_clean else ""
+            if key_name in VANILLA_KEYBINDS:
+                continue
+            clean_lines.append(line)
+        entries["overrides/options.txt"] = ("\n".join(clean_lines) + "\n").encode("utf-8")
 
     return entries
 

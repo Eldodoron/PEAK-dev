@@ -115,3 +115,73 @@ When publishing files via CurseForge automation:
   - **NEVER** switch the main project description editor format to Markdown.
   - The project's main description is handcrafted in rich WYSIWYG HTML with custom styling and palette colors (`#2dc26b`, `#f1c40f`) and must remain completely untouched.
 
+---
+
+## 6. Personal Keybind Sanitization (`overrides/options.txt`)
+
+When exporting modpack ZIP files for CurseForge, **NEVER** export common vanilla player keybinds (e.g. movement, sprint, crouch/sneak, jump, inventory, perspective toggle, attack, use, swap offhand, hotbar slots) configured in the local development environment.
+
+### Invariant & Rationale
+- If developer-specific or non-standard keybindings (such as sneak on `X` or sprint on `Shift`) are included in `overrides/options.txt`, CurseForge will extract them into the user's Minecraft directory, overwriting their personal control scheme whenever they install or update the modpack.
+- Modded keybinds (such as FTB Quests, Create, Jade, Wands, Spatial GUI) **should** be preserved in `overrides/options.txt` so intentional modpack key conflict resolutions remain functional.
+- Common vanilla player keybinds must be stripped from `overrides/options.txt` during export. When omitted, Minecraft automatically falls back to standard vanilla defaults on new installations and leaves existing player controls untouched across updates.
+
+### List of Stripped Vanilla Key Identifiers
+```python
+VANILLA_KEYBINDS = {
+    "key_key.attack",
+    "key_key.use",
+    "key_key.forward",
+    "key_key.left",
+    "key_key.back",
+    "key_key.right",
+    "key_key.jump",
+    "key_key.sneak",
+    "key_key.sprint",
+    "key_key.drop",
+    "key_key.inventory",
+    "key_key.chat",
+    "key_key.playerlist",
+    "key_key.pickItem",
+    "key_key.command",
+    "key_key.socialInteractions",
+    "key_key.screenshot",
+    "key_key.togglePerspective",
+    "key_key.smoothCamera",
+    "key_key.fullscreen",
+    "key_key.spectatorOutlines",
+    "key_key.swapOffhand",
+    "key_key.saveToolbarActivator",
+    "key_key.loadToolbarActivator",
+    "key_key.advancements",
+    "key_key.hotbar.1",
+    "key_key.hotbar.2",
+    "key_key.hotbar.3",
+    "key_key.hotbar.4",
+    "key_key.hotbar.5",
+    "key_key.hotbar.6",
+    "key_key.hotbar.7",
+    "key_key.hotbar.8",
+    "key_key.hotbar.9"
+}
+```
+
+### Python Sanitization Snippet
+```python
+def sanitize_options_txt(opt_content):
+    if opt_content.startswith(b"\xef\xbb\xbf"):
+        opt_content = opt_content[3:]
+    opt_text = opt_content.decode("utf-8", errors="replace")
+    
+    clean_lines = []
+    for line in opt_text.splitlines():
+        line_clean = line.strip()
+        key_name = line_clean.split(":", 1)[0].strip() if ":" in line_clean else ""
+        if key_name in VANILLA_KEYBINDS:
+            continue
+        clean_lines.append(line)
+        
+    return ("\n".join(clean_lines) + "\n").encode("utf-8")
+```
+
+
