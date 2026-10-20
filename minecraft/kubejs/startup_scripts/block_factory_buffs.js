@@ -10,7 +10,7 @@ ItemEvents.modification(event => {
             // Remove existing attribute modifiers to prevent stacking
             item.remove(DataComponents.ATTRIBUTE_MODIFIERS);
 
-            // Add our new modifiers
+            // Attach rebalanced attribute modifiers
             item.addAttributeModifier(Attributes.ARMOR, new AttributeModifier(ResourceLocation.parse("kubejs:armor"), armor, AttributeModifier.Operation.ADD_VALUE), slotGroup);
             
             if (toughness > 0) {

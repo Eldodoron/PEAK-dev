@@ -46,7 +46,7 @@ ServerEvents.recipes(event => {
 
     // ==========================================
     // SECTION 2: IE MACHINES NEED CREATE + TFMG
-    // IE is the SECOND tech era. You can't skip Create.
+    // Tier 2 Technology: Gates Immersive Engineering apparatus behind Create progression.
     // ==========================================
 
     // IE Workbench (the crafting station) needs Create basics
@@ -175,7 +175,7 @@ ServerEvents.recipes(event => {
 
     // ==========================================
     // SECTION 4: IE GENERATORS NEED TFMG/CREATE
-    // Power generation should feel earned
+    // Gates Immersive Engineering kinetic power generation behind Create mechanical components.
     // ==========================================
 
     // Dynamo (basic IE power) requires Create rotation
@@ -305,7 +305,7 @@ ServerEvents.recipes(event => {
 
 // ==========================================
     // SECTION 10: BUILDING WANDS & UTILITY
-    // Quality of life items should feel earned
+    // Gates utility building wands behind Create materials.
     // ==========================================
 
     // Building Wands require Create components
@@ -347,8 +347,7 @@ ServerEvents.recipes(event => {
     // ==========================================
 
     // --- SAFE TIER UPGRADES (Keep NBT/Data Components via Sequenced Assembly) ---
-    // Instead of Mechanical Crafters or overriding the standard recipe (which wipes NBT), 
-    // we use Sequenced Assembly. The base backpack is the transitional item, so its NBT is preserved!
+    // Preserves backpack item components/NBT by utilizing Sequenced Assembly with the base backpack as the transitional item.
 
     // 0. Remove Default Upgrades (they use a custom recipe type or smithing)
     // Remove by exact ID to catch standard crafting/smithing recipes
@@ -357,7 +356,7 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'sophisticatedbackpacks:gold_backpack' });
     event.remove({ id: 'sophisticatedbackpacks:diamond_backpack' });
     event.remove({ id: 'sophisticatedbackpacks:netherite_backpack' });
-    // Also remove the old custom types just in case
+    // Remove legacy custom backpack upgrade recipe types across all tiers.
     event.remove({ output: 'sophisticatedbackpacks:copper_backpack', type: 'sophisticatedbackpacks:backpack_upgrade' });
     event.remove({ output: 'sophisticatedbackpacks:iron_backpack', type: 'sophisticatedbackpacks:backpack_upgrade' });
     event.remove({ output: 'sophisticatedbackpacks:gold_backpack', type: 'sophisticatedbackpacks:backpack_upgrade' });

@@ -1,0 +1,1006 @@
+{
+  "surgical_findings": [
+    {
+      "file": "minecraft/kubejs/client_scripts/apokinetics_unregister.js",
+      "line": 3,
+      "content": "// Surgically unregister Apokinetics donation prompt from NeoForge event bus",
+      "matches": [
+        "ly"
+      ]
+    },
+    {
+      "file": "minecraft/kubejs/client_scripts/apokinetics_unregister.js",
+      "line": 11,
+      "content": "console.info('[PEAK Fix] Surgically unregistered com.fishguy129.apokinetics.client.DonationPromptClient to silence donation prompts.');",
+      "matches": [
+        "ly"
+      ]
+    },
+    {
+      "file": "minecraft/kubejs/startup_scripts/apokinetics_unregister.js",
+      "line": 3,
+      "content": "// Surgically unregister Apokinetics donation prompt from NeoForge event bus",
+      "matches": [
+        "ly"
+      ]
+    },
+    {
+      "file": "minecraft/kubejs/startup_scripts/apokinetics_unregister.js",
+      "line": 11,
+      "content": "console.info('[PEAK Fix] Surgically unregistered com.fishguy129.apokinetics.client.DonationPromptClient to silence donation prompts.');",
+      "matches": [
+        "ly"
+      ]
+    },
+    {
+      "file": "minecraft/kubejs/startup_scripts/fix_malum_watchdog.js",
+      "line": 5,
+      "content": "// This script surgically unregisters Malum's RuntimeEvents class",
+      "matches": [
+        "ly"
+      ]
+    },
+    {
+      "file": "minecraft/kubejs/startup_scripts/fix_malum_watchdog.js",
+      "line": 13,
+      "content": "console.info('[PEAK Fix] Surgically unregistered com.sammy.malum.events.RuntimeEvents to prevent watchdog hangs.');",
+      "matches": [
+        "ly"
+      ]
+    },
+    {
+      "file": "minecraft/config/ftbquests/quests/lang/en_us.snbt",
+      "line": 1810,
+      "content": "quest.4103000000000020.quest_subtitle: \"Filter, extract, and sort with surgical precision.\"",
+      "matches": [
+        ""
+      ]
+    },
+    {
+      "file": "scrapped_tools/curseforge_peak_lite_description.md",
+      "line": 16,
+      "content": "**PEAK Lite** is built specifically to solve this problem. Every single heavy visual engine has been surgically stripped while leaving **100% of the gameplay, progression, questing, and mechanics completely untouched.**",
+      "matches": [
+        "ly"
+      ]
+    },
+    {
+      "file": "DESKTOP/config/ftbquests/quests/lang/en_us.snbt",
+      "line": 1810,
+      "content": "quest.4103000000000020.quest_subtitle: \"Filter, extract, and sort with surgical precision.\"",
+      "matches": [
+        ""
+      ]
+    },
+    {
+      "file": "DESKTOP/kubejs/startup_scripts/fix_malum_watchdog.js",
+      "line": 5,
+      "content": "// This script surgically unregisters Malum's RuntimeEvents class",
+      "matches": [
+        "ly"
+      ]
+    },
+    {
+      "file": "DESKTOP/kubejs/startup_scripts/fix_malum_watchdog.js",
+      "line": 13,
+      "content": "console.info('[PEAK Fix] Surgically unregistered com.sammy.malum.events.RuntimeEvents to prevent watchdog hangs.');",
+      "matches": [
+        "ly"
+      ]
+    }
+  ],
+  "ai_name_findings": [],
+  "credit_findings": [
+    {
+      "file": "minecraft/kubejs/assets/adorablehamsterpets/models/block/sunflower_block_bottom.json",
+      "line": 2,
+      "content": "\"credit\": \"Made with Blockbench\",",
+      "credits": [
+        "Made with Blockbench"
+      ]
+    },
+    {
+      "file": "minecraft/kubejs/assets/adorablehamsterpets/models/block/sunflower_block_top_no_seeds.json",
+      "line": 3,
+      "content": "\"credit\": \"Made with Blockbench\",",
+      "credits": [
+        "Made with Blockbench"
+      ]
+    },
+    {
+      "file": "minecraft/kubejs/assets/adorablehamsterpets/models/block/sunflower_block_top_with_seeds.json",
+      "line": 3,
+      "content": "\"credit\": \"Made with Blockbench\",",
+      "credits": [
+        "Made with Blockbench"
+      ]
+    },
+    {
+      "file": "minecraft/kubejs/assets/cubicleaves/models/block/template_block.json",
+      "line": 2,
+      "content": "\"credit\": \"zanderest\",",
+      "credits": [
+        "zanderest"
+      ]
+    },
+    {
+      "file": "minecraft/kubejs/assets/cubicleaves/models/block/template_block_all.json",
+      "line": 2,
+      "content": "\"credit\": \"zanderest\",",
+      "credits": [
+        "zanderest"
+      ]
+    },
+    {
+      "file": "minecraft/kubejs/assets/cubicleaves/models/block/template_block_all_notint.json",
+      "line": 2,
+      "content": "\"credit\": \"zanderest\",",
+      "credits": [
+        "zanderest"
+      ]
+    },
+    {
+      "file": "minecraft/kubejs/assets/cubicleaves/models/block/template_block_all_overlaid.json",
+      "line": 2,
+      "content": "\"credit\": \"zanderest\",",
+      "credits": [
+        "zanderest"
+      ]
+    },
+    {
+      "file": "minecraft/kubejs/assets/cubicleaves/models/block/template_block_all_overlaid_inversed.json",
+      "line": 2,
+      "content": "\"credit\": \"zanderest\",",
+      "credits": [
+        "zanderest"
+      ]
+    },
+    {
+      "file": "minecraft/kubejs/assets/cubicleaves/models/block/template_block_column.json",
+      "line": 2,
+      "content": "\"credit\": \"zanderest\",",
+      "credits": [
+        "zanderest"
+      ]
+    },
+    {
+      "file": "minecraft/kubejs/assets/cubicleaves/models/block/template_block_column_notint.json",
+      "line": 2,
+      "content": "\"credit\": \"zanderest\",",
+      "credits": [
+        "zanderest"
+      ]
+    },
+    {
+      "file": "minecraft/kubejs/assets/cubicleaves/models/block/template_block_column_overlaid_sides.json",
+      "line": 2,
+      "content": "\"credit\": \"zanderest\",",
+      "credits": [
+        "zanderest"
+      ]
+    },
+    {
+      "file": "minecraft/kubejs/assets/cubicleaves/models/block/template_block_column_overlaid_sides_halftint.json",
+      "line": 2,
+      "content": "\"credit\": \"zanderest\",",
+      "credits": [
+        "zanderest"
+      ]
+    },
+    {
+      "file": "minecraft/kubejs/assets/cubicleaves/models/block/template_block_column_overlaid_sides_horizontal.json",
+      "line": 2,
+      "content": "\"credit\": \"zanderest\",",
+      "credits": [
+        "zanderest"
+      ]
+    },
+    {
+      "file": "minecraft/kubejs/assets/cubicleaves/models/block/template_block_notint.json",
+      "line": 2,
+      "content": "\"credit\": \"zanderest\",",
+      "credits": [
+        "zanderest"
+      ]
+    },
+    {
+      "file": "minecraft/kubejs/assets/cubicleaves/models/block/template_block_overlaid.json",
+      "line": 2,
+      "content": "\"credit\": \"zanderest\",",
+      "credits": [
+        "zanderest"
+      ]
+    },
+    {
+      "file": "minecraft/kubejs/assets/cubicleaves/models/block/template_block_overlaid_inversed.json",
+      "line": 2,
+      "content": "\"credit\": \"zanderest\",",
+      "credits": [
+        "zanderest"
+      ]
+    },
+    {
+      "file": "minecraft/kubejs/assets/cubicleaves/models/block/template_block_uvdown_notint.json",
+      "line": 2,
+      "content": "\"credit\": \"zanderest\",",
+      "credits": [
+        "zanderest"
+      ]
+    },
+    {
+      "file": "minecraft/kubejs/assets/cubicleaves/models/block/template_conifer_canopy.json",
+      "line": 2,
+      "content": "\"credit\": \"zanderest\",",
+      "credits": [
+        "zanderest"
+      ]
+    },
+    {
+      "file": "minecraft/kubejs/assets/cubicleaves/models/block/template_conifer_canopy_notint.json",
+      "line": 2,
+      "content": "\"credit\": \"zanderest\",",
+      "credits": [
+        "zanderest"
+      ]
+    },
+    {
+      "file": "minecraft/kubejs/assets/cubicleaves/models/block/template_conifer_canopy_overlaid.json",
+      "line": 2,
+      "content": "\"credit\": \"zanderest\",",
+      "credits": [
+        "zanderest"
+      ]
+    },
+    {
+      "file": "minecraft/kubejs/assets/cubicleaves/models/block/template_cross_ao.json",
+      "line": 2,
+      "content": "\"credit\": \"zanderest\",",
+      "credits": [
+        "zanderest"
+      ]
+    },
+    {
+      "file": "minecraft/kubejs/assets/cubicleaves/models/block/template_generic_canopy.json",
+      "line": 2,
+      "content": "\"credit\": \"zanderest\",",
+      "credits": [
+        "zanderest"
+      ]
+    },
+    {
+      "file": "minecraft/kubejs/assets/cubicleaves/models/block/template_generic_canopy_column.json",
+      "line": 2,
+      "content": "\"credit\": \"zanderest\",",
+      "credits": [
+        "zanderest"
+      ]
+    },
+    {
+      "file": "minecraft/kubejs/assets/cubicleaves/models/block/template_generic_canopy_notint.json",
+      "line": 2,
+      "content": "\"credit\": \"zanderest\",",
+      "credits": [
+        "zanderest"
+      ]
+    },
+    {
+      "file": "minecraft/kubejs/assets/cubicleaves/models/block/template_generic_canopy_overlaid.json",
+      "line": 2,
+      "content": "\"credit\": \"zanderest\",",
+      "credits": [
+        "zanderest"
+      ]
+    },
+    {
+      "file": "minecraft/kubejs/assets/cubicleaves/models/block/template_generic_canopy_overlaid_inversed.json",
+      "line": 2,
+      "content": "\"credit\": \"zanderest\",",
+      "credits": [
+        "zanderest"
+      ]
+    },
+    {
+      "file": "minecraft/kubejs/assets/cubicleaves/models/block/template_willow_canopy.json",
+      "line": 2,
+      "content": "\"credit\": \"zanderest\",",
+      "credits": [
+        "zanderest"
+      ]
+    },
+    {
+      "file": "minecraft/kubejs/assets/cubicleaves/models/block/template_willow_canopy_notint.json",
+      "line": 2,
+      "content": "\"credit\": \"zanderest\",",
+      "credits": [
+        "zanderest"
+      ]
+    },
+    {
+      "file": "minecraft/kubejs/assets/kubejs/models/block/green_screen.json",
+      "line": 2,
+      "content": "\"credit\": \"PEAK\",",
+      "credits": [
+        "PEAK"
+      ]
+    },
+    {
+      "file": "minecraft/kubejs/assets/minecraft/models/block/flowerbed_1.json",
+      "line": 2,
+      "content": "\"credit\": \"Made with Blockbench\",",
+      "credits": [
+        "Made with Blockbench"
+      ]
+    },
+    {
+      "file": "minecraft/kubejs/assets/minecraft/models/block/flowerbed_2.json",
+      "line": 2,
+      "content": "\"credit\": \"Made with Blockbench\",",
+      "credits": [
+        "Made with Blockbench"
+      ]
+    },
+    {
+      "file": "minecraft/kubejs/assets/minecraft/models/block/flowerbed_3.json",
+      "line": 2,
+      "content": "\"credit\": \"Made with Blockbench\",",
+      "credits": [
+        "Made with Blockbench"
+      ]
+    },
+    {
+      "file": "minecraft/kubejs/assets/minecraft/models/block/flowerbed_4.json",
+      "line": 2,
+      "content": "\"credit\": \"Made with Blockbench\",",
+      "credits": [
+        "Made with Blockbench"
+      ]
+    },
+    {
+      "file": "minecraft/kubejs/assets/minecraft/models/block/sunflower_bottom.json",
+      "line": 2,
+      "content": "\"credit\": \"Made with Blockbench\",",
+      "credits": [
+        "Made with Blockbench"
+      ]
+    },
+    {
+      "file": "minecraft/kubejs/assets/minecraft/models/block/sunflower_top.json",
+      "line": 3,
+      "content": "\"credit\": \"Made with Blockbench\",",
+      "credits": [
+        "Made with Blockbench"
+      ]
+    }
+  ],
+  "meta_findings": [],
+  "inner_thoughts_findings": [
+    {
+      "file": "minecraft/kubejs/server_scripts/00_recipe_fixer.js",
+      "line": 22,
+      "content": "// We can't easily iterate all recipes and modify their raw JSON in 1.21",
+      "matches": [
+        "We can't easily"
+      ]
+    },
+    {
+      "file": "minecraft/kubejs/server_scripts/00_recipe_fixer.js",
+      "line": 23,
+      "content": "// without potentially causing more issues, but we can try to fix the",
+      "matches": [
+        "we can try"
+      ]
+    },
+    {
+      "file": "minecraft/kubejs/server_scripts/02_create_era_gates.js",
+      "line": 49,
+      "content": "// IE is the SECOND tech era. You can't skip Create.",
+      "matches": [
+        "You can't skip"
+      ]
+    },
+    {
+      "file": "minecraft/kubejs/server_scripts/02_create_era_gates.js",
+      "line": 178,
+      "content": "// Power generation should feel earned",
+      "matches": [
+        "should feel earned"
+      ]
+    },
+    {
+      "file": "minecraft/kubejs/server_scripts/02_create_era_gates.js",
+      "line": 308,
+      "content": "// Quality of life items should feel earned",
+      "matches": [
+        "should feel earned"
+      ]
+    },
+    {
+      "file": "minecraft/kubejs/server_scripts/02_create_era_gates.js",
+      "line": 351,
+      "content": "// we use Sequenced Assembly. The base backpack is the transitional item, so its NBT is preserved!",
+      "matches": [
+        "we use"
+      ]
+    },
+    {
+      "file": "minecraft/kubejs/server_scripts/04_magic_integration.js",
+      "line": 106,
+      "content": "// Spell turrets are basically \"magical deployers\" Ã¢â‚¬â€ they",
+      "matches": [
+        "basically \"",
+        "magical deployers"
+      ]
+    },
+    {
+      "file": "minecraft/kubejs/server_scripts/05_dark_magic_dimensions.js",
+      "line": 241,
+      "content": "// the magical infrastructure we've built",
+      "matches": [
+        "we've built"
+      ]
+    },
+    {
+      "file": "minecraft/kubejs/server_scripts/07_draconic_endgame.js",
+      "line": 12,
+      "content": "// You need actual dragon forges (hard to automate!)",
+      "matches": [
+        "hard to automate"
+      ]
+    },
+    {
+      "file": "minecraft/kubejs/server_scripts/08_reliquary_balance.js",
+      "line": 45,
+      "content": "// We remove these specific alkahestry recipes.",
+      "matches": [
+        "We remove"
+      ]
+    },
+    {
+      "file": "minecraft/kubejs/server_scripts/09_custom_loot_tables.js",
+      "line": 7,
+      "content": "// We use EntityEvents.death to ensure compatibility",
+      "matches": [
+        "We use"
+      ]
+    },
+    {
+      "file": "minecraft/kubejs/server_scripts/10_avaritia_final_polish.js",
+      "line": 210,
+      "content": "// PLUS our custom boss drops.",
+      "matches": [
+        "our custom"
+      ]
+    },
+    {
+      "file": "minecraft/kubejs/server_scripts/12_food_buffs.js",
+      "line": 5,
+      "content": "// Makes late-game foods actually worth crafting",
+      "matches": [
+        "actually worth crafting"
+      ]
+    },
+    {
+      "file": "minecraft/kubejs/server_scripts/15_loot_nerfs.js",
+      "line": 11,
+      "content": "// We completely remove these drops from them.",
+      "matches": [
+        "We completely remove"
+      ]
+    },
+    {
+      "file": "minecraft/kubejs/server_scripts/17_goblin_trades.js",
+      "line": 8,
+      "content": "// They will occasionally sell an Infinity Fragment for an insane price!",
+      "matches": [
+        "for an insane price"
+      ]
+    },
+    {
+      "file": "minecraft/kubejs/server_scripts/17_goblin_trades.js",
+      "line": 10,
+      "content": "// We add to the legendary.json for the normal goblin trader",
+      "matches": [
+        "We add"
+      ]
+    },
+    {
+      "file": "minecraft/kubejs/server_scripts/17_goblin_trades.js",
+      "line": 13,
+      "content": "\"replace\": false, // We append, not replace the whole file",
+      "matches": [
+        "We append"
+      ]
+    },
+    {
+      "file": "minecraft/kubejs/server_scripts/22_apotheosis_gear_sets.js",
+      "line": 7,
+      "content": "// We use ServerEvents.generateData to ensure they are registered correctly in 1.21.",
+      "matches": [
+        "We use"
+      ]
+    },
+    {
+      "file": "minecraft/kubejs/server_scripts/23_zenith_saber.js",
+      "line": 51,
+      "content": "// 3. Verify if it is our custom Zenith Saber",
+      "matches": [
+        "our custom"
+      ]
+    },
+    {
+      "file": "minecraft/kubejs/server_scripts/25_hardcoded_minibosses.js",
+      "line": 393,
+      "content": "// They do NOT drop the gear (it died with them for a reason)",
+      "matches": [
+        "it died with them for a reason"
+      ]
+    },
+    {
+      "file": "minecraft/kubejs/server_scripts/25_hardcoded_minibosses.js",
+      "line": 400,
+      "content": "// Scale + attributes: Slightly bigger, much tougher, same speed (they're undead, they shamble)",
+      "matches": [
+        "they're undead, they shamble"
+      ]
+    },
+    {
+      "file": "minecraft/kubejs/server_scripts/expert_mode_recipes.js",
+      "line": 20,
+      "content": "// (We keep IE Crusher and Mekanism Enrichment as UPGRADES, not alternatives)",
+      "matches": [
+        "We keep"
+      ]
+    },
+    {
+      "file": "minecraft/kubejs/server_scripts/expert_mode_recipes.js",
+      "line": 30,
+      "content": "// Note: We keep vanilla smelting as a basic option but Create gives 2x",
+      "matches": [
+        "We keep"
+      ]
+    },
+    {
+      "file": "minecraft/kubejs/server_scripts/expert_mode_recipes.js",
+      "line": 64,
+      "content": "//  we add a Create prerequisite by requiring the Pressure Chamber itself",
+      "matches": [
+        "we add"
+      ]
+    },
+    {
+      "file": "minecraft/kubejs/startup_scripts/40_iaf_durability_buff.js",
+      "line": 3,
+      "content": "// We use explicit values because reading maxDamage dynamically returns undefined/NaN during startup.",
+      "matches": [
+        "We use"
+      ]
+    },
+    {
+      "file": "minecraft/kubejs/startup_scripts/block_factory_buffs.js",
+      "line": 13,
+      "content": "// Add our new modifiers",
+      "matches": [
+        "our new"
+      ]
+    },
+    {
+      "file": "minecraft/kubejs/startup_scripts/vampillager_entity.js",
+      "line": 92,
+      "content": "// Check backward landing position: ensure we don't leap backwards into direct sunlight!",
+      "matches": [
+        "ensure we don't"
+      ]
+    },
+    {
+      "file": "DESKTOP/kubejs/server_scripts/00_recipe_fixer.js",
+      "line": 22,
+      "content": "// We can't easily iterate all recipes and modify their raw JSON in 1.21",
+      "matches": [
+        "We can't easily"
+      ]
+    },
+    {
+      "file": "DESKTOP/kubejs/server_scripts/00_recipe_fixer.js",
+      "line": 23,
+      "content": "// without potentially causing more issues, but we can try to fix the",
+      "matches": [
+        "we can try"
+      ]
+    },
+    {
+      "file": "DESKTOP/kubejs/server_scripts/02_create_era_gates.js",
+      "line": 49,
+      "content": "// IE is the SECOND tech era. You can't skip Create.",
+      "matches": [
+        "You can't skip"
+      ]
+    },
+    {
+      "file": "DESKTOP/kubejs/server_scripts/02_create_era_gates.js",
+      "line": 178,
+      "content": "// Power generation should feel earned",
+      "matches": [
+        "should feel earned"
+      ]
+    },
+    {
+      "file": "DESKTOP/kubejs/server_scripts/02_create_era_gates.js",
+      "line": 308,
+      "content": "// Quality of life items should feel earned",
+      "matches": [
+        "should feel earned"
+      ]
+    },
+    {
+      "file": "DESKTOP/kubejs/server_scripts/02_create_era_gates.js",
+      "line": 351,
+      "content": "// we use Sequenced Assembly. The base backpack is the transitional item, so its NBT is preserved!",
+      "matches": [
+        "we use"
+      ]
+    },
+    {
+      "file": "DESKTOP/kubejs/server_scripts/04_magic_integration.js",
+      "line": 106,
+      "content": "// Spell turrets are basically \"magical deployers\" Ã¢â‚¬â€ they",
+      "matches": [
+        "basically \"",
+        "magical deployers"
+      ]
+    },
+    {
+      "file": "DESKTOP/kubejs/server_scripts/05_dark_magic_dimensions.js",
+      "line": 241,
+      "content": "// the magical infrastructure we've built",
+      "matches": [
+        "we've built"
+      ]
+    },
+    {
+      "file": "DESKTOP/kubejs/server_scripts/07_draconic_endgame.js",
+      "line": 12,
+      "content": "// You need actual dragon forges (hard to automate!)",
+      "matches": [
+        "hard to automate"
+      ]
+    },
+    {
+      "file": "DESKTOP/kubejs/server_scripts/08_reliquary_balance.js",
+      "line": 45,
+      "content": "// We remove these specific alkahestry recipes.",
+      "matches": [
+        "We remove"
+      ]
+    },
+    {
+      "file": "DESKTOP/kubejs/server_scripts/09_custom_loot_tables.js",
+      "line": 7,
+      "content": "// We use EntityEvents.death to ensure compatibility",
+      "matches": [
+        "We use"
+      ]
+    },
+    {
+      "file": "DESKTOP/kubejs/server_scripts/10_avaritia_final_polish.js",
+      "line": 210,
+      "content": "// PLUS our custom boss drops.",
+      "matches": [
+        "our custom"
+      ]
+    },
+    {
+      "file": "DESKTOP/kubejs/server_scripts/12_food_buffs.js",
+      "line": 5,
+      "content": "// Makes late-game foods actually worth crafting",
+      "matches": [
+        "actually worth crafting"
+      ]
+    },
+    {
+      "file": "DESKTOP/kubejs/server_scripts/15_loot_nerfs.js",
+      "line": 11,
+      "content": "// We completely remove these drops from them.",
+      "matches": [
+        "We completely remove"
+      ]
+    },
+    {
+      "file": "DESKTOP/kubejs/server_scripts/17_goblin_trades.js",
+      "line": 8,
+      "content": "// They will occasionally sell an Infinity Fragment for an insane price!",
+      "matches": [
+        "for an insane price"
+      ]
+    },
+    {
+      "file": "DESKTOP/kubejs/server_scripts/17_goblin_trades.js",
+      "line": 10,
+      "content": "// We add to the legendary.json for the normal goblin trader",
+      "matches": [
+        "We add"
+      ]
+    },
+    {
+      "file": "DESKTOP/kubejs/server_scripts/17_goblin_trades.js",
+      "line": 13,
+      "content": "\"replace\": false, // We append, not replace the whole file",
+      "matches": [
+        "We append"
+      ]
+    },
+    {
+      "file": "DESKTOP/kubejs/server_scripts/22_apotheosis_gear_sets.js",
+      "line": 7,
+      "content": "// We use ServerEvents.generateData to ensure they are registered correctly in 1.21.",
+      "matches": [
+        "We use"
+      ]
+    },
+    {
+      "file": "DESKTOP/kubejs/server_scripts/23_zenith_saber.js",
+      "line": 51,
+      "content": "// 3. Verify if it is our custom Zenith Saber",
+      "matches": [
+        "our custom"
+      ]
+    },
+    {
+      "file": "DESKTOP/kubejs/server_scripts/25_hardcoded_minibosses.js",
+      "line": 393,
+      "content": "// They do NOT drop the gear (it died with them for a reason)",
+      "matches": [
+        "it died with them for a reason"
+      ]
+    },
+    {
+      "file": "DESKTOP/kubejs/server_scripts/25_hardcoded_minibosses.js",
+      "line": 400,
+      "content": "// Scale + attributes: Slightly bigger, much tougher, same speed (they're undead, they shamble)",
+      "matches": [
+        "they're undead, they shamble"
+      ]
+    },
+    {
+      "file": "DESKTOP/kubejs/server_scripts/expert_mode_recipes.js",
+      "line": 20,
+      "content": "// (We keep IE Crusher and Mekanism Enrichment as UPGRADES, not alternatives)",
+      "matches": [
+        "We keep"
+      ]
+    },
+    {
+      "file": "DESKTOP/kubejs/server_scripts/expert_mode_recipes.js",
+      "line": 30,
+      "content": "// Note: We keep vanilla smelting as a basic option but Create gives 2x",
+      "matches": [
+        "We keep"
+      ]
+    },
+    {
+      "file": "DESKTOP/kubejs/server_scripts/expert_mode_recipes.js",
+      "line": 64,
+      "content": "//  we add a Create prerequisite by requiring the Pressure Chamber itself",
+      "matches": [
+        "we add"
+      ]
+    },
+    {
+      "file": "DESKTOP/kubejs/startup_scripts/40_iaf_durability_buff.js",
+      "line": 3,
+      "content": "// We use explicit values because reading maxDamage dynamically returns undefined/NaN during startup.",
+      "matches": [
+        "We use"
+      ]
+    },
+    {
+      "file": "DESKTOP/kubejs/startup_scripts/block_factory_buffs.js",
+      "line": 13,
+      "content": "// Add our new modifiers",
+      "matches": [
+        "our new"
+      ]
+    },
+    {
+      "file": "DESKTOP/kubejs/startup_scripts/vampillager_entity.js",
+      "line": 92,
+      "content": "// Check backward landing position: ensure we don't leap backwards into direct sunlight!",
+      "matches": [
+        "ensure we don't"
+      ]
+    }
+  ],
+  "buzzword_findings": [
+    {
+      "file": "minecraft/kubejs/server_scripts/05_dark_magic_dimensions.js",
+      "line": 171,
+      "buzzword": "synergy",
+      "content": "// SECTION 5: CROSS-MAGIC SYNERGIES"
+    },
+    {
+      "file": "minecraft/kubejs/server_scripts/50_xp_fluids_unification.js",
+      "line": 28,
+      "buzzword": "seamless",
+      "content": "// Allows seamless conversion between any XP fluid type without loss"
+    },
+    {
+      "file": "minecraft/config/ars_n_spells-server.toml",
+      "line": 421,
+      "buzzword": "synergy",
+      "content": "[\"Source Jar Synergy\"]"
+    },
+    {
+      "file": "minecraft/config/ftbquests/quests/lang/en_us.snbt",
+      "line": 556,
+      "buzzword": "unleash",
+      "content": "\"&9The ocean's fury unleashed upon the surface.\""
+    },
+    {
+      "file": "minecraft/config/ftbquests/quests/lang/en_us.snbt",
+      "line": 1022,
+      "buzzword": "delve",
+      "content": "\"&7Exceptional base durability for sustained dungeon delves.\""
+    },
+    {
+      "file": "minecraft/config/ftbquests/quests/lang/en_us.snbt",
+      "line": 1511,
+      "buzzword": "unleash",
+      "content": "quest.3105000000000032.quest_desc: [\"&aThe radioactive leviathan unleashing devastating atomic breath rays.&r\"]"
+    },
+    {
+      "file": "minecraft/config/ftbquests/quests/lang/en_us.snbt",
+      "line": 1650,
+      "buzzword": "cornerstone",
+      "content": "quest.4101000000000010.quest_subtitle: \"The cornerstone of all kinetic mechanics.\""
+    },
+    {
+      "file": "minecraft/config/ftbquests/quests/lang/en_us.snbt",
+      "line": 1674,
+      "buzzword": "harness",
+      "content": "\"&eWindmill Bearings harness the breeze to generate massive kinetic power.&r\""
+    },
+    {
+      "file": "minecraft/config/ftbquests/quests/lang/en_us.snbt",
+      "line": 1853,
+      "buzzword": "unleash",
+      "content": "quest.4103000000000090.quest_subtitle: \"Unleashing the power of pressurized steam.\""
+    },
+    {
+      "file": "minecraft/config/ftbquests/quests/lang/en_us.snbt",
+      "line": 1878,
+      "buzzword": "cornerstone",
+      "content": "\"Steel is the cornerstone of industrial casings, diesel combustion, and aerospace rocketry.\""
+    },
+    {
+      "file": "minecraft/config/ftbquests/quests/lang/en_us.snbt",
+      "line": 2128,
+      "buzzword": "delve",
+      "content": "quest.5100000000000048.quest_desc: [\"&e* Classic lunchbox sandwich ready for any mining delve.\"]"
+    },
+    {
+      "file": "minecraft/config/ftbquests/quests/lang/en_us.snbt",
+      "line": 2389,
+      "buzzword": "robust",
+      "content": "quest.5101000000000031.quest_desc: [\"&c* Distinct robust flavor that craves rosemary and garlic.\"]"
+    },
+    {
+      "file": "minecraft/config/ftbquests/quests/lang/en_us.snbt",
+      "line": 2506,
+      "buzzword": "meticulous",
+      "content": "quest.5101000000000067.quest_desc: [\"&c* Meticulously arranged baked summer vegetable layers.\"]"
+    },
+    {
+      "file": "minecraft/config/ftbquests/quests/lang/en_us.snbt",
+      "line": 2907,
+      "buzzword": "meticulous",
+      "content": "quest.5102000000000066.quest_desc: [\"&e* Toxins meticulously removed. Spicy and thrilling.\"]"
+    },
+    {
+      "file": "minecraft/config/ftbquests/quests/lang/en_us.snbt",
+      "line": 2949,
+      "buzzword": "delve",
+      "content": "quest.5102000000000080.quest_desc: [\"&6* Slow-cooked until tender. The staple food of underworld delves.\"]"
+    },
+    {
+      "file": "minecraft/config/ftbquests/quests/lang/en_us.snbt",
+      "line": 3986,
+      "buzzword": "synergy",
+      "content": "quest.7000000000000140.title: \"&eCurios Synergy - Trinket Optimization&r\""
+    },
+    {
+      "file": "DESKTOP/config/ars_n_spells-server.toml",
+      "line": 421,
+      "buzzword": "synergy",
+      "content": "[\"Source Jar Synergy\"]"
+    },
+    {
+      "file": "DESKTOP/config/ftbquests/quests/lang/en_us.snbt",
+      "line": 556,
+      "buzzword": "unleash",
+      "content": "\"&9The ocean's fury unleashed upon the surface.\""
+    },
+    {
+      "file": "DESKTOP/config/ftbquests/quests/lang/en_us.snbt",
+      "line": 1022,
+      "buzzword": "delve",
+      "content": "\"&7Exceptional base durability for sustained dungeon delves.\""
+    },
+    {
+      "file": "DESKTOP/config/ftbquests/quests/lang/en_us.snbt",
+      "line": 1511,
+      "buzzword": "unleash",
+      "content": "quest.3105000000000032.quest_desc: [\"&aThe radioactive leviathan unleashing devastating atomic breath rays.&r\"]"
+    },
+    {
+      "file": "DESKTOP/config/ftbquests/quests/lang/en_us.snbt",
+      "line": 1650,
+      "buzzword": "cornerstone",
+      "content": "quest.4101000000000010.quest_subtitle: \"The cornerstone of all kinetic mechanics.\""
+    },
+    {
+      "file": "DESKTOP/config/ftbquests/quests/lang/en_us.snbt",
+      "line": 1674,
+      "buzzword": "harness",
+      "content": "\"&eWindmill Bearings harness the breeze to generate massive kinetic power.&r\""
+    },
+    {
+      "file": "DESKTOP/config/ftbquests/quests/lang/en_us.snbt",
+      "line": 1853,
+      "buzzword": "unleash",
+      "content": "quest.4103000000000090.quest_subtitle: \"Unleashing the power of pressurized steam.\""
+    },
+    {
+      "file": "DESKTOP/config/ftbquests/quests/lang/en_us.snbt",
+      "line": 1878,
+      "buzzword": "cornerstone",
+      "content": "\"Steel is the cornerstone of industrial casings, diesel combustion, and aerospace rocketry.\""
+    },
+    {
+      "file": "DESKTOP/config/ftbquests/quests/lang/en_us.snbt",
+      "line": 2128,
+      "buzzword": "delve",
+      "content": "quest.5100000000000048.quest_desc: [\"&e* Classic lunchbox sandwich ready for any mining delve.\"]"
+    },
+    {
+      "file": "DESKTOP/config/ftbquests/quests/lang/en_us.snbt",
+      "line": 2389,
+      "buzzword": "robust",
+      "content": "quest.5101000000000031.quest_desc: [\"&c* Distinct robust flavor that craves rosemary and garlic.\"]"
+    },
+    {
+      "file": "DESKTOP/config/ftbquests/quests/lang/en_us.snbt",
+      "line": 2506,
+      "buzzword": "meticulous",
+      "content": "quest.5101000000000067.quest_desc: [\"&c* Meticulously arranged baked summer vegetable layers.\"]"
+    },
+    {
+      "file": "DESKTOP/config/ftbquests/quests/lang/en_us.snbt",
+      "line": 2907,
+      "buzzword": "meticulous",
+      "content": "quest.5102000000000066.quest_desc: [\"&e* Toxins meticulously removed. Spicy and thrilling.\"]"
+    },
+    {
+      "file": "DESKTOP/config/ftbquests/quests/lang/en_us.snbt",
+      "line": 2949,
+      "buzzword": "delve",
+      "content": "quest.5102000000000080.quest_desc: [\"&6* Slow-cooked until tender. The staple food of underworld delves.\"]"
+    },
+    {
+      "file": "DESKTOP/config/ftbquests/quests/lang/en_us.snbt",
+      "line": 3986,
+      "buzzword": "synergy",
+      "content": "quest.7000000000000140.title: \"&eCurios Synergy - Trinket Optimization&r\""
+    },
+    {
+      "file": "DESKTOP/kubejs/server_scripts/05_dark_magic_dimensions.js",
+      "line": 171,
+      "buzzword": "synergy",
+      "content": "// SECTION 5: CROSS-MAGIC SYNERGIES"
+    },
+    {
+      "file": "DESKTOP/kubejs/server_scripts/50_xp_fluids_unification.js",
+      "line": 28,
+      "buzzword": "seamless",
+      "content": "// Allows seamless conversion between any XP fluid type without loss"
+    }
+  ]
+}

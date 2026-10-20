@@ -5,12 +5,12 @@
 
 ServerEvents.generateData('peak', 'goblin_trades', event => {
     // Injecting a new Legendary Trade for the Goblin Trader
-    // They will occasionally sell an Infinity Fragment for an insane price!
+    // Adds rare high-tier trade offering an Infinity Fragment at extreme currency cost.
     
-    // We add to the legendary.json for the normal goblin trader
+    // Datapack trade pool injection for Goblin Trader legendary trades table.
     // The format matches the mod's datapack structure
     event.json('goblintraders:goblin_trades/legendary_trades', {
-        "replace": false, // We append, not replace the whole file
+        "replace": false, // Append to existing trades array without overwriting default pool
         "trades": [
             {
                 "trade": {

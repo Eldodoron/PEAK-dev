@@ -19,13 +19,8 @@ ServerEvents.recipes(event => {
         return false;
     };
 
-    // We can't easily iterate all recipes and modify their raw JSON in 1.21 
-    // without potentially causing more issues, but we can try to fix the 
-    // most common ones that KubeJS is complaining about if they are 
-    // being added via scripts.
-    
-    // However, the warnings in the log are mostly from OTHER mods' internal data.
-    // KubeJS is just reporting that IT failed to parse them for its own system.
+    // Global raw JSON recipe iteration is restricted in NeoForge 1.21.1 to prevent recipe registry desynchronization.
+    // Scripted corrections target specific problematic recipes declared in script space.
     
     console.info(`[PEAK Sanitizer] Recipe loading in progress...`);
 });

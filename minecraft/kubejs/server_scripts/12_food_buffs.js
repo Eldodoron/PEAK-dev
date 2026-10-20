@@ -2,8 +2,7 @@
 // PEAK EXPERT MODE â€” SCRIPT 12
 // EPIC FOOD BUFFS & CULINARY OVERHAUL
 // ==========================================
-// Makes late-game foods actually worth crafting
-// by providing 15-60 minute buffs for bosses.
+// Applies tiered passive potion effects (15 to 60 minutes) to advanced culinary recipes.
 // ==========================================
 
 ItemEvents.foodEaten(event => {

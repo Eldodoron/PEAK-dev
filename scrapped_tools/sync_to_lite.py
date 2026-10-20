@@ -5,6 +5,7 @@ import json
 import time
 import filecmp
 import argparse
+import fnmatch
 
 sys.stdout.reconfigure(line_buffering=True)
 
@@ -123,6 +124,18 @@ def load_exclusions():
                     exclusions.add(line.lower())
     return exclusions
 
+def is_excluded(filename, exclude_set):
+    """Checks if a filename matches any exclusion string or wildcard pattern."""
+    if not exclude_set:
+        return False
+    f_lower = filename.lower()
+    if f_lower in exclude_set:
+        return True
+    for pat in exclude_set:
+        if ("*" in pat or "?" in pat) and fnmatch.fnmatch(f_lower, pat):
+            return True
+    return False
+
 # -----------------------------------------------------------------------------
 # File & Directory Synchronization
 # -----------------------------------------------------------------------------
@@ -184,7 +197,7 @@ def sync_directory(src_dir, dst_dir, exclude_set=None, filter_ext=None, is_confi
                 continue
             if is_fancymenu_data and f_lower in IGNORED_FANCYMENU_DATA_FILES:
                 continue
-            if exclude_set and f_lower in exclude_set:
+            if is_excluded(f_lower, exclude_set):
                 continue
             if filter_ext and not f_lower.endswith(filter_ext):
                 continue
@@ -216,7 +229,7 @@ def sync_directory(src_dir, dst_dir, exclude_set=None, filter_ext=None, is_confi
                 should_delete = True
             elif is_fancymenu_data and f_lower in IGNORED_FANCYMENU_DATA_FILES:
                 should_delete = True
-            elif exclude_set and f_lower in exclude_set:
+            elif is_excluded(f_lower, exclude_set):
                 should_delete = True
             elif not os.path.exists(src_file):
                 should_delete = True
@@ -278,6 +291,12 @@ def sync_instance_cfg(dry_run=False):
             out_lines.append("lastTimePlayed=0\n")
         elif line.startswith("totalTimePlayed="):
             out_lines.append("totalTimePlayed=0\n")
+        elif line.startswith("MaxMemAlloc="):
+            out_lines.append("MaxMemAlloc=6348\n")
+        elif line.startswith("MinMemAlloc="):
+            out_lines.append("MinMemAlloc=4096\n")
+        elif line.startswith("ExportRecommendedRAM="):
+            out_lines.append("ExportRecommendedRAM=6348\n")
         else:
             out_lines.append(line)
 
@@ -302,7 +321,7 @@ def sync_paxi_load_order(exclusions, dry_run=False):
             data = json.load(f)
 
         if "loadOrder" in data:
-            data["loadOrder"] = [p for p in data["loadOrder"] if p.lower() not in exclusions]
+            data["loadOrder"] = [p for p in data["loadOrder"] if not is_excluded(p, exclusions)]
 
         if not dry_run:
             os.makedirs(os.path.dirname(lite_order_path), exist_ok=True)
@@ -354,6 +373,28 @@ def configure_lite_better_combat(dry_run=False):
             print("   Config: Better Combat firstPersonAnimations set to YES for PEAK-Lite.")
     except Exception as e:
         print(f"  [Warning] Better Combat config adjustment error: {e}")
+
+def configure_lite_fancymenu(dry_run=False):
+    """Tunes FancyMenu for production in PEAK-Lite by disabling dev overlays and seamless loading."""
+    lite_fm_options = os.path.join(LITE_MC, "config", "fancymenu", "options.txt")
+    assert_safe_target_path(lite_fm_options)
+    if not os.path.exists(lite_fm_options):
+        return
+    try:
+        with open(lite_fm_options, "r", encoding="utf-8") as f:
+            content = f.read()
+        import re
+        new_content = re.sub(r"B:modpack_mode\s*=\s*'[^']*';", "B:modpack_mode = 'true';", content)
+        new_content = re.sub(r"B:show_customization_overlay\s*=\s*'[^']*';", "B:show_customization_overlay = 'false';", new_content)
+        new_content = re.sub(r"B:advanced_customization_mode\s*=\s*'[^']*';", "B:advanced_customization_mode = 'false';", new_content)
+        new_content = re.sub(r"B:seamless_world_loading\s*=\s*'[^']*';", "B:seamless_world_loading = 'false';", new_content)
+
+        if not dry_run and new_content != content:
+            with open(lite_fm_options, "w", encoding="utf-8") as f:
+                f.write(new_content)
+            print("   Config: FancyMenu tuned for PEAK-Lite (modpack_mode=true, seamless_world_loading=false).")
+    except Exception as e:
+        print(f"  [Warning] FancyMenu config adjustment error: {e}")
 
 # -----------------------------------------------------------------------------
 # Main Synchronization Runner
@@ -432,6 +473,8 @@ def run_sync(dry_run=False):
     configure_lite_distant_horizons(dry_run=dry_run)
     # Ensure Better Combat first person weapon animations are enabled for Lite
     configure_lite_better_combat(dry_run=dry_run)
+    # Ensure FancyMenu runs in production mode with seamless world loading disabled for Lite
+    configure_lite_fancymenu(dry_run=dry_run)
     print(f"   Config: +{c} added, ~{u} updated, -{d} removed")
 
     # 4. Sync DataPacks, DefaultConfigs, Blueprints, FancyMenu Data

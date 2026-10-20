@@ -11,7 +11,7 @@
 // benefits from mechanical precision.
 //
 // TWILIGHT FOREST is the gateway dimension for magic.
-// You must explore it to access advanced Ars Nouveau.
+// Twilight Forest progression is required to unlock advanced Ars Nouveau tiers.
 // ==========================================
 
 ServerEvents.recipes(event => {
@@ -103,9 +103,7 @@ ServerEvents.recipes(event => {
     });
 
     // --- SPELL TURRETS (Automated magic = tech + magic) ---
-    // Spell turrets are basically "magical deployers" Ã¢â‚¬â€ they
-    // should need Create's Deployer as a base (mechanical
-    // arm that casts spells instead of placing blocks)
+    // Automated spellcasting combines mechanical actuation with magic: integrates Create deployers into spell turret recipes.
     event.remove({ output: 'ars_nouveau:basic_spell_turret' });
     event.shaped('ars_nouveau:basic_spell_turret', [
         ' S ',
@@ -340,8 +338,7 @@ ServerEvents.recipes(event => {
 
     // ==========================================
     // SECTION 5: ARS CREO ENHANCED INTEGRATION
-    // Since ars_creo already exists, we enhance the
-    // crossover between Create and Ars Nouveau
+    // Cross-mod integration recipes expanding compatibility between Create and Ars Nouveau mechanics.
     // ==========================================
 
 

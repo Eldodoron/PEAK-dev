@@ -207,7 +207,7 @@ ServerEvents.recipes(event => {
     // Uses the NATIVE avaritia:infinity_catalyst recipe type.
     // This is a special recipe type that shows in the
     // Catalyst JEI page and requires ALL singularities
-    // PLUS our custom boss drops.
+    // alongside modpack-specific boss drop materials.
     // ==========================================
 
     // Remove the default Infinity Catalyst recipes

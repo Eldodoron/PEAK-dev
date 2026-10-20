@@ -89,7 +89,7 @@ StartupEvents.registry('entity_type', event => {
                 let head = self.getHeadArmorItem()
                 let vulnerable = isDay && (!head || head.isEmpty())
 
-                // Check backward landing position: ensure we don't leap backwards into direct sunlight!
+                // Raycast backward disengage landing vector: verify entity does not leap into direct sunlight exposure while unarmored.
                 let backX = self.x + (dx / dist) * 2.5
                 let backZ = self.z + (dz / dist) * 2.5
                 let BlockPosClass = Java.loadClass('net.minecraft.core.BlockPos')

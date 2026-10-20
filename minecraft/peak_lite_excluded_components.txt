@@ -36,8 +36,11 @@ entity_texture_features.json
 # 3. Pure Cosmetic & Non-Essential Client Mods (minecraft/mods/)
 atmospherics-2.6.5-mc-1.21.1.jar
 smoothswapping-0.9.3.2-1.21.1-neoforge.jar
+spatial-gui-1.8+1.21.1-neoforge.jar
 spatial-gui-1.6+1.21.1-neoforge.jar
+spatial-gui*.jar
 spatial-gui.json
+spatial-gui.json5
 
 # 4. Development & Diagnostic Tools (minecraft/mods/)
 CraftTweaker-neoforge-1.21.1-21.0.38.jar

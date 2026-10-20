@@ -29,7 +29,7 @@ PlayerEvents.inventoryChanged('irons_spellbooks:scroll', event => {
     }
 });
 
-// Also prevent right clicks just in case
+// Intercept right-click actions to prevent casting disabled scrolls.
 ItemEvents.rightClicked('irons_spellbooks:scroll', event => {
     let item = event.item;
     let dataStr = (item.components ? item.components.toString() : '') + (item.nbt ? item.nbt.toString() : '');

@@ -25,7 +25,7 @@ ServerEvents.recipes(event => {
     ];
 
     // Create 1:1 conversion recipes in Create Mixing (100mB -> 100mB)
-    // Allows seamless conversion between any XP fluid type without loss
+    // Enables 1:1 cross-fluid conversion across all registered experience fluid variants without loss.
     xpFluids.forEach(targetFluid => {
         xpFluids.forEach(sourceFluid => {
             if (sourceFluid !== targetFluid) {

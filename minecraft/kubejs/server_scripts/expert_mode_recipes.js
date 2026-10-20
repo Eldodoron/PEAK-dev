@@ -17,7 +17,7 @@ ServerEvents.recipes(event => {
     // ==========================================
 
     // Remove duplicate ore processing recipes from mods that bypass Create
-    // (We keep IE Crusher and Mekanism Enrichment as UPGRADES, not alternatives)
+    // Immersive Engineering Crusher and Mekanism Enrichment Chambers serve as high-tier processing upgrades.
     
     // Force players to use Create's Crushing Wheels for early ore doubling
     // by removing any mod that adds free furnace-based ore doubling
@@ -27,7 +27,7 @@ ServerEvents.recipes(event => {
 
     // Remove raw ore Ã¢â€ â€™ ingot smelting shortcuts from AllTheOres if they exist
     // (Players should crush first for bonus, then smelt the crushed output)
-    // Note: We keep vanilla smelting as a basic option but Create gives 2x
+    // Retain standard 1:1 vanilla smelting while Create crushing provides 2x yield.
 
     // ==========================================
     // SECTION 2: CREATE AS THE UNIVERSAL FOUNDATION
@@ -60,9 +60,7 @@ ServerEvents.recipes(event => {
     });
 
     // PneumaticCraft: Compressed Iron Block needs Create processing
-    // (Compressed Iron is normally made by just placing iron under pressure,
-    //  we add a Create prerequisite by requiring the Pressure Chamber itself
-    //  to use Create components)
+    // Pressure Chamber construction requires Create mechanical components as prerequisites.
 
     // Mekanism: Steel Casing (base of ALL Mekanism machines)
     // Now requires Andesite Alloy + Steel

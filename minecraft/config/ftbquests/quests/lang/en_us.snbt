@@ -553,7 +553,7 @@
 	quest.2002000000000028.title: "&5Twisted Blade&r"
 	quest.2002000000000029.quest_desc: [
 		"&b* Unfurls oceanic tidal shockwaves that crush land-bound creatures.&r"
-		"&9The ocean's fury unleashed upon the surface."
+		"&9Strikes landbound foes with the crushing weight of the open sea."
 		"&7Found in: Ocean Monuments and Sunken Ship Vaults."
 	]
 	quest.2002000000000029.quest_subtitle: "Tidal waves with devastating bonus damage vs land mobs."
@@ -860,7 +860,7 @@
 		"You have scoured every dungeon, dragon cave, and boss vault in PEAK,"
 		"and gathered &eall 49 unique Simply Swords mythic relics.&r"
 		""
-		"&5The Cosmos recognizes your supreme mastery.&r"
+		"&5The Cosmos yields before your boundless conquest.&r"
 		"&7When Reavaritia is active, the Sword of the Cosmos manifests here.&r"
 		"&6Enjoy your master reward cache.&r"
 	]
@@ -1019,7 +1019,7 @@
 	quest.2006000000000001.title: "&6Ancient Metal (Cataclysm)&r"
 	quest.2006000000000002.quest_desc: [
 		"&8* Dark tempered steel that resists wear far longer than standard metals.&r"
-		"&7Exceptional base durability for sustained dungeon delves."
+		"&7Exceptional base durability for prolonged dungeon raids."
 	]
 	quest.2006000000000002.quest_subtitle: "High-durability tempered dark metal that never yields."
 	quest.2006000000000002.title: "&8Black Steel (Cataclysm)&r"
@@ -1227,7 +1227,7 @@
 		"Navigate to Chapter 1 in the sidebar to begin hunting the Champions of the Overworld!"
 	]
 	quest.3100000000000005.quest_subtitle: "Your journey across the dimensions begins now"
-	quest.3100000000000005.title: "&6Embark Upon the Boss Pantheon&r"
+	quest.3100000000000005.title: "&6Enter the Boss Pantheon&r"
 	quest.3101000000000011.quest_desc: [
 		"&3The supreme guardian of the Deep Dark.&r"
 		"&e* Drops a Void Resonator and an indestructible Eye of Ender on your first kill.&r"
@@ -1508,7 +1508,7 @@
 	quest.3105000000000031.quest_desc: ["&4The volcano-dwelling apex dinosaur commanding magma eruptions.&r"]
 	quest.3105000000000031.quest_subtitle: "Slay the Luxtructosaurus in the Primordial Caves"
 	quest.3105000000000031.title: "&4Luxtructosaurus&r"
-	quest.3105000000000032.quest_desc: ["&aThe radioactive leviathan unleashing devastating atomic breath rays.&r"]
+	quest.3105000000000032.quest_desc: ["&aA radioactive apex titan that fires concentrated beams of atomic energy.&r"]
 	quest.3105000000000032.quest_subtitle: "Slay Tremorzilla in the Primordial Abyss"
 	quest.3105000000000032.title: "&aTremorzilla the Nuclear Titan&r"
 	quest.3105000000000033.quest_desc: ["&bA crushing deep sea titan capable of tearing submarines to pieces.&r"]
@@ -1644,10 +1644,10 @@
 	quest.4029CAAA2669BC14.title: "&cGrandsword - Titanic Weapon&r"
 	quest.4101000000000010.quest_desc: [
 		"&eWelcome to the mechanical world of Create!&r"
-		"The Wrench is your most vital tool. Right-click any kinetic component to rotate it, configure its axis, or sneak-right-click to instantly dismantle machinery safely into your inventory."
+		"The Wrench is an essential engineering tool. Right-click any kinetic component to rotate it, configure its axis, or sneak-right-click to instantly dismantle machinery safely into your inventory."
 		"Keep it on your hotbar at all times."
 	]
-	quest.4101000000000010.quest_subtitle: "The cornerstone of all kinetic mechanics."
+	quest.4101000000000010.quest_subtitle: "The essential tool for configuring and dismantling machinery."
 	quest.4101000000000010.title: "&6The Engineer's Wrench&r"
 	quest.4101000000000020.quest_desc: [
 		"&eAndesite Alloy binds stone and iron into durable mechanical framing.&r"
@@ -1669,9 +1669,9 @@
 		"The Large Water Wheel generates substantial Stress Capacity, perfect for early mills and presses."
 	]
 	quest.4101000000000040.quest_subtitle: "Perpetual hydroelectric kinetic generation."
-	quest.4101000000000040.title: "&6Harnessing the River - Water Wheels&r"
+	quest.4101000000000040.title: "&6Hydroelectric Power - Water Wheels&r"
 	quest.4101000000000050.quest_desc: [
-		"&eWindmill Bearings harness the breeze to generate massive kinetic power.&r"
+		"&eWindmill Bearings convert wind currents into massive kinetic power.&r"
 		"Attach at least 8 sail blocks (or wool blocks glued together) to the bearing and right-click to activate."
 		"More sails increase rotational stress capacity up to a staggering 128 sails."
 	]
@@ -1713,7 +1713,7 @@
 		"With shafts, speed regulation, and massive windmills humming, your factory is primed for automated fabrication, metallurgy, and steam generation."
 		"Claim your Pioneer Coffer, master mechanic!"
 	]
-	quest.4101000000000110.quest_subtitle: "Mastery of rotational motion."
+	quest.4101000000000110.quest_subtitle: "Regulate and stabilize high-stress rotational networks."
 	quest.4101000000000110.title: "&6Kinetic Master - The Flywheel&r"
 	quest.4102000000000010.quest_desc: [
 		"&eTo craft advanced machinery, you must encase stripped logs in Andesite Alloy.&r"
@@ -1775,7 +1775,7 @@
 	quest.4102000000000090.quest_subtitle: "Pumping air currents for bulk transformation."
 	quest.4102000000000090.title: "&6Encased Fans - Aerodynamic Currents&r"
 	quest.4102000000000100.quest_desc: [
-		"&eHarness all airflow processing mediums with your Encased Fan:&r"
+		"&eDirect Encased Fan airflow through five processing mediums:&r"
 		"- &bWater:&r Bulk Washing (gravel into iron nuggets, flour into dough, crushed ores into pure metal)."
 		"- &6Lava:&r Bulk Blasting (smelts raw ores and stone without fuel)."
 		"- &cFire or Campfire:&r Bulk Smoking (cooks food stacks without fuel)."
@@ -1791,7 +1791,7 @@
 	quest.4102000000000110.quest_subtitle: "Simulating player clicks with machine precision."
 	quest.4102000000000110.title: "&6Mechanical Deployers - Artificial Hands&r"
 	quest.4102000000000120.quest_desc: [
-		"&6Precision Mechanisms represent true engineering mastery.&r"
+		"&6Precision Mechanisms bridge basic kinetics and advanced automated systems.&r"
 		"Build a Sequenced Assembly line: pass a Golden Sheet under three Deployers adding Small Cogs, Large Cogs, and Iron Nuggets, followed by a Press."
 		"This delicate assembly unlocks advanced automation, train controls, and aerospace computers. Claim your Slayer Coffer!"
 	]
@@ -1807,7 +1807,7 @@
 		"&eBrass Funnels allow precise extraction counts and item filter lists.&r"
 		"Brass Tunnels placed over belts allow splitting, sorting, and merging item streams automatically."
 	]
-	quest.4103000000000020.quest_subtitle: "Filter, extract, and sort with surgical precision."
+	quest.4103000000000020.quest_subtitle: "Filter, extract, and sort item streams with exact stack limits."
 	quest.4103000000000020.title: "&6Smart Logistics - Brass Funnels and Tunnels&r"
 	quest.4103000000000030.quest_desc: [
 		"&eMechanical Arms can transfer items between depots, belts, crafters, and inventories over multi-block radii.&r"
@@ -1850,7 +1850,7 @@
 		"Provide active water pumping and blaze heat beneath the tank."
 		"A Level 9 Boiler with passive water and superheated blaze burners can output over 100,000 Stress Units!"
 	]
-	quest.4103000000000090.quest_subtitle: "Unleashing the power of pressurized steam."
+	quest.4103000000000090.quest_subtitle: "Generate immense rotational stress using pressurized steam."
 	quest.4103000000000090.title: "&cSteam Boilers - Apex Kinetic Energy&r"
 	quest.4103000000000100.quest_desc: [
 		"&eCreate trains can travel at breakneck speeds across dimensions, carrying passengers and freight.&r"
@@ -1870,12 +1870,12 @@
 		"Link Display Boards to train stations, item vaults, and speedometers to build real-time terminal departures and factory dashboards."
 		"Claim your Slayer Coffer, grand logistics engineer!"
 	]
-	quest.4103000000000120.quest_subtitle: "Mastery of factory logistics and transit."
+	quest.4103000000000120.quest_subtitle: "Monitor train schedules, storage vaults, and factory throughput."
 	quest.4103000000000120.title: "&6Central Command - Display Systems&r"
 	quest.4104000000000010.quest_desc: [
 		"&eTo break the planetary boundary, standard iron and brass will not suffice.&r"
 		"The Factory Must Grow introduces true heavy metallurgy: blast furnace casting, coking, and molten steel production."
-		"Steel is the cornerstone of industrial casings, diesel combustion, and aerospace rocketry."
+		"Steel forms the structural backbone for industrial casings, diesel combustion, and aerospace rocketry."
 	]
 	quest.4104000000000010.quest_subtitle: "Coking, blast furnaces, and heavy metallurgy."
 	quest.4104000000000010.title: "&8The Foundry's Call - TFMG Steel Metallurgy&r"
@@ -1940,7 +1940,7 @@
 	quest.4104000000000100.title: "&cDestination Mars - The Red Frontier&r"
 	quest.4104000000000110.quest_desc: [
 		"&6You have journeyed from placing your very first wooden water wheel to conquering interplanetary spaceflight.&r"
-		"With steel foundries, diesel power, physics airships, and Martian bases under your command, your industrial mastery over PEAK is absolute."
+		"With steel foundries, diesel power, physics airships, and Martian bases under your command, your industrial network across PEAK is complete."
 		"Claim your Ancient Coffer, cosmic engineer!"
 	]
 	quest.4104000000000110.quest_subtitle: "From water wheels to interplanetary spaceflight."
@@ -1952,7 +1952,7 @@
 		""
 		"Check the &6Weapon Collections&r chapter group to master every blade!"
 	]
-	quest.47ACECB62DA96AD6.quest_subtitle: "Combat mastery and weapons"
+	quest.47ACECB62DA96AD6.quest_subtitle: "Weapon archetypes, combat stances, and runic blades"
 	quest.47ACECB62DA96AD6.title: "&aCombat and Weapons&r"
 	quest.47D127C917277F8A.quest_desc: [
 		"&e* Fluid arc slashes with fast attack recovery.&r"
@@ -2125,7 +2125,7 @@
 	quest.5100000000000047.quest_desc: ["&2* Fast to eat and easy to mass-produce on ocean bases."]
 	quest.5100000000000047.quest_subtitle: "Chewy ocean snack strips."
 	quest.5100000000000047.title: "&2Dried Kelp&r"
-	quest.5100000000000048.quest_desc: ["&e* Classic lunchbox sandwich ready for any mining delve."]
+	quest.5100000000000048.quest_desc: ["&e* Classic lunchbox sandwich packed for deep mining runs."]
 	quest.5100000000000048.quest_subtitle: "Thick cheddar between soft bread slices."
 	quest.5100000000000048.title: "&eCold Cheese Sandwich&r"
 	quest.5100000000000049.quest_desc: ["&c* Ready for the hot brick oven."]
@@ -2386,7 +2386,7 @@
 	quest.5101000000000030.quest_desc: ["&6* Tender chicken chunks seared with herbs and cracked pepper."]
 	quest.5101000000000030.quest_subtitle: "Juicy golden morsels."
 	quest.5101000000000030.title: "&6Seared Chicken Bites&r"
-	quest.5101000000000031.quest_desc: ["&c* Distinct robust flavor that craves rosemary and garlic."]
+	quest.5101000000000031.quest_desc: ["&c* Rich, hearty flavor seasoned with rosemary and garlic."]
 	quest.5101000000000031.quest_subtitle: "Bone-in mountain cutlets."
 	quest.5101000000000031.title: "&cRaw Mutton Chops&r"
 	quest.5101000000000032.quest_desc: ["&6* Grilled until the fat renders into smoky succulent goodness."]
@@ -2503,8 +2503,8 @@
 	quest.5101000000000066.quest_desc: ["&e* Slurp it hot after a long freezing mountain trek!"]
 	quest.5101000000000066.quest_subtitle: "Ramen bowl with soft-boiled egg."
 	quest.5101000000000066.title: "&eSteaming Noodle Soup&r"
-	quest.5101000000000067.quest_desc: ["&c* Meticulously arranged baked summer vegetable layers."]
-	quest.5101000000000067.quest_subtitle: "Layered squash and tomato masterpiece."
+	quest.5101000000000067.quest_desc: ["&c* Thinly sliced summer squash and tomatoes baked with garden herbs."]
+	quest.5101000000000067.quest_subtitle: "Baked summer squash and tomato gratin."
 	quest.5101000000000067.title: "&cCountry Ratatouille&r"
 	quest.5101000000000068.quest_desc: ["&f* Fluffy rice studded with roasted cauliflower and herbs."]
 	quest.5101000000000068.quest_subtitle: "Aromatic garlic pilaf."
@@ -2904,8 +2904,8 @@
 	quest.5102000000000065.quest_desc: ["&c* Fragrant smoked salmon glistening with healthy oils."]
 	quest.5102000000000065.quest_subtitle: "Cedar-smoked salmon strips."
 	quest.5102000000000065.title: "&cSalmon Jerky&r"
-	quest.5102000000000066.quest_desc: ["&e* Toxins meticulously removed. Spicy and thrilling."]
-	quest.5102000000000066.quest_subtitle: "Masterfully cured pufferfish."
+	quest.5102000000000066.quest_desc: ["&e* Carefully trimmed pufferfish cured with sea salt and chili flakes."]
+	quest.5102000000000066.quest_subtitle: "Salt-cured and thinly sliced pufferfish."
 	quest.5102000000000066.title: "&eFugu Jerky&r"
 	quest.5102000000000067.quest_desc: ["&6* Dried with lime zest for sweet and savory island flavor."]
 	quest.5102000000000067.quest_subtitle: "Citrus-seasoned reef fish."
@@ -2946,7 +2946,7 @@
 	quest.5102000000000079.quest_desc: ["&8* Tough fibrous meat that requires heavy braising."]
 	quest.5102000000000079.quest_subtitle: "Dense muscular cave dweller meat."
 	quest.5102000000000079.title: "&8Raw Dweller Meat&r"
-	quest.5102000000000080.quest_desc: ["&6* Slow-cooked until tender. The staple food of underworld delves."]
+	quest.5102000000000080.quest_desc: ["&6* Slow-cooked until tender. A hearty staple during deep Undergarden exploration."]
 	quest.5102000000000080.quest_subtitle: "Charbroiled mineral steak."
 	quest.5102000000000080.title: "&6Dweller Steak&r"
 	quest.5102000000000081.quest_desc: ["&2* Long muscular frog leg with delicate white meat."]
@@ -3380,7 +3380,7 @@
 	quest.5104000000000000.quest_desc: [
 		"&3&lWelcome to the Angler's Harbor!&r"
 		""
-		"Featuring the comprehensive aquatic catches of &bAquaculture 2&r."
+		"Featuring all marine and freshwater catches from &bAquaculture 2&r."
 		"Catch freshwater mountain trout, deep-sea Atlantic halibuts, exotic Amazonian predators,"
 		"and roll fresh sushi rolls at the harbor docks."
 		""
@@ -3937,7 +3937,7 @@
 	quest.7000000000000070.quest_subtitle: "How master builders paint castle walls in seconds."
 	quest.7000000000000070.title: "&bPalette Gradients and Weathered Textures&r"
 	quest.7000000000000080.quest_desc: [
-		"&eDelving into deep caves and perilous dungeons can quickly turn deadly.&r"
+		"&eExploring deep caves and perilous dungeons can quickly turn deadly.&r"
 		"Return Scrolls allow you to channel a quick recall directly back to your spawn point or nearest sanctuary."
 		"Always keep a scroll on your hotbar for rapid extraction before hostile swarms overwhelm you."
 	]
@@ -3983,14 +3983,14 @@
 		"Accessories can often save you from fall damage and environmental hazards more effectively than standard armor."
 	]
 	quest.7000000000000140.quest_subtitle: "Small charms, monumental combat advantages."
-	quest.7000000000000140.title: "&eCurios Synergy - Trinket Optimization&r"
+	quest.7000000000000140.title: "&eCurios Loadouts - Trinket Combinations&r"
 	quest.7000000000000150.quest_desc: [
 		"&6With efficient ore doubling, grave safety, instant building wands, and pocket logistics in hand, you are fully prepared for the perils of PEAK.&r"
-		"You are now equipped to master the kinetic factories of Create, conquer the 12 Boss Eyes, and embark on the voyage to Mars and Venus."
+		"You are now equipped to construct the kinetic factories of Create, conquer the 12 Boss Eyes, and launch your voyage to Mars and Venus."
 		"Claim your Ancient Coffer, pioneer!"
 	]
-	quest.7000000000000150.quest_subtitle: "You have mastered the art of practical adventure."
-	quest.7000000000000150.title: "&6The PEAK Pioneer - Summit Mastery&r"
+	quest.7000000000000150.quest_subtitle: "Essential tools acquired. The wider world awaits."
+	quest.7000000000000150.title: "&6The PEAK Pioneer - The Summit Reached&r"
 	quest.70F487B00CB7A079.quest_desc: [
 		"&e* Bladed polearm for wide sweeping attacks at medium range.&r"
 		"&7Clear groups without getting close."
@@ -4122,7 +4122,7 @@
 	task.5400000000003020.title: "Enter the tropical delta"
 	task.5400000000003033.title: "Visit the harbor fishmonger"
 	task.5400000000003039.title: "I have collected all 33 Aquaculture catches!"
-	task.5400000000004001.title: "Embark on the Safari"
+	task.5400000000004001.title: "Begin the Safari"
 	task.5400000000004002.title: "Enter the Primordial Caves"
 	task.5400000000004021.title: "Enter the Candy Cavity"
 	task.5400000000004042.title: "Fire up the Outback BBQ"

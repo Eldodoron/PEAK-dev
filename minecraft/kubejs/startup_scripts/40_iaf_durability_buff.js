@@ -1,6 +1,6 @@
 ItemEvents.modification(event => {
     // Buff Dragon Scale armor and Dragonbone tools (~1.3x of base values)
-    // We use explicit values because reading maxDamage dynamically returns undefined/NaN during startup.
+    // Explicit durability values applied directly because dynamic maxDamage resolution returns undefined during startup registration.
 
     event.modify(/iceandfire:armor_.*(helmet)/, item => { item.maxDamage = 529; });
     event.modify(/iceandfire:armor_.*(chestplate)/, item => { item.maxDamage = 770; });

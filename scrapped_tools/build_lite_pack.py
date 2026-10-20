@@ -61,7 +61,7 @@ def build_lite_pack():
     manifest_data["version"] = "alpha1"
     manifest_data["author"] = "eldodoron"
     if "minecraft" in manifest_data:
-        manifest_data["minecraft"]["recommendedRam"] = 6144
+        manifest_data["minecraft"]["recommendedRam"] = 6348
 
     original_files = manifest_data.get("files", [])
     filtered_files = [

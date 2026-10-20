@@ -296,7 +296,7 @@ function forceLoadGatewayChunk(server, level, x, y, z, player) {
             };
         }
     } catch (e) {
-        console.error(`[PEAK RandomGateway] FTB Chunks force-loading notice: ${e}`);
+        console.error(`[PEAK RandomGateway] FTB Chunks force-loading error: ${e}`);
     }
     return null;
 }
@@ -329,7 +329,7 @@ function unForceLoadGatewayChunk(server, claimInfo) {
             }
         }
     } catch (e) {
-        console.error(`[PEAK RandomGateway] FTB Chunks un-forceload notice: ${e}`);
+        console.error(`[PEAK RandomGateway] FTB Chunks un-forceload error: ${e}`);
     }
 }
 
@@ -563,7 +563,7 @@ try {
         let targetX = p.getInt('rg_target_x');
         let targetZ = p.getInt('rg_target_z');
 
-        // Proximity verification: ensure this is our random gateway and not a player's private Gate Pearl
+        // Proximity verification: ensure completed entity matches active random gateway coordinates, ignoring private player Gate Pearls
         let dist = Math.hypot(gateEntity.x - targetX, gateEntity.z - targetZ);
         if (dist > 12) return;
 
@@ -601,7 +601,7 @@ try {
         let targetX = p.getInt('rg_target_x');
         let targetZ = p.getInt('rg_target_z');
 
-        // Proximity verification: ensure this is our random gateway
+        // Proximity verification: ensure failed entity matches active random gateway coordinates
         let dist = Math.hypot(gateEntity.x - targetX, gateEntity.z - targetZ);
         if (dist > 12) return;
 

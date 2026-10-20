@@ -390,14 +390,14 @@ EntityEvents.spawned('minecraft:zombie', event => {
     entity.setItemSlot('feet', Item.of(set.boots));
     entity.setItemSlot('mainhand', Item.of(set.sword));
 
-    // They do NOT drop the gear (it died with them for a reason)
+    // Prevent armor and weapon item drops on entity death (drop chances set to 0.0)
     entity.setDropChance('head', 0.0);
     entity.setDropChance('chest', 0.0);
     entity.setDropChance('legs', 0.0);
     entity.setDropChance('feet', 0.0);
     entity.setDropChance('mainhand', 0.0);
 
-    // Scale + attributes: Slightly bigger, much tougher, same speed (they're undead, they shamble)
+    // Attribute modifiers: scale 1.15, increased health (+300%), damage (+100%), knockback resistance, and base armor
     server.runCommandSilent(`attribute ${entity.uuid} minecraft:generic.scale base set 1.15`);
     server.runCommandSilent(`attribute ${entity.uuid} minecraft:generic.max_health modifier add peak:dragonslayer_health 3.0 add_multiplied_base`);
     server.runCommandSilent(`attribute ${entity.uuid} minecraft:generic.attack_damage modifier add peak:dragonslayer_damage 1.0 add_multiplied_base`);

@@ -36,13 +36,12 @@ ServerEvents.recipes(event => {
     // 2. Duplication Recipes
     BOSS_DROPS_TO_DUPLICATE.forEach(drop => {
         // Output exactly 1x to bypass max stack limits.
-        // The replicator item is kept in the grid using native keepIngredient() if supported,
-        // but we will continue to use the event fallback to ensure it works across all NeoForge builds.
+        // Retains replicator catalyst in crafting matrix using keepIngredient(), complemented by crafted event fallback for cross-version consistency.
         event.shapeless(drop, [
             drop, 
             Item.of('kubejs:anomaly_replicator'), // Strong NBT matching helps avoid shift-click dupes
             'mekanism:pellet_antimatter'
-        ]).keepIngredient('kubejs:anomaly_replicator'); // Modern KubeJS method to leave item in grid!
+        ]).keepIngredient('kubejs:anomaly_replicator'); // Retains crafting catalyst item in matrix
     });
 
     console.log('[PEAK Expert Mode] Script 18: Boss Duplicator loaded!');

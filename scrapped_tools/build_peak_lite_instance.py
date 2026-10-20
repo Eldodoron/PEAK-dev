@@ -50,6 +50,12 @@ def build_lite_instance():
                     f.write("totalTimePlayed=0\n")
                 elif line.startswith("ExportName="):
                     f.write("ExportName=PEAK-Lite\n")
+                elif line.startswith("MaxMemAlloc="):
+                    f.write("MaxMemAlloc=6348\n")
+                elif line.startswith("MinMemAlloc="):
+                    f.write("MinMemAlloc=4096\n")
+                elif line.startswith("ExportRecommendedRAM="):
+                    f.write("ExportRecommendedRAM=6348\n")
                 else:
                     f.write(line)
         print("Generated instance.cfg for PEAK Lite.")

@@ -4,7 +4,7 @@
 // ==========================================
 
 // This script injects custom gear sets for Apotheosis Bosses.
-// We use ServerEvents.generateData to ensure they are registered correctly in 1.21.
+// Registers custom gear set data via ServerEvents.generateData for 1.21 datapack generation.
 ServerEvents.generateData('peak', 'apotheosis_gear', event => {
     
     // --- MELEE EXPERT POOL ---

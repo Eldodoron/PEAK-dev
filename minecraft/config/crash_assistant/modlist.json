@@ -2924,13 +2924,13 @@
     "curseForgeHash": 3447435049,
     "modrinthHash": "9430cc2ab64ff89d698be593769fb9f9ee4efae6"
   },
-  "spatial-gui-1.6+1.21.1-neoforge.jar": {
-    "jarName": "spatial-gui-1.6+1.21.1-neoforge.jar",
+  "spatial-gui-1.8+1.21.1-neoforge.jar": {
+    "jarName": "spatial-gui-1.8+1.21.1-neoforge.jar",
     "modId": "spatial_gui",
     "name": "Spatial GUI",
-    "version": "1.6",
-    "curseForgeHash": 498326450,
-    "modrinthHash": "6885c898ce807a8a45d78cd70ffe147c6715fdbd"
+    "version": "1.8",
+    "curseForgeHash": 2320576656,
+    "modrinthHash": "95f2ba701f621cc892619726132662a0828f0211"
   },
   "structureessentials-1.21.1-5.0.jar": {
     "jarName": "structureessentials-1.21.1-5.0.jar",

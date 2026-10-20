@@ -21,7 +21,7 @@ ServerEvents.recipes(event => {
 
     // --- SPIRIT ALTAR (Malum's core crafting station) ---
     // The spiritual workbench. Needs Ars Nouveau Source
-    // (you need basic magical knowledge before dark magic)
+    // (requires foundational Ars Nouveau source apparatus prior to Malum progression)
     // and Create Brass (precision channeling of spirits)
     event.remove({ output: 'malum:spirit_altar' });
     event.shaped('malum:spirit_altar', [
@@ -139,9 +139,7 @@ ServerEvents.recipes(event => {
     // (Defined in Draconic Evolution recipes)
 
     // --- REINFORCED ECHO SHARD ---
-    // Created by combining Echo Shards with tech materials
-    // in Create's mechanical mixer (tech reinforcement of
-    // a naturally magical material)
+    // Mechanical superheating recipe infusing raw echo shards with alloyed metals.
     event.remove({ output: 'deeperdarker:reinforced_echo_shard' });
     event.recipes.create.mixing(
         'deeperdarker:reinforced_echo_shard',
@@ -168,7 +166,7 @@ ServerEvents.recipes(event => {
     ).superheated();
 
     // ==========================================
-    // SECTION 5: CROSS-MAGIC SYNERGIES
+    // SECTION 5: CROSS-MOD MAGIC INTEGRATIONS
     // Items that bridge multiple magic systems
     // ==========================================
 
@@ -237,8 +235,7 @@ ServerEvents.recipes(event => {
 
     // ==========================================
     // SECTION 7: APOTHEOSIS ENCHANTING INTEGRATION
-    // Apotheosis enhances enchanting Ã¢â‚¬â€ connect it to
-    // the magical infrastructure we've built
+    // Connects Apotheosis enchanting infrastructure with Ars Nouveau magic progression.
     // ==========================================
 
     // Apotheosis Enchantment Library needs Ars Nouveau Source

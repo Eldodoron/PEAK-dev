@@ -473,7 +473,7 @@ ServerEvents.tick(event => {
             server.runCommandSilent(`particle minecraft:squid_ink ${entity.x} ${entity.y + 0.5} ${entity.z} 0.15 0.15 0.15 0.02 6`);
         }
 
-        // Active disengage: Continuously flee and evade player during cooldown (STAGE 1 ONLY, NEVER IN AGGRO)
+        // Active disengage: Continuously flee and evade player during cooldown (Phase 1 disengage, never when aggressive)
         if (!isAggro && fleeUntil > 0 && tickCount < fleeUntil) {
             let nearestPlayer = level.getNearestPlayer(entity, 32.0);
             if (nearestPlayer && nearestPlayer.isAlive() && !nearestPlayer.isCreative() && !nearestPlayer.isSpectator()) {

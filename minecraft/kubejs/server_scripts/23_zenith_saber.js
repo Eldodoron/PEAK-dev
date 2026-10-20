@@ -42,13 +42,13 @@ ServerEvents.recipes(event => {
 
 ItemEvents.crafted(event => {
     // 1. Mandatory high-performance early-exit guard clause
-    // This runs for EVERY crafted item, so we exit instantly if not a diamond sword.
+    // Global craft event guard clause: immediate exit for non-target items.
     if (event.item.id !== 'minecraft:diamond_sword') return;
 
     // 2. Safely extract the item's display name string to check for the custom name
     let itemName = event.item.name.getString();
     
-    // 3. Verify if it is our custom Zenith Saber
+    // 3. Verify target item matches Zenith Saber display name
     if (itemName && itemName.includes('Zenith Saber')) {
         let player = event.player;
         if (player) {

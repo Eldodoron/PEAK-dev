@@ -59,7 +59,7 @@ These mods add cosmetic visual flair or client animations that are non-essential
 |---|---|---|
 | `atmospherics-2.6.5-mc-1.21.1.jar` | Atmospherics | In-game visual editor for sky, fog, clouds, and celestial bodies. |
 | `smoothswapping-0.9.3.2-1.21.1-neoforge.jar` | Smooth Swapping | Client item swap and slot transition animations. |
-| `spatial-gui-1.6+1.21.1-neoforge.jar` | Spatial GUI | 3D space holographic HUD rendering overlay. |
+| `spatial-gui-1.8+1.21.1-neoforge.jar` | Spatial GUI | 3D space holographic HUD rendering overlay. |
 
 ---
 

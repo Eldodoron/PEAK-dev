@@ -10,8 +10,7 @@
 //
 // AE2 sits ABOVE Ender IO. Its digital storage and
 // auto-crafting represent the ultimate automation.
-// You need Ender IO's conduits and Mekanism's circuits
-// before touching AE2.
+// Gates AE2 digital storage networks behind Ender IO conduits and Mekanism circuit tiers.
 // ==========================================
 
 ServerEvents.recipes(event => {

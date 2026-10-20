@@ -5,10 +5,7 @@
 
 LootJS.modifiers(event => {
     // ==========================================
-    // NERF 1: SLIME/MAGMA CUBE SPLITTING EXPLOIT
-    // Slimes split into tiny slimes, causing them to 
-    // drop absurd amounts of Malum spirits.
-    // We completely remove these drops from them.
+    // Balance: Strip Malum spirit drops from splitting and swarming entities (slimes, magma cubes, silverfish, endermites) to prevent mob farm exploitation.
     // ==========================================
     let overpoweredDrops = [
 

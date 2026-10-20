@@ -4,8 +4,7 @@
 // ==========================================
 // Each boss drops a unique custom component that
 // feeds into the Expert Mode tech tree.
-// We use EntityEvents.death to ensure compatibility
-// across all KubeJS versions.
+// Handles custom entity drop tables via EntityEvents.death for reliable cross-version execution.
 // ==========================================
 
 EntityEvents.death(event => {

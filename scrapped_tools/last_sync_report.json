@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-19 03:51:35",
+  "timestamp": "2026-10-19 20:58:51",
   "dry_run": false,
   "mods": {
     "created": 0,
@@ -7,14 +7,14 @@
     "deleted": 0
   },
   "kubejs": {
-    "created": 2,
-    "updated": 1,
+    "created": 0,
+    "updated": 0,
     "deleted": 0
   },
   "config": {
     "created": 0,
-    "updated": 11,
-    "deleted": 0
+    "updated": 17,
+    "deleted": 8
   },
   "datapacks": {
     "created": 0,
@@ -34,15 +34,15 @@
   "fancymenu_data": {
     "created": 0,
     "updated": 0,
-    "deleted": 0
+    "deleted": 2
   },
   "root": {
     "created": 0,
-    "updated": 0,
+    "updated": 2,
     "deleted": 0
   },
-  "duration_seconds": 11.59,
-  "total_added": 2,
-  "total_updated": 12,
-  "total_pruned": 0
+  "duration_seconds": 9.75,
+  "total_added": 0,
+  "total_updated": 19,
+  "total_pruned": 10
 }

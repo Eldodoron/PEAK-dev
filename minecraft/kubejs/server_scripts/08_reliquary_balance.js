@@ -19,9 +19,7 @@ ServerEvents.recipes(event => {
 
     // ==========================================
     // SECTION 1: ALKAHESTRY TOME â€” NEW RECIPE
-    // This item should be a TROPHY of late-game mastery,
-    // not a cheap shortcut. You need to have mastered
-    // both magic AND technology to wield transmutation.
+    // Gates Alkahestry Tome behind late-game hybrid magic and technology components.
     // ==========================================
 
     event.remove({ output: 'reliquary:alkahestry_tome' });
@@ -40,9 +38,7 @@ ServerEvents.recipes(event => {
 
     // ==========================================
     // SECTION 2: REMOVE OVERPOWERED DUPLICATIONS
-    // Alkahestry should NOT be able to duplicate
-    // any of these endgame/progression items.
-    // We remove these specific alkahestry recipes.
+    // Disable duplication recipes for endgame progression items.
     // ==========================================
 
     // Remove duplication of Nether Stars

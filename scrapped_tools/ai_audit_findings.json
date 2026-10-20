@@ -1,0 +1,5113 @@
+[
+  {
+    "file": "minecraft\\kubejs\\client_scripts\\apokinetics_unregister.js",
+    "line": 3,
+    "flags": [
+      [
+        "BUZZWORD",
+        [
+          "Surgically"
+        ]
+      ],
+      [
+        "PROMPT_USER",
+        [
+          "prompt "
+        ]
+      ]
+    ],
+    "text": "// Surgically unregister Apokinetics donation prompt from NeoForge event bus",
+    "is_comment": true,
+    "is_log": false
+  },
+  {
+    "file": "minecraft\\kubejs\\client_scripts\\apokinetics_unregister.js",
+    "line": 4,
+    "flags": [
+      [
+        "PROMPT_USER",
+        [
+          "prompts "
+        ]
+      ]
+    ],
+    "text": "// to prevent donation prompts from firing on client tick across all worlds.",
+    "is_comment": true,
+    "is_log": false
+  },
+  {
+    "file": "minecraft\\kubejs\\client_scripts\\apokinetics_unregister.js",
+    "line": 11,
+    "flags": [
+      [
+        "BUZZWORD",
+        [
+          "Surgically"
+        ]
+      ],
+      [
+        "PROMPT_USER",
+        [
+          "prompts"
+        ]
+      ]
+    ],
+    "text": "console.info('[PEAK Fix] Surgically unregistered com.fishguy129.apokinetics.client.DonationPromptClient to silence donation prompts.');",
+    "is_comment": false,
+    "is_log": true
+  },
+  {
+    "file": "minecraft\\kubejs\\client_scripts\\apokinetics_unregister.js",
+    "line": 13,
+    "flags": [
+      [
+        "PROMPT_USER",
+        [
+          "prompt"
+        ]
+      ]
+    ],
+    "text": "console.error('[PEAK Fix] Failed to unregister Apokinetics donation prompt: ' + err);",
+    "is_comment": false,
+    "is_log": true
+  },
+  {
+    "file": "minecraft\\kubejs\\server_scripts\\00_recipe_fixer.js",
+    "line": 22,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "we"
+        ]
+      ]
+    ],
+    "text": "// We can't easily iterate all recipes and modify their raw JSON in 1.21",
+    "is_comment": true,
+    "is_log": false
+  },
+  {
+    "file": "minecraft\\kubejs\\server_scripts\\00_recipe_fixer.js",
+    "line": 23,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "we"
+        ]
+      ]
+    ],
+    "text": "// without potentially causing more issues, but we can try to fix the",
+    "is_comment": true,
+    "is_log": false
+  },
+  {
+    "file": "minecraft\\kubejs\\server_scripts\\02_create_era_gates.js",
+    "line": 351,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "we"
+        ]
+      ]
+    ],
+    "text": "// we use Sequenced Assembly. The base backpack is the transitional item, so its NBT is preserved!",
+    "is_comment": true,
+    "is_log": false
+  },
+  {
+    "file": "minecraft\\kubejs\\server_scripts\\04_magic_integration.js",
+    "line": 106,
+    "flags": [
+      [
+        "CONVERSATIONAL",
+        [
+          "basically"
+        ]
+      ]
+    ],
+    "text": "// Spell turrets are basically \"magical deployers\" Ã¢â‚¬â€ they",
+    "is_comment": true,
+    "is_log": false
+  },
+  {
+    "file": "minecraft\\kubejs\\server_scripts\\04_magic_integration.js",
+    "line": 343,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "we"
+        ]
+      ]
+    ],
+    "text": "// Since ars_creo already exists, we enhance the",
+    "is_comment": true,
+    "is_log": false
+  },
+  {
+    "file": "minecraft\\kubejs\\server_scripts\\05_dark_magic_dimensions.js",
+    "line": 144,
+    "flags": [
+      [
+        "CONVERSATIONAL",
+        [
+          "naturally"
+        ]
+      ]
+    ],
+    "text": "// a naturally magical material)",
+    "is_comment": true,
+    "is_log": false
+  },
+  {
+    "file": "minecraft\\kubejs\\server_scripts\\05_dark_magic_dimensions.js",
+    "line": 171,
+    "flags": [
+      [
+        "BUZZWORD",
+        [
+          "SYNERGIES"
+        ]
+      ]
+    ],
+    "text": "// SECTION 5: CROSS-MAGIC SYNERGIES",
+    "is_comment": true,
+    "is_log": false
+  },
+  {
+    "file": "minecraft\\kubejs\\server_scripts\\05_dark_magic_dimensions.js",
+    "line": 241,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "we've"
+        ]
+      ]
+    ],
+    "text": "// the magical infrastructure we've built",
+    "is_comment": true,
+    "is_log": false
+  },
+  {
+    "file": "minecraft\\kubejs\\server_scripts\\08_reliquary_balance.js",
+    "line": 45,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "we"
+        ]
+      ]
+    ],
+    "text": "// We remove these specific alkahestry recipes.",
+    "is_comment": true,
+    "is_log": false
+  },
+  {
+    "file": "minecraft\\kubejs\\server_scripts\\09_custom_loot_tables.js",
+    "line": 7,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "we"
+        ]
+      ]
+    ],
+    "text": "// We use EntityEvents.death to ensure compatibility",
+    "is_comment": true,
+    "is_log": false
+  },
+  {
+    "file": "minecraft\\kubejs\\server_scripts\\10_avaritia_final_polish.js",
+    "line": 145,
+    "flags": [
+      [
+        "PROMPT_USER",
+        [
+          "Stage 5 [In-game Dragon Stage]"
+        ]
+      ]
+    ],
+    "text": "// --- PRIMORDIAL DRAGON BLOOD (Stage 5 IAF Dragons) ---",
+    "is_comment": true,
+    "is_log": false
+  },
+  {
+    "file": "minecraft\\kubejs\\server_scripts\\10_avaritia_final_polish.js",
+    "line": 210,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "our"
+        ]
+      ]
+    ],
+    "text": "// PLUS our custom boss drops.",
+    "is_comment": true,
+    "is_log": false
+  },
+  {
+    "file": "minecraft\\kubejs\\server_scripts\\10_avaritia_final_polish.js",
+    "line": 232,
+    "flags": [
+      [
+        "PROMPT_USER",
+        [
+          "Stage 5 [In-game Dragon Stage]"
+        ]
+      ]
+    ],
+    "text": "{ item: 'kubejs:primordial_dragon_blood' },   // Boss: Stage 5 Dragons (Ice & Fire)",
+    "is_comment": true,
+    "is_log": false
+  },
+  {
+    "file": "minecraft\\kubejs\\server_scripts\\12_food_buffs.js",
+    "line": 5,
+    "flags": [
+      [
+        "CONVERSATIONAL",
+        [
+          "actually"
+        ]
+      ]
+    ],
+    "text": "// Makes late-game foods actually worth crafting",
+    "is_comment": true,
+    "is_log": false
+  },
+  {
+    "file": "minecraft\\kubejs\\server_scripts\\15_loot_nerfs.js",
+    "line": 11,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "we"
+        ]
+      ]
+    ],
+    "text": "// We completely remove these drops from them.",
+    "is_comment": true,
+    "is_log": false
+  },
+  {
+    "file": "minecraft\\kubejs\\server_scripts\\17_goblin_trades.js",
+    "line": 10,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "we"
+        ]
+      ]
+    ],
+    "text": "// We add to the legendary.json for the normal goblin trader",
+    "is_comment": true,
+    "is_log": false
+  },
+  {
+    "file": "minecraft\\kubejs\\server_scripts\\17_goblin_trades.js",
+    "line": 13,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "we"
+        ]
+      ]
+    ],
+    "text": "\"replace\": false, // We append, not replace the whole file",
+    "is_comment": true,
+    "is_log": false
+  },
+  {
+    "file": "minecraft\\kubejs\\server_scripts\\18_boss_duplicator.js",
+    "line": 40,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "we"
+        ]
+      ]
+    ],
+    "text": "// but we will continue to use the event fallback to ensure it works across all NeoForge builds.",
+    "is_comment": true,
+    "is_log": false
+  },
+  {
+    "file": "minecraft\\kubejs\\server_scripts\\20_fixed_datapacks.js",
+    "line": 70,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "we"
+        ]
+      ]
+    ],
+    "text": "//     event.custom({\"type\": \"ars_nouveau:caster_tome\", \"color\": {\"b\": 180, \"g\": 25, \"id\": \"ars_nouveau:constant\", \"r\": 255}, \"flavour_text\": \" Traveling issues? Nonsense, all it takes is one leap and you get there in no time! Why the sticky feeling? Safety precautions, your legs aren't strong enough for the sudden stop with the ground, so we made them bouncy!\", \"name\": \"\", \"sound\": {}, \"spell\": [\"ars_nouveau:glyph_self\", \"ars_nouveau:glyph_leap\", \"ars_nouveau:glyph_amplify\", \"ars_nouveau:glyph_amplify\", \"ars_nouveau:glyph_amplify\", \"ars_nouveau:glyph_bounce\", \"ars_nouveau:glyph_duration_down\", \"ars_nouveau:glyph_amplify\"], \"spellData\": {\"color\": {\"b\": 180, \"g\": 25, \"id\": \"ars_nouveau:constant\", \"r\": 255}, \"name\": \"\", \"particleTimeline\": {\"ars_nouveau:pantomime\": {\"type\": \"ars_nouveau:pantomime\", \"onResolvingEffect\": {\"motion\": {\"type\": \"ars_nouveau:burst\", \"propMap\": {}}, \"particleOptions\": {\"type\": \"ars_nouveau:new_glow\", \"properties\": {\"ars_nouveau:density\": {\"density\": 5, \"radius\": 0.10000000149011612, \"spawnType\": \"SPHERE\"}, \"ars_nouveau:particle_type\": {\"particleType\": \"ars_nouveau:new_glow\", \"subProperties\": {\"ars_nouveau:color\": {\"particleColor\": {\"b\": 180, \"g\": 25, \"id\": \"ars_nouveau:constant\", \"r\": 255}, \"tintDisabled\": true}}}}}}, \"resolveSound\": {\"sound\": {}}}, \"ars_nouveau:projectile\": {\"type\": \"ars_nouveau:projectile\", \"castSound\": {\"sound\": {}}, \"flairEffect\": {\"particleOptions\": {\"type\": \"ars_nouveau:new_glow\", \"properties\": {\"ars_nouveau:particle_type\": {\"particleType\": \"ars_nouveau:new_glow\", \"subProperties\": {\"ars_nouveau:color\": {\"particleColor\": {\"b\": 180, \"g\": 25, \"id\": \"ars_nouveau:constant\", \"r\": 255}, \"tintDisabled\": true}}}}}}, \"onResolvingEffect\": {\"motion\": {\"type\": \"ars_nouveau:burst\", \"propMap\": {}}, \"particleOptions\": {\"type\": \"ars_nouveau:new_glow\", \"properties\": {\"ars_nouveau:density\": {\"density\": 5, \"radius\": 0.10000000149011612, \"spawnType\": \"SPHERE\"}, \"ars_nouveau:particle_type\": {\"particleType\": \"ars_nouveau:new_glow\", \"subProperties\": {\"ars_nouveau:color\": {\"particleColor\": {\"b\": 180, \"g\": 25, \"id\": \"ars_nouveau:constant\", \"r\": 255}, \"tintDisabled\": true}}}}}}, \"onSpawnEffect\": {\"particleOptions\": {\"type\": \"ars_nouveau:new_glow\", \"properties\": {\"ars_nouveau:particle_type\": {\"particleType\": \"ars_nouveau:new_glow\", \"subProperties\": {\"ars_nouveau:color\": {\"particleColor\": {\"b\": 180, \"g\": 25, \"id\": \"ars_nouveau:constant\", \"r\": 255}, \"tintDisabled\": true}}}}}}, \"resolveSound\": {\"sound\": {}}, \"trailEffect\": {\"motion\": {\"type\": \"ars_nouveau:trail\", \"propMap\": {\"ars_nouveau:model\": {\"resource\": \"ars_nouveau:empty\", \"subPropMap\": {}}}}, \"particleOptions\": {\"type\": \"ars_nouveau:new_glow\", \"properties\": {\"ars_nouveau:density\": {\"density\": 100, \"radius\": 0.10000000149011612, \"spawnType\": \"SPHERE\"}, \"ars_nouveau:particle_type\": {\"particleType\": \"ars_nouveau:new_glow\", \"subProperties\": {\"ars_nouveau:color\": {\"particleColor\": {\"b\": 180, \"g\": 25, \"id\": \"ars_nouveau:constant\", \"r\": 255}, \"tintDisabled\": true}}}}}}}, \"ars_nouveau:self\": {\"type\": \"ars_nouveau:self\", \"onResolvingEffect\": {\"motion\": {\"type\": \"ars_nouveau:burst\", \"propMap\": {}}, \"particleOptions\": {\"type\": \"ars_nouveau:large_smoke\", \"properties\": {\"ars_nouveau:density\": {\"density\": 20, \"radius\": 0.45, \"spawnType\": \"CUBE\"}, \"ars_nouveau:emitter\": {\"age\": 0, \"rotation\": {\"x\": 0.0, \"y\": 0.0}}, \"ars_nouveau:particle_type\": {\"particleType\": \"ars_nouveau:large_smoke\", \"subProperties\": {\"ars_nouveau:color\": {\"particleColor\": {\"b\": 178, \"g\": 178, \"id\": \"ars_nouveau:constant\", \"r\": 178}, \"tintDisabled\": false}, \"ars_nouveau:sound\": {\"sound\": {\"sound\": {\"id\": \"ars_nouveau:pointed_dripstone_drip_water\"}}}}}}}}, \"resolveSound\": {\"sound\": {\"pitch\": 1.3, \"sound\": {\"id\": \"ars_nouveau:shulker_bullet_hit\"}, \"volume\": 0.55}}}, \"ars_nouveau:wololo\": {\"type\": \"ars_nouveau:wololo\", \"propMap\": {\"ars_nouveau:color\": {\"particleColor\": {\"b\": 180, \"g\": 25, \"id\": \"ars_nouveau:constant\", \"r\": 255}, \"tintDisabled\": true}}}}, \"recipe\": [\"ars_nouveau:glyph_self\", \"ars_nouveau:glyph_leap\", \"ars_nouveau:glyph_amplify\", \"ars_nouveau:glyph_amplify\", \"ars_nouveau:glyph_amplify\", \"ars_nouveau:glyph_bounce\", \"ars_nouveau:glyph_duration_down\", \"ars_nouveau:glyph_amplify\"], \"sound\": {}}, \"tome_type\": \"ars_nouveau:caster_tome\"}).id('ars_nouveau:tomes/urticantodin_tome');",
+    "is_comment": true,
+    "is_log": false
+  },
+  {
+    "file": "minecraft\\kubejs\\server_scripts\\22_apotheosis_gear_sets.js",
+    "line": 7,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "we"
+        ]
+      ]
+    ],
+    "text": "// We use ServerEvents.generateData to ensure they are registered correctly in 1.21.",
+    "is_comment": true,
+    "is_log": false
+  },
+  {
+    "file": "minecraft\\kubejs\\server_scripts\\23_zenith_saber.js",
+    "line": 45,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "we"
+        ]
+      ]
+    ],
+    "text": "// This runs for EVERY crafted item, so we exit instantly if not a diamond sword.",
+    "is_comment": true,
+    "is_log": false
+  },
+  {
+    "file": "minecraft\\kubejs\\server_scripts\\23_zenith_saber.js",
+    "line": 51,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "our"
+        ]
+      ]
+    ],
+    "text": "// 3. Verify if it is our custom Zenith Saber",
+    "is_comment": true,
+    "is_log": false
+  },
+  {
+    "file": "minecraft\\kubejs\\server_scripts\\27_vampire_pillager.js",
+    "line": 476,
+    "flags": [
+      [
+        "PROMPT_USER",
+        [
+          "STAGE 1"
+        ]
+      ]
+    ],
+    "text": "// Active disengage: Continuously flee and evade player during cooldown (STAGE 1 ONLY, NEVER IN AGGRO)",
+    "is_comment": true,
+    "is_log": false
+  },
+  {
+    "file": "minecraft\\kubejs\\server_scripts\\50_xp_fluids_unification.js",
+    "line": 28,
+    "flags": [
+      [
+        "BUZZWORD",
+        [
+          "seamless"
+        ]
+      ]
+    ],
+    "text": "// Allows seamless conversion between any XP fluid type without loss",
+    "is_comment": true,
+    "is_log": false
+  },
+  {
+    "file": "minecraft\\kubejs\\server_scripts\\expert_mode_recipes.js",
+    "line": 20,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "we"
+        ]
+      ]
+    ],
+    "text": "// (We keep IE Crusher and Mekanism Enrichment as UPGRADES, not alternatives)",
+    "is_comment": true,
+    "is_log": false
+  },
+  {
+    "file": "minecraft\\kubejs\\server_scripts\\expert_mode_recipes.js",
+    "line": 30,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "we"
+        ]
+      ]
+    ],
+    "text": "// Note: We keep vanilla smelting as a basic option but Create gives 2x",
+    "is_comment": true,
+    "is_log": false
+  },
+  {
+    "file": "minecraft\\kubejs\\server_scripts\\expert_mode_recipes.js",
+    "line": 64,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "we"
+        ]
+      ]
+    ],
+    "text": "//  we add a Create prerequisite by requiring the Pressure Chamber itself",
+    "is_comment": true,
+    "is_log": false
+  },
+  {
+    "file": "minecraft\\kubejs\\server_scripts\\random_gateways.js",
+    "line": 299,
+    "flags": [
+      [
+        "CONVERSATIONAL",
+        [
+          "notice"
+        ]
+      ]
+    ],
+    "text": "console.error(`[PEAK RandomGateway] FTB Chunks force-loading notice: ${e}`);",
+    "is_comment": false,
+    "is_log": true
+  },
+  {
+    "file": "minecraft\\kubejs\\server_scripts\\random_gateways.js",
+    "line": 332,
+    "flags": [
+      [
+        "CONVERSATIONAL",
+        [
+          "notice"
+        ]
+      ]
+    ],
+    "text": "console.error(`[PEAK RandomGateway] FTB Chunks un-forceload notice: ${e}`);",
+    "is_comment": false,
+    "is_log": true
+  },
+  {
+    "file": "minecraft\\kubejs\\server_scripts\\random_gateways.js",
+    "line": 566,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "our"
+        ]
+      ]
+    ],
+    "text": "// Proximity verification: ensure this is our random gateway and not a player's private Gate Pearl",
+    "is_comment": true,
+    "is_log": false
+  },
+  {
+    "file": "minecraft\\kubejs\\server_scripts\\random_gateways.js",
+    "line": 604,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "our"
+        ]
+      ]
+    ],
+    "text": "// Proximity verification: ensure this is our random gateway",
+    "is_comment": true,
+    "is_log": false
+  },
+  {
+    "file": "minecraft\\kubejs\\startup_scripts\\40_iaf_durability_buff.js",
+    "line": 3,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "we"
+        ]
+      ]
+    ],
+    "text": "// We use explicit values because reading maxDamage dynamically returns undefined/NaN during startup.",
+    "is_comment": true,
+    "is_log": false
+  },
+  {
+    "file": "minecraft\\kubejs\\startup_scripts\\apokinetics_unregister.js",
+    "line": 3,
+    "flags": [
+      [
+        "BUZZWORD",
+        [
+          "Surgically"
+        ]
+      ],
+      [
+        "PROMPT_USER",
+        [
+          "prompt "
+        ]
+      ]
+    ],
+    "text": "// Surgically unregister Apokinetics donation prompt from NeoForge event bus",
+    "is_comment": true,
+    "is_log": false
+  },
+  {
+    "file": "minecraft\\kubejs\\startup_scripts\\apokinetics_unregister.js",
+    "line": 4,
+    "flags": [
+      [
+        "PROMPT_USER",
+        [
+          "prompts "
+        ]
+      ]
+    ],
+    "text": "// to prevent donation prompts from firing on client tick across all worlds.",
+    "is_comment": true,
+    "is_log": false
+  },
+  {
+    "file": "minecraft\\kubejs\\startup_scripts\\apokinetics_unregister.js",
+    "line": 11,
+    "flags": [
+      [
+        "BUZZWORD",
+        [
+          "Surgically"
+        ]
+      ],
+      [
+        "PROMPT_USER",
+        [
+          "prompts"
+        ]
+      ]
+    ],
+    "text": "console.info('[PEAK Fix] Surgically unregistered com.fishguy129.apokinetics.client.DonationPromptClient to silence donation prompts.');",
+    "is_comment": false,
+    "is_log": true
+  },
+  {
+    "file": "minecraft\\kubejs\\startup_scripts\\apokinetics_unregister.js",
+    "line": 13,
+    "flags": [
+      [
+        "PROMPT_USER",
+        [
+          "prompt"
+        ]
+      ]
+    ],
+    "text": "console.error('[PEAK Fix] Failed to unregister Apokinetics donation prompt: ' + err);",
+    "is_comment": false,
+    "is_log": true
+  },
+  {
+    "file": "minecraft\\kubejs\\startup_scripts\\block_factory_buffs.js",
+    "line": 13,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "our"
+        ]
+      ]
+    ],
+    "text": "// Add our new modifiers",
+    "is_comment": true,
+    "is_log": false
+  },
+  {
+    "file": "minecraft\\kubejs\\startup_scripts\\custom_items.js",
+    "line": 85,
+    "flags": [
+      [
+        "PROMPT_USER",
+        [
+          "STAGE 5 [In-game Dragon Stage]"
+        ]
+      ]
+    ],
+    "text": "// --- STAGE 5 DRAGON (Ice and Fire) ---",
+    "is_comment": true,
+    "is_log": false
+  },
+  {
+    "file": "minecraft\\kubejs\\startup_scripts\\fix_malum_watchdog.js",
+    "line": 5,
+    "flags": [
+      [
+        "BUZZWORD",
+        [
+          "surgically"
+        ]
+      ]
+    ],
+    "text": "// This script surgically unregisters Malum's RuntimeEvents class",
+    "is_comment": true,
+    "is_log": false
+  },
+  {
+    "file": "minecraft\\kubejs\\startup_scripts\\fix_malum_watchdog.js",
+    "line": 13,
+    "flags": [
+      [
+        "BUZZWORD",
+        [
+          "Surgically"
+        ]
+      ]
+    ],
+    "text": "console.info('[PEAK Fix] Surgically unregistered com.sammy.malum.events.RuntimeEvents to prevent watchdog hangs.');",
+    "is_comment": false,
+    "is_log": true
+  },
+  {
+    "file": "minecraft\\kubejs\\startup_scripts\\vampillager_entity.js",
+    "line": 92,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "we"
+        ]
+      ]
+    ],
+    "text": "// Check backward landing position: ensure we don't leap backwards into direct sunlight!",
+    "is_comment": true,
+    "is_log": false
+  },
+  {
+    "file": "minecraft\\config\\ftbquests\\quests\\lang\\en_us.snbt",
+    "line": 380,
+    "flags": [
+      [
+        "PROMPT_USER",
+        [
+          "Stage 1"
+        ]
+      ]
+    ],
+    "text": "\"&d* Stage 1 of the Lichblade evolution.&r\"",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "minecraft\\config\\ftbquests\\quests\\lang\\en_us.snbt",
+    "line": 384,
+    "flags": [
+      [
+        "PROMPT_USER",
+        [
+          "Stage 1"
+        ]
+      ]
+    ],
+    "text": "quest.2002000000000010.quest_subtitle: \"Stage 1: Drains life essence of the fallen.\"",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "minecraft\\config\\ftbquests\\quests\\lang\\en_us.snbt",
+    "line": 387,
+    "flags": [
+      [
+        "PROMPT_USER",
+        [
+          "Stage 2"
+        ]
+      ]
+    ],
+    "text": "\"&d* Stage 2 of the Lichblade evolution.&r\"",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "minecraft\\config\\ftbquests\\quests\\lang\\en_us.snbt",
+    "line": 391,
+    "flags": [
+      [
+        "PROMPT_USER",
+        [
+          "Stage 2"
+        ]
+      ]
+    ],
+    "text": "quest.2002000000000011.quest_subtitle: \"Stage 2: Hunger awakens, summoning minor undead.\"",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "minecraft\\config\\ftbquests\\quests\\lang\\en_us.snbt",
+    "line": 398,
+    "flags": [
+      [
+        "PROMPT_USER",
+        [
+          "Stage 3"
+        ]
+      ]
+    ],
+    "text": "quest.2002000000000012.quest_subtitle: \"Stage 3: Full necromantic army command.\"",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "minecraft\\config\\ftbquests\\quests\\lang\\en_us.snbt",
+    "line": 556,
+    "flags": [
+      [
+        "BUZZWORD",
+        [
+          "unleashed"
+        ]
+      ]
+    ],
+    "text": "\"&9The ocean's fury unleashed upon the surface.\"",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "minecraft\\config\\ftbquests\\quests\\lang\\en_us.snbt",
+    "line": 590,
+    "flags": [
+      [
+        "PROMPT_USER",
+        [
+          "Stage 1"
+        ]
+      ]
+    ],
+    "text": "\"&8* Stage 1 of the Ancient Relic lineage.&r\"",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "minecraft\\config\\ftbquests\\quests\\lang\\en_us.snbt",
+    "line": 597,
+    "flags": [
+      [
+        "PROMPT_USER",
+        [
+          "Stage 2"
+        ]
+      ]
+    ],
+    "text": "\"&f* Stage 2 Sacred Relic bathed in divine light.&r\"",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "minecraft\\config\\ftbquests\\quests\\lang\\en_us.snbt",
+    "line": 604,
+    "flags": [
+      [
+        "PROMPT_USER",
+        [
+          "Stage 2"
+        ]
+      ]
+    ],
+    "text": "\"&c* Stage 2 Cursed Relic infused with abyssal malice.&r\"",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "minecraft\\config\\ftbquests\\quests\\lang\\en_us.snbt",
+    "line": 611,
+    "flags": [
+      [
+        "PROMPT_USER",
+        [
+          "Stage 2"
+        ]
+      ]
+    ],
+    "text": "\"&4* Stage 2 Decay Relic that steadily rots away target armor and maximum HP.&r\"",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "minecraft\\config\\ftbquests\\quests\\lang\\en_us.snbt",
+    "line": 1022,
+    "flags": [
+      [
+        "BUZZWORD",
+        [
+          "delves"
+        ]
+      ]
+    ],
+    "text": "\"&7Exceptional base durability for sustained dungeon delves.\"",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "minecraft\\config\\ftbquests\\quests\\lang\\en_us.snbt",
+    "line": 1064,
+    "flags": [
+      [
+        "PROMPT_USER",
+        [
+          "Stage 5 [In-game Dragon Stage]"
+        ]
+      ]
+    ],
+    "text": "quest.200600000000000A.quest_subtitle: \"Infused with the boiling breath of Stage 5 Fire Dragons.\"",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "minecraft\\config\\ftbquests\\quests\\lang\\en_us.snbt",
+    "line": 1070,
+    "flags": [
+      [
+        "PROMPT_USER",
+        [
+          "Stage 5 [In-game Dragon Stage]"
+        ]
+      ]
+    ],
+    "text": "quest.200600000000000B.quest_subtitle: \"Infused with the absolute zero breath of Stage 5 Ice Dragons.\"",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "minecraft\\config\\ftbquests\\quests\\lang\\en_us.snbt",
+    "line": 1458,
+    "flags": [
+      [
+        "PROMPT_USER",
+        [
+          "Stage 4"
+        ]
+      ]
+    ],
+    "text": "quest.3104000000000011.quest_subtitle: \"Slay a Stage 4-5 Fire Dragon\"",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "minecraft\\config\\ftbquests\\quests\\lang\\en_us.snbt",
+    "line": 1464,
+    "flags": [
+      [
+        "PROMPT_USER",
+        [
+          "Stage 4"
+        ]
+      ]
+    ],
+    "text": "quest.3104000000000012.quest_subtitle: \"Slay a Stage 4-5 Ice Dragon\"",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "minecraft\\config\\ftbquests\\quests\\lang\\en_us.snbt",
+    "line": 1470,
+    "flags": [
+      [
+        "PROMPT_USER",
+        [
+          "Stage 4"
+        ]
+      ]
+    ],
+    "text": "quest.3104000000000013.quest_subtitle: \"Slay a Stage 4-5 Lightning Dragon\"",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "minecraft\\config\\ftbquests\\quests\\lang\\en_us.snbt",
+    "line": 1511,
+    "flags": [
+      [
+        "BUZZWORD",
+        [
+          "unleashing"
+        ]
+      ]
+    ],
+    "text": "quest.3105000000000032.quest_desc: [\"&aThe radioactive leviathan unleashing devastating atomic breath rays.&r\"]",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "minecraft\\config\\ftbquests\\quests\\lang\\en_us.snbt",
+    "line": 1650,
+    "flags": [
+      [
+        "BUZZWORD",
+        [
+          "cornerstone"
+        ]
+      ]
+    ],
+    "text": "quest.4101000000000010.quest_subtitle: \"The cornerstone of all kinetic mechanics.\"",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "minecraft\\config\\ftbquests\\quests\\lang\\en_us.snbt",
+    "line": 1674,
+    "flags": [
+      [
+        "BUZZWORD",
+        [
+          "harness"
+        ]
+      ]
+    ],
+    "text": "\"&eWindmill Bearings harness the breeze to generate massive kinetic power.&r\"",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "minecraft\\config\\ftbquests\\quests\\lang\\en_us.snbt",
+    "line": 1810,
+    "flags": [
+      [
+        "BUZZWORD",
+        [
+          "surgical"
+        ]
+      ]
+    ],
+    "text": "quest.4103000000000020.quest_subtitle: \"Filter, extract, and sort with surgical precision.\"",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "minecraft\\config\\ftbquests\\quests\\lang\\en_us.snbt",
+    "line": 1853,
+    "flags": [
+      [
+        "BUZZWORD",
+        [
+          "Unleashing"
+        ]
+      ]
+    ],
+    "text": "quest.4103000000000090.quest_subtitle: \"Unleashing the power of pressurized steam.\"",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "minecraft\\config\\ftbquests\\quests\\lang\\en_us.snbt",
+    "line": 1878,
+    "flags": [
+      [
+        "BUZZWORD",
+        [
+          "cornerstone"
+        ]
+      ]
+    ],
+    "text": "\"Steel is the cornerstone of industrial casings, diesel combustion, and aerospace rocketry.\"",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "minecraft\\config\\ftbquests\\quests\\lang\\en_us.snbt",
+    "line": 2128,
+    "flags": [
+      [
+        "BUZZWORD",
+        [
+          "delve"
+        ]
+      ]
+    ],
+    "text": "quest.5100000000000048.quest_desc: [\"&e* Classic lunchbox sandwich ready for any mining delve.\"]",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "minecraft\\config\\ftbquests\\quests\\lang\\en_us.snbt",
+    "line": 2389,
+    "flags": [
+      [
+        "BUZZWORD",
+        [
+          "robust"
+        ]
+      ]
+    ],
+    "text": "quest.5101000000000031.quest_desc: [\"&c* Distinct robust flavor that craves rosemary and garlic.\"]",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "minecraft\\config\\ftbquests\\quests\\lang\\en_us.snbt",
+    "line": 2506,
+    "flags": [
+      [
+        "BUZZWORD",
+        [
+          "Meticulously"
+        ]
+      ]
+    ],
+    "text": "quest.5101000000000067.quest_desc: [\"&c* Meticulously arranged baked summer vegetable layers.\"]",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "minecraft\\config\\ftbquests\\quests\\lang\\en_us.snbt",
+    "line": 2752,
+    "flags": [
+      [
+        "CONVERSATIONAL",
+        [
+          "naturally"
+        ]
+      ]
+    ],
+    "text": "quest.5102000000000016.quest_subtitle: \"Naturally warm meat cutlet.\"",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "minecraft\\config\\ftbquests\\quests\\lang\\en_us.snbt",
+    "line": 2907,
+    "flags": [
+      [
+        "BUZZWORD",
+        [
+          "meticulously"
+        ]
+      ]
+    ],
+    "text": "quest.5102000000000066.quest_desc: [\"&e* Toxins meticulously removed. Spicy and thrilling.\"]",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "minecraft\\config\\ftbquests\\quests\\lang\\en_us.snbt",
+    "line": 2949,
+    "flags": [
+      [
+        "BUZZWORD",
+        [
+          "delves"
+        ]
+      ]
+    ],
+    "text": "quest.5102000000000080.quest_desc: [\"&6* Slow-cooked until tender. The staple food of underworld delves.\"]",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "minecraft\\config\\ftbquests\\quests\\lang\\en_us.snbt",
+    "line": 2979,
+    "flags": [
+      [
+        "CONVERSATIONAL",
+        [
+          "naturally"
+        ]
+      ]
+    ],
+    "text": "quest.5102000000000090.quest_desc: [\"&d* Naturally floats out of the bowl if not held down!\"]",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "minecraft\\config\\ftbquests\\quests\\lang\\en_us.snbt",
+    "line": 3892,
+    "flags": [
+      [
+        "CONVERSATIONAL",
+        [
+          "remember"
+        ]
+      ]
+    ],
+    "text": "\"Unlike the strict boss gauntlets, here you can wander at your own pace. Branch out, experiment, and remember: work smarter, not harder.\"",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "minecraft\\config\\ftbquests\\quests\\lang\\en_us.snbt",
+    "line": 3986,
+    "flags": [
+      [
+        "BUZZWORD",
+        [
+          "Synergy"
+        ]
+      ]
+    ],
+    "text": "quest.7000000000000140.title: \"&eCurios Synergy - Trinket Optimization&r\"",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "minecraft\\config\\ftbquests\\quests\\lang\\en_us.snbt",
+    "line": 4081,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "I have"
+        ]
+      ]
+    ],
+    "text": "task.4000000000000027.title: \"I have forged all 25 weapon archetypes!\"",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "minecraft\\config\\ftbquests\\quests\\lang\\en_us.snbt",
+    "line": 4084,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "I have"
+        ]
+      ]
+    ],
+    "text": "task.4000000000000078.title: \"I have collected all 49 Simply Swords mythic relics!\"",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "minecraft\\config\\ftbquests\\quests\\lang\\en_us.snbt",
+    "line": 4087,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "I have"
+        ]
+      ]
+    ],
+    "text": "task.4000000000000115.title: \"I have found all 49 Simply Swords mythic weapons!\"",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "minecraft\\config\\ftbquests\\quests\\lang\\en_us.snbt",
+    "line": 4088,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "I have"
+        ]
+      ]
+    ],
+    "text": "task.4000000000000116.title: \"I have collected all 36 Simply More relics!\"",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "minecraft\\config\\ftbquests\\quests\\lang\\en_us.snbt",
+    "line": 4093,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "I have"
+        ]
+      ]
+    ],
+    "text": "task.4000000000000131.title: \"I have collected all 7 Mythic Bows!\"",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "minecraft\\config\\ftbquests\\quests\\lang\\en_us.snbt",
+    "line": 4097,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "I have"
+        ]
+      ]
+    ],
+    "text": "task.4000000000000155.title: \"I have forged all dimensional metals!\"",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "minecraft\\config\\ftbquests\\quests\\lang\\en_us.snbt",
+    "line": 4098,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "I have"
+        ]
+      ]
+    ],
+    "text": "task.4000000000000156.title: \"I have forged all dimensional metals!\"",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "minecraft\\config\\ftbquests\\quests\\lang\\en_us.snbt",
+    "line": 4099,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "I AM"
+        ]
+      ]
+    ],
+    "text": "task.4000000000000157.title: \"I AM THE ARSENAL EMPEROR OF PEAK!\"",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "minecraft\\config\\ftbquests\\quests\\lang\\en_us.snbt",
+    "line": 4106,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "I have"
+        ]
+      ]
+    ],
+    "text": "task.5400000000000113.title: \"I have collected all 107 Homestead foods!\"",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "minecraft\\config\\ftbquests\\quests\\lang\\en_us.snbt",
+    "line": 4112,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "I have"
+        ]
+      ]
+    ],
+    "text": "task.5400000000001117.title: \"I have collected all 111 Dimensional delicacies!\"",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "minecraft\\config\\ftbquests\\quests\\lang\\en_us.snbt",
+    "line": 4118,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "I have"
+        ]
+      ]
+    ],
+    "text": "task.5400000000002077.title: \"I have collected all 71 Arcane and Boss delicacies!\"",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "minecraft\\config\\ftbquests\\quests\\lang\\en_us.snbt",
+    "line": 4124,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "I have"
+        ]
+      ]
+    ],
+    "text": "task.5400000000003039.title: \"I have collected all 33 Aquaculture catches!\"",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "minecraft\\config\\ftbquests\\quests\\lang\\en_us.snbt",
+    "line": 4130,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "I have"
+        ]
+      ]
+    ],
+    "text": "task.5400000000004076.title: \"I have collected all 70 Safari and Cave delicacies!\"",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "minecraft\\config\\ftbquests\\quests\\lang\\en_us.snbt",
+    "line": 4139,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "I have"
+        ]
+      ]
+    ],
+    "text": "task.5400000000005068.title: \"I have tasted all 58 Classic staples!\"",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "CHANGELOG.md",
+    "line": 11,
+    "flags": [
+      [
+        "CONVERSATIONAL",
+        [
+          "naturally"
+        ]
+      ]
+    ],
+    "text": "*   **Manual Bypass Disabled:** Fully locked manual tier selection in `apotheosis.cfg`. Players must now earn their progression naturally to view and unlock advanced loot statistics.",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "CONSOLE_LOG_FINDINGS.md",
+    "line": 203,
+    "flags": [
+      [
+        "PROMPT_USER",
+        [
+          "prompt "
+        ]
+      ]
+    ],
+    "text": "- No AI attribution, meta-comments, or prompt references.",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "scrapped_tools\\curseforge_peak_dev_description_update.md",
+    "line": 3,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "i've"
+        ]
+      ]
+    ],
+    "text": "## **<span style=\"color:#2dc26b\">I've finally made public this alpha version of the</span> <span style=\"color:#f1c40f\">PEAK</span> <span style=\"color:#2dc26b\">modpack!</span>**",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "scrapped_tools\\curseforge_peak_dev_description_update.md",
+    "line": 16,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "I want"
+        ]
+      ]
+    ],
+    "text": "Before getting into what is in the pack, I want to talk about performance first. A lot of modern 1.21 modpacks run poorly or stutter because people just toss 300 mods into a folder and hope for the best. For PEAK, I spent back-breaking hours doing deep optimization: stripping out redundant mod bloat, unifying tags so you do not get three conflicting types of copper or random duplicate ingots, tuning garbage collection flags, and fixing structure leaks so chunks load when you are moving fast.",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "scrapped_tools\\curseforge_peak_dev_description_update.md",
+    "line": 36,
+    "flags": [
+      [
+        "CONVERSATIONAL",
+        [
+          "actually"
+        ]
+      ]
+    ],
+    "text": "To get your hands on Eyes of Ender, you actually have to go out into the world and get into some fights with bosses **(Check the boss questlines)** and dungeon threats. Once you go through the end portal and get your first taste of the End, you can take End Stone, crush it down into End Stone Powder, and use that to craft more eyes yourself!!! It gives exploring and fighting a real purpose rather than just ignoring everything on the surface.",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "scrapped_tools\\curseforge_peak_dev_description_update.md",
+    "line": 56,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "I need"
+        ]
+      ]
+    ],
+    "text": "# <span style=\"color:#2dc26b\"><strong>This is an Alpha — I need your feedback!</strong></span>",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "scrapped_tools\\curseforge_peak_dev_description_update.md",
+    "line": 60,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "I have"
+        ]
+      ]
+    ],
+    "text": "This is the very first public release. I have put manyyy hours into balancing recipes, drop rates, and performance, but the best way to polish a pack is having real players jump in, try weird builds, and see what breaks.",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "scrapped_tools\\curseforge_peak_lite_description.md",
+    "line": 16,
+    "flags": [
+      [
+        "BUZZWORD",
+        [
+          "surgically"
+        ]
+      ]
+    ],
+    "text": "**PEAK Lite** is built specifically to solve this problem. Every single heavy visual engine has been surgically stripped while leaving **100% of the gameplay, progression, questing, and mechanics completely untouched.**",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "scrapped_tools\\curseforge_peak_lite_description.md",
+    "line": 47,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "we"
+        ]
+      ]
+    ],
+    "text": "We avoided hand-holding quest rails and rigid checklists. Whether you want to master rotational engineering, brew high-tier alchemy, construct orbital rockets, or tackle dangerous boss arenas, the choice is yours.",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "scrapped_tools\\modrinth_description.md",
+    "line": 3,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "i've"
+        ]
+      ]
+    ],
+    "text": "## **<span style=\"color:#2dc26b\">I've finally made public this alpha version of the</span> <span style=\"color:#f1c40f\">PEAK</span> <span style=\"color:#2dc26b\">modpack!</span>**",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "scrapped_tools\\modrinth_description.md",
+    "line": 11,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "I want"
+        ]
+      ]
+    ],
+    "text": "Before getting into what is in the pack, I want to talk about performance first. A lot of modern 1.21 modpacks run poorly or stutter because people just toss 300 mods into a folder and hope for the best. For PEAK, I spent back-breaking hours doing deep optimization: stripping out redundant mod bloat, unifying tags so you do not get three conflicting types of copper or random duplicate ingots, tuning garbage collection flags, and fixing structure leaks so chunks load when you are moving fast.",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "scrapped_tools\\modrinth_description.md",
+    "line": 13,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "I will"
+        ]
+      ]
+    ],
+    "text": "Because of everything that is packed into the world, **you will need to allocate at least <span style=\"color:#2dc26b\">7 GB of free RAM</span>** in your launcher. Anything less and Java will choke on garbage collection. BUT, i do have a <span style=\"color:#2dc26b\"><strong>lite</strong></span> version of the pack that can run on around **<span style=\"color:#2dc26b\">6.2GB</span>** But i wont release that yet. Why? Shh calm down, I will laterrr!",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "scrapped_tools\\modrinth_description.md",
+    "line": 31,
+    "flags": [
+      [
+        "CONVERSATIONAL",
+        [
+          "actually"
+        ]
+      ]
+    ],
+    "text": "To get your hands on Eyes of Ender, you actually have to go out into the world and get into some fights with bosses **(Check the boss questlines)** and dungeon threats. Once you go through the end portal and get your first taste of the End, you can take End Stone, crush it down into End Stone Powder, and use that to craft more eyes yourself!!! It gives exploring and fighting a real purpose rather than just ignoring everything on the surface.",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "scrapped_tools\\modrinth_description.md",
+    "line": 51,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "I need"
+        ]
+      ]
+    ],
+    "text": "# <span style=\"color:#2dc26b\"><strong>This is an Alpha — I need your feedback!</strong></span>",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "scrapped_tools\\modrinth_description.md",
+    "line": 55,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "I have"
+        ]
+      ]
+    ],
+    "text": "This is the very first public release. I have put manyyy hours into balancing recipes, drop rates, and performance, but the best way to polish a pack is having real players jump in, try weird builds, and see what breaks.",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\DistantHorizons.toml",
+    "line": 674,
+    "flags": [
+      [
+        "CONVERSATIONAL",
+        [
+          "essentially"
+        ]
+      ]
+    ],
+    "text": "# which can essentially make textures smaller than a pixel and therefore invisible.",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\DistantHorizons.toml",
+    "line": 683,
+    "flags": [
+      [
+        "CONVERSATIONAL",
+        [
+          "actually"
+        ]
+      ]
+    ],
+    "text": "# Only applies to high detail LODs where the texture is actually visible,",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\aero_cam_sync-client.toml",
+    "line": 62,
+    "flags": [
+      [
+        "PROMPT_USER",
+        [
+          "prompt "
+        ]
+      ]
+    ],
+    "text": "#Used to detect when a config reset prompt should be shown.",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\antiqueatlas-common.toml",
+    "line": 160,
+    "flags": [
+      [
+        "CONVERSATIONAL",
+        [
+          "remember"
+        ]
+      ]
+    ],
+    "text": "#Whether to remember last open browsing position and zoom level for each dimension in every atlas.",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\ars_n_spells-server.toml",
+    "line": 421,
+    "flags": [
+      [
+        "BUZZWORD",
+        [
+          "Synergy"
+        ]
+      ]
+    ],
+    "text": "[\"Source Jar Synergy\"]",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\ars_unification-server.toml",
+    "line": 35,
+    "flags": [
+      [
+        "CONVERSATIONAL",
+        [
+          "actually"
+        ]
+      ]
+    ],
+    "text": "#Priority of Actually Additions's Crusher recipes, -1 to disable",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\badoptimizations.txt",
+    "line": 5,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "we"
+        ]
+      ]
+    ],
+    "text": "# Whether we should cancel updating the lightmap if not needed.",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\badoptimizations.txt",
+    "line": 24,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "we"
+        ]
+      ]
+    ],
+    "text": "# Whether we should avoid calling debug renderers",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\badoptimizations.txt",
+    "line": 32,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "we"
+        ]
+      ]
+    ],
+    "text": "# Whether we should avoid calling the particle manager",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\badoptimizations.txt",
+    "line": 35,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "we"
+        ]
+      ]
+    ],
+    "text": "# Whether we should avoid calling the toast manager if there are no toasts.",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\badoptimizations.txt",
+    "line": 49,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "we"
+        ]
+      ]
+    ],
+    "text": "# Whether we should avoid calling FOV calculations",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\block_factorys_bosses-client.toml",
+    "line": 2,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "our"
+        ]
+      ]
+    ],
+    "text": "#Our mod has the ability to modify how the healthbars of certain bosses appear. Pick the one that suits you most.",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\bossrifts-server.toml",
+    "line": 1,
+    "flags": [
+      [
+        "CONVERSATIONAL",
+        [
+          "naturally"
+        ]
+      ]
+    ],
+    "text": "#How long should the Rift take to naturally expire? (20 ticks is 1 second)",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\bossrifts-server.toml",
+    "line": 2,
+    "flags": [
+      [
+        "CONVERSATIONAL",
+        [
+          "naturally"
+        ]
+      ]
+    ],
+    "text": "#If you type in the number 0, the Rift will never naturally expire.",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\c2me.toml",
+    "line": 109,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "we"
+        ]
+      ]
+    ],
+    "text": "#  We has historically been doing this, and this config option allows you to disable this behavior.",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\farmersdelight-common.toml",
+    "line": 59,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "I recommend"
+        ]
+      ]
+    ],
+    "text": "#Disable this if this block is preventing you from editing a region in creative or with commands. For normal gameplay, I recommend leaving this enabled.",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\fml.toml",
+    "line": 3,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "we"
+        ]
+      ]
+    ],
+    "text": "#Should we control the window. Disabling this disables new GL features and can be bad for mods that rely on them.",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\goblintraders-entities.toml",
+    "line": 9,
+    "flags": [
+      [
+        "CONVERSATIONAL",
+        [
+          "wait"
+        ]
+      ]
+    ],
+    "text": "# The amount of ticks to wait before trying to spawn a trader again if the spawn failed",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\goblintraders-entities.toml",
+    "line": 93,
+    "flags": [
+      [
+        "CONVERSATIONAL",
+        [
+          "wait"
+        ]
+      ]
+    ],
+    "text": "# The amount of ticks to wait before trying to spawn a trader again if the spawn failed",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\guardvillagers-common.toml",
+    "line": 102,
+    "flags": [
+      [
+        "CONVERSATIONAL",
+        [
+          "naturally"
+        ]
+      ]
+    ],
+    "text": "\"Allow guards to naturally patrol villages? This feature can cause lag if a lot of guards are spawned\" = false",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\immersiveengineering-server.toml",
+    "line": 407,
+    "flags": [
+      [
+        "CONVERSATIONAL",
+        [
+          "basically"
+        ]
+      ]
+    ],
+    "text": "#The speed of the Excavator. Basically translates to how many degrees per tick it will turn.",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\immersiveengineering-server.toml",
+    "line": 429,
+    "flags": [
+      [
+        "CONVERSATIONAL",
+        [
+          "basically"
+        ]
+      ]
+    ],
+    "text": "#The retrogeneration key. Basically IE checks if this key is saved in the chunks data. If it isn't, it will perform retrogen on all ores marked for retrogen.",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\immersiveengineering-startup.toml",
+    "line": 1,
+    "flags": [
+      [
+        "CONVERSATIONAL",
+        [
+          "notice"
+        ]
+      ]
+    ],
+    "text": "#IMPORTANT NOTICE:",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\jeioptimizer-client.toml",
+    "line": 21,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "our",
+          "we"
+        ]
+      ]
+    ],
+    "text": "#WILL crash here (we saw theurgy, ars_nouveau, compactmachines crash in our test).",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\jeioptimizer-client.toml",
+    "line": 26,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "our"
+        ]
+      ]
+    ],
+    "text": "#In our test pack this LOST 22% of JEI items because some mods' tab builders",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\kjsae2bridge-server.toml",
+    "line": 8,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "I can"
+        ]
+      ]
+    ],
+    "text": "#I emit terminal-open events from container opens when I can detect AE2 terminals.",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\lootr_liason-common.toml",
+    "line": 1,
+    "flags": [
+      [
+        "CONVERSATIONAL",
+        [
+          "wait"
+        ]
+      ]
+    ],
+    "text": "#Ticks to wait after detecting a container before finalizing (allows worldgen to finish)",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\mowziesmobs-common.toml",
+    "line": 189,
+    "flags": [
+      [
+        "CONVERSATIONAL",
+        [
+          "wait"
+        ]
+      ]
+    ],
+    "text": "#How long players must wait between uses of Elokosa Paws in ticks",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\mynethersdelight-common.toml",
+    "line": 44,
+    "flags": [
+      [
+        "CONVERSATIONAL",
+        [
+          "naturally"
+        ]
+      ]
+    ],
+    "text": "#Controls whether Powdery Cane patches generate naturally in Crimson Forests.",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\neoforge-server.toml",
+    "line": 1,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "we"
+        ]
+      ]
+    ],
+    "text": "#Set this to true to remove any BlockEntity that throws an error in its update method instead of closing the server and reporting a crash log. BE WARNED THIS COULD SCREW UP EVERYTHING USE SPARINGLY WE ARE NOT RESPONSIBLE FOR DAMAGES.",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\neoforge-server.toml",
+    "line": 3,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "we"
+        ]
+      ]
+    ],
+    "text": "#Set this to true to remove any Entity (Note: Does not include BlockEntities) that throws an error in its tick method instead of closing the server and reporting a crash log. BE WARNED THIS COULD SCREW UP EVERYTHING USE SPARINGLY WE ARE NOT RESPONSIBLE FOR DAMAGES.",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\paraglider-common.toml",
+    "line": 2,
+    "flags": [
+      [
+        "CONVERSATIONAL",
+        [
+          "actually"
+        ]
+      ]
+    ],
+    "text": "#Most of them requires server restart or datapack reload. All of them, actually.",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\quark-common.toml",
+    "line": 452,
+    "flags": [
+      [
+        "CONVERSATIONAL",
+        [
+          "wait"
+        ]
+      ]
+    ],
+    "text": "#How many ticks do you have to wait between using the pickarang again",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\quark-common.toml",
+    "line": 472,
+    "flags": [
+      [
+        "CONVERSATIONAL",
+        [
+          "wait"
+        ]
+      ]
+    ],
+    "text": "#How many ticks do you have to wait between using the pickarang again",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\quark-common.toml",
+    "line": 808,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "we"
+        ]
+      ]
+    ],
+    "text": "#do \"block|dimension\", as we do for netherrack and end stone by default.",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\quark-common.toml",
+    "line": 1358,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "we"
+        ]
+      ]
+    ],
+    "text": "#Whether Resilience should be required for 'How Did We Get Here?' and (if brewing is enabled) 'A Furious Cocktail'.",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\quark-common.toml",
+    "line": 1851,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "we"
+        ]
+      ]
+    ],
+    "text": "#Ends of block IDs to try and remove when looking for variants. (e.g. minecraft:oak_planks goes into minecraft:oak_stairs, so we have to include '_planks' in this list for it to find them or else it'll only look for minecraft:oak_planks_stairs)",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\ragdoll_reactions-server.toml",
+    "line": 159,
+    "flags": [
+      [
+        "CONVERSATIONAL",
+        [
+          "actually"
+        ]
+      ]
+    ],
+    "text": "#Minimum fall damage actually taken (after feather falling, protection, resistance, etc.) required to trigger a ragdoll.",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\refurbished_furniture.server.toml",
+    "line": 47,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "we"
+        ]
+      ]
+    ],
+    "text": "# For example, if we have an area radius of 16 blocks, a source node can provide power",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\shouldersurfing-client.toml",
+    "line": 274,
+    "flags": [
+      [
+        "CONVERSATIONAL",
+        [
+          "remember"
+        ]
+      ]
+    ],
+    "text": "#Whether or not to remember the last perspective used.",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\solcarrot-server.toml",
+    "line": 10,
+    "flags": [
+      [
+        "CONVERSATIONAL",
+        [
+          "naturally"
+        ]
+      ]
+    ],
+    "text": "#A list of numbers of unique foods you need to eat to unlock each milestone, in ascending order. Naturally, adding more milestones lets you earn more hearts.",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\superbosses-common.toml",
+    "line": 171,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "we"
+        ]
+      ]
+    ],
+    "text": "#For these mobs we multiply the items dropped instead of re-rolling their loot table",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\superbosses-common.toml",
+    "line": 186,
+    "flags": [
+      [
+        "CONVERSATIONAL",
+        [
+          "naturally"
+        ]
+      ]
+    ],
+    "text": "#Mobs that will never naturally spawn as a Super Boss",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\supplementaries-client.toml",
+    "line": 6,
+    "flags": [
+      [
+        "CONVERSATIONAL",
+        [
+          "notice"
+        ]
+      ]
+    ],
+    "text": "#Allows notice board displayed text to be centered instead of being left aligned",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\supplementaries-client.toml",
+    "line": 151,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "I am"
+        ]
+      ]
+    ],
+    "text": "\"I am very boring and I don't want any Easter Egg\" = false",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\supplementaries-common.toml",
+    "line": 378,
+    "flags": [
+      [
+        "CONVERSATIONAL",
+        [
+          "notice"
+        ]
+      ]
+    ],
+    "text": "#Allows notice boards to accept and display any item, not just maps and books",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\supplementaries-common.toml",
+    "line": 424,
+    "flags": [
+      [
+        "CONVERSATIONAL",
+        [
+          "actually"
+        ]
+      ]
+    ],
+    "text": "#Maximum number of structure types from the tag that road signs will attempt to look for every time. Decreasing might speed up search at the cost of making them not point to the nearest structure out of all. Also if made too low and in cases it were to pick a structure that only spawns very rarely, this would actually slow down the search instead of speeding it up",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\supplementaries-common.toml",
+    "line": 709,
+    "flags": [
+      [
+        "CONVERSATIONAL",
+        [
+          "actually"
+        ]
+      ]
+    ],
+    "text": "#Maximum number of structure types from the tag that road signs will attempt to look for every time. Decrease to speed up search at the cost of making them not point to the nearest structure out of all. Also if made too low and in cases it were to pick a structure that only spawns very rarely, this would actually slow down the search",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\twilightforest-client.toml",
+    "line": 31,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "our"
+        ]
+      ]
+    ],
+    "text": "#Makes Charms when triggered display like the Totem of Undying instead of our own effects.",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\twilightforest-common.toml",
+    "line": 125,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "we"
+        ]
+      ]
+    ],
+    "text": "#We recommend downloading the Shield Parry mod for parrying, but these controls remain for without.",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\vampirism-balance.toml",
+    "line": 581,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "I would"
+        ]
+      ]
+    ],
+    "text": "#Additional exhaustion added while in bat mode. E.g. Thirst I would be 0.01",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\vampirism-balance.toml",
+    "line": 624,
+    "flags": [
+      [
+        "PROMPT_USER",
+        [
+          "phase 2"
+        ]
+      ]
+    ],
+    "text": "#Time in 2*seconds in capture phase 2 after which the capture entities should find a target regardless of distance",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\vampirism-balance.toml",
+    "line": 628,
+    "flags": [
+      [
+        "PROMPT_USER",
+        [
+          "phase 1"
+        ]
+      ]
+    ],
+    "text": "#Duration of phase 1 of the capturing process in 2*seconds",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\adorablehamsterpets\\main.toml",
+    "line": 11,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "mine"
+        ]
+      ]
+    ],
+    "text": "# Should your own crown decorate your vision while you're trying to mine? Turn it off if you are tired of flexing on yourself. Only affects your own crown.",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\adorablehamsterpets\\main.toml",
+    "line": 29,
+    "flags": [
+      [
+        "CONVERSATIONAL",
+        [
+          "actually"
+        ]
+      ]
+    ],
+    "text": "# If Auto Delivery is disabled (like in most modpacks), give the guidebook the first time the player actually spots a wild hamster from 10 blocks away. This will only trigger once, and only if the player has never received the guidebook before.",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\adorablehamsterpets\\main.toml",
+    "line": 37,
+    "flags": [
+      [
+        "CONVERSATIONAL",
+        [
+          "wait"
+        ]
+      ]
+    ],
+    "text": "# How long (in ticks) I wait before realizing you're book-less and panicking. 3600 = 3 minutes.",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\adorablehamsterpets\\main.toml",
+    "line": 55,
+    "flags": [
+      [
+        "CONVERSATIONAL",
+        [
+          "naturally"
+        ]
+      ]
+    ],
+    "text": "# Display the naturally occurring fur overlay patterns.",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\adorablehamsterpets\\main.toml",
+    "line": 95,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "i'm"
+        ]
+      ]
+    ],
+    "text": "# Make it bigger. Make it smaller. Make it an affront to good taste. I'm not your art director.",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\adorablehamsterpets\\main.toml",
+    "line": 109,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "we"
+        ]
+      ]
+    ],
+    "text": "# Do we yeet the hamster? ('G' by default).",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\adorablehamsterpets\\main.toml",
+    "line": 119,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "we"
+        ]
+      ]
+    ],
+    "text": "# Because we all enjoy unsolicited financial advice from rodents. Allows hamsters to sniff for shinies from their shoulder perch.",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\adorablehamsterpets\\main.toml",
+    "line": 147,
+    "flags": [
+      [
+        "CONVERSATIONAL",
+        [
+          "anyway"
+        ]
+      ]
+    ],
+    "text": "# Force a cool-down after striking it rich. Off by default, since this can't happen again anyway without another mount/dismount on the shoulder.",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\adorablehamsterpets\\main.toml",
+    "line": 153,
+    "flags": [
+      [
+        "CONVERSATIONAL",
+        [
+          "remember"
+        ]
+      ]
+    ],
+    "text": "# How long a specific hamster needs to recover after being chased. Remember, they have tiny lungs. (20 ticks = 1 second; default = 10 minutes)",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\adorablehamsterpets\\main.toml",
+    "line": 325,
+    "flags": [
+      [
+        "CONVERSATIONAL",
+        [
+          "obviously"
+        ]
+      ]
+    ],
+    "text": "# The maximum number of babies per litter. Make sure this is greater than or equal to the minimum, obviously.",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\adorablehamsterpets\\main.toml",
+    "line": 327,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "I might"
+        ]
+      ]
+    ],
+    "text": "# Try as I might, I could not think of a better way to word that. Here's where you can cap the number of hamster litters a single player can breed.",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\adorablehamsterpets\\main.toml",
+    "line": 337,
+    "flags": [
+      [
+        "CONVERSATIONAL",
+        [
+          "obviously"
+        ]
+      ]
+    ],
+    "text": "# The zoom factor provided by Gold Armor. Because flimsier things go faster. Obviously. (+0.20 = +20% Speed)",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\adorablehamsterpets\\main.toml",
+    "line": 395,
+    "flags": [
+      [
+        "CONVERSATIONAL",
+        [
+          "obviously"
+        ]
+      ]
+    ],
+    "text": "# Choose what action dismounts the hamster. 'SNEAK_KEY' uses your sneak key, obviously. 'CUSTOM_KEYBIND' uses a separate key you must set in Controls > Key Binds.",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\adorablehamsterpets\\main.toml",
+    "line": 441,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "I know"
+        ]
+      ]
+    ],
+    "text": "# How many little hunger shanks the cheese restores. Vanilla cooked steak is 8. I know you're thinking of moving it to 20, you monster.",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\adorablehamsterpets\\main.toml",
+    "line": 443,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "i'm"
+        ]
+      ]
+    ],
+    "text": "# How long the hunger effect lasts. Cooked steak is 0.8. Don't get too crazy. Or do. I'm not your conscience.",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\adorablehamsterpets\\main.toml",
+    "line": 476,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "i'm"
+        ]
+      ]
+    ],
+    "text": "# Blocks that look promising but ultimately lead to a dramatic emotional breakdown. Gold by default, but if you want them to sniff for dirt, I'm not your conscience. Accepts block IDs (e.g. 'create:copper_ore') and #tags (e.g. '#c:ores/gold').",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\adorablehamsterpets\\main.toml",
+    "line": 483,
+    "flags": [
+      [
+        "CONVERSATIONAL",
+        [
+          "wait"
+        ]
+      ]
+    ],
+    "text": "# The maximum distance (in blocks) before hamsters stop running from you and start taunting. If they get further than this, they will wait for you to catch up.",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\adorablehamsterpets\\manifest.cache.json",
+    "line": 53,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "we"
+        ]
+      ]
+    ],
+    "text": "\"title\": \"WE WON MOD OF THE YEAR!\",",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\adorablehamsterpets\\worldgen.toml",
+    "line": 285,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "I hope"
+        ]
+      ]
+    ],
+    "text": "# Format 'VARIANT_TYPE:WEIGHT'. The total weight must equal 100, so I hope you graduated third grade. Available groupings of hamster types: WHITE, BLUE, SKY, LAVENDER, ROSE, LIGHT_GRAY, DARK_GRAY, CREAM, BLACK, CHOCOLATE, ORANGE. Join The Cheek Pouch Discord server to suggest new groupings if you designed a custom hamster texture that you think belongs in its own unique grouping (i.e. maybe a 'mossy' green hamster?).",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\adorablehamsterpets\\worldgen.toml",
+    "line": 304,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "I hope"
+        ]
+      ]
+    ],
+    "text": "# Format 'VARIANT_TYPE:WEIGHT'. The total weight must equal 100, so I hope you graduated third grade. Available groupings of hamster types: WHITE, BLUE, SKY, LAVENDER, ROSE, LIGHT_GRAY, DARK_GRAY, CREAM, BLACK, CHOCOLATE, ORANGE. Join The Cheek Pouch Discord server to suggest new groupings if you designed a custom hamster texture that you think belongs in its own unique grouping (i.e. maybe a 'mossy' green hamster?).",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\adorablehamsterpets\\worldgen.toml",
+    "line": 331,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "I hope"
+        ]
+      ]
+    ],
+    "text": "# Format 'VARIANT_TYPE:WEIGHT'. The total weight must equal 100, so I hope you graduated third grade. Available groupings of hamster types: WHITE, BLUE, SKY, LAVENDER, ROSE, LIGHT_GRAY, DARK_GRAY, CREAM, BLACK, CHOCOLATE, ORANGE. Join The Cheek Pouch Discord server to suggest new groupings if you designed a custom hamster texture that you think belongs in its own unique grouping (i.e. maybe a 'mossy' green hamster?).",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\adorablehamsterpets\\worldgen.toml",
+    "line": 352,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "I hope"
+        ]
+      ]
+    ],
+    "text": "# Format 'VARIANT_TYPE:WEIGHT'. The total weight must equal 100, so I hope you graduated third grade. Available groupings of hamster types: WHITE, BLUE, SKY, LAVENDER, ROSE, LIGHT_GRAY, DARK_GRAY, CREAM, BLACK, CHOCOLATE, ORANGE. Join The Cheek Pouch Discord server to suggest new groupings if you designed a custom hamster texture that you think belongs in its own unique grouping (i.e. maybe a 'mossy' green hamster?).",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\adorablehamsterpets\\worldgen.toml",
+    "line": 369,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "I hope"
+        ]
+      ]
+    ],
+    "text": "# Format 'VARIANT_TYPE:WEIGHT'. The total weight must equal 100, so I hope you graduated third grade. Available groupings of hamster types: WHITE, BLUE, SKY, LAVENDER, ROSE, LIGHT_GRAY, DARK_GRAY, CREAM, BLACK, CHOCOLATE, ORANGE. Join The Cheek Pouch Discord server to suggest new groupings if you designed a custom hamster texture that you think belongs in its own unique grouping (i.e. maybe a 'mossy' green hamster?).",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\adorablehamsterpets\\worldgen.toml",
+    "line": 390,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "I hope"
+        ]
+      ]
+    ],
+    "text": "# Format 'VARIANT_TYPE:WEIGHT'. The total weight must equal 100, so I hope you graduated third grade. Available groupings of hamster types: WHITE, BLUE, SKY, LAVENDER, ROSE, LIGHT_GRAY, DARK_GRAY, CREAM, BLACK, CHOCOLATE, ORANGE. Join The Cheek Pouch Discord server to suggest new groupings if you designed a custom hamster texture that you think belongs in its own unique grouping (i.e. maybe a 'mossy' green hamster?).",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\adorablehamsterpets\\worldgen.toml",
+    "line": 406,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "I hope"
+        ]
+      ]
+    ],
+    "text": "# Format 'VARIANT_TYPE:WEIGHT'. The total weight must equal 100, so I hope you graduated third grade. Available groupings of hamster types: WHITE, BLUE, SKY, LAVENDER, ROSE, LIGHT_GRAY, DARK_GRAY, CREAM, BLACK, CHOCOLATE, ORANGE. Join The Cheek Pouch Discord server to suggest new groupings if you designed a custom hamster texture that you think belongs in its own unique grouping (i.e. maybe a 'mossy' green hamster?).",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\adorablehamsterpets\\worldgen.toml",
+    "line": 410,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "I hope"
+        ]
+      ]
+    ],
+    "text": "# Format 'VARIANT_TYPE:WEIGHT'. The total weight must equal 100, so I hope you graduated third grade. Available groupings of hamster types: WHITE, BLUE, SKY, LAVENDER, ROSE, LIGHT_GRAY, DARK_GRAY, CREAM, BLACK, CHOCOLATE, ORANGE. Join The Cheek Pouch Discord server to suggest new groupings if you designed a custom hamster texture that you think belongs in its own unique grouping (i.e. maybe a 'mossy' green hamster?).",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\adorablehamsterpets\\worldgen.toml",
+    "line": 416,
+    "flags": [
+      [
+        "CONVERSATIONAL",
+        [
+          "naturally"
+        ]
+      ]
+    ],
+    "text": "# The curated selection of pocket lint, seeds, and snacks that hamsters naturally forage. Edit this if you think hamsters should naturally forage for diamonds.",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\adorablehamsterpets\\worldgen.toml",
+    "line": 455,
+    "flags": [
+      [
+        "CONVERSATIONAL",
+        [
+          "actually"
+        ]
+      ]
+    ],
+    "text": "# The chance (0.0 to 1.0) that a hamster spawning in a cave actually found something cool instead of just a rock. Applies ONLY to hamsters spawning in valid cave biomes or deep underground.",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\adorablehamsterpets\\worldgen.toml",
+    "line": 479,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "my"
+        ]
+      ]
+    ],
+    "text": "# A list of biome tags where these custom Sunflowers can replace vanilla ones. My custom union tag 'adorablehamsterpets:is_plains' points to 'c:is_plains', which provides wide compatibility with modded biomes.",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\crash_assistant\\config.toml",
+    "line": 30,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "our"
+        ]
+      ]
+    ],
+    "text": "#By default our process is scanning for terminated processes(they can appear with delay) and after finish of scan enabling upload buttons.",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\crash_assistant\\config.toml",
+    "line": 42,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "our"
+        ]
+      ]
+    ],
+    "text": "#So this option prevents our app logging at all.",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\crash_assistant\\config.toml",
+    "line": 83,
+    "flags": [
+      [
+        "CONVERSATIONAL",
+        [
+          "oops",
+          "Oops"
+        ]
+      ]
+    ],
+    "text": "#For example this placeHolder used in: \"Oops, $CONFIG.text.modpack_name$ crashed!\"",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\crash_assistant\\config.toml",
+    "line": 287,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "our"
+        ]
+      ]
+    ],
+    "text": "#Look out our guide about theme support: https://github.com/KostromDan/Crash-Assistant/blob/pages/guides/Theme%20Support/Getting%20Started.md",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\crash_assistant\\config.toml",
+    "line": 291,
+    "flags": [
+      [
+        "CONVERSATIONAL",
+        [
+          "notice"
+        ]
+      ]
+    ],
+    "text": "#Append comment text with notice about sending screenshot of this gui tells nothing to modpack creators.",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\crash_assistant\\config.toml",
+    "line": 323,
+    "flags": [
+      [
+        "CONVERSATIONAL",
+        [
+          "notice"
+        ]
+      ]
+    ],
+    "text": "#Color of the animated border for the screenshot notice.",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\crash_assistant\\config.toml",
+    "line": 327,
+    "flags": [
+      [
+        "CONVERSATIONAL",
+        [
+          "notice"
+        ]
+      ]
+    ],
+    "text": "#Color of the text for the screenshot notice (inside the animated border).",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\crash_assistant\\config.toml",
+    "line": 347,
+    "flags": [
+      [
+        "CONVERSATIONAL",
+        [
+          "notice"
+        ]
+      ]
+    ],
+    "text": "#If true, the logo will be larger, Replacing a some of `don't send screenshot` notice.",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\crash_assistant\\config.toml",
+    "line": 348,
+    "flags": [
+      [
+        "CONVERSATIONAL",
+        [
+          "notice"
+        ]
+      ]
+    ],
+    "text": "#If false, it will be smaller and logo will be end right where the `don't send screenshot` notice starts.",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\crash_assistant\\modlist.json",
+    "line": 850,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "we"
+        ]
+      ]
+    ],
+    "text": "\"name\": \"Create Oh The Biomes We ve Gone Compat\",",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\crash_assistant\\modlist.json",
+    "line": 2210,
+    "flags": [
+      [
+        "AI_NAME",
+        [
+          "cursor"
+        ]
+      ]
+    ],
+    "text": "\"minecraft-cursor-neoforge-3.11.3+1.21.1.jar\": {",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\crash_assistant\\modlist.json",
+    "line": 2211,
+    "flags": [
+      [
+        "AI_NAME",
+        [
+          "cursor"
+        ]
+      ]
+    ],
+    "text": "\"jarName\": \"minecraft-cursor-neoforge-3.11.3+1.21.1.jar\",",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\crash_assistant\\modlist.json",
+    "line": 2213,
+    "flags": [
+      [
+        "AI_NAME",
+        [
+          "Cursor"
+        ]
+      ]
+    ],
+    "text": "\"name\": \"Minecraft Cursor\",",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\crash_assistant\\crash_assistant_localization_overrides\\README.md",
+    "line": 9,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "we"
+        ]
+      ]
+    ],
+    "text": "We welcome contributions for new languages or improvements to existing ones!",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\crash_assistant\\crash_assistant_localization_overrides\\README.md",
+    "line": 11,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "our"
+        ]
+      ]
+    ],
+    "text": "To contribute, please create a **Pull Request** on our official GitHub repository with your new or modified language",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\ftbquests\\quests\\lang\\en_us.snbt",
+    "line": 380,
+    "flags": [
+      [
+        "PROMPT_USER",
+        [
+          "Stage 1"
+        ]
+      ]
+    ],
+    "text": "\"&d* Stage 1 of the Lichblade evolution.&r\"",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\ftbquests\\quests\\lang\\en_us.snbt",
+    "line": 384,
+    "flags": [
+      [
+        "PROMPT_USER",
+        [
+          "Stage 1"
+        ]
+      ]
+    ],
+    "text": "quest.2002000000000010.quest_subtitle: \"Stage 1: Drains life essence of the fallen.\"",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\ftbquests\\quests\\lang\\en_us.snbt",
+    "line": 387,
+    "flags": [
+      [
+        "PROMPT_USER",
+        [
+          "Stage 2"
+        ]
+      ]
+    ],
+    "text": "\"&d* Stage 2 of the Lichblade evolution.&r\"",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\ftbquests\\quests\\lang\\en_us.snbt",
+    "line": 391,
+    "flags": [
+      [
+        "PROMPT_USER",
+        [
+          "Stage 2"
+        ]
+      ]
+    ],
+    "text": "quest.2002000000000011.quest_subtitle: \"Stage 2: Hunger awakens, summoning minor undead.\"",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\ftbquests\\quests\\lang\\en_us.snbt",
+    "line": 398,
+    "flags": [
+      [
+        "PROMPT_USER",
+        [
+          "Stage 3"
+        ]
+      ]
+    ],
+    "text": "quest.2002000000000012.quest_subtitle: \"Stage 3: Full necromantic army command.\"",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\ftbquests\\quests\\lang\\en_us.snbt",
+    "line": 556,
+    "flags": [
+      [
+        "BUZZWORD",
+        [
+          "unleashed"
+        ]
+      ]
+    ],
+    "text": "\"&9The ocean's fury unleashed upon the surface.\"",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\ftbquests\\quests\\lang\\en_us.snbt",
+    "line": 590,
+    "flags": [
+      [
+        "PROMPT_USER",
+        [
+          "Stage 1"
+        ]
+      ]
+    ],
+    "text": "\"&8* Stage 1 of the Ancient Relic lineage.&r\"",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\ftbquests\\quests\\lang\\en_us.snbt",
+    "line": 597,
+    "flags": [
+      [
+        "PROMPT_USER",
+        [
+          "Stage 2"
+        ]
+      ]
+    ],
+    "text": "\"&f* Stage 2 Sacred Relic bathed in divine light.&r\"",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\ftbquests\\quests\\lang\\en_us.snbt",
+    "line": 604,
+    "flags": [
+      [
+        "PROMPT_USER",
+        [
+          "Stage 2"
+        ]
+      ]
+    ],
+    "text": "\"&c* Stage 2 Cursed Relic infused with abyssal malice.&r\"",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\ftbquests\\quests\\lang\\en_us.snbt",
+    "line": 611,
+    "flags": [
+      [
+        "PROMPT_USER",
+        [
+          "Stage 2"
+        ]
+      ]
+    ],
+    "text": "\"&4* Stage 2 Decay Relic that steadily rots away target armor and maximum HP.&r\"",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\ftbquests\\quests\\lang\\en_us.snbt",
+    "line": 1022,
+    "flags": [
+      [
+        "BUZZWORD",
+        [
+          "delves"
+        ]
+      ]
+    ],
+    "text": "\"&7Exceptional base durability for sustained dungeon delves.\"",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\ftbquests\\quests\\lang\\en_us.snbt",
+    "line": 1064,
+    "flags": [
+      [
+        "PROMPT_USER",
+        [
+          "Stage 5 [In-game Dragon Stage]"
+        ]
+      ]
+    ],
+    "text": "quest.200600000000000A.quest_subtitle: \"Infused with the boiling breath of Stage 5 Fire Dragons.\"",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\ftbquests\\quests\\lang\\en_us.snbt",
+    "line": 1070,
+    "flags": [
+      [
+        "PROMPT_USER",
+        [
+          "Stage 5 [In-game Dragon Stage]"
+        ]
+      ]
+    ],
+    "text": "quest.200600000000000B.quest_subtitle: \"Infused with the absolute zero breath of Stage 5 Ice Dragons.\"",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\ftbquests\\quests\\lang\\en_us.snbt",
+    "line": 1458,
+    "flags": [
+      [
+        "PROMPT_USER",
+        [
+          "Stage 4"
+        ]
+      ]
+    ],
+    "text": "quest.3104000000000011.quest_subtitle: \"Slay a Stage 4-5 Fire Dragon\"",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\ftbquests\\quests\\lang\\en_us.snbt",
+    "line": 1464,
+    "flags": [
+      [
+        "PROMPT_USER",
+        [
+          "Stage 4"
+        ]
+      ]
+    ],
+    "text": "quest.3104000000000012.quest_subtitle: \"Slay a Stage 4-5 Ice Dragon\"",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\ftbquests\\quests\\lang\\en_us.snbt",
+    "line": 1470,
+    "flags": [
+      [
+        "PROMPT_USER",
+        [
+          "Stage 4"
+        ]
+      ]
+    ],
+    "text": "quest.3104000000000013.quest_subtitle: \"Slay a Stage 4-5 Lightning Dragon\"",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\ftbquests\\quests\\lang\\en_us.snbt",
+    "line": 1511,
+    "flags": [
+      [
+        "BUZZWORD",
+        [
+          "unleashing"
+        ]
+      ]
+    ],
+    "text": "quest.3105000000000032.quest_desc: [\"&aThe radioactive leviathan unleashing devastating atomic breath rays.&r\"]",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\ftbquests\\quests\\lang\\en_us.snbt",
+    "line": 1650,
+    "flags": [
+      [
+        "BUZZWORD",
+        [
+          "cornerstone"
+        ]
+      ]
+    ],
+    "text": "quest.4101000000000010.quest_subtitle: \"The cornerstone of all kinetic mechanics.\"",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\ftbquests\\quests\\lang\\en_us.snbt",
+    "line": 1674,
+    "flags": [
+      [
+        "BUZZWORD",
+        [
+          "harness"
+        ]
+      ]
+    ],
+    "text": "\"&eWindmill Bearings harness the breeze to generate massive kinetic power.&r\"",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\ftbquests\\quests\\lang\\en_us.snbt",
+    "line": 1810,
+    "flags": [
+      [
+        "BUZZWORD",
+        [
+          "surgical"
+        ]
+      ]
+    ],
+    "text": "quest.4103000000000020.quest_subtitle: \"Filter, extract, and sort with surgical precision.\"",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\ftbquests\\quests\\lang\\en_us.snbt",
+    "line": 1853,
+    "flags": [
+      [
+        "BUZZWORD",
+        [
+          "Unleashing"
+        ]
+      ]
+    ],
+    "text": "quest.4103000000000090.quest_subtitle: \"Unleashing the power of pressurized steam.\"",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\ftbquests\\quests\\lang\\en_us.snbt",
+    "line": 1878,
+    "flags": [
+      [
+        "BUZZWORD",
+        [
+          "cornerstone"
+        ]
+      ]
+    ],
+    "text": "\"Steel is the cornerstone of industrial casings, diesel combustion, and aerospace rocketry.\"",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\ftbquests\\quests\\lang\\en_us.snbt",
+    "line": 2128,
+    "flags": [
+      [
+        "BUZZWORD",
+        [
+          "delve"
+        ]
+      ]
+    ],
+    "text": "quest.5100000000000048.quest_desc: [\"&e* Classic lunchbox sandwich ready for any mining delve.\"]",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\ftbquests\\quests\\lang\\en_us.snbt",
+    "line": 2389,
+    "flags": [
+      [
+        "BUZZWORD",
+        [
+          "robust"
+        ]
+      ]
+    ],
+    "text": "quest.5101000000000031.quest_desc: [\"&c* Distinct robust flavor that craves rosemary and garlic.\"]",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\ftbquests\\quests\\lang\\en_us.snbt",
+    "line": 2506,
+    "flags": [
+      [
+        "BUZZWORD",
+        [
+          "Meticulously"
+        ]
+      ]
+    ],
+    "text": "quest.5101000000000067.quest_desc: [\"&c* Meticulously arranged baked summer vegetable layers.\"]",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\ftbquests\\quests\\lang\\en_us.snbt",
+    "line": 2752,
+    "flags": [
+      [
+        "CONVERSATIONAL",
+        [
+          "naturally"
+        ]
+      ]
+    ],
+    "text": "quest.5102000000000016.quest_subtitle: \"Naturally warm meat cutlet.\"",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\ftbquests\\quests\\lang\\en_us.snbt",
+    "line": 2907,
+    "flags": [
+      [
+        "BUZZWORD",
+        [
+          "meticulously"
+        ]
+      ]
+    ],
+    "text": "quest.5102000000000066.quest_desc: [\"&e* Toxins meticulously removed. Spicy and thrilling.\"]",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\ftbquests\\quests\\lang\\en_us.snbt",
+    "line": 2949,
+    "flags": [
+      [
+        "BUZZWORD",
+        [
+          "delves"
+        ]
+      ]
+    ],
+    "text": "quest.5102000000000080.quest_desc: [\"&6* Slow-cooked until tender. The staple food of underworld delves.\"]",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\ftbquests\\quests\\lang\\en_us.snbt",
+    "line": 2979,
+    "flags": [
+      [
+        "CONVERSATIONAL",
+        [
+          "naturally"
+        ]
+      ]
+    ],
+    "text": "quest.5102000000000090.quest_desc: [\"&d* Naturally floats out of the bowl if not held down!\"]",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\ftbquests\\quests\\lang\\en_us.snbt",
+    "line": 3892,
+    "flags": [
+      [
+        "CONVERSATIONAL",
+        [
+          "remember"
+        ]
+      ]
+    ],
+    "text": "\"Unlike the strict boss gauntlets, here you can wander at your own pace. Branch out, experiment, and remember: work smarter, not harder.\"",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\ftbquests\\quests\\lang\\en_us.snbt",
+    "line": 3986,
+    "flags": [
+      [
+        "BUZZWORD",
+        [
+          "Synergy"
+        ]
+      ]
+    ],
+    "text": "quest.7000000000000140.title: \"&eCurios Synergy - Trinket Optimization&r\"",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\ftbquests\\quests\\lang\\en_us.snbt",
+    "line": 4081,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "I have"
+        ]
+      ]
+    ],
+    "text": "task.4000000000000027.title: \"I have forged all 25 weapon archetypes!\"",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\ftbquests\\quests\\lang\\en_us.snbt",
+    "line": 4084,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "I have"
+        ]
+      ]
+    ],
+    "text": "task.4000000000000078.title: \"I have collected all 49 Simply Swords mythic relics!\"",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\ftbquests\\quests\\lang\\en_us.snbt",
+    "line": 4087,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "I have"
+        ]
+      ]
+    ],
+    "text": "task.4000000000000115.title: \"I have found all 49 Simply Swords mythic weapons!\"",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\ftbquests\\quests\\lang\\en_us.snbt",
+    "line": 4088,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "I have"
+        ]
+      ]
+    ],
+    "text": "task.4000000000000116.title: \"I have collected all 36 Simply More relics!\"",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\ftbquests\\quests\\lang\\en_us.snbt",
+    "line": 4093,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "I have"
+        ]
+      ]
+    ],
+    "text": "task.4000000000000131.title: \"I have collected all 7 Mythic Bows!\"",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\ftbquests\\quests\\lang\\en_us.snbt",
+    "line": 4097,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "I have"
+        ]
+      ]
+    ],
+    "text": "task.4000000000000155.title: \"I have forged all dimensional metals!\"",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\ftbquests\\quests\\lang\\en_us.snbt",
+    "line": 4098,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "I have"
+        ]
+      ]
+    ],
+    "text": "task.4000000000000156.title: \"I have forged all dimensional metals!\"",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\ftbquests\\quests\\lang\\en_us.snbt",
+    "line": 4099,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "I AM"
+        ]
+      ]
+    ],
+    "text": "task.4000000000000157.title: \"I AM THE ARSENAL EMPEROR OF PEAK!\"",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\ftbquests\\quests\\lang\\en_us.snbt",
+    "line": 4106,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "I have"
+        ]
+      ]
+    ],
+    "text": "task.5400000000000113.title: \"I have collected all 107 Homestead foods!\"",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\ftbquests\\quests\\lang\\en_us.snbt",
+    "line": 4112,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "I have"
+        ]
+      ]
+    ],
+    "text": "task.5400000000001117.title: \"I have collected all 111 Dimensional delicacies!\"",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\ftbquests\\quests\\lang\\en_us.snbt",
+    "line": 4118,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "I have"
+        ]
+      ]
+    ],
+    "text": "task.5400000000002077.title: \"I have collected all 71 Arcane and Boss delicacies!\"",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\ftbquests\\quests\\lang\\en_us.snbt",
+    "line": 4124,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "I have"
+        ]
+      ]
+    ],
+    "text": "task.5400000000003039.title: \"I have collected all 33 Aquaculture catches!\"",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\ftbquests\\quests\\lang\\en_us.snbt",
+    "line": 4130,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "I have"
+        ]
+      ]
+    ],
+    "text": "task.5400000000004076.title: \"I have collected all 70 Safari and Cave delicacies!\"",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\ftbquests\\quests\\lang\\en_us.snbt",
+    "line": 4139,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "I have"
+        ]
+      ]
+    ],
+    "text": "task.5400000000005068.title: \"I have tasted all 58 Classic staples!\"",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\insanelib\\common.toml",
+    "line": 24,
+    "flags": [
+      [
+        "CONVERSATIONAL",
+        [
+          "basically"
+        ]
+      ]
+    ],
+    "text": "#If true, player's sprinting jump impulse will be reduced based off slowdown (basically, when you have 0 movement speed, if this is true, you can no longer jump forward while sprinting).",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\Mekanism\\gear.toml",
+    "line": 37,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "mine"
+        ]
+      ]
+    ],
+    "text": "#The max number of blocks the Atomic Disassembler can mine using the 'Vein Mining' mode. Requires veinMining to be enabled.",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\Mekanism\\general.toml",
+    "line": 144,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "we"
+        ]
+      ]
+    ],
+    "text": "#Maximum radius in blocks that the Digital Miner can reach. Increasing this may have negative effects on stability and memory usage. We strongly recommend you leave this at the default value.",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\Mekanism\\general.toml",
+    "line": 148,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "mine"
+        ]
+      ]
+    ],
+    "text": "#Number of ticks required to mine a single block with a Digital Miner (without any upgrades).",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\Mekanism\\general.toml",
+    "line": 172,
+    "flags": [
+      [
+        "CONVERSATIONAL",
+        [
+          "actually"
+        ]
+      ]
+    ],
+    "text": "#The list of valid tag prefixes for the Oredictionificator. Note: It is highly recommended to only include well known/defined tag prefixes otherwise it is very easy to potentially add accidental conversions for things that are not actually equivalent.",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\tooltipoverhaul\\tooltipoverhaul.toml",
+    "line": 100,
+    "flags": [
+      [
+        "AI_NAME",
+        [
+          "cursor"
+        ]
+      ]
+    ],
+    "text": "# Bedrock-like centering. When the tooltip fits neither to the right nor to the left of the cursor, centers it horizontally on the",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\config\\tooltipoverhaul\\tooltipoverhaul.toml",
+    "line": 101,
+    "flags": [
+      [
+        "AI_NAME",
+        [
+          "cursor"
+        ]
+      ]
+    ],
+    "text": "# screen and places it above the cursor (or below if there is no room above), so it doesn't cover the hovered item.",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\kubejs\\server_scripts\\00_recipe_fixer.js",
+    "line": 22,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "we"
+        ]
+      ]
+    ],
+    "text": "// We can't easily iterate all recipes and modify their raw JSON in 1.21",
+    "is_comment": true,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\kubejs\\server_scripts\\00_recipe_fixer.js",
+    "line": 23,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "we"
+        ]
+      ]
+    ],
+    "text": "// without potentially causing more issues, but we can try to fix the",
+    "is_comment": true,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\kubejs\\server_scripts\\02_create_era_gates.js",
+    "line": 351,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "we"
+        ]
+      ]
+    ],
+    "text": "// we use Sequenced Assembly. The base backpack is the transitional item, so its NBT is preserved!",
+    "is_comment": true,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\kubejs\\server_scripts\\04_magic_integration.js",
+    "line": 106,
+    "flags": [
+      [
+        "CONVERSATIONAL",
+        [
+          "basically"
+        ]
+      ]
+    ],
+    "text": "// Spell turrets are basically \"magical deployers\" Ã¢â‚¬â€ they",
+    "is_comment": true,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\kubejs\\server_scripts\\04_magic_integration.js",
+    "line": 343,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "we"
+        ]
+      ]
+    ],
+    "text": "// Since ars_creo already exists, we enhance the",
+    "is_comment": true,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\kubejs\\server_scripts\\05_dark_magic_dimensions.js",
+    "line": 144,
+    "flags": [
+      [
+        "CONVERSATIONAL",
+        [
+          "naturally"
+        ]
+      ]
+    ],
+    "text": "// a naturally magical material)",
+    "is_comment": true,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\kubejs\\server_scripts\\05_dark_magic_dimensions.js",
+    "line": 171,
+    "flags": [
+      [
+        "BUZZWORD",
+        [
+          "SYNERGIES"
+        ]
+      ]
+    ],
+    "text": "// SECTION 5: CROSS-MAGIC SYNERGIES",
+    "is_comment": true,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\kubejs\\server_scripts\\05_dark_magic_dimensions.js",
+    "line": 241,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "we've"
+        ]
+      ]
+    ],
+    "text": "// the magical infrastructure we've built",
+    "is_comment": true,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\kubejs\\server_scripts\\08_reliquary_balance.js",
+    "line": 45,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "we"
+        ]
+      ]
+    ],
+    "text": "// We remove these specific alkahestry recipes.",
+    "is_comment": true,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\kubejs\\server_scripts\\09_custom_loot_tables.js",
+    "line": 7,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "we"
+        ]
+      ]
+    ],
+    "text": "// We use EntityEvents.death to ensure compatibility",
+    "is_comment": true,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\kubejs\\server_scripts\\10_avaritia_final_polish.js",
+    "line": 145,
+    "flags": [
+      [
+        "PROMPT_USER",
+        [
+          "Stage 5 [In-game Dragon Stage]"
+        ]
+      ]
+    ],
+    "text": "// --- PRIMORDIAL DRAGON BLOOD (Stage 5 IAF Dragons) ---",
+    "is_comment": true,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\kubejs\\server_scripts\\10_avaritia_final_polish.js",
+    "line": 210,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "our"
+        ]
+      ]
+    ],
+    "text": "// PLUS our custom boss drops.",
+    "is_comment": true,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\kubejs\\server_scripts\\10_avaritia_final_polish.js",
+    "line": 232,
+    "flags": [
+      [
+        "PROMPT_USER",
+        [
+          "Stage 5 [In-game Dragon Stage]"
+        ]
+      ]
+    ],
+    "text": "{ item: 'kubejs:primordial_dragon_blood' },   // Boss: Stage 5 Dragons (Ice & Fire)",
+    "is_comment": true,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\kubejs\\server_scripts\\12_food_buffs.js",
+    "line": 5,
+    "flags": [
+      [
+        "CONVERSATIONAL",
+        [
+          "actually"
+        ]
+      ]
+    ],
+    "text": "// Makes late-game foods actually worth crafting",
+    "is_comment": true,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\kubejs\\server_scripts\\15_loot_nerfs.js",
+    "line": 11,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "we"
+        ]
+      ]
+    ],
+    "text": "// We completely remove these drops from them.",
+    "is_comment": true,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\kubejs\\server_scripts\\17_goblin_trades.js",
+    "line": 10,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "we"
+        ]
+      ]
+    ],
+    "text": "// We add to the legendary.json for the normal goblin trader",
+    "is_comment": true,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\kubejs\\server_scripts\\17_goblin_trades.js",
+    "line": 13,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "we"
+        ]
+      ]
+    ],
+    "text": "\"replace\": false, // We append, not replace the whole file",
+    "is_comment": true,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\kubejs\\server_scripts\\18_boss_duplicator.js",
+    "line": 40,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "we"
+        ]
+      ]
+    ],
+    "text": "// but we will continue to use the event fallback to ensure it works across all NeoForge builds.",
+    "is_comment": true,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\kubejs\\server_scripts\\20_fixed_datapacks.js",
+    "line": 70,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "we"
+        ]
+      ]
+    ],
+    "text": "//     event.custom({\"type\": \"ars_nouveau:caster_tome\", \"color\": {\"b\": 180, \"g\": 25, \"id\": \"ars_nouveau:constant\", \"r\": 255}, \"flavour_text\": \" Traveling issues? Nonsense, all it takes is one leap and you get there in no time! Why the sticky feeling? Safety precautions, your legs aren't strong enough for the sudden stop with the ground, so we made them bouncy!\", \"name\": \"\", \"sound\": {}, \"spell\": [\"ars_nouveau:glyph_self\", \"ars_nouveau:glyph_leap\", \"ars_nouveau:glyph_amplify\", \"ars_nouveau:glyph_amplify\", \"ars_nouveau:glyph_amplify\", \"ars_nouveau:glyph_bounce\", \"ars_nouveau:glyph_duration_down\", \"ars_nouveau:glyph_amplify\"], \"spellData\": {\"color\": {\"b\": 180, \"g\": 25, \"id\": \"ars_nouveau:constant\", \"r\": 255}, \"name\": \"\", \"particleTimeline\": {\"ars_nouveau:pantomime\": {\"type\": \"ars_nouveau:pantomime\", \"onResolvingEffect\": {\"motion\": {\"type\": \"ars_nouveau:burst\", \"propMap\": {}}, \"particleOptions\": {\"type\": \"ars_nouveau:new_glow\", \"properties\": {\"ars_nouveau:density\": {\"density\": 5, \"radius\": 0.10000000149011612, \"spawnType\": \"SPHERE\"}, \"ars_nouveau:particle_type\": {\"particleType\": \"ars_nouveau:new_glow\", \"subProperties\": {\"ars_nouveau:color\": {\"particleColor\": {\"b\": 180, \"g\": 25, \"id\": \"ars_nouveau:constant\", \"r\": 255}, \"tintDisabled\": true}}}}}}, \"resolveSound\": {\"sound\": {}}}, \"ars_nouveau:projectile\": {\"type\": \"ars_nouveau:projectile\", \"castSound\": {\"sound\": {}}, \"flairEffect\": {\"particleOptions\": {\"type\": \"ars_nouveau:new_glow\", \"properties\": {\"ars_nouveau:particle_type\": {\"particleType\": \"ars_nouveau:new_glow\", \"subProperties\": {\"ars_nouveau:color\": {\"particleColor\": {\"b\": 180, \"g\": 25, \"id\": \"ars_nouveau:constant\", \"r\": 255}, \"tintDisabled\": true}}}}}}, \"onResolvingEffect\": {\"motion\": {\"type\": \"ars_nouveau:burst\", \"propMap\": {}}, \"particleOptions\": {\"type\": \"ars_nouveau:new_glow\", \"properties\": {\"ars_nouveau:density\": {\"density\": 5, \"radius\": 0.10000000149011612, \"spawnType\": \"SPHERE\"}, \"ars_nouveau:particle_type\": {\"particleType\": \"ars_nouveau:new_glow\", \"subProperties\": {\"ars_nouveau:color\": {\"particleColor\": {\"b\": 180, \"g\": 25, \"id\": \"ars_nouveau:constant\", \"r\": 255}, \"tintDisabled\": true}}}}}}, \"onSpawnEffect\": {\"particleOptions\": {\"type\": \"ars_nouveau:new_glow\", \"properties\": {\"ars_nouveau:particle_type\": {\"particleType\": \"ars_nouveau:new_glow\", \"subProperties\": {\"ars_nouveau:color\": {\"particleColor\": {\"b\": 180, \"g\": 25, \"id\": \"ars_nouveau:constant\", \"r\": 255}, \"tintDisabled\": true}}}}}}, \"resolveSound\": {\"sound\": {}}, \"trailEffect\": {\"motion\": {\"type\": \"ars_nouveau:trail\", \"propMap\": {\"ars_nouveau:model\": {\"resource\": \"ars_nouveau:empty\", \"subPropMap\": {}}}}, \"particleOptions\": {\"type\": \"ars_nouveau:new_glow\", \"properties\": {\"ars_nouveau:density\": {\"density\": 100, \"radius\": 0.10000000149011612, \"spawnType\": \"SPHERE\"}, \"ars_nouveau:particle_type\": {\"particleType\": \"ars_nouveau:new_glow\", \"subProperties\": {\"ars_nouveau:color\": {\"particleColor\": {\"b\": 180, \"g\": 25, \"id\": \"ars_nouveau:constant\", \"r\": 255}, \"tintDisabled\": true}}}}}}}, \"ars_nouveau:self\": {\"type\": \"ars_nouveau:self\", \"onResolvingEffect\": {\"motion\": {\"type\": \"ars_nouveau:burst\", \"propMap\": {}}, \"particleOptions\": {\"type\": \"ars_nouveau:large_smoke\", \"properties\": {\"ars_nouveau:density\": {\"density\": 20, \"radius\": 0.45, \"spawnType\": \"CUBE\"}, \"ars_nouveau:emitter\": {\"age\": 0, \"rotation\": {\"x\": 0.0, \"y\": 0.0}}, \"ars_nouveau:particle_type\": {\"particleType\": \"ars_nouveau:large_smoke\", \"subProperties\": {\"ars_nouveau:color\": {\"particleColor\": {\"b\": 178, \"g\": 178, \"id\": \"ars_nouveau:constant\", \"r\": 178}, \"tintDisabled\": false}, \"ars_nouveau:sound\": {\"sound\": {\"sound\": {\"id\": \"ars_nouveau:pointed_dripstone_drip_water\"}}}}}}}}, \"resolveSound\": {\"sound\": {\"pitch\": 1.3, \"sound\": {\"id\": \"ars_nouveau:shulker_bullet_hit\"}, \"volume\": 0.55}}}, \"ars_nouveau:wololo\": {\"type\": \"ars_nouveau:wololo\", \"propMap\": {\"ars_nouveau:color\": {\"particleColor\": {\"b\": 180, \"g\": 25, \"id\": \"ars_nouveau:constant\", \"r\": 255}, \"tintDisabled\": true}}}}, \"recipe\": [\"ars_nouveau:glyph_self\", \"ars_nouveau:glyph_leap\", \"ars_nouveau:glyph_amplify\", \"ars_nouveau:glyph_amplify\", \"ars_nouveau:glyph_amplify\", \"ars_nouveau:glyph_bounce\", \"ars_nouveau:glyph_duration_down\", \"ars_nouveau:glyph_amplify\"], \"sound\": {}}, \"tome_type\": \"ars_nouveau:caster_tome\"}).id('ars_nouveau:tomes/urticantodin_tome');",
+    "is_comment": true,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\kubejs\\server_scripts\\22_apotheosis_gear_sets.js",
+    "line": 7,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "we"
+        ]
+      ]
+    ],
+    "text": "// We use ServerEvents.generateData to ensure they are registered correctly in 1.21.",
+    "is_comment": true,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\kubejs\\server_scripts\\23_zenith_saber.js",
+    "line": 45,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "we"
+        ]
+      ]
+    ],
+    "text": "// This runs for EVERY crafted item, so we exit instantly if not a diamond sword.",
+    "is_comment": true,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\kubejs\\server_scripts\\23_zenith_saber.js",
+    "line": 51,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "our"
+        ]
+      ]
+    ],
+    "text": "// 3. Verify if it is our custom Zenith Saber",
+    "is_comment": true,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\kubejs\\server_scripts\\27_vampire_pillager.js",
+    "line": 476,
+    "flags": [
+      [
+        "PROMPT_USER",
+        [
+          "STAGE 1"
+        ]
+      ]
+    ],
+    "text": "// Active disengage: Continuously flee and evade player during cooldown (STAGE 1 ONLY, NEVER IN AGGRO)",
+    "is_comment": true,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\kubejs\\server_scripts\\50_xp_fluids_unification.js",
+    "line": 28,
+    "flags": [
+      [
+        "BUZZWORD",
+        [
+          "seamless"
+        ]
+      ]
+    ],
+    "text": "// Allows seamless conversion between any XP fluid type without loss",
+    "is_comment": true,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\kubejs\\server_scripts\\expert_mode_recipes.js",
+    "line": 20,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "we"
+        ]
+      ]
+    ],
+    "text": "// (We keep IE Crusher and Mekanism Enrichment as UPGRADES, not alternatives)",
+    "is_comment": true,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\kubejs\\server_scripts\\expert_mode_recipes.js",
+    "line": 30,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "we"
+        ]
+      ]
+    ],
+    "text": "// Note: We keep vanilla smelting as a basic option but Create gives 2x",
+    "is_comment": true,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\kubejs\\server_scripts\\expert_mode_recipes.js",
+    "line": 64,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "we"
+        ]
+      ]
+    ],
+    "text": "//  we add a Create prerequisite by requiring the Pressure Chamber itself",
+    "is_comment": true,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\kubejs\\startup_scripts\\40_iaf_durability_buff.js",
+    "line": 3,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "we"
+        ]
+      ]
+    ],
+    "text": "// We use explicit values because reading maxDamage dynamically returns undefined/NaN during startup.",
+    "is_comment": true,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\kubejs\\startup_scripts\\block_factory_buffs.js",
+    "line": 13,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "our"
+        ]
+      ]
+    ],
+    "text": "// Add our new modifiers",
+    "is_comment": true,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\kubejs\\startup_scripts\\custom_items.js",
+    "line": 85,
+    "flags": [
+      [
+        "PROMPT_USER",
+        [
+          "STAGE 5 [In-game Dragon Stage]"
+        ]
+      ]
+    ],
+    "text": "// --- STAGE 5 DRAGON (Ice and Fire) ---",
+    "is_comment": true,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\kubejs\\startup_scripts\\fix_malum_watchdog.js",
+    "line": 5,
+    "flags": [
+      [
+        "BUZZWORD",
+        [
+          "surgically"
+        ]
+      ]
+    ],
+    "text": "// This script surgically unregisters Malum's RuntimeEvents class",
+    "is_comment": true,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\kubejs\\startup_scripts\\fix_malum_watchdog.js",
+    "line": 13,
+    "flags": [
+      [
+        "BUZZWORD",
+        [
+          "Surgically"
+        ]
+      ]
+    ],
+    "text": "console.info('[PEAK Fix] Surgically unregistered com.sammy.malum.events.RuntimeEvents to prevent watchdog hangs.');",
+    "is_comment": false,
+    "is_log": true
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\kubejs\\startup_scripts\\vampillager_entity.js",
+    "line": 92,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "we"
+        ]
+      ]
+    ],
+    "text": "// Check backward landing position: ensure we don't leap backwards into direct sunlight!",
+    "is_comment": true,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\libraries\\net\\minecraft\\server\\1.21.1-20240808.144430\\server-1.21.1-20240808.144430-mappings.txt",
+    "line": 6803,
+    "flags": [
+      [
+        "AI_NAME",
+        [
+          "cursor"
+        ]
+      ]
+    ],
+    "text": "net.minecraft.core.BlockPos$MutableBlockPos cursor -> h",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\libraries\\net\\minecraft\\server\\1.21.1-20240808.144430\\server-1.21.1-20240808.144430-mappings.txt",
+    "line": 6822,
+    "flags": [
+      [
+        "AI_NAME",
+        [
+          "cursor"
+        ]
+      ]
+    ],
+    "text": "net.minecraft.core.BlockPos$MutableBlockPos cursor -> g",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\libraries\\net\\minecraft\\server\\1.21.1-20240808.144430\\server-1.21.1-20240808.144430-mappings.txt",
+    "line": 6836,
+    "flags": [
+      [
+        "AI_NAME",
+        [
+          "cursor"
+        ]
+      ]
+    ],
+    "text": "net.minecraft.core.BlockPos$MutableBlockPos cursor -> f",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\libraries\\net\\minecraft\\server\\1.21.1-20240808.144430\\server-1.21.1-20240808.144430-mappings.txt",
+    "line": 8033,
+    "flags": [
+      [
+        "AI_NAME",
+        [
+          "cursor"
+        ]
+      ]
+    ],
+    "text": "net.minecraft.core.Cursor3D cursor -> a",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\libraries\\net\\minecraft\\server\\1.21.1-20240808.144430\\server-1.21.1-20240808.144430-mappings.txt",
+    "line": 9888,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "my"
+        ]
+      ]
+    ],
+    "text": "net.minecraft.data.loot.package-info -> my:",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\libraries\\net\\minecraft\\server\\1.21.1-20240808.144430\\server-1.21.1-20240808.144430-mappings.txt",
+    "line": 15862,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "we"
+        ]
+      ]
+    ],
+    "text": "net.minecraft.network.PacketEncoder -> we:",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\libraries\\net\\minecraft\\server\\1.21.1-20240808.144430\\server-1.21.1-20240808.144430-mappings.txt",
+    "line": 18103,
+    "flags": [
+      [
+        "PROMPT_USER",
+        [
+          "prompt"
+        ]
+      ]
+    ],
+    "text": "java.util.Optional prompt -> g",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\libraries\\net\\minecraft\\server\\1.21.1-20240808.144430\\server-1.21.1-20240808.144430-mappings.txt",
+    "line": 18116,
+    "flags": [
+      [
+        "PROMPT_USER",
+        [
+          "prompt"
+        ]
+      ]
+    ],
+    "text": "16:16:java.util.Optional prompt() -> h",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\libraries\\net\\minecraft\\server\\1.21.1-20240808.144430\\server-1.21.1-20240808.144430-mappings.txt",
+    "line": 24051,
+    "flags": [
+      [
+        "PROMPT_USER",
+        [
+          "prompt"
+        ]
+      ]
+    ],
+    "text": "net.minecraft.network.chat.Component prompt -> e",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\libraries\\net\\minecraft\\server\\1.21.1-20240808.144430\\server-1.21.1-20240808.144430-mappings.txt",
+    "line": 24060,
+    "flags": [
+      [
+        "PROMPT_USER",
+        [
+          "prompt"
+        ]
+      ]
+    ],
+    "text": "1931:1931:net.minecraft.network.chat.Component prompt() -> e",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\libraries\\net\\minecraft\\server\\1.21.1-20240808.144430\\server-1.21.1-20240808.144430-mappings.txt",
+    "line": 30668,
+    "flags": [
+      [
+        "CONVERSATIONAL",
+        [
+          "wait"
+        ]
+      ]
+    ],
+    "text": "java.util.concurrent.CompletableFuture wait(java.lang.Object) -> a",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\libraries\\net\\minecraft\\server\\1.21.1-20240808.144430\\server-1.21.1-20240808.144430-mappings.txt",
+    "line": 30861,
+    "flags": [
+      [
+        "CONVERSATIONAL",
+        [
+          "wait"
+        ]
+      ]
+    ],
+    "text": "48:54:java.util.concurrent.CompletableFuture wait(java.lang.Object) -> a",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\libraries\\net\\minecraft\\server\\1.21.1-20240808.144430\\server-1.21.1-20240808.144430-mappings.txt",
+    "line": 30862,
+    "flags": [
+      [
+        "CONVERSATIONAL",
+        [
+          "wait"
+        ]
+      ]
+    ],
+    "text": "54:54:java.lang.Object lambda$wait$1(java.lang.Object,net.minecraft.util.Unit,java.lang.Object) -> a",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\libraries\\net\\minecraft\\server\\1.21.1-20240808.144430\\server-1.21.1-20240808.144430-mappings.txt",
+    "line": 30863,
+    "flags": [
+      [
+        "CONVERSATIONAL",
+        [
+          "wait"
+        ]
+      ]
+    ],
+    "text": "49:53:void lambda$wait$0(net.minecraft.server.packs.resources.PreparableReloadListener) -> a",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\libraries\\net\\minecraft\\server\\1.21.1-20240808.144430\\server-1.21.1-20240808.144430-mappings.txt",
+    "line": 32129,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "my"
+        ]
+      ]
+    ],
+    "text": "net.minecraft.sounds.SoundEvent HONEY_BLOCK_HIT -> my",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\libraries\\net\\minecraft\\server\\1.21.1-20240808.144430\\server-1.21.1-20240808.144430-mappings.txt",
+    "line": 32155,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "my"
+        ]
+      ]
+    ],
+    "text": "net.minecraft.sounds.SoundEvent HOSTILE_SWIM -> mY",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\libraries\\net\\minecraft\\server\\1.21.1-20240808.144430\\server-1.21.1-20240808.144430-mappings.txt",
+    "line": 32629,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "we"
+        ]
+      ]
+    ],
+    "text": "net.minecraft.sounds.SoundEvent SCULK_CATALYST_PLACE -> we",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\libraries\\net\\minecraft\\server\\1.21.1-20240808.144430\\server-1.21.1-20240808.144430-mappings.txt",
+    "line": 32655,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "we"
+        ]
+      ]
+    ],
+    "text": "net.minecraft.sounds.SoundEvent SHIELD_BREAK -> wE",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\libraries\\net\\minecraft\\server\\1.21.1-20240808.144430\\server-1.21.1-20240808.144430-mappings.txt",
+    "line": 39493,
+    "flags": [
+      [
+        "AI_NAME",
+        [
+          "cursor"
+        ]
+      ]
+    ],
+    "text": "45:45:int cursor() -> b",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\libraries\\net\\minecraft\\server\\1.21.1-20240808.144430\\server-1.21.1-20240808.144430-mappings.txt",
+    "line": 39496,
+    "flags": [
+      [
+        "AI_NAME",
+        [
+          "cursor"
+        ]
+      ]
+    ],
+    "text": "int cursor -> a",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\libraries\\net\\minecraft\\server\\1.21.1-20240808.144430\\server-1.21.1-20240808.144430-mappings.txt",
+    "line": 39503,
+    "flags": [
+      [
+        "AI_NAME",
+        [
+          "cursor"
+        ]
+      ]
+    ],
+    "text": "3:3:int cursor() -> a",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\libraries\\net\\minecraft\\server\\1.21.1-20240808.144430\\server-1.21.1-20240808.144430-mappings.txt",
+    "line": 47395,
+    "flags": [
+      [
+        "CONVERSATIONAL",
+        [
+          "wait"
+        ]
+      ]
+    ],
+    "text": "net.minecraft.world.entity.ai.control.MoveControl$Operation WAIT -> a",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\libraries\\net\\minecraft\\server\\1.21.1-20240808.144430\\server-1.21.1-20240808.144430-mappings.txt",
+    "line": 62882,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "my"
+        ]
+      ]
+    ],
+    "text": "net.minecraft.world.item.Item SPRUCE_PRESSURE_PLATE -> my",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\libraries\\net\\minecraft\\server\\1.21.1-20240808.144430\\server-1.21.1-20240808.144430-mappings.txt",
+    "line": 62908,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "my"
+        ]
+      ]
+    ],
+    "text": "net.minecraft.world.item.Item WAXED_COPPER_DOOR -> mY",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\libraries\\net\\minecraft\\server\\1.21.1-20240808.144430\\server-1.21.1-20240808.144430-mappings.txt",
+    "line": 63382,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "we"
+        ]
+      ]
+    ],
+    "text": "net.minecraft.world.item.Item PIGLIN_BANNER_PATTERN -> we",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\libraries\\net\\minecraft\\server\\1.21.1-20240808.144430\\server-1.21.1-20240808.144430-mappings.txt",
+    "line": 63408,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "we"
+        ]
+      ]
+    ],
+    "text": "net.minecraft.world.item.Item LODESTONE -> wE",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\libraries\\net\\minecraft\\server\\1.21.1-20240808.144430\\server-1.21.1-20240808.144430-mappings.txt",
+    "line": 63615,
+    "flags": [
+      [
+        "CONVERSATIONAL",
+        [
+          "wait"
+        ]
+      ]
+    ],
+    "text": "net.minecraft.resources.ResourceKey WAIT -> l",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\libraries\\net\\minecraft\\server\\1.21.1-20240808.144430\\server-1.21.1-20240808.144430-mappings.txt",
+    "line": 67245,
+    "flags": [
+      [
+        "AI_NAME",
+        [
+          "cursor"
+        ]
+      ]
+    ],
+    "text": "net.minecraft.core.Cursor3D cursor -> c",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\libraries\\net\\minecraft\\server\\1.21.1-20240808.144430\\server-1.21.1-20240808.144430-mappings.txt",
+    "line": 70831,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "my"
+        ]
+      ]
+    ],
+    "text": "net.minecraft.world.level.block.Block BUBBLE_CORAL -> my",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\libraries\\net\\minecraft\\server\\1.21.1-20240808.144430\\server-1.21.1-20240808.144430-mappings.txt",
+    "line": 70857,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "my"
+        ]
+      ]
+    ],
+    "text": "net.minecraft.world.level.block.Block BAMBOO_SAPLING -> mY",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\libraries\\net\\neoforged\\neoform\\1.21.1-20240808.144430\\neoform-1.21.1-20240808.144430-mappings.txt",
+    "line": 17660,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "I am"
+        ]
+      ]
+    ],
+    "text": "am ()I am 139654",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\libraries\\net\\neoforged\\neoform\\1.21.1-20240808.144430\\neoform-1.21.1-20240808.144430-mappings.txt",
+    "line": 26439,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "my"
+        ]
+      ]
+    ],
+    "text": "mY mY 12042",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\libraries\\net\\neoforged\\neoform\\1.21.1-20240808.144430\\neoform-1.21.1-20240808.144430-mappings.txt",
+    "line": 26465,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "my"
+        ]
+      ]
+    ],
+    "text": "my my 11966",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\libraries\\net\\neoforged\\neoform\\1.21.1-20240808.144430\\neoform-1.21.1-20240808.144430-mappings.txt",
+    "line": 26949,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "we"
+        ]
+      ]
+    ],
+    "text": "wE wE 12347",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\libraries\\net\\neoforged\\neoform\\1.21.1-20240808.144430\\neoform-1.21.1-20240808.144430-mappings.txt",
+    "line": 26975,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "we"
+        ]
+      ]
+    ],
+    "text": "we we 215744",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\libraries\\net\\neoforged\\neoform\\1.21.1-20240808.144430\\neoform-1.21.1-20240808.144430-mappings.txt",
+    "line": 41098,
+    "flags": [
+      [
+        "AI_NAME",
+        [
+          "cursor"
+        ]
+      ]
+    ],
+    "text": "0 o cursor 335878",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\libraries\\net\\neoforged\\neoform\\1.21.1-20240808.144430\\neoform-1.21.1-20240808.144430-mappings.txt",
+    "line": 56679,
+    "flags": [
+      [
+        "CONVERSATIONAL",
+        [
+          "wait"
+        ]
+      ]
+    ],
+    "text": "a WAIT 25003",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\libraries\\net\\neoforged\\neoform\\1.21.1-20240808.144430\\neoform-1.21.1-20240808.144430-mappings.txt",
+    "line": 83597,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "i FIXED"
+        ]
+      ]
+    ],
+    "text": "i FIXED 268699",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\libraries\\net\\neoforged\\neoform\\1.21.1-20240808.144430\\neoform-1.21.1-20240808.144430-mappings.txt",
+    "line": 84785,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "my"
+        ]
+      ]
+    ],
+    "text": "mY mY 307715",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\libraries\\net\\neoforged\\neoform\\1.21.1-20240808.144430\\neoform-1.21.1-20240808.144430-mappings.txt",
+    "line": 84811,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "my"
+        ]
+      ]
+    ],
+    "text": "my my 41969",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\libraries\\net\\neoforged\\neoform\\1.21.1-20240808.144430\\neoform-1.21.1-20240808.144430-mappings.txt",
+    "line": 85295,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "we"
+        ]
+      ]
+    ],
+    "text": "wE wE 42790",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\libraries\\net\\neoforged\\neoform\\1.21.1-20240808.144430\\neoform-1.21.1-20240808.144430-mappings.txt",
+    "line": 85321,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "we"
+        ]
+      ]
+    ],
+    "text": "we we 42725",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\libraries\\net\\neoforged\\neoform\\1.21.1-20240808.144430\\neoform-1.21.1-20240808.144430-mappings.txt",
+    "line": 94757,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "I am"
+        ]
+      ]
+    ],
+    "text": "am ()I am 151558",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\libraries\\net\\neoforged\\neoform\\1.21.1-20240808.144430\\neoform-1.21.1-20240808.144430-mappings.txt",
+    "line": 100145,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "my"
+        ]
+      ]
+    ],
+    "text": "mY mY 50570",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\libraries\\net\\neoforged\\neoform\\1.21.1-20240808.144430\\neoform-1.21.1-20240808.144430-mappings.txt",
+    "line": 100171,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "my"
+        ]
+      ]
+    ],
+    "text": "my my 50596",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\libraries\\net\\neoforged\\neoform\\1.21.1-20240808.144430\\neoform-1.21.1-20240808.144430-mappings.txt",
+    "line": 159883,
+    "flags": [
+      [
+        "PROMPT_USER",
+        [
+          "STAGE 87277"
+        ]
+      ]
+    ],
+    "text": "b STAGE 87277",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\libraries\\net\\neoforged\\neoform\\1.21.1-20240808.144430\\neoform-1.21.1-20240808.144430-mappings.txt",
+    "line": 190836,
+    "flags": [
+      [
+        "PROMPT_USER",
+        [
+          "PROMPT 105392"
+        ]
+      ]
+    ],
+    "text": "c PROMPT 105392",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\libraries\\net\\neoforged\\neoform\\1.21.1-20240808.144430\\neoform-1.21.1-20240808.144430-mappings.txt",
+    "line": 222876,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "my"
+        ]
+      ]
+    ],
+    "text": "my my 141801",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\libraries\\net\\neoforged\\neoform\\1.21.1-20240808.144430\\neoform-1.21.1-20240808.144430-mappings.txt",
+    "line": 224357,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "I am"
+        ]
+      ]
+    ],
+    "text": "am ()I am 6396",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\libraries\\net\\neoforged\\neoform\\1.21.1-20240808.144430\\neoform-1.21.1-20240808.144430-mappings.txt",
+    "line": 224578,
+    "flags": [
+      [
+        "PROMPT_USER",
+        [
+          "prompt 236751"
+        ]
+      ]
+    ],
+    "text": "4 o prompt 236751",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\libraries\\net\\neoforged\\neoform\\1.21.1-20240808.144430\\neoform-1.21.1-20240808.144430-mappings.txt",
+    "line": 236237,
+    "flags": [
+      [
+        "FIRST_PERSON",
+        [
+          "we"
+        ]
+      ]
+    ],
+    "text": "we we 4985",
+    "is_comment": false,
+    "is_log": false
+  },
+  {
+    "file": "DESKTOP\\ServerPackStaging\\libraries\\net\\neoforged\\neoform\\1.21.1-20240808.144430\\neoform-1.21.1-20240808.144430-mappings.txt",
+    "line": 240207,
+    "flags": [
+      [
+        "PROMPT_USER",
+        [
+          "prompt 323927"
+        ]
+      ]
+    ],
+    "text": "4 o prompt 323927",
+    "is_comment": false,
+    "is_log": false
+  }
+]

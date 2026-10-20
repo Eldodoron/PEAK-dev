@@ -9,8 +9,7 @@
 //   CHAOTIC  Ã¢â€ â€™ Requires Vibranium/Unobtainium + Everything
 //
 // Ice and Fire's Dragonsteel is the physical endgame.
-// You need actual dragon forges (hard to automate!)
-// but the results feed into Draconic Evolution.
+// Dragon forge refinement feeds directly into Draconic Evolution tiered progression.
 //
 // AllTheModium provides the dimensional mining tier:
 //   Allthemodium (Overworld deep) Ã¢â€ â€™ mid-endgame

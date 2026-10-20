@@ -270,7 +270,7 @@ def build_lite_pack(dev_manifest, dev_modlist_lines, logo_bytes):
     lite_manifest["version"] = "alpha2b"
     lite_manifest["author"] = "eldodoron"
     if "minecraft" in lite_manifest:
-        lite_manifest["minecraft"]["recommendedRam"] = 6144
+        lite_manifest["minecraft"]["recommendedRam"] = 6348
         lite_manifest["minecraft"]["modLoaders"] = [{"id": "neoforge-21.1.248", "primary": True}]
 
     dev_files = dev_manifest.get("files", [])
