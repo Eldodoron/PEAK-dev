@@ -81,6 +81,7 @@
 <potion:friendsandfoes:reaching>
 <potion:friendsandfoes:strong_reaching>
 <potion:goodending:immunity>
+<potion:iceandfire:depetrification>
 <potion:illagerinvasion:berserking>
 <potion:illagerinvasion:long_berserking>
 <potion:illagerinvasion:strong_berserking>

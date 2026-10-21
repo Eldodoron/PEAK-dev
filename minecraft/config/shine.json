@@ -1,5 +1,5 @@
 {
-  "enabled": true,
+  "enabled": false,
   "strength": 2.0,
   "threshold": 0.15,
   "radius": 352.0,

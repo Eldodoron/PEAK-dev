@@ -1,12 +1,11 @@
-// --- UNIFY & INTEGRATE ALL XP FLUIDS (CREATE, SOPHISTICATED, RELIQUARY, ENDER IO, PNEUMATICCRAFT) ---
+// --- UNIFY & INTEGRATE ALL XP FLUIDS (CREATE, SOPHISTICATED, RELIQUARY, ENDER IO) ---
 
 ServerEvents.tags('fluid', event => {
     const xpFluids = [
         'create_enchantment_industry:experience',
         'sophisticatedcore:xp_still',
         'reliquary:xp_still',
-        'enderio:fluid_xp_juice_still',
-        'pneumaticcraft:memory_essence'
+        'enderio:fluid_xp_juice_still'
     ];
 
     // Add all fluids to standard NeoForge tags so all machines/tanks accept them universally
@@ -20,8 +19,7 @@ ServerEvents.recipes(event => {
         'create_enchantment_industry:experience',
         'sophisticatedcore:xp_still',
         'reliquary:xp_still',
-        'enderio:fluid_xp_juice_still',
-        'pneumaticcraft:memory_essence'
+        'enderio:fluid_xp_juice_still'
     ];
 
     // Create 1:1 conversion recipes in Create Mixing (100mB -> 100mB)

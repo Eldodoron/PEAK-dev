@@ -225,37 +225,37 @@ ServerEvents.recipes(event => {
     ]).transitionalItem('kubejs:incomplete_advanced_restock_upgrade').loops(4).id('kubejs:sequenced_assembly/advanced_restock_upgrade');
 
     sa.sequenced_assembly('sophisticatedbackpacks:advanced_deposit_upgrade', 'sophisticatedbackpacks:deposit_upgrade', [
-        sa.deploying('kubejs:incomplete_advanced_deposit_upgrade', ['kubejs:incomplete_advanced_deposit_upgrade', 'pneumaticcraft:omnidirectional_hopper']),
+        sa.deploying('kubejs:incomplete_advanced_deposit_upgrade', ['kubejs:incomplete_advanced_deposit_upgrade', 'create:brass_funnel']),
         sa.deploying('kubejs:incomplete_advanced_deposit_upgrade', ['kubejs:incomplete_advanced_deposit_upgrade', 'mekanism:basic_control_circuit']),
         sa.pressing('kubejs:incomplete_advanced_deposit_upgrade', 'kubejs:incomplete_advanced_deposit_upgrade')
     ]).transitionalItem('kubejs:incomplete_advanced_deposit_upgrade').loops(4).id('kubejs:sequenced_assembly/advanced_deposit_upgrade');
 
     sa.sequenced_assembly('sophisticatedbackpacks:advanced_refill_upgrade', 'sophisticatedbackpacks:refill_upgrade', [
         sa.deploying('kubejs:incomplete_advanced_refill_upgrade', ['kubejs:incomplete_advanced_refill_upgrade', 'create:brass_tunnel']),
-        sa.deploying('kubejs:incomplete_advanced_refill_upgrade', ['kubejs:incomplete_advanced_refill_upgrade', 'pneumaticcraft:printed_circuit_board']),
+        sa.deploying('kubejs:incomplete_advanced_refill_upgrade', ['kubejs:incomplete_advanced_refill_upgrade', 'mekanism:basic_control_circuit']),
         sa.pressing('kubejs:incomplete_advanced_refill_upgrade', 'kubejs:incomplete_advanced_refill_upgrade')
     ]).transitionalItem('kubejs:incomplete_advanced_refill_upgrade').loops(4).id('kubejs:sequenced_assembly/advanced_refill_upgrade');
 
     sa.sequenced_assembly('sophisticatedbackpacks:auto_smelting_upgrade', 'sophisticatedbackpacks:smelting_upgrade', [
         sa.deploying('kubejs:incomplete_auto_smelting_upgrade', ['kubejs:incomplete_auto_smelting_upgrade', 'create:blaze_burner']),
-        sa.deploying('kubejs:incomplete_auto_smelting_upgrade', ['kubejs:incomplete_auto_smelting_upgrade', 'pneumaticcraft:printed_circuit_board']),
+        sa.deploying('kubejs:incomplete_auto_smelting_upgrade', ['kubejs:incomplete_auto_smelting_upgrade', 'mekanism:basic_control_circuit']),
         sa.pressing('kubejs:incomplete_auto_smelting_upgrade', 'kubejs:incomplete_auto_smelting_upgrade')
     ]).transitionalItem('kubejs:incomplete_auto_smelting_upgrade').loops(4).id('kubejs:sequenced_assembly/auto_smelting_upgrade');
 
     sa.sequenced_assembly('sophisticatedbackpacks:auto_smoking_upgrade', 'sophisticatedbackpacks:smoking_upgrade', [
         sa.deploying('kubejs:incomplete_auto_smoking_upgrade', ['kubejs:incomplete_auto_smoking_upgrade', 'create:blaze_burner']),
-        sa.deploying('kubejs:incomplete_auto_smoking_upgrade', ['kubejs:incomplete_auto_smoking_upgrade', 'pneumaticcraft:printed_circuit_board']),
+        sa.deploying('kubejs:incomplete_auto_smoking_upgrade', ['kubejs:incomplete_auto_smoking_upgrade', 'mekanism:basic_control_circuit']),
         sa.pressing('kubejs:incomplete_auto_smoking_upgrade', 'kubejs:incomplete_auto_smoking_upgrade')
     ]).transitionalItem('kubejs:incomplete_auto_smoking_upgrade').loops(4).id('kubejs:sequenced_assembly/auto_smoking_upgrade');
 
     sa.sequenced_assembly('sophisticatedbackpacks:auto_blasting_upgrade', 'sophisticatedbackpacks:blasting_upgrade', [
         sa.deploying('kubejs:incomplete_auto_blasting_upgrade', ['kubejs:incomplete_auto_blasting_upgrade', 'create:blaze_burner']),
-        sa.deploying('kubejs:incomplete_auto_blasting_upgrade', ['kubejs:incomplete_auto_blasting_upgrade', 'pneumaticcraft:printed_circuit_board']),
+        sa.deploying('kubejs:incomplete_auto_blasting_upgrade', ['kubejs:incomplete_auto_blasting_upgrade', 'mekanism:basic_control_circuit']),
         sa.pressing('kubejs:incomplete_auto_blasting_upgrade', 'kubejs:incomplete_auto_blasting_upgrade')
     ]).transitionalItem('kubejs:incomplete_auto_blasting_upgrade').loops(4).id('kubejs:sequenced_assembly/auto_blasting_upgrade');
 
     sa.sequenced_assembly('sophisticatedbackpacks:advanced_compacting_upgrade', 'sophisticatedbackpacks:compacting_upgrade', [
-        sa.deploying('kubejs:incomplete_advanced_compacting_upgrade', ['kubejs:incomplete_advanced_compacting_upgrade', 'pneumaticcraft:air_compressor']),
+        sa.deploying('kubejs:incomplete_advanced_compacting_upgrade', ['kubejs:incomplete_advanced_compacting_upgrade', 'create:mechanical_press']),
         sa.deploying('kubejs:incomplete_advanced_compacting_upgrade', ['kubejs:incomplete_advanced_compacting_upgrade', 'mekanism:advanced_control_circuit']),
         sa.pressing('kubejs:incomplete_advanced_compacting_upgrade', 'kubejs:incomplete_advanced_compacting_upgrade')
     ]).transitionalItem('kubejs:incomplete_advanced_compacting_upgrade').loops(4).id('kubejs:sequenced_assembly/advanced_compacting_upgrade');

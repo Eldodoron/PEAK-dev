@@ -22,8 +22,8 @@ ServerEvents.recipes(event => {
     // ==========================================
 
     // --- FROZEN HEART CORE (Frostmaw) ---
-    // Used in PneumaticCraft Advanced Air Compressor upgrade
-    event.remove({ output: 'pneumaticcraft:advanced_air_compressor' });
+    // Used in Mekanism Pressurized Reaction Chamber upgrade
+    event.remove({ output: 'mekanism:pressurized_reaction_chamber' });
     event.custom({
         type: 'avaritia:shaped_table',
         pattern: [
@@ -35,10 +35,10 @@ ServerEvents.recipes(event => {
             S: { tag: 'c:ingots/steel' },
             P: { item: 'create:precision_mechanism' },
             F: { item: 'kubejs:frozen_heart_core' },
-            C: { item: 'pneumaticcraft:air_compressor' },
+            C: { item: 'mekanism:steel_casing' },
             E: { item: 'immersiveengineering:heavy_engineering' }
         },
-        result: { id: 'pneumaticcraft:advanced_air_compressor', count: 1 },
+        result: { id: 'mekanism:pressurized_reaction_chamber', count: 1 },
         tier: 1
     });
 
@@ -438,7 +438,7 @@ ServerEvents.recipes(event => {
     console.log('==========================================');
     console.log('[PEAK Expert Mode] ALL SCRIPTS LOADED!');
     console.log('The PEAK Expert Mode tech tree is ACTIVE.');
-    console.log('Create â†’ TFMG â†’ IE â†’ PneumaticCraft â†’ Mekanism');
+    console.log('Create -> TFMG -> IE -> Mekanism');
     console.log('â†’ Ender IO â†’ AE2 â†’ Draconic â†’ Re-Avaritia');
     console.log('Magic: Ars Nouveau --> Iron Spells --> Malum');
     console.log('Dimensions: Twilight Forest, Undergarden, Alex Caves, Deeper Darker');

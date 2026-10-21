@@ -16,7 +16,7 @@ StartupEvents.registry('item', event => {
 
     // --- FROSTMAW (Mowzie's Mobs) ---
     // A core of pure frozen energy from the beast's heart
-    // Used in: PneumaticCraft refrigeration, cryogenic recipes
+    // Used in: Mekanism Pressurized Reaction Chamber, cryogenic recipes
     event.create('frozen_heart_core')
         .displayName('§b❄ Frozen Heart Core')
         .tooltip('§7Drops from: §fFrostmaw §8(Mowzie\'s Mobs)')

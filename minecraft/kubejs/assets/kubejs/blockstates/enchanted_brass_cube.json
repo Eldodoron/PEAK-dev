@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "kubejs:block/enchanted_brass_cube"
+    }
+  }
+}

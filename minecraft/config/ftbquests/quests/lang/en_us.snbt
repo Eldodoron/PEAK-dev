@@ -1335,13 +1335,17 @@
 	quest.3102000000000012.quest_subtitle: "Tier 2: Slay the Lich in his Tower"
 	quest.3102000000000012.title: "&5The Twilight Lich&r"
 	quest.3102000000000013.quest_desc: [
-		"&6The charging beast in the depths of the hedge maze.&r"
+		"&6A charging hybrid monstrosity lurking deep within the subterranean Labyrinth.&r"
+		"Claim and consume its hearty &6Meef Stroganoff&r. Savoring this mystical stew is essential—its warmth wards off the suffocating burning ash curse blanketing the Fire Swamp ahead."
 		"&e* Drops hearty Meef Stroganoff and an Eye of Ender on first defeat.&r"
 	]
-	quest.3102000000000013.quest_subtitle: "Tier 3: Slay the underground minotaur"
+	quest.3102000000000013.quest_subtitle: "Tier 3: Slay the Minoshroom in the Labyrinth"
 	quest.3102000000000013.title: "&6Minoshroom of the Labyrinth&r"
 	quest.3102000000000014.quest_desc: [
-		"&4Aim inside its open maw when it breathes fire!&r"
+		"&4A multi-headed terror reigning over the fiery heart of the swamp.&r"
+		"Never step into the Fire Swamp without drinking your &6Meef Stroganoff&r first, or the burning ash storm will ignite your flesh."
+		""
+		"Its scaly hide deflects ordinary strikes—aim directly into its heads' open mouths when they roar, spew flame, or launch mortars. Severing a head causes two more to sprout in its place until it thrashes with seven heads!"
 		"&e* Drops the legendary regenerative Hydra Chop and an Eye of Ender on first defeat.&r"
 	]
 	quest.3102000000000014.quest_subtitle: "Tier 4: Slay the Multi-Headed Hydra"

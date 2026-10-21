@@ -59,8 +59,8 @@ ServerEvents.recipes(event => {
         A: 'create:andesite_alloy'
     });
 
-    // PneumaticCraft: Compressed Iron Block needs Create processing
-    // Pressure Chamber construction requires Create mechanical components as prerequisites.
+    // Mechanical Press: Heavy metal shaping and component fabrication
+
 
     // Mekanism: Steel Casing (base of ALL Mekanism machines)
     // Now requires Andesite Alloy + Steel

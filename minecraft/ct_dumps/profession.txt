@@ -23,5 +23,4 @@
 <profession:minecraft:shepherd>
 <profession:minecraft:toolsmith>
 <profession:minecraft:weaponsmith>
-<profession:pneumaticcraft:mechanic>
 <profession:village_n_pillage_remake:nomad>

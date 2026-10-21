@@ -137,7 +137,7 @@ ServerEvents.recipes(event => {
             'minecraft:clay_ball',
             'minecraft:gravel',
             'minecraft:sand',
-            'pneumaticcraft:plastic'
+            '#c:plates/plastic'
         ]
     ).heated();
 
@@ -155,7 +155,7 @@ ServerEvents.recipes(event => {
         A: 'immersiveengineering:wirecoil_copper'
     });
 
-    // Item Conduit needs PneumaticCraft tubes (item transport)
+    // Item Conduit needs TFMG pipes (item transport)
     event.remove({ output: 'enderio:item_conduit' });
     event.shaped('8x enderio:item_conduit', [
         'BBB',
@@ -163,7 +163,7 @@ ServerEvents.recipes(event => {
         'BBB'
     ], {
         B: 'enderio:conduit_binder',
-        P: 'pneumaticcraft:pressure_tube',
+        P: 'tfmg:cast_iron_pipe',
         A: 'enderio:pulsating_crystal'
     });
 

@@ -138,6 +138,7 @@
 <mobeffect:goodending:strong_immunity>
 <mobeffect:goodending:weak_immunity>
 <mobeffect:hazentouvelib:hexed>
+<mobeffect:iceandfire:depetrification>
 <mobeffect:iceandfire:frozen>
 <mobeffect:iceandfire:siren_charm>
 <mobeffect:immersiveengineering:concrete_feet>

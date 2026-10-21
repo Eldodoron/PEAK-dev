@@ -65,6 +65,7 @@ ServerEvents.tags('item', event => {
 
     // Dragon scale tag unification
     event.add('c:dragon_scales', ['dragonloot:dragon_scale', 'kubejs:draconic_scale']);
+    event.add('c:plates/plastic', 'tfmg:plastic_sheet');
 
     // Sirok (Sandworm Gauntlet) and Ice Gauntlet enchantability and weapon unifications
     event.add('minecraft:enchantable/durability', [

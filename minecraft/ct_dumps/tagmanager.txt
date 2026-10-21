@@ -161,12 +161,6 @@
 <tagmanager:paraglider/wind_sources>
 <tagmanager:particle_type>
 <tagmanager:pig_variant>
-<tagmanager:pneumaticcraft/harvest_handlers>
-<tagmanager:pneumaticcraft/hoe_handlers>
-<tagmanager:pneumaticcraft/player_matchers>
-<tagmanager:pneumaticcraft/prog_widget_area_types>
-<tagmanager:pneumaticcraft/prog_widgets>
-<tagmanager:pneumaticcraft/remote_widgets>
 <tagmanager:point_of_interest_type>
 <tagmanager:pos_rule_test>
 <tagmanager:position_source_type>

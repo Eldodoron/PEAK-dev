@@ -14,7 +14,7 @@
 	#Master toggle for the Resonance system (full mana bonuses)
 	enable_resonance_system = true
 	#Master toggle for unified cooldown system
-	enable_cooldown_system = false
+	enable_cooldown_system = true
 	#Master toggle for cross-mod progression system
 	enable_progression_system = true
 	#Master toggle for affinity/attunement system

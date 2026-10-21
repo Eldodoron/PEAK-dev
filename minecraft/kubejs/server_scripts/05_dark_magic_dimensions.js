@@ -251,17 +251,7 @@ ServerEvents.recipes(event => {
         A: 'create:brass_casing'
     });
 
-    // Apotheosis Ender Shelf needs Source + Ender Pearl
-    event.remove({ output: 'apothic_enchanting:endshelf' });
-    event.shaped('apothic_enchanting:endshelf', [
-        'SES',
-        'EBE',
-        'SES'
-    ], {
-        S: 'ars_nouveau:source_gem',
-        E: 'minecraft:ender_pearl',
-        B: 'minecraft:bookshelf'
-    });
+    // End Shelf recipe is defined in 66_bookshelf_overhaul.js
 
     console.log('[PEAK Expert Mode] Script 05: Dark Magic + Dimensions loaded!');
 });

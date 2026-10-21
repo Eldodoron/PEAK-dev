@@ -1,4 +1,5 @@
 <attachment_type:ae2:ctrl>
+<attachment_type:apokinetics:machine_sockets>
 <attachment_type:apotheosis:affix_effect_next_particle_time>
 <attachment_type:apotheosis:affix_effect_render_started>
 <attachment_type:apotheosis:affix_effect_start_time>
@@ -90,7 +91,6 @@
 <attachment_type:paraglider:movement_state>
 <attachment_type:paraglider:player_movement>
 <attachment_type:paraglider:vessel_container>
-<attachment_type:pneumaticcraft:hacking>
 <attachment_type:polymorph:recipe_data>
 <attachment_type:royalvariations:rv_attachment>
 <attachment_type:solcarrot:food>

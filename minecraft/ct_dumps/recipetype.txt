@@ -9,6 +9,8 @@
 <recipetype:alexscaves:nuclear_furnace>
 <recipetype:almostunified:client_recipe_tracker>
 <recipetype:amendments:cauldron_crafting>
+<recipetype:apokinetics:frostwork>
+<recipetype:apokinetics:momentum>
 <recipetype:apotheosis:gem_cutting>
 <recipetype:apotheosis:reforging>
 <recipetype:apotheosis:salvaging>
@@ -169,18 +171,6 @@
 <recipetype:northstar:engraving>
 <recipetype:northstar:freezing>
 <recipetype:paraglider:bargain>
-<recipetype:pneumaticcraft:amadron>
-<recipetype:pneumaticcraft:assembly_drill>
-<recipetype:pneumaticcraft:assembly_drill_laser>
-<recipetype:pneumaticcraft:assembly_laser>
-<recipetype:pneumaticcraft:explosion_crafting>
-<recipetype:pneumaticcraft:fluid_mixer>
-<recipetype:pneumaticcraft:fuel_quality>
-<recipetype:pneumaticcraft:heat_frame_cooling>
-<recipetype:pneumaticcraft:heat_properties>
-<recipetype:pneumaticcraft:pressure_chamber>
-<recipetype:pneumaticcraft:refinery>
-<recipetype:pneumaticcraft:thermo_plant>
 <recipetype:refurbished_furniture:cutting_board_combining>
 <recipetype:refurbished_furniture:cutting_board_slicing>
 <recipetype:refurbished_furniture:freezer_solidifying>
