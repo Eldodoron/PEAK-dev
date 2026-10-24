@@ -243,6 +243,33 @@ def resolve_via_cfwidget(filename, filesize, project_id=None, candidate_slugs=No
     return None
 
 
+def verify_cf_file_ownership(project_id, file_id):
+    """
+    Verifies via CFWidget API that `file_id` genuinely belongs to `project_id` on CurseForge
+    and that `project_id` is a valid mod project (not a modpack).
+    Returns (is_valid: bool, reason: str).
+    """
+    try:
+        req = urllib.request.Request(f"https://api.cfwidget.com/{project_id}", headers={"User-Agent": "Mozilla/5.0"})
+        with urllib.request.urlopen(req, timeout=10) as resp:
+            data = json.loads(resp.read().decode("utf-8", errors="replace"))
+        cf_url = (data.get("urls") or {}).get("curseforge") or ""
+        if "/modpacks/" in cf_url:
+            return False, f"Project {project_id} ('{data.get('title')}') is a Modpack, not a Mod!"
+        files = data.get("files") or []
+        if files:
+            known_fids = {int(f["id"]) for f in files if "id" in f}
+            if int(file_id) not in known_fids:
+                return False, f"File ID {file_id} does NOT belong to Project ID {project_id} ('{data.get('title')}')!"
+        return True, "OK"
+    except urllib.error.HTTPError as e:
+        if e.code == 404:
+            return False, f"Project ID {project_id} returned HTTP 404 on CurseForge/CFWidget!"
+        return True, f"Skipped online check ({e})"
+    except Exception as e:
+        return True, f"Skipped online check ({e})"
+
+
 def load_pw_toml_index(mods_dir):
     """Loads CurseForge metadata from mods/.index/*.pw.toml."""
     index_dir = os.path.join(mods_dir, ".index")
@@ -354,6 +381,10 @@ def apply_cli_mappings(registry, map_args):
         jar_path = os.path.join(mods_dir, fn)
         if not os.path.isfile(jar_path):
             raise FileNotFoundError(f"Cannot map '{fn}': file not found in {mods_dir}")
+
+        ok, reason = verify_cf_file_ownership(pid, fid)
+        if not ok:
+            raise RuntimeError(f"FATAL CURSEFORGE OWNERSHIP ERROR for '{fn}': {reason}")
 
         jmeta = inspect_jar_file(jar_path)
         prev = reg_by_pid.get(pid) or cf_by_pid.get(pid) or {}
@@ -516,6 +547,13 @@ def resolve_and_verify_mods(mods_dir, edition_label="PEAK (Dev)", update_registr
             if pid in DEAD_PIDS:
                 unmapped_errors.append(
                     f"  [!] DEAD CURSEFORGE PROJECT ID: '{fn}' maps to dead/deleted projectID {pid}."
+                )
+                continue
+
+            ok, reason = verify_cf_file_ownership(pid, fid)
+            if not ok:
+                unmapped_errors.append(
+                    f"  [!] INVALID CURSEFORGE FILE OWNERSHIP for '{fn}': {reason}"
                 )
                 continue
 
