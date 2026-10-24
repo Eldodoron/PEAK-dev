@@ -313,6 +313,18 @@ def compress_and_verify(version="alpha3"):
     output_zip = os.path.join(EXPORTS_DIR, f"Peak-Server-{version}.zip")
     staged_zip = os.path.join(tempfile.gettempdir(), f"Peak-Server-{version}.zip")
 
+    # Purge any test or runtime artifacts from staging
+    allowed_dirs = {"blueprints", "config", "datapacks", "defaultconfigs", "kubejs", "libraries", "mods"}
+    allowed_files = {"eula.txt", f"neoforge-{NEOFORGE_VERSION}-installer.jar", "run.bat", "run.sh", "server.properties", "user_jvm_args.txt"}
+    for item in os.listdir(STAGING_DIR):
+        p = os.path.join(STAGING_DIR, item)
+        if os.path.isdir(p):
+            if item not in allowed_dirs:
+                shutil.rmtree(p)
+        else:
+            if item not in allowed_files:
+                os.remove(p)
+
     print("\n========================================================")
     print(f" Compressing Server Pack: Peak-Server-{version}.zip")
     print(f" Source: {STAGING_DIR}")
@@ -363,6 +375,10 @@ def compress_and_verify(version="alpha3"):
         # Verify CraftTweaker is present for alpha3 network parity
         ct_present = any("crafttweaker" in n.lower() for n in zver.namelist())
         assert ct_present, "CraftTweaker must be present in alpha3 server pack for client channel parity!"
+
+        # Verify SeedGen is NOT present
+        seedgen_present = any("seedgen" in n.lower() for n in zver.namelist())
+        assert not seedgen_present, "Distant Horizons SeedGen must NOT be present in alpha3 server pack!"
 
         print(f"Integrity test PASSED! Verified root structure: {sorted(list(root_items))}")
         print(f"Server Pack Peak-Server-{version}.zip is 100% verified and ready for production!")
