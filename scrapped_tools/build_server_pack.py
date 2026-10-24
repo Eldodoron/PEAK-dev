@@ -311,6 +311,16 @@ def stage_server_pack(version="alpha3"):
         shutil.copy2(src_file, os.path.join(dst_mods, m))
         copied_mods += 1
 
+    # Stage server-only utility mods (e.g. Forgified Fabric API to fix TxniLib attachment network codec on servers)
+    server_only_dir = os.path.join(BASE_DEV, "scrapped_tools", "server_only_mods")
+    if os.path.isdir(server_only_dir):
+        for sm in sorted(os.listdir(server_only_dir)):
+            if sm.endswith(".jar"):
+                sm_path = os.path.join(server_only_dir, sm)
+                shutil.copy2(sm_path, os.path.join(dst_mods, sm))
+                copied_mods += 1
+                print(f"[MODS] Staged server-only mod: {sm}")
+
     print(f"[MODS] Staged {copied_mods} active server mods (excluded {excluded_mods} client/dev mods).")
 
     # 2. Copy Config Tree (sanitizing BOMs and skipping client configs)
@@ -508,13 +518,16 @@ if __name__ == "__main__":
         active = [f for f in os.listdir(src_mods) if f.endswith(".jar") and os.path.isfile(os.path.join(src_mods, f))]
         srv_mods = [f for f in active if not is_excluded(f, exclusions)]
         excl_mods = [f for f in active if is_excluded(f, exclusions)]
-        print(f"[AUDIT] Total active mods: {len(active)} | Server mods: {len(srv_mods)} | Excluded client/dev mods: {len(excl_mods)}")
+        server_only_dir = os.path.join(BASE_DEV, "scrapped_tools", "server_only_mods")
+        srv_only_mods = [f for f in os.listdir(server_only_dir) if f.endswith(".jar")] if os.path.isdir(server_only_dir) else []
+        total_srv_count = len(srv_mods) + len(srv_only_mods)
+        print(f"[AUDIT] Total active client/common mods: {len(active)} | Server mods: {total_srv_count} ({len(srv_mods)} common + {len(srv_only_mods)} server-only) | Excluded client/dev mods: {len(excl_mods)}")
         output_zip = os.path.join(EXPORTS_DIR, f"Peak-Server-{args.version}.zip")
         if os.path.exists(output_zip):
             with zipfile.ZipFile(output_zip, "r") as zver:
                 z_mods = [n for n in zver.namelist() if n.startswith("mods/") and n.endswith(".jar")]
                 print(f"[AUDIT] Existing {output_zip} contains {len(z_mods)} server mods.")
-                assert len(z_mods) == len(srv_mods), f"Server zip mod count ({len(z_mods)}) != expected ({len(srv_mods)})!"
+                assert len(z_mods) == total_srv_count, f"Server zip mod count ({len(z_mods)}) != expected ({total_srv_count})!"
                 print(f"[AUDIT] Peak-Server-{args.version}.zip is 100% aligned with disk and exclusions!")
     else:
         stage_server_pack(version=args.version)

@@ -4529,26 +4529,6 @@
     "lite_excluded": false,
     "has_mandatory_network_channels": false
   },
-  "forgified-fabric-api-0.116.15+2.3.6+1.21.1.jar": {
-    "filename": "forgified-fabric-api-0.116.15+2.3.6+1.21.1.jar",
-    "projectID": 889079,
-    "fileID": 9195559,
-    "name": "Forgified Fabric API",
-    "authors": [
-      "Mod Author"
-    ],
-    "url": "https://www.curseforge.com/minecraft/mc-mods/forgified-fabric-api",
-    "mod_ids": [
-      "fabric_api",
-      "forgified_fabric_api"
-    ],
-    "mod_version": "0.116.15+2.3.6+1.21.1",
-    "sha1": "a6f0e7b7c277fab7174bca4943fba7bdf3f74ed7",
-    "size": 5613208,
-    "client_side_only": false,
-    "lite_excluded": false,
-    "has_mandatory_network_channels": false
-  },
   "fragmentum-neoforge-1.21.1-2.2.4.jar": {
     "filename": "fragmentum-neoforge-1.21.1-2.2.4.jar",
     "projectID": 1123977,

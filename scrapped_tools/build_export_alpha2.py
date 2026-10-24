@@ -1071,7 +1071,10 @@ if __name__ == "__main__":
             active = [f for f in os.listdir(src_mods) if f.endswith(".jar") and os.path.isfile(os.path.join(src_mods, f))]
             srv_mods = [f for f in active if not build_server_pack.is_excluded(f, exclusions)]
             excl_mods = [f for f in active if build_server_pack.is_excluded(f, exclusions)]
-            print(f"\n[SERVER PACK AUDIT] Active mods: {len(active)} | Server mods: {len(srv_mods)} | Excluded client/dev mods: {len(excl_mods)}")
+            server_only_dir = os.path.join(BASE_DEV, "scrapped_tools", "server_only_mods")
+            srv_only_mods = [f for f in os.listdir(server_only_dir) if f.endswith(".jar")] if os.path.isdir(server_only_dir) else []
+            total_srv_count = len(srv_mods) + len(srv_only_mods)
+            print(f"\n[SERVER PACK AUDIT] Active client/common mods: {len(active)} | Server mods: {total_srv_count} ({len(srv_mods)} common + {len(srv_only_mods)} server-only) | Excluded client/dev mods: {len(excl_mods)}")
         else:
             build_server_pack.stage_server_pack(version=args.version)
             build_server_pack.compress_and_verify(version=args.version)
