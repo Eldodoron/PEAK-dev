@@ -13,6 +13,7 @@
 	pauseScreen: false,
 	allScreens: false,
 	enabledScreens: [
+		"top.theillusivec4.curios.client.gui.CuriosScreen",
 		"net.minecraft.client.gui.screens.inventory.BookViewScreen",
 		"net.minecraft.client.gui.screens.inventory.BookEditScreen",
 		"net.minecraft.client.gui.screens.inventory.BookSignScreen",
@@ -45,9 +46,8 @@
 		"net.minecraft.client.gui.screens.inventory.CreativeModeInventoryScreen"
 	],
 	seenScreens: [
-		"me.desht.pneumaticcraft.client.gui.pneumatic_armor.ArmorMainScreen",
-		"net.minecraft.client.gui.screens.PauseScreen",
-		"net.minecraft.client.gui.screens.inventory.InventoryScreen"
+		"net.minecraft.client.gui.screens.inventory.InventoryScreen",
+		"top.theillusivec4.curios.client.gui.CuriosScreen"
 	],
 	disableFirstPerson: false,
 	disableThirdPerson: false,
@@ -80,10 +80,10 @@
 	cameraTargetPitch: 0.0,
 	lerpCameraPitch: true,
 	disableThirdPersonParallax: false,
-	fallbackToFirstPersonOnBlockCollision: false,
+	fallbackToFirstPersonOnBlockCollision: true,
 	mirrorThirdPerson: false,
 	mirrorHeadMovement: true,
-	avatarBaseYawOffset: 30.0,
+	avatarBaseYawOffset: -30.0,
 	avatarBodyRotationOffset: 155.0,
 	avatarMaxYawOffset: 40,
 	avatarMaxPitchOffset: 25,
@@ -103,7 +103,7 @@
 	disableFirstPersonParallax: false,
 	firstPersonMouseSensitivityYaw: 0.12,
 	firstPersonMouseSensitivityPitch: 0.03,
-	firstPersonPitchClamp: 90,
+	firstPersonPitchClamp: 85,
 	lockFirstPersonYaw: false,
 	enableCloseAnimation: true,
 	enableFadeAnimation: true,

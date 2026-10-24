@@ -114,7 +114,7 @@ Economy, jewelry, entities, and specialized enchanting systems.
   - Obsidilith is currently too weak. Buff its health, attack damage, or special mechanics to align with its tier.
 - [x] **Fix Excess Mob Drops:**
   - ~~Mobs are dropping too many items. Adjust loot tables and drop quantities to prevent inventory clutter and economy inflation.~~ Ã¢Å“â€¦ Fixed.
-- [/] **Rebalance Gems & Jewelry:** *(In Progress Ã¢â‚¬â€� Currently broken)*
+- [/] **Rebalance Gems & Jewelry:** *(In Progress Ã¢â‚¬â€  Currently broken)*
   - Evaluate stat bonuses, drop rates, and crafting costs of gems and jewelry items to ensure balanced progression.
 - [ ] **Tome of Alkahestry Balance Review:**
   - **Question:** Is the Tome of Alkahestry (from *Reliquary Reincarnations*) balanced for the pack's economy? Review and adjust if necessary.
@@ -125,7 +125,7 @@ Economy, jewelry, entities, and specialized enchanting systems.
 
 ## Ã°Å¸â€ºÂ Ã¯Â¸ï¿½ 6. Recipes & Crafting Integrations (Create-focused)
 
-Custom recipes and multi-step deployment assemblies for backpacks and upgrades using the *Create* mod. **Note: The backpack upgrade recipes are scripted and planned but currently broken Ã¢â‚¬â€� they show their default vanilla recipes in-game.**
+Custom recipes and multi-step deployment assemblies for backpacks and upgrades using the *Create* mod. **Note: The backpack upgrade recipes are scripted and planned but currently broken Ã¢â‚¬â€  they show their default vanilla recipes in-game.**
 
 ```mermaid
 graph TD
@@ -141,7 +141,7 @@ graph TD
   - **Issue:** The Create mixing recipe for Hallowed Gold does not make sense.
   - **Action:** Remove the Create mixing recipe completely; keep only the *Malum* custom recipe.
 
-### Ã°Å¸Å½â€™ Create Assembled Backpack Upgrades *(Scripted but broken Ã¢â‚¬â€� shows vanilla recipes in-game)*
+### Ã°Å¸Å½â€™ Create Assembled Backpack Upgrades *(Scripted but broken Ã¢â‚¬â€  shows vanilla recipes in-game)*
 - [ ] **Upgrade Base Recipe:**
   - **Recipe:** Deploying string and iron **4 times** into leather.
   - **Bug:** Normal recipe still showing up in-game despite scripts.
@@ -188,5 +188,10 @@ graph TD
   - **Functionality:** Provide one-click access to open key progression interfaces, specifically Corail Tombstone's Knowledge Screen (`ScreenKnowledge`) and Apotheosis World Tier Selection Screen (`WorldTierSelectScreen`).
 
 
-- [ ] **Enchantment Descriptions:**
+- [x] **Enchantment Descriptions:**
   - Agregar las descripciones de los encantamientos (enchantments) que faltan en el juego para mayor claridad y QoL.
+
+
+
+
+ADD TWILIGHT FOREST UNCRAFTING RECIPES

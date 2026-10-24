@@ -95,11 +95,41 @@ NativeEvents.onEvent('net.neoforged.neoforge.event.level.LevelEvent$Load', event
 ServerEvents.commandRegistry(event => {
     const { commands: Commands, arguments: Arguments } = event;
 
+    function reply(ctx, text, broadcast) {
+        let src = ctx.source;
+        if (src.player) {
+            src.player.tell(text);
+            return;
+        }
+        try {
+            src.sendSuccess(() => text, Boolean(broadcast));
+        } catch (e) {
+            try {
+                src.sendSuccess(text, Boolean(broadcast));
+            } catch (e2) {}
+        }
+    }
+
+    function replyFailure(ctx, text) {
+        let src = ctx.source;
+        if (src.player) {
+            src.player.tell(text);
+            return;
+        }
+        try {
+            src.sendFailure(text);
+        } catch (e) {
+            try {
+                src.sendFailure(() => text);
+            } catch (e2) {}
+        }
+    }
+
     function queryStatus(ctx) {
         let server = ctx.source.server;
         let substeps = getTargetSubsteps(server);
         let stepsPerSec = substeps * 20;
-        ctx.source.sendSuccess(() => Component.yellow('[PEAK Physics] ')
+        reply(ctx, Component.yellow('[PEAK Physics] ')
             .append(Component.gray('Current rate: '))
             .append(Component.green(`${substeps} substep${substeps > 1 ? 's' : ''}/tick (${stepsPerSec} steps/s)`))
             .append(Component.gray(' | Solver Iterations: '))
@@ -110,13 +140,13 @@ ServerEvents.commandRegistry(event => {
     function setRate(ctx, substeps) {
         let server = ctx.source.server;
         if (substeps < 1 || substeps > 10) {
-            ctx.source.sendFailure(Component.red('[PEAK Physics] Substeps must be between 1 and 10 (20 to 200 steps/s).'));
+            replyFailure(ctx, Component.red('[PEAK Physics] Substeps must be between 1 and 10 (20 to 200 steps/s).'));
             return 0;
         }
         server.persistentData.putInt('peak_physics_substeps', substeps);
         applyPhysicsSettings(server, substeps);
         let stepsPerSec = substeps * 20;
-        ctx.source.sendSuccess(() => Component.green(`[PEAK Physics] Set physics rate to ${substeps} substep${substeps > 1 ? 's' : ''}/tick (${stepsPerSec} steps/s).`), true);
+        reply(ctx, Component.green(`[PEAK Physics] Set physics rate to ${substeps} substep${substeps > 1 ? 's' : ''}/tick (${stepsPerSec} steps/s).`), true);
         return 1;
     }
 

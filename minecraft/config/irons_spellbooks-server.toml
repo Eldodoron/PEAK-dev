@@ -15,6 +15,8 @@
 	portalFrameRestrictBreaking = false
 
 [Misc]
+	#Global multiplier to all players' mana regeneration. Default: 1.0
+	manaRegenMultiplier = 1.0
 	#Defines percentage brackets of spell level to corresponding rarity, ie first 30% of spell levels are common.
 	#rarityConfig array values must sum to 1: [COMMON, UNCOMMON, RARE, EPIC, LEGENDARY]. Default: [.3d, .25d, .2d, .15d, .1d]
 	rarityConfig = [0.3, 0.25, 0.2, 0.15, 0.1]
@@ -46,8 +48,6 @@
 	disableAdventureModeCasting = false
 	#Whether hoglins have the ability to pass overworld zombification immunity to their offspring. Default: true
 	hoglinOffspringProtection = true
-	#Global multiplier to all players' mana regeneration. Default: 1.0
-	manaRegenMultiplier = 1.0
 	#Whether merging scrolls with ink to upgrade them in the Arcane Anvil is enabled.
 	scrollMerging = true
 	#Whether mana is required in creative mode. Default: false

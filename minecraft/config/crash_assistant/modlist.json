@@ -995,6 +995,14 @@
     "curseForgeHash": 3308218808,
     "modrinthHash": "79dab35beb45bd1378d078ae913890bf87142710"
   },
+  "Distant Horizons SeedGen 0.9.1 for 1.21.1 NeoForge.jar": {
+    "jarName": "Distant Horizons SeedGen 0.9.1 for 1.21.1 NeoForge.jar",
+    "modId": "seedrenderer",
+    "name": "Distant Horizons SeedGen",
+    "version": "0.9.1",
+    "curseForgeHash": 1151261541,
+    "modrinthHash": "d9d65b1fcbaf5e4eaaa8564f87c300829c981795"
+  },
   "DistantHorizons-3.3.2-1.21.1-fabric-neoforge.jar": {
     "jarName": "DistantHorizons-3.3.2-1.21.1-fabric-neoforge.jar",
     "modId": "distanthorizons",
@@ -3012,13 +3020,13 @@
     "curseForgeHash": 3258843963,
     "modrinthHash": "33477c2db0479c9be33d1ca3b2fa47cf6c97988c"
   },
-  "tooltipoverhaul-neoforge-1.21.1-1.5.1.jar": {
-    "jarName": "tooltipoverhaul-neoforge-1.21.1-1.5.1.jar",
+  "tooltipoverhaul-neoforge-1.21.1-2.0.7.jar": {
+    "jarName": "tooltipoverhaul-neoforge-1.21.1-2.0.7.jar",
     "modId": "tooltipoverhaul",
     "name": "Tooltip overhaul",
-    "version": "1.5.1",
-    "curseForgeHash": 1354847188,
-    "modrinthHash": "a2dd6ad90ba8648c87f4a8b049bf50dd6f52c39f"
+    "version": "2.0.7",
+    "curseForgeHash": 2708353222,
+    "modrinthHash": "ea9873bce86ab65594ba41c13fb16d9fec5c0958"
   },
   "touch_n_motion_neoforge_1.21.1_1.0.4.jar": {
     "jarName": "touch_n_motion_neoforge_1.21.1_1.0.4.jar",

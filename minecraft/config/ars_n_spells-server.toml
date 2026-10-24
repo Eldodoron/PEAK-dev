@@ -8,7 +8,7 @@
 	#  separate - Separate pools with dual-cost mechanics
 	#  disabled - No mana integration at all
 	#NOTE: Changing this value requires a game restart to take effect.
-	mana_unification_mode = "iss_primary"
+	mana_unification_mode = "ars_primary"
 	#Master toggle for all mana unification features
 	enable_mana_unification = true
 	#Master toggle for the Resonance system (full mana bonuses)

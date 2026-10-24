@@ -153,41 +153,74 @@ EntityEvents.spawned(event => {
     // Roll the dice
     if (Math.random() > chance) return;
 
-    // Define potential armor pieces with safety checks
-    let helmets = ['minecraft:netherite_helmet', 'minecraft:diamond_helmet'];
-    let chestplates = ['minecraft:netherite_chestplate', 'minecraft:diamond_chestplate'];
+    // Define potential armor sets with safety checks
+    let armorSets = [
+        {
+            head: 'minecraft:netherite_helmet',
+            chest: 'minecraft:netherite_chestplate',
+            legs: 'minecraft:netherite_leggings',
+            feet: 'minecraft:netherite_boots'
+        },
+        {
+            head: 'minecraft:diamond_helmet',
+            chest: 'minecraft:diamond_chestplate',
+            legs: 'minecraft:diamond_leggings',
+            feet: 'minecraft:diamond_boots'
+        }
+    ];
     let bows = ['minecraft:bow'];
 
     if (Platform.isLoaded('cataclysm')) {
-        helmets.push('cataclysm:ignitium_helmet');
-        chestplates.push('cataclysm:ignitium_chestplate');
+        armorSets.push({
+            head: 'cataclysm:ignitium_helmet',
+            chest: 'cataclysm:ignitium_chestplate',
+            legs: 'cataclysm:ignitium_leggings',
+            feet: 'cataclysm:ignitium_boots'
+        });
     }
-    
+
     if (Platform.isLoaded('iceandfire')) {
-        helmets.push('iceandfire:armor_silver_metal_helmet');
-        chestplates.push('iceandfire:armor_silver_metal_chestplate');
+        armorSets.push({
+            head: 'iceandfire:armor_silver_metal_helmet',
+            chest: 'iceandfire:armor_silver_metal_chestplate',
+            legs: 'iceandfire:armor_silver_metal_leggings',
+            feet: 'iceandfire:armor_silver_metal_boots'
+        });
         bows.push('iceandfire:dragonbone_bow');
     }
 
     if (Platform.isLoaded('ars_nouveau')) {
-        helmets.push('ars_nouveau:arcanist_hood');
-        chestplates.push('ars_nouveau:arcanist_robes');
+        armorSets.push({
+            head: 'ars_nouveau:arcanist_hood',
+            chest: 'ars_nouveau:arcanist_robes',
+            legs: 'ars_nouveau:arcanist_leggings',
+            feet: 'ars_nouveau:arcanist_boots'
+        });
     }
 
-
     if (Platform.isLoaded('armoroftheages')) {
-        helmets.push('armoroftheages:anubis_armor_head', 'armoroftheages:centurion_armor_head', 'armoroftheages:holy_armor_head', 'armoroftheages:o_yoroi_armor_head');
-        chestplates.push('armoroftheages:anubis_armor_chest', 'armoroftheages:centurion_armor_chest', 'armoroftheages:holy_armor_chest', 'armoroftheages:o_yoroi_armor_chest');
+        armorSets.push(
+            { head: 'armoroftheages:anubis_armor_head', chest: 'armoroftheages:anubis_armor_chest', legs: 'armoroftheages:anubis_armor_legs', feet: 'armoroftheages:anubis_armor_feet' },
+            { head: 'armoroftheages:centurion_armor_head', chest: 'armoroftheages:centurion_armor_chest', legs: 'armoroftheages:centurion_armor_legs', feet: 'armoroftheages:centurion_armor_feet' },
+            { head: 'armoroftheages:holy_armor_head', chest: 'armoroftheages:holy_armor_chest', legs: 'armoroftheages:holy_armor_legs', feet: 'armoroftheages:holy_armor_feet' },
+            { head: 'armoroftheages:o_yoroi_armor_head', chest: 'armoroftheages:o_yoroi_armor_chest', legs: 'armoroftheages:o_yoroi_armor_legs', feet: 'armoroftheages:o_yoroi_armor_feet' }
+        );
     }
 
     if (Platform.isLoaded('fantasy_armor')) {
-        helmets.push('fantasy_armor:dead_gladiator_helmet', 'fantasy_armor:evening_ghost_helmet', 'fantasy_armor:ornstein_helmet');
-        chestplates.push('fantasy_armor:dead_gladiator_chestplate', 'fantasy_armor:evening_ghost_chestplate', 'fantasy_armor:ornstein_chestplate');
+        armorSets.push(
+            { head: 'fantasy_armor:dead_gladiator_helmet', chest: 'fantasy_armor:dead_gladiator_chestplate', legs: 'fantasy_armor:dead_gladiator_leggings', feet: 'fantasy_armor:dead_gladiator_boots' },
+            { head: 'fantasy_armor:evening_ghost_helmet', chest: 'fantasy_armor:evening_ghost_chestplate', legs: 'fantasy_armor:evening_ghost_leggings', feet: 'fantasy_armor:evening_ghost_boots' },
+            { head: 'fantasy_armor:ornstein_helmet', chest: 'fantasy_armor:ornstein_chestplate', legs: 'fantasy_armor:ornstein_leggings', feet: 'fantasy_armor:ornstein_boots' }
+        );
     }
 
     if (Platform.isLoaded('immersive_armors')) {
-        helmets.push('immersive_armors:heavy_helmet', 'immersive_armors:divine_helmet', 'immersive_armors:bone_helmet');
-        chestplates.push('immersive_armors:heavy_chestplate', 'immersive_armors:divine_chestplate', 'immersive_armors:bone_chestplate');
+        armorSets.push(
+            { head: 'immersive_armors:heavy_helmet', chest: 'immersive_armors:heavy_chestplate', legs: 'immersive_armors:heavy_leggings', feet: 'immersive_armors:heavy_boots' },
+            { head: 'immersive_armors:divine_helmet', chest: 'immersive_armors:divine_chestplate', legs: 'immersive_armors:divine_leggings', feet: 'immersive_armors:divine_boots' },
+            { head: 'immersive_armors:bone_helmet', chest: 'immersive_armors:bone_chestplate', legs: 'immersive_armors:bone_leggings', feet: 'immersive_armors:bone_boots' }
+        );
     }
 
     if (Platform.isLoaded('simplybows')) {
@@ -195,8 +228,10 @@ EntityEvents.spawned(event => {
     }
 
     if (Platform.isLoaded('twilightforest')) {
-        helmets.push('twilightforest:knightmetal_helmet', 'twilightforest:ironwood_helmet');
-        chestplates.push('twilightforest:knightmetal_chestplate', 'twilightforest:ironwood_chestplate');
+        armorSets.push(
+            { head: 'twilightforest:knightmetal_helmet', chest: 'twilightforest:knightmetal_chestplate', legs: 'twilightforest:knightmetal_leggings', feet: 'twilightforest:knightmetal_boots' },
+            { head: 'twilightforest:ironwood_helmet', chest: 'twilightforest:ironwood_chestplate', legs: 'twilightforest:ironwood_leggings', feet: 'twilightforest:ironwood_boots' }
+        );
         bows.push('twilightforest:triple_bow', 'twilightforest:seeker_bow');
     }
 
@@ -213,8 +248,12 @@ EntityEvents.spawned(event => {
 
     // Alex's Caves Logic: ONLY in Alex's Caves biomes
     if (Platform.isLoaded('alexscaves') && currentBiomeId.namespace == 'alexscaves') {
-        helmets.push('alexscaves:diving_helmet', 'alexscaves:primordial_helmet', 'alexscaves:magnetic_helmet');
-        chestplates.push('alexscaves:diving_chestplate', 'alexscaves:primordial_chestplate', 'alexscaves:magnetic_chestplate');
+        armorSets.push(
+            { head: 'alexscaves:diving_helmet', chest: 'alexscaves:diving_chestplate', legs: 'alexscaves:diving_leggings', feet: 'alexscaves:diving_boots' },
+            { head: 'alexscaves:hazmat_mask', chest: 'alexscaves:hazmat_chestplate', legs: 'alexscaves:hazmat_leggings', feet: 'alexscaves:hazmat_boots' },
+            { head: 'alexscaves:primordial_helmet', chest: 'alexscaves:primordial_tunic', legs: 'alexscaves:primordial_pants', feet: null },
+            { head: 'alexscaves:gingerbread_helmet', chest: 'alexscaves:gingerbread_chestplate', legs: 'alexscaves:gingerbread_leggings', feet: 'alexscaves:gingerbread_boots' }
+        );
         bows.push('alexscaves:dreadbow');
     }
 
@@ -223,31 +262,52 @@ EntityEvents.spawned(event => {
         var dimId = entity.level.dimension.toString();
         var biomeStr = currentBiomeId.toString();
         if (biomeStr == 'minecraft:deep_dark' || dimId == 'deeperdarker:otherside') {
-            helmets.push('deeperdarker:warden_helmet', 'deeperdarker:resonarium_helmet');
-            chestplates.push('deeperdarker:warden_chestplate', 'deeperdarker:resonarium_chestplate');
+            armorSets.push(
+                { head: 'deeperdarker:warden_helmet', chest: 'deeperdarker:warden_chestplate', legs: 'deeperdarker:warden_leggings', feet: 'deeperdarker:warden_boots' },
+                { head: 'deeperdarker:resonarium_helmet', chest: 'deeperdarker:resonarium_chestplate', legs: 'deeperdarker:resonarium_leggings', feet: 'deeperdarker:resonarium_boots' }
+            );
         }
     }
-    
+
+    if (armorSets.length === 0) return;
+
     // Choose randomly
-    let randomIndex = Math.floor(Math.random() * helmets.length);
-    let helmId = helmets[randomIndex];
-    let chestId = chestplates[randomIndex] || chestplates[0];
-
+    let selectedSet = armorSets[Math.floor(Math.random() * armorSets.length)];
     let trimData = { material: "minecraft:gold", pattern: "minecraft:ward" };
-    let helm = Item.of(helmId, { 'minecraft:trim': trimData });
-    let chest = Item.of(chestId, { 'minecraft:trim': trimData });
 
-    if (!helm.empty && !chest.empty) {
-        entity.setItemSlot('head', helm);
-        entity.setItemSlot('chest', chest);
-        
-        if (entity.type == 'minecraft:skeleton' || entity.type == 'minecraft:stray' || entity.type == 'minecraft:pillager') {
-            let bowId = bows[Math.floor(Math.random() * bows.length)];
-            entity.setItemSlot('mainhand', Item.of(bowId));
+    if (selectedSet.head) {
+        let helm = Item.of(selectedSet.head, { 'minecraft:trim': trimData });
+        if (!helm.empty) {
+            entity.setItemSlot('head', helm);
+            entity.setDropChance('head', 0.0);
         }
+    }
+    if (selectedSet.chest) {
+        let chest = Item.of(selectedSet.chest, { 'minecraft:trim': trimData });
+        if (!chest.empty) {
+            entity.setItemSlot('chest', chest);
+            entity.setDropChance('chest', 0.0);
+        }
+    }
+    if (selectedSet.legs) {
+        let legs = Item.of(selectedSet.legs, { 'minecraft:trim': trimData });
+        if (!legs.empty) {
+            entity.setItemSlot('legs', legs);
+            entity.setDropChance('legs', 0.0);
+        }
+    }
+    if (selectedSet.feet) {
+        let feet = Item.of(selectedSet.feet, { 'minecraft:trim': trimData });
+        if (!feet.empty) {
+            entity.setItemSlot('feet', feet);
+            entity.setDropChance('feet', 0.0);
+        }
+    }
 
-        entity.setDropChance('head', 0.0);
-        entity.setDropChance('chest', 0.0);
+    if (entity.type == 'minecraft:skeleton' || entity.type == 'minecraft:stray' || entity.type == 'minecraft:pillager') {
+        let bowId = bows[Math.floor(Math.random() * bows.length)];
+        entity.setItemSlot('mainhand', Item.of(bowId));
         entity.setDropChance('mainhand', 0.0);
-    }});
+    }
+});
 

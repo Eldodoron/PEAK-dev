@@ -9,12 +9,14 @@ This skill provides the required procedures, verification scripts, and automated
 
 ---
 
-## 0. Prerequisite: Strict Explicit User Directive Required
+## 0. Prerequisite: Strict Explicit User Directive & Version Confirmation Required
 
 Building, rebuilding, or packaging modpack export archives (`scrapped_tools/build_export_alpha2.py`, `Peak-*.zip`) creates production release files and stages them for upload.
 
 * **NEVER** run export packaging scripts autonomously as a "routine check", cleanup step, or general post-fix validation.
 * Packaging scripts must **ONLY** be invoked when the user explicitly states that an export or build of the packages is being performed.
+* **Mandatory Target Release Version Confirmation:** ALWAYS ask and confirm the exact target release version string (e.g., `alpha3`, `alpha2c`, `beta1`) with the user prior to building. NEVER assume or reuse previous version strings from prior export scripts or manifests to avoid overwriting existing release files or generating incorrect `manifest.json` version metadata.
+* Pass the confirmed version string to the export tooling (e.g., `--version alpha3`) so output archives (`Peak-<version>.zip`) and `manifest.json` strictly match the intended milestone.
 
 ---
 
@@ -206,7 +208,63 @@ def sanitize_options_txt(opt_content):
 - **`scrapped_tools/sync_to_lite.py`**:
   Contains `configure_lite_better_combat()` which automatically enforces `"firstPersonAnimations": "YES"` inside `PEAK-Lite/minecraft/config/bettercombat/client.json5` whenever synchronizing from dev.
 - **`scrapped_tools/build_export_alpha2.py`**:
-  Verifies that `overrides/config/bettercombat/client.json5` has `"firstPersonAnimations": "YES"` when packaging `Peak-Lite-alpha2b.zip`.
+  Verifies that `overrides/config/bettercombat/client.json5` has `"firstPersonAnimations": "YES"` when packaging `Peak-Lite-*.zip`.
+
+---
+
+## 8. Mandatory Pre-Export Synchronization for Derived Editions (PEAK-Lite)
+
+When exporting derived modpack editions (such as **PEAK-Lite**), the export builder (`build_export_alpha2.py`) collects override files directly from the derived instance directory (`PEAK-Lite/minecraft`).
+
+### Invariant & Procedural Requirement
+- **NEVER** package a derived edition without first running the synchronization engine (`python scrapped_tools/sync_to_lite.py`).
+- If synchronization is skipped, the derived instance will retain stale KubeJS scripts, outdated dimension gating, and obsolete mod configs from earlier sessions. Bundling stale overrides causes fatal worldgen crashes and illegal state exceptions when clients launch into a world.
+- Always execute `python scrapped_tools/sync_to_lite.py` immediately before building derived release packages to guarantee 0 diffs across KubeJS and config trees.
+
+---
+
+## 9. Non-CurseForge / Modrinth JAR Mapping in `manifest.json`
+
+Mods originally added via Modrinth (`.pw.toml` / packwiz) or manual JAR drops (such as `FancyMenu`, `Drippy Loading Screen`, `Drippy Early Loading Module`, `Konkrete`, and `Melody`) are absent from legacy CurseForge base manifests.
+
+### Invariant & Ingestion Requirement
+- Every active mod required by the modpack must be mapped to valid CurseForge `projectID` and `fileID` entries in the export script's `INJECTED_CF_MODS` registry.
+- If a mod is omitted from `manifest.json`, CurseForge will not install the JAR file on client instances, causing missing UI features (e.g. blank white early window screen instead of custom tunnel background art).
+- Verify that both Dev and Lite manifests contain all injected Project IDs (`367706`, `511770`, `1390924`, `410295`, `938643`).
+
+---
+
+## 10. Sanitized UI & Companion Data Bundling (`fancymenu_data`)
+
+In addition to `config/fancymenu/`, FancyMenu stores companion progression and browser player settings in `fancymenu_data/`.
+
+### Overrides Collection Invariant
+- **Included:** `fancymenu_data/buddy/` (companion save/leveling JSONs), `browser_audio_settings.json`, and `browser_video_settings.json`.
+- **Excluded:** Temporary developer session artifacts must never be bundled into release archives:
+  - `fancymenu_temp/` (decoded image cache)
+  - `seamless_world_loading/` (developer world save screenshots)
+  - `video_thumbnails/`
+  - `last_world.fmdata`
+- **Config Invariant:** Never exclude user-requested utility configs (such as `smoothswapping.json`).
+
+---
+
+## 11. Strict Memory Allocation Invariants
+- **PEAK-dev:** Recommended RAM in `manifest.json` must be set to `7520` MB (~7.3 GB).
+- **PEAK-Lite:** Recommended RAM in `manifest.json` must be set to `6348` MB (6.2 GB).
+
+---
+
+## 12. Cross-Play Network Parity & Diagnostic Mod Lifecycle
+
+### NeoForge Network Handshake Invariant
+- NeoForge strictly validates custom packet payloads and network channels between server and client during the configuration phase. If a server mod registers network channels without `.optional()`, any connecting client lacking the mod will be disconnected with `ModMismatchDisconnectedScreen: Channel of mod "<modid>" failed to connect`.
+- `CraftTweaker` registers three mandatory channels (`crafttweaker:copy`, `crafttweaker:data`, `crafttweaker:open_file`) without setting them optional.
+
+### Edition Alignment Strategy
+- **Alpha3 Invariant:** Because standard PEAK alpha3 was already published carrying CraftTweaker, `Peak-Lite-alpha3` retains CraftTweaker (PID `239197`) in its manifest so PEAK Lite players can connect to standard PEAK alpha3 Essential / dedicated servers.
+- **Alpha4+ Invariant (Both Packs Purged):** Starting with alpha4, CraftTweaker (PID `239197`) must be added to `REMOVED_PIDS_DEV` in `scrapped_tools/build_export_alpha2.py` and excluded from both standard PEAK and PEAK Lite production manifests. Since PEAK uses KubeJS exclusively for all scripting with zero CraftTweaker scripts (`minecraft/scripts/` is empty), purging CraftTweaker from production saves ~40 MB RAM, improves boot times, and preserves 100% multiplayer network parity across all editions.
+
 
 
 

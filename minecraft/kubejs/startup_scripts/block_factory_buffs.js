@@ -30,7 +30,7 @@ ItemEvents.modification(event => {
 
     // Weapons - Gauntlets
     event.modify('block_factorys_bosses:sandworm_gauntlet', item => {
-        item.setAttackDamage(22);
+        item.setAttackDamage(25);
         item.setAttackSpeed(-2.8);
     });
     event.modify('block_factorys_bosses:ice_gauntlet', item => {
