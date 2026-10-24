@@ -6,15 +6,38 @@ import subprocess
 import time
 import argparse
 import tempfile
+import json
+import re
+import fnmatch
+
+try:
+    import tomllib
+except ImportError:
+    tomllib = None
 
 sys.stdout.reconfigure(encoding="utf-8")
 
 BASE_DEV = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 MC_DIR = os.path.join(BASE_DEV, "minecraft")
 EXCLUSIONS_FILE = os.path.join(MC_DIR, "server_pack_excluded_mods.txt")
+REGISTRY_FILE = os.path.join(BASE_DEV, "scrapped_tools", "curseforge_mod_registry.json")
 STAGING_DIR = r"C:\Users\chris\Desktop\PEAK DEV MULTIMEDIA\ServerPackStaging"
 EXPORTS_DIR = r"C:\Users\chris\Desktop\PEAK DEV MULTIMEDIA\PackExports"
-NEOFORGE_VERSION = "21.1.248"
+
+def get_neoforge_version():
+    mmc_path = os.path.join(BASE_DEV, "mmc-pack.json")
+    if os.path.exists(mmc_path):
+        try:
+            with open(mmc_path, "r", encoding="utf-8") as f:
+                data = json.load(f)
+            for comp in data.get("components", []):
+                if comp.get("uid") == "net.neoforged":
+                    return comp.get("version", "21.1.248")
+        except Exception:
+            pass
+    return "21.1.248"
+
+NEOFORGE_VERSION = get_neoforge_version()
 INSTALLER_SRC = rf"C:\Users\chris\AppData\Roaming\PrismLauncher\libraries\net\neoforged\neoforge\{NEOFORGE_VERSION}\neoforge-{NEOFORGE_VERSION}-installer.jar"
 
 IGNORED_CONFIG_DIRS = {
@@ -158,14 +181,100 @@ echo "[INFO] Starting PEAK Server with configured JVM arguments..."
 java @user_jvm_args.txt @libraries/net/neoforged/neoforge/{NEOFORGE_VERSION}/unix_args.txt nogui "$@"
 """
 
-def load_exclusions():
+def extract_jar_mod_ids(jar_path):
+    """Extracts declared [[mods]] modId entries from META-INF/neoforge.mods.toml."""
+    mod_ids = []
+    try:
+        with zipfile.ZipFile(jar_path, "r") as zf:
+            for candidate in ["META-INF/neoforge.mods.toml", "META-INF/mods.toml"]:
+                if candidate in zf.namelist():
+                    toml_text = zf.read(candidate).decode("utf-8", errors="replace")
+                    if tomllib is not None:
+                        try:
+                            data = tomllib.loads(toml_text)
+                            for m in data.get("mods", []):
+                                mid = m.get("modId")
+                                if mid and mid not in mod_ids:
+                                    mod_ids.append(mid)
+                            if mod_ids:
+                                return mod_ids
+                        except Exception:
+                            pass
+                    current_section = ""
+                    for line in toml_text.splitlines():
+                        s = line.strip()
+                        if s.startswith("["):
+                            current_section = s.lower()
+                            continue
+                        if current_section == "[[mods]]":
+                            m_id = re.match(r'^modId\s*=\s*["\']([^"\']+)["\']', s)
+                            if m_id and m_id.group(1) not in mod_ids:
+                                mod_ids.append(m_id.group(1))
+    except Exception:
+        pass
+    return mod_ids
+
+def is_excluded(filename, exclude_set):
+    f_lower = filename.lower()
+    if f_lower in exclude_set:
+        return True
+    for pat in exclude_set:
+        if ("*" in pat or "?" in pat) and fnmatch.fnmatch(f_lower, pat):
+            return True
+    return False
+
+def load_exclusions(dry_run=False):
     exclusions = set()
+    raw_lines = []
     if os.path.exists(EXCLUSIONS_FILE):
         with open(EXCLUSIONS_FILE, "r", encoding="utf-8") as f:
-            for line in f:
-                line = line.strip()
-                if line and not line.startswith("#"):
-                    exclusions.add(line.lower())
+            raw_lines = f.readlines()
+            for line in raw_lines:
+                s = line.strip()
+                if s and not s.startswith("#"):
+                    exclusions.add(s.lower())
+
+    # Version-agnostic modId exclusion resolution & auto-healing
+    if os.path.exists(REGISTRY_FILE):
+        try:
+            with open(REGISTRY_FILE, "r", encoding="utf-8") as f:
+                registry = json.load(f)
+        except Exception:
+            registry = {}
+
+        excluded_mod_ids = set()
+        for fn, meta in registry.items():
+            if meta.get("client_side_only") or is_excluded(fn, exclusions):
+                for mid in meta.get("mod_ids", []):
+                    excluded_mod_ids.add(mid)
+
+        src_mods = os.path.join(MC_DIR, "mods")
+        auto_healed = []
+        if os.path.isdir(src_mods):
+            for fn in sorted(os.listdir(src_mods)):
+                if not fn.endswith(".jar") or is_excluded(fn, exclusions):
+                    continue
+                jar_path = os.path.join(src_mods, fn)
+                if not os.path.isfile(jar_path):
+                    continue
+                mids = registry.get(fn, {}).get("mod_ids") or extract_jar_mod_ids(jar_path)
+                if any(mid in excluded_mod_ids for mid in mids):
+                    exclusions.add(fn.lower())
+                    auto_healed.append((fn, mids))
+
+        if auto_healed:
+            print("[AUTO-HEALED SERVER EXCLUSIONS] Detected updated version(s) of client-only mods:")
+            for fn, mids in auto_healed:
+                print(f"   + Excluded updated client JAR: {fn} (mod_ids: {mids})")
+            if not dry_run and raw_lines:
+                with open(EXCLUSIONS_FILE, "a", encoding="utf-8") as f:
+                    for fn, _ in auto_healed:
+                        f.write(f"\n{fn}")
+
+        for fn, meta in registry.items():
+            if is_excluded(fn, exclusions) and meta.get("has_mandatory_network_channels"):
+                print(f"[CRITICAL NETWORK PARITY WARNING] Server-excluded mod '{fn}' ({meta.get('name')}) registers non-optional network channels! Excluding it from the server pack will disconnect PEAK clients!")
+
     print(f"Loaded {len(exclusions)} exclusion filenames from {EXCLUSIONS_FILE}")
     return exclusions
 
@@ -196,7 +305,7 @@ def stage_server_pack(version="alpha3"):
         src_file = os.path.join(src_mods, m)
         if not os.path.isfile(src_file) or not m.endswith(".jar"):
             continue
-        if m.lower() in exclusions:
+        if is_excluded(m, exclusions):
             excluded_mods += 1
             continue
         shutil.copy2(src_file, os.path.join(dst_mods, m))
@@ -376,6 +485,10 @@ def compress_and_verify(version="alpha3"):
         ct_present = any("crafttweaker" in n.lower() for n in zver.namelist())
         assert ct_present, "CraftTweaker must be present in alpha3 server pack for client channel parity!"
 
+        # Verify Forgified Fabric API is present to prevent packet encoding errors
+        ffa_present = any("forgified-fabric-api" in n.lower() for n in zver.namelist())
+        assert ffa_present, "Forgified Fabric API must be present in server pack to avoid packet errors!"
+
         # Verify SeedGen is NOT present
         seedgen_present = any("seedgen" in n.lower() for n in zver.namelist())
         assert not seedgen_present, "Distant Horizons SeedGen must NOT be present in alpha3 server pack!"
@@ -386,7 +499,23 @@ def compress_and_verify(version="alpha3"):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="PEAK Dedicated Server Pack Builder")
     parser.add_argument("--version", type=str, default="alpha3", help="Target release version string (e.g. alpha3)")
+    parser.add_argument("--verify-only", action="store_true", help="Verify server exclusions and existing server zip without rebuilding")
     args = parser.parse_args()
 
-    stage_server_pack(version=args.version)
-    compress_and_verify(version=args.version)
+    if args.verify_only:
+        exclusions = load_exclusions(dry_run=True)
+        src_mods = os.path.join(MC_DIR, "mods")
+        active = [f for f in os.listdir(src_mods) if f.endswith(".jar") and os.path.isfile(os.path.join(src_mods, f))]
+        srv_mods = [f for f in active if not is_excluded(f, exclusions)]
+        excl_mods = [f for f in active if is_excluded(f, exclusions)]
+        print(f"[AUDIT] Total active mods: {len(active)} | Server mods: {len(srv_mods)} | Excluded client/dev mods: {len(excl_mods)}")
+        output_zip = os.path.join(EXPORTS_DIR, f"Peak-Server-{args.version}.zip")
+        if os.path.exists(output_zip):
+            with zipfile.ZipFile(output_zip, "r") as zver:
+                z_mods = [n for n in zver.namelist() if n.startswith("mods/") and n.endswith(".jar")]
+                print(f"[AUDIT] Existing {output_zip} contains {len(z_mods)} server mods.")
+                assert len(z_mods) == len(srv_mods), f"Server zip mod count ({len(z_mods)}) != expected ({len(srv_mods)})!"
+                print(f"[AUDIT] Peak-Server-{args.version}.zip is 100% aligned with disk and exclusions!")
+    else:
+        stage_server_pack(version=args.version)
+        compress_and_verify(version=args.version)

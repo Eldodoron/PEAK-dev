@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-24 00:11:52",
+  "timestamp": "2026-10-24 13:42:41",
   "dry_run": false,
   "mods": {
     "created": 1,
@@ -38,11 +38,11 @@
   },
   "root": {
     "created": 0,
-    "updated": 1,
+    "updated": 0,
     "deleted": 0
   },
-  "duration_seconds": 10.14,
+  "duration_seconds": 8.19,
   "total_added": 1,
-  "total_updated": 4,
+  "total_updated": 3,
   "total_pruned": 0
 }

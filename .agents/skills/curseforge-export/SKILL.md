@@ -11,7 +11,7 @@ This skill provides the required procedures, verification scripts, and automated
 
 ## 0. Prerequisite: Strict Explicit User Directive & Version Confirmation Required
 
-Building, rebuilding, or packaging modpack export archives (`scrapped_tools/build_export_alpha2.py`, `Peak-*.zip`) creates production release files and stages them for upload.
+Building, rebuilding, or packaging modpack export archives (`scrapped_tools/export_packs.py`, `scrapped_tools/build_export_alpha2.py`, `scrapped_tools/build_server_pack.py`, `Peak-*.zip`) creates production release files and stages them for upload.
 
 * **NEVER** run export packaging scripts autonomously as a "routine check", cleanup step, or general post-fix validation.
 * Packaging scripts must **ONLY** be invoked when the user explicitly states that an export or build of the packages is being performed.
@@ -225,12 +225,13 @@ When exporting derived modpack editions (such as **PEAK-Lite**), the export buil
 
 ## 9. Non-CurseForge / Modrinth JAR Mapping in `manifest.json`
 
-Mods originally added via Modrinth (`.pw.toml` / packwiz) or manual JAR drops (such as `FancyMenu`, `Drippy Loading Screen`, `Drippy Early Loading Module`, `Konkrete`, and `Melody`) are absent from legacy CurseForge base manifests.
+Mods originally added or updated via Modrinth (`.pw.toml` / packwiz) or manual JAR drops (such as `FancyMenu`, `Drippy Loading Screen`, `Drippy Early Loading Module`, `Konkrete`, and `Melody`) do not carry `[update.curseforge]` metadata inside `.index/*.pw.toml`.
 
 ### Invariant & Ingestion Requirement
-- Every active mod required by the modpack must be mapped to valid CurseForge `projectID` and `fileID` entries in the export script's `INJECTED_CF_MODS` registry.
+- Every active mod required by the modpack must be mapped to valid CurseForge `projectID` and `fileID` entries in `scrapped_tools/curseforge_mod_registry.json`.
+- When a Modrinth-sourced mod is updated or added, `export_packs.py` (`resolve_via_cfwidget()`) automatically queries `https://api.cfwidget.com` using the mod's `projectID` (matched via `modId` in `META-INF/neoforge.mods.toml`) or slug to resolve the new CurseForge `fileID` and persist it into `curseforge_mod_registry.json`.
 - If a mod is omitted from `manifest.json`, CurseForge will not install the JAR file on client instances, causing missing UI features (e.g. blank white early window screen instead of custom tunnel background art).
-- Verify that both Dev and Lite manifests contain all injected Project IDs (`367706`, `511770`, `1390924`, `410295`, `938643`).
+- Verify that both Dev and Lite manifests contain all required UI Project IDs (`367706`, `511770`, `1390924`, `410295`, `938643`).
 
 ---
 
@@ -262,8 +263,51 @@ In addition to `config/fancymenu/`, FancyMenu stores companion progression and b
 - `CraftTweaker` registers three mandatory channels (`crafttweaker:copy`, `crafttweaker:data`, `crafttweaker:open_file`) without setting them optional.
 
 ### Edition Alignment Strategy
-- **Alpha3 Invariant:** Because standard PEAK alpha3 was already published carrying CraftTweaker, `Peak-Lite-alpha3` retains CraftTweaker (PID `239197`) in its manifest so PEAK Lite players can connect to standard PEAK alpha3 Essential / dedicated servers.
-- **Alpha4+ Invariant (Both Packs Purged):** Starting with alpha4, CraftTweaker (PID `239197`) must be added to `REMOVED_PIDS_DEV` in `scrapped_tools/build_export_alpha2.py` and excluded from both standard PEAK and PEAK Lite production manifests. Since PEAK uses KubeJS exclusively for all scripting with zero CraftTweaker scripts (`minecraft/scripts/` is empty), purging CraftTweaker from production saves ~40 MB RAM, improves boot times, and preserves 100% multiplayer network parity across all editions.
+- **Alpha3 Invariant:** Because standard PEAK alpha3 was already published carrying CraftTweaker, `Peak-Lite-alpha3` and `Peak-Server-alpha3` retain CraftTweaker (PID `239197`) so PEAK Lite and standard PEAK players can connect across Essential and dedicated servers.
+- **Alpha4+ Invariant (All Editions Purged):** Starting with alpha4, CraftTweaker (`CraftTweaker-neoforge-1.21.1-21.0.38.jar`, PID `239197`) should be disabled/removed from `PEAK-dev/minecraft/mods/` before exporting so that the disk-driven export engine automatically omits it from standard PEAK, PEAK Lite, and PEAK Server Pack simultaneously. Since PEAK uses KubeJS exclusively for all scripting with zero CraftTweaker scripts (`minecraft/scripts/` is empty), purging CraftTweaker from production saves ~40 MB RAM, improves boot times, and preserves 100% multiplayer network parity across all editions.
+
+---
+
+## 13. Official 1-to-1 Disk-Driven Export & Verification Architecture
+
+### Architecture Overview
+The modpack export pipeline (`scrapped_tools/export_packs.py` / `scrapped_tools/build_export_alpha2.py`) is strictly **disk-driven** and **zero-drift** across all three editions: **PEAK (Main/Dev)**, **PEAK Lite**, and **PEAK Dedicated Server Pack**. It never relies on static baseline ZIPs (`Peak-alpha1.zip`) or hardcoded dictionaries (`UPDATED_FILES`, `INJECTED_CF_MODS`, `LITE_EXCLUDED_PIDS`).
+
+1. **Master CurseForge Mod Registry (`scrapped_tools/curseforge_mod_registry.json`)**:
+   - Maps every active `.jar` in `PEAK-dev/minecraft/mods/` 1-to-1 to its verified CurseForge `(projectID, fileID, name, authors, url)`, declared `mod_ids` (from `[[mods]]` in `META-INF/neoforge.mods.toml`), `mod_version`, `sha1`, `size`, `client_side_only`, `lite_excluded`, and `has_mandatory_network_channels`.
+2. **100% Disk-to-Manifest Resolution (`resolve_and_verify_mods()`)**:
+   - Scans every active `.jar` file in `PEAK-dev/minecraft/mods/` (for Dev) and `PEAK-Lite/minecraft/mods/` (for Lite).
+   - **Auto-Registration of CurseForge Mods**: If a new or updated mod has `[update.curseforge]` metadata (`project-id`, `file-id`) in `minecraft/mods/.index/*.pw.toml` or `Peak (Dev)/minecraftinstance.json`, it is automatically registered into `curseforge_mod_registry.json` and included in `manifest.json`.
+   - **Automatic Online CFWidget Resolution for Modrinth / Manual Updates (`resolve_via_cfwidget()`)**: If a `.jar` is added or updated via Modrinth or manual file drop without a CurseForge `fileID` in `.pw.toml`, the engine matches its `modId` (from `META-INF/neoforge.mods.toml`) to its `projectID` in `curseforge_mod_registry.json` (or slug) and queries `https://api.cfwidget.com` by filename/filesize to automatically resolve its CurseForge `fileID`.
+   - **Fail-Fast Blocking on Unresolvable Mods**: If a newly dropped `.jar` is Modrinth-exclusive and cannot be resolved on CurseForge, the engine halts immediately with exit code 1 and provides the exact `--map "<filename.jar>=<projectID>:<fileID>"` command required. It **never** silently omits an active `.jar` and **never** exports a stale `fileID`.
+   - **Automatic Client-Only Detection**: If a newly added mod has `side = "client"` in `.pw.toml` or `clientSideOnly = true` in `META-INF/neoforge.mods.toml`, the engine automatically marks `client_side_only: true` and appends its filename to `minecraft/server_pack_excluded_mods.txt`.
+   - **Automatic Pruning of Deleted/Disabled Mods**: Any mod removed or disabled from `minecraft/mods/` is automatically omitted from `manifest.json` and `modlist.html` and reported under `[REMOVED / DISABLED MODS PRUNED]`.
+   - **Strict Mathematical Invariant**: Asserts `len(manifest["files"]) == len(active_jars_on_disk)` and zero duplicate `projectID`s.
+3. **Version-Agnostic `modId` Exclusion Auto-Healing (`sync_to_lite.py` & `build_server_pack.py`)**:
+   - Both `peak_lite_excluded_components.txt` and `server_pack_excluded_mods.txt` are cross-referenced against declared `mod_ids` in `curseforge_mod_registry.json` and `META-INF/neoforge.mods.toml`.
+   - When a client-only or Lite-excluded mod is updated to a new `.jar` filename, `sync_to_lite.py` and `build_server_pack.py` automatically detect its `mod_id`, exclude the new `.jar`, and append the updated filename to the exclusion list so updated client mods never slip into `PEAK Lite` or `PEAK Server Pack`.
+4. **Automated Bytecode Network Channel Parity Verification**:
+   - Scans `.class` files inside every `.jar` for `net/neoforged/neoforge/network/registration/PayloadRegistrar` registrations lacking `.optional()`.
+   - Before packaging `PEAK Lite` or `PEAK Server Pack`, verifies that **zero** excluded mods have `has_mandatory_network_channels == True`, preventing `ModMismatchDisconnectedScreen` multiplayer disconnects.
+
+### Canonical CLI Commands
+- **Pre-Flight Audit (Dry-Run across Dev, Lite, and Server without writing ZIPs):**
+  ```powershell
+  python scrapped_tools/export_packs.py --audit --version <version>
+  ```
+- **Build PEAK (Dev) + PEAK Lite Exports:**
+  ```powershell
+  python scrapped_tools/export_packs.py --version <version> --lite
+  ```
+- **Build All Three Editions (PEAK + PEAK Lite + PEAK Server Pack):**
+  ```powershell
+  python scrapped_tools/export_packs.py --version <version> --all
+  ```
+- **Map a New or Updated Modrinth/Manual JAR to CurseForge:**
+  ```powershell
+  python scrapped_tools/export_packs.py --audit --map "new_mod_file.jar=123456:7890123"
+  ```
+
 
 
 

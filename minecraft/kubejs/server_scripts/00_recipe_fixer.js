@@ -22,5 +22,10 @@ ServerEvents.recipes(event => {
     // Global raw JSON recipe iteration is restricted in NeoForge 1.21.1 to prevent recipe registry desynchronization.
     // Scripted corrections target specific problematic recipes declared in script space.
     
+    // Purge JEED effect provider recipes to prevent network serialization crash during recipe sync
+    event.remove({ mod: 'jeed' });
+    event.remove({ type: 'jeed:effect_provider' });
+    event.remove({ type: 'jeed:potion_provider' });
+
     console.info(`[PEAK Sanitizer] Recipe loading in progress...`);
 });

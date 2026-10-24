@@ -6,6 +6,13 @@ import time
 import filecmp
 import argparse
 import fnmatch
+import zipfile
+import re
+
+try:
+    import tomllib
+except ImportError:
+    tomllib = None
 
 sys.stdout.reconfigure(line_buffering=True)
 
@@ -17,6 +24,7 @@ BASE_LITE = os.path.abspath(os.path.join(BASE_DEV, "..", "PEAK-Lite"))
 DEV_MC = os.path.join(BASE_DEV, "minecraft")
 LITE_MC = os.path.join(BASE_LITE, "minecraft")
 EXCLUSIONS_FILE = os.path.join(DEV_MC, "peak_lite_excluded_components.txt")
+REGISTRY_FILE = os.path.join(BASE_DEV, "scrapped_tools", "curseforge_mod_registry.json")
 REPORT_FILE = os.path.join(BASE_DEV, "scrapped_tools", "last_sync_report.json")
 
 # -----------------------------------------------------------------------------
@@ -114,14 +122,94 @@ def assert_safe_target_path(dst_path):
         if part in PROTECTED_PATHS:
             raise RuntimeError(f"FATAL SAFETY VIOLATION: Refusing to modify protected component: {rel}")
 
-def load_exclusions():
+def extract_jar_mod_ids(jar_path):
+    """Extracts declared [[mods]] modId entries from META-INF/neoforge.mods.toml."""
+    mod_ids = []
+    try:
+        with zipfile.ZipFile(jar_path, "r") as zf:
+            for candidate in ["META-INF/neoforge.mods.toml", "META-INF/mods.toml"]:
+                if candidate in zf.namelist():
+                    toml_text = zf.read(candidate).decode("utf-8", errors="replace")
+                    if tomllib is not None:
+                        try:
+                            data = tomllib.loads(toml_text)
+                            for m in data.get("mods", []):
+                                mid = m.get("modId")
+                                if mid and mid not in mod_ids:
+                                    mod_ids.append(mid)
+                            if mod_ids:
+                                return mod_ids
+                        except Exception:
+                            pass
+                    current_section = ""
+                    for line in toml_text.splitlines():
+                        s = line.strip()
+                        if s.startswith("["):
+                            current_section = s.lower()
+                            continue
+                        if current_section == "[[mods]]":
+                            m_id = re.match(r'^modId\s*=\s*["\']([^"\']+)["\']', s)
+                            if m_id and m_id.group(1) not in mod_ids:
+                                mod_ids.append(m_id.group(1))
+    except Exception:
+        pass
+    return mod_ids
+
+def load_exclusions(dry_run=False):
     exclusions = set()
+    raw_lines = []
     if os.path.exists(EXCLUSIONS_FILE):
         with open(EXCLUSIONS_FILE, "r", encoding="utf-8") as f:
-            for line in f:
-                line = line.strip()
-                if line and not line.startswith("#"):
-                    exclusions.add(line.lower())
+            raw_lines = f.readlines()
+            for line in raw_lines:
+                s = line.strip()
+                if s and not s.startswith("#"):
+                    exclusions.add(s.lower())
+
+    # Version-agnostic modId / registry exclusion resolution & auto-healing
+    if os.path.exists(REGISTRY_FILE):
+        try:
+            with open(REGISTRY_FILE, "r", encoding="utf-8") as f:
+                registry = json.load(f)
+        except Exception:
+            registry = {}
+
+        excluded_mod_ids = set()
+        for fn, meta in registry.items():
+            if meta.get("lite_excluded") or is_excluded(fn, exclusions):
+                for mid in meta.get("mod_ids", []):
+                    excluded_mod_ids.add(mid)
+
+        dev_mods_dir = os.path.join(DEV_MC, "mods")
+        auto_healed = []
+        if os.path.isdir(dev_mods_dir):
+            for fn in sorted(os.listdir(dev_mods_dir)):
+                if not fn.endswith(".jar"):
+                    continue
+                if is_excluded(fn, exclusions):
+                    continue
+                jar_path = os.path.join(dev_mods_dir, fn)
+                if not os.path.isfile(jar_path):
+                    continue
+                mids = registry.get(fn, {}).get("mod_ids") or extract_jar_mod_ids(jar_path)
+                if any(mid in excluded_mod_ids for mid in mids):
+                    exclusions.add(fn.lower())
+                    auto_healed.append((fn, mids))
+
+        if auto_healed:
+            print("   [AUTO-HEALED LITE EXCLUSIONS] Detected updated version(s) of Lite-excluded mods:")
+            for fn, mids in auto_healed:
+                print(f"      + Excluded updated JAR: {fn} (mod_ids: {mids})")
+            if not dry_run and raw_lines:
+                with open(EXCLUSIONS_FILE, "a", encoding="utf-8") as f:
+                    for fn, _ in auto_healed:
+                        f.write(f"\n{fn}")
+
+        # Verify no excluded mod has mandatory non-optional network channels
+        for fn, meta in registry.items():
+            if is_excluded(fn, exclusions) and meta.get("has_mandatory_network_channels"):
+                print(f"   [CRITICAL NETWORK PARITY WARNING] Lite-excluded mod '{fn}' ({meta.get('name')}) registers non-optional network channels! Excluding it from Lite will prevent Lite clients from joining PEAK servers!")
+
     return exclusions
 
 def is_excluded(filename, exclude_set):
@@ -412,7 +500,7 @@ def run_sync(dry_run=False):
     validate_safety_invariants()
     print("Safety Invariants: Verified (Distinct instances, valid source mod count, protected paths locked).\n")
 
-    exclusions = load_exclusions()
+    exclusions = load_exclusions(dry_run=dry_run)
     print(f"Loaded {len(exclusions)} exclusion entries from peak_lite_excluded_components.txt\n")
 
     summary = {
