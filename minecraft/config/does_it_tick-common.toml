@@ -34,6 +34,12 @@
 	#If you don't want to let a specific item entity in the world to be effected by the optimization, you can write its registry name down here.
 	#Require 'OptimizeItemMovement' to be true
 	ItemWhiteList = [
+		"ae2:certus_quartz_crystal",
+		"ae2:charged_certus_quartz_crystal",
+		"ae2:fluix_crystal",
+		"ae2:fluix_dust",
+		"minecraft:quartz",
+		"minecraft:redstone",
 		"kubejs:abyssal_catalyst",
 		"kubejs:anomaly_replicator",
 		"kubejs:beebook",
