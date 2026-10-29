@@ -1,0 +1,15 @@
+["General Settings"]
+	#Apply armor effects
+	applyArmorEffects = true
+	#Apply attribute modifiers
+	applyModifiers = true
+	#Show effect particles
+	showParticles = false
+	#The minimum duration of the existing effect, after which it will be given again
+	# Default: 241
+	# Range: > 1
+	effectsInterval = 241
+	#Show effect icon or not
+	showEffectIcon = true
+	#Enable durability on Fantasy Armor pieces. When false, armor is indestructible. Requires world restart.
+	enableDurability = false

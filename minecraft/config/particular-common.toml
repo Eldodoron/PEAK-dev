@@ -33,6 +33,8 @@
 		emissiveLavaDrips = true
 		#Enable lava splash particles when entities hit lava
 		lavaSplash = true
+		#Enable water splash and wake particles for Sable sub-levels (ships, boats, vehicles)
+		sableSplashes = true
 
 	#Advanced Particle Settings
 	[general.advancedSettings]

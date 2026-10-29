@@ -101,6 +101,26 @@ ServerEvents.tags('item', event => {
     event.remove('minecraft:enchantable/fire_aspect', [
         'block_factorys_bosses:ice_gauntlet'
     ]);
+
+    // Create Blaze Burner Superheating Fuel
+    event.add('create:blaze_burner_fuel/special', 'allthemodium:soul_lava_bucket');
+
+    // AllTheModium Alloy Unifications
+    event.add('c:ingots/allthemodium_alloys', [
+        'allthemodium:unobtainium_allthemodium_alloy_ingot',
+        'allthemodium:unobtainium_vibranium_alloy_ingot',
+        'allthemodium:vibranium_allthemodium_alloy_ingot'
+    ]);
+    event.add('c:storage_blocks/allthemodium_alloys', [
+        'allthemodium:unobtainium_allthemodium_alloy_block',
+        'allthemodium:unobtainium_vibranium_alloy_block',
+        'allthemodium:vibranium_allthemodium_alloy_block'
+    ]);
+    event.add('c:dusts/allthemodium_alloys', [
+        'allthemodium:unobtainium_allthemodium_alloy_dust',
+        'allthemodium:unobtainium_vibranium_alloy_dust',
+        'allthemodium:vibranium_allthemodium_alloy_dust'
+    ]);
 });
 
 // Boss entity tag unifications for Boss Rifts and common compat
@@ -123,6 +143,10 @@ ServerEvents.tags('entity_type', event => {
         // L_Ender's Cataclysm
         'cataclysm:ancient_remnant',
         'cataclysm:ender_guardian',
+        'cataclysm:ender_golem',
+        'cataclysm:coralssus',
+        'cataclysm:aptrgangr',
+        'cataclysm:ignited_revenant',
         'cataclysm:ignis',
         'cataclysm:the_leviathan',
         'cataclysm:netherite_monstrosity',
@@ -138,15 +162,20 @@ ServerEvents.tags('entity_type', event => {
         'remnant_bosses:armored_grub',
         'remnant_bosses:bone_tyrant',
         'remnant_bosses:remnant_ossukage',
-        // Ice & Fire
+        // Ice and Fire
         'iceandfire:fire_dragon',
         'iceandfire:ice_dragon',
         'iceandfire:lightning_dragon',
         'iceandfire:cyclops',
         'iceandfire:gorgon',
         'iceandfire:hydra',
-        // Alex's Mobs / Caves
+        'iceandfire:dread_lich',
+        // Alex's Mobs and Caves
         'alexsmobs:void_worm',
+        'alexscaves:luxtructosaurus',
+        'alexscaves:tremorzilla',
+        'alexscaves:forsaken',
+        'alexscaves:hullbreaker',
         // Block Factory's Bosses
         'block_factorys_bosses:infernal_dragon',
         'block_factorys_bosses:yeti',
@@ -157,8 +186,11 @@ ServerEvents.tags('entity_type', event => {
         'ars_nouveau:wilden_boss',
         'irons_spellbooks:dead_king',
         'irons_spellbooks:fire_boss',
-        // Undergarden
-        'undergarden:forgotten_guardian'
+        // Undergarden and Other Modded Bosses
+        'undergarden:forgotten_guardian',
+        'friendsandfoes:wildfire',
+        'draconicevolution:draconic_guardian',
+        'unusualend:enderblob_queen'
     ];
 
     event.add('c:bosses', PEAK_BOSSES);

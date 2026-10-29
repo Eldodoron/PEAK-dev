@@ -16,3 +16,21 @@
 	# Default: 0.3499999940395355
 	# Range: 0.0 ~ 3.4028234663852886E38
 	physics_staff_rotate_sensitivity = 0.3499999940395355
+	#.
+	#If ponders that have new additions should display the "(New!)" text
+	show_new_ponders = true
+
+#.
+#Settings of Simulated Blocks
+[block]
+	#.
+	#.
+	#Offsets the Steering Wheel GUI on the X axis.
+	# Default: 0
+	# Range: -1000 ~ 1000
+	steering_wheel_x_offset = 0
+	#.
+	#Offsets the Steering Wheel GUI on the Y axis.
+	# Default: 0
+	# Range: -1000 ~ 1000
+	steering_wheel_y_offset = 0

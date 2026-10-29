@@ -1,9 +1,9 @@
 [progression]
-	#Base XP needed at level 1.
+	#Base Level Points needed at level 1. The key keeps its legacy XP name for compatibility.
 	# Default: 100
 	# Range: > 1
 	baseXpPerLevel = 100
-	#Linear XP scaling term applied each level.
+	#Linear Level Point scaling term applied each level. The key keeps its legacy XP name for compatibility.
 	# Default: 20
 	# Range: > 0
 	linearXpPerLevel = 20
@@ -11,22 +11,37 @@
 	# Default: 1.35
 	# Range: 1.0 ~ 5.0
 	exponent = 1.35
-	#Global multiplier applied to level XP costs. Default 0.75 lowers scaling by 25%.
+	#Global multiplier applied to Level Point costs. Default 0.75 lowers scaling by 25%.
 	# Default: 0.75
 	# Range: 0.01 ~ 100.0
 	levelMultiplier = 0.75
 	#Hard level cap for this framework.
-	# Default: 500
+	# Default: 100
 	# Range: > 1
 	maxLevel = 500
 
 [sources]
-	#LevelUP XP dropped when an eligible mob is killed by a player. Set to 0 to disable all mob LevelUP XP drops.
+	#When true, hostile enemy mobs can drop LevelUP point orbs on player kills.
+	#When false, generic mob level drops are disabled.
+	mobs_drop_levels = true
+	#When true, only entity types in the `levelup:drops_levels` entity type tag (legacy `levelup:drop_levels` also accepted) drop LevelUP level orbs.
+	#This overrides the generic hostile mob mode.
+	#If both `mobs_drop_levels` and `only_tagged_mobs_drop_levels` are false, mobs never drop levels.
+	only_tagged_mobs_drop_levels = false
+	#Base LevelUP orb value used for eligible mob drops.
+	#Actual drop amount is `base_value * max_health / 20`, rounded down with a minimum of 1.
 	# Default: 8
 	# Range: > 0
-	mobKillXp = 8
-	#When true, only entity types in the `levelup:drops_levels` entity type tag (legacy `levelup:drop_levels` also accepted) drop LevelUP XP.
-	#When false, all hostile mobs drop LevelUP XP.
-	drop_levels_only_from_mobs_with_tag = false
-	#When false, mob kills will never drop LevelUP XP.
-	enable_mob_kill_xp = true
+	mob_level_drop_base_value = 8
+	#Convert positive vanilla experience gains into Level Points at a one-to-one rate.
+	#Converted experience is not added to the vanilla experience bar.
+	#When enabled, LevelUP's automatic custom mob point-orb drops are disabled.
+	accept_experience_as_levels = false
+	#Entity type IDs explicitly allowed to drop Level Point Orbs, for example `minecraft:zombie`.
+	#When non-empty, matching mobs can drop regardless of hostile/tag settings. The blacklist always takes priority.
+	mob_level_drop_whitelist = []
+	#Entity type IDs that must never drop Level Point Orbs, for example `minecraft:creeper`.
+	#This list takes priority over the whitelist and other mob drop settings.
+	mob_level_drop_blacklist = []
+	#Show each player's LevelUP level in the multiplayer tab player list.
+	show_level_in_tab_list = true

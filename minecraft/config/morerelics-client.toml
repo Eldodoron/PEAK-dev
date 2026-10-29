@@ -10,3 +10,31 @@
 ["Wonder of U"]
 	#The black and white + outline effect of nullification.
 	nullificationVisualEffect = true
+
+[General]
+	#Renders some special effects from relics as icons above the food bar. This does not include SwiftEdge and RunicPlate icons.
+	specialEffectIcons = true
+
+[Swiftedge]
+	#Renders sword icons above the food bar to show current stacks.
+	swiftedgeStackIcons = true
+
+["Runic Plate"]
+	#Renders shield icons above the food bar to show current stacks.
+	runicPlateStackIcons = true
+
+["Guts Orb"]
+	#Renders a little icon to show ability status above the food bar when enabled.
+	gutsOrbIcon = true
+
+["Opal Necklace"]
+	#Renders a little icon to show ability status above the food bar when enabled.
+	opalNecklaceIcon = true
+
+["Made in Heaven"]
+	#Renders a little icon to show ability status above the food bar when enabled.
+	heavenIcon = true
+
+[Moodworm]
+	#Renders a little icon to show ability status above the food bar when enabled.
+	moodwormIcon = true

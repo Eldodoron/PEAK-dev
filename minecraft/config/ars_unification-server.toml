@@ -65,6 +65,18 @@ exceptions = []
 			# Range: > -1
 			priority = 20
 
+		[crush.oritech.pulverizer]
+			#Priority of Oritech's Pulverizer recipes, -1 to disable
+			# Default: 105
+			# Range: > -1
+			priority = 105
+
+		[crush.oritech.fragment_forge]
+			#Priority of Oritech's Fragment Forge recipes, -1 to disable
+			# Default: -1
+			# Range: > -1
+			priority = -1
+
 		[cut.mekanism.sawmill]
 			#Priority of Mekanism's Sawmill recipes, -1 to disable
 			# Default: 100

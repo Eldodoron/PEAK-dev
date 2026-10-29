@@ -135,22 +135,24 @@
 	no_optifine_warn_screen = false
 	#Disable incompatible mods warning screen
 	no_incompatible_mods_screen = false
-	#Enable Quark style config button on main menu. Needs Configured installed to work
-	config_button = false
-	#Config button Y offset
-	# Default: 0
-	# Range: -10000 ~ 10000
-	config_button_y_offset = 0
 	#Show some tooltip hints to guide players through the mod
 	tooltip_hints = true
 	#Show tooltips items that have been made placeable
 	placeable_tooltips = true
-	#Enables custom Configured config screen
-	custom_configured_screen = true
 	#unfunny
 	"I am very boring and I don't want any Easter Egg" = false
 	#Enable Supplementaries to base textures off external Resource Packs rather than mod's default textures. 
 	use_external_resource_pack = false
+	#Enable Quark style config button on main menu
+	configs_button = true
+	#Make the config button open Moonlight's mod list, where every installed mod's config can be reached, instead of going straight to Supplementaries' own config
+	configs_button_opens_mod_list = true
+	#Config button Y offset
+	# Default: 0
+	# Range: -10000 ~ 10000
+	configs_button_y_offset = 0
+	#Outline the config button with a rainbow when hovered
+	configs_button_rainbow_outline = true
 
 [tweaks]
 	#Adds an overlay to projectile weapons in gui displaying currently selected ammo

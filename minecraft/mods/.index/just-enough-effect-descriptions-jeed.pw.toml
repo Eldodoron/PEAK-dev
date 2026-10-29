@@ -1,28 +1,20 @@
-filename = 'jeed-1.21-2.3.4-neoforge.jar'
-name = 'Just Enough Effect Descriptions (JEED)'
+filename = 'jeed-1.21-2.3.5-neoforge.jar'
+name = 'Just Enough Effects Descriptions'
 side = 'server'
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'jeed-1.21-2.3.4-neoforge'
+x-prismlauncher-version-number = 'jeed-1.21-2.3.5-neoforge'
 
 [download]
-hash = '48e3480220811b68a9c8e1bd2d3d0bad82f444ba'
+hash = '4eadb48f3f19f0a42226b9617cdbb27e84543fcc'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 8906178
+file-id = 9079612
 project-id = 532286
-
-[[x-prismlauncher-dependencies]]
-addonId = '238222'
-type = 'OPTIONAL'
-
-[[x-prismlauncher-dependencies]]
-addonId = '310111'
-type = 'OPTIONAL'
 
 [[x-prismlauncher-dependencies]]
 addonId = '543661'
@@ -30,4 +22,12 @@ type = 'OPTIONAL'
 
 [[x-prismlauncher-dependencies]]
 addonId = '580555'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '238222'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '310111'
 type = 'OPTIONAL'

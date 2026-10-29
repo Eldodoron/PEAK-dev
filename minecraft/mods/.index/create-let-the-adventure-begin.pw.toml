@@ -1,18 +1,21 @@
-filename = 'create_ltab-4.0.3.jar'
-name = 'Create Let The Adventure Begin'
+filename = 'create_ltab-4.1.0.jar'
+name = 'Create: Let The Adventure Begin'
 side = ''
-x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge', 'forge', 'quilt', 'fabric' ]
 x-prismlauncher-mc-versions = [ '1.20.1', '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '4.0.3'
+x-prismlauncher-version-number = 'Let The Adventure Begin 4.1.0'
 
 [download]
-hash = '8b12aeb65dbd12e2e552034155e793347e478f5b064989ce79fb0635801ad58e23243ae392dd03cefe2c7035b5e36ba26dc3cfe193f3967a35e6da6fac48fa52'
-hash-format = 'sha512'
-mode = 'url'
-url = 'https://cdn.modrinth.com/data/fUa6OtBG/versions/hQILBaAG/create_ltab-4.0.3.jar'
+hash = 'c5725961ba8585693a84cf06becb21e8f4b13f11'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
 
-[update.modrinth]
-mod-id = 'fUa6OtBG'
-version = 'hQILBaAG'
+[update.curseforge]
+file-id = 8608393
+project-id = 1007872
+
+[[x-prismlauncher-dependencies]]
+addonId = '1288595'
+type = 'OPTIONAL'

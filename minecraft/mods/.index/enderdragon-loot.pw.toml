@@ -1,18 +1,18 @@
-filename = 'dragonloot-1.1.15-1.21.1-neoforge.jar'
-name = 'Enderdragon Loot'
+filename = 'dragonloot-1.1.16-1.21.1-neoforge.jar'
+name = 'DragonLoot'
 side = 'server'
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'dragonloot-1.1.15-1.21.1-neoforge.jar'
+x-prismlauncher-version-number = 'dragonloot-1.1.16-1.21.1-neoforge.jar'
 
 [download]
-hash = '3d52e560b0c8bc3e88aed3e7c89ad00a936859b1'
+hash = '017cd9ffa0db77da2435622f6a71a80f00bd7057'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 7611990
+file-id = 9084497
 project-id = 1421597

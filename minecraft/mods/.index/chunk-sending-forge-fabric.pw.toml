@@ -1,19 +1,19 @@
-filename = 'chunksending-1.21-3.9.jar'
-name = 'Chunk Sending'
+filename = 'chunksending-1.21-4.1.jar'
+name = 'chunksending mod'
 side = 'server'
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'chunksending-1.21-3.9.jar'
+x-prismlauncher-version-number = 'chunksending-1.21-4.1.jar'
 
 [download]
-hash = '31706585eb19ef540d09fe23631f12489da004c5'
+hash = 'bb408feaf8f1e7b9f375475f87a4d96fe781af71'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 8752593
+file-id = 9051336
 project-id = 831663
 
 [[x-prismlauncher-dependencies]]

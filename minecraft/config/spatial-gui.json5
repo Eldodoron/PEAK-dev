@@ -43,11 +43,15 @@
 		"cc.cassian.rrv.common.recipe.inventory.RecipeViewScreen"
 	],
 	disabledScreens: [
+		"mezz.jei.gui.recipes.RecipesGui",
+		"dev.shadowsoffire.apothic_enchanting.table.RavenEnchantmentScreen",
 		"net.minecraft.client.gui.screens.inventory.CreativeModeInventoryScreen"
 	],
 	seenScreens: [
+		"net.minecraft.client.gui.screens.PauseScreen",
 		"net.minecraft.client.gui.screens.inventory.InventoryScreen",
-		"top.theillusivec4.curios.client.gui.CuriosScreen"
+		"net.minecraft.client.gui.screens.inventory.CreativeModeInventoryScreen",
+		"mezz.jei.gui.recipes.RecipesGui"
 	],
 	disableFirstPerson: false,
 	disableThirdPerson: false,
@@ -74,6 +78,8 @@
 	screenYawOffset: 180.0,
 	screenPitchOffset: 0.0,
 	screenScale: 3.5,
+	elytraFlyingSideOffset: -0.5,
+	elytraFlyingHeightOffset: -0.4,
 	cameraDistance: 2.0,
 	cameraSideOffset: -1.5,
 	cameraHeightOffset: 1.5,

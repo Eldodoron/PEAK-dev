@@ -1,18 +1,21 @@
-filename = 'dragonfight-1.21-4.7.jar'
-name = 'Savage Ender Dragon[Forge/Fabric]'
+filename = 'dragonfight-1.21-5.0.jar'
+name = 'dragonfight mod'
 side = 'server'
-x-prismlauncher-dependencies = []
-x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'dragonfight-1.21-4.7.jar'
+x-prismlauncher-version-number = 'dragonfight-1.21-5.0.jar'
 
 [download]
-hash = '9c4b7d0b3568c9cf27668264f0a4d62cd0e002f2'
+hash = '2c04a31ca158ef191f3bd5d9ef5d67b315c4d3be'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 6828602
+file-id = 9003375
 project-id = 523327
+
+[[x-prismlauncher-dependencies]]
+addonId = '326652'
+type = 'REQUIRED'

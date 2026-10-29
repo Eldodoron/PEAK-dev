@@ -15,3 +15,7 @@ sub_level_renderer = "SODIUM_REACHAROUND"
 # Default: 0.2
 # Range: 0.0 ~ 100.0
 sub_level_zoom_sensitivity = 0.2
+#Whether to draw loaded chunks on the client in the chunk debug renderer
+debug_draw_loaded_chunks = false
+#If Sable should attempt to establish a UDP connection with the server, to receive sub-level movement data over a UDP channel
+attempt_udp_networking = true

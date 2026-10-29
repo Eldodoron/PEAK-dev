@@ -1,3 +1,11 @@
+#Schema version of this config file. 0 means the file was written before 3.3.0,
+#when this key did not exist; a freshly generated file is stamped with the
+#current version instead. Keys added in a later release read this to decide
+#whether to preserve the old behaviour or adopt the new default.
+# Default: 0
+# Range: > 0
+config_schema_version = 3
+
 ["Master Toggles"]
 	#Master control switches for major systems.
 	#Disabling a master toggle will disable all related features.
@@ -7,9 +15,12 @@
 	#  hybrid - Both systems share a unified mana pool
 	#  separate - Separate pools with dual-cost mechanics
 	#  disabled - No mana integration at all
-	#NOTE: Changing this value requires a game restart to take effect.
+	#Runtime changes are applied on the server thread and synchronized to connected clients.
 	mana_unification_mode = "ars_primary"
-	#Master toggle for all mana unification features
+	#Master toggle for all mana unification features.
+	#NOTE: when false, mana_unification_mode is forced to DISABLED regardless
+	#of its configured value. Prefer mana_unification_mode = "disabled" for
+	#the canonical 'off' state — this boolean is the master kill-switch.
 	enable_mana_unification = true
 	#Master toggle for the Resonance system (full mana bonuses)
 	enable_resonance_system = true
@@ -33,22 +44,11 @@
 	# Default: 1.0
 	# Range: 0.01 ~ 10.0
 	conversion_rate_iron_to_ars = 1.0
-	#How often hybrid pools sync (in ticks, 20 = 1 second)
-	# Default: 1.0
-	# Range: 0.1 ~ 10.0
-	hybrid_sync_rate = 1.0
 	#Which mana bar to display in HYBRID mode:
 	#  irons - Show Iron's Spellbooks mana bar
 	#  ars - Show Ars Nouveau mana bar
 	#Only applies when mana_unification_mode is set to 'hybrid'
 	hybrid_mana_bar = "irons"
-	#Hide the Ars Nouveau and Iron's Spellbooks mana bars while wearing the
-	#Ring of the Seven Curses (LP) or Ring of the Seven Virtues (Aura).
-	#Spells consume LP/Aura instead of mana when these rings are equipped,
-	#so displaying a mana bar is misleading.
-	hide_mana_bar_with_ring = true
-	#Allow mana to overflow max capacity during conversion
-	allow_mana_overflow = false
 	#Percentage of Ars mana cost in SEPARATE mode (0.5 = 50%)
 	# Default: 0.5
 	# Range: 0.0 ~ 1.0
@@ -90,74 +90,6 @@
 	# Range: 1.0 ~ 100000.0
 	cross_system_regen_reference_pool = 100.0
 
-["Ars Glyph Bonuses"]
-	#Bonuses applied by Ars Nouveau augment glyphs
-	#Damage multiplier per Amplify glyph
-	# Default: 0.2
-	# Range: 0.0 ~ 10.0
-	amplify_damage_bonus = 0.2
-	#Duration multiplier per Extend Time glyph
-	# Default: 1.5
-	# Range: 0.0 ~ 10.0
-	extend_time_duration_bonus = 1.5
-	#Additional projectiles per Split glyph
-	# Default: 1
-	# Range: 0 ~ 10
-	split_projectile_count = 1
-	#Armor penetration per Pierce glyph
-	# Default: 0.1
-	# Range: 0.0 ~ 1.0
-	pierce_armor_penetration = 0.1
-	#Critical damage multiplier per Sensitive glyph
-	# Default: 0.25
-	# Range: 0.0 ~ 10.0
-	sensitive_crit_bonus = 0.25
-
-["Iron's School Bonuses"]
-	#Bonuses from Iron's Spellbooks school levels
-	#Enable school level bonuses for Ars spells
-	enable_school_bonuses = true
-	#Global multiplier for all school bonuses
-	# Default: 1.0
-	# Range: 0.0 ~ 10.0
-	school_bonus_multiplier = 1.0
-	#Fire damage bonus per school level
-	# Default: 0.02
-	# Range: 0.0 ~ 1.0
-	fire_school_damage = 0.02
-	#Ice effect duration bonus per school level
-	# Default: 0.02
-	# Range: 0.0 ~ 1.0
-	ice_school_duration = 0.02
-	#Lightning chain chance bonus per school level
-	# Default: 0.02
-	# Range: 0.0 ~ 1.0
-	lightning_school_chain = 0.02
-	#Evocation projectile speed bonus per school level
-	# Default: 0.02
-	# Range: 0.0 ~ 1.0
-	evocation_school_speed = 0.02
-	#Holy healing bonus per school level
-	# Default: 0.02
-	# Range: 0.0 ~ 1.0
-	holy_school_healing = 0.02
-	#Ender teleport range bonus per school level
-	# Default: 0.02
-	# Range: 0.0 ~ 1.0
-	ender_school_range = 0.02
-	#Blood lifesteal bonus per school level
-	# Default: 0.02
-	# Range: 0.0 ~ 1.0
-	blood_school_lifesteal = 0.02
-	#Nature growth effect bonus per school level
-	# Default: 0.02
-	# Range: 0.0 ~ 1.0
-	nature_school_growth = 0.02
-	#Eldritch debuff strength bonus per school level
-	# Default: 0.02
-	# Range: 0.0 ~ 1.0
-	eldritch_school_debuff = 0.02
-
 ["Resonance System"]
 	#Resonance grants bonuses when mana is at maximum.
 	#Requires ENABLE_RESONANCE_SYSTEM master toggle.
@@ -169,11 +101,22 @@
 	# Default: 1.0
 	# Range: 0.0 ~ 10.0
 	resonance_strength = 1.0
-	#Mana percentage required to trigger resonance (0.95 = 95%)
+	#Mana fraction at or above which resonance applies (0.95 = 95% full).
+	#The bonus itself still scales with how full the pool is; this only
+	#gates whether it applies at all.
+	#Set 0.0 to leave the gate open.
+	#Existing saved values are preserved.
 	# Default: 0.95
 	# Range: 0.0 ~ 1.0
 	resonance_threshold = 0.95
-	#How long resonance lasts after dropping below threshold (ticks)
+	#How long resonance keeps applying after the pool drops below
+	#resonance_threshold, in ticks (20 = 1 second).
+	#This is what makes a raised threshold playable: spending mana to cast
+	#necessarily drops you below it, so without a linger the bonus would
+	#switch off on the very cast that earned it.
+	#Has no effect while resonance_threshold is 0.
+	#Resolution is the recompute interval (40 ticks), so the effective
+	#linger is this value give or take one interval.
 	# Default: 100
 	# Range: 0 ~ 1200
 	resonance_duration = 100
@@ -181,30 +124,12 @@
 	# Default: 5.0
 	# Range: 1.0 ~ 100.0
 	max_damage_multiplier = 5.0
-	#Maximum duration multiplier from resonance
-	# Default: 5.0
-	# Range: 1.0 ~ 100.0
-	max_duration_multiplier = 5.0
-	#Maximum projectile split from resonance
-	# Default: 5.0
-	# Range: 1.0 ~ 100.0
-	max_projectile_split = 5.0
-	#Maximum chain chance from resonance (1.0 = 100%)
-	# Default: 1.0
-	# Range: 0.0 ~ 1.0
-	max_chain_chance = 1.0
-	#Maximum area of effect multiplier from resonance
-	# Default: 5.0
-	# Range: 1.0 ~ 100.0
-	max_area_multiplier = 5.0
 
 ["Cooldown System"]
 	#Unified cooldown system prevents spell spam across mods.
 	#Requires ENABLE_COOLDOWN_SYSTEM master toggle.
 	#Enable cross-mod cooldown sharing
 	enable_unified_cooldowns = false
-	#Enable category-based cooldowns (offensive, defensive, etc.)
-	enable_category_cooldowns = false
 	#CRITICAL: Enable cross-mod cooldown interference (false = each mod has independent cooldowns)
 	enable_cross_mod_cooldowns = false
 	#Base category cooldown duration (ticks, 20 = 1 second)
@@ -215,23 +140,36 @@
 	# Default: 0.5
 	# Range: 0.0 ~ 10.0
 	cross_mod_cooldown_multiplier = 0.5
-	#Maximum cooldown reduction from all sources (0.8 = 80% max reduction)
-	# Default: 0.8
-	# Range: 0.0 ~ 1.0
-	cooldown_reduction_cap = 0.8
 
 ["Progression System"]
 	#Cross-mod progression allows spell usage to grant XP in both systems.
 	#Requires ENABLE_PROGRESSION_SYSTEM master toggle.
 	#Allow Ars spells to grant ISS XP and vice versa
 	enable_cross_mod_progression = true
+	#Attribute bonus gained per cast in a school (audit F4 — was hardcoded 0.001).
+	#0.001 = +0.1% per cast. The bonus is transient (derived from the persistent
+	#cast count), so changing this immediately rescales every player's bonus.
+	# Default: 0.001
+	# Range: 0.0 ~ 0.1
+	progression_bonus_per_cast = 0.001
+	#Cap on the per-school progression attribute bonus (audit F4 — was hardcoded 0.25).
+	#0.25 = +25% maximum, reached after bonus_cap / bonus_per_cast casts
+	#(250 casts at defaults).
+	# Default: 0.25
+	# Range: 0.0 ~ 2.0
+	progression_bonus_cap = 0.25
 
 ["Affinity System"]
 	#Affinity system tracks spell school preferences and grants bonuses.
 	#Requires ENABLE_AFFINITY_SYSTEM master toggle.
-	#Enable affinity decay when not using a school. Default off for fresh installs (1.9.0).
+	#Enable affinity decay when not casting matching-school spells.
+	#Default changed to false in 1.9.0 — the previous true default was a no-op
+	#(decay was never implemented), so flipping it on by default would surprise
+	#existing players. Existing config files retain their previous value.
 	enable_affinity_decay = false
-	#Rate of affinity decay per day (in-game)
+	#Fraction of current affinity to lose per Minecraft day (24000 ticks).
+	#0.01 = lose 1% of each school's affinity per in-game day; with the default
+	#interval (1200 ticks = 60s), each tick window decays roughly 0.05% of current.
 	# Default: 0.01
 	# Range: 0.0 ~ 1.0
 	affinity_decay_rate = 0.01
@@ -243,7 +181,7 @@
 ["Curio Discount System"]
 	#Mana cost discounts from Covenant of the Seven curios.
 	#Ring of Virtue and Blasphemy curios can reduce Ars Nouveau spell costs.
-	#Enable mana cost discounts from Ring of Virtue and Blasphemy curios
+	#Enable mana cost discounts from curios tagged #ars_n_spells:curio_spell_discount.
 	enable_curio_discounts = true
 	#Per-curio mana cost discount for items in #ars_n_spells:curio_spell_discount
 	#(0.20 = each tagged curio multiplies cost by 0.80). Applies to both Ars and
@@ -257,145 +195,23 @@
 	# Default: 0.5
 	# Range: 0.0 ~ 1.0
 	max_total_curio_discount = 0.5
-	#Base mana cost discount from Blasphemy curios (0.15 = 15% reduction)
-	# Default: 0.15
-	# Range: 0.0 ~ 1.0
-	blasphemy_discount = 0.15
-	#Additional discount when Blasphemy school matches spell school (0.10 = 10% extra)
-	# Default: 0.1
-	# Range: 0.0 ~ 1.0
-	blasphemy_matching_school_bonus = 0.1
-	#Allow Ring of Virtue and Blasphemy discounts to stack multiplicatively
-	allow_discount_stacking = true
-
-["Cursed Ring LP System"]
-	#Controls behavior when casting spells with insufficient LP (Cursed Ring).
-	#Applies to both Ars Nouveau and Iron's Spellbooks spells.
-	#Master toggle for the Cursed Ring LP system.
-	#When disabled, spells use normal mana even with Cursed Ring equipped.
-	enable_lp_system = true
-	#Where to consume LP from when wearing the Cursed Ring:
-	#  BLOOD_MAGIC_PRIORITY - Use Blood Magic if available, fall back to health (DEFAULT)
-	#  BLOOD_MAGIC_ONLY - Only use Blood Magic Soul Network (fails if Blood Magic not installed)
-	#  HEALTH_ONLY - Always use player health (100 LP = 10 health = 5 hearts)
-	lp_source_mode = "BLOOD_MAGIC_PRIORITY"
-	#If enabled: Spell casts but player dies when LP is insufficient
-	#If disabled: Spell is cancelled and player takes minor damage (1 heart)
-	death_on_insufficient_lp = false
-	#Show LP cost messages in action bar when casting spells
-	show_lp_cost_messages = true
-
-["LP Calculation - Ars Nouveau"]
-	#Configure how LP costs are calculated for Ars Nouveau spells.
-	#Formula: LP = (Mana Cost × Base Multiplier) × Tier Multiplier
-	#Health cost = LP / 10 (so 10 LP = 1 health = 0.5 hearts)
-	#Minimum LP cost is enforced after all calculations.
-	#Base LP multiplier (Mana × this value = base LP cost)
-	#Default 1.0: A 20 mana spell costs ~30 LP = 3 health (1.5 hearts)
-	# Default: 1.0
-	# Range: 0.1 ~ 100.0
-	ars_lp_base_multiplier = 1.0
-	#LP multiplier for Tier 1 glyphs
-	# Default: 1.5
-	# Range: 0.1 ~ 10.0
-	ars_lp_tier1_multiplier = 1.5
-	#LP multiplier for Tier 2 glyphs
-	# Default: 2.0
-	# Range: 0.1 ~ 10.0
-	ars_lp_tier2_multiplier = 2.0
-	#LP multiplier for Tier 3 glyphs
-	# Default: 2.5
-	# Range: 0.1 ~ 10.0
-	ars_lp_tier3_multiplier = 2.5
-	#Minimum LP cost for any Ars Nouveau spell (10 LP = 1 health)
-	# Default: 10
-	# Range: 1 ~ 10000
-	ars_lp_minimum_cost = 10
-
-["LP Calculation - Iron's Spellbooks"]
-	#Configure how LP costs are calculated for Iron's Spellbooks spells.
-	#Formula: LP = (Mana Cost × Base Multiplier) × (1 + Level × Level Multiplier) × Rarity Multiplier
-	#Health cost = LP / 10 (so 10 LP = 1 health = 0.5 hearts)
-	#Minimum LP cost is enforced after all calculations.
-	#Base LP multiplier (Mana × this value = base LP cost)
-	#Default 0.5: Iron's spells have higher base mana costs, so use lower multiplier
-	# Default: 0.5
-	# Range: 0.1 ~ 100.0
-	irons_lp_base_multiplier = 0.5
-	#Additional LP cost per spell level (0.1 = 10% per level)
-	# Default: 0.1
-	# Range: 0.0 ~ 10.0
-	irons_lp_per_level_multiplier = 0.1
-	#Minimum LP cost for any Iron's Spellbooks spell (10 LP = 1 health)
-	# Default: 10
-	# Range: 1 ~ 10000
-	irons_lp_minimum_cost = 10
-
-["LP Rarity Multipliers - Iron's Spells"]
-	#Multipliers based on spell rarity for Iron's Spellbooks.
-	#Higher rarity = higher LP cost.
-	#LP multiplier for COMMON rarity spells
-	# Default: 1.0
-	# Range: 0.1 ~ 100.0
-	irons_lp_common_multiplier = 1.0
-	#LP multiplier for UNCOMMON rarity spells
-	# Default: 1.5
-	# Range: 0.1 ~ 100.0
-	irons_lp_uncommon_multiplier = 1.5
-	#LP multiplier for RARE rarity spells
-	# Default: 2.0
-	# Range: 0.1 ~ 100.0
-	irons_lp_rare_multiplier = 2.0
-	#LP multiplier for EPIC rarity spells
-	# Default: 3.0
-	# Range: 0.1 ~ 100.0
-	irons_lp_epic_multiplier = 3.0
-	#LP multiplier for LEGENDARY rarity spells
-	# Default: 5.0
-	# Range: 0.1 ~ 100.0
-	irons_lp_legendary_multiplier = 5.0
-
-["Aura System"]
-	#Aura resource system for Ring of Seven Virtues.
-	#When wearing the Virtue Ring, spell mana costs are replaced with aura costs.
-	#Aura regenerates passively over time.
-	#Default maximum aura pool
-	# Default: 1000
-	# Range: 100 ~ 100000
-	aura_max_default = 1000
-	#Aura regenerated per tick (20 ticks = 1 second). 0.5 = 10 aura/sec
-	# Default: 0.5
-	# Range: 0.0 ~ 100.0
-	aura_regen_rate = 0.5
-	#Base conversion from mana cost to aura cost (mana x this = base aura)
-	# Default: 1.0
-	# Range: 0.1 ~ 100.0
-	aura_base_multiplier = 1.0
-	#Aura cost multiplier for Tier 1 glyphs
-	# Default: 1.0
-	# Range: 0.1 ~ 10.0
-	aura_tier1_multiplier = 1.0
-	#Aura cost multiplier for Tier 2 glyphs
-	# Default: 1.5
-	# Range: 0.1 ~ 10.0
-	aura_tier2_multiplier = 1.5
-	#Aura cost multiplier for Tier 3 glyphs
-	# Default: 2.0
-	# Range: 0.1 ~ 10.0
-	aura_tier3_multiplier = 2.0
-	#Minimum aura cost for any spell
-	# Default: 5
-	# Range: 1 ~ 10000
-	aura_minimum_cost = 5
-	#Show aura cost messages in action bar when casting spells
-	show_aura_messages = true
+	#Read max-mana / mana-regen attribute modifiers from worn Curios (rings, amulets,
+	#belts) and mirror them across the unified mana pool, the same way armor/weapon
+	#modifiers are handled. This is what lets Apotheosis (Apothic Curios) affixes and
+	#sockets, as well as other curio mana gear (Magical Jewelry, Jewelcraft, etc.),
+	#feed the Ars <-> Iron's bridge. Disable if a curio affix balance proves overpowered.
+	read_curio_attribute_modifiers = true
 
 ["Scroll Cost System"]
-	#Controls resource costs when casting Iron's Spellbooks spells from scrolls.
+	#Controls what an Iron's Spellbooks scroll costs to use.
 	#Cost mode for Iron's Spellbooks scroll usage:
-	#  full - Scrolls consume mana and LP just like normal casting
+	#  full - Scrolls cost the same as casting the spell normally
 	#  lp_only - Scrolls are free of mana cost but still consume LP if Cursed Ring equipped
 	#  free - Scrolls have no resource cost (LP from Cursed Ring still applies)
+	#Note: wearing the Cursed Ring (with enable_lp_system on) makes LP REPLACE mana,
+	#exactly as it does for normal casting - a ring wearer is never charged both.
+	#The LP half of this setting is inert on 1.21.1: Covenant of the Seven has no
+	#1.21.1 release, so lp_only behaves as free until that integration returns.
 	scroll_cost_mode = "full"
 
 ["Spell Scaling"]
@@ -405,27 +221,64 @@
 	# Default: 3.0
 	# Range: 1.0 ~ 10.0
 	spell_power_cap = 3.0
-
-["Blasphemy Ring Discounts"]
-	#Independent discount rates for LP and Aura costs when Blasphemy curios are equipped.
-	#These are separate from the mana discount (configured in Curio Discount System).
-	#LP cost discount when matching Blasphemy is equipped (0.85 = 85% discount, pay only 15%)
-	# Default: 0.85
-	# Range: 0.0 ~ 1.0
-	blasphemy_lp_discount = 0.85
-	#Aura cost discount when matching Blasphemy is equipped (0.85 = 85% discount, pay only 15%)
-	# Default: 0.85
-	# Range: 0.0 ~ 1.0
-	blasphemy_aura_discount = 0.85
+	#Master switch for both directions of cross-mod spell damage scaling:
+	#Iron's spell power scaling Ars spell damage, and Ars' Spell Damage Bonus
+	#perk adding to Iron's spell damage.
+	#This is independent of the mana-unification mode: both directions stay
+	#active even when mana unification is DISABLED, because a player who earned
+	#the stats on either side should keep them regardless of how mana is pooled.
+	enable_cross_mod_combat_stats = true
+	#Iron's -> Ars direction: scale Ars Nouveau spell damage by the caster's
+	#Iron's spell power attributes (generic + the matching school), affinity and
+	#resonance, capped by spell_power_cap.
+	#Independent of the mana-unification mode; active even when mana
+	#unification is DISABLED.
+	enable_irons_power_for_ars_damage = true
+	#Ars -> Iron's direction: add the caster's Ars Nouveau Spell Damage Bonus
+	#perk value to Iron's spell damage as a flat addition, matching how Ars
+	#itself applies that attribute. Not affected by spell_power_cap, which is a
+	#multiplier cap and must not clamp a flat bonus.
+	#Independent of the mana-unification mode; active even when mana
+	#unification is DISABLED.
+	enable_ars_damage_for_irons_damage = true
+	#How a spell that resolves to more than one school picks the Iron's elemental
+	#spell power attribute it scales with (dual-element and compound-element
+	#addon glyphs, and recipes that chain effects from different schools):
+	#  primary (default) - only the first-resolved school scales the spell, the same one
+	#            affinity and progression credit
+	#  max - the single strongest matching elemental attribute
+	#  average - the mean of all matching elemental attributes
+	#There is deliberately no 'sum' option: adding every matching bonus would
+	#make a spell stronger purely for carrying more school labels, so an
+	#all-element glyph would collect fire, ice, lightning and nature power at
+	#once. Unknown values fall back to 'max'.
+	multi_school_power_policy = "primary"
 
 ["Source Jar Synergy"]
-	#Controls the passive mana regen bonus when near Ars Nouveau Source Jars.
 	#Multiplier for Source Jar proximity regen bonus.
 	#Higher values = stronger regen when standing near Source Jars.
 	#Final bonus = CONVERSION_RATE_ARS_TO_IRON * this value per second.
+	#To disable the feature use enable_source_jar_synergy = false, not a zero multiplier.
 	# Default: 5.0
-	# Range: 0.1 ~ 100.0
+	# Range: 0.01 ~ 2000.0
 	source_jar_synergy_multiplier = 5.0
+	#Controls the passive mana regen bonus when near Ars Nouveau Source Jars.
+	#Master kill switch for the Source Jar proximity regen synergy.
+	#Set false to disable the periodic block scan entirely (zero per-tick cost).
+	#This is the supported way to turn the feature off;
+	#source_jar_synergy_multiplier keeps its 0.1 minimum. (ANS-CRIT-005 follow-up)
+	enable_source_jar_synergy = true
+	#Ticks between Source Jar proximity checks per player (20 = once per second).
+	#Raise on busy servers to reduce scan cost.
+	# Default: 20
+	# Range: 1 ~ 200
+	source_jar_scan_interval_ticks = 20
+	#Horizontal scan radius in blocks around the player.
+	#Any value up to the hard cap of 8 covers at most a 2x2 chunk area.
+	#The scan never loads chunks - cycles near unloaded chunks are skipped and retried.
+	# Default: 4
+	# Range: 1 ~ 8
+	source_jar_scan_radius = 4
 
 [Rituals]
 	#Configuration for Ars 'n' Spells custom rituals.
@@ -443,9 +296,6 @@
 	mana_well_regen_rate = 2.0
 
 ["Cross-Cast Inscription"]
-	#Controls spells cast from items inscribed via the Spell Transcription ritual.
-	#The inscription mechanic itself lives in the datapack recipe under
-	#data/ars_n_spells/recipes/apparatus/ -- pack authors can swap ingredients there.
 	#Multiplier applied to the base mana cost of a spell cast from an inscribed item.
 	#Represents the overhead of casting through a foreign mod's form. 1.0 = no overhead,
 	#1.25 = 25% extra cost (default). Applied once, after base cost calculation and
@@ -454,6 +304,65 @@
 	# Default: 1.25
 	# Range: 0.5 ~ 5.0
 	cross_cast_cost_multiplier = 1.25
+	#Controls spells cast from items inscribed via the Spell Transcription ritual.
+	#The inscription mechanic itself lives in the datapack recipe under
+	#data/ars_n_spells/recipes/apparatus/ -- pack authors can swap ingredients there.
+	#Which policy prices a cross-system mana leg:
+	#  flat_legacy   - Multiply the cross leg by the configured directional rate.
+	#                  The historical arithmetic (DEFAULT; preserves current pricing).
+	#  equal_percent - Each pool pays the same percentage of the spell's own price;
+	#                  the directional rates are not consulted.
+	#These are deliberately separate policies, not two spellings of one. They agree
+	#only while both conversion rates are 1.0.
+	#Server-owned. A quote captures the selected policy; reloading does not reprice a committed cast.
+	conversion_policy = "flat_legacy"
+	#Maximum sustained cross-cast/cycle requests per player per second. Server-owned; live reload.
+	#Repeated request IDs are ignored independently for 60 seconds. Does not limit native casts.
+	# Default: 10
+	# Range: 1 ~ 20
+	network_request_rate_per_second = 10
+	#Immediate cross-cast/cycle request burst per player. Allows ordinary double clicks and latency bursts.
+	# Default: 4
+	# Range: 1 ~ 20
+	network_request_burst = 4
+	#Allow Ars Nouveau spells to be bound onto Iron's Spellbooks spellbooks, where
+	#they appear as their own entries in Iron's native spell wheel and cast through
+	#Ars 'n Spells' cross-cast pipeline. Disabling rejects new binds with a clear
+	#message; spells already bound keep working. No effect without Iron's installed.
+	allow_ars_spells_in_irons_spellbooks = true
+	#Maximum number of Ars spells that may be bound onto a single Iron's spellbook.
+	#-1 = no cap (default). Whatever the value, it is bounded at runtime by the
+	#native-wheel proxy pool size (8): only that many
+	#Ars entries can be shown as distinct entries in Iron's spell wheel per book.
+	# Default: -1
+	# Range: -1 ~ 64
+	max_ars_cross_spells_per_irons_spellbook = -1
+	#Allow a custom Ars spell to carry an explicit spell school, chosen at the Spell Loom
+	#(or by an operator with /ans school set). An explicit school replaces the schools the
+	#glyphs would give for Ars 'n Spells' own mechanics: spell-power scaling, affinity,
+	#progression and school-matched discounts. Glyph effects and damage types never change.
+	#false = the Loom's school selector stays on Automatic, explicit requests are refused
+	#without consuming anything, and spells that already carry a chosen school cast as
+	#Automatic (from glyphs). The stored choice stays on the item and applies again if this
+	#is re-enabled. Read on every cast and request.
+	allow_spell_school_override = true
+	#Iron's native cooldown, in game ticks (20 ticks = 1 second at the normal tick rate),
+	#started after an Ars Nouveau spell bound into an Iron's spellbook casts successfully
+	#from Iron's spell wheel. It is applied to that wheel slot's proxy spell
+	#(ars_n_spells:ars_cross_N) through Iron's own cooldown pipeline, so Iron's cooldown
+	#reduction attribute, the spell wheel's cooldown display and persistence across relogs
+	#all apply. A failed, refused or unpaid cast starts no cooldown. Books that bind
+	#different Ars spells to the same proxy slot share that slot's cooldown.
+	#0 = no native cooldown, the behaviour before 3.3.5. This is the only source of the
+	#proxies' cooldown: Iron's own per-spell config files are not consulted for them.
+	#Freshly generated configs use 40 (2 seconds); configs from earlier versions are
+	#migrated to 0 so existing worlds keep their behaviour. Read on every cast: an edit
+	#applies to the next cast after the config reloads, and running cooldowns keep their
+	#length. Never applies to ordinary Ars casts, ordinary Iron's spells, or Iron's spells
+	#inscribed into Ars items. The optional category cooldowns remain a separate gate.
+	# Default: 40
+	# Range: 0 ~ 12000
+	inscribed_ars_default_cooldown_ticks = 40
 
 [Performance]
 	#Performance optimization settings
@@ -462,13 +371,51 @@
 	# Default: 4.0
 	# Range: 1.0 ~ 32.0
 	source_jar_cache_move_threshold = 4.0
-	#Mana synchronization interval (ticks, lower = more responsive but higher CPU)
-	# Default: 5
-	# Range: 2 ~ 100
-	mana_sync_interval = 5
-	#Enable caching for expensive calculations
-	enable_caching = true
-	#Cache duration (ticks)
+
+["Imported Iron's Glyphs"]
+	#The Glyph Press turns a filled Iron's scroll into a learnable Ars glyph for that spell at
+	#that level. These settings decide availability and bounds. Glyph ids are registered at
+	#startup whatever they say: turning a feature off leaves learned glyphs and stored items
+	#in place as dormant, and turning it back on restores them without relearning.
+	#Per-spell tuning (enabled, tier, Press cost and time) lives in data packs under
+	#data/<namespace>/ans_iron_glyphs/; see docs/3.4.0/config-reference.md.
+	#Allow imported Iron's glyphs to be learned and to resolve in Ars spells. Off: learned
+	#glyphs stay known but are dormant, spells containing them are refused with an explanation,
+	#and no imported effect runs. Server-owned; live reload.
+	enable_iron_glyphs = true
+	#Allow the Glyph Press to start new conversions. Off: a running job is cancelled and its
+	#items stay in the Press, recoverable by hand or automation. Server-owned; live reload.
+	enable_glyph_press = true
+	#How learned imported glyphs count toward Ars Nouveau's glyph-knowledge mana bonus:
+	#  per_spell          - all level variants of one Iron's spell count as one glyph (DEFAULT).
+	#  native_per_variant - every level variant counts, as Ars counts any glyph.
+	#Every variant stays genuinely learned either way; only the bonus contribution differs.
+	iron_glyph_mana_bonus_policy = "per_spell"
+	#Most imported Iron's effects one Ars spell may contain. Tested ceiling 8.
+	# Default: 4
+	# Range: 1 ~ 8
+	max_imported_effects_per_spell = 4
+	#Most imported-effect executions one root cast may make, counting every split, pierce,
+	#area and repeated delivery. Each execution is paid separately. Tested ceiling 64.
+	# Default: 16
+	# Range: 1 ~ 64
+	max_foreign_emissions_per_cast = 16
+	#Most casts containing imported effects one player may have in flight at once (projectiles,
+	#delays, charges and channels still to resolve). Tested ceiling 32.
+	# Default: 8
+	# Range: 1 ~ 32
+	max_active_glyph_sessions_per_player = 8
+	#Internal Source buffer of each Glyph Press. Must cover the most expensive enabled
+	#conversion (3000 by default) or that conversion can never start; the Press reports it.
+	# Default: 4000
+	# Range: 500 ~ 100000
+	glyph_press_source_capacity = 4000
+	#How often a Press that is short of Source for a waiting job pulls from nearby Source
+	#jars. An idle Press never scans.
 	# Default: 20
-	# Range: 1 ~ 200
-	cache_duration = 20
+	# Range: 5 ~ 200
+	glyph_press_source_scan_interval_ticks = 20
+	#Radius, in blocks, a Press searches for Source jars in already-loaded chunks.
+	# Default: 4
+	# Range: 1 ~ 8
+	glyph_press_source_radius = 4

@@ -1,18 +1,18 @@
-filename = 'the_beyond-0.0.5-InDev.jar'
+filename = 'the_beyond-1.0.1.jar'
 name = 'The Beyond'
 side = 'server'
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'the_beyond-0.0.5-InDev.jar'
+x-prismlauncher-version-number = 'the_beyond-1.0.1.jar'
 
 [download]
-hash = 'd58653094fa0f1868e2ec82c590fa51868e5b0ff'
+hash = '8b6dba68ae4cfb32e364daef3df4023ff56db495'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 8253756
+file-id = 9274055
 project-id = 658435

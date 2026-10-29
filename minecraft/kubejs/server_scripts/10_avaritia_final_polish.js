@@ -233,6 +233,7 @@ ServerEvents.recipes(event => {
             { item: 'iceandfire:dragonsteel_fire_ingot' },// Ice and Fire dragon forge
             { item: 'mekanism:pellet_antimatter' },       // Mekanism nuclear peak
             { item: 'allthemodium:unobtainium_ingot' },   // AllTheModium endgame
+            { item: 'allthemodium:unobtainium_vibranium_alloy_ingot' }, // AllTheModium Alloy Peak
             { item: 'ars_nouveau:source_gem_block' },     // Ars Nouveau magic peak
             { item: 'draconicevolution:awakened_draconium_ingot' }, // Draconic Evo
             { item: 'minecraft:nether_star' },             // Wither boss

@@ -1,4 +1,7 @@
+levelup
 atmospherics
+smooththirdpersoncamera
+dynamic_difficulty
 tooltipoverhaul
 cosycritters
 structurify

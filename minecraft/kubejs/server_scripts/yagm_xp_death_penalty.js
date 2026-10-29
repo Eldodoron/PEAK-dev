@@ -81,7 +81,7 @@ try {
                 player.experienceProgress = decoded.progress;
                 player.totalExperience = retainedXp;
 
-                player.tell(Text.darkRed('Death Penalty: ').append(Text.gray('20% of your experience was lost to the grave.')));
+                player.tell(Component.literal('§4Death Penalty: §r').append(Component.literal('§720% of your experience was lost to the grave.§r')));
             }
         } catch (err) {
             console.error('Error handling YAGM XP death penalty: ' + err);

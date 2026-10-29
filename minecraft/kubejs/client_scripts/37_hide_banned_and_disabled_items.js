@@ -20,7 +20,15 @@ RecipeViewerEvents.removeEntries('item', event => {
         'create_sa:copper_pickaxe',
         'create_sa:copper_axe',
         'create_sa:copper_shovel',
-        'create_sa:copper_hoe'
+        'create_sa:copper_hoe',
+
+        // Disabled Crafting Hammers (Bypasses tech progression)
+        'alltheores:copper_ore_hammer',
+        'alltheores:iron_ore_hammer',
+        'alltheores:bronze_ore_hammer',
+        'alltheores:invar_ore_hammer',
+        'alltheores:platinum_ore_hammer',
+        'createdieselgenerators:hammer'
     ];
 
     bannedItems.forEach(item => event.remove(item));

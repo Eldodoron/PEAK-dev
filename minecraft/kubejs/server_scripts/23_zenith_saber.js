@@ -53,7 +53,7 @@ ItemEvents.crafted(event => {
         let player = event.player;
         if (player) {
             // Send the calibration message
-            player.tell(Text.aqua('[PEAK] ').append(Text.white('Zenith Saber successfully calibrated and ready!')));
+            player.tell(Component.literal('§b[PEAK] §r').append(Component.literal('§fZenith Saber successfully calibrated and ready!§r')));
             
             // Trigger the toast challenge complete sound effect
             player.playSound('minecraft:ui.toast.challenge_complete', 1.0, 1.0);

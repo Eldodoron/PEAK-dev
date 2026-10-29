@@ -1,18 +1,17 @@
-filename = 'reliquified_artifacts-1.21.1-1.0.jar'
-name = 'Reliquified Artifacts'
+filename = 'rarcompat-1.21-0.9.7.jar'
+name = "Reliquified Artifacts"
 side = 'both'
-x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
-x-prismlauncher-release-type = 'beta'
-x-prismlauncher-version-number = '1.0'
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '0.9.7'
 
 [download]
-hash = '0fb1075d87b822eeeee2811839454206fac9178388f72563272550a6e27e8bd4c4a9b8731db20b701362cc411e6f44bc30178c3ed0c942ec1fd5022bdc365956'
-hash-format = 'sha512'
-mode = 'url'
-url = 'https://cdn.modrinth.com/data/GnU07giL/versions/wuZGGuwz/reliquified_artifacts-1.21.1-1.0.jar'
+hash = '55c301ea622fc5a613531715c99b7d1d66f2e1d6'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
 
-[update.modrinth]
-mod-id = 'GnU07giL'
-version = 'wuZGGuwz'
+[update.curseforge]
+file-id = 6879980
+project-id = 1100379

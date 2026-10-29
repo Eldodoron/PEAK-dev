@@ -1,34 +1,3 @@
-/kubejs reload server-scripts
-/peak pad info
-/tp Eldodoron 0 0 0
-/peak pad regenerate
-/peak regenerate_pad overworld
-/peak regenerate_pad all
-/peak regenerate_pad beyond
-/kubejs reload server-scripts
-/peak regenerate_pad
-/peak regenerate_pad all
-/peak pad regenerate
-/peak pad regenerate overworld
-/reload
-/peak pad regenerate overworld
-/kill
-/peak pad regenerate overworld
-/reload
-/summon irons_spellbooks:thunderstep_orb
-/summon minecraft:lightning_bolt 5 ~ 5
-/summon minecraft:tnt 5 ~ 5
-/summon minecraft:lightning_bolt 5 ~ 5
-/summon minecraft:tnt 5 ~ 5
-/give Eldodoron minecraft:command_block
-/reload
-/peak greenscreen
-/peak RandomGateway countdown_chat true
-/peak RandomGateway
-/peak RandomGateway cancel
-/peak RandomGateway enabled
-/peak RandomGateway enabled true
-/peak RandomGateway false
 /peak RandomGateway info
 /peak RandomGateway schedule gateways:basic/blaze
 /peak RandomGateway spawn gateways:basic/blaze
@@ -67,3 +36,34 @@
 /ars-tome ars_nouveau:tomes/darkfira_tome
 /gamerule keepInventory false
 /kill
+/effect give Eldodoron minecraft:night_vision infinite
+/execute in minecraft:the_nether run tp @a ~ ~ ~
+/kill
+/execute in minecraft:the_nether run tp @a ~ ~ ~ facing entity Eldodoron feet
+/execute in minecraft:the_end run tp Eldodoron 0 100 0
+/locate biome the_beyond:attracta_expanse
+/tp @s 1192 96 167
+/locate biome the_beyond:chestral_hollows
+/tp @s 1224 178 198
+/locate biome the_beyond:fumarole_uplands
+/tp @s 1128 124 200
+/locate biome the_beyond:lustrous_echoes
+/tp @s 1160 135 232
+/locate biome the_beyond:peer_lands
+/tp @s 1311 212 357
+/locate biome the_beyond:the_paths
+/tp @s 1324 11 375
+/locate biome the_beyond:true_void
+/tp @s 684 75 87
+/kill
+/execute in allthemodium:the_beyond run tp Eldodoron 0 100 0
+/execute in allthemodium:the_other run tp Eldodoron 0 100 0
+/effect give Eldodoron minecraft:night_vision infinite 10
+/execute in minecraft:overworld run tp Eldodoron 0 100 0
+/execute in northstar:moon run tp Eldodoron 0 100 0
+/effect give Eldodoron minecraft:saturation infinite 3
+/effect give Eldodoron minecraft:regeneration infinite 3
+/effect clear Eldodoron minecraft:regeneration infinite 3
+/effect clear Eldodoron minecraft:regeneration
+/peak greenscreen
+/time set midnight

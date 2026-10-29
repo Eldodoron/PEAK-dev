@@ -1,18 +1,18 @@
-filename = 'wits-1.3.0+1.21-neoforge.jar'
-name = 'WITS (What Is This Structure?)'
-side = 'server'
+filename = 'wits-neoforge-1.3.1.jar'
+name = 'WITS'
+side = ''
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '1.3.0+1.21-neoforge'
+x-prismlauncher-version-number = '1.3.1+1.21-neoforge'
 
 [download]
-hash = '265574b22e5c1966bddab651f53bb8a29add0053f95f5ce979fcfd52e7bfb816d2c3d6e7c2827c965e63e337555803f1193f4226e1a5cfda05f5fbf929394675'
+hash = '8bf6da87a6fc62d74b77c78a2e261d078109fb9faf1da55efd89ab0e559d5b8d6fe12670e2622ba73e510c7d90f711005f5d48f88a8af21b211fd0e314117ba1'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/AVo2esap/versions/pNHwZjEV/wits-1.3.0%2B1.21-neoforge.jar'
+url = 'https://cdn.modrinth.com/data/AVo2esap/versions/XbM2TRNR/wits-neoforge-1.3.1.jar'
 
 [update.modrinth]
 mod-id = 'AVo2esap'
-version = 'pNHwZjEV'
+version = 'XbM2TRNR'

@@ -135,7 +135,7 @@ threadPoolPriorityPreset = "default"
 	# (may cause incompatibility with other mods)
 	# 
 	# Set to false for the following reasons: 
-	# Incompatible with biolith@3.0.10 (*) (defined in c2me) 
+	# Incompatible with biolith@3.0.14 (*) (defined in c2me) 
 	useEndBiomeCache = false
 	# ================================================================
 	# (Default: true) Whether to enable StructureWeightSampler optimizations to accelerate world generation
@@ -209,7 +209,7 @@ threadPoolPriorityPreset = "default"
 	# 
 	filterFluidPostProcessing = "default"
 	# ================================================================
-	# (Default: false) Whether to use legacy scheduling for neighbor chunks
+	# (Default: true) Whether to use legacy scheduling for neighbor chunks
 	# 
 	# Enabling this restores the behavior of always loading in neighbor chunks when a chunk is loaded.
 	# 

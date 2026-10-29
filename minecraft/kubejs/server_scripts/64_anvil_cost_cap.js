@@ -343,8 +343,8 @@ ServerEvents.commandRegistry(event => {
 
         let limit = getAnvilCostLimit(server);
         let msg = isEnabled
-            ? Text.green(`[PEAK] Fixed Anvil Cost is now ENABLED (capped at ${limit} levels).`)
-            : Text.yellow('[PEAK] Fixed Anvil Cost is now DISABLED (uncapped Apotheic Enchanting behavior).');
+            ? Component.literal(`§a[PEAK] Fixed Anvil Cost is now ENABLED (capped at ${limit} levels).§r`)
+            : Component.literal('§e[PEAK] Fixed Anvil Cost is now DISABLED (uncapped Apotheic Enchanting behavior).§r');
 
         reply(ctx, msg, true);
         return 1;
@@ -353,7 +353,7 @@ ServerEvents.commandRegistry(event => {
     function setCostLimit(ctx, levels) {
         let lvl = Math.floor(Number(levels));
         if (isNaN(lvl) || lvl < 1 || lvl > 1000) {
-            let err = Text.red('[PEAK] Anvil cost limit must be between 1 and 1000 levels.');
+            let err = Component.literal('§c[PEAK] Anvil cost limit must be between 1 and 1000 levels.§r');
             replyFailure(ctx, err);
             return 0;
         }
@@ -361,7 +361,7 @@ ServerEvents.commandRegistry(event => {
         server.persistentData.putInt('peak_anvil_cost_limit', lvl);
         syncSettings(server);
 
-        let msg = Text.green(`[PEAK] Anvil cost limit set to ${lvl} levels.`);
+        let msg = Component.literal(`§a[PEAK] Anvil cost limit set to ${lvl} levels.§r`);
         reply(ctx, msg, true);
         return 1;
     }
@@ -371,9 +371,9 @@ ServerEvents.commandRegistry(event => {
         let enabled = isFixedCostEnabled(server);
         let limit = getAnvilCostLimit(server);
         let statusText = enabled
-            ? Text.green('true').append(Text.gray(` (capped at ${limit} levels)`))
-            : Text.red('false').append(Text.gray(' (uncapped Apotheic Enchanting)'));
-        let msg = Text.gold('Fixed anvil cost is currently: ').append(statusText);
+            ? Component.literal('§atrue§r').append(Component.literal(`§7 (capped at ${limit} levels)§r`))
+            : Component.literal('§cfalse§r').append(Component.literal('§7 (uncapped Apotheic Enchanting)§r'));
+        let msg = Component.literal('§6Fixed anvil cost is currently: §r').append(statusText);
 
         reply(ctx, msg, false);
         return 1;
@@ -382,7 +382,7 @@ ServerEvents.commandRegistry(event => {
     function showLimitStatus(ctx) {
         let server = ctx.source.server;
         let limit = getAnvilCostLimit(server);
-        let msg = Text.gold('Current anvil cost limit: ').append(Text.aqua(`${limit} levels`));
+        let msg = Component.literal('§6Current anvil cost limit: §r').append(Component.literal(`§b${limit} levels§r`));
 
         reply(ctx, msg, false);
         return 1;
@@ -394,16 +394,16 @@ ServerEvents.commandRegistry(event => {
         let limit = getAnvilCostLimit(server);
 
         let statusLine = enabled
-            ? Text.green('ENABLED').append(Text.gray(` (capped at ${limit} levels)`))
-            : Text.red('DISABLED').append(Text.gray(' (default Apothic uncapped)'));
+            ? Component.literal('§aENABLED§r').append(Component.literal(`§7 (capped at ${limit} levels)§r`))
+            : Component.literal('§cDISABLED§r').append(Component.literal('§7 (default Apothic uncapped)§r'));
 
-        let header = Text.gold('=== PEAK Anvil Cost Configuration ===\n')
-            .append(Text.yellow('Fixed Cost: ')).append(statusLine).append(Text.white('\n'))
-            .append(Text.yellow('Max Level Cost: ')).append(Text.aqua(`${limit} levels\n`))
-            .append(Text.yellow('Max Prior Work Penalty: ')).append(Text.aqua(`${Math.max(0, limit - 1)}\n`))
-            .append(Text.gray('Usage:\n'))
-            .append(Text.gray(' - /peak anvil cost fixed <true|false>\n'))
-            .append(Text.gray(' - /peak anvil cost limit <levels>'));
+        let header = Component.literal('§6=== PEAK Anvil Cost Configuration ===\n§r')
+            .append(Component.literal('§eFixed Cost: §r')).append(statusLine).append(Component.literal('§f\n§r'))
+            .append(Component.literal('§eMax Level Cost: §r')).append(Component.literal(`§b${limit} levels\n§r`))
+            .append(Component.literal('§eMax Prior Work Penalty: §r')).append(Component.literal(`§b${Math.max(0, limit - 1)}\n§r`))
+            .append(Component.literal('§7Usage:\n§r'))
+            .append(Component.literal('§7 - /peak anvil cost fixed <true|false>\n§r'))
+            .append(Component.literal('§7 - /peak anvil cost limit <levels>§r'));
 
         reply(ctx, header, false);
         return 1;

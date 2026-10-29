@@ -1,0 +1,9 @@
+{
+  "feature": "immersiveengineering:uranium",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 0
+    }
+  ]
+}

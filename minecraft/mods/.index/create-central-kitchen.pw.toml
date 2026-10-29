@@ -1,41 +1,41 @@
-filename = 'create-central-kitchen-2.6.1.jar'
+filename = 'create-central-kitchen-2.6.2b.jar'
 name = 'Create: Central Kitchen'
-side = ''
+side = 'server'
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '2.6.1'
+x-prismlauncher-version-number = 'Create: Central Kitchen 2.6.2b for Create 1.21.1-6.0.10'
 
 [download]
-hash = 'aa94f2092467f546f76b084d20d31bcd97549587e887e0734f10ac0585995870899fe27a9d522dc37e82f5c8ca7f1775843917e40bfab78370c021a27b6fec91'
-hash-format = 'sha512'
-mode = 'url'
-url = 'https://cdn.modrinth.com/data/btq68HMO/versions/FaEwZ1Pr/create-central-kitchen-2.6.1.jar'
+hash = '796355e592455c84c4eee8b7cd998734a9500c0d'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
 
-[update.modrinth]
-mod-id = 'btq68HMO'
-version = 'FaEwZ1Pr'
-
-[[x-prismlauncher-dependencies]]
-addonId = '8EEEXOzj'
-type = 'OPTIONAL'
+[update.curseforge]
+file-id = 9104646
+project-id = 820977
 
 [[x-prismlauncher-dependencies]]
-addonId = 'foa4fGIH'
-type = 'OPTIONAL'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'LNytGWDc'
+addonId = '1216624'
 type = 'REQUIRED'
 
 [[x-prismlauncher-dependencies]]
-addonId = 'YttyNOFA'
-type = 'OPTIONAL'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'AsUUCoXX'
-type = 'OPTIONAL'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'dzb1a5WV'
+addonId = '328085'
 type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '574622'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1212197'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1106612'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '711672'
+type = 'OPTIONAL'

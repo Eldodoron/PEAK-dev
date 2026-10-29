@@ -1,0 +1,33 @@
+[distant_horizons]
+	#Distant Horizons is enabled at or below this Y and fades out above it.
+	# Default: 500
+	# Range: -64 ~ 30000
+	cutoff_y = 4096
+
+[transfer]
+	#How often loaded Sable structures are checked against Northstar's native dimension-transfer line.
+	# Default: 5
+	# Range: 1 ~ 200
+	scan_interval_ticks = 20
+
+[sable_weather]
+	#Apply Northstar's Mars dust-storm movement to light Sable structures.
+	enabled = true
+	#Sable structures at or above this total mass ignore Northstar weather impulses.
+	# Default: 600.0
+	# Range: 1.0 ~ 1000000.0
+	max_mass = 600.0
+	#Martian dust-storm speed per game tick used as the target Sable wind speed before the light-structure response.
+	# Default: 0.005
+	# Range: 0.0 ~ 10.0
+	mars_storm_impulse = 0.005
+	#How strongly players standing on a Martian wind-driven Sable structure follow that structure.
+	# Default: 100
+	# Range: 0 ~ 100
+	mars_player_follow_strength_percent = 100
+
+[server_patches]
+	#Enable the Sable Structure Transfer server patch.
+	structure_transfer = true
+	#Enable the Sable Mars Weather Physics server patch.
+	sable_mars_weather = true

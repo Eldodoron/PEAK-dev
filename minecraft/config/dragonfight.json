@@ -7,6 +7,18 @@
     "desc:": "Modifies crystal respawn time, 0.5 = spawns twice as fast, 2 = twice as slow. default:1.0",
     "crystalRespawnTimeModifier": 3.0
   },
+  "doEndCrystalRespawn": {
+    "desc:": "Set whether end crystals respawn at all. default:true",
+    "doEndCrystalRespawn": true
+  },
+  "crystalMeleeKillDamage": {
+    "desc:": "Set the current health percent the dragon looses when an end crystal is killed by a player in close quarters. default:10, 0 to disable, 100 to instant kill the dragon",
+    "crystalMeleeKillDamage": 10.0
+  },
+  "crystalPotionOnDeath": {
+    "desc:": "Enables end crystals to spawn a lingering harmful potion effect around them on death. Duration scales with difficulty and crystal respawn modifier. default:true",
+    "crystalPotionOnDeath": true
+  },
   "lightningExplosionDensity": {
     "desc:": "Modifies lightning and explosion density, 0.5 = half as many, 2 = twice as many. default:1.0",
     "lightningExplosionDensity": 0.7
@@ -39,6 +51,10 @@
     "desc:": "Sets the XP drop modifier: default:1.0",
     "dragonXPModifier": 2.0
   },
+  "lightningSoundVolumeModifier": {
+    "desc:": "Sets the lightning sound modifier as vanilla's sound is very loud, only works on clientside: default:0.6",
+    "lightningSoundVolumeModifier": 0.6
+  },
   "printDragonPhases": {
     "desc:": "Prints the dragon phase in chat if enabled: default:false",
     "printDragonPhases": false
@@ -55,7 +71,7 @@
     ]
   },
   "spawnoncrystalrespawn": {
-    "desc:": "List of mobs spawning on crystal respawn, intended to be ranged to ward of players from a distance: e.g. format :  [\"minecraft:zombie\", \"minecraft:creeper\"]",
+    "desc:": "List of mobs spawning on crystal respawn, intended to be ranged to ward off players from a distance: e.g. format :  [\"minecraft:blaze\"]",
     "spawnoncrystalrespawn": [
       "unusualend:enderbulb"
     ]

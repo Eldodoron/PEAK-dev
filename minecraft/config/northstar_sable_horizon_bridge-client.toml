@@ -1,0 +1,52 @@
+#Allow the Complementary compatibility patch to brighten Northstar custom sky layers.
+iris_bright_planet_masks = true
+#Skip shader-pack volumetric cloud ray marching in no-cloud Northstar dimensions.
+iris_hide_volumetric_clouds = true
+#Hide vanilla clouds at Distant Horizons' transition ceiling: cutoff height plus fade distance.
+high_altitude_cloud_suppression = true
+#Prevent Distant Horizons from changing Minecraft's vanilla cloud option to OFF when LOD rendering starts.
+intercept_dh_cloud_override = true
+#Fade Iris shader skies to Northstar's black space background above the atmosphere.
+iris_space_background_compat = true
+
+	[client_values.distant_horizons]
+		#Vertical distance in blocks used to fade Distant Horizons after the cutoff height.
+		# Default: 64
+		# Range: 16 ~ 256
+		fade_height = 64
+
+	[client_values.complementary]
+		#Brightness multiplier for Northstar custom sky layers in Complementary, as a percentage.
+		# Default: 100
+		# Range: 50 ~ 200
+		planet_mask_brightness_percent = 100
+		#Minimum block-shadow brightness in Northstar space dimensions for Complementary, as a percentage.
+		# Default: 18
+		# Range: 0 ~ 40
+		space_shadow_floor_percent = 18
+
+[client_patches]
+	#Enable the Iris Rendering Pipeline client patch.
+	iris_pipeline = true
+	#Enable the Iris Sky Uniforms client patch.
+	iris_uniforms = true
+	#Enable the Complementary Shader Sources client patch.
+	complementary_sources = true
+	#Enable the Distant Horizons client patch.
+	distant_horizons = true
+	#Enable the Distant Horizons Cloud Override Intercept client patch.
+	distant_horizons_cloud_override = true
+	#Enable the Sodium Config Metadata Recovery client patch.
+	sodium_config_metadata = true
+	#Enable the Sodium Patch Failure Marker client patch.
+	sodium_patch_failure_marker = true
+	#Enable the Sodium Patch Failure Layout client patch.
+	sodium_patch_failure_width = true
+	#Enable the Northstar Cloud Renderer client patch.
+	northstar_cloud_renderer = true
+	#Enable the Northstar Moon Overlay client patch.
+	northstar_moon_overlay = true
+	#Enable the Overworld Earth Overlay client patch.
+	northstar_overworld_overlay = true
+	#Enable the Planet Ambient Music client patch.
+	planet_music = true

@@ -129,24 +129,24 @@ ServerEvents.commandRegistry(event => {
         let server = ctx.source.server;
         let substeps = getTargetSubsteps(server);
         let stepsPerSec = substeps * 20;
-        reply(ctx, Component.yellow('[PEAK Physics] ')
-            .append(Component.gray('Current rate: '))
-            .append(Component.green(`${substeps} substep${substeps > 1 ? 's' : ''}/tick (${stepsPerSec} steps/s)`))
-            .append(Component.gray(' | Solver Iterations: '))
-            .append(Component.green(`${TARGET_SOLVER_ITERATIONS}`)), false);
+        reply(ctx, Component.literal('§e[PEAK Physics] §r')
+            .append(Component.literal('§7Current rate: §r'))
+            .append(Component.literal(`§a${substeps} substep${substeps > 1 ? 's' : ''}/tick (${stepsPerSec} steps/s)§r`))
+            .append(Component.literal('§7 | Solver Iterations: §r'))
+            .append(Component.literal(`§a${TARGET_SOLVER_ITERATIONS}§r`)), false);
         return 1;
     }
 
     function setRate(ctx, substeps) {
         let server = ctx.source.server;
         if (substeps < 1 || substeps > 10) {
-            replyFailure(ctx, Component.red('[PEAK Physics] Substeps must be between 1 and 10 (20 to 200 steps/s).'));
+            replyFailure(ctx, Component.literal('§c[PEAK Physics] Substeps must be between 1 and 10 (20 to 200 steps/s).§r'));
             return 0;
         }
         server.persistentData.putInt('peak_physics_substeps', substeps);
         applyPhysicsSettings(server, substeps);
         let stepsPerSec = substeps * 20;
-        reply(ctx, Component.green(`[PEAK Physics] Set physics rate to ${substeps} substep${substeps > 1 ? 's' : ''}/tick (${stepsPerSec} steps/s).`), true);
+        reply(ctx, Component.literal(`§a[PEAK Physics] Set physics rate to ${substeps} substep${substeps > 1 ? 's' : ''}/tick (${stepsPerSec} steps/s).§r`), true);
         return 1;
     }
 

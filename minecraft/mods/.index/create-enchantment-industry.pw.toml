@@ -1,4 +1,4 @@
-filename = 'create-enchantment-industry-2.5.0-preview-alpha1.jar'
+filename = 'create-enchantment-industry-2.5.4b.jar'
 name = 'Create: Enchantment Industry'
 side = 'server'
 x-prismlauncher-loaders = [ 'neoforge' ]
@@ -7,7 +7,7 @@ x-prismlauncher-release-type = 'alpha'
 x-prismlauncher-version-number = 'Create: Enchantment Industry 2.5.0-preview-alpha1 for Create 1.21.1-6.0.10'
 
 [download]
-hash = 'b1122189ae731195cfc04cd54ceac3d1418db164'
+hash = '48be078caf6be2b3e43787418625618dc39b7ae1'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''

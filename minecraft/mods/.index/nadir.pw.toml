@@ -1,19 +1,19 @@
-filename = 'nadir-1.0.0.jar'
-name = 'Nadir [Apotheosis Addon]'
+filename = 'nadir-1.0.1.jar'
+name = 'Nadir'
 side = 'server'
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'nadir-1.0.0.jar'
+x-prismlauncher-version-number = 'nadir-1.0.1.jar'
 
 [download]
-hash = '07b53ba6b4f09df9c2b2aa2a50e4fc43d056a72b'
+hash = '58e95d7593b233d60840c6501e7a376092808576'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 7436200
+file-id = 8687490
 project-id = 1424172
 
 [[x-prismlauncher-dependencies]]

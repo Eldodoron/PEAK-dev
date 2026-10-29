@@ -3,7 +3,11 @@
   "booleans": {
     "bettercombat.bodyFollowArms": true,
     "ironspells.bodyFollowArms": true,
-    "ironspells.enabled": true
+    "ironspells.enabled": true,
+    "plantreach.all": true,
+    "lookat.monsters": true
   },
-  "numbers": {}
+  "numbers": {
+    "lookat.idleSeconds": 1.0
+  }
 }

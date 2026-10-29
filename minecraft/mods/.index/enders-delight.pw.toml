@@ -1,4 +1,4 @@
-filename = 'endersdelight-1.3.0.jar'
+filename = 'endersdelight-1.3.1.jar'
 name = "Ender's Delight"
 side = 'both'
 x-prismlauncher-loaders = [ 'neoforge' ]
@@ -7,7 +7,7 @@ x-prismlauncher-release-type = 'release'
 x-prismlauncher-version-number = '1.3.0'
 
 [download]
-hash = '595c092071053a3a21054e56f9776aa02b1c07ed1e3813e16c849ffc77cdfaf702eae89c48c85e8aea35c88fc95b98690aba37003a7927ba201360bd180328c8'
+hash = 'a3a9f7fd621f14461d37357463dbd16c67d2badf'
 hash-format = 'sha512'
 mode = 'url'
 url = 'https://cdn.modrinth.com/data/2uEhdGKt/versions/DG541UlP/endersdelight-1.3.0.jar'

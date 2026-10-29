@@ -1,3 +1,5 @@
+#Dragon Loot balance settings. Gear stats and compatibility perks require a full game/server restart.
+#This file is not automatically synchronized: use matching settings on the server and all clients.
 [dragonloot]
 	#Minimum guaranteed dragon scale drops from the Ender Dragon.
 	# Default: 3
@@ -15,42 +17,58 @@
 	dragon_anvil_no_cap = true
 
 	[dragonloot.tools]
+		#Material attack damage bonus; each weapon adds its own modifier. Vanilla Minecraft caps total attack damage at 2048.
 		# Default: 5.0
-		# Range: 0.0 ~ 20.0
+		# Range: 0.0 ~ 2048.0
 		dragon_item_base_damage = 10.0
+		#Multiplied by 67 for Dragon tools and weapons. Upper bound prevents integer overflow.
 		# Default: 37
-		# Range: 1 ~ 256
+		# Range: 1 ~ 32051994
 		dragon_item_durability_multiplier = 37
 		# Default: 20
-		# Range: 1 ~ 50
+		# Range: 1 ~ 255
 		dragon_tool_enchantability = 20
+		#Mining speed for Dragon tools on their effective blocks. Set this explicitly to suit your pack's progression.
+		#Advanced Netherite's mining-speed config is not automatically inherited.
+		# Default: 12.0
+		# Range: 0.0 ~ 3.4028234663852886E38
+		dragon_tool_mining_speed = 12.0
 
+	#Protection values contribute to the total armor attribute, capped at 30 in vanilla Minecraft.
 	[dragonloot.armor]
 		# Default: 7
-		# Range: 0 ~ 20
+		# Range: 0 ~ 30
 		dragon_armor_protection_helmet = 7
 		# Default: 10
-		# Range: 0 ~ 20
+		# Range: 0 ~ 30
 		dragon_armor_protection_chest = 10
 		# Default: 9
-		# Range: 0 ~ 20
+		# Range: 0 ~ 30
 		dragon_armor_protection_leggings = 9
 		# Default: 7
-		# Range: 0 ~ 20
+		# Range: 0 ~ 30
 		dragon_armor_protection_boots = 7
+		#Toughness per armor piece. Vanilla Minecraft caps the total toughness attribute at 20.
 		# Default: 3.0
-		# Range: 0.0 ~ 10.0
+		# Range: 0.0 ~ 20.0
 		dragon_armor_toughness = 3.0
 		# Default: 1.0
 		# Range: 0.0 ~ 5.0
 		dragon_armor_knockback_resistance = 1.0
 		# Default: 15
-		# Range: 1 ~ 50
+		# Range: 1 ~ 255
 		dragon_armor_enchantability = 15
+		#Multiplied by each armor slot's base durability. Upper bound prevents integer overflow.
 		# Default: 37
-		# Range: 1 ~ 128
+		# Range: 1 ~ 134217727
 		dragon_armor_durability_multiplier = 37
+		#Protection supplied by Dragon horse armor.
+		# Default: 18
+		# Range: 0 ~ 30
+		dragon_armor_protection_horse = 18
 
 	[dragonloot.compat]
-		#If true, Dragon Scale gear perks are enabled (pacifies mobs and shows Advanced Netherite-style tooltips). Also bumps Dragon gear stats to keep progression sensible alongside Advanced Netherite.
+		#Enables Dragon armor mob pacification and armor perk tooltips.
+		#Preserves the existing fixed minimum durability multiplier of 47 and +3 sword/axe attack damage.
+		#Does not inherit Advanced Netherite config values or implement its additional tool drops. Configure Dragon stats separately.
 		advanced_netherite_gear_perks_enabled = false

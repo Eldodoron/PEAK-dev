@@ -153,8 +153,8 @@ ServerEvents.recipes(event => {
         'VDV',
         'UVU'
     ], {
-        U: 'allthemodium:unobtainium_ingot',
-        V: 'allthemodium:vibranium_ingot',
+        U: 'allthemodium:unobtainium_vibranium_alloy_ingot',
+        V: 'allthemodium:unobtainium_allthemodium_alloy_ingot',
         D: 'draconicevolution:awakened_core'
     });
 
@@ -165,7 +165,8 @@ ServerEvents.recipes(event => {
         'CDE',
         'UCU'
     ], {
-        U: 'allthemodium:unobtainium_ingot',
+        U: 'allthemodium:vibranium_allthemodium_alloy_ingot',
+
         C: 'draconicevolution:draconic_energy_core',
         D: 'draconicevolution:chaotic_core',
         E: 'mekanism:ultimate_control_circuit'
@@ -175,11 +176,11 @@ ServerEvents.recipes(event => {
     // The ultimate power source. Needs everything.
     event.remove({ output: 'draconicevolution:reactor_core' });
     event.shaped('draconicevolution:reactor_core', [
-        'UCU',
+        'BCB',
         'CNC',
-        'UCU'
+        'BCB'
     ], {
-        U: 'allthemodium:unobtainium_ingot',
+        B: 'allthemodium:unobtainium_allthemodium_alloy_block',
         C: 'draconicevolution:chaotic_core',
         N: 'draconicevolution:chaotic_energy_core'
     });

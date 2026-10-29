@@ -1,18 +1,21 @@
-filename = 'dynamic_difficulty-neoforge-1.1.1+1.21.1.jar'
-name = 'Dynamic Difficulty (Neoforge/Fabric)'
+filename = 'dynamic_difficulty-neoforge-1.3.8+1.21.1.jar'
+name = 'Dynamic Difficulty'
 side = 'server'
-x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'neoforge 1.1.1+1.21.1'
+x-prismlauncher-version-number = 'neoforge 1.3.8+1.21.1'
 
 [download]
-hash = 'f7a9d53eba6659c08db96d075e8e1839623616b2'
+hash = '80d48dc7c4dfcdf4ef10e2c9973b47fe652e09ff'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 7692605
+file-id = 9312325
 project-id = 1272655
+
+[[x-prismlauncher-dependencies]]
+addonId = '1005914'
+type = 'REQUIRED'

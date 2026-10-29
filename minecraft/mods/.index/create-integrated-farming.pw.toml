@@ -1,4 +1,4 @@
-filename = 'create-integrated-farming-1.4.1c.jar'
+filename = 'create-integrated-farming-1.4.3.jar'
 name = 'Create: Integrated Farming'
 side = 'server'
 x-prismlauncher-loaders = [ 'neoforge' ]
@@ -7,7 +7,7 @@ x-prismlauncher-release-type = 'release'
 x-prismlauncher-version-number = 'Create: Integrated Farming 1.4.1c for Create 1.21.1-6.0.10'
 
 [download]
-hash = 'f451d79e850e6b10f205320b614c3d91cef9e240'
+hash = '27cbb530828aa375450d005426e609d96cb254e9'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''

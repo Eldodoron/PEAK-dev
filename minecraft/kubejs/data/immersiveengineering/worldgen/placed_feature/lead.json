@@ -1,0 +1,9 @@
+{
+  "feature": "immersiveengineering:lead",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 0
+    }
+  ]
+}

@@ -1,18 +1,25 @@
-filename = "L_Ender's Cataclysm 1.21.1-3.27.jar"
-name = "L_Ender's Cataclysm"
-side = 'both'
-x-prismlauncher-dependencies = []
+filename = "L_Ender's Cataclysm 1.21.1-3.33.jar"
+name = "L_Ender's Cataclysm 1.21.1"
+side = ''
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '3.27'
+x-prismlauncher-version-number = '3.33'
 
 [download]
-hash = 'dfc01042f30e3960e1a7db5d45b75971861b7c9a59a21f180ef6f7adc977004811b0c2e4c0ec2b492812ecaec00f7cb2ed3779ae9acf98c40d02e6f844bf1008'
+hash = '289f6e8364a6e432f34803a47cff8381899a1df0fdc675170323b43fd1c09579b1320d8b4e0de5df65c609b738d450c13c89e240d6d79f607888da26b7724947'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/46KJle7n/versions/RM2acghH/L_Ender%27s Cataclysm 1.21.1-3.27.jar'
+url = 'https://cdn.modrinth.com/data/46KJle7n/versions/PsPYpoCC/L_Ender%27s Cataclysm 1.21.1-3.33.jar'
 
 [update.modrinth]
 mod-id = '46KJle7n'
-version = 'RM2acghH'
+version = 'PsPYpoCC'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'FoVacERa'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'vvuO3ImH'
+type = 'REQUIRED'

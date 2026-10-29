@@ -1,19 +1,19 @@
-filename = 'lootintegrations_dungeonsenhanced-1.7.jar'
-name = 'Dungeons Enhanced Lootintegrations Addon'
-side = 'server'
+filename = 'lootintegrations_dungeonsenhanced-1.8.jar'
+name = 'lootintegrations_dungeonsenhanced mod'
+side = ''
 x-prismlauncher-loaders = [ 'neoforge', 'forge', 'fabric' ]
-x-prismlauncher-mc-versions = [ '1.18.2', '1.19.2', '1.20.1', '1.21.1', '1.21.4', '1.21.5' ]
+x-prismlauncher-mc-versions = [ '1.18.2', '1.19.2', '1.20.1', '1.21.1', '1.21.4', '1.21.5', '26.1.2' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'lootintegrations_dungeonsenhanced-1.7.jar'
+x-prismlauncher-version-number = 'lootintegrations_dungeonsenhanced-1.8.jar'
 
 [download]
-hash = 'a0aa8a714bd9e45640828a35d458a5d4f291f67e'
+hash = '0844aaebe419a27444f700f7e3a3f07c03d7b055'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 7914970
+file-id = 8913615
 project-id = 1008041
 
 [[x-prismlauncher-dependencies]]

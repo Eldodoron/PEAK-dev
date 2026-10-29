@@ -1,19 +1,19 @@
-filename = 'lootintegrations_iceandfire-1.2.jar'
-name = 'Loot Integrations: Ice and Fire'
-side = 'server'
+filename = 'lootintegrations_iceandfire-1.3.jar'
+name = 'lootintegrations_iceandfire mod'
+side = ''
 x-prismlauncher-loaders = [ 'neoforge', 'forge', 'fabric' ]
-x-prismlauncher-mc-versions = [ '1.18.2', '1.19.2', '1.20.1', '1.21', '1.21.1' ]
+x-prismlauncher-mc-versions = [ '1.18.2', '1.19.2', '1.20.1', '1.21', '1.21.1', '26.1.2' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'lootintegrations_iceandfire-1.2.jar'
+x-prismlauncher-version-number = 'lootintegrations_iceandfire-1.3.jar'
 
 [download]
-hash = '4760d3dfbe2bd81edb55c7745a1332db1eeaf849'
+hash = '282613b9b381ec34800bf7c9af232d22488a5aac'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 7920079
+file-id = 8914945
 project-id = 1272782
 
 [[x-prismlauncher-dependencies]]

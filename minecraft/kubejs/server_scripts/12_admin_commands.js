@@ -12,7 +12,7 @@ ServerEvents.commandRegistry(event => {
         let server = source.server;
 
         if (!player) {
-            source.sendFailure(Text.red('This command can only be executed by a player.'));
+            source.sendFailure(Component.literal('§cThis command can only be executed by a player.§r'));
             return 0;
         }
 
@@ -62,7 +62,7 @@ ServerEvents.commandRegistry(event => {
         // 3. Center player inside the room
         server.runCommandSilent(`tp ${player.username} ${px + 0.5} ${py + 1.0} ${pz + 0.5}`);
 
-        player.tell(Text.green(`🎬 Green Screen Room successfully generated! (${width}x${length}x${height} blocks)`));
+        player.tell(Component.literal(`§a🎬 Green Screen Room successfully generated! (${width}x${length}x${height} blocks)§r`));
         return 1;
     }
 
@@ -87,7 +87,7 @@ ServerEvents.commandRegistry(event => {
         let z2 = pz + half;
 
         server.runCommandSilent(`fill ${x1} ${y1} ${z1} ${x2} ${y2} ${z2} minecraft:air replace kubejs:green_screen`);
-        player.tell(Text.yellow(`🧹 Green Screen blocks cleared in a ${s}x${s} area.`));
+        player.tell(Component.literal(`§e🧹 Green Screen blocks cleared in a ${s}x${s} area.§r`));
         return 1;
     }
 
@@ -166,7 +166,7 @@ ServerEvents.commandRegistry(event => {
                             target.persistentData.remove(key);
                         });
                         
-                        target.tell(Text.green('✅ Reset ALL Boss Eye drops for yourself. You can now get the first-kill drops again.'));
+                        target.tell(Component.literal('§a✅ Reset ALL Boss Eye drops for yourself. You can now get the first-kill drops again.§r'));
                     }
                     return 1;
                 })
@@ -210,7 +210,7 @@ ServerEvents.commandRegistry(event => {
                             
                             target.persistentData.remove(key);
                             
-                            target.tell(Text.green('✅ Reset Boss Eye drop for: ' + bossId));
+                            target.tell(Component.literal('§a').append(Component.literal(String('✅ Reset Boss Eye drop for: ' + bossId))).append(Component.literal('§r')));
                         }
                         return 1;
                     })
@@ -227,7 +227,7 @@ ServerEvents.commandRegistry(event => {
         let server = source.server;
 
         if (!player) {
-            source.sendFailure(Text.red('This command can only be executed by a player.'));
+            source.sendFailure(Component.literal('§cThis command can only be executed by a player.§r'));
             return 0;
         }
 
@@ -269,7 +269,7 @@ ServerEvents.commandRegistry(event => {
             server.runCommandSilent(`execute in ${player.level.dimension} run summon ${animalId} ${spawnX} ${py} ${spawnZ}`);
         });
 
-        player.tell(Text.green(`✅ Spawned ${animals.length} common animals around you!`));
+        player.tell(Component.literal(`§a✅ Spawned ${animals.length} common animals around you!§r`));
         return 1;
     }
 

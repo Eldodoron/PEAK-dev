@@ -1,21 +1,25 @@
-filename = 'collapsible_groups-neoforge-1.21.1-1.4.2.jar'
-name = 'Collapsible Groups (JEI)'
+filename = 'collapsible_groups-neoforge-1.21.1-2.0.0-beta5.jar'
+name = 'Collapsible Groups'
 side = ''
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
-x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'collapsible_groups-neoforge-1.21.1-1.4.2.jar'
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'Collapsible Groups 2.0.0-beta5 [NeoForge 1.21.1]'
 
 [download]
-hash = '8e0bda2b3a946b398cdb7469aad704cdab63a453'
+hash = '5de28d6716b750b2d47e70d74edd087728bf2e05'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 8570592
+file-id = 9284619
 project-id = 1495382
 
 [[x-prismlauncher-dependencies]]
 addonId = '238222'
-type = 'REQUIRED'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '580555'
+type = 'OPTIONAL'

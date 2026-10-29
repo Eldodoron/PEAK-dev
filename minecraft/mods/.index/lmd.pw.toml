@@ -1,30 +1,20 @@
-filename = 'letmedespawn-1.21.x-neoforge-1.5.0.jar'
+filename = 'letmedespawn-neoforge-1.21.1-1.26.10.2.jar'
 name = 'Let Me Despawn'
-side = 'server'
+side = ''
 x-prismlauncher-loaders = [ 'neoforge' ]
-x-prismlauncher-mc-versions = [
-    '1.21',
-    '1.21.1',
-    '1.21.2',
-    '1.21.3',
-    '1.21.4',
-    '1.21.5 Pre-Release 1',
-    '1.21.5 Pre-Release 2',
-    '1.21.5-pre1',
-    '1.21.5-pre2'
-]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '1.5.0'
+x-prismlauncher-version-number = '1.26.10.2'
 
 [download]
-hash = 'e6c892bb621a9382728c6f5735922736283cd54ec4f5a5d4d7d0745dedbe39851e21a69abcdf7af783fbacf8c700789b6ef9278dc09782ad1cd63ec004bc7a35'
+hash = 'fa79cff5084c329a8985262a406b949cfd7ae0e3596ceaea9604ba2b24a70ff3176acf0416ac0e1fb46c9a58da6f7c45fd367f2a8a3bb454d1dbbffdd1edfa58'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/vE2FN5qn/versions/fgcMDg9B/letmedespawn-1.21.x-neoforge-1.5.0.jar'
+url = 'https://cdn.modrinth.com/data/vE2FN5qn/versions/Ta6w35oG/letmedespawn-neoforge-1.21.1-1.26.10.2.jar'
 
 [update.modrinth]
 mod-id = 'vE2FN5qn'
-version = 'fgcMDg9B'
+version = 'Ta6w35oG'
 
 [[x-prismlauncher-dependencies]]
 addonId = 'Gi02250Z'

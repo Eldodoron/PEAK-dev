@@ -1,5 +1,5 @@
-filename = 'lootintegrations_structory-1.4.jar'
-name = 'Loot Integrations: Structory & Towers'
+filename = 'lootintegrations_structory-1.5.jar'
+name = 'lootintegrations_structory mod'
 side = ''
 x-prismlauncher-loaders = [ 'neoforge', 'forge', 'fabric' ]
 x-prismlauncher-mc-versions = [
@@ -16,19 +16,21 @@ x-prismlauncher-mc-versions = [
     '1.21.11',
     '26.1',
     '26.1.1',
-    '26.1.2'
+    '26.1.2',
+    '26.2',
+    '26.3'
 ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'lootintegrations_structory-1.4.jar'
+x-prismlauncher-version-number = 'lootintegrations_structory-1.5.jar'
 
 [download]
-hash = '75927f7427e48ee2834a66f19f00e05a31fca360'
+hash = '2a6834f0c1079d4ac2a7892232d9de484d5415b6'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 7925202
+file-id = 8920544
 project-id = 1152720
 
 [[x-prismlauncher-dependencies]]

@@ -50,23 +50,23 @@ PlayerEvents.advancement(event => {
         server.runCommandSilent(`apotheosis set_world_tier ${player.username} ${tier}`);
         
         // Premium, immersive chat notification
-        player.tell(Text.darkGray('\u00A7m' + '\u2500'.repeat(40)));
-        player.tell(Text.gold('\u2605 APOTHIC PROGRESSION \u2605'));
-        player.tell(Text.white('Your World Tier has advanced to: ').append(Text.aqua(tierDisplayName)));
-        player.tell(Text.darkGray('\u00A7m' + '\u2500'.repeat(40)));
+        player.tell(Component.literal('§8§m' + '─'.repeat(40) + '§r'));
+        player.tell(Component.literal('§6\u2605 APOTHIC PROGRESSION \u2605§r'));
+        player.tell(Component.literal('§fYour World Tier has advanced to: §r').append(Component.literal('§b').append(Component.literal(String(tierDisplayName))).append(Component.literal('§r'))));
+        player.tell(Component.literal('§8§m' + '─'.repeat(40) + '§r'));
         
         // Award the progression gifts
         let rewards = TIER_REWARDS[tier];
         if (rewards) {
-            player.tell(Text.gold('\u2605 Tier Advancement Gifts \u2605'));
+            player.tell(Component.literal('§6\u2605 Tier Advancement Gifts \u2605§r'));
             rewards.forEach(reward => {
                 player.give(Item.of(reward.item, reward.count));
                 
                 // Use descriptionId to let the client translate the item name properly
                 let itemComponent = Text.translate(Item.of(reward.item).descriptionId);
-                player.tell(Text.gray(` - Received: `).append(Text.yellow(`${reward.count}x `)).append(itemComponent));
+                player.tell(Component.literal(`§7 - Received: §r`).append(Component.literal(`§e${reward.count}x §r`)).append(itemComponent));
             });
-            player.tell(Text.darkGray('\u00A7m' + '\u2500'.repeat(40)));
+            player.tell(Component.literal('§8§m' + '─'.repeat(40) + '§r'));
         }
     }
 });

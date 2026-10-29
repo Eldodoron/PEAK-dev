@@ -1,4 +1,4 @@
-filename = 'lootintegrations_dnt-2.6.jar'
+filename = 'lootintegrations_dnt-2.7.jar'
 name = 'lootintegrations_dnt mod'
 side = ''
 x-prismlauncher-loaders = [ 'neoforge', 'forge', 'fabric' ]
@@ -18,19 +18,20 @@ x-prismlauncher-mc-versions = [
     '26.1',
     '26.1.1',
     '26.1.2',
-    '26.2'
+    '26.2',
+    '26.3'
 ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'lootintegrations_dnt-2.6.jar'
+x-prismlauncher-version-number = 'lootintegrations_dnt-2.7.jar'
 
 [download]
-hash = '909d1411490eef2abb174fc54679bb38c8a20af3'
+hash = '6be72d5fe982c55001baf17851fe9460fed448db'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 8325435
+file-id = 8914350
 project-id = 1139414
 
 [[x-prismlauncher-dependencies]]

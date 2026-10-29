@@ -35,7 +35,7 @@ ItemEvents.entityInteracted(event => {
 
     // Prevent capturing if cage already holds an entity
     if (item.nbt && item.nbt.CapturedEntity) {
-        player.displayClientMessage(Component.red("This cage is already holding an entity!"), true);
+        player.displayClientMessage(Component.literal("§cThis cage is already holding an entity!§r"), true);
         event.cancel();
         return;
     }
@@ -74,10 +74,10 @@ ItemEvents.entityInteracted(event => {
             name: entityName
         }
     };
-    filledCage.setHoverName(Component.gold("Cage (").append(Component.yellow(entityName)).append(Component.gold(")")));
+    filledCage.setHoverName(Component.literal("§6Cage (§r").append(Component.literal('§e').append(Component.literal(String(entityName))).append(Component.literal('§r'))).append(Component.literal("§6)§r")));
     filledCage.setLore([
-        Component.gray("Contains: ").append(Component.yellow(entityName)),
-        Component.darkGray("Right-click a block to release.")
+        Component.literal("§7Contains: §r").append(Component.literal('§e').append(Component.literal(String(entityName))).append(Component.literal('§r'))),
+        Component.literal("§8Right-click a block to release.§r")
     ]);
 
     // Handle stack size consumption
@@ -93,7 +93,7 @@ ItemEvents.entityInteracted(event => {
     player.playNotifySound('minecraft:entity.item.pickup', 'players', 0.8, 1.2);
     player.level.spawnParticles('minecraft:poof', target.x, target.y + 0.5, target.z, 15, 0.2, 0.3, 0.2, 0.05);
 
-    player.displayClientMessage(Component.green("Captured " + entityName + " in the cage!"), true);
+    player.displayClientMessage(Component.literal('§a').append(Component.literal(String("Captured " + entityName + " in the cage!"))).append(Component.literal('§r')), true);
 
     // Remove entity from the world
     target.discard();
@@ -138,7 +138,7 @@ BlockEvents.rightClicked(event => {
         player.playNotifySound('minecraft:entity.villager.ambient', 'players', 1.0, 1.0);
         event.level.spawnParticles('minecraft:poof', spawnPos.x + 0.5, spawnPos.y + 0.5, spawnPos.z + 0.5, 12, 0.2, 0.3, 0.2, 0.05);
 
-        player.displayClientMessage(Component.green("Released " + data.name + "!"), true);
+        player.displayClientMessage(Component.literal('§a').append(Component.literal(String("Released " + data.name + "!"))).append(Component.literal('§r')), true);
         event.cancel();
     }
 });

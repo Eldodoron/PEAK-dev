@@ -18,7 +18,7 @@ StartupEvents.registry('item', event => {
     // A core of pure frozen energy from the beast's heart
     // Used in: Mekanism Pressurized Reaction Chamber, cryogenic recipes
     event.create('frozen_heart_core')
-        .displayName('§b❄ Frozen Heart Core')
+        .displayName('§bFrozen Heart Core')
         .tooltip('§7Drops from: §fFrostmaw §8(Mowzie\'s Mobs)')
         .rarity('rare')
         .maxStackSize(16)
@@ -28,7 +28,7 @@ StartupEvents.registry('item', event => {
     // A fragment of primordial power from before time
     // Used in: Draconic Evolution Wyvern upgrades
     event.create('primordial_core')
-        .displayName('§5⚡ Primordial Core')
+        .displayName('§5Primordial Core')
         .tooltip('§7Drops from: §fAncient Remnant §8(Cataclysm)')
         .rarity('epic')
         .maxStackSize(8)
@@ -38,7 +38,7 @@ StartupEvents.registry('item', event => {
     // A crystal that resonates with the void between dimensions
     // Used in: AE2 ME Controllers, dimensional tech
     event.create('void_resonator')
-        .displayName('§d🌌 Void Resonator')
+        .displayName('§dVoid Resonator')
         .tooltip('§7Drops from: §fEnder Guardian, Void Worm, Ender Dragon')
         .rarity('epic')
         .maxStackSize(8)
@@ -55,7 +55,7 @@ StartupEvents.registry('item', event => {
     // --- CATACLYSM: IGNIS ---
     // Used in: Re-Avaritia Infinity Catalyst
     event.create('heart_of_the_inferno')
-        .displayName('§c🔥 Heart of the Inferno')
+        .displayName('§cHeart of the Inferno')
         .tooltip('§7Drops from: §fIgnis §8(Cataclysm)')
         .rarity('epic')
         .maxStackSize(4)
@@ -65,7 +65,7 @@ StartupEvents.registry('item', event => {
     // A catalyst forged in the deepest ocean trenches
     // Used in: Ender IO Soul Machines, advanced fluid tech
     event.create('abyssal_catalyst')
-        .displayName('§3🌊 Abyssal Catalyst')
+        .displayName('§3Abyssal Catalyst')
         .tooltip('§7Drops from: §fThe Leviathan §8(Cataclysm)')
         .rarity('epic')
         .maxStackSize(8)
@@ -75,7 +75,7 @@ StartupEvents.registry('item', event => {
     // A core of concentrated Nether energy
     // Used in: Mekanism reactors, nuclear tech
     event.create('netheric_core')
-        .displayName('§4⬛ Netheric Core')
+        .displayName('§4Netheric Core')
         .tooltip('§7Drops from: §fNetherite Monstrosity §8(Cataclysm)')
         .rarity('epic')
         .maxStackSize(8)
@@ -87,7 +87,7 @@ StartupEvents.registry('item', event => {
     // than regular dragon blood
     // Used in: Draconic Evolution Draconic tier
     event.create('primordial_dragon_blood')
-        .displayName('§4🩸 Primordial Dragon Blood')
+        .displayName('§4Primordial Dragon Blood')
         .tooltip('§7Drops from: §fStage 5 Dragons §8(Ice and Fire)')
         .rarity('epic')
         .maxStackSize(4)
@@ -98,7 +98,7 @@ StartupEvents.registry('item', event => {
     // centuries of accumulated dark knowledge
     // Used in: Iron's Spellbooks legendary crafting
     event.create('lich_phylactery')
-        .displayName('§e💀 Lich Phylactery')
+        .displayName('§eLich Phylactery')
         .tooltip('§7Drops from: §fTwilight Lich §8(Twilight Forest)')
         .rarity('rare')
         .maxStackSize(8)
@@ -108,7 +108,7 @@ StartupEvents.registry('item', event => {
     // Dropped by the absolute hardest bosses in tiny amounts
     // Collect enough to forge the Infinity Catalyst
     event.create('infinity_fragment')
-        .displayName('§6♾ Infinity Fragment')
+        .displayName('§6Infinity Fragment')
         .tooltip('§7Drops from: §fVarious Major Bosses')
         .rarity('epic')
         .maxStackSize(64)
@@ -119,7 +119,7 @@ StartupEvents.registry('item', event => {
     // The distilled essence of entropy itself
     // Created by processing Chaos Shards in Create
     event.create('chaos_essence')
-        .displayName('§c✦ Chaos Essence')
+        .displayName('§cChaos Essence')
         .tooltip('§7Process Chaos Shards in Create Crushing Wheels')
         .rarity('epic')
         .maxStackSize(16)
@@ -134,7 +134,7 @@ StartupEvents.registry('item', event => {
     // --- WITHER SOUL ---
     // Dropped by the Wither
     event.create('wither_soul')
-        .displayName('§8💀 Wither Soul')
+        .displayName('§8Wither Soul')
         .tooltip('§7Drops from: §fThe Wither')
         .rarity('epic')
         .maxStackSize(8)
@@ -144,7 +144,7 @@ StartupEvents.registry('item', event => {
     // --- DRACONIC SCALE (DEPRECATED) ---
     // Replaced by dragonloot:dragon_scale
     event.create('draconic_scale')
-        .displayName('§5🐉 Draconic Scale')
+        .displayName('§5Draconic Scale')
         .tooltip('§eCraft into Dragon Scale')
         .rarity('epic')
         .maxStackSize(16)

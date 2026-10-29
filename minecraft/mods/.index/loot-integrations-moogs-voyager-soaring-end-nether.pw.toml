@@ -1,4 +1,4 @@
-filename = 'lootintegrations_moog-2.1.jar'
+filename = 'lootintegrations_moog-2.2.jar'
 name = 'lootintegrations_moog mod'
 side = ''
 x-prismlauncher-loaders = [ 'neoforge', 'forge', 'fabric' ]
@@ -17,19 +17,20 @@ x-prismlauncher-mc-versions = [
     '26.1',
     '26.1.1',
     '26.1.2',
-    '26.2'
+    '26.2',
+    '26.3'
 ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'lootintegrations_moog-2.1.jar'
+x-prismlauncher-version-number = 'lootintegrations_moog-2.2.jar'
 
 [download]
-hash = '9eff22d61cfa3612b488b796046d3a0c4aa18cb3'
+hash = 'aee596339f4593de71dc0b42482dd670fd4d8b64'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 8328790
+file-id = 8920358
 project-id = 1152715
 
 [[x-prismlauncher-dependencies]]

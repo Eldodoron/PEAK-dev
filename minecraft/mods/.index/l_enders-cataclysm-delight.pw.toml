@@ -1,25 +1,25 @@
-filename = 'lendersdelight-1.21.1-1.0.10.jar'
-name = "L_Ender 's Cataclysm Delight"
-side = 'both'
+filename = 'lendersdelight-1.21.1-1.0.10b.jar'
+name = "L_Ender 's Delight"
+side = ''
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '1.21.1-1.0.10'
+x-prismlauncher-version-number = '1.21.1-1.0.10b'
 
 [download]
-hash = 'b1e68b4f3e0e5459c802f60238287a86de8f8737170730b7969f94878f2daea7ce9ae0e2b88125b75de63e1c4d9988bf6f3e83a8545f5374a09df29912bd4b8a'
+hash = '066945d8d2d80d33788bee50b0c4c3b86b5d43e3e56155fe0f5bb86c79bc46b5f1e854737515343030d5ac535b5ee5c48e28cef6fdb2f299a00eb5c2ba8af37a'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/a48R8AGk/versions/Mk8hYics/lendersdelight-1.21.1-1.0.10.jar'
+url = 'https://cdn.modrinth.com/data/a48R8AGk/versions/cl5zVy2S/lendersdelight-1.21.1-1.0.10b.jar'
 
 [update.modrinth]
 mod-id = 'a48R8AGk'
-version = 'Mk8hYics'
-
-[[x-prismlauncher-dependencies]]
-addonId = '46KJle7n'
-type = 'REQUIRED'
+version = 'cl5zVy2S'
 
 [[x-prismlauncher-dependencies]]
 addonId = 'R2OftAxM'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '46KJle7n'
 type = 'REQUIRED'

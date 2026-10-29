@@ -1,4 +1,4 @@
-filename = 'lootintegration_townsandtowers-1.4.jar'
+filename = 'lootintegration_townsandtowers-1.5.jar'
 name = 'lootintegration_townsandtowers mod'
 side = ''
 x-prismlauncher-loaders = [ 'neoforge', 'forge', 'fabric' ]
@@ -17,19 +17,20 @@ x-prismlauncher-mc-versions = [
     '26.1',
     '26.1.1',
     '26.1.2',
-    '26.2'
+    '26.2',
+    '26.3'
 ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'lootintegration_townsandtowers-1.4.jar'
+x-prismlauncher-version-number = 'lootintegration_townsandtowers-1.5.jar'
 
 [download]
-hash = '703cbb57a8ce1008f080e886cec195e274a82c75'
+hash = '88f4c458834e76b815730cee7d723685a827fa2f'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 8336685
+file-id = 8920586
 project-id = 1152732
 
 [[x-prismlauncher-dependencies]]

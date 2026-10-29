@@ -244,9 +244,9 @@ def sync_file_if_different(src, dst, dry_run=False):
             shutil.copy2(src, dst)
         return "updated"
 
-    # If sizes match and mtime differs by more than 2 seconds, do shallow check
+    # If sizes match and mtime differs by more than 2 seconds, do deep content check
     if abs(s_stat.st_mtime - d_stat.st_mtime) > 2.0:
-        if not filecmp.cmp(src, dst, shallow=True):
+        if not filecmp.cmp(src, dst, shallow=False):
             if not dry_run:
                 shutil.copy2(src, dst)
             return "updated"
@@ -354,14 +354,11 @@ def sync_instance_cfg(dry_run=False):
         dev_lines = f.readlines()
 
     existing_uuid = None
-    existing_icon = None
     if os.path.exists(lite_cfg):
         with open(lite_cfg, "r", encoding="utf-8") as f:
             for line in f:
                 if line.startswith("uuid="):
                     existing_uuid = line.strip().split("=", 1)[1]
-                elif line.startswith("iconKey="):
-                    existing_icon = line.strip().split("=", 1)[1]
 
     out_lines = []
     for line in dev_lines:
@@ -371,8 +368,6 @@ def sync_instance_cfg(dry_run=False):
             out_lines.append("ExportName=PEAK-Lite\n")
         elif line.startswith("uuid=") and existing_uuid:
             out_lines.append(f"uuid={existing_uuid}\n")
-        elif line.startswith("iconKey=") and existing_icon:
-            out_lines.append(f"iconKey={existing_icon}\n")
         elif line.startswith("lastLaunchTime="):
             out_lines.append("lastLaunchTime=0\n")
         elif line.startswith("lastTimePlayed="):

@@ -25,7 +25,7 @@ PlayerEvents.inventoryChanged('irons_spellbooks:scroll', event => {
     let dataStr = (item.components ? item.components.toString() : '') + (item.nbt ? item.nbt.toString() : '');
     if (dataStr.includes('traveloptics:cursed_revenants') || dataStr.includes('traveloptics:call_forth_the_dead_king')) {
         item.count = 0;
-        event.player.tell(Text.red("[PEAK] A bugged spell scroll was removed from your inventory to protect the server."));
+        event.player.tell(Component.literal("§c[PEAK] A bugged spell scroll was removed from your inventory to protect the server.§r"));
     }
 });
 
@@ -37,7 +37,7 @@ ItemEvents.rightClicked('irons_spellbooks:scroll', event => {
         event.cancel();
         item.count = 0;
         if (event.player) {
-            event.player.tell(Text.red("[PEAK] This spell scroll was destroyed because it causes server instability."));
+            event.player.tell(Component.literal("§c[PEAK] This spell scroll was destroyed because it causes server instability.§r"));
         }
     }
 });

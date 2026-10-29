@@ -17,3 +17,37 @@
 	#Format: 'modid:original_effect|modid:opposite_effect' Example: minecraft:weakness|minecraft:strength
 	#You can include modded effects here but first effect should be harmful and second effect should be beneficial or it won't work.
 	oppositeEffectMappings = ["minecraft:weakness|minecraft:strength", "minecraft:slowness|minecraft:speed", "minecraft:unluck|minecraft:luck", "minecraft:blindness|minecraft:night_vision", "minecraft:mining_fatigue|minecraft:haste", "morerelics:vulnerability|minecraft:resistance"]
+
+["Mass Gauntlet"]
+	#Cooldown of mass gauntlets damage boost. Seconds.
+	# Default: 0.2
+	# Range: 0.0 ~ 1.7976931348623157E308
+	massGauntletCooldown = 0.2
+	#Maximum damage mass gauntlet can deal.
+	# Default: 1.7976931348623157E308
+	# Range: 0.0 ~ 1.7976931348623157E308
+	massGauntletDamageCap = 1.7976931348623157E308
+	#Makes it so only default attacks will be boosted by mass gauntlet.
+	massGauntletOnlyMelee = false
+
+[Moodworm]
+	#Cooldown of Moodworm mood changes. Seconds.
+	# Default: 600
+	# Range: > 0
+	moodwormMoodChangeDuration = 600
+
+["Bionic Eye"]
+	#Level of applied Vulnerability by bionic eye. 0 means the first level.
+	# Default: 0
+	# Range: > 0
+	bionicVulLevel = 0
+	#Level of applied Vulnerability by bionic eye under cyberpsychosis. 0 means the first level.
+	# Default: 1
+	# Range: > 0
+	bionicIncreasedVulLevel = 1
+
+["Eject Button"]
+	#Percentage of health under which eject button will activate.
+	# Default: 20.0
+	# Range: 0.0 ~ 100.0
+	ejectButtonHealthPerch = 20.0

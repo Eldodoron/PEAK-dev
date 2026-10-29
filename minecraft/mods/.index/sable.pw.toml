@@ -1,24 +1,20 @@
-filename = 'sable-neoforge-1.21.1-1.2.2.jar'
+filename = 'sable-neoforge-1.21.1-2.0.6.jar'
 name = 'Sable'
 side = 'server'
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'Sable NeoForge 1.2.2 for mc1.21.1'
+x-prismlauncher-version-number = 'Sable NeoForge 2.0.6 for mc1.21.1'
 
 [download]
-hash = 'c5ecd3fcf60a31d84112c708abe29e341b2d1b73'
+hash = 'cf46f7e8c1511f170abcdbee739944f0540549bf'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 8007005
+file-id = 9043865
 project-id = 1312371
-
-[[x-prismlauncher-dependencies]]
-addonId = '1524200'
-type = 'OPTIONAL'
 
 [[x-prismlauncher-dependencies]]
 addonId = '328085'
@@ -27,3 +23,7 @@ type = 'OPTIONAL'
 [[x-prismlauncher-dependencies]]
 addonId = '1517006'
 type = 'EMBEDDED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1524200'
+type = 'OPTIONAL'

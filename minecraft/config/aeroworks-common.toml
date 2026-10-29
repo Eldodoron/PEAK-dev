@@ -33,13 +33,6 @@
 	# Range: 0.0 ~ 20.0
 	yawDamping = 1.0
 
-#Settings for the Joystick block.
-[joystick]
-	#Raw mouse pixels per tilt step. Lower = more sensitive. Full deflection (15 steps = 45 deg) is reached after 15x this many pixels of mouse movement.
-	# Default: 30.0
-	# Range: 1.0 ~ 500.0
-	pixelsPerStep = 30.0
-
 #Settings for the Mechanical Servo block.
 [mechanical_servo]
 	#Stress impact in SU per RPM. Applied whenever the input shaft has nonzero speed, including while the servo is held at its target.

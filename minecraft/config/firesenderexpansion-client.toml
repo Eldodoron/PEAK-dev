@@ -17,5 +17,5 @@
 [VFX]
 
 	[VFX.Shaders]
-		#Should Hollow Crystal have a flash when it releases? May be harmful to photosensitive viewers. Default is false.
+		#Should Hollow Crystal have a flash when it releases? May be harmful to photosensitive viewers. [THIS IS CURRENTLY NONFUNCTIONAL DUE TO CLIENT ACCESS ISSUES] Default is false.
 		hollow_crystal_flash = false

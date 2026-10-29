@@ -241,7 +241,7 @@ EntityEvents.death(event => {
             
             itemEntity.spawn();
             
-            closestPlayer.tell(Text.lightPurple('✦ You extracted a durable Ender Eye from defeating this powerful foe for the first time! ✦'));
+            closestPlayer.tell(Component.literal('§d✦ You extracted a durable Ender Eye from defeating this powerful foe for the first time! ✦§r'));
         }
     }
 });

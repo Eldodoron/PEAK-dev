@@ -1,0 +1,9 @@
+{
+  "feature": "immersiveengineering:bauxite",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 0
+    }
+  ]
+}

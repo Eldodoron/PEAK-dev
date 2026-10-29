@@ -1,0 +1,3 @@
+	[VFX.Shaders]
+		#Toggle for ASU Impact Frames (will also apply to any dependencies). Default is true.
+		impact_frame_toggle = true

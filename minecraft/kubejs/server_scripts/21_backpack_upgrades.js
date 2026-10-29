@@ -377,12 +377,14 @@ ServerEvents.recipes(event => {
 
     sa.sequenced_assembly('sophisticatedbackpacks:inception_upgrade', 'backpack_allthemodium_upgrade:stack_upgrade_tier_7', [
         sa.deploying('kubejs:incomplete_inception_upgrade', ['kubejs:incomplete_inception_upgrade', 'kubejs:anomaly_replicator']),
+        sa.deploying('kubejs:incomplete_inception_upgrade', ['kubejs:incomplete_inception_upgrade', 'allthemodium:unobtainium_allthemodium_alloy_ingot']),
         sa.deploying('kubejs:incomplete_inception_upgrade', ['kubejs:incomplete_inception_upgrade', 'kubejs:infinity_fragment']),
         sa.pressing('kubejs:incomplete_inception_upgrade', 'kubejs:incomplete_inception_upgrade')
     ]).transitionalItem('kubejs:incomplete_inception_upgrade').loops(8).id('kubejs:sequenced_assembly/inception_upgrade');
 
     sa.sequenced_assembly('sophisticatedbackpacks:everlasting_upgrade', 'backpack_allthemodium_upgrade:stack_upgrade_tier_7', [
         sa.deploying('kubejs:incomplete_everlasting_upgrade', ['kubejs:incomplete_everlasting_upgrade', 'dragonloot:dragon_scale']),
+        sa.deploying('kubejs:incomplete_everlasting_upgrade', ['kubejs:incomplete_everlasting_upgrade', 'allthemodium:vibranium_allthemodium_alloy_ingot']),
         sa.deploying('kubejs:incomplete_everlasting_upgrade', ['kubejs:incomplete_everlasting_upgrade', 'kubejs:wither_soul']),
         sa.pressing('kubejs:incomplete_everlasting_upgrade', 'kubejs:incomplete_everlasting_upgrade')
     ]).transitionalItem('kubejs:incomplete_everlasting_upgrade').loops(8).id('kubejs:sequenced_assembly/everlasting_upgrade');

@@ -17,7 +17,7 @@ ender_dragon_rework = true
 elder_guardians_are_bosses = true
 # Default: 8
 # Range: > 0
-elder_guardians_boss_armor = 8
+elder_guardians_boss_armor = 20
 # Default: 150
 # Range: > 1
 elder_guardians_boss_health = 150
@@ -25,7 +25,7 @@ wither_death_animation = true
 wither_rework = true
 # Default: 12
 # Range: > 0
-wither_boss_armor = 12
+wither_boss_armor = 40
 # Default: 120
 # Range: > 0
 wither_boss_follow_range = 120

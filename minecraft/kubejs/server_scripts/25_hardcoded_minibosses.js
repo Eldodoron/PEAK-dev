@@ -12,7 +12,7 @@ const MINIBOSSES = {
         tag: 'is_alpha_cyclops',
         chance: 0.025,
         name: 'Alpha Cyclops',
-        color: Text.gold,
+        color: '\u00A76',
         scale: 1.3,
         healthMult: 1.0,
         damageMult: 0.5,
@@ -22,7 +22,7 @@ const MINIBOSSES = {
         tag: 'is_elder_troll',
         chance: 0.025,
         name: 'Elder Cave Troll',
-        color: Text.darkGreen,
+        color: '\u00A72',
         scale: 1.4,
         healthMult: 1.5,
         damageMult: 0.5,
@@ -32,7 +32,7 @@ const MINIBOSSES = {
         tag: 'is_matriarch_gorgon',
         chance: 0.025,
         name: 'Matriarch Gorgon',
-        color: Text.darkGreen,
+        color: '\u00A72',
         scale: 1.3,
         healthMult: 2.0,
         damageMult: 0.5,
@@ -42,7 +42,7 @@ const MINIBOSSES = {
         tag: 'is_venomous_cockatrice',
         chance: 0.025,
         name: 'Venomous Cockatrice',
-        color: Text.darkPurple,
+        color: '\u00A75',
         scale: 1.3,
         healthMult: 1.5,
         damageMult: 0.5,
@@ -52,7 +52,7 @@ const MINIBOSSES = {
         tag: 'is_warhippogryph',
         chance: 0.02,
         name: 'War Hippogryph',
-        color: Text.aqua,
+        color: '\u00A7b',
         scale: 1.3,
         healthMult: 1.5,
         damageMult: 0.5,
@@ -62,7 +62,7 @@ const MINIBOSSES = {
         tag: 'is_flock_matriarch',
         chance: 0.015,
         name: 'Flock Matriarch',
-        color: Text.darkRed,
+        color: '\u00A74',
         scale: 1.4,
         healthMult: 2.0,
         damageMult: 0.5,
@@ -74,7 +74,7 @@ const MINIBOSSES = {
         tag: 'is_mother_frostmaw',
         chance: 0.025,
         name: 'Mother Frostmaw',
-        color: Text.darkRed,
+        color: '\u00A74',
         scale: 1.5,
         healthMult: 1.5,
         damageMult: 0.5,
@@ -84,7 +84,7 @@ const MINIBOSSES = {
         tag: 'is_naga_patriarch',
         chance: 0.025,
         name: 'Naga Patriarch',
-        color: Text.gold,
+        color: '\u00A76',
         scale: 1.4,
         healthMult: 1.5,
         damageMult: 0.5,
@@ -94,7 +94,7 @@ const MINIBOSSES = {
         tag: 'is_ancient_wroughtnaut',
         chance: 0.025,
         name: 'Ancient Wroughtnaut',
-        color: Text.darkGray,
+        color: '\u00A78',
         scale: 1.3,
         healthMult: 2.0,
         damageMult: 0.3,
@@ -106,7 +106,7 @@ const MINIBOSSES = {
         tag: 'is_champion_berserker',
         chance: 0.025,
         name: 'Champion Berserker',
-        color: Text.red,
+        color: '\u00A7c',
         scale: 1.2,
         healthMult: 1.0,
         damageMult: 0.5,
@@ -116,7 +116,7 @@ const MINIBOSSES = {
         tag: 'is_koboleton_warchief',
         chance: 0.025,
         name: 'Koboleton Warchief',
-        color: Text.darkAqua,
+        color: '\u00A73',
         scale: 1.3,
         healthMult: 2.0,
         damageMult: 0.5,
@@ -126,7 +126,7 @@ const MINIBOSSES = {
         tag: 'is_abyssal_champion',
         chance: 0.025,
         name: 'Abyssal Champion',
-        color: Text.darkBlue,
+        color: '\u00A71',
         scale: 1.3,
         healthMult: 1.5,
         damageMult: 0.5,
@@ -136,7 +136,7 @@ const MINIBOSSES = {
         tag: 'is_void_horror',
         chance: 0.025,
         name: 'Void Horror',
-        color: Text.darkPurple,
+        color: '\u00A75',
         scale: 1.4,
         healthMult: 2.0,
         damageMult: 0.5,
@@ -148,7 +148,7 @@ const MINIBOSSES = {
         tag: 'is_wither_vanguard',
         chance: 0.015,
         name: 'Wither Vanguard',
-        color: Text.black,
+        color: '\u00A70',
         scale: 1.3,
         healthMult: 2.0,
         damageMult: 0.5,
@@ -158,7 +158,7 @@ const MINIBOSSES = {
         tag: 'is_supreme_evoker',
         chance: 0.025,
         name: 'Supreme Evoker',
-        color: Text.darkPurple,
+        color: '\u00A75',
         scale: 1.2,
         healthMult: 2.0,
         damageMult: 0.0,
@@ -168,7 +168,7 @@ const MINIBOSSES = {
         tag: 'is_raid_champion',
         chance: 0.02,
         name: 'Raid Champion',
-        color: Text.darkRed,
+        color: '\u00A74',
         scale: 1.2,
         healthMult: 2.0,
         damageMult: 0.5,
@@ -178,7 +178,7 @@ const MINIBOSSES = {
         tag: 'is_piglin_warlord',
         chance: 0.025,
         name: 'Piglin Warlord',
-        color: Text.gold,
+        color: '\u00A76',
         scale: 1.3,
         healthMult: 2.0,
         damageMult: 0.5,
@@ -188,7 +188,7 @@ const MINIBOSSES = {
         tag: 'is_siege_beast',
         chance: 0.025,
         name: 'Siege Beast',
-        color: Text.darkGray,
+        color: '\u00A78',
         scale: 1.3,
         healthMult: 1.5,
         damageMult: 0.5,
@@ -198,7 +198,7 @@ const MINIBOSSES = {
         tag: 'is_void_walker',
         chance: 0.01,
         name: 'Void Walker',
-        color: Text.darkPurple,
+        color: '\u00A75',
         scale: 1.4,
         healthMult: 3.0,
         damageMult: 1.0,
@@ -208,7 +208,7 @@ const MINIBOSSES = {
         tag: 'is_ancient_warden',
         chance: 0.05,
         name: 'Ancient Warden',
-        color: Text.darkAqua,
+        color: '\u00A73',
         scale: 1.3,
         healthMult: 1.0,
         damageMult: 0.3,
@@ -220,7 +220,7 @@ const MINIBOSSES = {
         tag: 'is_labyrinth_champion',
         chance: 0.025,
         name: 'Labyrinth Champion',
-        color: Text.gold,
+        color: '\u00A76',
         scale: 1.3,
         healthMult: 1.5,
         damageMult: 0.5,
@@ -230,7 +230,7 @@ const MINIBOSSES = {
         tag: 'is_siege_golem',
         chance: 0.025,
         name: 'Siege Golem',
-        color: Text.darkRed,
+        color: '\u00A74',
         scale: 1.3,
         healthMult: 2.0,
         damageMult: 0.5,
@@ -240,7 +240,7 @@ const MINIBOSSES = {
         tag: 'is_archdruid',
         chance: 0.025,
         name: 'Archdruid',
-        color: Text.green,
+        color: '\u00A7a',
         scale: 1.2,
         healthMult: 2.0,
         damageMult: 0.5,
@@ -252,7 +252,7 @@ const MINIBOSSES = {
         tag: 'is_abyssal_stalker',
         chance: 0.025,
         name: 'Abyssal Stalker',
-        color: Text.darkAqua,
+        color: '\u00A73',
         scale: 1.3,
         healthMult: 2.0,
         damageMult: 0.5,
@@ -262,7 +262,7 @@ const MINIBOSSES = {
         tag: 'is_elder_shattered',
         chance: 0.025,
         name: 'Elder Shattered',
-        color: Text.darkBlue,
+        color: '\u00A71',
         scale: 1.3,
         healthMult: 2.0,
         damageMult: 0.5,
@@ -291,7 +291,7 @@ EntityEvents.spawned(event => {
     entity.tags.add(config.tag);
 
     // Custom Name
-    entity.customName = config.color(config.name).bold();
+    entity.customName = Component.literal(`${config.color}\u00A7l${config.name}\u00A7r`);
     entity.customNameVisible = true;
 
     // Modify Attributes
@@ -355,7 +355,7 @@ EntityEvents.spawned('minecraft:zombie', event => {
             boots: 'iceandfire:armor_red_boots',
             sword: 'iceandfire:dragonbone_sword_fire',
             name: 'Deceased Fire Dragonslayer',
-            color: Text.red
+            color: '\u00A7c'
         },
         ice: {
             helmet: 'iceandfire:armor_blue_helmet',
@@ -364,7 +364,7 @@ EntityEvents.spawned('minecraft:zombie', event => {
             boots: 'iceandfire:armor_blue_boots',
             sword: 'iceandfire:dragonbone_sword_ice',
             name: 'Deceased Ice Dragonslayer',
-            color: Text.aqua
+            color: '\u00A7b'
         },
         lightning: {
             helmet: 'iceandfire:armor_amethyst_helmet',
@@ -373,14 +373,14 @@ EntityEvents.spawned('minecraft:zombie', event => {
             boots: 'iceandfire:armor_amethyst_boots',
             sword: 'iceandfire:dragonbone_sword_lightning',
             name: 'Deceased Lightning Dragonslayer',
-            color: Text.yellow
+            color: '\u00A7e'
         }
     };
 
     let set = sets[element];
 
     // Custom Name
-    entity.customName = set.color(set.name).bold();
+    entity.customName = Component.literal(`${set.color}\u00A7l${set.name}\u00A7r`);
     entity.customNameVisible = false;
 
     // Equip full matching dragonscale armor + dragonbone sword

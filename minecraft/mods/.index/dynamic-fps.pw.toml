@@ -1,4 +1,4 @@
-filename = 'dynamic-fps-3.7.7+minecraft-1.21.0-neoforge.jar'
+filename = 'dynamic-fps-3.11.4+minecraft-1.21.0-neoforge.jar'
 name = 'Dynamic FPS'
 side = ''
 x-prismlauncher-loaders = [ 'neoforge' ]
@@ -7,7 +7,7 @@ x-prismlauncher-release-type = 'release'
 x-prismlauncher-version-number = 'v3.7.7'
 
 [download]
-hash = 'd005752e4a196c2e27f1ed0283de15b04ec67744'
+hash = '35b17e95b2b65930116ccc83e0cc358ac1bfcf9e'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''

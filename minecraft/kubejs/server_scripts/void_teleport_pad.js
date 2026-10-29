@@ -177,12 +177,12 @@ ServerEvents.commandRegistry(event => {
         if (coords) {
             server.runCommandSilent(`execute in minecraft:overworld run playsound minecraft:block.beacon.activate block @a ${coords.x} ${coords.y} ${coords.z} 1.0 1.0`);
             server.runCommandSilent(`execute in minecraft:overworld run particle minecraft:reverse_portal ${coords.x + 0.5} ${coords.y + 0.5} ${coords.z + 0.5} 0.5 0.5 0.5 0.05 60`);
-            let msg = Text.green(`Overworld Void Teleport Pad dais successfully regenerated at (${coords.x}, ${coords.y}, ${coords.z}).`);
+            let msg = Component.literal(`§aOverworld Void Teleport Pad dais successfully regenerated at (${coords.x}, ${coords.y}, ${coords.z}).§r`);
             if (source.player) source.player.tell(msg);
             else source.sendSuccess(msg, true);
             return 1;
         }
-        let err = Text.red('Failed to regenerate Overworld pad: Overworld level not found.');
+        let err = Component.literal('§cFailed to regenerate Overworld pad: Overworld level not found.§r');
         if (source.player) source.player.tell(err);
         else source.sendFailure(err);
         return 0;
@@ -195,12 +195,12 @@ ServerEvents.commandRegistry(event => {
         if (success) {
             server.runCommandSilent('execute in allthemodium:the_beyond run playsound minecraft:block.beacon.activate block @a 0 64 0 1.0 1.0');
             server.runCommandSilent('execute in allthemodium:the_beyond run particle minecraft:reverse_portal 0.5 64.5 0.5 0.5 0.5 0.5 0.05 60');
-            let msg = Text.green('The Beyond anchor dais successfully regenerated at (0, 64, 0).');
+            let msg = Component.literal('§aThe Beyond anchor dais successfully regenerated at (0, 64, 0).§r');
             if (source.player) source.player.tell(msg);
             else source.sendSuccess(msg, true);
             return 1;
         }
-        let err = Text.red('Failed to regenerate The Beyond pad: dimension unavailable.');
+        let err = Component.literal('§cFailed to regenerate The Beyond pad: dimension unavailable.§r');
         if (source.player) source.player.tell(err);
         else source.sendFailure(err);
         return 0;
@@ -221,11 +221,11 @@ ServerEvents.commandRegistry(event => {
         let cleared = server.persistentData.getBoolean('sanctuary_spawn_cleared');
         let initialized = server.persistentData.getBoolean('sanctuary_world_spawn_initialized');
 
-        let msg = Text.gold('--- Void Teleport Pad Status ---\n')
-            .append(Text.white(`Overworld Dais: (${sx}, ${sy}, ${sz}) - Status: `))
-            .append(!initialized ? Text.yellow('Uninitialized') : (cleared ? Text.red('Cleared / Inactive') : Text.green('Active')))
-            .append(Text.white('\nThe Beyond Anchor: (0, 64, 0) - Status: '))
-            .append(Text.green('Active'));
+        let msg = Component.literal('§6--- Void Teleport Pad Status ---\n§r')
+            .append(Component.literal(`§fOverworld Dais: (${sx}, ${sy}, ${sz}) - Status: §r`))
+            .append(!initialized ? Component.literal('§eUninitialized§r') : (cleared ? Component.literal('§cCleared / Inactive§r') : Component.literal('§aActive§r')))
+            .append(Component.literal('§f\nThe Beyond Anchor: (0, 64, 0) - Status: §r'))
+            .append(Component.literal('§aActive§r'));
 
         if (source.player) source.player.tell(msg);
         else source.sendSuccess(msg, false);
@@ -324,12 +324,12 @@ BlockEvents.broken('kubejs:void_teleport_pad', event => {
             server.runCommandSilent(`execute in allthemodium:the_beyond run particle minecraft:reverse_portal 0.5 64.5 0.5 0.4 0.4 0.4 0.05 40`);
         });
         if (player) {
-            player.displayClientMessage(Component.yellow("The Void anchor has been disturbed and will reform."), true);
+            player.displayClientMessage(Component.literal("§eThe Void anchor has been disturbed and will reform.§r"), true);
         }
     } else if (dim.includes('overworld') && isCommunalPad(block)) {
         server.persistentData.putBoolean('sanctuary_spawn_cleared', true);
         if (player) {
-            player.displayClientMessage(Component.gray("World Spawn gateway removed."), true);
+            player.displayClientMessage(Component.literal("§7World Spawn gateway removed.§r"), true);
         }
     }
 });
@@ -346,7 +346,7 @@ BlockEvents.rightClicked('kubejs:void_teleport_pad', event => {
 
     // Player must sneak to activate the pad (prevents accidental warps)
     if (!player.isCrouching()) {
-        player.displayClientMessage(Component.gray("Sneak + Right-Click to use the Void Teleport Pad."), true);
+        player.displayClientMessage(Component.literal("§7Sneak + Right-Click to use the Void Teleport Pad.§r"), true);
         return;
     }
 
@@ -399,7 +399,7 @@ BlockEvents.rightClicked('kubejs:void_teleport_pad', event => {
             server.runCommandSilent(`execute at ${player.uuid} run particle minecraft:portal ~ ~1 ~ 0.5 0.5 0.5 0.2 50`);
         });
 
-        player.displayClientMessage(Component.aqua("Returned to previous location."), true);
+        player.displayClientMessage(Component.literal("§bReturned to previous location.§r"), true);
 
     } else {
         // --- ENTERING VOID SANCTUARY FROM OVERWORLD / OTHER ---
@@ -434,7 +434,7 @@ BlockEvents.rightClicked('kubejs:void_teleport_pad', event => {
             server.runCommandSilent(`execute in allthemodium:the_beyond run particle minecraft:reverse_portal 0.5 65.5 0.5 0.4 0.8 0.4 0.05 80`);
         });
 
-        player.displayClientMessage(Component.lightPurple("Teleported to The Beyond."), true);
+        player.displayClientMessage(Component.literal("§dTeleported to The Beyond.§r"), true);
     }
 
     // Cancel interaction at the end so holding items/blocks does not place or consume them
